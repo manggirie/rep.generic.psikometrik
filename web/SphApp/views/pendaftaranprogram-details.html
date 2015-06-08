@@ -1,0 +1,101 @@
+
+
+<h1 data-i18n="PendaftaranProgram">PendaftaranProgram</h1>
+<div id="error-list" class="row" data-bind="visible:errors().length">
+    <!-- ko foreach : errors -->
+    <div class="col-sm-8 col-sm-offset-2 alert alert-dismissable alert-danger">
+        <button type="button" class="close" data-dismiss="alert" aria-hidden="true">&times;</button>
+        <i class="fa fa-exclamation"></i>
+        <span data-bind="text:Message"></span>
+
+    </div>
+    <div class="col-sm-2"></div>
+    <!-- /ko-->
+</div>
+<div class="row">
+    <div class="col-sm-8">
+        
+<form class="form-horizontal" data-bind="with : entity" id="pendaftaranprogram-details-form">
+
+
+
+    <div data-bind="visible:true" class="form-group">
+        <label data-i18n="Nombor Pendaftaran" for="c1503ab6-26ff-4c1f-9bb5-fdbce24b156d" class="col-md-4">Nombor Pendaftaran</label>
+        <div class="col-md-8">
+            <input  class=" form-control input-large" title=""
+                   data-bind="value: PendaftaranNo, enable :true "
+                   
+                   
+                   
+                   id="c1503ab6-26ff-4c1f-9bb5-fdbce24b156d" type="text" name="PendaftaranNo" />
+        </div>
+    </div>
+
+    <div class="form-group" data-bind="visible : true">
+        <label data-i18n="Tarikh Daftar" for="30c31f91-d36e-4f5a-dd81-83ad933fe5f6" class="col-md-4">Tarikh Daftar</label>
+        <div class="col-md-8">
+            <input class=" form-control input-large"
+                   data-bind="kendoDate: TarikhDaftar, enable :true" id="30c31f91-d36e-4f5a-dd81-83ad933fe5f6" type="text"
+                   name="TarikhDaftar" />
+        </div>
+    </div>
+
+
+
+    <div data-bind="visible:true" class="form-group">
+        <label data-i18n="My Kad" for="68869965-e6c7-484a-97ca-e21f2f7ec5b1" class="col-md-4">My Kad</label>
+    
+        
+
+        <div class="col-md-8">
+            <a class="btn btn-link" 
+               data-bind="tooltip :'',lookup : {entity: 'Pengguna', member : 'MyKad', value : MyKad, columns : ['MyKad','Nama']}"
+               id="68869965-e6c7-484a-97ca-e21f2f7ec5b1">
+                         <!-- ko lookupText: { entity : 'Pengguna', value : MyKad, valuePath :'MyKad', displayPath : 'MyKad'} -->
+                            <!-- /ko -->
+                <i class="fa fa-search"></i>
+            </a>
+        </div>
+    </div>
+
+
+
+    <div data-bind="visible:true" class="form-group">
+        <label data-i18n="Nama Program" for="c2992849-4659-46ec-982c-1967a4446b09" class="col-md-4">Nama Program</label>
+    
+        
+
+        <div class="col-md-8">
+            <a class="btn btn-link" 
+               data-bind="tooltip :'',lookup : {entity: 'permohonan', member : 'nama_permohonan', value : NamaProgram, columns : ['nama_permohonan','bil_program','siri_program','tahun_program']}"
+               id="c2992849-4659-46ec-982c-1967a4446b09">
+                         <!-- ko lookupText: { entity : 'permohonan', value : NamaProgram, valuePath :'nama_permohonan', displayPath : 'NamaProgram'} -->
+                            <!-- /ko -->
+                <i class="fa fa-search"></i>
+            </a>
+        </div>
+    </div>
+
+
+
+    <div data-bind="visible:true" class="form-group">
+        <label data-i18n="Nama Responden" for="38f9b429-4041-456d-825c-843c5886d346" class="col-md-4">Nama Responden</label>
+    
+        
+
+        <div class="col-md-8">
+            <a class="btn btn-link" 
+               data-bind="tooltip :'',lookup : {entity: 'Pengguna', member : 'Nama', value : NamaResponden, columns : []}"
+               id="38f9b429-4041-456d-825c-843c5886d346">
+                         <!-- ko lookupText: { entity : 'Pengguna', value : NamaResponden, valuePath :'Nama', displayPath : 'NamaResponden'} -->
+                            <!-- /ko -->
+                <i class="fa fa-search"></i>
+            </a>
+        </div>
+    </div>
+</form>
+    </div>
+    <div class="col-sm-4">
+        
+    </div>
+</div>

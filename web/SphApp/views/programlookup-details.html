@@ -1,0 +1,52 @@
+
+
+<h1 data-i18n="Maklumat Program Lookup">Maklumat Program Lookup</h1>
+<div id="error-list" class="row" data-bind="visible:errors().length">
+    <!-- ko foreach : errors -->
+    <div class="col-sm-8 col-sm-offset-2 alert alert-dismissable alert-danger">
+        <button type="button" class="close" data-dismiss="alert" aria-hidden="true">&times;</button>
+        <i class="fa fa-exclamation"></i>
+        <span data-bind="text:Message"></span>
+
+    </div>
+    <div class="col-sm-2"></div>
+    <!-- /ko-->
+</div>
+<div class="row">
+    <div class="col-sm-8">
+        
+<form class="form-horizontal" data-bind="with : entity" id="programlookup-details-form">
+
+
+
+    <div data-bind="visible:true" class="form-group">
+        <label data-i18n="Program No" for="046dc92f-7c35-434c-d07b-8b8e156e60d3" class="col-md-4">Program No</label>
+        <div class="col-md-8">
+            <input  class=" form-control input-large" title=""
+                   data-bind="value: ProgramNo, enable :true "
+                   
+                   
+                   
+                   id="046dc92f-7c35-434c-d07b-8b8e156e60d3" type="text" name="ProgramNo" />
+        </div>
+    </div>
+
+
+
+    <div data-bind="visible:true" class="form-group">
+        <label data-i18n="Nama Program" for="f0a50350-c6f4-4619-a6ec-eb4d2a937ca6" class="col-md-4">Nama Program</label>
+        <div class="col-md-8">
+            <input  class=" form-control input-large" title=""
+                   data-bind="value: NamaProgram, enable :true "
+                   
+                   
+                   
+                   id="f0a50350-c6f4-4619-a6ec-eb4d2a937ca6" type="text" name="NamaProgram" />
+        </div>
+    </div>
+</form>
+    </div>
+    <div class="col-sm-4">
+        
+    </div>
+</div>

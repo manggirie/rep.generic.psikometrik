@@ -1,0 +1,94 @@
+
+
+<h1 data-i18n="Jabatan details">Jabatan details</h1>
+<div id="error-list" class="row" data-bind="visible:errors().length">
+    <!-- ko foreach : errors -->
+    <div class="col-sm-8 col-sm-offset-2 alert alert-dismissable alert-danger">
+        <button type="button" class="close" data-dismiss="alert" aria-hidden="true">&times;</button>
+        <i class="fa fa-exclamation"></i>
+        <span data-bind="text:Message"></span>
+
+    </div>
+    <div class="col-sm-2"></div>
+    <!-- /ko-->
+</div>
+<div class="row">
+    <div class="col-sm-8">
+        
+<form class="form-horizontal" data-bind="with : entity" id="jabatan-details-form">
+
+
+
+    <div data-bind="visible:true" class="form-group">
+        <label data-i18n="Nama Jabatan" for="baf2e58d-f34e-48e2-9241-ed462d372fb0" class="col-md-4">Nama Jabatan</label>
+        <div class="col-md-8">
+            <input  class=" form-control input-large" title=""
+                   data-bind="value: NamaJabatan, enable :true "
+                   
+                   
+                   
+                   id="baf2e58d-f34e-48e2-9241-ed462d372fb0" type="text" name="NamaJabatan" />
+        </div>
+    </div>
+
+
+
+    <div data-bind="visible:true" class="form-group">
+        <label data-i18n="No Jabatan" for="493729ad-3a36-4a50-ed51-e2c12301193b" class="col-md-4">No Jabatan</label>
+        <div class="col-md-8">
+            <input  class=" form-control input-large" title=""
+                   data-bind="value: JabatanNo, enable :true "
+                   
+                   
+                   
+                   id="493729ad-3a36-4a50-ed51-e2c12301193b" type="text" name="JabatanNo" />
+        </div>
+    </div>
+
+
+
+    <div data-bind="visible:true" class="form-group">
+        <label data-i18n="No Agensi" for="df8c11da-9869-4134-e106-87a519344aa9" class="col-md-4">No Agensi</label>
+        <div class="col-md-8">
+            <input  class=" form-control input-large" title=""
+                   data-bind="value: AgensiNo, enable :true "
+                   
+                   
+                   
+                   id="df8c11da-9869-4134-e106-87a519344aa9" type="text" name="AgensiNo" />
+        </div>
+    </div>
+
+
+
+    <div data-bind="visible:true" class="form-group">
+        <label data-i18n="Kementerian" for="f1299ad0-1977-47e1-ba9b-eb8f8247e93b" class="col-md-4">Kementerian</label>
+        <div class="col-md-8">
+            <input  class=" form-control input-large" title=""
+                   data-bind="value: Kementerian, visible :true, autocomplete :{ entity:'Kementerian', field :'NamaKementerian', query:'Id ne \'0\'' }"
+                   
+                   
+                   
+                   id="f1299ad0-1977-47e1-ba9b-eb8f8247e93b" type="text" name="Kementerian" />
+        </div>
+    </div>
+
+
+    <div class="form-group" data-bind="visible:true">
+        <label data-i18n="Kumpulan Agensi " for="16c4bde3-8dec-4649-b8f0-828084c2e340" class="col-md-4">Kumpulan Agensi </label>
+        <div class="col-md-8">
+            <select  data-bind="value: AgensiKumpulan, enable :true" id="16c4bde3-8dec-4649-b8f0-828084c2e340" name="AgensiKumpulan" class=" input-large form-control">
+                    <option value="BBN" data-i18n="Badan Berkanun Negeri">Badan Berkanun Negeri</option>
+                    <option value="BBP" data-i18n="Badan Berkanun Persekutuan">Badan Berkanun Persekutuan</option>
+                    <option value="PAN" data-i18n="Perkhidmatan Awam Negeri">Perkhidmatan Awam Negeri</option>
+                    <option value="PAP" data-i18n="Perkhidmatan Awam Persekutuan">Perkhidmatan Awam Persekutuan</option>
+                    <option value="PBT" data-i18n="Pihak Berkuasa Tempatan">Pihak Berkuasa Tempatan</option>
+            </select>
+        </div>
+    </div>
+</form>
+    </div>
+    <div class="col-sm-4">
+        
+    </div>
+</div>

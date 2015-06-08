@@ -1,0 +1,245 @@
+
+
+<h1 data-i18n="Kelulusan Permohonan oleh Urusetia">Kelulusan Permohonan oleh Urusetia</h1>
+<div id="error-list" class="row" data-bind="visible:errors().length">
+    <!-- ko foreach : errors -->
+    <div class="col-sm-8 col-sm-offset-2 alert alert-dismissable alert-danger">
+        <button type="button" class="close" data-dismiss="alert" aria-hidden="true">&times;</button>
+        <i class="fa fa-exclamation"></i>
+        <span data-bind="text:Message"></span>
+
+    </div>
+    <div class="col-sm-2"></div>
+    <!-- /ko-->
+</div>
+<div class="row">
+    <div class="col-sm-8">
+        
+<form class="form-horizontal" data-bind="with : entity" id="permohonan_urusetia-form">
+
+
+
+    <div data-bind="visible:true" class="form-group">
+        <label data-i18n="Jenis Permohonan" for="5b8f2bee-138a-4520-bad2-46306372fcf3" class="col-md-4">Jenis Permohonan</label>
+        <div class="col-md-8">
+            <input  class=" form-control " title=""
+                   data-bind="value: JenisPermohonan, enable :true "
+                   
+                   
+                   
+                   id="5b8f2bee-138a-4520-bad2-46306372fcf3" type="text" name="JenisPermohonan" />
+        </div>
+    </div>
+
+    <div class="form-group" data-bind="visible : true">
+        <label data-i18n="Tarikh Mula" for="89f95ba4-c056-40aa-b147-35cdce241f84" class="col-md-4">Tarikh Mula</label>
+        <div class="col-md-8">
+            <input class=" form-control "
+                   data-bind="kendoDate: TarikhMula, enable :true" id="89f95ba4-c056-40aa-b147-35cdce241f84" type="text"
+                   name="TarikhMula" />
+        </div>
+    </div>
+
+    <div class="form-group" data-bind="visible : true">
+        <label data-i18n="Tarikh Tamat" for="c359cf32-ec0e-43bc-ec81-747cf4f17d5b" class="col-md-4">Tarikh Tamat</label>
+        <div class="col-md-8">
+            <input class=" form-control "
+                   data-bind="kendoDate: TarikhTamat, enable :true" id="c359cf32-ec0e-43bc-ec81-747cf4f17d5b" type="text"
+                   name="TarikhTamat" />
+        </div>
+    </div>
+
+    <div class="form-group" data-bind="visible:true">
+        <div class="col-md-offset-4 col-md-8">
+            <div class="checkbox">
+                <label class="checkbox">
+                    <input data-bind="checked : isIP, enable :true" id="isIP" type="checkbox"
+                           name="isIP"/>
+                    <span data-i18n="is I P">is I P</span>
+                    
+                </label>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="form-group" data-bind="visible:true">
+        <div class="col-md-offset-4 col-md-8">
+            <div class="checkbox">
+                <label class="checkbox">
+                    <input data-bind="checked : isIBK, enable :true" id="isIBK" type="checkbox"
+                           name="isIBK"/>
+                    <span data-i18n="is I B K">is I B K</span>
+                    
+                </label>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="form-group" data-bind="visible:true">
+        <div class="col-md-offset-4 col-md-8">
+            <div class="checkbox">
+                <label class="checkbox">
+                    <input data-bind="checked : isIPU, enable :true" id="isIPU" type="checkbox"
+                           name="isIPU"/>
+                    <span data-i18n="is I P U">is I P U</span>
+                    
+                </label>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="form-group" data-bind="visible:true">
+        <div class="col-md-offset-4 col-md-8">
+            <div class="checkbox">
+                <label class="checkbox">
+                    <input data-bind="checked : isISO, enable :true" id="isISO" type="checkbox"
+                           name="isISO"/>
+                    <span data-i18n="is I S O">is I S O</span>
+                    
+                </label>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="form-group" data-bind="visible:true">
+        <div class="col-md-offset-4 col-md-8">
+            <div class="checkbox">
+                <label class="checkbox">
+                    <input data-bind="checked : isUKHLP, enable :true" id="isUKHLP" type="checkbox"
+                           name="isUKHLP"/>
+                    <span data-i18n="is U K H L P">is U K H L P</span>
+                    
+                </label>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="form-group" data-bind="visible:true">
+        <div class="col-md-offset-4 col-md-8">
+            <div class="checkbox">
+                <label class="checkbox">
+                    <input data-bind="checked : isUKBP, enable :true" id="isUKBP" type="checkbox"
+                           name="isUKBP"/>
+                    <span data-i18n="is U K B P">is U K B P</span>
+                    
+                </label>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="form-group" data-bind="visible:true">
+        <div class="col-md-offset-4 col-md-8">
+            <div class="checkbox">
+                <label class="checkbox">
+                    <input data-bind="checked : isPPKP, enable :true" id="isPPKP" type="checkbox"
+                           name="isPPKP"/>
+                    <span data-i18n="is P P K P">is P P K P</span>
+                    
+                </label>
+            </div>
+        </div>
+    </div>
+
+
+
+
+    <div data-bind="visible:true" class="form-group">
+        <label data-i18n="Bil Responden" for="01ecd570-9ebf-4767-8d9c-f0c98f2c279e" class="col-md-4">Bil Responden</label>
+        <div class="col-md-8">
+            <input  class=" form-control input-large" title=""
+                   data-bind="value: BilRespondan, enable :true "
+                   
+                   
+                   
+                   id="01ecd570-9ebf-4767-8d9c-f0c98f2c279e" type="text" name="BilRespondan" />
+        </div>
+    </div>
+
+
+
+    <div data-bind="visible:true" class="form-group">
+        <label data-i18n="Tujuan Program" for="78c51edb-b268-440c-a875-b8e42e32c39c" class="col-md-4">Tujuan Program</label>
+        <div class="col-md-8">
+            <input  class=" form-control " title=""
+                   data-bind="value: TujuanProgram, enable :true "
+                   
+                   
+                   
+                   id="78c51edb-b268-440c-a875-b8e42e32c39c" type="text" name="TujuanProgram" />
+        </div>
+    </div>
+
+
+    <div class="form-group" data-bind="visible:true">
+        <label data-i18n="Status Permohonan" for="2396e9fd-f8f0-4ff6-9e8c-afa40116e750" class="col-md-4">Status Permohonan</label>
+        <div class="col-md-8">
+            <select  data-bind="value: StatusPermohonan, enable :true" id="2396e9fd-f8f0-4ff6-9e8c-afa40116e750" name="StatusPermohonan" class=" input-large form-control">
+                    <option value="BARU" data-i18n="BARU">BARU</option>
+                    <option value="LULUS" data-i18n="LULUS">LULUS</option>
+                    <option value="GAGAL" data-i18n="GAGAL">GAGAL</option>
+            </select>
+        </div>
+    </div>
+
+
+    <div class="form-group" data-bind="visible:true">
+        <label data-i18n="Nama Program" for="ac05d2ee-56d3-4af7-9e13-afc52ac48066" class="col-md-4">Nama Program</label>
+        <div class="col-md-8">
+            <select  data-bind=" visible :true, comboBoxLookupOptions : { value: NamaProgram, entity : 'ProgramLookup', valuePath : 'NamaProgram', displayPath: 'NamaProgram', query :'Id ne \'0\''}" id="ac05d2ee-56d3-4af7-9e13-afc52ac48066" name="NamaProgram" class="  form-control">
+            </select>
+        </div>
+    </div>
+
+
+
+    <div data-bind="visible:true" class="form-group">
+        <label data-i18n="Bilangan" for="a81677e6-0ff6-4a48-abd7-063e8f9ff7b0" class="col-md-4">Bilangan</label>
+        <div class="col-md-8">
+            <input  class=" form-control input-large" title=""
+                   data-bind="value: BilProgram, enable :true "
+                   
+                   
+                   
+                   id="a81677e6-0ff6-4a48-abd7-063e8f9ff7b0" type="text" name="BilProgram" />
+        </div>
+    </div>
+
+
+
+    <div data-bind="visible:true" class="form-group">
+        <label data-i18n="Siri" for="72d3ca79-c0a9-4a04-8721-4a52f7b4605a" class="col-md-4">Siri</label>
+        <div class="col-md-8">
+            <input  class=" form-control input-large" title=""
+                   data-bind="value: SiriProgram, enable :true "
+                   
+                   
+                   
+                   id="72d3ca79-c0a9-4a04-8721-4a52f7b4605a" type="text" name="SiriProgram" />
+        </div>
+    </div>
+
+
+    <div class="form-group" data-bind="visible:true">
+        <label data-i18n="Tahun" for="22ba3055-42ad-4361-af1d-119b53fd4a51" class="col-md-4">Tahun</label>
+        <div class="col-md-8">
+            <select  data-bind="value: TahunProgram, enable :true" id="22ba3055-42ad-4361-af1d-119b53fd4a51" name="TahunProgram" class=" input-large form-control">
+                    <option value="2016" data-i18n="2016">2016</option>
+                    <option value="2015" data-i18n="2015">2015</option>
+            </select>
+        </div>
+    </div>
+</form>
+    </div>
+    <div class="col-sm-4">
+            <h3 data-i18n="Audit Trail">Audit Trail</h3>
+        <!--ko compose: {model:'viewmodels/_audittrail.list', activationData:{id:$root.entity().Id(), entity : 'Permohonan'}} -->
+        <!--/ko-->
+
+    </div>
+</div>

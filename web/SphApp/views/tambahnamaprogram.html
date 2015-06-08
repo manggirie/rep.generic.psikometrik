@@ -1,0 +1,38 @@
+
+
+<h1 data-i18n="TambahNamaProgram">TambahNamaProgram</h1>
+<div id="error-list" class="row" data-bind="visible:errors().length">
+    <!-- ko foreach : errors -->
+    <div class="col-sm-8 col-sm-offset-2 alert alert-dismissable alert-danger">
+        <button type="button" class="close" data-dismiss="alert" aria-hidden="true">&times;</button>
+        <i class="fa fa-exclamation"></i>
+        <span data-bind="text:Message"></span>
+
+    </div>
+    <div class="col-sm-2"></div>
+    <!-- /ko-->
+</div>
+<div class="row">
+    <div class="col-sm-8">
+        
+<form class="form-horizontal" data-bind="with : entity" id="tambahnamaprogram-form">
+
+
+
+    <div data-bind="visible:true" class="form-group">
+        <label data-i18n="Senarai Program" for="40493fad-b304-4ada-a6c2-230b1f58d075" class="col-md-4">Senarai Program</label>
+        <div class="col-md-8">
+            <input  class=" form-control input-large" title=""
+                   data-bind="value: SenaraiProgram, enable :true "
+                   
+                   
+                   
+                   id="40493fad-b304-4ada-a6c2-230b1f58d075" type="text" name="SenaraiProgram" />
+        </div>
+    </div>
+</form>
+    </div>
+    <div class="col-sm-4">
+        
+    </div>
+</div>

@@ -1,0 +1,160 @@
+
+
+<h1 data-i18n="Maklumat Soalan">Maklumat Soalan</h1>
+<div id="error-list" class="row" data-bind="visible:errors().length">
+    <!-- ko foreach : errors -->
+    <div class="col-sm-8 col-sm-offset-2 alert alert-dismissable alert-danger">
+        <button type="button" class="close" data-dismiss="alert" aria-hidden="true">&times;</button>
+        <i class="fa fa-exclamation"></i>
+        <span data-bind="text:Message"></span>
+
+    </div>
+    <div class="col-sm-2"></div>
+    <!-- /ko-->
+</div>
+<div class="row">
+    <div class="col-sm-8">
+        
+<form class="form-horizontal" data-bind="with : entity" id="soalan-detail-form">
+
+
+
+    <div data-bind="visible:true" class="form-group">
+        <label data-i18n="No Rujukan" for="896a8f3c-1d07-4c42-8251-50b4b90c9feb" class="col-md-4">No Rujukan</label>
+        <div class="col-md-8">
+            <input  class=" form-control input-large" title=""
+                   data-bind="value: NoRujukan, enable :true "
+                   
+                   
+                   
+                   id="896a8f3c-1d07-4c42-8251-50b4b90c9feb" type="text" name="NoRujukan" />
+        </div>
+    </div>
+
+
+
+    <div data-bind="visible:true" class="form-group">
+        <label data-i18n="Soalan No" for="339e716f-a0a2-4dc3-88f8-862e673c65b0" class="col-md-4">Soalan No</label>
+        <div class="col-md-8">
+            <input  class=" form-control input-large" title=""
+                   data-bind="value: SoalanNo, enable :true "
+                   
+                   
+                   
+                   id="339e716f-a0a2-4dc3-88f8-862e673c65b0" type="text" name="SoalanNo" />
+        </div>
+    </div>
+
+
+    <div class="form-group" data-bind="visible:true">
+        <label data-i18n="Nama Ujian" for="b7f0b9d2-cd0b-44ba-e716-0a2d2ce284e1" class="col-md-4">Nama Ujian</label>
+        <div class="col-md-8">
+            <select  data-bind=" visible :true, comboBoxLookupOptions : { value: NamaUjian, entity : 'Ujian', valuePath : 'NamaUjian', displayPath: 'NamaUjian', query :'Id ne \'0\''}" id="b7f0b9d2-cd0b-44ba-e716-0a2d2ce284e1" name="NamaUjian" class="  form-control">
+            </select>
+        </div>
+    </div>
+
+
+
+    <div data-bind="visible:true" class="form-group">
+        <label data-i18n="Seksyen Soalan" for="a5d6b1a7-0527-4310-9700-b4a25818d7c4" class="col-md-4">Seksyen Soalan</label>
+        <div class="col-md-8">
+            <input  class=" form-control input-large" title=""
+                   data-bind="value: SeksyenSoalan, enable :true "
+                   
+                   
+                   
+                   id="a5d6b1a7-0527-4310-9700-b4a25818d7c4" type="text" name="SeksyenSoalan" />
+        </div>
+    </div>
+
+
+
+    <div data-bind="visible:true" class="form-group">
+        <label data-i18n=" Soalan" for="51ddf95a-e3f4-4f50-f44b-ae3d64d77feb" class="col-md-4"> Soalan</label>
+        <div class="col-md-8">
+            <input  class=" form-control input-large" title=""
+                   data-bind="value: TeksSoalan, enable :true "
+                   
+                   
+                   
+                   id="51ddf95a-e3f4-4f50-f44b-ae3d64d77feb" type="text" name="TeksSoalan" />
+        </div>
+    </div>
+
+
+
+    <div data-bind="visible:true" class="form-group">
+        <label data-i18n="Trait" for="34cd27ea-b6e0-43ea-948f-cb43aab1dd15" class="col-md-4">Trait</label>
+        <div class="col-md-8">
+            <input  class=" form-control input-large" title=""
+                   data-bind="value: Trait, enable :true "
+                   
+                   
+                   
+                   id="34cd27ea-b6e0-43ea-948f-cb43aab1dd15" type="text" name="Trait" />
+        </div>
+    </div>
+
+
+<div data-bind="visible:true">
+    <table class="table table-condensed table-striped">
+        <thead>
+            <tr>
+                    <th data-i18n="Teks">Teks</th>
+                    <th data-i18n="Nilai">Nilai</th>
+                <th></th>
+            </tr>
+        </thead>
+        <tbody data-bind="foreach :PilihanJawapanCollection">
+            <tr>
+                    <td>
+                        
+
+
+    <input  class=" form-control " title=""
+            data-bind="value: Teks, visible :true, enable :true ,uniqueName:true"
+            
+             
+            type="text" 
+            name="Teks" 
+            
+             />
+
+
+                    </td>
+                    <td>
+                        
+
+
+    <input  class=" form-control " title=""
+            data-bind="value: Nilai, visible :true, enable :true ,uniqueName:true"
+            
+             
+            type="text" 
+            name="Nilai" 
+            
+             />
+
+
+                    </td>
+                <td>
+                    <a title="remove" href="#" data-bind="click : $parent.removeChildItem.call($parent,$parent.PilihanJawapanCollection, $data)">
+                        <span class="glyphicon glyphicon-remove"></span>
+                    </a>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    <a data-i18n="Pilihan Jawapan " class="btn btn-link" data-bind="click : addChildItem(PilihanJawapanCollection, bespoke.epsikologi_soalan.domain.PilihanJawapan)">
+        <i class="fa fa-plus-circle"></i>
+        Pilihan Jawapan 
+    </a>
+
+</div>
+</form>
+    </div>
+    <div class="col-sm-4">
+        
+    </div>
+</div>

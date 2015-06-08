@@ -1,0 +1,80 @@
+
+
+<h1 data-i18n="Kementerian details">Kementerian details</h1>
+<div id="error-list" class="row" data-bind="visible:errors().length">
+    <!-- ko foreach : errors -->
+    <div class="col-sm-8 col-sm-offset-2 alert alert-dismissable alert-danger">
+        <button type="button" class="close" data-dismiss="alert" aria-hidden="true">&times;</button>
+        <i class="fa fa-exclamation"></i>
+        <span data-bind="text:Message"></span>
+
+    </div>
+    <div class="col-sm-2"></div>
+    <!-- /ko-->
+</div>
+<div class="row">
+    <div class="col-sm-8">
+        
+<form class="form-horizontal" data-bind="with : entity" id="kementerian-details-form">
+
+
+
+    <div data-bind="visible:true" class="form-group">
+        <label data-i18n="Kementerian No" for="0bce06b3-c4f5-424c-f63d-466a687a096b" class="col-md-4">Kementerian No</label>
+        <div class="col-md-8">
+            <input  class=" form-control input-large" title=""
+                   data-bind="value: KementerianNo, enable :true "
+                   
+                   
+                   
+                   id="0bce06b3-c4f5-424c-f63d-466a687a096b" type="text" name="KementerianNo" />
+        </div>
+    </div>
+
+
+
+    <div data-bind="visible:true" class="form-group">
+        <label data-i18n="Nama Kementerian" for="bf30274e-a051-4d4f-a24c-d7a44691c243" class="col-md-4">Nama Kementerian</label>
+        <div class="col-md-8">
+            <input  class=" form-control input-large" title=""
+                   data-bind="value: NamaKementerian, enable :true "
+                   
+                   
+                   
+                   id="bf30274e-a051-4d4f-a24c-d7a44691c243" type="text" name="NamaKementerian" />
+        </div>
+    </div>
+
+
+    <div class="form-group" data-bind="visible:true">
+        <label data-i18n="Kumpulan Agensi" for="11384248-96c8-438c-b213-ff7587886063" class="col-md-4">Kumpulan Agensi</label>
+        <div class="col-md-8">
+            <select  data-bind="value: KumpulanAgensi, enable :true" id="11384248-96c8-438c-b213-ff7587886063" name="KumpulanAgensi" class=" input-large form-control">
+                    <option value="BBN" data-i18n="Badan Berkanun Negeri">Badan Berkanun Negeri</option>
+                    <option value="BBP" data-i18n="Badan Berkanun Persekutuan">Badan Berkanun Persekutuan</option>
+                    <option value="PAN" data-i18n="Perkhidmatan Awam Negeri">Perkhidmatan Awam Negeri</option>
+                    <option value="PAP" data-i18n="Perkhidmatan Awam Persekutuan">Perkhidmatan Awam Persekutuan</option>
+                    <option value="PBT" data-i18n="Pihak Berkuasa Tempatan">Pihak Berkuasa Tempatan</option>
+            </select>
+        </div>
+    </div>
+
+
+
+    <div data-bind="visible:true" class="form-group">
+        <label data-i18n="Negeri" for="3b0bbed2-9c87-42b6-f640-551568d4f1f1" class="col-md-4">Negeri</label>
+        <div class="col-md-8">
+            <input  class=" form-control input-large" title=""
+                   data-bind="value: Negeri, visible :true, autocomplete :{ entity:'Kementerian', field :'Negeri', query:'Id ne \'0\'' }"
+                   
+                   
+                   
+                   id="3b0bbed2-9c87-42b6-f640-551568d4f1f1" type="text" name="Negeri" />
+        </div>
+    </div>
+</form>
+    </div>
+    <div class="col-sm-4">
+        
+    </div>
+</div>

@@ -1,0 +1,35 @@
+<h1>All ProgramLookups</h1>
+<div class="row">
+    <div class="col-md-8">
+        <button class="btn btn-link pull-right" data-bind="visible: chartFiltered, click: clearChartFilter">
+            <i class="fa fa-times"></i>
+            Clear chart's filter
+        </button>
+        <table class="table table-striped" data-bind="filter : {path:'tbody>tr'}, searchPaging :{ query: query, map : map, entity : 'ProgramLookup', list:list}">
+            <thead>
+                <tr>
+                    <th>Id</th>
+                    <th>NamaProgram</th>
+                </tr>
+            </thead>
+            <tbody data-bind="foreach :list">
+                <tr data-bind="">
+
+                    <td>
+                        <a data-bind="attr : {href:'#programlookup-details' + '/' + Id, title:'Id' }">
+                            <i class="fa fa-external-link"></i>
+                                                        <span data-bind="text:ProgramNo"></span>
+                        </a>
+                    </td>
+                    <td data-bind="text:NamaProgram"></td>
+
+
+                </tr>
+            </tbody>
+        </table>
+        <img src="/Images/spinner-md.gif" alt="loading" class="absolute-center" data-bind="visible: isBusy" />
+    </div>
+
+    <!-- ko compose : {view : '_chart.panel'}-->
+    <!-- /ko -->
+</div>
