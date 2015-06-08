@@ -1,0 +1,122 @@
+{
+  "$type": "Bespoke.Sph.Domain.EntityView, domain.sph",
+  "FilterCollection": {
+    "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.Sph.Domain.Filter, domain.sph]], domain.sph",
+    "$values": [
+      {
+        "$type": "Bespoke.Sph.Domain.Filter, domain.sph",
+        "Term": "AgensiNo",
+        "Operator": "Eq",
+        "Field": {
+          "$type": "Bespoke.Sph.Domain.JavascriptExpressionField, domain.sph",
+          "Expression": "AgensiNo",
+          "Name": "AgensiNo",
+          "Note": "",
+          "WebId": "c5269758-f82d-46c3-8f7f-38020693f52b"
+        },
+        "WebId": "049b41bc-39ff-4632-a3c2-c098738a99e0"
+      }
+    ]
+  },
+  "ViewColumnCollection": {
+    "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.Sph.Domain.ViewColumn, domain.sph]], domain.sph",
+    "$values": [
+      {
+        "$type": "Bespoke.Sph.Domain.ViewColumn, domain.sph",
+        "ConditionalFormattingCollection": {
+          "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.Sph.Domain.ConditionalFormatting, domain.sph]], domain.sph",
+          "$values": []
+        },
+        "Path": "NamaJabatan",
+        "Header": "Nama",
+        "Sort": "",
+        "IsLinkColumn": true,
+        "FormRoute": "jabatan-details",
+        "IconCssClass": "fa fa-edit",
+        "IconStoreId": "",
+        "Format": "text:{0}",
+        "RouteValueField": "Id",
+        "WebId": "3d98fed0-8bd1-43d2-f916-f2e8eb15754c"
+      },
+      {
+        "$type": "Bespoke.Sph.Domain.ViewColumn, domain.sph",
+        "ConditionalFormattingCollection": {
+          "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.Sph.Domain.ConditionalFormatting, domain.sph]], domain.sph",
+          "$values": []
+        },
+        "Path": "JabatanNo",
+        "Header": "No",
+        "Sort": "",
+        "IsLinkColumn": false,
+        "FormRoute": null,
+        "IconCssClass": "",
+        "IconStoreId": "",
+        "Format": "text:{0}",
+        "RouteValueField": "",
+        "WebId": "e01bc8c9-18c7-4d16-d020-84aebd8b0039"
+      },
+      {
+        "$type": "Bespoke.Sph.Domain.ViewColumn, domain.sph",
+        "ConditionalFormattingCollection": {
+          "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.Sph.Domain.ConditionalFormatting, domain.sph]], domain.sph",
+          "$values": []
+        },
+        "Path": "AgensiKumpulan",
+        "Header": "Kumpulan",
+        "Sort": "",
+        "IsLinkColumn": false,
+        "FormRoute": null,
+        "IconCssClass": "",
+        "IconStoreId": "",
+        "Format": "text:{0}",
+        "RouteValueField": "",
+        "WebId": "5f37cbab-7f24-40d0-bc23-b96e7e128460"
+      }
+    ]
+  },
+  "SortCollection": {
+    "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.Sph.Domain.Sort, domain.sph]], domain.sph",
+    "$values": []
+  },
+  "ConditionalFormattingCollection": {
+    "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.Sph.Domain.ConditionalFormatting, domain.sph]], domain.sph",
+    "$values": []
+  },
+  "Performer": {
+    "$type": "Bespoke.Sph.Domain.Performer, domain.sph",
+    "UserProperty": "",
+    "Value": "",
+    "IsPublic": true,
+    "WebId": null
+  },
+  "RouteParameterCollection": {
+    "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.Sph.Domain.RouteParameter, domain.sph]], domain.sph",
+    "$values": [
+      {
+        "$type": "Bespoke.Sph.Domain.RouteParameter, domain.sph",
+        "Name": "AgensiNo",
+        "Type": "string",
+        "WebId": "2ca704fa-1ff9-47db-a1ca-02c46bb17cea"
+      }
+    ]
+  },
+  "IconClass": "",
+  "IconStoreId": "5103f30a-4b31-4e22-ba71-5715626b69f5",
+  "EntityDefinitionId": "jabatan",
+  "Name": "Senarai Jabatan Mengikut Kementerian",
+  "Route": "senarai-jabatan-mengikut-kementerian",
+  "Note": "",
+  "Query": "",
+  "IsPublished": true,
+  "Visibilty": "",
+  "TileColour": "bviolet",
+  "CountMessage": "",
+  "Entity": "",
+  "Partial": "",
+  "CreatedBy": "admin",
+  "Id": "senarai-jabatan-mengikut-kementerian",
+  "CreatedDate": "2015-06-05T10:37:17.7273431+08:00",
+  "ChangedBy": "admin",
+  "ChangedDate": "2015-06-05T10:39:59.4745923+08:00",
+  "WebId": "a2ea55a6-84a5-4076-c1a8-578ba2543e56"
+}

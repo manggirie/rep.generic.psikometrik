@@ -1,0 +1,44 @@
+[
+  {
+    "role": "everybody",
+    "groupName": null,
+    "route": "tambah-responden/:id",
+    "moduleId": "viewmodels/tambah-responden",
+    "title": "Tambah Responden 2",
+    "nav": false,
+    "icon": null,
+    "caption": "Tambah Responden 3",
+    "settings": null,
+    "showWhenLoggedIn": false,
+    "isAdminPage": false,
+    "startPageRoute": null
+  },
+  {
+    "role": "tew",
+    "groupName": null,
+    "route": "test-some",
+    "moduleId": "viewmodels/test-some",
+    "title": "test",
+    "nav": false,
+    "icon": null,
+    "caption": "test",
+    "settings": null,
+    "showWhenLoggedIn": false,
+    "isAdminPage": false,
+    "startPageRoute": null
+  },
+  {
+    "role": "everybody",
+    "groupName": null,
+    "route": "test-123",
+    "moduleId": "viewmodels/test-123",
+    "title": "Test 123",
+    "nav": true,
+    "icon": "fa fa-info-circle",
+    "caption": "Test 123",
+    "settings": null,
+    "showWhenLoggedIn": false,
+    "isAdminPage": false,
+    "startPageRoute": null
+  }
+]

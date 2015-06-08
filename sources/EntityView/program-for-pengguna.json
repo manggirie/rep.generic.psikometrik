@@ -1,0 +1,70 @@
+{
+  "$type": "Bespoke.Sph.Domain.EntityView, domain.sph",
+  "FilterCollection": {
+    "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.Sph.Domain.Filter, domain.sph]], domain.sph",
+    "$values": [
+      {
+        "$type": "Bespoke.Sph.Domain.Filter, domain.sph",
+        "Term": "MyKad",
+        "Operator": "Eq",
+        "Field": {
+          "$type": "Bespoke.Sph.Domain.JavascriptExpressionField, domain.sph",
+          "Expression": "(A)",
+          "Name": "MyKad",
+          "Note": "",
+          "WebId": "68448c33-e7ae-4614-8ce2-d14400862024"
+        },
+        "WebId": "0d2ca564-2def-4ea2-a6d6-6981484094cb"
+      }
+    ]
+  },
+  "ViewColumnCollection": {
+    "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.Sph.Domain.ViewColumn, domain.sph]], domain.sph",
+    "$values": []
+  },
+  "SortCollection": {
+    "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.Sph.Domain.Sort, domain.sph]], domain.sph",
+    "$values": []
+  },
+  "ConditionalFormattingCollection": {
+    "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.Sph.Domain.ConditionalFormatting, domain.sph]], domain.sph",
+    "$values": []
+  },
+  "Performer": {
+    "$type": "Bespoke.Sph.Domain.Performer, domain.sph",
+    "UserProperty": "",
+    "Value": "",
+    "IsPublic": false,
+    "WebId": null
+  },
+  "RouteParameterCollection": {
+    "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.Sph.Domain.RouteParameter, domain.sph]], domain.sph",
+    "$values": [
+      {
+        "$type": "Bespoke.Sph.Domain.RouteParameter, domain.sph",
+        "Name": "MyKad",
+        "Type": "string",
+        "WebId": "9143376f-cb43-406a-c0e7-560deb0efabb"
+      }
+    ]
+  },
+  "IconClass": "",
+  "IconStoreId": "sph-img-list",
+  "EntityDefinitionId": "pengguna",
+  "Name": "Program for Pengguna",
+  "Route": "program-for-pengguna",
+  "Note": "",
+  "Query": "",
+  "IsPublished": false,
+  "Visibilty": "",
+  "TileColour": "bblue",
+  "CountMessage": "",
+  "Entity": "",
+  "Partial": "",
+  "CreatedBy": "admin",
+  "Id": "program-for-pengguna",
+  "CreatedDate": "2015-06-01T18:46:54.2984141+08:00",
+  "ChangedBy": "admin",
+  "ChangedDate": "2015-06-01T18:46:54.2974142+08:00",
+  "WebId": "b3a62355-8d49-4404-b1e8-211cb07996e2"
+}

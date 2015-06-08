@@ -1,0 +1,87 @@
+{
+  "$type": "Bespoke.Sph.Domain.TransformDefinition, domain.sph",
+  "CodeNamespace": "epsikologi.Integrations.Transforms",
+  "MapCollection": {
+    "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.Sph.Domain.Map, domain.sph]], domain.sph",
+    "$values": [
+      {
+        "$type": "Bespoke.Sph.Domain.DirectMap, domain.sph",
+        "Source": "Kod_Kementerian",
+        "TypeName": "",
+        "Destination": "KementerianNo",
+        "SourceTypeName": "",
+        "DestinationTypeName": "",
+        "WebId": "c7dfb983-7d5d-419b-d15b-ee3ce1c4eeb9"
+      },
+      {
+        "$type": "Bespoke.Sph.Domain.DirectMap, domain.sph",
+        "Source": "Jabatan",
+        "TypeName": "",
+        "Destination": "NamaKementerian",
+        "SourceTypeName": "",
+        "DestinationTypeName": "",
+        "WebId": "b5efff51-618f-4726-8524-4d6595c7f572"
+      },
+      {
+        "$type": "Bespoke.Sph.Domain.DirectMap, domain.sph",
+        "Source": "Singkatan",
+        "TypeName": "",
+        "Destination": "Negeri",
+        "SourceTypeName": "",
+        "DestinationTypeName": "",
+        "WebId": "d739097d-c32b-493c-d1fa-0805311d7eb4"
+      },
+      {
+        "$type": "Bespoke.Sph.Domain.DirectMap, domain.sph",
+        "Source": "Alamat_Jabatan2",
+        "TypeName": "",
+        "Destination": "KumpulanAgensi",
+        "SourceTypeName": "",
+        "DestinationTypeName": "",
+        "WebId": "3661ed38-4dbf-49f3-8399-9f6dbc881cfb"
+      },
+      {
+        "$type": "Bespoke.Sph.Domain.DirectMap, domain.sph",
+        "Source": "No_Fax",
+        "TypeName": "",
+        "Destination": "CreatedBy",
+        "SourceTypeName": "",
+        "DestinationTypeName": "",
+        "WebId": "8596efb0-e314-4e0f-ee68-4e9fafe5134b"
+      },
+      {
+        "$type": "Bespoke.Sph.Domain.DirectMap, domain.sph",
+        "Source": "Kod_Jabatan",
+        "TypeName": "",
+        "Destination": "Id",
+        "SourceTypeName": "",
+        "DestinationTypeName": "",
+        "WebId": "c526aca0-9588-4b39-d964-0bf06d45469d"
+      }
+    ]
+  },
+  "FunctoidCollection": {
+    "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.Sph.Domain.Functoid, domain.sph]], domain.sph",
+    "$values": []
+  },
+  "InputCollection": {
+    "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.Sph.Domain.MethodArg, domain.sph]], domain.sph",
+    "$values": []
+  },
+  "ReferencedAssemblyCollection": {
+    "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.Sph.Domain.ReferencedAssembly, domain.sph]], domain.sph",
+    "$values": []
+  },
+  "TransformDefinitionId": 0,
+  "Name": "SupatJabatanToKementerian",
+  "Description": "",
+  "InputTypeName": "epsikologi.Adapters.dbo.MsSqlSupat.Tbl_KodJabatan, epsikologi.MsSqlSupat",
+  "OutputTypeName": "Bespoke.epsikologi_kementerian.Domain.Kementerian, epsikologi.Kementerian",
+  "IsPublished": true,
+  "CreatedBy": "admin",
+  "Id": "supatjabatantokementerian",
+  "CreatedDate": "2015-06-03T09:12:08.5529526+08:00",
+  "ChangedBy": "admin",
+  "ChangedDate": "2015-06-03T09:12:32.1819953+08:00",
+  "WebId": "73709385-9d7a-43f4-dfd9-ba71a3d9a8fc"
+}

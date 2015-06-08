@@ -1,0 +1,46 @@
+{
+    "pengguna":{
+        "properties":{
+            "CreatedBy": {"type": "string", "index":"not_analyzed"},
+            "ChangedBy": {"type": "string", "index":"not_analyzed"},
+            "WebId": {"type": "string", "index":"not_analyzed"},
+            "CreatedDate": {"type": "date"},
+            "ChangedDate": {"type": "date"},
+             "Nama":{"type":"string","index":"analyzed","boost":10,"include_in_all":true},
+             "MyKad":{"type":"string","index":"not_analyzed","boost":1,"include_in_all":true},
+             "IsUrusetia":{"type":"boolean","index":"not_analyzed","boost":1,"include_in_all":true},
+             "IsPenyelaras":{"type":"boolean","index":"not_analyzed","boost":1,"include_in_all":true},
+             "IsResponden":{"type":"boolean","index":"not_analyzed","boost":1,"include_in_all":true},
+             "Jantina":{"type":"string","index":"not_analyzed","boost":1,"include_in_all":true},
+             "StatusPerkahwinan":{"type":"string","index":"not_analyzed","boost":1,"include_in_all":true},
+             "Pekerjaan":{"type":"string","index":"not_analyzed","boost":1,"include_in_all":true},
+             "Jawatan":{"type":"string","index":"not_analyzed","boost":1,"include_in_all":true},
+             "JenisPerkhidmatan":{"type":"string","index":"not_analyzed","boost":1,"include_in_all":true},
+             "Skim":{"type":"string","index":"not_analyzed","boost":1,"include_in_all":true},
+             "Gred":{"type":"string","index":"not_analyzed","boost":1,"include_in_all":true},
+             "Agensi":{"type":"string","index":"not_analyzed","boost":1,"include_in_all":true},
+             "Warganegara":{"type":"string","index":"not_analyzed","boost":1,"include_in_all":true},
+             "KumpulanUmur":{"type":"string","index":"not_analyzed","boost":1,"include_in_all":true},
+             "Saraan":{"type":"string","index":"not_analyzed","boost":1,"include_in_all":true},
+    "Alamat":{
+        "type":  "object",
+        "properties":{
+             "Alamat1":{"type":"string","index":"not_analyzed","boost":1,"include_in_all":true},
+             "Alamat2":{"type":"string","index":"not_analyzed","boost":1,"include_in_all":true},
+             "Alamat3":{"type":"string","index":"not_analyzed","boost":1,"include_in_all":true},
+             "Poskod":{"type":"string","index":"not_analyzed","boost":1,"include_in_all":true},
+             "Bandar":{"type":"string","index":"not_analyzed","boost":1,"include_in_all":true},
+             "Negeri":{"type":"string","index":"not_analyzed","boost":1,"include_in_all":true}
+        }
+    }
+,
+             "Emel":{"type":"string","index":"not_analyzed","boost":1,"include_in_all":true},
+             "Telefon":{"type":"string","index":"not_analyzed","boost":1,"include_in_all":true},
+             "Fax":{"type":"string","index":"not_analyzed","boost":1,"include_in_all":true},
+             "TarikhDaftar":{"type":"date","index":"analyzed","boost":1,"include_in_all":true,"ignore_malformed":false},
+             "TarikhKemaskini":{"type":"date","index":"analyzed","boost":1,"include_in_all":true,"ignore_malformed":false},
+             "KumpulanJawatan":{"type":"string","index":"not_analyzed","boost":1,"include_in_all":true},
+             "NegeriBekerja":{"type":"string","index":"not_analyzed","boost":1,"include_in_all":true}
+        }
+    }
+}

@@ -1,0 +1,63 @@
+{
+    "tblprsideincome":{
+        "properties":{
+            "CreatedBy": {"type": "string", "index":"not_analyzed"},
+            "ChangedBy": {"type": "string", "index":"not_analyzed"},
+            "WebId": {"type": "string", "index":"not_analyzed"},
+            "CreatedDate": {"type": "date"},
+            "ChangedDate": {"type": "date"},
+             "sideincomeid":{"type":"integer","index":"analyzed","boost":1,"include_in_all":true,"ignore_malformed":false},
+             "sidesourcecd":{"type":"string","index":"not_analyzed","boost":1,"include_in_all":true},
+             "sidetail":{"type":"string","index":"not_analyzed","boost":1,"include_in_all":true},
+             "cobiodataid":{"type":"integer","index":"analyzed","boost":1,"include_in_all":true,"ignore_malformed":false},
+             "siamt":{"type":"float","index":"analyzed","boost":1,"include_in_all":true,"ignore_malformed":false},
+             "sitypecd":{"type":"string","index":"not_analyzed","boost":1,"include_in_all":true},
+             "recurringcd":{"type":"string","index":"not_analyzed","boost":1,"include_in_all":true},
+    "changes":{
+        "type":  "object",
+        "properties":{
+             "sideincomeid":{"type":"integer","index":"analyzed","boost":1,"include_in_all":true,"ignore_malformed":false},
+             "sidesourcecd":{"type":"string","index":"not_analyzed","boost":1,"include_in_all":true},
+             "sidetail":{"type":"string","index":"not_analyzed","boost":1,"include_in_all":true},
+             "cobiodataid":{"type":"integer","index":"analyzed","boost":1,"include_in_all":true,"ignore_malformed":false},
+             "siamt":{"type":"float","index":"analyzed","boost":1,"include_in_all":true,"ignore_malformed":false},
+             "sitypecd":{"type":"string","index":"not_analyzed","boost":1,"include_in_all":true},
+             "recurringcd":{"type":"string","index":"not_analyzed","boost":1,"include_in_all":true},
+             "trxid":{"type":"integer","index":"analyzed","boost":1,"include_in_all":true,"ignore_malformed":false},
+             "modifiedby":{"type":"integer","index":"analyzed","boost":1,"include_in_all":true,"ignore_malformed":false},
+             "modifieddt":{"type":"string","index":"not_analyzed","boost":1,"include_in_all":true},
+             "reason":{"type":"string","index":"not_analyzed","boost":1,"include_in_all":true},
+    "ChangesSupportingDocumentCollection":{
+        "type":  "object",
+        "properties":{
+             "storeid":{"type":"string","index":"not_analyzed","boost":1,"include_in_all":true},
+             "description":{"type":"string","index":"not_analyzed","boost":1,"include_in_all":true},
+             "title":{"type":"string","index":"not_analyzed","boost":1,"include_in_all":true}
+        }
+    }
+,
+             "trxtype":{"type":"string","index":"not_analyzed","boost":1,"include_in_all":true}
+        }
+    }
+,
+             "modifiedby":{"type":"integer","index":"analyzed","boost":1,"include_in_all":true,"ignore_malformed":false},
+             "modifieddt":{"type":"date","index":"analyzed","boost":1,"include_in_all":true,"ignore_malformed":false},
+    "SupportingDocumentCollection":{
+        "type":  "object",
+        "properties":{
+             "storeid":{"type":"string","index":"not_analyzed","boost":1,"include_in_all":true},
+             "description":{"type":"string","index":"not_analyzed","boost":1,"include_in_all":true},
+             "title":{"type":"string","index":"not_analyzed","boost":1,"include_in_all":true}
+        }
+    }
+,
+    "Testdata":{
+        "type":  "object",
+        "properties":{
+             "NameMe":{"type":"string","index":"not_analyzed","boost":1,"include_in_all":true}
+        }
+    }
+
+        }
+    }
+}

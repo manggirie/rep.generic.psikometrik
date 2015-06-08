@@ -1,2 +1,14 @@
 *.dll
 *.pdb
+subscribers/CachePath/
+rabbitmq_base/
+rabbitmq_server/
+ControlCenter.bat
+elasticsearch/
+web/bin/
+IIS Express/
+schedulers/
+tools/
+subscribers/
+subscribers.host/
+control.center/

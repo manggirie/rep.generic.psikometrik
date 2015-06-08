@@ -1,0 +1,25 @@
+{
+  "$type": "Bespoke.Sph.Domain.EntityChart, domain.sph",
+  "SeriesCollection": {
+    "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.Sph.Domain.Series, domain.sph]], domain.sph",
+    "$values": []
+  },
+  "EntityDefinitionId": "jabatan",
+  "Entity": "Jabatan",
+  "Name": "Jabatan mengikut Kementerian",
+  "Type": "pie",
+  "EntityViewId": "7e7926b0-3680-49d3-b168-b46008055be4",
+  "Query": "{\"query\":{\"filtered\":{\"filter\":{\"bool\":{\"must\":[],\"must_not\":[]}}}},\"sort\":[],\"aggs\":{\"category\":{\"terms\":{\"field\":\"Kementerian\",\"size\":0}}},\"from\":0,\"size\":20}",
+  "Aggregate": "term",
+  "Field": "Kementerian",
+  "DateInterval": "year",
+  "IsDashboardItem": true,
+  "DasboardItemPosition": 0,
+  "HistogramInterval": null,
+  "CreatedBy": "admin",
+  "Id": "7cf979bd-234f-4cd0-8db7-eb5e92b4cd4e",
+  "CreatedDate": "2015-06-05T10:40:47.0274886+08:00",
+  "ChangedBy": "admin",
+  "ChangedDate": "2015-06-05T10:40:47.0264885+08:00",
+  "WebId": "3cef6c94-4aba-47f4-e8df-50357555f5f2"
+}

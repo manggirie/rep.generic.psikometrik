@@ -1,0 +1,32 @@
+{
+    "permohonan":{
+        "properties":{
+            "CreatedBy": {"type": "string", "index":"not_analyzed"},
+            "ChangedBy": {"type": "string", "index":"not_analyzed"},
+            "WebId": {"type": "string", "index":"not_analyzed"},
+            "CreatedDate": {"type": "date"},
+            "ChangedDate": {"type": "date"},
+             "CatatanProgram":{"type":"string","index":"not_analyzed","boost":1,"include_in_all":true},
+             "BilRespondan":{"type":"integer","index":"analyzed","boost":1,"include_in_all":true,"ignore_malformed":false},
+             "BilProgram":{"type":"integer","index":"analyzed","boost":1,"include_in_all":true,"ignore_malformed":false},
+             "SiriProgram":{"type":"integer","index":"analyzed","boost":1,"include_in_all":true,"ignore_malformed":false},
+             "TahunProgram":{"type":"string","index":"not_analyzed","boost":1,"include_in_all":true},
+             "NamaProgram":{"type":"string","index":"not_analyzed","boost":1,"include_in_all":true},
+             "MaklumatUjian":{"type":"string","index":"not_analyzed","boost":1,"include_in_all":true},
+             "TarikhMula":{"type":"date","index":"analyzed","boost":1,"include_in_all":true,"ignore_malformed":false},
+             "TarikhTamat":{"type":"date","index":"analyzed","boost":1,"include_in_all":true,"ignore_malformed":false},
+             "TujuanProgram":{"type":"string","index":"not_analyzed","boost":1,"include_in_all":true},
+             "isIBK":{"type":"boolean","index":"not_analyzed","boost":1,"include_in_all":true},
+             "isISO":{"type":"boolean","index":"not_analyzed","boost":1,"include_in_all":true},
+             "isIP":{"type":"boolean","index":"not_analyzed","boost":1,"include_in_all":true},
+             "isIPU":{"type":"boolean","index":"not_analyzed","boost":1,"include_in_all":true},
+             "isUKHLP":{"type":"boolean","index":"not_analyzed","boost":1,"include_in_all":true},
+             "isUKBP":{"type":"boolean","index":"not_analyzed","boost":1,"include_in_all":true},
+             "isPPKP":{"type":"boolean","index":"not_analyzed","boost":1,"include_in_all":true},
+             "JenisPermohonan":{"type":"string","index":"not_analyzed","boost":1,"include_in_all":true},
+             "StatusPermohonan":{"type":"string","index":"not_analyzed","boost":1,"include_in_all":true},
+             "Responden":{"type":"string","index":"not_analyzed","boost":1,"include_in_all":true},
+             "PermohonanNo":{"type":"string","index":"not_analyzed","boost":1,"include_in_all":true}
+        }
+    }
+}

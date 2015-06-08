@@ -1,0 +1,25 @@
+{
+  "$type": "Bespoke.Sph.Domain.EntityChart, domain.sph",
+  "SeriesCollection": {
+    "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.Sph.Domain.Series, domain.sph]], domain.sph",
+    "$values": []
+  },
+  "EntityDefinitionId": "soalan",
+  "Entity": "Soalan",
+  "Name": "Soalan mengikut ujian",
+  "Type": "pie",
+  "EntityViewId": "soalandetail",
+  "Query": "{\"query\":{\"filtered\":{\"filter\":{\"bool\":{\"must\":[],\"must_not\":[]}}}},\"sort\":[],\"aggs\":{\"category\":{\"terms\":{\"field\":\"NamaUjian\",\"size\":10}}},\"from\":0,\"size\":20}",
+  "Aggregate": "term",
+  "Field": "NamaUjian",
+  "DateInterval": "year",
+  "IsDashboardItem": true,
+  "DasboardItemPosition": 0,
+  "HistogramInterval": null,
+  "CreatedBy": "admin",
+  "Id": "5c84f1ec-7540-4751-a535-1d28f05661df",
+  "CreatedDate": "2015-06-02T07:08:11.8299761+08:00",
+  "ChangedBy": "admin",
+  "ChangedDate": "2015-06-02T07:08:11.8279761+08:00",
+  "WebId": "7434dd7f-2416-465c-d09d-f098688b890a"
+}
