@@ -1,0 +1,13 @@
+<h1>Selamat Datang Ke ePsikomterik</h1>
+<div class="row">
+    <!-- ko foreach : testList -->
+    <div class="alert alert-info">
+        <a class="alert-link" href="#mula-sesi-ujian" data-bind="attr:{href:'#mula-sesi-ujian/' + ko.unwrap(Id)}">
+            <i class="fa fa-play"></i>
+            Mula
+        </a>
+        <p data-bind="text:NamaUjian"></p>
+        <p data-bind="text:NamaProgram"></p>
+    </div>
+    <!-- /ko -->
+</div>
