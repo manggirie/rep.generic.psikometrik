@@ -388,6 +388,19 @@
                 "WebId": "75a860e1-2d33-4386-dfe8-e20804e46150"
               },
               "WebId": "ee17774f-370e-4835-c9d4-43a43fe96bd6"
+            },
+            {
+              "$type": "Bespoke.Sph.Domain.SetterActionChild, domain.sph",
+              "Path": "Status",
+              "Field": {
+                "$type": "Bespoke.Sph.Domain.ConstantField, domain.sph",
+                "TypeName": "System.String, mscorlib",
+                "Value": "Diambil",
+                "Name": "Diambil",
+                "Note": "",
+                "WebId": "434c3399-8a31-4c43-b299-0b464bf59802"
+              },
+              "WebId": "e9d49346-b54f-4fc9-e290-db6fa42b0524"
             }
           ]
         },
@@ -422,6 +435,6 @@
   "Id": "sesiujian",
   "CreatedDate": "2015-06-01T18:46:59.9857666+08:00",
   "ChangedBy": "admin",
-  "ChangedDate": "2015-06-10T08:49:11.0488806+08:00",
+  "ChangedDate": "2015-06-10T08:58:01.7272137+08:00",
   "WebId": "db4b5955-f616-434c-d814-7621fcd20ec7"
 }
