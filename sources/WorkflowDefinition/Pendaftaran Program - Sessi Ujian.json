@@ -351,6 +351,12 @@
               "Source": "CurrentUjian",
               "Destination": "NamaUjian",
               "WebId": "b3623855-3a4d-4b80-b9ee-6ccfa9c4d56d"
+            },
+            {
+              "$type": "Bespoke.Sph.Domain.SimpleMapping, domain.sph",
+              "Source": "StatusSesiUjian",
+              "Destination": "Status",
+              "WebId": "faa29de3-3ea8-4df4-9b93-d72b9cc61b6a"
             }
           ]
         },
@@ -429,6 +435,13 @@
         "TypeName": "Bespoke.epsikologi_sesiujian.Domain.SesiUjian, epsikologi.SesiUjian",
         "DefaultValue": "",
         "WebId": "5451f328-0070-4ff8-d1b6-3ae5fde7d844"
+      },
+      {
+        "$type": "Bespoke.Sph.Domain.SimpleVariable, domain.sph",
+        "Name": "StatusSesiUjian",
+        "TypeName": "System.String, mscorlib",
+        "DefaultValue": "Belum Ambil",
+        "WebId": "3fdb3b9f-67ea-445a-d680-bb6834de3388"
       }
     ]
   },
@@ -513,6 +526,6 @@
   "Id": "pendaftaran-program-sessi-ujian",
   "CreatedDate": "2015-06-09T19:15:58.6767026+08:00",
   "ChangedBy": "admin",
-  "ChangedDate": "2015-06-09T19:17:06.60308+08:00",
+  "ChangedDate": "2015-06-10T09:00:04.6818928+08:00",
   "WebId": "365215bb-b0f3-45b4-8790-786d57be4c3c"
 }
