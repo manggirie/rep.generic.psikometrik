@@ -26,7 +26,7 @@
       },
       {
         "$type": "Bespoke.Sph.Domain.StartWorkflowAction, domain.sph",
-        "WorkflowDefinitionId": "pendaftarn-program-sessi-ujian",
+        "WorkflowDefinitionId": "pendaftaran-program-sessi-ujian",
         "Name": "",
         "Version": 0,
         "WorkflowTriggerMapCollection": {
@@ -48,7 +48,7 @@
           ]
         },
         "UseAsync": true,
-        "Title": "Pendaftarn Program - Sessi Ujian",
+        "Title": "Pendaftaran Program - Sessi Ujian",
         "IsActive": true,
         "TriggerId": "",
         "Note": "",
@@ -81,6 +81,6 @@
   "Id": "pendaftaranprogram-daftar-sesi-ujian",
   "CreatedDate": "2015-06-05T11:08:31.4843957+08:00",
   "ChangedBy": "admin",
-  "ChangedDate": "2015-06-05T11:59:06.7628731+08:00",
+  "ChangedDate": "2015-06-08T15:04:18.1015318+08:00",
   "WebId": "d51b87f7-23b9-4663-e46c-972e2656a6d2"
 }

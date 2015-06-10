@@ -105,7 +105,7 @@
         },
         "Name": "TarikhUjian",
         "TypeName": "System.DateTime, mscorlib",
-        "IsNullable": false,
+        "IsNullable": true,
         "IsNotIndexed": false,
         "IsAnalyzed": false,
         "IsFilterable": true,
@@ -149,7 +149,7 @@
         },
         "Name": "MasaMula",
         "TypeName": "System.DateTime, mscorlib",
-        "IsNullable": false,
+        "IsNullable": true,
         "IsNotIndexed": false,
         "IsAnalyzed": false,
         "IsFilterable": false,
@@ -171,7 +171,7 @@
         },
         "Name": "MasaTamat",
         "TypeName": "System.DateTime, mscorlib",
-        "IsNullable": false,
+        "IsNullable": true,
         "IsNotIndexed": false,
         "IsAnalyzed": false,
         "IsFilterable": false,
@@ -198,7 +198,7 @@
                 "$values": []
               },
               "Name": "SoalanNo",
-              "TypeName": "System.Int32, mscorlib",
+              "TypeName": "System.String, mscorlib",
               "IsNullable": false,
               "IsNotIndexed": false,
               "IsAnalyzed": false,
@@ -220,7 +220,7 @@
                 "$values": []
               },
               "Name": "JawapanPilihan",
-              "TypeName": "System.Boolean, mscorlib",
+              "TypeName": "System.String, mscorlib",
               "IsNullable": false,
               "IsNotIndexed": false,
               "IsAnalyzed": false,
@@ -273,6 +273,28 @@
               "Boost": 0,
               "DefaultValue": null,
               "WebId": "246de0ee-61e8-49a2-8c43-f83c9545d1a6"
+            },
+            {
+              "$type": "Bespoke.Sph.Domain.Member, domain.sph",
+              "FullName": null,
+              "MemberCollection": {
+                "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.Sph.Domain.Member, domain.sph]], domain.sph",
+                "$values": []
+              },
+              "FieldPermissionCollection": {
+                "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.Sph.Domain.FieldPermission, domain.sph]], domain.sph",
+                "$values": []
+              },
+              "Name": "Nilai",
+              "TypeName": "System.Int32, mscorlib",
+              "IsNullable": false,
+              "IsNotIndexed": false,
+              "IsAnalyzed": false,
+              "IsFilterable": false,
+              "IsExcludeInAll": false,
+              "Boost": 0,
+              "DefaultValue": null,
+              "WebId": "c3a750b8-6ef5-48fe-eba6-5d7d8463ad07"
             }
           ]
         },
@@ -290,6 +312,28 @@
         "Boost": 0,
         "DefaultValue": null,
         "WebId": "2b8415f4-9ab6-4cd2-9db8-ef28ad47ae9e"
+      },
+      {
+        "$type": "Bespoke.Sph.Domain.Member, domain.sph",
+        "FullName": null,
+        "MemberCollection": {
+          "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.Sph.Domain.Member, domain.sph]], domain.sph",
+          "$values": []
+        },
+        "FieldPermissionCollection": {
+          "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.Sph.Domain.FieldPermission, domain.sph]], domain.sph",
+          "$values": []
+        },
+        "Name": "Status",
+        "TypeName": "System.String, mscorlib",
+        "IsNullable": true,
+        "IsNotIndexed": false,
+        "IsAnalyzed": false,
+        "IsFilterable": true,
+        "IsExcludeInAll": false,
+        "Boost": 0,
+        "DefaultValue": null,
+        "WebId": "bbb76432-7fd8-4697-c66b-a20e4bcfbdf6"
       }
     ]
   },
@@ -299,7 +343,62 @@
   },
   "EntityOperationCollection": {
     "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.Sph.Domain.EntityOperation, domain.sph]], domain.sph",
-    "$values": []
+    "$values": [
+      {
+        "$type": "Bespoke.Sph.Domain.EntityOperation, domain.sph",
+        "EntityPermissionCollection": {
+          "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.Sph.Domain.EntityPermission, domain.sph]], domain.sph",
+          "$values": []
+        },
+        "Rules": {
+          "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[System.String, mscorlib]], domain.sph",
+          "$values": []
+        },
+        "Permissions": {
+          "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[System.String, mscorlib]], domain.sph",
+          "$values": [
+            "Responden"
+          ]
+        },
+        "SetterActionChildCollection": {
+          "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.Sph.Domain.SetterActionChild, domain.sph]], domain.sph",
+          "$values": [
+            {
+              "$type": "Bespoke.Sph.Domain.SetterActionChild, domain.sph",
+              "Path": "TarikhUjian",
+              "Field": {
+                "$type": "Bespoke.Sph.Domain.FunctionField, domain.sph",
+                "CodeNamespace": "fffcaa5dc8",
+                "Script": "DateTime.Now",
+                "Name": "Now",
+                "Note": "",
+                "WebId": "fcaa5dc8-aa4f-4a26-9d2a-2f76564d4089"
+              },
+              "WebId": "0b7e6570-9623-4c38-fb14-cb414771f783"
+            },
+            {
+              "$type": "Bespoke.Sph.Domain.SetterActionChild, domain.sph",
+              "Path": "MasaTamat",
+              "Field": {
+                "$type": "Bespoke.Sph.Domain.FunctionField, domain.sph",
+                "CodeNamespace": "ff75a860e1",
+                "Script": "DateTime.Now",
+                "Name": "Now",
+                "Note": "",
+                "WebId": "75a860e1-2d33-4386-dfe8-e20804e46150"
+              },
+              "WebId": "ee17774f-370e-4835-c9d4-43a43fe96bd6"
+            }
+          ]
+        },
+        "Name": "SubmitSesiUjian",
+        "SuccessMessage": "",
+        "ShowSuccessMessage": false,
+        "NavigateSuccessUrl": "",
+        "SuccessCommand": "",
+        "WebId": "2c06f3df-8555-4533-ddd4-3baf1751675a"
+      }
+    ]
   },
   "AuthorizedRoleCollection": {
     "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[System.String, mscorlib]], domain.sph",
@@ -314,8 +413,8 @@
   },
   "Name": "SesiUjian",
   "Plural": "SesiUjians",
-  "IconStoreId": "sph-img-document",
-  "IconClass": "",
+  "IconStoreId": "7b897a71-8956-4623-b05d-b4f853888c24",
+  "IconClass": "glyphicon glyphicon-road",
   "RecordName": "SesiNo",
   "IsPublished": true,
   "IsShowOnNavigationBar": true,
@@ -323,6 +422,6 @@
   "Id": "sesiujian",
   "CreatedDate": "2015-06-01T18:46:59.9857666+08:00",
   "ChangedBy": "admin",
-  "ChangedDate": "2015-06-01T18:46:59.9847661+08:00",
+  "ChangedDate": "2015-06-10T08:49:11.0488806+08:00",
   "WebId": "db4b5955-f616-434c-d814-7621fcd20ec7"
 }

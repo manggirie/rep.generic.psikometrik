@@ -4,16 +4,16 @@ using System.Threading.Tasks;
 using System.Linq;
 using System.Xml.Serialization;
 
-namespace Bespoke.Sph.Workflows_PendaftarnProgramSessiUjian_0
+namespace Bespoke.Sph.Workflows_PendaftaranProgramSessiUjian_0
 {
     [EntityType(typeof(Workflow))]
-    public partial class PendaftarnProgramSessiUjianWorkflow : Bespoke.Sph.Domain.Workflow
+    public partial class PendaftaranProgramSessiUjianWorkflow : Bespoke.Sph.Domain.Workflow
     {
-        public PendaftarnProgramSessiUjianWorkflow()
+        public PendaftaranProgramSessiUjianWorkflow()
         {
-            this.Name = "Pendaftarn Program - Sessi Ujian";
+            this.Name = "Pendaftaran Program - Sessi Ujian";
             this.Version = 0;
-            this.WorkflowDefinitionId = "pendaftarn-program-sessi-ujian";
+            this.WorkflowDefinitionId = "pendaftaran-program-sessi-ujian";
         }
 
         private Bespoke.epsikologi_pengguna.Domain.Pengguna m_Responden = new Bespoke.epsikologi_pengguna.Domain.Pengguna();
@@ -39,12 +39,19 @@ namespace Bespoke.Sph.Workflows_PendaftarnProgramSessiUjian_0
 
         public System.String UjianList { get; set; }
         public System.String CurrentUjian { get; set; }
+        private Bespoke.epsikologi_sesiujian.Domain.SesiUjian m_SesiUjian = new Bespoke.epsikologi_sesiujian.Domain.SesiUjian();
+        public Bespoke.epsikologi_sesiujian.Domain.SesiUjian SesiUjian
+        {
+            get { return m_SesiUjian; }
+            set { m_SesiUjian = value; }
+        }
+
 
 
 
         public override async Task<ActivityExecutionResult> StartAsync()
         {
-            this.SerializedDefinitionStoreId = "wd.pendaftarn-program-sessi-ujian.0";
+            this.SerializedDefinitionStoreId = "wd.pendaftaran-program-sessi-ujian.0";
             var result = await this.GetRespondenAsync().ConfigureAwait(false);
             return result;
         }
@@ -52,7 +59,7 @@ namespace Bespoke.Sph.Workflows_PendaftarnProgramSessiUjian_0
 
         public override async Task<ActivityExecutionResult> ExecuteAsync(string activityId, string correlation = null)
         {
-            this.SerializedDefinitionStoreId = "wd.pendaftarn-program-sessi-ujian.0";
+            this.SerializedDefinitionStoreId = "wd.pendaftaran-program-sessi-ujian.0";
             ActivityExecutionResult result = null;
             switch (activityId)
             {
@@ -74,8 +81,8 @@ namespace Bespoke.Sph.Workflows_PendaftarnProgramSessiUjian_0
                 case "dfc600f9-a1da-4ed9-c148-84bb355b73e8":
                     result = await this.CheckIfUjianListAsync().ConfigureAwait(false);
                     break;
-                case "f5700b92-7334-40a1-c5d3-2833055c46d6":
-                    result = await this.CreateSessiUjianAsync().ConfigureAwait(false);
+                case "f9b816f6-a1c8-42a9-86fa-838f0375f40b":
+                    result = await this.AddNewSesiUjianAsync().ConfigureAwait(false);
                     break;
             }
             result.Correlation = correlation;
@@ -203,7 +210,7 @@ namespace Bespoke.Sph.Workflows_PendaftarnProgramSessiUjian_0
             this.UjianList = this.UjianList.Replace(";" + this.CurrentUjian, "");
 
             Console.WriteLine("Current Ujian : {0}", this.CurrentUjian);
-            result.NextActivities = new[] { "f5700b92-7334-40a1-c5d3-2833055c46d6" };
+            result.NextActivities = new[] { "f9b816f6-a1c8-42a9-86fa-838f0375f40b" };
 
 
             return Task.FromResult(result);
@@ -224,19 +231,25 @@ namespace Bespoke.Sph.Workflows_PendaftarnProgramSessiUjian_0
             return Task.FromResult(result);
         }
 
-        //exec:f5700b92-7334-40a1-c5d3-2833055c46d6
-        public Task<ActivityExecutionResult> CreateSessiUjianAsync()
+        //exec:f9b816f6-a1c8-42a9-86fa-838f0375f40b
+        public async Task<ActivityExecutionResult> AddNewSesiUjianAsync()
         {
-
+            var item = this.SesiUjian;
+            item.Id = Guid.NewGuid().ToString();
+            item.NamaProgram = this.Permohonan.PermohonanNo;
+            item.NamaPengguna = this.Responden.Nama;
+            item.MyKad = this.Responden.MyKad;
+            item.NamaUjian = this.CurrentUjian;
+            var context = new Bespoke.Sph.Domain.SphDataContext();
+            using (var session = context.OpenSession())
+            {
+                session.Attach(item);
+                await session.SubmitChanges();
+            }
             var result = new ActivityExecutionResult { Status = ActivityExecutionStatus.Success };
-            var item = this;
-
-            Console.WriteLine("897777777777777777777777777777777777777798798798797978");
-            Console.WriteLine("Create ujian for {0}", this.CurrentUjian);
             result.NextActivities = new[] { "dfc600f9-a1da-4ed9-c148-84bb355b73e8" };
 
-
-            return Task.FromResult(result);
+            return result;
         }
 
     }

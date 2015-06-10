@@ -21,15 +21,15 @@ define(['services/datacontext', 'services/logger', 'plugins/router'],
             views = ko.observableArray([]),
             entity = ko.observable(new bespoke.sph.domain.EntityDefinition()),
             activate = function () {
-                var query = String.format("Name eq '{0}'", 'tblprsideincome'),
+                var query = String.format("Name eq '{0}'", 'SesiUjian'),
                   tcs = new $.Deferred(),
-                  chartsQuery = String.format("Entity eq 'tblprsideincome' and IsDashboardItem eq 1"),
-                  formsQuery = String.format("EntityDefinitionId eq 'tblprsideincome' and IsPublished eq 1 and IsAllowedNewItem eq 1"),
+                  chartsQuery = String.format("Entity eq 'SesiUjian' and IsDashboardItem eq 1"),
+                  formsQuery = String.format("EntityDefinitionId eq 'sesiujian' and IsPublished eq 1 and IsAllowedNewItem eq 1"),
                   edTask = context.loadOneAsync("EntityDefinition", query),
                   chartsTask = context.loadAsync("EntityChart", chartsQuery),
                   formsTask = context.loadAsync("EntityForm", formsQuery),
-                  reportTask = context.loadAsync("ReportDefinition", "[DataSource.EntityName] eq 'tblprsideincome'"),
-                  viewsTask = $.get("/Sph/EntityView/Dashboard/tblprsideincome");
+                  reportTask = context.loadAsync("ReportDefinition", "[DataSource.EntityName] eq 'SesiUjian'"),
+                  viewsTask = $.get("/Sph/EntityView/Dashboard/SesiUjian");
 
 
                 $.when(edTask, formsTask, viewsTask, reportTask, chartsTask)

@@ -1,41 +1,70 @@
 <h1>Mula sesi ujian</h1>
-<div class="panel panel-primary">
-	<div class="panel-heading" data-bind="with: ujian">
-		<h3 class="panel-title" data-bind="text : 'Module Ujian : ' + ko.unwrap(NamaUjian)"></h3>
-	</div>
-	<div class="panel-body">
-	
-		<label>Jumlah Soalan</label>
-		<strong data-bind="text:questionsCount"></strong>
-
-		<label>Jumlah Soalan DiJawab</label>
-		<strong data-bind="text:totalAnswered"></strong>
-
-		<br/>
-		<label>Timer</label>
-		<strong data-bind="text:timer"></strong>
-	</div>
-</div>
-
-<div data-bind="with: sesiUjian">
-	<!-- ko foreach : JawapanCollection -->
-
-	<div class="soalan-panel">
-		<span class="badge" data-bind="text:$index() + 1"></span>				
-		  <div class="alert" role="alert" data-bind="css :{'alert-info': JawapanPilihan(),'alert-danger': !JawapanPilihan()}">
-			<strong data-bind="text:Text"></strong>
-		 </div>
-		<!-- ko foreach : PilihanJawapanCollection -->
-		  <ul class="list-group">
-			<li class="list-group-item">
-				<label>
-					<input type="radio" data-bind="value: Teks, attr :{name: $parent.SoalanNo}"/>
-					<!-- ko text: Teks -->
-					<!-- /ko -->
-				</label>
-			</li>
-		  </ul>
-		<!-- /ko -->			
-	</div>
-	<!-- /ko -->
+<div class="row">
+  
+    
+    <div class="col-md-9">
+    	<!-- ko foreach : sections -->
+    
+    	<h4 data-bind="text: 'Seksyen : ' + section, attr :{'id' : section}"></h4>
+    	<span class="" data-bind="text: 'Jumlah Soalan ' + questions().length"></span>
+    	<ul class="list-group">
+        	<!-- ko foreach : questions -->	  
+        	<li class="soalan-panel list-group-item">
+        		<span class="badge" data-bind="text:$index() + 1"></span>				
+        		  <div class="alert" role="alert" data-bind="css :{'alert-info': JawapanPilihan(),'alert-danger': !JawapanPilihan()}">
+        			<strong data-bind="text:Text"></strong>
+        		 </div>
+        		<!-- ko foreach : PilihanJawapanCollection -->
+    				<label style="min-width:120px">
+    					<input type="radio" data-bind="value: Teks, attr :{name: $parent.SoalanNo}"/>
+    					<!-- ko text: Teks -->
+    					<!-- /ko -->
+    				</label>
+        		<!-- /ko -->			
+        	</li>	
+        	<!-- /ko -->
+    	
+    	</ul>
+    	
+    	<!-- /ko -->
+    </div>
+    
+    
+      
+    <div class="col-md-3" id="test-panel">
+    	<div  data-bind="with: ujian">
+    		<h3 data-bind="text : 'Module Ujian : ' + ko.unwrap(NamaUjian)"></h3>
+    	</div>
+    	<div>
+    	
+    		<label>Jumlah Soalan</label>
+    		<strong data-bind="text:questionsCount"></strong>
+    
+    		<label>Jumlah Soalan DiJawab</label>
+    		<strong data-bind="text:totalAnswered"></strong>
+    
+    		<br/>
+    		<label>Timer</label>
+    		<strong data-bind="text:timer"></strong>
+    	
+    
+    	</div>
+    	 <ul id="nav" class="nav hidden-xs hidden-sm" data-spy="affix">
+    	 	<!-- ko foreach : sections -->   
+    
+            <li>
+              	<a data-bind="text: 'Seksyen ' + ko.unwrap(section) + '  (' + ko.unwrap(answered) + '/' + ko.unwrap(questions).length + ')', attr :{'href' : '#'+ section }, click : $root.goToSection">
+				
+				</a>
+            </li>
+    
+    		<!-- /ko -->
+    
+    
+          </ul>
+		<div>
+		<button class="btn btn-primary" data-bind="command: $root.submitSesiUjian, enable: totalAnswered() === questionsCount()">Hantar</button>
+		</div>
+    </div>
+    
 </div>

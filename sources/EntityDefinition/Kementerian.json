@@ -108,7 +108,7 @@
   },
   "Performer": {
     "$type": "Bespoke.Sph.Domain.Performer, domain.sph",
-    "UserProperty": "",
+    "UserProperty": "Designation",
     "Value": "",
     "IsPublic": true,
     "WebId": null
@@ -124,6 +124,6 @@
   "Id": "kementerian",
   "CreatedDate": "0001-01-01T00:00:00",
   "ChangedBy": "admin",
-  "ChangedDate": "2015-06-05T10:36:29.917753+08:00",
+  "ChangedDate": "2015-06-10T07:38:01.1665807+08:00",
   "WebId": "c435379d-cced-4e3e-de46-46f27663e00f"
 }

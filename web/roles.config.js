@@ -14,31 +14,24 @@
     "isActive": true
   },
   {
-    "group": "Agents",
-    "name": "agents",
-    "role": "agents",
-    "description": "Agents fr",
+    "group": "Responden",
+    "name": "Responden",
+    "role": "Responden",
+    "description": "Responden",
     "isActive": false
   },
   {
-    "group": "Supervisors",
-    "name": "Supervisors",
-    "role": "Supervisors",
-    "description": "Sp",
+    "group": "Penyelaras",
+    "name": "Penyelaras",
+    "role": "Penyelaras",
+    "description": "Penyelaras",
     "isActive": false
   },
   {
-    "group": "staff",
-    "name": "staff",
-    "role": "staff",
-    "description": "staffsddsf fsdfsd",
-    "isActive": false
-  },
-  {
-    "group": "clerk",
-    "name": "clerk",
-    "role": "clerk",
-    "description": "clerk",
+    "group": "Urusetia",
+    "name": "Urusetia",
+    "role": "Urusetia",
+    "description": "Urusetia",
     "isActive": false
   }
 ]

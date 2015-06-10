@@ -11,12 +11,15 @@ define(["services/datacontext", objectbuilders.app], function(context, app){
 		mapJawapan = function(v){
 		    
 		    var questions = ko.observableArray(),
-		        section ={section : ko.unwrap(v.SeksyenSoalan), questions: questions} ;
-			if(sections().indexOf(ko.unwrap(v.SeksyenSoalan)) < 0){
-				sections().push(section);	
+		        section =_(sections()).find(function(s){return s.section === ko.unwrap(v.SeksyenSoalan);}) ;
+			if(section){				
+			    questions = section.questions;
 			}else{
-			    section = _(sections()).find(function(v){return v.section === v.SeksyenSoalan;});
-			    questions =section.questions
+				sections.push({
+							section : ko.unwrap(v.SeksyenSoalan), 
+							questions: questions,
+						    answered : ko.observable(0)
+				});	
 			}
 			
 			var answer = {
@@ -68,14 +71,30 @@ define(["services/datacontext", objectbuilders.app], function(context, app){
 
         },
         attached  = function(view){
+            
+           /* $('#test-panel').affix({
+              offset: {
+                top: 100,
+                bottom: 5
+              }
+            });*/
+            
+            
         	$(view).on("click", "input[type=radio]", function(){
-				var panel = $(this).parents("div.soalan-panel"),
+				var panel = $(this).parents("li.soalan-panel"),
 					soalan = ko.dataFor(panel[0]),
 					answer = ko.dataFor(this);
 				
+				var modify = ko.unwrap(soalan.JawapanPilihan);
+				
 				soalan.JawapanPilihan(ko.unwrap(answer.Teks));
 				soalan.Nilai(ko.unwrap(answer.Nilai));
-				totalAnswered(ko.unwrap(totalAnswered) + 1);
+				
+				if(!modify){
+					totalAnswered(ko.unwrap(totalAnswered) + 1);				
+					var section =_(sections()).find(function(s){return s.section === ko.unwrap(soalan.SeksyenSoalan);});
+					section.answered(ko.unwrap(section.answered) + 1);
+				}
 			
 			});
 			
@@ -84,28 +103,46 @@ define(["services/datacontext", objectbuilders.app], function(context, app){
 				start.add(1000);
 				timer(start.minutes() + " minutes and " + start.seconds() + " seconds");
 			},1000);
+			
+			
         },
 		detached = function(){
 			interval = null;
 			timer("");
 		},
 		canDeactivate = function(){
-			
+			var tcs = new $.Deferred();
 			if(totalAnswered() < questionsCount()){
-				  app.showMessage("Are you sure you want to remove this custom route permanently", "Remove Route", ["Yes", "No"])
+				  app.showMessage("Adaka and ingin meninggalkan sesi ujian ini", "Tinggal Sesi Ujian", ["Ya", "Tidak"])
                     .done(function (dialogResult) {
-                        if (dialogResult === "Yes") {
-                          
-							
-
-                        }
+                        tcs.resolve(dialogResult === "Ya");                        
                     });
-				return false;
+			}else{
+				return true;
 			}
-			return true;
+			return tcs.promise();
+		},
+		findPos = function (obj) {
+			var curtop = 0;
+			if (obj.offsetParent) {
+				do {
+					curtop += obj.offsetTop;
+				} while (obj = obj.offsetParent);
+			return [curtop];
+			}
+		},
+		goToSection = function(sc){
+			window.scroll(0,findPos(document.getElementById(sc.section)));
+		
+		},
+		submitSesiUjian = function(){
+		
+			return context.post(ko.toJSON(sesiUjian), "/sesiujian/submitsesiujian");
 		};
 
     return {
+        submitSesiUjian : submitSesiUjian,
+        goToSection : goToSection,
         sections : sections,
         detached : detached,
         canDeactivate : canDeactivate,

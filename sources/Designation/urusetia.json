@@ -1,0 +1,22 @@
+{
+  "$type": "Bespoke.Sph.Domain.Designation, domain.sph",
+  "Title": null,
+  "Owner": null,
+  "Option": 0,
+  "RoleCollection": {
+    "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[System.String, mscorlib]], domain.sph",
+    "$values": [
+      "Urusetia"
+    ]
+  },
+  "Name": "Urusetia",
+  "Description": "",
+  "IsActive": false,
+  "StartModule": "test-123",
+  "CreatedBy": "admin",
+  "Id": "urusetia",
+  "CreatedDate": "2015-06-08T16:00:26.3627775+08:00",
+  "ChangedBy": "admin",
+  "ChangedDate": "2015-06-08T16:00:26.2787724+08:00",
+  "WebId": "e1f16dd3-5bf1-4c30-97a8-c289061fed80"
+}

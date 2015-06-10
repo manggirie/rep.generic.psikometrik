@@ -108,8 +108,8 @@
         },
         "WorkflowDesigner": {
           "$type": "Bespoke.Sph.Domain.WorkflowDesigner, domain.sph",
-          "X": 870,
-          "Y": 341,
+          "X": 432,
+          "Y": 71,
           "WebId": null
         },
         "IsInitiator": false,
@@ -132,8 +132,8 @@
         },
         "WorkflowDesigner": {
           "$type": "Bespoke.Sph.Domain.WorkflowDesigner, domain.sph",
-          "X": 904,
-          "Y": 78,
+          "X": 4,
+          "Y": 34,
           "WebId": null
         },
         "IsInitiator": true,
@@ -156,8 +156,8 @@
         },
         "WorkflowDesigner": {
           "$type": "Bespoke.Sph.Domain.WorkflowDesigner, domain.sph",
-          "X": 1401,
-          "Y": 915,
+          "X": 420,
+          "Y": 779,
           "WebId": null
         },
         "IsInitiator": false,
@@ -180,8 +180,8 @@
         },
         "WorkflowDesigner": {
           "$type": "Bespoke.Sph.Domain.WorkflowDesigner, domain.sph",
-          "X": 1295,
-          "Y": 329,
+          "X": 18,
+          "Y": 309,
           "WebId": null
         },
         "IsInitiator": false,
@@ -204,12 +204,12 @@
         },
         "WorkflowDesigner": {
           "$type": "Bespoke.Sph.Domain.WorkflowDesigner, domain.sph",
-          "X": 688,
-          "Y": 578,
+          "X": 26,
+          "Y": 509,
           "WebId": null
         },
         "IsInitiator": false,
-        "NextActivityWebId": "f5700b92-7334-40a1-c5d3-2833055c46d6",
+        "NextActivityWebId": "f9b816f6-a1c8-42a9-86fa-838f0375f40b",
         "Name": "ExtractUjianList",
         "TryScope": null,
         "CatchScope": null,
@@ -304,8 +304,8 @@
         },
         "WorkflowDesigner": {
           "$type": "Bespoke.Sph.Domain.WorkflowDesigner, domain.sph",
-          "X": 1286,
-          "Y": 582,
+          "X": 330,
+          "Y": 417,
           "WebId": null
         },
         "IsInitiator": false,
@@ -316,28 +316,64 @@
         "WebId": "dfc600f9-a1da-4ed9-c148-84bb355b73e8"
       },
       {
-        "$type": "Bespoke.Sph.Domain.ExpressionActivity, domain.sph",
-        "Expression": "\nConsole.WriteLine(\"897777777777777777777777777777777777777798798798797978\");\nConsole.WriteLine(\"Create ujian for {0}\", this.CurrentUjian);",
+        "$type": "Bespoke.Sph.Domain.CreateEntityActivity, domain.sph",
+        "EntityType": "SesiUjian",
+        "ReturnValuePath": null,
+        "PropertyMappingCollection": {
+          "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.Sph.Domain.PropertyMapping, domain.sph]], domain.sph",
+          "$values": [
+            {
+              "$type": "Bespoke.Sph.Domain.SimpleMapping, domain.sph",
+              "Source": "SesiUjian",
+              "Destination": ".",
+              "WebId": "cb3bf861-0f39-4816-80ee-ffeadc3f182d"
+            },
+            {
+              "$type": "Bespoke.Sph.Domain.SimpleMapping, domain.sph",
+              "Source": "Permohonan.PermohonanNo",
+              "Destination": "NamaProgram",
+              "WebId": "97031cad-6ae2-4e3b-b635-69f793bf50ff"
+            },
+            {
+              "$type": "Bespoke.Sph.Domain.SimpleMapping, domain.sph",
+              "Source": "Responden.Nama",
+              "Destination": "NamaPengguna",
+              "WebId": "0d676a50-c7c4-4743-e879-810f2834a6b4"
+            },
+            {
+              "$type": "Bespoke.Sph.Domain.SimpleMapping, domain.sph",
+              "Source": "Responden.MyKad",
+              "Destination": "MyKad",
+              "WebId": "f91526ae-8b4a-429d-e9ec-3e5f5cb8fe27"
+            },
+            {
+              "$type": "Bespoke.Sph.Domain.SimpleMapping, domain.sph",
+              "Source": "CurrentUjian",
+              "Destination": "NamaUjian",
+              "WebId": "b3623855-3a4d-4b80-b9ee-6ccfa9c4d56d"
+            }
+          ]
+        },
         "IsAsync": false,
         "ExecutedCode": null,
         "ExecutingCode": null,
-        "TypeName": "Expression",
+        "TypeName": "CreateEntity",
         "OtherMethodCollection": {
           "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.Sph.Domain.Codes.Method, domain.sph]], domain.sph",
           "$values": []
         },
         "WorkflowDesigner": {
           "$type": "Bespoke.Sph.Domain.WorkflowDesigner, domain.sph",
-          "X": 944,
-          "Y": 820,
+          "X": 164,
+          "Y": 826,
           "WebId": null
         },
         "IsInitiator": false,
         "NextActivityWebId": "dfc600f9-a1da-4ed9-c148-84bb355b73e8",
-        "Name": "Create Sessi Ujian",
+        "Name": "Add new SesiUjian",
         "TryScope": null,
         "CatchScope": null,
-        "WebId": "f5700b92-7334-40a1-c5d3-2833055c46d6"
+        "WebId": "f9b816f6-a1c8-42a9-86fa-838f0375f40b"
       }
     ]
   },
@@ -384,6 +420,15 @@
         "TypeName": "System.String, mscorlib",
         "DefaultValue": "",
         "WebId": "bc775b90-c04a-4672-915c-7f87e1a5b2f1"
+      },
+      {
+        "$type": "Bespoke.Sph.Domain.ClrTypeVariable, domain.sph",
+        "Assembly": "",
+        "CanInitiateWithDefaultConstructor": true,
+        "Name": "SesiUjian",
+        "TypeName": "Bespoke.epsikologi_sesiujian.Domain.SesiUjian, epsikologi.SesiUjian",
+        "DefaultValue": "",
+        "WebId": "5451f328-0070-4ff8-d1b6-3ae5fde7d844"
       }
     ]
   },
@@ -395,7 +440,7 @@
         "Name": "epsikologi.Pengguna",
         "FullName": "epsikologi.Pengguna, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
         "Version": "0.0.0.0",
-        "Location": "D:\\temp\\ti2\\web\\bin\\epsikologi.Pengguna.dll",
+        "Location": "C:\\project\\rep.generik.psikometrik\\web\\bin\\epsikologi.Pengguna.dll",
         "IsGac": false,
         "IsStrongName": false,
         "RuntimeVersion": "v4.0.30319",
@@ -406,7 +451,29 @@
         "Name": "epsikologi.Permohonan",
         "FullName": "epsikologi.Permohonan, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
         "Version": "0.0.0.0",
-        "Location": "D:\\temp\\ti2\\web\\bin\\epsikologi.Permohonan.dll",
+        "Location": "C:\\project\\rep.generik.psikometrik\\web\\bin\\epsikologi.Permohonan.dll",
+        "IsGac": false,
+        "IsStrongName": false,
+        "RuntimeVersion": "v4.0.30319",
+        "WebId": null
+      },
+      {
+        "$type": "Bespoke.Sph.Domain.ReferencedAssembly, domain.sph",
+        "Name": "epsikologi.ProgramLookup",
+        "FullName": "epsikologi.ProgramLookup, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+        "Version": "0.0.0.0",
+        "Location": "C:\\project\\rep.generik.psikometrik\\web\\bin\\epsikologi.ProgramLookup.dll",
+        "IsGac": false,
+        "IsStrongName": false,
+        "RuntimeVersion": "v4.0.30319",
+        "WebId": null
+      },
+      {
+        "$type": "Bespoke.Sph.Domain.ReferencedAssembly, domain.sph",
+        "Name": "epsikologi.SesiUjian",
+        "FullName": "epsikologi.SesiUjian, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+        "Version": "0.0.0.0",
+        "Location": "C:\\project\\rep.generik.psikometrik\\web\\bin\\epsikologi.SesiUjian.dll",
         "IsGac": false,
         "IsStrongName": false,
         "RuntimeVersion": "v4.0.30319",
@@ -417,7 +484,7 @@
         "Name": "epsikologi.PendaftaranProgram",
         "FullName": "epsikologi.PendaftaranProgram, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
         "Version": "0.0.0.0",
-        "Location": "D:\\temp\\ti2\\web\\bin\\epsikologi.PendaftaranProgram.dll",
+        "Location": "C:\\project\\rep.generik.psikometrik\\web\\bin\\epsikologi.PendaftaranProgram.dll",
         "IsGac": false,
         "IsStrongName": false,
         "RuntimeVersion": "v4.0.30319",
@@ -444,8 +511,8 @@
   "Version": 0,
   "CreatedBy": "admin",
   "Id": "pendaftaran-program-sessi-ujian",
-  "CreatedDate": "2015-06-05T11:35:17.8427444+08:00",
+  "CreatedDate": "2015-06-09T19:15:58.6767026+08:00",
   "ChangedBy": "admin",
-  "ChangedDate": "2015-06-06T07:22:34.7565346+08:00",
+  "ChangedDate": "2015-06-09T19:17:06.60308+08:00",
   "WebId": "365215bb-b0f3-45b4-8790-786d57be4c3c"
 }

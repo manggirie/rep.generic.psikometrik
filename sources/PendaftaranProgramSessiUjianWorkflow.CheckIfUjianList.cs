@@ -4,9 +4,9 @@ using System.Threading.Tasks;
 using System.Linq;
 using System.Xml.Serialization;
 
-namespace Bespoke.Sph.Workflows_PendaftarnProgramSessiUjian_0
+namespace Bespoke.Sph.Workflows_PendaftaranProgramSessiUjian_0
 {
-    public partial class PendaftarnProgramSessiUjianWorkflow
+    public partial class PendaftaranProgramSessiUjianWorkflow
     {
 
 

@@ -1,0 +1,22 @@
+{
+  "$type": "Bespoke.Sph.Domain.Designation, domain.sph",
+  "Title": null,
+  "Owner": null,
+  "Option": 0,
+  "RoleCollection": {
+    "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[System.String, mscorlib]], domain.sph",
+    "$values": [
+      "Responden"
+    ]
+  },
+  "Name": "Responden",
+  "Description": "",
+  "IsActive": false,
+  "StartModule": "test-123",
+  "CreatedBy": "admin",
+  "Id": "responden",
+  "CreatedDate": "2015-06-08T15:59:35.1093695+08:00",
+  "ChangedBy": "admin",
+  "ChangedDate": "2015-06-08T15:59:35.1073698+08:00",
+  "WebId": "20cd0716-83e5-4f84-8f4b-edcc80cf6ee1"
+}

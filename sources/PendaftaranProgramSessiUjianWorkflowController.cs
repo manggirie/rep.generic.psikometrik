@@ -4,10 +4,10 @@ using System;
 using Bespoke.Sph.Domain;
 using System.Threading.Tasks;
 
-namespace Bespoke.Sph.Workflows_PendaftarnProgramSessiUjian_0
+namespace Bespoke.Sph.Workflows_PendaftaranProgramSessiUjian_0
 {
-    [RoutePrefix("wf/pendaftarn-program-sessi-ujian/v0")]
-    public partial class PendaftarnProgramSessiUjianWorkflowController : Controller
+    [RoutePrefix("wf/pendaftaran-program-sessi-ujian/v0")]
+    public partial class PendaftaranProgramSessiUjianWorkflowController : Controller
     {
 
 
@@ -20,7 +20,7 @@ namespace Bespoke.Sph.Workflows_PendaftarnProgramSessiUjian_0
 
             var json = Bespoke.Sph.Web.Helpers.ControllerHelpers.GetRequestBody(this);
             var request = new StringContent(json);
-            var url = string.Format("{0}/{1}/workflow_pendaftarn-program-sessi-ujian_0/_search", ConfigurationManager.ElasticSearchHost, ConfigurationManager.ElasticSearchIndex);
+            var url = string.Format("{0}/{1}/workflow_pendaftaran-program-sessi-ujian_0/_search", ConfigurationManager.ElasticSearchHost, ConfigurationManager.ElasticSearchIndex);
 
             using (var client = new HttpClient())
             {
@@ -39,7 +39,7 @@ namespace Bespoke.Sph.Workflows_PendaftarnProgramSessiUjian_0
         public async Task<ActionResult> Schemas()
         {
             var store = ObjectBuilder.GetObject<IBinaryStore>();
-            var doc = await store.GetContentAsync("wd.pendaftarn-program-sessi-ujian.0");
+            var doc = await store.GetContentAsync("wd.pendaftaran-program-sessi-ujian.0");
             WorkflowDefinition wd;
             using (var stream = new System.IO.MemoryStream(doc.Content))
             {
