@@ -14,6 +14,7 @@ namespace Bespoke.Sph.Workflows_PendaftaranProgramSessiUjian_0
             this.Name = "Pendaftaran Program - Sessi Ujian";
             this.Version = 0;
             this.WorkflowDefinitionId = "pendaftaran-program-sessi-ujian";
+            this.StatusSesiUjian = "Belum Ambil";
         }
 
         private Bespoke.epsikologi_pengguna.Domain.Pengguna m_Responden = new Bespoke.epsikologi_pengguna.Domain.Pengguna();
@@ -46,6 +47,7 @@ namespace Bespoke.Sph.Workflows_PendaftaranProgramSessiUjian_0
             set { m_SesiUjian = value; }
         }
 
+        public System.String StatusSesiUjian { get; set; }
 
 
 
@@ -240,6 +242,7 @@ namespace Bespoke.Sph.Workflows_PendaftaranProgramSessiUjian_0
             item.NamaPengguna = this.Responden.Nama;
             item.MyKad = this.Responden.MyKad;
             item.NamaUjian = this.CurrentUjian;
+            item.Status = this.StatusSesiUjian;
             var context = new Bespoke.Sph.Domain.SphDataContext();
             using (var session = context.OpenSession())
             {
