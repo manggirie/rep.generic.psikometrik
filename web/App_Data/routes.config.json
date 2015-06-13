@@ -44,7 +44,7 @@
   {
     "role": "anynomous",
     "groupName": null,
-    "route": "public.index",
+    "route": "",
     "moduleId": "viewmodels/public.index",
     "title": "JPA -e-psikometric",
     "nav": false,

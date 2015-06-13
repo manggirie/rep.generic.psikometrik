@@ -33,7 +33,7 @@
     "$values": [
       {
         "$type": "Bespoke.Sph.Domain.StartWorkflowAction, domain.sph",
-        "WorkflowDefinitionId": "pendaftaran-program-sessi-ujian",
+        "WorkflowDefinitionId": "creates-membership-for-new-responden",
         "Name": "",
         "Version": 0,
         "WorkflowTriggerMapCollection": {
@@ -55,7 +55,7 @@
           ]
         },
         "UseAsync": true,
-        "Title": "Pendaftaran Program - Sessi Ujian",
+        "Title": "Creates membership for new responden",
         "IsActive": true,
         "TriggerId": "",
         "Note": "",
@@ -77,7 +77,7 @@
   "Entity": "Pengguna",
   "TypeOf": "Bespoke.epsikologi_pengguna.Domain.Pengguna, epsikologi.Pengguna",
   "Note": "",
-  "IsActive": false,
+  "IsActive": true,
   "IsFiredOnAdded": true,
   "IsFiredOnDeleted": false,
   "IsFiredOnChanged": false,
@@ -88,6 +88,6 @@
   "Id": "pengguna-responden-profile-and-membership-",
   "CreatedDate": "0001-01-01T00:00:00",
   "ChangedBy": "admin",
-  "ChangedDate": "2015-06-13T13:05:31.0410011+08:00",
+  "ChangedDate": "2015-06-13T17:48:50.4033317+08:00",
   "WebId": "ae419759-6ae0-4c6e-ea9c-c7de9fd59a95"
 }
