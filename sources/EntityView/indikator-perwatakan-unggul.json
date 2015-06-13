@@ -79,6 +79,23 @@
           "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.Sph.Domain.ConditionalFormatting, domain.sph]], domain.sph",
           "$values": []
         },
+        "Path": "Susunan",
+        "Header": "Susunan",
+        "Sort": "",
+        "IsLinkColumn": false,
+        "FormRoute": null,
+        "IconCssClass": "",
+        "IconStoreId": "",
+        "Format": "text:{0}",
+        "RouteValueField": "",
+        "WebId": "a04e7592-e5c1-46ea-8fda-b87a756c6547"
+      },
+      {
+        "$type": "Bespoke.Sph.Domain.ViewColumn, domain.sph",
+        "ConditionalFormattingCollection": {
+          "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.Sph.Domain.ConditionalFormatting, domain.sph]], domain.sph",
+          "$values": []
+        },
         "Path": "Trait",
         "Header": "Trait",
         "Sort": "",
@@ -94,7 +111,20 @@
   },
   "SortCollection": {
     "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.Sph.Domain.Sort, domain.sph]], domain.sph",
-    "$values": []
+    "$values": [
+      {
+        "$type": "Bespoke.Sph.Domain.Sort, domain.sph",
+        "Path": "SeksyenSoalan",
+        "Direction": "Asc",
+        "WebId": "28081d34-9d92-4609-e8d3-1711c9ac500e"
+      },
+      {
+        "$type": "Bespoke.Sph.Domain.Sort, domain.sph",
+        "Path": "Susunan",
+        "Direction": "Asc",
+        "WebId": "de84af41-baf9-45b1-b1c3-ea0467e040ca"
+      }
+    ]
   },
   "ConditionalFormattingCollection": {
     "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.Sph.Domain.ConditionalFormatting, domain.sph]], domain.sph",
@@ -128,6 +158,6 @@
   "Id": "indikator-perwatakan-unggul",
   "CreatedDate": "2015-06-05T10:14:02.1460365+08:00",
   "ChangedBy": "admin",
-  "ChangedDate": "2015-06-05T10:14:02.1450367+08:00",
+  "ChangedDate": "2015-06-13T08:38:30.1333922+08:00",
   "WebId": "38e6ae7a-002d-4780-d67c-faea94d5b459"
 }

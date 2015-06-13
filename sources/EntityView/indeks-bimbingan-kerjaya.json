@@ -45,6 +45,23 @@
           "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.Sph.Domain.ConditionalFormatting, domain.sph]], domain.sph",
           "$values": []
         },
+        "Path": "Susunan",
+        "Header": "Susunan",
+        "Sort": "",
+        "IsLinkColumn": false,
+        "FormRoute": null,
+        "IconCssClass": "",
+        "IconStoreId": "",
+        "Format": "text:{0}",
+        "RouteValueField": "",
+        "WebId": "66c30412-07b4-42e6-fbeb-1a387a29d968"
+      },
+      {
+        "$type": "Bespoke.Sph.Domain.ViewColumn, domain.sph",
+        "ConditionalFormattingCollection": {
+          "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.Sph.Domain.ConditionalFormatting, domain.sph]], domain.sph",
+          "$values": []
+        },
         "Path": "TeksSoalan",
         "Header": "Teks",
         "Sort": "",
@@ -94,7 +111,20 @@
   },
   "SortCollection": {
     "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.Sph.Domain.Sort, domain.sph]], domain.sph",
-    "$values": []
+    "$values": [
+      {
+        "$type": "Bespoke.Sph.Domain.Sort, domain.sph",
+        "Path": "Susunan",
+        "Direction": "Asc",
+        "WebId": "95c820b4-2084-4079-b028-9130014a11ba"
+      },
+      {
+        "$type": "Bespoke.Sph.Domain.Sort, domain.sph",
+        "Path": "SoalanNo",
+        "Direction": "Asc",
+        "WebId": "617b4e6c-c1e2-42a2-da0d-63233cee6b9b"
+      }
+    ]
   },
   "ConditionalFormattingCollection": {
     "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.Sph.Domain.ConditionalFormatting, domain.sph]], domain.sph",
@@ -128,6 +158,6 @@
   "Id": "indeks-bimbingan-kerjaya",
   "CreatedDate": "2015-06-05T10:14:02.1400355+08:00",
   "ChangedBy": "admin",
-  "ChangedDate": "2015-06-05T10:14:02.1380355+08:00",
+  "ChangedDate": "2015-06-13T08:21:55.7218154+08:00",
   "WebId": "38e6ae7a-002d-4780-d67c-faea94d5b459"
 }

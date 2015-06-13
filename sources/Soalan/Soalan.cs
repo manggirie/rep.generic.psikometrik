@@ -49,5 +49,8 @@ namespace Bespoke.epsikologi_soalan.Domain
         [XmlAttribute]
         public string NamaUjian { get; set; }
 
+        //member:Susunan
+        public decimal? Susunan { get; set; }
+
     }
 }

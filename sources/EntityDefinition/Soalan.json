@@ -202,6 +202,28 @@
         "Boost": 0,
         "DefaultValue": null,
         "WebId": "4551aec1-cba8-49a3-bd5f-8bffc14de811"
+      },
+      {
+        "$type": "Bespoke.Sph.Domain.Member, domain.sph",
+        "FullName": null,
+        "MemberCollection": {
+          "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.Sph.Domain.Member, domain.sph]], domain.sph",
+          "$values": []
+        },
+        "FieldPermissionCollection": {
+          "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.Sph.Domain.FieldPermission, domain.sph]], domain.sph",
+          "$values": []
+        },
+        "Name": "Susunan",
+        "TypeName": "System.Decimal, mscorlib",
+        "IsNullable": true,
+        "IsNotIndexed": false,
+        "IsAnalyzed": false,
+        "IsFilterable": true,
+        "IsExcludeInAll": false,
+        "Boost": 0,
+        "DefaultValue": null,
+        "WebId": "5f6c86d0-6c3a-4a84-f6a5-a6f591a4bdda"
       }
     ]
   },
@@ -235,6 +257,6 @@
   "Id": "soalan",
   "CreatedDate": "2015-06-05T10:14:02.0720325+08:00",
   "ChangedBy": "admin",
-  "ChangedDate": "2015-06-05T10:14:15.8277234+08:00",
+  "ChangedDate": "2015-06-13T08:14:16.6349453+08:00",
   "WebId": "43a6da47-6845-493e-dfbf-8e17ebe6ff37"
 }
