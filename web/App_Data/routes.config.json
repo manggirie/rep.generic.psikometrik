@@ -40,5 +40,19 @@
     "showWhenLoggedIn": false,
     "isAdminPage": false,
     "startPageRoute": null
+  },
+  {
+    "role": "anynomous",
+    "groupName": null,
+    "route": "public.index",
+    "moduleId": "viewmodels/public.index",
+    "title": "JPA -e-psikometric",
+    "nav": false,
+    "icon": "fa fa-home",
+    "caption": "JPA -e-psikometric",
+    "settings": null,
+    "showWhenLoggedIn": false,
+    "isAdminPage": false,
+    "startPageRoute": null
   }
 ]

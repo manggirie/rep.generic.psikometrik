@@ -6,17 +6,18 @@
   "RoleCollection": {
     "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[System.String, mscorlib]], domain.sph",
     "$values": [
-      "Urusetia"
+      "Urusetia",
+      "PengurusanPengguna"
     ]
   },
   "Name": "Urusetia",
   "Description": "",
   "IsActive": false,
-  "StartModule": "test-123",
+  "StartModule": "responden-home",
   "CreatedBy": "admin",
   "Id": "urusetia",
   "CreatedDate": "2015-06-08T16:00:26.3627775+08:00",
   "ChangedBy": "admin",
-  "ChangedDate": "2015-06-08T16:00:26.2787724+08:00",
+  "ChangedDate": "2015-06-13T12:16:23.313404+08:00",
   "WebId": "e1f16dd3-5bf1-4c30-97a8-c289061fed80"
 }

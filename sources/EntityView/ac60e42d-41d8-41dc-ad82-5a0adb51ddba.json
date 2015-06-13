@@ -114,11 +114,11 @@
     "$values": []
   },
   "IconClass": null,
-  "IconStoreId": null,
+  "IconStoreId": "e3d73a96-427a-4c30-a0e3-1d93db5bf94c",
   "EntityDefinitionId": "pengguna",
   "Name": "Senarai Pengguna",
   "Route": "pengguna-all",
-  "Note": null,
+  "Note": "Senarai Semua Pengguna",
   "Query": null,
   "IsPublished": true,
   "Visibilty": null,
@@ -130,6 +130,6 @@
   "Id": "ac60e42d-41d8-41dc-ad82-5a0adb51ddba",
   "CreatedDate": "2015-06-01T18:46:54.2964147+08:00",
   "ChangedBy": "admin",
-  "ChangedDate": "2015-06-01T18:46:54.2944137+08:00",
+  "ChangedDate": "2015-06-13T12:03:15.303827+08:00",
   "WebId": "7bc3651c-5ad2-4db7-802b-5a4de7c7b561"
 }
