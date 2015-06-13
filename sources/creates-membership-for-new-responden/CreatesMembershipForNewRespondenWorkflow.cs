@@ -96,7 +96,7 @@ namespace Bespoke.Sph.Workflows_CreatesMembershipForNewResponden_0
                 //IsCreated = true;
             }
 
-            result.NextActivities = new[] { "" };
+            result.NextActivities = new[] { "41cddfd4-0781-44b1-db25-cbef78c61352" };
 
 
             return result;
