@@ -2,6 +2,7 @@ define(["services/datacontext", objectbuilders.app], function(context, app){
     var sesiUjian = ko.observable(),
         ujian = ko.observable(),
         pendaftaran = ko.observable(),
+        hideAnswered = ko.observable(),
         permohonan = ko.observable(),
 		totalAnswered = ko.observable(0),
 		questionsCount = ko.observable(0),
@@ -32,6 +33,15 @@ define(["services/datacontext", objectbuilders.app], function(context, app){
 				"Nilai" : ko.observable(),
 				"PilihanJawapanCollection" : v.PilihanJawapanCollection
 			};
+      answer.Visible =  ko.computed(function(){
+        if(!this.JawapanPilihan()) {
+          return true;
+        }
+        if(hideAnswered()){
+          return false;
+        }
+        return true;
+      }, answer);
 			questions.push(answer);
 
 			return answer;
@@ -141,6 +151,7 @@ define(["services/datacontext", objectbuilders.app], function(context, app){
 		};
 
     return {
+        hideAnswered : hideAnswered,
         submitSesiUjian : submitSesiUjian,
         goToSection : goToSection,
         sections : sections,

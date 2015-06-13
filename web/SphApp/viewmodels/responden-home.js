@@ -3,7 +3,7 @@ define(["services/datacontext", objectbuilders.config ], function(context, confi
         ujianList = ko.observableArray(),
         activate = function(){
 
-            return context.loadAsync("SesiUjian", String.format("MyKad eq '{0}'", config.userName))
+            return context.loadAsync("SesiUjian", String.format("MyKad eq '{0}' and Status ne 'Diambil'", config.userName))
                 .then(function(lo){
                     testList(lo.itemCollection);
                     return context.loadAsync("Ujian", "Id ne '0'");

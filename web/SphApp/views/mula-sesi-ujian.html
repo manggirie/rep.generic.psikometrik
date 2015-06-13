@@ -1,16 +1,16 @@
 <h1>Mula sesi ujian</h1>
 <div class="row">
-  
-    
+
+
     <div class="col-md-9">
     	<!-- ko foreach : sections -->
-    
+
     	<h4 data-bind="text: 'Seksyen : ' + section, attr :{'id' : section}"></h4>
     	<span class="" data-bind="text: 'Jumlah Soalan ' + questions().length"></span>
     	<ul class="list-group">
-        	<!-- ko foreach : questions -->	  
-        	<li class="soalan-panel list-group-item">
-        		<span class="badge" data-bind="text:$index() + 1"></span>				
+        	<!-- ko foreach : questions -->
+        	<li class="soalan-panel list-group-item" data-bind="visible:Visible">
+        		<span class="badge" data-bind="text:$index() + 1"></span>
         		  <div class="alert" role="alert" data-bind="css :{'alert-info': JawapanPilihan(),'alert-danger': !JawapanPilihan()}">
         			<strong data-bind="text:Text"></strong>
         		 </div>
@@ -20,51 +20,56 @@
     					<!-- ko text: Teks -->
     					<!-- /ko -->
     				</label>
-        		<!-- /ko -->			
-        	</li>	
+        		<!-- /ko -->
+        	</li>
         	<!-- /ko -->
-    	
+
     	</ul>
-    	
+
     	<!-- /ko -->
     </div>
-    
-    
-      
+
+
+
     <div class="col-md-3" id="test-panel" style="position:fixed;top:50px;right:0px;">
     	<div  data-bind="with: ujian">
     		<h3 data-bind="text : 'Module Ujian : ' + ko.unwrap(NamaUjian)"></h3>
     	</div>
     	<div>
-    	
+
     		<label>Jumlah Soalan</label>
     		<strong data-bind="text:questionsCount"></strong>
-    
+
     		<label>Jumlah Soalan DiJawab</label>
     		<strong data-bind="text:totalAnswered"></strong>
-    
+
     		<br/>
     		<label>Timer</label>
     		<strong data-bind="text:timer"></strong>
-    	
-    
+
+
     	</div>
     	 <ul id="nav" class="nav hidden-xs hidden-sm" data-spy="affix">
-    	 	<!-- ko foreach : sections -->   
-    
+    	 	<!-- ko foreach : sections -->
+
             <li>
               	<a data-bind="text: 'Seksyen ' + ko.unwrap(section) + '  (' + ko.unwrap(answered) + '/' + ko.unwrap(questions).length + ')', attr :{'href' : '#'+ section }, click : $root.goToSection">
-				
+
 				</a>
             </li>
-    
+
     		<!-- /ko -->
-    
-    
+
+
           </ul>
 		<div>
+      <label>
+        <input type="checkbox" data-bind="checked: $root.hideAnswered"/>
+        Susut Yang Sudah Jawab
+      </label>
+      <br/>
 		<button class="btn btn-primary" data-bind="command: $root.submitSesiUjian, enable: totalAnswered() === questionsCount()">Hantar</button>
 		</div>
     </div>
-    
+
 </div>
