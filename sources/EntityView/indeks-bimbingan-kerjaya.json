@@ -106,6 +106,23 @@
         "Format": "text:{0}",
         "RouteValueField": "",
         "WebId": "32e8077d-6068-494c-b179-5814e89938f5"
+      },
+      {
+        "$type": "Bespoke.Sph.Domain.ViewColumn, domain.sph",
+        "ConditionalFormattingCollection": {
+          "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.Sph.Domain.ConditionalFormatting, domain.sph]], domain.sph",
+          "$values": []
+        },
+        "Path": "Susunan",
+        "Header": "Modify  Susunan",
+        "Sort": "",
+        "IsLinkColumn": true,
+        "FormRoute": "soalan-detail",
+        "IconCssClass": "glyphicon glyphicon-sort-by-order",
+        "IconStoreId": "",
+        "Format": "text:{0}",
+        "RouteValueField": "Id",
+        "WebId": "f5c6608e-12ca-42e5-9284-f7771a7a0211"
       }
     ]
   },
@@ -153,11 +170,11 @@
   "TileColour": "bviolet",
   "CountMessage": "",
   "Entity": "",
-  "Partial": "",
+  "Partial": "partial/soalan-indeks-bimbingan-kerjaya",
   "CreatedBy": "admin",
   "Id": "indeks-bimbingan-kerjaya",
   "CreatedDate": "2015-06-05T10:14:02.1400355+08:00",
   "ChangedBy": "admin",
-  "ChangedDate": "2015-06-13T08:21:55.7218154+08:00",
+  "ChangedDate": "2015-06-15T08:10:51.7075193+08:00",
   "WebId": "38e6ae7a-002d-4780-d67c-faea94d5b459"
 }

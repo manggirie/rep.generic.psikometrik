@@ -13,6 +13,7 @@
                     <th>Teks</th>
                     <th>Seksyen</th>
                     <th>Trait</th>
+                    <th>Modify  Susunan</th>
                 </tr>
             </thead>
             <tbody data-bind="foreach :list">
@@ -28,6 +29,12 @@
                     <td data-bind="text:TeksSoalan"></td>
                     <td data-bind="text:SeksyenSoalan"></td>
                     <td data-bind="text:Trait"></td>
+                    <td>
+                        <a data-bind="attr : {href:'#soalan-detail' + '/' + Id, title:'Modify  Susunan' }">
+                            <i class="glyphicon glyphicon-sort-by-order"></i>
+                                                        <span data-bind="text:Susunan"></span>
+                        </a>
+                    </td>
 
 
                 </tr>
