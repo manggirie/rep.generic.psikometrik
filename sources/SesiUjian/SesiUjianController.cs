@@ -63,6 +63,8 @@ namespace Bespoke.epsikologi_sesiujian.Domain
             item.TarikhUjian = (System.DateTime)setter1.Field.GetValue(rc);
             var setter2 = operation.SetterActionChildCollection.Single(a => a.WebId == "ee17774f-370e-4835-c9d4-43a43fe96bd6");
             item.MasaTamat = (System.DateTime)setter2.Field.GetValue(rc);
+            var setter3 = operation.SetterActionChildCollection.Single(a => a.WebId == "e9d49346-b54f-4fc9-e290-db6fa42b0524");
+            item.Status = (System.String)setter3.Field.GetValue(rc);
 
             if (item.IsNewItem) item.Id = Guid.NewGuid().ToString();
 

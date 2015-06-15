@@ -79,6 +79,23 @@
           "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.Sph.Domain.ConditionalFormatting, domain.sph]], domain.sph",
           "$values": []
         },
+        "Path": "Susunan",
+        "Header": "Susunan",
+        "Sort": "",
+        "IsLinkColumn": false,
+        "FormRoute": null,
+        "IconCssClass": "",
+        "IconStoreId": "",
+        "Format": "text:{0}",
+        "RouteValueField": "",
+        "WebId": "03fe6d78-3877-44fb-f633-4b84e0332a50"
+      },
+      {
+        "$type": "Bespoke.Sph.Domain.ViewColumn, domain.sph",
+        "ConditionalFormattingCollection": {
+          "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.Sph.Domain.ConditionalFormatting, domain.sph]], domain.sph",
+          "$values": []
+        },
         "Path": "Trait",
         "Header": "Trait",
         "Sort": "",
@@ -94,7 +111,20 @@
   },
   "SortCollection": {
     "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.Sph.Domain.Sort, domain.sph]], domain.sph",
-    "$values": []
+    "$values": [
+      {
+        "$type": "Bespoke.Sph.Domain.Sort, domain.sph",
+        "Path": "SeksyenSoalan",
+        "Direction": "Asc",
+        "WebId": "44946727-fd9d-4919-e2ac-b6069c0a0ff7"
+      },
+      {
+        "$type": "Bespoke.Sph.Domain.Sort, domain.sph",
+        "Path": "Susunan",
+        "Direction": "Asc",
+        "WebId": "e5b691db-cc0b-4049-f59a-492afdcaccdd"
+      }
+    ]
   },
   "ConditionalFormattingCollection": {
     "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.Sph.Domain.ConditionalFormatting, domain.sph]], domain.sph",
@@ -128,6 +158,6 @@
   "Id": "inventori-stres-organisasi",
   "CreatedDate": "2015-06-05T10:14:02.1460365+08:00",
   "ChangedBy": "admin",
-  "ChangedDate": "2015-06-05T10:14:02.1460365+08:00",
+  "ChangedDate": "2015-06-13T08:39:53.3517677+08:00",
   "WebId": "38e6ae7a-002d-4780-d67c-faea94d5b459"
 }

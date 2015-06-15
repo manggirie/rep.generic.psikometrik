@@ -1,4 +1,4 @@
-<h1>SoalanDetail</h1>
+<h1>Senarai Soalan</h1>
 <div class="row">
     <div class="col-md-8">
         <button class="btn btn-link pull-right" data-bind="visible: chartFiltered, click: clearChartFilter">
@@ -10,8 +10,10 @@
                 <tr>
                     <th>No Rujukan</th>
                     <th>Soalan No</th>
-                    <th>Seksyen Soalan</th>
                     <th>Soalan</th>
+                    <th>Nama Ujian</th>
+                    <th>Seksyen Soalan</th>
+                    <th>Susunan</th>
                 </tr>
             </thead>
             <tbody data-bind="foreach :list">
@@ -24,8 +26,10 @@
                         </a>
                     </td>
                     <td data-bind="text:SoalanNo"></td>
-                    <td data-bind="text:SeksyenSoalan"></td>
                     <td data-bind="text:TeksSoalan"></td>
+                    <td data-bind="text:NamaUjian"></td>
+                    <td data-bind="text:SeksyenSoalan"></td>
+                    <td data-bind="text:Susunan"></td>
 
 
                 </tr>

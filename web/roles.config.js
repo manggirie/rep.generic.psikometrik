@@ -33,5 +33,12 @@
     "role": "Urusetia",
     "description": "Urusetia",
     "isActive": false
+  },
+  {
+    "group": "PengurusanPengguna",
+    "name": "PengurusanPengguna",
+    "role": "PengurusanPengguna",
+    "description": "Allow to manage users",
+    "isActive": false
   }
 ]

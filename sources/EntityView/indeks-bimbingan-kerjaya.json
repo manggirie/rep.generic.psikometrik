@@ -45,6 +45,23 @@
           "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.Sph.Domain.ConditionalFormatting, domain.sph]], domain.sph",
           "$values": []
         },
+        "Path": "Susunan",
+        "Header": "Susunan",
+        "Sort": "",
+        "IsLinkColumn": false,
+        "FormRoute": null,
+        "IconCssClass": "",
+        "IconStoreId": "",
+        "Format": "text:{0}",
+        "RouteValueField": "",
+        "WebId": "66c30412-07b4-42e6-fbeb-1a387a29d968"
+      },
+      {
+        "$type": "Bespoke.Sph.Domain.ViewColumn, domain.sph",
+        "ConditionalFormattingCollection": {
+          "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.Sph.Domain.ConditionalFormatting, domain.sph]], domain.sph",
+          "$values": []
+        },
         "Path": "TeksSoalan",
         "Header": "Teks",
         "Sort": "",
@@ -89,12 +106,42 @@
         "Format": "text:{0}",
         "RouteValueField": "",
         "WebId": "32e8077d-6068-494c-b179-5814e89938f5"
+      },
+      {
+        "$type": "Bespoke.Sph.Domain.ViewColumn, domain.sph",
+        "ConditionalFormattingCollection": {
+          "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.Sph.Domain.ConditionalFormatting, domain.sph]], domain.sph",
+          "$values": []
+        },
+        "Path": "Susunan",
+        "Header": "Modify  Susunan",
+        "Sort": "",
+        "IsLinkColumn": true,
+        "FormRoute": "soalan-detail",
+        "IconCssClass": "glyphicon glyphicon-sort-by-order",
+        "IconStoreId": "",
+        "Format": "text:{0}",
+        "RouteValueField": "Id",
+        "WebId": "f5c6608e-12ca-42e5-9284-f7771a7a0211"
       }
     ]
   },
   "SortCollection": {
     "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.Sph.Domain.Sort, domain.sph]], domain.sph",
-    "$values": []
+    "$values": [
+      {
+        "$type": "Bespoke.Sph.Domain.Sort, domain.sph",
+        "Path": "Susunan",
+        "Direction": "Asc",
+        "WebId": "95c820b4-2084-4079-b028-9130014a11ba"
+      },
+      {
+        "$type": "Bespoke.Sph.Domain.Sort, domain.sph",
+        "Path": "SoalanNo",
+        "Direction": "Asc",
+        "WebId": "617b4e6c-c1e2-42a2-da0d-63233cee6b9b"
+      }
+    ]
   },
   "ConditionalFormattingCollection": {
     "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.Sph.Domain.ConditionalFormatting, domain.sph]], domain.sph",
@@ -123,11 +170,11 @@
   "TileColour": "bviolet",
   "CountMessage": "",
   "Entity": "",
-  "Partial": "",
+  "Partial": "partial/soalan-indeks-bimbingan-kerjaya",
   "CreatedBy": "admin",
   "Id": "indeks-bimbingan-kerjaya",
   "CreatedDate": "2015-06-05T10:14:02.1400355+08:00",
   "ChangedBy": "admin",
-  "ChangedDate": "2015-06-05T10:14:02.1380355+08:00",
+  "ChangedDate": "2015-06-15T08:10:51.7075193+08:00",
   "WebId": "38e6ae7a-002d-4780-d67c-faea94d5b459"
 }

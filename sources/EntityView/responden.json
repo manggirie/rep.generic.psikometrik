@@ -55,6 +55,91 @@
         "Format": "text:{0}",
         "RouteValueField": "",
         "WebId": "c32139bc-0760-4e5c-be42-cf5cd59fd0b7"
+      },
+      {
+        "$type": "Bespoke.Sph.Domain.ViewColumn, domain.sph",
+        "ConditionalFormattingCollection": {
+          "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.Sph.Domain.ConditionalFormatting, domain.sph]], domain.sph",
+          "$values": []
+        },
+        "Path": "Agensi",
+        "Header": "Agensi",
+        "Sort": "",
+        "IsLinkColumn": false,
+        "FormRoute": null,
+        "IconCssClass": "",
+        "IconStoreId": "",
+        "Format": "text:{0}",
+        "RouteValueField": "",
+        "WebId": "3643e961-b06b-4c66-ff3e-43ca79460563"
+      },
+      {
+        "$type": "Bespoke.Sph.Domain.ViewColumn, domain.sph",
+        "ConditionalFormattingCollection": {
+          "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.Sph.Domain.ConditionalFormatting, domain.sph]], domain.sph",
+          "$values": []
+        },
+        "Path": "Emel",
+        "Header": "Emel",
+        "Sort": "",
+        "IsLinkColumn": false,
+        "FormRoute": null,
+        "IconCssClass": "",
+        "IconStoreId": "",
+        "Format": "text:{0}",
+        "RouteValueField": "",
+        "WebId": "41507998-dd62-42ef-a03e-6ff21e2306c7"
+      },
+      {
+        "$type": "Bespoke.Sph.Domain.ViewColumn, domain.sph",
+        "ConditionalFormattingCollection": {
+          "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.Sph.Domain.ConditionalFormatting, domain.sph]], domain.sph",
+          "$values": []
+        },
+        "Path": "JenisPerkhidmatan",
+        "Header": "Jenis Perkhidmatan",
+        "Sort": "",
+        "IsLinkColumn": false,
+        "FormRoute": null,
+        "IconCssClass": "",
+        "IconStoreId": "",
+        "Format": "text:{0}",
+        "RouteValueField": "",
+        "WebId": "b394a3d5-b605-4568-91fe-3714ef22b0d4"
+      },
+      {
+        "$type": "Bespoke.Sph.Domain.ViewColumn, domain.sph",
+        "ConditionalFormattingCollection": {
+          "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.Sph.Domain.ConditionalFormatting, domain.sph]], domain.sph",
+          "$values": []
+        },
+        "Path": "KumpulanJawatan",
+        "Header": "Kumpulan Jawatan",
+        "Sort": "",
+        "IsLinkColumn": false,
+        "FormRoute": null,
+        "IconCssClass": "",
+        "IconStoreId": "",
+        "Format": "text:{0}",
+        "RouteValueField": "",
+        "WebId": "be179e45-ebb3-4c5f-d8a9-b17404a24a2f"
+      },
+      {
+        "$type": "Bespoke.Sph.Domain.ViewColumn, domain.sph",
+        "ConditionalFormattingCollection": {
+          "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.Sph.Domain.ConditionalFormatting, domain.sph]], domain.sph",
+          "$values": []
+        },
+        "Path": "Skim",
+        "Header": "Skim",
+        "Sort": "",
+        "IsLinkColumn": false,
+        "FormRoute": null,
+        "IconCssClass": "",
+        "IconStoreId": "",
+        "Format": "text:{0}",
+        "RouteValueField": "",
+        "WebId": "f3242b29-2f68-410d-ab4c-10b6be4409ea"
       }
     ]
   },
@@ -82,7 +167,7 @@
   "EntityDefinitionId": "pengguna",
   "Name": "Senarai Responden",
   "Route": "responden",
-  "Note": "",
+  "Note": "Senarai semua responden",
   "Query": "",
   "IsPublished": true,
   "Visibilty": "",
@@ -94,6 +179,6 @@
   "Id": "responden",
   "CreatedDate": "2015-06-01T18:46:54.311415+08:00",
   "ChangedBy": "admin",
-  "ChangedDate": "2015-06-05T11:25:57.977045+08:00",
+  "ChangedDate": "2015-06-13T12:07:31.7103007+08:00",
   "WebId": "110610b5-c847-4b71-c598-0a52a231d433"
 }

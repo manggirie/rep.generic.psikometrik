@@ -2,9 +2,9 @@
     define([objectbuilders.datacontext, objectbuilders.logger, objectbuilders.router,
         objectbuilders.system, objectbuilders.validation, objectbuilders.eximp,
         objectbuilders.dialog, objectbuilders.watcher, objectbuilders.config,
-        objectbuilders.app ],
+        objectbuilders.app ,'partial/pengguna-details'],
         function (context, logger, router, system, validation, eximp, dialog, watcher,config,app
-            ) {
+            ,partial) {
 
             var entity = ko.observable(new bespoke.epsikologi_pengguna.domain.Pengguna({WebId:system.guid()})),
                 errors = ko.observableArray(),
@@ -33,7 +33,16 @@
                         form(f);
                         watching(w);
                         i18n = n[0];
-                            tcs.resolve(true);
+                            
+                            if(typeof partial.activate === "function"){
+                                var pt = partial.activate(entity());
+                                if(typeof pt.done === "function"){
+                                    pt.done(tcs.resolve);
+                                }else{
+                                    tcs.resolve(true);
+                                }
+                            }
+                            
                         
                     });
 
@@ -69,11 +78,45 @@
                          });
                      return tcs.promise();
                  },
+                tarikhKemaskiniNow = function(){
+
+                     if (!validation.valid()) {
+                         return Task.fromResult(false);
+                     }
+
+                     var tcs = new $.Deferred(),
+                         data = ko.mapping.toJSON(entity);
+
+                     context.post(data, "/Pengguna/TarikhKemaskiniNow" )
+                         .then(function (result) {
+                             if (result.success) {
+                                 logger.info(result.message);
+                                 entity().Id(result.id);
+                                 errors.removeAll();
+
+                                 
+                             } else {
+                                 errors.removeAll();
+                                 _(result.rules).each(function(v){
+                                     errors(v.ValidationErrors);
+                                 });
+                                 logger.error("There are errors in your entity, !!!");
+                             }
+                             tcs.resolve(result);
+                         });
+                     return tcs.promise();
+                 },
                 attached = function (view) {
                     // validation
                     validation.init($('#pengguna-details-form'), form());
 
 
+                        
+                    if(typeof partial.attached === "function"){
+                        partial.attached(view);
+                    }
+
+                    
 
                 },
                 compositionComplete = function() {
@@ -100,7 +143,7 @@
                         .then(function(result) {
                             tcs.resolve(result);
                             entity().Id(result.id);
-                            app.showMessage("Your Pengguna has been successfully saved", "epsikologi", ["ok"]);
+                            app.showMessage("Your Pengguna has been successfully saved", "JPA Sistem Ujian e-Psikometrik", ["ok"]);
 
                         });
                     
@@ -129,6 +172,9 @@
                 };
 
             var vm = {
+                            
+                            partial : partial,
+                            
                                     activate: activate,
                 config: config,
                 attached: attached,
@@ -137,6 +183,7 @@
                 errors: errors,
                 save : save,
                     dateNow : dateNow,
+                    tarikhKemaskiniNow : tarikhKemaskiniNow,
                 //
 
 
@@ -154,7 +201,7 @@
                         return entity().Id();
                     }),
                                                                 
-                    saveCommand : dateNow,
+                    saveCommand : tarikhKemaskiniNow,
                     
                     commands : ko.observableArray([])
                 }

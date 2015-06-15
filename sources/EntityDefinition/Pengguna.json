@@ -764,9 +764,9 @@
   },
   "Performer": {
     "$type": "Bespoke.Sph.Domain.Performer, domain.sph",
-    "UserProperty": "",
-    "Value": "",
-    "IsPublic": true,
+    "UserProperty": "Roles",
+    "Value": "PengurusanPengguna",
+    "IsPublic": false,
     "WebId": null
   },
   "Name": "Pengguna",
@@ -780,6 +780,6 @@
   "Id": "pengguna",
   "CreatedDate": "2015-06-01T18:46:54.2394133+08:00",
   "ChangedBy": "admin",
-  "ChangedDate": "2015-06-05T10:21:58.4671263+08:00",
+  "ChangedDate": "2015-06-13T12:17:07.1287112+08:00",
   "WebId": "01c666ac-ab68-4416-9d69-a716a003c902"
 }

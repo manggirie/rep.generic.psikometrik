@@ -1,0 +1,243 @@
+{
+  "$type": "Bespoke.Sph.Domain.WorkflowDefinition, domain.sph",
+  "ActivityCollection": {
+    "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.Sph.Domain.Activity, domain.sph]], domain.sph",
+    "$values": [
+      {
+        "$type": "Bespoke.Sph.Domain.ExpressionActivity, domain.sph",
+        "Expression": "this.Password = Guid.NewGuid().ToString();\n\nvar context = new SphDataContext();\nvar designation = await context.LoadOneAsync<Designation>(d => d.Name == \"Responden\");\nvar roles = designation.RoleCollection.ToArray();\nvar profile = new UserProfile {\n        Id = Guid.NewGuid().ToString(),\n        UserName = this.Pengguna.MyKad,\n        Email = this.Pengguna.Emel,\n        FullName = this.Pengguna.Nama,\n        Designation = \"Responden\",\n        HasChangedDefaultPassword = false,\n        RoleTypes = string.Join(\",\",roles),\n        StartModule = designation.StartModule\n    };\nvar exist = System.Web.Security.Membership.GetUser(profile.UserName);\nConsole.WriteLine(\"done mapping user profile\");\n\nif(null == exist)\n{\n    System.Web.Security.Membership.CreateUser(profile.UserName, this.Password, profile.Email);\n    System.Web.Security.Roles.AddUserToRoles(profile.UserName, roles); \n    \n    Console.WriteLine(\"insert into user profile\");\n    using(var session = context.OpenSession())\n    {\n        session.Attach(profile);\n        await session.SubmitChanges();\n    }\n    \n    //IsCreated = true;\n}\n            ",
+        "IsAsync": false,
+        "ExecutedCode": null,
+        "ExecutingCode": null,
+        "TypeName": "Expression",
+        "OtherMethodCollection": {
+          "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.Sph.Domain.Codes.Method, domain.sph]], domain.sph",
+          "$values": []
+        },
+        "WorkflowDesigner": {
+          "$type": "Bespoke.Sph.Domain.WorkflowDesigner, domain.sph",
+          "X": 57,
+          "Y": 63,
+          "WebId": null
+        },
+        "IsInitiator": true,
+        "NextActivityWebId": "41cddfd4-0781-44b1-db25-cbef78c61352",
+        "Name": "CreateProfileAndMembership",
+        "TryScope": null,
+        "CatchScope": null,
+        "WebId": "6527072e-1302-4de8-cdbe-52968cfea0a4"
+      },
+      {
+        "$type": "Bespoke.Sph.Domain.EndActivity, domain.sph",
+        "IsTerminating": false,
+        "IsAsync": false,
+        "ExecutedCode": null,
+        "ExecutingCode": null,
+        "TypeName": "End",
+        "OtherMethodCollection": {
+          "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.Sph.Domain.Codes.Method, domain.sph]], domain.sph",
+          "$values": []
+        },
+        "WorkflowDesigner": {
+          "$type": "Bespoke.Sph.Domain.WorkflowDesigner, domain.sph",
+          "X": 12,
+          "Y": 487,
+          "WebId": null
+        },
+        "IsInitiator": false,
+        "NextActivityWebId": null,
+        "Name": "End_1",
+        "TryScope": null,
+        "CatchScope": null,
+        "WebId": "56dd17a3-d01d-44d6-a2c1-d1fb0587655e"
+      },
+      {
+        "$type": "Bespoke.Sph.Domain.NotificationActivity, domain.sph",
+        "From": "admin@@sph.my",
+        "Subject": "JPA ePsikometrik account has been created",
+        "Body": "Salam sejahtera,\n\nYour account has been created you can reach the application at \nYou user name is @Model.Pengguna.MyKad and your password is @Model.Password\n\nYou may have to change your password upon first time signing in.\n\nThis is a computer generated email.",
+        "To": "@Model.Pengguna.Emel",
+        "UserName": null,
+        "Cc": null,
+        "Bcc": null,
+        "IsHtmlEmail": false,
+        "IsAsync": false,
+        "ExecutedCode": null,
+        "ExecutingCode": null,
+        "TypeName": "Notification",
+        "OtherMethodCollection": {
+          "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.Sph.Domain.Codes.Method, domain.sph]], domain.sph",
+          "$values": [
+            {
+              "$type": "Bespoke.Sph.Domain.Codes.Method, domain.sph",
+              "Comment": null,
+              "AccessModifier": "Internal",
+              "ReturnType": null,
+              "Name": null,
+              "FileName": null,
+              "Code": "   private async Task<string> TransformFromEmailPenggunaAsync(string template)\r\n   {\r\n\r\n            var razor = ObjectBuilder.GetObject<ITemplateEngine>();\r\n            return await razor.GenerateAsync(template, this).ConfigureAwait(false);   }\r\n",
+              "Body": null,
+              "IsVirtual": false,
+              "IsOverride": false,
+              "IsStatic": false,
+              "ArgumentCollection": {
+                "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.Sph.Domain.MethodArg, domain.sph]], domain.sph",
+                "$values": []
+              },
+              "AttributeCollection": {
+                "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[System.String, mscorlib]], domain.sph",
+                "$values": []
+              }
+            },
+            {
+              "$type": "Bespoke.Sph.Domain.Codes.Method, domain.sph",
+              "Comment": null,
+              "AccessModifier": "Internal",
+              "ReturnType": null,
+              "Name": null,
+              "FileName": null,
+              "Code": "   private async Task<string> TransformToEmailPenggunaAsync(string template)\r\n   {\r\n\r\n            var razor = ObjectBuilder.GetObject<ITemplateEngine>();\r\n            return await razor.GenerateAsync(template, this).ConfigureAwait(false);   }\r\n",
+              "Body": null,
+              "IsVirtual": false,
+              "IsOverride": false,
+              "IsStatic": false,
+              "ArgumentCollection": {
+                "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.Sph.Domain.MethodArg, domain.sph]], domain.sph",
+                "$values": []
+              },
+              "AttributeCollection": {
+                "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[System.String, mscorlib]], domain.sph",
+                "$values": []
+              }
+            },
+            {
+              "$type": "Bespoke.Sph.Domain.Codes.Method, domain.sph",
+              "Comment": null,
+              "AccessModifier": "Internal",
+              "ReturnType": null,
+              "Name": null,
+              "FileName": null,
+              "Code": "   private async Task<string> TransformSubjectEmailPenggunaAsync(string template)\r\n   {\r\n\r\n            var razor = ObjectBuilder.GetObject<ITemplateEngine>();\r\n            return await razor.GenerateAsync(template, this).ConfigureAwait(false);   }\r\n",
+              "Body": null,
+              "IsVirtual": false,
+              "IsOverride": false,
+              "IsStatic": false,
+              "ArgumentCollection": {
+                "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.Sph.Domain.MethodArg, domain.sph]], domain.sph",
+                "$values": []
+              },
+              "AttributeCollection": {
+                "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[System.String, mscorlib]], domain.sph",
+                "$values": []
+              }
+            },
+            {
+              "$type": "Bespoke.Sph.Domain.Codes.Method, domain.sph",
+              "Comment": null,
+              "AccessModifier": "Internal",
+              "ReturnType": null,
+              "Name": null,
+              "FileName": null,
+              "Code": "   private async Task<string> TransformBodyEmailPenggunaAsync(string template)\r\n   {\r\n\r\n            var razor = ObjectBuilder.GetObject<ITemplateEngine>();\r\n            return await razor.GenerateAsync(template, this).ConfigureAwait(false);   }\r\n",
+              "Body": null,
+              "IsVirtual": false,
+              "IsOverride": false,
+              "IsStatic": false,
+              "ArgumentCollection": {
+                "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.Sph.Domain.MethodArg, domain.sph]], domain.sph",
+                "$values": []
+              },
+              "AttributeCollection": {
+                "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[System.String, mscorlib]], domain.sph",
+                "$values": []
+              }
+            }
+          ]
+        },
+        "WorkflowDesigner": {
+          "$type": "Bespoke.Sph.Domain.WorkflowDesigner, domain.sph",
+          "X": 279,
+          "Y": 275,
+          "WebId": null
+        },
+        "IsInitiator": false,
+        "NextActivityWebId": "56dd17a3-d01d-44d6-a2c1-d1fb0587655e",
+        "Name": "Email Pengguna",
+        "TryScope": null,
+        "CatchScope": null,
+        "WebId": "41cddfd4-0781-44b1-db25-cbef78c61352"
+      }
+    ]
+  },
+  "VariableDefinitionCollection": {
+    "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.Sph.Domain.Variable, domain.sph]], domain.sph",
+    "$values": [
+      {
+        "$type": "Bespoke.Sph.Domain.ClrTypeVariable, domain.sph",
+        "Assembly": "",
+        "CanInitiateWithDefaultConstructor": true,
+        "Name": "Pengguna",
+        "TypeName": "Bespoke.epsikologi_pengguna.Domain.Pengguna, epsikologi.Pengguna",
+        "DefaultValue": "",
+        "WebId": "bd0f2faf-7b3d-425f-d166-a4a85b7610a4"
+      },
+      {
+        "$type": "Bespoke.Sph.Domain.SimpleVariable, domain.sph",
+        "Name": "Password",
+        "TypeName": "System.String, mscorlib",
+        "DefaultValue": "",
+        "WebId": "c3cb3381-b91e-4476-df7f-82fd1ece5287"
+      }
+    ]
+  },
+  "ReferencedAssemblyCollection": {
+    "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.Sph.Domain.ReferencedAssembly, domain.sph]], domain.sph",
+    "$values": [
+      {
+        "$type": "Bespoke.Sph.Domain.ReferencedAssembly, domain.sph",
+        "Name": "epsikologi.Pengguna",
+        "FullName": "epsikologi.Pengguna, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+        "Version": "0.0.0.0",
+        "Location": "D:\\temp\\ti2\\web\\bin\\epsikologi.Pengguna.dll",
+        "IsGac": false,
+        "IsStrongName": false,
+        "RuntimeVersion": "v4.0.30319",
+        "WebId": null
+      },
+      {
+        "$type": "Bespoke.Sph.Domain.ReferencedAssembly, domain.sph",
+        "Name": "System.Web.ApplicationServices",
+        "FullName": "System.Web.ApplicationServices, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35",
+        "Version": "4.0.0.0",
+        "Location": "C:\\WINDOWS\\Microsoft.Net\\assembly\\GAC_MSIL\\System.Web.ApplicationServices\\v4.0_4.0.0.0__31bf3856ad364e35\\System.Web.ApplicationServices.dll",
+        "IsGac": true,
+        "IsStrongName": false,
+        "RuntimeVersion": "v4.0.30319",
+        "WebId": null
+      }
+    ]
+  },
+  "CorrelationSetCollection": {
+    "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.Sph.Domain.CorrelationSet, domain.sph]], domain.sph",
+    "$values": []
+  },
+  "CorrelationTypeCollection": {
+    "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.Sph.Domain.CorrelationType, domain.sph]], domain.sph",
+    "$values": []
+  },
+  "TryScopeCollection": {
+    "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.Sph.Domain.TryScope, domain.sph]], domain.sph",
+    "$values": []
+  },
+  "Name": "Creates membership for new responden",
+  "Note": "Called from trigger when a new Pengguna is added and IsReponden is true",
+  "IsActive": true,
+  "SchemaStoreId": "1a3bbf14-1a2e-4f55-a853-cc1ff753310c",
+  "Version": 0,
+  "CreatedBy": "admin",
+  "Id": "creates-membership-for-new-responden",
+  "CreatedDate": "2015-06-13T12:48:36.2563838+08:00",
+  "ChangedBy": "admin",
+  "ChangedDate": "2015-06-13T17:26:00.3276496+08:00",
+  "WebId": "79cadf36-6a53-4c66-d9fc-3f21a5b318ff"
+}

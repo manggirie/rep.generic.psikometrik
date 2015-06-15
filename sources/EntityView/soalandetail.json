@@ -47,6 +47,40 @@
           "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.Sph.Domain.ConditionalFormatting, domain.sph]], domain.sph",
           "$values": []
         },
+        "Path": "TeksSoalan",
+        "Header": "Soalan",
+        "Sort": "",
+        "IsLinkColumn": false,
+        "FormRoute": null,
+        "IconCssClass": "",
+        "IconStoreId": "",
+        "Format": "text:{0}",
+        "RouteValueField": "",
+        "WebId": "7885fef1-92a3-4b28-8caa-45aa204e7476"
+      },
+      {
+        "$type": "Bespoke.Sph.Domain.ViewColumn, domain.sph",
+        "ConditionalFormattingCollection": {
+          "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.Sph.Domain.ConditionalFormatting, domain.sph]], domain.sph",
+          "$values": []
+        },
+        "Path": "NamaUjian",
+        "Header": "Nama Ujian",
+        "Sort": "",
+        "IsLinkColumn": false,
+        "FormRoute": null,
+        "IconCssClass": "",
+        "IconStoreId": "",
+        "Format": "text:{0}",
+        "RouteValueField": "",
+        "WebId": "8c9851fc-4e2e-4211-ac50-652aebc21dbe"
+      },
+      {
+        "$type": "Bespoke.Sph.Domain.ViewColumn, domain.sph",
+        "ConditionalFormattingCollection": {
+          "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.Sph.Domain.ConditionalFormatting, domain.sph]], domain.sph",
+          "$values": []
+        },
         "Path": "SeksyenSoalan",
         "Header": "Seksyen Soalan",
         "Sort": "",
@@ -64,8 +98,8 @@
           "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.Sph.Domain.ConditionalFormatting, domain.sph]], domain.sph",
           "$values": []
         },
-        "Path": "TeksSoalan",
-        "Header": "Soalan",
+        "Path": "Susunan",
+        "Header": "Susunan",
         "Sort": "",
         "IsLinkColumn": false,
         "FormRoute": null,
@@ -73,13 +107,32 @@
         "IconStoreId": "",
         "Format": "text:{0}",
         "RouteValueField": "",
-        "WebId": "7885fef1-92a3-4b28-8caa-45aa204e7476"
+        "WebId": "e66297f0-9bda-4c8e-a8e9-d3aabe37b574"
       }
     ]
   },
   "SortCollection": {
     "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.Sph.Domain.Sort, domain.sph]], domain.sph",
-    "$values": []
+    "$values": [
+      {
+        "$type": "Bespoke.Sph.Domain.Sort, domain.sph",
+        "Path": "NamaUjian",
+        "Direction": "Asc",
+        "WebId": "f87a407f-678c-4025-a008-20ffd29c9633"
+      },
+      {
+        "$type": "Bespoke.Sph.Domain.Sort, domain.sph",
+        "Path": "SeksyenSoalan",
+        "Direction": "Asc",
+        "WebId": "6d862b8e-6938-4fd5-87cb-e007386637e6"
+      },
+      {
+        "$type": "Bespoke.Sph.Domain.Sort, domain.sph",
+        "Path": "Susunan",
+        "Direction": "Asc",
+        "WebId": "9d0f579b-015c-47bc-c114-d88fa2e2c7d7"
+      }
+    ]
   },
   "ConditionalFormattingCollection": {
     "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.Sph.Domain.ConditionalFormatting, domain.sph]], domain.sph",
@@ -113,6 +166,6 @@
   "Id": "soalandetail",
   "CreatedDate": "2015-06-05T10:14:02.1460365+08:00",
   "ChangedBy": "admin",
-  "ChangedDate": "2015-06-05T10:14:02.1460365+08:00",
+  "ChangedDate": "2015-06-13T08:37:36.0241545+08:00",
   "WebId": "d14e40d2-7c0d-48db-dbaf-246c57839c8e"
 }

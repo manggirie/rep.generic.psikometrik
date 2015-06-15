@@ -1,0 +1,27 @@
+{
+  "$type": "Bespoke.Sph.Domain.Designation, domain.sph",
+  "Title": null,
+  "Owner": null,
+  "Option": 0,
+  "RoleCollection": {
+    "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[System.String, mscorlib]], domain.sph",
+    "$values": [
+      "administrators",
+      "developers",
+      "PengurusanPengguna",
+      "Penyelaras",
+      "Responden",
+      "Urusetia"
+    ]
+  },
+  "Name": "Developer",
+  "Description": "",
+  "IsActive": false,
+  "StartModule": "dev.home",
+  "CreatedBy": "admin",
+  "Id": "developer",
+  "CreatedDate": "2015-06-13T17:22:32.6229932+08:00",
+  "ChangedBy": "admin",
+  "ChangedDate": "2015-06-13T17:24:27.1443822+08:00",
+  "WebId": "e5bfdb77-10a7-49c4-8708-b713ffa6931d"
+}

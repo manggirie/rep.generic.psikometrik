@@ -12,3 +12,7 @@ tools/
 subscribers/
 subscribers.host/
 control.center/
+10305/
+[0-9]{5}.ps1
+\d{5}.ps1
+103*.ps1

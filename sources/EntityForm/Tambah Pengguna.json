@@ -1354,8 +1354,8 @@
     "$values": []
   },
   "EntityDefinitionId": "pengguna",
-  "Name": "Pengguna details",
-  "Route": "pengguna-details",
+  "Name": "Tambah Pengguna",
+  "Route": "tambah-pengguna",
   "Note": null,
   "IsAllowedNewItem": true,
   "IconClass": "fa fa-plus-square",
@@ -1372,12 +1372,12 @@
   "Operation": "TarikhKemaskiniNow",
   "Entity": "Pengguna",
   "Partial": "partial/pengguna-details",
-  "Caption": null,
+  "Caption": "Tambah Pengguna Baru",
   "Layout": null,
   "CreatedBy": "admin",
   "Id": "a4e13c65-28ce-4b73-a9e4-4e43b2ddfb57",
   "CreatedDate": "2015-06-01T18:46:54.2464115+08:00",
   "ChangedBy": "admin",
-  "ChangedDate": "2015-06-01T18:46:54.2464115+08:00",
+  "ChangedDate": "2015-06-13T12:13:14.9146254+08:00",
   "WebId": "4e32950c-7d95-4b44-983c-3c3e67811ded"
 }
