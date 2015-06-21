@@ -14,7 +14,7 @@
     "startPageRoute": null
   },
   {
-    "role": "responden",
+    "role": "AmbilUjian",
     "groupName": null,
     "route": "responden-home",
     "moduleId": "viewmodels/responden-home",
@@ -28,7 +28,7 @@
     "startPageRoute": null
   },
   {
-    "role": "responden",
+    "role": "AmbilUjian",
     "groupName": null,
     "route": "mula-sesi-ujian/:id",
     "moduleId": "viewmodels/mula-sesi-ujian",
