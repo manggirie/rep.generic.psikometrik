@@ -19,31 +19,16 @@
     <meta name="description" content="The description of my page" />
 
     <meta name="viewport" content="width=device-width" />
-    <title>Index</title>
+    <title>ePsikometrik</title>
 </head>
 <body>
-    <div>
-        <h1>This is temporary home page, you should replace it with your own</h1>
-        <p>This page will redirect to the developers page in <span class="badge badge-important" id="seconds">3</span> seconds</p>
-        <div>
-            <a href="/docs/index.html">
-                <i class="fa fa-question-circle fa-4x"></i>
-                Go to the documentation instead
-            </a>
-
-        </div>
+    <div align="center">
+        <img src="/images/logo_bpps2.png" />
+        <img src="/images/brain.png">
+        <p>
+            <a href="/Sph/SphAccount/Login" class="btn btn-primary">Log Masuk Sistem ePsikologi</a>
+        </p>
     </div>
-    <script type="text/javascript">
 
-        var span = document.getElementById("seconds"),
-            seconds = 3;
-        var sc = setInterval(function () {
-            span.innerText = seconds--;
-            if (seconds === 0) {
-                clearInterval(sc);
-                window.location = "/sph#dev.home";
-            }
-        }, 1000);
-    </script>
 </body>
 </html>
