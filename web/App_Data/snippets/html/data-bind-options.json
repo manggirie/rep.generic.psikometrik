@@ -1,0 +1,6 @@
+{
+  "lang": "html",
+  "title": "data-bind-options",
+  "note": "select",
+  "code": "<select data-bind=\"options : ${1:list}, optionsCaption:'Select a value'\"></select>"
+}
