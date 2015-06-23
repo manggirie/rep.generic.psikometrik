@@ -14,11 +14,27 @@ namespace web.sph.App_Code
     [RoutePrefix("urusetia-report")]
     public class UrusetiaReportController : Controller
     {
+        public UrusetiaReportController()
+        {    
+
+            ObjectBuilder.AddCacheList<IRepository<Bespoke.epsikologi_permohonan.Domain.Permohonan>>(
+                    new Bespoke.Sph.SqlRepository.SqlRepository<Bespoke.epsikologi_permohonan.Domain.Permohonan>());
+
+            ObjectBuilder.AddCacheList<IRepository<Bespoke.epsikologi_ujian.Domain.Ujian>>(
+                    new Bespoke.Sph.SqlRepository.SqlRepository<Bespoke.epsikologi_ujian.Domain.Ujian>());
+                      
+            ObjectBuilder.AddCacheList<IRepository<Bespoke.epsikologi_sesiujian.Domain.SesiUjian>>(
+                    new Bespoke.Sph.SqlRepository.SqlRepository<Bespoke.epsikologi_sesiujian.Domain.SesiUjian>());
+                      
+            ObjectBuilder.AddCacheList<IRepository<Bespoke.epsikologi_soalan.Domain.Soalan>>(
+                    new Bespoke.Sph.SqlRepository.SqlRepository<Bespoke.epsikologi_soalan.Domain.Soalan>());
+                      
+        }
+
         [HttpPost]
         [Route("")]
         public async Task<ActionResult> Program(ProgramReportModel model)
         {
-            await RegisterCustomEntityDependencies();
             var context = new SphDataContext();
             var no = string.Format("{0}/{1}/{2}/{3}", model.Program, model.Bil, model.Siri, model.Tahun);
             var permohonan = await context.LoadOneAsync<Bespoke.epsikologi_permohonan.Domain.Permohonan>(x => x.PermohonanNo == no);
@@ -49,7 +65,7 @@ namespace web.sph.App_Code
             var traits = soalans.Select(s => s.Trait).Distinct().OrderBy(s =>s).ToArray();
 
             var html = new StringBuilder();
-            html.AppendLine("<table class=\"table table-striped\">");
+            html.AppendLine("<table class=\"table table-striped table-bordered\">");
             html.AppendLine("   <thead>");
             html.AppendLine("       <tr>");
             html.AppendLine("           <th>Nama</th>");
@@ -67,7 +83,7 @@ namespace web.sph.App_Code
             {
                 html.AppendLine("   <tr>");
                 html.AppendLine("   <td>" + s.NamaPengguna + "</td>");
-                html.AppendLine("   <td>" + s.TarikhUjian + "</td>"); 
+                html.AppendFormat("   <td>{0:dd/MM/yyyy HH:mm}</td>", s.TarikhUjian); 
                 foreach(var t in traits)
                 {
                     var t1 = t;
@@ -76,8 +92,8 @@ namespace web.sph.App_Code
                 }
                 html.AppendFormat(@"   
                     <td>
-                        <a class=""btn btn-default"" target=""_blank"" href=""print/laporan-sesi-ujian/{0}""> <i class=""fa fa-print""></i> Tret</a>
-                        <a class=""btn btn-default"" target=""_blank"" href=""print/indikator/{0}""> <i class=""fa fa-print""></i> Indikator</a>
+                        <a class=""btn btn-default"" target=""_blank"" href=""print-laporan/trait/{0}""> <i class=""fa fa-print""></i> Tret</a>
+                        <a class=""btn btn-default"" target=""_blank"" href=""print-laporan/indikator/{0}""> <i class=""fa fa-print""></i> Indikator</a>
                     </td>", s.Id); 
                 html.AppendLine("   </tr>");
             }
@@ -116,61 +132,6 @@ namespace web.sph.App_Code
         }
 
 
-
-        public async Task RegisterCustomEntityDependencies()
-        {
-            var sqlAssembly = Assembly.Load("sql.repository");
-            var sqlRepositoryType = sqlAssembly.GetType("Bespoke.Sph.SqlRepository.SqlRepository`1");
-
-            var context = new SphDataContext();
-            var query = context.EntityDefinitions.Where(e => e.IsPublished == true);
-            var lo = await context.LoadAsync(query, includeTotalRows: true);
-            var entityDefinitions = new ObjectCollection<EntityDefinition>(lo.ItemCollection);
-            while (lo.HasNextPage)
-            {
-                lo = await context.LoadAsync(query, includeTotalRows: true, page: lo.CurrentPage + 1);
-                entityDefinitions.AddRange(lo.ItemCollection);
-            }
-
-            var bags = new ConcurrentDictionary<Type, object>();
-
-            Parallel.ForEach(entityDefinitions, (ed, count) =>
-            {
-                var ed1 = ed;
-                try
-                {
-                    var edAssembly = Assembly.Load(ConfigurationManager.ApplicationName + "." + ed1.Name);
-                    var edTypeName = string.Format("Bespoke.{0}_{1}.Domain.{2}", ConfigurationManager.ApplicationName,ed1.Id, ed1.Name);
-                    var edType = edAssembly.GetType(edTypeName);
-                    if (null == edType)
-                        Console.WriteLine("Cannot create type " + edTypeName);
-
-                    var reposType = sqlRepositoryType.MakeGenericType(edType);
-                    var repository = Activator.CreateInstance(reposType);
-
-                    var ff = typeof(IRepository<>).MakeGenericType(edType);
-                    bags.AddOrReplace(ff, repository);
-                }
-                catch (FileNotFoundException e)
-                {
-                    Debug.WriteLine(e);
-                }
-            });
-            foreach (var type in bags.Keys)
-            {
-                ObjectBuilder.AddCacheList(type, bags[type]);
-            }
-
-        }
-
     }
 
-    public class ProgramReportModel
-    {
-        public int Siri {get;set;}
-        public int Tahun {get;set;}
-        public int Bil {get;set;}
-        public string Ujian {get;set;}
-        public string Program {get; set;}
-    }
 }

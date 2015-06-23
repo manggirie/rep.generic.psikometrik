@@ -48,7 +48,7 @@ namespace Bespoke.epsikologi_sesiujian.Domain
         }
         //exec:SubmitSesiUjian
         [HttpPost]
-        [Authorize(Roles = "Responden")]
+        [Authorize(Roles = "Responden,AmbilUjian")]
         public async Task<System.Web.Mvc.ActionResult> SubmitSesiUjian([RequestBody]SesiUjian item)
         {
             var context = new Bespoke.Sph.Domain.SphDataContext();

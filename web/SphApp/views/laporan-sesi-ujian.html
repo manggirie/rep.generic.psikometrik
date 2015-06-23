@@ -24,6 +24,7 @@
         <div class="col-lg-6">
           <input type="text" data-bind="value: bil" 
                 required  
+                required pattern="[0-9]{1,4}"  
                 placeholder="Bil programm"
                 class="form-control" id="bil-program"/>
         </div>
@@ -34,6 +35,7 @@
         <div class="col-lg-6">
           <input type="text" data-bind="value: siri" 
                 required  
+                required pattern="[0-9]{1,4}"  
                 placeholder="No siri program"
                 class="form-control" id="siri-program"/>
         </div>
@@ -43,7 +45,7 @@
         <label for="tahun" class="col-lg-2 control-label">Tahun Program</label>
         <div class="col-lg-6">
           <input type="text" data-bind="value: tahun" 
-                required  
+                required pattern="[0-9]{4}"  
                 placeholder="Tahun Program"
                 class="form-control" id="tahun"/>
         </div>
