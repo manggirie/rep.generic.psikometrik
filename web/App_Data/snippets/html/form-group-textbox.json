@@ -1,0 +1,6 @@
+{
+  "lang": "html",
+  "title": "form-group-textbox",
+  "note": null,
+  "code": "<div class=\"form-group\">\n    <label for=\"${1:Id}\" class=\"col-lg-2 control-label\">${2:LABEL}</label>\n    <div class=\"col-lg-6\">\n      <input type=\"text\" data-bind=\"value: ${3:PROPERTY}\" \n\t\t\trequired  \n\t\t\tplaceholder=\"${4:placeholder}\"\n\t\t\tclass=\"form-control\" id=\"${1:Id}\"/>\n    </div>\n</div>"
+}

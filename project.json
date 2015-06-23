@@ -10,14 +10,14 @@
   "rabbitMqDirectory": ".\\rabbitmq_server",
   "rabbitMqUserName": "guest",
   "rabbitMqPassword": "guest",
-  "javaHome": "C:\\Program Files\\Java\\jdk1.8.0_45",
-  "elasticSearchJar": "C:\\project\\rep.generic.psikometrik\\elasticsearch\\lib\\elasticsearch-1.6.0.jar",
+  "javaHome": "D:\\Program Files\\Java\\jdk1.8.0_31",
+  "elasticSearchJar": "C:\\project\\rep.generik.psikometrik\\elasticsearch\\lib\\elasticsearch-1.3.2.jar",
   "websitePort": 50230,
   "rabbitMqHost": "localhost",
   "rabbitMqPort": 5672,
   "rabbitMqManagementPort": 15672,
   "loggerWebSocketPort": 50238,
-  "projectDirectory": "C:\\project\\rep.generic.psikometrik",
+  "projectDirectory": "C:\\project\\rep.generik.psikometrik",
   "updateUri": "http://staging.reactivedeveloper.com/updates",
-  "rabbitMqBase": "C:\\project\\rep.generic.psikometrik\\rabbitmq_base"
+  "rabbitMqBase": "C:\\project\\rep.generik.psikometrik\\rabbitmq_base"
 }
