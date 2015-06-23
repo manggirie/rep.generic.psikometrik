@@ -44,15 +44,18 @@
 
     <div data-bind="visible:true" class="form-group">
         <label data-i18n="My Kad" for="68869965-e6c7-484a-97ca-e21f2f7ec5b1" class="col-md-4">My Kad</label>
-    
-        
+
+        <script type="text/json" id="filter-68869965-e6c7-484a-97ca-e21f2f7ec5b1">
+            
+        </script>
+
 
         <div class="col-md-8">
             <a class="btn btn-link" 
                data-bind="tooltip :'',lookup : {entity: 'Pengguna', member : 'MyKad', value : MyKad, columns : ['MyKad','Nama']}"
                id="68869965-e6c7-484a-97ca-e21f2f7ec5b1">
-                         <!-- ko lookupText: { entity : 'Pengguna', value : MyKad, valuePath :'MyKad', displayPath : 'MyKad'} -->
-                            <!-- /ko -->
+                     <!-- ko text: MyKad -->
+                     <!-- /ko -->
                 <i class="fa fa-search"></i>
             </a>
         </div>
@@ -62,15 +65,18 @@
 
     <div data-bind="visible:true" class="form-group">
         <label data-i18n="Nama Program" for="c2992849-4659-46ec-982c-1967a4446b09" class="col-md-4">Nama Program</label>
-    
-        
+
+        <script type="text/json" id="filter-c2992849-4659-46ec-982c-1967a4446b09">
+            
+        </script>
+
 
         <div class="col-md-8">
             <a class="btn btn-link" 
                data-bind="tooltip :'',lookup : {entity: 'permohonan', member : 'nama_permohonan', value : NamaProgram, columns : ['nama_permohonan','bil_program','siri_program','tahun_program']}"
                id="c2992849-4659-46ec-982c-1967a4446b09">
-                         <!-- ko lookupText: { entity : 'permohonan', value : NamaProgram, valuePath :'nama_permohonan', displayPath : 'NamaProgram'} -->
-                            <!-- /ko -->
+                     <!-- ko text: NamaProgram -->
+                     <!-- /ko -->
                 <i class="fa fa-search"></i>
             </a>
         </div>
@@ -80,15 +86,18 @@
 
     <div data-bind="visible:true" class="form-group">
         <label data-i18n="Nama Responden" for="38f9b429-4041-456d-825c-843c5886d346" class="col-md-4">Nama Responden</label>
-    
-        
+
+        <script type="text/json" id="filter-38f9b429-4041-456d-825c-843c5886d346">
+            
+        </script>
+
 
         <div class="col-md-8">
             <a class="btn btn-link" 
-               data-bind="tooltip :'',lookup : {entity: 'Pengguna', member : 'Nama', value : NamaResponden, columns : []}"
+               data-bind="tooltip :'',lookup : {entity: 'Pengguna', member : 'Nama', value : NamaPengguna, columns : []}"
                id="38f9b429-4041-456d-825c-843c5886d346">
-                         <!-- ko lookupText: { entity : 'Pengguna', value : NamaResponden, valuePath :'Nama', displayPath : 'NamaResponden'} -->
-                            <!-- /ko -->
+                     <!-- ko text: NamaResponden -->
+                     <!-- /ko -->
                 <i class="fa fa-search"></i>
             </a>
         </div>

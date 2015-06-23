@@ -8,17 +8,17 @@
         <table class="table table-striped" data-bind="filter : {path:'tbody>tr'}, searchPaging :{ query: query, map : map, entity : 'Pengguna', list:list}">
             <thead>
                 <tr>
-                    <th>WebId</th>
                     <th>Nama</th>
                     <th>MyKad</th>
                     <th>TarikhDaftar</th>
                     <th>IsResponden</th>
+                    <th>Is Penyelaras</th>
+                    <th>Is Urusetia</th>
                 </tr>
             </thead>
             <tbody data-bind="foreach :list">
                 <tr data-bind="">
 
-                    <td data-bind="text:WebId"></td>
                     <td>
                         <a data-bind="attr : {href:'#pengguna-details' + '/' + Id, title:'Nama' }">
                                                         <span data-bind="text:Nama"></span>
@@ -26,7 +26,9 @@
                     </td>
                     <td data-bind="text:MyKad"></td>
                     <td data-bind="date:{ value:TarikhDaftar, format:&#39;D/M/YYYY HH:mm&#39;}"></td>
-                    <td data-bind="text:IsResponden"></td>
+                    <td data-bind="text:IsResponden ? &#39;Ya&#39; : &#39;Tidak&#39;"></td>
+                    <td data-bind="text:IsPenyelaras ? &#39;&lt;i class=\&#39;fa fa-checked\&#39;&gt;&lt;/i&gt;&#39; :&#39;&#39;"></td>
+                    <td data-bind="text:IsUrusetia"></td>
 
 
                 </tr>

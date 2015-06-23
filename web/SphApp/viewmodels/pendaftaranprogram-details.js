@@ -41,6 +41,39 @@
 
                     return tcs.promise();
                 },
+                tambahResponden = function(){
+
+                     if (!validation.valid()) {
+                         return Task.fromResult(false);
+                     }
+
+                     var tcs = new $.Deferred(),
+                         data = ko.mapping.toJSON(entity);
+
+                     context.post(data, "/PendaftaranProgram/TambahResponden" )
+                         .then(function (result) {
+                             if (result.success) {
+                                 logger.info(result.message);
+                                 entity().Id(result.id);
+                                 errors.removeAll();
+
+                                  
+                                    app.showMessage("SUdah berjaya", "JPA Sistem Ujian e-Psikometrik", ["OK"])
+	                                    .done(function () {
+                                            
+	                                    });
+                                 
+                             } else {
+                                 errors.removeAll();
+                                 _(result.rules).each(function(v){
+                                     errors(v.ValidationErrors);
+                                 });
+                                 logger.error("There are errors in your entity, !!!");
+                             }
+                             tcs.resolve(result);
+                         });
+                     return tcs.promise();
+                 },
                 attached = function (view) {
                     // validation
                     validation.init($('#pendaftaranprogram-details-form'), form());
@@ -72,7 +105,7 @@
                         .then(function(result) {
                             tcs.resolve(result);
                             entity().Id(result.id);
-                            app.showMessage("Your PendaftaranProgram has been successfully saved", "epsikologi", ["ok"]);
+                            app.showMessage("Your PendaftaranProgram has been successfully saved", "JPA Sistem Ujian e-Psikometrik", ["ok"]);
 
                         });
                     
@@ -108,6 +141,7 @@
                 entity: entity,
                 errors: errors,
                 save : save,
+                    tambahResponden : tambahResponden,
                 //
 
 

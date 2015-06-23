@@ -21,7 +21,7 @@
         "IconCssClass": "",
         "IconStoreId": "",
         "Format": "text:{0}",
-        "RouteValueField": "",
+        "RouteValueField": "Id",
         "WebId": "542f43fb-513a-4747-a33d-7fdbe1d98231"
       },
       {
@@ -38,7 +38,7 @@
         "IconCssClass": "",
         "IconStoreId": "",
         "Format": "date:{0}",
-        "RouteValueField": "",
+        "RouteValueField": "Id",
         "WebId": "d7becb5f-8ca8-475a-a8de-a5137d094aa4"
       },
       {
@@ -47,7 +47,7 @@
           "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.Sph.Domain.ConditionalFormatting, domain.sph]], domain.sph",
           "$values": []
         },
-        "Path": "NamaResponden",
+        "Path": "NamaPengguna",
         "Header": "NamaResponden",
         "Sort": "",
         "IsLinkColumn": false,
@@ -55,7 +55,7 @@
         "IconCssClass": "",
         "IconStoreId": "",
         "Format": "text:{0}",
-        "RouteValueField": "",
+        "RouteValueField": "Id",
         "WebId": "ad768ca2-5598-4d29-aafa-203ec612c23a"
       },
       {
@@ -72,7 +72,7 @@
         "IconCssClass": "",
         "IconStoreId": "",
         "Format": "text:{0}",
-        "RouteValueField": "",
+        "RouteValueField": "Id",
         "WebId": "72b3bfc1-17b4-4604-a0b6-7d55cbe5701b"
       }
     ]
@@ -97,10 +97,10 @@
     "$values": []
   },
   "IconClass": null,
-  "IconStoreId": null,
+  "IconStoreId": "71ee4497-0586-48c2-8172-b0344c872585",
   "EntityDefinitionId": "pendaftaranprogram",
   "Name": "SenaraiProgramPengguna",
-  "Route": "senarai_program_pengguna",
+  "Route": "senarai-program-pengguna",
   "Note": null,
   "Query": null,
   "IsPublished": true,
@@ -111,8 +111,8 @@
   "Partial": "partial/senarai_program_pengguna",
   "CreatedBy": "admin",
   "Id": "dd749862-830d-41a9-824a-ca60e4cbe06d",
-  "CreatedDate": "2015-05-25T10:32:23.276216+08:00",
+  "CreatedDate": "2015-06-16T08:04:00.9168013+08:00",
   "ChangedBy": "admin",
-  "ChangedDate": "2015-06-05T11:08:31.4553831+08:00",
+  "ChangedDate": "2015-06-22T10:47:04.7389781+08:00",
   "WebId": "af211f03-4077-4e34-8114-a6624e4d6b62"
 }

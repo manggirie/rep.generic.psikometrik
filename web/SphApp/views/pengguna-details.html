@@ -1,6 +1,6 @@
 
 
-<h1 data-i18n="Pengguna details">Pengguna details</h1>
+<h1 data-i18n="EditPengguna">EditPengguna</h1>
 <div id="error-list" class="row" data-bind="visible:errors().length">
     <!-- ko foreach : errors -->
     <div class="col-sm-8 col-sm-offset-2 alert alert-dismissable alert-danger">
@@ -42,18 +42,6 @@
                    
                    
                    id="5fd9072c-4bb0-4ce4-a217-8d1ffabb15ed" type="text" name="MyKad" />
-        </div>
-    </div>
-
-
-    <div class="form-group" data-bind="visible:true">
-        <label data-i18n="Jantina" for="d89b9774-d8d1-4420-8caf-f22e0fef1fbb" class="col-md-4">Jantina</label>
-        <div class="col-md-8">
-            <select  data-bind="value: Jantina, enable :true" id="d89b9774-d8d1-4420-8caf-f22e0fef1fbb" name="Jantina" class=" input-large form-control">
-                    <option value="Lelaki" data-i18n="Lelaki">Lelaki</option>
-                    <option value="Perempuan" data-i18n="Perempuan">Perempuan</option>
-                    <option value="Tidak Diketahui" data-i18n="Tidak Diketahui">Tidak Diketahui</option>
-            </select>
         </div>
     </div>
 
@@ -159,38 +147,9 @@
         <label data-i18n="Negeri" for="ff82c167-32a3-4cc4-a477-5e34b6086fba" class="col-md-4">Negeri</label>
         <div class="col-md-8">
             <select  data-bind="value: Alamat().Negeri, enable :true" id="ff82c167-32a3-4cc4-a477-5e34b6086fba" name="Alamat.Negeri" class=" input-large form-control">
-                    <option value="Perak" data-i18n="Perak">Perak</option>
-                    <option value="Selangor" data-i18n="Selangor">Selangor</option>
+                    <option value="perak" data-i18n="PERAK">PERAK</option>
+                    <option value="selangor" data-i18n="SELANGOR">SELANGOR</option>
                     <option value="W.P Putrajaya" data-i18n="W.P Putrajaya">W.P Putrajaya</option>
-                    <option value="W.P Kuala Lumpur" data-i18n="W.P Kuala Lumpur">W.P Kuala Lumpur</option>
-                    <option value="W.P Labuan" data-i18n="W.P Labuan">W.P Labuan</option>
-                    <option value="Sabah" data-i18n="Sabah">Sabah</option>
-                    <option value="N.Sembilan" data-i18n="N.Sembilan">N.Sembilan</option>
-                    <option value="Sarawak" data-i18n="Sarawak">Sarawak</option>
-                    <option value="Pahang" data-i18n="Pahang">Pahang</option>
-                    <option value="Johor" data-i18n="Johor">Johor</option>
-                    <option value="Kedah" data-i18n="Kedah">Kedah</option>
-                    <option value="Perlis" data-i18n="Perlis">Perlis</option>
-                    <option value="Kelantan" data-i18n="Kelantan">Kelantan</option>
-                    <option value="Terengganu" data-i18n="Terengganu">Terengganu</option>
-                    <option value="Melaka" data-i18n="Melaka">Melaka</option>
-                    <option value="Pulau Pinang" data-i18n="Pulau Pinang">Pulau Pinang</option>
-            </select>
-        </div>
-    </div>
-
-
-    <div class="form-group" data-bind="visible:true">
-        <label data-i18n="Pekerjaan" for="543e8baf-484f-4cdd-c2aa-85c4cefbdb13" class="col-md-4">Pekerjaan</label>
-        <div class="col-md-8">
-            <select  data-bind="value: Pekerjaan, enable :true" id="543e8baf-484f-4cdd-c2aa-85c4cefbdb13" name="Pekerjaan" class=" input-large form-control">
-                    <option value="Kerajaan" data-i18n="Kerajaan">Kerajaan</option>
-                    <option value="Swasta" data-i18n="Swasta">Swasta</option>
-                    <option value="Pesara Kerajaan" data-i18n="Pesara Kerajaan">Pesara Kerajaan</option>
-                    <option value="Pesara Swasta" data-i18n="Pesara Swasta">Pesara Swasta</option>
-                    <option value="Bekerja Sendiri" data-i18n="Bekerja Sendiri">Bekerja Sendiri</option>
-                    <option value="Pelajar" data-i18n="Pelajar">Pelajar</option>
-                    <option value="Tiada Maklumat" data-i18n="Tiada Maklumat">Tiada Maklumat</option>
             </select>
         </div>
     </div>
@@ -239,6 +198,22 @@
 
 
     <div class="form-group" data-bind="visible:true">
+        <label data-i18n="Pekerjaan" for="543e8baf-484f-4cdd-c2aa-85c4cefbdb13" class="col-md-4">Pekerjaan</label>
+        <div class="col-md-8">
+            <select  data-bind="value: Pekerjaan, enable :true" id="543e8baf-484f-4cdd-c2aa-85c4cefbdb13" name="Pekerjaan" class=" input-large form-control">
+                    <option value="Kerajaan" data-i18n="Kerajaan">Kerajaan</option>
+                    <option value="Swasta" data-i18n="Swasta">Swasta</option>
+                    <option value="Pesara Kerajaan" data-i18n="Pesara Kerajaan">Pesara Kerajaan</option>
+                    <option value="Pesara Swasta" data-i18n="Pesara Swasta">Pesara Swasta</option>
+                    <option value="Bekerja Sendiri" data-i18n="Bekerja Sendiri">Bekerja Sendiri</option>
+                    <option value="Pelajar" data-i18n="Pelajar">Pelajar</option>
+                    <option value="Tiada Maklumat" data-i18n="Tiada Maklumat">Tiada Maklumat</option>
+            </select>
+        </div>
+    </div>
+
+
+    <div class="form-group" data-bind="visible:true">
         <label data-i18n="Kumpulan Agensi" for="119ac31f-e09c-43cc-b3c7-91ce4cccaf9c" class="col-md-4">Kumpulan Agensi</label>
         <div class="col-md-8">
             <select  data-bind="value: JenisPerkhidmatan, enable :true" id="119ac31f-e09c-43cc-b3c7-91ce4cccaf9c" name="JenisPerkhidmatan" class=" input-large form-control">
@@ -247,7 +222,6 @@
                     <option value="PAP" data-i18n="Perkhidmatan Awam Persekutuan">Perkhidmatan Awam Persekutuan</option>
                     <option value="PAN" data-i18n="Perkhidmatan Awam Negeri">Perkhidmatan Awam Negeri</option>
                     <option value="PBT" data-i18n="Pihak Berkuasa Tempatan">Pihak Berkuasa Tempatan</option>
-                    <option value="TB" data-i18n="Tidak Berkaitan">Tidak Berkaitan</option>
             </select>
         </div>
     </div>
@@ -321,6 +295,9 @@
 </form>
     </div>
     <div class="col-sm-4">
-        
+            <h3 data-i18n="Audit Trail">Audit Trail</h3>
+        <!--ko compose: {model:'viewmodels/_audittrail.list', activationData:{id:$root.entity().Id(), entity : 'Pengguna'}} -->
+        <!--/ko-->
+
     </div>
 </div>

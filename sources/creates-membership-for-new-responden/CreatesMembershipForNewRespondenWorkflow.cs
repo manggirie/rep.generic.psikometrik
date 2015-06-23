@@ -69,14 +69,16 @@ namespace Bespoke.Sph.Workflows_CreatesMembershipForNewResponden_0
             var roles = designation.RoleCollection.ToArray();
             var profile = new UserProfile
             {
-                Id = Guid.NewGuid().ToString(),
+                Id = this.Pengguna.Id,
                 UserName = this.Pengguna.MyKad,
                 Email = this.Pengguna.Emel,
                 FullName = this.Pengguna.Nama,
                 Designation = "Responden",
                 HasChangedDefaultPassword = false,
                 RoleTypes = string.Join(",", roles),
-                StartModule = designation.StartModule
+                StartModule = "responden-home",
+                Language = "en-US"
+
             };
             var exist = System.Web.Security.Membership.GetUser(profile.UserName);
             Console.WriteLine("done mapping user profile");

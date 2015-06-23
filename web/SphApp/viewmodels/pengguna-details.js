@@ -2,9 +2,9 @@
     define([objectbuilders.datacontext, objectbuilders.logger, objectbuilders.router,
         objectbuilders.system, objectbuilders.validation, objectbuilders.eximp,
         objectbuilders.dialog, objectbuilders.watcher, objectbuilders.config,
-        objectbuilders.app ,'partial/pengguna-details'],
+        objectbuilders.app ],
         function (context, logger, router, system, validation, eximp, dialog, watcher,config,app
-            ,partial) {
+            ) {
 
             var entity = ko.observable(new bespoke.epsikologi_pengguna.domain.Pengguna({WebId:system.guid()})),
                 errors = ko.observableArray(),
@@ -33,16 +33,7 @@
                         form(f);
                         watching(w);
                         i18n = n[0];
-                            
-                            if(typeof partial.activate === "function"){
-                                var pt = partial.activate(entity());
-                                if(typeof pt.done === "function"){
-                                    pt.done(tcs.resolve);
-                                }else{
-                                    tcs.resolve(true);
-                                }
-                            }
-                            
+                            tcs.resolve(true);
                         
                     });
 
@@ -111,12 +102,6 @@
                     validation.init($('#pengguna-details-form'), form());
 
 
-                        
-                    if(typeof partial.attached === "function"){
-                        partial.attached(view);
-                    }
-
-                    
 
                 },
                 compositionComplete = function() {
@@ -172,9 +157,6 @@
                 };
 
             var vm = {
-                            
-                            partial : partial,
-                            
                                     activate: activate,
                 config: config,
                 attached: attached,
@@ -200,8 +182,22 @@
                     canExecuteRemoveCommand : ko.computed(function(){
                         return entity().Id();
                     }),
-                                                                
-                    saveCommand : tarikhKemaskiniNow,
+                                            
+                    watchCommand: function() {
+                        return watcher.watch("Pengguna", entity().Id())
+                            .done(function(){
+                                watching(true);
+                            });
+                    },
+                    unwatchCommand: function() {
+                        return watcher.unwatch("Pengguna", entity().Id())
+                            .done(function(){
+                                watching(false);
+                            });
+                    },
+                    watching: watching,
+                                            
+                    saveCommand : save,
                     
                     commands : ko.observableArray([])
                 }

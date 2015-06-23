@@ -232,7 +232,7 @@
           "Name": null,
           "Label": "Nama Responden",
           "Tooltip": null,
-          "Path": "NamaResponden",
+          "Path": "NamaPengguna",
           "IsRequired": false,
           "Size": "input-large",
           "CssClass": "",
@@ -304,8 +304,8 @@
   "Layout": null,
   "CreatedBy": "admin",
   "Id": "57a33eb7-08ce-49e2-9ac3-29bbf4109630",
-  "CreatedDate": "2015-05-25T10:32:23.2502145+08:00",
+  "CreatedDate": "2015-06-16T08:04:00.9097978+08:00",
   "ChangedBy": "admin",
-  "ChangedDate": "2015-06-05T11:08:31.4373976+08:00",
+  "ChangedDate": "2015-06-22T10:44:10.1823276+08:00",
   "WebId": "12274aef-4fd4-49e7-bc71-008aa8f441f8"
 }
