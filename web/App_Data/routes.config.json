@@ -54,5 +54,19 @@
     "showWhenLoggedIn": false,
     "isAdminPage": false,
     "startPageRoute": null
+  },
+  {
+    "role": "JanaLaporan",
+    "groupName": null,
+    "route": "laporan-sesi-ujian",
+    "moduleId": "viewmodels/laporan-sesi-ujian",
+    "title": "Laporan Sesi Ujian",
+    "nav": true,
+    "icon": "fa fa-bar-chart-o",
+    "caption": "Laporan Sesi Ujian",
+    "settings": null,
+    "showWhenLoggedIn": false,
+    "isAdminPage": false,
+    "startPageRoute": null
   }
 ]

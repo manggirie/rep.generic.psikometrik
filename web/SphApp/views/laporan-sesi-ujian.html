@@ -1,0 +1,64 @@
+<h1>Janaan Laporan ePsikometrik</h1>
+<div class="row">
+    <form class="form-horizontal">
+    
+    <div class="form-group">
+        <label for="nama-ujian" class="col-lg-2 control-label">Nama Ujian</label>
+        <div class="col-lg-6">
+          <select data-bind="value: namaUjian, options: ujianOptions, optionsCaption: '[Sila Pilih Ujian]'" required class="form-control" id="nama-ujian">
+                    
+          </select>
+        </div>
+    </div>
+    
+    <div class="form-group">
+        <label for="nama-program" class="col-lg-2 control-label">Nama Program</label>
+        <div class="col-lg-6">
+           <select data-bind="value: namaProgram, options: programOptions, optionsCaption: '[Sila Pilih Program]'" required class="form-control" id="nama-program">
+          </select>
+        </div>
+    </div>
+    
+    <div class="form-group">
+        <label for="bil-program" class="col-lg-2 control-label">Bil Program</label>
+        <div class="col-lg-6">
+          <input type="text" data-bind="value: bil" 
+                required  
+                placeholder="Bil programm"
+                class="form-control" id="bil-program"/>
+        </div>
+    </div>
+    
+    <div class="form-group">
+        <label for="siri-program" class="col-lg-2 control-label">Siri Program</label>
+        <div class="col-lg-6">
+          <input type="text" data-bind="value: siri" 
+                required  
+                placeholder="No siri program"
+                class="form-control" id="siri-program"/>
+        </div>
+    </div>
+    
+    <div class="form-group">
+        <label for="tahun" class="col-lg-2 control-label">Tahun Program</label>
+        <div class="col-lg-6">
+          <input type="text" data-bind="value: tahun" 
+                required  
+                placeholder="Tahun Program"
+                class="form-control" id="tahun"/>
+        </div>
+    </div>
+    
+    <div class="form-group">
+        <label for="submit" class="col-lg-2 control-label"></label>
+        <div class="col-lg-6">
+          <button class="btn btn-default" data-bind="command : generateLaporan">Jana Laporan</button>
+        </div>
+    </div>
+    
+    </form>
+</div>
+
+<div id="report-panel" class="row">
+    
+</div>
