@@ -7,24 +7,24 @@
 
     	<h4 data-bind="text: 'Seksyen : ' + section, attr :{'id' : section}"></h4>
     	<span class="" data-bind="text: 'Jumlah Soalan ' + questions().length"></span>
-    	<ul class="list-group">
+    
         	<!-- ko foreach : questions -->
-        	<li class="soalan-panel list-group-item" data-bind="visible:Visible">
-        		<span class="badge" data-bind="text:$index() + 1"></span>
-        		  <div class="alert" role="alert" data-bind="css :{'alert-info': JawapanPilihan(),'alert-warning': !JawapanPilihan()}">
-        			<strong data-bind="text:Text"></strong>
-        		 </div>
-        		<!-- ko foreach : PilihanJawapanCollection -->
-    				<label style="min-width:120px">
-    					<input type="radio" data-bind="value: Teks, attr :{name: $parent.SoalanNo}"/>
-    					<!-- ko text: Teks -->
-    					<!-- /ko -->
-    				</label>
-        		<!-- /ko -->
-        	</li>
+                <div class="panel panel-default soalan-panel" data-bind="visible:Visible, css :{'panel-info': JawapanPilihan(),'panel-default': !JawapanPilihan()}">
+                  <div class="panel-heading" data-bind="text:($index() + 1) + '.   ' + ko.unwrap(Text)">
+
+                  </div>
+                  <div class="panel-body">
+                   <!-- ko foreach : PilihanJawapanCollection -->
+                    <label style="min-width:120px">
+                        <input type="radio" data-bind="value: Teks, attr :{name: $parent.SoalanNo}"/>
+                        <!-- ko text: Teks -->
+                        <!-- /ko -->
+                    </label>
+                <!-- /ko -->
+                  </div>
+                </div>
         	<!-- /ko -->
 
-    	</ul>
 
     	<!-- /ko -->
     </div>
@@ -53,7 +53,10 @@
     	 	<!-- ko foreach : sections -->
 
             <li>
-              	<a data-bind="text: 'Seksyen ' + ko.unwrap(section) + '  (' + ko.unwrap(answered) + '/' + ko.unwrap(questions).length + ')', attr :{'href' : '#'+ section }, click : $root.goToSection">
+              	<a data-bind="click : $root.goToSection,attr :{'title' : 'Pergi ke seksyen '+ section }" href="#mula-sesi-ujian" title="Pergi ke seksyen">
+
+                    <i class="fa fa-arrow-circle-right"></i>
+                    <span data-bind="text: 'Seksyen ' + ko.unwrap(section) + '  (' + ko.unwrap(answered) + '/' + ko.unwrap(questions).length + ')', attr :{'href' : '#'+ section }"></span>
 
 				</a>
             </li>
@@ -68,7 +71,9 @@
         Jangan papar yang sudah jawab
       </label>
       <br/>
-		<button class="btn btn-primary" data-bind="command: $root.submitSesiUjian, enable: totalAnswered() === questionsCount()">Hantar</button>
+		<button class="btn btn-default" data-bind="command: $root.submitSesiUjian, enable: totalAnswered() === questionsCount()">
+        <i class="fa fa-sign-out"></i>
+        Hantar</button>
 		</div>
     </div>
 

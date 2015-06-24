@@ -85,7 +85,7 @@ define(["services/datacontext", objectbuilders.app, objectbuilders.router], func
         
 
         	$(view).on("click", "input[type=radio]", function(){
-				var panel = $(this).parents("li.soalan-panel"),
+				var panel = $(this).parents("div.soalan-panel"),
 					soalan = ko.dataFor(panel[0]),
 					answer = ko.dataFor(this);
 
