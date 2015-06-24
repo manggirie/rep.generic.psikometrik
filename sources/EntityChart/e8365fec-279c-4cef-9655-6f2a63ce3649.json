@@ -1,0 +1,25 @@
+{
+  "$type": "Bespoke.Sph.Domain.EntityChart, domain.sph",
+  "SeriesCollection": {
+    "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.Sph.Domain.Series, domain.sph]], domain.sph",
+    "$values": []
+  },
+  "EntityDefinitionId": "jabatan",
+  "Entity": "Jabatan",
+  "Name": "Ikut Kementerian",
+  "Type": "bar",
+  "EntityViewId": "7e7926b0-3680-49d3-b168-b46008055be4",
+  "Query": "{\"query\":{\"filtered\":{\"filter\":{\"bool\":{\"must\":[],\"must_not\":[]}}}},\"sort\":[],\"aggs\":{\"category\":{\"terms\":{\"field\":\"Kementerian\",\"size\":0}}},\"from\":0,\"size\":20}",
+  "Aggregate": "term",
+  "Field": "Kementerian",
+  "DateInterval": "year",
+  "IsDashboardItem": true,
+  "DasboardItemPosition": 0,
+  "HistogramInterval": null,
+  "CreatedBy": "admin",
+  "Id": "e8365fec-279c-4cef-9655-6f2a63ce3649",
+  "CreatedDate": "2015-06-23T18:47:19.3234122+08:00",
+  "ChangedBy": "admin",
+  "ChangedDate": "2015-06-23T18:47:19.3219114+08:00",
+  "WebId": "20648ba0-f062-4024-de72-eb63994c299b"
+}
