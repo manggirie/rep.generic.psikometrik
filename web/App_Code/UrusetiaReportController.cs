@@ -17,18 +17,8 @@ namespace web.sph.App_Code
         public UrusetiaReportController()
         {    
 
-            ObjectBuilder.AddCacheList<IRepository<Bespoke.epsikologi_permohonan.Domain.Permohonan>>(
-                    new Bespoke.Sph.SqlRepository.SqlRepository<Bespoke.epsikologi_permohonan.Domain.Permohonan>());
-
-            ObjectBuilder.AddCacheList<IRepository<Bespoke.epsikologi_ujian.Domain.Ujian>>(
-                    new Bespoke.Sph.SqlRepository.SqlRepository<Bespoke.epsikologi_ujian.Domain.Ujian>());
-                      
-            ObjectBuilder.AddCacheList<IRepository<Bespoke.epsikologi_sesiujian.Domain.SesiUjian>>(
-                    new Bespoke.Sph.SqlRepository.SqlRepository<Bespoke.epsikologi_sesiujian.Domain.SesiUjian>());
-                      
-            ObjectBuilder.AddCacheList<IRepository<Bespoke.epsikologi_soalan.Domain.Soalan>>(
-                    new Bespoke.Sph.SqlRepository.SqlRepository<Bespoke.epsikologi_soalan.Domain.Soalan>());
-                      
+            ConfigHelper.RegisterDependencies();
+                 
         }
 
         [HttpPost]
@@ -42,7 +32,8 @@ namespace web.sph.App_Code
 
             var query = context.CreateQueryable<Bespoke.epsikologi_sesiujian.Domain.SesiUjian>()
                 .Where(s => s.NamaProgram == no)
-                .Where(s =>s.NamaUjian == model.Ujian);
+                .Where(s =>s.NamaUjian == model.Ujian)
+                .Where(s => s.Status == "Diambil");
             var sesiLo = await context.LoadAsync(query, 1, 200, true);
             var sesi = sesiLo.ItemCollection;
 
@@ -92,8 +83,8 @@ namespace web.sph.App_Code
                 }
                 html.AppendFormat(@"   
                     <td>
-                        <a class=""btn btn-default"" target=""_blank"" href=""print-laporan/trait/{0}""> <i class=""fa fa-print""></i> Tret</a>
-                        <a class=""btn btn-default"" target=""_blank"" href=""print-laporan/indikator/{0}""> <i class=""fa fa-print""></i> Indikator</a>
+                        <a class=""btn btn-default"" target=""_blank"" href=""cetak-laporan/trait/{0}""> <i class=""fa fa-print""></i> Tret</a>
+                        <a class=""btn btn-default"" target=""_blank"" href=""cetak-laporan/indikator/{0}""> <i class=""fa fa-print""></i> Indikator</a>
                     </td>", s.Id); 
                 html.AppendLine("   </tr>");
             }
@@ -119,8 +110,16 @@ namespace web.sph.App_Code
             foreach(var t in traits)
             {
                 var t1 = t;
-                var avg = sesi.SelectMany(x => x.JawapanCollection).Where(a => a.Trait == t1).Sum(a => a.Nilai)/sesi.Count;
-                html.AppendLine("           <td>" + avg + "</td>");
+                if(sesi.Count > 0)
+                {
+
+                    var avg = sesi.SelectMany(x => x.JawapanCollection).Where(a => a.Trait == t1).Sum(a => a.Nilai)/sesi.Count;
+                    html.AppendLine("           <td>" + avg + "</td>");
+                }
+                else
+                {
+                    html.AppendLine("           <td> NA</td>");
+                }
             }
             html.AppendLine("   <td></td>"); 
             html.AppendLine("   </tr>");
