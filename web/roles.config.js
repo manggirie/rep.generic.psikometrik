@@ -21,13 +21,6 @@
     "isActive": false
   },
   {
-    "group": "Urusetia",
-    "name": "Urusetia",
-    "role": "Urusetia",
-    "description": "Urusetia",
-    "isActive": false
-  },
-  {
     "group": "PengurusanPengguna",
     "name": "PengurusanPengguna",
     "role": "PengurusanPengguna",
@@ -46,6 +39,13 @@
     "name": "JanaLaporan",
     "role": "JanaLaporan",
     "description": "JanaLaporan",
+    "isActive": false
+  },
+  {
+    "group": "Urusetia",
+    "name": "Urusetia",
+    "role": "Urusetia",
+    "description": "Urusetia",
     "isActive": false
   }
 ]
