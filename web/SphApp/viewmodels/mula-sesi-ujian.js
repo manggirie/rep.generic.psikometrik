@@ -1,4 +1,4 @@
-define(["services/datacontext", objectbuilders.app], function(context, app){
+define(["services/datacontext", objectbuilders.app, objectbuilders.router], function(context, app, router){
     var sesiUjian = ko.observable(),
         ujian = ko.observable(),
         pendaftaran = ko.observable(),
@@ -82,13 +82,7 @@ define(["services/datacontext", objectbuilders.app], function(context, app){
         },
         attached  = function(view){
 
-           /* $('#test-panel').affix({
-              offset: {
-                top: 100,
-                bottom: 5
-              }
-            });*/
-
+        
 
         	$(view).on("click", "input[type=radio]", function(){
 				var panel = $(this).parents("li.soalan-panel"),
@@ -117,13 +111,13 @@ define(["services/datacontext", objectbuilders.app], function(context, app){
 
         },
 		detached = function(){
-			interval = null;
+			clearInterval(interval);
 			timer("");
 		},
 		canDeactivate = function(){
 			var tcs = new $.Deferred();
 			if(totalAnswered() < questionsCount()){
-				  app.showMessage("Adaka and ingin meninggalkan sesi ujian ini", "Tinggal Sesi Ujian", ["Ya", "Tidak"])
+				  app.showMessage("Adakah and ingin meninggalkan sesi ujian ini", "Tinggal Sesi Ujian", ["Ya", "Tidak"])
                     .done(function (dialogResult) {
                         tcs.resolve(dialogResult === "Ya");
                     });
@@ -147,7 +141,16 @@ define(["services/datacontext", objectbuilders.app], function(context, app){
 		},
 		submitSesiUjian = function(){
 
-			return context.post(ko.toJSON(sesiUjian), "/sesiujian/submitsesiujian");
+			return context.post(ko.toJSON(sesiUjian), "/sesiujian/submitsesiujian")
+			    .done(function(){
+
+					clearInterval(interval);
+			        app.showMessage("Sesi Ujian anda sudah berjaya di hantar", "JPA ePsikometrik", ["OK"])
+			          .done(function () {
+			            router.navigate("responden-home");  
+			        });
+			        
+			    });
 		};
 
     return {

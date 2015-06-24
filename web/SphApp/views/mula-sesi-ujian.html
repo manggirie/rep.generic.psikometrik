@@ -11,7 +11,7 @@
         	<!-- ko foreach : questions -->
         	<li class="soalan-panel list-group-item" data-bind="visible:Visible">
         		<span class="badge" data-bind="text:$index() + 1"></span>
-        		  <div class="alert" role="alert" data-bind="css :{'alert-info': JawapanPilihan(),'alert-danger': !JawapanPilihan()}">
+        		  <div class="alert" role="alert" data-bind="css :{'alert-info': JawapanPilihan(),'alert-warning': !JawapanPilihan()}">
         			<strong data-bind="text:Text"></strong>
         		 </div>
         		<!-- ko foreach : PilihanJawapanCollection -->
@@ -65,7 +65,7 @@
 		<div>
       <label>
         <input type="checkbox" data-bind="checked: $root.hideAnswered"/>
-        Susut Yang Sudah Jawab
+        Jangan papar yang sudah jawab
       </label>
       <br/>
 		<button class="btn btn-primary" data-bind="command: $root.submitSesiUjian, enable: totalAnswered() === questionsCount()">Hantar</button>
