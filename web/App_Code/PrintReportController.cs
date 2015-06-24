@@ -18,12 +18,30 @@ namespace web.sph.App_Code
     	{
     		ConfigHelper.RegisterDependencies();
     	}
+
     	[Route("trait/{id}")]
-    	public async Task<ActionResult> PrintSesiUjianTrain(string id )
+    	public async Task<ActionResult> PrintSesiUjianTrait(string id )
     	{
     		var context = new SphDataContext();
     		var sesi = await context.LoadOneAsync<Bespoke.epsikologi_sesiujian.Domain.SesiUjian>(x => x.Id == id);
-    		return Content(sesi.ToJsonString(true), "application/json", Encoding.UTF8);
+    		
+    		if(null == sesi)
+    			return HttpNotFound("Cannot find SesiUjian " + id);
+
+    		return View("Trait-" + sesi.NamaUjian, sesi);
+    	}
+
+
+    	[Route("indikator/{id}")]
+    	public async Task<ActionResult> PrintSesiUjianIndikator(string id )
+    	{
+    		var context = new SphDataContext();
+    		var sesi = await context.LoadOneAsync<Bespoke.epsikologi_sesiujian.Domain.SesiUjian>(x => x.Id == id);
+    		
+    		if(null == sesi)
+    			return HttpNotFound("Cannot find SesiUjian " + id);
+
+    		return View("Indikator-" + sesi.NamaUjian, sesi);
     	}
     }
 }
