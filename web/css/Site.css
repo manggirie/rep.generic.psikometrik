@@ -141,7 +141,8 @@ header div.nav-header > ul {
 select:invalid, input:invalid, textarea:invalid {
     background-image: url('/Images/red-bar.png') !important;
     background-repeat: repeat-y;
-    background-position: left center;
+    background-position-x: -0.2%;
+    background-position-y: 50%;
 }
 .absolute-center {
   position: absolute;
