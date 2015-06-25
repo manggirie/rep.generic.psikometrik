@@ -81,11 +81,13 @@ namespace web.sph.App_Code
                     var score = s.JawapanCollection.Where(a => a.Trait == t1).Sum(a => a.Nilai);
                     html.AppendLine("           <td>" + score + "</td>");
                 }
+                var indikator = s.NamaUjian.Contains("IBK") ? "" : @"<a class=""btn btn-info"" target=""_blank"" href=""cetak-laporan/indikator/{0}""> <i class=""fa fa-print""></i> Indikator</a>";
+
                 html.AppendFormat(@"   
                     <td>
-                        <a class=""btn btn-default"" target=""_blank"" href=""cetak-laporan/trait/{0}""> <i class=""fa fa-print""></i> Tret</a>
-                        <a class=""btn btn-default"" target=""_blank"" href=""cetak-laporan/indikator/{0}""> <i class=""fa fa-print""></i> Indikator</a>
-                    </td>", s.Id); 
+                        <a class=""btn btn-info"" target=""_blank"" href=""cetak-laporan/trait/{0}""> <i class=""fa fa-print""></i> Tret</a>
+                        {1}
+                    </td>", s.Id, indikator); 
                 html.AppendLine("   </tr>");
             }
 
