@@ -205,9 +205,9 @@
   },
   "Performer": {
     "$type": "Bespoke.Sph.Domain.Performer, domain.sph",
-    "UserProperty": "",
-    "Value": "",
-    "IsPublic": true,
+    "UserProperty": "Roles",
+    "Value": "PengurusanPermohonan",
+    "IsPublic": false,
     "WebId": null
   },
   "Name": "PendaftaranProgram",
@@ -220,7 +220,7 @@
   "CreatedBy": null,
   "Id": "pendaftaranprogram",
   "CreatedDate": "0001-01-01T00:00:00",
-  "ChangedBy": "admin",
-  "ChangedDate": "2015-06-05T11:09:06.5940754+08:00",
+  "ChangedBy": "admin2",
+  "ChangedDate": "2015-06-25T11:10:33.3491999+08:00",
   "WebId": "d36aa8ae-1ba2-4a1a-9036-240c4e9ced07"
 }

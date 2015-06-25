@@ -1,22 +1,30 @@
 {
   "$type": "Bespoke.Sph.Domain.Designation, domain.sph",
-  "Title": null,
-  "Owner": null,
-  "Option": 0,
   "RoleCollection": {
     "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[System.String, mscorlib]], domain.sph",
     "$values": [
       "AmbilUjian"
     ]
   },
+  "Owner": null,
+  "SearchableEntityCollection": {
+    "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[System.String, mscorlib]], domain.sph",
+    "$values": []
+  },
   "Name": "Responden",
   "Description": "",
   "IsActive": false,
   "StartModule": "responden-home",
+  "IsSearchVisible": false,
+  "IsMessageVisible": false,
+  "IsHelpVisible": true,
+  "HelpUri": "bantuan",
+  "Title": null,
+  "Option": 0,
   "CreatedBy": "admin",
   "Id": "responden",
-  "CreatedDate": "2015-06-16T08:26:43.2715777+08:00",
+  "CreatedDate": "2015-06-08T15:59:35.1093695+08:00",
   "ChangedBy": "admin",
-  "ChangedDate": "2015-06-23T18:56:21.0651089+08:00",
+  "ChangedDate": "2015-06-25T12:26:07.862576+08:00",
   "WebId": "20cd0716-83e5-4f84-8f4b-edcc80cf6ee1"
 }

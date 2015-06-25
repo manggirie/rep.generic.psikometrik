@@ -22,7 +22,7 @@
         "IsAnalyzed": false,
         "IsFilterable": true,
         "IsExcludeInAll": false,
-        "Boost": 1,
+        "Boost": 0,
         "DefaultValue": null,
         "WebId": "0f9deeb8-3f7a-40a1-ba7d-0c2cc37716d4"
       },
@@ -44,7 +44,7 @@
         "IsAnalyzed": false,
         "IsFilterable": true,
         "IsExcludeInAll": false,
-        "Boost": 1,
+        "Boost": 0,
         "DefaultValue": null,
         "WebId": "b674aef4-a4d8-4feb-8c1c-63962d6f4e78"
       }
@@ -64,9 +64,9 @@
   },
   "Performer": {
     "$type": "Bespoke.Sph.Domain.Performer, domain.sph",
-    "UserProperty": "",
-    "Value": "",
-    "IsPublic": true,
+    "UserProperty": "Roles",
+    "Value": "PengurusanLookup",
+    "IsPublic": false,
     "WebId": null
   },
   "Name": "Ujian",
@@ -78,8 +78,8 @@
   "IsShowOnNavigationBar": true,
   "CreatedBy": "admin",
   "Id": "ujian",
-  "CreatedDate": "2015-06-16T08:05:00.1218075+08:00",
-  "ChangedBy": "admin",
-  "ChangedDate": "2015-06-23T18:40:34.4460523+08:00",
+  "CreatedDate": "2015-06-05T10:30:21.331856+08:00",
+  "ChangedBy": "admin2",
+  "ChangedDate": "2015-06-25T11:09:13.09759+08:00",
   "WebId": "b9308a1b-cbde-4d64-8ff9-8e1a9f1ef759"
 }

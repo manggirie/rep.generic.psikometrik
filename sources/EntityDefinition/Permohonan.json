@@ -574,9 +574,9 @@
   },
   "Performer": {
     "$type": "Bespoke.Sph.Domain.Performer, domain.sph",
-    "UserProperty": "",
-    "Value": "",
-    "IsPublic": true,
+    "UserProperty": "Roles",
+    "Value": "PengurusanPermohonan",
+    "IsPublic": false,
     "WebId": null
   },
   "Name": "Permohonan",
@@ -589,7 +589,7 @@
   "CreatedBy": "admin",
   "Id": "permohonan",
   "CreatedDate": "2015-06-05T10:45:39.9585024+08:00",
-  "ChangedBy": "admin",
-  "ChangedDate": "2015-06-05T11:00:59.1449664+08:00",
+  "ChangedBy": "admin2",
+  "ChangedDate": "2015-06-25T11:10:06.6610473+08:00",
   "WebId": "5aff113b-31e8-4f89-b7eb-d089e79bd899"
 }

@@ -130,9 +130,9 @@
   },
   "Performer": {
     "$type": "Bespoke.Sph.Domain.Performer, domain.sph",
-    "UserProperty": "",
-    "Value": "",
-    "IsPublic": true,
+    "UserProperty": "Roles",
+    "Value": "PengurusanLookup",
+    "IsPublic": false,
     "WebId": null
   },
   "Name": "Jabatan",
@@ -145,7 +145,7 @@
   "CreatedBy": "admin",
   "Id": "jabatan",
   "CreatedDate": "2015-06-05T10:37:17.7083426+08:00",
-  "ChangedBy": "admin",
-  "ChangedDate": "2015-06-05T10:38:10.0762811+08:00",
+  "ChangedBy": "admin2",
+  "ChangedDate": "2015-06-25T11:08:42.71367+08:00",
   "WebId": "f95865f4-dbc9-4b62-990a-7d4e65d30f7a"
 }

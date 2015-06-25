@@ -420,9 +420,9 @@
   },
   "Performer": {
     "$type": "Bespoke.Sph.Domain.Performer, domain.sph",
-    "UserProperty": "",
-    "Value": "",
-    "IsPublic": true,
+    "UserProperty": "Roles",
+    "Value": "PengurusanSesiUjian",
+    "IsPublic": false,
     "WebId": null
   },
   "Name": "SesiUjian",
@@ -435,7 +435,7 @@
   "CreatedBy": "admin",
   "Id": "sesiujian",
   "CreatedDate": "2015-06-01T18:46:59.9857666+08:00",
-  "ChangedBy": "admin",
-  "ChangedDate": "2015-06-23T19:00:29.1679611+08:00",
+  "ChangedBy": "admin2",
+  "ChangedDate": "2015-06-25T11:06:21.973484+08:00",
   "WebId": "db4b5955-f616-434c-d814-7621fcd20ec7"
 }

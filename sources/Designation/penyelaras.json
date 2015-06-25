@@ -1,23 +1,35 @@
 {
   "$type": "Bespoke.Sph.Domain.Designation, domain.sph",
-  "Title": null,
-  "Owner": null,
-  "Option": 0,
   "RoleCollection": {
     "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[System.String, mscorlib]], domain.sph",
     "$values": [
       "Penyelaras",
-      "PengurusanPengguna"
+      "PengurusanPengguna",
+      "PengurusanPermohonan"
+    ]
+  },
+  "Owner": null,
+  "SearchableEntityCollection": {
+    "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[System.String, mscorlib]], domain.sph",
+    "$values": [
+      "Pengguna",
+      "Permohonan"
     ]
   },
   "Name": "Penyelaras",
   "Description": "",
   "IsActive": false,
   "StartModule": "responden-home",
+  "IsSearchVisible": true,
+  "IsMessageVisible": true,
+  "IsHelpVisible": true,
+  "HelpUri": "bantuanpenyelaras",
+  "Title": null,
+  "Option": 0,
   "CreatedBy": "admin",
   "Id": "penyelaras",
   "CreatedDate": "2015-06-08T16:00:08.8394254+08:00",
   "ChangedBy": "admin",
-  "ChangedDate": "2015-06-13T12:16:44.8914718+08:00",
+  "ChangedDate": "2015-06-25T12:25:31.8045008+08:00",
   "WebId": "0009e784-16b2-49a6-9f13-e9ecf18c5454"
 }
