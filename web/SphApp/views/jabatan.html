@@ -14,11 +14,10 @@
     <div id="recent-jabatans" class="collapse collapsed">
         <div class="" data-bind="searchPaging: {list :recentItems, query : recentItemsQuery, pagerHidden:true , entity : 'Jabatan'}">
             <ul data-bind="foreach :recentItems" class="metro-tile">
-                <li class="blightblue">
-
+                <li>
                     <a data-bind="attr:{'href' : '#jabatan-details/' + Id}">
                         <i class="glyphicon glyphicon-book"></i>
-                        <span data-bind="text:JabatanNo"></span>
+                        <span data-bind="text:NamaJabatan"></span>
                     </a>
                 </li>
             </ul>
