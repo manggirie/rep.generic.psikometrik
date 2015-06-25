@@ -1,0 +1,25 @@
+{
+  "$type": "Bespoke.Sph.Domain.EntityChart, domain.sph",
+  "SeriesCollection": {
+    "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.Sph.Domain.Series, domain.sph]], domain.sph",
+    "$values": []
+  },
+  "EntityDefinitionId": "sesiujian",
+  "Entity": "SesiUjian",
+  "Name": "tes",
+  "Type": "pie",
+  "EntityViewId": "aeb226f9-128c-4571-8078-9da09e62e426",
+  "Query": "{\"query\":{\"filtered\":{\"filter\":{\"bool\":{\"must\":[],\"must_not\":[]}}}},\"sort\":[],\"aggs\":{\"category\":{\"terms\":{\"field\":\"NamaUjian\",\"size\":0}}},\"from\":0,\"size\":20}",
+  "Aggregate": "term",
+  "Field": "NamaUjian",
+  "DateInterval": "year",
+  "IsDashboardItem": false,
+  "DasboardItemPosition": 0,
+  "HistogramInterval": null,
+  "CreatedBy": "750418-03-5249",
+  "Id": "bea282e7-591b-4516-8184-c6c50dced17e",
+  "CreatedDate": "2015-06-25T08:33:23.8414446+08:00",
+  "ChangedBy": "750418-03-5249",
+  "ChangedDate": "2015-06-25T08:33:23.837442+08:00",
+  "WebId": "0fa964f6-fcb2-4d81-a6e3-bd6604086303"
+}
