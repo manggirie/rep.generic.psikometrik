@@ -1,0 +1,184 @@
+﻿
+
+/* styles for validation helpers */
+.field-validation-error {
+    color: #b94a48;
+}
+
+.field-validation-valid {
+    display: none;
+}
+
+input.input-validation-error {
+    border: 1px solid #b94a48;
+}
+
+input[type="checkbox"].input-validation-error {
+    border: 0 none;
+}
+
+.validation-summary-errors {
+    color: #b94a48;
+}
+
+.validation-summary-valid {
+    display: none;
+}
+
+.hover-drop
+{
+    position: absolute;
+    top:5px;
+    right: 5px;
+}
+
+.hover-drop:hover{
+}
+
+#slider-menu {
+  width: 280px;
+  display: block;
+/*  background-color: #485563;*/
+  margin-top: -20px;
+}
+#slider-menu .nav > li {
+  padding: 5px;
+  margin-left: 5px;
+  margin-top: 2px;
+}
+#slider-menu .nav > li:hover {
+  background-color: #ff0000;
+}
+#slider-menu .nav > li.active {
+  background-color: #ff0000;
+}
+#slider-menu .nav > li > a {
+  margin-right: 5px;
+  color: #fff;
+  padding: 0px;
+}
+#slider-menu .nav > li > a:hover {
+  background-color: #ff0000;
+}
+#slider-menu .nav > li > a > i {
+  margin-right: 5px;
+}
+
+/* header*/
+header {
+  height: 60px;
+}
+header #drawer-menu,
+header a.logo {
+  float: left;
+  display: block;
+  color: #fff0f5;
+}
+header a.logo {
+  font-size: 20px;
+  font-weight: bold;
+  margin-top: 13px;
+  padding-left: 0px;
+}
+header div.nav-header,
+header div.nav-header > div,
+header div.nav-header > ul {
+  float: right;
+  margin-top: 10px;
+}
+#header-navbar {
+  height: 80px;
+  background-color: #4e5d6c;
+}
+#header-navbar button {
+  color: #ffffff;
+}
+#header-navbar button:hover {
+  color: #ffffff;
+}
+#header-navbar li > a.dropdown-toggle:hover {
+  color: #002050 !important;
+  background-color: #ffffff;
+}
+#header-navbar li > a.dropdown-toggle:focus {
+  color: #002050 !important;
+  background-color: #ffffff;
+}
+.navbar .nav > li > a {
+  -webkit-text-shadow: none;
+  text-shadow: none;
+  color: white;
+}
+#header-navbar > div.navbar-inner {
+  background-image: none;
+  background-color: #f50606 !important;
+} 
+#drawer-menu {
+  background-image: none;
+  background-color: #4e5d6c;
+  color: white;
+  margin-top: 10px;
+}
+.icon-image {
+  width: auto\9;
+  float: left;
+  margin: 10px;
+  height: auto;
+  max-width: 100%;
+  vertical-align: middle;
+  border: 0;
+  -ms-interpolation-mode: bicubic;
+}
+.login-label {
+  font-family: Verdana, Geneva, 'DejaVu Sans', sans-serif;
+  font-weight: bold;
+  font-size: large;
+  color: floralwhite;
+}
+
+
+/*  error */
+select:invalid, input:invalid, textarea:invalid {
+    background-image: url('/Images/red-bar.png') !important;
+    background-repeat: repeat-y;
+    background-position: left center;
+}
+.absolute-center {
+  position: absolute;
+  margin: auto;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+}
+
+/* views */
+#entity-view-list li {
+    height: 125px;
+    width: 220px;
+}
+.metro-tile{list-style-type:none;padding:0;margin:10px 0}
+.metro-tile li{display:inline-block;margin-bottom:5px;margin-right:10px;padding:20px 15px;border:1px solid #ccc;max-width:100%;text-align:center}
+.metro-tile li .spark{margin-right:10px}
+.metro-tile li .data-text{font-size:13px;padding:7px 0 0;font-weight:400}
+.metro-tile li .data-text span{display:block;font-size:24px;margin-bottom:5px}
+.metro-tile li i{font-size:50px;margin-right:10px}
+.metro-tile li .dial{margin-right:10px!important}
+
+.blightblue{background:#52b9e9!important;color:#fff!important;border:0!important}
+.bblue{background:#1171a3!important;color:#fff!important;border:0!important}
+.bgreen{background:#43c83c!important;color:#fff!important;border:0!important}
+.borange{background:#f88529!important;color:#fff!important;border:0!important}
+.bred{background:#fa3031!important;color:#fff!important;border:0!important}
+.bviolet{background:#932ab6!important;color:#fff!important;border:0!important}
+.bblue h2,.bblue h3,.bblue h4,.bblue h5,.bblue h6,.bgreen h2,.bgreen h3,.bgreen h4,.bgreen h5,.bgreen h6,.blightblue h2,.blightblue h3,.blightblue h4,.blightblue h5,.blightblue h6,.borange h2,.borange h3,.borange h4,.borange h5,.borange h6,.bred h2,.bred h3,.bred h4,.bred h5,.bred h6,.bviolet h2,.bviolet h3,.bviolet h4,.bviolet h5,.bviolet h6{color:#fff!important}
+.bblue a,.bgreen a,.blightblue a,.borange a,.bred a,.bviolet a{color:#eee!important}
+
+/* toolbar */
+#toolbar-panel {
+    margin-top: 25px;
+    z-index: 2;
+}
+#toolbar-panel {
+    background-color: transparent;
+}
