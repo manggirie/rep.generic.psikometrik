@@ -10,18 +10,22 @@
                 <tr>
                     <th>Nama</th>
                     <th>MyKad</th>
+                    <th>Nama Jabatan</th>
+                    <th>Nama Kementerian</th>
                 </tr>
             </thead>
             <tbody data-bind="foreach :list">
                 <tr data-bind="">
 
                     <td>
-                        <a data-bind="attr : {href:'#pengguna-details' + '/' + Id, title:'Nama' }">
+                        <a data-bind="attr : {href:'#tambah-pengguna' + '/' + Id, title:'Nama' }">
                             <i class="fa fa-video-camera"></i>
                                                         <span data-bind="text:Nama"></span>
                         </a>
                     </td>
                     <td data-bind="text:MyKad"></td>
+                    <td data-bind="text:NamaJabatan"></td>
+                    <td data-bind="text:NamaKementerian"></td>
 
 
                 </tr>

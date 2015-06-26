@@ -6,7 +6,7 @@
     "$values": [
       {
         "$type": "Bespoke.Sph.Domain.Member, domain.sph",
-        "FullName": null,
+        "FullName": "Nama",
         "MemberCollection": {
           "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.Sph.Domain.Member, domain.sph]], domain.sph",
           "$values": []
@@ -28,7 +28,7 @@
       },
       {
         "$type": "Bespoke.Sph.Domain.Member, domain.sph",
-        "FullName": null,
+        "FullName": "MyKad",
         "MemberCollection": {
           "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.Sph.Domain.Member, domain.sph]], domain.sph",
           "$values": []
@@ -50,7 +50,7 @@
       },
       {
         "$type": "Bespoke.Sph.Domain.Member, domain.sph",
-        "FullName": null,
+        "FullName": "IsUrusetia",
         "MemberCollection": {
           "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.Sph.Domain.Member, domain.sph]], domain.sph",
           "$values": []
@@ -72,7 +72,7 @@
       },
       {
         "$type": "Bespoke.Sph.Domain.Member, domain.sph",
-        "FullName": null,
+        "FullName": "IsPenyelaras",
         "MemberCollection": {
           "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.Sph.Domain.Member, domain.sph]], domain.sph",
           "$values": []
@@ -94,7 +94,7 @@
       },
       {
         "$type": "Bespoke.Sph.Domain.Member, domain.sph",
-        "FullName": null,
+        "FullName": "IsResponden",
         "MemberCollection": {
           "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.Sph.Domain.Member, domain.sph]], domain.sph",
           "$values": []
@@ -513,7 +513,7 @@
       },
       {
         "$type": "Bespoke.Sph.Domain.Member, domain.sph",
-        "FullName": null,
+        "FullName": "Emel",
         "MemberCollection": {
           "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.Sph.Domain.Member, domain.sph]], domain.sph",
           "$values": []
@@ -664,6 +664,50 @@
         "Boost": 0,
         "DefaultValue": null,
         "WebId": "4510de11-fa86-4b23-ea4b-39b829308d5b"
+      },
+      {
+        "$type": "Bespoke.Sph.Domain.Member, domain.sph",
+        "FullName": "NamaJabatan",
+        "MemberCollection": {
+          "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.Sph.Domain.Member, domain.sph]], domain.sph",
+          "$values": []
+        },
+        "FieldPermissionCollection": {
+          "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.Sph.Domain.FieldPermission, domain.sph]], domain.sph",
+          "$values": []
+        },
+        "Name": "NamaJabatan",
+        "TypeName": "System.String, mscorlib",
+        "IsNullable": true,
+        "IsNotIndexed": false,
+        "IsAnalyzed": false,
+        "IsFilterable": true,
+        "IsExcludeInAll": false,
+        "Boost": 0,
+        "DefaultValue": null,
+        "WebId": "a8667d72-36ed-4f2f-c9ad-2de185f44898"
+      },
+      {
+        "$type": "Bespoke.Sph.Domain.Member, domain.sph",
+        "FullName": "NamaKementerian",
+        "MemberCollection": {
+          "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.Sph.Domain.Member, domain.sph]], domain.sph",
+          "$values": []
+        },
+        "FieldPermissionCollection": {
+          "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.Sph.Domain.FieldPermission, domain.sph]], domain.sph",
+          "$values": []
+        },
+        "Name": "NamaKementerian",
+        "TypeName": "System.String, mscorlib",
+        "IsNullable": true,
+        "IsNotIndexed": false,
+        "IsAnalyzed": false,
+        "IsFilterable": true,
+        "IsExcludeInAll": false,
+        "Boost": 0,
+        "DefaultValue": null,
+        "WebId": "219318ee-9a84-4654-fe95-9cea4304f074"
       }
     ]
   },
@@ -778,8 +822,8 @@
   "IsShowOnNavigationBar": true,
   "CreatedBy": "admin",
   "Id": "pengguna",
-  "CreatedDate": "2015-06-01T18:46:54.2394133+08:00",
+  "CreatedDate": "2015-06-16T08:04:09.5200889+08:00",
   "ChangedBy": "admin",
-  "ChangedDate": "2015-06-13T12:17:07.1287112+08:00",
+  "ChangedDate": "2015-06-26T10:50:42.1054661+08:00",
   "WebId": "01c666ac-ab68-4416-9d69-a716a003c902"
 }

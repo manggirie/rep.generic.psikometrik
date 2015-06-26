@@ -241,7 +241,7 @@
     <div class="form-group" data-bind="visible:true">
         <label data-i18n="Kumpulan Agensi" for="119ac31f-e09c-43cc-b3c7-91ce4cccaf9c" class="col-md-4">Kumpulan Agensi</label>
         <div class="col-md-8">
-            <select  data-bind="value: JenisPerkhidmatan, enable :true" id="119ac31f-e09c-43cc-b3c7-91ce4cccaf9c" name="JenisPerkhidmatan" class=" input-large form-control">
+            <select  data-bind="value: JenisPerkhidmatan, enable :$root.partial.isPenyelaras() === false" id="119ac31f-e09c-43cc-b3c7-91ce4cccaf9c" name="JenisPerkhidmatan" class=" input-large form-control">
                     <option value="BBP" data-i18n="Badan Berkanun Persekutuan">Badan Berkanun Persekutuan</option>
                     <option value="BBN" data-i18n="Badan Berkanun Negeri">Badan Berkanun Negeri</option>
                     <option value="PAP" data-i18n="Perkhidmatan Awam Persekutuan">Perkhidmatan Awam Persekutuan</option>
@@ -261,6 +261,24 @@
                     <option value="Pengurusan Profesional" data-i18n="Pengurusan Profesional">Pengurusan Profesional</option>
                     <option value="Perlaksana" data-i18n="Perlaksana">Perlaksana</option>
                     <option value="Bersepadu" data-i18n="Bersepadu">Bersepadu</option>
+            </select>
+        </div>
+    </div>
+
+
+    <div class="form-group" data-bind="visible:true">
+        <label data-i18n="Kementerian" for="d264e6ce-01ee-4920-c901-4970e75ef248" class="col-md-4">Kementerian</label>
+        <div class="col-md-8">
+            <select  data-bind=" visible :true, comboBoxLookupOptions : { value: NamaKementerian, entity : 'Kementerian', valuePath : 'NamaKementerian', displayPath: 'NamaKementerian', query :ko.computed(function(){ return 'KumpulanAgensi eq \'' + JenisPerkhidmatan() + '\'';})}, enable :$root.partial.isPenyelaras() === false" id="d264e6ce-01ee-4920-c901-4970e75ef248" name="NamaKementerian" class=" input-large form-control">
+            </select>
+        </div>
+    </div>
+
+
+    <div class="form-group" data-bind="visible:true">
+        <label data-i18n="Jabatan" for="566600d0-3ed3-4dfc-f481-f4efe6e69308" class="col-md-4">Jabatan</label>
+        <div class="col-md-8">
+            <select  data-bind=" visible :true, comboBoxLookupOptions : { value: NamaJabatan, entity : 'Jabatan', valuePath : 'NamaJabatan', displayPath: 'NamaJabatan', query :ko.computed(function(){ return 'Kementerian eq \'' + NamaKementerian() + '\'';})}, enable :$root.partial.isPenyelaras() === false" id="566600d0-3ed3-4dfc-f481-f4efe6e69308" name="NamaJabatan" class=" input-large form-control">
             </select>
         </div>
     </div>
@@ -318,6 +336,8 @@
                    id="5abf2ddc-22f2-42e9-c43e-68516ee1cf45" type="text" name="Fax" />
         </div>
     </div>
+
+<button data-bind="command : $root.dateNow, visible :true, enable: true" class="">Hantar</button>
 </form>
     </div>
     <div class="col-sm-4">
