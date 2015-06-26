@@ -8,7 +8,6 @@
       "PengurusanPengguna",
       "Penyelaras",
       "Responden",
-      "Urusetia",
       "JanaLaporan",
       "PengurusanLookup",
       "PengurusanSoalan",
@@ -43,8 +42,8 @@
   "Option": 0,
   "CreatedBy": "admin",
   "Id": "developer",
-  "CreatedDate": "2015-06-13T17:22:32.6229932+08:00",
+  "CreatedDate": "2015-06-26T07:47:21.1148601+08:00",
   "ChangedBy": "admin",
-  "ChangedDate": "2015-06-25T12:24:05.6519513+08:00",
+  "ChangedDate": "2015-06-26T08:14:47.0884181+08:00",
   "WebId": "e5bfdb77-10a7-49c4-8708-b713ffa6931d"
 }

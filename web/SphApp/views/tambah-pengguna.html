@@ -16,17 +16,20 @@
     <div class="col-sm-8">
         
 <form class="form-horizontal" data-bind="with : entity" id="tambah-pengguna-form">
+<h2 data-i18n="Maklumat Peribadi" data-bind="visible:true">Maklumat Peribadi</h2>
+
 
 
 
     <div data-bind="visible:true" class="form-group">
         <label data-i18n="Nama" for="fe3ab0be-a563-496a-8455-b9844518bbf7" class="col-md-4">Nama</label>
         <div class="col-md-8">
-            <input  class=" form-control input-large" title=""
+            <input required class=" form-control input-large" title=""
                    data-bind="value: Nama, enable :true "
                    
                    
-                   
+                    data-rule-required="true" 
+
                    id="fe3ab0be-a563-496a-8455-b9844518bbf7" type="text" name="Nama" />
         </div>
     </div>
@@ -36,11 +39,12 @@
     <div data-bind="visible:true" class="form-group">
         <label data-i18n="My Kad" for="5fd9072c-4bb0-4ce4-a217-8d1ffabb15ed" class="col-md-4">My Kad</label>
         <div class="col-md-8">
-            <input  class=" form-control input-large" title=""
+            <input required class=" form-control input-large" title=""
                    data-bind="value: MyKad, enable :true "
                    
                    
-                   
+                    data-rule-required="true" 
+
                    id="5fd9072c-4bb0-4ce4-a217-8d1ffabb15ed" type="text" name="MyKad" />
         </div>
     </div>
@@ -83,17 +87,199 @@
             </select>
         </div>
     </div>
+<h2 data-i18n="Peranan" data-bind="visible:$root.partial.isPenyelaras() === false">Peranan</h2>
+
+
+    <div class="form-group" data-bind="visible:$root.partial.isPenyelaras() === false">
+        <div class="col-md-offset-4 col-md-8">
+            <div class="checkbox">
+                <label class="checkbox">
+                    <input data-bind="checked : IsUrusetia, enable :true" id="IsUrusetia" type="checkbox"
+                           name="IsUrusetia"/>
+                    <span data-i18n="Urusetia">Urusetia</span>
+                    
+                </label>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="form-group" data-bind="visible:$root.partial.isPenyelaras() === false">
+        <div class="col-md-offset-4 col-md-8">
+            <div class="checkbox">
+                <label class="checkbox">
+                    <input data-bind="checked : IsPenyelaras, enable :true" id="IsPenyelaras" type="checkbox"
+                           name="IsPenyelaras"/>
+                    <span data-i18n="Penyelaras">Penyelaras</span>
+                    
+                </label>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="form-group" data-bind="visible:$root.partial.isPenyelaras() === false">
+        <div class="col-md-offset-4 col-md-8">
+            <div class="checkbox">
+                <label class="checkbox">
+                    <input data-bind="checked : IsResponden, enable :true" id="IsResponden" type="checkbox"
+                           name="IsResponden"/>
+                    <span data-i18n="Responden">Responden</span>
+                    
+                </label>
+            </div>
+        </div>
+    </div>
+
+<h2 data-i18n="Maklumat Perkhidmatan" data-bind="visible:true">Maklumat Perkhidmatan</h2>
+
+
+
+    <div class="form-group" data-bind="visible:true">
+        <label data-i18n="Pekerjaan" for="543e8baf-484f-4cdd-c2aa-85c4cefbdb13" class="col-md-4">Pekerjaan</label>
+        <div class="col-md-8">
+            <select  data-bind="value: Pekerjaan, enable :true" id="543e8baf-484f-4cdd-c2aa-85c4cefbdb13" name="Pekerjaan" class=" input-large form-control">
+                    <option value="Kerajaan" data-i18n="Kerajaan">Kerajaan</option>
+                    <option value="Swasta" data-i18n="Swasta">Swasta</option>
+                    <option value="Pesara Kerajaan" data-i18n="Pesara Kerajaan">Pesara Kerajaan</option>
+                    <option value="Pesara Swasta" data-i18n="Pesara Swasta">Pesara Swasta</option>
+                    <option value="Bekerja Sendiri" data-i18n="Bekerja Sendiri">Bekerja Sendiri</option>
+                    <option value="Pelajar" data-i18n="Pelajar">Pelajar</option>
+                    <option value="Tiada Maklumat" data-i18n="Tiada Maklumat">Tiada Maklumat</option>
+            </select>
+        </div>
+    </div>
+
+
+    <div class="form-group" data-bind="visible:true">
+        <label data-i18n="Kumpulan Agensi" for="119ac31f-e09c-43cc-b3c7-91ce4cccaf9c" class="col-md-4">Kumpulan Agensi</label>
+        <div class="col-md-8">
+            <select  data-bind="value: JenisPerkhidmatan, enable :$root.partial.isPenyelaras() === false" id="119ac31f-e09c-43cc-b3c7-91ce4cccaf9c" name="JenisPerkhidmatan" class=" input-large form-control">
+                    <option value="BBP" data-i18n="Badan Berkanun Persekutuan">Badan Berkanun Persekutuan</option>
+                    <option value="BBN" data-i18n="Badan Berkanun Negeri">Badan Berkanun Negeri</option>
+                    <option value="PAP" data-i18n="Perkhidmatan Awam Persekutuan">Perkhidmatan Awam Persekutuan</option>
+                    <option value="PAN" data-i18n="Perkhidmatan Awam Negeri">Perkhidmatan Awam Negeri</option>
+                    <option value="PBT" data-i18n="Pihak Berkuasa Tempatan">Pihak Berkuasa Tempatan</option>
+                    <option value="TB" data-i18n="Tidak Berkaitan">Tidak Berkaitan</option>
+            </select>
+        </div>
+    </div>
+
+
+    <div class="form-group" data-bind="visible:true">
+        <label data-i18n="Kumpulan Jawatan" for="136182e1-66a5-4fa8-bba1-e6080deb3fb3" class="col-md-4">Kumpulan Jawatan</label>
+        <div class="col-md-8">
+            <select  data-bind="value: KumpulanJawatan, enable :true" id="136182e1-66a5-4fa8-bba1-e6080deb3fb3" name="KumpulanJawatan" class=" input-large form-control">
+                    <option value="Pengurusan Tertinggi" data-i18n="Pengurusan Tertinggi">Pengurusan Tertinggi</option>
+                    <option value="Pengurusan Profesional" data-i18n="Pengurusan Profesional">Pengurusan Profesional</option>
+                    <option value="Perlaksana" data-i18n="Perlaksana">Perlaksana</option>
+                    <option value="Bersepadu" data-i18n="Bersepadu">Bersepadu</option>
+            </select>
+        </div>
+    </div>
+
+
+    <div class="form-group" data-bind="visible:true">
+        <label data-i18n="Kementerian" for="d264e6ce-01ee-4920-c901-4970e75ef248" class="col-md-4">Kementerian</label>
+        <div class="col-md-8">
+            <select  data-bind=" visible :true, comboBoxLookupOptions : { value: NamaKementerian, entity : 'Kementerian', valuePath : 'NamaKementerian', displayPath: 'NamaKementerian', query :ko.computed(function(){ return 'KumpulanAgensi eq \'' + JenisPerkhidmatan() + '\'';})}" id="d264e6ce-01ee-4920-c901-4970e75ef248" name="NamaKementerian" class=" input-large form-control">
+            </select>
+        </div>
+    </div>
+
+
+    <div class="form-group" data-bind="visible:true">
+        <label data-i18n="Jabatan" for="566600d0-3ed3-4dfc-f481-f4efe6e69308" class="col-md-4">Jabatan</label>
+        <div class="col-md-8">
+            <select  data-bind=" visible :true, comboBoxLookupOptions : { value: NamaJabatan, entity : 'Jabatan', valuePath : 'NamaJabatan', displayPath: 'NamaJabatan', query :ko.computed(function(){ return 'Kementerian eq \'' + NamaKementerian() + '\'';})}" id="566600d0-3ed3-4dfc-f481-f4efe6e69308" name="NamaJabatan" class=" input-large form-control">
+            </select>
+        </div>
+    </div>
+
+
+    <div class="form-group" data-bind="visible:true">
+        <label data-i18n="Gred" for="47b57d27-1b24-4502-aa6c-f3b2b141a868" class="col-md-4">Gred</label>
+        <div class="col-md-8">
+            <select  data-bind="value: Gred, enable :true" id="47b57d27-1b24-4502-aa6c-f3b2b141a868" name="Gred" class=" input-large form-control">
+                    <option value="1-17" data-i18n="1-17">1-17</option>
+                    <option value="22-38" data-i18n="22-38">22-38</option>
+                    <option value="41-48" data-i18n="41-48">41-48</option>
+                    <option value="52-54" data-i18n="52-54">52-54</option>
+                    <option value="JUSA" data-i18n="JUSA">JUSA</option>
+            </select>
+        </div>
+    </div>
+
+
+    <div class="form-group" data-bind="visible:true">
+        <label data-i18n="Skim" for="dea60c85-93f9-4f63-9904-821d607e5c0d" class="col-md-4">Skim</label>
+        <div class="col-md-8">
+            <select  data-bind="value: Skim, enable :true" id="dea60c85-93f9-4f63-9904-821d607e5c0d" name="Skim" class=" input-large form-control">
+                    <option value="SSB" data-i18n="Sistem Saraan Baru">Sistem Saraan Baru</option>
+                    <option value="SSM" data-i18n="Sistem Saraan Malaysia">Sistem Saraan Malaysia</option>
+                    <option value="JK Kabinet" data-i18n="Jawatankuasa Kabinet">Jawatankuasa Kabinet</option>
+            </select>
+        </div>
+    </div>
+<h2 data-i18n="Maklumat Perhubungan" data-bind="visible:true">Maklumat Perhubungan</h2>
+
+
+
+
+    <div data-bind="visible:true" class="form-group">
+        <label data-i18n="Emel" for="8ec42aeb-5ab2-46f0-c6b5-9c832f9344ca" class="col-md-4">Emel</label>
+        <div class="col-md-8">
+            <input required class=" form-control input-large" title=""
+                   data-bind="value: Emel, enable :true "
+                   
+                   
+                    data-rule-email="true"  data-rule-required="true" 
+
+                   id="8ec42aeb-5ab2-46f0-c6b5-9c832f9344ca" type="text" name="Emel" />
+        </div>
+    </div>
+
+
+
+    <div data-bind="visible:true" class="form-group">
+        <label data-i18n="Telefon" for="32851057-3645-4011-dde6-1c4bba2a746c" class="col-md-4">Telefon</label>
+        <div class="col-md-8">
+            <input required class=" form-control " title="e.g. 012-1234567 atau 01-2345678"
+                   data-bind="value: Telefon, enable :true "
+                   
+                   pattern="[0-9]{2,3}-[0-9]{6,10}"
+                    data-rule-required="true" 
+
+                   id="32851057-3645-4011-dde6-1c4bba2a746c" type="text" name="Telefon" />
+        </div>
+            <span class="help-block">e.g. 012-1234567 atau 01-2345678</span>
+    </div>
+
+
+
+    <div data-bind="visible:true" class="form-group">
+        <label data-i18n="Fax" for="5abf2ddc-22f2-42e9-c43e-68516ee1cf45" class="col-md-4">Fax</label>
+        <div class="col-md-8">
+            <input  class=" form-control input-large" title=""
+                   data-bind="value: Fax, enable :true "
+                   
+                   
+                   
+                   id="5abf2ddc-22f2-42e9-c43e-68516ee1cf45" type="text" name="Fax" />
+        </div>
+    </div>
 
 
 
     <div data-bind="visible:true" class="form-group">
         <label data-i18n="Alamat1" for="cc0c30a6-0bea-4b1e-e3c5-c2910f10a694" class="col-md-4">Alamat1</label>
         <div class="col-md-8">
-            <input  class=" form-control input-large" title=""
+            <input required class=" form-control input-large" title=""
                    data-bind="value: Alamat().Alamat1, enable :true "
                    
                    
-                   
+                    data-rule-required="true" 
+
                    id="cc0c30a6-0bea-4b1e-e3c5-c2910f10a694" type="text" name="Alamat.Alamat1" />
         </div>
     </div>
@@ -131,11 +317,14 @@
     <div data-bind="visible:true" class="form-group">
         <label data-i18n="Poskod" for="34659ad3-b20c-48ce-c798-022042442183" class="col-md-4">Poskod</label>
         <div class="col-md-8">
-            <input  class=" form-control input-large" title=""
+            <input required class=" form-control input-large" title=""
                    data-bind="value: Alamat().Poskod, enable :true "
-                   
-                   
-                   
+                   maxlength="5"
+                   pattern="[0-9]{5}"
+                    data-rule-required="true" 
+ data-rule-maxlength="5"
+ data-rule-minlength="5"
+
                    id="34659ad3-b20c-48ce-c798-022042442183" type="text" name="Alamat.Poskod" />
         </div>
     </div>
@@ -179,145 +368,7 @@
         </div>
     </div>
 
-
-    <div class="form-group" data-bind="visible:true">
-        <label data-i18n="Pekerjaan" for="543e8baf-484f-4cdd-c2aa-85c4cefbdb13" class="col-md-4">Pekerjaan</label>
-        <div class="col-md-8">
-            <select  data-bind="value: Pekerjaan, enable :true" id="543e8baf-484f-4cdd-c2aa-85c4cefbdb13" name="Pekerjaan" class=" input-large form-control">
-                    <option value="Kerajaan" data-i18n="Kerajaan">Kerajaan</option>
-                    <option value="Swasta" data-i18n="Swasta">Swasta</option>
-                    <option value="Pesara Kerajaan" data-i18n="Pesara Kerajaan">Pesara Kerajaan</option>
-                    <option value="Pesara Swasta" data-i18n="Pesara Swasta">Pesara Swasta</option>
-                    <option value="Bekerja Sendiri" data-i18n="Bekerja Sendiri">Bekerja Sendiri</option>
-                    <option value="Pelajar" data-i18n="Pelajar">Pelajar</option>
-                    <option value="Tiada Maklumat" data-i18n="Tiada Maklumat">Tiada Maklumat</option>
-            </select>
-        </div>
-    </div>
-
-    <div class="form-group" data-bind="visible:true">
-        <div class="col-md-offset-4 col-md-8">
-            <div class="checkbox">
-                <label class="checkbox">
-                    <input data-bind="checked : IsPenyelaras, enable :true" id="IsPenyelaras" type="checkbox"
-                           name="IsPenyelaras"/>
-                    <span data-i18n="Is Penyelaras">Is Penyelaras</span>
-                    
-                </label>
-            </div>
-        </div>
-    </div>
-
-
-    <div class="form-group" data-bind="visible:true">
-        <div class="col-md-offset-4 col-md-8">
-            <div class="checkbox">
-                <label class="checkbox">
-                    <input data-bind="checked : IsResponden, enable :true" id="IsResponden" type="checkbox"
-                           name="IsResponden"/>
-                    <span data-i18n="Is Responden">Is Responden</span>
-                    
-                </label>
-            </div>
-        </div>
-    </div>
-
-
-    <div class="form-group" data-bind="visible:true">
-        <div class="col-md-offset-4 col-md-8">
-            <div class="checkbox">
-                <label class="checkbox">
-                    <input data-bind="checked : IsUrusetia, enable :true" id="IsUrusetia" type="checkbox"
-                           name="IsUrusetia"/>
-                    <span data-i18n="Is Urusetia">Is Urusetia</span>
-                    
-                </label>
-            </div>
-        </div>
-    </div>
-
-
-
-    <div class="form-group" data-bind="visible:true">
-        <label data-i18n="Kumpulan Agensi" for="119ac31f-e09c-43cc-b3c7-91ce4cccaf9c" class="col-md-4">Kumpulan Agensi</label>
-        <div class="col-md-8">
-            <select  data-bind="value: JenisPerkhidmatan, enable :true" id="119ac31f-e09c-43cc-b3c7-91ce4cccaf9c" name="JenisPerkhidmatan" class=" input-large form-control">
-                    <option value="BBP" data-i18n="Badan Berkanun Persekutuan">Badan Berkanun Persekutuan</option>
-                    <option value="BBN" data-i18n="Badan Berkanun Negeri">Badan Berkanun Negeri</option>
-                    <option value="PAP" data-i18n="Perkhidmatan Awam Persekutuan">Perkhidmatan Awam Persekutuan</option>
-                    <option value="PAN" data-i18n="Perkhidmatan Awam Negeri">Perkhidmatan Awam Negeri</option>
-                    <option value="PBT" data-i18n="Pihak Berkuasa Tempatan">Pihak Berkuasa Tempatan</option>
-                    <option value="TB" data-i18n="Tidak Berkaitan">Tidak Berkaitan</option>
-            </select>
-        </div>
-    </div>
-
-
-    <div class="form-group" data-bind="visible:true">
-        <label data-i18n="Kumpulan Jawatan" for="136182e1-66a5-4fa8-bba1-e6080deb3fb3" class="col-md-4">Kumpulan Jawatan</label>
-        <div class="col-md-8">
-            <select  data-bind="value: KumpulanJawatan, enable :true" id="136182e1-66a5-4fa8-bba1-e6080deb3fb3" name="KumpulanJawatan" class=" input-large form-control">
-                    <option value="Pengurusan Tertinggi" data-i18n="Pengurusan Tertinggi">Pengurusan Tertinggi</option>
-                    <option value="Pengurusan Profesional" data-i18n="Pengurusan Profesional">Pengurusan Profesional</option>
-                    <option value="Perlaksana" data-i18n="Perlaksana">Perlaksana</option>
-                    <option value="Bersepadu" data-i18n="Bersepadu">Bersepadu</option>
-            </select>
-        </div>
-    </div>
-
-
-    <div class="form-group" data-bind="visible:true">
-        <label data-i18n="Gred" for="47b57d27-1b24-4502-aa6c-f3b2b141a868" class="col-md-4">Gred</label>
-        <div class="col-md-8">
-            <select  data-bind="value: Gred, enable :true" id="47b57d27-1b24-4502-aa6c-f3b2b141a868" name="Gred" class=" input-large form-control">
-                    <option value="1-17" data-i18n="1-17">1-17</option>
-                    <option value="22-38" data-i18n="22-38">22-38</option>
-                    <option value="41-48" data-i18n="41-48">41-48</option>
-                    <option value="52-54" data-i18n="52-54">52-54</option>
-                    <option value="JUSA" data-i18n="JUSA">JUSA</option>
-            </select>
-        </div>
-    </div>
-
-
-    <div class="form-group" data-bind="visible:true">
-        <label data-i18n="Skim" for="dea60c85-93f9-4f63-9904-821d607e5c0d" class="col-md-4">Skim</label>
-        <div class="col-md-8">
-            <select  data-bind="value: Skim, enable :true" id="dea60c85-93f9-4f63-9904-821d607e5c0d" name="Skim" class=" input-large form-control">
-                    <option value="SSB" data-i18n="Sistem Saraan Baru">Sistem Saraan Baru</option>
-                    <option value="SSM" data-i18n="Sistem Saraan Malaysia">Sistem Saraan Malaysia</option>
-                    <option value="JK Kabinet" data-i18n="Jawatankuasa Kabinet">Jawatankuasa Kabinet</option>
-            </select>
-        </div>
-    </div>
-
-
-
-    <div data-bind="visible:true" class="form-group">
-        <label data-i18n="Emel" for="8ec42aeb-5ab2-46f0-c6b5-9c832f9344ca" class="col-md-4">Emel</label>
-        <div class="col-md-8">
-            <input  class=" form-control input-large" title=""
-                   data-bind="value: Emel, enable :true "
-                   
-                   
-                   
-                   id="8ec42aeb-5ab2-46f0-c6b5-9c832f9344ca" type="text" name="Emel" />
-        </div>
-    </div>
-
-
-
-    <div data-bind="visible:true" class="form-group">
-        <label data-i18n="Fax" for="5abf2ddc-22f2-42e9-c43e-68516ee1cf45" class="col-md-4">Fax</label>
-        <div class="col-md-8">
-            <input  class=" form-control input-large" title=""
-                   data-bind="value: Fax, enable :true "
-                   
-                   
-                   
-                   id="5abf2ddc-22f2-42e9-c43e-68516ee1cf45" type="text" name="Fax" />
-        </div>
-    </div>
+<button data-bind="command : $root.dateNow, visible :true, enable: true" class="">Hantar</button>
 </form>
     </div>
     <div class="col-sm-4">

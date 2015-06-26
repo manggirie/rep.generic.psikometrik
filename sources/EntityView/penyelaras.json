@@ -32,7 +32,7 @@
         "Header": "Nama",
         "Sort": "",
         "IsLinkColumn": true,
-        "FormRoute": "pengguna-details",
+        "FormRoute": "tambah-pengguna",
         "IconCssClass": "fa fa-video-camera",
         "IconStoreId": "",
         "Format": "text:{0}",
@@ -53,8 +53,42 @@
         "IconCssClass": "",
         "IconStoreId": "",
         "Format": "text:{0}",
-        "RouteValueField": "",
+        "RouteValueField": "Id",
         "WebId": "5218e202-9db3-4ccd-ccb9-bceab46fff47"
+      },
+      {
+        "$type": "Bespoke.Sph.Domain.ViewColumn, domain.sph",
+        "ConditionalFormattingCollection": {
+          "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.Sph.Domain.ConditionalFormatting, domain.sph]], domain.sph",
+          "$values": []
+        },
+        "Path": "NamaJabatan",
+        "Header": "Nama Jabatan",
+        "Sort": "",
+        "IsLinkColumn": false,
+        "FormRoute": null,
+        "IconCssClass": "",
+        "IconStoreId": "",
+        "Format": "text:{0}",
+        "RouteValueField": "Id",
+        "WebId": "493a484a-04c2-4982-ae9d-dc58caa66cd3"
+      },
+      {
+        "$type": "Bespoke.Sph.Domain.ViewColumn, domain.sph",
+        "ConditionalFormattingCollection": {
+          "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.Sph.Domain.ConditionalFormatting, domain.sph]], domain.sph",
+          "$values": []
+        },
+        "Path": "NamaKementerian",
+        "Header": "Nama Kementerian",
+        "Sort": "",
+        "IsLinkColumn": false,
+        "FormRoute": null,
+        "IconCssClass": "",
+        "IconStoreId": "",
+        "Format": "text:{0}",
+        "RouteValueField": "Id",
+        "WebId": "ebf50e6c-3691-4ef3-9ddc-6c1ade8f44fc"
       }
     ]
   },
@@ -92,8 +126,8 @@
   "Partial": "partial/penyelaras",
   "CreatedBy": "admin",
   "Id": "penyelaras",
-  "CreatedDate": "2015-06-01T18:46:54.2964147+08:00",
+  "CreatedDate": "2015-06-16T08:04:09.5345994+08:00",
   "ChangedBy": "admin",
-  "ChangedDate": "2015-06-01T18:46:54.2964147+08:00",
+  "ChangedDate": "2015-06-26T10:48:18.054422+08:00",
   "WebId": "a8494a5b-85d1-4b8b-dd3b-aa13a5b664c6"
 }

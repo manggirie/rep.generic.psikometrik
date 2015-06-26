@@ -1,6 +1,6 @@
 
 
-<h1 data-i18n="UjianDetail">UjianDetail</h1>
+<h1 data-i18n="Tambah Ujian">Tambah Ujian</h1>
 <div id="error-list" class="row" data-bind="visible:errors().length">
     <!-- ko foreach : errors -->
     <div class="col-sm-8 col-sm-offset-2 alert alert-dismissable alert-danger">
@@ -46,7 +46,23 @@
                    id="59d2854e-8e9e-4c87-cfe4-09b82d35d5e0" type="text" name="NamaUjian" />
         </div>
     </div>
-</form>
+
+    <div class="form-group" data-bind="visible:true">
+        <label data-i18n="Duration Hour" for="8f0005e6-495c-4789-848c-4e938a6ad070" class="col-md-4">Duration Hour</label>
+        <div class="col-md-8">
+            <input step="0" class=" form-control input-large" data-bind="value: DurationHour, visible :true, enable :true"
+                   id="8f0005e6-495c-4789-848c-4e938a6ad070" type="number" name="DurationHour" />
+        </div>
+    </div>
+  
+    <div class="form-group" data-bind="visible:true">
+        <label data-i18n="Duration Minutes" for="5277c415-2394-4592-c620-d3c8ad16d669" class="col-md-4">Duration Minutes</label>
+        <div class="col-md-8">
+            <input step="0" class=" form-control input-large" data-bind="value: DurationMinutes, visible :true, enable :true"
+                   id="5277c415-2394-4592-c620-d3c8ad16d669" type="number" name="DurationMinutes" />
+        </div>
+    </div>
+  </form>
     </div>
     <div class="col-sm-4">
         
