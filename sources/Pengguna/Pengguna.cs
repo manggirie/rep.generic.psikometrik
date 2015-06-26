@@ -114,5 +114,13 @@ namespace Bespoke.epsikologi_pengguna.Domain
         [XmlAttribute]
         public string NegeriBekerja { get; set; }
 
+        //member:NamaJabatan
+        [XmlAttribute]
+        public string NamaJabatan { get; set; }
+
+        //member:NamaKementerian
+        [XmlAttribute]
+        public string NamaKementerian { get; set; }
+
     }
 }

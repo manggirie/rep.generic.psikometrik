@@ -3,7 +3,6 @@
   "RoleCollection": {
     "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[System.String, mscorlib]], domain.sph",
     "$values": [
-      "Urusetia",
       "PengurusanPengguna",
       "JanaLaporan",
       "PengurusanLookup",
@@ -39,8 +38,8 @@
   "Option": 0,
   "CreatedBy": "admin",
   "Id": "urusetia",
-  "CreatedDate": "2015-06-08T16:00:26.3627775+08:00",
+  "CreatedDate": "2015-06-26T07:47:21.1173621+08:00",
   "ChangedBy": "admin",
-  "ChangedDate": "2015-06-25T12:25:58.9081068+08:00",
+  "ChangedDate": "2015-06-26T08:14:49.479153+08:00",
   "WebId": "e1f16dd3-5bf1-4c30-97a8-c289061fed80"
 }

@@ -188,19 +188,7 @@
 
 
                 toolbar : {
-                        emailCommand : {
-                        entity : "Pengguna",
-                        id :id
-                    },
-                                            printCommand :{
-                        entity : 'Pengguna',
-                        id : id
-                    },
-                                    removeCommand :remove,
-                    canExecuteRemoveCommand : ko.computed(function(){
-                        return entity().Id();
-                    }),
-                                                                
+                                                                                                        
                     saveCommand : tarikhKemaskiniNow,
                     
                     commands : ko.observableArray([])
