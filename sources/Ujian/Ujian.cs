@@ -26,5 +26,11 @@ namespace Bespoke.epsikologi_ujian.Domain
         [XmlAttribute]
         public string NamaUjian { get; set; }
 
+        //member:DurationHour
+        public int? DurationHour { get; set; }
+
+        //member:DurationMinutes
+        public int? DurationMinutes { get; set; }
+
     }
 }
