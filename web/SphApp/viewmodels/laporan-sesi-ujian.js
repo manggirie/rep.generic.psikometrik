@@ -2,10 +2,12 @@ define(["services/datacontext", "services/logger", "plugins/router", objectbuild
     var ujianOptions = ko.observableArray(),
         namaUjian = ko.observable(),
         programOptions = ko.observableArray(),
+        tahunOptions = ko.observableArray(),
         namaProgram = ko.observable(),
         bil = ko.observable(),
         siri = ko.observable(),
         tahun = ko.observable(),
+        tahunQuery = {"query":{"filtered":{"filter":{"bool":{"must":[{"term":{"StatusPermohonan":"LULUS"}}],"must_not":[]}}}},"sort":[],"aggs":{"category":{"terms":{"field":"TahunProgram","size":0}}},"from":0,"size":20},
         activate = function(){
             
             return context.getListAsync("Ujian", "Id ne '0'", "UjianNo")
@@ -13,7 +15,18 @@ define(["services/datacontext", "services/logger", "plugins/router", objectbuild
                 ujianOptions(list);
                 return context.getListAsync("ProgramLookup", "Id ne '0'", "NamaProgram");
             })
-            .then(programOptions);
+            .then(function(list){
+                programOptions(list);
+                return context.searchAsync("Permohonan", tahunQuery);
+            })
+            .then(function(result){
+                console.log(result);
+                console.log(result.aggregations.category.buckets);
+                var years = _(result.aggregations.category.buckets).map(function(v){
+                    return v.key;
+                });
+                tahunOptions(years);
+            });
 
 
         },
@@ -49,6 +62,7 @@ define(["services/datacontext", "services/logger", "plugins/router", objectbuild
         namaProgram : namaProgram,
         namaUjian : namaUjian,
         programOptions : programOptions,
+        tahunOptions : tahunOptions,
         activate : activate,
         attached : attached,
         generateLaporan : generateLaporan
