@@ -581,7 +581,7 @@
   },
   "Name": "Permohonan",
   "Plural": "Permohonans",
-  "IconStoreId": "c98062ee-1880-4d03-94f7-806664bf2204",
+  "IconStoreId": "8d875fdf-1ebf-417a-997c-8a8b005051ef",
   "IconClass": "fa fa-share-square-o",
   "RecordName": "PermohonanNo",
   "IsPublished": true,
@@ -590,6 +590,6 @@
   "Id": "permohonan",
   "CreatedDate": "2015-06-05T10:45:39.9585024+08:00",
   "ChangedBy": "admin",
-  "ChangedDate": "2015-06-27T16:21:12.5238485+08:00",
+  "ChangedDate": "2015-06-28T11:04:57.1775079+08:00",
   "WebId": "5aff113b-31e8-4f89-b7eb-d089e79bd899"
 }

@@ -115,7 +115,7 @@
   },
   "Name": "Ujian",
   "Plural": "Ujian",
-  "IconStoreId": "036aeb47-24f2-4105-aed7-f14b1466fef9",
+  "IconStoreId": "26426ead-2242-4d5f-9848-747b9a8aae01",
   "IconClass": "fa fa-bookmark-o",
   "RecordName": "UjianNo",
   "IsPublished": true,
@@ -124,6 +124,6 @@
   "Id": "ujian",
   "CreatedDate": "2015-06-16T08:05:00.1218075+08:00",
   "ChangedBy": "admin",
-  "ChangedDate": "2015-06-27T16:22:59.0802605+08:00",
+  "ChangedDate": "2015-06-28T10:08:38.1864271+08:00",
   "WebId": "b9308a1b-cbde-4d64-8ff9-8e1a9f1ef759"
 }
