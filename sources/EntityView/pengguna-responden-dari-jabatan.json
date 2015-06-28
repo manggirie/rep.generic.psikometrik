@@ -1,0 +1,149 @@
+{
+  "$type": "Bespoke.Sph.Domain.EntityView, domain.sph",
+  "FilterCollection": {
+    "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.Sph.Domain.Filter, domain.sph]], domain.sph",
+    "$values": [
+      {
+        "$type": "Bespoke.Sph.Domain.Filter, domain.sph",
+        "Term": "NamaJabatan",
+        "Operator": "Eq",
+        "Field": {
+          "$type": "Bespoke.Sph.Domain.JavascriptExpressionField, domain.sph",
+          "Expression": "$root.partial.namaJabatan",
+          "Name": "jabatan",
+          "Note": "",
+          "WebId": "bbedc84e-bf85-4a44-ae03-7d849c9e08e7"
+        },
+        "WebId": "db5058d3-8fbc-4d8e-ef0d-524b6fe5ea9d"
+      }
+    ]
+  },
+  "ViewColumnCollection": {
+    "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.Sph.Domain.ViewColumn, domain.sph]], domain.sph",
+    "$values": [
+      {
+        "$type": "Bespoke.Sph.Domain.ViewColumn, domain.sph",
+        "ConditionalFormattingCollection": {
+          "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.Sph.Domain.ConditionalFormatting, domain.sph]], domain.sph",
+          "$values": []
+        },
+        "Path": "Nama",
+        "Header": "Nama",
+        "Sort": "",
+        "IsLinkColumn": false,
+        "FormRoute": null,
+        "IconCssClass": "",
+        "IconStoreId": "",
+        "Format": "text:{0}",
+        "RouteValueField": "",
+        "WebId": "826afc1f-885a-48a0-b1fe-3c11f1f6aafc"
+      },
+      {
+        "$type": "Bespoke.Sph.Domain.ViewColumn, domain.sph",
+        "ConditionalFormattingCollection": {
+          "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.Sph.Domain.ConditionalFormatting, domain.sph]], domain.sph",
+          "$values": []
+        },
+        "Path": "MyKad",
+        "Header": "My Kad",
+        "Sort": "",
+        "IsLinkColumn": false,
+        "FormRoute": null,
+        "IconCssClass": "",
+        "IconStoreId": "",
+        "Format": "text:{0}",
+        "RouteValueField": "",
+        "WebId": "43d08f6b-f40f-4314-8e02-c3ed7acc78bc"
+      },
+      {
+        "$type": "Bespoke.Sph.Domain.ViewColumn, domain.sph",
+        "ConditionalFormattingCollection": {
+          "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.Sph.Domain.ConditionalFormatting, domain.sph]], domain.sph",
+          "$values": []
+        },
+        "Path": "Gred",
+        "Header": "Gred",
+        "Sort": "",
+        "IsLinkColumn": false,
+        "FormRoute": null,
+        "IconCssClass": "",
+        "IconStoreId": "",
+        "Format": "text:{0}",
+        "RouteValueField": "",
+        "WebId": "89590476-e441-4a1f-daf7-9a71303ced55"
+      },
+      {
+        "$type": "Bespoke.Sph.Domain.ViewColumn, domain.sph",
+        "ConditionalFormattingCollection": {
+          "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.Sph.Domain.ConditionalFormatting, domain.sph]], domain.sph",
+          "$values": []
+        },
+        "Path": "Pekerjaan",
+        "Header": "Pekerjaan",
+        "Sort": "",
+        "IsLinkColumn": false,
+        "FormRoute": null,
+        "IconCssClass": "",
+        "IconStoreId": "",
+        "Format": "text:{0}",
+        "RouteValueField": "",
+        "WebId": "53702292-980f-4719-b1fb-71165d3e6fab"
+      },
+      {
+        "$type": "Bespoke.Sph.Domain.ViewColumn, domain.sph",
+        "ConditionalFormattingCollection": {
+          "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.Sph.Domain.ConditionalFormatting, domain.sph]], domain.sph",
+          "$values": []
+        },
+        "Path": "Emel",
+        "Header": "Emel",
+        "Sort": "",
+        "IsLinkColumn": false,
+        "FormRoute": null,
+        "IconCssClass": "",
+        "IconStoreId": "",
+        "Format": "text:{0}",
+        "RouteValueField": "",
+        "WebId": "1510accb-795d-4779-b171-86d088da7d2d"
+      }
+    ]
+  },
+  "SortCollection": {
+    "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.Sph.Domain.Sort, domain.sph]], domain.sph",
+    "$values": []
+  },
+  "ConditionalFormattingCollection": {
+    "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.Sph.Domain.ConditionalFormatting, domain.sph]], domain.sph",
+    "$values": []
+  },
+  "Performer": {
+    "$type": "Bespoke.Sph.Domain.Performer, domain.sph",
+    "UserProperty": "",
+    "Value": "",
+    "IsPublic": false,
+    "WebId": null
+  },
+  "RouteParameterCollection": {
+    "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.Sph.Domain.RouteParameter, domain.sph]], domain.sph",
+    "$values": []
+  },
+  "IconClass": "",
+  "IconStoreId": "e6e5fc09-d31c-439d-bf0f-d16c0046c67a",
+  "EntityDefinitionId": "pengguna",
+  "Name": "Responden dari jabatan",
+  "Route": "responden-dari-jabatan",
+  "Note": "Senarai responden mengikut Jabatan Penyelaras Semasa",
+  "Query": "",
+  "IsPublished": false,
+  "Visibilty": "",
+  "TileColour": "blightblue",
+  "CountMessage": "",
+  "Entity": "",
+  "Partial": "",
+  "CreatedBy": "admin",
+  "Id": "pengguna-responden-dari-jabatan",
+  "CreatedDate": "2015-06-29T05:47:15.9045996+08:00",
+  "ChangedBy": "admin",
+  "ChangedDate": "2015-06-29T05:47:15.9015988+08:00",
+  "WebId": "3c1c61c1-26e5-4ef4-88b6-cef7a33db674"
+}
