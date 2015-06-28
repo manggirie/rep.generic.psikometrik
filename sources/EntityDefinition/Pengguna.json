@@ -815,7 +815,7 @@
   },
   "Name": "Pengguna",
   "Plural": "Pengguna",
-  "IconStoreId": "5efbc30b-a3ec-401f-ac3c-6c2db7af7d19",
+  "IconStoreId": "4e41e28f-8736-4c5e-82ea-7529c38258bf",
   "IconClass": "fa fa-user",
   "RecordName": "MyKad",
   "IsPublished": true,
@@ -824,6 +824,6 @@
   "Id": "pengguna",
   "CreatedDate": "2015-06-16T08:04:09.5200889+08:00",
   "ChangedBy": "admin",
-  "ChangedDate": "2015-06-27T16:20:37.8758172+08:00",
+  "ChangedDate": "2015-06-29T05:42:51.5836908+08:00",
   "WebId": "01c666ac-ab68-4416-9d69-a716a003c902"
 }
