@@ -13,12 +13,9 @@
 * Update kemaskini
 
 ## Sesi ujian
-* Duration - kalau lebih  - leave
-* Back button - prompt and leave the session
+* ~~Duration - kalau lebih  - leave~~
 * ~~Mengikut tarikh program(permohonan yang telah LULUS)~~ DONE
-
-
-1.~~ Masa sesi ujian untuk responden menjawab telah ditetapkan. Jika masa telah tamat, sistem akan auto log out bagi sesi responden tersebut dan responden perlu login semula dan jawab semula setiap soalan. Pada hari yang sama, responden hanya dibenarkan mencuba untuk menjawab sesi ujian tersebut sebanyak tiga kali, jika selepas 3 kali masih melebihi masa, auto block responden dan responden perlu menghubungi urusetia (offline) untuk tindakan unblock responden tersebut. (eg. masa untuk sesi ujian IBK adalah sebanyak 40 minit bagi setiap seksyen)~~
+* ~~Masa sesi ujian untuk responden menjawab telah ditetapkan. Jika masa telah tamat, sistem akan auto log out bagi sesi responden tersebut dan responden perlu login semula dan jawab semula setiap soalan. Pada hari yang sama, responden hanya dibenarkan mencuba untuk menjawab sesi ujian tersebut sebanyak tiga kali, jika selepas 3 kali masih melebihi masa, auto block responden dan responden perlu menghubungi urusetia (offline) untuk tindakan unblock responden tersebut. (eg. masa untuk sesi ujian IBK adalah sebanyak 40 minit bagi setiap seksyen)~~
 
 2. Semasa sesi ujian, jika responden tekan back button pada browser, auto save jawapan-jawapan yang telah dijawab. Walau bagaimanapun, simpan jawapan sebenar hanya apabila butang Hantar ditekan.
 
