@@ -1,5 +1,6 @@
 #Things to do
-* Title - Sistem Ujian Psikologi
+* ~~Title - Sistem Ujian Psikologi~~
+
 ## Responden dan Penyelaras
 * ~~Responden tak boleh copy soalan~~
   * done, prevent contextmenu and selection - 2015-06-28 1007
