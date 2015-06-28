@@ -8,10 +8,10 @@
         <table class="table table-striped" data-bind="filter : {path:'tbody>tr'}, searchPaging :{ query: query, map : map, entity : 'PercubaanSesi', list:list}">
             <thead>
                 <tr>
-                    <th>Nama Ujian</th>
+                    <th>MyKad</th>
                     <th>Program</th>
                     <th>Nama Pengguna</th>
-                    <th>My Kad</th>
+                    <th>Ujian</th>
                     <th>Bilangan</th>
                 </tr>
             </thead>
@@ -19,14 +19,14 @@
                 <tr data-bind="">
 
                     <td>
-                        <a data-bind="attr : {href:'#percubaansesi-details' + '/' + Id, title:'Nama Ujian' }">
+                        <a data-bind="attr : {href:'#percubaan-sesi-ujian' + '/' + Id, title:'MyKad' }">
                             <i class="fa fa-external-link"></i>
-                                                        <span data-bind="text:NamaUjian"></span>
+                                                        <span data-bind="text:MyKad"></span>
                         </a>
                     </td>
                     <td data-bind="text:Program"></td>
                     <td data-bind="text:NamaPengguna"></td>
-                    <td data-bind="text:MyKad"></td>
+                    <td data-bind="text:NamaUjian"></td>
                     <td data-bind="text:Bilangan"></td>
 
 

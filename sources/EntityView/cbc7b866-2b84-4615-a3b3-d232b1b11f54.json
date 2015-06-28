@@ -13,11 +13,11 @@
           "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.Sph.Domain.ConditionalFormatting, domain.sph]], domain.sph",
           "$values": []
         },
-        "Path": "NamaUjian",
-        "Header": "Nama Ujian",
+        "Path": "MyKad",
+        "Header": "MyKad",
         "Sort": "",
         "IsLinkColumn": true,
-        "FormRoute": "percubaansesi-details",
+        "FormRoute": "percubaan-sesi-ujian",
         "IconCssClass": "fa fa-external-link",
         "IconStoreId": "",
         "Format": "text:{0}",
@@ -64,8 +64,8 @@
           "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.Sph.Domain.ConditionalFormatting, domain.sph]], domain.sph",
           "$values": []
         },
-        "Path": "MyKad",
-        "Header": "My Kad",
+        "Path": "NamaUjian",
+        "Header": "Ujian",
         "Sort": "",
         "IsLinkColumn": false,
         "FormRoute": null,
@@ -137,6 +137,6 @@
   "Id": "cbc7b866-2b84-4615-a3b3-d232b1b11f54",
   "CreatedDate": "2015-06-28T15:38:32.3367388+08:00",
   "ChangedBy": "admin",
-  "ChangedDate": "2015-06-28T15:57:44.5696149+08:00",
+  "ChangedDate": "2015-06-28T16:23:52.4371906+08:00",
   "WebId": "49d9ee84-fe0b-4d6c-b859-98ef72830b3b"
 }

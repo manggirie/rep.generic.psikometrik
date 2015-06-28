@@ -1,0 +1,57 @@
+
+
+<h1 data-i18n="Maklumat Percubaan Ses Ujia">Maklumat Percubaan Ses Ujia</h1>
+<div id="error-list" class="row" data-bind="visible:errors().length">
+    <!-- ko foreach : errors -->
+    <div class="col-sm-8 col-sm-offset-2 alert alert-dismissable alert-danger">
+        <button type="button" class="close" data-dismiss="alert" aria-hidden="true">&times;</button>
+        <i class="fa fa-exclamation"></i>
+        <span data-bind="text:Message"></span>
+
+    </div>
+    <div class="col-sm-2"></div>
+    <!-- /ko-->
+</div>
+<div class="row">
+    <div class="col-sm-8">
+        
+<form class="form-horizontal" data-bind="with : entity" id="percubaan-sesi-ujian-form">
+    <div class="form-group" data-bind="visible:true">
+        <label class="col-md-4">Nama Pengguna</label>
+        <span class="col-md-8" data-bind="text: NamaPengguna"></span>
+    </div>
+    <div class="form-group" data-bind="visible:true">
+        <label class="col-md-4">My Kad</label>
+        <span class="col-md-8" data-bind="text: MyKad"></span>
+    </div>
+    <div class="form-group" data-bind="visible:true">
+        <label class="col-md-4">Nama Ujian</label>
+        <span class="col-md-8" data-bind="text: NamaUjian"></span>
+    </div>
+    <div class="form-group" data-bind="visible:true">
+        <label class="col-md-4">Program</label>
+        <span class="col-md-8" data-bind="text: Program"></span>
+    </div>
+<div class="form-group" data-bind="visible:true">
+    <label class="col-md-4">Tarikh</label>
+    <span class="col-md-8" data-bind="date: Tarikh"></span>
+</div>
+
+
+    <div data-bind="visible:true" class="form-group">
+        <label data-i18n="Bilangan" for="52a84d02-59a1-4ef4-8bca-200582a0780c" class="col-md-4">Bilangan</label>
+        <div class="col-md-8">
+            <input  class=" form-control input-large" title=""
+                   data-bind="value: Bilangan, enable :true "
+                   
+                   
+                   
+                   id="52a84d02-59a1-4ef4-8bca-200582a0780c" type="text" name="Bilangan" />
+        </div>
+    </div>
+</form>
+    </div>
+    <div class="col-sm-4">
+        
+    </div>
+</div>
