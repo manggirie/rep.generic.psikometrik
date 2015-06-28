@@ -1,0 +1,531 @@
+{
+  "$type": "Bespoke.Sph.Domain.WorkflowDefinition, domain.sph",
+  "ActivityCollection": {
+    "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.Sph.Domain.Activity, domain.sph]], domain.sph",
+    "$values": [
+      {
+        "$type": "Bespoke.Sph.Domain.NotificationActivity, domain.sph",
+        "From": "admin@@sph.my",
+        "Subject": "Pendaftaran Program",
+        "Body": "Selamat Sejahtera,\n\nAnda sudah didaftaran unuk program @Model.Pendaftaran.NoPermohonan\n\nTerima Kasih",
+        "To": "@Model.Responden.Emel",
+        "UserName": null,
+        "Cc": null,
+        "Bcc": null,
+        "IsHtmlEmail": false,
+        "IsAsync": false,
+        "ExecutedCode": null,
+        "ExecutingCode": null,
+        "TypeName": "Notification",
+        "OtherMethodCollection": {
+          "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.Sph.Domain.Codes.Method, domain.sph]], domain.sph",
+          "$values": [
+            {
+              "$type": "Bespoke.Sph.Domain.Codes.Method, domain.sph",
+              "Comment": null,
+              "AccessModifier": "Internal",
+              "ReturnType": null,
+              "Name": null,
+              "FileName": null,
+              "Code": "   private async Task<string> TransformFromEmailRespondenAsync(string template)\r\n   {\r\n\r\n            var razor = ObjectBuilder.GetObject<ITemplateEngine>();\r\n            return await razor.GenerateAsync(template, this).ConfigureAwait(false);   }\r\n",
+              "Body": null,
+              "IsVirtual": false,
+              "IsOverride": false,
+              "IsStatic": false,
+              "ArgumentCollection": {
+                "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.Sph.Domain.MethodArg, domain.sph]], domain.sph",
+                "$values": []
+              },
+              "AttributeCollection": {
+                "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[System.String, mscorlib]], domain.sph",
+                "$values": []
+              }
+            },
+            {
+              "$type": "Bespoke.Sph.Domain.Codes.Method, domain.sph",
+              "Comment": null,
+              "AccessModifier": "Internal",
+              "ReturnType": null,
+              "Name": null,
+              "FileName": null,
+              "Code": "   private async Task<string> TransformToEmailRespondenAsync(string template)\r\n   {\r\n\r\n            var razor = ObjectBuilder.GetObject<ITemplateEngine>();\r\n            return await razor.GenerateAsync(template, this).ConfigureAwait(false);   }\r\n",
+              "Body": null,
+              "IsVirtual": false,
+              "IsOverride": false,
+              "IsStatic": false,
+              "ArgumentCollection": {
+                "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.Sph.Domain.MethodArg, domain.sph]], domain.sph",
+                "$values": []
+              },
+              "AttributeCollection": {
+                "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[System.String, mscorlib]], domain.sph",
+                "$values": []
+              }
+            },
+            {
+              "$type": "Bespoke.Sph.Domain.Codes.Method, domain.sph",
+              "Comment": null,
+              "AccessModifier": "Internal",
+              "ReturnType": null,
+              "Name": null,
+              "FileName": null,
+              "Code": "   private async Task<string> TransformSubjectEmailRespondenAsync(string template)\r\n   {\r\n\r\n            var razor = ObjectBuilder.GetObject<ITemplateEngine>();\r\n            return await razor.GenerateAsync(template, this).ConfigureAwait(false);   }\r\n",
+              "Body": null,
+              "IsVirtual": false,
+              "IsOverride": false,
+              "IsStatic": false,
+              "ArgumentCollection": {
+                "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.Sph.Domain.MethodArg, domain.sph]], domain.sph",
+                "$values": []
+              },
+              "AttributeCollection": {
+                "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[System.String, mscorlib]], domain.sph",
+                "$values": []
+              }
+            },
+            {
+              "$type": "Bespoke.Sph.Domain.Codes.Method, domain.sph",
+              "Comment": null,
+              "AccessModifier": "Internal",
+              "ReturnType": null,
+              "Name": null,
+              "FileName": null,
+              "Code": "   private async Task<string> TransformBodyEmailRespondenAsync(string template)\r\n   {\r\n\r\n            var razor = ObjectBuilder.GetObject<ITemplateEngine>();\r\n            return await razor.GenerateAsync(template, this).ConfigureAwait(false);   }\r\n",
+              "Body": null,
+              "IsVirtual": false,
+              "IsOverride": false,
+              "IsStatic": false,
+              "ArgumentCollection": {
+                "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.Sph.Domain.MethodArg, domain.sph]], domain.sph",
+                "$values": []
+              },
+              "AttributeCollection": {
+                "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[System.String, mscorlib]], domain.sph",
+                "$values": []
+              }
+            }
+          ]
+        },
+        "WorkflowDesigner": {
+          "$type": "Bespoke.Sph.Domain.WorkflowDesigner, domain.sph",
+          "X": 432,
+          "Y": 71,
+          "WebId": null
+        },
+        "IsInitiator": false,
+        "NextActivityWebId": "3c628fca-73bc-458b-b34e-912678468dd2",
+        "Name": "Email responden",
+        "TryScope": null,
+        "CatchScope": null,
+        "WebId": "a7168626-d0e1-498a-8abb-ae4a37aa8fcc"
+      },
+      {
+        "$type": "Bespoke.Sph.Domain.ExpressionActivity, domain.sph",
+        "Expression": "var context = new SphDataContext();\nthis.Responden = await context.LoadOneAsync<Bespoke.epsikologi_pengguna.Domain.Pengguna>(x => x.MyKad == this.Pendaftaran.MyKad);",
+        "IsAsync": false,
+        "ExecutedCode": null,
+        "ExecutingCode": null,
+        "TypeName": "Expression",
+        "OtherMethodCollection": {
+          "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.Sph.Domain.Codes.Method, domain.sph]], domain.sph",
+          "$values": []
+        },
+        "WorkflowDesigner": {
+          "$type": "Bespoke.Sph.Domain.WorkflowDesigner, domain.sph",
+          "X": 4,
+          "Y": 34,
+          "WebId": null
+        },
+        "IsInitiator": true,
+        "NextActivityWebId": "a7168626-d0e1-498a-8abb-ae4a37aa8fcc",
+        "Name": "Get Responden",
+        "TryScope": null,
+        "CatchScope": null,
+        "WebId": "44cc320d-9e8e-4eef-d531-d6a5aab02556"
+      },
+      {
+        "$type": "Bespoke.Sph.Domain.EndActivity, domain.sph",
+        "IsTerminating": false,
+        "IsAsync": false,
+        "ExecutedCode": null,
+        "ExecutingCode": null,
+        "TypeName": "End",
+        "OtherMethodCollection": {
+          "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.Sph.Domain.Codes.Method, domain.sph]], domain.sph",
+          "$values": []
+        },
+        "WorkflowDesigner": {
+          "$type": "Bespoke.Sph.Domain.WorkflowDesigner, domain.sph",
+          "X": 420,
+          "Y": 779,
+          "WebId": null
+        },
+        "IsInitiator": false,
+        "NextActivityWebId": null,
+        "Name": "EndPendaftaran",
+        "TryScope": null,
+        "CatchScope": null,
+        "WebId": "95f60059-0cf5-43ba-d310-7d9b087548a4"
+      },
+      {
+        "$type": "Bespoke.Sph.Domain.ExpressionActivity, domain.sph",
+        "Expression": "var context = new SphDataContext();\r\nthis.Permohonan = await context.LoadOneAsync<Bespoke.epsikologi_permohonan.Domain.Permohonan>(x => x.PermohonanNo == this.Pendaftaran.NoPermohonan);\r\nvar ujian = \"\";\r\nif(this.Permohonan.isIBK)\r\n    ujian +=\";IBK\";\r\nif(this.Permohonan.isISO)\r\n    ujian +=\";ISO\";\r\nif(this.Permohonan.isIBK)\r\n    ujian +=\";IBK\";\r\nif(this.Permohonan.isIP)\r\n    ujian +=\";IP\";\r\nif(this.Permohonan.isIPU)\r\n    ujian +=\";IPU\";\r\nif(this.Permohonan.isUKHLP)\r\n    ujian +=\";UKHLP\";\r\nif(this.Permohonan.isUKBP)\r\n    ujian +=\";UKBP\";\r\nif(this.Permohonan.isPPKP)\r\n    ujian +=\";PPKP\";\r\n\r\nthis.UjianList = ujian;",
+        "IsAsync": false,
+        "ExecutedCode": null,
+        "ExecutingCode": null,
+        "TypeName": "Expression",
+        "OtherMethodCollection": {
+          "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.Sph.Domain.Codes.Method, domain.sph]], domain.sph",
+          "$values": []
+        },
+        "WorkflowDesigner": {
+          "$type": "Bespoke.Sph.Domain.WorkflowDesigner, domain.sph",
+          "X": 18,
+          "Y": 309,
+          "WebId": null
+        },
+        "IsInitiator": false,
+        "NextActivityWebId": "dfc600f9-a1da-4ed9-c148-84bb355b73e8",
+        "Name": "Get Permohonan",
+        "TryScope": null,
+        "CatchScope": null,
+        "WebId": "3c628fca-73bc-458b-b34e-912678468dd2"
+      },
+      {
+        "$type": "Bespoke.Sph.Domain.ExpressionActivity, domain.sph",
+        "Expression": "\nConsole.WriteLine(\"Ujian List : {0}\", this.UjianList);\nthis.CurrentUjian = this.UjianList.Split(new []{';'}, StringSplitOptions.RemoveEmptyEntries).FirstOrDefault();\nthis.UjianList = this.UjianList.Replace(\";\" + this.CurrentUjian,\"\");\n\nConsole.WriteLine(\"Current Ujian : {0}\", this.CurrentUjian);",
+        "IsAsync": false,
+        "ExecutedCode": null,
+        "ExecutingCode": null,
+        "TypeName": "Expression",
+        "OtherMethodCollection": {
+          "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.Sph.Domain.Codes.Method, domain.sph]], domain.sph",
+          "$values": []
+        },
+        "WorkflowDesigner": {
+          "$type": "Bespoke.Sph.Domain.WorkflowDesigner, domain.sph",
+          "X": 26,
+          "Y": 509,
+          "WebId": null
+        },
+        "IsInitiator": false,
+        "NextActivityWebId": "f9b816f6-a1c8-42a9-86fa-838f0375f40b",
+        "Name": "ExtractUjianList",
+        "TryScope": null,
+        "CatchScope": null,
+        "WebId": "292e4dd2-52d4-4e17-f282-66cb9c4aadcf"
+      },
+      {
+        "$type": "Bespoke.Sph.Domain.DecisionActivity, domain.sph",
+        "DecisionBranchCollection": {
+          "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.Sph.Domain.DecisionBranch, domain.sph]], domain.sph",
+          "$values": [
+            {
+              "$type": "Bespoke.Sph.Domain.DecisionBranch, domain.sph",
+              "IsDefault": false,
+              "Expression": "this.UjianList != \"\"",
+              "IsAsync": false,
+              "ExecutedCode": null,
+              "ExecutingCode": null,
+              "TypeName": "DecisionBranch",
+              "OtherMethodCollection": {
+                "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.Sph.Domain.Codes.Method, domain.sph]], domain.sph",
+                "$values": []
+              },
+              "WorkflowDesigner": {
+                "$type": "Bespoke.Sph.Domain.WorkflowDesigner, domain.sph",
+                "X": 0,
+                "Y": 0,
+                "WebId": null
+              },
+              "IsInitiator": false,
+              "NextActivityWebId": "292e4dd2-52d4-4e17-f282-66cb9c4aadcf",
+              "Name": "Ada Ujian",
+              "TryScope": "",
+              "CatchScope": "",
+              "WebId": "0ac94cf5-972d-49e4-bad8-6bf8e48c3573"
+            },
+            {
+              "$type": "Bespoke.Sph.Domain.DecisionBranch, domain.sph",
+              "IsDefault": true,
+              "Expression": null,
+              "IsAsync": false,
+              "ExecutedCode": null,
+              "ExecutingCode": null,
+              "TypeName": "DecisionBranch",
+              "OtherMethodCollection": {
+                "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.Sph.Domain.Codes.Method, domain.sph]], domain.sph",
+                "$values": []
+              },
+              "WorkflowDesigner": {
+                "$type": "Bespoke.Sph.Domain.WorkflowDesigner, domain.sph",
+                "X": 0,
+                "Y": 0,
+                "WebId": null
+              },
+              "IsInitiator": false,
+              "NextActivityWebId": "95f60059-0cf5-43ba-d310-7d9b087548a4",
+              "Name": "Habis",
+              "TryScope": "",
+              "CatchScope": "",
+              "WebId": "0918abbc-2b95-413f-ef0e-6fe5462c8f1b"
+            }
+          ]
+        },
+        "IsAsync": false,
+        "ExecutedCode": null,
+        "ExecutingCode": null,
+        "TypeName": "Decision",
+        "OtherMethodCollection": {
+          "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.Sph.Domain.Codes.Method, domain.sph]], domain.sph",
+          "$values": [
+            {
+              "$type": "Bespoke.Sph.Domain.Codes.Method, domain.sph",
+              "Comment": null,
+              "AccessModifier": "Internal",
+              "ReturnType": null,
+              "Name": null,
+              "FileName": null,
+              "Code": "   [System.Diagnostics.Contracts.PureAttribute]\r\n   private bool CheckIfUjianListAdaUjian()\r\n   {\r\n       var item = this;\r\n       return this.UjianList != \"\";\r\n   }\r\n",
+              "Body": null,
+              "IsVirtual": false,
+              "IsOverride": false,
+              "IsStatic": false,
+              "ArgumentCollection": {
+                "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.Sph.Domain.MethodArg, domain.sph]], domain.sph",
+                "$values": []
+              },
+              "AttributeCollection": {
+                "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[System.String, mscorlib]], domain.sph",
+                "$values": []
+              }
+            }
+          ]
+        },
+        "WorkflowDesigner": {
+          "$type": "Bespoke.Sph.Domain.WorkflowDesigner, domain.sph",
+          "X": 330,
+          "Y": 417,
+          "WebId": null
+        },
+        "IsInitiator": false,
+        "NextActivityWebId": null,
+        "Name": "Check If Ujian List",
+        "TryScope": null,
+        "CatchScope": null,
+        "WebId": "dfc600f9-a1da-4ed9-c148-84bb355b73e8"
+      },
+      {
+        "$type": "Bespoke.Sph.Domain.CreateEntityActivity, domain.sph",
+        "EntityType": "SesiUjian",
+        "ReturnValuePath": null,
+        "PropertyMappingCollection": {
+          "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.Sph.Domain.PropertyMapping, domain.sph]], domain.sph",
+          "$values": [
+            {
+              "$type": "Bespoke.Sph.Domain.SimpleMapping, domain.sph",
+              "Source": "SesiUjian",
+              "Destination": ".",
+              "WebId": "cb3bf861-0f39-4816-80ee-ffeadc3f182d"
+            },
+            {
+              "$type": "Bespoke.Sph.Domain.SimpleMapping, domain.sph",
+              "Source": "Permohonan.PermohonanNo",
+              "Destination": "NamaProgram",
+              "WebId": "97031cad-6ae2-4e3b-b635-69f793bf50ff"
+            },
+            {
+              "$type": "Bespoke.Sph.Domain.SimpleMapping, domain.sph",
+              "Source": "Responden.Nama",
+              "Destination": "NamaPengguna",
+              "WebId": "0d676a50-c7c4-4743-e879-810f2834a6b4"
+            },
+            {
+              "$type": "Bespoke.Sph.Domain.SimpleMapping, domain.sph",
+              "Source": "Responden.MyKad",
+              "Destination": "MyKad",
+              "WebId": "f91526ae-8b4a-429d-e9ec-3e5f5cb8fe27"
+            },
+            {
+              "$type": "Bespoke.Sph.Domain.SimpleMapping, domain.sph",
+              "Source": "CurrentUjian",
+              "Destination": "NamaUjian",
+              "WebId": "b3623855-3a4d-4b80-b9ee-6ccfa9c4d56d"
+            },
+            {
+              "$type": "Bespoke.Sph.Domain.SimpleMapping, domain.sph",
+              "Source": "StatusSesiUjian",
+              "Destination": "Status",
+              "WebId": "faa29de3-3ea8-4df4-9b93-d72b9cc61b6a"
+            }
+          ]
+        },
+        "IsAsync": false,
+        "ExecutedCode": null,
+        "ExecutingCode": null,
+        "TypeName": "CreateEntity",
+        "OtherMethodCollection": {
+          "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.Sph.Domain.Codes.Method, domain.sph]], domain.sph",
+          "$values": []
+        },
+        "WorkflowDesigner": {
+          "$type": "Bespoke.Sph.Domain.WorkflowDesigner, domain.sph",
+          "X": 164,
+          "Y": 826,
+          "WebId": null
+        },
+        "IsInitiator": false,
+        "NextActivityWebId": "dfc600f9-a1da-4ed9-c148-84bb355b73e8",
+        "Name": "Add new SesiUjian",
+        "TryScope": null,
+        "CatchScope": null,
+        "WebId": "f9b816f6-a1c8-42a9-86fa-838f0375f40b"
+      }
+    ]
+  },
+  "VariableDefinitionCollection": {
+    "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.Sph.Domain.Variable, domain.sph]], domain.sph",
+    "$values": [
+      {
+        "$type": "Bespoke.Sph.Domain.ClrTypeVariable, domain.sph",
+        "Assembly": "",
+        "CanInitiateWithDefaultConstructor": true,
+        "Name": "Responden",
+        "TypeName": "Bespoke.epsikologi_pengguna.Domain.Pengguna, epsikologi.Pengguna",
+        "DefaultValue": "",
+        "WebId": "4bc1ea77-cf19-44d6-8d7a-5f176c3833fb"
+      },
+      {
+        "$type": "Bespoke.Sph.Domain.ClrTypeVariable, domain.sph",
+        "Assembly": "",
+        "CanInitiateWithDefaultConstructor": true,
+        "Name": "Pendaftaran",
+        "TypeName": "Bespoke.epsikologi_pendaftaranprogram.Domain.PendaftaranProgram, epsikologi.PendaftaranProgram",
+        "DefaultValue": "",
+        "WebId": "e20b8892-df3b-4316-a739-c7ea2a025375"
+      },
+      {
+        "$type": "Bespoke.Sph.Domain.ClrTypeVariable, domain.sph",
+        "Assembly": "",
+        "CanInitiateWithDefaultConstructor": true,
+        "Name": "Permohonan",
+        "TypeName": "Bespoke.epsikologi_permohonan.Domain.Permohonan, epsikologi.Permohonan",
+        "DefaultValue": "",
+        "WebId": "2cf5b2e4-eaff-42de-8928-c35b3c4aede3"
+      },
+      {
+        "$type": "Bespoke.Sph.Domain.SimpleVariable, domain.sph",
+        "Name": "UjianList",
+        "TypeName": "System.String, mscorlib",
+        "DefaultValue": "",
+        "WebId": "3b111246-d87e-4886-833a-b341eefa2834"
+      },
+      {
+        "$type": "Bespoke.Sph.Domain.SimpleVariable, domain.sph",
+        "Name": "CurrentUjian",
+        "TypeName": "System.String, mscorlib",
+        "DefaultValue": "",
+        "WebId": "bc775b90-c04a-4672-915c-7f87e1a5b2f1"
+      },
+      {
+        "$type": "Bespoke.Sph.Domain.ClrTypeVariable, domain.sph",
+        "Assembly": "",
+        "CanInitiateWithDefaultConstructor": true,
+        "Name": "SesiUjian",
+        "TypeName": "Bespoke.epsikologi_sesiujian.Domain.SesiUjian, epsikologi.SesiUjian",
+        "DefaultValue": "",
+        "WebId": "5451f328-0070-4ff8-d1b6-3ae5fde7d844"
+      },
+      {
+        "$type": "Bespoke.Sph.Domain.SimpleVariable, domain.sph",
+        "Name": "StatusSesiUjian",
+        "TypeName": "System.String, mscorlib",
+        "DefaultValue": "Belum Ambil",
+        "WebId": "3fdb3b9f-67ea-445a-d680-bb6834de3388"
+      }
+    ]
+  },
+  "ReferencedAssemblyCollection": {
+    "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.Sph.Domain.ReferencedAssembly, domain.sph]], domain.sph",
+    "$values": [
+      {
+        "$type": "Bespoke.Sph.Domain.ReferencedAssembly, domain.sph",
+        "Name": "epsikologi.Pengguna",
+        "FullName": "epsikologi.Pengguna, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+        "Version": "0.0.0.0",
+        "Location": "C:\\project\\rep.generik.psikometrik\\web\\bin\\epsikologi.Pengguna.dll",
+        "IsGac": false,
+        "IsStrongName": false,
+        "RuntimeVersion": "v4.0.30319",
+        "WebId": null
+      },
+      {
+        "$type": "Bespoke.Sph.Domain.ReferencedAssembly, domain.sph",
+        "Name": "epsikologi.Permohonan",
+        "FullName": "epsikologi.Permohonan, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+        "Version": "0.0.0.0",
+        "Location": "C:\\project\\rep.generik.psikometrik\\web\\bin\\epsikologi.Permohonan.dll",
+        "IsGac": false,
+        "IsStrongName": false,
+        "RuntimeVersion": "v4.0.30319",
+        "WebId": null
+      },
+      {
+        "$type": "Bespoke.Sph.Domain.ReferencedAssembly, domain.sph",
+        "Name": "epsikologi.ProgramLookup",
+        "FullName": "epsikologi.ProgramLookup, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+        "Version": "0.0.0.0",
+        "Location": "C:\\project\\rep.generik.psikometrik\\web\\bin\\epsikologi.ProgramLookup.dll",
+        "IsGac": false,
+        "IsStrongName": false,
+        "RuntimeVersion": "v4.0.30319",
+        "WebId": null
+      },
+      {
+        "$type": "Bespoke.Sph.Domain.ReferencedAssembly, domain.sph",
+        "Name": "epsikologi.SesiUjian",
+        "FullName": "epsikologi.SesiUjian, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+        "Version": "0.0.0.0",
+        "Location": "C:\\project\\rep.generik.psikometrik\\web\\bin\\epsikologi.SesiUjian.dll",
+        "IsGac": false,
+        "IsStrongName": false,
+        "RuntimeVersion": "v4.0.30319",
+        "WebId": null
+      },
+      {
+        "$type": "Bespoke.Sph.Domain.ReferencedAssembly, domain.sph",
+        "Name": "epsikologi.PendaftaranProgram",
+        "FullName": "epsikologi.PendaftaranProgram, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+        "Version": "0.0.0.0",
+        "Location": "C:\\project\\rep.generik.psikometrik\\web\\bin\\epsikologi.PendaftaranProgram.dll",
+        "IsGac": false,
+        "IsStrongName": false,
+        "RuntimeVersion": "v4.0.30319",
+        "WebId": null
+      }
+    ]
+  },
+  "CorrelationSetCollection": {
+    "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.Sph.Domain.CorrelationSet, domain.sph]], domain.sph",
+    "$values": []
+  },
+  "CorrelationTypeCollection": {
+    "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.Sph.Domain.CorrelationType, domain.sph]], domain.sph",
+    "$values": []
+  },
+  "TryScopeCollection": {
+    "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.Sph.Domain.TryScope, domain.sph]], domain.sph",
+    "$values": []
+  },
+  "Name": "Pendaftaran Program - Sessi Ujian",
+  "Note": "",
+  "IsActive": true,
+  "SchemaStoreId": "8b87a5a7-2ccd-4c07-8619-1da91e4222a5",
+  "Version": 0,
+  "CreatedBy": "admin",
+  "Id": "pendaftaran-program-sessi-ujian",
+  "CreatedDate": "2015-06-09T19:15:58.6767026+08:00",
+  "ChangedBy": "admin",
+  "ChangedDate": "2015-06-28T08:48:27.7419378+08:00",
+  "WebId": "365215bb-b0f3-45b4-8790-786d57be4c3c"
+}

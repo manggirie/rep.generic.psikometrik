@@ -182,7 +182,7 @@
     <div class="form-group" data-bind="visible:true">
         <label data-i18n="Kementerian" for="d264e6ce-01ee-4920-c901-4970e75ef248" class="col-md-4">Kementerian</label>
         <div class="col-md-8">
-            <select  data-bind=" visible :true, comboBoxLookupOptions : { value: NamaKementerian, entity : 'Kementerian', valuePath : 'NamaKementerian', displayPath: 'NamaKementerian', query :ko.computed(function(){ return 'KumpulanAgensi eq \'' + JenisPerkhidmatan() + '\'';})}" id="d264e6ce-01ee-4920-c901-4970e75ef248" name="NamaKementerian" class=" input-large form-control">
+            <select  data-bind=" visible :true,  enable :$root.partial.isPenyelaras() === false, comboBoxLookupOptions : { value: NamaKementerian, entity : 'Kementerian', valuePath : 'NamaKementerian', displayPath: 'NamaKementerian', query :ko.computed(function(){ return 'KumpulanAgensi eq \'' + JenisPerkhidmatan() + '\'';})}" id="d264e6ce-01ee-4920-c901-4970e75ef248" name="NamaKementerian" class=" input-large form-control">
             </select>
         </div>
     </div>
@@ -191,7 +191,7 @@
     <div class="form-group" data-bind="visible:true">
         <label data-i18n="Jabatan" for="566600d0-3ed3-4dfc-f481-f4efe6e69308" class="col-md-4">Jabatan</label>
         <div class="col-md-8">
-            <select  data-bind=" visible :true, comboBoxLookupOptions : { value: NamaJabatan, entity : 'Jabatan', valuePath : 'NamaJabatan', displayPath: 'NamaJabatan', query :ko.computed(function(){ return 'Kementerian eq \'' + NamaKementerian() + '\'';})}" id="566600d0-3ed3-4dfc-f481-f4efe6e69308" name="NamaJabatan" class=" input-large form-control">
+            <select  data-bind=" visible :true,  enable :$root.partial.isPenyelaras() === false, comboBoxLookupOptions : { value: NamaJabatan, entity : 'Jabatan', valuePath : 'NamaJabatan', displayPath: 'NamaJabatan', query :ko.computed(function(){ return 'Kementerian eq \'' + NamaKementerian() + '\'';})}" id="566600d0-3ed3-4dfc-f481-f4efe6e69308" name="NamaJabatan" class=" input-large form-control">
             </select>
         </div>
     </div>

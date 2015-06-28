@@ -1,0 +1,25 @@
+{
+  "$type": "Bespoke.Sph.Domain.EntityChart, domain.sph",
+  "SeriesCollection": {
+    "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.Sph.Domain.Series, domain.sph]], domain.sph",
+    "$values": []
+  },
+  "EntityDefinitionId": "pengguna",
+  "Entity": "Pengguna",
+  "Name": "mykad",
+  "Type": "pie",
+  "EntityViewId": "pengguna-pengguna-all",
+  "Query": "{\"query\":{\"filtered\":{\"filter\":{\"bool\":{\"must\":[],\"must_not\":[]}}}},\"sort\":[],\"aggs\":{\"category\":{\"terms\":{\"field\":\"MyKad\",\"size\":0}}},\"from\":0,\"size\":20}",
+  "Aggregate": "term",
+  "Field": "MyKad",
+  "DateInterval": "year",
+  "IsDashboardItem": true,
+  "DasboardItemPosition": 0,
+  "HistogramInterval": null,
+  "CreatedBy": "admin",
+  "Id": "pengguna-pengguna-all-mykad",
+  "CreatedDate": "2015-06-27T07:16:14.0552656+08:00",
+  "ChangedBy": "admin",
+  "ChangedDate": "2015-06-27T07:16:14.0522648+08:00",
+  "WebId": "ba09411a-5d7d-4e27-a593-3ef8347e3e5f"
+}

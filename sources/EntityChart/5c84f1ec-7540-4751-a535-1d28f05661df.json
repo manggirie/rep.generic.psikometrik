@@ -13,13 +13,13 @@
   "Aggregate": "term",
   "Field": "NamaUjian",
   "DateInterval": "year",
-  "IsDashboardItem": true,
+  "IsDashboardItem": false,
   "DasboardItemPosition": 0,
   "HistogramInterval": null,
   "CreatedBy": "admin",
   "Id": "5c84f1ec-7540-4751-a535-1d28f05661df",
   "CreatedDate": "2015-06-02T07:08:11.8299761+08:00",
   "ChangedBy": "admin",
-  "ChangedDate": "2015-06-02T07:08:11.8279761+08:00",
+  "ChangedDate": "2015-06-28T06:40:11.6593021+08:00",
   "WebId": "7434dd7f-2416-465c-d09d-f098688b890a"
 }

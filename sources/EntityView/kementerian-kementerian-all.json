@@ -13,16 +13,16 @@
           "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.Sph.Domain.ConditionalFormatting, domain.sph]], domain.sph",
           "$values": []
         },
-        "Path": "AgensiNo",
-        "Header": "Agensi No",
+        "Path": "Id",
+        "Header": "ID",
         "Sort": "",
         "IsLinkColumn": false,
         "FormRoute": null,
         "IconCssClass": "",
         "IconStoreId": "",
         "Format": "text:{0}",
-        "RouteValueField": "",
-        "WebId": "75b513a4-062a-4ea2-b248-b5b06f3f6b04"
+        "RouteValueField": "I",
+        "WebId": "a18e3d91-f5d0-4d3b-d445-5d03918099c7"
       },
       {
         "$type": "Bespoke.Sph.Domain.ViewColumn, domain.sph",
@@ -30,16 +30,16 @@
           "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.Sph.Domain.ConditionalFormatting, domain.sph]], domain.sph",
           "$values": []
         },
-        "Path": "NamaJabatan",
-        "Header": "Nama Jabatan",
+        "Path": "KementerianNo",
+        "Header": "No Kementerian ",
         "Sort": "",
         "IsLinkColumn": true,
-        "FormRoute": "jabatan-details",
-        "IconCssClass": "fa fa-external-link",
+        "FormRoute": "senarai-jabatan-mengikut-kementerian",
+        "IconCssClass": "fa fa-plus-square-o",
         "IconStoreId": "",
         "Format": "text:{0}",
         "RouteValueField": "Id",
-        "WebId": "4c6eafbd-07e1-42dc-e976-bc0d49c15a9b"
+        "WebId": "bcc02cbe-95dc-4dc4-a8a6-2758cb91606e"
       },
       {
         "$type": "Bespoke.Sph.Domain.ViewColumn, domain.sph",
@@ -47,16 +47,16 @@
           "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.Sph.Domain.ConditionalFormatting, domain.sph]], domain.sph",
           "$values": []
         },
-        "Path": "Kementerian",
-        "Header": "Kementerian",
+        "Path": "NamaKementerian",
+        "Header": "Nama Kementerian",
         "Sort": "",
-        "IsLinkColumn": false,
-        "FormRoute": null,
-        "IconCssClass": "",
+        "IsLinkColumn": true,
+        "FormRoute": "kementerian-details",
+        "IconCssClass": "fa fa-folder",
         "IconStoreId": "",
         "Format": "text:{0}",
-        "RouteValueField": "",
-        "WebId": "4895b37c-6b15-400c-80bd-564ff7c54f6f"
+        "RouteValueField": "Id",
+        "WebId": "c0627639-b3ff-41f0-c4e1-affa3c476bb2"
       },
       {
         "$type": "Bespoke.Sph.Domain.ViewColumn, domain.sph",
@@ -64,7 +64,7 @@
           "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.Sph.Domain.ConditionalFormatting, domain.sph]], domain.sph",
           "$values": []
         },
-        "Path": "AgensiKumpulan",
+        "Path": "KumpulanAgensi",
         "Header": "Kumpulan Agensi",
         "Sort": "",
         "IsLinkColumn": false,
@@ -73,7 +73,24 @@
         "IconStoreId": "",
         "Format": "text:{0}",
         "RouteValueField": "",
-        "WebId": "4e283857-abf4-45d4-caa8-e6c536012be3"
+        "WebId": "b1879a04-5e30-49a6-b2ff-df9606b70850"
+      },
+      {
+        "$type": "Bespoke.Sph.Domain.ViewColumn, domain.sph",
+        "ConditionalFormattingCollection": {
+          "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.Sph.Domain.ConditionalFormatting, domain.sph]], domain.sph",
+          "$values": []
+        },
+        "Path": "Negeri",
+        "Header": "Negeri",
+        "Sort": "",
+        "IsLinkColumn": false,
+        "FormRoute": null,
+        "IconCssClass": "",
+        "IconStoreId": "",
+        "Format": "text:{0}",
+        "RouteValueField": "",
+        "WebId": "dc07f2b0-110c-4bf3-fca4-00a4da385f75"
       }
     ]
   },
@@ -97,22 +114,22 @@
     "$values": []
   },
   "IconClass": null,
-  "IconStoreId": "3e8bfe11-f88f-4454-a704-3e5eb7cf28ce",
-  "EntityDefinitionId": "jabatan",
-  "Name": "Senarai Jabatan",
-  "Route": "jabatans-all",
-  "Note": "Semua senarai jabatan",
+  "IconStoreId": "0566cfe1-f568-48cf-9536-9564b1e98799",
+  "EntityDefinitionId": "kementerian",
+  "Name": "Senarai Kementerian",
+  "Route": "kementerians-all",
+  "Note": "Senarai semua kementerian",
   "Query": null,
   "IsPublished": true,
   "Visibilty": null,
-  "TileColour": "blightblue",
+  "TileColour": "bgreen",
   "CountMessage": null,
-  "Entity": "Jabatan",
+  "Entity": "Kementerian",
   "Partial": null,
   "CreatedBy": "admin",
-  "Id": "7e7926b0-3680-49d3-b168-b46008055be4",
-  "CreatedDate": "2015-06-05T10:37:17.726344+08:00",
+  "Id": "kementerian-kementerian-all",
+  "CreatedDate": "2015-05-29T10:28:59.0158011+08:00",
   "ChangedBy": "admin",
-  "ChangedDate": "2015-06-27T16:24:45.5629396+08:00",
-  "WebId": "98b461bb-b301-40a2-81bc-885e2954f342"
+  "ChangedDate": "2015-06-27T16:27:20.9647319+08:00",
+  "WebId": "27f8a10d-7a50-4220-9e8f-989268649252"
 }

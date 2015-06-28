@@ -137,7 +137,7 @@
   },
   "Name": "Jabatan",
   "Plural": "Jabatans",
-  "IconStoreId": "bc4fbe7c-91af-42ec-93ea-978b178af6ea",
+  "IconStoreId": "f284cbf8-fe5c-49be-a0b8-4e55dbe587a4",
   "IconClass": "glyphicon glyphicon-book",
   "RecordName": "JabatanNo",
   "IsPublished": true,
@@ -145,7 +145,7 @@
   "CreatedBy": "admin",
   "Id": "jabatan",
   "CreatedDate": "2015-06-05T10:37:17.7083426+08:00",
-  "ChangedBy": "admin2",
-  "ChangedDate": "2015-06-25T11:08:42.71367+08:00",
+  "ChangedBy": "admin",
+  "ChangedDate": "2015-06-28T09:12:13.3973608+08:00",
   "WebId": "f95865f4-dbc9-4b62-990a-7d4e65d30f7a"
 }

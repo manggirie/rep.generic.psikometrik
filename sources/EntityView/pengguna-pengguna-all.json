@@ -13,33 +13,16 @@
           "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.Sph.Domain.ConditionalFormatting, domain.sph]], domain.sph",
           "$values": []
         },
-        "Path": "AgensiNo",
-        "Header": "Agensi No",
-        "Sort": "",
-        "IsLinkColumn": false,
-        "FormRoute": null,
-        "IconCssClass": "",
-        "IconStoreId": "",
-        "Format": "text:{0}",
-        "RouteValueField": "",
-        "WebId": "75b513a4-062a-4ea2-b248-b5b06f3f6b04"
-      },
-      {
-        "$type": "Bespoke.Sph.Domain.ViewColumn, domain.sph",
-        "ConditionalFormattingCollection": {
-          "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.Sph.Domain.ConditionalFormatting, domain.sph]], domain.sph",
-          "$values": []
-        },
-        "Path": "NamaJabatan",
-        "Header": "Nama Jabatan",
+        "Path": "Nama",
+        "Header": "Nama",
         "Sort": "",
         "IsLinkColumn": true,
-        "FormRoute": "jabatan-details",
-        "IconCssClass": "fa fa-external-link",
+        "FormRoute": "pengguna-details",
+        "IconCssClass": "",
         "IconStoreId": "",
         "Format": "text:{0}",
         "RouteValueField": "Id",
-        "WebId": "4c6eafbd-07e1-42dc-e976-bc0d49c15a9b"
+        "WebId": "a7f2056b-7174-43c6-bfd3-1bf770ba8348"
       },
       {
         "$type": "Bespoke.Sph.Domain.ViewColumn, domain.sph",
@@ -47,16 +30,16 @@
           "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.Sph.Domain.ConditionalFormatting, domain.sph]], domain.sph",
           "$values": []
         },
-        "Path": "Kementerian",
-        "Header": "Kementerian",
+        "Path": "MyKad",
+        "Header": "MyKad",
         "Sort": "",
         "IsLinkColumn": false,
         "FormRoute": null,
         "IconCssClass": "",
         "IconStoreId": "",
         "Format": "text:{0}",
-        "RouteValueField": "",
-        "WebId": "4895b37c-6b15-400c-80bd-564ff7c54f6f"
+        "RouteValueField": "Id",
+        "WebId": "e2a4c65a-3f24-4ab4-c5ea-e5e2a6bd726b"
       },
       {
         "$type": "Bespoke.Sph.Domain.ViewColumn, domain.sph",
@@ -64,16 +47,67 @@
           "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.Sph.Domain.ConditionalFormatting, domain.sph]], domain.sph",
           "$values": []
         },
-        "Path": "AgensiKumpulan",
-        "Header": "Kumpulan Agensi",
+        "Path": "TarikhDaftar",
+        "Header": "TarikhDaftar",
+        "Sort": "",
+        "IsLinkColumn": false,
+        "FormRoute": null,
+        "IconCssClass": "fa fa-star",
+        "IconStoreId": "",
+        "Format": "date:{{ value:{0}, format:'D/M/YYYY HH:mm'}}",
+        "RouteValueField": "Id",
+        "WebId": "b9559991-88f4-4a5e-a1e6-0acc622a474e"
+      },
+      {
+        "$type": "Bespoke.Sph.Domain.ViewColumn, domain.sph",
+        "ConditionalFormattingCollection": {
+          "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.Sph.Domain.ConditionalFormatting, domain.sph]], domain.sph",
+          "$values": []
+        },
+        "Path": "IsResponden ? 'Ya' : 'Tidak'",
+        "Header": "IsResponden",
         "Sort": "",
         "IsLinkColumn": false,
         "FormRoute": null,
         "IconCssClass": "",
         "IconStoreId": "",
         "Format": "text:{0}",
-        "RouteValueField": "",
-        "WebId": "4e283857-abf4-45d4-caa8-e6c536012be3"
+        "RouteValueField": "Id",
+        "WebId": "9f61e645-b604-44ac-bbf6-a795d3f56817"
+      },
+      {
+        "$type": "Bespoke.Sph.Domain.ViewColumn, domain.sph",
+        "ConditionalFormattingCollection": {
+          "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.Sph.Domain.ConditionalFormatting, domain.sph]], domain.sph",
+          "$values": []
+        },
+        "Path": "IsPenyelaras ? '<i class=\\'fa fa-check\\'></i>' :''",
+        "Header": "Is Penyelaras",
+        "Sort": "",
+        "IsLinkColumn": false,
+        "FormRoute": null,
+        "IconCssClass": "",
+        "IconStoreId": "",
+        "Format": "html:{0}",
+        "RouteValueField": "Id",
+        "WebId": "aef1280c-02cf-4191-d0f0-d59771e65663"
+      },
+      {
+        "$type": "Bespoke.Sph.Domain.ViewColumn, domain.sph",
+        "ConditionalFormattingCollection": {
+          "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.Sph.Domain.ConditionalFormatting, domain.sph]], domain.sph",
+          "$values": []
+        },
+        "Path": "IsUrusetia",
+        "Header": "Is Urusetia",
+        "Sort": "",
+        "IsLinkColumn": false,
+        "FormRoute": null,
+        "IconCssClass": "",
+        "IconStoreId": "",
+        "Format": "text:{0}",
+        "RouteValueField": "Id",
+        "WebId": "0d98a127-3aab-4056-fe51-b38e7fdff751"
       }
     ]
   },
@@ -97,22 +131,22 @@
     "$values": []
   },
   "IconClass": null,
-  "IconStoreId": "3e8bfe11-f88f-4454-a704-3e5eb7cf28ce",
-  "EntityDefinitionId": "jabatan",
-  "Name": "Senarai Jabatan",
-  "Route": "jabatans-all",
-  "Note": "Semua senarai jabatan",
+  "IconStoreId": "e3d73a96-427a-4c30-a0e3-1d93db5bf94c",
+  "EntityDefinitionId": "pengguna",
+  "Name": "Senarai Pengguna",
+  "Route": "pengguna-all",
+  "Note": "Senarai Semua Pengguna",
   "Query": null,
   "IsPublished": true,
   "Visibilty": null,
-  "TileColour": "blightblue",
+  "TileColour": "borange",
   "CountMessage": null,
-  "Entity": "Jabatan",
-  "Partial": null,
+  "Entity": "Pengguna",
+  "Partial": "partial/pengguna-all",
   "CreatedBy": "admin",
-  "Id": "7e7926b0-3680-49d3-b168-b46008055be4",
-  "CreatedDate": "2015-06-05T10:37:17.726344+08:00",
+  "Id": "pengguna-pengguna-all",
+  "CreatedDate": "2015-06-16T08:04:09.5345994+08:00",
   "ChangedBy": "admin",
-  "ChangedDate": "2015-06-27T16:24:45.5629396+08:00",
-  "WebId": "98b461bb-b301-40a2-81bc-885e2954f342"
+  "ChangedDate": "2015-06-27T07:58:14.9517893+08:00",
+  "WebId": "7bc3651c-5ad2-4db7-802b-5a4de7c7b561"
 }

@@ -428,14 +428,14 @@
   "Name": "SesiUjian",
   "Plural": "SesiUjians",
   "IconStoreId": "7b897a71-8956-4623-b05d-b4f853888c24",
-  "IconClass": "glyphicon glyphicon-road",
+  "IconClass": "fa fa-edit",
   "RecordName": "SesiNo",
   "IsPublished": true,
   "IsShowOnNavigationBar": true,
   "CreatedBy": "admin",
   "Id": "sesiujian",
   "CreatedDate": "2015-06-01T18:46:59.9857666+08:00",
-  "ChangedBy": "admin2",
-  "ChangedDate": "2015-06-25T11:06:21.973484+08:00",
+  "ChangedBy": "admin",
+  "ChangedDate": "2015-06-27T16:21:43.9860023+08:00",
   "WebId": "db4b5955-f616-434c-d814-7621fcd20ec7"
 }

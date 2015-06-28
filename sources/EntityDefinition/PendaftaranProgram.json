@@ -213,14 +213,14 @@
   "Name": "PendaftaranProgram",
   "Plural": "PendaftaranPrograms",
   "IconStoreId": "987793cb-679e-496b-a513-835dee153fe4",
-  "IconClass": "fa fa-user",
+  "IconClass": "glyphicon glyphicon-plus-sign",
   "RecordName": "PendaftaranNo",
   "IsPublished": true,
   "IsShowOnNavigationBar": true,
   "CreatedBy": null,
   "Id": "pendaftaranprogram",
   "CreatedDate": "0001-01-01T00:00:00",
-  "ChangedBy": "admin2",
-  "ChangedDate": "2015-06-25T11:10:33.3491999+08:00",
+  "ChangedBy": "admin",
+  "ChangedDate": "2015-06-27T16:20:25.5925216+08:00",
   "WebId": "d36aa8ae-1ba2-4a1a-9036-240c4e9ced07"
 }

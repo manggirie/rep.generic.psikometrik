@@ -17,9 +17,9 @@
 
                     var query = String.format("Id eq '{0}'", entityId),
                         tcs = new $.Deferred(),
-                        itemTask = context.loadOneAsync("permohonan", query),
+                        itemTask = context.loadOneAsync("Permohonan", query),
                         formTask = context.loadOneAsync("EntityForm", "Route eq 'tambah_reponden'"),
-                        watcherTask = watcher.getIsWatchingAsync("permohonan", entityId),
+                        watcherTask = watcher.getIsWatchingAsync("Permohonan", entityId),
                         i18nTask = $.getJSON("i18n/" + config.lang + "/tambah_reponden");
 
                     $.when(itemTask, formTask, watcherTask, i18nTask).done(function(b,f,w,n) {
@@ -50,6 +50,62 @@
 
                     return tcs.promise();
                 },
+                permohonanDariPenyelaras = function(){
+
+                     if (!validation.valid()) {
+                         return Task.fromResult(false);
+                     }
+
+                     var tcs = new $.Deferred(),
+                         data = ko.mapping.toJSON(entity);
+
+                     context.post(data, "/Permohonan/PermohonanDariPenyelaras" )
+                         .then(function (result) {
+                             if (result.success) {
+                                 logger.info(result.message);
+                                 entity().Id(result.id);
+                                 errors.removeAll();
+
+                                 
+                             } else {
+                                 errors.removeAll();
+                                 _(result.rules).each(function(v){
+                                     errors(v.ValidationErrors);
+                                 });
+                                 logger.error("There are errors in your entity, !!!");
+                             }
+                             tcs.resolve(result);
+                         });
+                     return tcs.promise();
+                 },
+                urusetiaProcessPermohonanDariPenyelaras = function(){
+
+                     if (!validation.valid()) {
+                         return Task.fromResult(false);
+                     }
+
+                     var tcs = new $.Deferred(),
+                         data = ko.mapping.toJSON(entity);
+
+                     context.post(data, "/Permohonan/UrusetiaProcessPermohonanDariPenyelaras" )
+                         .then(function (result) {
+                             if (result.success) {
+                                 logger.info(result.message);
+                                 entity().Id(result.id);
+                                 errors.removeAll();
+
+                                 
+                             } else {
+                                 errors.removeAll();
+                                 _(result.rules).each(function(v){
+                                     errors(v.ValidationErrors);
+                                 });
+                                 logger.error("There are errors in your entity, !!!");
+                             }
+                             tcs.resolve(result);
+                         });
+                     return tcs.promise();
+                 },
                 attached = function (view) {
                     // validation
                     validation.init($('#tambah_reponden-form'), form());
@@ -83,11 +139,11 @@
 
                         
 
-                    context.post(data, "/permohonan/Save")
+                    context.post(data, "/Permohonan/Save")
                         .then(function(result) {
                             tcs.resolve(result);
                             entity().Id(result.id);
-                            app.showMessage("Your permohonan has been successfully saved", "epsikologi", ["ok"]);
+                            app.showMessage("Your Permohonan has been successfully saved", "JPA Sistem Ujian e-Psikometrik", ["ok"]);
 
                         });
                     
@@ -98,7 +154,7 @@
                     var tcs = new $.Deferred();
                     $.ajax({
                         type: "DELETE",
-                        url: "/permohonan/Remove/" + entity().Id(),
+                        url: "/Permohonan/Remove/" + entity().Id(),
                         contentType: "application/json; charset=utf-8",
                         dataType: "json",
                         error: tcs.reject,
@@ -126,16 +182,18 @@
                 entity: entity,
                 errors: errors,
                 save : save,
+                    permohonanDariPenyelaras : permohonanDariPenyelaras,
+                    urusetiaProcessPermohonanDariPenyelaras : urusetiaProcessPermohonanDariPenyelaras,
                 //
 
 
                 toolbar : {
                         emailCommand : {
-                        entity : "permohonan",
+                        entity : "Permohonan",
                         id :id
                     },
                                             printCommand :{
-                        entity : 'permohonan',
+                        entity : 'Permohonan',
                         id : id
                     },
                                     removeCommand :remove,

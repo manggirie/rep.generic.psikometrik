@@ -1,0 +1,25 @@
+{
+  "$type": "Bespoke.Sph.Domain.EntityChart, domain.sph",
+  "SeriesCollection": {
+    "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.Sph.Domain.Series, domain.sph]], domain.sph",
+    "$values": []
+  },
+  "EntityDefinitionId": "kementerian",
+  "Entity": "Kementerian",
+  "Name": "Agensi",
+  "Type": "pie",
+  "EntityViewId": "44facd30-93b1-40f9-bc12-34968afd3b98",
+  "Query": "{\"query\":{\"filtered\":{\"filter\":{\"bool\":{\"must\":[],\"must_not\":[]}}}},\"sort\":[],\"aggs\":{\"category\":{\"terms\":{\"field\":\"KumpulanAgensi\",\"size\":0}}},\"from\":0,\"size\":20}",
+  "Aggregate": "term",
+  "Field": "KumpulanAgensi",
+  "DateInterval": "year",
+  "IsDashboardItem": true,
+  "DasboardItemPosition": 0,
+  "HistogramInterval": null,
+  "CreatedBy": "admin",
+  "Id": "44facd30-93b1-40f9-bc12-34968afd3b98-agensi",
+  "CreatedDate": "2015-06-28T06:54:18.524505+08:00",
+  "ChangedBy": "admin",
+  "ChangedDate": "2015-06-28T06:54:18.5215052+08:00",
+  "WebId": "9e06ee75-dccb-4371-c48c-2b56420c767e"
+}

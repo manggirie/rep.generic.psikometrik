@@ -1714,7 +1714,7 @@
   "EntityDefinitionId": "pengguna",
   "Name": "Tambah Pengguna",
   "Route": "tambah-pengguna",
-  "Note": null,
+  "Note": "this is the best",
   "IsAllowedNewItem": true,
   "IconClass": "fa fa-plus-square",
   "IconStoreId": null,
@@ -1736,6 +1736,6 @@
   "Id": "a4e13c65-28ce-4b73-a9e4-4e43b2ddfb57",
   "CreatedDate": "2015-06-16T08:04:09.5205895+08:00",
   "ChangedBy": "admin",
-  "ChangedDate": "2015-06-26T12:17:52.4972517+08:00",
+  "ChangedDate": "2015-06-27T06:30:02.8012601+08:00",
   "WebId": "4e32950c-7d95-4b44-983c-3c3e67811ded"
 }

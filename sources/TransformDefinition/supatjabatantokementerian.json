@@ -57,12 +57,38 @@
         "SourceTypeName": "",
         "DestinationTypeName": "",
         "WebId": "c526aca0-9588-4b39-d964-0bf06d45469d"
+      },
+      {
+        "$type": "Bespoke.Sph.Domain.FunctoidMap, domain.sph",
+        "__uuid": "",
+        "Functoid": "6f0ca4c2-af26-40d6-e08d-af13937391a7",
+        "Destination": "CreatedDate",
+        "SourceTypeName": "",
+        "DestinationTypeName": "",
+        "WebId": "395fc628-541d-4bc3-9ca9-9db342252c2a"
       }
     ]
   },
   "FunctoidCollection": {
     "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.Sph.Domain.Functoid, domain.sph]], domain.sph",
-    "$values": []
+    "$values": [
+      {
+        "$type": "Bespoke.Sph.Domain.ConstantFunctoid, domain.sph",
+        "TypeName": "System.DateTime",
+        "Value": "2015-06-06",
+        "ArgumentCollection": {
+          "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.Sph.Domain.FunctoidArg, domain.sph]], domain.sph",
+          "$values": []
+        },
+        "Name": null,
+        "OutputTypeName": null,
+        "Label": null,
+        "Comment": null,
+        "X": 621.0,
+        "Y": 393.0,
+        "WebId": "6f0ca4c2-af26-40d6-e08d-af13937391a7"
+      }
+    ]
   },
   "InputCollection": {
     "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.Sph.Domain.MethodArg, domain.sph]], domain.sph",
@@ -82,6 +108,6 @@
   "Id": "supatjabatantokementerian",
   "CreatedDate": "2015-06-03T09:12:08.5529526+08:00",
   "ChangedBy": "admin",
-  "ChangedDate": "2015-06-03T09:12:32.1819953+08:00",
+  "ChangedDate": "2015-06-28T09:26:57.2169061+08:00",
   "WebId": "73709385-9d7a-43f4-dfd9-ba71a3d9a8fc"
 }
