@@ -1,4 +1,4 @@
-define(["services/datacontext", objectbuilders.app, objectbuilders.router], function (context, app, router) {
+define(["services/datacontext", objectbuilders.app, objectbuilders.router, objectbuilders.config], function (context, app, router, config) {
     var sesiUjian = ko.observable(),
         ujian = ko.observable(),
         pendaftaran = ko.observable(),
@@ -113,10 +113,26 @@ define(["services/datacontext", objectbuilders.app, objectbuilders.router], func
 
             });
 
-            var start = moment.duration();
+            var hours = ko.unwrap(ujian().DurationHour),
+                minutes = ko.unwrap(ujian().DurationMinutes),
+                start = moment.duration(hours, 'hours');
+            start.add( minutes * 60,'s');
+
             interval = window.setInterval(function () {
-                start.add(1000);
-                timer(start.minutes() + " minutes and " + start.seconds() + " seconds");
+                start.subtract(1000);
+                timer(start.hours() + " jam " + start.minutes() + " minit   " + start.seconds() + " saat");
+                if(start.as('seconds') <= 0 ){
+                  clearInterval(interval);
+
+
+                  context.post(ko.toJSON({}), "/sesi-ujian/timeout/" + ko.unwrap(sesiUjian().Id));
+                  app.showMessage("Anda sudah kehabisan masa, anda akan di log keluar", "JPA ePsikometrik", ["OK"])
+                      .done(function () {
+                          totalAnswered(questionsCount());
+                          router.navigate("responden-home");
+                      });
+
+                }
             }, 1000);
 
             $(view).on("contextmenu",function(e){

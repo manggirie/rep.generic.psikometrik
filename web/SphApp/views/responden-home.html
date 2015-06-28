@@ -8,6 +8,13 @@
         </a>
         <p data-bind="text:NamaUjian"></p>
         <p data-bind="text:NamaProgram"></p>
+        <p>
+            Tempoh Ujian : <strong data-bind="text: $root.getTempohUjian($data.NamaUjian)"></strong>
+        </p>
+        <p>
+          Percubaan : <strong data-bind="text: Lock"></strong>
+        </p>
+
     </div>
     <!-- /ko -->
 </div>

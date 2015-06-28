@@ -21,13 +21,19 @@ namespace web.sph.App_Code
 
             ObjectBuilder.AddCacheList<IRepository<Bespoke.epsikologi_ujian.Domain.Ujian>>(
                     new Bespoke.Sph.SqlRepository.SqlRepository<Bespoke.epsikologi_ujian.Domain.Ujian>());
-                      
+
             ObjectBuilder.AddCacheList<IRepository<Bespoke.epsikologi_sesiujian.Domain.SesiUjian>>(
                     new Bespoke.Sph.SqlRepository.SqlRepository<Bespoke.epsikologi_sesiujian.Domain.SesiUjian>());
-                      
+
             ObjectBuilder.AddCacheList<IRepository<Bespoke.epsikologi_soalan.Domain.Soalan>>(
                     new Bespoke.Sph.SqlRepository.SqlRepository<Bespoke.epsikologi_soalan.Domain.Soalan>());
-           
+
+            ObjectBuilder.AddCacheList<IRepository<Bespoke.epsikologi_percubaansesi.Domain.PercubaanSesi>>(
+                    new Bespoke.Sph.SqlRepository.SqlRepository<Bespoke.epsikologi_percubaansesi.Domain.PercubaanSesi>());
+
+            ObjectBuilder.AddCacheList<IRepository<Bespoke.epsikologi_pengguna.Domain.Pengguna>>(
+                    new Bespoke.Sph.SqlRepository.SqlRepository<Bespoke.epsikologi_pengguna.Domain.Pengguna>());
+
     	}
     }
 }

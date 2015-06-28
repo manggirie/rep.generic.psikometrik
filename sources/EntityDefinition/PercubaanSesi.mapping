@@ -1,0 +1,19 @@
+{
+    "percubaansesi":{
+        "properties":{
+            "CreatedBy": {"type": "string", "index":"not_analyzed"},
+            "ChangedBy": {"type": "string", "index":"not_analyzed"},
+            "WebId": {"type": "string", "index":"not_analyzed"},
+            "CreatedDate": {"type": "date"},
+            "ChangedDate": {"type": "date"},
+             "No":{"type":"string","index":"not_analyzed","boost":1,"include_in_all":true},
+             "SesiUjianId":{"type":"string","index":"not_analyzed","boost":1,"include_in_all":true},
+             "NamaUjian":{"type":"string","index":"not_analyzed","boost":1,"include_in_all":true},
+             "Program":{"type":"string","index":"not_analyzed","boost":1,"include_in_all":true},
+             "NamaPengguna":{"type":"string","index":"not_analyzed","boost":1,"include_in_all":true},
+             "MyKad":{"type":"string","index":"not_analyzed","boost":1,"include_in_all":true},
+             "Tarikh":{"type":"date","index":"analyzed","boost":1,"include_in_all":true,"ignore_malformed":false},
+             "Bilangan":{"type":"integer","index":"analyzed","boost":5,"include_in_all":true,"ignore_malformed":false}
+        }
+    }
+}

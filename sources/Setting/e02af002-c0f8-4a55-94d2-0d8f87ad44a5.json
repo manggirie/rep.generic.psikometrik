@@ -1,0 +1,12 @@
+{
+  "$type": "Bespoke.Sph.Domain.Setting, domain.sph",
+  "UserName": "750418-03-5249",
+  "Key": "TimeOut-c899073b-78ce-41af-af1c-a08bf456715c",
+  "Value": "1",
+  "CreatedBy": "750418-03-5249",
+  "Id": "e02af002-c0f8-4a55-94d2-0d8f87ad44a5",
+  "CreatedDate": "2015-06-28T15:10:42.2190423+08:00",
+  "ChangedBy": "750418-03-5249",
+  "ChangedDate": "2015-06-28T15:10:42.2170413+08:00",
+  "WebId": "b96b08a1-03b4-4f94-a632-4050e93225e8"
+}

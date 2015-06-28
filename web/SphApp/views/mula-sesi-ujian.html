@@ -7,7 +7,7 @@
 
     	<h4 data-bind="text: 'Seksyen : ' + section, attr :{'id' : section}"></h4>
     	<span class="" data-bind="text: 'Jumlah Soalan ' + questions().length"></span>
-    
+
         	<!-- ko foreach : questions -->
                 <div class="panel panel-default soalan-panel" data-bind="visible:Visible, css :{'panel-info': JawapanPilihan(),'panel-default': !JawapanPilihan()}">
                   <div class="panel-heading" data-bind="text:($index() + 1) + '.   ' + ko.unwrap(Text)">
@@ -39,12 +39,13 @@
 
     		<label>Jumlah Soalan</label>
     		<strong data-bind="text:questionsCount"></strong>
+        <br/>
 
     		<label>Jumlah Soalan DiJawab</label>
     		<strong data-bind="text:totalAnswered"></strong>
 
     		<br/>
-    		<label>Timer</label>
+    		<label>Timer :</label>
     		<strong data-bind="text:timer"></strong>
 
 
