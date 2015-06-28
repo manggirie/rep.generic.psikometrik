@@ -28,3 +28,4 @@ import/HLP/
 version.json
 project.json
 web/Web.config
+web/.idea/

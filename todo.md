@@ -2,6 +2,7 @@
 * Title - Sistem Ujian Psikologi
 ## Responden dan Penyelaras
 * Responden tak boleh copy soalan
+  * done, prevent contextmenu and selection - 2015-06-28 1007
 * Tambah responden ke program, narrow down kepada responden yang dari jabatan yang sama
 * Toolbar buttons turun bawah
 * Toolbar button tukar melayu
