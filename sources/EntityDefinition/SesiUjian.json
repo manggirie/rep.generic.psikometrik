@@ -28,7 +28,7 @@
       },
       {
         "$type": "Bespoke.Sph.Domain.Member, domain.sph",
-        "FullName": null,
+        "FullName": "NamaUjian",
         "MemberCollection": {
           "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.Sph.Domain.Member, domain.sph]], domain.sph",
           "$values": []
@@ -50,7 +50,7 @@
       },
       {
         "$type": "Bespoke.Sph.Domain.Member, domain.sph",
-        "FullName": null,
+        "FullName": "NamaPengguna",
         "MemberCollection": {
           "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.Sph.Domain.Member, domain.sph]], domain.sph",
           "$values": []
@@ -72,7 +72,7 @@
       },
       {
         "$type": "Bespoke.Sph.Domain.Member, domain.sph",
-        "FullName": null,
+        "FullName": "NamaProgram",
         "MemberCollection": {
           "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.Sph.Domain.Member, domain.sph]], domain.sph",
           "$values": []
@@ -94,7 +94,7 @@
       },
       {
         "$type": "Bespoke.Sph.Domain.Member, domain.sph",
-        "FullName": null,
+        "FullName": "TarikhUjian",
         "MemberCollection": {
           "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.Sph.Domain.Member, domain.sph]], domain.sph",
           "$values": []
@@ -110,13 +110,13 @@
         "IsAnalyzed": false,
         "IsFilterable": true,
         "IsExcludeInAll": false,
-        "Boost": 0,
+        "Boost": 1,
         "DefaultValue": null,
         "WebId": "ef132e7c-1660-4c81-b321-4fd866d414bf"
       },
       {
         "$type": "Bespoke.Sph.Domain.Member, domain.sph",
-        "FullName": null,
+        "FullName": "MyKad",
         "MemberCollection": {
           "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.Sph.Domain.Member, domain.sph]], domain.sph",
           "$values": []
@@ -154,7 +154,7 @@
         "IsAnalyzed": false,
         "IsFilterable": false,
         "IsExcludeInAll": false,
-        "Boost": 0,
+        "Boost": 1,
         "DefaultValue": null,
         "WebId": "628da7d9-de57-43db-e089-79ba1ddec0d3"
       },
@@ -176,7 +176,7 @@
         "IsAnalyzed": false,
         "IsFilterable": false,
         "IsExcludeInAll": false,
-        "Boost": 0,
+        "Boost": 1,
         "DefaultValue": null,
         "WebId": "b96c73f9-5db2-47db-bcf3-473845f5722b"
       },
@@ -315,7 +315,7 @@
       },
       {
         "$type": "Bespoke.Sph.Domain.Member, domain.sph",
-        "FullName": null,
+        "FullName": "Status",
         "MemberCollection": {
           "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.Sph.Domain.Member, domain.sph]], domain.sph",
           "$values": []
@@ -334,6 +334,50 @@
         "Boost": 0,
         "DefaultValue": null,
         "WebId": "bbb76432-7fd8-4697-c66b-a20e4bcfbdf6"
+      },
+      {
+        "$type": "Bespoke.Sph.Domain.Member, domain.sph",
+        "FullName": "TarikMulaProgram",
+        "MemberCollection": {
+          "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.Sph.Domain.Member, domain.sph]], domain.sph",
+          "$values": []
+        },
+        "FieldPermissionCollection": {
+          "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.Sph.Domain.FieldPermission, domain.sph]], domain.sph",
+          "$values": []
+        },
+        "Name": "TarikhMulaProgram",
+        "TypeName": "System.DateTime, mscorlib",
+        "IsNullable": true,
+        "IsNotIndexed": false,
+        "IsAnalyzed": false,
+        "IsFilterable": true,
+        "IsExcludeInAll": false,
+        "Boost": 0,
+        "DefaultValue": null,
+        "WebId": "3a17a585-114a-47c1-846e-c6a5901a0c85"
+      },
+      {
+        "$type": "Bespoke.Sph.Domain.Member, domain.sph",
+        "FullName": "TarikhTamatProgram",
+        "MemberCollection": {
+          "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.Sph.Domain.Member, domain.sph]], domain.sph",
+          "$values": []
+        },
+        "FieldPermissionCollection": {
+          "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.Sph.Domain.FieldPermission, domain.sph]], domain.sph",
+          "$values": []
+        },
+        "Name": "TarikhTamatProgram",
+        "TypeName": "System.DateTime, mscorlib",
+        "IsNullable": true,
+        "IsNotIndexed": false,
+        "IsAnalyzed": false,
+        "IsFilterable": true,
+        "IsExcludeInAll": false,
+        "Boost": 0,
+        "DefaultValue": null,
+        "WebId": "79752598-0cb2-4910-f119-b13666f8e3be"
       }
     ]
   },
@@ -427,7 +471,7 @@
   },
   "Name": "SesiUjian",
   "Plural": "SesiUjians",
-  "IconStoreId": "7b897a71-8956-4623-b05d-b4f853888c24",
+  "IconStoreId": "c15c1dfc-2b5b-42d2-a991-26a7f0b28daa",
   "IconClass": "fa fa-edit",
   "RecordName": "SesiNo",
   "IsPublished": true,
@@ -436,6 +480,6 @@
   "Id": "sesiujian",
   "CreatedDate": "2015-06-01T18:46:59.9857666+08:00",
   "ChangedBy": "admin",
-  "ChangedDate": "2015-06-27T16:21:43.9860023+08:00",
+  "ChangedDate": "2015-06-28T11:44:49.6080591+08:00",
   "WebId": "db4b5955-f616-434c-d814-7621fcd20ec7"
 }

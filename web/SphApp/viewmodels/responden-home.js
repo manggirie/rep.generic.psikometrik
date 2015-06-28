@@ -2,8 +2,10 @@ define(["services/datacontext", objectbuilders.config ], function(context, confi
     var testList =  ko.observableArray()
         ujianList = ko.observableArray(),
         activate = function(){
-
-            return context.loadAsync("SesiUjian", String.format("MyKad eq '{0}' and Status ne 'Diambil'", config.userName))
+           var date = moment().format('YYYY-MM-DD HH:mm:ss'),
+           query = String.format("MyKad eq '{0}' and Status eq 'Belum Ambil' and TarikhMulaProgram le DateTime'{1}' and TarikhTamatProgram ge DateTime'{1}' ", config.userName, date);
+           console.log(query);
+            return context.loadAsync("SesiUjian", query)
                 .then(function(lo){
                     testList(lo.itemCollection);
                     return context.loadAsync("Ujian", "Id ne '0'");

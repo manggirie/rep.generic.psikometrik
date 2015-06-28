@@ -357,6 +357,18 @@
               "Source": "StatusSesiUjian",
               "Destination": "Status",
               "WebId": "faa29de3-3ea8-4df4-9b93-d72b9cc61b6a"
+            },
+            {
+              "$type": "Bespoke.Sph.Domain.SimpleMapping, domain.sph",
+              "Source": "Permohonan.TarikhMula",
+              "Destination": "TarikhMulaProgram",
+              "WebId": "5ff3be99-a03d-4d84-b481-2fb790bdeb92"
+            },
+            {
+              "$type": "Bespoke.Sph.Domain.SimpleMapping, domain.sph",
+              "Source": "Permohonan.TarikhTamat",
+              "Destination": "TarikhTamatProgram",
+              "WebId": "3a873c4c-9ef0-4cca-adb6-e346610d15f4"
             }
           ]
         },
@@ -526,6 +538,6 @@
   "Id": "pendaftaran-program-sessi-ujian",
   "CreatedDate": "2015-06-09T19:15:58.6767026+08:00",
   "ChangedBy": "admin",
-  "ChangedDate": "2015-06-28T08:48:27.7419378+08:00",
+  "ChangedDate": "2015-06-28T11:42:18.4886815+08:00",
   "WebId": "365215bb-b0f3-45b4-8790-786d57be4c3c"
 }

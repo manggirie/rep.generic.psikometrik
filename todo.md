@@ -1,7 +1,7 @@
 #Things to do
 * Title - Sistem Ujian Psikologi
 ## Responden dan Penyelaras
-* Responden tak boleh copy soalan
+* ~~Responden tak boleh copy soalan~~
   * done, prevent contextmenu and selection - 2015-06-28 1007
 * Tambah responden ke program, narrow down kepada responden yang dari jabatan yang sama
 * Toolbar buttons turun bawah
@@ -14,7 +14,7 @@
 ## Sesi ujian
 * Duration - kalau lebih  - leave
 * Back button - prompt and leave the session
-* Mengikut tarikh program(permohonan yang telah LULUS)
+* ~~Mengikut tarikh program(permohonan yang telah LULUS)~~ DONE
 
 
 1. Masa sesi ujian untuk responden menjawab telah ditetapkan. Jika masa telah tamat, sistem akan auto log out bagi sesi responden tersebut dan responden perlu login semula dan jawab semula setiap soalan. Pada hari yang sama, responden hanya dibenarkan mencuba untuk menjawab sesi ujian tersebut sebanyak tiga kali, jika selepas 3 kali masih melebihi masa, auto block responden dan responden perlu menghubungi urusetia (offline) untuk tindakan unblock responden tersebut. (eg. masa untuk sesi ujian IBK adalah sebanyak 40 minit bagi setiap seksyen)
