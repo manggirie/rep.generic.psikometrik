@@ -1,4 +1,4 @@
-@model Bespoke.Sph.Web.Areas.Sph.Controllers.LoginModel
+@model web.sph.App_Code.JpaLoginModel
 @{
     ViewBag.Title = "Log in";
     Layout = null;
@@ -25,7 +25,7 @@
 
         <section>
 
-          <form action="/jpa-account/login" method="post">   
+          <form action="/jpa-account/login" method="post">
 
                 <div class="row">
                     @Html.Partial("_Slider")
@@ -65,7 +65,7 @@
                     </div>
 
                 </div>
-              
+
 
                 @Html.Partial("_Footer")
 
