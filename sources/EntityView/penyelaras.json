@@ -102,9 +102,9 @@
   },
   "Performer": {
     "$type": "Bespoke.Sph.Domain.Performer, domain.sph",
-    "UserProperty": "",
-    "Value": "",
-    "IsPublic": true,
+    "UserProperty": "Roles",
+    "Value": "PengurusanPengguna",
+    "IsPublic": false,
     "WebId": null
   },
   "RouteParameterCollection": {
@@ -128,6 +128,6 @@
   "Id": "penyelaras",
   "CreatedDate": "2015-06-16T08:04:09.5345994+08:00",
   "ChangedBy": "admin",
-  "ChangedDate": "2015-06-26T10:48:18.054422+08:00",
+  "ChangedDate": "2015-06-29T18:12:24.0345243+08:00",
   "WebId": "a8494a5b-85d1-4b8b-dd3b-aa13a5b664c6"
 }

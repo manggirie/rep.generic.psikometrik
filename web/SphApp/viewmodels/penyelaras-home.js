@@ -31,6 +31,12 @@ define(['services/datacontext', 'services/logger', 'plugins/router', "services/c
           viewsTask = $.get("/Sph/EntityView/Dashboard/Pengguna");
 
 
+          context.getScalarAsync("Pengguna", "MyKad eq '" + config.userName + "'", "NamaJabatan")
+            .done(function(jabatan){
+              config.namaJabatan = jabatan;
+            });
+
+
         return $.when(edTask, formsTask, viewsTask, reportTask, chartsTask)
           .done(function(b, formsLo, viewsLo, reportsLo, chartsLo) {
             entity(b);

@@ -33,6 +33,7 @@
 * Mohon permohonan cadangan tarik mestilah in the future
 * Boleh tambah banyak -banyak responden sekali gus
 * Boleh guna dialog untuk Tambah responden
+* ~~ Senarai responden dari Jabatan yang sama ~~
 * Senarai permohonan dipapar ikut jabatan dia sahaja, so kena new member kepada permohonan entity definition, so everytime Penyelaras mohon program baru, permohonan ini akan di setkan Jabatan secara automatic.
 
 ## urusetia

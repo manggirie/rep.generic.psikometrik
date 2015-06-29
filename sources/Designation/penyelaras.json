@@ -3,8 +3,8 @@
   "RoleCollection": {
     "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[System.String, mscorlib]], domain.sph",
     "$values": [
-      "PengurusanPermohonan",
-      "PengurusanPenggunaJabatan"
+      "PengurusanPenggunaJabatan",
+      "PengurusanPermohonanJabatan"
     ]
   },
   "Owner": null,
@@ -29,6 +29,6 @@
   "Id": "penyelaras",
   "CreatedDate": "2015-06-26T07:47:21.1158608+08:00",
   "ChangedBy": "admin",
-  "ChangedDate": "2015-06-29T06:54:58.4457769+08:00",
+  "ChangedDate": "2015-06-29T17:09:58.1772282+08:00",
   "WebId": "0009e784-16b2-49a6-9f13-e9ecf18c5454"
 }
