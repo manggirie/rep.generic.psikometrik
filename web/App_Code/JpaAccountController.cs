@@ -52,7 +52,7 @@ namespace web.sph.App_Code
         [AllowAnonymous]
         [HttpPost]
         [Route("login")]
-        public async Task<ActionResult> Login(LoginModel model, string returnUrl)
+        public async Task<ActionResult> Login(JpaLoginModel model, string returnUrl)
         {
             var logger = ObjectBuilder.GetObject<ILogger>();
             if (ModelState.IsValid)
@@ -92,12 +92,10 @@ namespace web.sph.App_Code
         }
     }
 
-     public class LoginModel
+     public class JpaLoginModel
     {
         public string UserName { get; set; }
-
         public string Password { get; set; }
-
         public bool RememberMe { get; set; }
     }
 }
