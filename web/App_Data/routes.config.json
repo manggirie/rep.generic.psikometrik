@@ -68,5 +68,19 @@
     "showWhenLoggedIn": false,
     "isAdminPage": false,
     "startPageRoute": null
+  },
+  {
+    "role": "PengurusanPenggunaJabatan",
+    "groupName": null,
+    "route": "penyelaras-home",
+    "moduleId": "viewmodels/penyelaras-home",
+    "title": "Laman Utama Penyelaras",
+    "nav": true,
+    "icon": "fa fa-users",
+    "caption": "Laman Utama Penyelaras",
+    "settings": null,
+    "showWhenLoggedIn": false,
+    "isAdminPage": false,
+    "startPageRoute": null
   }
 ]
