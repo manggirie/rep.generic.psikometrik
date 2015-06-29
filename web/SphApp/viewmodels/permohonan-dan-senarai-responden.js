@@ -37,8 +37,6 @@
                         
                     });
 
-
-
                     return tcs.promise();
                 },
                 permohonanDariPenyelaras = function(){
@@ -47,10 +45,9 @@
                          return Task.fromResult(false);
                      }
 
-                     var tcs = new $.Deferred(),
-                         data = ko.mapping.toJSON(entity);
+                     var data = ko.mapping.toJSON(entity);
 
-                     context.post(data, "/Permohonan/PermohonanDariPenyelaras" )
+                    return  context.post(data, "/Permohonan/PermohonanDariPenyelaras" )
                          .then(function (result) {
                              if (result.success) {
                                  logger.info(result.message);
@@ -65,9 +62,32 @@
                                  });
                                  logger.error("There are errors in your entity, !!!");
                              }
-                             tcs.resolve(result);
                          });
-                     return tcs.promise();
+                 },
+                urusetiaProcessPermohonanDariPenyelaras = function(){
+
+                     if (!validation.valid()) {
+                         return Task.fromResult(false);
+                     }
+
+                     var data = ko.mapping.toJSON(entity);
+
+                    return  context.post(data, "/Permohonan/UrusetiaProcessPermohonanDariPenyelaras" )
+                         .then(function (result) {
+                             if (result.success) {
+                                 logger.info(result.message);
+                                 entity().Id(result.id);
+                                 errors.removeAll();
+
+                                 
+                             } else {
+                                 errors.removeAll();
+                                 _(result.rules).each(function(v){
+                                     errors(v.ValidationErrors);
+                                 });
+                                 logger.error("There are errors in your entity, !!!");
+                             }
+                         });
                  },
                 attached = function (view) {
                     // validation
@@ -91,32 +111,26 @@
                         return Task.fromResult(false);
                     }
 
-                    var tcs = new $.Deferred(),
-                        data = ko.mapping.toJSON(entity);
+                    var data = ko.mapping.toJSON(entity);
 
                         
 
-                    context.post(data, "/Permohonan/Save")
+                    return context.post(data, "/Permohonan/Save")
                         .then(function(result) {
-                            tcs.resolve(result);
                             entity().Id(result.id);
-                            app.showMessage("Your Permohonan has been successfully saved", "epsikologi", ["ok"]);
+                            app.showMessage("Your Permohonan has been successfully saved", "JPA Sistem Ujian e-Psikometrik", ["ok"]);
 
                         });
                     
 
-                    return tcs.promise();
                 },
                 remove = function() {
-                    var tcs = new $.Deferred();
-                    $.ajax({
+                    return $.ajax({
                         type: "DELETE",
                         url: "/Permohonan/Remove/" + entity().Id(),
                         contentType: "application/json; charset=utf-8",
                         dataType: "json",
-                        error: tcs.reject,
                         success: function() {
-                            tcs.resolve(true);
                             app.showMessage("Your item has been successfully removed", "Removed", ["OK"])
                               .done(function () {
                                   window.location = "#permohonan";
@@ -125,7 +139,6 @@
                     });
 
 
-                    return tcs.promise();
                 };
 
             var vm = {
@@ -137,6 +150,7 @@
                 errors: errors,
                 save : save,
                     permohonanDariPenyelaras : permohonanDariPenyelaras,
+                    urusetiaProcessPermohonanDariPenyelaras : urusetiaProcessPermohonanDariPenyelaras,
                 //
 
 

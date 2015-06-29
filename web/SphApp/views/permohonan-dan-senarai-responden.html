@@ -18,30 +18,26 @@
 <form class="form-horizontal" data-bind="with : entity" id="permohonan-dan-senarai-responden-form">
 <h2 data-i18n="Maklumat Program" data-bind="visible:true">Maklumat Program</h2>
 
-    <div class="form-group">
-
+    <div class="form-group" data-bind="visible:true">
         <label class="col-md-4">Nama Program</label>
         <span class="col-md-8" data-bind="text: NamaProgram"></span>
     </div>
-    <div class="form-group">
-
+    <div class="form-group" data-bind="visible:true">
         <label class="col-md-4">Bil Program</label>
         <span class="col-md-8" data-bind="text: BilProgram"></span>
     </div>
-    <div class="form-group">
-
+    <div class="form-group" data-bind="visible:true">
         <label class="col-md-4">Siri Program</label>
         <span class="col-md-8" data-bind="text: SiriProgram"></span>
     </div>
-    <div class="form-group">
-
+    <div class="form-group" data-bind="visible:true">
         <label class="col-md-4">Tahun Program</label>
         <span class="col-md-8" data-bind="text: TahunProgram"></span>
     </div>
-<div class="form-group">
+<div class="form-group" data-bind="visible:true">
     <label class="col-md-4">Tarikh Mula</label>
     <span class="col-md-8" data-bind="date: TarikhMula"></span>
-</div><div class="form-group">
+</div><div class="form-group" data-bind="visible:true">
     <label class="col-md-4">Tarikh Tamat</label>
     <span class="col-md-8" data-bind="date: TarikhTamat"></span>
 </div><a  data-bind="attr : {href : '#tambah-responden/' + Id() }">
@@ -56,14 +52,14 @@ Tambah Responden
 
 <div class="form-group" data-bind="visible:true">
     <h3 data-i18n="Senarai Responden">Senarai Responden</h3>
-    <table class="table table-condensed table-striped" data-bind="serverPaging :{ query: 'NamaProgram eq \'' + NamaProgram() + '\'', entity : 'PendaftaranProgram', list: bespoke.getSingletonObservableArray('c3752731-abb3-46c9-9fc2-b3e01d14058e')}">
+    <table class="table table-condensed table-striped" data-bind="serverPaging :{ query: 'PermohonanId eq \'' + ko.unwrap(Id) + '\'', entity : 'PendaftaranProgram', list: bespoke.getSingletonObservableArray('1feccaa7-4858-404f-bd3c-b5601008171f')}">
         <thead>
             <tr>
                     <th data-i18n="Responden">Responden</th>
                     <th data-i18n="MyKad">MyKad</th>
             </tr>
         </thead>
-        <tbody data-bind="foreach: bespoke.getSingletonObservableArray('c3752731-abb3-46c9-9fc2-b3e01d14058e')">
+        <tbody data-bind="foreach: bespoke.getSingletonObservableArray('1feccaa7-4858-404f-bd3c-b5601008171f')">
             <tr>
                         <td data-bind="text:NamaPengguna"></td>
                         <td data-bind="text:MyKad"></td>

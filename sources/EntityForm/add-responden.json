@@ -345,7 +345,7 @@
         {
           "$type": "Bespoke.Sph.Domain.ChildEntityListView, domain.sph",
           "Entity": "PendaftaranProgram",
-          "Query": "'NamaProgram eq \\'' + NamaProgram() + '\\''",
+          "Query": "'PermohonanId eq \\'' + ko.unwrap(Id) + '\\''",
           "IsAllowAddItem": false,
           "NewItemFormRoute": null,
           "NewItemMappingSource": null,
@@ -488,6 +488,6 @@
   "Id": "add-responden",
   "CreatedDate": "2015-06-05T10:45:40.0235058+08:00",
   "ChangedBy": "admin",
-  "ChangedDate": "2015-06-05T10:45:40.022506+08:00",
+  "ChangedDate": "2015-06-29T19:09:44.9353036+08:00",
   "WebId": "aec8d777-8974-4a8a-b824-140ee0796560"
 }
