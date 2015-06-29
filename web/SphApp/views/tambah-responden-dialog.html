@@ -12,7 +12,7 @@
 
               
                 <div style="height:300px; max-height: 400px;overflow-y: scroll">
-                    <form class="form-horizontal" id="entity-lookup-dialog-form">
+                    <form class="form-horizontal" id="tambah-responden-dialog-form">
                         <div class="form group">
                             <label class="col-md-2" for="search-text">Search</label>
 
@@ -38,7 +38,7 @@
                         </thead>
                         <tbody id="tbody" data-bind="foreach:results" >
                             <tr>
-                                <td>
+                                <td class="checkbox">
                                     <label>
                                         <input type="checkbox" data-bind="value: MyKad"/>
                                         <!-- ko text : Nama -->
@@ -56,7 +56,7 @@
                 
             </div>
             <div class="modal-footer">
-                <input form="tambah-responden-dialog-form" data-dismiss="modal" type="submit" class="btn btn-primary" value="OK" data-bind="click: okClick" />
+                <input form="tambah-responden-dialog-form" data-dismiss="modal" type="submit" class="btn btn-primary" value="OK" data-bind="click: okClick, enable: selectedRespondens().length" />
                 <a href="#" class="btn btn-default" data-dismiss="modal" data-bind="click : cancelClick">Cancel</a>
             </div>
         </div>

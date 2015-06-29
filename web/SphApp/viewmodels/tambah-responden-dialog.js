@@ -4,26 +4,7 @@ define(["plugins/dialog", "services/datacontext", "services/config"],
             var item = ko.observable(),
                 searchText = ko.observable(),
                 results = ko.observableArray(),
-                activate = function(){
-                    
-                    return context.getScalarAsync("Pengguna", "MyKad eq '" + config.userName + "'", "NamaKementerian")
-                        .done(function(ministry){
-                          config.namaKementerian = ministry;
-                          return  context.getScalarAsync("Pengguna", "MyKad eq '" + config.userName + "'", "NamaJabatan");
-                        })
-                        .done(function(jabatan){
-                          config.namaJabatan = jabatan;
-                        });
-                },
-                okClick = function(data, ev) {
-                    if (bespoke.utils.form.checkValidity(ev.target))
-                    {
-                        dialog.close(this, "OK");
-                    }
-                },
-                cancelClick = function() {
-                    dialog.close(this, "Cancel");
-                },
+                selectedRespondens = ko.observableArray(),
                 searchAsync = function(){
                     
                     
@@ -35,7 +16,7 @@ define(["plugins/dialog", "services/datacontext", "services/config"],
                                       "must": [
                                         {
                                           "term": {
-                                            "NamaJabatan": config.namaJabatan
+                                            "NamaJabatan": config.namaJabatan 
                                           }
                                         },
                                         {
@@ -65,17 +46,51 @@ define(["plugins/dialog", "services/datacontext", "services/config"],
     
                     return context.searchAsync({ entity : "Pengguna" }, query)
                         .done(function (lo) {
-                            results(lo.itemCollection);
+                            var list = _(lo.itemCollection).filter(function(v){ return v.IsResponden === true;});
+                            results(list);
                         });
                     
                     
+                },
+                activate = function(){
+                    
+                    return context.getScalarAsync("Pengguna", "MyKad eq '" + config.userName + "'", "NamaKementerian")
+                        .then(function(ministry){
+                          config.namaKementerian = ministry;
+                          return  context.getScalarAsync("Pengguna", "MyKad eq '" + config.userName + "'", "NamaJabatan");
+                        })
+                        .then(function(jabatan){
+                          config.namaJabatan = jabatan;
+                          return searchAsync();
+                        });
+                },
+                attached = function(view){
+                    $(view).on("click", "input[type=checkbox]", function(e){
+                        var pengguna = ko.dataFor(this);
+                        if($(this).is(":checked")){
+                            selectedRespondens.push(pengguna);
+                        }else{
+                            selectedRespondens.remove(pengguna);
+                        }
+                    });
+                },
+                okClick = function(data, ev) {
+                    if (bespoke.utils.form.checkValidity(ev.target))
+                    {
+                        dialog.close(this, "OK");
+                    }
+                },
+                cancelClick = function() {
+                    dialog.close(this, "Cancel");
                 };
 
             var vm = {
+                selectedRespondens : selectedRespondens,
                 searchText : searchText,
                 searchAsync : searchAsync,
                 results : results,
                 activate :activate,
+                attached : attached,
                 permohonan : item,
                 okClick : okClick,
                 cancelClick : cancelClick
