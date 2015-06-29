@@ -25,10 +25,9 @@ define(['services/datacontext', 'services/logger', 'plugins/router', "services/c
           chartsQuery = String.format("Entity eq 'Pengguna' and IsDashboardItem eq 1 and CreatedBy eq ''{0}''", config.userName),
           formsQuery = String.format("EntityDefinitionId eq 'pengguna' and IsPublished eq 1 and IsAllowedNewItem eq 1"),
           edTask = context.loadOneAsync("EntityDefinition", query),
-          chartsTask = context.loadAsync("EntityChart", chartsQuery),
           formsTask = context.loadAsync("EntityForm", formsQuery),
-          reportTask = context.loadAsync("ReportDefinition", "[DataSource.EntityName] eq 'Pengguna'"),
-          viewsTask = $.get("/Sph/EntityView/Dashboard/Pengguna");
+          viewsTask = $.get("/Sph/EntityView/Dashboard/pengguna"),
+          permohonanViewsTask = $.get("/Sph/EntityView/Dashboard/permohonan");
 
 
           context.getScalarAsync("Pengguna", "MyKad eq '" + config.userName + "'", "NamaJabatan")
@@ -36,9 +35,14 @@ define(['services/datacontext', 'services/logger', 'plugins/router', "services/c
               config.namaJabatan = jabatan;
             });
 
+          context.getScalarAsync("Pengguna", "MyKad eq '" + config.userName + "'", "NamaKementerian")
+            .done(function(ministry){
+              config.namaKementerian = ministry;
+            });
 
-        return $.when(edTask, formsTask, viewsTask, reportTask, chartsTask)
-          .done(function(b, formsLo, viewsLo, reportsLo, chartsLo) {
+
+        return $.when(edTask, formsTask, viewsTask, permohonanViewsTask)
+          .done(function(b, formsLo, viewsLo, permohonanViewsLo) {
             entity(b);
             var formsCommands = _(formsLo.itemCollection).map(function(v) {
               return {
@@ -50,13 +54,16 @@ define(['services/datacontext', 'services/logger', 'plugins/router', "services/c
                 icon: v.IconClass()
               };
             });
-            charts(chartsLo.itemCollection);
-            reports(reportsLo.itemCollection);
 
             var vj = _(JSON.parse(viewsLo[0])).map(function(v) {
               return context.toObservable(v);
             });
             views(vj);
+
+            _(JSON.parse(permohonanViewsLo[0])).each(function(v) {
+              var pvw =  context.toObservable(v);
+              views.push(pvw);
+            });
 
             // get counts
             _(views()).each(function(v) {
