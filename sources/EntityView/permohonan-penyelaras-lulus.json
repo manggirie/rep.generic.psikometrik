@@ -187,11 +187,11 @@
   "TileColour": "bgreen",
   "CountMessage": "",
   "Entity": "",
-  "Partial": "partial/permohonan_penyelaras",
+  "Partial": "partial/permohonan-penyelaras-lulus",
   "CreatedBy": "admin",
   "Id": "permohonan-penyelaras-lulus",
   "CreatedDate": "2015-06-05T10:45:40.0585082+08:00",
   "ChangedBy": "admin",
-  "ChangedDate": "2015-06-29T18:50:26.3078897+08:00",
+  "ChangedDate": "2015-06-30T07:44:34.4187827+08:00",
   "WebId": "0264f91b-ffce-46cc-d40a-e6d3cadb6fac"
 }

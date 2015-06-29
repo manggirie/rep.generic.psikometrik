@@ -21,7 +21,8 @@
 
 3. Apabila penyelaras login, hanya paparkan program/permohonan yang dia daftarkan sendiri. Tak boleh papar/lihat program yang didaftarkan oleh penyelaras lain walaupun dari jabatan yang sama.
 
-4. Untuk paparan responden, paparkan program-program yang telah didaftarkan atas nama dia beserta status jika ujian telah diambil atau belum. Jika ujian telah diambil, paparkan juga tarikh ujian tersebut diambil.
+4. Untuk paparan responden, paparkan program-program yang telah didaftarkan atas nama dia beserta status jika ujian telah diambil atau belum.
+5. Jika ujian telah diambil, paparkan juga tarikh ujian tersebut diambil.
 
 
 
