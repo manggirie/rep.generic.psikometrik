@@ -2,9 +2,9 @@
     define([objectbuilders.datacontext, objectbuilders.logger, objectbuilders.router,
         objectbuilders.system, objectbuilders.validation, objectbuilders.eximp,
         objectbuilders.dialog, objectbuilders.watcher, objectbuilders.config,
-        objectbuilders.app ],
+        objectbuilders.app ,'partial/permohonan-dan-senarai-responden'],
         function (context, logger, router, system, validation, eximp, dialog, watcher,config,app
-            ) {
+            ,partial) {
 
             var entity = ko.observable(new bespoke.epsikologi_permohonan.domain.Permohonan({WebId:system.guid()})),
                 errors = ko.observableArray(),
@@ -33,7 +33,16 @@
                         form(f);
                         watching(w);
                         i18n = n[0];
-                            tcs.resolve(true);
+                            
+                            if(typeof partial.activate === "function"){
+                                var pt = partial.activate(entity());
+                                if(typeof pt.done === "function"){
+                                    pt.done(tcs.resolve);
+                                }else{
+                                    tcs.resolve(true);
+                                }
+                            }
+                            
                         
                     });
 
@@ -94,6 +103,12 @@
                     validation.init($('#permohonan-dan-senarai-responden-form'), form());
 
 
+                        
+                    if(typeof partial.attached === "function"){
+                        partial.attached(view);
+                    }
+
+                    
 
                 },
                 compositionComplete = function() {
@@ -142,6 +157,9 @@
                 };
 
             var vm = {
+                            
+                            partial : partial,
+                            
                                     activate: activate,
                 config: config,
                 attached: attached,

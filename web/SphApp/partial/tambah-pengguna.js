@@ -6,7 +6,10 @@ define(["services/datacontext",objectbuilders.config], function(context, config)
             return context.loadOneAsync("Pengguna", String.format("MyKad eq '{0}'", config.userName))
             .done(function(user){
                 console.log(user);
-                if(typeof user === "object"){
+                if(typeof ko.unwrap(user) === "undefined"){
+                    return;
+                }
+                if(typeof user.IsPenyelaras === "undefined"){
                     return;
                 }
                 if( ko.unwrap(user.IsPenyelaras)){

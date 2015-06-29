@@ -40,11 +40,11 @@
 </div><div class="form-group" data-bind="visible:true">
     <label class="col-md-4">Tarikh Tamat</label>
     <span class="col-md-8" data-bind="date: TarikhTamat"></span>
-</div><a  data-bind="attr : {href : '#tambah-responden/' + Id() }">
+</div><button data-bind="click : $root.partial.addResponden" class="btn btn-link">
 <i class="fa fa-plus"></i>
 Tambah Responden
     
-</a>
+</button>
 
 
 
@@ -52,14 +52,14 @@ Tambah Responden
 
 <div class="form-group" data-bind="visible:true">
     <h3 data-i18n="Senarai Responden">Senarai Responden</h3>
-    <table class="table table-condensed table-striped" data-bind="serverPaging :{ query: 'PermohonanId eq \'' + ko.unwrap(Id) + '\'', entity : 'PendaftaranProgram', list: bespoke.getSingletonObservableArray('1feccaa7-4858-404f-bd3c-b5601008171f')}">
+    <table class="table table-condensed table-striped" data-bind="serverPaging :{ query: 'PermohonanId eq \'' + ko.unwrap(Id) + '\'', entity : 'PendaftaranProgram', list: bespoke.getSingletonObservableArray('0f542cd9-16d2-4463-a664-56b9d74ab62e')}">
         <thead>
             <tr>
                     <th data-i18n="Responden">Responden</th>
                     <th data-i18n="MyKad">MyKad</th>
             </tr>
         </thead>
-        <tbody data-bind="foreach: bespoke.getSingletonObservableArray('1feccaa7-4858-404f-bd3c-b5601008171f')">
+        <tbody data-bind="foreach: bespoke.getSingletonObservableArray('0f542cd9-16d2-4463-a664-56b9d74ab62e')">
             <tr>
                         <td data-bind="text:NamaPengguna"></td>
                         <td data-bind="text:MyKad"></td>
