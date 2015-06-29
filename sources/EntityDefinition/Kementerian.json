@@ -115,7 +115,7 @@
   },
   "Name": "Kementerian",
   "Plural": "Kementerians",
-  "IconStoreId": "bb773256-1d82-4812-9f52-6ee28bed0345",
+  "IconStoreId": "1789fe3a-bde4-4bd2-b451-5f02d204368e",
   "IconClass": "fa fa-building-o",
   "RecordName": "KementerianNo",
   "IsPublished": true,
@@ -124,6 +124,6 @@
   "Id": "kementerian",
   "CreatedDate": "0001-01-01T00:00:00",
   "ChangedBy": "admin",
-  "ChangedDate": "2015-06-28T09:12:22.0895946+08:00",
+  "ChangedDate": "2015-06-29T06:44:10.96097+08:00",
   "WebId": "c435379d-cced-4e3e-de46-46f27663e00f"
 }
