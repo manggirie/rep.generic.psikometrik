@@ -97,7 +97,7 @@
     "$values": []
   },
   "IconClass": null,
-  "IconStoreId": "3e8bfe11-f88f-4454-a704-3e5eb7cf28ce",
+  "IconStoreId": "9c933b87-ddb7-4c8f-a777-430213544f86",
   "EntityDefinitionId": "jabatan",
   "Name": "Senarai Jabatan",
   "Route": "jabatans-all",
@@ -113,6 +113,6 @@
   "Id": "7e7926b0-3680-49d3-b168-b46008055be4",
   "CreatedDate": "2015-06-05T10:37:17.726344+08:00",
   "ChangedBy": "admin",
-  "ChangedDate": "2015-06-27T16:24:45.5629396+08:00",
+  "ChangedDate": "2015-06-29T06:45:20.0053385+08:00",
   "WebId": "98b461bb-b301-40a2-81bc-885e2954f342"
 }
