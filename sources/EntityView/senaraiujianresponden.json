@@ -18,8 +18,8 @@
   },
   "Performer": {
     "$type": "Bespoke.Sph.Domain.Performer, domain.sph",
-    "UserProperty": "",
-    "Value": "",
+    "UserProperty": "Roles",
+    "Value": "PengurusanPermohonan",
     "IsPublic": false,
     "WebId": null
   },
@@ -44,6 +44,6 @@
   "Id": "senaraiujianresponden",
   "CreatedDate": "2015-06-05T10:45:40.0595083+08:00",
   "ChangedBy": "admin",
-  "ChangedDate": "2015-06-05T10:45:40.0595083+08:00",
+  "ChangedDate": "2015-06-29T18:27:03.1291082+08:00",
   "WebId": "248568e0-111a-4ea1-b94a-5152cc7e0578"
 }

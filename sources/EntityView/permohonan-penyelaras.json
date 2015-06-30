@@ -136,9 +136,9 @@
   },
   "Performer": {
     "$type": "Bespoke.Sph.Domain.Performer, domain.sph",
-    "UserProperty": "",
-    "Value": "",
-    "IsPublic": true,
+    "UserProperty": "Roles",
+    "Value": "PengurusanPermohonan",
+    "IsPublic": false,
     "WebId": null
   },
   "RouteParameterCollection": {
@@ -162,6 +162,6 @@
   "Id": "permohonan-penyelaras",
   "CreatedDate": "2015-06-05T10:45:40.0595083+08:00",
   "ChangedBy": "admin",
-  "ChangedDate": "2015-06-05T10:45:40.0585082+08:00",
+  "ChangedDate": "2015-06-29T18:26:50.9287915+08:00",
   "WebId": "0264f91b-ffce-46cc-d40a-e6d3cadb6fac"
 }

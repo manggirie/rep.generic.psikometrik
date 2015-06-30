@@ -153,9 +153,9 @@
   },
   "Performer": {
     "$type": "Bespoke.Sph.Domain.Performer, domain.sph",
-    "UserProperty": "",
-    "Value": "",
-    "IsPublic": true,
+    "UserProperty": "Roles",
+    "Value": "PengurusanPengguna",
+    "IsPublic": false,
     "WebId": null
   },
   "RouteParameterCollection": {
@@ -179,6 +179,6 @@
   "Id": "responden",
   "CreatedDate": "2015-06-01T18:46:54.311415+08:00",
   "ChangedBy": "admin",
-  "ChangedDate": "2015-06-13T12:07:31.7103007+08:00",
+  "ChangedDate": "2015-06-29T18:13:34.4993817+08:00",
   "WebId": "110610b5-c847-4b71-c598-0a52a231d433"
 }

@@ -2,7 +2,7 @@
     define([objectbuilders.datacontext, objectbuilders.logger, objectbuilders.router,
         objectbuilders.system, objectbuilders.validation, objectbuilders.eximp,
         objectbuilders.dialog, objectbuilders.watcher, objectbuilders.config,
-        objectbuilders.app ,'partial/permohonan-dan-senarai-responden'],
+        objectbuilders.app ,'partial/permohonan-penyelaras'],
         function (context, logger, router, system, validation, eximp, dialog, watcher,config,app
             ,partial) {
 
@@ -18,9 +18,9 @@
                     var query = String.format("Id eq '{0}'", entityId),
                         tcs = new $.Deferred(),
                         itemTask = context.loadOneAsync("Permohonan", query),
-                        formTask = context.loadOneAsync("EntityForm", "Route eq 'permohonan-dan-senarai-responden'"),
+                        formTask = context.loadOneAsync("EntityForm", "Route eq 'permohonan-penyelaras'"),
                         watcherTask = watcher.getIsWatchingAsync("Permohonan", entityId),
-                        i18nTask = $.getJSON("i18n/" + config.lang + "/permohonan-dan-senarai-responden");
+                        i18nTask = $.getJSON("i18n/" + config.lang + "/permohonan-penyelaras");
 
                     $.when(itemTask, formTask, watcherTask, i18nTask).done(function(b,f,w,n) {
                         if (b) {
@@ -100,7 +100,7 @@
                  },
                 attached = function (view) {
                     // validation
-                    validation.init($('#permohonan-dan-senarai-responden-form'), form());
+                    validation.init($('#permohonan-penyelaras-form'), form());
 
 
                         
@@ -173,7 +173,10 @@
 
 
                 toolbar : {
-                                                                                                    commands : ko.observableArray([])
+                                                                                                        
+                    saveCommand : permohonanDariPenyelaras,
+                    
+                    commands : ko.observableArray([])
                 }
             };
 

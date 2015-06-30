@@ -9,7 +9,7 @@
         "Operator": "Eq",
         "Field": {
           "$type": "Bespoke.Sph.Domain.JavascriptExpressionField, domain.sph",
-          "Expression": "$root.partial.namaJabatan",
+          "Expression": "ko.unwrap(config.namaJabatan)",
           "Name": "jabatan",
           "Note": "",
           "WebId": "bbedc84e-bf85-4a44-ae03-7d849c9e08e7"
@@ -30,12 +30,12 @@
         "Path": "Nama",
         "Header": "Nama",
         "Sort": "",
-        "IsLinkColumn": false,
-        "FormRoute": null,
-        "IconCssClass": "",
+        "IsLinkColumn": true,
+        "FormRoute": "tambah-pengguna",
+        "IconCssClass": "fa fa-edit",
         "IconStoreId": "",
         "Format": "text:{0}",
-        "RouteValueField": "",
+        "RouteValueField": "Id",
         "WebId": "826afc1f-885a-48a0-b1fe-3c11f1f6aafc"
       },
       {
@@ -105,6 +105,40 @@
         "Format": "text:{0}",
         "RouteValueField": "",
         "WebId": "1510accb-795d-4779-b171-86d088da7d2d"
+      },
+      {
+        "$type": "Bespoke.Sph.Domain.ViewColumn, domain.sph",
+        "ConditionalFormattingCollection": {
+          "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.Sph.Domain.ConditionalFormatting, domain.sph]], domain.sph",
+          "$values": []
+        },
+        "Path": "NamaJabatan",
+        "Header": "Nama Jabatan",
+        "Sort": "",
+        "IsLinkColumn": false,
+        "FormRoute": null,
+        "IconCssClass": "",
+        "IconStoreId": "",
+        "Format": "text:{0}",
+        "RouteValueField": "",
+        "WebId": "7a63b9c5-23fd-48c9-d665-3cf760775432"
+      },
+      {
+        "$type": "Bespoke.Sph.Domain.ViewColumn, domain.sph",
+        "ConditionalFormattingCollection": {
+          "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.Sph.Domain.ConditionalFormatting, domain.sph]], domain.sph",
+          "$values": []
+        },
+        "Path": "NamaKementerian",
+        "Header": "Nama Kementerian",
+        "Sort": "",
+        "IsLinkColumn": false,
+        "FormRoute": null,
+        "IconCssClass": "",
+        "IconStoreId": "",
+        "Format": "text:{0}",
+        "RouteValueField": "",
+        "WebId": "cbeb43a5-143a-4a7d-9e24-9383c8299db3"
       }
     ]
   },
@@ -118,8 +152,8 @@
   },
   "Performer": {
     "$type": "Bespoke.Sph.Domain.Performer, domain.sph",
-    "UserProperty": "",
-    "Value": "",
+    "UserProperty": "Roles",
+    "Value": "PengurusanPenggunaJabatan",
     "IsPublic": false,
     "WebId": null
   },
@@ -134,16 +168,16 @@
   "Route": "responden-dari-jabatan",
   "Note": "Senarai responden mengikut Jabatan Penyelaras Semasa",
   "Query": "",
-  "IsPublished": false,
+  "IsPublished": true,
   "Visibilty": "",
   "TileColour": "blightblue",
   "CountMessage": "",
   "Entity": "",
-  "Partial": "",
+  "Partial": "partial/responden-dari-jabatan",
   "CreatedBy": "admin",
   "Id": "pengguna-responden-dari-jabatan",
   "CreatedDate": "2015-06-29T05:47:15.9045996+08:00",
   "ChangedBy": "admin",
-  "ChangedDate": "2015-06-29T05:47:15.9015988+08:00",
+  "ChangedDate": "2015-06-29T18:16:40.0907918+08:00",
   "WebId": "3c1c61c1-26e5-4ef4-88b6-cef7a33db674"
 }

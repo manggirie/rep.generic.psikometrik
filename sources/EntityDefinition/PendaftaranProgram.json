@@ -135,6 +135,28 @@
         "Boost": 0,
         "DefaultValue": null,
         "WebId": "be228d8c-5e5f-44dd-9a85-52444b8ef0fe"
+      },
+      {
+        "$type": "Bespoke.Sph.Domain.Member, domain.sph",
+        "FullName": null,
+        "MemberCollection": {
+          "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.Sph.Domain.Member, domain.sph]], domain.sph",
+          "$values": []
+        },
+        "FieldPermissionCollection": {
+          "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.Sph.Domain.FieldPermission, domain.sph]], domain.sph",
+          "$values": []
+        },
+        "Name": "PermohonanId",
+        "TypeName": "System.String, mscorlib",
+        "IsNullable": true,
+        "IsNotIndexed": false,
+        "IsAnalyzed": false,
+        "IsFilterable": true,
+        "IsExcludeInAll": false,
+        "Boost": 3,
+        "DefaultValue": null,
+        "WebId": "d0d9bf04-433f-4a15-b938-c5446678c752"
       }
     ]
   },
@@ -212,7 +234,7 @@
   },
   "Name": "PendaftaranProgram",
   "Plural": "PendaftaranPrograms",
-  "IconStoreId": "987793cb-679e-496b-a513-835dee153fe4",
+  "IconStoreId": "68492193-a514-4262-bfc6-d34d629df8aa",
   "IconClass": "glyphicon glyphicon-plus-sign",
   "RecordName": "PendaftaranNo",
   "IsPublished": true,
@@ -221,6 +243,6 @@
   "Id": "pendaftaranprogram",
   "CreatedDate": "0001-01-01T00:00:00",
   "ChangedBy": "admin",
-  "ChangedDate": "2015-06-27T16:20:25.5925216+08:00",
+  "ChangedDate": "2015-06-29T19:09:15.0870424+08:00",
   "WebId": "d36aa8ae-1ba2-4a1a-9036-240c4e9ced07"
 }

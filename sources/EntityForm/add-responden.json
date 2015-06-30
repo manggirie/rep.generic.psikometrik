@@ -304,7 +304,7 @@
         {
           "$type": "Bespoke.Sph.Domain.HtmlElement, domain.sph",
           "IsPathIsRequired": false,
-          "Text": "<a  data-bind=\"attr : {href : '#tambah-responden/' + Id() }\">\n<i class=\"fa fa-plus\"></i>\nTambah Responden\n    \n</a>",
+          "Text": "<button data-bind=\"click : $root.partial.addResponden\" class=\"btn btn-link\">\n<i class=\"fa fa-plus\"></i>\nTambah Responden\n    \n</button>",
           "TypeName": "HtmlElement",
           "FieldValidation": {
             "$type": "Bespoke.Sph.Domain.FieldValidation, domain.sph",
@@ -345,7 +345,7 @@
         {
           "$type": "Bespoke.Sph.Domain.ChildEntityListView, domain.sph",
           "Entity": "PendaftaranProgram",
-          "Query": "'NamaProgram eq \\'' + NamaProgram() + '\\''",
+          "Query": "'PermohonanId eq \\'' + ko.unwrap(Id) + '\\''",
           "IsAllowAddItem": false,
           "NewItemFormRoute": null,
           "NewItemMappingSource": null,
@@ -481,13 +481,13 @@
   "IsExportAvailable": false,
   "Operation": null,
   "Entity": "",
-  "Partial": "",
+  "Partial": "partial/permohonan-dan-senarai-responden",
   "Caption": "Tambah Senarai Responden",
   "Layout": null,
   "CreatedBy": "admin",
   "Id": "add-responden",
   "CreatedDate": "2015-06-05T10:45:40.0235058+08:00",
   "ChangedBy": "admin",
-  "ChangedDate": "2015-06-05T10:45:40.022506+08:00",
+  "ChangedDate": "2015-06-29T19:14:50.5224862+08:00",
   "WebId": "aec8d777-8974-4a8a-b824-140ee0796560"
 }

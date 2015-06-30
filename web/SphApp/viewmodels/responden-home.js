@@ -1,6 +1,7 @@
 define(["services/datacontext", objectbuilders.config, objectbuilders.app ], function(context, config, app){
     var testList =  ko.observableArray()
         ujianList = ko.observableArray(),
+        registrationList = ko.observableArray(),
         activate = function(){
            var date = moment().format('YYYY-MM-DD HH:mm:ss'),
            query = String.format("MyKad eq '{0}' and Status eq 'Belum Ambil' and TarikhMulaProgram le DateTime'{1}' and TarikhTamatProgram ge DateTime'{1}' ", config.userName, date);
@@ -13,7 +14,8 @@ define(["services/datacontext", objectbuilders.config, objectbuilders.app ], fun
                 .then(function(lo1){
                     ujianList(lo1.itemCollection);
                     return context.loadAsync("Setting", "UserName eq '" + config.userName + "'")
-                }).then(function(lo){
+                })
+                .then(function(lo){
                   _(testList()).each(function(v){
                       v.Lock = ko.observable();
                       context.loadOneAsync("PercubaanSesi", "MyKad eq '" + config.userName + "' and SesiUjianId eq '" + ko.unwrap(v.Id) + "'")
@@ -23,6 +25,21 @@ define(["services/datacontext", objectbuilders.config, objectbuilders.app ], fun
                          }
                       });
                   });
+                  
+                  return context.loadAsync("PendaftaranProgram", "MyKad eq '" + config.userName + "'");
+                })
+                .then(function(lo){
+                    registrationList(lo.itemCollection);
+                    return context.loadAsync("SesiUjian", "MyKad eq '" + config.userName + "'");
+                })
+                .then(function(lo){
+                    
+                   _(registrationList()).each(function(v){
+                        var exams = _(lo.itemCollection).filter(function(k){
+                            return ko.unwrap(k.NamaProgram) == ko.unwrap(v.NoPermohonan);
+                        });
+                        v.exams = exams;
+                    });
                 });
         },
         attached  = function(view){
@@ -57,6 +74,7 @@ define(["services/datacontext", objectbuilders.config, objectbuilders.app ], fun
 
     return {
         getTempohUjian : getTempohUjian,
+        registrationList : registrationList,
         testList : testList,
         activate : activate,
         attached : attached,

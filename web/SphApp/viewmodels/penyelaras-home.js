@@ -20,37 +20,63 @@ define(['services/datacontext', 'services/logger', 'plugins/router', "services/c
       charts = ko.observableArray([]),
       views = ko.observableArray([]),
       entity = ko.observable(new bespoke.sph.domain.EntityDefinition()),
+      query = {
+              "query": {
+                "filtered": {
+                  "filter": {
+                    "bool": {
+                      "must": [
+                        {
+                          "term": {
+                            "StatusPermohonan": "LULUS"
+                          }
+                        },
+                        {
+                          "term": {
+                            "Penyelaras": config.userName
+                          }
+                        }
+                      ],
+                      "must_not": []
+                    }
+                  }
+                }
+              },
+              "sort": []
+            },
+            permohonanLulusList = ko.observableArray(),
       activate = function() {
         var query = String.format("Name eq '{0}'", 'Pengguna'),
           chartsQuery = String.format("Entity eq 'Pengguna' and IsDashboardItem eq 1 and CreatedBy eq ''{0}''", config.userName),
           formsQuery = String.format("EntityDefinitionId eq 'pengguna' and IsPublished eq 1 and IsAllowedNewItem eq 1"),
           edTask = context.loadOneAsync("EntityDefinition", query),
-          chartsTask = context.loadAsync("EntityChart", chartsQuery),
-          formsTask = context.loadAsync("EntityForm", formsQuery),
-          reportTask = context.loadAsync("ReportDefinition", "[DataSource.EntityName] eq 'Pengguna'"),
-          viewsTask = $.get("/Sph/EntityView/Dashboard/Pengguna");
+          viewsTask = $.get("/Sph/EntityView/Dashboard/pengguna"),
+          permohonanViewsTask = $.get("/Sph/EntityView/Dashboard/permohonan");
 
 
-        return $.when(edTask, formsTask, viewsTask, reportTask, chartsTask)
-          .done(function(b, formsLo, viewsLo, reportsLo, chartsLo) {
-            entity(b);
-            var formsCommands = _(formsLo.itemCollection).map(function(v) {
-              return {
-                caption: v.Name(),
-                command: function() {
-                  router.navigate(v.Route() + '/0');
-                  return Task.fromResult(0);
-                },
-                icon: v.IconClass()
-              };
+          context.getScalarAsync("Pengguna", "MyKad eq '" + config.userName + "'", "NamaJabatan")
+            .done(function(jabatan){
+              config.namaJabatan = jabatan;
             });
-            charts(chartsLo.itemCollection);
-            reports(reportsLo.itemCollection);
 
+          context.getScalarAsync("Pengguna", "MyKad eq '" + config.userName + "'", "NamaKementerian")
+            .done(function(ministry){
+              config.namaKementerian = ministry;
+            });
+
+
+        return $.when(edTask, viewsTask, permohonanViewsTask)
+          .done(function(b, viewsLo, permohonanViewsLo) {
+            entity(b);
             var vj = _(JSON.parse(viewsLo[0])).map(function(v) {
               return context.toObservable(v);
             });
             views(vj);
+
+            _(JSON.parse(permohonanViewsLo[0])).each(function(v) {
+              var pvw =  context.toObservable(v);
+              views.push(pvw);
+            });
 
             // get counts
             _(views()).each(function(v) {
@@ -64,9 +90,7 @@ define(['services/datacontext', 'services/logger', 'plugins/router', "services/c
                   v.CountMessage(c.hits.total);
                 });
             });
-            vm.toolbar.commands(formsCommands);
           });
-
       },
       attached = function(view) {
         $(view).on('click', 'a.hover-drop', function(e) {
@@ -99,6 +123,8 @@ define(['services/datacontext', 'services/logger', 'plugins/router', "services/c
       };
 
     var vm = {
+      query: query,
+      permohonanLulusList: permohonanLulusList,
       isBusy: isBusy,
       views: views,
       charts: charts,
@@ -112,7 +138,21 @@ define(['services/datacontext', 'services/logger', 'plugins/router', "services/c
       addView: addView,
       recentItemsQuery: recentItemsQuery,
       toolbar: {
-        commands: ko.observableArray([])
+        commands: ko.observableArray([{
+          command : function(){
+            return router.navigate("permohonan-penyelaras/0");
+          },
+          caption : "Mohon Program Baru",
+          icon : "fa fa-file-text-o"
+        },
+        {
+          command : function(){
+            return router.navigate("tambah-pengguna/0");
+          },
+          caption : "Tambah Responden",
+          icon : "fa fa-user-plus"
+        }
+        ])
       }
     };
 

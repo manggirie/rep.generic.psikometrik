@@ -67,7 +67,7 @@ namespace web.sph.App_Code
                     if (null != profile)
                     {
                         if (!profile.HasChangedDefaultPassword)
-                            return RedirectToAction("ChangePassword");
+                            return Redirect("/Sph/SphAccount/ChangePassword");
                         if (returnUrl == "/" ||
                             returnUrl.Equals("/epsikologi", StringComparison.InvariantCultureIgnoreCase) ||
                             returnUrl.Equals("/epsikologi#", StringComparison.InvariantCultureIgnoreCase) ||

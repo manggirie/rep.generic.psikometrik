@@ -4,39 +4,40 @@
 
 
 <div class="row">
-    <a data-toggle="collapse" href="#recent-pengguna">
-        <h3 data-bind="with : entity">
-            <i class="fa fa-chevron-down"></i>
-            Recent <span data-bind="text:Plural"></span>
-        </h3>
-    </a>
-    <div id="recent-pengguna" class="collapse collapsed">
-        <div class="" data-bind="searchPaging: {list :recentItems, query : recentItemsQuery, pagerHidden:true , entity : 'Pengguna'}">
-            <ul data-bind="foreach :recentItems" class="metro-tile">
-                <li class="blightblue">
-
-                    <a data-bind="attr:{'href' : '#tambah-pengguna/' + Id}">
-                        <i class="fa fa-user"></i>
-                        <span data-bind="text:MyKad"></span>
-                    </a>
-                </li>
-            </ul>
-        </div>
-
-    </div>
-</div>
-<div class="row">
     <div class="col-lg-6">
 
-        <h3>Charts</h3>
-        <div data-bind="foreach: charts">
-            <div class="chart-wrapper">
-                <div data-bind="chart:$data"></div>
-                <a href="#" class="hover-drop" title="Unpin from homepage">
-                    <span class="glyphicon glyphicon-pushpin pull-right"></span>
-                </a>
-            </div>
-        </div>
+        <h3>Program yang Diluluskan</h3>
+        <table class="table table-striped" data-bind="filter : {path:'tbody>tr'}, searchPaging :{ query: query,  entity : 'Permohonan', list:permohonanLulusList}">
+            <thead>
+                <tr>
+                    <th>#</th>
+                    <th>No</th>
+                    <th>Tarikh</th>
+                    <th>Tarikh Tama</th>
+                    <th>Papar Responden</th>
+                </tr>
+            </thead>
+            <tbody data-bind="foreach :permohonanLulusList">
+                <tr data-bind="">
+
+                    <td data-bind="text:$index() + 1"></td>
+                    <td>
+                        <a data-bind="attr : {href:'#permohonan-penyelaras' + '/' + Id, title:'PermohonanNo' }">
+                          <span data-bind="text:PermohonanNo"></span>
+                        </a>
+                    </td>
+                    <td data-bind="date:TarikhMula"></td>
+                    <td data-bind="date:TarikhTamat"></td>
+                    <td>
+                        <a data-bind="attr : {href:'#permohonan-dan-senarai-responden' + '/' + Id, title:'Papar Responden' }">
+                                                        <span data-bind="text:'Senarai Responden'"></span>
+                        </a>
+                    </td>
+
+
+                </tr>
+            </tbody>
+        </table>
 
     </div>
     <div class="col-lg-6">

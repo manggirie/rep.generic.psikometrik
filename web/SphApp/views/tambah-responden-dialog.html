@@ -1,0 +1,64 @@
+<!-- use dialog-form code snippet  to create a template for your -->
+
+<section class="view-model-modal" id="tambah-responden-dialog">
+    <div class="modal-dialog">
+        <div class="modal-content">
+
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" data-bind="click : cancelClick">&times;</button>
+                <h3>Tambah Responden</h3>
+            </div>
+            <div class="modal-body">
+
+              
+                <div style="height:300px; max-height: 400px;overflow-y: scroll">
+                    <form class="form-horizontal" id="tambah-responden-dialog-form">
+                        <div class="form group">
+                            <label class="col-md-2" for="search-text">Search</label>
+
+                            <div class="col-md-8">
+                                <input class="form-control" autofocus type="text" id="search-text" data-bind="value: searchText" />
+
+                            </div>
+                            <div class="col-md-1">
+                                <button class="btn btn-link" data-bind="command: searchAsync">
+                                    <i class="fa fa-search"></i>
+                                </button>
+                            </div>
+                        </div>
+
+                    </form>
+                    <table class="table table-condensed table-striped" data-bind="visible: results().length > 0">
+                        <thead id="thead">
+                            <tr>
+                                <th>Nama</th>
+                                <th>MyKad</th>
+                                <th>Jabatan</th>
+                            </tr>
+                        </thead>
+                        <tbody id="tbody" data-bind="foreach:results" >
+                            <tr>
+                                <td class="checkbox">
+                                    <label>
+                                        <input type="checkbox" data-bind="value: MyKad"/>
+                                        <!-- ko text : Nama -->
+                                        <!-- /ko -->
+                                    </label>
+                                    
+                                </td>
+                                <td data-bind="text: MyKad"></td>
+                                <td data-bind="text: NamaJabatan"></td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+                
+                
+            </div>
+            <div class="modal-footer">
+                <input form="tambah-responden-dialog-form" data-dismiss="modal" type="submit" class="btn btn-primary" value="OK" data-bind="click: okClick, enable: selectedRespondens().length" />
+                <a href="#" class="btn btn-default" data-dismiss="modal" data-bind="click : cancelClick">Cancel</a>
+            </div>
+        </div>
+    </div>
+</section>

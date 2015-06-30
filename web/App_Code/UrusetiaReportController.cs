@@ -15,10 +15,8 @@ namespace web.sph.App_Code
     public class UrusetiaReportController : Controller
     {
         public UrusetiaReportController()
-        {    
-
-            ConfigHelper.RegisterDependencies();
-                 
+        {
+            ConfigHelper.RegisterDependencies();                 
         }
 
         [HttpPost]
@@ -74,7 +72,7 @@ namespace web.sph.App_Code
             {
                 html.AppendLine("   <tr>");
                 html.AppendLine("   <td>" + s.NamaPengguna + "</td>");
-                html.AppendFormat("   <td>{0:dd/MM/yyyy HH:mm}</td>", s.TarikhUjian); 
+                html.AppendFormat("   <td>{0:dd/MM/yyyy HH:mm}</td>", s.TarikhUjian);
                 foreach(var t in traits)
                 {
                     var t1 = t;
@@ -83,11 +81,11 @@ namespace web.sph.App_Code
                 }
                 var indikator = s.NamaUjian.Contains("IBK") ? "" : @"<a class=""btn btn-info"" target=""_blank"" href=""cetak-laporan/indikator/{0}""> <i class=""fa fa-print""></i> Indikator</a>";
 
-                html.AppendFormat(@"   
+                html.AppendFormat(@"
                     <td>
                         <a class=""btn btn-info"" target=""_blank"" href=""cetak-laporan/trait/{0}""> <i class=""fa fa-print""></i> Tret</a>
                         {1}
-                    </td>", s.Id, indikator); 
+                    </td>", s.Id, indikator);
                 html.AppendLine("   </tr>");
             }
 
@@ -95,20 +93,20 @@ namespace web.sph.App_Code
             // sum
             html.AppendLine("   <tr>");
             html.AppendLine("   <td>Jumlah Markah</td>");
-            html.AppendLine("   <td></td>"); 
+            html.AppendLine("   <td></td>");
             foreach(var t in traits)
             {
                 var t1 = t;
                 var score = sesi.SelectMany(x => x.JawapanCollection).Where(a => a.Trait == t1).Sum(a => a.Nilai);
                 html.AppendLine("           <td>" + score + "</td>");
             }
-            html.AppendLine("   <td></td>"); 
+            html.AppendLine("   <td></td>");
             html.AppendLine("   </tr>");
 
             // average
             html.AppendLine("   <tr>");
             html.AppendLine("   <td>Purata Markah</td>");
-            html.AppendLine("   <td></td>"); 
+            html.AppendLine("   <td></td>");
             foreach(var t in traits)
             {
                 var t1 = t;
@@ -123,7 +121,7 @@ namespace web.sph.App_Code
                     html.AppendLine("           <td> NA</td>");
                 }
             }
-            html.AppendLine("   <td></td>"); 
+            html.AppendLine("   <td></td>");
             html.AppendLine("   </tr>");
 
             html.AppendLine("</tbody>");

@@ -4,7 +4,7 @@
 ## Responden dan Penyelaras
 * ~~Responden tak boleh copy soalan~~
   * done, prevent contextmenu and selection - 2015-06-28 1007
-* Tambah responden ke program, narrow down kepada responden yang dari jabatan yang sama
+* ~~Tambah responden ke program, narrow down kepada responden yang dari jabatan yang sama~~
 * Toolbar buttons turun bawah
 * Toolbar button tukar melayu
 * Save - simpan
@@ -19,9 +19,10 @@
 
 2. Semasa sesi ujian, jika responden tekan back button pada browser, auto save jawapan-jawapan yang telah dijawab. Walau bagaimanapun, simpan jawapan sebenar hanya apabila butang Hantar ditekan.
 
-3. Apabila penyelaras login, hanya paparkan program/permohonan yang dia daftarkan sendiri. Tak boleh papar/lihat program yang didaftarkan oleh penyelaras lain walaupun dari jabatan yang sama.
+3. ~~Apabila penyelaras login, hanya paparkan program/permohonan yang dia daftarkan sendiri. Tak boleh papar/lihat program yang didaftarkan oleh penyelaras lain walaupun dari jabatan yang sama.~~
 
-4. Untuk paparan responden, paparkan program-program yang telah didaftarkan atas nama dia beserta status jika ujian telah diambil atau belum. Jika ujian telah diambil, paparkan juga tarikh ujian tersebut diambil.
+4.  ~~Untuk paparan responden, paparkan program-program yang telah didaftarkan atas nama dia beserta status jika ujian telah diambil atau belum.~~
+5. ~~Jika ujian telah diambil, paparkan juga tarikh ujian tersebut diambil.~~
 
 
 
@@ -31,9 +32,10 @@
 
 ## Penyelaras
 * Mohon permohonan cadangan tarik mestilah in the future
-* Boleh tambah banyak -banyak responden sekali gus
-* Boleh guna dialog untuk Tambah responden
-* Senarai permohonan dipapar ikut jabatan dia sahaja, so kena new member kepada permohonan entity definition, so everytime Penyelaras mohon program baru, permohonan ini akan di setkan Jabatan secara automatic.
+* ~~Boleh tambah banyak -banyak responden sekali gus~~
+* ~~Boleh guna dialog untuk Tambah responden~~
+* ~~Senarai responden dari Jabatan yang sama~~
+* ~~Senarai permohonan dipapar ikut jabatan dia sahaja, so kena new member kepada permohonan entity definition, so everytime Penyelaras mohon program baru, permohonan ini akan di setkan Jabatan secara automatic.~~
 
 ## urusetia
 * LULUS kan permohonan, nama ujian mesti penuh
