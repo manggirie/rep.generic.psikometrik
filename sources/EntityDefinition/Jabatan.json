@@ -28,7 +28,7 @@
       },
       {
         "$type": "Bespoke.Sph.Domain.Member, domain.sph",
-        "FullName": null,
+        "FullName": "NamaJabatan",
         "MemberCollection": {
           "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.Sph.Domain.Member, domain.sph]], domain.sph",
           "$values": []
@@ -50,7 +50,7 @@
       },
       {
         "$type": "Bespoke.Sph.Domain.Member, domain.sph",
-        "FullName": null,
+        "FullName": "AgensiNo",
         "MemberCollection": {
           "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.Sph.Domain.Member, domain.sph]], domain.sph",
           "$values": []
@@ -72,7 +72,7 @@
       },
       {
         "$type": "Bespoke.Sph.Domain.Member, domain.sph",
-        "FullName": null,
+        "FullName": "Kementerian",
         "MemberCollection": {
           "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.Sph.Domain.Member, domain.sph]], domain.sph",
           "$values": []
@@ -94,7 +94,7 @@
       },
       {
         "$type": "Bespoke.Sph.Domain.Member, domain.sph",
-        "FullName": null,
+        "FullName": "AgensiKumpulan",
         "MemberCollection": {
           "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.Sph.Domain.Member, domain.sph]], domain.sph",
           "$values": []
@@ -146,6 +146,6 @@
   "Id": "jabatan",
   "CreatedDate": "2015-06-05T10:37:17.7083426+08:00",
   "ChangedBy": "admin",
-  "ChangedDate": "2015-06-28T09:12:13.3973608+08:00",
+  "ChangedDate": "2015-06-30T12:20:06.9707896+08:00",
   "WebId": "f95865f4-dbc9-4b62-990a-7d4e65d30f7a"
 }

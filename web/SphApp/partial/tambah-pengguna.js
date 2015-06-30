@@ -2,13 +2,18 @@ define(["services/datacontext",objectbuilders.config], function(context, config)
     var isPenyelaras = ko.observable(false),
         penyelaras = ko.observable(),
         activate = function(entity){
-            
+
             return context.loadOneAsync("Pengguna", String.format("MyKad eq '{0}'", config.userName))
             .done(function(user){
+
+                if(!user){
+                    return;
+                }
                 console.log(user);
                 if(typeof ko.unwrap(user) === "undefined"){
                     return;
                 }
+
                 if(typeof user.IsPenyelaras === "undefined"){
                     return;
                 }
@@ -26,7 +31,7 @@ define(["services/datacontext",objectbuilders.config], function(context, config)
 
         },
         attached  = function(view){
-        
+
         };
 
     return {

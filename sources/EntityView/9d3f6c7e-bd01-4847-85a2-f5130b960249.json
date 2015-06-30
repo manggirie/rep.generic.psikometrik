@@ -17,7 +17,7 @@
         "Header": "Nama Program",
         "Sort": "",
         "IsLinkColumn": true,
-        "FormRoute": "permohonan-details",
+        "FormRoute": "permohonan_urusetia",
         "IconCssClass": "fa fa-book",
         "IconStoreId": "",
         "Format": "text:{0}",
@@ -38,8 +38,59 @@
         "IconCssClass": "",
         "IconStoreId": "",
         "Format": "text:{0}",
-        "RouteValueField": "",
+        "RouteValueField": "Id",
         "WebId": "13ee689b-0aa6-4eba-8823-dd6735d642b6"
+      },
+      {
+        "$type": "Bespoke.Sph.Domain.ViewColumn, domain.sph",
+        "ConditionalFormattingCollection": {
+          "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.Sph.Domain.ConditionalFormatting, domain.sph]], domain.sph",
+          "$values": []
+        },
+        "Path": "NamaJabatan",
+        "Header": "Nama Jabatan",
+        "Sort": "",
+        "IsLinkColumn": false,
+        "FormRoute": null,
+        "IconCssClass": "",
+        "IconStoreId": "",
+        "Format": "text:{0}",
+        "RouteValueField": "Id",
+        "WebId": "d517348f-c2da-4ecc-def2-4e878a00a755"
+      },
+      {
+        "$type": "Bespoke.Sph.Domain.ViewColumn, domain.sph",
+        "ConditionalFormattingCollection": {
+          "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.Sph.Domain.ConditionalFormatting, domain.sph]], domain.sph",
+          "$values": []
+        },
+        "Path": "NamaKementerian",
+        "Header": "Nama Kementerian",
+        "Sort": "",
+        "IsLinkColumn": false,
+        "FormRoute": null,
+        "IconCssClass": "",
+        "IconStoreId": "",
+        "Format": "text:{0}",
+        "RouteValueField": "Id",
+        "WebId": "6d1d774b-0861-47b0-87aa-911ad1b7fbee"
+      },
+      {
+        "$type": "Bespoke.Sph.Domain.ViewColumn, domain.sph",
+        "ConditionalFormattingCollection": {
+          "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.Sph.Domain.ConditionalFormatting, domain.sph]], domain.sph",
+          "$values": []
+        },
+        "Path": "Penyelaras",
+        "Header": "Penyelaras",
+        "Sort": "",
+        "IsLinkColumn": false,
+        "FormRoute": null,
+        "IconCssClass": "",
+        "IconStoreId": "",
+        "Format": "text:{0}",
+        "RouteValueField": "Id",
+        "WebId": "466e542f-d0d5-428e-f39e-9203200f0b0e"
       }
     ]
   },
@@ -65,7 +116,7 @@
   "IconClass": null,
   "IconStoreId": "71ba2b40-e155-4650-a01c-fc156c7e6eb7",
   "EntityDefinitionId": "permohonan",
-  "Name": "All permohonans",
+  "Name": "Semua Permohonan",
   "Route": "permohonans-all",
   "Note": null,
   "Query": null,
@@ -79,6 +130,6 @@
   "Id": "9d3f6c7e-bd01-4847-85a2-f5130b960249",
   "CreatedDate": "2015-06-05T10:45:40.0585082+08:00",
   "ChangedBy": "admin",
-  "ChangedDate": "2015-06-29T18:25:30.2438777+08:00",
+  "ChangedDate": "2015-06-30T11:39:18.0284103+08:00",
   "WebId": "3bce1797-6164-472c-8f98-2409ad2d34ef"
 }

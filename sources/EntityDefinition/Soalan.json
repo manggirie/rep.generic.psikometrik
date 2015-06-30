@@ -28,7 +28,7 @@
       },
       {
         "$type": "Bespoke.Sph.Domain.Member, domain.sph",
-        "FullName": null,
+        "FullName": "SoalanNo",
         "MemberCollection": {
           "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.Sph.Domain.Member, domain.sph]], domain.sph",
           "$values": []
@@ -183,7 +183,7 @@
       },
       {
         "$type": "Bespoke.Sph.Domain.Member, domain.sph",
-        "FullName": null,
+        "FullName": "NamaUjian",
         "MemberCollection": {
           "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.Sph.Domain.Member, domain.sph]], domain.sph",
           "$values": []
@@ -205,7 +205,7 @@
       },
       {
         "$type": "Bespoke.Sph.Domain.Member, domain.sph",
-        "FullName": null,
+        "FullName": "Susunan",
         "MemberCollection": {
           "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.Sph.Domain.Member, domain.sph]], domain.sph",
           "$values": []
@@ -257,6 +257,6 @@
   "Id": "soalan",
   "CreatedDate": "2015-06-05T10:14:02.0720325+08:00",
   "ChangedBy": "admin",
-  "ChangedDate": "2015-06-28T09:10:48.7677293+08:00",
+  "ChangedDate": "2015-06-30T12:20:53.8485627+08:00",
   "WebId": "43a6da47-6845-493e-dfbf-8e17ebe6ff37"
 }

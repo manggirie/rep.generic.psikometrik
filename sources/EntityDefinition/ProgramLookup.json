@@ -6,7 +6,7 @@
     "$values": [
       {
         "$type": "Bespoke.Sph.Domain.Member, domain.sph",
-        "FullName": null,
+        "FullName": "ProgramNo",
         "MemberCollection": {
           "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.Sph.Domain.Member, domain.sph]], domain.sph",
           "$values": []
@@ -28,7 +28,7 @@
       },
       {
         "$type": "Bespoke.Sph.Domain.Member, domain.sph",
-        "FullName": null,
+        "FullName": "NamaProgram",
         "MemberCollection": {
           "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.Sph.Domain.Member, domain.sph]], domain.sph",
           "$values": []
@@ -80,6 +80,6 @@
   "Id": "programlookup",
   "CreatedDate": "2015-06-01T18:46:03.1063605+08:00",
   "ChangedBy": "admin",
-  "ChangedDate": "2015-06-27T16:21:23.7394572+08:00",
+  "ChangedDate": "2015-06-30T12:20:43.6975178+08:00",
   "WebId": "c64383d3-8d99-4208-a26d-6fbf8fd9bf58"
 }

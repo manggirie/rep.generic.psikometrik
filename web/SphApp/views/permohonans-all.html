@@ -1,4 +1,4 @@
-<h1>All permohonans</h1>
+<h1>Semua Permohonan</h1>
 <div class="row">
     <div class="col-md-8">
         <button class="btn btn-link pull-right" data-bind="visible: chartFiltered, click: clearChartFilter">
@@ -10,18 +10,24 @@
                 <tr>
                     <th>Nama Program</th>
                     <th>Status</th>
+                    <th>Nama Jabatan</th>
+                    <th>Nama Kementerian</th>
+                    <th>Penyelaras</th>
                 </tr>
             </thead>
             <tbody data-bind="foreach :list">
                 <tr data-bind="">
 
                     <td>
-                        <a data-bind="attr : {href:'#permohonan-details' + '/' + Id, title:'Nama Program' }">
+                        <a data-bind="attr : {href:'#permohonan_urusetia' + '/' + Id, title:'Nama Program' }">
                             <i class="fa fa-book"></i>
                                                         <span data-bind="text:NamaProgram"></span>
                         </a>
                     </td>
                     <td data-bind="text:StatusPermohonan"></td>
+                    <td data-bind="text:NamaJabatan"></td>
+                    <td data-bind="text:NamaKementerian"></td>
+                    <td data-bind="text:Penyelaras"></td>
 
 
                 </tr>
