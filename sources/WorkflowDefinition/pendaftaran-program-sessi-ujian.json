@@ -169,7 +169,7 @@
       },
       {
         "$type": "Bespoke.Sph.Domain.ExpressionActivity, domain.sph",
-        "Expression": "var context = new SphDataContext();\r\nthis.Permohonan = await context.LoadOneAsync<Bespoke.epsikologi_permohonan.Domain.Permohonan>(x => x.PermohonanNo == this.Pendaftaran.NoPermohonan);\r\nvar ujian = \"\";\r\nif(this.Permohonan.isIBK)\r\n    ujian +=\";IBK\";\r\nif(this.Permohonan.isISO)\r\n    ujian +=\";ISO\";\r\nif(this.Permohonan.isIBK)\r\n    ujian +=\";IBK\";\r\nif(this.Permohonan.isIP)\r\n    ujian +=\";IP\";\r\nif(this.Permohonan.isIPU)\r\n    ujian +=\";IPU\";\r\nif(this.Permohonan.isUKHLP)\r\n    ujian +=\";UKHLP\";\r\nif(this.Permohonan.isUKBP)\r\n    ujian +=\";UKBP\";\r\nif(this.Permohonan.isPPKP)\r\n    ujian +=\";PPKP\";\r\n\r\nthis.UjianList = ujian;",
+        "Expression": "var context = new SphDataContext();\r\nthis.Permohonan = await context.LoadOneAsync<Bespoke.epsikologi_permohonan.Domain.Permohonan>(x => x.PermohonanNo == this.Pendaftaran.NoPermohonan);\r\nvar ujian = new System.Collections.Generic.List<string>();\r\nif(this.Permohonan.isIBK)\r\n    ujian.Add(\"IBK\");\r\nif(this.Permohonan.isISO)\r\n    ujian.Add(\"ISO\");\r\nif(this.Permohonan.isIBK)\r\n    ujian.Add(\"IBK\");\r\nif(this.Permohonan.isIP)\r\n    ujian.Add(\"IP\");\r\nif(this.Permohonan.isIPU)\r\n    ujian.Add(\"IPU\");\r\nif(this.Permohonan.isUKHLP)\r\n    ujian.Add(\"UKHLP\");\r\nif(this.Permohonan.isUKBP)\r\n    ujian.Add(\"UKBP\");\r\nif(this.Permohonan.isPPKP)\r\n    ujian.Add(\"PPKP\");\r\n\r\nthis.UjianList = string.Join(\";\", ujian.ToArray());",
         "IsAsync": false,
         "ExecutedCode": null,
         "ExecutingCode": null,
@@ -193,7 +193,7 @@
       },
       {
         "$type": "Bespoke.Sph.Domain.ExpressionActivity, domain.sph",
-        "Expression": "\nConsole.WriteLine(\"Ujian List : {0}\", this.UjianList);\nthis.CurrentUjian = this.UjianList.Split(new []{';'}, StringSplitOptions.RemoveEmptyEntries).FirstOrDefault();\nthis.UjianList = this.UjianList.Replace(\";\" + this.CurrentUjian,\"\");\n\nConsole.WriteLine(\"Current Ujian : {0}\", this.CurrentUjian);",
+        "Expression": "\nConsole.WriteLine(\"Ujian List : {0}\", this.UjianList);\nvar list = this.UjianList.Split(new []{';'}, StringSplitOptions.RemoveEmptyEntries).ToList();\nthis.CurrentUjian = list.FirstOrDefault();\n\nif( !string.IsNullOrWhiteSpace(this.CurrentUjian))\n{\n    list.Remove(this.CurrentUjian);\n}\nthis.UjianList = string.Join(\";\", list.ToArray());\n\n\nConsole.WriteLine(\"Current Ujian : {0}\", this.CurrentUjian);\nConsole.WriteLine(\"Ujian List : {0}\", this.UjianList);",
         "IsAsync": false,
         "ExecutedCode": null,
         "ExecutingCode": null,
@@ -538,6 +538,6 @@
   "Id": "pendaftaran-program-sessi-ujian",
   "CreatedDate": "2015-06-09T19:15:58.6767026+08:00",
   "ChangedBy": "admin",
-  "ChangedDate": "2015-06-30T12:09:11.1497111+08:00",
+  "ChangedDate": "2015-06-30T16:14:41.5914004+08:00",
   "WebId": "365215bb-b0f3-45b4-8790-786d57be4c3c"
 }

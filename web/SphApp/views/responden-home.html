@@ -1,28 +1,31 @@
-<h1>Selamat Datang Ke ePsikomterik</h1>
+<h1>Selamat Datang Ke Psikologi</h1>
 <div class="row">
     <h2>Senarai Program Anda</h2>
-  
-    
+
+
     <ul class="list-group" data-bind="foreach :registrationList">
         <li class="list-group-item">
              <h4 class="list-group-item-heading" data-bind="text: NoPermohonan"></h4>
+             <p>
+               Mula : <strong data-bind="date: TarikhDaftar"></strong>
+             </p>
              <ul class="" data-bind="foreach:exams">
                  <li>
                     <p class="list-group-item-text">
-                     <!-- ko text : ko.unwrap(NamaUjian) + " (" + ko.unwrap(Status) + ") " -->
+                     <!-- ko text : ko.unwrap(Item1) + " (" + ko.unwrap(Item2) + ") " -->
                      <!-- /ko -->
-                     <strong data-bind="date : TarikhUjian"></strong>
+                     <strong data-bind="date : Item3"></strong>
                     </p>
                  </li>
              </ul>
         </li>
     </div>
-    
+
 </div>
 <div class="row">
     <h2>Senarai Ujian Yang Belum Ambil</h2>
     <!-- ko foreach : testList -->
-    <div class="alert alert-info">
+    <div class="alert alert-info" data-bind="css : {'alert-warning' : ko.unwrap(Lock) < 3 && ko.unwrap(Lock) > 0,'alert-danger' : ko.unwrap(Lock) === 3}">
         <a class="alert-link" href="#mula-sesi-ujian" data-bind="attr:{href:'#mula-sesi-ujian/' + ko.unwrap(Id)}">
             <i class="fa fa-play"></i>
             Mula Sesi Ujian <!-- ko text:$root.getNamaUjian($data.NamaUjian) --> <!--/ko-->

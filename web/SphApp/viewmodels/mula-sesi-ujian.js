@@ -159,6 +159,9 @@ define(["services/datacontext", objectbuilders.app, objectbuilders.router, objec
             if (totalAnswered() < questionsCount()) {
                 app.showMessage("Adakah and ingin meninggalkan sesi ujian ini", "Tinggal Sesi Ujian", ["Ya", "Tidak"])
                     .done(function (dialogResult) {
+                        if(dialogResult == "Ya"){
+                            context.post(ko.toJSON({}), "/sesi-ujian/timeout/" + ko.unwrap(sesiUjian().Id));
+                        }
                         tcs.resolve(dialogResult === "Ya");
                     });
             } else {

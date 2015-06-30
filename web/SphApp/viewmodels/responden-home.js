@@ -25,20 +25,24 @@ define(["services/datacontext", objectbuilders.config, objectbuilders.app ], fun
                          }
                       });
                   });
-                  
+
                   return context.loadAsync("PendaftaranProgram", "MyKad eq '" + config.userName + "'");
                 })
                 .then(function(lo){
-                    registrationList(lo.itemCollection);
-                    return context.loadAsync("SesiUjian", "MyKad eq '" + config.userName + "'");
-                })
-                .then(function(lo){
-                    
-                   _(registrationList()).each(function(v){
-                        var exams = _(lo.itemCollection).filter(function(k){
-                            return ko.unwrap(k.NamaProgram) == ko.unwrap(v.NoPermohonan);
-                        });
-                        v.exams = exams;
+                    var daftar = _(lo.itemCollection).map(function(v){
+                        v.tarikhMula = ko.observable();
+                        v.tarikhTamat = ko.observable();
+                        v.exams = ko.observableArray();
+                        return v;
+                    });
+                    registrationList(daftar);
+                    // just load the name, status and date for each sesi ujian in the program
+                    _(daftar).each(function(v){
+                       var sq = String.format("MyKad eq '{0}' and NamaProgram eq '{1}'", config.userName, v.NoPermohonan());
+                      context.getTuplesAsync("SesiUjian", sq, "NamaUjian","Status","TarikhUjian")
+                       .done(function(list){
+                          v.exams(list);
+                       });
                     });
                 });
         },

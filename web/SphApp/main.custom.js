@@ -398,7 +398,7 @@ define('durandal/composition', ['durandal/system', 'durandal/viewLocator', 'dura
         bindableSettings = ['model', 'view', 'transition', 'area', 'strategy', 'activationData', 'onError'],
         visibilityKey = "durandal-visibility-data",
         composeBindings = ['compose:'];
-    
+
     function onError(context, error, element) {
         try {
             if (context.onError) {
@@ -448,7 +448,7 @@ define('durandal/composition', ['durandal/system', 'durandal/viewLocator', 'dura
         if(compositionCount === 0) {
             var callBacks = compositionCompleteCallbacks;
             compositionCompleteCallbacks = [];
-            
+
             if (!error) {
                 setTimeout(function () {
                     var i = callBacks.length;
@@ -1138,7 +1138,7 @@ define('durandal/events', ['durandal/system'], function (system) {
     Subscription.prototype.then = function (callback, context) {
         this.callback = callback || this.callback;
         this.context = context || this.context;
-        
+
         if (!this.callback) {
             return this;
         }
@@ -2336,7 +2336,7 @@ define('durandal/viewLocator', ['durandal/system', 'durandal/viewEngine'], funct
             }
         }
     }
-    
+
     function escape(str) {
         return (str + '').replace(/([\\\.\+\*\?\[\^\]\$\(\)\{\}\=\!\<\>\|\:])/g, "\\$1");
     }
@@ -2368,7 +2368,7 @@ define('durandal/viewLocator', ['durandal/system', 'durandal/viewEngine'], funct
                 if (!area || area == 'partial') {
                     return areasPath + '/' + viewId;
                 }
-                
+
                 return areasPath + '/' + area + '/' + viewId;
             };
         },
@@ -2688,10 +2688,10 @@ define('durandal/system', ['require', 'jquery'], function(require, $) {
         }
     }
 
-    // callback for dojo's loader 
+    // callback for dojo's loader
     // note: if you wish to use Durandal with dojo's AMD loader,
     // currently you must fork the dojo source with the following
-    // dojo/dojo.js, line 1187, the last line of the finishExec() function: 
+    // dojo/dojo.js, line 1187, the last line of the finishExec() function:
     //  (add) signal("moduleLoaded", [module.result, module.mid]);
     // an enhancement request has been submitted to dojo to make this
     // a permanent change. To view the status of this request, visit:
@@ -2742,15 +2742,15 @@ define('durandal/system', ['require', 'jquery'], function(require, $) {
 
     var logError = function(error, err) {
         var exception;
-        
+
         if(error instanceof Error){
             exception = error;
         } else {
             exception = new Error(error);
         }
-        
+
         exception.innerError = err;
-        
+
         //Report the error as an error, not as a log
         try {
             // Modern browsers (it's only a single item, no need for argument splitting as in log() above)
@@ -3239,7 +3239,7 @@ define('main.custom', ["durandal/app", "durandal/viewLocator", "durandal/system"
     function (app, viewLocator, system, config) {
         system.debug(true);
         app.title = config.applicationFullName ;
-        
+
         //specify which plugins to install and their configuration
         app.configurePlugins({
             router: true,
@@ -3248,7 +3248,7 @@ define('main.custom', ["durandal/app", "durandal/viewLocator", "durandal/system"
                 kinds: ["expander"]
             }
         });
-        
+
         app.start().then(function () {
             viewLocator.useConvention();
             app.setRoot("viewmodels/shell", "entrance");
@@ -3730,7 +3730,7 @@ define('plugins/router', ['durandal/system', 'durandal/app', 'durandal/activator
                 if (!config.viewUrl) {
                     config.moduleId = config.moduleId || router.convertRouteToModuleId(config.route);
                 }
-                
+
                 config.hash = config.hash || router.convertRouteToHash(config.route);
 
                 if (config.hasChildRoutes) {
@@ -3905,8 +3905,8 @@ define('plugins/router', ['durandal/system', 'durandal/app', 'durandal/activator
             } else {
                 document.title = value;
             }
-        }  
-        
+        }
+
         // Allow observable to be used for app.title
         if(ko.isObservable(app.title)) {
             app.title.subscribe(function () {
@@ -3915,7 +3915,7 @@ define('plugins/router', ['durandal/system', 'durandal/app', 'durandal/activator
                 setTitle(title);
             });
         }
-        
+
         /**
          * Updates the document title based on the activated module instance, the routing instruction and the app.title.
          * @method updateDocumentTitle
@@ -3925,7 +3925,7 @@ define('plugins/router', ['durandal/system', 'durandal/app', 'durandal/activator
         router.updateDocumentTitle = function (instance, instruction) {
             var appTitle = ko.unwrap(app.title),
                 title = instruction.config.title;
-                
+
             if (titleSubscription) {
                 titleSubscription.dispose();
             }
@@ -4463,7 +4463,7 @@ define('plugins/dialog', ['durandal/system', 'durandal/app', 'durandal/compositi
      */
     MessageBox.defaultOptions = ['Ok'];
 
-    
+
     MessageBox.defaultSettings = { buttonClass: "btn btn-default", primaryButtonClass: "btn-primary autofocus", secondaryButtonClass: "", "class": "modal-content messageBox", style: null };
 
     /**
@@ -4913,7 +4913,7 @@ define('plugins/dialog', ['durandal/system', 'durandal/app', 'durandal/compositi
             var $view = $(view),
                 $window = $(window);
 
-            //We will clear and then set width for dialogs without width set 
+            //We will clear and then set width for dialogs without width set
             if (!$view.data("predefinedWidth")) {
                 $view.css({ width: '' }); //Reset width
             }
@@ -5014,7 +5014,7 @@ define('plugins/history', ['durandal/system', 'jquery'], function (system, $) {
          */
         active: false
     };
-    
+
     // Ensure that `History` can be used outside of the browser.
     if (typeof window !== 'undefined') {
         history.location = window.location;
@@ -5031,7 +5031,7 @@ define('plugins/history', ['durandal/system', 'jquery'], function (system, $) {
         var match = (window || history).location.href.match(/#(.*)$/);
         return match ? match[1] : '';
     };
-    
+
     /**
      * Get the cross-browser normalized URL fragment, either from the URL, the hash, or the override.
      * @method getFragment
@@ -5051,7 +5051,7 @@ define('plugins/history', ['durandal/system', 'jquery'], function (system, $) {
                 fragment = history.getHash();
             }
         }
-        
+
         return fragment.replace(routeStripper, '');
     };
 
@@ -5155,10 +5155,10 @@ define('plugins/history', ['durandal/system', 'jquery'], function (system, $) {
         if (history.iframe) {
             history.navigate(current, false);
         }
-        
+
         history.loadUrl();
     };
-    
+
     /**
      * Attempts to load the current URL fragment. A pass-through to options.routeHandler.
      * @method loadUrl
@@ -5222,7 +5222,7 @@ define('plugins/history', ['durandal/system', 'jquery'], function (system, $) {
             // fragment to store history.
         } else if (history._wantsHashChange) {
             updateHash(history.location, fragment, options.replace);
-            
+
             if (history.iframe && (fragment !== history.getFragment(history.getHash(history.iframe)))) {
                 // Opening and closing the iframe tricks IE7 and earlier to push a
                 // history entry on hash-tag change.  When replace is true, we don't
@@ -5230,7 +5230,7 @@ define('plugins/history', ['durandal/system', 'jquery'], function (system, $) {
                 if (!options.replace) {
                     history.iframe.document.open().close();
                 }
-                
+
                 updateHash(history.iframe.location, fragment, options.replace);
             }
 
@@ -6914,7 +6914,7 @@ function (logger, system, ko2) {
                 partial = new bespoke.sph.domain[type + "Partial"](item);
             }
             if (partial) {
-                // NOTE :copy all the partial, DO NO use _extend as it will override the original value 
+                // NOTE :copy all the partial, DO NO use _extend as it will override the original value
                 // if there is item with the same key
                 for (var prop1 in partial) {
                     if (!item[prop1]) {
@@ -7165,52 +7165,57 @@ function (logger, system, ko2) {
         return getAggregateAsync("count", entity, query, field);
     }
 
-    function getTuplesAsync(entityOrOptions, query, field, field2) {
-
-        var entity = entityOrOptions;
-        if (entityOrOptions && typeof entityOrOptions === "object") {
-            entity = entityOrOptions.entity;
-            query = entityOrOptions.query;
-            field = entityOrOptions.field;
-            field2 = entityOrOptions.field2;
-        }
-
-        var url = "/List/Tuple?";
-        if (query) {
-            url += "filter=" + query + "&";
-        }
-        url += "column=";
-        url += field;
-        url += "&column2=";
-        url += field2;
-        url += "&table=" + entity;
 
 
-        var tcs = new $.Deferred();
-        $.ajax({
-            type: "GET",
-            cache: false,
-            url: url,
-            contentType: "application/json; charset=utf-8",
-            dataType: "json",
-            error: tcs.reject,
-            success: function (msg) {
-                tcs.resolve(msg);
+    function getTuplesAsync(entityOrOptions, query, field, field2, field3, field4) {
+
+            var entity = entityOrOptions;
+            if (entityOrOptions && typeof entityOrOptions === "object") {
+                entity = entityOrOptions.entity;
+                query = entityOrOptions.query;
+                field = entityOrOptions.field;
+                field2 = entityOrOptions.field2;
             }
-        });
+
+            var url = "/List/Tuple?";
+            if (query) {
+                url += "filter=" + encodeURIComponent(query) + "&";
+            }
+            url += "column=" + encodeURIComponent(field);
+            url += "&column2=" + encodeURIComponent(field2);
+            if (field3) {
+                url += "&column3=" + encodeURIComponent(field3);
+            }
+            if (field4) {
+                url += "&column4=" + encodeURIComponent(field4);
+            }
+            url += "&table=" + encodeURIComponent(entity);
+
+            var tcs = new $.Deferred();
+            $.ajax({
+                type: "GET",
+                cache: false,
+                url: url,
+                contentType: "application/json; charset=utf-8",
+                dataType: "json",
+                error: tcs.reject,
+                success: function (msg) {
+                    tcs.resolve(msg);
+                }
+            });
 
 
-        return tcs.promise();
-    }
+            return tcs.promise();
+
+        }
 
     function getListAsync(entity, query, field) {
         var url = "/List/?";
         if (query) {
-            url += "filter=" + query + "&";
+            url += "filter=" + encodeURIComponent(query) + "&";
         }
-        url += "column=";
-        url += field;
-        url += "&table=" + entity;
+        url += "column=" + encodeURIComponent(field);
+        url += "&table=" + encodeURIComponent(entity);
 
 
         var tcs = new $.Deferred();
@@ -7350,7 +7355,7 @@ define('services/jsonimportexport', [],
          importJson = function () {
 
              var tcs = new $.Deferred();
-             
+
              function handleFileSelect(evt) {
                  var files = evt.target.files;
                  for (var i = 0, f; f = files[i]; i++) {
