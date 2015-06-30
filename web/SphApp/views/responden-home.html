@@ -8,10 +8,11 @@
              <h4 class="list-group-item-heading" data-bind="text: NoPermohonan"></h4>
              <ul class="" data-bind="foreach:exams">
                  <li>
+                    <p class="list-group-item-text">
                      <!-- ko text : ko.unwrap(NamaUjian) + " (" + ko.unwrap(Status) + ") " -->
                      <!-- /ko -->
                      <strong data-bind="date : TarikhUjian"></strong>
-                  
+                    </p>
                  </li>
              </ul>
         </li>
