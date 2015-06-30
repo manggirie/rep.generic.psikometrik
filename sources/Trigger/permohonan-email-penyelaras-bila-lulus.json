@@ -1,0 +1,93 @@
+{
+  "$type": "Bespoke.Sph.Domain.Trigger, domain.sph",
+  "RuleCollection": {
+    "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.Sph.Domain.Rule, domain.sph]], domain.sph",
+    "$values": [
+      {
+        "$type": "Bespoke.Sph.Domain.Rule, domain.sph",
+        "Left": {
+          "$type": "Bespoke.Sph.Domain.DocumentField, domain.sph",
+          "XPath": "",
+          "NamespacePrefix": "",
+          "TypeName": "",
+          "Path": "StatusPermohonan",
+          "Name": "StatusPermohonan",
+          "Note": "",
+          "WebId": "58097581-2c50-4dd1-9a81-1e574c6b5a1b"
+        },
+        "Right": {
+          "$type": "Bespoke.Sph.Domain.ConstantField, domain.sph",
+          "TypeName": "System.String, mscorlib",
+          "Value": "LULUS",
+          "Name": "LULUS",
+          "Note": "",
+          "WebId": "0bbbea12-6fd2-47e2-bafe-a2ef8bcefc6a"
+        },
+        "Operator": "Eq",
+        "WebId": "a16232ed-e32d-4407-d5a7-15c292f2d329"
+      }
+    ]
+  },
+  "ActionCollection": {
+    "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.Sph.Domain.CustomAction, domain.sph]], domain.sph",
+    "$values": [
+      {
+        "$type": "Bespoke.Sph.Domain.StartWorkflowAction, domain.sph",
+        "WorkflowDefinitionId": "notify-penyelaras-permohonan-lulus",
+        "Name": "",
+        "Version": 0,
+        "WorkflowTriggerMapCollection": {
+          "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.Sph.Domain.WorkflowTriggerMap, domain.sph]], domain.sph",
+          "$values": [
+            {
+              "$type": "Bespoke.Sph.Domain.WorkflowTriggerMap, domain.sph",
+              "VariablePath": "Permohonan",
+              "Field": {
+                "$type": "Bespoke.Sph.Domain.FunctionField, domain.sph",
+                "CodeNamespace": "ff06f85e7d",
+                "Script": "item",
+                "Name": "item",
+                "Note": "",
+                "WebId": "06f85e7d-4e68-46fb-c883-7ccfb35df0e8"
+              },
+              "WebId": "db19b3e1-f566-49b0-c4f7-f4dc4bc52551"
+            }
+          ]
+        },
+        "UseAsync": true,
+        "Title": "Notify Penyelaras Permohonan Lulus",
+        "IsActive": true,
+        "TriggerId": "",
+        "Note": "",
+        "CustomActionId": 0,
+        "UseCode": false,
+        "WebId": "43b41880-bf18-4df1-f570-d1f10d902c00"
+      }
+    ]
+  },
+  "ReferencedAssemblyCollection": {
+    "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.Sph.Domain.ReferencedAssembly, domain.sph]], domain.sph",
+    "$values": []
+  },
+  "RequeueFilterCollection": {
+    "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.Sph.Domain.ExceptionFilter, domain.sph]], domain.sph",
+    "$values": []
+  },
+  "Name": "Email Penyelaras Bila Lulus",
+  "Entity": "Permohonan",
+  "TypeOf": "Bespoke.epsikologi_permohonan.Domain.Permohonan, epsikologi.Permohonan",
+  "Note": "Email Penyelaras Bila permohonan di Luluskan oleh penyelia",
+  "IsActive": true,
+  "IsFiredOnAdded": false,
+  "IsFiredOnDeleted": false,
+  "IsFiredOnChanged": false,
+  "FiredOnOperations": "UrusetiaProcessPermohonanDariPenyelaras",
+  "ClassName": "PermohonanEmailPenyelarasBilaLulusTriggerSubscriber",
+  "CodeNamespace": "Bespoke.Sph.TriggerSubscribers",
+  "CreatedBy": "admin",
+  "Id": "permohonan-email-penyelaras-bila-lulus",
+  "CreatedDate": "2015-06-30T18:45:46.7237572+08:00",
+  "ChangedBy": "admin",
+  "ChangedDate": "2015-06-30T18:57:19.9852949+08:00",
+  "WebId": "fc4492e9-b985-43d1-9af4-35040ed9fed9"
+}
