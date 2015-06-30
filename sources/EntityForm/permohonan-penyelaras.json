@@ -220,7 +220,7 @@
             "WebId": null
           },
           "Name": null,
-          "Label": "is I P",
+          "Label": "Indeks Personaliti (IP)",
           "Tooltip": null,
           "Path": "isIP",
           "IsRequired": false,
@@ -260,7 +260,7 @@
             "WebId": null
           },
           "Name": null,
-          "Label": "is I B K",
+          "Label": "Indeks Bimbingan Kerjaya (IBK) ",
           "Tooltip": null,
           "Path": "isIBK",
           "IsRequired": false,
@@ -300,7 +300,7 @@
             "WebId": null
           },
           "Name": null,
-          "Label": "is I P U",
+          "Label": "Indeks Perwatakan Unggul (IPU) ",
           "Tooltip": null,
           "Path": "isIPU",
           "IsRequired": false,
@@ -340,7 +340,7 @@
             "WebId": null
           },
           "Name": null,
-          "Label": "is I S O",
+          "Label": "Inventori Stres Organisasi (ISO) ",
           "Tooltip": null,
           "Path": "isISO",
           "IsRequired": false,
@@ -380,7 +380,7 @@
             "WebId": null
           },
           "Name": null,
-          "Label": "is U K H L P",
+          "Label": "Ujian Khas Hadiah Latihan Persekutuan (UKHLP) ",
           "Tooltip": null,
           "Path": "isUKHLP",
           "IsRequired": false,
@@ -420,7 +420,7 @@
             "WebId": null
           },
           "Name": null,
-          "Label": "is U K B P",
+          "Label": "Ujian Khas Biasiswa Persekutuan (UKBP) ",
           "Tooltip": null,
           "Path": "isUKBP",
           "IsRequired": false,
@@ -460,7 +460,7 @@
             "WebId": null
           },
           "Name": null,
-          "Label": "is P P K P",
+          "Label": "Profil Personaliti & Kerjaya Pegawai (PPKP)",
           "Tooltip": null,
           "Path": "isPPKP",
           "IsRequired": false,
@@ -676,6 +676,6 @@
   "Id": "permohonan-penyelaras",
   "CreatedDate": "2015-06-05T10:45:40.0425071+08:00",
   "ChangedBy": "admin",
-  "ChangedDate": "2015-06-30T11:23:18.2520124+08:00",
+  "ChangedDate": "2015-06-30T20:11:38.9011389+08:00",
   "WebId": "d56af63c-c52e-401b-83b5-bfecea2c53d1"
 }

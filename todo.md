@@ -39,5 +39,5 @@
 * ~~Email penyelaras bila urusetia luluskan permohonan~~
 
 ## urusetia
-* LULUS kan permohonan, nama ujian mesti penuh - checkbox untuk senarai ujian
+* ~~LULUS kan permohonan, nama ujian mesti penuh - checkbox untuk senarai ujian~~
 * Role / designation untuk penyelaras & urusetia
