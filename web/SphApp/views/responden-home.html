@@ -1,5 +1,25 @@
 <h1>Selamat Datang Ke ePsikomterik</h1>
 <div class="row">
+    <h2>Senarai Program Anda</h2>
+  
+    
+    <ul class="list-group" data-bind="foreach :registrationList">
+        <li class="list-group-item">
+             <h4 class="list-group-item-heading" data-bind="text: NoPermohonan"></h4>
+             <ul class="" data-bind="foreach:exams">
+                 <li>
+                     <!-- ko text : ko.unwrap(NamaUjian) + " (" + ko.unwrap(Status) + ") " -->
+                     <!-- /ko -->
+                     <strong data-bind="date : TarikhUjian"></strong>
+                  
+                 </li>
+             </ul>
+        </li>
+    </div>
+    
+</div>
+<div class="row">
+    <h2>Senarai Ujian Yang Belum Ambil</h2>
     <!-- ko foreach : testList -->
     <div class="alert alert-info">
         <a class="alert-link" href="#mula-sesi-ujian" data-bind="attr:{href:'#mula-sesi-ujian/' + ko.unwrap(Id)}">
