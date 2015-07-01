@@ -28,7 +28,7 @@
 
 
 ## Laporan urusetia
-* Senarai program guna textbox with auto-complete
+* ~~Senarai program guna textbox with auto-complete~~
 * More lookup
 
 ## Penyelaras
