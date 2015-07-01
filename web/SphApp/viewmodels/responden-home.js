@@ -38,11 +38,14 @@ define(["services/datacontext", objectbuilders.config, objectbuilders.app ], fun
                     registrationList(daftar);
                     // just load the name, status and date for each sesi ujian in the program
                     _(daftar).each(function(v){
-                       var sq = String.format("MyKad eq '{0}' and NamaProgram eq '{1}'", config.userName, v.NoPermohonan());
-                      context.getTuplesAsync("SesiUjian", sq, "NamaUjian","Status","TarikhUjian")
-                       .done(function(list){
-                          v.exams(list);
-                       });
+                          var sq = String.format("MyKad eq '{0}' and NamaProgram eq '{1}'", config.userName, v.NoPermohonan());
+                          context.getTuplesAsync("SesiUjian", sq, "NamaUjian","Status","TarikhUjian", "TarikhMulaProgram", "TarikhTamatProgram")
+                           .done(function(list){
+                              v.exams(list);
+                              v.tarikhMula(list[0].Item4);
+                              v.tarikhTamat(list[0].Item5)
+                           });
+
                     });
                 });
         },

@@ -11,6 +11,7 @@
 * Delete hapus
 * Email - emel
 * Update kemaskini
+* Bila back soalan double
 
 ## Sesi ujian
 * ~~Duration - kalau lebih  - leave~~
@@ -37,6 +38,9 @@
 * ~~Senarai responden dari Jabatan yang sama~~
 * ~~Senarai permohonan dipapar ikut jabatan dia sahaja, so kena new member kepada permohonan entity definition, so everytime Penyelaras mohon program baru, permohonan ini akan di setkan Jabatan secara automatic.~~
 * ~~Email penyelaras bila urusetia luluskan permohonan~~
+* Kalau permohonan sudah lulus - penyelaras tak boleh edit
+* Bila tambah responden the list should be updated immediately
+
 
 ## urusetia
 * ~~LULUS kan permohonan, nama ujian mesti penuh - checkbox untuk senarai ujian~~

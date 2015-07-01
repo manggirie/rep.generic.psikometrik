@@ -84,9 +84,9 @@
           "WebId": "d2be30a8-2bc8-4123-b335-34878d4636e4"
         },
         {
-          "$type": "Bespoke.Sph.Domain.DatePicker, domain.sph",
+          "$type": "Bespoke.Sph.Domain.DateTimePicker, domain.sph",
           "IsPathIsRequired": true,
-          "TypeName": "DatePicker",
+          "TypeName": "DateTimePicker",
           "FieldValidation": {
             "$type": "Bespoke.Sph.Domain.FieldValidation, domain.sph",
             "IsRequired": false,
@@ -104,12 +104,12 @@
           "Tooltip": null,
           "Path": "TarikhMula",
           "IsRequired": false,
-          "Size": "input-large",
-          "CssClass": "",
+          "Size": null,
+          "CssClass": null,
           "Visible": "true",
           "Enable": "true",
-          "ElementId": "4d96fa3d-edf7-421a-e15a-1a0e8246849b",
-          "HelpText": null,
+          "ElementId": "511f5eee-a9d6-4711-954d-212e56fde014",
+          "HelpText": "Tarikh mula untuk duduki sesi ujian",
           "UseDisplayTemplate": false,
           "ToolboxIconClass": null,
           "IsUniqueName": false,
@@ -121,12 +121,12 @@
           "InputColMd": null,
           "InputColSm": null,
           "InputColXs": null,
-          "WebId": "825ff15f-75c8-4f52-b89b-ff80ee6c06d8"
+          "WebId": "6cff930b-3312-4d22-d30d-10bf02570432"
         },
         {
-          "$type": "Bespoke.Sph.Domain.DatePicker, domain.sph",
+          "$type": "Bespoke.Sph.Domain.DateTimePicker, domain.sph",
           "IsPathIsRequired": true,
-          "TypeName": "DatePicker",
+          "TypeName": "DateTimePicker",
           "FieldValidation": {
             "$type": "Bespoke.Sph.Domain.FieldValidation, domain.sph",
             "IsRequired": false,
@@ -144,12 +144,12 @@
           "Tooltip": null,
           "Path": "TarikhTamat",
           "IsRequired": false,
-          "Size": "input-large",
-          "CssClass": "",
+          "Size": null,
+          "CssClass": null,
           "Visible": "true",
           "Enable": "true",
-          "ElementId": "3685075d-3849-4d36-d0fe-6bdb2fe10d64",
-          "HelpText": null,
+          "ElementId": "965ef84d-543a-462a-e301-22390a9b8726",
+          "HelpText": "Tarikh akhir untuk duduki sesi ujian",
           "UseDisplayTemplate": false,
           "ToolboxIconClass": null,
           "IsUniqueName": false,
@@ -161,7 +161,7 @@
           "InputColMd": null,
           "InputColSm": null,
           "InputColXs": null,
-          "WebId": "c90da230-268f-48d1-a4e5-ac90e506c85a"
+          "WebId": "ba668fe0-5b26-4b73-a226-c3381f302e69"
         },
         {
           "$type": "Bespoke.Sph.Domain.SectionFormElement, domain.sph",
@@ -676,6 +676,6 @@
   "Id": "permohonan-penyelaras",
   "CreatedDate": "2015-06-05T10:45:40.0425071+08:00",
   "ChangedBy": "admin",
-  "ChangedDate": "2015-06-30T20:11:38.9011389+08:00",
+  "ChangedDate": "2015-07-01T11:05:48.3086533+08:00",
   "WebId": "d56af63c-c52e-401b-83b5-bfecea2c53d1"
 }

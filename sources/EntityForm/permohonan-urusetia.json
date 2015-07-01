@@ -50,9 +50,9 @@
           "WebId": "d9f291f9-e3d2-498e-a113-3f8afa468015"
         },
         {
-          "$type": "Bespoke.Sph.Domain.DatePicker, domain.sph",
+          "$type": "Bespoke.Sph.Domain.DateTimePicker, domain.sph",
           "IsPathIsRequired": true,
-          "TypeName": "DatePicker",
+          "TypeName": "DateTimePicker",
           "FieldValidation": {
             "$type": "Bespoke.Sph.Domain.FieldValidation, domain.sph",
             "IsRequired": false,
@@ -74,7 +74,7 @@
           "CssClass": null,
           "Visible": "true",
           "Enable": "true",
-          "ElementId": "89f95ba4-c056-40aa-b147-35cdce241f84",
+          "ElementId": "3594b3d5-f33e-4549-fb7a-a5397a30e63c",
           "HelpText": null,
           "UseDisplayTemplate": false,
           "ToolboxIconClass": null,
@@ -87,12 +87,12 @@
           "InputColMd": null,
           "InputColSm": null,
           "InputColXs": null,
-          "WebId": "6164307c-c9f7-44b8-d2fa-2c48c5b4ae89"
+          "WebId": "9dbf1b1f-9263-40cc-a185-71f3ec70daa7"
         },
         {
-          "$type": "Bespoke.Sph.Domain.DatePicker, domain.sph",
+          "$type": "Bespoke.Sph.Domain.DateTimePicker, domain.sph",
           "IsPathIsRequired": true,
-          "TypeName": "DatePicker",
+          "TypeName": "DateTimePicker",
           "FieldValidation": {
             "$type": "Bespoke.Sph.Domain.FieldValidation, domain.sph",
             "IsRequired": false,
@@ -114,7 +114,7 @@
           "CssClass": null,
           "Visible": "true",
           "Enable": "true",
-          "ElementId": "c359cf32-ec0e-43bc-ec81-747cf4f17d5b",
+          "ElementId": "19496c3c-933c-4bd8-b5df-a5e2e61f0431",
           "HelpText": null,
           "UseDisplayTemplate": false,
           "ToolboxIconClass": null,
@@ -127,7 +127,7 @@
           "InputColMd": null,
           "InputColSm": null,
           "InputColXs": null,
-          "WebId": "61ed989b-c2c2-45cb-eff1-90176b0f82fc"
+          "WebId": "2e7f0fca-fac7-4f81-aa78-08679a5652a5"
         },
         {
           "$type": "Bespoke.Sph.Domain.SectionFormElement, domain.sph",
@@ -226,7 +226,7 @@
             "WebId": null
           },
           "Name": null,
-          "Label": "is I B K",
+          "Label": "Indeks Bimbingan Kerjaya (IBK)",
           "Tooltip": null,
           "Path": "isIBK",
           "IsRequired": false,
@@ -266,7 +266,7 @@
             "WebId": null
           },
           "Name": null,
-          "Label": "is I P U",
+          "Label": "Indeks Perwatakan Unggul (IPU)",
           "Tooltip": null,
           "Path": "isIPU",
           "IsRequired": false,
@@ -306,7 +306,7 @@
             "WebId": null
           },
           "Name": null,
-          "Label": "is I S O",
+          "Label": "Inventori Stres Organisasi (ISO)",
           "Tooltip": null,
           "Path": "isISO",
           "IsRequired": false,
@@ -346,7 +346,7 @@
             "WebId": null
           },
           "Name": null,
-          "Label": "is U K H L P",
+          "Label": "Ujian Khas Hadiah Latihan Persekutuan (UKHLP)",
           "Tooltip": null,
           "Path": "isUKHLP",
           "IsRequired": false,
@@ -386,7 +386,7 @@
             "WebId": null
           },
           "Name": null,
-          "Label": "is U K B P",
+          "Label": "Ujian Khas Biasiswa Persekutuan (UKBP)",
           "Tooltip": null,
           "Path": "isUKBP",
           "IsRequired": false,
@@ -426,7 +426,7 @@
             "WebId": null
           },
           "Name": null,
-          "Label": "is P P K P",
+          "Label": "Profil Personaliti & Kerjaya Pegawai (PPKP)",
           "Tooltip": null,
           "Path": "isPPKP",
           "IsRequired": false,
@@ -503,7 +503,7 @@
           "TypeName": "TextBox",
           "FieldValidation": {
             "$type": "Bespoke.Sph.Domain.FieldValidation, domain.sph",
-            "IsRequired": false,
+            "IsRequired": true,
             "Pattern": null,
             "Mode": "",
             "Message": null,
@@ -575,7 +575,7 @@
           "TypeName": "ComboBox",
           "FieldValidation": {
             "$type": "Bespoke.Sph.Domain.FieldValidation, domain.sph",
-            "IsRequired": false,
+            "IsRequired": true,
             "Pattern": null,
             "Mode": "",
             "Message": null,
@@ -628,7 +628,7 @@
           "TypeName": "ComboBox",
           "FieldValidation": {
             "$type": "Bespoke.Sph.Domain.FieldValidation, domain.sph",
-            "IsRequired": false,
+            "IsRequired": true,
             "Pattern": null,
             "Mode": "",
             "Message": null,
@@ -672,9 +672,9 @@
           "TypeName": "TextBox",
           "FieldValidation": {
             "$type": "Bespoke.Sph.Domain.FieldValidation, domain.sph",
-            "IsRequired": false,
+            "IsRequired": true,
             "Pattern": null,
-            "Mode": "",
+            "Mode": "number",
             "Message": null,
             "Min": null,
             "Max": null,
@@ -716,9 +716,9 @@
           "TypeName": "TextBox",
           "FieldValidation": {
             "$type": "Bespoke.Sph.Domain.FieldValidation, domain.sph",
-            "IsRequired": false,
+            "IsRequired": true,
             "Pattern": null,
-            "Mode": "",
+            "Mode": "number",
             "Message": null,
             "Min": null,
             "Max": null,
@@ -782,9 +782,9 @@
           "TypeName": "ComboBox",
           "FieldValidation": {
             "$type": "Bespoke.Sph.Domain.FieldValidation, domain.sph",
-            "IsRequired": false,
+            "IsRequired": true,
             "Pattern": null,
-            "Mode": "",
+            "Mode": "number",
             "Message": null,
             "Min": null,
             "Max": null,
@@ -846,7 +846,7 @@
   },
   "EntityDefinitionId": "permohonan",
   "Name": "Permohonan Urusetia",
-  "Route": "permohonan_urusetia",
+  "Route": "permohonan-urusetia",
   "Note": null,
   "IsAllowedNewItem": true,
   "IconClass": "fa fa-filter",
@@ -869,6 +869,6 @@
   "Id": "permohonan-urusetia",
   "CreatedDate": "2015-06-16T08:04:20.3588975+08:00",
   "ChangedBy": "admin",
-  "ChangedDate": "2015-06-26T12:28:27.7708398+08:00",
+  "ChangedDate": "2015-07-01T08:19:16.3493957+08:00",
   "WebId": "d56af63c-c52e-401b-83b5-bfecea2c53d1"
 }

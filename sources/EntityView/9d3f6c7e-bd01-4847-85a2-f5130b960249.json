@@ -17,7 +17,7 @@
         "Header": "Nama Program",
         "Sort": "",
         "IsLinkColumn": true,
-        "FormRoute": "permohonan_urusetia",
+        "FormRoute": "permohonan-urusetia",
         "IconCssClass": "fa fa-book",
         "IconStoreId": "",
         "Format": "text:{0}",
@@ -130,6 +130,6 @@
   "Id": "9d3f6c7e-bd01-4847-85a2-f5130b960249",
   "CreatedDate": "2015-06-05T10:45:40.0585082+08:00",
   "ChangedBy": "admin",
-  "ChangedDate": "2015-06-30T11:39:18.0284103+08:00",
+  "ChangedDate": "2015-07-01T11:19:06.6985364+08:00",
   "WebId": "3bce1797-6164-472c-8f98-2409ad2d34ef"
 }

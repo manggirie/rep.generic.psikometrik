@@ -30,8 +30,8 @@
       {
         "$type": "Bespoke.Sph.Domain.NotificationActivity, domain.sph",
         "From": "admin@@sph.my",
-        "Subject": "Permohonan @Model.Permohonan.NoPermohonan sudah diluluskan",
-        "Body": "Permohonan @Model.Permohonan.NoPermohonan sudah diluluskan",
+        "Subject": "Permohonan @Model.Permohonan.PermohonanNo sudah diluluskan",
+        "Body": "Salam Sejahtera @Model.Penyelaras.Nama\n\nPermohonan @Model.Permohonan.PermohonanNo sudah diluluskan\n\n\n\nSekian Terima Kasih",
         "To": "@Model.Penyelaras.Emel",
         "UserName": null,
         "Cc": null,
@@ -240,6 +240,6 @@
   "Id": "notify-penyelaras-permohonan-lulus",
   "CreatedDate": "2015-06-30T18:48:38.7063803+08:00",
   "ChangedBy": "admin",
-  "ChangedDate": "2015-06-30T18:56:08.5098363+08:00",
+  "ChangedDate": "2015-07-01T09:16:18.6184984+08:00",
   "WebId": "9b1b402f-4b96-4a7d-f0cb-d89894657606"
 }

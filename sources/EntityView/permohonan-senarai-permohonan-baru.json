@@ -10,8 +10,8 @@
         "Field": {
           "$type": "Bespoke.Sph.Domain.ConstantField, domain.sph",
           "TypeName": "System.String, mscorlib",
-          "Value": "LULUS",
-          "Name": "LULUS",
+          "Value": "BARU",
+          "Name": "BARU",
           "Note": "",
           "WebId": "0b0484dc-626c-446b-86f6-5f50a270de22"
         },
@@ -175,6 +175,6 @@
   "Id": "permohonan-senarai-permohonan-baru",
   "CreatedDate": "2015-06-30T19:20:51.3760275+08:00",
   "ChangedBy": "admin",
-  "ChangedDate": "2015-06-30T19:23:55.8870185+08:00",
+  "ChangedDate": "2015-07-01T10:57:52.8059596+08:00",
   "WebId": "0264f91b-ffce-46cc-d40a-e6d3cadb6fac"
 }

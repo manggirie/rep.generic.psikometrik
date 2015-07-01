@@ -7167,7 +7167,7 @@ function (logger, system, ko2) {
 
 
 
-    function getTuplesAsync(entityOrOptions, query, field, field2, field3, field4) {
+    function getTuplesAsync(entityOrOptions, query, field, field2, field3, field4, field5) {
 
             var entity = entityOrOptions;
             if (entityOrOptions && typeof entityOrOptions === "object") {
@@ -7188,6 +7188,9 @@ function (logger, system, ko2) {
             }
             if (field4) {
                 url += "&column4=" + encodeURIComponent(field4);
+            }
+            if (field5) {
+                url += "&column5=" + encodeURIComponent(field5);
             }
             url += "&table=" + encodeURIComponent(entity);
 

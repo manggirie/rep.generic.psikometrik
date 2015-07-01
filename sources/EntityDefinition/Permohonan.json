@@ -160,7 +160,7 @@
       },
       {
         "$type": "Bespoke.Sph.Domain.Member, domain.sph",
-        "FullName": null,
+        "FullName": "TarikhMula",
         "MemberCollection": {
           "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.Sph.Domain.Member, domain.sph]], domain.sph",
           "$values": []
@@ -174,7 +174,7 @@
         "IsNullable": false,
         "IsNotIndexed": false,
         "IsAnalyzed": false,
-        "IsFilterable": false,
+        "IsFilterable": true,
         "IsExcludeInAll": false,
         "Boost": 0,
         "DefaultValue": null,
@@ -182,7 +182,7 @@
       },
       {
         "$type": "Bespoke.Sph.Domain.Member, domain.sph",
-        "FullName": null,
+        "FullName": "TarikhTamat",
         "MemberCollection": {
           "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.Sph.Domain.Member, domain.sph]], domain.sph",
           "$values": []
@@ -196,7 +196,7 @@
         "IsNullable": false,
         "IsNotIndexed": false,
         "IsAnalyzed": false,
-        "IsFilterable": false,
+        "IsFilterable": true,
         "IsExcludeInAll": false,
         "Boost": 0,
         "DefaultValue": null,
@@ -656,6 +656,6 @@
   "Id": "permohonan",
   "CreatedDate": "2015-06-05T10:45:39.9585024+08:00",
   "ChangedBy": "admin",
-  "ChangedDate": "2015-06-30T11:25:51.2776967+08:00",
+  "ChangedDate": "2015-07-01T08:10:45.5551463+08:00",
   "WebId": "5aff113b-31e8-4f89-b7eb-d089e79bd899"
 }
