@@ -38,7 +38,7 @@ namespace web.sph.App_Code
     	}
 
     	[Route("trait/ibk/{id}")]
-    	public async Task<ActionResult> PrintSesiUjianTrait(string id )
+    	public async Task<ActionResult> PrintIbkTrait(string id )
     	{
     		var context = new SphDataContext();
     		var sesi = await context.LoadOneAsync<Bespoke.epsikologi_sesiujian.Domain.SesiUjian>(x => x.Id == id);
@@ -46,7 +46,8 @@ namespace web.sph.App_Code
     		if(null == sesi)
     			return HttpNotFound("Cannot find SesiUjian " + id);
 
-    		return View("Trait-" + sesi.NamaUjian, sesi);
+        var vm = new IbkTraitViewModel(sesi);
+    		return View("Trait-Ibk-" + vm.Result, vm);
     	}
 
 
