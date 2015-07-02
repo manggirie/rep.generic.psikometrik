@@ -45,3 +45,8 @@
 ## urusetia
 * ~~LULUS kan permohonan, nama ujian mesti penuh - checkbox untuk senarai ujian~~
 * Role / designation untuk penyelaras & urusetia
+
+
+## responden (fauzi)
+- responden tidak dapat tengok senarai ujian setelah login walaupun telah ditambah oleh penyelaras
+-  
