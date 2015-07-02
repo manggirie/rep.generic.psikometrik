@@ -169,7 +169,7 @@
   "EntityDefinitionId": "soalan",
   "Name": "Profil Personaliti Kerjaya Pegawai",
   "Route": "soalan-profil-personaliti-kerjaya-pegawai",
-  "Note": "",
+  "Note": "Test 123",
   "Query": "",
   "IsPublished": true,
   "Visibilty": "",
@@ -181,6 +181,6 @@
   "Id": "soalan-profil-personaliti-kerjaya-pegawai",
   "CreatedDate": "2015-06-22T11:34:46.1285512+08:00",
   "ChangedBy": "admin",
-  "ChangedDate": "2015-07-02T11:39:43.5134108+08:00",
+  "ChangedDate": "2015-07-02T12:42:47.3748569+08:00",
   "WebId": "38e6ae7a-002d-4780-d67c-faea94d5b459"
 }
