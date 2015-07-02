@@ -337,7 +337,7 @@
       },
       {
         "$type": "Bespoke.Sph.Domain.Member, domain.sph",
-        "FullName": "TarikMulaProgram",
+        "FullName": "TarikhMulaProgram",
         "MemberCollection": {
           "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.Sph.Domain.Member, domain.sph]], domain.sph",
           "$values": []
