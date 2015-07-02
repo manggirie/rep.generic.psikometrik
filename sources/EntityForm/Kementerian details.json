@@ -26,7 +26,7 @@
             "WebId": null
           },
           "Name": null,
-          "Label": "Kementerian No",
+          "Label": "Kementerian No.",
           "Tooltip": null,
           "Path": "KementerianNo",
           "IsRequired": false,
