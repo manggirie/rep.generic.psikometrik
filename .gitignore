@@ -30,3 +30,4 @@ project.json
 web/Web.config
 web/.idea/
 sources/_generated/
+docs/~$*

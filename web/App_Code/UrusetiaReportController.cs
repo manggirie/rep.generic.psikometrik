@@ -16,7 +16,7 @@ namespace web.sph.App_Code
     {
         public UrusetiaReportController()
         {
-            ConfigHelper.RegisterDependencies();                 
+            ConfigHelper.RegisterDependencies();
         }
 
         [HttpPost]
@@ -51,9 +51,10 @@ namespace web.sph.App_Code
                 soalans.AddRange(soalanLo.ItemCollection);
             }
 
-            var traits = soalans.Select(s => s.Trait).Distinct().OrderBy(s =>s).ToArray();
+            var traits = soalans.Select(s => s.Trait).Distinct().OrderBy(s => s).ToArray();
 
             var html = new StringBuilder();
+
             html.AppendLine("<table class=\"table table-striped table-bordered\">");
             html.AppendLine("   <thead>");
             html.AppendLine("       <tr>");
@@ -79,13 +80,13 @@ namespace web.sph.App_Code
                     var score = s.JawapanCollection.Where(a => a.Trait == t1).Sum(a => a.Nilai);
                     html.AppendLine("           <td>" + score + "</td>");
                 }
-                var indikator = s.NamaUjian.Contains("IBK") ? "" : @"<a class=""btn btn-info"" target=""_blank"" href=""cetak-laporan/indikator/{0}""> <i class=""fa fa-print""></i> Indikator</a>";
+                var indikator = s.NamaUjian.Contains("IBK") ? "" : string.Format(@"<a class=""btn btn-info"" target=""_blank"" href=""cetak-laporan/indikator/{0}/{1}""> <i class=""fa fa-print""></i> Indikator</a>", s.NamaUjian, s.Id);
 
                 html.AppendFormat(@"
                     <td>
-                        <a class=""btn btn-info"" target=""_blank"" href=""cetak-laporan/trait/{0}""> <i class=""fa fa-print""></i> Tret</a>
+                        <a class=""btn btn-info"" target=""_blank"" href=""cetak-laporan/trait/{2}/{0}""> <i class=""fa fa-print""></i> Tret</a>
                         {1}
-                    </td>", s.Id, indikator);
+                    </td>", s.Id, indikator, s.NamaUjian);
                 html.AppendLine("   </tr>");
             }
 

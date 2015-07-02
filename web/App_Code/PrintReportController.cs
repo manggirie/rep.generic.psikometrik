@@ -9,6 +9,11 @@ using System.Collections.Concurrent;
 using System.IO;
 using System.Diagnostics;
 
+using Newtonsoft.Json;
+using Newtonsoft.Json.Linq;
+using Newtonsoft.Json.Schema;
+
+
 namespace web.sph.App_Code
 {
     [RoutePrefix("cetak-laporan")]
@@ -19,12 +24,25 @@ namespace web.sph.App_Code
     		ConfigHelper.RegisterDependencies();
     	}
 
-    	[Route("trait/{id}")]
+    	[Route("trait/ip/{id}")]
+    	public async Task<ActionResult> PrintSesiUjianTraitIp(string id )
+    	{
+    		var context = new SphDataContext();
+    		var sesi = await context.LoadOneAsync<Bespoke.epsikologi_sesiujian.Domain.SesiUjian>(x => x.Id == id);
+
+    		if(null == sesi)
+    			return HttpNotFound("Cannot find SesiUjian " + id);
+
+        var vm = new IpTraitViewModel(sesi);
+    		return View("Trait-Ip-" + vm.Result, vm);
+    	}
+
+    	[Route("trait/ibk/{id}")]
     	public async Task<ActionResult> PrintSesiUjianTrait(string id )
     	{
     		var context = new SphDataContext();
     		var sesi = await context.LoadOneAsync<Bespoke.epsikologi_sesiujian.Domain.SesiUjian>(x => x.Id == id);
-    		
+
     		if(null == sesi)
     			return HttpNotFound("Cannot find SesiUjian " + id);
 
@@ -32,12 +50,12 @@ namespace web.sph.App_Code
     	}
 
 
-    	[Route("indikator/{id}")]
+    	[Route("indikator/ip/{id}")]
     	public async Task<ActionResult> PrintSesiUjianIndikator(string id )
     	{
     		var context = new SphDataContext();
     		var sesi = await context.LoadOneAsync<Bespoke.epsikologi_sesiujian.Domain.SesiUjian>(x => x.Id == id);
-    		
+
     		if(null == sesi)
     			return HttpNotFound("Cannot find SesiUjian " + id);
 

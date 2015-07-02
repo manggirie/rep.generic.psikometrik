@@ -1,0 +1,76 @@
+@model web.sph.App_Code.IpTraitViewModel
+@{
+	Layout = null;
+}
+<html>
+<head>
+	<title>Laporan untuk @Model.Sesi.NamaPengguna</title>
+	<link rel="stylesheet" type="text/css" href="/content/external/bootstrap.min.css">
+</head>
+<body>
+	<h1>Laporan untuk @Model.Sesi.NamaPengguna</h1>
+  @Html.Partial("_Trait-Ip-Header")
+
+<pre>
+  Berdasarkan kepada analisis ujian, secara umumnya dari aspek:
+
+  Hubungan Interpersonal	:	Pasif Sosial
+  Memperoleh Maklumat		:	Fakta
+  Membuat Keputusan		:	Empati
+  Cara Gaya Kehidupan		:	Sistematik
+
+  Perwatakan
+  Anda mempamerkan diri sebagai seorang yang baik hati, prihatin, bertimbang rasa dan suka bekerjasama.  Anda juga mematuhi peraturan, menghormati pihak berkuasa dan cenderung membuat prosedur standard bagi memenuhi keperluan orang lain.
+
+  Dari aspek hubungan interpersonal, anda boleh berinteraksi secara sosial dan mengingati nada suara atau air muka orang lain.  Anda seorang yang setia dan komited kepada organisasi, mahukan sokongan serta kata sepakat di kalangan rakan sekerja dan berharap orang lain juga seperti anda.  Anda juga seorang yang bertanggungjawab dan mementingkan hubungan kekeluargaan serta mengharapkan ahli keluarga lain juga melakukan perkara yang sama.
+
+  Pekerjaan
+  Secara umumnya, anda suka bekerja bersendirian dalam suasana yang tenang dan tanpa gangguan apabila perlu memberi tumpuan terhadap tugas.  Sekiranya anda dikehendaki melakukan satu tugas baru, anda cenderung mempelajari dan memahaminya melalui pembacaan.
+
+  Dari aspek pekerjaan, anda suka kepada tugas yang berstruktur, berjadual dan mempunyai standard.  Anda juga suka merancang, sedia menghadapi cabaran dan berusaha menyempurnakan tugas pada masa yang ditetapkan.  Bagaimanapun, sekiranya anda diminta melakukan tugas yang dilihat sebagai tidak munasabah, anda mungkin berasa kurang selesa dan cuba mengelakkan diri dari melakukannya.
+
+  Dari aspek membuat keputusan, anda seorang yang tegas tetapi ada kalanya menggunakan prinsip, nilai peribadi, empati dan emosi dalam mengambil tindakan.  Anda cenderung mengumpul maklumat, menganalisis fakta dan mengambil kira pengalaman diri serta orang lain apabila perlu memahami sesuatu isu dengan segera.
+
+  Pengurusan Perubahan
+  Apabila sesuatu perubahan dicadangkan, anda sedia menerima dan melaksanakannya jika perubahan tersebut selaras dengan prinsip atau nilai diri.  Anda sedia menyokong sesuatu perubahan dilakukan jika maklumat baru menunjukkan ia adalah praktikal dan memberi faedah kepada orang lain.  Bagaimanapun, sekiranya perubahan tersebut bercanggah dengan prinsip dan nilai diri, anda mungkin tidak bersedia membuat perubahan dan akan mempertahankan prinsip serta nilai sedia ada.
+  Kepimpinan
+  Dari aspek kepimpinan, anda seorang ketua yang mesra tetapi tegas dan suka memberi idea serta galakan kepada orang lain.  Anda berusaha mencapai persetujuan bersama, mewujudkan harmoni dan menggalakkan persekitaran tempat kerja yang menyokong antara satu sama lain.
+
+  Sebagai pengikut, anda seorang yang setia jika ketua organisasi menghormati prinsip dan nilai anda.
+
+  Persepsi Orang Lain
+  Dari aspek hubungan interpersonal, anda suka merendahkan diri, menghormati tradisi dan perasaan orang lain serta sedia memenuhi kehendak mereka.  Bagaimanapun, anda sedia mencabar tindakan yang dilihat sebagai kurang sensitif, menyinggung atau menyakiti hati walaupun anda mungkin berasa tidak selesa berhadapan dengan konfrontasi sedemikian.
+
+  Dari aspek perwatakan, anda seorang yang pendiam, serius, teliti, mementingkan struktur dan sistem, menghargai komitmen serta sering mendahulukan keperluan orang lain terutamanya ahli keluarga daripada keperluan diri.
+
+  Reaksi Terhadap Stres
+  Apabila mengalami stres yang tinggi, anda mungkin berasa terperangkap dengan masalah dan cenderung menggambarkan perkara negatif yang mungkin dihadapi.  Kesannya, anda mungkin meluahkan permasalahan tanpa pertimbangan yang rasional dan situasi sedemikian turut dirasai oleh individu yang berada di sekeliling anda.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</pre>
+<pre>
+  @Model.ToString()
+</pre>
+</body>
+</html>

@@ -30,6 +30,9 @@ foreach (var text in lines)
 		soalan.ChangedDate = DateTime.Now;
 		soalan.ChangedBy = "import";
 		soalan.Id = "IP-" + soalan.SoalanNo;
+		var no = number ?? 0;
+		var skor = no % 11 == 0 ? 11 : no% 11;
+		soalan.Trait = string.Format("Skor {0}",skor);
 	}else
 	{
 		 var choice = Strings.RegexSingleValue(text, @"\((?<choice>[a-z]{1})\).*?", "choice");
@@ -49,4 +52,3 @@ foreach (var text in lines)
 
 if(!string.IsNullOrWhiteSpace(soalan.Id))
 	File.WriteAllText(@"C:\project\rep.generic.psikometrik\import\index-personaliti\data_" + soalan.SoalanNo + ".json", soalan.ToJsonString(true));
-		
