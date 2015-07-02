@@ -10,8 +10,8 @@
         "Field": {
           "$type": "Bespoke.Sph.Domain.ConstantField, domain.sph",
           "TypeName": "System.String, mscorlib",
-          "Value": "Indeks Bimbingan Kerjaya (IBK)",
-          "Name": "Indeks Bimbingan Kerjaya (IBK)",
+          "Value": "Ujian Khas Hadiah Latihan Persekutuan(HLP)",
+          "Name": "Ujian Khas Hadiah Latihan Persekutuan",
           "Note": "",
           "WebId": "7b795348-479f-44a4-ed7f-38857a21c53d"
         },
@@ -38,23 +38,6 @@
         "Format": "text:{0}",
         "RouteValueField": "Id",
         "WebId": "1516458b-6265-4247-c03a-ac0b708e189f"
-      },
-      {
-        "$type": "Bespoke.Sph.Domain.ViewColumn, domain.sph",
-        "ConditionalFormattingCollection": {
-          "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.Sph.Domain.ConditionalFormatting, domain.sph]], domain.sph",
-          "$values": []
-        },
-        "Path": "Susunan",
-        "Header": "Susunan",
-        "Sort": "",
-        "IsLinkColumn": false,
-        "FormRoute": null,
-        "IconCssClass": "",
-        "IconStoreId": "",
-        "Format": "text:{0}",
-        "RouteValueField": "",
-        "WebId": "66c30412-07b4-42e6-fbeb-1a387a29d968"
       },
       {
         "$type": "Bespoke.Sph.Domain.ViewColumn, domain.sph",
@@ -96,6 +79,23 @@
           "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.Sph.Domain.ConditionalFormatting, domain.sph]], domain.sph",
           "$values": []
         },
+        "Path": "Susunan",
+        "Header": "Susunan",
+        "Sort": "",
+        "IsLinkColumn": false,
+        "FormRoute": null,
+        "IconCssClass": "",
+        "IconStoreId": "",
+        "Format": "text:{0}",
+        "RouteValueField": "",
+        "WebId": "03fe6d78-3877-44fb-f633-4b84e0332a50"
+      },
+      {
+        "$type": "Bespoke.Sph.Domain.ViewColumn, domain.sph",
+        "ConditionalFormattingCollection": {
+          "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.Sph.Domain.ConditionalFormatting, domain.sph]], domain.sph",
+          "$values": []
+        },
         "Path": "Trait",
         "Header": "Trait",
         "Sort": "",
@@ -106,23 +106,6 @@
         "Format": "text:{0}",
         "RouteValueField": "",
         "WebId": "32e8077d-6068-494c-b179-5814e89938f5"
-      },
-      {
-        "$type": "Bespoke.Sph.Domain.ViewColumn, domain.sph",
-        "ConditionalFormattingCollection": {
-          "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.Sph.Domain.ConditionalFormatting, domain.sph]], domain.sph",
-          "$values": []
-        },
-        "Path": "Susunan",
-        "Header": "Modify  Susunan",
-        "Sort": "",
-        "IsLinkColumn": true,
-        "FormRoute": "soalan-detail",
-        "IconCssClass": "glyphicon glyphicon-sort-by-order",
-        "IconStoreId": "",
-        "Format": "text:{0}",
-        "RouteValueField": "Id",
-        "WebId": "f5c6608e-12ca-42e5-9284-f7771a7a0211"
       }
     ]
   },
@@ -131,15 +114,15 @@
     "$values": [
       {
         "$type": "Bespoke.Sph.Domain.Sort, domain.sph",
-        "Path": "Susunan",
+        "Path": "NoRujukan",
         "Direction": "Asc",
-        "WebId": "95c820b4-2084-4079-b028-9130014a11ba"
+        "WebId": "7726db72-ba97-4c76-e763-850ebb68ed12"
       },
       {
         "$type": "Bespoke.Sph.Domain.Sort, domain.sph",
         "Path": "SoalanNo",
         "Direction": "Asc",
-        "WebId": "617b4e6c-c1e2-42a2-da0d-63233cee6b9b"
+        "WebId": "56762ed1-7671-447c-8f9f-1e3ebfbdb0c8"
       }
     ]
   },
@@ -159,10 +142,10 @@
     "$values": []
   },
   "IconClass": "",
-  "IconStoreId": "a1dd22de-2c4f-4b31-a85b-79ecdf8444e7",
+  "IconStoreId": "da2bbf75-b540-4c79-87c8-5bfccc427254",
   "EntityDefinitionId": "soalan",
-  "Name": "Indeks Bimbingan Kerjaya",
-  "Route": "soalan-indeks-bimbingan-kerjaya",
+  "Name": "Ujian Khas Hadiah Latihan Persekutuan",
+  "Route": "ujian-khas-hadiah-latihan-persekutuan",
   "Note": "",
   "Query": "",
   "IsPublished": true,
@@ -170,11 +153,11 @@
   "TileColour": "bviolet",
   "CountMessage": "",
   "Entity": "",
-  "Partial": "partial/soalan-indeks-bimbingan-kerjaya",
+  "Partial": "",
   "CreatedBy": "admin",
-  "Id": "indeks-bimbingan-kerjaya",
-  "CreatedDate": "2015-06-05T10:14:02.1400355+08:00",
+  "Id": "ujian-khas-hadiah-latihan-persekutuan",
+  "CreatedDate": "2015-06-22T11:34:46.1385518+08:00",
   "ChangedBy": "admin",
-  "ChangedDate": "2015-07-02T11:38:31.1078819+08:00",
+  "ChangedDate": "2015-06-23T11:20:41.5380439+08:00",
   "WebId": "38e6ae7a-002d-4780-d67c-faea94d5b459"
 }

@@ -9,8 +9,8 @@
 /// <reference path="../../Scripts/bootstrap.js" />
 
 
-define(["services/datacontext", "services/logger", "plugins/router", "services/chart", objectbuilders.config ],
-    function (context, logger, router, chart,config ) {
+define(["services/datacontext", "services/logger", "plugins/router", "services/chart", objectbuilders.config , "partial/soalan-indeks-organisasi-cemerlang"],
+    function (context, logger, router, chart,config , partial) {
 
         var isBusy = ko.observable(false),
             chartFiltered = ko.observable(false),
@@ -33,7 +33,7 @@ define(["services/datacontext", "services/logger", "plugins/router", "services/c
                   "must": [
                                      {
                      "term":{
-                         "NamaUjian":"Inventori Stres Organisasi (ISO)"
+                         "NamaUjian":"Indeks Organisasi Cemerlang (IOC)"
                      }
                  }
 
@@ -72,7 +72,16 @@ define(["services/datacontext", "services/logger", "plugins/router", "services/c
                      });
                      vm.toolbar.commands(formsCommands);
 
-                         tcs.resolve(true);
+                         
+                         if(typeof partial !== "undefined" && typeof partial.activate === "function"){
+                             var pt = partial.activate(list);
+                             if(typeof pt.done === "function"){
+                                 pt.done(tcs.resolve);
+                             }else{
+                                 tcs.resolve(true);
+                             }
+                         }
+                         
 
                  });
 
@@ -131,7 +140,12 @@ define(["services/datacontext", "services/logger", "plugins/router", "services/c
                     });
             },
             attached = function (view) {
-                chart.init("Soalan", query, chartSeriesClick, "inventori-stres-organisasi");
+                chart.init("Soalan", query, chartSeriesClick, "soalan-indeks-organisasi-cemerlang");
+                    
+                    if(typeof partial !== "undefined" && typeof partial.attached === "function"){
+                        partial.attached(view);
+                    }
+                    
             },
             clearChartFilter = function(){
                 chartFiltered(false);

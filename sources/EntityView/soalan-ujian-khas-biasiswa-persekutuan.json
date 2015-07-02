@@ -10,8 +10,8 @@
         "Field": {
           "$type": "Bespoke.Sph.Domain.ConstantField, domain.sph",
           "TypeName": "System.String, mscorlib",
-          "Value": "Indeks Bimbingan Kerjaya (IBK)",
-          "Name": "Indeks Bimbingan Kerjaya (IBK)",
+          "Value": "Ujian Khas Biasiswa Persekutuan(UKBP)",
+          "Name": "Ujian Khas Biasiswa Persekutuan(UKBP)",
           "Note": "",
           "WebId": "7b795348-479f-44a4-ed7f-38857a21c53d"
         },
@@ -131,15 +131,21 @@
     "$values": [
       {
         "$type": "Bespoke.Sph.Domain.Sort, domain.sph",
-        "Path": "Susunan",
+        "Path": "SeksyenSoalan",
         "Direction": "Asc",
-        "WebId": "95c820b4-2084-4079-b028-9130014a11ba"
+        "WebId": "f182cb19-0957-4d3c-e732-899b7f3c95e9"
       },
       {
         "$type": "Bespoke.Sph.Domain.Sort, domain.sph",
-        "Path": "SoalanNo",
+        "Path": "Trait",
         "Direction": "Asc",
-        "WebId": "617b4e6c-c1e2-42a2-da0d-63233cee6b9b"
+        "WebId": "4c410c1d-c967-4cf6-c543-880b3944662a"
+      },
+      {
+        "$type": "Bespoke.Sph.Domain.Sort, domain.sph",
+        "Path": "Susunan",
+        "Direction": "Asc",
+        "WebId": "b618a460-e46e-4665-9cf8-c1e037bef1ed"
       }
     ]
   },
@@ -159,10 +165,10 @@
     "$values": []
   },
   "IconClass": "",
-  "IconStoreId": "a1dd22de-2c4f-4b31-a85b-79ecdf8444e7",
+  "IconStoreId": "da2bbf75-b540-4c79-87c8-5bfccc427254",
   "EntityDefinitionId": "soalan",
-  "Name": "Indeks Bimbingan Kerjaya",
-  "Route": "soalan-indeks-bimbingan-kerjaya",
+  "Name": "Ujian Khas Biasiswa Persekutuan",
+  "Route": "soalan-ujian-khas-biasiswa-persekutuan",
   "Note": "",
   "Query": "",
   "IsPublished": true,
@@ -170,11 +176,11 @@
   "TileColour": "bviolet",
   "CountMessage": "",
   "Entity": "",
-  "Partial": "partial/soalan-indeks-bimbingan-kerjaya",
+  "Partial": "partial/soalan-ujian-khas-biasiswa-persekutuan",
   "CreatedBy": "admin",
-  "Id": "indeks-bimbingan-kerjaya",
-  "CreatedDate": "2015-06-05T10:14:02.1400355+08:00",
+  "Id": "soalan-ujian-khas-biasiswa-persekutuan",
+  "CreatedDate": "2015-06-22T11:34:46.1285512+08:00",
   "ChangedBy": "admin",
-  "ChangedDate": "2015-07-02T11:38:31.1078819+08:00",
+  "ChangedDate": "2015-07-02T11:45:52.4841754+08:00",
   "WebId": "38e6ae7a-002d-4780-d67c-faea94d5b459"
 }

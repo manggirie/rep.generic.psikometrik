@@ -62,23 +62,6 @@
           "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.Sph.Domain.ConditionalFormatting, domain.sph]], domain.sph",
           "$values": []
         },
-        "Path": "SeksyenSoalan",
-        "Header": "Seksyen",
-        "Sort": "",
-        "IsLinkColumn": false,
-        "FormRoute": null,
-        "IconCssClass": "",
-        "IconStoreId": "",
-        "Format": "text:{0}",
-        "RouteValueField": "",
-        "WebId": "171520a5-5f64-4f5c-d102-4e377a0a4f1a"
-      },
-      {
-        "$type": "Bespoke.Sph.Domain.ViewColumn, domain.sph",
-        "ConditionalFormattingCollection": {
-          "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.Sph.Domain.ConditionalFormatting, domain.sph]], domain.sph",
-          "$values": []
-        },
         "Path": "Susunan",
         "Header": "Susunan",
         "Sort": "",
@@ -106,6 +89,23 @@
         "Format": "text:{0}",
         "RouteValueField": "",
         "WebId": "32e8077d-6068-494c-b179-5814e89938f5"
+      },
+      {
+        "$type": "Bespoke.Sph.Domain.ViewColumn, domain.sph",
+        "ConditionalFormattingCollection": {
+          "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.Sph.Domain.ConditionalFormatting, domain.sph]], domain.sph",
+          "$values": []
+        },
+        "Path": "Kategori",
+        "Header": "Kategori",
+        "Sort": "",
+        "IsLinkColumn": false,
+        "FormRoute": null,
+        "IconCssClass": "",
+        "IconStoreId": "",
+        "Format": "text:{0}",
+        "RouteValueField": "",
+        "WebId": "836392af-bb7c-4ea3-e09e-05a37b057a3d"
       }
     ]
   },
@@ -114,15 +114,9 @@
     "$values": [
       {
         "$type": "Bespoke.Sph.Domain.Sort, domain.sph",
-        "Path": "SeksyenSoalan",
+        "Path": "NoRujukan",
         "Direction": "Asc",
-        "WebId": "44946727-fd9d-4919-e2ac-b6069c0a0ff7"
-      },
-      {
-        "$type": "Bespoke.Sph.Domain.Sort, domain.sph",
-        "Path": "Susunan",
-        "Direction": "Asc",
-        "WebId": "e5b691db-cc0b-4049-f59a-492afdcaccdd"
+        "WebId": "4f270cd8-41d1-41f1-f47f-49602b8223af"
       }
     ]
   },
@@ -158,6 +152,6 @@
   "Id": "inventori-stres-organisasi",
   "CreatedDate": "2015-06-05T10:14:02.1460365+08:00",
   "ChangedBy": "admin",
-  "ChangedDate": "2015-06-13T08:39:53.3517677+08:00",
+  "ChangedDate": "2015-07-02T11:51:49.973778+08:00",
   "WebId": "38e6ae7a-002d-4780-d67c-faea94d5b459"
 }
