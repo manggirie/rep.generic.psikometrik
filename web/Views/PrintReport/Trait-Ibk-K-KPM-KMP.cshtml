@@ -1,0 +1,54 @@
+@model web.sph.App_Code.IbkTraitViewModel
+@{
+	Layout = null;
+}
+<html>
+<head>
+	<title>Laporan untuk @Model.Sesi.NamaPengguna</title>
+	<link rel="stylesheet" type="text/css" href="/content/external/bootstrap.min.css">
+</head>
+<body>
+	<h1>Laporan untuk @Model.Sesi.NamaPengguna</h1>
+
+<pre>
+Berdasarkan kepada analisis ujian:
+(1)	Kod Kerjaya Anda	:	KPM/KMP	 	
+	KERJAYA											BIDANG PENGAJIAN
+	Jurukamera:- Umum/ Kesan Optikal 				Seni Fotografi
+	Juruteknik Pentas								Pementasan
+	Pereka:- Barangan Kemas/ Fesyen					Seni Rekaan Fesyen
+
+
+(2)	Kategori Kerjaya	:	KREATIF (K)
+
+Secara umumnya, anda digambarkan sebagai seorang yang bersikap terbuka, spontan, idealistik dan ingin tahu.  Anda seorang yang suka berdikari, mengkaji diri dan menghargai kebebasan, kesamaan serta keberanian.  Anda cenderung mempamerkan perasaan atau menyelesaikan permasalahan melalui aktiviti penulisan, kesenian, muzik atau warna.  Apabila membuat keputusan, anda cenderung berfikir secara mendalam dan bertindak mengikut gerak hati (naluri).  
+
+Anda suka bekerja dalam persekitaran yang bebas, tidak berstruktur dan tiada kongkongan kerana ia membolehkan anda menggunakan imaginasi serta kreativiti.  Anda berasa tertarik kepada tugasan yang kreatif dan cenderung memilih pekerjaan  seperti penulis, penulis skrip atau jurulatih drama.
+
+Anda berpegang kepada konsep “Ciptakannya” dan  suka mencuba sesuatu yang baru seperti nyanyian atau pengiklanan.  Anda mungkin mempunyai kemahiran atau menggemari aktiviti yang berkaitan dengan muzik, drama, kesenian, bacaan atau penulisan.  Di akhir pelaksanaan tugas, anda mendapati wujudnya peluang untuk mencipta perkara baru dan berada bersama orang yang kreatif.
+
+Alternatif Pilihan Kerjaya Anda:
+Pengurus Agensi Pengiklanan	Pemberita	Pereka Fesyen/ Dalaman/ Grafik
+Penulis Lirik/ Drama	Penulis	Arkitek
+Pelukis/ Penyajak	Komposer	Pengarah Muzik
+Penyelaras Laman Web	Jurugambar/ Jurukamera	Pengurus
+Perekacipta	Editor/ Pengarang	Jurumekap
+Guru Drama/ Seni/ Tari	Pengkritik	Pegawai Perhubungan Awam
+
+Alternatif Bidang Pengajian Anda:
+Sains Kewartawanan		Bahasa & Kesusasteraan	Penulisan Kreatif/ Teknikal
+Penulisan Drama/ Skrip	Pementasan Drama/ Teater	Seni Bina
+Fotografi	Muzik	Seni Lukis/ Arca
+Seni Tari	Rekaan Fesyen	Bahasa Asing
+
+Nota: 
+Sekiranya anda ingin mengetahui interpretasi ujian secara lebih terperinci, sila hubungi pentadbir sistem anda atau pentadbir sistem di Jabatan Perkhidmatan Awam Malaysia.
+
+
+
+</pre>
+<pre>
+  @Model.ToString()
+</pre>
+</body>
+</html>
