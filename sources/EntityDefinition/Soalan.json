@@ -224,6 +224,28 @@
         "Boost": 0,
         "DefaultValue": null,
         "WebId": "5f6c86d0-6c3a-4a84-f6a5-a6f591a4bdda"
+      },
+      {
+        "$type": "Bespoke.Sph.Domain.Member, domain.sph",
+        "FullName": null,
+        "MemberCollection": {
+          "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.Sph.Domain.Member, domain.sph]], domain.sph",
+          "$values": []
+        },
+        "FieldPermissionCollection": {
+          "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.Sph.Domain.FieldPermission, domain.sph]], domain.sph",
+          "$values": []
+        },
+        "Name": "Kategori",
+        "TypeName": "System.String, mscorlib",
+        "IsNullable": true,
+        "IsNotIndexed": false,
+        "IsAnalyzed": false,
+        "IsFilterable": false,
+        "IsExcludeInAll": false,
+        "Boost": 0,
+        "DefaultValue": null,
+        "WebId": "a330a275-5e0c-48e6-e006-daa1d50d01e9"
       }
     ]
   },
@@ -257,6 +279,6 @@
   "Id": "soalan",
   "CreatedDate": "2015-06-05T10:14:02.0720325+08:00",
   "ChangedBy": "admin",
-  "ChangedDate": "2015-06-30T12:20:53.8485627+08:00",
+  "ChangedDate": "2015-07-02T11:48:35.0354305+08:00",
   "WebId": "43a6da47-6845-493e-dfbf-8e17ebe6ff37"
 }

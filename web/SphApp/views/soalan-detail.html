@@ -49,7 +49,7 @@
     <div class="form-group" data-bind="visible:true">
         <label data-i18n="Nama Ujian" for="b7f0b9d2-cd0b-44ba-e716-0a2d2ce284e1" class="col-md-4">Nama Ujian</label>
         <div class="col-md-8">
-            <select  data-bind=" visible :true, comboBoxLookupOptions : { value: NamaUjian, entity : 'Ujian', valuePath : 'NamaUjian', displayPath: 'NamaUjian', query :'Id ne \'0\''}" id="b7f0b9d2-cd0b-44ba-e716-0a2d2ce284e1" name="NamaUjian" class="  form-control">
+            <select  data-bind=" visible :true,  enable :true, comboBoxLookupOptions : { value: NamaUjian, entity : 'Ujian', valuePath : 'NamaUjian', displayPath: 'NamaUjian', query :'Id ne \'0\''}" id="b7f0b9d2-cd0b-44ba-e716-0a2d2ce284e1" name="NamaUjian" class="  form-control">
             </select>
         </div>
     </div>
@@ -99,6 +99,20 @@
 
 
     <div data-bind="visible:true" class="form-group">
+        <label data-i18n="Kategori" for="9e058c40-b9aa-4686-ca38-5b8b8271a4b9" class="col-md-4">Kategori</label>
+        <div class="col-md-8">
+            <input  class=" form-control " title=""
+                   data-bind="value: Kategori, enable :true "
+                   
+                   
+                   
+                   id="9e058c40-b9aa-4686-ca38-5b8b8271a4b9" type="text" name="Kategori" />
+        </div>
+    </div>
+
+
+
+    <div data-bind="visible:true" class="form-group">
         <label data-i18n="Trait" for="34cd27ea-b6e0-43ea-948f-cb43aab1dd15" class="col-md-4">Trait</label>
         <div class="col-md-8">
             <input  class=" form-control input-large" title=""
@@ -127,13 +141,13 @@
 
 
     <input  class=" form-control " title=""
-            data-bind="value: Teks, visible :true, enable :true ,uniqueName:true"
-            
-             
-            type="text" 
-            name="Teks" 
-            
-             />
+           data-bind="value: Teks, visible :true, enable :true ,uniqueName:true"
+           
+           
+           type="text"
+           name="Teks"
+           
+            />
 
 
                     </td>
@@ -142,13 +156,13 @@
 
 
     <input  class=" form-control " title=""
-            data-bind="value: Nilai, visible :true, enable :true ,uniqueName:true"
-            
-             
-            type="text" 
-            name="Nilai" 
-            
-             />
+           data-bind="value: Nilai, visible :true, enable :true ,uniqueName:true"
+           
+           
+           type="text"
+           name="Nilai"
+           
+            />
 
 
                     </td>
