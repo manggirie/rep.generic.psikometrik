@@ -1,0 +1,14 @@
+{
+  "$type": "Bespoke.epsikologi_jabatan.Domain.Jabatan, epsikologi.Jabatan",
+  "JabatanNo": "77036",
+  "NamaJabatan": "SEKOLAH TUNAS BAKTI KOTA KINABALU",
+  "AgensiNo": "27941",
+  "Kementerian": "KEM. PENDIDIKAN MALAYSIA",
+  "AgensiKumpulan": "BBP",
+  "CreatedBy": "admin",
+  "Id": "sekolah-tunas-bakti-kota-kinabalu",
+  "CreatedDate": "2015-06-05T10:39:36.3660187+08:00",
+  "ChangedBy": "admin",
+  "ChangedDate": "2015-06-19T16:05:21.4078807+08:00",
+  "WebId": "eed18fe3-26c4-4cfa-b01e-be8c706ae5df"
+}

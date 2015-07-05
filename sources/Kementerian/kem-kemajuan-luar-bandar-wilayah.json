@@ -1,0 +1,14 @@
+{
+  "$type": "Bespoke.epsikologi_kementerian.Domain.Kementerian, epsikologi.Kementerian",
+  "KementerianNo": "24624",
+  "NamaKementerian": "KEM. KEMAJUAN LUAR BANDAR & WILAYAH",
+  "Negeri": "Wilayah Persekutuan Putrajaya",
+  "KumpulanAgensi": "PAP",
+  "Abbreviation": null,
+  "CreatedBy": "admin",
+  "Id": "kem-kemajuan-luar-bandar-wilayah",
+  "CreatedDate": "2015-06-17T18:52:17.5065276+08:00",
+  "ChangedBy": "admin",
+  "ChangedDate": "2015-06-17T18:52:17.5025252+08:00",
+  "WebId": "a867e0cf-cd5a-40fc-bd2f-6697001d50ae"
+}

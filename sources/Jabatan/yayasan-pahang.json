@@ -1,0 +1,14 @@
+{
+  "$type": "Bespoke.epsikologi_jabatan.Domain.Jabatan, epsikologi.Jabatan",
+  "JabatanNo": "178740",
+  "NamaJabatan": "YAYASAN PAHANG",
+  "AgensiNo": "53300",
+  "Kementerian": "PSUK NEGERI PAHANG",
+  "AgensiKumpulan": "BBN",
+  "CreatedBy": "admin",
+  "Id": "yayasan-pahang",
+  "CreatedDate": "2015-06-05T10:39:26.2834512+08:00",
+  "ChangedBy": "admin",
+  "ChangedDate": "2015-06-19T16:05:11.7023187+08:00",
+  "WebId": "17bea0bc-c8f7-4621-aa06-cdf93b7cb52b"
+}

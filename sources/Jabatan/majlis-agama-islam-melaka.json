@@ -1,0 +1,14 @@
+{
+  "$type": "Bespoke.epsikologi_jabatan.Domain.Jabatan, epsikologi.Jabatan",
+  "JabatanNo": "76441",
+  "NamaJabatan": "MAJLIS AGAMA ISLAM MELAKA",
+  "AgensiNo": "NA",
+  "Kementerian": null,
+  "AgensiKumpulan": "BBN",
+  "CreatedBy": "admin",
+  "Id": "majlis-agama-islam-melaka",
+  "CreatedDate": "2015-06-05T10:39:35.8109867+08:00",
+  "ChangedBy": "admin",
+  "ChangedDate": "2015-06-19T16:05:20.7995952+08:00",
+  "WebId": "9a8eb6ed-8138-4c31-abe1-fa716118c98d"
+}

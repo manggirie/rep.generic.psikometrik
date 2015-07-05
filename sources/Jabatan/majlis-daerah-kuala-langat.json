@@ -1,0 +1,14 @@
+{
+  "$type": "Bespoke.epsikologi_jabatan.Domain.Jabatan, epsikologi.Jabatan",
+  "JabatanNo": "101068",
+  "NamaJabatan": "MAJLIS DAERAH KUALA LANGAT",
+  "AgensiNo": "NA",
+  "Kementerian": null,
+  "AgensiKumpulan": "PBT",
+  "CreatedBy": "admin",
+  "Id": "majlis-daerah-kuala-langat",
+  "CreatedDate": "2015-06-05T10:39:25.0373798+08:00",
+  "ChangedBy": "admin",
+  "ChangedDate": "2015-06-19T16:05:09.4402557+08:00",
+  "WebId": "2f2e2cd4-c61f-457e-84ad-c3bf49197df3"
+}

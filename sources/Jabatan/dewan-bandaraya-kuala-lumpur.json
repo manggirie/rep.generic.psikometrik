@@ -1,0 +1,14 @@
+{
+  "$type": "Bespoke.epsikologi_jabatan.Domain.Jabatan, epsikologi.Jabatan",
+  "JabatanNo": "20529",
+  "NamaJabatan": "DEWAN BANDARAYA KUALA LUMPUR",
+  "AgensiNo": "NA",
+  "Kementerian": null,
+  "AgensiKumpulan": "PBT",
+  "CreatedBy": "admin",
+  "Id": "dewan-bandaraya-kuala-lumpur",
+  "CreatedDate": "2015-06-05T10:39:28.8565956+08:00",
+  "ChangedBy": "admin",
+  "ChangedDate": "2015-06-19T16:05:14.0354154+08:00",
+  "WebId": "61c1afd6-7321-4363-8bbb-8d26da217daa"
+}

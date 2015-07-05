@@ -1,0 +1,14 @@
+{
+  "$type": "Bespoke.epsikologi_jabatan.Domain.Jabatan, epsikologi.Jabatan",
+  "JabatanNo": "219344",
+  "NamaJabatan": "PEJABAT KEBAJIKAN MASYARAKAT DAERAH SEGAMAT",
+  "AgensiNo": "24556",
+  "Kementerian": "KEM. PEMBANGUNAN WANITA, KELUARGA & MASYARAKAT",
+  "AgensiKumpulan": "BBN",
+  "CreatedBy": "admin",
+  "Id": "pejabat-kebajikan-masyarakat-daerah-segamat",
+  "CreatedDate": "2015-06-05T10:39:31.0647194+08:00",
+  "ChangedBy": "admin",
+  "ChangedDate": "2015-06-19T16:05:15.7942427+08:00",
+  "WebId": "37001669-a094-4daf-9b0b-1c474fc0d550"
+}

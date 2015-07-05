@@ -1,0 +1,14 @@
+{
+  "$type": "Bespoke.epsikologi_jabatan.Domain.Jabatan, epsikologi.Jabatan",
+  "JabatanNo": "46265",
+  "NamaJabatan": "INSTITUT LATIHAN PERINDUSTRIAN KANGAR",
+  "AgensiNo": "NA",
+  "Kementerian": null,
+  "AgensiKumpulan": "BBP",
+  "CreatedBy": "admin",
+  "Id": "institut-latihan-perindustrian-kangar",
+  "CreatedDate": "2015-06-05T10:39:33.5628596+08:00",
+  "ChangedBy": "admin",
+  "ChangedDate": "2015-06-19T16:05:18.1583544+08:00",
+  "WebId": "fae08aff-d930-4baa-bb4a-72ffdc55084c"
+}

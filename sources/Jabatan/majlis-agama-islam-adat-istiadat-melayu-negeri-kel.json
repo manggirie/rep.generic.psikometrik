@@ -1,0 +1,14 @@
+{
+  "$type": "Bespoke.epsikologi_jabatan.Domain.Jabatan, epsikologi.Jabatan",
+  "JabatanNo": "61508",
+  "NamaJabatan": "MAJLIS AGAMA ISLAM & ADAT ISTIADAT MELAYU NEGERI KELANTAN",
+  "AgensiNo": "59081",
+  "Kementerian": "PSUK NEGERI KELANTAN",
+  "AgensiKumpulan": "BBN",
+  "CreatedBy": "admin",
+  "Id": "majlis-agama-islam-adat-istiadat-melayu-negeri-kel",
+  "CreatedDate": "2015-06-05T10:39:34.9179364+08:00",
+  "ChangedBy": "admin",
+  "ChangedDate": "2015-06-19T16:05:19.8251371+08:00",
+  "WebId": "d6ebe45e-2f01-4989-8ca7-8546929c996c"
+}

@@ -1,0 +1,14 @@
+{
+  "$type": "Bespoke.epsikologi_jabatan.Domain.Jabatan, epsikologi.Jabatan",
+  "JabatanNo": "13062123",
+  "NamaJabatan": "PENJARA KAJANG",
+  "AgensiNo": "26618",
+  "Kementerian": "KEM. KESELAMATAN DALAM NEGERI",
+  "AgensiKumpulan": "BBP",
+  "CreatedBy": "admin",
+  "Id": "penjara-kajang",
+  "CreatedDate": "2015-06-05T10:39:25.3753987+08:00",
+  "ChangedBy": "admin",
+  "ChangedDate": "2015-06-19T16:05:09.9785083+08:00",
+  "WebId": "905e1e6d-a3cd-4294-96a0-6b3261f51a6c"
+}

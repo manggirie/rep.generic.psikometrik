@@ -1,0 +1,14 @@
+{
+  "$type": "Bespoke.epsikologi_jabatan.Domain.Jabatan, epsikologi.Jabatan",
+  "JabatanNo": "61539",
+  "NamaJabatan": "MAJLIS DAERAH TANGKAK",
+  "AgensiNo": "NA",
+  "Kementerian": null,
+  "AgensiKumpulan": "PBT",
+  "CreatedBy": "admin",
+  "Id": "majlis-daerah-tangkak",
+  "CreatedDate": "2015-06-05T10:39:34.9809412+08:00",
+  "ChangedBy": "admin",
+  "ChangedDate": "2015-06-19T16:05:19.8741606+08:00",
+  "WebId": "998a4890-e929-4fb1-a4c3-cc8f76348631"
+}

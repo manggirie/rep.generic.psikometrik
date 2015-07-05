@@ -1,0 +1,14 @@
+{
+  "$type": "Bespoke.epsikologi_kementerian.Domain.Kementerian, epsikologi.Kementerian",
+  "KementerianNo": "59142",
+  "NamaKementerian": "Jabatan Ketua Menteri Sarawak",
+  "Negeri": "Sarawak Bumi Kenyalang",
+  "KumpulanAgensi": "PAN",
+  "Abbreviation": null,
+  "CreatedBy": "admin",
+  "Id": "jabatan-ketua-menteri-sarawak",
+  "CreatedDate": "2015-06-17T18:52:30.7779253+08:00",
+  "ChangedBy": "admin",
+  "ChangedDate": "2015-06-17T18:52:30.7769242+08:00",
+  "WebId": "3d774250-bdb8-4995-c817-e76e94cc0935"
+}

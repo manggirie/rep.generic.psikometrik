@@ -1,0 +1,14 @@
+{
+  "$type": "Bespoke.epsikologi_jabatan.Domain.Jabatan, epsikologi.Jabatan",
+  "JabatanNo": "183742",
+  "NamaJabatan": "KOLEJ KOMUNITI BAYAN BARU",
+  "AgensiNo": "26281",
+  "Kementerian": "KEM. PENGAJIAN TINGGI",
+  "AgensiKumpulan": "BBP",
+  "CreatedBy": "admin",
+  "Id": "kolej-komuniti-bayan-baru",
+  "CreatedDate": "2015-06-05T10:39:26.6654713+08:00",
+  "ChangedBy": "admin",
+  "ChangedDate": "2015-06-19T16:05:12.147528+08:00",
+  "WebId": "7b3f3d45-e7e5-4fbd-bc92-0fc31acea82d"
+}

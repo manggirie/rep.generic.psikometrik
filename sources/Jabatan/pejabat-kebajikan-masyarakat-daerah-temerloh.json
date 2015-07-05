@@ -1,0 +1,14 @@
+{
+  "$type": "Bespoke.epsikologi_jabatan.Domain.Jabatan, epsikologi.Jabatan",
+  "JabatanNo": "219962",
+  "NamaJabatan": "PEJABAT KEBAJIKAN MASYARAKAT DAERAH TEMERLOH",
+  "AgensiNo": "24556",
+  "Kementerian": "KEM. PEMBANGUNAN WANITA, KELUARGA & MASYARAKAT",
+  "AgensiKumpulan": "BBN",
+  "CreatedBy": "admin",
+  "Id": "pejabat-kebajikan-masyarakat-daerah-temerloh",
+  "CreatedDate": "2015-06-05T10:39:31.363737+08:00",
+  "ChangedBy": "admin",
+  "ChangedDate": "2015-06-19T16:05:16.0803763+08:00",
+  "WebId": "3b5b744e-3c43-4b50-a71d-56c2b8c5c5f6"
+}

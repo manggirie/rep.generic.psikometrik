@@ -1,0 +1,14 @@
+{
+  "$type": "Bespoke.epsikologi_jabatan.Domain.Jabatan, epsikologi.Jabatan",
+  "JabatanNo": "217718",
+  "NamaJabatan": "PEJABAT KEBAJIKAN MASYARAKAT DAERAH MERSING ",
+  "AgensiNo": "24556",
+  "Kementerian": "KEM. PEMBANGUNAN WANITA, KELUARGA & MASYARAKAT",
+  "AgensiKumpulan": "BBN",
+  "CreatedBy": "admin",
+  "Id": "pejabat-kebajikan-masyarakat-daerah-mersing-",
+  "CreatedDate": "2015-06-05T10:39:30.36968+08:00",
+  "ChangedBy": "admin",
+  "ChangedDate": "2015-06-19T16:05:15.1279294+08:00",
+  "WebId": "2db82107-5981-4f48-915a-675f9dc6e42a"
+}

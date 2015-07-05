@@ -1,0 +1,14 @@
+{
+  "$type": "Bespoke.epsikologi_kementerian.Domain.Kementerian, epsikologi.Kementerian",
+  "KementerianNo": "59142",
+  "NamaKementerian": "Jabatan Ketua Menteri Sabah",
+  "Negeri": "Sabah Di Bawah Bayu",
+  "KumpulanAgensi": "PAN",
+  "Abbreviation": null,
+  "CreatedBy": "admin",
+  "Id": "jabatan-ketua-menteri-sabah",
+  "CreatedDate": "2015-06-17T18:52:30.7929355+08:00",
+  "ChangedBy": "admin",
+  "ChangedDate": "2015-06-17T18:52:30.7909426+08:00",
+  "WebId": "b525fb6f-3586-4697-c379-0ae7eaf97f57"
+}

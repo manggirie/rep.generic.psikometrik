@@ -1,0 +1,14 @@
+{
+  "$type": "Bespoke.epsikologi_kementerian.Domain.Kementerian, epsikologi.Kementerian",
+  "KementerianNo": "25676",
+  "NamaKementerian": "KEM. BELIA & SUKAN",
+  "Negeri": "Wilayah Persekutuan Putrajaya",
+  "KumpulanAgensi": "PAP",
+  "Abbreviation": null,
+  "CreatedBy": "admin",
+  "Id": "kem-belia-sukan",
+  "CreatedDate": "2015-06-17T18:52:17.6706425+08:00",
+  "ChangedBy": "admin",
+  "ChangedDate": "2015-06-17T18:52:17.6606363+08:00",
+  "WebId": "26cad524-346e-498e-b90b-367cfbe23b87"
+}

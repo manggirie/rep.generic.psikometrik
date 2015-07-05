@@ -1,0 +1,14 @@
+{
+  "$type": "Bespoke.epsikologi_jabatan.Domain.Jabatan, epsikologi.Jabatan",
+  "JabatanNo": "61882",
+  "NamaJabatan": "MAJLIS DAERAH SEGAMAT",
+  "AgensiNo": "NA",
+  "Kementerian": null,
+  "AgensiKumpulan": "PBT",
+  "CreatedBy": "admin",
+  "Id": "majlis-daerah-segamat",
+  "CreatedDate": "2015-06-05T10:39:35.1489496+08:00",
+  "ChangedBy": "admin",
+  "ChangedDate": "2015-06-19T16:05:20.0822575+08:00",
+  "WebId": "68858a2e-eab3-4d0a-b425-47665fa44b31"
+}

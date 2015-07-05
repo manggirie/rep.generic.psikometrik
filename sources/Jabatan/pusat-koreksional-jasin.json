@@ -1,0 +1,14 @@
+{
+  "$type": "Bespoke.epsikologi_jabatan.Domain.Jabatan, epsikologi.Jabatan",
+  "JabatanNo": "239259",
+  "NamaJabatan": "PUSAT KOREKSIONAL JASIN",
+  "AgensiNo": "NA",
+  "Kementerian": null,
+  "AgensiKumpulan": "BBP",
+  "CreatedBy": "admin",
+  "Id": "pusat-koreksional-jasin",
+  "CreatedDate": "2015-06-05T10:39:31.8587641+08:00",
+  "ChangedBy": "admin",
+  "ChangedDate": "2015-06-19T16:05:16.6666528+08:00",
+  "WebId": "f68ea9d3-9968-4037-9987-516670abbf34"
+}

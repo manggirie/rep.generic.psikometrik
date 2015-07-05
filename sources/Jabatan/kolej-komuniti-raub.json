@@ -1,0 +1,14 @@
+{
+  "$type": "Bespoke.epsikologi_jabatan.Domain.Jabatan, epsikologi.Jabatan",
+  "JabatanNo": "184069",
+  "NamaJabatan": "KOLEJ KOMUNITI RAUB",
+  "AgensiNo": "26281",
+  "Kementerian": "KEM. PENGAJIAN TINGGI",
+  "AgensiKumpulan": "BBP",
+  "CreatedBy": "admin",
+  "Id": "kolej-komuniti-raub",
+  "CreatedDate": "2015-06-05T10:39:27.3175076+08:00",
+  "ChangedBy": "admin",
+  "ChangedDate": "2015-06-19T16:05:12.6677721+08:00",
+  "WebId": "abc5fee9-3147-45c0-a8e0-ee5c99948524"
+}

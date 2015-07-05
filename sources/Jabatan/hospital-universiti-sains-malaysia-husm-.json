@@ -1,0 +1,14 @@
+{
+  "$type": "Bespoke.epsikologi_jabatan.Domain.Jabatan, epsikologi.Jabatan",
+  "JabatanNo": "187713",
+  "NamaJabatan": "HOSPITAL UNIVERSITI SAINS MALAYSIA (HUSM)",
+  "AgensiNo": "26281",
+  "Kementerian": "KEM. PENGAJIAN TINGGI",
+  "AgensiKumpulan": "BBP",
+  "CreatedBy": "admin",
+  "Id": "hospital-universiti-sains-malaysia-husm-",
+  "CreatedDate": "2015-06-05T10:39:28.3175649+08:00",
+  "ChangedBy": "admin",
+  "ChangedDate": "2015-06-19T16:05:13.5301779+08:00",
+  "WebId": "3f6e0ae4-ad28-426d-a360-d91c3551826f"
+}

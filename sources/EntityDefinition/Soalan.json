@@ -241,7 +241,7 @@
         "IsNullable": true,
         "IsNotIndexed": false,
         "IsAnalyzed": false,
-        "IsFilterable": false,
+        "IsFilterable": true,
         "IsExcludeInAll": false,
         "Boost": 0,
         "DefaultValue": null,

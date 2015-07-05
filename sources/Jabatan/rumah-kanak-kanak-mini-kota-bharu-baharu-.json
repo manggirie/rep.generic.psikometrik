@@ -1,0 +1,14 @@
+{
+  "$type": "Bespoke.epsikologi_jabatan.Domain.Jabatan, epsikologi.Jabatan",
+  "JabatanNo": "240653",
+  "NamaJabatan": "RUMAH KANAK-KANAK MINI, KOTA BHARU (BAHARU)",
+  "AgensiNo": "NA",
+  "Kementerian": null,
+  "AgensiKumpulan": "BBP",
+  "CreatedBy": "admin",
+  "Id": "rumah-kanak-kanak-mini-kota-bharu-baharu-",
+  "CreatedDate": "2015-06-05T10:39:31.871765+08:00",
+  "ChangedBy": "admin",
+  "ChangedDate": "2015-06-19T16:05:16.6876622+08:00",
+  "WebId": "3235cfa1-b4cf-450f-9aa8-c4dc39b8c65e"
+}

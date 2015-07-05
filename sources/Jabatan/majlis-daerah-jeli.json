@@ -1,0 +1,14 @@
+{
+  "$type": "Bespoke.epsikologi_jabatan.Domain.Jabatan, epsikologi.Jabatan",
+  "JabatanNo": "62448",
+  "NamaJabatan": "MAJLIS DAERAH JELI",
+  "AgensiNo": "NA",
+  "Kementerian": null,
+  "AgensiKumpulan": "PBT",
+  "CreatedBy": "admin",
+  "Id": "majlis-daerah-jeli",
+  "CreatedDate": "2015-06-05T10:39:35.2429547+08:00",
+  "ChangedBy": "admin",
+  "ChangedDate": "2015-06-19T16:05:20.2093177+08:00",
+  "WebId": "f26bf041-c53a-4829-b232-c514a9566765"
+}

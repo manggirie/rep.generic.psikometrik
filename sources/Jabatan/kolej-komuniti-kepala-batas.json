@@ -1,0 +1,14 @@
+{
+  "$type": "Bespoke.epsikologi_jabatan.Domain.Jabatan, epsikologi.Jabatan",
+  "JabatanNo": "184145",
+  "NamaJabatan": "KOLEJ KOMUNITI KEPALA BATAS",
+  "AgensiNo": "26281",
+  "Kementerian": "KEM. PENGAJIAN TINGGI",
+  "AgensiKumpulan": "BBP",
+  "CreatedBy": "admin",
+  "Id": "kolej-komuniti-kepala-batas",
+  "CreatedDate": "2015-06-05T10:39:27.4435155+08:00",
+  "ChangedBy": "admin",
+  "ChangedDate": "2015-06-19T16:05:12.8128411+08:00",
+  "WebId": "db7d4ff5-6549-48de-8589-ab91c90c7146"
+}

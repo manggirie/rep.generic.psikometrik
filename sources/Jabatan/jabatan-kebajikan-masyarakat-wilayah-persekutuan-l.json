@@ -1,0 +1,14 @@
+{
+  "$type": "Bespoke.epsikologi_jabatan.Domain.Jabatan, epsikologi.Jabatan",
+  "JabatanNo": "76730",
+  "NamaJabatan": "JABATAN KEBAJIKAN MASYARAKAT WILAYAH PERSEKUTUAN LABUAN",
+  "AgensiNo": "24556",
+  "Kementerian": "KEM. PEMBANGUNAN WANITA, KELUARGA & MASYARAKAT",
+  "AgensiKumpulan": "BBN",
+  "CreatedBy": "admin",
+  "Id": "jabatan-kebajikan-masyarakat-wilayah-persekutuan-l",
+  "CreatedDate": "2015-06-05T10:39:35.8619897+08:00",
+  "ChangedBy": "admin",
+  "ChangedDate": "2015-06-19T16:05:20.8576224+08:00",
+  "WebId": "52aefdd0-c126-4476-ab16-89da3b96890a"
+}

@@ -1,0 +1,14 @@
+{
+  "$type": "Bespoke.epsikologi_jabatan.Domain.Jabatan, epsikologi.Jabatan",
+  "JabatanNo": "13062152",
+  "NamaJabatan": "PENJARA SEREMBAN",
+  "AgensiNo": "26618",
+  "Kementerian": "KEM. KESELAMATAN DALAM NEGERI",
+  "AgensiKumpulan": "BBP",
+  "CreatedBy": "admin",
+  "Id": "penjara-seremban",
+  "CreatedDate": "2015-06-05T10:39:25.6124123+08:00",
+  "ChangedBy": "admin",
+  "ChangedDate": "2015-06-19T16:05:10.5427753+08:00",
+  "WebId": "f21feb0c-fa88-4ede-9e3b-48c4649eaeef"
+}

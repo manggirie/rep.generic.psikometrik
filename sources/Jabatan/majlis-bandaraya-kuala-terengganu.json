@@ -1,0 +1,14 @@
+{
+  "$type": "Bespoke.epsikologi_jabatan.Domain.Jabatan, epsikologi.Jabatan",
+  "JabatanNo": "53469",
+  "NamaJabatan": "MAJLIS BANDARAYA KUALA TERENGGANU",
+  "AgensiNo": "NA",
+  "Kementerian": null,
+  "AgensiKumpulan": "PBT",
+  "CreatedBy": "admin",
+  "Id": "majlis-bandaraya-kuala-terengganu",
+  "CreatedDate": "2015-06-05T10:39:34.1958957+08:00",
+  "ChangedBy": "admin",
+  "ChangedDate": "2015-06-19T16:05:19.0697816+08:00",
+  "WebId": "575d9116-56fd-4fae-bb64-7b1e859e9e1d"
+}

@@ -1,0 +1,14 @@
+{
+  "$type": "Bespoke.epsikologi_jabatan.Domain.Jabatan, epsikologi.Jabatan",
+  "JabatanNo": "217144",
+  "NamaJabatan": "PEJABAT KEBAJIKAN MASYARAKAT DAERAH LAHAD DATU",
+  "AgensiNo": "24556",
+  "Kementerian": "KEM. PEMBANGUNAN WANITA, KELUARGA & MASYARAKAT",
+  "AgensiKumpulan": "BBN",
+  "CreatedBy": "admin",
+  "Id": "pejabat-kebajikan-masyarakat-daerah-lahad-datu",
+  "CreatedDate": "2015-06-05T10:39:30.079665+08:00",
+  "ChangedBy": "admin",
+  "ChangedDate": "2015-06-19T16:05:14.8678067+08:00",
+  "WebId": "002c9a8a-c282-4314-9707-0b538aaea747"
+}

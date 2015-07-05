@@ -1,0 +1,14 @@
+{
+  "$type": "Bespoke.epsikologi_jabatan.Domain.Jabatan, epsikologi.Jabatan",
+  "JabatanNo": "30371",
+  "NamaJabatan": "LEMBAGA PELABUHAN KUANTAN",
+  "AgensiNo": "NA",
+  "Kementerian": null,
+  "AgensiKumpulan": "BBP",
+  "CreatedBy": "admin",
+  "Id": "lembaga-pelabuhan-kuantan",
+  "CreatedDate": "2015-06-05T10:39:32.4467968+08:00",
+  "ChangedBy": "admin",
+  "ChangedDate": "2015-06-19T16:05:16.9687944+08:00",
+  "WebId": "311c85dd-6893-4e2c-afc5-40701838bbd5"
+}

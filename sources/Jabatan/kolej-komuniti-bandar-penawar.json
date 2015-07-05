@@ -1,0 +1,14 @@
+{
+  "$type": "Bespoke.epsikologi_jabatan.Domain.Jabatan, epsikologi.Jabatan",
+  "JabatanNo": "183934",
+  "NamaJabatan": "KOLEJ KOMUNITI BANDAR PENAWAR",
+  "AgensiNo": "26281",
+  "Kementerian": "KEM. PENGAJIAN TINGGI",
+  "AgensiKumpulan": "BBP",
+  "CreatedBy": "admin",
+  "Id": "kolej-komuniti-bandar-penawar",
+  "CreatedDate": "2015-06-05T10:39:26.9554876+08:00",
+  "ChangedBy": "admin",
+  "ChangedDate": "2015-06-19T16:05:12.4286618+08:00",
+  "WebId": "6c843be7-7982-4c6c-bc25-a3a128221cc5"
+}

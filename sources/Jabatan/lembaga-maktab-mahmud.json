@@ -1,0 +1,14 @@
+{
+  "$type": "Bespoke.epsikologi_jabatan.Domain.Jabatan, epsikologi.Jabatan",
+  "JabatanNo": "42207",
+  "NamaJabatan": "LEMBAGA MAKTAB MAHMUD",
+  "AgensiNo": "NA",
+  "Kementerian": null,
+  "AgensiKumpulan": "BBN",
+  "CreatedBy": "admin",
+  "Id": "lembaga-maktab-mahmud",
+  "CreatedDate": "2015-06-05T10:39:33.2078411+08:00",
+  "ChangedBy": "admin",
+  "ChangedDate": "2015-06-19T16:05:17.7051431+08:00",
+  "WebId": "88bc0402-de65-45d7-9bba-b25ee7a99dcd"
+}

@@ -1,0 +1,14 @@
+{
+  "$type": "Bespoke.epsikologi_jabatan.Domain.Jabatan, epsikologi.Jabatan",
+  "JabatanNo": "46283",
+  "NamaJabatan": "INSTITUT LATIHAN PERINDUSTRIAN MUAR",
+  "AgensiNo": "NA",
+  "Kementerian": null,
+  "AgensiKumpulan": "BBP",
+  "CreatedBy": "admin",
+  "Id": "institut-latihan-perindustrian-muar",
+  "CreatedDate": "2015-06-05T10:39:33.5758612+08:00",
+  "ChangedBy": "admin",
+  "ChangedDate": "2015-06-19T16:05:18.1743611+08:00",
+  "WebId": "1c244946-6e09-4566-a243-c8f062b02bcf"
+}

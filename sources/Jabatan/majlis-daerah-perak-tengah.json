@@ -1,0 +1,14 @@
+{
+  "$type": "Bespoke.epsikologi_jabatan.Domain.Jabatan, epsikologi.Jabatan",
+  "JabatanNo": "56592",
+  "NamaJabatan": "MAJLIS DAERAH PERAK TENGAH",
+  "AgensiNo": "55725",
+  "Kementerian": "PSUK NEGERI PERAK",
+  "AgensiKumpulan": "PBT",
+  "CreatedBy": "admin",
+  "Id": "majlis-daerah-perak-tengah",
+  "CreatedDate": "2015-06-05T10:39:34.5539157+08:00",
+  "ChangedBy": "admin",
+  "ChangedDate": "2015-06-19T16:05:19.3799278+08:00",
+  "WebId": "b4685028-c35a-4c77-bbd1-6f721786995e"
+}

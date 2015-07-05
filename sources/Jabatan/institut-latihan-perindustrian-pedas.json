@@ -1,0 +1,14 @@
+{
+  "$type": "Bespoke.epsikologi_jabatan.Domain.Jabatan, epsikologi.Jabatan",
+  "JabatanNo": "46225",
+  "NamaJabatan": "INSTITUT LATIHAN PERINDUSTRIAN PEDAS",
+  "AgensiNo": "NA",
+  "Kementerian": null,
+  "AgensiKumpulan": "BBP",
+  "CreatedBy": "admin",
+  "Id": "institut-latihan-perindustrian-pedas",
+  "CreatedDate": "2015-06-05T10:39:33.5288585+08:00",
+  "ChangedBy": "admin",
+  "ChangedDate": "2015-06-19T16:05:18.1093344+08:00",
+  "WebId": "8d49168f-fa03-498f-8cbc-2866a86449b4"
+}

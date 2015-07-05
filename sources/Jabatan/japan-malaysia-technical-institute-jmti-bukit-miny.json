@@ -1,0 +1,14 @@
+{
+  "$type": "Bespoke.epsikologi_jabatan.Domain.Jabatan, epsikologi.Jabatan",
+  "JabatanNo": "46181",
+  "NamaJabatan": "JAPAN MALAYSIA TECHNICAL INSTITUTE (JMTI) BUKIT MINYAK",
+  "AgensiNo": "NA",
+  "Kementerian": null,
+  "AgensiKumpulan": "BBP",
+  "CreatedBy": "admin",
+  "Id": "japan-malaysia-technical-institute-jmti-bukit-miny",
+  "CreatedDate": "2015-06-05T10:39:33.5008567+08:00",
+  "ChangedBy": "admin",
+  "ChangedDate": "2015-06-19T16:05:18.0483023+08:00",
+  "WebId": "fe1dfa1a-aced-482a-9adb-ae03781f1a5c"
+}

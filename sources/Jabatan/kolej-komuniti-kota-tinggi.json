@@ -1,0 +1,14 @@
+{
+  "$type": "Bespoke.epsikologi_jabatan.Domain.Jabatan, epsikologi.Jabatan",
+  "JabatanNo": "228901",
+  "NamaJabatan": "KOLEJ KOMUNITI KOTA TINGGI",
+  "AgensiNo": "26281",
+  "Kementerian": "KEM. PENGAJIAN TINGGI",
+  "AgensiKumpulan": "BBP",
+  "CreatedBy": "admin",
+  "Id": "kolej-komuniti-kota-tinggi",
+  "CreatedDate": "2015-06-05T10:39:31.7057555+08:00",
+  "ChangedBy": "admin",
+  "ChangedDate": "2015-06-19T16:05:16.4725615+08:00",
+  "WebId": "0185d8a0-0b56-458e-b338-833ae33ef924"
+}

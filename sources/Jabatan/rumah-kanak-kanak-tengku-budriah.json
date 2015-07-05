@@ -1,0 +1,14 @@
+{
+  "$type": "Bespoke.epsikologi_jabatan.Domain.Jabatan, epsikologi.Jabatan",
+  "JabatanNo": "77096",
+  "NamaJabatan": "RUMAH KANAK-KANAK TENGKU BUDRIAH",
+  "AgensiNo": "NA",
+  "Kementerian": null,
+  "AgensiKumpulan": "BBP",
+  "CreatedBy": "admin",
+  "Id": "rumah-kanak-kanak-tengku-budriah",
+  "CreatedDate": "2015-06-05T10:39:36.4290215+08:00",
+  "ChangedBy": "admin",
+  "ChangedDate": "2015-06-19T16:05:21.5179324+08:00",
+  "WebId": "4e91ad26-0389-4373-9124-c08cc3b25a0c"
+}

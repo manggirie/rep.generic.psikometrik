@@ -1,0 +1,14 @@
+{
+  "$type": "Bespoke.epsikologi_jabatan.Domain.Jabatan, epsikologi.Jabatan",
+  "JabatanNo": "215163",
+  "NamaJabatan": "PEJABAT KEBAJIKAN MASYARAKAT DAERAH KUALA KANGSAR",
+  "AgensiNo": "24556",
+  "Kementerian": "KEM. PEMBANGUNAN WANITA, KELUARGA & MASYARAKAT",
+  "AgensiKumpulan": "BBN",
+  "CreatedBy": "admin",
+  "Id": "pejabat-kebajikan-masyarakat-daerah-kuala-kangsar",
+  "CreatedDate": "2015-06-05T10:39:29.5346334+08:00",
+  "ChangedBy": "admin",
+  "ChangedDate": "2015-06-19T16:05:14.4446082+08:00",
+  "WebId": "0d67023c-4cf6-42a8-b073-ba7341af3b6c"
+}

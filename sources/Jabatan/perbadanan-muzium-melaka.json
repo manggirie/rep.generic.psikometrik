@@ -1,0 +1,14 @@
+{
+  "$type": "Bespoke.epsikologi_jabatan.Domain.Jabatan, epsikologi.Jabatan",
+  "JabatanNo": "36929",
+  "NamaJabatan": "PERBADANAN MUZIUM MELAKA",
+  "AgensiNo": "NA",
+  "Kementerian": null,
+  "AgensiKumpulan": "BBN",
+  "CreatedBy": "admin",
+  "Id": "perbadanan-muzium-melaka",
+  "CreatedDate": "2015-06-05T10:39:32.7938169+08:00",
+  "ChangedBy": "admin",
+  "ChangedDate": "2015-06-19T16:05:17.3419694+08:00",
+  "WebId": "7bae6744-19bd-4c54-9263-a0112bfd7369"
+}

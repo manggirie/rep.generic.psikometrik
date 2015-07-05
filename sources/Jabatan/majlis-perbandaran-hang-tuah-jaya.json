@@ -1,0 +1,14 @@
+{
+  "$type": "Bespoke.epsikologi_jabatan.Domain.Jabatan, epsikologi.Jabatan",
+  "JabatanNo": "211648",
+  "NamaJabatan": "MAJLIS PERBANDARAN HANG TUAH JAYA",
+  "AgensiNo": "NA",
+  "Kementerian": null,
+  "AgensiKumpulan": "PBT",
+  "CreatedBy": "admin",
+  "Id": "majlis-perbandaran-hang-tuah-jaya",
+  "CreatedDate": "2015-06-05T10:39:28.9696019+08:00",
+  "ChangedBy": "admin",
+  "ChangedDate": "2015-06-19T16:05:14.086439+08:00",
+  "WebId": "9e505495-c50b-4ac6-b82c-d2484a2f0eb2"
+}

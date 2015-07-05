@@ -1,0 +1,14 @@
+{
+  "$type": "Bespoke.epsikologi_jabatan.Domain.Jabatan, epsikologi.Jabatan",
+  "JabatanNo": "49345",
+  "NamaJabatan": "LEMBAGA KOKO MALAYSIA",
+  "AgensiNo": "NA",
+  "Kementerian": null,
+  "AgensiKumpulan": "BBP",
+  "CreatedBy": "admin",
+  "Id": "lembaga-koko-malaysia",
+  "CreatedDate": "2015-06-05T10:39:33.6618652+08:00",
+  "ChangedBy": "admin",
+  "ChangedDate": "2015-06-19T16:05:18.3064266+08:00",
+  "WebId": "5fed6838-04de-46fc-b289-acb130fc8835"
+}

@@ -1,0 +1,14 @@
+{
+  "$type": "Bespoke.epsikologi_jabatan.Domain.Jabatan, epsikologi.Jabatan",
+  "JabatanNo": "62886",
+  "NamaJabatan": "MAJLIS PERBANDARAN JOHOR BAHRU TENGAH",
+  "AgensiNo": "59098",
+  "Kementerian": "PSUK NEGERI JOHOR",
+  "AgensiKumpulan": "PBT",
+  "CreatedBy": "admin",
+  "Id": "majlis-perbandaran-johor-bahru-tengah",
+  "CreatedDate": "2015-06-05T10:39:35.6269765+08:00",
+  "ChangedBy": "admin",
+  "ChangedDate": "2015-06-19T16:05:20.5894964+08:00",
+  "WebId": "734ffdf8-7e85-4ad7-aa4f-144851910fea"
+}

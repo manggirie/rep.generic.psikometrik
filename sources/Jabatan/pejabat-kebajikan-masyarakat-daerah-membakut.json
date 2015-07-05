@@ -1,0 +1,14 @@
+{
+  "$type": "Bespoke.epsikologi_jabatan.Domain.Jabatan, epsikologi.Jabatan",
+  "JabatanNo": "217617",
+  "NamaJabatan": "PEJABAT KEBAJIKAN MASYARAKAT DAERAH MEMBAKUT",
+  "AgensiNo": "24556",
+  "Kementerian": "KEM. PEMBANGUNAN WANITA, KELUARGA & MASYARAKAT",
+  "AgensiKumpulan": "BBN",
+  "CreatedBy": "admin",
+  "Id": "pejabat-kebajikan-masyarakat-daerah-membakut",
+  "CreatedDate": "2015-06-05T10:39:30.3086769+08:00",
+  "ChangedBy": "admin",
+  "ChangedDate": "2015-06-19T16:05:15.0879102+08:00",
+  "WebId": "941b19ba-5959-42af-8e00-f08042c2d87b"
+}

@@ -1,0 +1,14 @@
+{
+  "$type": "Bespoke.epsikologi_jabatan.Domain.Jabatan, epsikologi.Jabatan",
+  "JabatanNo": "69008",
+  "NamaJabatan": "LEMBAGA LEBUHRAYA MALAYSIA (LLM)",
+  "AgensiNo": "NA",
+  "Kementerian": null,
+  "AgensiKumpulan": "BBP",
+  "CreatedBy": "admin",
+  "Id": "lembaga-lebuhraya-malaysia-llm-",
+  "CreatedDate": "2015-06-05T10:39:35.7699843+08:00",
+  "ChangedBy": "admin",
+  "ChangedDate": "2015-06-19T16:05:20.7575754+08:00",
+  "WebId": "e6c78476-e959-48a8-80c6-1456a513c051"
+}

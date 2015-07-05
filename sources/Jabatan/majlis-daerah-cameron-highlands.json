@@ -1,0 +1,14 @@
+{
+  "$type": "Bespoke.epsikologi_jabatan.Domain.Jabatan, epsikologi.Jabatan",
+  "JabatanNo": "178617",
+  "NamaJabatan": "MAJLIS DAERAH CAMERON HIGHLANDS",
+  "AgensiNo": "NA",
+  "Kementerian": null,
+  "AgensiKumpulan": "PBT",
+  "CreatedBy": "admin",
+  "Id": "majlis-daerah-cameron-highlands",
+  "CreatedDate": "2015-06-05T10:39:26.1824442+08:00",
+  "ChangedBy": "admin",
+  "ChangedDate": "2015-06-19T16:05:11.5462453+08:00",
+  "WebId": "a64e560c-419d-4ce2-92ee-f6659c2df44e"
+}

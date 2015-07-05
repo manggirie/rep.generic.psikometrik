@@ -1,0 +1,14 @@
+{
+  "$type": "Bespoke.epsikologi_jabatan.Domain.Jabatan, epsikologi.Jabatan",
+  "JabatanNo": "31802",
+  "NamaJabatan": "MAJLIS PERBANDARAN SEREMBAN",
+  "AgensiNo": "NA",
+  "Kementerian": null,
+  "AgensiKumpulan": "PBT",
+  "CreatedBy": "admin",
+  "Id": "majlis-perbandaran-seremban",
+  "CreatedDate": "2015-06-05T10:39:32.6838107+08:00",
+  "ChangedBy": "admin",
+  "ChangedDate": "2015-06-19T16:05:17.219912+08:00",
+  "WebId": "84a28cc2-de73-4a75-ade5-65980b1c93a8"
+}

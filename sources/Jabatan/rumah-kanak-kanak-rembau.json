@@ -1,0 +1,14 @@
+{
+  "$type": "Bespoke.epsikologi_jabatan.Domain.Jabatan, epsikologi.Jabatan",
+  "JabatanNo": "76889",
+  "NamaJabatan": "RUMAH KANAK-KANAK REMBAU",
+  "AgensiNo": "NA",
+  "Kementerian": null,
+  "AgensiKumpulan": "BBP",
+  "CreatedBy": "admin",
+  "Id": "rumah-kanak-kanak-rembau",
+  "CreatedDate": "2015-06-05T10:39:36.2390113+08:00",
+  "ChangedBy": "admin",
+  "ChangedDate": "2015-06-19T16:05:21.2408034+08:00",
+  "WebId": "303272ae-d982-4452-9789-9c4e9f7edb84"
+}

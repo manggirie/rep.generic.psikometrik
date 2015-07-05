@@ -1,0 +1,14 @@
+{
+  "$type": "Bespoke.epsikologi_jabatan.Domain.Jabatan, epsikologi.Jabatan",
+  "JabatanNo": "76966",
+  "NamaJabatan": "SEKOLAH TUNAS BAKTI JERANTUT",
+  "AgensiNo": "27941",
+  "Kementerian": "KEM. PENDIDIKAN MALAYSIA",
+  "AgensiKumpulan": "BBP",
+  "CreatedBy": "admin",
+  "Id": "sekolah-tunas-bakti-jerantut",
+  "CreatedDate": "2015-06-05T10:39:36.3010143+08:00",
+  "ChangedBy": "admin",
+  "ChangedDate": "2015-06-19T16:05:21.3268434+08:00",
+  "WebId": "72bf0b5e-0408-429d-9180-cc2837651043"
+}

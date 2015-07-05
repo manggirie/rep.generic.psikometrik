@@ -1,0 +1,14 @@
+{
+  "$type": "Bespoke.epsikologi_jabatan.Domain.Jabatan, epsikologi.Jabatan",
+  "JabatanNo": "53238",
+  "NamaJabatan": "MAJLIS DAERAH MARANG",
+  "AgensiNo": "NA",
+  "Kementerian": null,
+  "AgensiKumpulan": "PBT",
+  "CreatedBy": "admin",
+  "Id": "majlis-daerah-marang",
+  "CreatedDate": "2015-06-05T10:39:34.140893+08:00",
+  "ChangedBy": "admin",
+  "ChangedDate": "2015-06-19T16:05:18.9947463+08:00",
+  "WebId": "49948a1b-4cb6-4535-a933-8d27fedb6d7e"
+}

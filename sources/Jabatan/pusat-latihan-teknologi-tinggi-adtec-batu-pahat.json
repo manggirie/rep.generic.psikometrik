@@ -1,0 +1,14 @@
+{
+  "$type": "Bespoke.epsikologi_jabatan.Domain.Jabatan, epsikologi.Jabatan",
+  "JabatanNo": "46324",
+  "NamaJabatan": "PUSAT LATIHAN TEKNOLOGI TINGGI (ADTEC) BATU PAHAT",
+  "AgensiNo": "NA",
+  "Kementerian": null,
+  "AgensiKumpulan": "BBP",
+  "CreatedBy": "admin",
+  "Id": "pusat-latihan-teknologi-tinggi-adtec-batu-pahat",
+  "CreatedDate": "2015-06-05T10:39:33.6058626+08:00",
+  "ChangedBy": "admin",
+  "ChangedDate": "2015-06-19T16:05:18.2153804+08:00",
+  "WebId": "aa08adba-15dd-4ee0-a7f3-d7f9652185fb"
+}

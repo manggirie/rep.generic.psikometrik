@@ -1,0 +1,14 @@
+{
+  "$type": "Bespoke.epsikologi_kementerian.Domain.Kementerian, epsikologi.Kementerian",
+  "KementerianNo": "55725",
+  "NamaKementerian": "PSUK NEGERI PERAK",
+  "Negeri": "Perak Darul Ridzuan",
+  "KumpulanAgensi": "PAN",
+  "Abbreviation": null,
+  "CreatedBy": "admin",
+  "Id": "psuk-negeri-perak",
+  "CreatedDate": "2015-06-17T18:52:30.6398275+08:00",
+  "ChangedBy": "admin",
+  "ChangedDate": "2015-06-17T18:52:30.6328238+08:00",
+  "WebId": "05b86346-cc30-4ec1-9b05-1057f6bba126"
+}

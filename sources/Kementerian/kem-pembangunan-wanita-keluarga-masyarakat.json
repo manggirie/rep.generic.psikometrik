@@ -1,0 +1,14 @@
+{
+  "$type": "Bespoke.epsikologi_kementerian.Domain.Kementerian, epsikologi.Kementerian",
+  "KementerianNo": "24556",
+  "NamaKementerian": "KEM. PEMBANGUNAN WANITA, KELUARGA & MASYARAKAT",
+  "Negeri": "Wilayah Persekutuan Putrajaya",
+  "KumpulanAgensi": "PAP",
+  "Abbreviation": null,
+  "CreatedBy": "admin",
+  "Id": "kem-pembangunan-wanita-keluarga-masyarakat",
+  "CreatedDate": "2015-06-17T18:52:17.4494863+08:00",
+  "ChangedBy": "admin",
+  "ChangedDate": "2015-06-17T18:52:17.4444828+08:00",
+  "WebId": "0da5ee68-60a0-4208-822e-d2d490692410"
+}

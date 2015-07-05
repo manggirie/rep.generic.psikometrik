@@ -1,0 +1,14 @@
+{
+  "$type": "Bespoke.epsikologi_jabatan.Domain.Jabatan, epsikologi.Jabatan",
+  "JabatanNo": "76997",
+  "NamaJabatan": "RUMAH KANAK-KANAK SULTAN ABD. AZIZ, K/KANGSAR",
+  "AgensiNo": "NA",
+  "Kementerian": null,
+  "AgensiKumpulan": "BBP",
+  "CreatedBy": "admin",
+  "Id": "rumah-kanak-kanak-sultan-abd-aziz-k-kangsar",
+  "CreatedDate": "2015-06-05T10:39:36.3350167+08:00",
+  "ChangedBy": "admin",
+  "ChangedDate": "2015-06-19T16:05:21.3678623+08:00",
+  "WebId": "45cab85c-21fb-42e2-bf25-042672f265c3"
+}

@@ -1,0 +1,14 @@
+{
+  "$type": "Bespoke.epsikologi_jabatan.Domain.Jabatan, epsikologi.Jabatan",
+  "JabatanNo": "201616",
+  "NamaJabatan": "SURUHANJAYA INTEGRITI AGENSI PENGUATKUASAAN (SIAP)",
+  "AgensiNo": "NA",
+  "Kementerian": null,
+  "AgensiKumpulan": "BBP",
+  "CreatedBy": "admin",
+  "Id": "suruhanjaya-integriti-agensi-penguatkuasaan-siap-",
+  "CreatedDate": "2015-06-05T10:39:28.6745847+08:00",
+  "ChangedBy": "admin",
+  "ChangedDate": "2015-06-19T16:05:13.8773407+08:00",
+  "WebId": "57464aab-bdf3-4881-9be4-cf05ba5c28e9"
+}

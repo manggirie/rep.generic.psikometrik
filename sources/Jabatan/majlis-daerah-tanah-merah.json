@@ -1,0 +1,14 @@
+{
+  "$type": "Bespoke.epsikologi_jabatan.Domain.Jabatan, epsikologi.Jabatan",
+  "JabatanNo": "62462",
+  "NamaJabatan": "MAJLIS DAERAH TANAH MERAH",
+  "AgensiNo": "NA",
+  "Kementerian": null,
+  "AgensiKumpulan": "PBT",
+  "CreatedBy": "admin",
+  "Id": "majlis-daerah-tanah-merah",
+  "CreatedDate": "2015-06-05T10:39:35.2549558+08:00",
+  "ChangedBy": "admin",
+  "ChangedDate": "2015-06-19T16:05:20.2293275+08:00",
+  "WebId": "86091191-70b4-4ff5-a065-e3d3185ca085"
+}

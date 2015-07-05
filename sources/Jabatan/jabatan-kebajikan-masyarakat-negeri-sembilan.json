@@ -1,0 +1,14 @@
+{
+  "$type": "Bespoke.epsikologi_jabatan.Domain.Jabatan, epsikologi.Jabatan",
+  "JabatanNo": "214690",
+  "NamaJabatan": "JABATAN KEBAJIKAN MASYARAKAT NEGERI SEMBILAN",
+  "AgensiNo": "24556",
+  "Kementerian": "KEM. PEMBANGUNAN WANITA, KELUARGA & MASYARAKAT",
+  "AgensiKumpulan": "BBN",
+  "CreatedBy": "admin",
+  "Id": "jabatan-kebajikan-masyarakat-negeri-sembilan",
+  "CreatedDate": "2015-06-05T10:39:29.2886196+08:00",
+  "ChangedBy": "admin",
+  "ChangedDate": "2015-06-19T16:05:14.2805307+08:00",
+  "WebId": "39e8c2f0-428f-4470-9fe7-2f48e9329f6d"
+}

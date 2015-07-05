@@ -1,0 +1,14 @@
+{
+  "$type": "Bespoke.epsikologi_jabatan.Domain.Jabatan, epsikologi.Jabatan",
+  "JabatanNo": "47125",
+  "NamaJabatan": "PERTUBUHAN BERITA NASIONAL MALAYSIA (BERNAMA)",
+  "AgensiNo": "NA",
+  "Kementerian": null,
+  "AgensiKumpulan": "BBP",
+  "CreatedBy": "admin",
+  "Id": "pertubuhan-berita-nasional-malaysia-bernama-",
+  "CreatedDate": "2015-06-05T10:39:33.6468657+08:00",
+  "ChangedBy": "admin",
+  "ChangedDate": "2015-06-19T16:05:18.281411+08:00",
+  "WebId": "850acde1-f1fb-4454-bc48-b3f528c51ba4"
+}

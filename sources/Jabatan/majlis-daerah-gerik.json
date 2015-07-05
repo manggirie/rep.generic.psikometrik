@@ -1,0 +1,14 @@
+{
+  "$type": "Bespoke.epsikologi_jabatan.Domain.Jabatan, epsikologi.Jabatan",
+  "JabatanNo": "55808",
+  "NamaJabatan": "MAJLIS DAERAH GERIK",
+  "AgensiNo": "NA",
+  "Kementerian": null,
+  "AgensiKumpulan": "PBT",
+  "CreatedBy": "admin",
+  "Id": "majlis-daerah-gerik",
+  "CreatedDate": "2015-06-05T10:39:34.3139029+08:00",
+  "ChangedBy": "admin",
+  "ChangedDate": "2015-06-19T16:05:19.1578238+08:00",
+  "WebId": "e9b62e42-fa9b-4b6b-b31f-13c9b7651354"
+}

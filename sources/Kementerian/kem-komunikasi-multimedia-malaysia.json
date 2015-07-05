@@ -1,0 +1,14 @@
+{
+  "$type": "Bespoke.epsikologi_kementerian.Domain.Kementerian, epsikologi.Kementerian",
+  "KementerianNo": "27280",
+  "NamaKementerian": "KEM. KOMUNIKASI & MULTIMEDIA MALAYSIA",
+  "Negeri": "Wilayah Persekutuan Putrajaya",
+  "KumpulanAgensi": "PAP",
+  "Abbreviation": null,
+  "CreatedBy": "admin",
+  "Id": "kem-komunikasi-multimedia-malaysia",
+  "CreatedDate": "2015-06-17T18:52:30.1915109+08:00",
+  "ChangedBy": "admin",
+  "ChangedDate": "2015-06-17T18:52:30.1885139+08:00",
+  "WebId": "a5eac3ad-b70b-4d3a-82f6-1c911a4ae616"
+}

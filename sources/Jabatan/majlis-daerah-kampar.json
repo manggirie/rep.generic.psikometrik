@@ -1,0 +1,14 @@
+{
+  "$type": "Bespoke.epsikologi_jabatan.Domain.Jabatan, epsikologi.Jabatan",
+  "JabatanNo": "56563",
+  "NamaJabatan": "MAJLIS DAERAH KAMPAR",
+  "AgensiNo": "NA",
+  "Kementerian": null,
+  "AgensiKumpulan": "PBT",
+  "CreatedBy": "admin",
+  "Id": "majlis-daerah-kampar",
+  "CreatedDate": "2015-06-05T10:39:34.5319149+08:00",
+  "ChangedBy": "admin",
+  "ChangedDate": "2015-06-19T16:05:19.3629198+08:00",
+  "WebId": "075afa07-1ba5-4bcd-9fdb-07dd5084561a"
+}

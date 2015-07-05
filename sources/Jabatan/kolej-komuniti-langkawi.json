@@ -1,0 +1,14 @@
+{
+  "$type": "Bespoke.epsikologi_jabatan.Domain.Jabatan, epsikologi.Jabatan",
+  "JabatanNo": "183847",
+  "NamaJabatan": "KOLEJ KOMUNITI LANGKAWI",
+  "AgensiNo": "26281",
+  "Kementerian": "KEM. PENGAJIAN TINGGI",
+  "AgensiKumpulan": "BBP",
+  "CreatedBy": "admin",
+  "Id": "kolej-komuniti-langkawi",
+  "CreatedDate": "2015-06-05T10:39:26.790478+08:00",
+  "ChangedBy": "admin",
+  "ChangedDate": "2015-06-19T16:05:12.2655839+08:00",
+  "WebId": "270f35d8-e6e2-4a86-9221-03cbd991aac2"
+}

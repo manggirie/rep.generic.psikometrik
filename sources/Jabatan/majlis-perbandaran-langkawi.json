@@ -1,0 +1,14 @@
+{
+  "$type": "Bespoke.epsikologi_jabatan.Domain.Jabatan, epsikologi.Jabatan",
+  "JabatanNo": "42097",
+  "NamaJabatan": "MAJLIS PERBANDARAN LANGKAWI",
+  "AgensiNo": "NA",
+  "Kementerian": null,
+  "AgensiKumpulan": "PBT",
+  "CreatedBy": "admin",
+  "Id": "majlis-perbandaran-langkawi",
+  "CreatedDate": "2015-06-05T10:39:33.1928392+08:00",
+  "ChangedBy": "admin",
+  "ChangedDate": "2015-06-19T16:05:17.685135+08:00",
+  "WebId": "46c0988b-3272-41fa-bc68-f85c68f680bc"
+}

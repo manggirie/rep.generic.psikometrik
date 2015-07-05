@@ -1,0 +1,14 @@
+{
+  "$type": "Bespoke.epsikologi_jabatan.Domain.Jabatan, epsikologi.Jabatan",
+  "JabatanNo": "53125",
+  "NamaJabatan": "MAJLIS DAERAH BESUT",
+  "AgensiNo": "NA",
+  "Kementerian": null,
+  "AgensiKumpulan": "PBT",
+  "CreatedBy": "admin",
+  "Id": "majlis-daerah-besut",
+  "CreatedDate": "2015-06-05T10:39:34.1018906+08:00",
+  "ChangedBy": "admin",
+  "ChangedDate": "2015-06-19T16:05:18.9127082+08:00",
+  "WebId": "aebeff61-4e69-46ad-b7ea-6b9982508808"
+}

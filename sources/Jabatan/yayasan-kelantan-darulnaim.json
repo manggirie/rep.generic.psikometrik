@@ -1,0 +1,14 @@
+{
+  "$type": "Bespoke.epsikologi_jabatan.Domain.Jabatan, epsikologi.Jabatan",
+  "JabatanNo": "60470",
+  "NamaJabatan": "YAYASAN KELANTAN DARULNAIM",
+  "AgensiNo": "59081",
+  "Kementerian": "PSUK NEGERI KELANTAN",
+  "AgensiKumpulan": "BBN",
+  "CreatedBy": "admin",
+  "Id": "yayasan-kelantan-darulnaim",
+  "CreatedDate": "2015-06-05T10:39:34.8379317+08:00",
+  "ChangedBy": "admin",
+  "ChangedDate": "2015-06-19T16:05:19.7481017+08:00",
+  "WebId": "62fa5995-27e8-46b2-b7fa-64b282b20c96"
+}

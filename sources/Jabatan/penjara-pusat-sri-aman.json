@@ -1,0 +1,14 @@
+{
+  "$type": "Bespoke.epsikologi_jabatan.Domain.Jabatan, epsikologi.Jabatan",
+  "JabatanNo": "13062158",
+  "NamaJabatan": "PENJARA PUSAT SRI AMAN",
+  "AgensiNo": "26618",
+  "Kementerian": "KEM. KESELAMATAN DALAM NEGERI",
+  "AgensiKumpulan": "BBP",
+  "CreatedBy": "admin",
+  "Id": "penjara-pusat-sri-aman",
+  "CreatedDate": "2015-06-05T10:39:25.6814161+08:00",
+  "ChangedBy": "admin",
+  "ChangedDate": "2015-06-19T16:05:10.6608321+08:00",
+  "WebId": "4cfb02af-11d1-42a9-b5a6-499028c76883"
+}

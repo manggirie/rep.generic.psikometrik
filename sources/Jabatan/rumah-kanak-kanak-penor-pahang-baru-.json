@@ -1,0 +1,14 @@
+{
+  "$type": "Bespoke.epsikologi_jabatan.Domain.Jabatan, epsikologi.Jabatan",
+  "JabatanNo": "216376",
+  "NamaJabatan": "RUMAH KANAK-KANAK PENOR, PAHANG (BARU)",
+  "AgensiNo": "53300",
+  "Kementerian": "PSUK NEGERI PAHANG",
+  "AgensiKumpulan": "BBP",
+  "CreatedBy": "admin",
+  "Id": "rumah-kanak-kanak-penor-pahang-baru-",
+  "CreatedDate": "2015-06-05T10:39:29.9306555+08:00",
+  "ChangedBy": "admin",
+  "ChangedDate": "2015-06-19T16:05:14.7577546+08:00",
+  "WebId": "ca1edcf2-43f8-41fa-a3a7-a62a0170f02c"
+}

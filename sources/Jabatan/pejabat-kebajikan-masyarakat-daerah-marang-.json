@@ -1,0 +1,14 @@
+{
+  "$type": "Bespoke.epsikologi_jabatan.Domain.Jabatan, epsikologi.Jabatan",
+  "JabatanNo": "217432",
+  "NamaJabatan": "PEJABAT KEBAJIKAN MASYARAKAT DAERAH MARANG ",
+  "AgensiNo": "24556",
+  "Kementerian": "KEM. PEMBANGUNAN WANITA, KELUARGA & MASYARAKAT",
+  "AgensiKumpulan": "BBN",
+  "CreatedBy": "admin",
+  "Id": "pejabat-kebajikan-masyarakat-daerah-marang-",
+  "CreatedDate": "2015-06-05T10:39:30.2356728+08:00",
+  "ChangedBy": "admin",
+  "ChangedDate": "2015-06-19T16:05:15.025881+08:00",
+  "WebId": "8f88a625-cc35-4491-ac0d-8af5642c5330"
+}

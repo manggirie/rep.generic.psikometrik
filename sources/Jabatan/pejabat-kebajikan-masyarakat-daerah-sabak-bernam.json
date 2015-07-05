@@ -1,0 +1,14 @@
+{
+  "$type": "Bespoke.epsikologi_jabatan.Domain.Jabatan, epsikologi.Jabatan",
+  "JabatanNo": "219278",
+  "NamaJabatan": "PEJABAT KEBAJIKAN MASYARAKAT DAERAH SABAK BERNAM",
+  "AgensiNo": "24556",
+  "Kementerian": "KEM. PEMBANGUNAN WANITA, KELUARGA & MASYARAKAT",
+  "AgensiKumpulan": "BBN",
+  "CreatedBy": "admin",
+  "Id": "pejabat-kebajikan-masyarakat-daerah-sabak-bernam",
+  "CreatedDate": "2015-06-05T10:39:30.9007107+08:00",
+  "ChangedBy": "admin",
+  "ChangedDate": "2015-06-19T16:05:15.7252093+08:00",
+  "WebId": "0dc6424e-ae49-4975-82ae-3f39a1f7fadc"
+}

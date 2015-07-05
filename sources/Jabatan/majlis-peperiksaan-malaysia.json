@@ -1,0 +1,14 @@
+{
+  "$type": "Bespoke.epsikologi_jabatan.Domain.Jabatan, epsikologi.Jabatan",
+  "JabatanNo": "68981",
+  "NamaJabatan": "MAJLIS PEPERIKSAAN MALAYSIA",
+  "AgensiNo": "NA",
+  "Kementerian": null,
+  "AgensiKumpulan": "BBP",
+  "CreatedBy": "admin",
+  "Id": "majlis-peperiksaan-malaysia",
+  "CreatedDate": "2015-06-05T10:39:35.7359831+08:00",
+  "ChangedBy": "admin",
+  "ChangedDate": "2015-06-19T16:05:20.7365651+08:00",
+  "WebId": "6b778b6b-51a7-4a54-84cb-dcc072b02f5a"
+}

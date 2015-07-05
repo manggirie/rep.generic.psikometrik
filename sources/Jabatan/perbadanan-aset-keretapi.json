@@ -1,0 +1,14 @@
+{
+  "$type": "Bespoke.epsikologi_jabatan.Domain.Jabatan, epsikologi.Jabatan",
+  "JabatanNo": "30176",
+  "NamaJabatan": "PERBADANAN ASET KERETAPI",
+  "AgensiNo": "NA",
+  "Kementerian": null,
+  "AgensiKumpulan": "BBP",
+  "CreatedBy": "admin",
+  "Id": "perbadanan-aset-keretapi",
+  "CreatedDate": "2015-06-05T10:39:32.3227902+08:00",
+  "ChangedBy": "admin",
+  "ChangedDate": "2015-06-19T16:05:16.8817534+08:00",
+  "WebId": "36d4d485-d394-4d49-8c6b-fb71899de101"
+}

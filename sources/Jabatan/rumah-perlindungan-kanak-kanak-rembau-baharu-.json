@@ -1,0 +1,14 @@
+{
+  "$type": "Bespoke.epsikologi_jabatan.Domain.Jabatan, epsikologi.Jabatan",
+  "JabatanNo": "240657",
+  "NamaJabatan": "RUMAH PERLINDUNGAN KANAK-KANAK REMBAU (BAHARU)",
+  "AgensiNo": "NA",
+  "Kementerian": null,
+  "AgensiKumpulan": "BBP",
+  "CreatedBy": "admin",
+  "Id": "rumah-perlindungan-kanak-kanak-rembau-baharu-",
+  "CreatedDate": "2015-06-05T10:39:31.8837654+08:00",
+  "ChangedBy": "admin",
+  "ChangedDate": "2015-06-19T16:05:16.7156749+08:00",
+  "WebId": "40f58d58-4952-4fc5-afbd-bf66fefa5d39"
+}

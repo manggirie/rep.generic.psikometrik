@@ -1,0 +1,14 @@
+{
+  "$type": "Bespoke.epsikologi_jabatan.Domain.Jabatan, epsikologi.Jabatan",
+  "JabatanNo": "104192",
+  "NamaJabatan": "PERBADANAN TAMAN NEGARA JOHOR",
+  "AgensiNo": "59098",
+  "Kementerian": "PSUK NEGERI JOHOR",
+  "AgensiKumpulan": "BBN",
+  "CreatedBy": "admin",
+  "Id": "perbadanan-taman-negara-johor",
+  "CreatedDate": "2015-06-05T10:39:25.0983832+08:00",
+  "ChangedBy": "admin",
+  "ChangedDate": "2015-06-19T16:05:09.5953316+08:00",
+  "WebId": "5ed072ac-74e1-456e-87c6-e7a770dc82d0"
+}

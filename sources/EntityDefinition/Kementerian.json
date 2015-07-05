@@ -91,6 +91,28 @@
         "Boost": 0,
         "DefaultValue": null,
         "WebId": "42e17fc6-f33c-4dd2-a5fc-fbbabc66ee21"
+      },
+      {
+        "$type": "Bespoke.Sph.Domain.Member, domain.sph",
+        "FullName": null,
+        "MemberCollection": {
+          "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.Sph.Domain.Member, domain.sph]], domain.sph",
+          "$values": []
+        },
+        "FieldPermissionCollection": {
+          "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.Sph.Domain.FieldPermission, domain.sph]], domain.sph",
+          "$values": []
+        },
+        "Name": "Abbreviation",
+        "TypeName": "System.String, mscorlib",
+        "IsNullable": true,
+        "IsNotIndexed": false,
+        "IsAnalyzed": false,
+        "IsFilterable": false,
+        "IsExcludeInAll": false,
+        "Boost": 0,
+        "DefaultValue": null,
+        "WebId": "2b8c9031-35b6-4e57-f99b-d17fb6da670f"
       }
     ]
   },
@@ -120,6 +142,9 @@
   "RecordName": "KementerianNo",
   "IsPublished": true,
   "IsShowOnNavigationBar": true,
+  "TreatDataAsSource": true,
+  "StoreInDatabase": null,
+  "StoreInElasticsearch": null,
   "CreatedBy": null,
   "Id": "kementerian",
   "CreatedDate": "0001-01-01T00:00:00",

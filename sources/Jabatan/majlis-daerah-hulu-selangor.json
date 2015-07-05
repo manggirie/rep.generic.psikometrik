@@ -1,0 +1,14 @@
+{
+  "$type": "Bespoke.epsikologi_jabatan.Domain.Jabatan, epsikologi.Jabatan",
+  "JabatanNo": "88419",
+  "NamaJabatan": "MAJLIS DAERAH HULU SELANGOR",
+  "AgensiNo": "1",
+  "Kementerian": "PSUK NEGERI SELANGOR",
+  "AgensiKumpulan": "PBT",
+  "CreatedBy": "admin",
+  "Id": "majlis-daerah-hulu-selangor",
+  "CreatedDate": "2015-06-05T10:39:36.6400337+08:00",
+  "ChangedBy": "admin",
+  "ChangedDate": "2015-06-19T16:05:21.813072+08:00",
+  "WebId": "0a54b848-c2b7-4389-98b5-a477970c5263"
+}

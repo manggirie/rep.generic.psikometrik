@@ -1,0 +1,14 @@
+{
+  "$type": "Bespoke.epsikologi_jabatan.Domain.Jabatan, epsikologi.Jabatan",
+  "JabatanNo": "62934",
+  "NamaJabatan": "LEMBAGA PENDUDUK & PEMBANGUNAN KELUARGA NEGARA (LPPKN)",
+  "AgensiNo": "NA",
+  "Kementerian": null,
+  "AgensiKumpulan": "BBP",
+  "CreatedBy": "admin",
+  "Id": "lembaga-penduduk-pembangunan-keluarga-negara-lppkn",
+  "CreatedDate": "2015-06-05T10:39:35.6639785+08:00",
+  "ChangedBy": "admin",
+  "ChangedDate": "2015-06-19T16:05:20.6045035+08:00",
+  "WebId": "8fc1b7ed-74e7-41ec-9304-4477c1d0cd01"
+}

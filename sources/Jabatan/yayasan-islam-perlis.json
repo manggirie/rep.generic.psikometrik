@@ -1,0 +1,14 @@
+{
+  "$type": "Bespoke.epsikologi_jabatan.Domain.Jabatan, epsikologi.Jabatan",
+  "JabatanNo": "60281",
+  "NamaJabatan": "YAYASAN ISLAM PERLIS",
+  "AgensiNo": "40112",
+  "Kementerian": "PSUK NEGERI PERLIS",
+  "AgensiKumpulan": "BBN",
+  "CreatedBy": "admin",
+  "Id": "yayasan-islam-perlis",
+  "CreatedDate": "2015-06-05T10:39:34.8089304+08:00",
+  "ChangedBy": "admin",
+  "ChangedDate": "2015-06-19T16:05:19.7140849+08:00",
+  "WebId": "516bb1f5-9112-47b0-8d11-fa9434dda0a4"
+}

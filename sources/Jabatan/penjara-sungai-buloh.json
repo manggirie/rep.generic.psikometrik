@@ -1,0 +1,14 @@
+{
+  "$type": "Bespoke.epsikologi_jabatan.Domain.Jabatan, epsikologi.Jabatan",
+  "JabatanNo": "13062161",
+  "NamaJabatan": "PENJARA SUNGAI BULOH",
+  "AgensiNo": "26618",
+  "Kementerian": "KEM. KESELAMATAN DALAM NEGERI",
+  "AgensiKumpulan": "BBP",
+  "CreatedBy": "admin",
+  "Id": "penjara-sungai-buloh",
+  "CreatedDate": "2015-06-05T10:39:25.7024167+08:00",
+  "ChangedBy": "admin",
+  "ChangedDate": "2015-06-19T16:05:10.6978469+08:00",
+  "WebId": "dc3bf16b-c0d1-4d0b-88de-483cc1fe3e20"
+}

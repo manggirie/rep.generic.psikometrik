@@ -1,0 +1,14 @@
+{
+  "$type": "Bespoke.epsikologi_jabatan.Domain.Jabatan, epsikologi.Jabatan",
+  "JabatanNo": "78371",
+  "NamaJabatan": "TAMAN SERI PUTERI KOTA KINABALU",
+  "AgensiNo": "NA",
+  "Kementerian": null,
+  "AgensiKumpulan": "BBP",
+  "CreatedBy": "admin",
+  "Id": "taman-seri-puteri-kota-kinabalu",
+  "CreatedDate": "2015-06-05T10:39:36.5640293+08:00",
+  "ChangedBy": "admin",
+  "ChangedDate": "2015-06-19T16:05:21.7040199+08:00",
+  "WebId": "4a153ed4-83ac-4426-9432-a0acaf510c3e"
+}

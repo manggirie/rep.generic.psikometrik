@@ -1,0 +1,14 @@
+{
+  "$type": "Bespoke.epsikologi_jabatan.Domain.Jabatan, epsikologi.Jabatan",
+  "JabatanNo": "54032",
+  "NamaJabatan": "MAJLIS BANDARAYA ALOR SETAR",
+  "AgensiNo": "NA",
+  "Kementerian": null,
+  "AgensiKumpulan": "PBT",
+  "CreatedBy": "admin",
+  "Id": "majlis-bandaraya-alor-setar",
+  "CreatedDate": "2015-06-05T10:39:34.2238975+08:00",
+  "ChangedBy": "admin",
+  "ChangedDate": "2015-06-19T16:05:19.1067994+08:00",
+  "WebId": "d53a39e6-8b3e-41ec-9275-35b6c69aaf63"
+}

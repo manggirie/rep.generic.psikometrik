@@ -1,0 +1,14 @@
+{
+  "$type": "Bespoke.epsikologi_jabatan.Domain.Jabatan, epsikologi.Jabatan",
+  "JabatanNo": "184013",
+  "NamaJabatan": "KOLEJ KOMUNITI JELI",
+  "AgensiNo": "26281",
+  "Kementerian": "KEM. PENGAJIAN TINGGI",
+  "AgensiKumpulan": "BBP",
+  "CreatedBy": "admin",
+  "Id": "kolej-komuniti-jeli",
+  "CreatedDate": "2015-06-05T10:39:27.1765005+08:00",
+  "ChangedBy": "admin",
+  "ChangedDate": "2015-06-19T16:05:12.580732+08:00",
+  "WebId": "243871a8-728f-44d4-9285-ff8e5fd1fdbb"
+}

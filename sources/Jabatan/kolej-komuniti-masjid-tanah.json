@@ -1,0 +1,14 @@
+{
+  "$type": "Bespoke.epsikologi_jabatan.Domain.Jabatan, epsikologi.Jabatan",
+  "JabatanNo": "183879",
+  "NamaJabatan": "KOLEJ KOMUNITI MASJID TANAH",
+  "AgensiNo": "26281",
+  "Kementerian": "KEM. PENGAJIAN TINGGI",
+  "AgensiKumpulan": "BBP",
+  "CreatedBy": "admin",
+  "Id": "kolej-komuniti-masjid-tanah",
+  "CreatedDate": "2015-06-05T10:39:26.8494818+08:00",
+  "ChangedBy": "admin",
+  "ChangedDate": "2015-06-19T16:05:12.3396187+08:00",
+  "WebId": "6dc77108-1979-4051-b3f4-021d188ffa85"
+}

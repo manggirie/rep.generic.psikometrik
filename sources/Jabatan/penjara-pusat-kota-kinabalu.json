@@ -1,0 +1,14 @@
+{
+  "$type": "Bespoke.epsikologi_jabatan.Domain.Jabatan, epsikologi.Jabatan",
+  "JabatanNo": "13062139",
+  "NamaJabatan": "PENJARA PUSAT KOTA KINABALU",
+  "AgensiNo": "26618",
+  "Kementerian": "KEM. KESELAMATAN DALAM NEGERI",
+  "AgensiKumpulan": "BBP",
+  "CreatedBy": "admin",
+  "Id": "penjara-pusat-kota-kinabalu",
+  "CreatedDate": "2015-06-05T10:39:25.513407+08:00",
+  "ChangedBy": "admin",
+  "ChangedDate": "2015-06-19T16:05:10.2806504+08:00",
+  "WebId": "41d17f68-aff6-4eed-8574-03b6470274aa"
+}

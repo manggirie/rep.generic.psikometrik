@@ -1,0 +1,14 @@
+{
+  "$type": "Bespoke.epsikologi_jabatan.Domain.Jabatan, epsikologi.Jabatan",
+  "JabatanNo": "53261",
+  "NamaJabatan": "MAJLIS DAERAH SETIU",
+  "AgensiNo": "NA",
+  "Kementerian": null,
+  "AgensiKumpulan": "PBT",
+  "CreatedBy": "admin",
+  "Id": "majlis-daerah-setiu",
+  "CreatedDate": "2015-06-05T10:39:34.1578939+08:00",
+  "ChangedBy": "admin",
+  "ChangedDate": "2015-06-19T16:05:19.0137557+08:00",
+  "WebId": "cc292ee7-b17d-4328-b967-bfb66f7896b4"
+}

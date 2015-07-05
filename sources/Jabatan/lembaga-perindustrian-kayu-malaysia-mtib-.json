@@ -1,0 +1,14 @@
+{
+  "$type": "Bespoke.epsikologi_jabatan.Domain.Jabatan, epsikologi.Jabatan",
+  "JabatanNo": "43911",
+  "NamaJabatan": "LEMBAGA PERINDUSTRIAN KAYU MALAYSIA (MTIB)",
+  "AgensiNo": "NA",
+  "Kementerian": null,
+  "AgensiKumpulan": "BBP",
+  "CreatedBy": "admin",
+  "Id": "lembaga-perindustrian-kayu-malaysia-mtib-",
+  "CreatedDate": "2015-06-05T10:39:33.3358471+08:00",
+  "ChangedBy": "admin",
+  "ChangedDate": "2015-06-19T16:05:17.8422049+08:00",
+  "WebId": "32bbd053-43e4-4b79-89c2-cd149facfdcd"
+}

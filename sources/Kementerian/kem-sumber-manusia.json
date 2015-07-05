@@ -1,0 +1,14 @@
+{
+  "$type": "Bespoke.epsikologi_kementerian.Domain.Kementerian, epsikologi.Kementerian",
+  "KementerianNo": "45658",
+  "NamaKementerian": "KEM. SUMBER MANUSIA",
+  "Negeri": "Wilayah Persekutuan Putrajaya",
+  "KumpulanAgensi": "PAP",
+  "Abbreviation": null,
+  "CreatedBy": "admin",
+  "Id": "kem-sumber-manusia",
+  "CreatedDate": "2015-06-17T18:52:30.5407574+08:00",
+  "ChangedBy": "admin",
+  "ChangedDate": "2015-06-17T18:52:30.5367575+08:00",
+  "WebId": "1a945df4-43bd-4976-8d09-3eebe5e4c9a1"
+}

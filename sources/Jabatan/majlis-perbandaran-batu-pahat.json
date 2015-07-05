@@ -1,0 +1,14 @@
+{
+  "$type": "Bespoke.epsikologi_jabatan.Domain.Jabatan, epsikologi.Jabatan",
+  "JabatanNo": "61846",
+  "NamaJabatan": "MAJLIS PERBANDARAN BATU PAHAT",
+  "AgensiNo": "NA",
+  "Kementerian": null,
+  "AgensiKumpulan": "PBT",
+  "CreatedBy": "admin",
+  "Id": "majlis-perbandaran-batu-pahat",
+  "CreatedDate": "2015-06-05T10:39:35.115948+08:00",
+  "ChangedBy": "admin",
+  "ChangedDate": "2015-06-19T16:05:20.0432396+08:00",
+  "WebId": "6f39c913-da36-4995-8bab-e28a5a58e4e4"
+}

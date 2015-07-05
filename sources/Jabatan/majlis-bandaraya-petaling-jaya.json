@@ -1,0 +1,14 @@
+{
+  "$type": "Bespoke.epsikologi_jabatan.Domain.Jabatan, epsikologi.Jabatan",
+  "JabatanNo": "52736",
+  "NamaJabatan": "MAJLIS BANDARAYA PETALING JAYA",
+  "AgensiNo": "NA",
+  "Kementerian": null,
+  "AgensiKumpulan": "PBT",
+  "CreatedBy": "admin",
+  "Id": "majlis-bandaraya-petaling-jaya",
+  "CreatedDate": "2015-06-05T10:39:34.0138865+08:00",
+  "ChangedBy": "admin",
+  "ChangedDate": "2015-06-19T16:05:18.8076588+08:00",
+  "WebId": "98c9217b-1a6e-4566-907e-f1901a503e6d"
+}

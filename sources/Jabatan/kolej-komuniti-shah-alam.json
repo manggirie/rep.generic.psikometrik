@@ -1,0 +1,14 @@
+{
+  "$type": "Bespoke.epsikologi_jabatan.Domain.Jabatan, epsikologi.Jabatan",
+  "JabatanNo": "215160",
+  "NamaJabatan": "KOLEJ KOMUNITI SHAH ALAM",
+  "AgensiNo": "26281",
+  "Kementerian": "KEM. PENGAJIAN TINGGI",
+  "AgensiKumpulan": "BBP",
+  "CreatedBy": "admin",
+  "Id": "kolej-komuniti-shah-alam",
+  "CreatedDate": "2015-06-05T10:39:29.5076314+08:00",
+  "ChangedBy": "admin",
+  "ChangedDate": "2015-06-19T16:05:14.4296007+08:00",
+  "WebId": "c4542173-0356-4f63-a26b-ccf3661a7a33"
+}

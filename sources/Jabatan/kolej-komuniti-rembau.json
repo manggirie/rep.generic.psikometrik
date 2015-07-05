@@ -1,0 +1,14 @@
+{
+  "$type": "Bespoke.epsikologi_jabatan.Domain.Jabatan, epsikologi.Jabatan",
+  "JabatanNo": "184390",
+  "NamaJabatan": "KOLEJ KOMUNITI REMBAU",
+  "AgensiNo": "26281",
+  "Kementerian": "KEM. PENGAJIAN TINGGI",
+  "AgensiKumpulan": "BBP",
+  "CreatedBy": "admin",
+  "Id": "kolej-komuniti-rembau",
+  "CreatedDate": "2015-06-05T10:39:28.1115526+08:00",
+  "ChangedBy": "admin",
+  "ChangedDate": "2015-06-19T16:05:13.2560491+08:00",
+  "WebId": "1d4c6745-f1b2-4b68-a0cc-61b5a865af22"
+}

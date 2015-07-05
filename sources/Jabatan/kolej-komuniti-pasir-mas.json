@@ -1,0 +1,14 @@
+{
+  "$type": "Bespoke.epsikologi_jabatan.Domain.Jabatan, epsikologi.Jabatan",
+  "JabatanNo": "184214",
+  "NamaJabatan": "KOLEJ KOMUNITI PASIR MAS",
+  "AgensiNo": "26281",
+  "Kementerian": "KEM. PENGAJIAN TINGGI",
+  "AgensiKumpulan": "BBP",
+  "CreatedBy": "admin",
+  "Id": "kolej-komuniti-pasir-mas",
+  "CreatedDate": "2015-06-05T10:39:27.582525+08:00",
+  "ChangedBy": "admin",
+  "ChangedDate": "2015-06-19T16:05:12.9378995+08:00",
+  "WebId": "7f57c042-b446-46ac-b09d-714456414fd6"
+}

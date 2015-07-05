@@ -1,0 +1,14 @@
+{
+  "$type": "Bespoke.epsikologi_jabatan.Domain.Jabatan, epsikologi.Jabatan",
+  "JabatanNo": "184280",
+  "NamaJabatan": "KOLEJ KOMUNITI PAYA BESAR",
+  "AgensiNo": "26281",
+  "Kementerian": "KEM. PENGAJIAN TINGGI",
+  "AgensiKumpulan": "BBP",
+  "CreatedBy": "admin",
+  "Id": "kolej-komuniti-paya-besar",
+  "CreatedDate": "2015-06-05T10:39:27.7885346+08:00",
+  "ChangedBy": "admin",
+  "ChangedDate": "2015-06-19T16:05:13.0909723+08:00",
+  "WebId": "cb05c764-e212-454a-9835-f13b10a5e2d0"
+}

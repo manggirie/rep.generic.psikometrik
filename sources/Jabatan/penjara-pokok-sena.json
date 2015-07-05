@@ -1,0 +1,14 @@
+{
+  "$type": "Bespoke.epsikologi_jabatan.Domain.Jabatan, epsikologi.Jabatan",
+  "JabatanNo": "13062136",
+  "NamaJabatan": "PENJARA POKOK SENA",
+  "AgensiNo": "26618",
+  "Kementerian": "KEM. KESELAMATAN DALAM NEGERI",
+  "AgensiKumpulan": "BBP",
+  "CreatedBy": "admin",
+  "Id": "penjara-pokok-sena",
+  "CreatedDate": "2015-06-05T10:39:25.4764043+08:00",
+  "ChangedBy": "admin",
+  "ChangedDate": "2015-06-19T16:05:10.2316273+08:00",
+  "WebId": "7592648f-cf94-40e7-8097-acc59457ffcc"
+}

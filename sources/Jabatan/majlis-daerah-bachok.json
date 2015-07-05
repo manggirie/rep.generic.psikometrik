@@ -1,0 +1,14 @@
+{
+  "$type": "Bespoke.epsikologi_jabatan.Domain.Jabatan, epsikologi.Jabatan",
+  "JabatanNo": "62482",
+  "NamaJabatan": "MAJLIS DAERAH BACHOK",
+  "AgensiNo": "NA",
+  "Kementerian": null,
+  "AgensiKumpulan": "PBT",
+  "CreatedBy": "admin",
+  "Id": "majlis-daerah-bachok",
+  "CreatedDate": "2015-06-05T10:39:35.3089587+08:00",
+  "ChangedBy": "admin",
+  "ChangedDate": "2015-06-19T16:05:20.3193694+08:00",
+  "WebId": "b345df02-271b-4b32-806f-94f50fe9d303"
+}

@@ -1,0 +1,14 @@
+{
+  "$type": "Bespoke.epsikologi_jabatan.Domain.Jabatan, epsikologi.Jabatan",
+  "JabatanNo": "25973",
+  "NamaJabatan": "PERBADANAN STADIUM MALAYSIA (PSM)",
+  "AgensiNo": "NA",
+  "Kementerian": null,
+  "AgensiKumpulan": "BBP",
+  "CreatedBy": "admin",
+  "Id": "perbadanan-stadium-malaysia-psm-",
+  "CreatedDate": "2015-06-05T10:39:32.2177842+08:00",
+  "ChangedBy": "admin",
+  "ChangedDate": "2015-06-19T16:05:16.8277281+08:00",
+  "WebId": "bf72acf7-51fb-42f6-aae7-10c2dd02409d"
+}

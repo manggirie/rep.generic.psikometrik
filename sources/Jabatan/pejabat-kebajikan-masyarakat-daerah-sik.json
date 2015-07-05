@@ -1,0 +1,14 @@
+{
+  "$type": "Bespoke.epsikologi_jabatan.Domain.Jabatan, epsikologi.Jabatan",
+  "JabatanNo": "219371",
+  "NamaJabatan": "PEJABAT KEBAJIKAN MASYARAKAT DAERAH SIK",
+  "AgensiNo": "24556",
+  "Kementerian": "KEM. PEMBANGUNAN WANITA, KELUARGA & MASYARAKAT",
+  "AgensiKumpulan": "BBN",
+  "CreatedBy": "admin",
+  "Id": "pejabat-kebajikan-masyarakat-daerah-sik",
+  "CreatedDate": "2015-06-05T10:39:31.1957275+08:00",
+  "ChangedBy": "admin",
+  "ChangedDate": "2015-06-19T16:05:15.9313067+08:00",
+  "WebId": "81a4e674-000c-4f2a-86ef-f26cb8f41c92"
+}

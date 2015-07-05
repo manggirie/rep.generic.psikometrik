@@ -1,0 +1,14 @@
+{
+  "$type": "Bespoke.epsikologi_jabatan.Domain.Jabatan, epsikologi.Jabatan",
+  "JabatanNo": "59385",
+  "NamaJabatan": "SURUHANJAYA HAK ASASI MANUSIA MALAYSIA (SUHAKAM)",
+  "AgensiNo": "NA",
+  "Kementerian": null,
+  "AgensiKumpulan": "BBP",
+  "CreatedBy": "admin",
+  "Id": "suruhanjaya-hak-asasi-manusia-malaysia-suhakam-",
+  "CreatedDate": "2015-06-05T10:39:34.7709285+08:00",
+  "ChangedBy": "admin",
+  "ChangedDate": "2015-06-19T16:05:19.6760666+08:00",
+  "WebId": "fa3df0c1-d4ed-412e-857b-8e362e23f567"
+}

@@ -1,0 +1,14 @@
+{
+  "$type": "Bespoke.epsikologi_jabatan.Domain.Jabatan, epsikologi.Jabatan",
+  "JabatanNo": "62857",
+  "NamaJabatan": "MAJLIS PERBANDARAN PASIR GUDANG",
+  "AgensiNo": "NA",
+  "Kementerian": null,
+  "AgensiKumpulan": "PBT",
+  "CreatedBy": "admin",
+  "Id": "majlis-perbandaran-pasir-gudang",
+  "CreatedDate": "2015-06-05T10:39:35.5839744+08:00",
+  "ChangedBy": "admin",
+  "ChangedDate": "2015-06-19T16:05:20.5684861+08:00",
+  "WebId": "ad17f43c-d76d-4bd1-8338-b265ec4fb71c"
+}

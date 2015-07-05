@@ -1,0 +1,14 @@
+{
+  "$type": "Bespoke.epsikologi_kementerian.Domain.Kementerian, epsikologi.Kementerian",
+  "KementerianNo": "31306",
+  "NamaKementerian": "PSUK NEGERI SEMBILAN",
+  "Negeri": "Negeri Sembilan Darul Khusus",
+  "KumpulanAgensi": "PAN",
+  "Abbreviation": null,
+  "CreatedBy": "admin",
+  "Id": "psuk-negeri-sembilan",
+  "CreatedDate": "2015-06-17T18:52:30.3105978+08:00",
+  "ChangedBy": "admin",
+  "ChangedDate": "2015-06-17T18:52:30.3065941+08:00",
+  "WebId": "4259d776-2a3b-4ab8-92b8-90a8e90c012b"
+}

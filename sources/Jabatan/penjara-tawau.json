@@ -1,0 +1,14 @@
+{
+  "$type": "Bespoke.epsikologi_jabatan.Domain.Jabatan, epsikologi.Jabatan",
+  "JabatanNo": "41379",
+  "NamaJabatan": "PENJARA TAWAU",
+  "AgensiNo": "26618",
+  "Kementerian": "KEM. KESELAMATAN DALAM NEGERI",
+  "AgensiKumpulan": "BBP",
+  "CreatedBy": "admin",
+  "Id": "penjara-tawau",
+  "CreatedDate": "2015-06-05T10:39:33.0618325+08:00",
+  "ChangedBy": "admin",
+  "ChangedDate": "2015-06-19T16:05:17.541063+08:00",
+  "WebId": "28d1d515-8462-41c1-bf09-8f494d250715"
+}

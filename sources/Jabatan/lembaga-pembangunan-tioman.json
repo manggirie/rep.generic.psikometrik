@@ -1,0 +1,14 @@
+{
+  "$type": "Bespoke.epsikologi_jabatan.Domain.Jabatan, epsikologi.Jabatan",
+  "JabatanNo": "178828",
+  "NamaJabatan": "LEMBAGA PEMBANGUNAN TIOMAN",
+  "AgensiNo": "53300",
+  "Kementerian": "PSUK NEGERI PAHANG",
+  "AgensiKumpulan": "BBN",
+  "CreatedBy": "admin",
+  "Id": "lembaga-pembangunan-tioman",
+  "CreatedDate": "2015-06-05T10:39:26.3434538+08:00",
+  "ChangedBy": "admin",
+  "ChangedDate": "2015-06-19T16:05:11.774353+08:00",
+  "WebId": "78b045c3-ba92-4f4e-9aba-466b642b18bb"
+}

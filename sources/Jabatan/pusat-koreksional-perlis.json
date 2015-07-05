@@ -1,0 +1,14 @@
+{
+  "$type": "Bespoke.epsikologi_jabatan.Domain.Jabatan, epsikologi.Jabatan",
+  "JabatanNo": "218043",
+  "NamaJabatan": "PUSAT KOREKSIONAL PERLIS",
+  "AgensiNo": "40112",
+  "Kementerian": "PSUK NEGERI PERLIS",
+  "AgensiKumpulan": "BBP",
+  "CreatedBy": "admin",
+  "Id": "pusat-koreksional-perlis",
+  "CreatedDate": "2015-06-05T10:39:30.5596906+08:00",
+  "ChangedBy": "admin",
+  "ChangedDate": "2015-06-19T16:05:15.2739972+08:00",
+  "WebId": "a5c956ca-ac44-4b4e-baff-7c90b53d9cc9"
+}

@@ -1,0 +1,14 @@
+{
+  "$type": "Bespoke.epsikologi_jabatan.Domain.Jabatan, epsikologi.Jabatan",
+  "JabatanNo": "31552",
+  "NamaJabatan": "MAJLIS AGAMA ISLAM NEGERI SEMBILAN",
+  "AgensiNo": "31306",
+  "Kementerian": "PSUK NEGERI SEMBILAN",
+  "AgensiKumpulan": "BBN",
+  "CreatedBy": "admin",
+  "Id": "majlis-agama-islam-negeri-sembilan",
+  "CreatedDate": "2015-06-05T10:39:32.5328015+08:00",
+  "ChangedBy": "admin",
+  "ChangedDate": "2015-06-19T16:05:17.0548382+08:00",
+  "WebId": "2888e3bd-2973-4c15-b4fa-adb144385691"
+}
