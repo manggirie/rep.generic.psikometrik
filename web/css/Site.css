@@ -37,9 +37,12 @@ input[type="checkbox"].input-validation-error {
 
 #slider-menu {
   width: 280px;
-  display: block;
-/*  background-color: #485563;*/
+  display: none;
+  background-color: #4e5d6c;
   margin-top: -20px;
+  min-height: 400px;
+  z-index: 99999;
+  position: absolute;
 }
 #slider-menu .nav > li {
   padding: 5px;
@@ -196,7 +199,7 @@ select:invalid, input:invalid, textarea:invalid {
     line-height: 30px;
     outline: none;
     background-color: red;
-    
+
 }
 
 .tt-query, .tt-input { /* UPDATE: newer versions use tt-input instead of tt-query */

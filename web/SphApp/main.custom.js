@@ -6579,7 +6579,7 @@ define('viewmodels/shell', ["durandal/system","services/system", "plugins/router
                 $("#slider-menu").on("click", "li>a", function () {
                     hideSlider();
                     sliderVisible = false;
-                });
+                }).hide();
 
                 $(document).on("keyup", function (e) {
                     if (e.ctrlKey && e.keyCode === 81) {
