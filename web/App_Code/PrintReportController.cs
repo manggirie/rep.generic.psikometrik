@@ -33,7 +33,7 @@ namespace web.sph.App_Code
     		if(null == sesi)
     			return HttpNotFound("Cannot find SesiUjian " + id);
 
-        var vm = new IpTraitViewModel(sesi);
+            var vm = new IpTraitViewModel(sesi);
     		return View("Trait-Ip-" + vm.Result, vm);
     	}
 
@@ -46,7 +46,7 @@ namespace web.sph.App_Code
     		if(null == sesi)
     			return HttpNotFound("Cannot find SesiUjian " + id);
 
-        var vm = new IbkTraitViewModel(sesi);
+            var vm = new IbkTraitViewModel(sesi);
     		return View("Trait-Ibk-" + vm.Result, vm);
     	}
 
