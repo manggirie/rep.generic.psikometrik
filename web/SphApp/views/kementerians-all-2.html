@@ -1,0 +1,46 @@
+<h1>Senarai Kementerian</h1>
+<div class="row">
+    <div class="col-md-8">
+        <button class="btn btn-link pull-right" data-bind="visible: chartFiltered, click: clearChartFilter">
+            <i class="fa fa-times"></i>
+            Clear chart's filter
+        </button>
+        <table class="table table-striped" data-bind="filter : {path:'tbody>tr'}, searchPaging :{ query: query, map : map, entity : 'Kementerian', list:list}">
+            <thead>
+                <tr>
+                    <th>ID</th>
+                    <th>No Kementerian </th>
+                    <th>Nama Kementerian</th>
+                    <th>Kumpulan Agensi</th>
+                    <th>Negeri</th>
+                </tr>
+            </thead>
+            <tbody data-bind="foreach :list">
+                <tr data-bind="">
+
+                    <td data-bind="text:Id"></td>
+                    <td>
+                        <a data-bind="attr : {href:'#senarai-jabatan-mengikut-kementerian' + '/' + Id, title:'No Kementerian ' }">
+                            <i class="fa fa-plus-square-o"></i>
+                                                        <span data-bind="text:KementerianNo"></span>
+                        </a>
+                    </td>
+                    <td>
+                        <a data-bind="attr : {href:'#kementerian-details' + '/' + Id, title:'Nama Kementerian' }">
+                            <i class="fa fa-folder"></i>
+                                                        <span data-bind="text:NamaKementerian"></span>
+                        </a>
+                    </td>
+                    <td data-bind="text:KumpulanAgensi"></td>
+                    <td data-bind="text:Negeri"></td>
+
+
+                </tr>
+            </tbody>
+        </table>
+        <img src="/Images/spinner-md.gif" alt="loading" class="absolute-center" data-bind="visible: isBusy" />
+    </div>
+
+    <!-- ko compose : {view : '_chart.panel'}-->
+    <!-- /ko -->
+</div>
