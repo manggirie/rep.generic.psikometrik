@@ -1,0 +1,14 @@
+{
+  "$type": "Bespoke.epsikologi_jabatan.Domain.Jabatan, epsikologi.Jabatan",
+  "JabatanNo": "214680",
+  "NamaJabatan": "JABATAN KEBAJIKAN MASYARAKAT NEGERI JOHOR",
+  "AgensiNo": "24556",
+  "Kementerian": "KEM. PEMBANGUNAN WANITA, KELUARGA & MASYARAKAT",
+  "AgensiKumpulan": "BBN",
+  "CreatedBy": "admin",
+  "Id": "jabatan-kebajikan-masyarakat-negeri-johor",
+  "CreatedDate": "2015-06-05T10:39:28.9976027+08:00",
+  "ChangedBy": "admin",
+  "ChangedDate": "2015-06-19T16:05:14.1004464+08:00",
+  "WebId": "76140905-4576-4d8e-99c9-69f0754a416b"
+}

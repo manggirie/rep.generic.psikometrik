@@ -1,0 +1,14 @@
+{
+  "$type": "Bespoke.epsikologi_jabatan.Domain.Jabatan, epsikologi.Jabatan",
+  "JabatanNo": "55848",
+  "NamaJabatan": "MAJLIS DAERAH PENGKALAN HULU",
+  "AgensiNo": "NA",
+  "Kementerian": null,
+  "AgensiKumpulan": "PBT",
+  "CreatedBy": "admin",
+  "Id": "majlis-daerah-pengkalan-hulu",
+  "CreatedDate": "2015-06-05T10:39:34.3479047+08:00",
+  "ChangedBy": "admin",
+  "ChangedDate": "2015-06-19T16:05:19.2178516+08:00",
+  "WebId": "056e752d-8ac4-4dea-9df4-50561a0a0683"
+}

@@ -1,0 +1,14 @@
+{
+  "$type": "Bespoke.epsikologi_jabatan.Domain.Jabatan, epsikologi.Jabatan",
+  "JabatanNo": "190883",
+  "NamaJabatan": "UNIVERSITI SULTAN ZAINAL ABIDIN (UniSZA)",
+  "AgensiNo": "26281",
+  "Kementerian": "KEM. PENGAJIAN TINGGI",
+  "AgensiKumpulan": "BBP",
+  "CreatedBy": "admin",
+  "Id": "universiti-sultan-zainal-abidin-unisza-",
+  "CreatedDate": "2015-06-05T10:39:28.3875682+08:00",
+  "ChangedBy": "admin",
+  "ChangedDate": "2015-06-19T16:05:13.6272235+08:00",
+  "WebId": "18e8b3bf-2a54-4f21-82f8-7aaa7c1f763d"
+}

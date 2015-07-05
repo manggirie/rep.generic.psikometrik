@@ -1,0 +1,14 @@
+{
+  "$type": "Bespoke.epsikologi_jabatan.Domain.Jabatan, epsikologi.Jabatan",
+  "JabatanNo": "183896",
+  "NamaJabatan": "KOLEJ KOMUNITI PASIR GUDANG",
+  "AgensiNo": "26281",
+  "Kementerian": "KEM. PENGAJIAN TINGGI",
+  "AgensiKumpulan": "BBP",
+  "CreatedBy": "admin",
+  "Id": "kolej-komuniti-pasir-gudang",
+  "CreatedDate": "2015-06-05T10:39:26.8694832+08:00",
+  "ChangedBy": "admin",
+  "ChangedDate": "2015-06-19T16:05:12.3666305+08:00",
+  "WebId": "f90e540a-d196-4fa4-b9b2-b9cd8e6f09d1"
+}

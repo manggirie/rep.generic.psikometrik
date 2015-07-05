@@ -1,0 +1,14 @@
+{
+  "$type": "Bespoke.epsikologi_jabatan.Domain.Jabatan, epsikologi.Jabatan",
+  "JabatanNo": "184340",
+  "NamaJabatan": "KOLEJ KOMUNITI SEGAMAT 2",
+  "AgensiNo": "26281",
+  "Kementerian": "KEM. PENGAJIAN TINGGI",
+  "AgensiKumpulan": "BBP",
+  "CreatedBy": "admin",
+  "Id": "kolej-komuniti-segamat-2",
+  "CreatedDate": "2015-06-05T10:39:27.9265446+08:00",
+  "ChangedBy": "admin",
+  "ChangedDate": "2015-06-19T16:05:13.2030263+08:00",
+  "WebId": "efbec55d-3484-402e-b280-76efad708fbd"
+}

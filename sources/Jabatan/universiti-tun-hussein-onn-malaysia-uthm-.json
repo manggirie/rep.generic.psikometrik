@@ -1,0 +1,14 @@
+{
+  "$type": "Bespoke.epsikologi_jabatan.Domain.Jabatan, epsikologi.Jabatan",
+  "JabatanNo": "179973",
+  "NamaJabatan": "UNIVERSITI TUN HUSSEIN ONN MALAYSIA (UTHM)",
+  "AgensiNo": "26281",
+  "Kementerian": "KEM. PENGAJIAN TINGGI",
+  "AgensiKumpulan": "BBP",
+  "CreatedBy": "admin",
+  "Id": "universiti-tun-hussein-onn-malaysia-uthm-",
+  "CreatedDate": "2015-06-05T10:39:26.4654604+08:00",
+  "ChangedBy": "admin",
+  "ChangedDate": "2015-06-19T16:05:11.908416+08:00",
+  "WebId": "099affa3-9767-4c04-bd68-8c85a5ee2773"
+}

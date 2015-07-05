@@ -1,0 +1,14 @@
+{
+  "$type": "Bespoke.epsikologi_jabatan.Domain.Jabatan, epsikologi.Jabatan",
+  "JabatanNo": "52554",
+  "NamaJabatan": "MAJLIS PERBANDARAN PULAU PINANG",
+  "AgensiNo": "50850",
+  "Kementerian": "PSUK NEGERI PULAU PINANG",
+  "AgensiKumpulan": "PBT",
+  "CreatedBy": "admin",
+  "Id": "majlis-perbandaran-pulau-pinang",
+  "CreatedDate": "2015-06-05T10:39:33.9098794+08:00",
+  "ChangedBy": "admin",
+  "ChangedDate": "2015-06-19T16:05:18.7446287+08:00",
+  "WebId": "faa25c85-067c-4b59-873a-f86d1e5b9a50"
+}

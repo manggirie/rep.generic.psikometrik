@@ -1,0 +1,14 @@
+{
+  "$type": "Bespoke.epsikologi_jabatan.Domain.Jabatan, epsikologi.Jabatan",
+  "JabatanNo": "62620",
+  "NamaJabatan": "PERBADANAN PERPUSTAKAAN AWAM JOHOR",
+  "AgensiNo": "59098",
+  "Kementerian": "PSUK NEGERI JOHOR",
+  "AgensiKumpulan": "BBN",
+  "CreatedBy": "admin",
+  "Id": "perbadanan-perpustakaan-awam-johor",
+  "CreatedDate": "2015-06-05T10:39:35.4879687+08:00",
+  "ChangedBy": "admin",
+  "ChangedDate": "2015-06-19T16:05:20.4914503+08:00",
+  "WebId": "299289aa-90b5-4e4a-8c9c-7200ec0cd114"
+}

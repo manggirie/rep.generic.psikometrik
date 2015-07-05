@@ -1,0 +1,14 @@
+{
+  "$type": "Bespoke.epsikologi_jabatan.Domain.Jabatan, epsikologi.Jabatan",
+  "JabatanNo": "60396",
+  "NamaJabatan": "YAYASAN ISLAM KELANTAN",
+  "AgensiNo": "59081",
+  "Kementerian": "PSUK NEGERI KELANTAN",
+  "AgensiKumpulan": "BBN",
+  "CreatedBy": "admin",
+  "Id": "yayasan-islam-kelantan",
+  "CreatedDate": "2015-06-05T10:39:34.8269318+08:00",
+  "ChangedBy": "admin",
+  "ChangedDate": "2015-06-19T16:05:19.7300924+08:00",
+  "WebId": "59e43e41-36ba-4a4b-9d92-72143f7e11c9"
+}

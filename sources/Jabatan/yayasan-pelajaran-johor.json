@@ -1,0 +1,14 @@
+{
+  "$type": "Bespoke.epsikologi_jabatan.Domain.Jabatan, epsikologi.Jabatan",
+  "JabatanNo": "62578",
+  "NamaJabatan": "YAYASAN PELAJARAN JOHOR",
+  "AgensiNo": "59098",
+  "Kementerian": "PSUK NEGERI JOHOR",
+  "AgensiKumpulan": "BBN",
+  "CreatedBy": "admin",
+  "Id": "yayasan-pelajaran-johor",
+  "CreatedDate": "2015-06-05T10:39:35.4399661+08:00",
+  "ChangedBy": "admin",
+  "ChangedDate": "2015-06-19T16:05:20.4454287+08:00",
+  "WebId": "6816a7f6-4437-4916-92ad-200cb8a370b0"
+}

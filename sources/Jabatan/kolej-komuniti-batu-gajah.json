@@ -1,0 +1,14 @@
+{
+  "$type": "Bespoke.epsikologi_jabatan.Domain.Jabatan, epsikologi.Jabatan",
+  "JabatanNo": "218048",
+  "NamaJabatan": "KOLEJ KOMUNITI BATU GAJAH",
+  "AgensiNo": "26281",
+  "Kementerian": "KEM. PENGAJIAN TINGGI",
+  "AgensiKumpulan": "BBP",
+  "CreatedBy": "admin",
+  "Id": "kolej-komuniti-batu-gajah",
+  "CreatedDate": "2015-06-05T10:39:30.5736917+08:00",
+  "ChangedBy": "admin",
+  "ChangedDate": "2015-06-19T16:05:15.3070132+08:00",
+  "WebId": "2552700b-5fc3-4e62-9929-6e5ee6dfe448"
+}

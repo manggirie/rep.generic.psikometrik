@@ -1,0 +1,14 @@
+{
+  "$type": "Bespoke.epsikologi_jabatan.Domain.Jabatan, epsikologi.Jabatan",
+  "JabatanNo": "50611",
+  "NamaJabatan": "MAJLIS AGAMA ISLAM & ADAT ISTIADAT MELAYU PERLIS",
+  "AgensiNo": "40112",
+  "Kementerian": "PSUK NEGERI PERLIS",
+  "AgensiKumpulan": "BBN",
+  "CreatedBy": "admin",
+  "Id": "majlis-agama-islam-adat-istiadat-melayu-perlis",
+  "CreatedDate": "2015-06-05T10:39:33.6908675+08:00",
+  "ChangedBy": "admin",
+  "ChangedDate": "2015-06-19T16:05:18.3494434+08:00",
+  "WebId": "b17f34e7-8fcb-44a2-9e24-ba0bcbcf1eb0"
+}

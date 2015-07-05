@@ -1,0 +1,14 @@
+{
+  "$type": "Bespoke.epsikologi_jabatan.Domain.Jabatan, epsikologi.Jabatan",
+  "JabatanNo": "216429",
+  "NamaJabatan": "KOLEJ KOMUNITI TAPAH",
+  "AgensiNo": "26281",
+  "Kementerian": "KEM. PENGAJIAN TINGGI",
+  "AgensiKumpulan": "BBP",
+  "CreatedBy": "admin",
+  "Id": "kolej-komuniti-tapah",
+  "CreatedDate": "2015-06-05T10:39:29.9526566+08:00",
+  "ChangedBy": "admin",
+  "ChangedDate": "2015-06-19T16:05:14.7767643+08:00",
+  "WebId": "cda0f1e9-59f6-467a-bbde-2a68575fc1b4"
+}

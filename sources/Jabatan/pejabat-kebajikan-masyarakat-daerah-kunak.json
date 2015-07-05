@@ -1,0 +1,14 @@
+{
+  "$type": "Bespoke.epsikologi_jabatan.Domain.Jabatan, epsikologi.Jabatan",
+  "JabatanNo": "228294",
+  "NamaJabatan": "PEJABAT KEBAJIKAN MASYARAKAT DAERAH KUNAK",
+  "AgensiNo": "24556",
+  "Kementerian": "KEM. PEMBANGUNAN WANITA, KELUARGA & MASYARAKAT",
+  "AgensiKumpulan": "BBN",
+  "CreatedBy": "admin",
+  "Id": "pejabat-kebajikan-masyarakat-daerah-kunak",
+  "CreatedDate": "2015-06-05T10:39:31.6937561+08:00",
+  "ChangedBy": "admin",
+  "ChangedDate": "2015-06-19T16:05:16.4435479+08:00",
+  "WebId": "2fcb4600-2f5a-4150-a82e-36da6f01b149"
+}

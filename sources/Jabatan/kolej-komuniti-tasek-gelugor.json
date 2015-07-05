@@ -1,0 +1,14 @@
+{
+  "$type": "Bespoke.epsikologi_jabatan.Domain.Jabatan, epsikologi.Jabatan",
+  "JabatanNo": "216346",
+  "NamaJabatan": "KOLEJ KOMUNITI TASEK GELUGOR",
+  "AgensiNo": "26281",
+  "Kementerian": "KEM. PENGAJIAN TINGGI",
+  "AgensiKumpulan": "BBP",
+  "CreatedBy": "admin",
+  "Id": "kolej-komuniti-tasek-gelugor",
+  "CreatedDate": "2015-06-05T10:39:29.9026541+08:00",
+  "ChangedBy": "admin",
+  "ChangedDate": "2015-06-19T16:05:14.7387461+08:00",
+  "WebId": "d063b334-adec-47b8-85dc-b39e22e047ca"
+}

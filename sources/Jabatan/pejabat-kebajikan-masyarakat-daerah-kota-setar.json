@@ -1,0 +1,14 @@
+{
+  "$type": "Bespoke.epsikologi_jabatan.Domain.Jabatan, epsikologi.Jabatan",
+  "JabatanNo": "215123",
+  "NamaJabatan": "PEJABAT KEBAJIKAN MASYARAKAT DAERAH KOTA SETAR",
+  "AgensiNo": "24556",
+  "Kementerian": "KEM. PEMBANGUNAN WANITA, KELUARGA & MASYARAKAT",
+  "AgensiKumpulan": "BBN",
+  "CreatedBy": "admin",
+  "Id": "pejabat-kebajikan-masyarakat-daerah-kota-setar",
+  "CreatedDate": "2015-06-05T10:39:29.458629+08:00",
+  "ChangedBy": "admin",
+  "ChangedDate": "2015-06-19T16:05:14.3805781+08:00",
+  "WebId": "5f54182a-e848-43e4-a536-0bbc08fc929e"
+}

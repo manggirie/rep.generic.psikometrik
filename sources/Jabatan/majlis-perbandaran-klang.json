@@ -1,0 +1,14 @@
+{
+  "$type": "Bespoke.epsikologi_jabatan.Domain.Jabatan, epsikologi.Jabatan",
+  "JabatanNo": "88542",
+  "NamaJabatan": "MAJLIS PERBANDARAN KLANG",
+  "AgensiNo": "NA",
+  "Kementerian": null,
+  "AgensiKumpulan": "PBT",
+  "CreatedBy": "admin",
+  "Id": "majlis-perbandaran-klang",
+  "CreatedDate": "2015-06-05T10:39:36.6840362+08:00",
+  "ChangedBy": "admin",
+  "ChangedDate": "2015-06-19T16:05:21.8690975+08:00",
+  "WebId": "8d610b8b-2cec-4ce7-8e45-348665bf335f"
+}

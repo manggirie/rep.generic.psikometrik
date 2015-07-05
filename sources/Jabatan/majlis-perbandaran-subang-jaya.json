@@ -1,0 +1,14 @@
+{
+  "$type": "Bespoke.epsikologi_jabatan.Domain.Jabatan, epsikologi.Jabatan",
+  "JabatanNo": "51787",
+  "NamaJabatan": "MAJLIS PERBANDARAN SUBANG JAYA",
+  "AgensiNo": "NA",
+  "Kementerian": null,
+  "AgensiKumpulan": "PBT",
+  "CreatedBy": "admin",
+  "Id": "majlis-perbandaran-subang-jaya",
+  "CreatedDate": "2015-06-05T10:39:33.831875+08:00",
+  "ChangedBy": "admin",
+  "ChangedDate": "2015-06-19T16:05:18.6035624+08:00",
+  "WebId": "063adc8d-c617-42cd-93ed-20eeee56eab7"
+}

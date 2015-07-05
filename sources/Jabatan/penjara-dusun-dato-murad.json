@@ -1,0 +1,14 @@
+{
+  "$type": "Bespoke.epsikologi_jabatan.Domain.Jabatan, epsikologi.Jabatan",
+  "JabatanNo": "13063574",
+  "NamaJabatan": "PENJARA DUSUN DATO MURAD",
+  "AgensiNo": "26618",
+  "Kementerian": "KEM. KESELAMATAN DALAM NEGERI",
+  "AgensiKumpulan": "BBP",
+  "CreatedBy": "admin",
+  "Id": "penjara-dusun-dato-murad",
+  "CreatedDate": "2015-06-05T10:39:25.8224232+08:00",
+  "ChangedBy": "admin",
+  "ChangedDate": "2015-06-19T16:05:11.1440562+08:00",
+  "WebId": "b3a9dd6f-d64a-4578-9a87-f064f1fd1305"
+}

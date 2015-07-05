@@ -1,0 +1,14 @@
+{
+  "$type": "Bespoke.epsikologi_jabatan.Domain.Jabatan, epsikologi.Jabatan",
+  "JabatanNo": "62589",
+  "NamaJabatan": "YAYASAN WARISAN JOHOR",
+  "AgensiNo": "59098",
+  "Kementerian": "PSUK NEGERI JOHOR",
+  "AgensiKumpulan": "BBN",
+  "CreatedBy": "admin",
+  "Id": "yayasan-warisan-johor",
+  "CreatedDate": "2015-06-05T10:39:35.4579672+08:00",
+  "ChangedBy": "admin",
+  "ChangedDate": "2015-06-19T16:05:20.4614362+08:00",
+  "WebId": "496406ed-78a1-4637-8bb3-7b13f3aafc71"
+}

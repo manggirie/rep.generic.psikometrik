@@ -1,0 +1,14 @@
+{
+  "$type": "Bespoke.epsikologi_jabatan.Domain.Jabatan, epsikologi.Jabatan",
+  "JabatanNo": "39443",
+  "NamaJabatan": "YAYASAN MELAKA",
+  "AgensiNo": "NA",
+  "Kementerian": null,
+  "AgensiKumpulan": "BBN",
+  "CreatedBy": "admin",
+  "Id": "yayasan-melaka",
+  "CreatedDate": "2015-06-05T10:39:32.8168185+08:00",
+  "ChangedBy": "admin",
+  "ChangedDate": "2015-06-19T16:05:17.3649802+08:00",
+  "WebId": "94fcc382-7862-4975-afa4-eccf87f665d1"
+}

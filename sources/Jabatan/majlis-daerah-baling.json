@@ -1,0 +1,14 @@
+{
+  "$type": "Bespoke.epsikologi_jabatan.Domain.Jabatan, epsikologi.Jabatan",
+  "JabatanNo": "42382",
+  "NamaJabatan": "MAJLIS DAERAH BALING",
+  "AgensiNo": "NA",
+  "Kementerian": null,
+  "AgensiKumpulan": "PBT",
+  "CreatedBy": "admin",
+  "Id": "majlis-daerah-baling",
+  "CreatedDate": "2015-06-05T10:39:33.2688436+08:00",
+  "ChangedBy": "admin",
+  "ChangedDate": "2015-06-19T16:05:17.7651683+08:00",
+  "WebId": "e55f5dec-dda4-435c-8b65-e47939fe255c"
+}

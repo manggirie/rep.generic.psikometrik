@@ -1,0 +1,14 @@
+{
+  "$type": "Bespoke.epsikologi_jabatan.Domain.Jabatan, epsikologi.Jabatan",
+  "JabatanNo": "62470",
+  "NamaJabatan": "MAJLIS DAERAH DABONG",
+  "AgensiNo": "NA",
+  "Kementerian": null,
+  "AgensiKumpulan": "PBT",
+  "CreatedBy": "admin",
+  "Id": "majlis-daerah-dabong",
+  "CreatedDate": "2015-06-05T10:39:35.2669561+08:00",
+  "ChangedBy": "admin",
+  "ChangedDate": "2015-06-19T16:05:20.2563398+08:00",
+  "WebId": "d21400af-dd47-4e73-ab10-d2625cfdfc80"
+}

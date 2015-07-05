@@ -1,0 +1,14 @@
+{
+  "$type": "Bespoke.epsikologi_jabatan.Domain.Jabatan, epsikologi.Jabatan",
+  "JabatanNo": "217143",
+  "NamaJabatan": "PEJABAT KEBAJIKAN MASYARAKAT DAERAH HULU TERENGGANU ",
+  "AgensiNo": "24556",
+  "Kementerian": "KEM. PEMBANGUNAN WANITA, KELUARGA & MASYARAKAT",
+  "AgensiKumpulan": "BBN",
+  "CreatedBy": "admin",
+  "Id": "pejabat-kebajikan-masyarakat-daerah-hulu-terenggan",
+  "CreatedDate": "2015-06-05T10:39:30.061663+08:00",
+  "ChangedBy": "admin",
+  "ChangedDate": "2015-06-19T16:05:14.8467973+08:00",
+  "WebId": "eedb11b1-a12d-4213-bd8d-b538110c2c97"
+}

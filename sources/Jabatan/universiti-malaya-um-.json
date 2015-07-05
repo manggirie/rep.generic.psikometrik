@@ -1,0 +1,14 @@
+{
+  "$type": "Bespoke.epsikologi_jabatan.Domain.Jabatan, epsikologi.Jabatan",
+  "JabatanNo": "187165",
+  "NamaJabatan": "UNIVERSITI MALAYA (UM)",
+  "AgensiNo": "26281",
+  "Kementerian": "KEM. PENGAJIAN TINGGI",
+  "AgensiKumpulan": "BBP",
+  "CreatedBy": "admin",
+  "Id": "universiti-malaya-um-",
+  "CreatedDate": "2015-06-05T10:39:28.271562+08:00",
+  "ChangedBy": "admin",
+  "ChangedDate": "2015-06-19T16:05:13.4361346+08:00",
+  "WebId": "e20189c8-ec7b-43ec-86c1-3ac7b3482e1e"
+}

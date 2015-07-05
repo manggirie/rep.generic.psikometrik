@@ -1,0 +1,14 @@
+{
+  "$type": "Bespoke.epsikologi_jabatan.Domain.Jabatan, epsikologi.Jabatan",
+  "JabatanNo": "183973",
+  "NamaJabatan": "KOLEJ KOMUNITI SELAYANG",
+  "AgensiNo": "26281",
+  "Kementerian": "KEM. PENGAJIAN TINGGI",
+  "AgensiKumpulan": "BBP",
+  "CreatedBy": "admin",
+  "Id": "kolej-komuniti-selayang",
+  "CreatedDate": "2015-06-05T10:39:27.134498+08:00",
+  "ChangedBy": "admin",
+  "ChangedDate": "2015-06-19T16:05:12.5277071+08:00",
+  "WebId": "8339485e-6a43-4395-bd35-7cf0618c18a0"
+}

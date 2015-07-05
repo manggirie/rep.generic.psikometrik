@@ -1,0 +1,14 @@
+{
+  "$type": "Bespoke.epsikologi_jabatan.Domain.Jabatan, epsikologi.Jabatan",
+  "JabatanNo": "53154",
+  "NamaJabatan": "MAJLIS PERBANDARAN DUNGUN",
+  "AgensiNo": "NA",
+  "Kementerian": null,
+  "AgensiKumpulan": "PBT",
+  "CreatedBy": "admin",
+  "Id": "majlis-perbandaran-dungun",
+  "CreatedDate": "2015-06-05T10:39:34.1128915+08:00",
+  "ChangedBy": "admin",
+  "ChangedDate": "2015-06-19T16:05:18.9447224+08:00",
+  "WebId": "1f4afba7-bf04-4b7a-bb20-d39384d1ba26"
+}

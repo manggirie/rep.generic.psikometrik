@@ -1,0 +1,14 @@
+{
+  "$type": "Bespoke.epsikologi_jabatan.Domain.Jabatan, epsikologi.Jabatan",
+  "JabatanNo": "184267",
+  "NamaJabatan": "KOLEJ KOMUNITI BETONG",
+  "AgensiNo": "26281",
+  "Kementerian": "KEM. PENGAJIAN TINGGI",
+  "AgensiKumpulan": "BBP",
+  "CreatedBy": "admin",
+  "Id": "kolej-komuniti-betong",
+  "CreatedDate": "2015-06-05T10:39:27.6885292+08:00",
+  "ChangedBy": "admin",
+  "ChangedDate": "2015-06-19T16:05:13.0279418+08:00",
+  "WebId": "86684869-005f-4236-931d-dae739878d0b"
+}

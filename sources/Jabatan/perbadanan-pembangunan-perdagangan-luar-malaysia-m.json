@@ -1,0 +1,14 @@
+{
+  "$type": "Bespoke.epsikologi_jabatan.Domain.Jabatan, epsikologi.Jabatan",
+  "JabatanNo": "52272",
+  "NamaJabatan": "PERBADANAN PEMBANGUNAN PERDAGANGAN LUAR MALAYSIA  (MATRADE)",
+  "AgensiNo": "NA",
+  "Kementerian": null,
+  "AgensiKumpulan": "BBP",
+  "CreatedBy": "admin",
+  "Id": "perbadanan-pembangunan-perdagangan-luar-malaysia-m",
+  "CreatedDate": "2015-06-05T10:39:33.8518768+08:00",
+  "ChangedBy": "admin",
+  "ChangedDate": "2015-06-19T16:05:18.6365784+08:00",
+  "WebId": "16bee4ab-04e2-4fb6-a9b0-ed02d91c7c22"
+}

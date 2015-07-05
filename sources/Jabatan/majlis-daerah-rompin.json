@@ -1,0 +1,14 @@
+{
+  "$type": "Bespoke.epsikologi_jabatan.Domain.Jabatan, epsikologi.Jabatan",
+  "JabatanNo": "178662",
+  "NamaJabatan": "MAJLIS DAERAH ROMPIN",
+  "AgensiNo": "NA",
+  "Kementerian": null,
+  "AgensiKumpulan": "PBT",
+  "CreatedBy": "admin",
+  "Id": "majlis-daerah-rompin",
+  "CreatedDate": "2015-06-05T10:39:26.2194459+08:00",
+  "ChangedBy": "admin",
+  "ChangedDate": "2015-06-19T16:05:11.5972757+08:00",
+  "WebId": "e3f7ff6b-4bc2-4291-a092-d2a25642d820"
+}

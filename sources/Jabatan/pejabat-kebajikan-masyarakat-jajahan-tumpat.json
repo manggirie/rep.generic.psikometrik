@@ -1,0 +1,14 @@
+{
+  "$type": "Bespoke.epsikologi_jabatan.Domain.Jabatan, epsikologi.Jabatan",
+  "JabatanNo": "228292",
+  "NamaJabatan": "PEJABAT KEBAJIKAN MASYARAKAT JAJAHAN TUMPAT",
+  "AgensiNo": "24556",
+  "Kementerian": "KEM. PEMBANGUNAN WANITA, KELUARGA & MASYARAKAT",
+  "AgensiKumpulan": "BBN",
+  "CreatedBy": "admin",
+  "Id": "pejabat-kebajikan-masyarakat-jajahan-tumpat",
+  "CreatedDate": "2015-06-05T10:39:31.6717537+08:00",
+  "ChangedBy": "admin",
+  "ChangedDate": "2015-06-19T16:05:16.4265399+08:00",
+  "WebId": "ea3b3534-0af8-4b14-bfe8-7c9567c5d979"
+}

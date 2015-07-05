@@ -1,0 +1,14 @@
+{
+  "$type": "Bespoke.epsikologi_jabatan.Domain.Jabatan, epsikologi.Jabatan",
+  "JabatanNo": "219113",
+  "NamaJabatan": "PEJABAT KEBAJIKAN MASYARAKAT DAERAH PONTIAN",
+  "AgensiNo": "24556",
+  "Kementerian": "KEM. PEMBANGUNAN WANITA, KELUARGA & MASYARAKAT",
+  "AgensiKumpulan": "BBN",
+  "CreatedBy": "admin",
+  "Id": "pejabat-kebajikan-masyarakat-daerah-pontian",
+  "CreatedDate": "2015-06-05T10:39:30.7637025+08:00",
+  "ChangedBy": "admin",
+  "ChangedDate": "2015-06-19T16:05:15.5631332+08:00",
+  "WebId": "0896a71d-3562-49c6-b678-eed1eee042fa"
+}

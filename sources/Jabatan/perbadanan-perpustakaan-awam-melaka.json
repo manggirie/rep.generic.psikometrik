@@ -1,0 +1,14 @@
+{
+  "$type": "Bespoke.epsikologi_jabatan.Domain.Jabatan, epsikologi.Jabatan",
+  "JabatanNo": "39573",
+  "NamaJabatan": "PERBADANAN PERPUSTAKAAN AWAM MELAKA",
+  "AgensiNo": "NA",
+  "Kementerian": null,
+  "AgensiKumpulan": "BBN",
+  "CreatedBy": "admin",
+  "Id": "perbadanan-perpustakaan-awam-melaka",
+  "CreatedDate": "2015-06-05T10:39:32.8618206+08:00",
+  "ChangedBy": "admin",
+  "ChangedDate": "2015-06-19T16:05:17.3799881+08:00",
+  "WebId": "db47cdd8-f25f-48ca-bf41-c7c5e708b0ab"
+}

@@ -1,0 +1,14 @@
+{
+  "$type": "Bespoke.epsikologi_jabatan.Domain.Jabatan, epsikologi.Jabatan",
+  "JabatanNo": "219215",
+  "NamaJabatan": "PEJABAT KEBAJIKAN MASYARAKAT DAERAH PUTRAJAYA",
+  "AgensiNo": "24556",
+  "Kementerian": "KEM. PEMBANGUNAN WANITA, KELUARGA & MASYARAKAT",
+  "AgensiKumpulan": "BBN",
+  "CreatedBy": "admin",
+  "Id": "pejabat-kebajikan-masyarakat-daerah-putrajaya",
+  "CreatedDate": "2015-06-05T10:39:30.8087052+08:00",
+  "ChangedBy": "admin",
+  "ChangedDate": "2015-06-19T16:05:15.6121562+08:00",
+  "WebId": "11eb5d11-73a2-4a4e-9763-8fe8142a9b65"
+}

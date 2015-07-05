@@ -1,0 +1,14 @@
+{
+  "$type": "Bespoke.epsikologi_jabatan.Domain.Jabatan, epsikologi.Jabatan",
+  "JabatanNo": "46108",
+  "NamaJabatan": "INSTITUT LATIHAN PERINDUSTRIAN BUKIT KATIL",
+  "AgensiNo": "NA",
+  "Kementerian": null,
+  "AgensiKumpulan": "BBP",
+  "CreatedBy": "admin",
+  "Id": "institut-latihan-perindustrian-bukit-katil",
+  "CreatedDate": "2015-06-05T10:39:33.4448544+08:00",
+  "ChangedBy": "admin",
+  "ChangedDate": "2015-06-19T16:05:17.993276+08:00",
+  "WebId": "06cb35db-9e49-4bd1-900f-d1579316d8a1"
+}

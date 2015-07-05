@@ -1,0 +1,14 @@
+{
+  "$type": "Bespoke.epsikologi_jabatan.Domain.Jabatan, epsikologi.Jabatan",
+  "JabatanNo": "184825",
+  "NamaJabatan": "KOLEJ KOMUNITI SEMPORNA",
+  "AgensiNo": "26281",
+  "Kementerian": "KEM. PENGAJIAN TINGGI",
+  "AgensiKumpulan": "BBP",
+  "CreatedBy": "admin",
+  "Id": "kolej-komuniti-semporna",
+  "CreatedDate": "2015-06-05T10:39:28.218559+08:00",
+  "ChangedBy": "admin",
+  "ChangedDate": "2015-06-19T16:05:13.3721032+08:00",
+  "WebId": "bbce950a-eb07-4e44-b297-d01b38b4bbbc"
+}

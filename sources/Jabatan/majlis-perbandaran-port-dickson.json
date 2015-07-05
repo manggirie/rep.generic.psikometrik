@@ -1,0 +1,14 @@
+{
+  "$type": "Bespoke.epsikologi_jabatan.Domain.Jabatan, epsikologi.Jabatan",
+  "JabatanNo": "31779",
+  "NamaJabatan": "MAJLIS PERBANDARAN PORT DICKSON",
+  "AgensiNo": "NA",
+  "Kementerian": null,
+  "AgensiKumpulan": "PBT",
+  "CreatedBy": "admin",
+  "Id": "majlis-perbandaran-port-dickson",
+  "CreatedDate": "2015-06-05T10:39:32.6708108+08:00",
+  "ChangedBy": "admin",
+  "ChangedDate": "2015-06-19T16:05:17.1939002+08:00",
+  "WebId": "4a9b20d4-3b6c-4588-9ff2-0f1cbd3602a5"
+}

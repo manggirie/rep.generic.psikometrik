@@ -1,0 +1,14 @@
+{
+  "$type": "Bespoke.epsikologi_jabatan.Domain.Jabatan, epsikologi.Jabatan",
+  "JabatanNo": "183775",
+  "NamaJabatan": "KOLEJ KOMUNITI HULU LANGAT",
+  "AgensiNo": "26281",
+  "Kementerian": "KEM. PENGAJIAN TINGGI",
+  "AgensiKumpulan": "BBP",
+  "CreatedBy": "admin",
+  "Id": "kolej-komuniti-hulu-langat",
+  "CreatedDate": "2015-06-05T10:39:26.7104737+08:00",
+  "ChangedBy": "admin",
+  "ChangedDate": "2015-06-19T16:05:12.1825444+08:00",
+  "WebId": "4357cdef-230c-4c5f-a8e4-7ba752f02d75"
+}

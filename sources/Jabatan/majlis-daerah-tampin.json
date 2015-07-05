@@ -1,0 +1,14 @@
+{
+  "$type": "Bespoke.epsikologi_jabatan.Domain.Jabatan, epsikologi.Jabatan",
+  "JabatanNo": "31744",
+  "NamaJabatan": "MAJLIS DAERAH TAMPIN",
+  "AgensiNo": "NA",
+  "Kementerian": null,
+  "AgensiKumpulan": "PBT",
+  "CreatedBy": "admin",
+  "Id": "majlis-daerah-tampin",
+  "CreatedDate": "2015-06-05T10:39:32.6318075+08:00",
+  "ChangedBy": "admin",
+  "ChangedDate": "2015-06-19T16:05:17.147879+08:00",
+  "WebId": "fb37319a-a67d-4623-872b-26b10d54f883"
+}

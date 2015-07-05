@@ -1,0 +1,14 @@
+{
+  "$type": "Bespoke.epsikologi_jabatan.Domain.Jabatan, epsikologi.Jabatan",
+  "JabatanNo": "31666",
+  "NamaJabatan": "MAJLIS DAERAH REMBAU",
+  "AgensiNo": "NA",
+  "Kementerian": null,
+  "AgensiKumpulan": "PBT",
+  "CreatedBy": "admin",
+  "Id": "majlis-daerah-rembau",
+  "CreatedDate": "2015-06-05T10:39:32.6148066+08:00",
+  "ChangedBy": "admin",
+  "ChangedDate": "2015-06-19T16:05:17.1308701+08:00",
+  "WebId": "ba0fb4f8-dddd-498a-b145-24e586e6c911"
+}

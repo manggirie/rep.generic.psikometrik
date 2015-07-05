@@ -1,0 +1,14 @@
+{
+  "$type": "Bespoke.epsikologi_jabatan.Domain.Jabatan, epsikologi.Jabatan",
+  "JabatanNo": "183995",
+  "NamaJabatan": "KOLEJ KOMUNITI SUNGAI PETANI",
+  "AgensiNo": "26281",
+  "Kementerian": "KEM. PENGAJIAN TINGGI",
+  "AgensiKumpulan": "BBP",
+  "CreatedBy": "admin",
+  "Id": "kolej-komuniti-sungai-petani",
+  "CreatedDate": "2015-06-05T10:39:27.1474982+08:00",
+  "ChangedBy": "admin",
+  "ChangedDate": "2015-06-19T16:05:12.5587213+08:00",
+  "WebId": "936dde24-cf66-4e09-8d37-8222592e418a"
+}

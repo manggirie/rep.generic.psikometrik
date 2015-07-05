@@ -1,0 +1,14 @@
+{
+  "$type": "Bespoke.epsikologi_jabatan.Domain.Jabatan, epsikologi.Jabatan",
+  "JabatanNo": "56539",
+  "NamaJabatan": "MAJLIS DAERAH KERIAN",
+  "AgensiNo": "NA",
+  "Kementerian": null,
+  "AgensiKumpulan": "PBT",
+  "CreatedBy": "admin",
+  "Id": "majlis-daerah-kerian",
+  "CreatedDate": "2015-06-05T10:39:34.5069136+08:00",
+  "ChangedBy": "admin",
+  "ChangedDate": "2015-06-19T16:05:19.3439113+08:00",
+  "WebId": "afd763d5-1baf-4193-85ef-00483f9f0799"
+}

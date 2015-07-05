@@ -1,0 +1,14 @@
+{
+  "$type": "Bespoke.epsikologi_jabatan.Domain.Jabatan, epsikologi.Jabatan",
+  "JabatanNo": "76847",
+  "NamaJabatan": "PEJABAT KEBAJIKAN MASYARAKAT BAHAGIAN LIMBANG",
+  "AgensiNo": "24556",
+  "Kementerian": "KEM. PEMBANGUNAN WANITA, KELUARGA & MASYARAKAT",
+  "AgensiKumpulan": "BBN",
+  "CreatedBy": "admin",
+  "Id": "pejabat-kebajikan-masyarakat-bahagian-limbang",
+  "CreatedDate": "2015-06-05T10:39:36.1090044+08:00",
+  "ChangedBy": "admin",
+  "ChangedDate": "2015-06-19T16:05:21.075725+08:00",
+  "WebId": "17747578-ffa1-4d3f-9c5e-85ab1647bd0c"
+}

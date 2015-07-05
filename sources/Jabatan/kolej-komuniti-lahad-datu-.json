@@ -1,0 +1,14 @@
+{
+  "$type": "Bespoke.epsikologi_jabatan.Domain.Jabatan, epsikologi.Jabatan",
+  "JabatanNo": "218051",
+  "NamaJabatan": "KOLEJ KOMUNITI LAHAD DATU ",
+  "AgensiNo": "26281",
+  "Kementerian": "KEM. PENGAJIAN TINGGI",
+  "AgensiKumpulan": "BBP",
+  "CreatedBy": "admin",
+  "Id": "kolej-komuniti-lahad-datu-",
+  "CreatedDate": "2015-06-05T10:39:30.6176942+08:00",
+  "ChangedBy": "admin",
+  "ChangedDate": "2015-06-19T16:05:15.3890517+08:00",
+  "WebId": "04acd137-8088-4b36-98dd-c4f3e29ce480"
+}

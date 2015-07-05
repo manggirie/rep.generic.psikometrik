@@ -1,0 +1,14 @@
+{
+  "$type": "Bespoke.epsikologi_jabatan.Domain.Jabatan, epsikologi.Jabatan",
+  "JabatanNo": "217421",
+  "NamaJabatan": "PEJABAT KEBAJIKAN MASYARAKAT DAERAH LARUT, MATANG & SELAMA",
+  "AgensiNo": "24556",
+  "Kementerian": "KEM. PEMBANGUNAN WANITA, KELUARGA & MASYARAKAT",
+  "AgensiKumpulan": "BBN",
+  "CreatedBy": "admin",
+  "Id": "pejabat-kebajikan-masyarakat-daerah-larut-matang-s",
+  "CreatedDate": "2015-06-05T10:39:30.1256669+08:00",
+  "ChangedBy": "admin",
+  "ChangedDate": "2015-06-19T16:05:14.938841+08:00",
+  "WebId": "e696f059-0b17-436e-81a5-bc3b57803844"
+}

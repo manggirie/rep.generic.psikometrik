@@ -1,0 +1,14 @@
+{
+  "$type": "Bespoke.epsikologi_jabatan.Domain.Jabatan, epsikologi.Jabatan",
+  "JabatanNo": "76818",
+  "NamaJabatan": "PEJABAT KEBAJIKAN MASYARAKAT BAHAGIAN BINTULU",
+  "AgensiNo": "24556",
+  "Kementerian": "KEM. PEMBANGUNAN WANITA, KELUARGA & MASYARAKAT",
+  "AgensiKumpulan": "BBN",
+  "CreatedBy": "admin",
+  "Id": "pejabat-kebajikan-masyarakat-bahagian-bintulu",
+  "CreatedDate": "2015-06-05T10:39:35.9149928+08:00",
+  "ChangedBy": "admin",
+  "ChangedDate": "2015-06-19T16:05:20.9326573+08:00",
+  "WebId": "912b2704-6433-4305-9307-ac5274dd0554"
+}

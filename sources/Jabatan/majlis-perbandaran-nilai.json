@@ -1,0 +1,14 @@
+{
+  "$type": "Bespoke.epsikologi_jabatan.Domain.Jabatan, epsikologi.Jabatan",
+  "JabatanNo": "31755",
+  "NamaJabatan": "MAJLIS PERBANDARAN NILAI",
+  "AgensiNo": "NA",
+  "Kementerian": null,
+  "AgensiKumpulan": "PBT",
+  "CreatedBy": "admin",
+  "Id": "majlis-perbandaran-nilai",
+  "CreatedDate": "2015-06-05T10:39:32.6578093+08:00",
+  "ChangedBy": "admin",
+  "ChangedDate": "2015-06-19T16:05:17.1708894+08:00",
+  "WebId": "3a99d2d4-ba23-4576-b96a-d87d12783d67"
+}

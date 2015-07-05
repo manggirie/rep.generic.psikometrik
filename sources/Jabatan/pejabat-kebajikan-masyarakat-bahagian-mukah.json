@@ -1,0 +1,14 @@
+{
+  "$type": "Bespoke.epsikologi_jabatan.Domain.Jabatan, epsikologi.Jabatan",
+  "JabatanNo": "76849",
+  "NamaJabatan": "PEJABAT KEBAJIKAN MASYARAKAT BAHAGIAN MUKAH",
+  "AgensiNo": "24556",
+  "Kementerian": "KEM. PEMBANGUNAN WANITA, KELUARGA & MASYARAKAT",
+  "AgensiKumpulan": "BBN",
+  "CreatedBy": "admin",
+  "Id": "pejabat-kebajikan-masyarakat-bahagian-mukah",
+  "CreatedDate": "2015-06-05T10:39:36.1370052+08:00",
+  "ChangedBy": "admin",
+  "ChangedDate": "2015-06-19T16:05:21.1137428+08:00",
+  "WebId": "34db077f-c8a4-4901-8571-151e63dce880"
+}

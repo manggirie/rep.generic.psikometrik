@@ -1,0 +1,14 @@
+{
+  "$type": "Bespoke.epsikologi_jabatan.Domain.Jabatan, epsikologi.Jabatan",
+  "JabatanNo": "184165",
+  "NamaJabatan": "KOLEJ KOMUNITI KUALA LANGAT",
+  "AgensiNo": "26281",
+  "Kementerian": "KEM. PENGAJIAN TINGGI",
+  "AgensiKumpulan": "BBP",
+  "CreatedBy": "admin",
+  "Id": "kolej-komuniti-kuala-langat",
+  "CreatedDate": "2015-06-05T10:39:27.53152+08:00",
+  "ChangedBy": "admin",
+  "ChangedDate": "2015-06-19T16:05:12.8758699+08:00",
+  "WebId": "735b0814-32e8-46bd-ac33-d798a1750df7"
+}

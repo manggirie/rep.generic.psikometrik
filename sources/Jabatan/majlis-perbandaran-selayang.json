@@ -1,0 +1,14 @@
+{
+  "$type": "Bespoke.epsikologi_jabatan.Domain.Jabatan, epsikologi.Jabatan",
+  "JabatanNo": "100965",
+  "NamaJabatan": "MAJLIS PERBANDARAN SELAYANG",
+  "AgensiNo": "NA",
+  "Kementerian": null,
+  "AgensiKumpulan": "PBT",
+  "CreatedBy": "admin",
+  "Id": "majlis-perbandaran-selayang",
+  "CreatedDate": "2015-06-05T10:39:24.9793762+08:00",
+  "ChangedBy": "admin",
+  "ChangedDate": "2015-06-19T16:05:09.3762252+08:00",
+  "WebId": "0fabe1eb-bce2-46d3-90a4-72c6af106797"
+}

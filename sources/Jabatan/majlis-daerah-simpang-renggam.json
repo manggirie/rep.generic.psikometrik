@@ -1,0 +1,14 @@
+{
+  "$type": "Bespoke.epsikologi_jabatan.Domain.Jabatan, epsikologi.Jabatan",
+  "JabatanNo": "61908",
+  "NamaJabatan": "MAJLIS DAERAH SIMPANG RENGGAM",
+  "AgensiNo": "NA",
+  "Kementerian": null,
+  "AgensiKumpulan": "PBT",
+  "CreatedBy": "admin",
+  "Id": "majlis-daerah-simpang-renggam",
+  "CreatedDate": "2015-06-05T10:39:35.1649503+08:00",
+  "ChangedBy": "admin",
+  "ChangedDate": "2015-06-19T16:05:20.0982655+08:00",
+  "WebId": "421cee6e-3140-4d67-8a87-8013352c072d"
+}

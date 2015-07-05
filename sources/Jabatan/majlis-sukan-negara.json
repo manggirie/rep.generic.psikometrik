@@ -1,0 +1,14 @@
+{
+  "$type": "Bespoke.epsikologi_jabatan.Domain.Jabatan, epsikologi.Jabatan",
+  "JabatanNo": "25972",
+  "NamaJabatan": "MAJLIS SUKAN NEGARA",
+  "AgensiNo": "NA",
+  "Kementerian": null,
+  "AgensiKumpulan": "BBP",
+  "CreatedBy": "admin",
+  "Id": "majlis-sukan-negara",
+  "CreatedDate": "2015-06-05T10:39:31.9957719+08:00",
+  "ChangedBy": "admin",
+  "ChangedDate": "2015-06-19T16:05:16.8067186+08:00",
+  "WebId": "e2e66ca7-cc6d-40f2-9b79-580b3f1061cf"
+}

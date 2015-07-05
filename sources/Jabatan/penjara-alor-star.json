@@ -1,0 +1,14 @@
+{
+  "$type": "Bespoke.epsikologi_jabatan.Domain.Jabatan, epsikologi.Jabatan",
+  "JabatanNo": "13062103",
+  "NamaJabatan": "PENJARA ALOR STAR",
+  "AgensiNo": "26618",
+  "Kementerian": "KEM. KESELAMATAN DALAM NEGERI",
+  "AgensiKumpulan": "BBP",
+  "CreatedBy": "admin",
+  "Id": "penjara-alor-star",
+  "CreatedDate": "2015-06-05T10:39:25.2043897+08:00",
+  "ChangedBy": "admin",
+  "ChangedDate": "2015-06-19T16:05:09.7023841+08:00",
+  "WebId": "b189c2e5-8de5-46ea-8074-585d68208f83"
+}

@@ -1,0 +1,14 @@
+{
+  "$type": "Bespoke.epsikologi_jabatan.Domain.Jabatan, epsikologi.Jabatan",
+  "JabatanNo": "88598",
+  "NamaJabatan": "MAJLIS PERBANDARAN AMPANG JAYA",
+  "AgensiNo": "NA",
+  "Kementerian": null,
+  "AgensiKumpulan": "PBT",
+  "CreatedBy": "admin",
+  "Id": "majlis-perbandaran-ampang-jaya",
+  "CreatedDate": "2015-06-05T10:39:36.6980366+08:00",
+  "ChangedBy": "admin",
+  "ChangedDate": "2015-06-19T16:05:21.8971115+08:00",
+  "WebId": "7fb2ca99-3dc1-4d70-85a2-3eee9d170b21"
+}

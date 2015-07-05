@@ -1,0 +1,14 @@
+{
+  "$type": "Bespoke.epsikologi_jabatan.Domain.Jabatan, epsikologi.Jabatan",
+  "JabatanNo": "13062111",
+  "NamaJabatan": "PENJARA BENTONG",
+  "AgensiNo": "26618",
+  "Kementerian": "KEM. KESELAMATAN DALAM NEGERI",
+  "AgensiKumpulan": "BBP",
+  "CreatedBy": "admin",
+  "Id": "penjara-bentong",
+  "CreatedDate": "2015-06-05T10:39:25.2183898+08:00",
+  "ChangedBy": "admin",
+  "ChangedDate": "2015-06-19T16:05:09.8104293+08:00",
+  "WebId": "1f98f3cd-ce9a-4f14-8990-c70a32c92312"
+}

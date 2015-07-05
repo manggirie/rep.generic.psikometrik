@@ -1,0 +1,14 @@
+{
+  "$type": "Bespoke.epsikologi_jabatan.Domain.Jabatan, epsikologi.Jabatan",
+  "JabatanNo": "219964",
+  "NamaJabatan": "PEJABAT KEBAJIKAN MASYARAKAT DAERAH TIMUR LAUT",
+  "AgensiNo": "24556",
+  "Kementerian": "KEM. PEMBANGUNAN WANITA, KELUARGA & MASYARAKAT",
+  "AgensiKumpulan": "BBN",
+  "CreatedBy": "admin",
+  "Id": "pejabat-kebajikan-masyarakat-daerah-timur-laut",
+  "CreatedDate": "2015-06-05T10:39:31.3997391+08:00",
+  "ChangedBy": "admin",
+  "ChangedDate": "2015-06-19T16:05:16.1223961+08:00",
+  "WebId": "3f792565-db11-48e0-b356-7473546f4a18"
+}

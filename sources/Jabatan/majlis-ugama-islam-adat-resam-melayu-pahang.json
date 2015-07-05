@@ -1,0 +1,14 @@
+{
+  "$type": "Bespoke.epsikologi_jabatan.Domain.Jabatan, epsikologi.Jabatan",
+  "JabatanNo": "179033",
+  "NamaJabatan": "MAJLIS UGAMA ISLAM & ADAT RESAM MELAYU PAHANG",
+  "AgensiNo": "53300",
+  "Kementerian": "PSUK NEGERI PAHANG",
+  "AgensiKumpulan": "BBN",
+  "CreatedBy": "admin",
+  "Id": "majlis-ugama-islam-adat-resam-melayu-pahang",
+  "CreatedDate": "2015-06-05T10:39:26.4084566+08:00",
+  "ChangedBy": "admin",
+  "ChangedDate": "2015-06-19T16:05:11.8343808+08:00",
+  "WebId": "302aace8-c847-4a08-9bd7-e545ed879df8"
+}

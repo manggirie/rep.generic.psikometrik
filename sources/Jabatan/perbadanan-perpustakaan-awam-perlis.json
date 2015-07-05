@@ -1,0 +1,14 @@
+{
+  "$type": "Bespoke.epsikologi_jabatan.Domain.Jabatan, epsikologi.Jabatan",
+  "JabatanNo": "50661",
+  "NamaJabatan": "PERBADANAN PERPUSTAKAAN AWAM PERLIS",
+  "AgensiNo": "40112",
+  "Kementerian": "PSUK NEGERI PERLIS",
+  "AgensiKumpulan": "BBN",
+  "CreatedBy": "admin",
+  "Id": "perbadanan-perpustakaan-awam-perlis",
+  "CreatedDate": "2015-06-05T10:39:33.7118688+08:00",
+  "ChangedBy": "admin",
+  "ChangedDate": "2015-06-19T16:05:18.3794571+08:00",
+  "WebId": "e2308844-d2bf-4e73-bfb3-00930aa3e0bc"
+}

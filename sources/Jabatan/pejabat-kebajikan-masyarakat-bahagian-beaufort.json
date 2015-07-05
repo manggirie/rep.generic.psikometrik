@@ -1,0 +1,14 @@
+{
+  "$type": "Bespoke.epsikologi_jabatan.Domain.Jabatan, epsikologi.Jabatan",
+  "JabatanNo": "76816",
+  "NamaJabatan": "PEJABAT KEBAJIKAN MASYARAKAT BAHAGIAN BEAUFORT",
+  "AgensiNo": "24556",
+  "Kementerian": "KEM. PEMBANGUNAN WANITA, KELUARGA & MASYARAKAT",
+  "AgensiKumpulan": "BBN",
+  "CreatedBy": "admin",
+  "Id": "pejabat-kebajikan-masyarakat-bahagian-beaufort",
+  "CreatedDate": "2015-06-05T10:39:35.8759905+08:00",
+  "ChangedBy": "admin",
+  "ChangedDate": "2015-06-19T16:05:20.8776314+08:00",
+  "WebId": "26380b32-40dd-4692-8c8a-0b0d9ce95911"
+}

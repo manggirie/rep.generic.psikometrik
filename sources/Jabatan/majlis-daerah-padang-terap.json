@@ -1,0 +1,14 @@
+{
+  "$type": "Bespoke.epsikologi_jabatan.Domain.Jabatan, epsikologi.Jabatan",
+  "JabatanNo": "41743",
+  "NamaJabatan": "MAJLIS DAERAH PADANG TERAP",
+  "AgensiNo": "NA",
+  "Kementerian": null,
+  "AgensiKumpulan": "PBT",
+  "CreatedBy": "admin",
+  "Id": "majlis-daerah-padang-terap",
+  "CreatedDate": "2015-06-05T10:39:33.1118354+08:00",
+  "ChangedBy": "admin",
+  "ChangedDate": "2015-06-19T16:05:17.5860845+08:00",
+  "WebId": "f8702ea9-e0f7-4fcc-84a8-e27a78822cdb"
+}

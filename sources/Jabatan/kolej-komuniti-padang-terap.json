@@ -1,0 +1,14 @@
+{
+  "$type": "Bespoke.epsikologi_jabatan.Domain.Jabatan, epsikologi.Jabatan",
+  "JabatanNo": "218052",
+  "NamaJabatan": "KOLEJ KOMUNITI PADANG TERAP",
+  "AgensiNo": "26281",
+  "Kementerian": "KEM. PENGAJIAN TINGGI",
+  "AgensiKumpulan": "BBP",
+  "CreatedBy": "admin",
+  "Id": "kolej-komuniti-padang-terap",
+  "CreatedDate": "2015-06-05T10:39:30.6396953+08:00",
+  "ChangedBy": "admin",
+  "ChangedDate": "2015-06-19T16:05:15.4090612+08:00",
+  "WebId": "a5918759-fc99-4ac9-bbfa-62e309cf9cd3"
+}

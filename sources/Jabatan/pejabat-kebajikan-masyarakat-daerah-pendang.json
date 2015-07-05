@@ -1,0 +1,14 @@
+{
+  "$type": "Bespoke.epsikologi_jabatan.Domain.Jabatan, epsikologi.Jabatan",
+  "JabatanNo": "217897",
+  "NamaJabatan": "PEJABAT KEBAJIKAN MASYARAKAT DAERAH PENDANG",
+  "AgensiNo": "24556",
+  "Kementerian": "KEM. PEMBANGUNAN WANITA, KELUARGA & MASYARAKAT",
+  "AgensiKumpulan": "BBN",
+  "CreatedBy": "admin",
+  "Id": "pejabat-kebajikan-masyarakat-daerah-pendang",
+  "CreatedDate": "2015-06-05T10:39:30.5366897+08:00",
+  "ChangedBy": "admin",
+  "ChangedDate": "2015-06-19T16:05:15.2429831+08:00",
+  "WebId": "47329269-1075-4bc6-9721-2d437529c9a2"
+}

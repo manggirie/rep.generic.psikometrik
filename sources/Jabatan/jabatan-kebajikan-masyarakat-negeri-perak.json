@@ -1,0 +1,14 @@
+{
+  "$type": "Bespoke.epsikologi_jabatan.Domain.Jabatan, epsikologi.Jabatan",
+  "JabatanNo": "214691",
+  "NamaJabatan": "JABATAN KEBAJIKAN MASYARAKAT NEGERI PERAK",
+  "AgensiNo": "24556",
+  "Kementerian": "KEM. PEMBANGUNAN WANITA, KELUARGA & MASYARAKAT",
+  "AgensiKumpulan": "BBN",
+  "CreatedBy": "admin",
+  "Id": "jabatan-kebajikan-masyarakat-negeri-perak",
+  "CreatedDate": "2015-06-05T10:39:29.3156205+08:00",
+  "ChangedBy": "admin",
+  "ChangedDate": "2015-06-19T16:05:14.3075536+08:00",
+  "WebId": "914f9a1b-5fed-4abf-9560-90053361b1f0"
+}

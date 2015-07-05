@@ -1,0 +1,14 @@
+{
+  "$type": "Bespoke.epsikologi_jabatan.Domain.Jabatan, epsikologi.Jabatan",
+  "JabatanNo": "61917",
+  "NamaJabatan": "MAJLIS BANDARAYA JOHOR BAHRU",
+  "AgensiNo": "59098",
+  "Kementerian": "PSUK NEGERI JOHOR",
+  "AgensiKumpulan": "PBT",
+  "CreatedBy": "admin",
+  "Id": "majlis-bandaraya-johor-bahru",
+  "CreatedDate": "2015-06-05T10:39:35.1849508+08:00",
+  "ChangedBy": "admin",
+  "ChangedDate": "2015-06-19T16:05:20.1232772+08:00",
+  "WebId": "e4bd0d80-c754-4648-9f31-f9213f808ff5"
+}

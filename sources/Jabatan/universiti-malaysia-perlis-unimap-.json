@@ -1,0 +1,14 @@
+{
+  "$type": "Bespoke.epsikologi_jabatan.Domain.Jabatan, epsikologi.Jabatan",
+  "JabatanNo": "190627",
+  "NamaJabatan": "UNIVERSITI MALAYSIA PERLIS (UNIMAP)",
+  "AgensiNo": "26281",
+  "Kementerian": "KEM. PENGAJIAN TINGGI",
+  "AgensiKumpulan": "BBP",
+  "CreatedBy": "admin",
+  "Id": "universiti-malaysia-perlis-unimap-",
+  "CreatedDate": "2015-06-05T10:39:28.3535671+08:00",
+  "ChangedBy": "admin",
+  "ChangedDate": "2015-06-19T16:05:13.5822024+08:00",
+  "WebId": "8ff1859e-5657-439b-964f-9ddc3d93cae5"
+}

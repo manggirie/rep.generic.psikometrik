@@ -1,0 +1,14 @@
+{
+  "$type": "Bespoke.epsikologi_jabatan.Domain.Jabatan, epsikologi.Jabatan",
+  "JabatanNo": "190678",
+  "NamaJabatan": "UNIVERSITI MALAYSIA TERENGGANU (UMT)",
+  "AgensiNo": "26281",
+  "Kementerian": "KEM. PENGAJIAN TINGGI",
+  "AgensiKumpulan": "BBP",
+  "CreatedBy": "admin",
+  "Id": "universiti-malaysia-terengganu-umt-",
+  "CreatedDate": "2015-06-05T10:39:28.3695675+08:00",
+  "ChangedBy": "admin",
+  "ChangedDate": "2015-06-19T16:05:13.6082142+08:00",
+  "WebId": "c0b06aff-3c59-41d9-aec2-cf0afec6b469"
+}

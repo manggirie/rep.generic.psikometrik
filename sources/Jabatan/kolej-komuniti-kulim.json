@@ -1,0 +1,14 @@
+{
+  "$type": "Bespoke.epsikologi_jabatan.Domain.Jabatan, epsikologi.Jabatan",
+  "JabatanNo": "183828",
+  "NamaJabatan": "KOLEJ KOMUNITI KULIM",
+  "AgensiNo": "26281",
+  "Kementerian": "KEM. PENGAJIAN TINGGI",
+  "AgensiKumpulan": "BBP",
+  "CreatedBy": "admin",
+  "Id": "kolej-komuniti-kulim",
+  "CreatedDate": "2015-06-05T10:39:26.7704773+08:00",
+  "ChangedBy": "admin",
+  "ChangedDate": "2015-06-19T16:05:12.2445736+08:00",
+  "WebId": "3cb1ea90-7cbf-40d0-84b3-5f2704572a96"
+}

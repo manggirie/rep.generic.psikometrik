@@ -1,0 +1,14 @@
+{
+  "$type": "Bespoke.epsikologi_jabatan.Domain.Jabatan, epsikologi.Jabatan",
+  "JabatanNo": "58461",
+  "NamaJabatan": "PERBADANAN PEMBANGUNAN PERTANIAN NEGERI PERAK",
+  "AgensiNo": "55725",
+  "Kementerian": "PSUK NEGERI PERAK",
+  "AgensiKumpulan": "BBN",
+  "CreatedBy": "admin",
+  "Id": "perbadanan-pembangunan-pertanian-negeri-perak",
+  "CreatedDate": "2015-06-05T10:39:34.687924+08:00",
+  "ChangedBy": "admin",
+  "ChangedDate": "2015-06-19T16:05:19.5440049+08:00",
+  "WebId": "74b50124-0863-427e-ad15-f0867121acb8"
+}

@@ -1,0 +1,14 @@
+{
+  "$type": "Bespoke.epsikologi_jabatan.Domain.Jabatan, epsikologi.Jabatan",
+  "JabatanNo": "192395",
+  "NamaJabatan": "UNIVERSITI SAINS MALAYSIA (USM)",
+  "AgensiNo": "26281",
+  "Kementerian": "KEM. PENGAJIAN TINGGI",
+  "AgensiKumpulan": "BBP",
+  "CreatedBy": "admin",
+  "Id": "universiti-sains-malaysia-usm-",
+  "CreatedDate": "2015-06-05T10:39:28.6055809+08:00",
+  "ChangedBy": "admin",
+  "ChangedDate": "2015-06-19T16:05:13.8313195+08:00",
+  "WebId": "731a42c6-6e9c-4a59-893a-a79d5aa54d52"
+}

@@ -1,0 +1,14 @@
+{
+  "$type": "Bespoke.epsikologi_jabatan.Domain.Jabatan, epsikologi.Jabatan",
+  "JabatanNo": "52402",
+  "NamaJabatan": "PERBADANAN PRODUKTIVITI MALAYSIA (NPC)",
+  "AgensiNo": "NA",
+  "Kementerian": null,
+  "AgensiKumpulan": "BBP",
+  "CreatedBy": "admin",
+  "Id": "perbadanan-produktiviti-malaysia-npc-",
+  "CreatedDate": "2015-06-05T10:39:33.8798779+08:00",
+  "ChangedBy": "admin",
+  "ChangedDate": "2015-06-19T16:05:18.6906042+08:00",
+  "WebId": "09e1da20-9bfc-47d3-b691-66665c59b391"
+}

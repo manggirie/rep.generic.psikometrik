@@ -1,0 +1,14 @@
+{
+  "$type": "Bespoke.epsikologi_jabatan.Domain.Jabatan, epsikologi.Jabatan",
+  "JabatanNo": "214688",
+  "NamaJabatan": "JABATAN KEBAJIKAN MASYARAKAT NEGERI KEDAH",
+  "AgensiNo": "24556",
+  "Kementerian": "KEM. PEMBANGUNAN WANITA, KELUARGA & MASYARAKAT",
+  "AgensiKumpulan": "BBN",
+  "CreatedBy": "admin",
+  "Id": "jabatan-kebajikan-masyarakat-negeri-kedah",
+  "CreatedDate": "2015-06-05T10:39:29.2576169+08:00",
+  "ChangedBy": "admin",
+  "ChangedDate": "2015-06-19T16:05:14.2665241+08:00",
+  "WebId": "244abbef-73b2-409a-b31e-8acf7826abcb"
+}
