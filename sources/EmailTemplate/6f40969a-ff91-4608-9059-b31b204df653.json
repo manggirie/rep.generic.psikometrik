@@ -1,0 +1,15 @@
+{
+  "$type": "Bespoke.Sph.Domain.EmailTemplate, domain.sph",
+  "Entity": "PendaftaranProgram",
+  "Name": "Email Pendaftaran Program",
+  "Note": "Email Pendaftaran Program",
+  "SubjectTemplate": "Maklumat @Model.NamaPengguna daftar untuk @Model.NoPermohonan",
+  "BodyTemplate": "Salam\n@Model.NoPermohonan \n\n\n",
+  "IsPublished": true,
+  "CreatedBy": null,
+  "Id": "6f40969a-ff91-4608-9059-b31b204df653",
+  "CreatedDate": "0001-01-01T00:00:00",
+  "ChangedBy": "admin",
+  "ChangedDate": "2015-07-03T09:57:46.0541091+08:00",
+  "WebId": "6f40969a-ff91-4608-9059-b31b204df653"
+}
