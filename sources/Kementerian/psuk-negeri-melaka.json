@@ -1,0 +1,14 @@
+{
+  "$type": "Bespoke.epsikologi_kementerian.Domain.Kementerian, epsikologi.Kementerian",
+  "KementerianNo": "36573",
+  "NamaKementerian": "PSUK NEGERI MELAKA",
+  "Negeri": "Melaka Bandar Bersejarah",
+  "KumpulanAgensi": "PAN",
+  "Abbreviation": null,
+  "CreatedBy": "admin",
+  "Id": "psuk-negeri-melaka",
+  "CreatedDate": "2015-06-17T18:52:30.3616301+08:00",
+  "ChangedBy": "admin",
+  "ChangedDate": "2015-06-17T18:52:30.3596282+08:00",
+  "WebId": "d88c8887-71d8-4d58-ac04-743fc8887317"
+}

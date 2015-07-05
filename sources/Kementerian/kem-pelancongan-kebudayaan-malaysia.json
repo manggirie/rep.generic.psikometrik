@@ -1,0 +1,14 @@
+{
+  "$type": "Bespoke.epsikologi_kementerian.Domain.Kementerian, epsikologi.Kementerian",
+  "KementerianNo": "24504",
+  "NamaKementerian": "KEM. PELANCONGAN & KEBUDAYAAN MALAYSIA",
+  "Negeri": "Wilayah Persekutuan Putrajaya",
+  "KumpulanAgensi": "PAP",
+  "Abbreviation": null,
+  "CreatedBy": "admin",
+  "Id": "kem-pelancongan-kebudayaan-malaysia",
+  "CreatedDate": "2015-06-17T18:52:17.3934505+08:00",
+  "ChangedBy": "admin",
+  "ChangedDate": "2015-06-17T18:52:17.3894468+08:00",
+  "WebId": "a284fd8a-3ed9-4322-8f53-08a4896c1f78"
+}

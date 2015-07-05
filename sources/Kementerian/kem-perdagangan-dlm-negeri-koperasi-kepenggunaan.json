@@ -1,0 +1,14 @@
+{
+  "$type": "Bespoke.epsikologi_kementerian.Domain.Kementerian, epsikologi.Kementerian",
+  "KementerianNo": "22992",
+  "NamaKementerian": "KEM. PERDAGANGAN DLM. NEGERI, KOPERASI & KEPENGGUNAAN",
+  "Negeri": "Wilayah Persekutuan Putrajaya",
+  "KumpulanAgensi": "PAP",
+  "Abbreviation": null,
+  "CreatedBy": "admin",
+  "Id": "kem-perdagangan-dlm-negeri-koperasi-kepenggunaan",
+  "CreatedDate": "2015-06-17T18:52:17.105246+08:00",
+  "ChangedBy": "admin",
+  "ChangedDate": "2015-06-17T18:52:17.1042418+08:00",
+  "WebId": "c990768e-ee4d-40df-9f74-215c4103c087"
+}

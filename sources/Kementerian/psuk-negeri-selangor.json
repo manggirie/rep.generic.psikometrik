@@ -1,0 +1,14 @@
+{
+  "$type": "Bespoke.epsikologi_kementerian.Domain.Kementerian, epsikologi.Kementerian",
+  "KementerianNo": "1",
+  "NamaKementerian": "PSUK NEGERI SELANGOR",
+  "Negeri": "Selangor Darul Ehsan",
+  "KumpulanAgensi": "PAN",
+  "Abbreviation": null,
+  "CreatedBy": "admin",
+  "Id": "psuk-negeri-selangor",
+  "CreatedDate": "2015-06-17T18:52:16.9271164+08:00",
+  "ChangedBy": "admin",
+  "ChangedDate": "2015-06-17T18:52:16.9261157+08:00",
+  "WebId": "7c170779-e510-40cb-b93f-e3e1f0aa3cd9"
+}

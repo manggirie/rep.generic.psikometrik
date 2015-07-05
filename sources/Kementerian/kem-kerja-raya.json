@@ -1,0 +1,14 @@
+{
+  "$type": "Bespoke.epsikologi_kementerian.Domain.Kementerian, epsikologi.Kementerian",
+  "KementerianNo": "23692",
+  "NamaKementerian": "KEM. KERJA RAYA",
+  "Negeri": "Wilayah Persekutuan Kuala Lumpur",
+  "KumpulanAgensi": "PAP",
+  "Abbreviation": null,
+  "CreatedBy": "admin",
+  "Id": "kem-kerja-raya",
+  "CreatedDate": "2015-06-17T18:52:17.2303307+08:00",
+  "ChangedBy": "admin",
+  "ChangedDate": "2015-06-17T18:52:17.22933+08:00",
+  "WebId": "9a1368ce-c4e0-4adb-b743-18ef17da32fa"
+}

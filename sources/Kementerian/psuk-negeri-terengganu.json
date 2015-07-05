@@ -1,0 +1,14 @@
+{
+  "$type": "Bespoke.epsikologi_kementerian.Domain.Kementerian, epsikologi.Kementerian",
+  "KementerianNo": "42900",
+  "NamaKementerian": "PSUK NEGERI TERENGGANU",
+  "Negeri": "Terengganu Darul Iman",
+  "KumpulanAgensi": "PAN",
+  "Abbreviation": null,
+  "CreatedBy": "admin",
+  "Id": "psuk-negeri-terengganu",
+  "CreatedDate": "2015-06-17T18:52:30.4897268+08:00",
+  "ChangedBy": "admin",
+  "ChangedDate": "2015-06-17T18:52:30.485724+08:00",
+  "WebId": "d492de19-66c8-44a4-8a2b-a351c8a67a48"
+}

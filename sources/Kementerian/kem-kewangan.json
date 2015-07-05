@@ -1,0 +1,14 @@
+{
+  "$type": "Bespoke.epsikologi_kementerian.Domain.Kementerian, epsikologi.Kementerian",
+  "KementerianNo": "38015",
+  "NamaKementerian": "KEM. KEWANGAN",
+  "Negeri": "Wilayah Persekutuan Putrajaya",
+  "KumpulanAgensi": "PAP",
+  "Abbreviation": null,
+  "CreatedBy": "admin",
+  "Id": "kem-kewangan",
+  "CreatedDate": "2015-06-17T18:52:30.3786421+08:00",
+  "ChangedBy": "admin",
+  "ChangedDate": "2015-06-17T18:52:30.3776419+08:00",
+  "WebId": "ceba57a6-05ad-4fa7-9e5e-479c7041d9f1"
+}

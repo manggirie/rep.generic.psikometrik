@@ -1,0 +1,14 @@
+{
+  "$type": "Bespoke.epsikologi_kementerian.Domain.Kementerian, epsikologi.Kementerian",
+  "KementerianNo": "5000",
+  "NamaKementerian": "KEM. PEMBANGUNAN USAHAWAN & KOPERASI",
+  "Negeri": "Wilayah Persekutuan Putrajaya",
+  "KumpulanAgensi": "PAP",
+  "Abbreviation": null,
+  "CreatedBy": "admin",
+  "Id": "kem-pembangunan-usahawan-koperasi",
+  "CreatedDate": "2015-06-17T18:52:30.5617722+08:00",
+  "ChangedBy": "admin",
+  "ChangedDate": "2015-06-17T18:52:30.5607711+08:00",
+  "WebId": "10dcb9d7-5f89-4dd1-bebb-3ac578fe9bc7"
+}
