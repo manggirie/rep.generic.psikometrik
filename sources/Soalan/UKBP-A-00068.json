@@ -1,0 +1,34 @@
+{
+  "$type": "Bespoke.epsikologi_soalan.Domain.Soalan, epsikologi.Soalan",
+  "NoRujukan": "UKBP-A-00068",
+  "SoalanNo": "UKBP-A-00068",
+  "TeksSoalan": "Saya mudah berasa gembira berbanding orang lain.",
+  "SeksyenSoalan": "A",
+  "PilihanJawapanCollection": {
+    "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan]], domain.sph",
+    "$values": [
+      {
+        "$type": "Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan",
+        "Teks": "Ya",
+        "Nilai": 1,
+        "WebId": null
+      },
+      {
+        "$type": "Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan",
+        "Teks": "Tidak",
+        "Nilai": 0,
+        "WebId": null
+      }
+    ]
+  },
+  "Trait": null,
+  "NamaUjian": "Ujian Khas Biasiswa Persekutuan(UKBP)",
+  "Susunan": 68.0,
+  "Kategori": null,
+  "CreatedBy": "admin",
+  "Id": "UKBP-A-00068",
+  "CreatedDate": "2015-07-06T11:24:54.2325283+08:00",
+  "ChangedBy": "admin",
+  "ChangedDate": "2015-07-06T11:24:54.2325283+08:00",
+  "WebId": "6f83239a-58f2-4e10-affa-50d943bfcd82"
+}

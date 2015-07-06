@@ -1,0 +1,21 @@
+{
+  "$type": "Bespoke.epsikologi_soalan.Domain.Soalan, epsikologi.Soalan",
+  "NoRujukan": "1118",
+  "SoalanNo": "1118",
+  "TeksSoalan": "Saya sering meluahkan apa yang terlintas di minda dan situasi sedemikian kadangkala ia menimbulkan masalah kepada diri.",
+  "SeksyenSoalan": "",
+  "PilihanJawapanCollection": {
+    "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan]], domain.sph",
+    "$values": []
+  },
+  "Trait": "NA",
+  "NamaUjian": "Indikator Personaliti Enneagram (IPE)",
+  "Susunan": 1.0,
+  "Kategori": null,
+  "CreatedBy": "admin",
+  "Id": "IPE--1118",
+  "CreatedDate": "2015-07-06T11:24:48.8342177+08:00",
+  "ChangedBy": "admin",
+  "ChangedDate": "2015-07-06T11:24:48.8337176+08:00",
+  "WebId": "560e5e60-3d78-4679-ae31-70045300baac"
+}

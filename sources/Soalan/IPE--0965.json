@@ -1,0 +1,21 @@
+{
+  "$type": "Bespoke.epsikologi_soalan.Domain.Soalan, epsikologi.Soalan",
+  "NoRujukan": "0965",
+  "SoalanNo": "0965",
+  "TeksSoalan": "Saya tidak suka melakukan sesuatu kerana terpaksa atau terhutang budi.",
+  "SeksyenSoalan": "",
+  "PilihanJawapanCollection": {
+    "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan]], domain.sph",
+    "$values": []
+  },
+  "Trait": "NA",
+  "NamaUjian": "Indikator Personaliti Enneagram (IPE)",
+  "Susunan": 1.0,
+  "Kategori": null,
+  "CreatedBy": "admin",
+  "Id": "IPE--0965",
+  "CreatedDate": "2015-07-06T11:24:47.7804745+08:00",
+  "ChangedBy": "admin",
+  "ChangedDate": "2015-07-06T11:24:47.7804745+08:00",
+  "WebId": "aa1c00cb-fef6-4b5d-aa80-c2dbfd0a98a5"
+}

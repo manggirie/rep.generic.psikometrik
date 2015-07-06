@@ -1,0 +1,34 @@
+{
+  "$type": "Bespoke.epsikologi_soalan.Domain.Soalan, epsikologi.Soalan",
+  "NoRujukan": "IP-00012",
+  "SoalanNo": "IP-00012",
+  "TeksSoalan": "Apabila anda mengalami insiden yang memalukan, adakah anda selalunya &",
+  "SeksyenSoalan": null,
+  "PilihanJawapanCollection": {
+    "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan]], domain.sph",
+    "$values": [
+      {
+        "$type": "Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan",
+        "Teks": "a)\tmenjadikan insiden tersebut sebagai satu bahan gurauan, atau",
+        "Nilai": 1,
+        "WebId": null
+      },
+      {
+        "$type": "Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan",
+        "Teks": "b)\tmengalih tajuk perbualan yang berkaitan insiden tersebut kepada tajuk lain.",
+        "Nilai": 1,
+        "WebId": null
+      }
+    ]
+  },
+  "Trait": "Skor 1",
+  "NamaUjian": "Indeks Personaliti (IP)",
+  "Susunan": 11.0,
+  "Kategori": null,
+  "CreatedBy": "admin",
+  "Id": "IP--IP-00012",
+  "CreatedDate": "2015-07-06T11:24:50.7956021+08:00",
+  "ChangedBy": "admin",
+  "ChangedDate": "2015-07-06T11:24:50.795102+08:00",
+  "WebId": "d25845d4-356e-4ef2-8354-bb3a9b25860f"
+}

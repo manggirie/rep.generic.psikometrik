@@ -1,0 +1,21 @@
+{
+  "$type": "Bespoke.epsikologi_soalan.Domain.Soalan, epsikologi.Soalan",
+  "NoRujukan": "0848",
+  "SoalanNo": "0848",
+  "TeksSoalan": "Pembahagian kerja di organisasi ini membantu usaha ke arah pencapaian matlamat yang ditetapkan.",
+  "SeksyenSoalan": "2",
+  "PilihanJawapanCollection": {
+    "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan]], domain.sph",
+    "$values": []
+  },
+  "Trait": "NA",
+  "NamaUjian": "Indeks Organisasi Cemerlang (IOC)",
+  "Susunan": 1.0,
+  "Kategori": null,
+  "CreatedBy": "admin",
+  "Id": "IOC-2-0848",
+  "CreatedDate": "2015-07-06T11:24:46.9588946+08:00",
+  "ChangedBy": "admin",
+  "ChangedDate": "2015-07-06T11:24:46.9558924+08:00",
+  "WebId": "dd990a8b-4cf7-4bae-9650-0880f61621c4"
+}

@@ -1,0 +1,21 @@
+{
+  "$type": "Bespoke.epsikologi_soalan.Domain.Soalan, epsikologi.Soalan",
+  "NoRujukan": "0995",
+  "SoalanNo": "0995",
+  "TeksSoalan": "Saya seorang yang idealistik dan ingin menjadikan bumi ini tempat yang lebih baik.",
+  "SeksyenSoalan": "",
+  "PilihanJawapanCollection": {
+    "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan]], domain.sph",
+    "$values": []
+  },
+  "Trait": "NA",
+  "NamaUjian": "Indikator Personaliti Enneagram (IPE)",
+  "Susunan": 1.0,
+  "Kategori": null,
+  "CreatedBy": "admin",
+  "Id": "IPE--0995",
+  "CreatedDate": "2015-07-06T11:24:47.9831177+08:00",
+  "ChangedBy": "admin",
+  "ChangedDate": "2015-07-06T11:24:47.9826171+08:00",
+  "WebId": "2e1a1436-140c-422f-9138-e25713be4f2a"
+}

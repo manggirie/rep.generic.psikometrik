@@ -1,0 +1,21 @@
+{
+  "$type": "Bespoke.epsikologi_soalan.Domain.Soalan, epsikologi.Soalan",
+  "NoRujukan": "0337",
+  "SoalanNo": "0337",
+  "TeksSoalan": "Saya kerap berasa risau tentang sesuatu perkara yang dirancang tetapi tidak menjadi.",
+  "SeksyenSoalan": "A",
+  "PilihanJawapanCollection": {
+    "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan]], domain.sph",
+    "$values": []
+  },
+  "Trait": "NA",
+  "NamaUjian": "Inventori Sahsiah Pelajar (ISP)",
+  "Susunan": 1.0,
+  "Kategori": null,
+  "CreatedBy": "admin",
+  "Id": "ISP-A-0337",
+  "CreatedDate": "2015-07-06T11:24:42.8194731+08:00",
+  "ChangedBy": "admin",
+  "ChangedDate": "2015-07-06T11:24:42.8194731+08:00",
+  "WebId": "982e3335-a47c-472a-a892-4bb731c7d9a5"
+}

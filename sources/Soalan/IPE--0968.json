@@ -1,0 +1,21 @@
+{
+  "$type": "Bespoke.epsikologi_soalan.Domain.Soalan, epsikologi.Soalan",
+  "NoRujukan": "0968",
+  "SoalanNo": "0968",
+  "TeksSoalan": "Saya sering berasa bersalah kerana tidak mencapai banyak matlamat yang ditetapkan.",
+  "SeksyenSoalan": "",
+  "PilihanJawapanCollection": {
+    "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan]], domain.sph",
+    "$values": []
+  },
+  "Trait": "NA",
+  "NamaUjian": "Indikator Personaliti Enneagram (IPE)",
+  "Susunan": 1.0,
+  "Kategori": null,
+  "CreatedBy": "admin",
+  "Id": "IPE--0968",
+  "CreatedDate": "2015-07-06T11:24:47.7989873+08:00",
+  "ChangedBy": "admin",
+  "ChangedDate": "2015-07-06T11:24:47.7984867+08:00",
+  "WebId": "ecdab993-49f9-4e74-a88c-e1481c12a73c"
+}

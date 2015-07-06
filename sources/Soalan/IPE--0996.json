@@ -1,0 +1,21 @@
+{
+  "$type": "Bespoke.epsikologi_soalan.Domain.Soalan, epsikologi.Soalan",
+  "NoRujukan": "0996",
+  "SoalanNo": "0996",
+  "TeksSoalan": "Saya lebih suka memberi daripada menerima.",
+  "SeksyenSoalan": "",
+  "PilihanJawapanCollection": {
+    "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan]], domain.sph",
+    "$values": []
+  },
+  "Trait": "NA",
+  "NamaUjian": "Indikator Personaliti Enneagram (IPE)",
+  "Susunan": 1.0,
+  "Kategori": null,
+  "CreatedBy": "admin",
+  "Id": "IPE--0996",
+  "CreatedDate": "2015-07-06T11:24:47.9896216+08:00",
+  "ChangedBy": "admin",
+  "ChangedDate": "2015-07-06T11:24:47.9881208+08:00",
+  "WebId": "1aac946a-3e69-4965-8e92-58012e00da53"
+}

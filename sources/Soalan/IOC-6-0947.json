@@ -1,0 +1,21 @@
+{
+  "$type": "Bespoke.epsikologi_soalan.Domain.Soalan, epsikologi.Soalan",
+  "NoRujukan": "0947",
+  "SoalanNo": "0947",
+  "TeksSoalan": "Saya boleh berkongsi dengan seseorang di pejabat sekiranya saya menghadapi masalah kerja pada bila-bila masa.",
+  "SeksyenSoalan": "6",
+  "PilihanJawapanCollection": {
+    "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan]], domain.sph",
+    "$values": []
+  },
+  "Trait": "NA",
+  "NamaUjian": "Indeks Organisasi Cemerlang (IOC)",
+  "Susunan": 1.0,
+  "Kategori": null,
+  "CreatedBy": "admin",
+  "Id": "IOC-6-0947",
+  "CreatedDate": "2015-07-06T11:24:47.6668941+08:00",
+  "ChangedBy": "admin",
+  "ChangedDate": "2015-07-06T11:24:47.6663935+08:00",
+  "WebId": "a21eb47d-c264-44dd-b13c-6bb9a6befd82"
+}

@@ -1,0 +1,34 @@
+{
+  "$type": "Bespoke.epsikologi_soalan.Domain.Soalan, epsikologi.Soalan",
+  "NoRujukan": "0488",
+  "SoalanNo": "0488",
+  "TeksSoalan": "Membaca bahan penulisan bidang sosiologi.",
+  "SeksyenSoalan": "1",
+  "PilihanJawapanCollection": {
+    "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan]], domain.sph",
+    "$values": [
+      {
+        "$type": "Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan",
+        "Teks": "Ya",
+        "Nilai": 1,
+        "WebId": null
+      },
+      {
+        "$type": "Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan",
+        "Teks": "Tidak",
+        "Nilai": 0,
+        "WebId": null
+      }
+    ]
+  },
+  "Trait": "D1",
+  "NamaUjian": "Indeks Bimbingan Kerjaya (IBK)",
+  "Susunan": 0.1,
+  "Kategori": null,
+  "CreatedBy": "admin",
+  "Id": "IBK-1-0488",
+  "CreatedDate": "2015-07-06T11:24:44.2249644+08:00",
+  "ChangedBy": "admin",
+  "ChangedDate": "2015-07-06T11:24:44.2229635+08:00",
+  "WebId": "5757f243-fff2-4c83-a261-1a90defd4832"
+}

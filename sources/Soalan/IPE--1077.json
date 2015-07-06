@@ -1,0 +1,21 @@
+{
+  "$type": "Bespoke.epsikologi_soalan.Domain.Soalan, epsikologi.Soalan",
+  "NoRujukan": "1077",
+  "SoalanNo": "1077",
+  "TeksSoalan": "Jika saya tidak memperoleh hubungan erat yang diperlukan, saya akan berasa sedih, terluka dan tidak dihargai.",
+  "SeksyenSoalan": "",
+  "PilihanJawapanCollection": {
+    "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan]], domain.sph",
+    "$values": []
+  },
+  "Trait": "NA",
+  "NamaUjian": "Indikator Personaliti Enneagram (IPE)",
+  "Susunan": 1.0,
+  "Kategori": null,
+  "CreatedBy": "admin",
+  "Id": "IPE--1077",
+  "CreatedDate": "2015-07-06T11:24:48.5755354+08:00",
+  "ChangedBy": "admin",
+  "ChangedDate": "2015-07-06T11:24:48.5750353+08:00",
+  "WebId": "1013744b-f5e1-4984-a82f-69fd43b1c6e8"
+}

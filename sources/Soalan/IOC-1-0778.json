@@ -1,0 +1,21 @@
+{
+  "$type": "Bespoke.epsikologi_soalan.Domain.Soalan, epsikologi.Soalan",
+  "NoRujukan": "0778",
+  "SoalanNo": "0778",
+  "TeksSoalan": "Saya tidak ada keyakinan diri.",
+  "SeksyenSoalan": "1",
+  "PilihanJawapanCollection": {
+    "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan]], domain.sph",
+    "$values": []
+  },
+  "Trait": "NA",
+  "NamaUjian": "Indeks Organisasi Cemerlang (IOC)",
+  "Susunan": 1.0,
+  "Kategori": null,
+  "CreatedBy": "admin",
+  "Id": "IOC-1-0778",
+  "CreatedDate": "2015-07-06T11:24:46.5060747+08:00",
+  "ChangedBy": "admin",
+  "ChangedDate": "2015-07-06T11:24:46.5055746+08:00",
+  "WebId": "d28638c5-9df2-422e-9b6f-e3d3e1a234d6"
+}

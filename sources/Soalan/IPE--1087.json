@@ -1,0 +1,21 @@
+{
+  "$type": "Bespoke.epsikologi_soalan.Domain.Soalan, epsikologi.Soalan",
+  "NoRujukan": "1087",
+  "SoalanNo": "1087",
+  "TeksSoalan": "Saya cuba mempamerkan penampilan diri dan membuat persepsi awal yang baik.",
+  "SeksyenSoalan": "",
+  "PilihanJawapanCollection": {
+    "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan]], domain.sph",
+    "$values": []
+  },
+  "Trait": "NA",
+  "NamaUjian": "Indikator Personaliti Enneagram (IPE)",
+  "Susunan": 1.0,
+  "Kategori": null,
+  "CreatedBy": "admin",
+  "Id": "IPE--1087",
+  "CreatedDate": "2015-07-06T11:24:48.6330762+08:00",
+  "ChangedBy": "admin",
+  "ChangedDate": "2015-07-06T11:24:48.6330762+08:00",
+  "WebId": "0d733a0e-a116-41b6-b9aa-22a852bfd695"
+}

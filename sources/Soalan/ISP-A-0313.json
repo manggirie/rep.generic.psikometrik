@@ -1,0 +1,21 @@
+{
+  "$type": "Bespoke.epsikologi_soalan.Domain.Soalan, epsikologi.Soalan",
+  "NoRujukan": "0313",
+  "SoalanNo": "0313",
+  "TeksSoalan": "Saya seorang yang tenang.",
+  "SeksyenSoalan": "A",
+  "PilihanJawapanCollection": {
+    "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan]], domain.sph",
+    "$values": []
+  },
+  "Trait": "NA",
+  "NamaUjian": "Inventori Sahsiah Pelajar (ISP)",
+  "Susunan": 1.0,
+  "Kategori": null,
+  "CreatedBy": "admin",
+  "Id": "ISP-A-0313",
+  "CreatedDate": "2015-07-06T11:24:42.5908119+08:00",
+  "ChangedBy": "admin",
+  "ChangedDate": "2015-07-06T11:24:42.5893106+08:00",
+  "WebId": "3a67bd2b-fccf-4b56-a741-7905399c859e"
+}

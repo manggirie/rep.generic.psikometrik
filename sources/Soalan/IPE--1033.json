@@ -1,0 +1,21 @@
+{
+  "$type": "Bespoke.epsikologi_soalan.Domain.Soalan, epsikologi.Soalan",
+  "NoRujukan": "1033",
+  "SoalanNo": "1033",
+  "TeksSoalan": "Saya tidak suka melihat kerja yang tidak diselesaikan.",
+  "SeksyenSoalan": "",
+  "PilihanJawapanCollection": {
+    "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan]], domain.sph",
+    "$values": []
+  },
+  "Trait": "NA",
+  "NamaUjian": "Indikator Personaliti Enneagram (IPE)",
+  "Susunan": 1.0,
+  "Kategori": null,
+  "CreatedBy": "admin",
+  "Id": "IPE--1033",
+  "CreatedDate": "2015-07-06T11:24:48.299841+08:00",
+  "ChangedBy": "admin",
+  "ChangedDate": "2015-07-06T11:24:48.299841+08:00",
+  "WebId": "dfc64c67-52d4-4aad-999e-454d53783de8"
+}

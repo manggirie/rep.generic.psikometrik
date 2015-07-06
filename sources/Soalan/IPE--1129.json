@@ -1,0 +1,21 @@
+{
+  "$type": "Bespoke.epsikologi_soalan.Domain.Soalan, epsikologi.Soalan",
+  "NoRujukan": "1129",
+  "SoalanNo": "1129",
+  "TeksSoalan": "Saya berpegang kepada konsep \u001ctiada aktiviti\u001d (inertia) yang mana adalah mudah untuk meneruskan kerja tetapi sukar untuk memulakannya.",
+  "SeksyenSoalan": "",
+  "PilihanJawapanCollection": {
+    "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan]], domain.sph",
+    "$values": []
+  },
+  "Trait": "NA",
+  "NamaUjian": "Indikator Personaliti Enneagram (IPE)",
+  "Susunan": 1.0,
+  "Kategori": null,
+  "CreatedBy": "admin",
+  "Id": "IPE--1129",
+  "CreatedDate": "2015-07-06T11:24:48.9122733+08:00",
+  "ChangedBy": "admin",
+  "ChangedDate": "2015-07-06T11:24:48.9117727+08:00",
+  "WebId": "e68e0b5f-107c-4996-aa6f-619e954b9002"
+}

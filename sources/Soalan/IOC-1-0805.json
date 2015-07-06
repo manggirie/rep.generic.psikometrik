@@ -1,0 +1,21 @@
+{
+  "$type": "Bespoke.epsikologi_soalan.Domain.Soalan, epsikologi.Soalan",
+  "NoRujukan": "0805",
+  "SoalanNo": "0805",
+  "TeksSoalan": "Saya boleh mengendalikan diri saya dengan baik apabila berhadapan dengan krisis.",
+  "SeksyenSoalan": "1",
+  "PilihanJawapanCollection": {
+    "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan]], domain.sph",
+    "$values": []
+  },
+  "Trait": "NA",
+  "NamaUjian": "Indeks Organisasi Cemerlang (IOC)",
+  "Susunan": 1.0,
+  "Kategori": null,
+  "CreatedBy": "admin",
+  "Id": "IOC-1-0805",
+  "CreatedDate": "2015-07-06T11:24:46.682199+08:00",
+  "ChangedBy": "admin",
+  "ChangedDate": "2015-07-06T11:24:46.6816989+08:00",
+  "WebId": "dfc64fb6-f172-41b3-8a63-f92b454fc13a"
+}

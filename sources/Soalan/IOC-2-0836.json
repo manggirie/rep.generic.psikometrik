@@ -1,0 +1,21 @@
+{
+  "$type": "Bespoke.epsikologi_soalan.Domain.Soalan, epsikologi.Soalan",
+  "NoRujukan": "0836",
+  "SoalanNo": "0836",
+  "TeksSoalan": "Saya faham matlamat organisasi saya.",
+  "SeksyenSoalan": "2",
+  "PilihanJawapanCollection": {
+    "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan]], domain.sph",
+    "$values": []
+  },
+  "Trait": "NA",
+  "NamaUjian": "Indeks Organisasi Cemerlang (IOC)",
+  "Susunan": 1.0,
+  "Kategori": null,
+  "CreatedBy": "admin",
+  "Id": "IOC-2-0836",
+  "CreatedDate": "2015-07-06T11:24:46.8743351+08:00",
+  "ChangedBy": "admin",
+  "ChangedDate": "2015-07-06T11:24:46.8733344+08:00",
+  "WebId": "81051fc7-d60f-4e34-a100-cc4865dee8d1"
+}

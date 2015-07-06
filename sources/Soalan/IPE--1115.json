@@ -1,0 +1,21 @@
+{
+  "$type": "Bespoke.epsikologi_soalan.Domain.Soalan, epsikologi.Soalan",
+  "NoRujukan": "1115",
+  "SoalanNo": "1115",
+  "TeksSoalan": "Kadangkala saya berasa sangat tidak selesa dan berbeza, walaupun berada di kalangan rakan-rakan.",
+  "SeksyenSoalan": "",
+  "PilihanJawapanCollection": {
+    "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan]], domain.sph",
+    "$values": []
+  },
+  "Trait": "NA",
+  "NamaUjian": "Indikator Personaliti Enneagram (IPE)",
+  "Susunan": 1.0,
+  "Kategori": null,
+  "CreatedBy": "admin",
+  "Id": "IPE--1115",
+  "CreatedDate": "2015-07-06T11:24:48.8107018+08:00",
+  "ChangedBy": "admin",
+  "ChangedDate": "2015-07-06T11:24:48.8102013+08:00",
+  "WebId": "18429753-e448-4de8-91b1-0f11311ade4c"
+}

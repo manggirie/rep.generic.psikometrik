@@ -1,0 +1,21 @@
+{
+  "$type": "Bespoke.epsikologi_soalan.Domain.Soalan, epsikologi.Soalan",
+  "NoRujukan": "0311",
+  "SoalanNo": "0311",
+  "TeksSoalan": "Saya jarang mengalami kesedihan atau kesepian",
+  "SeksyenSoalan": "A",
+  "PilihanJawapanCollection": {
+    "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan]], domain.sph",
+    "$values": []
+  },
+  "Trait": "NA",
+  "NamaUjian": "Inventori Sahsiah Pelajar (ISP)",
+  "Susunan": 1.0,
+  "Kategori": null,
+  "CreatedBy": "admin",
+  "Id": "ISP-A-0311",
+  "CreatedDate": "2015-07-06T11:24:42.5778027+08:00",
+  "ChangedBy": "admin",
+  "ChangedDate": "2015-07-06T11:24:42.576802+08:00",
+  "WebId": "9d0d7ac6-78de-4250-a3d4-754d7ea9c2b3"
+}

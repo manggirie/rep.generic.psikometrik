@@ -1,0 +1,21 @@
+{
+  "$type": "Bespoke.epsikologi_soalan.Domain.Soalan, epsikologi.Soalan",
+  "NoRujukan": "0425",
+  "SoalanNo": "0425",
+  "TeksSoalan": "Adalah sukar bagi saya untuk memahami mengapa orang lain berperasaan sebegitu.",
+  "SeksyenSoalan": "C",
+  "PilihanJawapanCollection": {
+    "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan]], domain.sph",
+    "$values": []
+  },
+  "Trait": "NA",
+  "NamaUjian": "Inventori Sahsiah Pelajar (ISP)",
+  "Susunan": 1.0,
+  "Kategori": null,
+  "CreatedBy": "admin",
+  "Id": "ISP-C-0425",
+  "CreatedDate": "2015-07-06T11:24:43.379368+08:00",
+  "ChangedBy": "admin",
+  "ChangedDate": "2015-07-06T11:24:43.3783673+08:00",
+  "WebId": "a32db0e8-0455-43da-97f1-2aa954fa47ae"
+}

@@ -1,0 +1,21 @@
+{
+  "$type": "Bespoke.epsikologi_soalan.Domain.Soalan, epsikologi.Soalan",
+  "NoRujukan": "0951",
+  "SoalanNo": "0951",
+  "TeksSoalan": "Saya mahu orang lain berasa selesa apabila bertemu untuk mendapatkan bimbingan dan nasihat.",
+  "SeksyenSoalan": "",
+  "PilihanJawapanCollection": {
+    "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan]], domain.sph",
+    "$values": []
+  },
+  "Trait": "NA",
+  "NamaUjian": "Indikator Personaliti Enneagram (IPE)",
+  "Susunan": 1.0,
+  "Kategori": null,
+  "CreatedBy": "admin",
+  "Id": "IPE--0951",
+  "CreatedDate": "2015-07-06T11:24:47.6899112+08:00",
+  "ChangedBy": "admin",
+  "ChangedDate": "2015-07-06T11:24:47.6889096+08:00",
+  "WebId": "1c187068-194b-41df-913d-0e35e5a4d7e1"
+}

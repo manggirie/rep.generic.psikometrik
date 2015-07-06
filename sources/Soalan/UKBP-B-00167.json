@@ -1,0 +1,34 @@
+{
+  "$type": "Bespoke.epsikologi_soalan.Domain.Soalan, epsikologi.Soalan",
+  "NoRujukan": "UKBP-B-00167",
+  "SoalanNo": "UKBP-B-00167",
+  "TeksSoalan": "Memahami mengapa satelit buatan manusia tidak jatuh ke bumi.",
+  "SeksyenSoalan": "B",
+  "PilihanJawapanCollection": {
+    "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan]], domain.sph",
+    "$values": [
+      {
+        "$type": "Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan",
+        "Teks": "Ya",
+        "Nilai": 1,
+        "WebId": null
+      },
+      {
+        "$type": "Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan",
+        "Teks": "Tidak",
+        "Nilai": 0,
+        "WebId": null
+      }
+    ]
+  },
+  "Trait": null,
+  "NamaUjian": "Ujian Khas Biasiswa Persekutuan(UKBP)",
+  "Susunan": 167.0,
+  "Kategori": null,
+  "CreatedBy": "admin",
+  "Id": "UKBP-B-00167",
+  "CreatedDate": "2015-07-06T11:24:57.2356479+08:00",
+  "ChangedBy": "admin",
+  "ChangedDate": "2015-07-06T11:24:57.2351478+08:00",
+  "WebId": "6c923c22-e33e-4ae1-abe1-51b84be6d388"
+}

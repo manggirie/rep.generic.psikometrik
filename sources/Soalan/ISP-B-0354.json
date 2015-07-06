@@ -1,0 +1,21 @@
+{
+  "$type": "Bespoke.epsikologi_soalan.Domain.Soalan, epsikologi.Soalan",
+  "NoRujukan": "0354",
+  "SoalanNo": "0354",
+  "TeksSoalan": "Apabila saya berurusan dengan orang lain, saya berasa takut membuat kesilapan yang memalukan.",
+  "SeksyenSoalan": "B",
+  "PilihanJawapanCollection": {
+    "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan]], domain.sph",
+    "$values": []
+  },
+  "Trait": "NA",
+  "NamaUjian": "Inventori Sahsiah Pelajar (ISP)",
+  "Susunan": 1.0,
+  "Kategori": null,
+  "CreatedBy": "admin",
+  "Id": "ISP-B-0354",
+  "CreatedDate": "2015-07-06T11:24:42.9300509+08:00",
+  "ChangedBy": "admin",
+  "ChangedDate": "2015-07-06T11:24:42.9290497+08:00",
+  "WebId": "9ffaddad-e67f-4521-adb9-ca26cdf6e69e"
+}

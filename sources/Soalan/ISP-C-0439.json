@@ -1,0 +1,21 @@
+{
+  "$type": "Bespoke.epsikologi_soalan.Domain.Soalan, epsikologi.Soalan",
+  "NoRujukan": "0439",
+  "SoalanNo": "0439",
+  "TeksSoalan": "Saya lebih suka membuat sesuatu secara spontan daripada merancang, walaupun hasilnya tidak memuaskan.",
+  "SeksyenSoalan": "C",
+  "PilihanJawapanCollection": {
+    "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan]], domain.sph",
+    "$values": []
+  },
+  "Trait": "NA",
+  "NamaUjian": "Inventori Sahsiah Pelajar (ISP)",
+  "Susunan": 1.0,
+  "Kategori": null,
+  "CreatedBy": "admin",
+  "Id": "ISP-C-0439",
+  "CreatedDate": "2015-07-06T11:24:43.5710026+08:00",
+  "ChangedBy": "admin",
+  "ChangedDate": "2015-07-06T11:24:43.5654994+08:00",
+  "WebId": "3d3bb2db-dafb-4464-a6e8-fc662c7f2a9b"
+}

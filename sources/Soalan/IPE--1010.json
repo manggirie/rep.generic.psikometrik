@@ -1,0 +1,21 @@
+{
+  "$type": "Bespoke.epsikologi_soalan.Domain.Soalan, epsikologi.Soalan",
+  "NoRujukan": "1010",
+  "SoalanNo": "1010",
+  "TeksSoalan": "Saya suka bekerja secara berulang alik dari satu tugas ke tugas yang lain kerana mahu sentiasa bergerak.",
+  "SeksyenSoalan": "",
+  "PilihanJawapanCollection": {
+    "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan]], domain.sph",
+    "$values": []
+  },
+  "Trait": "NA",
+  "NamaUjian": "Indikator Personaliti Enneagram (IPE)",
+  "Susunan": 1.0,
+  "Kategori": null,
+  "CreatedBy": "admin",
+  "Id": "IPE--1010",
+  "CreatedDate": "2015-07-06T11:24:48.1327226+08:00",
+  "ChangedBy": "admin",
+  "ChangedDate": "2015-07-06T11:24:48.1322225+08:00",
+  "WebId": "d3884abf-4fa8-42fd-af75-814d61ab971c"
+}

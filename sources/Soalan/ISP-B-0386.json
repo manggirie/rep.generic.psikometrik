@@ -1,0 +1,21 @@
+{
+  "$type": "Bespoke.epsikologi_soalan.Domain.Soalan, epsikologi.Soalan",
+  "NoRujukan": "0386",
+  "SoalanNo": "0386",
+  "TeksSoalan": "Saya berusaha mencapai semua yang termampu.",
+  "SeksyenSoalan": "B",
+  "PilihanJawapanCollection": {
+    "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan]], domain.sph",
+    "$values": []
+  },
+  "Trait": "NA",
+  "NamaUjian": "Inventori Sahsiah Pelajar (ISP)",
+  "Susunan": 1.0,
+  "Kategori": null,
+  "CreatedBy": "admin",
+  "Id": "ISP-B-0386",
+  "CreatedDate": "2015-07-06T11:24:43.1406998+08:00",
+  "ChangedBy": "admin",
+  "ChangedDate": "2015-07-06T11:24:43.1391985+08:00",
+  "WebId": "3cf5d143-16c7-4edd-b51e-e644d1925b10"
+}

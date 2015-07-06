@@ -1,0 +1,21 @@
+{
+  "$type": "Bespoke.epsikologi_soalan.Domain.Soalan, epsikologi.Soalan",
+  "NoRujukan": "1012",
+  "SoalanNo": "1012",
+  "TeksSoalan": "Saya lebih suka menarik diri dari berada dalam situasi yang mencetuskan perbalahan daripada berkonfrontasi dengan orang lain.",
+  "SeksyenSoalan": "",
+  "PilihanJawapanCollection": {
+    "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan]], domain.sph",
+    "$values": []
+  },
+  "Trait": "NA",
+  "NamaUjian": "Indikator Personaliti Enneagram (IPE)",
+  "Susunan": 1.0,
+  "Kategori": null,
+  "CreatedBy": "admin",
+  "Id": "IPE--1012",
+  "CreatedDate": "2015-07-06T11:24:48.1472336+08:00",
+  "ChangedBy": "admin",
+  "ChangedDate": "2015-07-06T11:24:48.146733+08:00",
+  "WebId": "20ceb9cd-8e97-4fcd-9314-e98b2e5ddf72"
+}

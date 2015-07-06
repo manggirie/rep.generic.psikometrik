@@ -1,0 +1,21 @@
+{
+  "$type": "Bespoke.epsikologi_soalan.Domain.Soalan, epsikologi.Soalan",
+  "NoRujukan": "0331",
+  "SoalanNo": "0331",
+  "TeksSoalan": "Saya cenderung menyalahkann diri apabila berlaku kesilapan.",
+  "SeksyenSoalan": "A",
+  "PilihanJawapanCollection": {
+    "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan]], domain.sph",
+    "$values": []
+  },
+  "Trait": "NA",
+  "NamaUjian": "Inventori Sahsiah Pelajar (ISP)",
+  "Susunan": 1.0,
+  "Kategori": null,
+  "CreatedBy": "admin",
+  "Id": "ISP-A-0331",
+  "CreatedDate": "2015-07-06T11:24:42.7774434+08:00",
+  "ChangedBy": "admin",
+  "ChangedDate": "2015-07-06T11:24:42.7764427+08:00",
+  "WebId": "d84bdc67-12d4-4973-b992-3f04ca59c8be"
+}

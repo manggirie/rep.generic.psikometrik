@@ -1,0 +1,34 @@
+{
+  "$type": "Bespoke.epsikologi_soalan.Domain.Soalan, epsikologi.Soalan",
+  "NoRujukan": "UKBP-B-00278",
+  "SoalanNo": "UKBP-B-00278",
+  "TeksSoalan": "Penilai kos.",
+  "SeksyenSoalan": "B",
+  "PilihanJawapanCollection": {
+    "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan]], domain.sph",
+    "$values": [
+      {
+        "$type": "Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan",
+        "Teks": "Ya",
+        "Nilai": 1,
+        "WebId": null
+      },
+      {
+        "$type": "Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan",
+        "Teks": "Tidak",
+        "Nilai": 0,
+        "WebId": null
+      }
+    ]
+  },
+  "Trait": null,
+  "NamaUjian": "Ujian Khas Biasiswa Persekutuan(UKBP)",
+  "Susunan": 278.0,
+  "Kategori": null,
+  "CreatedBy": "admin",
+  "Id": "UKBP-B-00278",
+  "CreatedDate": "2015-07-06T11:24:58.2418584+08:00",
+  "ChangedBy": "admin",
+  "ChangedDate": "2015-07-06T11:24:58.2413578+08:00",
+  "WebId": "3bccf7b9-9902-494d-a050-b81ba1c9d8d8"
+}

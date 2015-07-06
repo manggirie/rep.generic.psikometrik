@@ -1,0 +1,21 @@
+{
+  "$type": "Bespoke.epsikologi_soalan.Domain.Soalan, epsikologi.Soalan",
+  "NoRujukan": "0436",
+  "SoalanNo": "0436",
+  "TeksSoalan": "Saya tidak suka kepada cabaran baru.",
+  "SeksyenSoalan": "C",
+  "PilihanJawapanCollection": {
+    "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan]], domain.sph",
+    "$values": []
+  },
+  "Trait": "NA",
+  "NamaUjian": "Inventori Sahsiah Pelajar (ISP)",
+  "Susunan": 1.0,
+  "Kategori": null,
+  "CreatedBy": "admin",
+  "Id": "ISP-C-0436",
+  "CreatedDate": "2015-07-06T11:24:43.4529197+08:00",
+  "ChangedBy": "admin",
+  "ChangedDate": "2015-07-06T11:24:43.4519195+08:00",
+  "WebId": "3a5e4946-d28c-4ab3-ba7d-e9dc876718b2"
+}

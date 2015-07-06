@@ -1,0 +1,52 @@
+{
+  "$type": "Bespoke.epsikologi_soalan.Domain.Soalan, epsikologi.Soalan",
+  "NoRujukan": "PTD-D-00012",
+  "SoalanNo": "PTD-D-00012",
+  "TeksSoalan": ".,akan melakukan tugas dengan segera agar ia dapat diselesaikan pada masanya",
+  "SeksyenSoalan": "D",
+  "PilihanJawapanCollection": {
+    "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan]], domain.sph",
+    "$values": [
+      {
+        "$type": "Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan",
+        "Teks": "Sangat Bersetuju",
+        "Nilai": 0,
+        "WebId": null
+      },
+      {
+        "$type": "Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan",
+        "Teks": "Bersetuju",
+        "Nilai": 1,
+        "WebId": null
+      },
+      {
+        "$type": "Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan",
+        "Teks": "Kadang-Kadang",
+        "Nilai": 2,
+        "WebId": null
+      },
+      {
+        "$type": "Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan",
+        "Teks": "Tidak Bersetuju",
+        "Nilai": 3,
+        "WebId": null
+      },
+      {
+        "$type": "Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan",
+        "Teks": "Sangat Tidak Bersetuju",
+        "Nilai": 4,
+        "WebId": null
+      }
+    ]
+  },
+  "Trait": null,
+  "NamaUjian": "Profil Personaliti & Kerjaya Pegawai(PTD)",
+  "Susunan": 12.0,
+  "Kategori": null,
+  "CreatedBy": "admin",
+  "Id": "PTD-D-00012",
+  "CreatedDate": "2015-07-06T11:24:52.9160993+08:00",
+  "ChangedBy": "admin",
+  "ChangedDate": "2015-07-06T11:24:52.9155992+08:00",
+  "WebId": "3dd4d4c5-f23f-4e04-9d26-1348a7a3ff09"
+}

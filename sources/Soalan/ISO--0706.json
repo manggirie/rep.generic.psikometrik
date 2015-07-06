@@ -1,0 +1,34 @@
+{
+  "$type": "Bespoke.epsikologi_soalan.Domain.Soalan, epsikologi.Soalan",
+  "NoRujukan": "0706",
+  "SoalanNo": "0706",
+  "TeksSoalan": "Saya tidak pernah menyatakan \"Saya tidak mempunyai masa.\"  \t",
+  "SeksyenSoalan": "",
+  "PilihanJawapanCollection": {
+    "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan]], domain.sph",
+    "$values": [
+      {
+        "$type": "Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan",
+        "Teks": "Ya",
+        "Nilai": 1,
+        "WebId": null
+      },
+      {
+        "$type": "Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan",
+        "Teks": "Tidak",
+        "Nilai": 0,
+        "WebId": null
+      }
+    ]
+  },
+  "Trait": "NA",
+  "NamaUjian": "Inventori Stres Organisasi (ISO)",
+  "Susunan": 1.0,
+  "Kategori": null,
+  "CreatedBy": "admin",
+  "Id": "ISO--0706",
+  "CreatedDate": "2015-07-06T11:24:45.911155+08:00",
+  "ChangedBy": "admin",
+  "ChangedDate": "2015-07-06T11:24:45.9096542+08:00",
+  "WebId": "05aeab49-6151-46d9-888f-a3f53b75d340"
+}

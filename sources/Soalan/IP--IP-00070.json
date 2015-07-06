@@ -1,0 +1,34 @@
+{
+  "$type": "Bespoke.epsikologi_soalan.Domain.Soalan, epsikologi.Soalan",
+  "NoRujukan": "IP-00070",
+  "SoalanNo": "IP-00070",
+  "TeksSoalan": "Adakah anda lebih berminat dalam &",
+  "SeksyenSoalan": null,
+  "PilihanJawapanCollection": {
+    "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan]], domain.sph",
+    "$values": [
+      {
+        "$type": "Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan",
+        "Teks": "a)\tpengeluaran dan pengedaran, atau",
+        "Nilai": 1,
+        "WebId": null
+      },
+      {
+        "$type": "Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan",
+        "Teks": "b)\tmerekabentuk dan penyelidikan.",
+        "Nilai": 1,
+        "WebId": null
+      }
+    ]
+  },
+  "Trait": "Skor 4",
+  "NamaUjian": "Indeks Personaliti (IP)",
+  "Susunan": 69.0,
+  "Kategori": null,
+  "CreatedBy": "admin",
+  "Id": "IP--IP-00070",
+  "CreatedDate": "2015-07-06T11:24:51.1918823+08:00",
+  "ChangedBy": "admin",
+  "ChangedDate": "2015-07-06T11:24:51.1908816+08:00",
+  "WebId": "9f0563e3-1bff-4bbc-a337-eb8d7b03bddb"
+}

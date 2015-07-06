@@ -1,0 +1,21 @@
+{
+  "$type": "Bespoke.epsikologi_soalan.Domain.Soalan, epsikologi.Soalan",
+  "NoRujukan": "1072",
+  "SoalanNo": "1072",
+  "TeksSoalan": "Saya cenderung melengahkan atau terus sahaja melakukan sesuatu perkara walaupun dalam situasi merbahaya.",
+  "SeksyenSoalan": "",
+  "PilihanJawapanCollection": {
+    "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan]], domain.sph",
+    "$values": []
+  },
+  "Trait": "NA",
+  "NamaUjian": "Indikator Personaliti Enneagram (IPE)",
+  "Susunan": 1.0,
+  "Kategori": null,
+  "CreatedBy": "admin",
+  "Id": "IPE--1072",
+  "CreatedDate": "2015-07-06T11:24:48.5435133+08:00",
+  "ChangedBy": "admin",
+  "ChangedDate": "2015-07-06T11:24:48.5430127+08:00",
+  "WebId": "0009375b-67a3-4722-96b6-9e313e19676f"
+}

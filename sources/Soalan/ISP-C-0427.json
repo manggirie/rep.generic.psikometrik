@@ -1,0 +1,21 @@
+{
+  "$type": "Bespoke.epsikologi_soalan.Domain.Soalan, epsikologi.Soalan",
+  "NoRujukan": "0427",
+  "SoalanNo": "0427",
+  "TeksSoalan": "Jika seseorang berbuat sesuatu yang menyakitkan hati, saya boleh menunggu sehingga diri berasa tenang sebelum membincangkan perkara tersebut.",
+  "SeksyenSoalan": "C",
+  "PilihanJawapanCollection": {
+    "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan]], domain.sph",
+    "$values": []
+  },
+  "Trait": "NA",
+  "NamaUjian": "Inventori Sahsiah Pelajar (ISP)",
+  "Susunan": 1.0,
+  "Kategori": null,
+  "CreatedBy": "admin",
+  "Id": "ISP-C-0427",
+  "CreatedDate": "2015-07-06T11:24:43.3888745+08:00",
+  "ChangedBy": "admin",
+  "ChangedDate": "2015-07-06T11:24:43.3878743+08:00",
+  "WebId": "824a1230-142d-4d9b-83f1-6ab9d1aad164"
+}

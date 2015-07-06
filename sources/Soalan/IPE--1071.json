@@ -1,0 +1,21 @@
+{
+  "$type": "Bespoke.epsikologi_soalan.Domain.Soalan, epsikologi.Soalan",
+  "NoRujukan": "1071",
+  "SoalanNo": "1071",
+  "TeksSoalan": "Saya tidak suka menghadiri majlis sosial dan lebih suka berseorangan atau bersama dengan orang yang dikenali.",
+  "SeksyenSoalan": "",
+  "PilihanJawapanCollection": {
+    "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan]], domain.sph",
+    "$values": []
+  },
+  "Trait": "NA",
+  "NamaUjian": "Indikator Personaliti Enneagram (IPE)",
+  "Susunan": 1.0,
+  "Kategori": null,
+  "CreatedBy": "admin",
+  "Id": "IPE--1071",
+  "CreatedDate": "2015-07-06T11:24:48.537008+08:00",
+  "ChangedBy": "admin",
+  "ChangedDate": "2015-07-06T11:24:48.5365074+08:00",
+  "WebId": "66dabff1-dfea-4fd4-a590-b76843721896"
+}

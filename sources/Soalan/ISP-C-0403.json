@@ -1,0 +1,21 @@
+{
+  "$type": "Bespoke.epsikologi_soalan.Domain.Soalan, epsikologi.Soalan",
+  "NoRujukan": "0403",
+  "SoalanNo": "0403",
+  "TeksSoalan": "Walaupun saya membuat perancangan awal untuk berbincang dengan ibu bapa, adik-beradik atau rakan sekuliah, saya cenderung mengikut perasaan.",
+  "SeksyenSoalan": "C",
+  "PilihanJawapanCollection": {
+    "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan]], domain.sph",
+    "$values": []
+  },
+  "Trait": "NA",
+  "NamaUjian": "Inventori Sahsiah Pelajar (ISP)",
+  "Susunan": 1.0,
+  "Kategori": null,
+  "CreatedBy": "admin",
+  "Id": "ISP-C-0403",
+  "CreatedDate": "2015-07-06T11:24:43.2462741+08:00",
+  "ChangedBy": "admin",
+  "ChangedDate": "2015-07-06T11:24:43.245774+08:00",
+  "WebId": "1f5c99b9-8f2e-459e-898a-72506c91d7cb"
+}

@@ -1,0 +1,52 @@
+{
+  "$type": "Bespoke.epsikologi_soalan.Domain.Soalan, epsikologi.Soalan",
+  "NoRujukan": "PTD-C-00043",
+  "SoalanNo": "PTD-C-00043",
+  "TeksSoalan": ".,tidak menganggap diri adalah lebih bagus daripada orang lain berdasarkan kepada keadaan semasa mereka.",
+  "SeksyenSoalan": "C",
+  "PilihanJawapanCollection": {
+    "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan]], domain.sph",
+    "$values": [
+      {
+        "$type": "Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan",
+        "Teks": "Sangat Bersetuju",
+        "Nilai": 0,
+        "WebId": null
+      },
+      {
+        "$type": "Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan",
+        "Teks": "Bersetuju",
+        "Nilai": 1,
+        "WebId": null
+      },
+      {
+        "$type": "Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan",
+        "Teks": "Kadang-Kadang",
+        "Nilai": 2,
+        "WebId": null
+      },
+      {
+        "$type": "Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan",
+        "Teks": "Tidak Bersetuju",
+        "Nilai": 3,
+        "WebId": null
+      },
+      {
+        "$type": "Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan",
+        "Teks": "Sangat Tidak Bersetuju",
+        "Nilai": 4,
+        "WebId": null
+      }
+    ]
+  },
+  "Trait": null,
+  "NamaUjian": "Profil Personaliti & Kerjaya Pegawai(PTD)",
+  "Susunan": 43.0,
+  "Kategori": null,
+  "CreatedBy": "admin",
+  "Id": "PTD-C-00043",
+  "CreatedDate": "2015-07-06T11:24:52.7029489+08:00",
+  "ChangedBy": "admin",
+  "ChangedDate": "2015-07-06T11:24:52.7024483+08:00",
+  "WebId": "abf0804c-f62e-4e87-949d-6905a1a68995"
+}

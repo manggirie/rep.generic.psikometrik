@@ -1,0 +1,21 @@
+{
+  "$type": "Bespoke.epsikologi_soalan.Domain.Soalan, epsikologi.Soalan",
+  "NoRujukan": "0803",
+  "SoalanNo": "0803",
+  "TeksSoalan": "Saya tiada keinginan untuk memajukan diri.",
+  "SeksyenSoalan": "1",
+  "PilihanJawapanCollection": {
+    "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan]], domain.sph",
+    "$values": []
+  },
+  "Trait": "NA",
+  "NamaUjian": "Indeks Organisasi Cemerlang (IOC)",
+  "Susunan": 1.0,
+  "Kategori": null,
+  "CreatedBy": "admin",
+  "Id": "IOC-1-0803",
+  "CreatedDate": "2015-07-06T11:24:46.6671884+08:00",
+  "ChangedBy": "admin",
+  "ChangedDate": "2015-07-06T11:24:46.6671884+08:00",
+  "WebId": "7d7f86da-98f1-4998-b14f-dd0c577cb4da"
+}

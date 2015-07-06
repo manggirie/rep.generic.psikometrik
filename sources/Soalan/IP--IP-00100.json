@@ -1,0 +1,34 @@
+{
+  "$type": "Bespoke.epsikologi_soalan.Domain.Soalan, epsikologi.Soalan",
+  "NoRujukan": "IP-00100",
+  "SoalanNo": "IP-00100",
+  "TeksSoalan": "Adakah anda lebih cenderung menjadi seorang yang &",
+  "SeksyenSoalan": null,
+  "PilihanJawapanCollection": {
+    "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan]], domain.sph",
+    "$values": [
+      {
+        "$type": "Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan",
+        "Teks": "a)\tmudah untuk didekati, atau",
+        "Nilai": 1,
+        "WebId": "e6c77939-7717-495e-989b-61faed109fa4"
+      },
+      {
+        "$type": "Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan",
+        "Teks": "b)\tpendiam dan menyepikan diri.",
+        "Nilai": 1,
+        "WebId": "b0ed5292-abca-4810-add9-69fc28aa1bfd"
+      }
+    ]
+  },
+  "Trait": "Skor 1",
+  "NamaUjian": "Indeks Personaliti (IP)",
+  "Susunan": 99.0,
+  "Kategori": null,
+  "CreatedBy": "admin",
+  "Id": "IP--IP-00100",
+  "CreatedDate": "2015-07-06T11:24:49.2645219+08:00",
+  "ChangedBy": "admin",
+  "ChangedDate": "2015-07-06T11:24:49.2635212+08:00",
+  "WebId": "7d122896-b385-4cda-d1b3-f26fdf73a1c9"
+}

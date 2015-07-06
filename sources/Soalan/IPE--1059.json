@@ -1,0 +1,21 @@
+{
+  "$type": "Bespoke.epsikologi_soalan.Domain.Soalan, epsikologi.Soalan",
+  "NoRujukan": "1059",
+  "SoalanNo": "1059",
+  "TeksSoalan": "Saya tidak sanggup menonton aksi ganas di televisyen dan melihat kesengsaraan orang lain.",
+  "SeksyenSoalan": "",
+  "PilihanJawapanCollection": {
+    "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan]], domain.sph",
+    "$values": []
+  },
+  "Trait": "NA",
+  "NamaUjian": "Indikator Personaliti Enneagram (IPE)",
+  "Susunan": 1.0,
+  "Kategori": null,
+  "CreatedBy": "admin",
+  "Id": "IPE--1059",
+  "CreatedDate": "2015-07-06T11:24:48.464457+08:00",
+  "ChangedBy": "admin",
+  "ChangedDate": "2015-07-06T11:24:48.4639564+08:00",
+  "WebId": "30fa75eb-cf8f-4a94-9295-d820dbc01f87"
+}

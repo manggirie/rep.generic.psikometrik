@@ -1,0 +1,34 @@
+{
+  "$type": "Bespoke.epsikologi_soalan.Domain.Soalan, epsikologi.Soalan",
+  "NoRujukan": "UKBP-A-00192",
+  "SoalanNo": "UKBP-A-00192",
+  "TeksSoalan": "Saya cuba mengurangkan tekanan perasaan dengan merokok, makan atau mengambil ubat-ubatan secara berlebihan.",
+  "SeksyenSoalan": "A",
+  "PilihanJawapanCollection": {
+    "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan]], domain.sph",
+    "$values": [
+      {
+        "$type": "Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan",
+        "Teks": "Ya",
+        "Nilai": 1,
+        "WebId": null
+      },
+      {
+        "$type": "Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan",
+        "Teks": "Tidak",
+        "Nilai": 0,
+        "WebId": null
+      }
+    ]
+  },
+  "Trait": null,
+  "NamaUjian": "Ujian Khas Biasiswa Persekutuan(UKBP)",
+  "Susunan": 192.0,
+  "Kategori": null,
+  "CreatedBy": "admin",
+  "Id": "UKBP-A-00192",
+  "CreatedDate": "2015-07-06T11:24:55.2947783+08:00",
+  "ChangedBy": "admin",
+  "ChangedDate": "2015-07-06T11:24:55.2937771+08:00",
+  "WebId": "c45a69e5-8104-40fe-bd48-2c598769f466"
+}

@@ -1,0 +1,34 @@
+{
+  "$type": "Bespoke.epsikologi_soalan.Domain.Soalan, epsikologi.Soalan",
+  "NoRujukan": "IP-00004",
+  "SoalanNo": "IP-00004",
+  "TeksSoalan": "Adakah lebih teruk keadaan jika anda ........",
+  "SeksyenSoalan": null,
+  "PilihanJawapanCollection": {
+    "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan]], domain.sph",
+    "$values": [
+      {
+        "$type": "Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan",
+        "Teks": "a)\tberangan-angan Mat Jenin, atau",
+        "Nilai": 1,
+        "WebId": null
+      },
+      {
+        "$type": "Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan",
+        "Teks": "b)\tberada dalam kebosanan.",
+        "Nilai": 1,
+        "WebId": null
+      }
+    ]
+  },
+  "Trait": "Skor 4",
+  "NamaUjian": "Indeks Personaliti (IP)",
+  "Susunan": 3.0,
+  "Kategori": null,
+  "CreatedBy": "admin",
+  "Id": "IP--IP-00004",
+  "CreatedDate": "2015-07-06T11:24:50.7405638+08:00",
+  "ChangedBy": "admin",
+  "ChangedDate": "2015-07-06T11:24:50.7390625+08:00",
+  "WebId": "de0ef683-3dc6-4928-bb84-8cb0225e7d67"
+}

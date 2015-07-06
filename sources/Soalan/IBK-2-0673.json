@@ -1,0 +1,34 @@
+{
+  "$type": "Bespoke.epsikologi_soalan.Domain.Soalan, epsikologi.Soalan",
+  "NoRujukan": "0673",
+  "SoalanNo": "0673",
+  "TeksSoalan": "Menggunakan mesin pengeposan otomatik",
+  "SeksyenSoalan": "2",
+  "PilihanJawapanCollection": {
+    "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan]], domain.sph",
+    "$values": [
+      {
+        "$type": "Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan",
+        "Teks": "Ya",
+        "Nilai": 1,
+        "WebId": "8685a926-b587-40e6-86fa-a1bcc1133a53"
+      },
+      {
+        "$type": "Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan",
+        "Teks": "Tidak",
+        "Nilai": 0,
+        "WebId": "187bc5ea-1ae3-457b-a188-44d59698c69a"
+      }
+    ]
+  },
+  "Trait": "F2",
+  "NamaUjian": "Indeks Bimbingan Kerjaya (IBK)",
+  "Susunan": 0.2,
+  "Kategori": null,
+  "CreatedBy": "admin",
+  "Id": "IBK-2-0673",
+  "CreatedDate": "2015-07-06T11:24:49.2400049+08:00",
+  "ChangedBy": "admin",
+  "ChangedDate": "2015-07-06T11:24:49.2395043+08:00",
+  "WebId": "b9680a0e-770a-4f2f-92d1-788f34f7138a"
+}

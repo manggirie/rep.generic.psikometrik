@@ -1,0 +1,34 @@
+{
+  "$type": "Bespoke.epsikologi_soalan.Domain.Soalan, epsikologi.Soalan",
+  "NoRujukan": "HLP-00124",
+  "SoalanNo": "HLP-00124",
+  "TeksSoalan": "Saya mudah hilang semangat apabila dikritik.,,,",
+  "SeksyenSoalan": null,
+  "PilihanJawapanCollection": {
+    "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan]], domain.sph",
+    "$values": [
+      {
+        "$type": "Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan",
+        "Teks": "Ya",
+        "Nilai": 1,
+        "WebId": null
+      },
+      {
+        "$type": "Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan",
+        "Teks": "Tidak",
+        "Nilai": 0,
+        "WebId": null
+      }
+    ]
+  },
+  "Trait": null,
+  "NamaUjian": "Ujian Khas Hadiah Latihan Persekutuan(HLP)",
+  "Susunan": 124.0,
+  "Kategori": null,
+  "CreatedBy": "admin",
+  "Id": "HLP-00124",
+  "CreatedDate": "2015-07-06T11:24:50.1396394+08:00",
+  "ChangedBy": "admin",
+  "ChangedDate": "2015-07-06T11:24:50.1386387+08:00",
+  "WebId": "8c5a4bc8-e4d9-4527-ac8d-f0dba00cba70"
+}

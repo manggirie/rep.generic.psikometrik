@@ -1,0 +1,21 @@
+{
+  "$type": "Bespoke.epsikologi_soalan.Domain.Soalan, epsikologi.Soalan",
+  "NoRujukan": "0420",
+  "SoalanNo": "0420",
+  "TeksSoalan": "Apabila timbul sesuatu masalah, saya memikirkan dengan teliti faktor penyebab sebelum cuba menyelesaikannya.",
+  "SeksyenSoalan": "C",
+  "PilihanJawapanCollection": {
+    "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan]], domain.sph",
+    "$values": []
+  },
+  "Trait": "NA",
+  "NamaUjian": "Inventori Sahsiah Pelajar (ISP)",
+  "Susunan": 1.0,
+  "Kategori": null,
+  "CreatedBy": "admin",
+  "Id": "ISP-C-0420",
+  "CreatedDate": "2015-07-06T11:24:43.3473454+08:00",
+  "ChangedBy": "admin",
+  "ChangedDate": "2015-07-06T11:24:43.3468448+08:00",
+  "WebId": "abbd0627-7f0e-45a2-b7ec-9a6d1778659f"
+}

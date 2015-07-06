@@ -1,0 +1,21 @@
+{
+  "$type": "Bespoke.epsikologi_soalan.Domain.Soalan, epsikologi.Soalan",
+  "NoRujukan": "0971",
+  "SoalanNo": "0971",
+  "TeksSoalan": "Saya mungkin tidak berfungsi seperti biasa untuk beberapa jam, hari atau minggu apabila mengalami kesedihan.",
+  "SeksyenSoalan": "",
+  "PilihanJawapanCollection": {
+    "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan]], domain.sph",
+    "$values": []
+  },
+  "Trait": "NA",
+  "NamaUjian": "Indikator Personaliti Enneagram (IPE)",
+  "Susunan": 1.0,
+  "Kategori": null,
+  "CreatedBy": "admin",
+  "Id": "IPE--0971",
+  "CreatedDate": "2015-07-06T11:24:47.8200021+08:00",
+  "ChangedBy": "admin",
+  "ChangedDate": "2015-07-06T11:24:47.8195015+08:00",
+  "WebId": "34f43c8f-111a-4651-bf8a-c86b14e177cd"
+}

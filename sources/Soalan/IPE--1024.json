@@ -1,0 +1,21 @@
+{
+  "$type": "Bespoke.epsikologi_soalan.Domain.Soalan, epsikologi.Soalan",
+  "NoRujukan": "1024",
+  "SoalanNo": "1024",
+  "TeksSoalan": "Saya cuba mempastikan bahawa sebarang penyakit tidak akan menghalang saya daripada melakukan sebarang aktiviti.",
+  "SeksyenSoalan": "",
+  "PilihanJawapanCollection": {
+    "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan]], domain.sph",
+    "$values": []
+  },
+  "Trait": "NA",
+  "NamaUjian": "Indikator Personaliti Enneagram (IPE)",
+  "Susunan": 1.0,
+  "Kategori": null,
+  "CreatedBy": "admin",
+  "Id": "IPE--1024",
+  "CreatedDate": "2015-07-06T11:24:48.2337944+08:00",
+  "ChangedBy": "admin",
+  "ChangedDate": "2015-07-06T11:24:48.2332938+08:00",
+  "WebId": "be02bc78-a0d6-4fe8-be2f-a73f6e093829"
+}

@@ -1,0 +1,34 @@
+{
+  "$type": "Bespoke.epsikologi_soalan.Domain.Soalan, epsikologi.Soalan",
+  "NoRujukan": "HLP-00119",
+  "SoalanNo": "HLP-00119",
+  "TeksSoalan": "Saya suka membuat satu kerja dalam satu masa sehingga selesai.,,,",
+  "SeksyenSoalan": null,
+  "PilihanJawapanCollection": {
+    "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan]], domain.sph",
+    "$values": [
+      {
+        "$type": "Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan",
+        "Teks": "Ya",
+        "Nilai": 1,
+        "WebId": null
+      },
+      {
+        "$type": "Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan",
+        "Teks": "Tidak",
+        "Nilai": 0,
+        "WebId": null
+      }
+    ]
+  },
+  "Trait": null,
+  "NamaUjian": "Ujian Khas Hadiah Latihan Persekutuan(HLP)",
+  "Susunan": 119.0,
+  "Kategori": null,
+  "CreatedBy": "admin",
+  "Id": "HLP-00119",
+  "CreatedDate": "2015-07-06T11:24:50.1006118+08:00",
+  "ChangedBy": "admin",
+  "ChangedDate": "2015-07-06T11:24:50.1006118+08:00",
+  "WebId": "9fa26fd6-a050-4497-b279-2fa552938956"
+}

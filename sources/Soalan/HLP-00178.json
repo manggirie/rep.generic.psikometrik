@@ -1,0 +1,34 @@
+{
+  "$type": "Bespoke.epsikologi_soalan.Domain.Soalan, epsikologi.Soalan",
+  "NoRujukan": "HLP-00178",
+  "SoalanNo": "HLP-00178",
+  "TeksSoalan": "Saya sentiasa berjaga-jaga dan prihatin terhadap apa yang mungkin difikirkan oleh orang lain.,,,",
+  "SeksyenSoalan": null,
+  "PilihanJawapanCollection": {
+    "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan]], domain.sph",
+    "$values": [
+      {
+        "$type": "Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan",
+        "Teks": "Ya",
+        "Nilai": 1,
+        "WebId": null
+      },
+      {
+        "$type": "Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan",
+        "Teks": "Tidak",
+        "Nilai": 0,
+        "WebId": null
+      }
+    ]
+  },
+  "Trait": null,
+  "NamaUjian": "Ujian Khas Hadiah Latihan Persekutuan(HLP)",
+  "Susunan": 178.0,
+  "Kategori": null,
+  "CreatedBy": "admin",
+  "Id": "HLP-00178",
+  "CreatedDate": "2015-07-06T11:24:50.5984635+08:00",
+  "ChangedBy": "admin",
+  "ChangedDate": "2015-07-06T11:24:50.5979633+08:00",
+  "WebId": "5a9eca66-66c7-4d89-870c-fe50571e9c82"
+}

@@ -1,0 +1,34 @@
+{
+  "$type": "Bespoke.epsikologi_soalan.Domain.Soalan, epsikologi.Soalan",
+  "NoRujukan": "0684",
+  "SoalanNo": "0684",
+  "TeksSoalan": "Saya meluangkan masa melakukan aktiviti kegemaran.",
+  "SeksyenSoalan": "",
+  "PilihanJawapanCollection": {
+    "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan]], domain.sph",
+    "$values": [
+      {
+        "$type": "Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan",
+        "Teks": "Ya",
+        "Nilai": 1,
+        "WebId": null
+      },
+      {
+        "$type": "Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan",
+        "Teks": "Tidak",
+        "Nilai": 0,
+        "WebId": null
+      }
+    ]
+  },
+  "Trait": "NA",
+  "NamaUjian": "Inventori Stres Organisasi (ISO)",
+  "Susunan": 1.0,
+  "Kategori": null,
+  "CreatedBy": "admin",
+  "Id": "ISO--0684",
+  "CreatedDate": "2015-07-06T11:24:45.7515421+08:00",
+  "ChangedBy": "admin",
+  "ChangedDate": "2015-07-06T11:24:45.7505419+08:00",
+  "WebId": "1c775859-d2ea-43f8-961c-ef8201691366"
+}

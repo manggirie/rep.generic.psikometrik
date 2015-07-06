@@ -1,0 +1,21 @@
+{
+  "$type": "Bespoke.epsikologi_soalan.Domain.Soalan, epsikologi.Soalan",
+  "NoRujukan": "0447",
+  "SoalanNo": "0447",
+  "TeksSoalan": "Adalah mudah bagi saya untuk menjadi asyik apabila membaca buku atau menonton filem.",
+  "SeksyenSoalan": "C",
+  "PilihanJawapanCollection": {
+    "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan]], domain.sph",
+    "$values": []
+  },
+  "Trait": "NA",
+  "NamaUjian": "Inventori Sahsiah Pelajar (ISP)",
+  "Susunan": 1.0,
+  "Kategori": null,
+  "CreatedBy": "admin",
+  "Id": "ISP-C-0447",
+  "CreatedDate": "2015-07-06T11:24:43.6965924+08:00",
+  "ChangedBy": "admin",
+  "ChangedDate": "2015-07-06T11:24:43.6960923+08:00",
+  "WebId": "e8860eb9-f1c3-4f0c-874f-a1eaebfe9a4d"
+}

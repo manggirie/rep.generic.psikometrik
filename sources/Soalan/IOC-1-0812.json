@@ -1,0 +1,21 @@
+{
+  "$type": "Bespoke.epsikologi_soalan.Domain.Soalan, epsikologi.Soalan",
+  "NoRujukan": "0812",
+  "SoalanNo": "0812",
+  "TeksSoalan": "Apabila semua perkara nampaknya seperti tidak menjadi, saya masih berupaya membuat pertimbangan dan keputusan yang baik.",
+  "SeksyenSoalan": "1",
+  "PilihanJawapanCollection": {
+    "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan]], domain.sph",
+    "$values": []
+  },
+  "Trait": "NA",
+  "NamaUjian": "Indeks Organisasi Cemerlang (IOC)",
+  "Susunan": 1.0,
+  "Kategori": null,
+  "CreatedBy": "admin",
+  "Id": "IOC-1-0812",
+  "CreatedDate": "2015-07-06T11:24:46.72573+08:00",
+  "ChangedBy": "admin",
+  "ChangedDate": "2015-07-06T11:24:46.7247293+08:00",
+  "WebId": "06870de1-7b93-493a-a972-f330da26b3c7"
+}

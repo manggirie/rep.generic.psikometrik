@@ -1,0 +1,34 @@
+{
+  "$type": "Bespoke.epsikologi_soalan.Domain.Soalan, epsikologi.Soalan",
+  "NoRujukan": "UKBP-A-00208",
+  "SoalanNo": "UKBP-A-00208",
+  "TeksSoalan": "Saya berasa terlalu diberi perhatian oleh ramai orang.",
+  "SeksyenSoalan": "A",
+  "PilihanJawapanCollection": {
+    "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan]], domain.sph",
+    "$values": [
+      {
+        "$type": "Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan",
+        "Teks": "Ya",
+        "Nilai": 1,
+        "WebId": null
+      },
+      {
+        "$type": "Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan",
+        "Teks": "Tidak",
+        "Nilai": 0,
+        "WebId": null
+      }
+    ]
+  },
+  "Trait": null,
+  "NamaUjian": "Ujian Khas Biasiswa Persekutuan(UKBP)",
+  "Susunan": 208.0,
+  "Kategori": null,
+  "CreatedBy": "admin",
+  "Id": "UKBP-A-00208",
+  "CreatedDate": "2015-07-06T11:24:55.4453843+08:00",
+  "ChangedBy": "admin",
+  "ChangedDate": "2015-07-06T11:24:55.4448837+08:00",
+  "WebId": "2325c7b1-16cf-4119-9dd3-d7d3d767451d"
+}

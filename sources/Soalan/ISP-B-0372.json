@@ -1,0 +1,21 @@
+{
+  "$type": "Bespoke.epsikologi_soalan.Domain.Soalan, epsikologi.Soalan",
+  "NoRujukan": "0372",
+  "SoalanNo": "0372",
+  "TeksSoalan": "Ada kalanya apabila berada dalam keadaan yang sangat stres, saya rasa dunia ini \"seperti hendak kiamat\" .",
+  "SeksyenSoalan": "B",
+  "PilihanJawapanCollection": {
+    "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan]], domain.sph",
+    "$values": []
+  },
+  "Trait": "NA",
+  "NamaUjian": "Inventori Sahsiah Pelajar (ISP)",
+  "Susunan": 1.0,
+  "Kategori": null,
+  "CreatedBy": "admin",
+  "Id": "ISP-B-0372",
+  "CreatedDate": "2015-07-06T11:24:43.0501356+08:00",
+  "ChangedBy": "admin",
+  "ChangedDate": "2015-07-06T11:24:43.0496351+08:00",
+  "WebId": "6df99ccf-37d2-4807-85d6-b0269564cd0b"
+}

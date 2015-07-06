@@ -1,0 +1,21 @@
+{
+  "$type": "Bespoke.epsikologi_soalan.Domain.Soalan, epsikologi.Soalan",
+  "NoRujukan": "1083",
+  "SoalanNo": "1083",
+  "TeksSoalan": "Apabila berada dalam sesebuah kumpulan, kadangkala saya menjadi seorang pemerhati daripada seorang peserta.",
+  "SeksyenSoalan": "",
+  "PilihanJawapanCollection": {
+    "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan]], domain.sph",
+    "$values": []
+  },
+  "Trait": "NA",
+  "NamaUjian": "Indikator Personaliti Enneagram (IPE)",
+  "Susunan": 1.0,
+  "Kategori": null,
+  "CreatedBy": "admin",
+  "Id": "IPE--1083",
+  "CreatedDate": "2015-07-06T11:24:48.6115608+08:00",
+  "ChangedBy": "admin",
+  "ChangedDate": "2015-07-06T11:24:48.6110607+08:00",
+  "WebId": "a693b608-bbfe-4d4b-8461-40e694ceda22"
+}

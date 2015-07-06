@@ -1,0 +1,34 @@
+{
+  "$type": "Bespoke.epsikologi_soalan.Domain.Soalan, epsikologi.Soalan",
+  "NoRujukan": "0510",
+  "SoalanNo": "0510",
+  "TeksSoalan": "Menguruskan penyimpanan rekod perbelanjaan secara terperinci",
+  "SeksyenSoalan": "1",
+  "PilihanJawapanCollection": {
+    "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan]], domain.sph",
+    "$values": [
+      {
+        "$type": "Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan",
+        "Teks": "Ya",
+        "Nilai": 1,
+        "WebId": null
+      },
+      {
+        "$type": "Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan",
+        "Teks": "Tidak",
+        "Nilai": 0,
+        "WebId": null
+      }
+    ]
+  },
+  "Trait": "F1",
+  "NamaUjian": "Indeks Bimbingan Kerjaya (IBK)",
+  "Susunan": 1.0,
+  "Kategori": null,
+  "CreatedBy": "admin",
+  "Id": "IBK-1-0510",
+  "CreatedDate": "2015-07-06T11:24:44.3935837+08:00",
+  "ChangedBy": "admin",
+  "ChangedDate": "2015-07-06T11:24:44.3930835+08:00",
+  "WebId": "57533d16-7a18-45ed-a4b6-c05ff1538c89"
+}

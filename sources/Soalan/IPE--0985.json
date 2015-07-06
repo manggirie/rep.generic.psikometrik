@@ -1,0 +1,21 @@
+{
+  "$type": "Bespoke.epsikologi_soalan.Domain.Soalan, epsikologi.Soalan",
+  "NoRujukan": "0985",
+  "SoalanNo": "0985",
+  "TeksSoalan": "Orang lain melihat saya sebagai seorang yang tenang tetapi sebenarnya saya kerap berasa bimbang.",
+  "SeksyenSoalan": "",
+  "PilihanJawapanCollection": {
+    "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan]], domain.sph",
+    "$values": []
+  },
+  "Trait": "NA",
+  "NamaUjian": "Indikator Personaliti Enneagram (IPE)",
+  "Susunan": 1.0,
+  "Kategori": null,
+  "CreatedBy": "admin",
+  "Id": "IPE--0985",
+  "CreatedDate": "2015-07-06T11:24:47.9100662+08:00",
+  "ChangedBy": "admin",
+  "ChangedDate": "2015-07-06T11:24:47.9095651+08:00",
+  "WebId": "ea9c498e-3c7e-4691-910b-7d4d1a3d5272"
+}

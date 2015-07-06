@@ -1,0 +1,21 @@
+{
+  "$type": "Bespoke.epsikologi_soalan.Domain.Soalan, epsikologi.Soalan",
+  "NoRujukan": "0975",
+  "SoalanNo": "0975",
+  "TeksSoalan": "Saya menghargai kesediaan individu berterus terang dan bersikap jujur kerana saya juga akan berbuat demikian terhadap mereka.",
+  "SeksyenSoalan": "",
+  "PilihanJawapanCollection": {
+    "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan]], domain.sph",
+    "$values": []
+  },
+  "Trait": "NA",
+  "NamaUjian": "Indikator Personaliti Enneagram (IPE)",
+  "Susunan": 1.0,
+  "Kategori": null,
+  "CreatedBy": "admin",
+  "Id": "IPE--0975",
+  "CreatedDate": "2015-07-06T11:24:47.8470212+08:00",
+  "ChangedBy": "admin",
+  "ChangedDate": "2015-07-06T11:24:47.8465211+08:00",
+  "WebId": "186098d2-8178-47b9-b87b-026160e754b6"
+}

@@ -1,0 +1,34 @@
+{
+  "$type": "Bespoke.epsikologi_soalan.Domain.Soalan, epsikologi.Soalan",
+  "NoRujukan": "IP-00110",
+  "SoalanNo": "IP-00110",
+  "TeksSoalan": "Adakah anda beranggapan bahawa mempunyai rutin harian yang tetap adalah ...",
+  "SeksyenSoalan": null,
+  "PilihanJawapanCollection": {
+    "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan]], domain.sph",
+    "$values": [
+      {
+        "$type": "Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan",
+        "Teks": "a)\tcara mudah bagi menyempurnakan sesuatu perkara, atau",
+        "Nilai": 1,
+        "WebId": "55bb31cd-9c8b-4a5f-92db-aea22f6c8549"
+      },
+      {
+        "$type": "Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan",
+        "Teks": "b)\ttindakan yang menyeksakan walaupun ia diperlukan.",
+        "Nilai": 1,
+        "WebId": "5805af6b-4aff-43ab-9706-152e9c9a57fa"
+      }
+    ]
+  },
+  "Trait": "Skor 11",
+  "NamaUjian": "Indeks Personaliti (IP)",
+  "Susunan": 109.0,
+  "Kategori": null,
+  "CreatedBy": "admin",
+  "Id": "IP--IP-00110",
+  "CreatedDate": "2015-07-06T11:24:48.9317868+08:00",
+  "ChangedBy": "admin",
+  "ChangedDate": "2015-07-06T11:24:48.9312863+08:00",
+  "WebId": "73e9aef8-d8a0-4eec-860d-bbc526cb100b"
+}

@@ -1,0 +1,21 @@
+{
+  "$type": "Bespoke.epsikologi_soalan.Domain.Soalan, epsikologi.Soalan",
+  "NoRujukan": "1048",
+  "SoalanNo": "1048",
+  "TeksSoalan": "Saya cenderung bersikap degil apabila orang lain cuba mengawal atau mengajar apa yang perlu dilakukan.",
+  "SeksyenSoalan": "",
+  "PilihanJawapanCollection": {
+    "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan]], domain.sph",
+    "$values": []
+  },
+  "Trait": "NA",
+  "NamaUjian": "Indikator Personaliti Enneagram (IPE)",
+  "Susunan": 1.0,
+  "Kategori": null,
+  "CreatedBy": "admin",
+  "Id": "IPE--1048",
+  "CreatedDate": "2015-07-06T11:24:48.3974101+08:00",
+  "ChangedBy": "admin",
+  "ChangedDate": "2015-07-06T11:24:48.3969091+08:00",
+  "WebId": "a5daed8d-fb79-4021-a390-615a14bd66f9"
+}

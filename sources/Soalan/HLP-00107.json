@@ -1,0 +1,34 @@
+{
+  "$type": "Bespoke.epsikologi_soalan.Domain.Soalan, epsikologi.Soalan",
+  "NoRujukan": "HLP-00107",
+  "SoalanNo": "HLP-00107",
+  "TeksSoalan": "Saya suka menyatakan pendapat atau pendirian saya ke atas sesuatu isu.,,,",
+  "SeksyenSoalan": null,
+  "PilihanJawapanCollection": {
+    "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan]], domain.sph",
+    "$values": [
+      {
+        "$type": "Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan",
+        "Teks": "Ya",
+        "Nilai": 1,
+        "WebId": null
+      },
+      {
+        "$type": "Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan",
+        "Teks": "Tidak",
+        "Nilai": 0,
+        "WebId": null
+      }
+    ]
+  },
+  "Trait": null,
+  "NamaUjian": "Ujian Khas Hadiah Latihan Persekutuan(HLP)",
+  "Susunan": 107.0,
+  "Kategori": null,
+  "CreatedBy": "admin",
+  "Id": "HLP-00107",
+  "CreatedDate": "2015-07-06T11:24:50.0205553+08:00",
+  "ChangedBy": "admin",
+  "ChangedDate": "2015-07-06T11:24:50.0205553+08:00",
+  "WebId": "7344d7b1-d712-4d39-a9e9-b81b1dc9281a"
+}

@@ -1,0 +1,34 @@
+{
+  "$type": "Bespoke.epsikologi_soalan.Domain.Soalan, epsikologi.Soalan",
+  "NoRujukan": "IP-00082",
+  "SoalanNo": "IP-00082",
+  "TeksSoalan": "Dalam menjalani kehidupan seharian, adakah anda lebih cenderung mengikut ...",
+  "SeksyenSoalan": null,
+  "PilihanJawapanCollection": {
+    "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan]], domain.sph",
+    "$values": [
+      {
+        "$type": "Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan",
+        "Teks": "a)\tnorma masyarakat (adat resam), atau",
+        "Nilai": 1,
+        "WebId": null
+      },
+      {
+        "$type": "Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan",
+        "Teks": "b)\tcara semulajadi (asli).",
+        "Nilai": 1,
+        "WebId": null
+      }
+    ]
+  },
+  "Trait": "Skor 5",
+  "NamaUjian": "Indeks Personaliti (IP)",
+  "Susunan": 81.0,
+  "Kategori": null,
+  "CreatedBy": "admin",
+  "Id": "IP--IP-00082",
+  "CreatedDate": "2015-07-06T11:24:51.3099657+08:00",
+  "ChangedBy": "admin",
+  "ChangedDate": "2015-07-06T11:24:51.3084644+08:00",
+  "WebId": "a756f172-b180-4c4a-8df4-1384afce2902"
+}

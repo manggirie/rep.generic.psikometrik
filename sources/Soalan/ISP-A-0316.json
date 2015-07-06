@@ -1,0 +1,21 @@
+{
+  "$type": "Bespoke.epsikologi_soalan.Domain.Soalan, epsikologi.Soalan",
+  "NoRujukan": "0316",
+  "SoalanNo": "0316",
+  "TeksSoalan": "Adakalanya orang lain tidak boleh bergantung harap terhadap saya sebagaimana sepatutnya.",
+  "SeksyenSoalan": "A",
+  "PilihanJawapanCollection": {
+    "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan]], domain.sph",
+    "$values": []
+  },
+  "Trait": "NA",
+  "NamaUjian": "Inventori Sahsiah Pelajar (ISP)",
+  "Susunan": 1.0,
+  "Kategori": null,
+  "CreatedBy": "admin",
+  "Id": "ISP-A-0316",
+  "CreatedDate": "2015-07-06T11:24:42.6173304+08:00",
+  "ChangedBy": "admin",
+  "ChangedDate": "2015-07-06T11:24:42.6168298+08:00",
+  "WebId": "768154d0-9dd6-4a02-8ecb-e6bc4643f4c2"
+}

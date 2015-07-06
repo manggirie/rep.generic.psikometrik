@@ -1,0 +1,34 @@
+{
+  "$type": "Bespoke.epsikologi_soalan.Domain.Soalan, epsikologi.Soalan",
+  "NoRujukan": "UKBP-A-00064",
+  "SoalanNo": "UKBP-A-00064",
+  "TeksSoalan": "Saya prihatin terhadap perasaan dan keperluan ahli keluarga yang sakit.",
+  "SeksyenSoalan": "A",
+  "PilihanJawapanCollection": {
+    "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan]], domain.sph",
+    "$values": [
+      {
+        "$type": "Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan",
+        "Teks": "Ya",
+        "Nilai": 1,
+        "WebId": null
+      },
+      {
+        "$type": "Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan",
+        "Teks": "Tidak",
+        "Nilai": 0,
+        "WebId": null
+      }
+    ]
+  },
+  "Trait": null,
+  "NamaUjian": "Ujian Khas Biasiswa Persekutuan(UKBP)",
+  "Susunan": 64.0,
+  "Kategori": null,
+  "CreatedBy": "admin",
+  "Id": "UKBP-A-00064",
+  "CreatedDate": "2015-07-06T11:24:54.2100121+08:00",
+  "ChangedBy": "admin",
+  "ChangedDate": "2015-07-06T11:24:54.2100121+08:00",
+  "WebId": "53433d41-bad6-42e8-bcb9-4e53226e70bb"
+}

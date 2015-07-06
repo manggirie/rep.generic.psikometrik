@@ -1,0 +1,21 @@
+{
+  "$type": "Bespoke.epsikologi_soalan.Domain.Soalan, epsikologi.Soalan",
+  "NoRujukan": "0381",
+  "SoalanNo": "0381",
+  "TeksSoalan": "Apabila sesuatu tugasan menjadi terlalu sukar, saya cenderung memulakan tugasan baru.",
+  "SeksyenSoalan": "B",
+  "PilihanJawapanCollection": {
+    "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan]], domain.sph",
+    "$values": []
+  },
+  "Trait": "NA",
+  "NamaUjian": "Inventori Sahsiah Pelajar (ISP)",
+  "Susunan": 1.0,
+  "Kategori": null,
+  "CreatedBy": "admin",
+  "Id": "ISP-B-0381",
+  "CreatedDate": "2015-07-06T11:24:43.1071759+08:00",
+  "ChangedBy": "admin",
+  "ChangedDate": "2015-07-06T11:24:43.1061752+08:00",
+  "WebId": "c6f9f59f-26ab-4b4a-8d13-8ef79e8da380"
+}

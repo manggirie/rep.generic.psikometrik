@@ -1,0 +1,21 @@
+{
+  "$type": "Bespoke.epsikologi_soalan.Domain.Soalan, epsikologi.Soalan",
+  "NoRujukan": "0781",
+  "SoalanNo": "0781",
+  "TeksSoalan": "Kadang-kadang saya bukan orang yang boleh diharapkan dan dipercayai seperti yang sepatutnya.",
+  "SeksyenSoalan": "1",
+  "PilihanJawapanCollection": {
+    "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan]], domain.sph",
+    "$values": []
+  },
+  "Trait": "NA",
+  "NamaUjian": "Indeks Organisasi Cemerlang (IOC)",
+  "Susunan": 1.0,
+  "Kategori": null,
+  "CreatedBy": "admin",
+  "Id": "IOC-1-0781",
+  "CreatedDate": "2015-07-06T11:24:46.5260888+08:00",
+  "ChangedBy": "admin",
+  "ChangedDate": "2015-07-06T11:24:46.5255883+08:00",
+  "WebId": "1e5d1658-0327-4ae7-bd18-ed6e7694cf3e"
+}

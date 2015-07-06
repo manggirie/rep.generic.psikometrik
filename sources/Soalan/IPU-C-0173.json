@@ -1,0 +1,34 @@
+{
+  "$type": "Bespoke.epsikologi_soalan.Domain.Soalan, epsikologi.Soalan",
+  "NoRujukan": "0173",
+  "SoalanNo": "0173",
+  "TeksSoalan": "Saya lebih suka bersendirian daripada bersama dengan orang lain.",
+  "SeksyenSoalan": "C",
+  "PilihanJawapanCollection": {
+    "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan]], domain.sph",
+    "$values": [
+      {
+        "$type": "Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan",
+        "Teks": "Ya",
+        "Nilai": 1,
+        "WebId": null
+      },
+      {
+        "$type": "Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan",
+        "Teks": "Tidak",
+        "Nilai": 0,
+        "WebId": null
+      }
+    ]
+  },
+  "Trait": "NA",
+  "NamaUjian": "Indikator Perwatakan Unggul (IPU)",
+  "Susunan": 1.0,
+  "Kategori": null,
+  "CreatedBy": "admin",
+  "Id": "IPU-C-0173",
+  "CreatedDate": "2015-07-06T11:24:41.4650168+08:00",
+  "ChangedBy": "admin",
+  "ChangedDate": "2015-07-06T11:24:41.4645162+08:00",
+  "WebId": "c84f7839-4b3a-43fb-8a71-f591a1e78ca9"
+}

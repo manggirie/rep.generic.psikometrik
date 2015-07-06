@@ -1,0 +1,21 @@
+{
+  "$type": "Bespoke.epsikologi_soalan.Domain.Soalan, epsikologi.Soalan",
+  "NoRujukan": "0980",
+  "SoalanNo": "0980",
+  "TeksSoalan": "Saya sangat sensitif kepada pernyataan kritis dan berasa mudah terguris walaupun dengan perkara yang kecil.",
+  "SeksyenSoalan": "",
+  "PilihanJawapanCollection": {
+    "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan]], domain.sph",
+    "$values": []
+  },
+  "Trait": "NA",
+  "NamaUjian": "Indikator Personaliti Enneagram (IPE)",
+  "Susunan": 1.0,
+  "Kategori": null,
+  "CreatedBy": "admin",
+  "Id": "IPE--0980",
+  "CreatedDate": "2015-07-06T11:24:47.877543+08:00",
+  "ChangedBy": "admin",
+  "ChangedDate": "2015-07-06T11:24:47.8765423+08:00",
+  "WebId": "8d486c09-8b0d-485a-93b2-2441e61c9855"
+}

@@ -1,0 +1,21 @@
+{
+  "$type": "Bespoke.epsikologi_soalan.Domain.Soalan, epsikologi.Soalan",
+  "NoRujukan": "0419",
+  "SoalanNo": "0419",
+  "TeksSoalan": "Saya percaya bahawa sesuatu masalah itu boleh dikawal, walaupun ia tidak semestinya benar.",
+  "SeksyenSoalan": "C",
+  "PilihanJawapanCollection": {
+    "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan]], domain.sph",
+    "$values": []
+  },
+  "Trait": "NA",
+  "NamaUjian": "Inventori Sahsiah Pelajar (ISP)",
+  "Susunan": 1.0,
+  "Kategori": null,
+  "CreatedBy": "admin",
+  "Id": "ISP-C-0419",
+  "CreatedDate": "2015-07-06T11:24:43.3423419+08:00",
+  "ChangedBy": "admin",
+  "ChangedDate": "2015-07-06T11:24:43.3408411+08:00",
+  "WebId": "2db7dbb1-0bbc-477c-8aa4-eca0016b9ab4"
+}

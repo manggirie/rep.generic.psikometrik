@@ -1,0 +1,34 @@
+{
+  "$type": "Bespoke.epsikologi_soalan.Domain.Soalan, epsikologi.Soalan",
+  "NoRujukan": "IP-00077",
+  "SoalanNo": "IP-00077",
+  "TeksSoalan": "Apabila anda perlu menyelesaikan satu tugas khusus, adakah anda cenderung untuk ...",
+  "SeksyenSoalan": null,
+  "PilihanJawapanCollection": {
+    "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan]], domain.sph",
+    "$values": [
+      {
+        "$type": "Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan",
+        "Teks": "a)\tmerancang dengan teliti sebelum memulakannya, atau",
+        "Nilai": 1,
+        "WebId": null
+      },
+      {
+        "$type": "Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan",
+        "Teks": "b)\tmengetahui apa yang penting semasa melakukannya.",
+        "Nilai": 1,
+        "WebId": null
+      }
+    ]
+  },
+  "Trait": "Skor 11",
+  "NamaUjian": "Indeks Personaliti (IP)",
+  "Susunan": 76.0,
+  "Kategori": null,
+  "CreatedBy": "admin",
+  "Id": "IP--IP-00077",
+  "CreatedDate": "2015-07-06T11:24:51.2459205+08:00",
+  "ChangedBy": "admin",
+  "ChangedDate": "2015-07-06T11:24:51.2454203+08:00",
+  "WebId": "2e428713-f621-4b1e-8905-2f97fbfb09c4"
+}

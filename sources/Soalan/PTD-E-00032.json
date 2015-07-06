@@ -1,0 +1,52 @@
+{
+  "$type": "Bespoke.epsikologi_soalan.Domain.Soalan, epsikologi.Soalan",
+  "NoRujukan": "PTD-E-00032",
+  "SoalanNo": "PTD-E-00032",
+  "TeksSoalan": ".,berasa malu jika terpaksa berpura-pura baik dan mengambil berat terhadap kebajikan orang lain.",
+  "SeksyenSoalan": "E",
+  "PilihanJawapanCollection": {
+    "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan]], domain.sph",
+    "$values": [
+      {
+        "$type": "Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan",
+        "Teks": "Sangat Bersetuju",
+        "Nilai": 0,
+        "WebId": null
+      },
+      {
+        "$type": "Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan",
+        "Teks": "Bersetuju",
+        "Nilai": 1,
+        "WebId": null
+      },
+      {
+        "$type": "Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan",
+        "Teks": "Kadang-Kadang",
+        "Nilai": 2,
+        "WebId": null
+      },
+      {
+        "$type": "Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan",
+        "Teks": "Tidak Bersetuju",
+        "Nilai": 3,
+        "WebId": null
+      },
+      {
+        "$type": "Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan",
+        "Teks": "Sangat Tidak Bersetuju",
+        "Nilai": 4,
+        "WebId": null
+      }
+    ]
+  },
+  "Trait": null,
+  "NamaUjian": "Profil Personaliti & Kerjaya Pegawai(PTD)",
+  "Susunan": 32.0,
+  "Kategori": null,
+  "CreatedBy": "admin",
+  "Id": "PTD-E-00032",
+  "CreatedDate": "2015-07-06T11:24:53.6195959+08:00",
+  "ChangedBy": "admin",
+  "ChangedDate": "2015-07-06T11:24:53.6195959+08:00",
+  "WebId": "397381c2-79cb-43d2-a887-37855a0e3a3c"
+}

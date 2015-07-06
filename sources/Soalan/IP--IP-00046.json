@@ -1,0 +1,34 @@
+{
+  "$type": "Bespoke.epsikologi_soalan.Domain.Soalan, epsikologi.Soalan",
+  "NoRujukan": "IP-00046",
+  "SoalanNo": "IP-00046",
+  "TeksSoalan": "Apabila berada bersama rakan,  adakah anda menjadi orang yang ...",
+  "SeksyenSoalan": null,
+  "PilihanJawapanCollection": {
+    "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan]], domain.sph",
+    "$values": [
+      {
+        "$type": "Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan",
+        "Teks": "a)\tmempunyai maklumat semasa berhubung apa yang sedang berlaku, atau",
+        "Nilai": 1,
+        "WebId": null
+      },
+      {
+        "$type": "Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan",
+        "Teks": "b)\tterakhir mendapat maklumat apa yang sedang berlaku.",
+        "Nilai": 1,
+        "WebId": null
+      }
+    ]
+  },
+  "Trait": "Skor 2",
+  "NamaUjian": "Indeks Personaliti (IP)",
+  "Susunan": 45.0,
+  "Kategori": null,
+  "CreatedBy": "admin",
+  "Id": "IP--IP-00046",
+  "CreatedDate": "2015-07-06T11:24:51.0347714+08:00",
+  "ChangedBy": "admin",
+  "ChangedDate": "2015-07-06T11:24:51.0342708+08:00",
+  "WebId": "3ac07d71-6626-4ac0-ad97-73e9a527a402"
+}

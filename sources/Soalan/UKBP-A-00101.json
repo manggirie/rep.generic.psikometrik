@@ -1,0 +1,34 @@
+{
+  "$type": "Bespoke.epsikologi_soalan.Domain.Soalan, epsikologi.Soalan",
+  "NoRujukan": "UKBP-A-00101",
+  "SoalanNo": "UKBP-A-00101",
+  "TeksSoalan": "Saya tidak peduli apa orang lain kata tentang Malaysia kerana tugas saya adalah untuk belajar.",
+  "SeksyenSoalan": "A",
+  "PilihanJawapanCollection": {
+    "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan]], domain.sph",
+    "$values": [
+      {
+        "$type": "Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan",
+        "Teks": "Ya",
+        "Nilai": 1,
+        "WebId": null
+      },
+      {
+        "$type": "Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan",
+        "Teks": "Tidak",
+        "Nilai": 0,
+        "WebId": null
+      }
+    ]
+  },
+  "Trait": null,
+  "NamaUjian": "Ujian Khas Biasiswa Persekutuan(UKBP)",
+  "Susunan": 101.0,
+  "Kategori": null,
+  "CreatedBy": "admin",
+  "Id": "UKBP-A-00101",
+  "CreatedDate": "2015-07-06T11:24:54.5602598+08:00",
+  "ChangedBy": "admin",
+  "ChangedDate": "2015-07-06T11:24:54.5562565+08:00",
+  "WebId": "c6832ce8-5603-4f30-b7fd-18c50731a420"
+}

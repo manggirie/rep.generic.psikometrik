@@ -1,0 +1,21 @@
+{
+  "$type": "Bespoke.epsikologi_soalan.Domain.Soalan, epsikologi.Soalan",
+  "NoRujukan": "0426",
+  "SoalanNo": "0426",
+  "TeksSoalan": "Saya berupaya mengenal pasti apa yang difikirkan dan bagaimana ia menjejaskan mood diri.",
+  "SeksyenSoalan": "C",
+  "PilihanJawapanCollection": {
+    "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan]], domain.sph",
+    "$values": []
+  },
+  "Trait": "NA",
+  "NamaUjian": "Inventori Sahsiah Pelajar (ISP)",
+  "Susunan": 1.0,
+  "Kategori": null,
+  "CreatedBy": "admin",
+  "Id": "ISP-C-0426",
+  "CreatedDate": "2015-07-06T11:24:43.3833709+08:00",
+  "ChangedBy": "admin",
+  "ChangedDate": "2015-07-06T11:24:43.3828707+08:00",
+  "WebId": "da1be13b-6b22-4b0c-a2ad-bf47be554b8e"
+}

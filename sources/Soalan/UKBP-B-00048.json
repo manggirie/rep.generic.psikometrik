@@ -1,0 +1,34 @@
+{
+  "$type": "Bespoke.epsikologi_soalan.Domain.Soalan, epsikologi.Soalan",
+  "NoRujukan": "UKBP-B-00048",
+  "SoalanNo": "UKBP-B-00048",
+  "TeksSoalan": "Saya selalu memastikan barang-barang di sekeliling saya berada dalam keadaan yang teratur.",
+  "SeksyenSoalan": "B",
+  "PilihanJawapanCollection": {
+    "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan]], domain.sph",
+    "$values": [
+      {
+        "$type": "Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan",
+        "Teks": "Ya",
+        "Nilai": 1,
+        "WebId": null
+      },
+      {
+        "$type": "Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan",
+        "Teks": "Tidak",
+        "Nilai": 0,
+        "WebId": null
+      }
+    ]
+  },
+  "Trait": null,
+  "NamaUjian": "Ujian Khas Biasiswa Persekutuan(UKBP)",
+  "Susunan": 48.0,
+  "Kategori": null,
+  "CreatedBy": "admin",
+  "Id": "UKBP-B-00048",
+  "CreatedDate": "2015-07-06T11:24:56.24645+08:00",
+  "ChangedBy": "admin",
+  "ChangedDate": "2015-07-06T11:24:56.2459494+08:00",
+  "WebId": "6de030c1-4e12-4bec-b9c0-1fe01c6f6ba5"
+}

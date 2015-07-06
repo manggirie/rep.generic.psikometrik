@@ -1,0 +1,21 @@
+{
+  "$type": "Bespoke.epsikologi_soalan.Domain.Soalan, epsikologi.Soalan",
+  "NoRujukan": "1036",
+  "SoalanNo": "1036",
+  "TeksSoalan": "Kawan-kawan menggambarkan saya sebagai seorang yang setia, suka membantu dan baik hati.",
+  "SeksyenSoalan": "",
+  "PilihanJawapanCollection": {
+    "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan]], domain.sph",
+    "$values": []
+  },
+  "Trait": "NA",
+  "NamaUjian": "Indikator Personaliti Enneagram (IPE)",
+  "Susunan": 1.0,
+  "Kategori": null,
+  "CreatedBy": "admin",
+  "Id": "IPE--1036",
+  "CreatedDate": "2015-07-06T11:24:48.3163525+08:00",
+  "ChangedBy": "admin",
+  "ChangedDate": "2015-07-06T11:24:48.3158523+08:00",
+  "WebId": "bd4763f7-d59e-4c5e-8f06-e99cd2256769"
+}

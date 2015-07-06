@@ -1,0 +1,34 @@
+{
+  "$type": "Bespoke.epsikologi_soalan.Domain.Soalan, epsikologi.Soalan",
+  "NoRujukan": "0170",
+  "SoalanNo": "0170",
+  "TeksSoalan": "Kadangkala saya mendapat kesusahan disebabkan tindakan yang terburu-buru.",
+  "SeksyenSoalan": "I",
+  "PilihanJawapanCollection": {
+    "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan]], domain.sph",
+    "$values": [
+      {
+        "$type": "Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan",
+        "Teks": "Ya",
+        "Nilai": 1,
+        "WebId": null
+      },
+      {
+        "$type": "Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan",
+        "Teks": "Tidak",
+        "Nilai": 0,
+        "WebId": null
+      }
+    ]
+  },
+  "Trait": "NA",
+  "NamaUjian": "Indikator Perwatakan Unggul (IPU)",
+  "Susunan": 1.0,
+  "Kategori": null,
+  "CreatedBy": "admin",
+  "Id": "IPU-I-0170",
+  "CreatedDate": "2015-07-06T11:24:41.4359963+08:00",
+  "ChangedBy": "admin",
+  "ChangedDate": "2015-07-06T11:24:41.4354962+08:00",
+  "WebId": "6f36c36c-6385-4dc5-9205-5a8cc6cd29d5"
+}

@@ -1,0 +1,34 @@
+{
+  "$type": "Bespoke.epsikologi_soalan.Domain.Soalan, epsikologi.Soalan",
+  "NoRujukan": "HLP-00143",
+  "SoalanNo": "HLP-00143",
+  "TeksSoalan": "\"Saya berasa perlu berada dalam kesibukan, sehingga sukar untuk berehat.\",,,",
+  "SeksyenSoalan": null,
+  "PilihanJawapanCollection": {
+    "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan]], domain.sph",
+    "$values": [
+      {
+        "$type": "Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan",
+        "Teks": "Ya",
+        "Nilai": 1,
+        "WebId": null
+      },
+      {
+        "$type": "Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan",
+        "Teks": "Tidak",
+        "Nilai": 0,
+        "WebId": null
+      }
+    ]
+  },
+  "Trait": null,
+  "NamaUjian": "Ujian Khas Hadiah Latihan Persekutuan(HLP)",
+  "Susunan": 143.0,
+  "Kategori": null,
+  "CreatedBy": "admin",
+  "Id": "HLP-00143",
+  "CreatedDate": "2015-07-06T11:24:50.3037552+08:00",
+  "ChangedBy": "admin",
+  "ChangedDate": "2015-07-06T11:24:50.3032551+08:00",
+  "WebId": "131febf7-e9ed-42d3-b3f4-0b0c61cc86fa"
+}

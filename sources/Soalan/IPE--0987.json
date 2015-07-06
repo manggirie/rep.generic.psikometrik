@@ -1,0 +1,21 @@
+{
+  "$type": "Bespoke.epsikologi_soalan.Domain.Soalan, epsikologi.Soalan",
+  "NoRujukan": "0987",
+  "SoalanNo": "0987",
+  "TeksSoalan": "Saya menginginkan hubungan erat dengan orang lain tetapi kadangkala berasa takut untuk memulakannya.",
+  "SeksyenSoalan": "",
+  "PilihanJawapanCollection": {
+    "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan]], domain.sph",
+    "$values": []
+  },
+  "Trait": "NA",
+  "NamaUjian": "Indikator Personaliti Enneagram (IPE)",
+  "Susunan": 1.0,
+  "Kategori": null,
+  "CreatedBy": "admin",
+  "Id": "IPE--0987",
+  "CreatedDate": "2015-07-06T11:24:47.9265776+08:00",
+  "ChangedBy": "admin",
+  "ChangedDate": "2015-07-06T11:24:47.926077+08:00",
+  "WebId": "bca0fc8d-2c97-4b52-97d1-78fa9de27d86"
+}

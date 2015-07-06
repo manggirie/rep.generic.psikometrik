@@ -1,0 +1,34 @@
+{
+  "$type": "Bespoke.epsikologi_soalan.Domain.Soalan, epsikologi.Soalan",
+  "NoRujukan": "0579",
+  "SoalanNo": "0579",
+  "TeksSoalan": "Jurutera Automotif",
+  "SeksyenSoalan": "3",
+  "PilihanJawapanCollection": {
+    "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan]], domain.sph",
+    "$values": [
+      {
+        "$type": "Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan",
+        "Teks": "Ya",
+        "Nilai": 1,
+        "WebId": "440e4e51-e279-4e87-a2ea-827d28990404"
+      },
+      {
+        "$type": "Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan",
+        "Teks": "Tidak",
+        "Nilai": 0,
+        "WebId": "a2d98ba8-34fb-4965-8d9c-74bbbb263bd3"
+      }
+    ]
+  },
+  "Trait": "A3",
+  "NamaUjian": "Indeks Bimbingan Kerjaya (IBK)",
+  "Susunan": 0.1,
+  "Kategori": null,
+  "CreatedBy": "admin",
+  "Id": "IBK-3-0579",
+  "CreatedDate": "2015-07-06T11:24:49.1949726+08:00",
+  "ChangedBy": "admin",
+  "ChangedDate": "2015-07-06T11:24:49.1929712+08:00",
+  "WebId": "7374b4ba-802f-48cf-8c88-2f1fe7b9cc8f"
+}

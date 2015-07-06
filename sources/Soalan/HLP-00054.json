@@ -1,0 +1,34 @@
+{
+  "$type": "Bespoke.epsikologi_soalan.Domain.Soalan, epsikologi.Soalan",
+  "NoRujukan": "HLP-00054",
+  "SoalanNo": "HLP-00054",
+  "TeksSoalan": "Hidup saya sangat bermakna.,,,",
+  "SeksyenSoalan": null,
+  "PilihanJawapanCollection": {
+    "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan]], domain.sph",
+    "$values": [
+      {
+        "$type": "Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan",
+        "Teks": "Ya",
+        "Nilai": 1,
+        "WebId": null
+      },
+      {
+        "$type": "Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan",
+        "Teks": "Tidak",
+        "Nilai": 0,
+        "WebId": null
+      }
+    ]
+  },
+  "Trait": null,
+  "NamaUjian": "Ujian Khas Hadiah Latihan Persekutuan(HLP)",
+  "Susunan": 54.0,
+  "Kategori": null,
+  "CreatedBy": "admin",
+  "Id": "HLP-00054",
+  "CreatedDate": "2015-07-06T11:24:49.6623025+08:00",
+  "ChangedBy": "admin",
+  "ChangedDate": "2015-07-06T11:24:49.6618019+08:00",
+  "WebId": "759b5c74-668a-439e-9fc2-730832d00cb8"
+}

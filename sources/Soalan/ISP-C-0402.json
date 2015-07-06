@@ -1,0 +1,21 @@
+{
+  "$type": "Bespoke.epsikologi_soalan.Domain.Soalan, epsikologi.Soalan",
+  "NoRujukan": "0402",
+  "SoalanNo": "0402",
+  "TeksSoalan": "Apabila cuba menyelesaikan sesuatu masalah, saya mempercayai naluri dan mengikut penyelesaian pertama yang terlintas di fikiran.",
+  "SeksyenSoalan": "C",
+  "PilihanJawapanCollection": {
+    "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan]], domain.sph",
+    "$values": []
+  },
+  "Trait": "NA",
+  "NamaUjian": "Inventori Sahsiah Pelajar (ISP)",
+  "Susunan": 1.0,
+  "Kategori": null,
+  "CreatedBy": "admin",
+  "Id": "ISP-C-0402",
+  "CreatedDate": "2015-07-06T11:24:43.2402703+08:00",
+  "ChangedBy": "admin",
+  "ChangedDate": "2015-07-06T11:24:43.2392696+08:00",
+  "WebId": "544bbdf6-f26b-4fa2-8ee7-2b562b5c228b"
+}

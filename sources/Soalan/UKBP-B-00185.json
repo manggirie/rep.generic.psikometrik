@@ -1,0 +1,34 @@
+{
+  "$type": "Bespoke.epsikologi_soalan.Domain.Soalan, epsikologi.Soalan",
+  "NoRujukan": "UKBP-B-00185",
+  "SoalanNo": "UKBP-B-00185",
+  "TeksSoalan": "Mengajar kanak-kanak dengan mudah.",
+  "SeksyenSoalan": "B",
+  "PilihanJawapanCollection": {
+    "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan]], domain.sph",
+    "$values": [
+      {
+        "$type": "Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan",
+        "Teks": "Ya",
+        "Nilai": 1,
+        "WebId": null
+      },
+      {
+        "$type": "Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan",
+        "Teks": "Tidak",
+        "Nilai": 0,
+        "WebId": null
+      }
+    ]
+  },
+  "Trait": null,
+  "NamaUjian": "Ujian Khas Biasiswa Persekutuan(UKBP)",
+  "Susunan": 185.0,
+  "Kategori": null,
+  "CreatedBy": "admin",
+  "Id": "UKBP-B-00185",
+  "CreatedDate": "2015-07-06T11:24:57.3727447+08:00",
+  "ChangedBy": "admin",
+  "ChangedDate": "2015-07-06T11:24:57.3722441+08:00",
+  "WebId": "8f7da402-3479-4a97-b140-016e42490817"
+}

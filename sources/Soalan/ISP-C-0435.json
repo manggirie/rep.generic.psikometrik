@@ -1,0 +1,21 @@
+{
+  "$type": "Bespoke.epsikologi_soalan.Domain.Soalan, epsikologi.Soalan",
+  "NoRujukan": "0435",
+  "SoalanNo": "0435",
+  "TeksSoalan": "Jika seseorang berasa sedih, marah, atau malu, saya boleh menjangkakan apa yang mungkin difikirkan olehnya.",
+  "SeksyenSoalan": "C",
+  "PilihanJawapanCollection": {
+    "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan]], domain.sph",
+    "$values": []
+  },
+  "Trait": "NA",
+  "NamaUjian": "Inventori Sahsiah Pelajar (ISP)",
+  "Susunan": 1.0,
+  "Kategori": null,
+  "CreatedBy": "admin",
+  "Id": "ISP-C-0435",
+  "CreatedDate": "2015-07-06T11:24:43.4469155+08:00",
+  "ChangedBy": "admin",
+  "ChangedDate": "2015-07-06T11:24:43.4464154+08:00",
+  "WebId": "3c7db1ac-ae5c-41dd-95b8-b7d4dd97fd58"
+}

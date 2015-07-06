@@ -1,0 +1,21 @@
+{
+  "$type": "Bespoke.epsikologi_soalan.Domain.Soalan, epsikologi.Soalan",
+  "NoRujukan": "0328",
+  "SoalanNo": "0328",
+  "TeksSoalan": "Saya suka menyimpan barang-barang di tempat yang sepatutnya supaya saya tahu di mana ia berada.",
+  "SeksyenSoalan": "A",
+  "PilihanJawapanCollection": {
+    "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan]], domain.sph",
+    "$values": []
+  },
+  "Trait": "NA",
+  "NamaUjian": "Inventori Sahsiah Pelajar (ISP)",
+  "Susunan": 1.0,
+  "Kategori": null,
+  "CreatedBy": "admin",
+  "Id": "ISP-A-0328",
+  "CreatedDate": "2015-07-06T11:24:42.7544267+08:00",
+  "ChangedBy": "admin",
+  "ChangedDate": "2015-07-06T11:24:42.7539266+08:00",
+  "WebId": "abb3db69-09c4-4325-8765-3c44f8f4ff6f"
+}

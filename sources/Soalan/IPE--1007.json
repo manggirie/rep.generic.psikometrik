@@ -1,0 +1,21 @@
+{
+  "$type": "Bespoke.epsikologi_soalan.Domain.Soalan, epsikologi.Soalan",
+  "NoRujukan": "1007",
+  "SoalanNo": "1007",
+  "TeksSoalan": "Saya mudah tersentuh dan menangis apabila berhadapan dengan kecantikan, percintaan, kesedihan dan kesakitan.",
+  "SeksyenSoalan": "",
+  "PilihanJawapanCollection": {
+    "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan]], domain.sph",
+    "$values": []
+  },
+  "Trait": "NA",
+  "NamaUjian": "Indikator Personaliti Enneagram (IPE)",
+  "Susunan": 1.0,
+  "Kategori": null,
+  "CreatedBy": "admin",
+  "Id": "IPE--1007",
+  "CreatedDate": "2015-07-06T11:24:48.1037026+08:00",
+  "ChangedBy": "admin",
+  "ChangedDate": "2015-07-06T11:24:48.103202+08:00",
+  "WebId": "cd725577-9fa3-4e90-a35a-52d142362ed2"
+}

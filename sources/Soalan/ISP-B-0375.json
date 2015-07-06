@@ -1,0 +1,21 @@
+{
+  "$type": "Bespoke.epsikologi_soalan.Domain.Soalan, epsikologi.Soalan",
+  "NoRujukan": "0375",
+  "SoalanNo": "0375",
+  "TeksSoalan": "Jika ada orang mengejek dan mempermainkan saya, tindakan tersebut bukanlah sesuatu yang memalukan saya.",
+  "SeksyenSoalan": "B",
+  "PilihanJawapanCollection": {
+    "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan]], domain.sph",
+    "$values": []
+  },
+  "Trait": "NA",
+  "NamaUjian": "Inventori Sahsiah Pelajar (ISP)",
+  "Susunan": 1.0,
+  "Kategori": null,
+  "CreatedBy": "admin",
+  "Id": "ISP-B-0375",
+  "CreatedDate": "2015-07-06T11:24:43.0666475+08:00",
+  "ChangedBy": "admin",
+  "ChangedDate": "2015-07-06T11:24:43.066147+08:00",
+  "WebId": "02311ec7-1035-4542-b1e5-1847509476a2"
+}

@@ -1,0 +1,21 @@
+{
+  "$type": "Bespoke.epsikologi_soalan.Domain.Soalan, epsikologi.Soalan",
+  "NoRujukan": "1040",
+  "SoalanNo": "1040",
+  "TeksSoalan": "Sama ada saya tidak mempunyai masa yang mencukupi untuk berehat atau tidak sepatutnya berehat.",
+  "SeksyenSoalan": "",
+  "PilihanJawapanCollection": {
+    "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan]], domain.sph",
+    "$values": []
+  },
+  "Trait": "NA",
+  "NamaUjian": "Indikator Personaliti Enneagram (IPE)",
+  "Susunan": 1.0,
+  "Kategori": null,
+  "CreatedBy": "admin",
+  "Id": "IPE--1040",
+  "CreatedDate": "2015-07-06T11:24:48.3438721+08:00",
+  "ChangedBy": "admin",
+  "ChangedDate": "2015-07-06T11:24:48.3433715+08:00",
+  "WebId": "d28351d2-16be-4148-bd35-d150ea5e2c00"
+}

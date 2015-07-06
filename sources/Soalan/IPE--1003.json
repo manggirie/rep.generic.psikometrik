@@ -1,0 +1,21 @@
+{
+  "$type": "Bespoke.epsikologi_soalan.Domain.Soalan, epsikologi.Soalan",
+  "NoRujukan": "1003",
+  "SoalanNo": "1003",
+  "TeksSoalan": "Apabila terdapat perkara yang tidak menyelesakan berlaku kepada diri, saya akan berfikir tentang perkara lain untuk seketika.",
+  "SeksyenSoalan": "",
+  "PilihanJawapanCollection": {
+    "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan]], domain.sph",
+    "$values": []
+  },
+  "Trait": "NA",
+  "NamaUjian": "Indikator Personaliti Enneagram (IPE)",
+  "Susunan": 1.0,
+  "Kategori": null,
+  "CreatedBy": "admin",
+  "Id": "IPE--1003",
+  "CreatedDate": "2015-07-06T11:24:48.0641749+08:00",
+  "ChangedBy": "admin",
+  "ChangedDate": "2015-07-06T11:24:48.0636739+08:00",
+  "WebId": "18d3481b-3624-4be0-b6d2-a2eb36ef5090"
+}

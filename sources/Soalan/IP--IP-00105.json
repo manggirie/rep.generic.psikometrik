@@ -1,0 +1,34 @@
+{
+  "$type": "Bespoke.epsikologi_soalan.Domain.Soalan, epsikologi.Soalan",
+  "NoRujukan": "IP-00105",
+  "SoalanNo": "IP-00105",
+  "TeksSoalan": "Adakah anda lebih berkehendakan  &",
+  "SeksyenSoalan": null,
+  "PilihanJawapanCollection": {
+    "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan]], domain.sph",
+    "$values": [
+      {
+        "$type": "Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan",
+        "Teks": "a)\tfikiran yang jelas, atau",
+        "Nilai": 1,
+        "WebId": "a8c11137-7ce0-4483-ba50-89b430fbf169"
+      },
+      {
+        "$type": "Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan",
+        "Teks": "b)\tkekuatan belas kasihan.",
+        "Nilai": 1,
+        "WebId": "fdda3608-fdb8-4e1e-bb07-ee89e09b8847"
+      }
+    ]
+  },
+  "Trait": "Skor 6",
+  "NamaUjian": "Indeks Personaliti (IP)",
+  "Susunan": 104.0,
+  "Kategori": null,
+  "CreatedBy": "admin",
+  "Id": "IP--IP-00105",
+  "CreatedDate": "2015-07-06T11:24:49.1694548+08:00",
+  "ChangedBy": "admin",
+  "ChangedDate": "2015-07-06T11:24:49.1679535+08:00",
+  "WebId": "480b4b8f-4f52-45d3-e692-537d8ac213ef"
+}

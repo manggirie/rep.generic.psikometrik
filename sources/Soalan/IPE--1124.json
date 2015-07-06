@@ -1,0 +1,21 @@
+{
+  "$type": "Bespoke.epsikologi_soalan.Domain.Soalan, epsikologi.Soalan",
+  "NoRujukan": "1124",
+  "SoalanNo": "1124",
+  "TeksSoalan": "Apabila orang lain memberitahu apa yang perlu dilakukan, saya cenderung memberontak dan melakukannya atau berharap dapat melakukan perkara yang berlainan.",
+  "SeksyenSoalan": "",
+  "PilihanJawapanCollection": {
+    "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan]], domain.sph",
+    "$values": []
+  },
+  "Trait": "NA",
+  "NamaUjian": "Indikator Personaliti Enneagram (IPE)",
+  "Susunan": 1.0,
+  "Kategori": null,
+  "CreatedBy": "admin",
+  "Id": "IPE--1124",
+  "CreatedDate": "2015-07-06T11:24:48.8807508+08:00",
+  "ChangedBy": "admin",
+  "ChangedDate": "2015-07-06T11:24:48.8797501+08:00",
+  "WebId": "99a2873c-f039-478b-8377-e2c8e559b326"
+}

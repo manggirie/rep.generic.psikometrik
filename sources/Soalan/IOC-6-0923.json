@@ -1,0 +1,21 @@
+{
+  "$type": "Bespoke.epsikologi_soalan.Domain.Soalan, epsikologi.Soalan",
+  "NoRujukan": "0923",
+  "SoalanNo": "0923",
+  "TeksSoalan": "Cenderung memaafkan ketika orang lain membuat kesilapan dan membantu mereka belajar dari kesilapan tersebut.",
+  "SeksyenSoalan": "6",
+  "PilihanJawapanCollection": {
+    "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan]], domain.sph",
+    "$values": []
+  },
+  "Trait": "NA",
+  "NamaUjian": "Indeks Organisasi Cemerlang (IOC)",
+  "Susunan": 1.0,
+  "Kategori": null,
+  "CreatedBy": "admin",
+  "Id": "IOC-6-0923",
+  "CreatedDate": "2015-07-06T11:24:47.5272958+08:00",
+  "ChangedBy": "admin",
+  "ChangedDate": "2015-07-06T11:24:47.5267952+08:00",
+  "WebId": "39022992-73e0-419a-864a-e916a75495cf"
+}

@@ -1,0 +1,34 @@
+{
+  "$type": "Bespoke.epsikologi_soalan.Domain.Soalan, epsikologi.Soalan",
+  "NoRujukan": "IP-00020",
+  "SoalanNo": "IP-00020",
+  "TeksSoalan": "Apabila anda bercadang untuk melakukan sesuatu aktiviti, adakah anda  &",
+  "SeksyenSoalan": null,
+  "PilihanJawapanCollection": {
+    "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan]], domain.sph",
+    "$values": [
+      {
+        "$type": "Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan",
+        "Teks": "a)\tmelakukannya tanpa sebarang peringatan, atau",
+        "Nilai": 1,
+        "WebId": null
+      },
+      {
+        "$type": "Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan",
+        "Teks": "b)\tkerap terlupa sehingga kemudiannya.",
+        "Nilai": 1,
+        "WebId": null
+      }
+    ]
+  },
+  "Trait": "Skor 9",
+  "NamaUjian": "Indeks Personaliti (IP)",
+  "Susunan": 19.0,
+  "Kategori": null,
+  "CreatedBy": "admin",
+  "Id": "IP--IP-00020",
+  "CreatedDate": "2015-07-06T11:24:50.8506415+08:00",
+  "ChangedBy": "admin",
+  "ChangedDate": "2015-07-06T11:24:50.8501409+08:00",
+  "WebId": "150b44bd-0d02-4c4c-b4ba-ad461ab2440f"
+}

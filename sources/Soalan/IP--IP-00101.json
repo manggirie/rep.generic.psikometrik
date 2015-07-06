@@ -1,0 +1,34 @@
+{
+  "$type": "Bespoke.epsikologi_soalan.Domain.Soalan, epsikologi.Soalan",
+  "NoRujukan": "IP-00101",
+  "SoalanNo": "IP-00101",
+  "TeksSoalan": "Apabila berada dalam sebuah majlis, adakah anda ..",
+  "SeksyenSoalan": null,
+  "PilihanJawapanCollection": {
+    "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan]], domain.sph",
+    "$values": [
+      {
+        "$type": "Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan",
+        "Teks": "a)\tkerap berasa seronok, atau",
+        "Nilai": 1,
+        "WebId": "73c6e192-2727-4b19-b935-724372d1debd"
+      },
+      {
+        "$type": "Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan",
+        "Teks": "b)\tkadang kala berasa bosan.",
+        "Nilai": 1,
+        "WebId": "8013259f-b3fe-4ae0-b428-f655828c5ac0"
+      }
+    ]
+  },
+  "Trait": "Skor 2",
+  "NamaUjian": "Indeks Personaliti (IP)",
+  "Susunan": 100.0,
+  "Kategori": null,
+  "CreatedBy": "admin",
+  "Id": "IP--IP-00101",
+  "CreatedDate": "2015-07-06T11:24:49.0203496+08:00",
+  "ChangedBy": "admin",
+  "ChangedDate": "2015-07-06T11:24:49.0178481+08:00",
+  "WebId": "322eb2a0-72f6-4aa8-ba1e-e80dbe586470"
+}

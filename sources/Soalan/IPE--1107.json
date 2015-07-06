@@ -1,0 +1,21 @@
+{
+  "$type": "Bespoke.epsikologi_soalan.Domain.Soalan, epsikologi.Soalan",
+  "NoRujukan": "1107",
+  "SoalanNo": "1107",
+  "TeksSoalan": "Saya berasa seolah-olah diri tidak kelihatan dan berasa terkejut apabila ada orang lain yang menyedari kehadiran saya.",
+  "SeksyenSoalan": "",
+  "PilihanJawapanCollection": {
+    "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan]], domain.sph",
+    "$values": []
+  },
+  "Trait": "NA",
+  "NamaUjian": "Indikator Personaliti Enneagram (IPE)",
+  "Susunan": 1.0,
+  "Kategori": null,
+  "CreatedBy": "admin",
+  "Id": "IPE--1107",
+  "CreatedDate": "2015-07-06T11:24:48.7596654+08:00",
+  "ChangedBy": "admin",
+  "ChangedDate": "2015-07-06T11:24:48.7596654+08:00",
+  "WebId": "5a10f6e5-9ea0-46fb-a552-bf22c722152a"
+}

@@ -1,0 +1,21 @@
+{
+  "$type": "Bespoke.epsikologi_soalan.Domain.Soalan, epsikologi.Soalan",
+  "NoRujukan": "0406",
+  "SoalanNo": "0406",
+  "TeksSoalan": "Jika penyelesaian pertama tidak berjaya, saya akan mencari alternatif lain sehingga memperoleh penyelesaian yang bersesuaian.",
+  "SeksyenSoalan": "C",
+  "PilihanJawapanCollection": {
+    "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan]], domain.sph",
+    "$values": []
+  },
+  "Trait": "NA",
+  "NamaUjian": "Inventori Sahsiah Pelajar (ISP)",
+  "Susunan": 1.0,
+  "Kategori": null,
+  "CreatedBy": "admin",
+  "Id": "ISP-C-0406",
+  "CreatedDate": "2015-07-06T11:24:43.2642868+08:00",
+  "ChangedBy": "admin",
+  "ChangedDate": "2015-07-06T11:24:43.2642868+08:00",
+  "WebId": "4d60395f-6aad-4322-ba37-3b7ed0c167d3"
+}

@@ -1,0 +1,21 @@
+{
+  "$type": "Bespoke.epsikologi_soalan.Domain.Soalan, epsikologi.Soalan",
+  "NoRujukan": "0444",
+  "SoalanNo": "0444",
+  "TeksSoalan": "Apabila diminta memikirkan tentang masa depan, saya sukar membayangkan diri sebagai orang yang berjaya.",
+  "SeksyenSoalan": "C",
+  "PilihanJawapanCollection": {
+    "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan]], domain.sph",
+    "$values": []
+  },
+  "Trait": "NA",
+  "NamaUjian": "Inventori Sahsiah Pelajar (ISP)",
+  "Susunan": 1.0,
+  "Kategori": null,
+  "CreatedBy": "admin",
+  "Id": "ISP-C-0444",
+  "CreatedDate": "2015-07-06T11:24:43.6625679+08:00",
+  "ChangedBy": "admin",
+  "ChangedDate": "2015-07-06T11:24:43.6620678+08:00",
+  "WebId": "19755e99-fa40-4532-ae3c-1a24fa14b40b"
+}

@@ -1,0 +1,34 @@
+{
+  "$type": "Bespoke.epsikologi_soalan.Domain.Soalan, epsikologi.Soalan",
+  "NoRujukan": "0626",
+  "SoalanNo": "0626",
+  "TeksSoalan": "Eksekutif Pengiklanan.",
+  "SeksyenSoalan": "3",
+  "PilihanJawapanCollection": {
+    "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan]], domain.sph",
+    "$values": [
+      {
+        "$type": "Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan",
+        "Teks": "Ya",
+        "Nilai": 1,
+        "WebId": null
+      },
+      {
+        "$type": "Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan",
+        "Teks": "Tidak",
+        "Nilai": 0,
+        "WebId": null
+      }
+    ]
+  },
+  "Trait": "E3",
+  "NamaUjian": "Indeks Bimbingan Kerjaya (IBK)",
+  "Susunan": 0.0,
+  "Kategori": null,
+  "CreatedBy": "admin",
+  "Id": "IBK-3-0626",
+  "CreatedDate": "2015-07-06T11:24:45.2561925+08:00",
+  "ChangedBy": "admin",
+  "ChangedDate": "2015-07-06T11:24:45.2556924+08:00",
+  "WebId": "20acedaf-7402-4dfd-b5fd-429ad5aa6456"
+}

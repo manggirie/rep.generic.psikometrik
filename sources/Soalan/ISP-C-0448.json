@@ -1,0 +1,21 @@
+{
+  "$type": "Bespoke.epsikologi_soalan.Domain.Soalan, epsikologi.Soalan",
+  "NoRujukan": "0448",
+  "SoalanNo": "0448",
+  "TeksSoalan": "Saya percaya kepada pernyataan, \"mencegah itu adalah lebih baik daripada merawat\". ",
+  "SeksyenSoalan": "C",
+  "PilihanJawapanCollection": {
+    "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan]], domain.sph",
+    "$values": []
+  },
+  "Trait": "NA",
+  "NamaUjian": "Inventori Sahsiah Pelajar (ISP)",
+  "Susunan": 1.0,
+  "Kategori": null,
+  "CreatedBy": "admin",
+  "Id": "ISP-C-0448",
+  "CreatedDate": "2015-07-06T11:24:43.7030968+08:00",
+  "ChangedBy": "admin",
+  "ChangedDate": "2015-07-06T11:24:43.7025966+08:00",
+  "WebId": "f6c4f4df-91c5-4e5f-884d-9fc5e9d2b3f2"
+}

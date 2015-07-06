@@ -1,0 +1,34 @@
+{
+  "$type": "Bespoke.epsikologi_soalan.Domain.Soalan, epsikologi.Soalan",
+  "NoRujukan": "IP-00061",
+  "SoalanNo": "IP-00061",
+  "TeksSoalan": "Yang mana lebih memuaskan &",
+  "SeksyenSoalan": null,
+  "PilihanJawapanCollection": {
+    "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan]], domain.sph",
+    "$values": [
+      {
+        "$type": "Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan",
+        "Teks": "a)\tmembincangkan isu dengan teliti, atau",
+        "Nilai": 1,
+        "WebId": null
+      },
+      {
+        "$type": "Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan",
+        "Teks": "b)\tmencapai persetujuan bagi isu yang dibincangkan.",
+        "Nilai": 1,
+        "WebId": null
+      }
+    ]
+  },
+  "Trait": "Skor 6",
+  "NamaUjian": "Indeks Personaliti (IP)",
+  "Susunan": 60.0,
+  "Kategori": null,
+  "CreatedBy": "admin",
+  "Id": "IP--IP-00061",
+  "CreatedDate": "2015-07-06T11:24:51.1318399+08:00",
+  "ChangedBy": "admin",
+  "ChangedDate": "2015-07-06T11:24:51.1313394+08:00",
+  "WebId": "28a7fcc6-f3d7-4372-89c2-99740bbf68d9"
+}

@@ -1,0 +1,21 @@
+{
+  "$type": "Bespoke.epsikologi_soalan.Domain.Soalan, epsikologi.Soalan",
+  "NoRujukan": "1073",
+  "SoalanNo": "1073",
+  "TeksSoalan": "Saya berasa berbelah bagi di antara perasaan mahu memberikan komitmen dan keinginan untuk kebebasan serta berdikari.",
+  "SeksyenSoalan": "",
+  "PilihanJawapanCollection": {
+    "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan]], domain.sph",
+    "$values": []
+  },
+  "Trait": "NA",
+  "NamaUjian": "Indikator Personaliti Enneagram (IPE)",
+  "Susunan": 1.0,
+  "Kategori": null,
+  "CreatedBy": "admin",
+  "Id": "IPE--1073",
+  "CreatedDate": "2015-07-06T11:24:48.5485163+08:00",
+  "ChangedBy": "admin",
+  "ChangedDate": "2015-07-06T11:24:48.5480157+08:00",
+  "WebId": "8ed56657-4cfa-4905-a5f3-ae08d26198fa"
+}

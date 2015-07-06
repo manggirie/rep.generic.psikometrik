@@ -1,0 +1,34 @@
+{
+  "$type": "Bespoke.epsikologi_soalan.Domain.Soalan, epsikologi.Soalan",
+  "NoRujukan": "0202",
+  "SoalanNo": "0202",
+  "TeksSoalan": "Saya bersedia menjadi pendengar yang baik apabila seseorang ingin bercakap tentang dirinya.",
+  "SeksyenSoalan": "E",
+  "PilihanJawapanCollection": {
+    "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan]], domain.sph",
+    "$values": [
+      {
+        "$type": "Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan",
+        "Teks": "Ya",
+        "Nilai": 1,
+        "WebId": null
+      },
+      {
+        "$type": "Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan",
+        "Teks": "Tidak",
+        "Nilai": 0,
+        "WebId": null
+      }
+    ]
+  },
+  "Trait": "NA",
+  "NamaUjian": "Indikator Perwatakan Unggul (IPU)",
+  "Susunan": 1.0,
+  "Kategori": null,
+  "CreatedBy": "admin",
+  "Id": "IPU-E-0202",
+  "CreatedDate": "2015-07-06T11:24:41.798252+08:00",
+  "ChangedBy": "admin",
+  "ChangedDate": "2015-07-06T11:24:41.7972513+08:00",
+  "WebId": "6ee02051-a901-403b-80f5-fd92c40fdcc0"
+}

@@ -1,0 +1,34 @@
+{
+  "$type": "Bespoke.epsikologi_soalan.Domain.Soalan, epsikologi.Soalan",
+  "NoRujukan": "0143",
+  "SoalanNo": "0143",
+  "TeksSoalan": "Saya mempunyai ketakutan yang amat sangat (fobia) terhadap sesuatu objek, tempat atau situasi tertentu",
+  "SeksyenSoalan": "B",
+  "PilihanJawapanCollection": {
+    "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan]], domain.sph",
+    "$values": [
+      {
+        "$type": "Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan",
+        "Teks": "Ya",
+        "Nilai": 1,
+        "WebId": null
+      },
+      {
+        "$type": "Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan",
+        "Teks": "Tidak",
+        "Nilai": 0,
+        "WebId": null
+      }
+    ]
+  },
+  "Trait": "NA",
+  "NamaUjian": "Indikator Perwatakan Unggul (IPU)",
+  "Susunan": 1.0,
+  "Kategori": null,
+  "CreatedBy": "admin",
+  "Id": "IPU-B-0143",
+  "CreatedDate": "2015-07-06T11:24:41.1548706+08:00",
+  "ChangedBy": "admin",
+  "ChangedDate": "2015-07-06T11:24:41.1533694+08:00",
+  "WebId": "04a39918-4a3e-4689-bb16-ce705b61df7d"
+}

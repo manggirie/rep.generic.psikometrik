@@ -1,0 +1,21 @@
+{
+  "$type": "Bespoke.epsikologi_soalan.Domain.Soalan, epsikologi.Soalan",
+  "NoRujukan": "1091",
+  "SoalanNo": "1091",
+  "TeksSoalan": "Apabila orang lain berasa tidak gembira, saya akan cuba menceriakan dan membantu mereka melihat insiden yang berlaku secara positif.",
+  "SeksyenSoalan": "",
+  "PilihanJawapanCollection": {
+    "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan]], domain.sph",
+    "$values": []
+  },
+  "Trait": "NA",
+  "NamaUjian": "Indikator Personaliti Enneagram (IPE)",
+  "Susunan": 1.0,
+  "Kategori": null,
+  "CreatedBy": "admin",
+  "Id": "IPE--1091",
+  "CreatedDate": "2015-07-06T11:24:48.6575938+08:00",
+  "ChangedBy": "admin",
+  "ChangedDate": "2015-07-06T11:24:48.6565935+08:00",
+  "WebId": "e1e96c37-9e4c-4d6c-a850-e7d0c3ff00c0"
+}

@@ -1,0 +1,34 @@
+{
+  "$type": "Bespoke.epsikologi_soalan.Domain.Soalan, epsikologi.Soalan",
+  "NoRujukan": "UKBP-B-00184",
+  "SoalanNo": "UKBP-B-00184",
+  "TeksSoalan": "Mendengar atau memahami permasalahan orang lain apabila mereka datang untuk menceritakan permasalahan mereka.",
+  "SeksyenSoalan": "B",
+  "PilihanJawapanCollection": {
+    "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan]], domain.sph",
+    "$values": [
+      {
+        "$type": "Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan",
+        "Teks": "Ya",
+        "Nilai": 1,
+        "WebId": null
+      },
+      {
+        "$type": "Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan",
+        "Teks": "Tidak",
+        "Nilai": 0,
+        "WebId": null
+      }
+    ]
+  },
+  "Trait": null,
+  "NamaUjian": "Ujian Khas Biasiswa Persekutuan(UKBP)",
+  "Susunan": 184.0,
+  "Kategori": null,
+  "CreatedBy": "admin",
+  "Id": "UKBP-B-00184",
+  "CreatedDate": "2015-07-06T11:24:57.3662404+08:00",
+  "ChangedBy": "admin",
+  "ChangedDate": "2015-07-06T11:24:57.3662404+08:00",
+  "WebId": "981d4406-4c0a-4b75-a0ee-aec23da03e4d"
+}

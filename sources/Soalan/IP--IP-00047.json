@@ -1,0 +1,34 @@
+{
+  "$type": "Bespoke.epsikologi_soalan.Domain.Soalan, epsikologi.Soalan",
+  "NoRujukan": "IP-00047",
+  "SoalanNo": "IP-00047",
+  "TeksSoalan": "Adakah anda bersetuju bahawa akal pemikiran biasa, seharusnya &",
+  "SeksyenSoalan": null,
+  "PilihanJawapanCollection": {
+    "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan]], domain.sph",
+    "$values": [
+      {
+        "$type": "Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan",
+        "Teks": "a)\tjarang dipersoalkan, atau",
+        "Nilai": 1,
+        "WebId": null
+      },
+      {
+        "$type": "Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan",
+        "Teks": "b)\tkerapkali dipersoalkan.",
+        "Nilai": 1,
+        "WebId": null
+      }
+    ]
+  },
+  "Trait": "Skor 3",
+  "NamaUjian": "Indeks Personaliti (IP)",
+  "Susunan": 46.0,
+  "Kategori": null,
+  "CreatedBy": "admin",
+  "Id": "IP--IP-00047",
+  "CreatedDate": "2015-07-06T11:24:51.0417764+08:00",
+  "ChangedBy": "admin",
+  "ChangedDate": "2015-07-06T11:24:51.0412762+08:00",
+  "WebId": "ac1bcd73-094b-4286-9a1a-65e3e73ebaa4"
+}

@@ -1,0 +1,34 @@
+{
+  "$type": "Bespoke.epsikologi_soalan.Domain.Soalan, epsikologi.Soalan",
+  "NoRujukan": "0678",
+  "SoalanNo": "0678",
+  "TeksSoalan": "Melakukan tugas pentadbiran (pejabat).",
+  "SeksyenSoalan": "2",
+  "PilihanJawapanCollection": {
+    "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan]], domain.sph",
+    "$values": [
+      {
+        "$type": "Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan",
+        "Teks": "Ya",
+        "Nilai": 1,
+        "WebId": "a6856ffc-60e3-4f31-85fc-2c6995cecae4"
+      },
+      {
+        "$type": "Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan",
+        "Teks": "Tidak",
+        "Nilai": 0,
+        "WebId": "a9a281f2-fa9f-4335-ab76-964f3fc67cb2"
+      }
+    ]
+  },
+  "Trait": "F2",
+  "NamaUjian": "Indeks Bimbingan Kerjaya (IBK)",
+  "Susunan": 0.1,
+  "Kategori": null,
+  "CreatedBy": "admin",
+  "Id": "IBK-2-0678",
+  "CreatedDate": "2015-07-06T11:24:49.2099832+08:00",
+  "ChangedBy": "admin",
+  "ChangedDate": "2015-07-06T11:24:49.2089825+08:00",
+  "WebId": "ef676359-1352-43af-f24c-9565007ef572"
+}

@@ -1,0 +1,21 @@
+{
+  "$type": "Bespoke.epsikologi_soalan.Domain.Soalan, epsikologi.Soalan",
+  "NoRujukan": "1051",
+  "SoalanNo": "1051",
+  "TeksSoalan": "Saya tidak faham mengapa orang lain berasa bosan, sedangkan saya selalu mempunyai tugas yang perlu dilakukan.",
+  "SeksyenSoalan": "",
+  "PilihanJawapanCollection": {
+    "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan]], domain.sph",
+    "$values": []
+  },
+  "Trait": "NA",
+  "NamaUjian": "Indikator Personaliti Enneagram (IPE)",
+  "Susunan": 1.0,
+  "Kategori": null,
+  "CreatedBy": "admin",
+  "Id": "IPE--1051",
+  "CreatedDate": "2015-07-06T11:24:48.4149223+08:00",
+  "ChangedBy": "admin",
+  "ChangedDate": "2015-07-06T11:24:48.4144217+08:00",
+  "WebId": "e2f4f41a-6b9f-4b9a-b13f-455acd283ffa"
+}
