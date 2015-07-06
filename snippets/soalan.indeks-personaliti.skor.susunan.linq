@@ -19,16 +19,7 @@ using (var client = new HttpClient())
 {
 	foreach (var q in list)
 	{
-		var no =int.Parse(q.SoalanNo);
-		var skor = no % 11 == 0 ? 11 : no% 11;
-		Console.WriteLine ("{0} -> Skor {1}", no, skor);
-		
-		var item = JsonSerializerService.DeserializeFromJson<Bespoke.epsikologi_soalan.Domain.Soalan>(q.Json);
-		item.Trait = string.Format("Skor {0}",skor);
-		item.Susunan = Convert.ToDecimal(no);
-		
-		var content = new StringContent(item.ToJsonString(true));
-		var res = await client.PostAsync("http://localhost:50230/soalan/save", content);
+		var res = await client.DeleteAsync("http://localhost:50230/soalan/remove/" + q.Id);
 		Console.WriteLine (res.StatusCode);
 	}
 }

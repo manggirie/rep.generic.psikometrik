@@ -32,12 +32,13 @@ var daftars = 	from u in Penggunas
 					WebId = Guid.NewGuid().ToString()
 				};
 
+//var g = daftars.First();
 foreach (var g in daftars)
 {
 	using (var client = new HttpClient())
 	{
 		var content = new StringContent(g.ToJsonString(true));
-		var res = await client.PostAsync("http://localhost:50230/PendaftaranProgram/save", content);
+		var res = await client.PostAsync("http://localhost:50230/PendaftaranProgram/TambahResponden", content);
 		Console.WriteLine (g.MyKad + "->" +res.StatusCode);
 		
 	}
