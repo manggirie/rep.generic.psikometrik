@@ -21,7 +21,7 @@
     <div class="form-group" data-bind="visible:true">
         <label data-i18n="Jenis Permohonan" for="69211c8d-cb6b-4612-d4e0-9ae68d1874a6" class="col-md-4">Jenis Permohonan</label>
         <div class="col-md-8">
-            <select  data-bind="value: JenisPermohonan, enable :true" id="69211c8d-cb6b-4612-d4e0-9ae68d1874a6" name="JenisPermohonan" class=" input-large form-control">
+            <select  data-bind="value: JenisPermohonan, enable :StatusPermohonan() === 'BARU'" id="69211c8d-cb6b-4612-d4e0-9ae68d1874a6" name="JenisPermohonan" class=" input-large form-control">
                     <option value="Jabatan" data-i18n="Jabatan">Jabatan</option>
                     <option value="Penjawat Awam(Individu)" data-i18n="Penjawat Awam(Individu)">Penjawat Awam(Individu)</option>
                     <option value="Penjawat Swasta (Individu)" data-i18n="Penjawat Swasta (Individu)">Penjawat Swasta (Individu)</option>
@@ -35,7 +35,7 @@
         <label data-i18n="Tarikh Mula" for="511f5eee-a9d6-4711-954d-212e56fde014" class="col-md-4">Tarikh Mula</label>
         <div class="col-md-8">
             <input class=" form-control "
-                   data-bind="kendoDateTime: TarikhMula, enable :true" id="511f5eee-a9d6-4711-954d-212e56fde014" type="text"
+                   data-bind="kendoDateTime: TarikhMula, enable :StatusPermohonan() === 'BARU'" id="511f5eee-a9d6-4711-954d-212e56fde014" type="text"
                    name="TarikhMula" />
         </div>
     </div>
@@ -45,7 +45,7 @@
         <label data-i18n="Tarikh Tamat" for="965ef84d-543a-462a-e301-22390a9b8726" class="col-md-4">Tarikh Tamat</label>
         <div class="col-md-8">
             <input class=" form-control "
-                   data-bind="kendoDateTime: TarikhTamat, enable :true" id="965ef84d-543a-462a-e301-22390a9b8726" type="text"
+                   data-bind="kendoDateTime: TarikhTamat, enable :StatusPermohonan() === 'BARU'" id="965ef84d-543a-462a-e301-22390a9b8726" type="text"
                    name="TarikhTamat" />
         </div>
     </div>
@@ -56,7 +56,7 @@
         <div class="col-md-offset-4 col-md-8">
             <div class="checkbox">
                 <label class="checkbox">
-                    <input data-bind="checked : isIP, enable :true" id="isIP" type="checkbox"
+                    <input data-bind="checked : isIP, enable :StatusPermohonan() === 'BARU'" id="isIP" type="checkbox"
                            name="isIP"/>
                     <span data-i18n="Indeks Personaliti (IP)">Indeks Personaliti (IP)</span>
                     
@@ -70,7 +70,7 @@
         <div class="col-md-offset-4 col-md-8">
             <div class="checkbox">
                 <label class="checkbox">
-                    <input data-bind="checked : isIBK, enable :true" id="isIBK" type="checkbox"
+                    <input data-bind="checked : isIBK, enable :StatusPermohonan() === 'BARU'" id="isIBK" type="checkbox"
                            name="isIBK"/>
                     <span data-i18n="Indeks Bimbingan Kerjaya (IBK) ">Indeks Bimbingan Kerjaya (IBK) </span>
                     
@@ -84,7 +84,7 @@
         <div class="col-md-offset-4 col-md-8">
             <div class="checkbox">
                 <label class="checkbox">
-                    <input data-bind="checked : isIPU, enable :true" id="isIPU" type="checkbox"
+                    <input data-bind="checked : isIPU, enable :StatusPermohonan() === 'BARU'" id="isIPU" type="checkbox"
                            name="isIPU"/>
                     <span data-i18n="Indeks Perwatakan Unggul (IPU) ">Indeks Perwatakan Unggul (IPU) </span>
                     
@@ -94,7 +94,7 @@
     </div>
 
 
-    <div class="form-group" data-bind="visible:true">
+    <div class="form-group" data-bind="visible:StatusPermohonan() === &#39;BARU&#39;">
         <div class="col-md-offset-4 col-md-8">
             <div class="checkbox">
                 <label class="checkbox">
@@ -112,7 +112,7 @@
         <div class="col-md-offset-4 col-md-8">
             <div class="checkbox">
                 <label class="checkbox">
-                    <input data-bind="checked : isUKHLP, enable :true" id="isUKHLP" type="checkbox"
+                    <input data-bind="checked : isUKHLP, enable :StatusPermohonan() === 'BARU'" id="isUKHLP" type="checkbox"
                            name="isUKHLP"/>
                     <span data-i18n="Ujian Khas Hadiah Latihan Persekutuan (UKHLP) ">Ujian Khas Hadiah Latihan Persekutuan (UKHLP) </span>
                     
@@ -126,7 +126,7 @@
         <div class="col-md-offset-4 col-md-8">
             <div class="checkbox">
                 <label class="checkbox">
-                    <input data-bind="checked : isUKBP, enable :true" id="isUKBP" type="checkbox"
+                    <input data-bind="checked : isUKBP, enable :StatusPermohonan() === 'BARU'" id="isUKBP" type="checkbox"
                            name="isUKBP"/>
                     <span data-i18n="Ujian Khas Biasiswa Persekutuan (UKBP) ">Ujian Khas Biasiswa Persekutuan (UKBP) </span>
                     
@@ -140,7 +140,7 @@
         <div class="col-md-offset-4 col-md-8">
             <div class="checkbox">
                 <label class="checkbox">
-                    <input data-bind="checked : isPPKP, enable :true" id="isPPKP" type="checkbox"
+                    <input data-bind="checked : isPPKP, enable :StatusPermohonan() === 'BARU'" id="isPPKP" type="checkbox"
                            name="isPPKP"/>
                     <span data-i18n="Profil Personaliti &amp; Kerjaya Pegawai (PPKP)">Profil Personaliti &amp; Kerjaya Pegawai (PPKP)</span>
                     
@@ -168,7 +168,7 @@
     <div class="form-group" data-bind="visible:true">
         <label data-i18n="Tujuan Program" for="5f157aa3-02f2-4021-cd2c-7eb7673abd7d" class="col-md-4">Tujuan Program</label>
         <div class="col-md-8">
-            <select  data-bind="value: TujuanProgram, enable :true" id="5f157aa3-02f2-4021-cd2c-7eb7673abd7d" name="TujuanProgram" class=" input-large form-control">
+            <select  data-bind="value: TujuanProgram, enable :StatusPermohonan() === 'BARU'" id="5f157aa3-02f2-4021-cd2c-7eb7673abd7d" name="TujuanProgram" class=" input-large form-control">
                     <option value="Terapi" data-i18n=""></option>
                     <option value="Kaunseling" data-i18n="Kaunseling">Kaunseling</option>
                     <option value="Pembangunan Profil Responden" data-i18n="Pembangunan Profil Responden">Pembangunan Profil Responden</option>

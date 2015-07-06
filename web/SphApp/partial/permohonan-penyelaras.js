@@ -4,6 +4,9 @@ define([objectbuilders.config], function(config){
             entity.NamaJabatan(config.namaJabatan);
             entity.NamaKementerian(config.namaKementerian);
             entity.Penyelaras(config.userName);
+            if(!ko.unwrap(entity.StatusPermohonan)){
+                entity.StatusPermohonan("BARU");
+            }
             
             return true;
 
