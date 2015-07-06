@@ -587,9 +587,9 @@
           ]
         },
         "Name": "PermohonanDariPenyelaras",
-        "SuccessMessage": "",
-        "ShowSuccessMessage": false,
-        "NavigateSuccessUrl": "",
+        "SuccessMessage": "Permohonan sudah berjaya dihantar",
+        "ShowSuccessMessage": true,
+        "NavigateSuccessUrl": "#penyelaras-home",
         "SuccessCommand": "",
         "WebId": "bbf6a1ee-6bd9-4414-9d17-c6edf9959661"
       },
@@ -652,6 +652,9 @@
   "RecordName": "PermohonanNo",
   "IsPublished": true,
   "IsShowOnNavigationBar": true,
+  "TreatDataAsSource": false,
+  "StoreInDatabase": null,
+  "StoreInElasticsearch": null,
   "CreatedBy": "admin",
   "Id": "permohonan",
   "CreatedDate": "2015-06-05T10:45:39.9585024+08:00",
