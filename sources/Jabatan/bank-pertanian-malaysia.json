@@ -3,12 +3,12 @@
   "JabatanNo": "131462",
   "NamaJabatan": "BANK PERTANIAN MALAYSIA",
   "AgensiNo": "NA",
-  "Kementerian": null,
+  "Kementerian": "KEM. PERTANIAN & INDUSTRI ASAS TANI",
   "AgensiKumpulan": "BBP",
   "CreatedBy": "admin",
   "Id": "bank-pertanian-malaysia",
   "CreatedDate": "2015-06-05T10:39:25.8474252+08:00",
   "ChangedBy": "admin",
-  "ChangedDate": "2015-06-19T16:05:11.1810754+08:00",
+  "ChangedDate": "2015-07-06T11:08:16.8320745+08:00",
   "WebId": "1fb58db8-330c-4d71-aad7-976f52f79fd9"
 }
