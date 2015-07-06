@@ -304,7 +304,7 @@
         {
           "$type": "Bespoke.Sph.Domain.HtmlElement, domain.sph",
           "IsPathIsRequired": false,
-          "Text": "<button data-bind=\"click : $root.partial.addResponden\" class=\"btn btn-link\">\n<i class=\"fa fa-plus\"></i>\nPemilihan Responden\n    \n</button>",
+          "Text": "<button data-bind=\"click : $root.partial.addResponden\" class=\"btn btn-link\">\n<i class=\"fa fa-plus\"></i>\nPemilihan Responden\n    \n</button>\n\n<div class=\"form-group\">\n    <h3 data-i18n=\"Senarai Responden\">Senarai Responden</h3>\n    <table class=\"table table-condensed table-striped\" data-bind=\"serverPaging :{ query: 'PermohonanId eq \\'' + ko.unwrap(Id) + '\\'', entity : 'PendaftaranProgram', list: $root.partial.senaraiPendaftaran}\" style=\"opacity: 1;\">\n        <thead>\n            <tr>\n                    <th data-i18n=\"Responden\">Responden</th>\n                    <th data-i18n=\"MyKad\">MyKad</th>\n                    <th data-i18n=\"MyKad\">Email Peringatan</th>\n            </tr>\n        </thead>\n        <tbody data-bind=\"foreach: $root.partial.senaraiPendaftaran\">\n            <tr>\n                <td data-bind=\"text:NamaPengguna\">Nama</td>\n                <td data-bind=\"text:MyKad\">890909-09-0909</td>\n                <td>\n                    <button class=\"btn btn-info\" title=\"Emel peringatan kepada responden\" data-bind=\"command: $root.partial.sendReminderEmail($data)\">\n                        <i class=\"fa fa-envelope\"></i>\n                        Emel Peringatan\n                    </button>\n                </td>\n            </tr>\n        </tbody>\n    </table>\n        \n</div>",
           "TypeName": "HtmlElement",
           "FieldValidation": {
             "$type": "Bespoke.Sph.Domain.FieldValidation, domain.sph",
@@ -341,99 +341,6 @@
           "InputColSm": null,
           "InputColXs": null,
           "WebId": "162a1a21-c2d5-4aba-9a00-961e5045b9c5"
-        },
-        {
-          "$type": "Bespoke.Sph.Domain.ChildEntityListView, domain.sph",
-          "Entity": "PendaftaranProgram",
-          "Query": "'PermohonanId eq \\'' + ko.unwrap(Id) + '\\''",
-          "IsAllowAddItem": false,
-          "NewItemFormRoute": null,
-          "NewItemMappingSource": null,
-          "NewItemMappingDestination": null,
-          "ViewColumnCollection": {
-            "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.Sph.Domain.ViewColumn, domain.sph]], domain.sph",
-            "$values": [
-              {
-                "$type": "Bespoke.Sph.Domain.ViewColumn, domain.sph",
-                "ConditionalFormattingCollection": {
-                  "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.Sph.Domain.ConditionalFormatting, domain.sph]], domain.sph",
-                  "$values": []
-                },
-                "Path": "NamaPengguna",
-                "Header": "Responden",
-                "Sort": "",
-                "IsLinkColumn": false,
-                "FormRoute": null,
-                "IconCssClass": "",
-                "IconStoreId": "",
-                "Format": "text:{0}",
-                "RouteValueField": "",
-                "WebId": "9e584d2c-4eea-40ea-9988-a0af51323c70"
-              },
-              {
-                "$type": "Bespoke.Sph.Domain.ViewColumn, domain.sph",
-                "ConditionalFormattingCollection": {
-                  "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.Sph.Domain.ConditionalFormatting, domain.sph]], domain.sph",
-                  "$values": []
-                },
-                "Path": "MyKad",
-                "Header": "MyKad",
-                "Sort": "",
-                "IsLinkColumn": false,
-                "FormRoute": null,
-                "IconCssClass": "",
-                "IconStoreId": "",
-                "Format": "text:{0}",
-                "RouteValueField": "",
-                "WebId": "535fc9e4-a86f-4219-f6f6-ef0d6ec066c4"
-              }
-            ]
-          },
-          "SortCollection": {
-            "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.Sph.Domain.Sort, domain.sph]], domain.sph",
-            "$values": []
-          },
-          "ConditionalFormattingCollection": {
-            "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.Sph.Domain.ConditionalFormatting, domain.sph]], domain.sph",
-            "$values": []
-          },
-          "IsPathIsRequired": true,
-          "TypeName": "ChildEntityListView",
-          "FieldValidation": {
-            "$type": "Bespoke.Sph.Domain.FieldValidation, domain.sph",
-            "IsRequired": false,
-            "Pattern": null,
-            "Mode": "",
-            "Message": null,
-            "Min": null,
-            "Max": null,
-            "MinLength": null,
-            "MaxLength": null,
-            "WebId": null
-          },
-          "Name": null,
-          "Label": "Senarai Responden",
-          "Tooltip": null,
-          "Path": "Id",
-          "IsRequired": false,
-          "Size": "input-large",
-          "CssClass": "",
-          "Visible": "true",
-          "Enable": "true",
-          "ElementId": "2c9317cc-0f35-4aa2-c565-eb5053b555d1",
-          "HelpText": null,
-          "UseDisplayTemplate": false,
-          "ToolboxIconClass": null,
-          "IsUniqueName": false,
-          "LabelColLg": null,
-          "LabelColMd": null,
-          "LabelColSm": null,
-          "LabelColXs": null,
-          "InputColLg": null,
-          "InputColMd": null,
-          "InputColSm": null,
-          "InputColXs": null,
-          "WebId": "c32076a7-29c3-4059-d3de-934e3a286202"
         }
       ]
     },
@@ -488,6 +395,6 @@
   "Id": "add-responden",
   "CreatedDate": "2015-06-05T10:45:40.0235058+08:00",
   "ChangedBy": "admin",
-  "ChangedDate": "2015-06-29T19:14:50.5224862+08:00",
+  "ChangedDate": "2015-07-07T07:00:50.4008299+08:00",
   "WebId": "aec8d777-8974-4a8a-b824-140ee0796560"
 }

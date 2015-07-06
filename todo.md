@@ -22,10 +22,10 @@
 
 ## Penyelaras
 * Mohon permohonan cadangan tarikh mestilah in the future
-* Kalau permohonan sudah lulus - penyelaras tak boleh edit, kecuali Bilangan responden
-* Bila tambah responden the list should be updated immediately
+* ~~Kalau permohonan sudah lulus - penyelaras tak boleh edit, kecuali Bilangan responden~~
+* ~~Bila tambah responden the list should be updated immediately~~
 * ~~Pemilihan responden maksimun berdasarakan Bilangan dalam permohonan, yang mana penyelaras boleh ejas~~
-* penyelaras boleh hantar email reminder kepada responden, melalui button email
+* ~~penyelaras boleh hantar email reminder kepada responden, melalui button email~~
 
 
 ## urusetia
