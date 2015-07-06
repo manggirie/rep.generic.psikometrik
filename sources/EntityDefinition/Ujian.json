@@ -91,6 +91,28 @@
         "Boost": 1,
         "DefaultValue": null,
         "WebId": "8f47bced-3b66-4e32-80f6-ef67f8a3a5ba"
+      },
+      {
+        "$type": "Bespoke.Sph.Domain.Member, domain.sph",
+        "FullName": null,
+        "MemberCollection": {
+          "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.Sph.Domain.Member, domain.sph]], domain.sph",
+          "$values": []
+        },
+        "FieldPermissionCollection": {
+          "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.Sph.Domain.FieldPermission, domain.sph]], domain.sph",
+          "$values": []
+        },
+        "Name": "Arahan",
+        "TypeName": "System.String, mscorlib",
+        "IsNullable": true,
+        "IsNotIndexed": false,
+        "IsAnalyzed": true,
+        "IsFilterable": false,
+        "IsExcludeInAll": false,
+        "Boost": 1,
+        "DefaultValue": null,
+        "WebId": "6aae9f80-eec2-424c-92e6-0f71a0e70436"
       }
     ]
   },
@@ -120,6 +142,9 @@
   "RecordName": "UjianNo",
   "IsPublished": true,
   "IsShowOnNavigationBar": true,
+  "TreatDataAsSource": true,
+  "StoreInDatabase": null,
+  "StoreInElasticsearch": null,
   "CreatedBy": "admin",
   "Id": "ujian",
   "CreatedDate": "2015-06-16T08:05:00.1218075+08:00",
