@@ -18,7 +18,7 @@
 
 ## Laporan urusetia
 * More lookup
-* View untuk permohonan penyelaras tambah field Tarikh pohon dan sort by TarikhMohon Filter yang BARU
+* ~~View untuk permohonan penyelaras tambah field Tarikh pohon dan sort by TarikhMohon Filter yang BARU~~
 
 ## Penyelaras
 * Mohon permohonan cadangan tarikh mestilah in the future
