@@ -304,7 +304,7 @@
         {
           "$type": "Bespoke.Sph.Domain.HtmlElement, domain.sph",
           "IsPathIsRequired": false,
-          "Text": "<button data-bind=\"click : $root.partial.addResponden\" class=\"btn btn-link\">\n<i class=\"fa fa-plus\"></i>\nTambah Responden\n    \n</button>",
+          "Text": "<button data-bind=\"click : $root.partial.addResponden\" class=\"btn btn-link\">\n<i class=\"fa fa-plus\"></i>\nPemilihan Responden\n    \n</button>",
           "TypeName": "HtmlElement",
           "FieldValidation": {
             "$type": "Bespoke.Sph.Domain.FieldValidation, domain.sph",
