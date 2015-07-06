@@ -1,0 +1,84 @@
+{
+  "$type": "Bespoke.Sph.Domain.EntityView, domain.sph",
+  "FilterCollection": {
+    "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.Sph.Domain.Filter, domain.sph]], domain.sph",
+    "$values": []
+  },
+  "ViewColumnCollection": {
+    "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.Sph.Domain.ViewColumn, domain.sph]], domain.sph",
+    "$values": [
+      {
+        "$type": "Bespoke.Sph.Domain.ViewColumn, domain.sph",
+        "ConditionalFormattingCollection": {
+          "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.Sph.Domain.ConditionalFormatting, domain.sph]], domain.sph",
+          "$values": []
+        },
+        "Path": "ProgramNo",
+        "Header": "Id",
+        "Sort": "",
+        "IsLinkColumn": true,
+        "FormRoute": "programlookup-details",
+        "IconCssClass": "fa fa-external-link",
+        "IconStoreId": "",
+        "Format": "text:{0}",
+        "RouteValueField": "Id",
+        "WebId": "08230b58-5e8e-4f38-9e93-bf3ce9131b13"
+      },
+      {
+        "$type": "Bespoke.Sph.Domain.ViewColumn, domain.sph",
+        "ConditionalFormattingCollection": {
+          "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.Sph.Domain.ConditionalFormatting, domain.sph]], domain.sph",
+          "$values": []
+        },
+        "Path": "NamaProgram",
+        "Header": "NamaProgram",
+        "Sort": "",
+        "IsLinkColumn": false,
+        "FormRoute": null,
+        "IconCssClass": "",
+        "IconStoreId": "",
+        "Format": "text:{0}",
+        "RouteValueField": "",
+        "WebId": "374b66fe-6951-42ad-e860-c2c557223054"
+      }
+    ]
+  },
+  "SortCollection": {
+    "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.Sph.Domain.Sort, domain.sph]], domain.sph",
+    "$values": []
+  },
+  "ConditionalFormattingCollection": {
+    "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.Sph.Domain.ConditionalFormatting, domain.sph]], domain.sph",
+    "$values": []
+  },
+  "Performer": {
+    "$type": "Bespoke.Sph.Domain.Performer, domain.sph",
+    "UserProperty": "",
+    "Value": null,
+    "IsPublic": true,
+    "WebId": null
+  },
+  "RouteParameterCollection": {
+    "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.Sph.Domain.RouteParameter, domain.sph]], domain.sph",
+    "$values": []
+  },
+  "IconClass": null,
+  "IconStoreId": "b9a15ec2-18bc-49c7-9243-7c25fc4efb08",
+  "EntityDefinitionId": "programlookup",
+  "Name": "All ProgramLookups",
+  "Route": "programlookups-all",
+  "Note": null,
+  "Query": null,
+  "IsPublished": true,
+  "Visibilty": null,
+  "TileColour": "bblue",
+  "CountMessage": null,
+  "Entity": "ProgramLookup",
+  "Partial": "partial/programlookups-all",
+  "CreatedBy": "admin",
+  "Id": "programlookups-all",
+  "CreatedDate": "2015-06-01T18:46:03.1573626+08:00",
+  "ChangedBy": "admin",
+  "ChangedDate": "2015-06-01T19:06:27.3120509+08:00",
+  "WebId": "7d228e85-2eec-4b3a-8206-9bc580d608ac"
+}

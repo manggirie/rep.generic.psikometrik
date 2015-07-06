@@ -1,4 +1,4 @@
-<h1>All Jabatans</h1>
+<h1>Senarai Jabatan</h1>
 <div class="row">
     <div class="col-md-8">
         <button class="btn btn-link pull-right" data-bind="visible: chartFiltered, click: clearChartFilter">
@@ -8,19 +8,18 @@
         <table class="table table-striped" data-bind="filter : {path:'tbody>tr'}, searchPaging :{ query: query, map : map, entity : 'Jabatan', list:list}">
             <thead>
                 <tr>
-                    <th>Agensi No</th>
+                    <th>Jabatan No</th>
                     <th>Nama Jabatan</th>
                     <th>Kementerian</th>
-                    <th>Kumpulan Agensi</th>
+                    <th>Agensi Kumpulan</th>
                 </tr>
             </thead>
             <tbody data-bind="foreach :list">
                 <tr data-bind="">
 
-                    <td data-bind="text:AgensiNo"></td>
+                    <td data-bind="text:JabatanNo"></td>
                     <td>
                         <a data-bind="attr : {href:'#jabatan-details' + '/' + Id, title:'Nama Jabatan' }">
-                            <i class="fa fa-external-link"></i>
                                                         <span data-bind="text:NamaJabatan"></span>
                         </a>
                     </td>
