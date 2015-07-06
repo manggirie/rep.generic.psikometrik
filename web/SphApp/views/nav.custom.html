@@ -1,0 +1,14 @@
+<div id="slider-menu">
+    <nav class="menu-nav nav">
+        <ul class="menu-nav nav">
+          
+            <!-- ko foreach :router.navigationModel -->
+            <li data-bind="css: { current: isActive }, attr :{'data-string':title}">
+                <a href="#" data-bind=" attr: { href: hash }">
+                    <i data-bind="attr : {'class' : icon}"></i><span data-bind="text: title"></span>
+                </a>
+            </li>
+            <!-- /ko -->
+        </ul>
+    </nav>
+</div>
