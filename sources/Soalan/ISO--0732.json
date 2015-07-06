@@ -21,14 +21,14 @@
       }
     ]
   },
-  "Trait": "NA",
+  "Trait": "C",
   "NamaUjian": "Inventori Stres Organisasi (ISO)",
-  "Susunan": 1.0,
-  "Kategori": null,
+  "Susunan": 83.0,
+  "Kategori": "Urus Masa",
   "CreatedBy": "admin",
   "Id": "ISO--0732",
-  "CreatedDate": "2015-07-06T11:24:46.2078642+08:00",
+  "CreatedDate": "2015-06-22T16:26:38.6574381+08:00",
   "ChangedBy": "admin",
-  "ChangedDate": "2015-07-06T11:24:46.2058628+08:00",
+  "ChangedDate": "2015-07-02T08:52:04.6378282+08:00",
   "WebId": "6ba58495-834b-4695-899a-43fd3093242a"
 }

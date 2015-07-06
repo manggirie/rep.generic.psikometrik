@@ -21,14 +21,14 @@
       }
     ]
   },
-  "Trait": "NA",
+  "Trait": "C",
   "NamaUjian": "Inventori Stres Organisasi (ISO)",
-  "Susunan": 1.0,
-  "Kategori": null,
+  "Susunan": 90.0,
+  "Kategori": " Life Balance",
   "CreatedBy": "admin",
   "Id": "ISO--0739",
-  "CreatedDate": "2015-07-06T11:24:46.2538967+08:00",
+  "CreatedDate": "2015-06-22T16:26:39.1064638+08:00",
   "ChangedBy": "admin",
-  "ChangedDate": "2015-07-06T11:24:46.2533966+08:00",
+  "ChangedDate": "2015-07-02T08:58:01.0144456+08:00",
   "WebId": "5b24bc38-b46e-4a83-a177-bff823b5fc27"
 }

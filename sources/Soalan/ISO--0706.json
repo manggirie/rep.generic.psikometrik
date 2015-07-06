@@ -10,25 +10,25 @@
       {
         "$type": "Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan",
         "Teks": "Ya",
-        "Nilai": 1,
+        "Nilai": 0,
         "WebId": null
       },
       {
         "$type": "Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan",
         "Teks": "Tidak",
-        "Nilai": 0,
+        "Nilai": 1,
         "WebId": null
       }
     ]
   },
-  "Trait": "NA",
+  "Trait": "C",
   "NamaUjian": "Inventori Stres Organisasi (ISO)",
-  "Susunan": 1.0,
-  "Kategori": null,
+  "Susunan": 57.0,
+  "Kategori": "Life Balance",
   "CreatedBy": "admin",
   "Id": "ISO--0706",
-  "CreatedDate": "2015-07-06T11:24:45.911155+08:00",
+  "CreatedDate": "2015-06-22T16:26:37.1093495+08:00",
   "ChangedBy": "admin",
-  "ChangedDate": "2015-07-06T11:24:45.9096542+08:00",
+  "ChangedDate": "2015-07-01T16:24:37.7707993+08:00",
   "WebId": "05aeab49-6151-46d9-888f-a3f53b75d340"
 }

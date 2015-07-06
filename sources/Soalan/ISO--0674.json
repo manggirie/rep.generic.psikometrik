@@ -21,14 +21,14 @@
       }
     ]
   },
-  "Trait": "NA",
+  "Trait": "D",
   "NamaUjian": "Inventori Stres Organisasi (ISO)",
-  "Susunan": 1.0,
-  "Kategori": null,
+  "Susunan": 25.0,
+  "Kategori": "Stress Vulnerability",
   "CreatedBy": "admin",
   "Id": "ISO--0674",
-  "CreatedDate": "2015-07-06T11:24:45.6879975+08:00",
+  "CreatedDate": "2015-06-22T16:26:35.2372425+08:00",
   "ChangedBy": "admin",
-  "ChangedDate": "2015-07-06T11:24:45.6874974+08:00",
+  "ChangedDate": "2015-07-01T12:55:51.230194+08:00",
   "WebId": "eba29b47-0b98-4083-839d-fb0789c8850c"
 }
