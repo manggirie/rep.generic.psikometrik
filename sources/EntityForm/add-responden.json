@@ -473,7 +473,7 @@
   "IsPublished": true,
   "IsDefault": false,
   "IsWatchAvailable": false,
-  "IsEmailAvailable": false,
+  "IsEmailAvailable": true,
   "IsPrintAvailable": false,
   "IsAuditTrailAvailable": false,
   "IsRemoveAvailable": false,
