@@ -126,7 +126,7 @@ define(["services/datacontext", "services/logger", "plugins/router", "services/c
                     });
             },
             attached = function (view) {
-                chart.init("Jabatan", query, chartSeriesClick, "7e7926b0-3680-49d3-b168-b46008055be4");
+                chart.init("Jabatan", query, chartSeriesClick, "jabatans-all");
             },
             clearChartFilter = function(){
                 chartFiltered(false);

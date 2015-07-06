@@ -13,8 +13,8 @@
           "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.Sph.Domain.ConditionalFormatting, domain.sph]], domain.sph",
           "$values": []
         },
-        "Path": "AgensiNo",
-        "Header": "Agensi No",
+        "Path": "JabatanNo",
+        "Header": "Jabatan No",
         "Sort": "",
         "IsLinkColumn": false,
         "FormRoute": null,
@@ -22,7 +22,7 @@
         "IconStoreId": "",
         "Format": "text:{0}",
         "RouteValueField": "",
-        "WebId": "75b513a4-062a-4ea2-b248-b5b06f3f6b04"
+        "WebId": "2f6c8bf9-5ec2-4ab1-9845-346645b899a2"
       },
       {
         "$type": "Bespoke.Sph.Domain.ViewColumn, domain.sph",
@@ -35,11 +35,11 @@
         "Sort": "",
         "IsLinkColumn": true,
         "FormRoute": "jabatan-details",
-        "IconCssClass": "fa fa-external-link",
+        "IconCssClass": "",
         "IconStoreId": "",
         "Format": "text:{0}",
-        "RouteValueField": "Id",
-        "WebId": "4c6eafbd-07e1-42dc-e976-bc0d49c15a9b"
+        "RouteValueField": "",
+        "WebId": "e541ef20-b258-4909-b4c3-413b3e858d0f"
       },
       {
         "$type": "Bespoke.Sph.Domain.ViewColumn, domain.sph",
@@ -56,7 +56,7 @@
         "IconStoreId": "",
         "Format": "text:{0}",
         "RouteValueField": "",
-        "WebId": "4895b37c-6b15-400c-80bd-564ff7c54f6f"
+        "WebId": "6c4dfdcd-acfe-4fcf-9ac1-dc68ff1e35f5"
       },
       {
         "$type": "Bespoke.Sph.Domain.ViewColumn, domain.sph",
@@ -65,7 +65,7 @@
           "$values": []
         },
         "Path": "AgensiKumpulan",
-        "Header": "Kumpulan Agensi",
+        "Header": "Agensi Kumpulan",
         "Sort": "",
         "IsLinkColumn": false,
         "FormRoute": null,
@@ -73,7 +73,7 @@
         "IconStoreId": "",
         "Format": "text:{0}",
         "RouteValueField": "",
-        "WebId": "4e283857-abf4-45d4-caa8-e6c536012be3"
+        "WebId": "56a4bed6-1092-4e01-8ac7-4bfa6de74d23"
       }
     ]
   },
