@@ -21,6 +21,7 @@
 * View untuk permohonan penyelaras tambah field Tarikh pohon dan sort by TarikhMohon Filter yang BARU
 
 ## Penyelaras
+* Role / designation untuk penyelaras & responden
 * Mohon permohonan cadangan tarik mestilah in the future
 * Kalau permohonan sudah lulus - penyelaras tak boleh edit, kecuali Bilangan responden
 * Bila tambah responden the list should be updated immediately
@@ -29,7 +30,6 @@
 
 
 ## urusetia
-* Role / designation untuk penyelaras & urusetia
 * Buang search dekat nav bar
 * Setiap trait report , mesti masukan peringatan macam dalam docs/master-report-ibk di page 1, di susuli dengan actual report.
 
