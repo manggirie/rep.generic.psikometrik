@@ -1,10 +1,6 @@
 #Things to do
-* ~~Title - Sistem Ujian Psikologi~~
 
 ## Responden dan Penyelaras
-* ~~Responden tak boleh copy soalan~~
-  * done, prevent contextmenu and selection - 2015-06-28 1007
-* ~~Tambah responden ke program, narrow down kepada responden yang dari jabatan yang sama~~
 * Toolbar buttons turun bawah
 * Toolbar button tukar melayu
 * Save - simpan
@@ -12,41 +8,33 @@
 * Email - emel
 * Update kemaskini
 * Bila back soalan double
+* Messagebox - prompt bila save form
 
 ## Sesi ujian
-* ~~Duration - kalau lebih  - leave~~
-* ~~Mengikut tarikh program(permohonan yang telah LULUS)~~ DONE
-* ~~Masa sesi ujian untuk responden menjawab telah ditetapkan. Jika masa telah tamat, sistem akan auto log out bagi sesi responden tersebut dan responden perlu login semula dan jawab semula setiap soalan. Pada hari yang sama, responden hanya dibenarkan mencuba untuk menjawab sesi ujian tersebut sebanyak tiga kali, jika selepas 3 kali masih melebihi masa, auto block responden dan responden perlu menghubungi urusetia (offline) untuk tindakan unblock responden tersebut. (eg. masa untuk sesi ujian IBK adalah sebanyak 40 minit bagi setiap seksyen)~~
 
-2. ~~Semasa sesi ujian, jika responden tekan back button pada browser, auto save jawapan-jawapan yang telah dijawab. Walau bagaimanapun, simpan jawapan sebenar hanya apabila butang Hantar ditekan.~~
 
-3. ~~Apabila penyelaras login, hanya paparkan program/permohonan yang dia daftarkan sendiri. Tak boleh papar/lihat program yang didaftarkan oleh penyelaras lain walaupun dari jabatan yang sama.~~
-
-4.  ~~Untuk paparan responden, paparkan program-program yang telah didaftarkan atas nama dia beserta status jika ujian telah diambil atau belum.~~
-5. ~~Jika ujian telah diambil, paparkan juga tarikh ujian tersebut diambil.~~
 
 
 
 ## Laporan urusetia
-* ~~Senarai program guna textbox with auto-complete~~
 * More lookup
+* View untuk permohonan penyelaras tambah field Tarikh pohon dan sort by TarikhMohon Filter yang BARU
 
 ## Penyelaras
 * Mohon permohonan cadangan tarik mestilah in the future
-* ~~Boleh tambah banyak -banyak responden sekali gus~~
-* ~~Boleh guna dialog untuk Tambah responden~~
-* ~~Senarai responden dari Jabatan yang sama~~
-* ~~Senarai permohonan dipapar ikut jabatan dia sahaja, so kena new member kepada permohonan entity definition, so everytime Penyelaras mohon program baru, permohonan ini akan di setkan Jabatan secara automatic.~~
-* ~~Email penyelaras bila urusetia luluskan permohonan~~
-* Kalau permohonan sudah lulus - penyelaras tak boleh edit
+* Kalau permohonan sudah lulus - penyelaras tak boleh edit, kecuali Bilangan responden
 * Bila tambah responden the list should be updated immediately
+* Pemilihan responden maksimun berdasarakan Bilangan dalam permohonan, yang mana penyelaras boleh ejas
+* penyelaras boleh hantar email reminder kepada responden, melalui button email
 
 
 ## urusetia
-* ~~LULUS kan permohonan, nama ujian mesti penuh - checkbox untuk senarai ujian~~
 * Role / designation untuk penyelaras & urusetia
+* Buang search dekat nav bar
+* Setiap trait report , mesti masukan peringatan macam dalam docs/master-report-ibk di page 1, di susuli dengan actual report.
 
 
 ## responden (fauzi)
-- responden tidak dapat tengok senarai ujian setelah login walaupun telah ditambah oleh penyelaras
--  
+*  ~~responden tidak dapat tengok senarai ujian setelah login walaupun telah ditambah oleh penyelaras~~
+* ~~Back button pressed, jangan kira percubaan sesi~~
+* Buat member baru "Arahan" untuk Ujian entity, dipaparkan di responden home bila dia nak start sesi ujian
