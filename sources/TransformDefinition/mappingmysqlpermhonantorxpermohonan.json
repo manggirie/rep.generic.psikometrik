@@ -222,8 +222,8 @@
       },
       {
         "$type": "Bespoke.Sph.Domain.ParseDateTimeFunctoid, domain.sph",
-        "Format": null,
-        "Styles": null,
+        "Format": "yyyy-MM-dd",
+        "Styles": "None",
         "Culture": null,
         "ArgumentCollection": {
           "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.Sph.Domain.FunctoidArg, domain.sph]], domain.sph",
@@ -236,7 +236,7 @@
               "Label": null,
               "Comment": null,
               "IsOptional": false,
-              "Functoid": "3130c655-2dff-42a9-ce48-2ce076946cf5",
+              "Functoid": "01ff37e4-3412-46b2-dca3-4fc910f26361",
               "Constant": null,
               "Default": null,
               "WebId": null
@@ -289,21 +289,6 @@
         "X": 415.0,
         "Y": 587.0,
         "WebId": "c85bd99f-39ba-4039-f99a-c624e41a6f28"
-      },
-      {
-        "$type": "Bespoke.Sph.Domain.SourceFunctoid, domain.sph",
-        "Field": "tarikh_tamat",
-        "ArgumentCollection": {
-          "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.Sph.Domain.FunctoidArg, domain.sph]], domain.sph",
-          "$values": []
-        },
-        "Name": "",
-        "OutputTypeName": "",
-        "Label": "",
-        "Comment": "",
-        "X": 0.0,
-        "Y": 0.0,
-        "WebId": "3130c655-2dff-42a9-ce48-2ce076946cf5"
       },
       {
         "$type": "Bespoke.Sph.Domain.FormattingFunctoid, domain.sph",
@@ -418,6 +403,21 @@
         "X": 0.0,
         "Y": 0.0,
         "WebId": "1191725b-b902-471e-8592-ef3c34fbb731"
+      },
+      {
+        "$type": "Bespoke.Sph.Domain.SourceFunctoid, domain.sph",
+        "Field": "tarikh_tamat",
+        "ArgumentCollection": {
+          "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.Sph.Domain.FunctoidArg, domain.sph]], domain.sph",
+          "$values": []
+        },
+        "Name": "",
+        "OutputTypeName": "",
+        "Label": "",
+        "Comment": "",
+        "X": 0.0,
+        "Y": 0.0,
+        "WebId": "01ff37e4-3412-46b2-dca3-4fc910f26361"
       }
     ]
   },
