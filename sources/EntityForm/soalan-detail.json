@@ -550,7 +550,7 @@
   "IconStoreId": "",
   "IsPublished": true,
   "IsDefault": true,
-  "IsWatchAvailable": false,
+  "IsWatchAvailable": true,
   "IsEmailAvailable": false,
   "IsPrintAvailable": false,
   "IsAuditTrailAvailable": false,

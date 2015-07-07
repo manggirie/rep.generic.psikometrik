@@ -1,4 +1,4 @@
-define(["services/datacontext", objectbuilders.config, objectbuilders.app ], function(context, config, app){
+define(["services/datacontext", objectbuilders.config, objectbuilders.app, objectbuilders.router ], function(context, config, app, router){
     var testList =  ko.observableArray()
         ujianList = ko.observableArray(),
         registrationList = ko.observableArray(),
@@ -77,6 +77,20 @@ define(["services/datacontext", objectbuilders.config, objectbuilders.app ], fun
               return false;
           }
           return true;
+        },
+        mulaSesiUjian = function(sesi){
+            var tcs = new $.Deferred();
+            require(['viewmodels/arahan-mula-sesi-ujian-dialog' , 'durandal/app'], function (dialog, app2) {
+               dialog.item(sesi);
+                app2.showDialog(dialog)
+                    .done(function (result) {
+                        tcs.resolve(true);
+                        if (result === "OK") {
+                            router.navigate("#mula-sesi-ujian/" + ko.unwrap(sesi.Id));
+                        }
+                });
+            });
+            return tcs.promise();
         };
 
     return {
@@ -85,6 +99,7 @@ define(["services/datacontext", objectbuilders.config, objectbuilders.app ], fun
         testList : testList,
         activate : activate,
         attached : attached,
+        mulaSesiUjian : mulaSesiUjian,
         canDeactivate : canDeactivate,
         getNamaUjian : getNamaUjian
     };

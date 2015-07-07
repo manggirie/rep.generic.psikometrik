@@ -33,7 +33,7 @@
         <!-- ko if: typeof addNewCommand === "function"-->
         <button id="save" class="btn btn-default" data-bind="command: addNewCommand" data-loading-text="Simpan....">
             <i class="fa fa-plus"></i>
-            Add
+            Tambah
         </button>
         <!-- /ko -->
 
@@ -47,42 +47,20 @@
         <!-- /ko -->
         <!-- /ko -->
 
-        <!-- ko if: typeof saveCommand === "function" && typeof canExecuteSaveCommand === "undefined"-->
-        <button id="save-button" class="btn btn-default" data-bind="command: saveCommand">
-            <i class="fa fa-save"></i>
-            <span data-i18n="Save">Save</span>
-        </button>
-        <!-- /ko -->
-        <!-- ko if: typeof saveCommand === "function" && typeof canExecuteSaveCommand === "function"-->
-        <button class="btn btn-default" data-bind="command: saveCommand, enable :canExecuteSaveCommand">
-            <i class="fa fa-save"></i>
-            <span data-i18n="Save">Save</span>
-        </button>
-        <!-- /ko -->
+
         <!-- ko if: typeof openCommand === "function" -->
         <button class="btn btn-default" data-bind="command: openCommand">
             <i class="fa fa-folder-open"></i>
-            <span data-i18n="Open">Open</span>
+            <span data-i18n="Open">Buka</span>
         </button>
         <!-- /ko -->
 
 
-        <!-- ko if: typeof removeCommand === "function"&& typeof canExecuteRemoveCommand === "undefined"-->
-        <button class="btn btn-default" data-bind="command: removeCommand">
-            <i class="fa fa-trash-o"></i>
-            <span data-i18n="Delete">Delete</span>
-        </button>
-        <!-- /ko -->
-        <!-- ko if: typeof removeCommand === "function" && typeof canExecuteRemoveCommand === "function"-->
-        <button class="btn btn-default" data-bind="command: removeCommand, enable :canExecuteRemoveCommand">
-            <i class="fa fa-trash-o"></i>
-            <span data-i18n="Delete">Delete</span>
-        </button>
-        <!-- /ko -->
+
         <!-- ko if: typeof reloadCommand === "function"-->
         <button class="btn btn-default" data-bind="command: reloadCommand">
             <i class="fa fa-refresh"></i>
-            <span data-i18n="Reload">Reload</span>
+            <span data-i18n="Reload">Muat semula</span>
 
         </button>
         <!-- /ko -->
@@ -90,21 +68,21 @@
         <!-- ko if: typeof emailCommand === "object"-->
         <button class="btn btn-default" data-bind="commandWithParameter: { command: $root.emailCommand, commandParameter: emailCommand }">
             <i class="fa fa-envelope-o"></i>
-            <span data-i18n="Email">Email</span>
+            <span data-i18n="Email">Emel</span>
         </button>
         <!-- /ko -->
 
         <!-- ko if: typeof printCommand === "object"-->
         <button class="btn btn-default" data-bind="commandWithParameter: { command: $root.printCommand, commandParameter: printCommand }" data-loading-text="Cetak....">
             <i class="fa fa-print"></i>
-            <span data-i18n="Print">Print</span>
+            <span data-i18n="Print">Cetak</span>
         </button>
         <!-- /ko -->
 
         <!-- ko if: typeof pdfCommand === "object"-->
         <button class="btn btn-default" data-bind="commandWithParameter: { command: $root.pdfCommand, commandParameter: pdfCommand }" data-loading-text="Cetak....">
             <i class="fa fa-print"></i>
-            <span data-i18n="Print">Print</span>
+            <span data-i18n="Print">Cetak</span>
         </button>
         <!-- /ko -->
 
@@ -112,14 +90,14 @@
         <!-- ko if: typeof exportCommand === "function"-->
         <button class="btn btn-default" data-bind="command: exportCommand">
             <i class="fa fa-download"></i>
-            <span data-i18n="Export">Export</span>
+            <span data-i18n="Export">Ekspot</span>
         </button>
         <!-- /ko -->
 
         <!-- ko if: typeof importCommand === "function"-->
         <button class="btn btn-default" data-bind="command: importCommand">
             <i class="fa fa-upload"></i>
-            <span data-i18n="Import">Import</span>
+            <span data-i18n="Import">Impot</span>
         </button>
         <!-- /ko -->
 
@@ -127,13 +105,13 @@
         <!-- ko if: typeof watchCommand === "function"-->
         <button class="btn btn-default" data-bind="command: watchCommand, visible: watching() === false" >
             <i class="glyphicon glyphicon-eye-open"></i>
-            <span data-i18n="Watch">Watch</span>
+            <span data-i18n="Watch">Ikut</span>
         </button>
         <!-- /ko -->
         <!-- ko if: typeof unwatchCommand === "function"-->
         <button class="btn btn-default" data-bind="command: unwatchCommand, visible: watching">
             <i class="glyphicon glyphicon-eye-close"></i>
-            <span data-i18n="Unwatch">Unwatch</span>
+            <span data-i18n="Unwatch">Abai</span>
         </button>
         <!-- /ko -->
 

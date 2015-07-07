@@ -29,7 +29,7 @@
     <h2>Senarai Ujian Yang Belum Ambil</h2>
     <!-- ko foreach : testList -->
     <div class="alert alert-info" data-bind="css : {'alert-warning' : ko.unwrap(Lock) < 3 && ko.unwrap(Lock) > 0,'alert-danger' : ko.unwrap(Lock) === 3}">
-        <a class="alert-link" href="#mula-sesi-ujian" data-bind="attr:{href:'#mula-sesi-ujian/' + ko.unwrap(Id)}">
+        <a class="alert-link" href="#mula-sesi-ujian" data-bind="click: $root.mulaSesiUjian">
             <i class="fa fa-play"></i>
             Mula Sesi Ujian <!-- ko text:$root.getNamaUjian($data.NamaUjian) --> <!--/ko-->
         </a>
