@@ -37,4 +37,4 @@
 ## responden (fauzi)
 *  ~~responden tidak dapat tengok senarai ujian setelah login walaupun telah ditambah oleh penyelaras~~
 * ~~Back button pressed, jangan kira percubaan sesi~~
-* Buat member baru "Arahan" untuk Ujian entity, dipaparkan di responden home bila dia nak start sesi ujian
+* ~~Arahan, dipaparkan di responden home bila dia nak start sesi ujian~~
