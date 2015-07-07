@@ -18,42 +18,42 @@ namespace web.sph.App_Code
 {
     public class IpTraitViewModel
     {
-      public IpTraitViewModel(Bespoke.epsikologi_sesiujian.Domain.SesiUjian sesi)
+      private Bespoke.epsikologi_pengguna.Domain.Pengguna m_pengguna;
+      public IpTraitViewModel(Bespoke.epsikologi_sesiujian.Domain.SesiUjian sesi, Bespoke.epsikologi_pengguna.Domain.Pengguna pengguna)
       {
+          m_pengguna = pengguna;
+           OneA = sesi.JawapanCollection.Where(s => s.Trait == "Skor 1").Count(a => a.StartsWith("a)"));
+           OneB = sesi.JawapanCollection.Where(s => s.Trait == "Skor 1").Count(a => a.StartsWith("b)"));
 
+           TwoA = sesi.JawapanCollection.Where(s => s.Trait == "Skor 2").Count(a => a.StartsWith("a)"));
+           TwoB = sesi.JawapanCollection.Where(s => s.Trait == "Skor 2").Count(a => a.StartsWith("b)"));
 
-           OneA = sesi.JawapanCollection.Where(s => s.Trait == "Skor 1").Count(a => a.Nilai == 1);
-           OneB = sesi.JawapanCollection.Where(s => s.Trait == "Skor 1").Count(a => a.Nilai == 0);
+           ThreeA = sesi.JawapanCollection.Where(s => s.Trait == "Skor 3").Count(a => a.StartsWith("a)"));
+           ThreeB = sesi.JawapanCollection.Where(s => s.Trait == "Skor 3").Count(a => a.StartsWith("b)"));
 
-           TwoA = sesi.JawapanCollection.Where(s => s.Trait == "Skor 2").Count(a => a.Nilai == 1);
-           TwoB = sesi.JawapanCollection.Where(s => s.Trait == "Skor 2").Count(a => a.Nilai == 0);
+           FourA = sesi.JawapanCollection.Where(s => s.Trait == "Skor 4").Count(a => a.StartsWith("a)"));
+           FourB = sesi.JawapanCollection.Where(s => s.Trait == "Skor 4").Count(a => a.StartsWith("b)"));
 
-           ThreeA = sesi.JawapanCollection.Where(s => s.Trait == "Skor 3").Count(a => a.Nilai == 1);
-           ThreeB = sesi.JawapanCollection.Where(s => s.Trait == "Skor 3").Count(a => a.Nilai == 0);
+           FiveA = sesi.JawapanCollection.Where(s => s.Trait == "Skor 5").Count(a => a.StartsWith("a)"));
+           FiveB = sesi.JawapanCollection.Where(s => s.Trait == "Skor 5").Count(a => a.StartsWith("b)"));
 
-           FourA = sesi.JawapanCollection.Where(s => s.Trait == "Skor 4").Count(a => a.Nilai == 1);
-           FourB = sesi.JawapanCollection.Where(s => s.Trait == "Skor 4").Count(a => a.Nilai == 0);
+           SixA = sesi.JawapanCollection.Where(s => s.Trait == "Skor 6").Count(a => a.StartsWith("a)"));
+           SixB = sesi.JawapanCollection.Where(s => s.Trait == "Skor 6").Count(a => a.StartsWith("b)"));
 
-           FiveA = sesi.JawapanCollection.Where(s => s.Trait == "Skor 5").Count(a => a.Nilai == 1);
-           FiveB = sesi.JawapanCollection.Where(s => s.Trait == "Skor 5").Count(a => a.Nilai == 0);
+           SevenA = sesi.JawapanCollection.Where(s => s.Trait == "Skor 7").Count(a => a.StartsWith("a)"));
+           SevenB = sesi.JawapanCollection.Where(s => s.Trait == "Skor 7").Count(a => a.StartsWith("b)"));
 
-           SixA = sesi.JawapanCollection.Where(s => s.Trait == "Skor 6").Count(a => a.Nilai == 1);
-           SixB = sesi.JawapanCollection.Where(s => s.Trait == "Skor 6").Count(a => a.Nilai == 0);
+           EightA = sesi.JawapanCollection.Where(s => s.Trait == "Skor 8").Count(a => a.StartsWith("a)"));
+           EightB = sesi.JawapanCollection.Where(s => s.Trait == "Skor 8").Count(a => a.StartsWith("b)"));
 
-           SevenA = sesi.JawapanCollection.Where(s => s.Trait == "Skor 7").Count(a => a.Nilai == 1);
-           SevenB = sesi.JawapanCollection.Where(s => s.Trait == "Skor 7").Count(a => a.Nilai == 0);
+           NineA = sesi.JawapanCollection.Where(s => s.Trait == "Skor 9").Count(a => a.StartsWith("a)"));
+           NineB = sesi.JawapanCollection.Where(s => s.Trait == "Skor 9").Count(a => a.StartsWith("b)"));
 
-           EightA = sesi.JawapanCollection.Where(s => s.Trait == "Skor 8").Count(a => a.Nilai == 1);
-           EightB = sesi.JawapanCollection.Where(s => s.Trait == "Skor 8").Count(a => a.Nilai == 0);
+           TenA = sesi.JawapanCollection.Where(s => s.Trait == "Skor 10").Count(a => a.StartsWith("a)"));
+           TenB = sesi.JawapanCollection.Where(s => s.Trait == "Skor 10").Count(a => a.StartsWith("b)"));
 
-           NineA = sesi.JawapanCollection.Where(s => s.Trait == "Skor 9").Count(a => a.Nilai == 1);
-           NineB = sesi.JawapanCollection.Where(s => s.Trait == "Skor 9").Count(a => a.Nilai == 0);
-
-           TenA = sesi.JawapanCollection.Where(s => s.Trait == "Skor 10").Count(a => a.Nilai == 1);
-           TenB = sesi.JawapanCollection.Where(s => s.Trait == "Skor 10").Count(a => a.Nilai == 0);
-
-           ElevenA = sesi.JawapanCollection.Where(s => s.Trait == "Skor 11").Count(a => a.Nilai == 1);
-           ElevenB = sesi.JawapanCollection.Where(s => s.Trait == "Skor 11").Count(a => a.Nilai == 0);
+           ElevenA = sesi.JawapanCollection.Where(s => s.Trait == "Skor 11").Count(a => a.StartsWith("a)"));
+           ElevenB = sesi.JawapanCollection.Where(s => s.Trait == "Skor 11").Count(a => a.StartsWith("b)"));
            Sesi = sesi;
 
 
@@ -93,19 +93,60 @@ namespace web.sph.App_Code
 
       public int E { get{return OneA + TwoA;} }
       public int I { get{return OneB + TwoB;} }
-      public string EI { get{ return E > I ? "E" : "I";} }
+
+      // kalau sama & lelaki -> E
+      public string EI
+      {
+        get
+        {
+          if(E == I && m_pengguna.Jantina == "Lelaki" ) return "E";
+          if(E == I && m_pengguna.Jantina == "Perempuan" ) return "I";
+          return E > I ? "E" : "I";
+        }
+      }
 
       public int S { get{return ThreeA + FourA + FiveA;} }
       public int N { get{return ThreeB + FourB + FiveB;} }
-      public string SN { get{ return S > N ? "S" : "N";} }
+
+      // kalau sama & lelaki -> S
+      public string SN
+      {
+        get
+        {
+
+          if(E == I && m_pengguna.Jantina == "Lelaki" ) return "S";
+          if(E == I && m_pengguna.Jantina == "Perempuan" ) return "N";
+          return S > N ? "S" : "N";
+        }
+      }
 
       public int T { get{return SixA + SevenA + EightA;} }
       public int F { get{return SixB + SevenB + EightB;} }
-      public string TF { get{ return T > F ? "T" : "F";} }
+      // kalau sama & lelaki -> T
+      public string TF
+      {
+        get
+        {
+          if(E == I && m_pengguna.Jantina == "Lelaki" ) return "T";
+          if(E == I && m_pengguna.Jantina == "Perempuan" ) return "F";
+          return T > F ? "T" : "F";
+        }
+      }
 
       public int J { get{return NineA + TenA + ElevenA;} }
       public int P { get{return NineB + TenB + ElevenB;} }
-      public string JP { get{ return J > P ? "J" : "P";} }
+
+      // kalau sama & lelaki -> J
+      public string JP
+      {
+        get
+        {
+
+          if(E == I && m_pengguna.Jantina == "Lelaki" ) return "J";
+          if(E == I && m_pengguna.Jantina == "Perempuan" ) return "P";
+          return J > P ? "J" : "P";
+        }
+      }
 
       public string Result  { get{ return EI + SN + TF + JP; } }
       [JsonIgnore]
