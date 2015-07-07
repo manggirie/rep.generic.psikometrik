@@ -72,34 +72,6 @@
         </button>
         <!-- /ko -->
 
-        <!-- ko if: typeof printCommand === "object"-->
-        <button class="btn btn-default" data-bind="commandWithParameter: { command: $root.printCommand, commandParameter: printCommand }" data-loading-text="Cetak....">
-            <i class="fa fa-print"></i>
-            <span data-i18n="Print">Cetak</span>
-        </button>
-        <!-- /ko -->
-
-        <!-- ko if: typeof pdfCommand === "object"-->
-        <button class="btn btn-default" data-bind="commandWithParameter: { command: $root.pdfCommand, commandParameter: pdfCommand }" data-loading-text="Cetak....">
-            <i class="fa fa-print"></i>
-            <span data-i18n="Print">Cetak</span>
-        </button>
-        <!-- /ko -->
-
-
-        <!-- ko if: typeof exportCommand === "function"-->
-        <button class="btn btn-default" data-bind="command: exportCommand">
-            <i class="fa fa-download"></i>
-            <span data-i18n="Export">Ekspot</span>
-        </button>
-        <!-- /ko -->
-
-        <!-- ko if: typeof importCommand === "function"-->
-        <button class="btn btn-default" data-bind="command: importCommand">
-            <i class="fa fa-upload"></i>
-            <span data-i18n="Import">Impot</span>
-        </button>
-        <!-- /ko -->
 
 
         <!-- ko if: typeof watchCommand === "function"-->
