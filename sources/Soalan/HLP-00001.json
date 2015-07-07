@@ -2,7 +2,7 @@
   "$type": "Bespoke.epsikologi_soalan.Domain.Soalan, epsikologi.Soalan",
   "NoRujukan": "HLP-00001",
   "SoalanNo": "HLP-00001",
-  "TeksSoalan": "Kadangkala saya terfikir sesuatu yang tidak elok untuk diperkatakan.,,,",
+  "TeksSoalan": "Kadangkala saya terfikir sesuatu yang tidak elok untuk diperkatakan. ",
   "SeksyenSoalan": null,
   "PilihanJawapanCollection": {
     "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan]], domain.sph",
@@ -10,25 +10,25 @@
       {
         "$type": "Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan",
         "Teks": "Ya",
-        "Nilai": 1,
+        "Nilai": 0,
         "WebId": null
       },
       {
         "$type": "Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan",
         "Teks": "Tidak",
-        "Nilai": 0,
+        "Nilai": 1,
         "WebId": null
       }
     ]
   },
-  "Trait": null,
+  "Trait": "KB",
   "NamaUjian": "Ujian Khas Hadiah Latihan Persekutuan(HLP)",
   "Susunan": 1.0,
-  "Kategori": null,
+  "Kategori": "Kebolehpercayaan",
   "CreatedBy": "admin",
   "Id": "HLP-00001",
   "CreatedDate": "2015-07-06T11:24:49.2930423+08:00",
   "ChangedBy": "admin",
-  "ChangedDate": "2015-07-06T11:24:49.2920411+08:00",
+  "ChangedDate": "2015-07-07T16:22:22.1689168+08:00",
   "WebId": "95bb9de5-d9d8-4f72-ab0d-5129f1ba08bc"
 }
