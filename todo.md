@@ -31,7 +31,7 @@
 
 ## urusetia
 * ~~Buang search dekat nav bar~~
-* ~~Setiap trait report , mesti masukan peringatan macam dalam docs/master-report-ibk di page 1, di susuli dengan actual report.~~
+* Setiap trait report , mesti masukan peringatan macam dalam docs/master-report-ibk di page 1, di susuli dengan actual report.
 
 
 ## responden (fauzi)
