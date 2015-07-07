@@ -20,7 +20,6 @@ define(["services/datacontext", objectbuilders.app], function(context, app){
             var data = ko.mapping.toJSON(pendaftaran);
             return context.post(data, "/PendaftaranProgram/TambahResponden")
                 .then(function(result) {
-                    //app.showMessage("Your PendaftaranProgram has been successfully saved", "epsikologi", ["OK"]);
                     senaraiPendaftaran.push(pendaftaran);
                 });
 
@@ -29,6 +28,7 @@ define(["services/datacontext", objectbuilders.app], function(context, app){
 
             var tcs = new $.Deferred();
             require(['viewmodels/tambah-responden-dialog' , 'durandal/app'], function (dialog, app2) {
+                dialog.maxCount ( permohonan().BilRespondan() - senaraiPendaftaran().length);
                 app2.showDialog(dialog)
                     .done(function (result) {
                         if (result === "OK") {
@@ -47,7 +47,7 @@ define(["services/datacontext", objectbuilders.app], function(context, app){
                             $.when(tasks).done(tcs.resolve);
 
                         }else{
-                            tsc.resolve();
+                            tcs.resolve();
                         }
                 });
             });
@@ -56,7 +56,7 @@ define(["services/datacontext", objectbuilders.app], function(context, app){
         },
         sendReminderEmail = function(pendaftaran){
             return function(){
-                
+
             var to = "";
             return context.loadOneAsync("Pengguna", String.format("MyKad eq '{0}'", ko.unwrap(pendaftaran.MyKad)))
                 .then(function(user){
@@ -69,11 +69,11 @@ define(["services/datacontext", objectbuilders.app], function(context, app){
                         body : mail.body,
                         to : to
                     };
-                   return context.post(JSON.stringify(message), "/email-template/send"); 
+                   return context.post(JSON.stringify(message), "/email-template/send");
                 }).then(function(){
                     app.showMessage("Emel peringatan sudah dihantar kepada " + to, "title", ["OK"]);
                 });
-                
+
             };
         };
 
