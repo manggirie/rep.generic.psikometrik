@@ -9,9 +9,9 @@
         <div class="form-group">
             <label for="chart-aggregate">Agrigat</label>
             <select data-bind="value: aggregate" class="form-control" name="chart.aggregate" id="chart-aggregate">
-                <option value="term">Term</option>
+                <option value="term">Terma</option>
                 <option value="histogram">Histogram</option>
-                <option value="date_histogram">Date Histogram</option>
+                <option value="date_histogram">Histogram tarikh</option>
             </select>
         </div>
         <div class="form-group">
@@ -19,24 +19,24 @@
             <select class="form-control" data-bind="value: field, options: fieldOptions, optionsCaption :'[Select a field]'" id="field"></select>
         </div>
         <div class="form-group" data-bind="visible : aggregate() === 'date_histogram'">
-            <label for="chart-date-interval">Tarikh interval</label>
+            <label for="chart-date-interval">Tempoh</label>
             <select data-bind="value:dateInterval" class="form-control" name="chart.date-interval" id="chart-date-interval">
                 <option value="year">Tahun</option>
-                <option value="quarter">Quarter</option>
-                <option value="month">bulan</option>
+                <option value="quarter">Suku Tahun</option>
+                <option value="month">Bulan</option>
                 <option value="week">Minggu</option>
                 <option value="day">Hari</option>
-                <option value="hour"> jam</option>
-                <option value="minute">minit</option>
-                <option value="second">saat</option>
+                <option value="hour">Jam</option>
+                <option value="minute">Minit</option>
+                <option value="second">Saat</option>
             </select>
         </div>
         <div class="form-group" data-bind="visible : aggregate() === 'histogram'">
-            <label for="histogram-interval">Interval</label>
+            <label for="histogram-interval">Tempoh</label>
             <input class="form-control" step="10" type="number" id="histogram-interval" data-bind="value:histogramInterval" />
         </div>
         <div class="form-group">
-            <label for="chart-type">Jeni</label>
+            <label for="chart-type">Jenis</label>
             <select class="form-control" name="chart-type" id="chart-type" data-bind="value:type">
                 <option value="pie">Pai</option>
                 <option value="line">Garisan</option>
@@ -45,16 +45,16 @@
             </select>
         </div>
         <div class="btn-group">
-            <a class="btn" href="#" data-bind="command:saveAs, tooltip:''" title="Creates a copy of the chart and save as">
+            <a class="btn" href="#" data-bind="command:saveAs, tooltip:''" title="Buat salinan dan simpan sebagai">
                 <i class="fa fa-copy"></i>
             </a>
-            <a class="btn" href="#" data-bind="command:save, visible: selectedChartId, tooltip:''" title="Edit and save current chart">
+            <a class="btn" href="#" data-bind="command:save, visible: selectedChartId, tooltip:''" title="Kemaskini">
                 <i class="fa fa-save"></i>
             </a>
-            <a class="btn" href="#" data-bind="command:remove, visible: selectedChartId, tooltip:''" title="Remove current chart permanently">
+            <a class="btn" href="#" data-bind="command:remove, visible: selectedChartId, tooltip:''" title="Hapus carta ini">
                 <i class="fa fa-times"></i>
             </a>
-            <a class="btn" href="#" data-bind="command:pin, visible: selectedChartId, tooltip:''" title="Pin to dashboard">
+            <a class="btn" href="#" data-bind="command:pin, visible: selectedChartId, tooltip:''" title="Lekatkan di paparan utamam">
                 <i class="fa fa-thumb-tack"></i>
             </a>
         </div>
