@@ -669,7 +669,7 @@
   "IsExportAvailable": false,
   "Operation": "save",
   "Entity": "permohonan",
-  "Partial": "partial/permohonan-penyelaras",
+  "Partial": "partial/permohonan-penyelaras-kemaskini",
   "Caption": "Permohonan Program oleh Penyelaras",
   "Layout": null,
   "CreatedBy": "admin",
