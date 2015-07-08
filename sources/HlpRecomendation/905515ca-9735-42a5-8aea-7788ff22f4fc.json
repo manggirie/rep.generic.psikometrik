@@ -1,0 +1,13 @@
+{
+  "$type": "Bespoke.epsikologi_hlprecomendation.Domain.HlpRecomendation, epsikologi.HlpRecomendation",
+  "No": "lp-sr",
+  "Tret": "LP",
+  "Text": "Sangat suka memendam perasaan kerana tiada kemahiran atau ingin menjaga perasaan orang lain.",
+  "Skor": "Skor Rendah",
+  "CreatedBy": "urusetia1",
+  "Id": "905515ca-9735-42a5-8aea-7788ff22f4fc",
+  "CreatedDate": "2015-07-08T12:38:44.1179322+08:00",
+  "ChangedBy": "urusetia1",
+  "ChangedDate": "2015-07-08T12:38:44.1159308+08:00",
+  "WebId": "96b2c07f-1cf7-4f05-dfae-d4b5d8cf0701"
+}

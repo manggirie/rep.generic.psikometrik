@@ -1,0 +1,13 @@
+{
+  "$type": "Bespoke.epsikologi_hlprecomendation.Domain.HlpRecomendation, epsikologi.HlpRecomendation",
+  "No": "tl-sst",
+  "Tret": "TL",
+  "Text": "Penyabar, bertimbang rasa, menghormati orang lain dan boleh bertoleransi terhadap kelemahan orang lain.",
+  "Skor": "Skor Sederhana Tinggi",
+  "CreatedBy": "urusetia1",
+  "Id": "3feccdc5-5553-4c21-a4d9-b2626fffff4a",
+  "CreatedDate": "2015-07-08T12:57:36.3320973+08:00",
+  "ChangedBy": "urusetia1",
+  "ChangedDate": "2015-07-08T12:57:36.3295958+08:00",
+  "WebId": "41b37ffc-6088-4fa5-9b9b-ae8828cd1ef3"
+}

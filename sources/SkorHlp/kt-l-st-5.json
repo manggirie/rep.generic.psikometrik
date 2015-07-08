@@ -1,0 +1,16 @@
+{
+  "$type": "Bespoke.epsikologi_skorhlp.Domain.SkorHlp, epsikologi.SkorHlp",
+  "No": "kt-l-st-5",
+  "Tret": "KT",
+  "NilaiMin": 0,
+  "NilaiMax": 1,
+  "Percentile": 5,
+  "Skor": "Skor Tinggi",
+  "Jantina": "Lelaki",
+  "CreatedBy": "urusetia1",
+  "Id": "kt-l-st-5",
+  "CreatedDate": "2015-07-08T13:50:11.6812622+08:00",
+  "ChangedBy": "urusetia1",
+  "ChangedDate": "2015-07-08T13:50:11.6757581+08:00",
+  "WebId": "af725a31-4429-4591-bd88-e005c08b9589"
+}

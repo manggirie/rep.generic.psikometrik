@@ -1,0 +1,13 @@
+{
+  "$type": "Bespoke.epsikologi_hlprecomendation.Domain.HlpRecomendation, epsikologi.HlpRecomendation",
+  "No": "kc-ssr",
+  "Tret": "KC",
+  "Text": "Kemurungan sederhana dengan simptom seperti kurang bersemangat",
+  "Skor": "Skor Sederhana Rendah",
+  "CreatedBy": "urusetia1",
+  "Id": "cb64147e-9652-44f1-82c7-9d28ee84f07b",
+  "CreatedDate": "2015-07-08T12:33:36.3212524+08:00",
+  "ChangedBy": "urusetia1",
+  "ChangedDate": "2015-07-08T13:05:53.1688707+08:00",
+  "WebId": "f3012711-0223-4c37-e5e7-b9c4c475bb8c"
+}

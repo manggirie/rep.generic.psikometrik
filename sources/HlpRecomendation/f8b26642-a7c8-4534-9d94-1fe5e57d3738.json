@@ -1,0 +1,13 @@
+{
+  "$type": "Bespoke.epsikologi_hlprecomendation.Domain.HlpRecomendation, epsikologi.HlpRecomendation",
+  "No": "af-sst",
+  "Tret": "AF",
+  "Text": "Bersikap asertif, berkeyakinan, berkemahiran mempengaruhi pemikiran orang lain dan sedia mempertahankan hak diri.",
+  "Skor": "Skor Sederhana Tinggi",
+  "CreatedBy": "urusetia1",
+  "Id": "f8b26642-a7c8-4534-9d94-1fe5e57d3738",
+  "CreatedDate": "2015-07-08T12:54:14.6002782+08:00",
+  "ChangedBy": "urusetia1",
+  "ChangedDate": "2015-07-08T12:54:14.5962754+08:00",
+  "WebId": "33d53b97-de89-4fe4-fa92-0c8161a2d46c"
+}
