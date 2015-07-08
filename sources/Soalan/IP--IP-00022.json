@@ -15,7 +15,7 @@
       },
       {
         "$type": "Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan",
-        "Teks": "\tb)\tmelakukan apa sahaja aktiviti yang menyeronokkan apabila tiba masanya.",
+        "Teks": "b)\tmelakukan apa sahaja aktiviti yang menyeronokkan apabila tiba masanya.",
         "Nilai": 1,
         "WebId": null
       }
@@ -29,6 +29,6 @@
   "Id": "IP--IP-00022",
   "CreatedDate": "2015-07-06T11:24:50.8631501+08:00",
   "ChangedBy": "admin",
-  "ChangedDate": "2015-07-06T11:24:50.8626495+08:00",
+  "ChangedDate": "2015-07-07T14:03:48.1627846+08:00",
   "WebId": "ccde4333-7fee-44b5-99b2-f92c5c92dd01"
 }
