@@ -10,7 +10,7 @@
       {
         "$type": "Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan",
         "Teks": "Ya",
-        "Nilai": 1,
+        "Nilai": 2,
         "WebId": null
       },
       {
@@ -21,14 +21,14 @@
       }
     ]
   },
-  "Trait": null,
+  "Trait": "AF",
   "NamaUjian": "Ujian Khas Hadiah Latihan Persekutuan(HLP)",
   "Susunan": 156.0,
-  "Kategori": null,
+  "Kategori": "Bersikap Asertif",
   "CreatedBy": "admin",
   "Id": "HLP-00156",
   "CreatedDate": "2015-07-06T11:24:50.428844+08:00",
   "ChangedBy": "admin",
-  "ChangedDate": "2015-07-06T11:24:50.4283434+08:00",
+  "ChangedDate": "2015-07-08T09:18:38.3379253+08:00",
   "WebId": "dc6d098b-ad51-4d57-b2a0-123d3c7d5298"
 }
