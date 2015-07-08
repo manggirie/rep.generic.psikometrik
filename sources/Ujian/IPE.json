@@ -1,0 +1,14 @@
+{
+  "$type": "Bespoke.epsikologi_ujian.Domain.Ujian, epsikologi.Ujian",
+  "UjianNo": "IPE",
+  "NamaUjian": "Indikator Personaliti Enneagram (IPE)",
+  "DurationHour": 0,
+  "DurationMinutes": 5,
+  "Arahan": null,
+  "CreatedBy": "admin",
+  "Id": "IPE",
+  "CreatedDate": "2015-07-08T08:55:19.2791591+08:00",
+  "ChangedBy": "admin",
+  "ChangedDate": "2015-07-08T08:55:19.2621585+08:00",
+  "WebId": "1d81e75f-cd3c-4182-b73b-2afc5e733556"
+}

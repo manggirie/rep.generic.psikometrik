@@ -1,0 +1,14 @@
+{
+  "$type": "Bespoke.epsikologi_ujian.Domain.Ujian, epsikologi.Ujian",
+  "UjianNo": "ISP",
+  "NamaUjian": "Inventori Sahsiah Pelajar (ISP)",
+  "DurationHour": 0,
+  "DurationMinutes": 5,
+  "Arahan": null,
+  "CreatedBy": "admin",
+  "Id": "ISP",
+  "CreatedDate": "2015-07-08T08:56:44.3920693+08:00",
+  "ChangedBy": "admin",
+  "ChangedDate": "2015-07-08T08:56:44.3820689+08:00",
+  "WebId": "8329b8a5-12e4-4fdc-a526-33146aa5a65f"
+}

@@ -174,48 +174,6 @@
           "InputColSm": null,
           "InputColXs": null,
           "WebId": "2d6bd12c-6842-4d29-b294-f243d1fea9d8"
-        },
-        {
-          "$type": "Bespoke.Sph.Domain.TextAreaElement, domain.sph",
-          "Rows": null,
-          "IsHtml": false,
-          "IsPathIsRequired": true,
-          "TypeName": "TextAreaElement",
-          "FieldValidation": {
-            "$type": "Bespoke.Sph.Domain.FieldValidation, domain.sph",
-            "IsRequired": false,
-            "Pattern": null,
-            "Mode": "",
-            "Message": null,
-            "Min": null,
-            "Max": null,
-            "MinLength": null,
-            "MaxLength": null,
-            "WebId": null
-          },
-          "Name": null,
-          "Label": "Arahan",
-          "Tooltip": null,
-          "Path": "Arahan",
-          "IsRequired": false,
-          "Size": "input-large",
-          "CssClass": "",
-          "Visible": "true",
-          "Enable": "true",
-          "ElementId": "sesi-ujian-arahan",
-          "HelpText": null,
-          "UseDisplayTemplate": false,
-          "ToolboxIconClass": null,
-          "IsUniqueName": false,
-          "LabelColLg": null,
-          "LabelColMd": null,
-          "LabelColSm": null,
-          "LabelColXs": null,
-          "InputColLg": null,
-          "InputColMd": null,
-          "InputColSm": null,
-          "InputColXs": null,
-          "WebId": "65330edb-6d81-49ac-b6a1-3ee80278aabd"
         }
       ]
     },
@@ -270,6 +228,6 @@
   "Id": "ujian-details",
   "CreatedDate": "2015-06-16T08:05:00.1233093+08:00",
   "ChangedBy": "admin",
-  "ChangedDate": "2015-06-26T07:51:12.3918758+08:00",
+  "ChangedDate": "2015-07-08T09:03:07.7631863+08:00",
   "WebId": "c150aa37-0799-411a-85f5-63fe8e287a65"
 }

@@ -1,0 +1,14 @@
+{
+  "$type": "Bespoke.epsikologi_ujian.Domain.Ujian, epsikologi.Ujian",
+  "UjianNo": "IP",
+  "NamaUjian": "Indeks Personaliti (IP)",
+  "DurationHour": 0,
+  "DurationMinutes": 2,
+  "Arahan": null,
+  "CreatedBy": "admin",
+  "Id": "IP",
+  "CreatedDate": "2015-06-05T10:32:22.3810067+08:00",
+  "ChangedBy": "admin",
+  "ChangedDate": "2015-07-08T08:59:00.1859028+08:00",
+  "WebId": "7992e26d-faa2-4cd6-aff3-d677adf77563"
+}

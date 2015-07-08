@@ -1,0 +1,14 @@
+{
+  "$type": "Bespoke.epsikologi_ujian.Domain.Ujian, epsikologi.Ujian",
+  "UjianNo": "HLP",
+  "NamaUjian": "Ujian Khas Hadiah Latihan Persekutuan(HLP)",
+  "DurationHour": 0,
+  "DurationMinutes": 2,
+  "Arahan": null,
+  "CreatedBy": "admin",
+  "Id": "HLP",
+  "CreatedDate": "2015-06-05T10:32:22.107007+08:00",
+  "ChangedBy": "admin",
+  "ChangedDate": "2015-07-08T08:57:36.5890806+08:00",
+  "WebId": "c032811e-8617-475c-d77d-7633f0bf8883"
+}
