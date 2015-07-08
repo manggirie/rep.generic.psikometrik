@@ -46,8 +46,6 @@
                         
                     });
 
-
-
                     return tcs.promise();
                 },
                 dateNow = function(){
@@ -56,10 +54,9 @@
                          return Task.fromResult(false);
                      }
 
-                     var tcs = new $.Deferred(),
-                         data = ko.mapping.toJSON(entity);
+                     var data = ko.mapping.toJSON(entity);
 
-                     context.post(data, "/Pengguna/DateNow" )
+                    return  context.post(data, "/Pengguna/DateNow" )
                          .then(function (result) {
                              if (result.success) {
                                  logger.info(result.message);
@@ -74,9 +71,7 @@
                                  });
                                  logger.error("There are errors in your entity, !!!");
                              }
-                             tcs.resolve(result);
                          });
-                     return tcs.promise();
                  },
                 tarikhKemaskiniNow = function(){
 
@@ -84,10 +79,9 @@
                          return Task.fromResult(false);
                      }
 
-                     var tcs = new $.Deferred(),
-                         data = ko.mapping.toJSON(entity);
+                     var data = ko.mapping.toJSON(entity);
 
-                     context.post(data, "/Pengguna/TarikhKemaskiniNow" )
+                    return  context.post(data, "/Pengguna/TarikhKemaskiniNow" )
                          .then(function (result) {
                              if (result.success) {
                                  logger.info(result.message);
@@ -102,9 +96,7 @@
                                  });
                                  logger.error("There are errors in your entity, !!!");
                              }
-                             tcs.resolve(result);
                          });
-                     return tcs.promise();
                  },
                 attached = function (view) {
                     // validation
@@ -134,32 +126,26 @@
                         return Task.fromResult(false);
                     }
 
-                    var tcs = new $.Deferred(),
-                        data = ko.mapping.toJSON(entity);
+                    var data = ko.mapping.toJSON(entity);
 
                         
 
-                    context.post(data, "/Pengguna/Save")
+                    return context.post(data, "/Pengguna/Save")
                         .then(function(result) {
-                            tcs.resolve(result);
                             entity().Id(result.id);
-                            app.showMessage("Your Pengguna has been successfully saved", "JPA Sistem Ujian e-Psikometrik", ["ok"]);
+                            app.showMessage("Your Pengguna has been successfully saved", "epsikologi", ["ok"]);
 
                         });
                     
 
-                    return tcs.promise();
                 },
                 remove = function() {
-                    var tcs = new $.Deferred();
-                    $.ajax({
+                    return $.ajax({
                         type: "DELETE",
                         url: "/Pengguna/Remove/" + entity().Id(),
                         contentType: "application/json; charset=utf-8",
                         dataType: "json",
-                        error: tcs.reject,
                         success: function() {
-                            tcs.resolve(true);
                             app.showMessage("Your item has been successfully removed", "Removed", ["OK"])
                               .done(function () {
                                   window.location = "#pengguna";
@@ -168,7 +154,6 @@
                     });
 
 
-                    return tcs.promise();
                 };
 
             var vm = {
