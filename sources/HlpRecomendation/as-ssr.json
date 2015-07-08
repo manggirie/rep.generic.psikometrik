@@ -1,0 +1,13 @@
+{
+  "$type": "Bespoke.epsikologi_hlprecomendation.Domain.HlpRecomendation, epsikologi.HlpRecomendation",
+  "No": "as-ssr",
+  "Tret": "AS",
+  "Text": "Bersikap pasif, suka menyendiri dan kurang peka terhadap persekitaran.  ",
+  "Skor": "Skor Sederhana Rendah",
+  "CreatedBy": "urusetia1",
+  "Id": "as-ssr",
+  "CreatedDate": "2015-07-08T12:46:50.9227123+08:00",
+  "ChangedBy": "urusetia1",
+  "ChangedDate": "2015-07-08T12:46:50.9197102+08:00",
+  "WebId": "59f8666f-c61c-495c-d1ce-9125713c4f4e"
+}

@@ -1,0 +1,13 @@
+{
+  "$type": "Bespoke.epsikologi_hlprecomendation.Domain.HlpRecomendation, epsikologi.HlpRecomendation",
+  "No": "kb-r",
+  "Tret": "KB",
+  "Text": "Jawapan tidak konsisten dan tafsiran laporan tidak tepat.",
+  "Skor": "Skor Rendah",
+  "CreatedBy": "urusetia",
+  "Id": "kb-r",
+  "CreatedDate": "2015-07-08T10:56:39.7249955+08:00",
+  "ChangedBy": "urusetia",
+  "ChangedDate": "2015-07-08T10:56:39.663992+08:00",
+  "WebId": "290c3c91-1769-4409-86c2-6a98c25427ba"
+}

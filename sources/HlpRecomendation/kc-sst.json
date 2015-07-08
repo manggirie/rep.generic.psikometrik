@@ -1,0 +1,13 @@
+{
+  "$type": "Bespoke.epsikologi_hlprecomendation.Domain.HlpRecomendation, epsikologi.HlpRecomendation",
+  "No": "kc-sst",
+  "Tret": "KC",
+  "Text": "Keceriaan sederhana dan berasa sedikit kecewa apabila menghadapi permasalahan yang mengganggu fikiran.",
+  "Skor": "Skor Sederhana Tinggi",
+  "CreatedBy": "urusetia1",
+  "Id": "kc-sst",
+  "CreatedDate": "2015-07-08T12:35:01.7344928+08:00",
+  "ChangedBy": "urusetia1",
+  "ChangedDate": "2015-07-08T13:06:54.7108532+08:00",
+  "WebId": "f51b8a37-bcc3-44de-93f1-1524f7dad021"
+}

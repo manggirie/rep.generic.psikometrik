@@ -1,0 +1,13 @@
+{
+  "$type": "Bespoke.epsikologi_hlprecomendation.Domain.HlpRecomendation, epsikologi.HlpRecomendation",
+  "No": "kb-st",
+  "Tret": "KB",
+  "Text": "Jawapan konsisten dan tafsiran laporan boleh diterima.",
+  "Skor": "Skor Tinggi",
+  "CreatedBy": "urusetia",
+  "Id": "kb-st",
+  "CreatedDate": "2015-07-08T11:03:19.4430563+08:00",
+  "ChangedBy": "urusetia",
+  "ChangedDate": "2015-07-08T11:03:19.4050548+08:00",
+  "WebId": "fb45cbda-c450-43d9-ce44-93c4dcfc2c6e"
+}
