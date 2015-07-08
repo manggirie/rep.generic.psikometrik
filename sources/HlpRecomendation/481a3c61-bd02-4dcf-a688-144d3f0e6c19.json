@@ -1,0 +1,13 @@
+{
+  "$type": "Bespoke.epsikologi_hlprecomendation.Domain.HlpRecomendation, epsikologi.HlpRecomendation",
+  "No": "tl-sr",
+  "Tret": "TL",
+  "Text": "Sangat suka mengkritik, mudah marah dan tiada toleransi terhadap kelemahan orang lain.",
+  "Skor": "Skor Rendah",
+  "CreatedBy": "urusetia1",
+  "Id": "481a3c61-bd02-4dcf-a688-144d3f0e6c19",
+  "CreatedDate": "2015-07-08T12:56:19.4780726+08:00",
+  "ChangedBy": "urusetia1",
+  "ChangedDate": "2015-07-08T12:56:19.475071+08:00",
+  "WebId": "319fba54-3402-447e-ecae-0dc4e979b8ef"
+}
