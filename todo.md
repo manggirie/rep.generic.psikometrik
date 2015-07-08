@@ -38,3 +38,8 @@
 *  ~~responden tidak dapat tengok senarai ujian setelah login walaupun telah ditambah oleh penyelaras~~
 * ~~Back button pressed, jangan kira percubaan sesi~~
 * ~~Arahan, dipaparkan di responden home bila dia nak start sesi ujian~~
+
+##Error 070715 (Fauzi)
+1. Bila selesai edit (save) soalan Ujian Khas Hadiah Latihan Persekutuan, bilangan soalan akan berkurangan samada dlm view ataupun dlm db
+
+2. Apabila reponden nak ambil ujian - Tempoh Ujian : undefined jam undefined minit

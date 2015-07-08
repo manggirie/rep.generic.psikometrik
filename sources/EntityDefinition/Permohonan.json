@@ -587,9 +587,9 @@
           ]
         },
         "Name": "PermohonanDariPenyelaras",
-        "SuccessMessage": "Permohonan sudah berjaya dihantar",
-        "ShowSuccessMessage": true,
-        "NavigateSuccessUrl": "#penyelaras-home",
+        "SuccessMessage": "",
+        "ShowSuccessMessage": false,
+        "NavigateSuccessUrl": "",
         "SuccessCommand": "",
         "WebId": "bbf6a1ee-6bd9-4414-9d17-c6edf9959661"
       },
