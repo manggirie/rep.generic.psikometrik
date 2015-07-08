@@ -59,7 +59,6 @@ namespace web.sph.App_Code
       [JsonIgnore]
       public Bespoke.epsikologi_sesiujian.Domain.SesiUjian Sesi { get{ return m_sesi;} }
 
-      public int KB { get{ return m_sesi.JawapanCollection.Where(a => a.Trait == "KB").Sum(a => a.Nilai); } }
 
 
       public HlpResult FR { get { return ComputeResult("FR"); } }
@@ -72,26 +71,13 @@ namespace web.sph.App_Code
       //public HlpResult AF { get { return ComputeResult("AF"); } }
       public HlpResult AS { get { return ComputeResult("AS"); } }
 
-      public string KBScore
+
+
+      public HlpResult KB
       {
         get
         {
-          var score = m_scoreTables.Single(x => x.Tret == "KB" && KB >= x.NilaiMin && KB <= x.NilaiMax);
-          return score.Skor;
-        }
-      }
-
-      public string KBRecommendation
-      {
-        get
-        {
-            var rec = m_recommendations.Where(x => x.Tret == "KB" && x.Skor == KBScore)
-                    .Select(x => x.Text)
-                    .SingleOrDefault();
-            if(null == rec)
-              throw new Exception("Cannot find recomendation for KB with score " + KBScore);
-
-            return rec;
+          return ComputeResultNoJantina("KB");
 
         }
       }
