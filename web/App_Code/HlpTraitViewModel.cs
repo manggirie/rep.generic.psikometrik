@@ -60,14 +60,17 @@ namespace web.sph.App_Code
       public Bespoke.epsikologi_sesiujian.Domain.SesiUjian Sesi { get{ return m_sesi;} }
 
       public int KB { get{ return m_sesi.JawapanCollection.Where(a => a.Trait == "KB").Sum(a => a.Nilai); } }
-      public int KT { get{ return m_sesi.JawapanCollection.Where(a => a.Trait == "KT").Sum(a => a.Nilai); } }
-      public int KC { get{ return m_sesi.JawapanCollection.Where(a => a.Trait == "KC").Sum(a => a.Nilai); } }
-      public int LP { get{ return m_sesi.JawapanCollection.Where(a => a.Trait == "LP").Sum(a => a.Nilai); } }
-      public int AS { get{ return m_sesi.JawapanCollection.Where(a => a.Trait == "AS").Sum(a => a.Nilai); } }
-      public int AF { get{ return m_sesi.JawapanCollection.Where(a => a.Trait == "AF").Sum(a => a.Nilai); } }
-      public int TL { get{ return m_sesi.JawapanCollection.Where(a => a.Trait == "TL").Sum(a => a.Nilai); } }
-      public int SM { get{ return m_sesi.JawapanCollection.Where(a => a.Trait == "SM").Sum(a => a.Nilai); } }
-      public int DT { get{ return m_sesi.JawapanCollection.Where(a => a.Trait == "DT").Sum(a => a.Nilai); } }
+
+
+      public HlpResult FR { get { return ComputeResult("FR"); } }
+      public HlpResult KT { get { return ComputeResult("KT"); } }
+      public HlpResult KC { get { return ComputeResult("KC"); } }
+      public HlpResult LP { get { return ComputeResult("LP"); } }
+      public HlpResult DT { get { return ComputeResult("DT"); } }
+      //public HlpResult SM { get { return ComputeResult("SM"); } }
+      public HlpResult TL { get { return ComputeResult("TL"); } }
+      //public HlpResult AF { get { return ComputeResult("AF"); } }
+      public HlpResult AS { get { return ComputeResult("AS"); } }
 
       public string KBScore
       {
@@ -93,11 +96,9 @@ namespace web.sph.App_Code
         }
       }
 
-      public HlpResult FR
+
+      private HlpResult ComputeResult(string TRET)
       {
-        get
-        {
-          const string TRET = "FR";
           var point = m_sesi.JawapanCollection.Where(a => a.Trait == TRET).Sum(a => a.Nilai);
           var percent =  m_scoreTables
                           .Where(x => x.Jantina == m_pengguna.Jantina)
@@ -118,8 +119,31 @@ namespace web.sph.App_Code
                   .Select(x => x.Text)
                   .SingleOrDefault();
           return result;
-        }
       }
+
+
+      private HlpResult ComputeResultNoJantina(string TRET)
+      {
+          var point = m_sesi.JawapanCollection.Where(a => a.Trait == TRET).Sum(a => a.Nilai);
+          var percent =  m_scoreTables
+                          .Single(x => x.Tret == TRET && point >= x.NilaiMin && point <= x.NilaiMax)
+                          .Percentile;
+          var score = m_scoreTables.Where(x => x.Tret == TRET)
+                        .Where(x => point >= x.NilaiMin && point <= x.NilaiMax)
+                        .Select(x => x.Skor).Single();
+          var result = new HlpResult
+                    {
+                        Tret = TRET,
+                        Skor = score ,
+                        Percentile = percent,
+                        Point = point
+                    };
+          result.Recommendation = m_recommendations.Where(x => x.Tret == TRET && x.Skor == result.Skor)
+                  .Select(x => x.Text)
+                  .SingleOrDefault();
+          return result;
+      }
+
 
     }
 }
