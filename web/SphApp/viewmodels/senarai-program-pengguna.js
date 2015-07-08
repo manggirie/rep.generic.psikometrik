@@ -135,7 +135,7 @@ define(["services/datacontext", "services/logger", "plugins/router", "services/c
                     });
             },
             attached = function (view) {
-                chart.init("PendaftaranProgram", query, chartSeriesClick, "dd749862-830d-41a9-824a-ca60e4cbe06d");
+                chart.init("PendaftaranProgram", query, chartSeriesClick, "senarai-program-pengguna");
                     
                     if(typeof partial !== "undefined" && typeof partial.attached === "function"){
                         partial.attached(view);

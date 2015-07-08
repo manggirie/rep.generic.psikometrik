@@ -31,7 +31,12 @@ define(["services/datacontext", "services/logger", "plugins/router", "services/c
                             "filter": {
                "bool": {
                   "must": [
-                    
+                                     {
+                     "term":{
+                         "NamaUjian":"Ujian Khas Hadiah Latihan Persekutuan(HLP)"
+                     }
+                 }
+
                   ],
                   "must_not": [
                     
@@ -40,12 +45,13 @@ define(["services/datacontext", "services/logger", "plugins/router", "services/c
            }
                         }
                     },
-                    "sort" : []
+                    "sort" : [{"NoRujukan":{"order":"asc"}},
+{"SoalanNo":{"order":"asc"}}]
                 });
-                var edQuery = String.format("Name eq '{0}'", 'SesiUjian'),
+                var edQuery = String.format("Name eq '{0}'", 'Soalan'),
                   tcs = new $.Deferred(),
-                  formsQuery = String.format("EntityDefinitionId eq 'sesiujian' and IsPublished eq 1 and IsAllowedNewItem eq 1"),
-                  viewQuery = String.format("EntityDefinitionId eq 'sesiujian'"),
+                  formsQuery = String.format("EntityDefinitionId eq 'soalan' and IsPublished eq 1 and IsAllowedNewItem eq 1"),
+                  viewQuery = String.format("EntityDefinitionId eq 'soalan'"),
                   edTask = context.loadOneAsync("EntityDefinition", edQuery),
                   formsTask = context.loadAsync("EntityForm", formsQuery),
                   viewTask = context.loadOneAsync("EntityView", viewQuery);
@@ -118,7 +124,7 @@ define(["services/datacontext", "services/logger", "plugins/router", "services/c
 
 
 
-                context.searchAsync("SesiUjian", q)
+                context.searchAsync("Soalan", q)
                     .done(function (lo) {
                         list(lo.itemCollection);
                         chartFiltered(true);
@@ -126,7 +132,7 @@ define(["services/datacontext", "services/logger", "plugins/router", "services/c
                     });
             },
             attached = function (view) {
-                chart.init("SesiUjian", query, chartSeriesClick, "sesiujians-all");
+                chart.init("Soalan", query, chartSeriesClick, "ujian-khas-hadiah-latihan-persekutuan");
             },
             clearChartFilter = function(){
                 chartFiltered(false);
