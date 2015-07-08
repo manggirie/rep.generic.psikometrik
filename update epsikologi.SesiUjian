@@ -1,3 +1,0 @@
-update epsikologi.SesiUjian
-set TarikhMulaProgram ='5/13/2015 2:00:00 PM' 
-where Id = '074ac63a-7c92-4f64-96b8-ffba85014b18'
