@@ -10,7 +10,7 @@
       {
         "$type": "Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan",
         "Teks": "Ya",
-        "Nilai": 1,
+        "Nilai": 2,
         "WebId": null
       },
       {
@@ -21,14 +21,14 @@
       }
     ]
   },
-  "Trait": null,
+  "Trait": "FR",
   "NamaUjian": "Ujian Khas Hadiah Latihan Persekutuan(HLP)",
   "Susunan": 22.0,
-  "Kategori": null,
+  "Kategori": "Berfikiran Rasional",
   "CreatedBy": "admin",
   "Id": "HLP-00022",
   "CreatedDate": "2015-07-06T11:24:49.4386448+08:00",
   "ChangedBy": "admin",
-  "ChangedDate": "2015-07-06T11:24:49.4381442+08:00",
+  "ChangedDate": "2015-07-07T16:38:08.2782077+08:00",
   "WebId": "9695e197-67b1-4af3-b51e-008f131dc9cc"
 }

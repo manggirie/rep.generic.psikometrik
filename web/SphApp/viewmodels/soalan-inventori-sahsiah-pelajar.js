@@ -9,7 +9,7 @@
 /// <reference path="../../Scripts/bootstrap.js" />
 
 
-define(["services/datacontext", "services/logger", "plugins/router", "services/chart", objectbuilders.config , "partial/viewpermohonanpenyelaras"],
+define(["services/datacontext", "services/logger", "plugins/router", "services/chart", objectbuilders.config , "partial/soalan-inventori-sahsiah-pelajar"],
     function (context, logger, router, chart,config , partial) {
 
         var isBusy = ko.observable(false),
@@ -33,7 +33,7 @@ define(["services/datacontext", "services/logger", "plugins/router", "services/c
                   "must": [
                                      {
                      "term":{
-                         "StatusPermohonan":"BARU"
+                         "NamaUjian":"Inventori Sahsiah Pelajar (ISP)"
                      }
                  }
 
@@ -45,12 +45,14 @@ define(["services/datacontext", "services/logger", "plugins/router", "services/c
            }
                         }
                     },
-                    "sort" : []
+                    "sort" : [{"SeksyenSoalan":{"order":"asc"}},
+{"Trait":{"order":"asc"}},
+{"Susunan":{"order":"asc"}}]
                 });
-                var edQuery = String.format("Name eq '{0}'", 'Permohonan'),
+                var edQuery = String.format("Name eq '{0}'", 'Soalan'),
                   tcs = new $.Deferred(),
-                  formsQuery = String.format("EntityDefinitionId eq 'permohonan' and IsPublished eq 1 and IsAllowedNewItem eq 1"),
-                  viewQuery = String.format("EntityDefinitionId eq 'permohonan'"),
+                  formsQuery = String.format("EntityDefinitionId eq 'soalan' and IsPublished eq 1 and IsAllowedNewItem eq 1"),
+                  viewQuery = String.format("EntityDefinitionId eq 'soalan'"),
                   edTask = context.loadOneAsync("EntityDefinition", edQuery),
                   formsTask = context.loadAsync("EntityForm", formsQuery),
                   viewTask = context.loadOneAsync("EntityView", viewQuery);
@@ -132,7 +134,7 @@ define(["services/datacontext", "services/logger", "plugins/router", "services/c
 
 
 
-                context.searchAsync("Permohonan", q)
+                context.searchAsync("Soalan", q)
                     .done(function (lo) {
                         list(lo.itemCollection);
                         chartFiltered(true);
@@ -140,7 +142,7 @@ define(["services/datacontext", "services/logger", "plugins/router", "services/c
                     });
             },
             attached = function (view) {
-                chart.init("Permohonan", query, chartSeriesClick, "permohonan-penyelaras");
+                chart.init("Soalan", query, chartSeriesClick, "soalan-inventori-sahsiah-pelajar");
                     
                     if(typeof partial !== "undefined" && typeof partial.attached === "function"){
                         partial.attached(view);

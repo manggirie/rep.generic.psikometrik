@@ -10,25 +10,25 @@
       {
         "$type": "Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan",
         "Teks": "Ya",
-        "Nilai": 1,
+        "Nilai": 0,
         "WebId": null
       },
       {
         "$type": "Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan",
         "Teks": "Tidak",
-        "Nilai": 0,
+        "Nilai": 1,
         "WebId": null
       }
     ]
   },
-  "Trait": null,
+  "Trait": "KB",
   "NamaUjian": "Ujian Khas Hadiah Latihan Persekutuan(HLP)",
   "Susunan": 31.0,
-  "Kategori": null,
+  "Kategori": "Kebolehpercayaan",
   "CreatedBy": "admin",
   "Id": "HLP-00031",
   "CreatedDate": "2015-07-06T11:24:49.5106952+08:00",
   "ChangedBy": "admin",
-  "ChangedDate": "2015-07-06T11:24:49.5096945+08:00",
+  "ChangedDate": "2015-07-07T16:54:14.307134+08:00",
   "WebId": "506a3542-883d-49d0-9678-23a1dd3787c8"
 }
