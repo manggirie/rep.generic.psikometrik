@@ -1,0 +1,13 @@
+{
+  "$type": "Bespoke.epsikologi_hlprecomendation.Domain.HlpRecomendation, epsikologi.HlpRecomendation",
+  "No": "fr-st",
+  "Tret": "FR",
+  "Text": "Bersikap dan berfikiran sangat rasional apabila membuat keputusan walaupun mengalami tekanan perasaan.",
+  "Skor": "Skor Tinggi",
+  "CreatedBy": "urusetia",
+  "Id": "c86d3446-e534-4bc5-9eca-a3c65099099c",
+  "CreatedDate": "2015-07-08T11:04:57.6657228+08:00",
+  "ChangedBy": "urusetia",
+  "ChangedDate": "2015-07-08T11:04:57.6617232+08:00",
+  "WebId": "87e993fb-a205-4cfa-bfb7-e63f2f09a893"
+}

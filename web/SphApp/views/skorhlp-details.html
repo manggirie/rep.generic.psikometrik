@@ -1,0 +1,124 @@
+
+
+<h1 data-i18n="SkorHlp details">SkorHlp details</h1>
+<div id="error-list" class="row" data-bind="visible:errors().length">
+    <!-- ko foreach : errors -->
+    <div class="col-sm-8 col-sm-offset-2 alert alert-dismissable alert-danger">
+        <button type="button" class="close" data-dismiss="alert" aria-hidden="true">&times;</button>
+        <i class="fa fa-exclamation"></i>
+        <span data-bind="text:Message"></span>
+
+    </div>
+    <div class="col-sm-2"></div>
+    <!-- /ko-->
+</div>
+<div class="row">
+    <div class="col-sm-8">
+        
+<form class="form-horizontal" data-bind="with : entity" id="skorhlp-details-form">
+
+
+
+    <div data-bind="visible:true" class="form-group">
+        <label data-i18n="No" for="24d0110d-83ee-4b3e-d493-139ed6943cd2" class="col-md-4">No</label>
+        <div class="col-md-8">
+            <input  class=" form-control input-large" title=""
+                   data-bind="value: No, enable :true "
+                   
+                   
+                   
+                   id="24d0110d-83ee-4b3e-d493-139ed6943cd2" type="text" name="No" />
+        </div>
+    </div>
+
+
+    <div class="form-group" data-bind="visible:true">
+        <label data-i18n="Tret" for="ae233b54-2a8a-48eb-a9ae-31174c2580e6" class="col-md-4">Tret</label>
+        <div class="col-md-8">
+            <select  data-bind="value: Tret, enable :true" id="ae233b54-2a8a-48eb-a9ae-31174c2580e6" name="Tret" class=" input-large form-control">
+                    <option value="KB" data-i18n="KB">KB</option>
+                    <option value="FR" data-i18n="FR">FR</option>
+                    <option value="KT" data-i18n="KT">KT</option>
+                    <option value="KC" data-i18n="KC">KC</option>
+                    <option value="LP" data-i18n="LP">LP</option>
+                    <option value="SM" data-i18n="SM">SM</option>
+                    <option value="AS" data-i18n="AS">AS</option>
+                    <option value="AF" data-i18n="AF">AF</option>
+                    <option value="TL" data-i18n="TL">TL</option>
+                    <option value="DT" data-i18n="DT">DT</option>
+            </select>
+        </div>
+    </div>
+
+
+    <div class="form-group" data-bind="visible:true">
+        <label data-i18n="Jantina" for="3d1f9430-6d95-4db6-cd1d-72fb764cb6b3" class="col-md-4">Jantina</label>
+        <div class="col-md-8">
+            <select  data-bind="value: Jantina, enable :true" id="3d1f9430-6d95-4db6-cd1d-72fb764cb6b3" name="Jantina" class=" input-large form-control">
+                    <option value="NA" data-i18n="Not Applicable">Not Applicable</option>
+                    <option value="Lelaki" data-i18n="Lelaki">Lelaki</option>
+                    <option value="Perempuan" data-i18n="Perempuan">Perempuan</option>
+            </select>
+        </div>
+    </div>
+
+
+
+    <div data-bind="visible:true" class="form-group">
+        <label data-i18n="Nilai Min" for="499226da-054f-419f-8772-753c27203a28" class="col-md-4">Nilai Min</label>
+        <div class="col-md-8">
+            <input  class=" form-control input-large" title=""
+                   data-bind="value: NilaiMin, enable :true "
+                   
+                   
+                   
+                   id="499226da-054f-419f-8772-753c27203a28" type="text" name="NilaiMin" />
+        </div>
+    </div>
+
+
+
+    <div data-bind="visible:true" class="form-group">
+        <label data-i18n="Nilai Max" for="95f71239-57c1-461e-d2fe-fa23312cb56e" class="col-md-4">Nilai Max</label>
+        <div class="col-md-8">
+            <input  class=" form-control input-large" title=""
+                   data-bind="value: NilaiMax, enable :true "
+                   
+                   
+                   
+                   id="95f71239-57c1-461e-d2fe-fa23312cb56e" type="text" name="NilaiMax" />
+        </div>
+    </div>
+
+
+
+    <div data-bind="visible:true" class="form-group">
+        <label data-i18n="Percentile" for="f5928e0b-6fc9-44c0-f3b5-f85d1a0fc9ad" class="col-md-4">Percentile</label>
+        <div class="col-md-8">
+            <input  class=" form-control input-large" title=""
+                   data-bind="value: Percentile, enable :true "
+                   
+                   
+                   
+                   id="f5928e0b-6fc9-44c0-f3b5-f85d1a0fc9ad" type="text" name="Percentile" />
+        </div>
+    </div>
+
+
+    <div class="form-group" data-bind="visible:true">
+        <label data-i18n="Skor" for="4e5b331f-4a86-46c4-c344-afd0f1ef19ab" class="col-md-4">Skor</label>
+        <div class="col-md-8">
+            <select  data-bind="value: Skor, enable :true" id="4e5b331f-4a86-46c4-c344-afd0f1ef19ab" name="Skor" class=" input-large form-control">
+                    <option value="Skor Rendah" data-i18n="Skor Rendah">Skor Rendah</option>
+                    <option value="Skor Sederhana Rendah" data-i18n="Skor Sederhana Rendah">Skor Sederhana Rendah</option>
+                    <option value="Skor Sederhana Tinggi" data-i18n="Skor Sederhana Tinggi">Skor Sederhana Tinggi</option>
+                    <option value="Skor Tinggi" data-i18n="Skor Tinggi">Skor Tinggi</option>
+            </select>
+        </div>
+    </div>
+</form>
+    </div>
+    <div class="col-sm-4">
+        
+    </div>
+</div>
