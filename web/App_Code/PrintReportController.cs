@@ -34,12 +34,19 @@ namespace web.sph.App_Code
         var query = context.CreateQueryable<Bespoke.epsikologi_skorhlp.Domain.SkorHlp>();
         var lo = await context.LoadAsync(query, size:1000);
         var scoreTables = lo.ItemCollection;
+
+
+        var rq = context.CreateQueryable<Bespoke.epsikologi_hlprecomendation.Domain.HlpRecomendation>();
+        var rlo = await context.LoadAsync(rq, size:200);
+        var recommendations = rlo.ItemCollection;
+
+
     		if(null == sesi)
     			return HttpNotFound("Cannot find SesiUjian " + id);
       	if(null == sesi)
       		return HttpNotFound("Cannot find user with MyKad " + sesi.MyKad);
 
-        var vm = new HlpTraitViewModel(sesi, user, scoreTables.ToArray());
+        var vm = new HlpTraitViewModel(sesi, user, scoreTables.ToArray(), recommendations.ToArray());
     		return View("Trait-Hlp", vm);
     	}
 
