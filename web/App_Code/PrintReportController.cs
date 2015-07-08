@@ -29,11 +29,13 @@ namespace web.sph.App_Code
     	{
     		var context = new SphDataContext();
     		var sesi = await context.LoadOneAsync<Bespoke.epsikologi_sesiujian.Domain.SesiUjian>(x => x.Id == id);
-
+        var user = await context.LoadOneAsync<Bespoke.epsikologi_pengguna.Domain.Pengguna>(x => x.MyKad == sesi.MyKad);
     		if(null == sesi)
     			return HttpNotFound("Cannot find SesiUjian " + id);
+      	if(null == sesi)
+      		return HttpNotFound("Cannot find user with MyKad " + sesi.MyKad);
 
-            var vm = new IpTraitViewModel(sesi);
+        var vm = new IpTraitViewModel(sesi, user);
     		return View("Trait-Ip-" + vm.Result, vm);
     	}
 

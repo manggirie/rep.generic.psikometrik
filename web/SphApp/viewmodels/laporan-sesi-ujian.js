@@ -57,24 +57,6 @@ define(["services/datacontext", "services/logger", "plugins/router", objectbuild
 
     },
     attached = function(view) {
-      $(view).on("click", "a.trait-report", function(e) {
-        var url = this.href;
-        e.preventDefault();
-        require(['viewmodels/peringatan-trait-report-dialog' , 'durandal/app'], function (dialog, app2) {
-           dialog.item(ko.unwrap(namaUjian));
-            app2.showDialog(dialog)
-                .done(function (result) {
-                    if (result === "OK") {
-                        window.open(url);
-                    }
-            });
-        });
-      });
-
-      $(view).on("click", "a.indikator-report", function(e) {
-        e.preventDefaul();
-        //namaUjian
-      });
     },
     generateLaporan = function() {
       var json = ko.toJSON({

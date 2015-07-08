@@ -25,7 +25,7 @@
 * Mohon permohonan cadangan tarik mestilah in the future
 * ~~Kalau permohonan sudah lulus - penyelaras tak boleh edit, kecuali Bilangan responden~~
 * ~~Bila tambah responden the list should be updated immediately~~
-* Pemilihan responden maksimun berdasarakan Bilangan dalam permohonan, yang mana penyelaras boleh ejas
+* ~~Pemilihan responden maksimun berdasarakan Bilangan dalam permohonan, yang mana penyelaras boleh ejas~~
 * ~~penyelaras boleh hantar email reminder kepada responden, melalui button email~~
 
 
@@ -38,3 +38,8 @@
 *  ~~responden tidak dapat tengok senarai ujian setelah login walaupun telah ditambah oleh penyelaras~~
 * ~~Back button pressed, jangan kira percubaan sesi~~
 * ~~Arahan, dipaparkan di responden home bila dia nak start sesi ujian~~
+
+##Error 070715 (Fauzi)
+1. Bila selesai edit (save) soalan Ujian Khas Hadiah Latihan Persekutuan, bilangan soalan akan berkurangan samada dlm view ataupun dlm db
+
+2. Apabila reponden nak ambil ujian - Tempoh Ujian : undefined jam undefined minit

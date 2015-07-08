@@ -9,7 +9,7 @@
             <thead>
                 <tr>
                     <th>Bil.</th>
-                    <th>Tarikh Mohon</th>
+                    <th>Jenis</th>
                     <th>Tarikh Mula</th>
                     <th>TarikhTamat</th>
                     <th>Tujuan Program</th>
@@ -24,9 +24,9 @@
 
                     <td data-bind="text:$index()+1"></td>
                     <td>
-                        <a data-bind="attr : {href:'#permohonan-urusetia' + '/' + Id, title:'Tarikh Mohon' }">
+                        <a data-bind="attr : {href:'#permohonan-urusetia' + '/' + Id, title:'Jenis' }">
                             <i class="fa fa-edit"></i>
-                                                        <span data-bind="date:CreatedDate"></span>
+                                                        <span data-bind="text:JenisPermohonan"></span>
                         </a>
                     </td>
                     <td data-bind="date:TarikhMula"></td>
@@ -35,7 +35,7 @@
                     <td data-bind="text:NamaJabatan"></td>
                     <td data-bind="text:BilRespondan"></td>
                     <td data-bind="text:NamaKementerian"></td>
-                    <td data-bind="text:namaPenyelaras"></td>
+                    <td data-bind="text:Penyelaras"></td>
 
 
                 </tr>

@@ -4,6 +4,7 @@ define(["plugins/dialog", "services/datacontext", "services/config"],
             var item = ko.observable(),
                 searchText = ko.observable(),
                 results = ko.observableArray(),
+                maxCount = ko.observable(),
                 selectedRespondens = ko.observableArray(),
                 searchAsync = function(){
                     
@@ -86,6 +87,10 @@ define(["plugins/dialog", "services/datacontext", "services/config"],
 
             var vm = {
                 selectedRespondens : selectedRespondens,
+                maxCount : maxCount,
+                canExecuteSave : ko.computed(function(){
+                    return selectedRespondens().length > 0 && selectedRespondens().length <= maxCount();
+                }),
                 searchText : searchText,
                 searchAsync : searchAsync,
                 results : results,
