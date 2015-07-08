@@ -96,6 +96,23 @@
           "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.Sph.Domain.ConditionalFormatting, domain.sph]], domain.sph",
           "$values": []
         },
+        "Path": "Kategori",
+        "Header": "Kategori",
+        "Sort": "",
+        "IsLinkColumn": false,
+        "FormRoute": null,
+        "IconCssClass": "",
+        "IconStoreId": "",
+        "Format": "text:{0}",
+        "RouteValueField": "",
+        "WebId": "61bea305-e626-49a8-e027-9997ab2cc1c9"
+      },
+      {
+        "$type": "Bespoke.Sph.Domain.ViewColumn, domain.sph",
+        "ConditionalFormattingCollection": {
+          "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.Sph.Domain.ConditionalFormatting, domain.sph]], domain.sph",
+          "$values": []
+        },
         "Path": "Trait",
         "Header": "Trait",
         "Sort": "",
@@ -158,6 +175,6 @@
   "Id": "ujian-khas-hadiah-latihan-persekutuan",
   "CreatedDate": "2015-06-22T11:34:46.1385518+08:00",
   "ChangedBy": "admin",
-  "ChangedDate": "2015-07-07T15:45:16.4156201+08:00",
+  "ChangedDate": "2015-07-08T07:38:17.9675479+08:00",
   "WebId": "38e6ae7a-002d-4780-d67c-faea94d5b459"
 }
