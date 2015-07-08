@@ -2,15 +2,15 @@
   "$type": "Bespoke.epsikologi_skorhlp.Domain.SkorHlp, epsikologi.SkorHlp",
   "No": "as-l-sst-45",
   "Tret": "AS",
-  "NilaiMin": 27,
-  "NilaiMax": 27,
+  "NilaiMin": 25,
+  "NilaiMax": 25,
   "Percentile": 45,
   "Skor": "Skor Sederhana Tinggi",
   "Jantina": "Lelaki",
   "CreatedBy": "urusetia1",
   "Id": "as-l-sst-45",
-  "CreatedDate": "2015-07-08T14:31:47.3151114+08:00",
+  "CreatedDate": "2015-07-08T16:04:41.6676428+08:00",
   "ChangedBy": "urusetia1",
-  "ChangedDate": "2015-07-08T14:31:47.3101084+08:00",
-  "WebId": "82aed59f-c3ef-4017-ddd1-5aaacfd3ea85"
+  "ChangedDate": "2015-07-08T16:04:41.673647+08:00",
+  "WebId": "653e2f4d-5262-4aed-a445-cbdf1ad8f38b"
 }
