@@ -1,0 +1,13 @@
+{
+  "$type": "Bespoke.epsikologi_hlprecomendation.Domain.HlpRecomendation, epsikologi.HlpRecomendation",
+  "No": "fr-sr",
+  "Tret": "FR",
+  "Text": "Sangat sukar berfikir secara rasional atau membuat tindakan yang tepat apabila mengalami konflik yang mengganggu fikiran atau perasaan.",
+  "Skor": "Skor Rendah",
+  "CreatedBy": "urusetia",
+  "Id": "ac225c7e-e9a4-4d3d-94b5-8fda145a2f80",
+  "CreatedDate": "2015-07-08T11:03:43.3964383+08:00",
+  "ChangedBy": "urusetia",
+  "ChangedDate": "2015-07-08T11:03:43.3944382+08:00",
+  "WebId": "7ab6772d-1e63-4fb0-c03f-f056753b0dd7"
+}

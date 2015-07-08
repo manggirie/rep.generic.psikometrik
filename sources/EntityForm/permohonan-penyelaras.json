@@ -108,7 +108,7 @@
           "CssClass": null,
           "Visible": "true",
           "Enable": "StatusPermohonan() === 'BARU'",
-          "ElementId": "511f5eee-a9d6-4711-954d-212e56fde014",
+          "ElementId": "tarikhMulaPicker",
           "HelpText": "Tarikh mula untuk duduki sesi ujian",
           "UseDisplayTemplate": false,
           "ToolboxIconClass": null,
@@ -148,7 +148,7 @@
           "CssClass": null,
           "Visible": "true",
           "Enable": "StatusPermohonan() === 'BARU'",
-          "ElementId": "965ef84d-543a-462a-e301-22390a9b8726",
+          "ElementId": "tarikhTamatPicker",
           "HelpText": "Tarikh akhir untuk duduki sesi ujian",
           "UseDisplayTemplate": false,
           "ToolboxIconClass": null,
@@ -676,6 +676,6 @@
   "Id": "permohonan-penyelaras",
   "CreatedDate": "2015-06-05T10:45:40.0425071+08:00",
   "ChangedBy": "admin",
-  "ChangedDate": "2015-07-07T06:12:25.3532335+08:00",
+  "ChangedDate": "2015-07-08T06:10:10.6207244+08:00",
   "WebId": "d56af63c-c52e-401b-83b5-bfecea2c53d1"
 }

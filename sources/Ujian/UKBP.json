@@ -1,0 +1,14 @@
+{
+  "$type": "Bespoke.epsikologi_ujian.Domain.Ujian, epsikologi.Ujian",
+  "UjianNo": "UKBP",
+  "NamaUjian": "Ujian Khas Biasiswa Persekutuan(UKBP)",
+  "DurationHour": 1,
+  "DurationMinutes": 0,
+  "Arahan": null,
+  "CreatedBy": "admin",
+  "Id": "UKBP",
+  "CreatedDate": "2015-06-05T10:32:22.1729948+08:00",
+  "ChangedBy": "admin",
+  "ChangedDate": "2015-07-08T08:56:21.7197611+08:00",
+  "WebId": "03ac5f1c-50dc-4802-c914-73b27c9dd619"
+}

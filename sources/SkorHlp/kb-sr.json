@@ -1,0 +1,16 @@
+{
+  "$type": "Bespoke.epsikologi_skorhlp.Domain.SkorHlp, epsikologi.SkorHlp",
+  "No": "kb-sr",
+  "Tret": "KB",
+  "NilaiMin": 12,
+  "NilaiMax": 15,
+  "Percentile": null,
+  "Skor": "Skor Rendah",
+  "Jantina": null,
+  "CreatedBy": "urusetia",
+  "Id": "kb-sr",
+  "CreatedDate": "2015-07-08T10:19:08.1392816+08:00",
+  "ChangedBy": "urusetia",
+  "ChangedDate": "2015-07-08T11:17:03.3475887+08:00",
+  "WebId": "b023bee8-2edc-45bd-bbf3-6b820ffa9bf7"
+}

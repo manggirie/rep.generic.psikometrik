@@ -1,7 +1,7 @@
 {
   "$type": "Bespoke.Sph.Domain.BinaryStore, domain.sph",
-  "Extension": ".xml",
-  "FileName": "wd.pendaftaran-program-sessi-ujian.0.xml",
+  "Extension": ".json",
+  "FileName": "wd.pendaftaran-program-sessi-ujian.0.json",
   "CreatedBy": null,
   "Id": "wd.pendaftaran-program-sessi-ujian.0",
   "CreatedDate": "0001-01-01T00:00:00",

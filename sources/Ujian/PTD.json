@@ -1,0 +1,14 @@
+{
+  "$type": "Bespoke.epsikologi_ujian.Domain.Ujian, epsikologi.Ujian",
+  "UjianNo": "PTD",
+  "NamaUjian": "Profil Personaliti & Kerjaya Pegawai(PTD)",
+  "DurationHour": 0,
+  "DurationMinutes": 5,
+  "Arahan": null,
+  "CreatedBy": "admin",
+  "Id": "PTD",
+  "CreatedDate": "2015-07-08T08:57:04.8212473+08:00",
+  "ChangedBy": "admin",
+  "ChangedDate": "2015-07-08T08:57:04.7902456+08:00",
+  "WebId": "0b3f3cf3-c551-4edd-9cc3-182c20dba8a1"
+}
