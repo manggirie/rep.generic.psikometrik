@@ -1,0 +1,11 @@
+{
+  "$type": "Bespoke.epsikologi_programlookup.Domain.ProgramLookup, epsikologi.ProgramLookup",
+  "ProgramNo": "057",
+  "NamaProgram": "KURSUS KEPIMPINAN DAN PENGURUSAN UTAMA (ALMP) ",
+  "CreatedBy": "admin",
+  "Id": "kursus-kepimpinan-dan-pengurusan-utama-almp-",
+  "CreatedDate": "2015-06-04T12:15:48.7283487+08:00",
+  "ChangedBy": "admin",
+  "ChangedDate": "2015-06-04T12:15:48.7273487+08:00",
+  "WebId": "d4be6fb7-9608-4821-af7e-1772c585a89a"
+}

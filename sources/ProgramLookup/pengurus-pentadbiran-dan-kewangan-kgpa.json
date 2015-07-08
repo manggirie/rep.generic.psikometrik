@@ -1,0 +1,11 @@
+{
+  "$type": "Bespoke.epsikologi_programlookup.Domain.ProgramLookup, epsikologi.ProgramLookup",
+  "ProgramNo": "038",
+  "NamaProgram": "PENGURUS PENTADBIRAN DAN KEWANGAN KGPA",
+  "CreatedBy": "admin",
+  "Id": "pengurus-pentadbiran-dan-kewangan-kgpa",
+  "CreatedDate": "2015-06-04T12:15:47.4934937+08:00",
+  "ChangedBy": "admin",
+  "ChangedDate": "2015-06-04T12:15:47.4934937+08:00",
+  "WebId": "5b0082d0-6b12-4bca-91cb-ac5c6628d886"
+}

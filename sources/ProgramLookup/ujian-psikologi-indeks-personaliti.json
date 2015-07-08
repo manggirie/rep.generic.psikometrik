@@ -1,0 +1,11 @@
+{
+  "$type": "Bespoke.epsikologi_programlookup.Domain.ProgramLookup, epsikologi.ProgramLookup",
+  "ProgramNo": "063",
+  "NamaProgram": "UJIAN PSIKOLOGI INDEKS PERSONALITI",
+  "CreatedBy": "admin",
+  "Id": "ujian-psikologi-indeks-personaliti",
+  "CreatedDate": "2015-06-04T12:15:48.733349+08:00",
+  "ChangedBy": "admin",
+  "ChangedDate": "2015-06-04T12:15:48.732349+08:00",
+  "WebId": "9257ba89-efd9-461a-9fb6-361981bb4860"
+}

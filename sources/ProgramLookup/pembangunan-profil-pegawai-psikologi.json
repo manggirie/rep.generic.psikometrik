@@ -1,0 +1,11 @@
+{
+  "$type": "Bespoke.epsikologi_programlookup.Domain.ProgramLookup, epsikologi.ProgramLookup",
+  "ProgramNo": "067",
+  "NamaProgram": "PEMBANGUNAN PROFIL PEGAWAI PSIKOLOGI",
+  "CreatedBy": "admin",
+  "Id": "pembangunan-profil-pegawai-psikologi",
+  "CreatedDate": "2015-06-04T12:15:48.7403494+08:00",
+  "ChangedBy": "admin",
+  "ChangedDate": "2015-06-04T12:15:48.7383493+08:00",
+  "WebId": "6c4a84d6-c94d-419e-8b71-4411d11f6300"
+}

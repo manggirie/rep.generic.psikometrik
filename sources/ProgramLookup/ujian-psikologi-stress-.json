@@ -1,0 +1,11 @@
+{
+  "$type": "Bespoke.epsikologi_programlookup.Domain.ProgramLookup, epsikologi.ProgramLookup",
+  "ProgramNo": "070",
+  "NamaProgram": "UJIAN PSIKOLOGI STRESS ",
+  "CreatedBy": "admin",
+  "Id": "ujian-psikologi-stress-",
+  "CreatedDate": "2015-06-04T12:15:48.7473498+08:00",
+  "ChangedBy": "admin",
+  "ChangedDate": "2015-06-04T12:15:48.7453497+08:00",
+  "WebId": "9aa6db74-6b14-49ca-b523-d8d49ddfe2f0"
+}

@@ -1,0 +1,11 @@
+{
+  "$type": "Bespoke.epsikologi_programlookup.Domain.ProgramLookup, epsikologi.ProgramLookup",
+  "ProgramNo": "045",
+  "NamaProgram": "PROFIL PSIKOLOGI",
+  "CreatedBy": "admin",
+  "Id": "profil-psikologi",
+  "CreatedDate": "2015-06-04T12:15:48.6383436+08:00",
+  "ChangedBy": "admin",
+  "ChangedDate": "2015-06-04T12:15:48.6363435+08:00",
+  "WebId": "f1ab2db3-b74b-472a-8fc4-fc76f03b05aa"
+}

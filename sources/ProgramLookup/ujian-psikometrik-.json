@@ -1,0 +1,11 @@
+{
+  "$type": "Bespoke.epsikologi_programlookup.Domain.ProgramLookup, epsikologi.ProgramLookup",
+  "ProgramNo": "105",
+  "NamaProgram": "UJIAN PSIKOMETRIK ",
+  "CreatedBy": "admin",
+  "Id": "ujian-psikometrik-",
+  "CreatedDate": "2015-06-04T12:16:42.2819807+08:00",
+  "ChangedBy": "admin",
+  "ChangedDate": "2015-06-04T12:16:42.2819807+08:00",
+  "WebId": "2f939657-727f-4e95-af74-559ebb57701a"
+}
