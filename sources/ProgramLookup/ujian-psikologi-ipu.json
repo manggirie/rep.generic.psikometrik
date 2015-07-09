@@ -1,0 +1,11 @@
+{
+  "$type": "Bespoke.epsikologi_programlookup.Domain.ProgramLookup, epsikologi.ProgramLookup",
+  "ProgramNo": "087",
+  "NamaProgram": "UJIAN PSIKOLOGI IPU",
+  "CreatedBy": "admin",
+  "Id": "ujian-psikologi-ipu",
+  "CreatedDate": "2015-06-04T12:16:32.0810926+08:00",
+  "ChangedBy": "admin",
+  "ChangedDate": "2015-06-04T12:16:31.091687+08:00",
+  "WebId": "8ba77e49-1da1-4ca9-9293-192827483415"
+}

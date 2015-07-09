@@ -49,6 +49,11 @@ define(["services/datacontext", objectbuilders.app, objectbuilders.router, objec
             return answer;
         },
         activate = function (id) {
+
+            sections.removeAll();
+            totalAnswered(0);
+            questionsCount(0);
+            
             return context.loadOneAsync("SesiUjian", String.format("Id eq '{0}'", id))
                 .then(function (a) {
                     sesiUjian(a);

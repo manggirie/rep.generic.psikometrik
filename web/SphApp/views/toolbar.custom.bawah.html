@@ -1,0 +1,67 @@
+
+
+<div id="toolbar-panel"  data-bind="visible: typeof router.activeItem().toolbar === 'object' || typeof router.activeItem().toolbar === 'function'">
+    <div data-bind="with: router.activeItem().toolbar">
+
+
+        <!-- ko if: typeof saveCommand === "function" && typeof canExecuteSaveCommand === "undefined"-->
+        <button id="save-button" class="btn btn-default" data-bind="command: saveCommand">
+            <i class="fa fa-save"></i>
+            <span data-i18n="Save">Simpan</span>
+        </button>
+        <!-- /ko -->
+        <!-- ko if: typeof saveCommand === "function" && typeof canExecuteSaveCommand === "function"-->
+        <button class="btn btn-default" data-bind="command: saveCommand, enable :canExecuteSaveCommand">
+            <i class="fa fa-save"></i>
+            <span data-i18n="Save">Simpan</span>
+        </button>
+        <!-- /ko -->
+
+        <!-- ko if: typeof removeCommand === "function"&& typeof canExecuteRemoveCommand === "undefined"-->
+        <button class="btn btn-default" data-bind="command: removeCommand">
+            <i class="fa fa-trash-o"></i>
+            <span data-i18n="Delete">Hapus</span>
+        </button>
+        <!-- /ko -->
+        <!-- ko if: typeof removeCommand === "function" && typeof canExecuteRemoveCommand === "function"-->
+        <button class="btn btn-default" data-bind="command: removeCommand, enable :canExecuteRemoveCommand">
+            <i class="fa fa-trash-o"></i>
+            <span data-i18n="Delete">Hapus</span>
+        </button>
+        <!-- /ko -->
+
+
+
+        <!-- ko if: typeof printCommand === "object"-->
+        <button class="btn btn-default" data-bind="commandWithParameter: { command: $root.printCommand, commandParameter: printCommand }" data-loading-text="Cetak....">
+            <i class="fa fa-print"></i>
+            <span data-i18n="Print">Cetak</span>
+        </button>
+        <!-- /ko -->
+
+        <!-- ko if: typeof pdfCommand === "object"-->
+        <button class="btn btn-default" data-bind="commandWithParameter: { command: $root.pdfCommand, commandParameter: pdfCommand }" data-loading-text="Cetak....">
+            <i class="fa fa-print"></i>
+            <span data-i18n="Print">Cetak</span>
+        </button>
+        <!-- /ko -->
+
+
+        <!-- ko if: typeof exportCommand === "function"-->
+        <button class="btn btn-default" data-bind="command: exportCommand">
+            <i class="fa fa-download"></i>
+            <span data-i18n="Export">Eksport</span>
+        </button>
+        <!-- /ko -->
+
+        <!-- ko if: typeof importCommand === "function"-->
+        <button class="btn btn-default" data-bind="command: importCommand">
+            <i class="fa fa-upload"></i>
+            <span data-i18n="Import">Import</span>
+        </button>
+        <!-- /ko -->
+
+
+
+    </div>
+</div>

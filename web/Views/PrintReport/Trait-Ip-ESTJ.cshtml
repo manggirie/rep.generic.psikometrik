@@ -1,15 +1,9 @@
 @model web.sph.App_Code.IpTraitViewModel
 @{
-	Layout = null;
+	Layout = "_trait.layout.cshtml";
 }
-<html>
-<head>
-	<title>Laporan untuk @Model.Sesi.NamaPengguna</title>
-	<link rel="stylesheet" type="text/css" href="/content/external/bootstrap.min.css">
-</head>
-<body>
-	<h1>Laporan untuk @Model.Sesi.NamaPengguna</h1>
-  @Html.Partial("_Trait-Ip-Header")
+
+
 
 <pre>
 Berdasarkan kepada analisis ujian, secara umumnya dari aspek:
@@ -20,16 +14,16 @@ Membuat Keputusan		:	Rasional
 Cara Gaya Kehidupan		:	Sistematik
 
 Perwatakan
-Anda mempamerkan diri sebagai seorang yang praktikal, realistik, tabah hati dan menggunakan fakta sebenar untuk menyelesaikan masalah.  
+Anda mempamerkan diri sebagai seorang yang praktikal, realistik, tabah hati dan menggunakan fakta sebenar untuk menyelesaikan masalah.
 
-Dari aspek hubungan interpersonal, anda memberi fokus kepada apa yang sebenarnya sedang berlaku dan perkara berkaitan fakta.  Anda boleh menjangka masalah yang berlaku dan mengambil tindakan bagi membetulkan situasi berkenaan mengikut apa yang dirancang.  
+Dari aspek hubungan interpersonal, anda memberi fokus kepada apa yang sebenarnya sedang berlaku dan perkara berkaitan fakta.  Anda boleh menjangka masalah yang berlaku dan mengambil tindakan bagi membetulkan situasi berkenaan mengikut apa yang dirancang.
 
 Pekerjaan
-Secara umumnya, anda suka berinteraksi secara sosial dan bekerja dengan orang lain, boleh memberi kritikan apabila diperlukan serta mahukan konsep hormat-menghormati dan keadilan sesama rakan sekerja diamalkan dalam organisasi. 
+Secara umumnya, anda suka berinteraksi secara sosial dan bekerja dengan orang lain, boleh memberi kritikan apabila diperlukan serta mahukan konsep hormat-menghormati dan keadilan sesama rakan sekerja diamalkan dalam organisasi.
 
-Dari aspek pekerjaan, anda berpegang kepada prinsip, suka kepada kepelbagaian dan tugas yang berstruktur atau berjadual.  Anda merancang dan melaksanakan tugas seperti yang ditetapkan serta menghargai dan mempamerkan kecekapan serta keefisienan dalam tugas.  Anda mempelajari tugas baru melalui perbualan, perlakuan dan berminat bagaimana orang lain melakukan tugas mereka.  
+Dari aspek pekerjaan, anda berpegang kepada prinsip, suka kepada kepelbagaian dan tugas yang berstruktur atau berjadual.  Anda merancang dan melaksanakan tugas seperti yang ditetapkan serta menghargai dan mempamerkan kecekapan serta keefisienan dalam tugas.  Anda mempelajari tugas baru melalui perbualan, perlakuan dan berminat bagaimana orang lain melakukan tugas mereka.
 
-Anda merupakan pengurus yang cemerlang kerana memahami sistem, prosedur dan logistik.  Anda suka kepada aspek pengurusan kerana boleh mengawasi semua perkara dan melaksanakan tugas pada masanya.  Anda membina idea melalui perbincangan dan memberikan prestasi terbaik apabila mengetahui masalah yang dikemukakan serta menggunakan teknik yang efektif untuk menyelesaikannya. 
+Anda merupakan pengurus yang cemerlang kerana memahami sistem, prosedur dan logistik.  Anda suka kepada aspek pengurusan kerana boleh mengawasi semua perkara dan melaksanakan tugas pada masanya.  Anda membina idea melalui perbincangan dan memberikan prestasi terbaik apabila mengetahui masalah yang dikemukakan serta menggunakan teknik yang efektif untuk menyelesaikannya.
 
 Dari aspek membuat keputusan, anda menganalisis secara logik untuk memahami dan mengambil tindakan melalui pengumpulan data serta mengambil kira pengalaman diri dan orang lain.  Anda suka pekerjaan yang keputusannya boleh diperoleh dengan segera tetapi mempunyai kesabaran yang rendah terhadap kekeliruan, ketidakefisienan atau tugas separuh siap.
 
@@ -44,15 +38,10 @@ Sebagai pengikut, anda sedia melaksanakan polisi yang efektif jika anda menghorm
 Persepsi Orang Lain
 Dari aspek hubungan interpersonal, anda seorang yang ceria dan suka berinteraksi dengan orang lain terutama yang berkaitan dengan tugas, permainan dan aktiviti keluarga.  Anda mengambil serius tentang peranan, hubungan dan bertanggungjawab memenuhi tugasan tersebut.  Anda boleh berkomunikasi dengan baik dan suka berterus terang tentang pendirian diri.
 
-Dari aspek perwatakan, anda seorang yang setia, lantang bersuara, berkeyakinan dan boleh membuat sistem, prosedur serta jadual.  Namun, sikap anda yang sangat yakin tentang bagaimana sesuatu perkara itu seharusnya dilakukan, membuatkan orang lain berasa anda menguasai mereka.  
+Dari aspek perwatakan, anda seorang yang setia, lantang bersuara, berkeyakinan dan boleh membuat sistem, prosedur serta jadual.  Namun, sikap anda yang sangat yakin tentang bagaimana sesuatu perkara itu seharusnya dilakukan, membuatkan orang lain berasa anda menguasai mereka.
 
 Reaksi Terhadap Stres
 Apabila mengalami stres yang tinggi, anda mungkin berasa terasing, tidak dihargai dan sukar berkomunikasi secara jelas tentang perasaan, stres atau kekecewaan yang dialami.
 
 
 </pre>
-<pre>
-  @Model.ToString()
-</pre>
-</body>
-</html>

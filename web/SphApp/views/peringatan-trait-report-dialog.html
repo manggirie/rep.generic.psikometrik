@@ -1,0 +1,24 @@
+<!-- use dialog-form code snippet  to create a template for your -->
+
+<section class="view-model-modal" id="peringatan-trait-report-dialog">
+    <div class="modal-dialog">
+        <div class="modal-content">
+
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" data-bind="click : cancelClick">&times;</button>
+                <h3>Peringatan</h3>
+            </div>
+            <div class="modal-body" data-bind="with: item">
+
+                <div id="peringatan-trait-report-dialog-form">
+                  
+
+                </div>
+            </div>
+            <div class="modal-footer">
+                <input data-dismiss="modal" type="submit" class="btn btn-primary" value="OK" data-bind="click: okClick" />
+                <a href="#" class="btn btn-default" data-dismiss="modal" data-bind="click : cancelClick">Cancel</a>
+            </div>
+        </div>
+    </div>
+</section>

@@ -1,0 +1,134 @@
+
+
+<div id="toolbar-panel"  data-bind="visible: typeof router.activeItem().toolbar === 'object' || typeof router.activeItem().toolbar === 'function'">
+    <div data-bind="with: router.activeItem().toolbar">
+
+
+        <!-- ko if: typeof groupCommands !== "undefined"-->
+        <!-- ko foreach: groupCommands-->
+
+        <div class="btn-group">
+            <a class="btn btn-default dropdown-toggle" data-toggle="drop-down" href="#">
+
+                <span data-bind="text:caption, attr :{'data-i18n': caption}"></span>
+                <span class="caret pull-right" style="margin-left: 5px;margin-top: 7px;"></span>
+            </a>
+            <ul class="dropdown-menu">
+                <!-- ko foreach: commands-->
+                <li>
+                    <a class="btn btn-link pull-left" data-bind="command: command" href="#">
+                        <i data-bind="attr: { 'class': icon }"></i>
+
+                        <span data-bind="text:caption, attr :{'data-i18n': caption}"></span>
+                    </a>
+                </li>
+                <!-- /ko -->
+
+            </ul>
+        </div>
+
+        <!-- /ko -->
+        <!-- /ko -->
+
+        <!-- ko if: typeof addNewCommand === "function"-->
+        <button id="save" class="btn btn-default" data-bind="command: addNewCommand" data-loading-text="Simpan....">
+            <i class="fa fa-plus"></i>
+            Tambah
+        </button>
+        <!-- /ko -->
+
+        <!-- ko if: typeof addNew === "object"-->
+        <!-- ko with: addNew-->
+        <a id="addbutton" class="btn btn-default" data-bind="attr: { href: location }" data-loading-text="Simpan....">
+            <i class="fa fa-plus"></i>
+
+            <span data-bind="text:caption, attr :{'data-i18n': caption}"></span>
+        </a>
+        <!-- /ko -->
+        <!-- /ko -->
+
+
+        <!-- ko if: typeof openCommand === "function" -->
+        <button class="btn btn-default" data-bind="command: openCommand">
+            <i class="fa fa-folder-open"></i>
+            <span data-i18n="Open">Buka</span>
+        </button>
+        <!-- /ko -->
+
+
+
+        <!-- ko if: typeof reloadCommand === "function"-->
+        <button class="btn btn-default" data-bind="command: reloadCommand">
+            <i class="fa fa-refresh"></i>
+            <span data-i18n="Reload">Muat semula</span>
+
+        </button>
+        <!-- /ko -->
+
+        <!-- ko if: typeof emailCommand === "object"-->
+        <button class="btn btn-default" data-bind="commandWithParameter: { command: $root.emailCommand, commandParameter: emailCommand }">
+            <i class="fa fa-envelope-o"></i>
+            <span data-i18n="Email">Emel</span>
+        </button>
+        <!-- /ko -->
+
+
+
+        <!-- ko if: typeof watchCommand === "function"-->
+        <button class="btn btn-default" data-bind="command: watchCommand, visible: watching() === false" >
+            <i class="glyphicon glyphicon-eye-open"></i>
+            <span data-i18n="Watch">Ikut</span>
+        </button>
+        <!-- /ko -->
+        <!-- ko if: typeof unwatchCommand === "function"-->
+        <button class="btn btn-default" data-bind="command: unwatchCommand, visible: watching">
+            <i class="glyphicon glyphicon-eye-close"></i>
+            <span data-i18n="Unwatch">Abai</span>
+        </button>
+        <!-- /ko -->
+
+        <!-- ko if: typeof commands === "function"-->
+        <!-- ko foreach: commands-->
+
+        <!-- ko if: typeof visible === "undefined" && typeof enable === "undefined"-->
+        <button class="btn btn-default" data-bind="command: command">
+            <i data-bind=" attr: { 'class': icon }"></i>
+            <span data-bind="text:caption, attr :{'data-i18n': caption}"></span>
+        </button>
+        <!-- /ko -->
+        <!-- ko if: typeof visible === "function"-->
+        <button class="btn btn-default" data-bind="command: command, visible: visible">
+            <i data-bind=" attr: { 'class': icon }"></i>
+            <span data-bind="text:caption, attr :{'data-i18n': caption}"></span>
+        </button>
+        <!-- /ko -->
+        <!-- ko if: typeof enable === "function"-->
+        <button class="btn btn-default" data-bind="command: command, enable: enable">
+            <i data-bind=" attr: { 'class': icon }"></i>
+            <span data-bind="text:caption, attr :{'data-i18n': caption}"></span>
+        </button>
+        <!-- /ko -->
+
+        <!-- /ko -->
+        <!-- /ko -->
+
+        <!-- ko if: typeof clicks === "function"-->
+        <!-- ko foreach: clicks-->
+
+        <!-- ko if: typeof visible === "undefined"-->
+        <button class="btn btn-default" data-bind="click: command">
+            <i data-bind=" attr: { 'class': icon }"></i>
+            <span data-bind="text:caption, attr :{'data-i18n': caption}"></span>
+        </button>
+        <!-- /ko -->
+        <!-- ko if: typeof visible === "function"-->
+        <button class="btn btn-default" data-bind="click: command, visible: visible">
+            <i data-bind=" attr: { 'class': icon }"></i>
+            <span data-bind="text:caption, attr :{'data-i18n': caption}"></span>
+        </button>
+        <!-- /ko -->
+
+        <!-- /ko -->
+        <!-- /ko -->
+    </div>
+</div>

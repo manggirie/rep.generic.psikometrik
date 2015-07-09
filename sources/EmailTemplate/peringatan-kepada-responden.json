@@ -1,0 +1,15 @@
+{
+  "$type": "Bespoke.Sph.Domain.EmailTemplate, domain.sph",
+  "Entity": "Permohonan",
+  "Name": "Peringatan kepada responden",
+  "Note": "",
+  "SubjectTemplate": "Anda belum lagi @Model.PermohonanNo",
+  "BodyTemplate": "Salam\nSila ambil ujian yang telah didaftar kan\n@Model.PermohonanNo",
+  "IsPublished": true,
+  "CreatedBy": "admin",
+  "Id": "peringatan-kepada-responden",
+  "CreatedDate": "2015-01-01T00:00:00",
+  "ChangedBy": "admin",
+  "ChangedDate": "2015-01-01T00:00:00",
+  "WebId": "18978e9e-2599-4aa5-e65d-1835c5f588a7"
+}

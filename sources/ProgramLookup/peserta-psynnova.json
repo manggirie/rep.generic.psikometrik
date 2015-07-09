@@ -1,0 +1,11 @@
+{
+  "$type": "Bespoke.epsikologi_programlookup.Domain.ProgramLookup, epsikologi.ProgramLookup",
+  "ProgramNo": "090",
+  "NamaProgram": "PESERTA PSYNNOVA",
+  "CreatedBy": "admin",
+  "Id": "peserta-psynnova",
+  "CreatedDate": "2015-06-04T12:16:35.0811777+08:00",
+  "ChangedBy": "admin",
+  "ChangedDate": "2015-06-04T12:16:34.0951732+08:00",
+  "WebId": "4f4dda61-c034-4208-a7d9-1ff93609580f"
+}

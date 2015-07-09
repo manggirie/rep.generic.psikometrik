@@ -1,5 +1,6 @@
-define(["services/datacontext"], function(context){
-    var permohonan = ko.observable()
+define(["services/datacontext", objectbuilders.app], function(context, app){
+    var permohonan = ko.observable(),
+        senaraiPendaftaran = ko.observableArray(),
         activate = function(entity){
             permohonan(entity);
             var tcs = new $.Deferred();
@@ -12,23 +13,22 @@ define(["services/datacontext"], function(context){
 
         },
         attached  = function(view){
-        
+
         },
         save = function(pendaftaran) {
-    
+
             var data = ko.mapping.toJSON(pendaftaran);
-    
             return context.post(data, "/PendaftaranProgram/TambahResponden")
                 .then(function(result) {
-                    app.showMessage("Your PendaftaranProgram has been successfully saved", "epsikologi", ["ok"]);
-    
+                    senaraiPendaftaran.push(pendaftaran);
                 });
-            
+
         },
         addResponden = function(){
-            
+
             var tcs = new $.Deferred();
             require(['viewmodels/tambah-responden-dialog' , 'durandal/app'], function (dialog, app2) {
+                dialog.maxCount ( permohonan().BilRespondan() - senaraiPendaftaran().length);
                 app2.showDialog(dialog)
                     .done(function (result) {
                         if (result === "OK") {
@@ -45,18 +45,42 @@ define(["services/datacontext"], function(context){
                             console.log("registrations", ko.toJS(registrations));
                             var tasks = _(registrations).map(save);
                             $.when(tasks).done(tcs.resolve);
-                            
+
                         }else{
-                            tsc.resolve();
+                            tcs.resolve();
                         }
                 });
             });
-            
+
             return tcs.promise();
+        },
+        sendReminderEmail = function(pendaftaran){
+            return function(){
+
+            var to = "";
+            return context.loadOneAsync("Pengguna", String.format("MyKad eq '{0}'", ko.unwrap(pendaftaran.MyKad)))
+                .then(function(user){
+                    to = ko.unwrap(user.Emel);
+                    return $.get("/email-template/generate/Permohonan/" + ko.unwrap(permohonan().Id) + "/peringatan-kepada-responden") ;
+                })
+                .then(function(mail){
+                    var message = {
+                        subject : mail.subject,
+                        body : mail.body,
+                        to : to
+                    };
+                   return context.post(JSON.stringify(message), "/email-template/send");
+                }).then(function(){
+                    app.showMessage("Emel peringatan sudah dihantar kepada " + to, "title", ["OK"]);
+                });
+
+            };
         };
 
     return {
         addResponden : addResponden,
+        senaraiPendaftaran : senaraiPendaftaran,
+        sendReminderEmail : sendReminderEmail,
         activate : activate,
         attached : attached
     };

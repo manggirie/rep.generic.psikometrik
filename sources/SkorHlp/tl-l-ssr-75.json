@@ -1,0 +1,16 @@
+{
+  "$type": "Bespoke.epsikologi_skorhlp.Domain.SkorHlp, epsikologi.SkorHlp",
+  "No": "tl-l-ssr-75",
+  "Tret": "TL",
+  "NilaiMin": 15,
+  "NilaiMax": 15,
+  "Percentile": 75,
+  "Skor": "Skor Sederhana Rendah",
+  "Jantina": "Lelaki",
+  "CreatedBy": "urusetia1",
+  "Id": "tl-l-ssr-75",
+  "CreatedDate": "2015-07-08T16:26:18.6811134+08:00",
+  "ChangedBy": "urusetia1",
+  "ChangedDate": "2015-07-08T16:26:18.6776111+08:00",
+  "WebId": "e01b530b-e21f-48b6-bb84-26e88a8799b8"
+}

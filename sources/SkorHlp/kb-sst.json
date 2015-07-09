@@ -1,0 +1,15 @@
+{
+  "$type": "Bespoke.epsikologi_skorhlp.Domain.SkorHlp, epsikologi.SkorHlp",
+  "No": "kb-sst",
+  "Tret": "KB",
+  "NilaiMin": 6,
+  "NilaiMax": 8,
+  "Percentile": null,
+  "Skor": "Skor Sederhana Tinggi",
+  "CreatedBy": "urusetia",
+  "Id": "kb-sst",
+  "CreatedDate": "2015-07-08T10:26:36.6351566+08:00",
+  "ChangedBy": "urusetia",
+  "ChangedDate": "2015-07-08T10:26:36.630156+08:00",
+  "WebId": "c8e64d9c-dca2-4eab-9ca9-70dafd64f049"
+}

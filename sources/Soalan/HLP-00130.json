@@ -21,14 +21,14 @@
       }
     ]
   },
-  "Trait": null,
+  "Trait": "DT",
   "NamaUjian": "Ujian Khas Hadiah Latihan Persekutuan(HLP)",
   "Susunan": 130.0,
-  "Kategori": null,
+  "Kategori": "Daya Tahan",
   "CreatedBy": "admin",
   "Id": "HLP-00130",
   "CreatedDate": "2015-07-06T11:24:50.1951788+08:00",
   "ChangedBy": "admin",
-  "ChangedDate": "2015-07-06T11:24:50.1941781+08:00",
+  "ChangedDate": "2015-07-08T10:00:19.6375988+08:00",
   "WebId": "0fbef436-0401-4ff2-88ca-d9ed9cfb1764"
 }

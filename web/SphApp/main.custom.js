@@ -3251,7 +3251,7 @@ define('main.custom', ["durandal/app", "durandal/viewLocator", "durandal/system"
 
         app.start().then(function () {
             viewLocator.useConvention();
-            app.setRoot("viewmodels/shell", "entrance");
+            app.setRoot("viewmodels/shell.custom", "entrance");
         });
     });
 /**
@@ -6514,7 +6514,7 @@ define('viewmodels/search', ['durandal/system', 'services/logger', objectbuilder
 /// <reference path="../../Scripts/require.js" />
 
 
-define('viewmodels/shell', ["durandal/system","services/system", "plugins/router", "services/logger", "services/datacontext", objectbuilders.config, objectbuilders.cultures],
+define('viewmodels/shell.custom', ["durandal/system","services/system", "plugins/router", "services/logger", "services/datacontext", objectbuilders.config, objectbuilders.cultures],
     function (system,system2, router, logger, context, config) {
 
         var activate = function () {

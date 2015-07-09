@@ -1,0 +1,16 @@
+{
+  "$type": "Bespoke.epsikologi_skorhlp.Domain.SkorHlp, epsikologi.SkorHlp",
+  "No": "sm-p-ssr-50",
+  "Tret": "SM",
+  "NilaiMin": 34,
+  "NilaiMax": 34,
+  "Percentile": 50,
+  "Skor": "Skor Sederhana Rendah",
+  "Jantina": "Perempuan",
+  "CreatedBy": "urusetia1",
+  "Id": "sm-p-ssr-50",
+  "CreatedDate": "2015-07-08T15:57:21.5095102+08:00",
+  "ChangedBy": "urusetia1",
+  "ChangedDate": "2015-07-08T15:57:21.5090096+08:00",
+  "WebId": "268f3c64-eda8-45d7-e3b7-0ecb3edab99c"
+}

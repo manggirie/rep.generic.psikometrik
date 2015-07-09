@@ -9,7 +9,7 @@
 /// <reference path="../../Scripts/bootstrap.js" />
 
 
-define(["services/datacontext", "services/logger", "plugins/router", "services/chart", objectbuilders.config , "partial/permohonan-baru-urusetia"],
+define(["services/datacontext", "services/logger", "plugins/router", "services/chart", objectbuilders.config , "partial/viewpermohonanpenyelaras"],
     function (context, logger, router, chart,config , partial) {
 
         var isBusy = ko.observable(false),

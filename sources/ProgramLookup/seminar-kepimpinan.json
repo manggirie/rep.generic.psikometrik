@@ -1,0 +1,11 @@
+{
+  "$type": "Bespoke.epsikologi_programlookup.Domain.ProgramLookup, epsikologi.ProgramLookup",
+  "ProgramNo": "001",
+  "NamaProgram": "SEMINAR KEPIMPINAN",
+  "CreatedBy": "admin",
+  "Id": "seminar-kepimpinan",
+  "CreatedDate": "2015-06-04T12:15:47.4778936+08:00",
+  "ChangedBy": "admin",
+  "ChangedDate": "2015-06-04T12:15:47.4778936+08:00",
+  "WebId": "0083186a-5690-4e30-8a57-29eb6485fb7b"
+}

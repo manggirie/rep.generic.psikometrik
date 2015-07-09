@@ -135,7 +135,7 @@ define(["services/datacontext", "services/logger", "plugins/router", "services/c
                     });
             },
             attached = function (view) {
-                chart.init("Permohonan", query, chartSeriesClick, "9d3f6c7e-bd01-4847-85a2-f5130b960249");
+                chart.init("Permohonan", query, chartSeriesClick, "permohonans-all");
                     
                     if(typeof partial !== "undefined" && typeof partial.attached === "function"){
                         partial.attached(view);

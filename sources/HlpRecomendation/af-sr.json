@@ -1,0 +1,13 @@
+{
+  "$type": "Bespoke.epsikologi_hlprecomendation.Domain.HlpRecomendation, epsikologi.HlpRecomendation",
+  "No": "af-sr",
+  "Tret": "AF",
+  "Text": "Bersikap sangat pasif, menuruti kata orang lain dan mudah dipengaruhi serta dipergunakan untuk memenuhi keperluan orang lain.",
+  "Skor": "Skor Rendah",
+  "CreatedBy": "urusetia1",
+  "Id": "af-sr",
+  "CreatedDate": "2015-07-08T12:52:25.389501+08:00",
+  "ChangedBy": "urusetia1",
+  "ChangedDate": "2015-07-08T12:52:25.3854977+08:00",
+  "WebId": "482c33a0-4890-434b-f930-c0e2e9ea012d"
+}

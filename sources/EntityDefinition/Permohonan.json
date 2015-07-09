@@ -587,9 +587,9 @@
           ]
         },
         "Name": "PermohonanDariPenyelaras",
-        "SuccessMessage": "Permohonan sudah berjaya dihantar",
-        "ShowSuccessMessage": true,
-        "NavigateSuccessUrl": "#penyelaras-home",
+        "SuccessMessage": "",
+        "ShowSuccessMessage": false,
+        "NavigateSuccessUrl": "",
         "SuccessCommand": "",
         "WebId": "bbf6a1ee-6bd9-4414-9d17-c6edf9959661"
       },
@@ -626,8 +626,8 @@
           ]
         },
         "Name": "UrusetiaProcessPermohonanDariPenyelaras",
-        "SuccessMessage": "",
-        "ShowSuccessMessage": false,
+        "SuccessMessage": "Permohonan program sudah dikemaskini",
+        "ShowSuccessMessage": true,
         "NavigateSuccessUrl": "",
         "SuccessCommand": "",
         "WebId": "e1557128-3b90-4bf5-d4ba-c975479f0e73"
@@ -659,6 +659,6 @@
   "Id": "permohonan",
   "CreatedDate": "2015-06-05T10:45:39.9585024+08:00",
   "ChangedBy": "admin",
-  "ChangedDate": "2015-07-01T08:10:45.5551463+08:00",
+  "ChangedDate": "2015-07-08T06:57:03.0647663+08:00",
   "WebId": "5aff113b-31e8-4f89-b7eb-d089e79bd899"
 }

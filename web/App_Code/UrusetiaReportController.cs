@@ -11,6 +11,7 @@ using System.Diagnostics;
 
 namespace web.sph.App_Code
 {
+    [Authorize(Roles="JanaLaporan")]
     [RoutePrefix("urusetia-report")]
     public class UrusetiaReportController : Controller
     {
@@ -80,11 +81,11 @@ namespace web.sph.App_Code
                     var score = s.JawapanCollection.Where(a => a.Trait == t1).Sum(a => a.Nilai);
                     html.AppendLine("           <td>" + score + "</td>");
                 }
-                var indikator = s.NamaUjian.Contains("IBK") ? "" : string.Format(@"<a class=""btn btn-info"" target=""_blank"" href=""cetak-laporan/indikator/{0}/{1}""> <i class=""fa fa-print""></i> Indikator</a>", s.NamaUjian, s.Id);
+                var indikator = s.NamaUjian.Contains("IBK") ? "" : string.Format(@"<a class=""indikator-report btn btn-info"" target=""_blank"" href=""cetak-laporan/indikator/{0}/{1}""> <i class=""fa fa-print""></i> Indikator</a>", s.NamaUjian, s.Id);
 
                 html.AppendFormat(@"
                     <td>
-                        <a class=""btn btn-info"" target=""_blank"" href=""cetak-laporan/trait/{2}/{0}""> <i class=""fa fa-print""></i> Tret</a>
+                        <a class=""trait-report btn btn-info"" target=""_blank"" href=""cetak-laporan/trait/{2}/{0}""> <i class=""fa fa-print""></i> Tret</a>
                         {1}
                     </td>", s.Id, indikator, s.NamaUjian);
                 html.AppendLine("   </tr>");

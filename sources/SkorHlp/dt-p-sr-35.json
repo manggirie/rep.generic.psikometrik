@@ -1,0 +1,16 @@
+{
+  "$type": "Bespoke.epsikologi_skorhlp.Domain.SkorHlp, epsikologi.SkorHlp",
+  "No": "dt-p-sr-35",
+  "Tret": "DT",
+  "NilaiMin": 7,
+  "NilaiMax": 7,
+  "Percentile": 35,
+  "Skor": "Skor Rendah",
+  "Jantina": "Perempuan",
+  "CreatedBy": "urusetia1",
+  "Id": "dt-p-sr-35",
+  "CreatedDate": "2015-07-08T16:58:32.7805962+08:00",
+  "ChangedBy": "urusetia1",
+  "ChangedDate": "2015-07-08T16:58:32.7765929+08:00",
+  "WebId": "20ff29d1-c34f-4a48-c20e-e17c302b97b9"
+}

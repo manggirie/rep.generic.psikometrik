@@ -1,0 +1,13 @@
+{
+  "$type": "Bespoke.epsikologi_hlprecomendation.Domain.HlpRecomendation, epsikologi.HlpRecomendation",
+  "No": "sm-sst",
+  "Tret": "SM",
+  "Text": "Bersikap memahami dan prihatin kepada keperluan, kebajikan serta perasaan orang lain.  ",
+  "Skor": "Skor Sederhana Tinggi",
+  "CreatedBy": "urusetia1",
+  "Id": "sm-sst",
+  "CreatedDate": "2015-07-08T12:44:25.1383536+08:00",
+  "ChangedBy": "urusetia1",
+  "ChangedDate": "2015-07-08T12:45:25.6293136+08:00",
+  "WebId": "30fdc810-0e0d-460c-d16d-1ac169fb7076"
+}

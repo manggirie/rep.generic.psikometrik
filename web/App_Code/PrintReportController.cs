@@ -16,6 +16,7 @@ using Newtonsoft.Json.Schema;
 
 namespace web.sph.App_Code
 {
+    [Authorize(Roles="JanaLaporan")]
     [RoutePrefix("cetak-laporan")]
     public class PrintReportController : Controller
     {
@@ -24,16 +25,72 @@ namespace web.sph.App_Code
     		ConfigHelper.RegisterDependencies();
     	}
 
+
+      	[Route("indikator/hlp/{id}")]
+      	public async Task<ActionResult> HlpIndikator(string id )
+      	{
+      		var context = new SphDataContext();
+      		var sesi = await context.LoadOneAsync<Bespoke.epsikologi_sesiujian.Domain.SesiUjian>(x => x.Id == id);
+          var user = await context.LoadOneAsync<Bespoke.epsikologi_pengguna.Domain.Pengguna>(x => x.MyKad == sesi.MyKad);
+
+          var query = context.CreateQueryable<Bespoke.epsikologi_skorhlp.Domain.SkorHlp>();
+          var lo = await context.LoadAsync(query, size:1000);
+          var scoreTables = lo.ItemCollection;
+
+
+          var rq = context.CreateQueryable<Bespoke.epsikologi_hlprecomendation.Domain.HlpRecomendation>();
+          var rlo = await context.LoadAsync(rq, size:200);
+          var recommendations = rlo.ItemCollection;
+
+
+      		if(null == sesi)
+      			return HttpNotFound("Cannot find SesiUjian " + id);
+        	if(null == sesi)
+        		return HttpNotFound("Cannot find user with MyKad " + sesi.MyKad);
+
+          var vm = new HlpTraitViewModel(sesi, user, scoreTables.ToArray(), recommendations.ToArray());
+      		return View("Indikator-Hlp", vm);
+      	}
+
+    	[Route("trait/hlp/{id}")]
+    	public async Task<ActionResult> PrintTraitForHlp(string id )
+    	{
+    		var context = new SphDataContext();
+    		var sesi = await context.LoadOneAsync<Bespoke.epsikologi_sesiujian.Domain.SesiUjian>(x => x.Id == id);
+        var user = await context.LoadOneAsync<Bespoke.epsikologi_pengguna.Domain.Pengguna>(x => x.MyKad == sesi.MyKad);
+
+        var query = context.CreateQueryable<Bespoke.epsikologi_skorhlp.Domain.SkorHlp>();
+        var lo = await context.LoadAsync(query, size:1000);
+        var scoreTables = lo.ItemCollection;
+
+
+        var rq = context.CreateQueryable<Bespoke.epsikologi_hlprecomendation.Domain.HlpRecomendation>();
+        var rlo = await context.LoadAsync(rq, size:200);
+        var recommendations = rlo.ItemCollection;
+
+
+    		if(null == sesi)
+    			return HttpNotFound("Cannot find SesiUjian " + id);
+      	if(null == sesi)
+      		return HttpNotFound("Cannot find user with MyKad " + sesi.MyKad);
+
+        var vm = new HlpTraitViewModel(sesi, user, scoreTables.ToArray(), recommendations.ToArray());
+    		return View("Trait-Hlp", vm);
+    	}
+
+
     	[Route("trait/ip/{id}")]
     	public async Task<ActionResult> PrintSesiUjianTraitIp(string id )
     	{
     		var context = new SphDataContext();
     		var sesi = await context.LoadOneAsync<Bespoke.epsikologi_sesiujian.Domain.SesiUjian>(x => x.Id == id);
-
+        var user = await context.LoadOneAsync<Bespoke.epsikologi_pengguna.Domain.Pengguna>(x => x.MyKad == sesi.MyKad);
     		if(null == sesi)
     			return HttpNotFound("Cannot find SesiUjian " + id);
+      	if(null == sesi)
+      		return HttpNotFound("Cannot find user with MyKad " + sesi.MyKad);
 
-            var vm = new IpTraitViewModel(sesi);
+        var vm = new IpTraitViewModel(sesi, user);
     		return View("Trait-Ip-" + vm.Result, vm);
     	}
 

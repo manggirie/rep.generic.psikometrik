@@ -1,0 +1,14 @@
+{
+  "$type": "Bespoke.epsikologi_ujian.Domain.Ujian, epsikologi.Ujian",
+  "UjianNo": "IOC",
+  "NamaUjian": "Indeks Organisasi Cemerlang (IOC)",
+  "DurationHour": 0,
+  "DurationMinutes": 5,
+  "Arahan": null,
+  "CreatedBy": "admin",
+  "Id": "IOC",
+  "CreatedDate": "2015-07-08T08:58:29.665143+08:00",
+  "ChangedBy": "admin",
+  "ChangedDate": "2015-07-08T08:58:29.6571423+08:00",
+  "WebId": "59dac745-e136-4ec4-f3cd-73665ecbd5de"
+}

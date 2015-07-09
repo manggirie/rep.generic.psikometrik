@@ -1,0 +1,11 @@
+{
+  "$type": "Bespoke.epsikologi_programlookup.Domain.ProgramLookup, epsikologi.ProgramLookup",
+  "ProgramNo": "018",
+  "NamaProgram": "PROGRAM PENEMPATAN PEMBANTU TADBIR KESETIAUSAHAAN N17",
+  "CreatedBy": "admin",
+  "Id": "program-penempatan-pembantu-tadbir-kesetiausahaan-",
+  "CreatedDate": "2015-06-04T12:15:47.4778936+08:00",
+  "ChangedBy": "admin",
+  "ChangedDate": "2015-06-04T12:15:47.4778936+08:00",
+  "WebId": "52c37e86-fbfb-4a4a-b975-bfe85eae7885"
+}
