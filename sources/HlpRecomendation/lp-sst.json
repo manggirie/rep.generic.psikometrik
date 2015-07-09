@@ -1,0 +1,13 @@
+{
+  "$type": "Bespoke.epsikologi_hlprecomendation.Domain.HlpRecomendation, epsikologi.HlpRecomendation",
+  "No": "lp-sst",
+  "Tret": "LP",
+  "Text": "Boleh meluahkan perasaan dan boleh berkongsi kegembiraan atau kesedihan dengan orang lain.",
+  "Skor": "Skor Sederhana Tinggi",
+  "CreatedBy": "urusetia1",
+  "Id": "lp-sst",
+  "CreatedDate": "2015-07-08T12:41:04.5851482+08:00",
+  "ChangedBy": "urusetia1",
+  "ChangedDate": "2015-07-08T12:41:04.5821456+08:00",
+  "WebId": "8e69cf51-3677-4f54-9b35-7beecaf165a2"
+}

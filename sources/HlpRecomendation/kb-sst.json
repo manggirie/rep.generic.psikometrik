@@ -1,0 +1,13 @@
+{
+  "$type": "Bespoke.epsikologi_hlprecomendation.Domain.HlpRecomendation, epsikologi.HlpRecomendation",
+  "No": "kb-sst",
+  "Tret": "KB",
+  "Text": "Jawapan agak konsisten dengan sedikit ketidaktepatan tafsiran laporan.",
+  "Skor": "Skor Sederhana Tinggi",
+  "CreatedBy": "urusetia",
+  "Id": "kb-sst",
+  "CreatedDate": "2015-07-08T11:02:43.8140016+08:00",
+  "ChangedBy": "urusetia",
+  "ChangedDate": "2015-07-08T11:02:43.7919991+08:00",
+  "WebId": "2349dc66-672e-4f0a-ad17-d7ff48625cc8"
+}

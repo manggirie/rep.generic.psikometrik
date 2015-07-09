@@ -1,0 +1,13 @@
+{
+  "$type": "Bespoke.epsikologi_hlprecomendation.Domain.HlpRecomendation, epsikologi.HlpRecomendation",
+  "No": "kc-sr",
+  "Tret": "KC",
+  "Text": "Kemurungan yang tinggi dengan simptom seperti kesedihan dan  tiada semangat.  ",
+  "Skor": "Skor Rendah",
+  "CreatedBy": "urusetia1",
+  "Id": "kc-sr",
+  "CreatedDate": "2015-07-08T12:32:56.946761+08:00",
+  "ChangedBy": "urusetia1",
+  "ChangedDate": "2015-07-08T12:32:56.9432583+08:00",
+  "WebId": "48303947-5cd2-4333-bec0-6a1bc5f30261"
+}

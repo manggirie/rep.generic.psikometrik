@@ -1,0 +1,13 @@
+{
+  "$type": "Bespoke.epsikologi_hlprecomendation.Domain.HlpRecomendation, epsikologi.HlpRecomendation",
+  "No": "as-sst",
+  "Tret": "AS",
+  "Text": "Bersikap aktif, suka berbicara dan meluangkan masa bersama orang lain.",
+  "Skor": "Skor Sederhana Tinggi",
+  "CreatedBy": "urusetia1",
+  "Id": "as-sst",
+  "CreatedDate": "2015-07-08T12:47:34.0438099+08:00",
+  "ChangedBy": "urusetia1",
+  "ChangedDate": "2015-07-08T12:47:34.0378061+08:00",
+  "WebId": "cbe6ee5e-43f8-4e4c-fdce-784814faccab"
+}

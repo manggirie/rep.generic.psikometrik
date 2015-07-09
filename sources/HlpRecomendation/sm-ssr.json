@@ -1,0 +1,13 @@
+{
+  "$type": "Bespoke.epsikologi_hlprecomendation.Domain.HlpRecomendation, epsikologi.HlpRecomendation",
+  "No": "sm-ssr",
+  "Tret": "SM",
+  "Text": "Bersikap kurang prihatin kepada keperluan, kebajikan dan perasaan orang lain serta agak mementingkan diri.  ",
+  "Skor": "Skor Sederhana Rendah",
+  "CreatedBy": "urusetia1",
+  "Id": "sm-ssr",
+  "CreatedDate": "2015-07-08T12:43:33.7184777+08:00",
+  "ChangedBy": "urusetia1",
+  "ChangedDate": "2015-07-08T12:43:33.7144758+08:00",
+  "WebId": "0c247a59-b233-4f7e-ed4e-778b7ed18365"
+}

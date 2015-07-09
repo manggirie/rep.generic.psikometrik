@@ -37,6 +37,9 @@ namespace web.sph.App_Code
             ObjectBuilder.AddCacheList<IRepository<Bespoke.epsikologi_skorhlp.Domain.SkorHlp>>(
                     new Bespoke.Sph.SqlRepository.SqlRepository<Bespoke.epsikologi_skorhlp.Domain.SkorHlp>());
 
+            ObjectBuilder.AddCacheList<IRepository<Bespoke.epsikologi_hlprecomendation.Domain.HlpRecomendation>>(
+                    new Bespoke.Sph.SqlRepository.SqlRepository<Bespoke.epsikologi_hlprecomendation.Domain.HlpRecomendation>());
+
     	}
     }
 }

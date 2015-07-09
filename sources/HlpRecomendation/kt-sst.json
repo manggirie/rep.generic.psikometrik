@@ -1,0 +1,13 @@
+{
+  "$type": "Bespoke.epsikologi_hlprecomendation.Domain.HlpRecomendation, epsikologi.HlpRecomendation",
+  "No": "kt-sst",
+  "Tret": "KT",
+  "Text": "Ketenangan sederhana dan kurang permasalahan yang mengganggu fikiran",
+  "Skor": "Skor Sederhana Tinggi",
+  "CreatedBy": "urusetia1",
+  "Id": "kt-sst",
+  "CreatedDate": "2015-07-08T12:24:51.4749035+08:00",
+  "ChangedBy": "urusetia1",
+  "ChangedDate": "2015-07-08T13:04:06.9375811+08:00",
+  "WebId": "97f38c55-566c-47c4-b814-0eae499f32b3"
+}

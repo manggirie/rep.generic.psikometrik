@@ -1,0 +1,11 @@
+{
+  "$type": "Bespoke.epsikologi_programlookup.Domain.ProgramLookup, epsikologi.ProgramLookup",
+  "ProgramNo": "020",
+  "NamaProgram": "KURSUS PENILAIAN TAHAP KECEKAPAN PTK6",
+  "CreatedBy": "admin",
+  "Id": "kursus-penilaian-tahap-kecekapan-ptk6",
+  "CreatedDate": "2015-06-04T12:15:47.4778936+08:00",
+  "ChangedBy": "admin",
+  "ChangedDate": "2015-06-04T12:15:47.4778936+08:00",
+  "WebId": "27fd4648-e051-45fd-8a59-fbb6743b49b0"
+}

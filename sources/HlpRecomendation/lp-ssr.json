@@ -1,0 +1,13 @@
+{
+  "$type": "Bespoke.epsikologi_hlprecomendation.Domain.HlpRecomendation, epsikologi.HlpRecomendation",
+  "No": "lp-ssr",
+  "Tret": "LP",
+  "Text": "Suka memendam perasaan dan mungkin mempunyai konflik interpersonal yang belum diselesaikan.",
+  "Skor": "Skor Sederhana Rendah",
+  "CreatedBy": "urusetia1",
+  "Id": "lp-ssr",
+  "CreatedDate": "2015-07-08T12:39:38.196312+08:00",
+  "ChangedBy": "urusetia1",
+  "ChangedDate": "2015-07-08T12:40:07.6221636+08:00",
+  "WebId": "cc9d9563-7bec-4b9c-cfcc-d9d04349ae98"
+}

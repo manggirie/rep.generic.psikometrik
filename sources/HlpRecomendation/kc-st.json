@@ -1,0 +1,13 @@
+{
+  "$type": "Bespoke.epsikologi_hlprecomendation.Domain.HlpRecomendation, epsikologi.HlpRecomendation",
+  "No": "kc-st",
+  "Tret": "KC",
+  "Text": "Keceriaan yang tinggi dan boleh mengatasi permasalahan dengan baik.",
+  "Skor": "Skor Tinggi",
+  "CreatedBy": "urusetia1",
+  "Id": "kc-st",
+  "CreatedDate": "2015-07-08T12:37:10.8108707+08:00",
+  "ChangedBy": "urusetia1",
+  "ChangedDate": "2015-07-08T12:37:10.8073684+08:00",
+  "WebId": "299b5a82-0821-451e-9a5e-dd8a23ac24d9"
+}

@@ -1,0 +1,11 @@
+{
+  "$type": "Bespoke.epsikologi_programlookup.Domain.ProgramLookup, epsikologi.ProgramLookup",
+  "ProgramNo": "078",
+  "NamaProgram": "CALON UJIAN PSIKOLOGI",
+  "CreatedBy": "admin",
+  "Id": "calon-ujian-psikologi",
+  "CreatedDate": "2015-06-04T12:15:48.7793516+08:00",
+  "ChangedBy": "admin",
+  "ChangedDate": "2015-06-04T12:15:48.7753514+08:00",
+  "WebId": "9f6f26a5-fd96-408a-8290-f2eab8a74afd"
+}

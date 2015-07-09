@@ -1,0 +1,11 @@
+{
+  "$type": "Bespoke.epsikologi_programlookup.Domain.ProgramLookup, epsikologi.ProgramLookup",
+  "ProgramNo": "103",
+  "NamaProgram": "KURSUS ASAS PEGAWAI  ",
+  "CreatedBy": "admin",
+  "Id": "kursus-asas-pegawai-",
+  "CreatedDate": "2015-06-04T12:16:42.2663807+08:00",
+  "ChangedBy": "admin",
+  "ChangedDate": "2015-06-04T12:16:42.2507806+08:00",
+  "WebId": "394cad12-4402-4e13-9187-fae2e234345b"
+}

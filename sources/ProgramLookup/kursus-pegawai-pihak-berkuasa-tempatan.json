@@ -1,0 +1,11 @@
+{
+  "$type": "Bespoke.epsikologi_programlookup.Domain.ProgramLookup, epsikologi.ProgramLookup",
+  "ProgramNo": "019",
+  "NamaProgram": "KURSUS PEGAWAI PIHAK BERKUASA TEMPATAN",
+  "CreatedBy": "admin",
+  "Id": "kursus-pegawai-pihak-berkuasa-tempatan",
+  "CreatedDate": "2015-06-04T12:15:47.4778936+08:00",
+  "ChangedBy": "admin",
+  "ChangedDate": "2015-06-04T12:15:47.4778936+08:00",
+  "WebId": "ce9c9232-0bdd-4d93-adfa-b6a9e39149cf"
+}

@@ -1,0 +1,25 @@
+{
+  "$type": "Bespoke.Sph.Domain.EntityChart, domain.sph",
+  "SeriesCollection": {
+    "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.Sph.Domain.Series, domain.sph]], domain.sph",
+    "$values": []
+  },
+  "EntityDefinitionId": "hlprecomendation",
+  "Entity": "HlpRecomendation",
+  "Name": "ikut skor",
+  "Type": "pie",
+  "EntityViewId": "3aa1f4d1-a69b-4baf-818f-9711a7088aa1",
+  "Query": "{\"query\":{\"filtered\":{\"filter\":{\"bool\":{\"must\":[],\"must_not\":[]}}}},\"sort\":[],\"aggs\":{\"category\":{\"terms\":{\"field\":\"Skor\",\"size\":0}}},\"from\":0,\"size\":20}",
+  "Aggregate": "term",
+  "Field": "Skor",
+  "DateInterval": "year",
+  "IsDashboardItem": true,
+  "DasboardItemPosition": 0,
+  "HistogramInterval": null,
+  "CreatedBy": "admin",
+  "Id": "3aa1f4d1-a69b-4baf-818f-9711a7088aa1-ikut-skor",
+  "CreatedDate": "2015-07-09T07:20:55.3068759+08:00",
+  "ChangedBy": "admin",
+  "ChangedDate": "2015-07-09T07:20:55.3068759+08:00",
+  "WebId": "70c4f05b-1815-44cb-8d78-876fcfa08efd"
+}

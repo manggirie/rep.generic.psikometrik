@@ -16,26 +16,30 @@ using Newtonsoft.Json.Schema;
 
 namespace web.sph.App_Code
 {
+    public class HlpResult
+    {
+      public string Skor { get; set; }
+      public int? Percentile { get; set; }
+      public string Tret { get; set; }
+      public string Recommendation { get; set; }
+      public int Point { get; set; }
+    }
     public class HlpTraitViewModel
     {
-      public const string SkorSederhanaRendah = "Skor Sederhana Rendah";
-      public const string SkorRendah = "Skor Rendah";
-      public const string SkorSederhanaTinggi = "Skor Sederhana Tinggi";
-      public const string SkorTinggi = "Skor Tinggi";
 
       private Bespoke.epsikologi_sesiujian.Domain.SesiUjian m_sesi;
       private Bespoke.epsikologi_pengguna.Domain.Pengguna m_pengguna;
       private Bespoke.epsikologi_skorhlp.Domain.SkorHlp[] m_scoreTables;
+      private Bespoke.epsikologi_hlprecomendation.Domain.HlpRecomendation[] m_recommendations;
 
-      public HlpTraitViewModel(Bespoke.epsikologi_sesiujian.Domain.SesiUjian sesi, Bespoke.epsikologi_pengguna.Domain.Pengguna pengguna, Bespoke.epsikologi_skorhlp.Domain.SkorHlp[] scoreTables)
+      public HlpTraitViewModel(Bespoke.epsikologi_sesiujian.Domain.SesiUjian sesi,
+        Bespoke.epsikologi_pengguna.Domain.Pengguna pengguna, Bespoke.epsikologi_skorhlp.Domain.SkorHlp[] scoreTables,
+        Bespoke.epsikologi_hlprecomendation.Domain.HlpRecomendation[] recommendations)
       {
-        // Skor Rendah
-        // Skor Sederhana Rendah
-        // Skor Sedarhana Tinggi
-        // Skor Tinggi
           m_sesi = sesi;
           m_pengguna = pengguna;
           m_scoreTables = scoreTables;
+          m_recommendations = recommendations;
       }
 
       public override string ToString()
@@ -51,76 +55,82 @@ namespace web.sph.App_Code
       [JsonIgnore]
       public Bespoke.epsikologi_sesiujian.Domain.SesiUjian Sesi { get{ return m_sesi;} }
 
-      public int KB { get{ return m_sesi.JawapanCollection.Where(a => a.Trait == "KB").Sum(a => a.Nilai); } }
-      public int FR { get{ return m_sesi.JawapanCollection.Where(a => a.Trait == "FR").Sum(a => a.Nilai); } }
-      public int KT { get{ return m_sesi.JawapanCollection.Where(a => a.Trait == "KT").Sum(a => a.Nilai); } }
-      public int KC { get{ return m_sesi.JawapanCollection.Where(a => a.Trait == "KC").Sum(a => a.Nilai); } }
-      public int LP { get{ return m_sesi.JawapanCollection.Where(a => a.Trait == "LP").Sum(a => a.Nilai); } }
-      public int AS { get{ return m_sesi.JawapanCollection.Where(a => a.Trait == "AS").Sum(a => a.Nilai); } }
-      public int AF { get{ return m_sesi.JawapanCollection.Where(a => a.Trait == "AF").Sum(a => a.Nilai); } }
-      public int TL { get{ return m_sesi.JawapanCollection.Where(a => a.Trait == "TL").Sum(a => a.Nilai); } }
-      public int SM { get{ return m_sesi.JawapanCollection.Where(a => a.Trait == "SM").Sum(a => a.Nilai); } }
-      public int DT { get{ return m_sesi.JawapanCollection.Where(a => a.Trait == "DT").Sum(a => a.Nilai); } }
 
-      public string KBScore
+
+      public HlpResult FR { get { return ComputeResult("FR"); } }
+      public HlpResult KT { get { return ComputeResult("KT"); } }
+      public HlpResult KC { get { return ComputeResult("KC"); } }
+      public HlpResult LP { get { return ComputeResult("LP"); } }
+      public HlpResult DT { get { return ComputeResult("DT"); } }
+      public HlpResult SM { get { return ComputeResult("SM"); } }
+      public HlpResult TL { get { return ComputeResult("TL"); } }
+      public HlpResult AF { get { return ComputeResult("AF"); } }
+      public HlpResult AS { get { return ComputeResult("AS"); } }
+
+
+
+      public HlpResult KB
       {
         get
         {
-          var score = m_scoreTables.Single(x => x.Tret == "KB" && KB >= x.NilaiMin && KB <= x.NilaiMax);
-          return score.Skor;
-        }
-      }
-
-      public string KBRecommendation
-      {
-        get
-        {
-            switch (KBScore)
-            {
-              case SkorRendah: return "Jawapan tidak konsisten dan tafsiran laporan tidak tepat.";
-              case SkorSederhanaRendah : return "Jawapan kurang konsisten dan tafsiran laporan kurang tepat.";
-              case SkorSederhanaTinggi : return "Jawapan agak konsisten dengan sedikit ketidaktepatan tafsiran laporan.";
-              case SkorTinggi : return "Jawapan konsisten dan tafsiran laporan boleh diterima.";
-              default: throw new InvalidOperationException("We did not exped for KB to be " + KB);
-            }
-        }
-      }
-
-      public string BerfikiranRasional
-      {
-        get
-        {
-          if(m_pengguna.Jantina == "Lelaki")
-          {
-            if(FR >= 18 && FR <= 40) return SkorRendah;
-            if(FR >= 13 && FR <= 17) return SkorSederhanaRendah;
-            if(FR >= 8 && FR <= 12) return SkorSederhanaTinggi;
-            if(FR >= 0 && FR <= 7) return SkorTinggi;
-            throw new Exception("Cannot calculate FR Lelaki  : " + FR);
-          }
-
-          if(FR >= 21 && FR <= 40) return SkorRendah;
-          if(FR >= 15 && FR <= 20) return SkorSederhanaRendah;
-          if(FR >= 10 && FR <= 14) return SkorSederhanaTinggi;
-          if(FR >= 0 && FR <= 9) return SkorTinggi;
-          throw new Exception("Cannot calculate FR Perempuan : " + FR);
+          return ComputeResultNoJantina("KB");
 
         }
       }
 
-      public string BerfikiranRasionalText
+
+      private HlpResult ComputeResult(string TRET)
       {
-        get
-        {
-            switch (BerfikiranRasional)
-            {
-              case SkorRendah: return "Sangat sukar berfikir secara rasional atau membuat tindakan yang tepat apabila mengalami konflik yang mengganggu fikiran atau perasaan.";
-              case SkorSederhanaRendah : return "Sukar berfikir secara rasional atau membuat tindakan yang tepat apabila mengalami konflik yang mengganggu fikiran atau perasaan.";
-              case SkorSederhanaTinggi : return "Bersikap dan berfikiran rasional apabila membuat keputusan walaupun mengalami tekanan perasaan.";
-              case SkorTinggi : return "Bersikap dan berfikiran sangat rasional apabila membuat keputusan walaupun mengalami tekanan perasaan.";
-              default: throw new InvalidOperationException("We did not exped for KB to be " + KB);
-            }
-        }
+          var point = m_sesi.JawapanCollection.Where(a => a.Trait == TRET).Sum(a => a.Nilai);
+          var list =  m_scoreTables
+                        .Where(x => x.Jantina == m_pengguna.Jantina)
+                        .Where(x => x.Tret == TRET && point >= x.NilaiMin && point <= x.NilaiMax)
+                        .ToList();
+          if(list.Count != 1)
+            throw new Exception("Overlap score tables " + string.Join(";", list.Select(x => x.Id).ToArray()) + " -> Tret :" + TRET + " Point : " + point + " Jantina :" + m_pengguna.Jantina);
+
+          var percent =  m_scoreTables
+                          .Where(x => x.Jantina == m_pengguna.Jantina)
+                          .Single(x => x.Tret == TRET && point >= x.NilaiMin && point <= x.NilaiMax)
+                          .Percentile;
+          var score = m_scoreTables.Where(x => x.Tret == TRET)
+                        .Where(x => point >= x.NilaiMin && point <= x.NilaiMax)
+                        .Where(x => x.Jantina == m_pengguna.Jantina)
+                        .Select(x => x.Skor).Single();
+          var result = new HlpResult
+                    {
+                        Tret = TRET,
+                        Skor = score ,
+                        Percentile = percent,
+                        Point = point
+                    };
+          result.Recommendation = m_recommendations.Where(x => x.Tret == TRET && x.Skor == result.Skor)
+                  .Select(x => x.Text)
+                  .SingleOrDefault();
+          return result;
+      }
+
+
+      private HlpResult ComputeResultNoJantina(string TRET)
+      {
+          var point = m_sesi.JawapanCollection.Where(a => a.Trait == TRET).Sum(a => a.Nilai);
+          var percent =  m_scoreTables
+                          .Single(x => x.Tret == TRET && point >= x.NilaiMin && point <= x.NilaiMax)
+                          .Percentile;
+          var score = m_scoreTables.Where(x => x.Tret == TRET)
+                        .Where(x => point >= x.NilaiMin && point <= x.NilaiMax)
+                        .Select(x => x.Skor).Single();
+          var result = new HlpResult
+                    {
+                        Tret = TRET,
+                        Skor = score ,
+                        Percentile = percent,
+                        Point = point
+                    };
+          result.Recommendation = m_recommendations.Where(x => x.Tret == TRET && x.Skor == result.Skor)
+                  .Select(x => x.Text)
+                  .SingleOrDefault();
+          return result;
       }
 
 

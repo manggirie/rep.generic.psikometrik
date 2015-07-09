@@ -1,0 +1,11 @@
+{
+  "$type": "Bespoke.epsikologi_programlookup.Domain.ProgramLookup, epsikologi.ProgramLookup",
+  "ProgramNo": "034",
+  "NamaProgram": "PROGRAM PENEMPATAN PEGAWAI TADBIR",
+  "CreatedBy": "admin",
+  "Id": "program-penempatan-pegawai-tadbir",
+  "CreatedDate": "2015-06-04T12:15:47.4934937+08:00",
+  "ChangedBy": "admin",
+  "ChangedDate": "2015-06-04T12:15:47.4934937+08:00",
+  "WebId": "847cfe5a-7c7d-44a2-838f-0263e83cdfca"
+}
