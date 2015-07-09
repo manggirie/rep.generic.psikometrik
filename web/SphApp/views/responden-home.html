@@ -1,13 +1,13 @@
 <h1>Selamat Datang Ke Psikologi</h1>
 <div class="row">
-    <h2>Senarai Program Anda</h2>
+    <h3>Senarai Program Anda</h3>
 
 
     <ul class="list-group" data-bind="foreach :registrationList">
         <li class="list-group-item">
              <h4 class="list-group-item-heading" data-bind="text: NoPermohonan"></h4>
              <p>
-               Mula : <strong data-bind="date: tarikhMula"></strong>
+               Mula : <strong data-bind="date:tarikhMula"></strong>
              </p>
              <p>
                Tamat : <strong data-bind="date: tarikhTamat"></strong>
@@ -25,8 +25,8 @@
     </div>
 
 </div>
-<div class="row">
-    <h2>Senarai Ujian Yang Belum Ambil</h2>
+<div class="row" data-bind="visible: ko.unwrap(testList).length > 0">
+    <h3>Senarai Ujian Yang Belum Ambil</h3>
     <!-- ko foreach : testList -->
     <div class="alert alert-info" data-bind="css : {'alert-warning' : ko.unwrap(Lock) < 3 && ko.unwrap(Lock) > 0,'alert-danger' : ko.unwrap(Lock) === 3}">
         <a class="alert-link" href="#mula-sesi-ujian" data-bind="click: $root.mulaSesiUjian">

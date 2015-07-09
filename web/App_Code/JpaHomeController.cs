@@ -3,6 +3,7 @@ using System.Web.Mvc;
 
 namespace web.sph.App_Code
 {
+    [Authorize]
     [RoutePrefix("epsikologi")]
     public class JpaHomeController : Controller
     {

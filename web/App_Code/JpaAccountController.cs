@@ -11,11 +11,9 @@ namespace web.sph.App_Code
     [RoutePrefix("jpa-account")]
     public class JpaAccountController : Controller
     {
-
-
-    	[Authorize]
-    	[HttpPost]
-    	[Route("profile")]
+      	[Authorize]
+      	[HttpPost]
+      	[Route("profile")]
         public async Task<ActionResult> UpdateUser(UserProfile profile)
         {
             var context = new SphDataContext();
