@@ -5,39 +5,36 @@
     "$values": [
       {
         "$type": "Bespoke.Sph.Domain.Filter, domain.sph",
-        "Term": "NamaJabatan",
+        "Term": "MyKad",
         "Operator": "Eq",
         "Field": {
           "$type": "Bespoke.Sph.Domain.JavascriptExpressionField, domain.sph",
-          "Expression": "ko.unwrap(config.namaJabatan)",
-          "Name": "jabatan",
+          "Expression": "mykad",
+          "Name": "mykad",
           "Note": "",
-          "WebId": "bbedc84e-bf85-4a44-ae03-7d849c9e08e7"
+          "WebId": "1b6d1906-056a-4560-9029-207e79e1e9e8"
         },
-        "WebId": "db5058d3-8fbc-4d8e-ef0d-524b6fe5ea9d"
+        "WebId": "b9996987-b697-41a8-b14e-e7d06359946a"
+      },
+      {
+        "$type": "Bespoke.Sph.Domain.Filter, domain.sph",
+        "Term": "Status",
+        "Operator": "Eq",
+        "Field": {
+          "$type": "Bespoke.Sph.Domain.ConstantField, domain.sph",
+          "TypeName": "System.String, mscorlib",
+          "Value": "Diambil",
+          "Name": "Diambil",
+          "Note": "",
+          "WebId": "98a04083-7026-432f-b132-1f496bfcf270"
+        },
+        "WebId": "a648a805-e565-4a10-f642-0cf8f9ac2498"
       }
     ]
   },
   "ViewColumnCollection": {
     "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.Sph.Domain.ViewColumn, domain.sph]], domain.sph",
     "$values": [
-      {
-        "$type": "Bespoke.Sph.Domain.ViewColumn, domain.sph",
-        "ConditionalFormattingCollection": {
-          "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.Sph.Domain.ConditionalFormatting, domain.sph]], domain.sph",
-          "$values": []
-        },
-        "Path": "Nama",
-        "Header": "Nama",
-        "Sort": "",
-        "IsLinkColumn": true,
-        "FormRoute": "tambah-pengguna",
-        "IconCssClass": "fa fa-edit",
-        "IconStoreId": "",
-        "Format": "text:{0}",
-        "RouteValueField": "Id",
-        "WebId": "826afc1f-885a-48a0-b1fe-3c11f1f6aafc"
-      },
       {
         "$type": "Bespoke.Sph.Domain.ViewColumn, domain.sph",
         "ConditionalFormattingCollection": {
@@ -53,7 +50,7 @@
         "IconStoreId": "",
         "Format": "text:{0}",
         "RouteValueField": "",
-        "WebId": "43d08f6b-f40f-4314-8e02-c3ed7acc78bc"
+        "WebId": "ae9cc5bd-5aaa-451b-d5ca-7fc8c6779d5c"
       },
       {
         "$type": "Bespoke.Sph.Domain.ViewColumn, domain.sph",
@@ -61,8 +58,8 @@
           "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.Sph.Domain.ConditionalFormatting, domain.sph]], domain.sph",
           "$values": []
         },
-        "Path": "Gred",
-        "Header": "Gred",
+        "Path": "NamaPengguna",
+        "Header": "Nama Pengguna",
         "Sort": "",
         "IsLinkColumn": false,
         "FormRoute": null,
@@ -70,7 +67,7 @@
         "IconStoreId": "",
         "Format": "text:{0}",
         "RouteValueField": "",
-        "WebId": "89590476-e441-4a1f-daf7-9a71303ced55"
+        "WebId": "97970628-675c-4e1f-b900-8459f32fc5ca"
       },
       {
         "$type": "Bespoke.Sph.Domain.ViewColumn, domain.sph",
@@ -78,8 +75,8 @@
           "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.Sph.Domain.ConditionalFormatting, domain.sph]], domain.sph",
           "$values": []
         },
-        "Path": "Pekerjaan",
-        "Header": "Pekerjaan",
+        "Path": "NamaUjian",
+        "Header": "Nama Ujian",
         "Sort": "",
         "IsLinkColumn": false,
         "FormRoute": null,
@@ -87,7 +84,7 @@
         "IconStoreId": "",
         "Format": "text:{0}",
         "RouteValueField": "",
-        "WebId": "53702292-980f-4719-b1fb-71165d3e6fab"
+        "WebId": "6f03039d-181d-4cbb-9430-adfe76accce0"
       },
       {
         "$type": "Bespoke.Sph.Domain.ViewColumn, domain.sph",
@@ -95,8 +92,8 @@
           "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.Sph.Domain.ConditionalFormatting, domain.sph]], domain.sph",
           "$values": []
         },
-        "Path": "Emel",
-        "Header": "Emel",
+        "Path": "TarikhUjian",
+        "Header": "Tarikh Ujian",
         "Sort": "",
         "IsLinkColumn": false,
         "FormRoute": null,
@@ -104,7 +101,7 @@
         "IconStoreId": "",
         "Format": "text:{0}",
         "RouteValueField": "",
-        "WebId": "1510accb-795d-4779-b171-86d088da7d2d"
+        "WebId": "a210282e-5818-4eec-d694-850fff3e6f1e"
       },
       {
         "$type": "Bespoke.Sph.Domain.ViewColumn, domain.sph",
@@ -112,8 +109,8 @@
           "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.Sph.Domain.ConditionalFormatting, domain.sph]], domain.sph",
           "$values": []
         },
-        "Path": "NamaJabatan",
-        "Header": "Nama Jabatan",
+        "Path": "Status",
+        "Header": "Status",
         "Sort": "",
         "IsLinkColumn": false,
         "FormRoute": null,
@@ -121,7 +118,7 @@
         "IconStoreId": "",
         "Format": "text:{0}",
         "RouteValueField": "",
-        "WebId": "7a63b9c5-23fd-48c9-d665-3cf760775432"
+        "WebId": "802858de-3607-4404-dc2a-beb754d22872"
       },
       {
         "$type": "Bespoke.Sph.Domain.ViewColumn, domain.sph",
@@ -129,8 +126,8 @@
           "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.Sph.Domain.ConditionalFormatting, domain.sph]], domain.sph",
           "$values": []
         },
-        "Path": "NamaKementerian",
-        "Header": "Nama Kementerian",
+        "Path": "NamaProgram",
+        "Header": "Nama Program",
         "Sort": "",
         "IsLinkColumn": false,
         "FormRoute": null,
@@ -138,13 +135,37 @@
         "IconStoreId": "",
         "Format": "text:{0}",
         "RouteValueField": "",
-        "WebId": "cbeb43a5-143a-4a7d-9e24-9383c8299db3"
+        "WebId": "535b01a0-4d9e-4a27-a49a-18e81e99a159"
+      },
+      {
+        "$type": "Bespoke.Sph.Domain.ViewColumn, domain.sph",
+        "ConditionalFormattingCollection": {
+          "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.Sph.Domain.ConditionalFormatting, domain.sph]], domain.sph",
+          "$values": []
+        },
+        "Path": "'Laporan Individu'",
+        "Header": "Laporan  Individu",
+        "Sort": "",
+        "IsLinkColumn": true,
+        "FormRoute": "sesiujian-details",
+        "IconCssClass": "fa fa-desktop",
+        "IconStoreId": "",
+        "Format": "text:{0}",
+        "RouteValueField": "Id",
+        "WebId": "e4b809a7-ebc2-43a5-e715-e305bd35ea62"
       }
     ]
   },
   "SortCollection": {
     "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.Sph.Domain.Sort, domain.sph]], domain.sph",
-    "$values": []
+    "$values": [
+      {
+        "$type": "Bespoke.Sph.Domain.Sort, domain.sph",
+        "Path": "TarikhUjian",
+        "Direction": "Desc",
+        "WebId": "171037d7-d6e3-449f-f1d1-a805248b1b89"
+      }
+    ]
   },
   "ConditionalFormattingCollection": {
     "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.Sph.Domain.ConditionalFormatting, domain.sph]], domain.sph",
@@ -153,31 +174,38 @@
   "Performer": {
     "$type": "Bespoke.Sph.Domain.Performer, domain.sph",
     "UserProperty": "Roles",
-    "Value": "PengurusanPenggunaJabatan",
+    "Value": "JanaLaporan",
     "IsPublic": false,
     "WebId": null
   },
   "RouteParameterCollection": {
     "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.Sph.Domain.RouteParameter, domain.sph]], domain.sph",
-    "$values": []
+    "$values": [
+      {
+        "$type": "Bespoke.Sph.Domain.RouteParameter, domain.sph",
+        "Name": "mykad",
+        "Type": "string",
+        "WebId": "330e536f-01d8-46a9-8d4b-0bc1ed017bab"
+      }
+    ]
   },
   "IconClass": "",
-  "IconStoreId": "e6e5fc09-d31c-439d-bf0f-d16c0046c67a",
-  "EntityDefinitionId": "pengguna",
-  "Name": "Responden dari jabatan",
-  "Route": "responden-dari-jabatan",
-  "Note": "Jabatan",
+  "IconStoreId": "sph-img-list",
+  "EntityDefinitionId": "sesiujian",
+  "Name": "Sesi Ujian Responden",
+  "Route": "sesi-ujian-responden",
+  "Note": "",
   "Query": "",
   "IsPublished": true,
   "Visibilty": "",
-  "TileColour": "blightblue",
+  "TileColour": "bgreen",
   "CountMessage": "",
   "Entity": "",
-  "Partial": "partial/responden-dari-jabatan",
+  "Partial": "",
   "CreatedBy": "admin",
-  "Id": "pengguna-responden-dari-jabatan",
-  "CreatedDate": "2015-06-30T19:14:05.8002854+08:00",
+  "Id": "sesiujian-sesi-ujian-responden",
+  "CreatedDate": "2015-07-09T13:27:25.9079649+08:00",
   "ChangedBy": "admin",
-  "ChangedDate": "2015-07-09T11:21:06.8258281+08:00",
-  "WebId": "3c1c61c1-26e5-4ef4-88b6-cef7a33db674"
+  "ChangedDate": "2015-07-09T13:27:25.9079649+08:00",
+  "WebId": "2af01962-ff9f-440f-d516-d578ff3ef69c"
 }

@@ -64,7 +64,7 @@
                                  errors.removeAll();
 
                                   
-                                    app.showMessage("Permohonan sudah berjaya dihantar", "JPA Sistem Ujian e-Psikometrik", ["OK"])
+                                    app.showMessage("Permohonan Berjaya Dihantar", "JPA Sistem Ujian e-Psikometrik", ["OK"])
 	                                    .done(function () {
                                             window.location='#penyelaras-home'
 	                                    });
@@ -93,6 +93,11 @@
                                  entity().Id(result.id);
                                  errors.removeAll();
 
+                                  
+                                    app.showMessage("Permohonan program sudah dikemaskini", "JPA Sistem Ujian e-Psikometrik", ["OK"])
+	                                    .done(function () {
+                                            
+	                                    });
                                  
                              } else {
                                  errors.removeAll();
