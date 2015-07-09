@@ -18,9 +18,9 @@
                     var query = String.format("Id eq '{0}'", entityId),
                         tcs = new $.Deferred(),
                         itemTask = context.loadOneAsync("Soalan", query),
-                        formTask = context.loadOneAsync("EntityForm", "Route eq 'soalan-detail'"),
+                        formTask = context.loadOneAsync("EntityForm", "Route eq 'soalan-baru'"),
                         watcherTask = watcher.getIsWatchingAsync("Soalan", entityId),
-                        i18nTask = $.getJSON("i18n/" + config.lang + "/soalan-detail");
+                        i18nTask = $.getJSON("i18n/" + config.lang + "/soalan-baru");
 
                     $.when(itemTask, formTask, watcherTask, i18nTask).done(function(b,f,w,n) {
                         if (b) {
@@ -50,7 +50,7 @@
                 },
                 attached = function (view) {
                     // validation
-                    validation.init($('#soalan-detail-form'), form());
+                    validation.init($('#soalan-baru-form'), form());
 
 
                         
@@ -121,11 +121,7 @@
 
 
                 toolbar : {
-                                                        removeCommand :remove,
-                    canExecuteRemoveCommand : ko.computed(function(){
-                        return entity().Id();
-                    }),
-                                                                
+                                                                                                        
                     saveCommand : save,
                     
                     commands : ko.observableArray([])

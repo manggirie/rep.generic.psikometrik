@@ -126,7 +126,7 @@ define(["services/datacontext", "services/logger", "plugins/router", "services/c
                     });
             },
             attached = function (view) {
-                chart.init("SesiUjian", query, chartSeriesClick, "aeb226f9-128c-4571-8078-9da09e62e426");
+                chart.init("SesiUjian", query, chartSeriesClick, "sesiujians-all");
             },
             clearChartFilter = function(){
                 chartFiltered(false);

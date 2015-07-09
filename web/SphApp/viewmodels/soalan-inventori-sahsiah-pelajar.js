@@ -9,7 +9,7 @@
 /// <reference path="../../Scripts/bootstrap.js" />
 
 
-define(["services/datacontext", "services/logger", "plugins/router", "services/chart", objectbuilders.config , "partial/soalan-ujian-khas-biasiswa-persekutuan"],
+define(["services/datacontext", "services/logger", "plugins/router", "services/chart", objectbuilders.config , "partial/soalan-inventori-sahsiah-pelajar"],
     function (context, logger, router, chart,config , partial) {
 
         var isBusy = ko.observable(false),
@@ -33,7 +33,7 @@ define(["services/datacontext", "services/logger", "plugins/router", "services/c
                   "must": [
                                      {
                      "term":{
-                         "NamaUjian":"Ujian Khas Biasiswa Persekutuan(UKBP)"
+                         "NamaUjian":"Inventori Sahsiah Pelajar (ISP)"
                      }
                  }
 
@@ -46,6 +46,7 @@ define(["services/datacontext", "services/logger", "plugins/router", "services/c
                         }
                     },
                     "sort" : [{"SeksyenSoalan":{"order":"asc"}},
+{"Trait":{"order":"asc"}},
 {"Susunan":{"order":"asc"}}]
                 });
                 var edQuery = String.format("Name eq '{0}'", 'Soalan'),
@@ -141,7 +142,7 @@ define(["services/datacontext", "services/logger", "plugins/router", "services/c
                     });
             },
             attached = function (view) {
-                chart.init("Soalan", query, chartSeriesClick, "soalan-ujian-khas-biasiswa-persekutuan");
+                chart.init("Soalan", query, chartSeriesClick, "soalan-inventori-sahsiah-pelajar");
                     
                     if(typeof partial !== "undefined" && typeof partial.attached === "function"){
                         partial.attached(view);

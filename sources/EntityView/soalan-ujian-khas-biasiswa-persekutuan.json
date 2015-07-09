@@ -133,19 +133,13 @@
         "$type": "Bespoke.Sph.Domain.Sort, domain.sph",
         "Path": "SeksyenSoalan",
         "Direction": "Asc",
-        "WebId": "f182cb19-0957-4d3c-e732-899b7f3c95e9"
-      },
-      {
-        "$type": "Bespoke.Sph.Domain.Sort, domain.sph",
-        "Path": "Trait",
-        "Direction": "Asc",
-        "WebId": "4c410c1d-c967-4cf6-c543-880b3944662a"
+        "WebId": "7b54c72b-06ea-4a5f-cb0e-424d034d5747"
       },
       {
         "$type": "Bespoke.Sph.Domain.Sort, domain.sph",
         "Path": "Susunan",
         "Direction": "Asc",
-        "WebId": "b618a460-e46e-4665-9cf8-c1e037bef1ed"
+        "WebId": "e7f8d9fb-3f73-4b07-b53b-f232daa25725"
       }
     ]
   },
@@ -181,6 +175,6 @@
   "Id": "soalan-ujian-khas-biasiswa-persekutuan",
   "CreatedDate": "2015-06-22T11:34:46.1285512+08:00",
   "ChangedBy": "admin",
-  "ChangedDate": "2015-07-02T11:45:52.4841754+08:00",
+  "ChangedDate": "2015-07-07T12:38:51.0011927+08:00",
   "WebId": "38e6ae7a-002d-4780-d67c-faea94d5b459"
 }
