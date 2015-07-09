@@ -16,6 +16,7 @@ using Newtonsoft.Json.Schema;
 
 namespace web.sph.App_Code
 {
+    [Authorize(Roles="JanaLaporan")]
     [RoutePrefix("cetak-laporan")]
     public class PrintReportController : Controller
     {

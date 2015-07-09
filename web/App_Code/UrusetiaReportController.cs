@@ -11,6 +11,7 @@ using System.Diagnostics;
 
 namespace web.sph.App_Code
 {
+    [Authorize(Roles="JanaLaporan")]
     [RoutePrefix("urusetia-report")]
     public class UrusetiaReportController : Controller
     {
