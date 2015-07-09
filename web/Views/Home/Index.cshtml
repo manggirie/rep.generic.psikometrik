@@ -4,51 +4,288 @@
 
 <!DOCTYPE html>
 
-<html>
-<head>
-    <meta charset="utf-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge, chrome=1" />
-    <meta name="apple-mobile-web-app-capable" content="yes" />
-    <meta name="apple-mobile-web-app-status-bar-style" content="black" />
-    <meta name="format-detection" content="telephone=no" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="favicon.ico">
 
+    <title>Sistem Ujian Psikomterik</title>
 
-    <link href="/css/bootstrap.min.css" rel="stylesheet" />
-    <link href="/css/site.css" rel="stylesheet" />
-    <link href="/content/durandal.css" rel="stylesheet" />
-    <link href="/content/external/font-awesome.min.css" rel="stylesheet" />
-    <link href="/kendo/styles/kendo.common.css" rel="stylesheet" />
-    <link href="/kendo/styles/kendo.metro.css" rel="stylesheet" />
+    <!-- Bootstrap core CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
 
-    <meta name="description" content="The description of my page" />
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
 
-    <meta name="viewport" content="width=device-width" />
-    <title>Sistem Ujian Psikologi</title>
-</head>
-<body>
-    <div align="center">
-        <img src="/images/logo_bpps2.png" />
-        <img src="/images/brain.png">
-        <p>
-            <a href="/jpa-account/login" class="btn btn-primary">Log Masuk Sistem ePsikometrik</a>
-        </p>
+    <!-- Custom styles for this template -->
+    <link href="http://getbootstrap.com/examples/carousel/carousel.css" rel="stylesheet">
+  </head>
+<!-- NAVBAR
+================================================== -->
+  <body>
+    <div class="navbar-wrapper">
+      <div class="container">
+
+        <nav class="navbar navbar-inverse navbar-static-top">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              <a class="navbar-brand" href="#">ePsikometrik</a>
+            </div>
+            <div id="navbar" class="navbar-collapse collapse">
+              <ul class="nav navbar-nav">
+                <li class="active"><a href="#">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <li class="dropdown">
+                  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Dropdown <span class="caret"></span></a>
+                  <ul class="dropdown-menu">
+                    <li><a href="#">Action</a></li>
+                    <li><a href="#">Another action</a></li>
+                    <li><a href="#">Something else here</a></li>
+                    <li role="separator" class="divider"></li>
+                    <li class="dropdown-header">Nav header</li>
+                    <li><a href="#">Separated link</a></li>
+                    <li><a href="#">One more separated link</a></li>
+                  </ul>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+
+      </div>
     </div>
 
-    <div align="center" style="width:500px;text-align:center;margin-left:auto;margin-right:auto;">
-        <br />
-        <p>
-        ePsikometrik adalah satu bentuk sistem yang dibangunkan khas untuk kegunaan pegawai di Bahagian Pengurusan Psikologi(BPPs), Jabatan Perkhidmatan Awam Malaysia (JPA) bagi menyediakan set-set ujian Psikologi dalam pelbagai bentu yang perlu dijawab secara elektronik oleh individu-individu tertentu, memproses jawapan-jawapan ujian tersebut dengan menghasilkan keputusan berbentuk komen atau rumusan (interpretasi) berdasarkan kaedah penganalisaan jawapan dan seterusnya menghasilkan laporan berdasarkan kriteria yang dikehendaki pengguna.
-        </p>
-        <br/>
-        <p>
-        Keputusan ujian tersebut akan membantu sesebuah agensi kerajaan untuk menguruskan sumber manusia masing-masing dalam mengenal pasti kesesuaian setiap individu itu membuat pemilihan kerjaya mereka bermula dari proses pengambilan, penempatan, pembangunan kerjaya sehinggalah ke proses persaraan individu tersebut. Melalui sistem ini, proses pengenalpastian kriteria individu tersebut seterusnya penyesuaian kepada kerjaya yang dipilihnya dapat diproses dengan lebih cepat dan tepat berbanding dengan cara manual yang diamalkan sebelum ini.
-        </p>
-        <br/>
-        <p>Golongan sasaran yang boleh menggunakan sistem ini ialah pegawai perkhidmatan awam dan ahli keluarga terdekat (Termasuk agensi badan berkanun, pihak berkuasa tempatan, tentera dan polis), serta pelajar tajaan JPA.
-        </p>
-    </div>
 
-</body>
+    <!-- Carousel
+    ================================================== -->
+    <div id="myCarousel" class="carousel slide" data-ride="carousel">
+      <!-- Indicators -->
+      <ol class="carousel-indicators">
+        <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+        <li data-target="#myCarousel" data-slide-to="1"></li>
+        <li data-target="#myCarousel" data-slide-to="2"></li>
+      </ol>
+      <div class="carousel-inner" role="listbox">
+        <div class="item active">
+          <img class="first-slide" src="images/chartjs.png" alt="First slide">
+          <div class="container">
+            <div class="carousel-caption">
+              <h1>Sistem Ujian Psikometrik.</h1>
+              <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
+              <p><a class="btn btn-lg btn-primary" href="/jpa-account/login" role="button">Log Masuk</a></p>
+            </div>
+          </div>
+        </div>
+        <div class="item">
+          <img class="second-slide" src="images/29.jpg" alt="Second slide">
+          <div class="container">
+            <div class="carousel-caption">
+              <h1>Another example headline.</h1>
+              <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
+              <p><a class="btn btn-lg btn-primary" href="#" role="button">Learn more</a></p>
+            </div>
+          </div>
+        </div>
+        <div class="item">
+          <img class="third-slide" src="images/22.jpg" alt="Third slide">
+          <div class="container">
+            <div class="carousel-caption">
+              <h1>One more for good measure.</h1>
+              <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
+              <p><a class="btn btn-lg btn-danger" href="#" role="button">Browse gallery</a></p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+        <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+      </a>
+      <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+        <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+      </a>
+    </div><!-- /.carousel -->
+
+
+    <!-- Marketing messaging and featurettes
+    ================================================== -->
+    <!-- Wrap the rest of the page in another container to center all the content. -->
+
+    <div class="container marketing">
+
+      <!-- Three columns of text below the carousel -->
+      <div class="row">
+        <div class="col-lg-4">
+          <img class="img-circle" src="images/01.PNG" alt="Generic placeholder image" width="140" height="140">
+          <h2>Heading</h2>
+          <p>ePsikometrik adalah satu bentuk sistem yang dibangunkan khas untuk kegunaan pegawai di Bahagian Pengurusan Psikologi(BPPs), Jabatan Perkhidmatan Awam Malaysia (JPA) bagi menyediakan set-set ujian Psikologi dalam pelbagai bentu yang perlu dijawab secara elektronik oleh individu-individu tertentu, memproses jawapan-jawapan ujian tersebut dengan menghasilkan keputusan berbentuk komen atau rumusan (interpretasi) berdasarkan kaedah penganalisaan jawapan dan seterusnya menghasilkan laporan berdasarkan kriteria yang dikehendaki pengguna.</p>
+          <p><a class="btn btn-primary" href="#" role="button">View details &raquo;</a></p>
+        </div><!-- /.col-lg-4 -->
+        <div class="col-lg-4">
+          <img class="img-circle" src="images/02.PNG" alt="Generic placeholder image" width="140" height="140">
+          <h2>Heading</h2>
+          <p>Keputusan ujian tersebut akan membantu sesebuah agensi kerajaan untuk menguruskan sumber manusia masing-masing dalam mengenal pasti kesesuaian setiap individu itu membuat pemilihan kerjaya mereka bermula dari proses pengambilan, penempatan, pembangunan kerjaya sehinggalah ke proses persaraan individu tersebut. Melalui sistem ini, proses pengenalpastian kriteria individu tersebut seterusnya penyesuaian kepada kerjaya yang dipilihnya dapat diproses dengan lebih cepat dan tepat berbanding dengan cara manual yang diamalkan sebelum ini.</p>
+          <p><a class="btn btn-danger" href="#" role="button">View details &raquo;</a></p>
+        </div><!-- /.col-lg-4 -->
+        <div class="col-lg-4">
+          <img class="img-circle" src="images/03.PNG" alt="Generic placeholder image" width="140" height="140">
+          <h2>Heading</h2>
+          <p>Golongan sasaran yang boleh menggunakan sistem ini ialah pegawai perkhidmatan awam dan ahli keluarga terdekat (Termasuk agensi badan berkanun, pihak berkuasa tempatan, tentera dan polis), serta pelajar tajaan JPA.</p>
+          <button type="button" class="btn btn-success btn-lg" data-toggle="modal" data-target="#myModal">Sign In</button>
+        </div><!-- /.col-lg-4 -->
+      </div><!-- /.row -->
+
+
+      <!-- Button trigger modal -->
+      <!-- <button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal">
+        Sign In
+      </button> -->
+
+      <!-- Modal -->
+      <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+        <div class="modal-dialog" role="document">
+          <div class="modal-content">
+            <div class="modal-header">
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+              <h4 class="modal-title" id="myModalLabel">Sign in</h4>
+            </div>
+            <div class="modal-body">
+
+
+            <form class="form-signin">
+              <!-- <h2 class="form-signin-heading">Please sign in</h2> -->
+              <label for="inputEmail" class="sr-only">Username</label>
+              <input type="email" id="inputEmail" class="form-control" placeholder="Username" required autofocus>
+              <label for="inputPassword" class="sr-only">Password</label>
+              <input type="password" id="inputPassword" class="form-control" placeholder="Password" required>
+              <div class="checkbox">
+                <label>
+                  <input type="checkbox" value="remember-me"> Remember me
+                </label>
+              </div>
+              <button class="btn btn-lg btn-primary btn-block" type="submit">Sign in</button>
+              <button class="btn btn-lg btn-danger btn-block" type="submit">Forgot Password</button>
+            </form>
+
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- START THE FEATURETTES -->
+
+      <hr class="featurette-divider">
+
+      <div class="row featurette">
+        <div class="col-md-7">
+          <h2 class="featurette-heading">First featurette heading. <span class="text-muted">It'll blow your mind.</span></h2>
+          <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
+        </div>
+        <div class="col-md-5">
+          <img class="featurette-image img-responsive center-block" src="images/001.PNG" alt="Generic placeholder image">
+        </div>
+      </div>
+
+      <hr class="featurette-divider">
+
+      <div class="row featurette">
+        <div class="col-md-7 col-md-push-5">
+          <h2 class="featurette-heading">Yes, it's that good. <span class="text-muted">See for yourself.</span></h2>
+          <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
+        </div>
+        <div class="col-md-5 col-md-pull-7">
+          <img class="featurette-image img-responsive center-block" src="images/002.PNG" alt="Generic placeholder image">
+        </div>
+      </div>
+
+      <hr class="featurette-divider">
+
+      <div class="row featurette">
+        <div class="col-md-7">
+          <h2 class="featurette-heading">Yes, it's that good. <span class="text-muted">See for yourself.</span></h2>
+          <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
+        </div>
+        <div class="col-md-5">
+          <img class="featurette-image img-responsive center-block" src="images/003.PNG" alt="Generic placeholder image">
+        </div>
+      </div>
+
+      <hr class="featurette-divider">
+
+      <div class="row featurette">
+        <div class="col-md-7 col-md-push-5">
+          <h2 class="featurette-heading">Yes, it's that good. <span class="text-muted">See for yourself.</span></h2>
+          <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
+        </div>
+        <div class="col-md-5 col-md-pull-7">
+          <img class="featurette-image img-responsive center-block" src="images/004.PNG" alt="Generic placeholder image">
+        </div>
+      </div>
+
+      <hr class="featurette-divider">
+
+      <div class="row featurette">
+        <div class="col-md-7">
+          <h2 class="featurette-heading">Yes, it's that good. <span class="text-muted">See for yourself.</span></h2>
+          <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
+        </div>
+        <div class="col-md-5">
+          <img class="featurette-image img-responsive center-block" src="images/005.PNG" alt="Generic placeholder image">
+        </div>
+      </div>
+
+      <hr class="featurette-divider">
+
+      <div class="row featurette">
+        <div class="col-md-7 col-md-push-5">
+          <h2 class="featurette-heading">And lastly, this one. <span class="text-muted">Checkmate.</span></h2>
+          <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
+        </div>
+        <div class="col-md-5 col-md-pull-7">
+          <img class="featurette-image img-responsive center-block" src="images/006.PNG" alt="Generic placeholder image">
+        </div>
+      </div>
+
+      <hr class="featurette-divider">
+
+      <!-- /END THE FEATURETTES -->
+
+
+      <!-- FOOTER -->
+      <footer>
+        <p class="pull-right"><a href="#">Back to top</a></p>
+        <p>&copy; 2014 JPA. &middot; <a href="#">Privacy</a> &middot; <a href="#">Terms</a></p>
+      </footer>
+
+    </div><!-- /.container -->
+
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/holder/2.8.0/holder.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+  </body>
 </html>
