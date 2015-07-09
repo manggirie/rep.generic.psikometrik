@@ -1,0 +1,45 @@
+<h1>Sesi Ujian Responden</h1>
+<div class="row">
+    <div class="col-md-8">
+        <button class="btn btn-link pull-right" data-bind="visible: chartFiltered, click: clearChartFilter">
+            <i class="fa fa-times"></i>
+            Clear chart's filter
+        </button>
+        <table class="table table-striped" data-bind="filter : {path:'tbody>tr'}, searchPaging :{ query: query, map : map, entity : 'SesiUjian', list:list}">
+            <thead>
+                <tr>
+                    <th>My Kad</th>
+                    <th>Nama Pengguna</th>
+                    <th>Nama Ujian</th>
+                    <th>Tarikh Ujian</th>
+                    <th>Status</th>
+                    <th>Nama Program</th>
+                    <th>Laporan  Individu</th>
+                </tr>
+            </thead>
+            <tbody data-bind="foreach :list">
+                <tr data-bind="">
+
+                    <td data-bind="text:MyKad"></td>
+                    <td data-bind="text:NamaPengguna"></td>
+                    <td data-bind="text:NamaUjian"></td>
+                    <td data-bind="text:TarikhUjian"></td>
+                    <td data-bind="text:Status"></td>
+                    <td data-bind="text:NamaProgram"></td>
+                    <td>
+                        <a data-bind="attr : {href:'#sesiujian-details' + '/' + Id, title:'Laporan  Individu' }">
+                            <i class="fa fa-desktop"></i>
+                                                        <span data-bind="text:&#39;Laporan Individu&#39;"></span>
+                        </a>
+                    </td>
+
+
+                </tr>
+            </tbody>
+        </table>
+        <img src="/Images/spinner-md.gif" alt="loading" class="absolute-center" data-bind="visible: isBusy" />
+    </div>
+
+    <!-- ko compose : {view : '_chart.panel'}-->
+    <!-- /ko -->
+</div>
