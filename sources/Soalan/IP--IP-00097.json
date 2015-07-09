@@ -9,7 +9,7 @@
     "$values": [
       {
         "$type": "Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan",
-        "Teks": " a)\tmempunyai peraturan dan jadual, atau",
+        "Teks": "a)\tmempunyai peraturan dan jadual, atau",
         "Nilai": 1,
         "WebId": null
       },
@@ -29,6 +29,6 @@
   "Id": "IP--IP-00097",
   "CreatedDate": "2015-07-06T11:24:51.4280485+08:00",
   "ChangedBy": "admin",
-  "ChangedDate": "2015-07-06T11:24:51.4275484+08:00",
+  "ChangedDate": "2015-07-07T14:06:55.1894819+08:00",
   "WebId": "d377b3d5-cdd4-42c4-94be-6edaba0bbd34"
 }

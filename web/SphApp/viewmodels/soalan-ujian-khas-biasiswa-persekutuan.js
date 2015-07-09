@@ -46,7 +46,6 @@ define(["services/datacontext", "services/logger", "plugins/router", "services/c
                         }
                     },
                     "sort" : [{"SeksyenSoalan":{"order":"asc"}},
-{"Trait":{"order":"asc"}},
 {"Susunan":{"order":"asc"}}]
                 });
                 var edQuery = String.format("Name eq '{0}'", 'Soalan'),

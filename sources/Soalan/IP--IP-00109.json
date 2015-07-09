@@ -9,7 +9,7 @@
     "$values": [
       {
         "$type": "Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan",
-        "Teks": " a)\tmemikir dan menimbang dengan berhati-hati daripada secara spontan, atau",
+        "Teks": "a)\tmemikir dan menimbang dengan berhati-hati daripada secara spontan, atau",
         "Nilai": 1,
         "WebId": "07b371d0-6736-4567-9185-5b4d07868bed"
       },
@@ -29,6 +29,6 @@
   "Id": "IP--IP-00109",
   "CreatedDate": "2015-07-06T11:24:49.0433658+08:00",
   "ChangedBy": "admin",
-  "ChangedDate": "2015-07-06T11:24:49.0423651+08:00",
+  "ChangedDate": "2015-07-07T14:07:46.7814328+08:00",
   "WebId": "a33889ca-ea98-4c38-f538-b347431601b3"
 }

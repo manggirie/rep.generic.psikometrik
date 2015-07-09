@@ -10,18 +10,18 @@
       {
         "$type": "Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan",
         "Teks": "Ya",
-        "Nilai": 1,
+        "Nilai": 0,
         "WebId": null
       },
       {
         "$type": "Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan",
         "Teks": "Tidak",
-        "Nilai": 0,
+        "Nilai": 1,
         "WebId": null
       }
     ]
   },
-  "Trait": null,
+  "Trait": "PTL1",
   "NamaUjian": "Ujian Khas Biasiswa Persekutuan(UKBP)",
   "Susunan": 4.0,
   "Kategori": null,
@@ -29,6 +29,6 @@
   "Id": "UKBP-A-00004",
   "CreatedDate": "2015-07-06T11:24:53.7196665+08:00",
   "ChangedBy": "admin",
-  "ChangedDate": "2015-07-06T11:24:53.7191664+08:00",
+  "ChangedDate": "2015-07-07T12:26:38.1242745+08:00",
   "WebId": "72e69ee6-a1fd-4da0-be3c-a32576971416"
 }

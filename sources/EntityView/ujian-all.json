@@ -115,7 +115,7 @@
   "TileColour": "bgreen",
   "CountMessage": null,
   "Entity": "Ujian",
-  "Partial": null,
+  "Partial": "partial/ujian-all",
   "CreatedBy": "admin",
   "Id": "ujian-all",
   "CreatedDate": "2015-06-16T08:05:00.124309+08:00",

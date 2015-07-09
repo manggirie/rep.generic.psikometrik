@@ -2,7 +2,7 @@
   "$type": "Bespoke.epsikologi_soalan.Domain.Soalan, epsikologi.Soalan",
   "NoRujukan": "0468",
   "SoalanNo": "0468",
-  "TeksSoalan": "Membaca bahan penulisan saintifik.",
+  "TeksSoalan": "Membaca bahan penulisan saintifik..",
   "SeksyenSoalan": "1",
   "PilihanJawapanCollection": {
     "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan]], domain.sph",
@@ -29,6 +29,6 @@
   "Id": "IBK-1-0468",
   "CreatedDate": "2015-07-06T11:24:44.0953732+08:00",
   "ChangedBy": "admin",
-  "ChangedDate": "2015-07-06T11:24:44.0933722+08:00",
+  "ChangedDate": "2015-07-06T12:18:56.4475476+08:00",
   "WebId": "8196e92f-0796-4c55-a539-35e079d9c007"
 }
