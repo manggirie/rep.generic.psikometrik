@@ -36,10 +36,6 @@ namespace web.sph.App_Code
         Bespoke.epsikologi_pengguna.Domain.Pengguna pengguna, Bespoke.epsikologi_skorhlp.Domain.SkorHlp[] scoreTables,
         Bespoke.epsikologi_hlprecomendation.Domain.HlpRecomendation[] recommendations)
       {
-        // Skor Rendah
-        // Skor Sederhana Rendah
-        // Skor Sedarhana Tinggi
-        // Skor Tinggi
           m_sesi = sesi;
           m_pengguna = pengguna;
           m_scoreTables = scoreTables;
@@ -66,9 +62,9 @@ namespace web.sph.App_Code
       public HlpResult KC { get { return ComputeResult("KC"); } }
       public HlpResult LP { get { return ComputeResult("LP"); } }
       public HlpResult DT { get { return ComputeResult("DT"); } }
-      //public HlpResult SM { get { return ComputeResult("SM"); } }
+      public HlpResult SM { get { return ComputeResult("SM"); } }
       public HlpResult TL { get { return ComputeResult("TL"); } }
-      //public HlpResult AF { get { return ComputeResult("AF"); } }
+      public HlpResult AF { get { return ComputeResult("AF"); } }
       public HlpResult AS { get { return ComputeResult("AS"); } }
 
 
@@ -86,6 +82,13 @@ namespace web.sph.App_Code
       private HlpResult ComputeResult(string TRET)
       {
           var point = m_sesi.JawapanCollection.Where(a => a.Trait == TRET).Sum(a => a.Nilai);
+          var list =  m_scoreTables
+                        .Where(x => x.Jantina == m_pengguna.Jantina)
+                        .Where(x => x.Tret == TRET && point >= x.NilaiMin && point <= x.NilaiMax)
+                        .ToList();
+          if(list.Count != 1)
+            throw new Exception("Overlap score tables " + string.Join(";", list.Select(x => x.Id).ToArray()) + " -> Tret :" + TRET + " Point : " + point + " Jantina :" + m_pengguna.Jantina);
+
           var percent =  m_scoreTables
                           .Where(x => x.Jantina == m_pengguna.Jantina)
                           .Single(x => x.Tret == TRET && point >= x.NilaiMin && point <= x.NilaiMax)
