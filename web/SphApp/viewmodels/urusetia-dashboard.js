@@ -3,6 +3,7 @@ define(["services/datacontext", "services/logger", "plugins/router", objectbuild
         soalanChart = ko.observable(),
         ujianBelumAmbil = ko.observable(),
         programSemsa = ko.observable(),
+        respondenCount = ko.observable(),
         activate = function(){
 
             return context.loadOneAsync("EntityChart", "Id eq 'soalandetail-ujian-2'")
@@ -18,6 +19,8 @@ define(["services/datacontext", "services/logger", "plugins/router", objectbuild
               ujianBelumAmbil(result);
             });
             //
+            context.getCountAsync("Pengguna","IsResponden eq 1").done(respondenCount);
+            //
 
             var date = moment().format('YYYY-MM-DD HH:mm:ss');
             context.getCountAsync("Permohonan","TarikhTamat ge '" + date +"'").done(function(result){
@@ -31,6 +34,7 @@ define(["services/datacontext", "services/logger", "plugins/router", objectbuild
         soalanChart : soalanChart,
         ujianBelumAmbil:ujianBelumAmbil,
         programSemsa : programSemsa,
+        respondenCount  : respondenCount,
         attached : attached
     };
 
