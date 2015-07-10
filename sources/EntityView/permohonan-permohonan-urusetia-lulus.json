@@ -29,7 +29,7 @@
           "$values": []
         },
         "Path": "PermohonanNo",
-        "Header": "Jenis",
+        "Header": "Program",
         "Sort": "",
         "IsLinkColumn": true,
         "FormRoute": "permohonan-penyelaras",
@@ -116,12 +116,12 @@
         "Path": "sudahAmbil",
         "Header": "Sudah Ambil",
         "Sort": "",
-        "IsLinkColumn": false,
-        "FormRoute": null,
-        "IconCssClass": "",
+        "IsLinkColumn": true,
+        "FormRoute": "sesi-ujian-diambil-by-program",
+        "IconCssClass": "fa fa-list",
         "IconStoreId": "",
         "Format": "text:{0}",
-        "RouteValueField": "",
+        "RouteValueField": "encodeURIComponent(PermohonanNo)",
         "WebId": "17d55b1f-131f-4842-aced-424b762693e4"
       },
       {
@@ -179,6 +179,6 @@
   "Id": "permohonan-permohonan-urusetia-lulus",
   "CreatedDate": "2015-06-05T10:45:40.0585082+08:00",
   "ChangedBy": "admin",
-  "ChangedDate": "2015-07-11T07:02:22.8489597+08:00",
+  "ChangedDate": "2015-07-11T07:20:03.7911655+08:00",
   "WebId": "0264f91b-ffce-46cc-d40a-e6d3cadb6fac"
 }

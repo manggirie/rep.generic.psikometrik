@@ -5,12 +5,12 @@
     "$values": [
       {
         "$type": "Bespoke.Sph.Domain.Filter, domain.sph",
-        "Term": "MyKad",
+        "Term": "NamaProgram",
         "Operator": "Eq",
         "Field": {
           "$type": "Bespoke.Sph.Domain.JavascriptExpressionField, domain.sph",
-          "Expression": "mykad",
-          "Name": "mykad",
+          "Expression": "program",
+          "Name": "program",
           "Note": "",
           "WebId": "1b6d1906-056a-4560-9029-207e79e1e9e8"
         },
@@ -183,7 +183,7 @@
     "$values": [
       {
         "$type": "Bespoke.Sph.Domain.RouteParameter, domain.sph",
-        "Name": "mykad",
+        "Name": "program",
         "Type": "string",
         "WebId": "330e536f-01d8-46a9-8d4b-0bc1ed017bab"
       }
@@ -192,20 +192,20 @@
   "IconClass": "",
   "IconStoreId": "sph-img-list",
   "EntityDefinitionId": "sesiujian",
-  "Name": "Sesi Ujian Responden",
-  "Route": "sesi-ujian-responden",
-  "Note": "",
+  "Name": "Sesi Ujian Diambil Mengikut Program",
+  "Route": "sesi-ujian-diambil-by-program",
+  "Note": "Mengikut Program",
   "Query": "",
   "IsPublished": true,
   "Visibilty": "",
   "TileColour": "bgreen",
   "CountMessage": "",
   "Entity": "",
-  "Partial": "",
+  "Partial": "partial/sesi-ujian-diambil-by-program",
   "CreatedBy": "admin",
-  "Id": "sesiujian-sesi-ujian-responden",
+  "Id": "sesiujian-sesi-ujian-diambil-by-program",
   "CreatedDate": "2015-07-09T13:27:25.9079649+08:00",
   "ChangedBy": "admin",
-  "ChangedDate": "2015-07-11T07:21:27.2799817+08:00",
+  "ChangedDate": "2015-07-11T07:28:57.1639373+08:00",
   "WebId": "2af01962-ff9f-440f-d516-d578ff3ef69c"
 }
