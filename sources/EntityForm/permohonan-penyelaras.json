@@ -84,9 +84,9 @@
           "WebId": "d2be30a8-2bc8-4123-b335-34878d4636e4"
         },
         {
-          "$type": "Bespoke.Sph.Domain.DateTimePicker, domain.sph",
+          "$type": "Bespoke.Sph.Domain.DatePicker, domain.sph",
           "IsPathIsRequired": true,
-          "TypeName": "DateTimePicker",
+          "TypeName": "DatePicker",
           "FieldValidation": {
             "$type": "Bespoke.Sph.Domain.FieldValidation, domain.sph",
             "IsRequired": false,
@@ -109,7 +109,7 @@
           "Visible": "true",
           "Enable": "StatusPermohonan() === 'BARU'",
           "ElementId": "tarikhMulaPicker",
-          "HelpText": "Tarikh mula untuk duduki sesi ujian",
+          "HelpText": null,
           "UseDisplayTemplate": false,
           "ToolboxIconClass": null,
           "IsUniqueName": false,
@@ -121,12 +121,12 @@
           "InputColMd": null,
           "InputColSm": null,
           "InputColXs": null,
-          "WebId": "6cff930b-3312-4d22-d30d-10bf02570432"
+          "WebId": "93bfb1ec-53f5-4e96-9c83-794649362302"
         },
         {
-          "$type": "Bespoke.Sph.Domain.DateTimePicker, domain.sph",
+          "$type": "Bespoke.Sph.Domain.DatePicker, domain.sph",
           "IsPathIsRequired": true,
-          "TypeName": "DateTimePicker",
+          "TypeName": "DatePicker",
           "FieldValidation": {
             "$type": "Bespoke.Sph.Domain.FieldValidation, domain.sph",
             "IsRequired": false,
@@ -149,7 +149,7 @@
           "Visible": "true",
           "Enable": "StatusPermohonan() === 'BARU'",
           "ElementId": "tarikhTamatPicker",
-          "HelpText": "Tarikh akhir untuk duduki sesi ujian",
+          "HelpText": null,
           "UseDisplayTemplate": false,
           "ToolboxIconClass": null,
           "IsUniqueName": false,
@@ -161,7 +161,7 @@
           "InputColMd": null,
           "InputColSm": null,
           "InputColXs": null,
-          "WebId": "ba668fe0-5b26-4b73-a226-c3381f302e69"
+          "WebId": "55e28371-43b1-4241-ec75-81f54e9bbd3e"
         },
         {
           "$type": "Bespoke.Sph.Domain.SectionFormElement, domain.sph",
@@ -676,6 +676,6 @@
   "Id": "permohonan-penyelaras",
   "CreatedDate": "2015-06-05T10:45:40.0425071+08:00",
   "ChangedBy": "admin",
-  "ChangedDate": "2015-07-08T06:10:10.6207244+08:00",
+  "ChangedDate": "2015-07-09T10:46:35.7941638+08:00",
   "WebId": "d56af63c-c52e-401b-83b5-bfecea2c53d1"
 }

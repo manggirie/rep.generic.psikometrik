@@ -21,7 +21,7 @@
       }
     ]
   },
-  "Trait": null,
+  "Trait": "PTL2",
   "NamaUjian": "Ujian Khas Biasiswa Persekutuan(UKBP)",
   "Susunan": 112.0,
   "Kategori": null,
@@ -29,6 +29,6 @@
   "Id": "UKBP-A-00112",
   "CreatedDate": "2015-07-06T11:24:54.6748405+08:00",
   "ChangedBy": "admin",
-  "ChangedDate": "2015-07-06T11:24:54.6743403+08:00",
+  "ChangedDate": "2015-07-07T16:11:49.8568975+08:00",
   "WebId": "f2d24397-645e-49c5-8bf0-3cc2e5f0369f"
 }
