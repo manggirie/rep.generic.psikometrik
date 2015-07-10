@@ -30,22 +30,20 @@
         </div>
     </div>
 
-
-    <div class="form-group" data-bind="visible:true">
+    <div class="form-group" data-bind="visible : true">
         <label data-i18n="Tarikh Mula" for="tarikhMulaPicker" class="col-md-4">Tarikh Mula</label>
         <div class="col-md-8">
             <input class=" form-control "
-                   data-bind="kendoDateTime: TarikhMula, enable :StatusPermohonan() === 'BARU'" id="tarikhMulaPicker" type="text"
+                   data-bind="kendoDate: TarikhMula, enable :StatusPermohonan() === 'BARU'" id="tarikhMulaPicker" type="text"
                    name="TarikhMula" />
         </div>
     </div>
 
-
-    <div class="form-group" data-bind="visible:true">
+    <div class="form-group" data-bind="visible : true">
         <label data-i18n="Tarikh Tamat" for="tarikhTamatPicker" class="col-md-4">Tarikh Tamat</label>
         <div class="col-md-8">
             <input class=" form-control "
-                   data-bind="kendoDateTime: TarikhTamat, enable :StatusPermohonan() === 'BARU'" id="tarikhTamatPicker" type="text"
+                   data-bind="kendoDate: TarikhTamat, enable :StatusPermohonan() === 'BARU'" id="tarikhTamatPicker" type="text"
                    name="TarikhTamat" />
         </div>
     </div>

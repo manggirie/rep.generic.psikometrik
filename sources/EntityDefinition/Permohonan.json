@@ -583,13 +583,26 @@
                 "WebId": "b10eff67-e6ff-4867-98f5-592ac5ca65a8"
               },
               "WebId": "842b2a2e-d7d0-4a44-ccc3-7ee32204b772"
+            },
+            {
+              "$type": "Bespoke.Sph.Domain.SetterActionChild, domain.sph",
+              "Path": "TarikhTamat",
+              "Field": {
+                "$type": "Bespoke.Sph.Domain.FunctionField, domain.sph",
+                "CodeNamespace": "ffeaa59aa7",
+                "Script": "item.TarikhTamat.Date.AddHours(23).AddMinutes(50)",
+                "Name": "Tambah jam",
+                "Note": "",
+                "WebId": "eaa59aa7-e5ff-4850-a8ec-7c4dc31ab6df"
+              },
+              "WebId": "f2cf42ff-fdb3-415c-a677-d7cb54515b48"
             }
           ]
         },
         "Name": "PermohonanDariPenyelaras",
-        "SuccessMessage": "",
-        "ShowSuccessMessage": false,
-        "NavigateSuccessUrl": "",
+        "SuccessMessage": "Permohonan Berjaya Dihantar",
+        "ShowSuccessMessage": true,
+        "NavigateSuccessUrl": "#penyelaras-home",
         "SuccessCommand": "",
         "WebId": "bbf6a1ee-6bd9-4414-9d17-c6edf9959661"
       },
@@ -659,6 +672,6 @@
   "Id": "permohonan",
   "CreatedDate": "2015-06-05T10:45:39.9585024+08:00",
   "ChangedBy": "admin",
-  "ChangedDate": "2015-07-08T06:57:03.0647663+08:00",
+  "ChangedDate": "2015-07-09T10:55:00.5431671+08:00",
   "WebId": "5aff113b-31e8-4f89-b7eb-d089e79bd899"
 }

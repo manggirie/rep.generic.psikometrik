@@ -9,8 +9,8 @@
 /// <reference path="../../Scripts/bootstrap.js" />
 
 
-define(["services/datacontext", "services/logger", "plugins/router", "services/chart", objectbuilders.config ],
-    function (context, logger, router, chart,config ) {
+define(["services/datacontext", "services/logger", "plugins/router", "services/chart", objectbuilders.config , "partial/ujian-khas-hadiah-latihan-persekutuan"],
+    function (context, logger, router, chart,config , partial) {
 
         var isBusy = ko.observable(false),
             chartFiltered = ko.observable(false),
@@ -39,7 +39,7 @@ define(["services/datacontext", "services/logger", "plugins/router", "services/c
 
                   ],
                   "must_not": [
-
+                    
                   ]
                }
            }
@@ -73,7 +73,16 @@ define(["services/datacontext", "services/logger", "plugins/router", "services/c
                      });
                      vm.toolbar.commands(formsCommands);
 
-                         tcs.resolve(true);
+                         
+                         if(typeof partial !== "undefined" && typeof partial.activate === "function"){
+                             var pt = partial.activate(list);
+                             if(typeof pt.done === "function"){
+                                 pt.done(tcs.resolve);
+                             }else{
+                                 tcs.resolve(true);
+                             }
+                         }
+                         
 
                  });
 
@@ -82,7 +91,7 @@ define(["services/datacontext", "services/logger", "plugins/router", "services/c
                 return tcs.promise();
             },
             chartSeriesClick = function(e) {
-
+               
                 isBusy(true);
                 var q = ko.mapping.toJS(query),
                     cat = {
@@ -118,13 +127,8 @@ define(["services/datacontext", "services/logger", "plugins/router", "services/c
                     q.query.filtered.filter.bool.must.push(date_histogram);
                 }
                 if(e.aggregate === "term"){
-                    if(e.category === "<Empty>"){
-                        var missing = {"missing" : { "field" : e.field}};
-                        q.query.filtered.filter.bool.must.push(missing);
-                    }else {
-                      cat.term[e.field] = e.category;
-                      q.query.filtered.filter.bool.must.push(cat);
-                    }
+                    cat.term[e.field] = e.category;
+                    q.query.filtered.filter.bool.must.push(cat);
                 }
 
 
@@ -138,6 +142,11 @@ define(["services/datacontext", "services/logger", "plugins/router", "services/c
             },
             attached = function (view) {
                 chart.init("Soalan", query, chartSeriesClick, "ujian-khas-hadiah-latihan-persekutuan");
+                    
+                    if(typeof partial !== "undefined" && typeof partial.attached === "function"){
+                        partial.attached(view);
+                    }
+                    
             },
             clearChartFilter = function(){
                 chartFiltered(false);

@@ -10,18 +10,18 @@
       {
         "$type": "Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan",
         "Teks": "Ya",
-        "Nilai": 1,
+        "Nilai": 0,
         "WebId": null
       },
       {
         "$type": "Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan",
         "Teks": "Tidak",
-        "Nilai": 0,
+        "Nilai": 2,
         "WebId": null
       }
     ]
   },
-  "Trait": null,
+  "Trait": "ASF",
   "NamaUjian": "Ujian Khas Biasiswa Persekutuan(UKBP)",
   "Susunan": 24.0,
   "Kategori": null,
@@ -29,6 +29,6 @@
   "Id": "UKBP-A-00024",
   "CreatedDate": "2015-07-06T11:24:53.8857837+08:00",
   "ChangedBy": "admin",
-  "ChangedDate": "2015-07-06T11:24:53.8857837+08:00",
+  "ChangedDate": "2015-07-07T13:53:13.8625047+08:00",
   "WebId": "e83bf5bb-09b3-4ba6-ada6-3355c37f9ad6"
 }

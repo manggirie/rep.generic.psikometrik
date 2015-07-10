@@ -21,7 +21,7 @@
       }
     ]
   },
-  "Trait": null,
+  "Trait": "NAS",
   "NamaUjian": "Ujian Khas Biasiswa Persekutuan(UKBP)",
   "Susunan": 151.0,
   "Kategori": null,
@@ -29,6 +29,6 @@
   "Id": "UKBP-A-00151",
   "CreatedDate": "2015-07-06T11:24:54.9710495+08:00",
   "ChangedBy": "admin",
-  "ChangedDate": "2015-07-06T11:24:54.9700488+08:00",
+  "ChangedDate": "2015-07-08T08:43:02.0506708+08:00",
   "WebId": "9c44509e-3e76-40c8-8977-edbf1496b4b2"
 }

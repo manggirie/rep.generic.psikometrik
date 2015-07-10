@@ -10,7 +10,7 @@
       {
         "$type": "Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan",
         "Teks": "Ya",
-        "Nilai": 1,
+        "Nilai": 2,
         "WebId": null
       },
       {
@@ -21,7 +21,7 @@
       }
     ]
   },
-  "Trait": null,
+  "Trait": "SIM",
   "NamaUjian": "Ujian Khas Biasiswa Persekutuan(UKBP)",
   "Susunan": 51.0,
   "Kategori": null,
@@ -29,6 +29,6 @@
   "Id": "UKBP-A-00051",
   "CreatedDate": "2015-07-06T11:24:54.1119434+08:00",
   "ChangedBy": "admin",
-  "ChangedDate": "2015-07-06T11:24:54.1114428+08:00",
+  "ChangedDate": "2015-07-07T14:20:01.7004678+08:00",
   "WebId": "12e94e60-9cfa-4df4-9ef3-143ee69a6f70"
 }

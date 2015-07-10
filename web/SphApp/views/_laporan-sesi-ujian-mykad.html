@@ -1,0 +1,32 @@
+<form class="form-horizontal">
+  <div class="form-group">
+      <label for="siri-program" class="col-lg-2 control-label">MyKad</label>
+      <div class="col-lg-6">
+        <input type="text" data-bind="value: mykad"
+              required
+              required
+              placeholder="MyKad responden"
+              class="form-control" id="siri-program"/>
+      </div>
+  </div>
+</form>
+<table class="table table-striped">
+  <thead>
+      <tr>
+        <th>Nama</th>
+        <th>Status</th>
+        <th>Tarikh</th>
+        <th>Modul</th>
+        <th>Program</th>
+      </tr>
+  </thead>
+  <tbody data-bind="foreach: results">
+    <tr>
+      <td data-bind="text:NamaPengguna"></td>
+      <td data-bind="text:Status"></td>
+      <td data-bind="date:TarikhUjian"></td>
+      <td data-bind="text:NamaProgram"></td>
+      <td data-bind="text:NamaUjian"></td>
+    </tr>
+  </tbody>
+</table>
