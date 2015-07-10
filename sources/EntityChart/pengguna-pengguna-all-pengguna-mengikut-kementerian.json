@@ -1,0 +1,25 @@
+{
+  "$type": "Bespoke.Sph.Domain.EntityChart, domain.sph",
+  "SeriesCollection": {
+    "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.Sph.Domain.Series, domain.sph]], domain.sph",
+    "$values": []
+  },
+  "EntityDefinitionId": "pengguna",
+  "Entity": "Pengguna",
+  "Name": "Pengguna mengikut Kementerian",
+  "Type": "pie",
+  "EntityViewId": "pengguna-pengguna-all",
+  "Query": "{\"query\":{\"filtered\":{\"filter\":{\"bool\":{\"must\":[],\"must_not\":[]}}}},\"sort\":[],\"aggs\":{\"category\":{\"terms\":{\"field\":\"NamaKementerian\",\"size\":0}}},\"from\":0,\"size\":20}",
+  "Aggregate": "term",
+  "Field": "NamaKementerian",
+  "DateInterval": "year",
+  "IsDashboardItem": true,
+  "DasboardItemPosition": 0,
+  "HistogramInterval": null,
+  "CreatedBy": "urusetia",
+  "Id": "pengguna-pengguna-all-pengguna-mengikut-kementerian",
+  "CreatedDate": "2015-07-11T07:45:15.7383928+08:00",
+  "ChangedBy": "urusetia",
+  "ChangedDate": "2015-07-11T07:45:15.7383928+08:00",
+  "WebId": "ec6c82d9-c780-47b3-e5b7-c1fc1709cc63"
+}
