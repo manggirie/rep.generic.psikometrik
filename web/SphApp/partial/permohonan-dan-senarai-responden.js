@@ -1,4 +1,4 @@
-define(["services/datacontext", objectbuilders.app], function(context, app){
+define(["services/datacontext", objectbuilders.app, objectbuilders.config], function(context, app, config){
     var permohonan = ko.observable(),
         senaraiPendaftaran = ko.observableArray(),
         activate = function(entity){
@@ -71,7 +71,7 @@ define(["services/datacontext", objectbuilders.app], function(context, app){
                     };
                    return context.post(JSON.stringify(message), "/email-template/send");
                 }).then(function(){
-                    app.showMessage("Emel peringatan sudah dihantar kepada " + to, "title", ["OK"]);
+                    app.showMessage("Emel peringatan sudah dihantar kepada " + to, config.applicationFullName, ["OK"]);
                 });
 
             };

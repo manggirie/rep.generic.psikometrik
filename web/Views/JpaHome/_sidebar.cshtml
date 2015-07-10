@@ -30,6 +30,12 @@
 					@Html.Partial("_sidebar.urusetia")
 				}
 
+
+				@if(User.IsInRole("AmbilUjian"))
+				{
+					@Html.Partial("_sidebar.responden")
+				}
+
 			</ul>
 			<!-- END SIDEBAR MENU -->
 		</div>

@@ -52,6 +52,15 @@ define(["services/datacontext", objectbuilders.config, objectbuilders.app, objec
         attached  = function(view){
 
         },
+        getTileClass = function(color){
+          switch (ko.unwrap(color)) {
+            case "bred": return "red-intense";
+            case "bgreen": return "green-haze";
+            case "bviolet": return "purple-plum";
+            default:return "blue-madison";
+
+          }
+        },
         getNamaUjian = function(kod){
             var ujian = _(ujianList()).find(function(v){
                 return ko.unwrap(v.UjianNo) === ko.unwrap(kod);
@@ -101,7 +110,8 @@ define(["services/datacontext", objectbuilders.config, objectbuilders.app, objec
         attached : attached,
         mulaSesiUjian : mulaSesiUjian,
         canDeactivate : canDeactivate,
-        getNamaUjian : getNamaUjian
+        getNamaUjian : getNamaUjian,
+        getTileClass : getTileClass
     };
 
 });

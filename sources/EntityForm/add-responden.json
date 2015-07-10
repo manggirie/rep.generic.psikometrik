@@ -424,7 +424,7 @@
   "IsPublished": true,
   "IsDefault": false,
   "IsWatchAvailable": false,
-  "IsEmailAvailable": true,
+  "IsEmailAvailable": false,
   "IsPrintAvailable": false,
   "IsAuditTrailAvailable": false,
   "IsRemoveAvailable": false,
@@ -439,6 +439,6 @@
   "Id": "add-responden",
   "CreatedDate": "2015-06-05T10:45:40.0235058+08:00",
   "ChangedBy": "admin",
-  "ChangedDate": "2015-07-08T05:49:21.3377685+08:00",
+  "ChangedDate": "2015-07-10T14:32:03.1922961+08:00",
   "WebId": "aec8d777-8974-4a8a-b824-140ee0796560"
 }

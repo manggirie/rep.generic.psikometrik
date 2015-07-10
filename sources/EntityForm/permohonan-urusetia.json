@@ -980,7 +980,7 @@
   "Name": "Permohonan Urusetia",
   "Route": "permohonan-urusetia",
   "Note": null,
-  "IsAllowedNewItem": true,
+  "IsAllowedNewItem": false,
   "IconClass": "fa fa-filter",
   "IconStoreId": null,
   "IsPublished": true,
@@ -1001,6 +1001,6 @@
   "Id": "permohonan-urusetia",
   "CreatedDate": "2015-06-16T08:04:20.3588975+08:00",
   "ChangedBy": "admin",
-  "ChangedDate": "2015-07-08T06:49:52.8157665+08:00",
+  "ChangedDate": "2015-07-10T13:12:57.1452769+08:00",
   "WebId": "d56af63c-c52e-401b-83b5-bfecea2c53d1"
 }

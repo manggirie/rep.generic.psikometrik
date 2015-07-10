@@ -16,7 +16,7 @@
 					1349
 				</div>
 				<div class="desc">
-					Permohonan Baru
+					Permohonan Baru Dari Penyelaras
 				</div>
 			</div>
 			<a class="more" href="#permohonan-baru-urusetia">
@@ -30,14 +30,14 @@
 				<i class="fa fa-bar-chart-o"></i>
 			</div>
 			<div class="details">
-				<div class="number">
+				<div class="number" data-bind="text: ujianBelumAmbil">
 					12
 				</div>
 				<div class="desc">
-					Belum Ambil
+					Ujian Yang Belum Ambil
 				</div>
 			</div>
-			<a class="more" href="javascript:;">
+			<a class="more" href="#SesiUjian">
 						View more <i class="m-icon-swapright m-icon-white"></i>
 						</a>
 		</div>
@@ -48,14 +48,14 @@
 				<i class="fa fa-shopping-cart"></i>
 			</div>
 			<div class="details">
-				<div class="number">
+				<div class="number" data-bind="text:programSemsa">
 					549
 				</div>
 				<div class="desc">
 						Program Aktif Semasa
 				</div>
 			</div>
-			<a class="more" href="javascript:;">
+			<a class="more" href="#permohonan">
 						View more <i class="m-icon-swapright m-icon-white"></i>
 						</a>
 		</div>
@@ -110,7 +110,7 @@
 			<div class="portlet-title">
 				<div class="caption">
 					<i class="icon-share font-red-sunglo hide"></i>
-					<span class="caption-subject font-red-sunglo bold uppercase">Revenue</span>
+					<span class="caption-subject font-red-sunglo bold uppercase">Senarai Soalan</span>
 					<span class="caption-helper">monthly stats...</span>
 				</div>
 				<div class="actions">
@@ -149,6 +149,7 @@
 				</div>
 			</div>
 			<div class="portlet-body">
+				<div data-bind="chart: $root.soalanChart"></div>
 			</div>
 		</div>
 		<!-- END PORTLET-->

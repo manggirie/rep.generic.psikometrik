@@ -120,10 +120,21 @@ define(['services/datacontext', 'services/logger', 'plugins/router', "services/c
             "order": "desc"
           }
         }]
+      },
+
+      getTileClass = function(color){
+        switch (ko.unwrap(color)) {
+          case "bred": return "red-intense";
+          case "bgreen": return "green-haze";
+          case "bviolet": return "purple-plum";
+          default:return "blue-madison";
+
+        }
       };
 
     var vm = {
       query: query,
+      getTileClass : getTileClass,
       permohonanLulusList: permohonanLulusList,
       isBusy: isBusy,
       views: views,

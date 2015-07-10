@@ -8,25 +8,31 @@
               placeholder="MyKad responden"
               class="form-control" id="siri-program"/>
       </div>
+      <button class="btn btn-info">
+        <i class="icon-eyeglasses"></i>
+      </button>
   </div>
 </form>
 <table class="table table-striped">
   <thead>
       <tr>
-        <th>Nama</th>
         <th>Status</th>
         <th>Tarikh</th>
         <th>Modul</th>
         <th>Program</th>
+        <th></th>
       </tr>
   </thead>
   <tbody data-bind="foreach: results">
     <tr>
-      <td data-bind="text:NamaPengguna"></td>
       <td data-bind="text:Status"></td>
       <td data-bind="date:TarikhUjian"></td>
       <td data-bind="text:NamaProgram"></td>
       <td data-bind="text:NamaUjian"></td>
+      <td>
+        <a class="btn btn-default" target="_blank" data-bind="attr: {href : 'cetak-laporan/trait/'+ ko.unwrap(NamaUjian) +'/' + ko.unwrap(Id)}">Trait</a>
+        <a class="btn btn-default" target="_blank" data-bind="attr: {href : 'cetak-laporan/trait/'+ ko.unwrap(NamaUjian) +'/' + ko.unwrap(Id)}">Indikator</a>
+      </td>
     </tr>
   </tbody>
 </table>
