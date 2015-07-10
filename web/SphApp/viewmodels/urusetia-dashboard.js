@@ -2,7 +2,7 @@ define(["services/datacontext", "services/logger", "plugins/router", objectbuild
     var permohonanBaruCount = ko.observable("Please wait...."),
         soalanChart = ko.observable(),
         ujianBelumAmbil = ko.observable(),
-        programSemsa = ko.observable(),
+        programSemasa = ko.observable(),
         respondenCount = ko.observable(),
         activate = function(){
 
@@ -23,9 +23,7 @@ define(["services/datacontext", "services/logger", "plugins/router", objectbuild
             //
 
             var date = moment().format('YYYY-MM-DD HH:mm:ss');
-            context.getCountAsync("Permohonan","TarikhTamat ge '" + date +"'").done(function(result){
-              programSemsa(result);
-            });
+            context.getCountAsync("Permohonan","TarikhTamat ge '" + date +"'").done(programSemasa);
         };
 
     return {
@@ -33,7 +31,7 @@ define(["services/datacontext", "services/logger", "plugins/router", objectbuild
         permohonanBaruCount : permohonanBaruCount,
         soalanChart : soalanChart,
         ujianBelumAmbil:ujianBelumAmbil,
-        programSemsa : programSemsa,
+        programSemasa : programSemasa,
         respondenCount  : respondenCount,
         attached : attached
     };
