@@ -985,10 +985,10 @@
   "IconStoreId": null,
   "IsPublished": true,
   "IsDefault": true,
-  "IsWatchAvailable": true,
-  "IsEmailAvailable": true,
-  "IsPrintAvailable": true,
-  "IsAuditTrailAvailable": true,
+  "IsWatchAvailable": false,
+  "IsEmailAvailable": false,
+  "IsPrintAvailable": false,
+  "IsAuditTrailAvailable": false,
   "IsRemoveAvailable": true,
   "IsImportAvailable": false,
   "IsExportAvailable": false,
@@ -1001,6 +1001,6 @@
   "Id": "permohonan-urusetia",
   "CreatedDate": "2015-06-16T08:04:20.3588975+08:00",
   "ChangedBy": "admin",
-  "ChangedDate": "2015-07-10T13:12:57.1452769+08:00",
+  "ChangedDate": "2015-07-10T15:20:57.5862856+08:00",
   "WebId": "d56af63c-c52e-401b-83b5-bfecea2c53d1"
 }

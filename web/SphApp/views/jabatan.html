@@ -1,31 +1,7 @@
-<div class="row" data-bind="with : entity">
-    <img alt="logo" data-bind="attr:{src:'/sph/image/store/' + IconStoreId() + '?height=50'}" class="pull-right" />
-    <h1 data-bind="text:Plural"></h1>
-</div>
-
-
-<div class="row">
-    <a data-toggle="collapse" href="#recent-jabatan">
-        <h3 data-bind="with : entity">
-            <i class="fa fa-chevron-down"></i>
-            Recent <span data-bind="text:Plural"></span>
-        </h3>
-    </a>
-    <div id="recent-jabatan" class="collapse collapsed">
-        <div class="" data-bind="searchPaging: {list :recentItems, query : recentItemsQuery, pagerHidden:true , entity : 'Jabatan'}">
-            <ul data-bind="foreach :recentItems" class="metro-tile">
-                <li class="blightblue">
-
-                    <a data-bind="attr:{'href' : '#jabatan-details/' + Id}">
-                        <i class="glyphicon glyphicon-book"></i>
-                        <span data-bind="text:JabatanNo"></span>
-                    </a>
-                </li>
-            </ul>
-        </div>
-
-    </div>
-</div>
+<h3 class="page-title">
+	Jabatan
+	<small>lookup</small>
+</h3>
 <div class="row">
     <div class="col-lg-6">
 
@@ -65,18 +41,4 @@
 
         </ul>
     </div>
-</div>
-
-
-
-<div class="row">
-
-    <h3>
-        Reports
-    </h3>
-    <ul data-bind="foreach: reports">
-        <li>
-            <a data-bind="attr:{href:String.format('#/reportdefinition.execute-id.{0}/{0}', Id()) }, text:Title"></a>
-        </li>
-    </ul>
 </div>

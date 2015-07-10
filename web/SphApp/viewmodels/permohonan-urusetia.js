@@ -55,7 +55,7 @@
                                  errors.removeAll();
 
                                   
-                                    app.showMessage("Permohonan sudah berjaya dihantar", "JPA Sistem Ujian e-Psikometrik", ["OK"])
+                                    app.showMessage("Permohonan Berjaya Dihantar", "JPA Sistem Ujian e-Psikometrik", ["OK"])
 	                                    .done(function () {
                                             window.location='#penyelaras-home'
 	                                    });
@@ -165,33 +165,11 @@
 
 
                 toolbar : {
-                        emailCommand : {
-                        entity : "Permohonan",
-                        id :id
-                    },
-                                            printCommand :{
-                        entity : 'Permohonan',
-                        id : id
-                    },
-                                    removeCommand :remove,
+                                                        removeCommand :remove,
                     canExecuteRemoveCommand : ko.computed(function(){
                         return entity().Id();
                     }),
-                                            
-                    watchCommand: function() {
-                        return watcher.watch("Permohonan", entity().Id())
-                            .done(function(){
-                                watching(true);
-                            });
-                    },
-                    unwatchCommand: function() {
-                        return watcher.unwatch("Permohonan", entity().Id())
-                            .done(function(){
-                                watching(false);
-                            });
-                    },
-                    watching: watching,
-                                            
+                                                                
                     saveCommand : urusetiaProcessPermohonanDariPenyelaras,
                     
                     commands : ko.observableArray([])
