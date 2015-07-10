@@ -41,7 +41,11 @@ define(["services/datacontext", objectbuilders.config, objectbuilders.app, objec
                           var sq = String.format("MyKad eq '{0}' and NamaProgram eq '{1}'", config.userName, v.NoPermohonan());
                           context.getTuplesAsync("SesiUjian", sq, "NamaUjian","Status","TarikhUjian", "TarikhMulaProgram", "TarikhTamatProgram")
                            .done(function(list){
-                              v.exams(list);
+                             var sessions = _(list).map(function(c){
+                               c.namaUjian = getNamaUjian(c.Item1);
+                               return c;
+                             });
+                              v.exams(sessions);
                               v.tarikhMula(list[0].Item4);
                               v.tarikhTamat(list[0].Item5)
                            });
