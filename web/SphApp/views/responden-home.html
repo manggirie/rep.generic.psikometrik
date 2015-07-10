@@ -7,27 +7,7 @@
   <div class="col-md-12">
     <!-- BEGIN TODO SIDEBAR -->
     <div class="todo-ui">
-      <div class="todo-sidebar">
-        <div class="portlet light">
-          <div class="portlet-title">
-            <div class="caption" data-toggle="collapse" data-target=".todo-project-list-content">
-              <span class="caption-subject font-green-sharp bold uppercase">Program anda </span>
-              <span class="caption-helper visible-sm-inline-block visible-xs-inline-block">Klik untuk lihat senarai program</span>
-            </div>
-
-          </div>
-          <div class="portlet-body todo-project-list-content">
-            <div class="todo-project-list">
-              <ul class="nav nav-pills nav-stacked" data-bind="foreach:registrationList">
-                <li>
-                  <a href="javascript:;" data-bind="text:NoPermohonan"></a>
-                </li>
-              </ul>
-            </div>
-          </div>
-        </div>
-      </div>
-      <!-- END TODO SIDEBAR -->
+  	<!-- END TODO SIDEBAR -->
       <!-- BEGIN TODO CONTENT -->
       <div class="todo-content">
         <div class="portlet light">
@@ -41,7 +21,7 @@
           <!-- end PROJECT HEAD -->
           <div class="portlet-body">
             <div class="row">
-              <div class="col-md-5 col-sm-4">
+              <div class="col-md-6 col-sm-5">
                 <div class="scroller" style="max-height: 600px;" data-always-visible="0" data-rail-visible="0" data-handle-color="#dae3e7">
                   <div class="todo-tasklist" data-bind="foreach: testList">
                     <div class="todo-tasklist-item todo-tasklist-item-border-green" data-bind="click: $root.mulaSesiUjian">
@@ -54,10 +34,10 @@
                       </div>
                       <div class="todo-tasklist-controls pull-left">
                         <span class="todo-tasklist-date"><i class="fa fa-calendar"></i>
-                          <span data-bind="date: TarikhTamatProgram"></span>
+                          <span data-bind="date: TarikhTamatProgram, tooltip: 'Tarik akhir untuk mengambil ujian anda'"></span>
 
                          </span>
-                        <span class="todo-tasklist-badge badge badge-roundless">Urgent</span>
+                        <span class="label label-info" data-bind="visible: ko.unwrap(Lock) > 0, css : {'label-warning' : ko.unwrap(Lock) < 3 && ko.unwrap(Lock) > 0,'label-danger' : ko.unwrap(Lock) === 3}, text: ko.unwrap(Lock) + ' kali percubaan'">Urgent</span>
                       </div>
                     </div>
                   </div>
@@ -65,30 +45,43 @@
               </div>
               <div class="todo-tasklist-devider">
               </div>
-              <div class="col-md-7 col-sm-8">
-                <div class="scroller" style="max-height: 600px;" data-always-visible="0" data-rail-visible="0" data-handle-color="#dae3e7">
+              <div class="col-md-6 col-sm-7">
 
-                  <ul class="list-group" data-bind="foreach :registrationList">
-                      <li class="list-group-item">
-                           <h4 class="list-group-item-heading" data-bind="text: NoPermohonan"></h4>
-                           <p>
-                             Mula : <strong data-bind="date:tarikhMula"></strong>
-                           </p>
-                           <p>
-                             Tamat : <strong data-bind="date: tarikhTamat"></strong>
-                           </p>
-                           <ul class="" data-bind="foreach:exams">
-                               <li>
-                                  <p class="list-group-item-text">
-                                   <!-- ko text : ko.unwrap(Item1) + " (" + ko.unwrap(Item2) + ") " -->
-                                   <!-- /ko -->
-                                   <strong data-bind="date : Item3"></strong>
-                                  </p>
-                               </li>
-                           </ul>
-                      </li>
-                    </ul>
-                </div>
+                <div class="scroller" style="max-height: 600px;" data-always-visible="0" data-rail-visible="0" data-handle-color="#dae3e7">
+									<div class="todo-tasklist" data-bind="foreach: registrationList">
+										<div class="todo-tasklist-item todo-tasklist-item-border-green">
+											<i class="pull-left icon-screen-tablet "></i>
+											<div class="todo-tasklist-item-title" data-bind="text: NamaProgram">
+												 Np Permohonan
+											</div>
+
+											<div class="todo-tasklist-item-text" data-bind="text: ko.unwrap(exams).length +' ujian'">
+												 Lorem dolor sit amet ipsum dolor sit consectetuer dolore.
+											</div>
+											<div class="todo-tasklist-controls pull-left">
+												<span class="todo-tasklist-date"><i class="fa fa-calendar"></i>
+													<span data-bind="date: tarikhMula"></span> -
+													<span data-bind="date: tarikhTamat"></span>
+												 </span>
+												<span class="todo-tasklist-badge badge badge-roundless">Urgent</span>
+											</div>
+											<div>
+												<ul class="" data-bind="foreach:exams">
+													<li>
+														 <p class="list-group-item-text">
+															<!-- ko text : ko.unwrap(Item1) + " (" + ko.unwrap(Item2) + ") " -->
+															<!-- /ko -->
+															<strong data-bind="date : Item3"></strong>
+														 </p>
+													</li>
+											</ul>
+											</div>
+
+										</div>
+									</div>
+
+  							</div>
+
               </div>
             </div>
           </div>
