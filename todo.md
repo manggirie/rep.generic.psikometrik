@@ -1,6 +1,8 @@
 #Things to do
 
-## Responden dan Penyelaras
+## Master page
+* Footer penafian
+
 
 ## Sesi ujian
 * Kalau hantar fail/offline, save local and then prompt balik next time dia buka dekat Dashboard, untuk hantar
@@ -31,6 +33,8 @@
   * Minat
   * Bidang pengajian
   * Dalam/Luar negara
+
+
 
 ##Error 070715 (Fauzi)
 1. ~~Bila selesai edit (save) soalan Ujian Khas Hadiah Latihan Persekutuan, bilangan soalan akan berkurangan samada dlm view ataupun dlm db~~
