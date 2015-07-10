@@ -1,47 +1,100 @@
-<h1>Selamat Datang Ke Psikologi</h1>
+<h3 class="page-title">
+	Responden
+	<small>Program & Ujian</small>
+</h3>
+<!-- BEGIN PAGE CONTENT-->
 <div class="row">
-    <h3>Senarai Program Anda</h3>
+  <div class="col-md-12">
+    <!-- BEGIN TODO SIDEBAR -->
+    <div class="todo-ui">
+      <div class="todo-sidebar">
+        <div class="portlet light">
+          <div class="portlet-title">
+            <div class="caption" data-toggle="collapse" data-target=".todo-project-list-content">
+              <span class="caption-subject font-green-sharp bold uppercase">Program anda </span>
+              <span class="caption-helper visible-sm-inline-block visible-xs-inline-block">Klik untuk lihat senarai program</span>
+            </div>
 
+          </div>
+          <div class="portlet-body todo-project-list-content">
+            <div class="todo-project-list">
+              <ul class="nav nav-pills nav-stacked" data-bind="foreach:registrationList">
+                <li>
+                  <a href="javascript:;" data-bind="text:NoPermohonan"></a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- END TODO SIDEBAR -->
+      <!-- BEGIN TODO CONTENT -->
+      <div class="todo-content">
+        <div class="portlet light">
+          <!-- PROJECT HEAD -->
+          <div class="portlet-title">
+            <div class="caption">
+              <i class="icon-bar-chart font-green-sharp hide"></i>
+              <span class="caption-helper">PROGRAM:</span> &nbsp; <span class="caption-subject font-green-sharp bold uppercase">Ujian Belum Ambil</span>
+            </div>
+          </div>
+          <!-- end PROJECT HEAD -->
+          <div class="portlet-body">
+            <div class="row">
+              <div class="col-md-5 col-sm-4">
+                <div class="scroller" style="max-height: 600px;" data-always-visible="0" data-rail-visible="0" data-handle-color="#dae3e7">
+                  <div class="todo-tasklist" data-bind="foreach: testList">
+                    <div class="todo-tasklist-item todo-tasklist-item-border-green" data-bind="click: $root.mulaSesiUjian">
+                      <i class="todo-userpic pull-left icon-pencil"></i>
+                      <div class="todo-tasklist-item-title" data-bind="text: NamaProgram">
+                         Slider Redesign
+                      </div>
+                      <div class="todo-tasklist-item-text" data-bind="text:$root.getNamaUjian($data.NamaUjian)">
+                         Lorem dolor sit amet ipsum dolor sit consectetuer dolore.
+                      </div>
+                      <div class="todo-tasklist-controls pull-left">
+                        <span class="todo-tasklist-date"><i class="fa fa-calendar"></i>
+                          <span data-bind="date: TarikhTamatProgram"></span>
 
-    <ul class="list-group" data-bind="foreach :registrationList">
-        <li class="list-group-item">
-             <h4 class="list-group-item-heading" data-bind="text: NoPermohonan"></h4>
-             <p>
-               Mula : <strong data-bind="date:tarikhMula"></strong>
-             </p>
-             <p>
-               Tamat : <strong data-bind="date: tarikhTamat"></strong>
-             </p>
-             <ul class="" data-bind="foreach:exams">
-                 <li>
-                    <p class="list-group-item-text">
-                     <!-- ko text : ko.unwrap(Item1) + " (" + ko.unwrap(Item2) + ") " -->
-                     <!-- /ko -->
-                     <strong data-bind="date : Item3"></strong>
-                    </p>
-                 </li>
-             </ul>
-        </li>
+                         </span>
+                        <span class="todo-tasklist-badge badge badge-roundless">Urgent</span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="todo-tasklist-devider">
+              </div>
+              <div class="col-md-7 col-sm-8">
+                <div class="scroller" style="max-height: 600px;" data-always-visible="0" data-rail-visible="0" data-handle-color="#dae3e7">
+
+                  <ul class="list-group" data-bind="foreach :registrationList">
+                      <li class="list-group-item">
+                           <h4 class="list-group-item-heading" data-bind="text: NoPermohonan"></h4>
+                           <p>
+                             Mula : <strong data-bind="date:tarikhMula"></strong>
+                           </p>
+                           <p>
+                             Tamat : <strong data-bind="date: tarikhTamat"></strong>
+                           </p>
+                           <ul class="" data-bind="foreach:exams">
+                               <li>
+                                  <p class="list-group-item-text">
+                                   <!-- ko text : ko.unwrap(Item1) + " (" + ko.unwrap(Item2) + ") " -->
+                                   <!-- /ko -->
+                                   <strong data-bind="date : Item3"></strong>
+                                  </p>
+                               </li>
+                           </ul>
+                      </li>
+                    </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- END TODO CONTENT -->
     </div>
-
-</div>
-<div class="row" data-bind="visible: ko.unwrap(testList).length > 0">
-    <h3>Senarai Ujian Yang Belum Ambil</h3>
-    <!-- ko foreach : testList -->
-    <div class="alert alert-info" data-bind="css : {'alert-warning' : ko.unwrap(Lock) < 3 && ko.unwrap(Lock) > 0,'alert-danger' : ko.unwrap(Lock) === 3}">
-        <a class="alert-link" href="#mula-sesi-ujian" data-bind="click: $root.mulaSesiUjian">
-            <i class="fa fa-play"></i>
-            Mula Sesi Ujian <!-- ko text:$root.getNamaUjian($data.NamaUjian) --> <!--/ko-->
-        </a>
-        <p data-bind="text:NamaUjian"></p>
-        <p data-bind="text:NamaProgram"></p>
-        <p>
-            Tempoh Ujian : <strong data-bind="text: $root.getTempohUjian($data.NamaUjian)"></strong>
-        </p>
-        <p>
-          Percubaan : <strong data-bind="text: Lock"></strong>
-        </p>
-
-    </div>
-    <!-- /ko -->
-</div>
+  </div>
+  <!-- END PAGE CONTENT-->
