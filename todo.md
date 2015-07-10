@@ -8,8 +8,8 @@
 * Kalau hantar fail/offline, save local and then prompt balik next time dia buka dekat Dashboard, untuk hantar
 
 ## Laporan urusetia
-* Search sesi ujian
-* Dashboard
+* ~~Search sesi ujian~~
+* ~~Dashboard~~
 
 ## Penyelaras
 * Role / designation untuk penyelaras & responden
