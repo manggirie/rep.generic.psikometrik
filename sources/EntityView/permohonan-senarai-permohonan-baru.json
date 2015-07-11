@@ -161,13 +161,13 @@
   "IconClass": "",
   "IconStoreId": "856079ab-2963-4af3-948e-ae887919a11c",
   "EntityDefinitionId": "permohonan",
-  "Name": "Permohonan Baru",
+  "Name": "Permohonan Program  Menunggu kelulusan",
   "Route": "senarai-permohonan-baru",
   "Note": "Yang belum di proses oleh urusetia",
   "Query": "",
   "IsPublished": true,
   "Visibilty": "",
-  "TileColour": "borange",
+  "TileColour": "bviolet",
   "CountMessage": "",
   "Entity": "",
   "Partial": "partial/permohonan-penyelaras-lulus",
@@ -175,6 +175,6 @@
   "Id": "permohonan-senarai-permohonan-baru",
   "CreatedDate": "2015-06-30T19:20:51.3760275+08:00",
   "ChangedBy": "admin",
-  "ChangedDate": "2015-07-01T10:57:52.8059596+08:00",
+  "ChangedDate": "2015-07-11T08:17:55.5414565+08:00",
   "WebId": "0264f91b-ffce-46cc-d40a-e6d3cadb6fac"
 }

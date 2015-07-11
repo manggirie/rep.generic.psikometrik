@@ -9,7 +9,7 @@
 /// <reference path="../../Scripts/bootstrap.js" />
 
 
-define(["services/datacontext", "services/logger", "plugins/router", "services/chart", objectbuilders.config , "partial/permohonan-penyelaras-lulus"],
+define(["services/datacontext", "services/logger", "plugins/router", "services/chart", objectbuilders.config , "partial/permohonan-urusetia-lulus"],
     function (context, logger, router, chart,config , partial) {
 
         var isBusy = ko.observable(false),
@@ -33,7 +33,7 @@ define(["services/datacontext", "services/logger", "plugins/router", "services/c
                   "must": [
                                      {
                      "term":{
-                         "StatusPermohonan":"BARU"
+                         "StatusPermohonan":"LULUS"
                      }
                  }
 ,
@@ -151,7 +151,7 @@ define(["services/datacontext", "services/logger", "plugins/router", "services/c
                     });
             },
             attached = function (view) {
-                chart.init("Permohonan", query, chartSeriesClick, "permohonan-senarai-permohonan-baru");
+                chart.init("Permohonan", query, chartSeriesClick, "permohonan-program-sesi-ujian-penyelaras");
                     
                     if(typeof partial !== "undefined" && typeof partial.attached === "function"){
                         partial.attached(view);

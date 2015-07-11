@@ -24,11 +24,11 @@
         "Field": {
           "$type": "Bespoke.Sph.Domain.JavascriptExpressionField, domain.sph",
           "Expression": "config.userName",
-          "Name": "user",
+          "Name": "userName",
           "Note": "",
-          "WebId": "2fcfa5bd-dc1b-4f27-9759-c2ceafbcae09"
+          "WebId": "068367ac-a961-498a-e4ad-fb88ca579833"
         },
-        "WebId": "2cbbc1b2-d726-4c6d-f4ca-feafd104ee76"
+        "WebId": "a50420a5-29a8-4006-ae88-0629cdfa23e0"
       }
     ]
   },
@@ -41,8 +41,8 @@
           "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.Sph.Domain.ConditionalFormatting, domain.sph]], domain.sph",
           "$values": []
         },
-        "Path": "JenisPermohonan",
-        "Header": "Jenis",
+        "Path": "PermohonanNo",
+        "Header": "Program",
         "Sort": "",
         "IsLinkColumn": true,
         "FormRoute": "permohonan-penyelaras",
@@ -92,8 +92,25 @@
           "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.Sph.Domain.ConditionalFormatting, domain.sph]], domain.sph",
           "$values": []
         },
-        "Path": "TujuanProgram",
-        "Header": "Tujuan",
+        "Path": "BilRespondan",
+        "Header": "Bil. Responden",
+        "Sort": "",
+        "IsLinkColumn": false,
+        "FormRoute": null,
+        "IconCssClass": "",
+        "IconStoreId": "",
+        "Format": "text:{0}",
+        "RouteValueField": "Id",
+        "WebId": "4b581f56-a90d-454a-8f19-e129145d66cb"
+      },
+      {
+        "$type": "Bespoke.Sph.Domain.ViewColumn, domain.sph",
+        "ConditionalFormattingCollection": {
+          "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.Sph.Domain.ConditionalFormatting, domain.sph]], domain.sph",
+          "$values": []
+        },
+        "Path": "senaraiUjian",
+        "Header": "Senarai Ujian",
         "Sort": "",
         "IsLinkColumn": false,
         "FormRoute": null,
@@ -109,16 +126,33 @@
           "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.Sph.Domain.ConditionalFormatting, domain.sph]], domain.sph",
           "$values": []
         },
-        "Path": "BilRespondan",
-        "Header": "Bil. Responden",
+        "Path": "sudahAmbil",
+        "Header": "Sudah Ambil",
         "Sort": "",
         "IsLinkColumn": false,
-        "FormRoute": null,
+        "FormRoute": "sesi-ujian-diambil-by-program",
         "IconCssClass": "",
         "IconStoreId": "",
         "Format": "text:{0}",
-        "RouteValueField": "Id",
-        "WebId": "4b581f56-a90d-454a-8f19-e129145d66cb"
+        "RouteValueField": "encodeURIComponent(PermohonanNo)",
+        "WebId": "17d55b1f-131f-4842-aced-424b762693e4"
+      },
+      {
+        "$type": "Bespoke.Sph.Domain.ViewColumn, domain.sph",
+        "ConditionalFormattingCollection": {
+          "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.Sph.Domain.ConditionalFormatting, domain.sph]], domain.sph",
+          "$values": []
+        },
+        "Path": "belumAmbil",
+        "Header": "Belum Ambil",
+        "Sort": "",
+        "IsLinkColumn": true,
+        "FormRoute": "sesi-ujian-jabatan-program",
+        "IconCssClass": "fa fa-list-ul",
+        "IconStoreId": "",
+        "Format": "text:{0}",
+        "RouteValueField": "encodeURIComponent(PermohonanNo)",
+        "WebId": "16abc605-89f9-4cf2-ed8c-aaa576cab2e9"
       }
     ]
   },
@@ -144,20 +178,20 @@
   "IconClass": "",
   "IconStoreId": "sph-img-list",
   "EntityDefinitionId": "permohonan",
-  "Name": "Permohonan Program  Lulus",
-  "Route": "permohonan-penyelaras-lulus",
-  "Note": "Untuk penyelaras",
+  "Name": "Status Responden Menjawab Ujian",
+  "Route": "program-sesi-ujian-penyelaras",
+  "Note": "Untuk Penyelaras Jabatan",
   "Query": "",
   "IsPublished": true,
   "Visibilty": "",
-  "TileColour": "bgreen",
+  "TileColour": "borange",
   "CountMessage": "",
   "Entity": "",
-  "Partial": "partial/permohonan-penyelaras-lulus",
+  "Partial": "partial/permohonan-urusetia-lulus",
   "CreatedBy": "admin",
-  "Id": "permohonan-penyelaras-lulus",
+  "Id": "permohonan-program-sesi-ujian-penyelaras",
   "CreatedDate": "2015-06-05T10:45:40.0585082+08:00",
   "ChangedBy": "admin",
-  "ChangedDate": "2015-07-11T08:10:29.4607221+08:00",
+  "ChangedDate": "2015-07-11T08:36:28.3496566+08:00",
   "WebId": "0264f91b-ffce-46cc-d40a-e6d3cadb6fac"
 }

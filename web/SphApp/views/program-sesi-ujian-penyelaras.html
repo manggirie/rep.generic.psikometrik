@@ -1,4 +1,4 @@
-<h1>Permohonan Baru Menunggu Kelulusan</h1>
+<h1>Status Responden Menjawab Ujian</h1>
 <div class="row">
     <div class="col-md-8">
         <button class="btn btn-link pull-right" data-bind="visible: chartFiltered, click: clearChartFilter">
@@ -8,27 +8,34 @@
         <table class="table table-striped" data-bind="filter : {path:'tbody>tr'}, searchPaging :{ query: query, map : map, entity : 'Permohonan', list:list}">
             <thead>
                 <tr>
-                    <th>Jenis</th>
-                    <th>Tarikh</th>
+                    <th>Program</th>
                     <th>Tarikh Mula</th>
-                    <th>Tarikh Tamat</th>
-                    <th>Tujuan</th>
+                    <th>Tarikh Tama</th>
                     <th>Bil. Responden</th>
+                    <th>Senarai Ujian</th>
+                    <th>Sudah Ambil</th>
+                    <th>Belum Ambil</th>
                 </tr>
             </thead>
             <tbody data-bind="foreach :list">
                 <tr data-bind="">
 
                     <td>
-                        <a data-bind="attr : {href:'#permohonan-penyelaras' + '/' + Id, title:'Jenis' }">
-                                                        <span data-bind="text:JenisPermohonan"></span>
+                        <a data-bind="attr : {href:'#permohonan-penyelaras' + '/' + Id, title:'Program' }">
+                                                        <span data-bind="text:PermohonanNo"></span>
                         </a>
                     </td>
-                    <td data-bind="date:CreatedDate"></td>
                     <td data-bind="date:TarikhMula"></td>
                     <td data-bind="date:TarikhTamat"></td>
-                    <td data-bind="text:TujuanProgram"></td>
                     <td data-bind="text:BilRespondan"></td>
+                    <td data-bind="text:senaraiUjian"></td>
+                    <td data-bind="text:sudahAmbil"></td>
+                    <td>
+                        <a data-bind="attr : {href:'#sesi-ujian-jabatan-program' + '/' + encodeURIComponent(PermohonanNo), title:'Belum Ambil' }">
+                            <i class="fa fa-list-ul"></i>
+                                                        <span data-bind="text:belumAmbil"></span>
+                        </a>
+                    </td>
 
 
                 </tr>

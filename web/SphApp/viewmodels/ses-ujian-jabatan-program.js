@@ -9,8 +9,8 @@
 /// <reference path="../../Scripts/bootstrap.js" />
 
 
-define(["services/datacontext", "services/logger", "plugins/router", "services/chart", objectbuilders.config , "partial/permohonan-penyelaras-lulus"],
-    function (context, logger, router, chart,config , partial) {
+define(["services/datacontext", "services/logger", "plugins/router", "services/chart", objectbuilders.config ],
+    function (context, logger, router, chart,config ) {
 
         var isBusy = ko.observable(false),
             chartFiltered = ko.observable(false),
@@ -24,7 +24,7 @@ define(["services/datacontext", "services/logger", "plugins/router", "services/c
             },
             entity = ko.observable(new bespoke.sph.domain.EntityDefinition()),
             query = ko.observable(),
-            activate = function () {
+            activate = function (program) {
                 query({
                     "query": {
                         "filtered": {
@@ -33,13 +33,13 @@ define(["services/datacontext", "services/logger", "plugins/router", "services/c
                   "must": [
                                      {
                      "term":{
-                         "StatusPermohonan":"BARU"
+                         "Status":"Belum Ambil"
                      }
                  }
 ,
                  {
                      "term":{
-                         "Penyelaras":config.userName
+                         "NamaProgram":program
                      }
                  }
 
@@ -51,12 +51,12 @@ define(["services/datacontext", "services/logger", "plugins/router", "services/c
            }
                         }
                     },
-                    "sort" : []
+                    "sort" : [{"TarikhUjian":{"order":"desc"}}]
                 });
-                var edQuery = String.format("Name eq '{0}'", 'Permohonan'),
+                var edQuery = String.format("Name eq '{0}'", 'SesiUjian'),
                   tcs = new $.Deferred(),
-                  formsQuery = String.format("EntityDefinitionId eq 'permohonan' and IsPublished eq 1 and IsAllowedNewItem eq 1"),
-                  viewQuery = String.format("EntityDefinitionId eq 'permohonan'"),
+                  formsQuery = String.format("EntityDefinitionId eq 'sesiujian' and IsPublished eq 1 and IsAllowedNewItem eq 1"),
+                  viewQuery = String.format("EntityDefinitionId eq 'sesiujian'"),
                   edTask = context.loadOneAsync("EntityDefinition", edQuery),
                   formsTask = context.loadAsync("EntityForm", formsQuery),
                   viewTask = context.loadOneAsync("EntityView", viewQuery);
@@ -78,16 +78,7 @@ define(["services/datacontext", "services/logger", "plugins/router", "services/c
                      });
                      vm.toolbar.commands(formsCommands);
 
-                         
-                         if(typeof partial !== "undefined" && typeof partial.activate === "function"){
-                             var pt = partial.activate(list);
-                             if(typeof pt.done === "function"){
-                                 pt.done(tcs.resolve);
-                             }else{
-                                 tcs.resolve(true);
-                             }
-                         }
-                         
+                         tcs.resolve(true);
 
                  });
 
@@ -143,7 +134,7 @@ define(["services/datacontext", "services/logger", "plugins/router", "services/c
 
 
 
-                context.searchAsync("Permohonan", q)
+                context.searchAsync("SesiUjian", q)
                     .done(function (lo) {
                         list(lo.itemCollection);
                         chartFiltered(true);
@@ -151,12 +142,7 @@ define(["services/datacontext", "services/logger", "plugins/router", "services/c
                     });
             },
             attached = function (view) {
-                chart.init("Permohonan", query, chartSeriesClick, "permohonan-senarai-permohonan-baru");
-                    
-                    if(typeof partial !== "undefined" && typeof partial.attached === "function"){
-                        partial.attached(view);
-                    }
-                    
+                chart.init("SesiUjian", query, chartSeriesClick, "sesiujian-ses-ujian-jabatan-program");
             },
             clearChartFilter = function(){
                 chartFiltered(false);

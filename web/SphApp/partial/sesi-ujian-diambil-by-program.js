@@ -13,8 +13,7 @@ define([], function(){
         attached  = function(view){
           $(view).on("click", "a", function(e){
             var data = ko.dataFor(this);
-            if(typeof data.NamaUjian !== "string")
-            {
+            if(typeof data.NamaUjian !== "string"){
               return;
             }
 
