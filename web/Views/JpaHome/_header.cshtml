@@ -1,3 +1,4 @@
+@using Humanizer
 <!-- BEGIN HEADER -->
 <div class="page-header md-shadow-z-1-i navbar navbar-fixed-top">
 	<!-- BEGIN HEADER INNER -->
@@ -16,46 +17,54 @@
 		</a>
 		<!-- END RESPONSIVE MENU TOGGLER -->
 		<div class="pull-left">
-		<span style="font-size:24px;color:white;">SISTEM UJIAN PSIKOMETRIK</span>
+		<a href="@Model.StartModule" style="font-size:24px;color:white;">SISTEM UJIAN PSIKOMETRIK</a>
 		</div>
 		<!-- BEGIN TOP NAVIGATION MENU -->
 		<div class="top-menu">
 			<ul class="nav navbar-nav pull-right">
 
-				<!-- BEGIN INBOX DROPDOWN -->
-				<!-- DOC: Apply "dropdown-dark" class after below "dropdown-extended" to change the dropdown styte -->
-				<li class="dropdown dropdown-extended dropdown-inbox" id="header_inbox_bar">
-					<a href="javascript:;" class="dropdown-toggle" data-toggle="dropdown" data-hover="dropdown" data-close-others="true">
-					<i class="icon-envelope-open"></i>
-					<span class="badge badge-default">
-					4 </span>
-					</a>
-					<ul class="dropdown-menu">
-						<li class="external">
-							<h3>Anda ada <span class="bold">7 </span> mesej baru</h3>
-							<a href="#message.inbox">lihat semua</a>
-						</li>
-						<li>
-							<ul class="dropdown-menu-list scroller" style="height: 275px;" data-handle-color="#637283">
-								<li>
-									<a href="#message.inbox">
-									<span class="photo">
-									<i class="fa fa-user fa2x"></i>
-									</span>
-									<span class="subject">
-									<span class="from">
-									Lisa Wong </span>
-									<span class="time">Just Now </span>
-									</span>
-									<span class="message">
-									Vivamus sed auctor nibh congue nibh. auctor nibh auctor nibh... </span>
-									</a>
-								</li>
-							</ul>
-						</li>
-					</ul>
-				</li>
-				<!-- END INBOX DROPDOWN -->
+
+				@if (Model.Designation.IsMessageVisible)
+				{
+					<!-- BEGIN INBOX DROPDOWN -->
+					<!-- DOC: Apply "dropdown-dark" class after below "dropdown-extended" to change the dropdown styte -->
+					<li class="dropdown dropdown-extended dropdown-inbox" id="header_inbox_bar">
+						<a href="javascript:;" class="dropdown-toggle" data-toggle="dropdown" data-hover="dropdown" data-close-others="true">
+						<i class="icon-envelope-open"></i>
+						<span class="badge badge-default">
+						@Model.TotalMessageCount </span>
+						</a>
+						<ul class="dropdown-menu">
+							<li class="external">
+								<h3>Anda ada <span class="bold">@Model.TotalMessageCount </span> mesej baru</h3>
+								<a href="#message.inbox">lihat semua</a>
+							</li>
+							<li>
+								<ul class="dropdown-menu-list scroller" style="height: 275px;" data-handle-color="#637283">
+								@foreach(var m in Model.Messages)
+								{
+									<li>
+										<a href="#message.detail/@m.Id">
+										<span class="photo">
+										<i class="fa fa-user fa2x"></i>
+										</span>
+										<span class="subject">
+										<span class="from"></span>
+										<span class="time">@(Humanizer.TimeSpanHumanizeExtensions.Humanize(DateTime.Now - m.CreatedDate)) </span>
+										</span>
+										<span class="message">
+										@m.Subject</span>
+										</a>
+									</li>
+
+								}
+								</ul>
+							</li>
+						</ul>
+					</li>
+
+					<!-- END INBOX DROPDOWN -->
+				}
 
 				<!-- BEGIN USER LOGIN DROPDOWN -->
 				<!-- DOC: Apply "dropdown-dark" class after below "dropdown-extended" to change the dropdown styte -->
