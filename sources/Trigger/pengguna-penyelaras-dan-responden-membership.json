@@ -10,8 +10,8 @@
           "XPath": "",
           "NamespacePrefix": "",
           "TypeName": "",
-          "Path": "IsResponden",
-          "Name": "IsResponden",
+          "Path": "IsPenyelaras",
+          "Name": "IsPenyelaras",
           "Note": "",
           "WebId": "dea6fd36-5e1a-4e1b-af0d-c37ad07706db"
         },
@@ -33,21 +33,21 @@
           "XPath": "",
           "NamespacePrefix": "",
           "TypeName": "",
-          "Path": "IsPenyelaras",
-          "Name": "IsPenyelaras",
+          "Path": "IsResponden",
+          "Name": "IsResponden",
           "Note": "",
-          "WebId": "ad7a6df9-ea97-4a2e-bea8-7fce45f23a1a"
+          "WebId": "ef1b11e5-9c41-4c66-b971-3bf678932c66"
         },
         "Right": {
           "$type": "Bespoke.Sph.Domain.ConstantField, domain.sph",
           "TypeName": "System.String, mscorlib",
-          "Value": "false",
-          "Name": "false",
+          "Value": "true",
+          "Name": "true",
           "Note": "",
-          "WebId": "6d13f2bf-a2ac-4b09-9664-78dedb8439dd"
+          "WebId": "9f96ae09-fab2-4434-e921-2710dabdbfed"
         },
         "Operator": "Eq",
-        "WebId": "ce263aa8-ad58-474c-f47c-3115625df027"
+        "WebId": "f0bad26b-adf5-4da4-ec58-05fc7a9e658e"
       },
       {
         "$type": "Bespoke.Sph.Domain.Rule, domain.sph",
@@ -59,7 +59,7 @@
           "Path": "IsUrusetia",
           "Name": "IsUrusetia",
           "Note": "",
-          "WebId": "983c813e-0449-49f8-daf9-a1b49b3d2b72"
+          "WebId": "6c8c3863-3e5f-47ba-a76d-142cece04393"
         },
         "Right": {
           "$type": "Bespoke.Sph.Domain.ConstantField, domain.sph",
@@ -67,10 +67,10 @@
           "Value": "false",
           "Name": "false",
           "Note": "",
-          "WebId": "e44d7738-2fbb-4163-9959-d37058de8b1c"
+          "WebId": "3a6b7ce5-09ff-46ae-ded8-9ca2b13322a8"
         },
         "Operator": "Eq",
-        "WebId": "3024f7c5-1c0f-47b4-99d9-f7baf3468976"
+        "WebId": "accc90c1-99a5-445c-fca5-eeb403f1bbfa"
       }
     ]
   },
@@ -79,7 +79,7 @@
     "$values": [
       {
         "$type": "Bespoke.Sph.Domain.StartWorkflowAction, domain.sph",
-        "WorkflowDefinitionId": "creates-membership-for-new-responden",
+        "WorkflowDefinitionId": "creates-membership-for-new-penyelaras",
         "Name": "",
         "Version": 0,
         "WorkflowTriggerMapCollection": {
@@ -100,7 +100,7 @@
             }
           ]
         },
-        "Title": "Creates membership for new responden",
+        "Title": "Creates membership for new Penyelaras",
         "IsActive": true,
         "TriggerId": "",
         "Note": "",
@@ -117,7 +117,7 @@
     "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.Sph.Domain.ExceptionFilter, domain.sph]], domain.sph",
     "$values": []
   },
-  "Name": "Responden profile and membership ",
+  "Name": "Penyelaras dan responden membership",
   "Entity": "Pengguna",
   "TypeOf": "Bespoke.epsikologi_pengguna.Domain.Pengguna, epsikologi.Pengguna",
   "Note": "",
@@ -126,12 +126,12 @@
   "IsFiredOnDeleted": false,
   "IsFiredOnChanged": false,
   "FiredOnOperations": "",
-  "ClassName": "PenggunaRespondenProfileAndMembershipTriggerSubscriber",
+  "ClassName": "PenggunaPenyelarasDanRespondenMembershipTriggerSubscriber",
   "CodeNamespace": "Bespoke.Sph.TriggerSubscribers",
   "CreatedBy": "admin",
-  "Id": "pengguna-responden-profile-and-membership-",
+  "Id": "pengguna-penyelaras-dan-responden-membership",
   "CreatedDate": "2015-06-16T08:04:09.5366008+08:00",
   "ChangedBy": "admin",
-  "ChangedDate": "2015-07-11T09:47:09.0093077+08:00",
+  "ChangedDate": "2015-07-11T09:50:42.6056303+08:00",
   "WebId": "ae419759-6ae0-4c6e-ea9c-c7de9fd59a95"
 }

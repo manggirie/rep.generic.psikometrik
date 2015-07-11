@@ -1,0 +1,51 @@
+{
+  "$type": "Bespoke.Sph.Domain.Designation, domain.sph",
+  "RoleCollection": {
+    "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[System.String, mscorlib]], domain.sph",
+    "$values": [
+      "PengurusanPermohonanJabatan",
+      "AmbilUjian",
+      "PengurusanPenggunaJabatan"
+    ]
+  },
+  "Owner": {
+    "$type": "Bespoke.Sph.Domain.Owner, domain.sph",
+    "Address": {
+      "$type": "Bespoke.Sph.Domain.Address, domain.sph",
+      "UnitNo": "",
+      "Floor": "",
+      "Block": "",
+      "Street": "",
+      "City": "",
+      "Postcode": "",
+      "State": "",
+      "Country": "",
+      "WebId": null
+    },
+    "Name": "",
+    "TelephoneNo": "",
+    "FaxNo": "",
+    "Email": "",
+    "WebId": null
+  },
+  "SearchableEntityCollection": {
+    "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[System.String, mscorlib]], domain.sph",
+    "$values": []
+  },
+  "Name": "Penyelaras dan Responden",
+  "Description": "Penyelaras pada masa sama adalah rwsponden",
+  "IsActive": false,
+  "StartModule": "penyelaras-home",
+  "IsSearchVisible": false,
+  "IsMessageVisible": true,
+  "IsHelpVisible": false,
+  "HelpUri": "",
+  "Title": "",
+  "Option": 0,
+  "CreatedBy": "admin",
+  "Id": "penyelaras-dan-responden",
+  "CreatedDate": "2015-07-11T09:52:49.1539466+08:00",
+  "ChangedBy": "admin",
+  "ChangedDate": "2015-07-11T09:54:13.2627832+08:00",
+  "WebId": "2c81d4eb-2126-4d98-918e-79f672b6726b"
+}
