@@ -22,9 +22,9 @@
 * ~~Start module - remove for responden and penyelaras~~
 
 ## Header
-* Help tukar bahasa Melayu- manual pengguna
-* Logout out kepada log keluar
-* Profile ke profil
+* ~~Help tukar bahasa Melayu- manual pengguna~~
+* ~~Logout out kepada log keluar~~
+* ~~Profile ke profil~~
 
 
 #Pelajar - responden
