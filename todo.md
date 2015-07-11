@@ -17,9 +17,9 @@
 
 
 ##Profile page
-* Remove language -set the default to EN-US
-* Tukar Bahasa Melayu
-* Start module - remove for responden and penyelaras
+* ~~Remove language -set the default to EN-US~~
+* ~~Tukar Bahasa Melayu~~
+* ~~Start module - remove for responden and penyelaras~~
 
 ## Header
 * Help tukar bahasa Melayu- manual pengguna
