@@ -45,8 +45,8 @@
           "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.Sph.Domain.ConditionalFormatting, domain.sph]], domain.sph",
           "$values": []
         },
-        "Path": "MyKad",
-        "Header": "MyKad",
+        "Path": "Pekerjaan",
+        "Header": "Pekerjaan",
         "Sort": "",
         "IsLinkColumn": false,
         "FormRoute": null,
@@ -62,8 +62,8 @@
           "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.Sph.Domain.ConditionalFormatting, domain.sph]], domain.sph",
           "$values": []
         },
-        "Path": "Agensi",
-        "Header": "Agensi",
+        "Path": "NamaJabatan",
+        "Header": "Jabatan",
         "Sort": "",
         "IsLinkColumn": false,
         "FormRoute": null,
@@ -79,8 +79,8 @@
           "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.Sph.Domain.ConditionalFormatting, domain.sph]], domain.sph",
           "$values": []
         },
-        "Path": "Emel",
-        "Header": "Emel",
+        "Path": "NamaKementerian",
+        "Header": "Kementerian",
         "Sort": "",
         "IsLinkColumn": false,
         "FormRoute": null,
@@ -89,57 +89,6 @@
         "Format": "text:{0}",
         "RouteValueField": "",
         "WebId": "41507998-dd62-42ef-a03e-6ff21e2306c7"
-      },
-      {
-        "$type": "Bespoke.Sph.Domain.ViewColumn, domain.sph",
-        "ConditionalFormattingCollection": {
-          "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.Sph.Domain.ConditionalFormatting, domain.sph]], domain.sph",
-          "$values": []
-        },
-        "Path": "JenisPerkhidmatan",
-        "Header": "Jenis Perkhidmatan",
-        "Sort": "",
-        "IsLinkColumn": false,
-        "FormRoute": null,
-        "IconCssClass": "",
-        "IconStoreId": "",
-        "Format": "text:{0}",
-        "RouteValueField": "",
-        "WebId": "b394a3d5-b605-4568-91fe-3714ef22b0d4"
-      },
-      {
-        "$type": "Bespoke.Sph.Domain.ViewColumn, domain.sph",
-        "ConditionalFormattingCollection": {
-          "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.Sph.Domain.ConditionalFormatting, domain.sph]], domain.sph",
-          "$values": []
-        },
-        "Path": "KumpulanJawatan",
-        "Header": "Kumpulan Jawatan",
-        "Sort": "",
-        "IsLinkColumn": false,
-        "FormRoute": null,
-        "IconCssClass": "",
-        "IconStoreId": "",
-        "Format": "text:{0}",
-        "RouteValueField": "",
-        "WebId": "be179e45-ebb3-4c5f-d8a9-b17404a24a2f"
-      },
-      {
-        "$type": "Bespoke.Sph.Domain.ViewColumn, domain.sph",
-        "ConditionalFormattingCollection": {
-          "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.Sph.Domain.ConditionalFormatting, domain.sph]], domain.sph",
-          "$values": []
-        },
-        "Path": "Skim",
-        "Header": "Skim",
-        "Sort": "",
-        "IsLinkColumn": false,
-        "FormRoute": null,
-        "IconCssClass": "",
-        "IconStoreId": "",
-        "Format": "text:{0}",
-        "RouteValueField": "",
-        "WebId": "f3242b29-2f68-410d-ab4c-10b6be4409ea"
       }
     ]
   },
@@ -179,6 +128,6 @@
   "Id": "responden",
   "CreatedDate": "2015-06-01T18:46:54.311415+08:00",
   "ChangedBy": "admin",
-  "ChangedDate": "2015-06-29T18:13:34.4993817+08:00",
+  "ChangedDate": "2015-07-11T08:01:34.2898483+08:00",
   "WebId": "110610b5-c847-4b71-c598-0a52a231d433"
 }
