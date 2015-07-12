@@ -1,0 +1,72 @@
+<h3 class="page-title">
+  Peti mesej
+  <small>user inbox</small>
+</h3>
+
+<div class="row inbox">
+  <div class="col-md-2">
+    <ul class="inbox-nav margin-bottom-10">
+
+      <li class="inbox active">
+        <a href="javascript:;"  data-bind="click : thisWeek" class="btn" data-title="Inbox">
+        Minggu Ini(3) </a>
+        <b></b>
+      </li>
+      <li class="sent">
+        <a class="btn" href="javascript:;" data-bind="click : thisMonth" data-title="Sent">
+        Bulan Ini </a>
+        <b></b>
+      </li>
+      <li class="draft">
+        <a class="btn" href="javascript:;" data-bind="click : older" data-title="Draft">
+        Lama </a>
+        <b></b>
+      </li>
+      <li class="trash">
+        <a class="btn" href="javascript:;" data-title="Read">
+          <input type="checkbox" data-bind="checked : includeRead" />
+        Sudah Dibaca </a>
+        <b></b>
+      </li>
+    </ul>
+  </div>
+
+  <div class="col-md-10">
+    <div class="inbox-header">
+      <h1 class="pull-left">Inbox</h1>
+      <form class="form-inline pull-right" action="index.html">
+        <div class="input-group input-medium">
+          <input type="text" class="form-control" placeholder="Filter">
+          <span class="input-group-btn">
+            <button type="submit" class="btn green"><i class="fa fa-search"></i></button>
+          </span>
+        </div>
+      </form>
+    </div>
+    <div class="inbox-loading" style="display: none;">
+      Loading...
+    </div>
+    <div class="inbox-content">
+      <table class="table table-striped table-advance table-hover">
+      <tbody data-bind="foreach: messages">
+          <tr class="unread" data-messageid="1" data-bind="css : {unread : !ko.unwrap(IsRead)}">
+            <td class="inbox-small-cells">
+              <i class="fa fa-star"></i>
+            </td>
+            <td class="view-message hidden-xs" data-bind="text:CreatedBy">
+             Sent By
+            </td>
+            <td class="view-message "  data-bind="text:Subject">
+              New server for datacenter needed
+            </td>
+            <td class="view-message text-right" data-bind="date: {value: CreatedDate, format :'D/MM/YYYY HH:mm', inputFormat:'YYYY-MM-DDTHH:mm'}">
+              16:30 PM
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+
+  <!-- END INBOX-->
+</div>
