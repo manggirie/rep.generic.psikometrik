@@ -820,10 +820,14 @@
   "RecordName": "MyKad",
   "IsPublished": true,
   "IsShowOnNavigationBar": true,
+  "TreatDataAsSource": false,
+  "DashboardTemplate": "Dashboard Standard",
+  "StoreInDatabase": null,
+  "StoreInElasticsearch": null,
   "CreatedBy": "admin",
   "Id": "pengguna",
   "CreatedDate": "2015-06-16T08:04:09.5200889+08:00",
   "ChangedBy": "admin",
-  "ChangedDate": "2015-06-30T11:57:10.2743433+08:00",
+  "ChangedDate": "2015-07-12T08:45:53.0824217+08:00",
   "WebId": "01c666ac-ab68-4416-9d69-a716a003c902"
 }
