@@ -33,7 +33,7 @@
     "$values": []
   },
   "Name": "Penyelaras dan Responden",
-  "Description": "Penyelaras pada masa sama adalah rwsponden",
+  "Description": "Penyelaras pada masa sama adalah responden",
   "IsActive": false,
   "StartModule": "penyelaras-home",
   "IsSearchVisible": false,
@@ -46,6 +46,6 @@
   "Id": "penyelaras-dan-responden",
   "CreatedDate": "2015-07-11T09:52:49.1539466+08:00",
   "ChangedBy": "admin",
-  "ChangedDate": "2015-07-11T09:54:13.2627832+08:00",
+  "ChangedDate": "2015-07-13T07:22:04.3162591+08:00",
   "WebId": "2c81d4eb-2126-4d98-918e-79f672b6726b"
 }
