@@ -189,7 +189,7 @@
     "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.Sph.Domain.RouteParameter, domain.sph]], domain.sph",
     "$values": []
   },
-  "IconClass": null,
+  "IconClass": "fa fa-user",
   "IconStoreId": "80499b1c-d90c-45ac-8c5e-04010909ad01",
   "EntityDefinitionId": "skorhlp",
   "Name": "Skor AF Lelaki",
@@ -198,14 +198,16 @@
   "Query": null,
   "IsPublished": true,
   "Visibilty": null,
-  "TileColour": "blightblue",
+  "TileColour": "bred",
   "CountMessage": null,
   "Entity": "SkorHlp",
   "Partial": null,
+  "Template": null,
+  "DisplayOnDashboard": false,
   "CreatedBy": "admin",
   "Id": "skorhlp-skor-hlp-af",
   "CreatedDate": "2015-07-08T10:02:32.6648516+08:00",
   "ChangedBy": "admin",
-  "ChangedDate": "2015-07-09T07:53:11.9397164+08:00",
+  "ChangedDate": "2015-07-12T08:44:06.3577118+08:00",
   "WebId": "23224438-0b49-4c99-8e57-f4dfc50c5956"
 }

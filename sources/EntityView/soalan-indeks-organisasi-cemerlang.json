@@ -152,7 +152,7 @@
     "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.Sph.Domain.RouteParameter, domain.sph]], domain.sph",
     "$values": []
   },
-  "IconClass": "",
+  "IconClass": "fa fa-camera-retro",
   "IconStoreId": "da2bbf75-b540-4c79-87c8-5bfccc427254",
   "EntityDefinitionId": "soalan",
   "Name": "Indeks Organisasi Cemerlang",
@@ -165,10 +165,12 @@
   "CountMessage": "",
   "Entity": "",
   "Partial": "partial/soalan-indeks-organisasi-cemerlang",
+  "Template": null,
+  "DisplayOnDashboard": false,
   "CreatedBy": "admin",
   "Id": "soalan-indeks-organisasi-cemerlang",
   "CreatedDate": "2015-06-22T11:34:46.1375517+08:00",
   "ChangedBy": "admin",
-  "ChangedDate": "2015-07-02T11:42:48.4466323+08:00",
+  "ChangedDate": "2015-07-12T08:52:29.9653682+08:00",
   "WebId": "38e6ae7a-002d-4780-d67c-faea94d5b459"
 }

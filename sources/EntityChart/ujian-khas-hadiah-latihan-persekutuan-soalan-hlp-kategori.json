@@ -1,0 +1,25 @@
+{
+  "$type": "Bespoke.Sph.Domain.EntityChart, domain.sph",
+  "SeriesCollection": {
+    "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.Sph.Domain.Series, domain.sph]], domain.sph",
+    "$values": []
+  },
+  "EntityDefinitionId": "soalan",
+  "Entity": "Soalan",
+  "Name": "Soalan HLP - Kategori",
+  "Type": "pie",
+  "EntityViewId": "ujian-khas-hadiah-latihan-persekutuan",
+  "Query": "{\"query\":{\"filtered\":{\"filter\":{\"bool\":{\"must\":[{\"term\":{\"NamaUjian\":\"Ujian Khas Hadiah Latihan Persekutuan(HLP)\"}}],\"must_not\":[]}}}},\"sort\":[{\"NoRujukan\":{\"order\":\"asc\"}},{\"SoalanNo\":{\"order\":\"asc\"}}],\"aggs\":{\"category\":{\"terms\":{\"field\":\"Kategori\",\"size\":0}}},\"from\":0,\"size\":20}",
+  "Aggregate": "term",
+  "Field": "Kategori",
+  "DateInterval": "year",
+  "IsDashboardItem": true,
+  "DasboardItemPosition": 0,
+  "HistogramInterval": null,
+  "CreatedBy": "urusetia1",
+  "Id": "ujian-khas-hadiah-latihan-persekutuan-soalan-hlp-kategori",
+  "CreatedDate": "2015-07-12T08:41:06.5196386+08:00",
+  "ChangedBy": "urusetia1",
+  "ChangedDate": "2015-07-12T08:41:06.5196386+08:00",
+  "WebId": "7f281b65-cb3b-4f13-a67a-c4ed63b754bc"
+}

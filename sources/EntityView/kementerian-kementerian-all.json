@@ -113,7 +113,7 @@
     "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.Sph.Domain.RouteParameter, domain.sph]], domain.sph",
     "$values": []
   },
-  "IconClass": null,
+  "IconClass": "fa fa-bullhorn",
   "IconStoreId": "c23b0c4c-e75a-4b89-b904-16e9adf1d0d8",
   "EntityDefinitionId": "kementerian",
   "Name": "Senarai Kementerian",
@@ -126,10 +126,12 @@
   "CountMessage": null,
   "Entity": "Kementerian",
   "Partial": null,
+  "Template": null,
+  "DisplayOnDashboard": false,
   "CreatedBy": "admin",
   "Id": "kementerian-kementerian-all",
   "CreatedDate": "2015-06-29T06:45:02.3869085+08:00",
   "ChangedBy": "admin",
-  "ChangedDate": "2015-06-29T06:45:02.3839086+08:00",
+  "ChangedDate": "2015-07-12T08:50:22.4325368+08:00",
   "WebId": "27f8a10d-7a50-4220-9e8f-989268649252"
 }

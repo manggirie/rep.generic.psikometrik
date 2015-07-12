@@ -130,7 +130,7 @@
     "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.Sph.Domain.RouteParameter, domain.sph]], domain.sph",
     "$values": []
   },
-  "IconClass": null,
+  "IconClass": "fa fa-users",
   "IconStoreId": "e3d73a96-427a-4c30-a0e3-1d93db5bf94c",
   "EntityDefinitionId": "pengguna",
   "Name": "Senarai Pengguna",
@@ -143,10 +143,12 @@
   "CountMessage": null,
   "Entity": "Pengguna",
   "Partial": "partial/pengguna-all",
+  "Template": null,
+  "DisplayOnDashboard": false,
   "CreatedBy": "admin",
   "Id": "pengguna-pengguna-all",
   "CreatedDate": "2015-06-16T08:04:09.5345994+08:00",
   "ChangedBy": "admin",
-  "ChangedDate": "2015-06-29T17:15:23.4236128+08:00",
+  "ChangedDate": "2015-07-12T08:44:52.1973647+08:00",
   "WebId": "7bc3651c-5ad2-4db7-802b-5a4de7c7b561"
 }

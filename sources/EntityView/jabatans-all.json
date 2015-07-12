@@ -96,7 +96,7 @@
     "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.Sph.Domain.RouteParameter, domain.sph]], domain.sph",
     "$values": []
   },
-  "IconClass": null,
+  "IconClass": "fa fa-building-o",
   "IconStoreId": "9c933b87-ddb7-4c8f-a777-430213544f86",
   "EntityDefinitionId": "jabatan",
   "Name": "Senarai Jabatan",
@@ -109,10 +109,12 @@
   "CountMessage": null,
   "Entity": "Jabatan",
   "Partial": null,
+  "Template": null,
+  "DisplayOnDashboard": false,
   "CreatedBy": "admin",
   "Id": "jabatans-all",
   "CreatedDate": "2015-06-05T10:37:17.726344+08:00",
   "ChangedBy": "admin",
-  "ChangedDate": "2015-06-29T06:45:20.0053385+08:00",
+  "ChangedDate": "2015-07-12T08:49:34.08446+08:00",
   "WebId": "98b461bb-b301-40a2-81bc-885e2954f342"
 }
