@@ -111,7 +111,7 @@
     "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.Sph.Domain.RouteParameter, domain.sph]], domain.sph",
     "$values": []
   },
-  "IconClass": "",
+  "IconClass": "fa fa-check-circle",
   "IconStoreId": "106a2311-ba82-4744-97c7-4d1ee4eb2de7",
   "EntityDefinitionId": "pengguna",
   "Name": "Senarai Responden",
@@ -124,10 +124,12 @@
   "CountMessage": "",
   "Entity": "",
   "Partial": "",
+  "Template": null,
+  "DisplayOnDashboard": false,
   "CreatedBy": "admin",
   "Id": "responden",
   "CreatedDate": "2015-06-01T18:46:54.311415+08:00",
   "ChangedBy": "admin",
-  "ChangedDate": "2015-07-11T08:01:34.2898483+08:00",
+  "ChangedDate": "2015-07-12T08:48:17.7751958+08:00",
   "WebId": "110610b5-c847-4b71-c598-0a52a231d433"
 }
