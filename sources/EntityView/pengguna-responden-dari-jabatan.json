@@ -31,7 +31,7 @@
         "Header": "Nama",
         "Sort": "",
         "IsLinkColumn": true,
-        "FormRoute": "tambah-pengguna",
+        "FormRoute": "pengguna-details",
         "IconCssClass": "fa fa-edit",
         "IconStoreId": "",
         "Format": "text:{0}",
@@ -78,23 +78,6 @@
           "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.Sph.Domain.ConditionalFormatting, domain.sph]], domain.sph",
           "$values": []
         },
-        "Path": "Pekerjaan",
-        "Header": "Pekerjaan",
-        "Sort": "",
-        "IsLinkColumn": false,
-        "FormRoute": null,
-        "IconCssClass": "",
-        "IconStoreId": "",
-        "Format": "text:{0}",
-        "RouteValueField": "",
-        "WebId": "53702292-980f-4719-b1fb-71165d3e6fab"
-      },
-      {
-        "$type": "Bespoke.Sph.Domain.ViewColumn, domain.sph",
-        "ConditionalFormattingCollection": {
-          "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.Sph.Domain.ConditionalFormatting, domain.sph]], domain.sph",
-          "$values": []
-        },
         "Path": "Emel",
         "Header": "Emel",
         "Sort": "",
@@ -122,23 +105,6 @@
         "Format": "text:{0}",
         "RouteValueField": "",
         "WebId": "7a63b9c5-23fd-48c9-d665-3cf760775432"
-      },
-      {
-        "$type": "Bespoke.Sph.Domain.ViewColumn, domain.sph",
-        "ConditionalFormattingCollection": {
-          "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.Sph.Domain.ConditionalFormatting, domain.sph]], domain.sph",
-          "$values": []
-        },
-        "Path": "NamaKementerian",
-        "Header": "Nama Kementerian",
-        "Sort": "",
-        "IsLinkColumn": false,
-        "FormRoute": null,
-        "IconCssClass": "",
-        "IconStoreId": "",
-        "Format": "text:{0}",
-        "RouteValueField": "",
-        "WebId": "cbeb43a5-143a-4a7d-9e24-9383c8299db3"
       }
     ]
   },
@@ -180,6 +146,6 @@
   "Id": "pengguna-responden-dari-jabatan",
   "CreatedDate": "2015-06-30T19:14:05.8002854+08:00",
   "ChangedBy": "admin",
-  "ChangedDate": "2015-07-12T08:46:14.7097028+08:00",
+  "ChangedDate": "2015-07-13T15:00:57.1050527+08:00",
   "WebId": "3c1c61c1-26e5-4ef4-88b6-cef7a33db674"
 }

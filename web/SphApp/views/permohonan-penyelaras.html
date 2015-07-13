@@ -154,7 +154,7 @@
         <label data-i18n="Bil. Responden" for="01ecd570-9ebf-4767-8d9c-f0c98f2c279e" class="col-md-4">Bil. Responden</label>
         <div class="col-md-8">
             <input  class=" form-control input-large" title=""
-                   data-bind="value: BilRespondan, enable :true "
+                   data-bind="value: BilRespondan, enable :moment() <= moment(ko.unwrap(TarikhTamat)) "
                    
                    
                    

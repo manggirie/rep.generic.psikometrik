@@ -22,7 +22,7 @@
 			</div>
 			<a class="more"  data-bind="attr:{href : '#' + Route(), 'title' : Note}">
 						View more <i class="m-icon-swapright m-icon-white"></i>
-						</a>
+			</a>
 		</div>
 	</div>
   <!-- /ko -->
@@ -33,7 +33,7 @@
 <div class="clearfix">
 </div>
 <div class="row">
-	<div class="col-md-6 col-sm-6">
+	<div class="col-md-8 col-sm-8">
 		<!-- BEGIN PORTLET-->
 		<div class="portlet light ">
 			<div class="portlet-title">
@@ -50,9 +50,9 @@
             <thead>
                 <tr>
                     <th>#</th>
-                    <th>No</th>
-                    <th>Tarikh</th>
-                    <th>Tarikh Tama</th>
+                    <th>Nama Program</th>
+                    <th>Mula</th>
+                    <th>Tamat</th>
                     <th>Papar Responden</th>
                 </tr>
             </thead>
@@ -60,11 +60,7 @@
                 <tr data-bind="">
 
                     <td data-bind="text:$index() + 1"></td>
-                    <td>
-                        <a data-bind="attr : {href:'#permohonan-penyelaras-kemaskini' + '/' + Id, title:'PermohonanNo' }">
-                          <span data-bind="text:PermohonanNo"></span>
-                        </a>
-                    </td>
+                    <td data-bind="text:PermohonanNo"></td>
                     <td data-bind="date:TarikhMula"></td>
                     <td data-bind="date:TarikhTamat"></td>
                     <td>

@@ -44,10 +44,16 @@
                    id="339e716f-a0a2-4dc3-88f8-862e673c65b0" type="text" name="SoalanNo" />
         </div>
     </div>
-<div class="form-group" data-bind="visible:true">
-    <label class="col-md-4">Nama Ujian</label>
-    <span class="col-md-8" data-bind="text: NamaUjian"></span>
-</div>
+
+
+    <div class="form-group" data-bind="visible:true">
+        <label data-i18n="Nama Ujian" for="b7f0b9d2-cd0b-44ba-e716-0a2d2ce284e1" class="col-md-4">Nama Ujian</label>
+        <div class="col-md-8">
+            <select  data-bind=" visible :true,  enable :true, comboBoxLookupOptions : { value: NamaUjian, entity : 'Ujian', valuePath : 'NamaUjian', displayPath: 'NamaUjian', query :'Id ne \'0\''}" id="b7f0b9d2-cd0b-44ba-e716-0a2d2ce284e1" name="NamaUjian" class="  form-control">
+            </select>
+        </div>
+    </div>
+
 
 
     <div data-bind="visible:true" class="form-group">

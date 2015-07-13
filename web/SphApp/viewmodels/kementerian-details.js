@@ -37,8 +37,6 @@
                         
                     });
 
-
-
                     return tcs.promise();
                 },
                 attached = function (view) {
@@ -63,32 +61,26 @@
                         return Task.fromResult(false);
                     }
 
-                    var tcs = new $.Deferred(),
-                        data = ko.mapping.toJSON(entity);
+                    var data = ko.mapping.toJSON(entity);
 
                         
 
-                    context.post(data, "/Kementerian/Save")
+                    return context.post(data, "/Kementerian/Save")
                         .then(function(result) {
-                            tcs.resolve(result);
                             entity().Id(result.id);
-                            app.showMessage("Your Kementerian has been successfully saved", "epsikologi", ["ok"]);
+                            app.showMessage("Your Kementerian has been successfully saved", "JPA Sistem Ujian e-Psikometrik", ["OK"]);
 
                         });
                     
 
-                    return tcs.promise();
                 },
                 remove = function() {
-                    var tcs = new $.Deferred();
-                    $.ajax({
+                    return $.ajax({
                         type: "DELETE",
                         url: "/Kementerian/Remove/" + entity().Id(),
                         contentType: "application/json; charset=utf-8",
                         dataType: "json",
-                        error: tcs.reject,
                         success: function() {
-                            tcs.resolve(true);
                             app.showMessage("Your item has been successfully removed", "Removed", ["OK"])
                               .done(function () {
                                   window.location = "#kementerian";
@@ -97,7 +89,6 @@
                     });
 
 
-                    return tcs.promise();
                 };
 
             var vm = {
@@ -112,11 +103,7 @@
 
 
                 toolbar : {
-                                                        removeCommand :remove,
-                    canExecuteRemoveCommand : ko.computed(function(){
-                        return entity().Id();
-                    }),
-                                                                
+                                                                                                        
                     saveCommand : save,
                     
                     commands : ko.observableArray([])

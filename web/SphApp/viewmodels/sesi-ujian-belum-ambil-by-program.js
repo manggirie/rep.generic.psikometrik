@@ -9,7 +9,7 @@
 /// <reference path="../../Scripts/bootstrap.js" />
 
 
-define(["services/datacontext", "services/logger", "plugins/router", "services/chart", objectbuilders.config, "partial/sesi-ujian-diambil-by-program"],
+define(["services/datacontext", "services/logger", "plugins/router", "services/chart", objectbuilders.config, "partial/sesi-ujian-belum-ambil-by-program"],
 
 function(context, logger, router, chart, config, partial) {
 
@@ -37,7 +37,7 @@ function(context, logger, router, chart, config, partial) {
                                     }
                                 }, {
                                     "term": {
-                                        "Status": "Diambil"
+                                        "Status": "Belum Ambil"
                                     }
                                 }
 
@@ -156,7 +156,7 @@ function(context, logger, router, chart, config, partial) {
             });
         },
         attached = function(view) {
-            chart.init("SesiUjian", query, chartSeriesClick, "sesiujian-sesi-ujian-diambil-by-program");
+            chart.init("SesiUjian", query, chartSeriesClick, "sesiujian-sesi-ujian-belum-ambil-by-program");
 
             if (typeof partial !== "undefined" && typeof partial.attached === "function") {
                 partial.attached(view);

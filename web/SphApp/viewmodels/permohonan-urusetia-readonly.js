@@ -2,9 +2,9 @@
     define([objectbuilders.datacontext, objectbuilders.logger, objectbuilders.router,
         objectbuilders.system, objectbuilders.validation, objectbuilders.eximp,
         objectbuilders.dialog, objectbuilders.watcher, objectbuilders.config,
-        objectbuilders.app ,'partial/permohonan-penyelaras'],
+        objectbuilders.app ],
         function (context, logger, router, system, validation, eximp, dialog, watcher,config,app
-            ,partial) {
+            ) {
 
             var entity = ko.observable(new bespoke.epsikologi_permohonan.domain.Permohonan({WebId:system.guid()})),
                 errors = ko.observableArray(),
@@ -18,9 +18,9 @@
                     var query = String.format("Id eq '{0}'", entityId),
                         tcs = new $.Deferred(),
                         itemTask = context.loadOneAsync("Permohonan", query),
-                        formTask = context.loadOneAsync("EntityForm", "Route eq 'permohonan-penyelaras'"),
+                        formTask = context.loadOneAsync("EntityForm", "Route eq 'permohonan-urusetia-readonly'"),
                         watcherTask = watcher.getIsWatchingAsync("Permohonan", entityId),
-                        i18nTask = $.getJSON("i18n/" + config.lang + "/permohonan-penyelaras");
+                        i18nTask = $.getJSON("i18n/" + config.lang + "/permohonan-urusetia-readonly");
 
                     $.when(itemTask, formTask, watcherTask, i18nTask).done(function(b,f,w,n) {
                         if (b) {
@@ -33,16 +33,7 @@
                         form(f);
                         watching(w);
                         i18n = n[0];
-                            
-                            if(typeof partial.activate === "function"){
-                                var pt = partial.activate(entity());
-                                if(typeof pt.done === "function"){
-                                    pt.done(tcs.resolve);
-                                }else{
-                                    tcs.resolve(true);
-                                }
-                            }
-                            
+                            tcs.resolve(true);
                         
                     });
 
@@ -110,15 +101,9 @@
                  },
                 attached = function (view) {
                     // validation
-                    validation.init($('#permohonan-penyelaras-form'), form());
+                    validation.init($('#permohonan-urusetia-readonly-form'), form());
 
 
-                        
-                    if(typeof partial.attached === "function"){
-                        partial.attached(view);
-                    }
-
-                    
 
                 },
                 compositionComplete = function() {
@@ -167,9 +152,6 @@
                 };
 
             var vm = {
-                            
-                            partial : partial,
-                            
                                     activate: activate,
                 config: config,
                 attached: attached,
@@ -183,10 +165,7 @@
 
 
                 toolbar : {
-                                                                                                        
-                    saveCommand : permohonanDariPenyelaras,
-                    
-                    commands : ko.observableArray([])
+                                                                                                    commands : ko.observableArray([])
                 }
             };
 

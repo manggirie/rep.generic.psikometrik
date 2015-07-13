@@ -128,7 +128,7 @@
     "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.Sph.Domain.RouteParameter, domain.sph]], domain.sph",
     "$values": []
   },
-  "IconClass": "",
+  "IconClass": "fa fa-mobile",
   "IconStoreId": "0531630d-0f71-4a70-aa00-7e6e027ddc8f",
   "EntityDefinitionId": "permohonan",
   "Name": "Permohonan Baru",
@@ -137,14 +137,16 @@
   "Query": "",
   "IsPublished": true,
   "Visibilty": "",
-  "TileColour": "bgreen",
+  "TileColour": "blightblue",
   "CountMessage": "",
   "Entity": "",
   "Partial": "partial/viewpermohonanpenyelaras",
+  "Template": "View without chart",
+  "DisplayOnDashboard": false,
   "CreatedBy": "admin",
   "Id": "permohonan-penyelaras",
   "CreatedDate": "2015-06-05T10:45:40.0595083+08:00",
   "ChangedBy": "admin",
-  "ChangedDate": "2015-07-11T07:57:03.552227+08:00",
+  "ChangedDate": "2015-07-13T12:51:56.025393+08:00",
   "WebId": "0264f91b-ffce-46cc-d40a-e6d3cadb6fac"
 }

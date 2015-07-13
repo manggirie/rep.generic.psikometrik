@@ -37,8 +37,6 @@
                         
                     });
 
-
-
                     return tcs.promise();
                 },
                 dateNow = function(){
@@ -47,10 +45,9 @@
                          return Task.fromResult(false);
                      }
 
-                     var tcs = new $.Deferred(),
-                         data = ko.mapping.toJSON(entity);
+                     var data = ko.mapping.toJSON(entity);
 
-                     context.post(data, "/Pengguna/DateNow" )
+                    return  context.post(data, "/Pengguna/DateNow" )
                          .then(function (result) {
                              if (result.success) {
                                  logger.info(result.message);
@@ -65,9 +62,7 @@
                                  });
                                  logger.error("There are errors in your entity, !!!");
                              }
-                             tcs.resolve(result);
                          });
-                     return tcs.promise();
                  },
                 tarikhKemaskiniNow = function(){
 
@@ -75,16 +70,20 @@
                          return Task.fromResult(false);
                      }
 
-                     var tcs = new $.Deferred(),
-                         data = ko.mapping.toJSON(entity);
+                     var data = ko.mapping.toJSON(entity);
 
-                     context.post(data, "/Pengguna/TarikhKemaskiniNow" )
+                    return  context.post(data, "/Pengguna/TarikhKemaskiniNow" )
                          .then(function (result) {
                              if (result.success) {
                                  logger.info(result.message);
                                  entity().Id(result.id);
                                  errors.removeAll();
 
+                                  
+                                    app.showMessage("Rekod berjaya didaftarkan", "JPA Sistem Ujian e-Psikometrik", ["OK"])
+	                                    .done(function () {
+                                            window.location='#responden'
+	                                    });
                                  
                              } else {
                                  errors.removeAll();
@@ -93,9 +92,37 @@
                                  });
                                  logger.error("There are errors in your entity, !!!");
                              }
-                             tcs.resolve(result);
                          });
-                     return tcs.promise();
+                 },
+                kemaskiniOlehUrusetia = function(){
+
+                     if (!validation.valid()) {
+                         return Task.fromResult(false);
+                     }
+
+                     var data = ko.mapping.toJSON(entity);
+
+                    return  context.post(data, "/Pengguna/KemaskiniOlehUrusetia" )
+                         .then(function (result) {
+                             if (result.success) {
+                                 logger.info(result.message);
+                                 entity().Id(result.id);
+                                 errors.removeAll();
+
+                                  
+                                    app.showMessage("Rekod berjaya disimpan", "JPA Sistem Ujian e-Psikometrik", ["OK"])
+	                                    .done(function () {
+                                            window.location='#responden'
+	                                    });
+                                 
+                             } else {
+                                 errors.removeAll();
+                                 _(result.rules).each(function(v){
+                                     errors(v.ValidationErrors);
+                                 });
+                                 logger.error("There are errors in your entity, !!!");
+                             }
+                         });
                  },
                 attached = function (view) {
                     // validation
@@ -119,32 +146,26 @@
                         return Task.fromResult(false);
                     }
 
-                    var tcs = new $.Deferred(),
-                        data = ko.mapping.toJSON(entity);
+                    var data = ko.mapping.toJSON(entity);
 
                         
 
-                    context.post(data, "/Pengguna/Save")
+                    return context.post(data, "/Pengguna/Save")
                         .then(function(result) {
-                            tcs.resolve(result);
                             entity().Id(result.id);
-                            app.showMessage("Your Pengguna has been successfully saved", "JPA Sistem Ujian e-Psikometrik", ["ok"]);
+                            app.showMessage("Your Pengguna has been successfully saved", "JPA Sistem Ujian e-Psikometrik", ["OK"]);
 
                         });
                     
 
-                    return tcs.promise();
                 },
                 remove = function() {
-                    var tcs = new $.Deferred();
-                    $.ajax({
+                    return $.ajax({
                         type: "DELETE",
                         url: "/Pengguna/Remove/" + entity().Id(),
                         contentType: "application/json; charset=utf-8",
                         dataType: "json",
-                        error: tcs.reject,
                         success: function() {
-                            tcs.resolve(true);
                             app.showMessage("Your item has been successfully removed", "Removed", ["OK"])
                               .done(function () {
                                   window.location = "#pengguna";
@@ -153,7 +174,6 @@
                     });
 
 
-                    return tcs.promise();
                 };
 
             var vm = {
@@ -166,38 +186,13 @@
                 save : save,
                     dateNow : dateNow,
                     tarikhKemaskiniNow : tarikhKemaskiniNow,
+                    kemaskiniOlehUrusetia : kemaskiniOlehUrusetia,
                 //
 
 
                 toolbar : {
-                        emailCommand : {
-                        entity : "Pengguna",
-                        id :id
-                    },
-                                            printCommand :{
-                        entity : 'Pengguna',
-                        id : id
-                    },
-                                    removeCommand :remove,
-                    canExecuteRemoveCommand : ko.computed(function(){
-                        return entity().Id();
-                    }),
-                                            
-                    watchCommand: function() {
-                        return watcher.watch("Pengguna", entity().Id())
-                            .done(function(){
-                                watching(true);
-                            });
-                    },
-                    unwatchCommand: function() {
-                        return watcher.unwatch("Pengguna", entity().Id())
-                            .done(function(){
-                                watching(false);
-                            });
-                    },
-                    watching: watching,
-                                            
-                    saveCommand : save,
+                                                                                                        
+                    saveCommand : kemaskiniOlehUrusetia,
                     
                     commands : ko.observableArray([])
                 }

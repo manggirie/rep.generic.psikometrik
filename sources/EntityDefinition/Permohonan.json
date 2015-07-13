@@ -641,7 +641,7 @@
         "Name": "UrusetiaProcessPermohonanDariPenyelaras",
         "SuccessMessage": "Permohonan program sudah dikemaskini",
         "ShowSuccessMessage": true,
-        "NavigateSuccessUrl": "",
+        "NavigateSuccessUrl": "#permohonan-baru-urusetia",
         "SuccessCommand": "",
         "WebId": "e1557128-3b90-4bf5-d4ba-c975479f0e73"
       }
@@ -659,19 +659,20 @@
     "WebId": null
   },
   "Name": "Permohonan",
-  "Plural": "Permohonans",
+  "Plural": "Permohonan Program",
   "IconStoreId": "8d875fdf-1ebf-417a-997c-8a8b005051ef",
   "IconClass": "fa fa-share-square-o",
   "RecordName": "PermohonanNo",
   "IsPublished": true,
   "IsShowOnNavigationBar": true,
   "TreatDataAsSource": false,
+  "DashboardTemplate": "Dashboard Standard",
   "StoreInDatabase": null,
   "StoreInElasticsearch": null,
   "CreatedBy": "admin",
   "Id": "permohonan",
   "CreatedDate": "2015-06-05T10:45:39.9585024+08:00",
   "ChangedBy": "admin",
-  "ChangedDate": "2015-07-09T10:55:00.5431671+08:00",
+  "ChangedDate": "2015-07-13T12:52:38.3450366+08:00",
   "WebId": "5aff113b-31e8-4f89-b7eb-d089e79bd899"
 }

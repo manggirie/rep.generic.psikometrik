@@ -794,11 +794,38 @@
           ]
         },
         "Name": "TarikhKemaskiniNow",
-        "SuccessMessage": "",
-        "ShowSuccessMessage": false,
-        "NavigateSuccessUrl": "",
+        "SuccessMessage": "Rekod berjaya didaftarkan",
+        "ShowSuccessMessage": true,
+        "NavigateSuccessUrl": "#pengguna-all",
         "SuccessCommand": "",
         "WebId": "a97bdf39-8490-4f87-bac8-e6925c7685c6"
+      },
+      {
+        "$type": "Bespoke.Sph.Domain.EntityOperation, domain.sph",
+        "EntityPermissionCollection": {
+          "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.Sph.Domain.EntityPermission, domain.sph]], domain.sph",
+          "$values": []
+        },
+        "Rules": {
+          "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[System.String, mscorlib]], domain.sph",
+          "$values": []
+        },
+        "Permissions": {
+          "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[System.String, mscorlib]], domain.sph",
+          "$values": [
+            "PengurusanPengguna"
+          ]
+        },
+        "SetterActionChildCollection": {
+          "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.Sph.Domain.SetterActionChild, domain.sph]], domain.sph",
+          "$values": []
+        },
+        "Name": "KemaskiniOlehUrusetia",
+        "SuccessMessage": "Rekod berjaya disimpan",
+        "ShowSuccessMessage": true,
+        "NavigateSuccessUrl": "#responden",
+        "SuccessCommand": "",
+        "WebId": "9b06ef6b-7132-4f8d-a46d-c28c583cdff1"
       }
     ]
   },
@@ -828,6 +855,6 @@
   "Id": "pengguna",
   "CreatedDate": "2015-06-16T08:04:09.5200889+08:00",
   "ChangedBy": "admin",
-  "ChangedDate": "2015-07-12T08:45:53.0824217+08:00",
+  "ChangedDate": "2015-07-13T14:30:51.6624861+08:00",
   "WebId": "01c666ac-ab68-4416-9d69-a716a003c902"
 }

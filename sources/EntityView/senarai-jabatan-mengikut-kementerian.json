@@ -5,12 +5,12 @@
     "$values": [
       {
         "$type": "Bespoke.Sph.Domain.Filter, domain.sph",
-        "Term": "AgensiNo",
+        "Term": "Kementerian",
         "Operator": "Eq",
         "Field": {
           "$type": "Bespoke.Sph.Domain.JavascriptExpressionField, domain.sph",
-          "Expression": "AgensiNo",
-          "Name": "AgensiNo",
+          "Expression": "kementerian",
+          "Name": "kementerian",
           "Note": "",
           "WebId": "c5269758-f82d-46c3-8f7f-38020693f52b"
         },
@@ -94,7 +94,7 @@
     "$values": [
       {
         "$type": "Bespoke.Sph.Domain.RouteParameter, domain.sph",
-        "Name": "AgensiNo",
+        "Name": "kementerian",
         "Type": "string",
         "WebId": "2ca704fa-1ff9-47db-a1ca-02c46bb17cea"
       }
@@ -113,10 +113,12 @@
   "CountMessage": "",
   "Entity": "",
   "Partial": "",
+  "Template": null,
+  "DisplayOnDashboard": false,
   "CreatedBy": "admin",
   "Id": "senarai-jabatan-mengikut-kementerian",
   "CreatedDate": "2015-06-05T10:37:17.7273431+08:00",
   "ChangedBy": "admin",
-  "ChangedDate": "2015-06-05T10:39:59.4745923+08:00",
+  "ChangedDate": "2015-07-13T14:25:42.0097376+08:00",
   "WebId": "a2ea55a6-84a5-4076-c1a8-578ba2543e56"
 }

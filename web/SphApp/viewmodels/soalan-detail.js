@@ -2,9 +2,9 @@
     define([objectbuilders.datacontext, objectbuilders.logger, objectbuilders.router,
         objectbuilders.system, objectbuilders.validation, objectbuilders.eximp,
         objectbuilders.dialog, objectbuilders.watcher, objectbuilders.config,
-        objectbuilders.app ,'partial/soalan-detail'],
+        objectbuilders.app ],
         function (context, logger, router, system, validation, eximp, dialog, watcher,config,app
-            ,partial) {
+            ) {
 
             var entity = ko.observable(new bespoke.epsikologi_soalan.domain.Soalan({WebId:system.guid()})),
                 errors = ko.observableArray(),
@@ -33,16 +33,7 @@
                         form(f);
                         watching(w);
                         i18n = n[0];
-                            
-                            if(typeof partial.activate === "function"){
-                                var pt = partial.activate(entity());
-                                if(typeof pt.done === "function"){
-                                    pt.done(tcs.resolve);
-                                }else{
-                                    tcs.resolve(true);
-                                }
-                            }
-                            
+                            tcs.resolve(true);
                         
                     });
 
@@ -53,12 +44,6 @@
                     validation.init($('#soalan-detail-form'), form());
 
 
-                        
-                    if(typeof partial.attached === "function"){
-                        partial.attached(view);
-                    }
-
-                    
 
                 },
                 compositionComplete = function() {
@@ -83,7 +68,7 @@
                     return context.post(data, "/Soalan/Save")
                         .then(function(result) {
                             entity().Id(result.id);
-                            app.showMessage("Your Soalan has been successfully saved", "JPA Sistem Ujian e-Psikometrik", ["ok"]);
+                            app.showMessage("Your Soalan has been successfully saved", "JPA Sistem Ujian e-Psikometrik", ["OK"]);
 
                         });
                     
@@ -107,9 +92,6 @@
                 };
 
             var vm = {
-                            
-                            partial : partial,
-                            
                                     activate: activate,
                 config: config,
                 attached: attached,
@@ -121,11 +103,7 @@
 
 
                 toolbar : {
-                                                        removeCommand :remove,
-                    canExecuteRemoveCommand : ko.computed(function(){
-                        return entity().Id();
-                    }),
-                                                                
+                                                                                                        
                     saveCommand : save,
                     
                     commands : ko.observableArray([])

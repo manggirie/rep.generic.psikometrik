@@ -2,6 +2,7 @@
 
 ## Master page
 * Footer penafian
+* Button new form with "Allow new Item" should have more descriptive caption
 
 
 ## Sesi ujian

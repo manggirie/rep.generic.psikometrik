@@ -23,8 +23,8 @@
         "Field": {
           "$type": "Bespoke.Sph.Domain.ConstantField, domain.sph",
           "TypeName": "System.String, mscorlib",
-          "Value": "Diambil",
-          "Name": "Diambil",
+          "Value": "Belum Ambil",
+          "Name": "Belum Ambil",
           "Note": "",
           "WebId": "98a04083-7026-432f-b132-1f496bfcf270"
         },
@@ -92,23 +92,6 @@
           "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.Sph.Domain.ConditionalFormatting, domain.sph]], domain.sph",
           "$values": []
         },
-        "Path": "TarikhUjian",
-        "Header": "Tarikh Ujian",
-        "Sort": "",
-        "IsLinkColumn": false,
-        "FormRoute": null,
-        "IconCssClass": "",
-        "IconStoreId": "",
-        "Format": "date:{0}",
-        "RouteValueField": "",
-        "WebId": "a210282e-5818-4eec-d694-850fff3e6f1e"
-      },
-      {
-        "$type": "Bespoke.Sph.Domain.ViewColumn, domain.sph",
-        "ConditionalFormattingCollection": {
-          "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.Sph.Domain.ConditionalFormatting, domain.sph]], domain.sph",
-          "$values": []
-        },
         "Path": "Status",
         "Header": "Status",
         "Sort": "",
@@ -136,23 +119,6 @@
         "Format": "text:{0}",
         "RouteValueField": "",
         "WebId": "535b01a0-4d9e-4a27-a49a-18e81e99a159"
-      },
-      {
-        "$type": "Bespoke.Sph.Domain.ViewColumn, domain.sph",
-        "ConditionalFormattingCollection": {
-          "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.Sph.Domain.ConditionalFormatting, domain.sph]], domain.sph",
-          "$values": []
-        },
-        "Path": "'Laporan Individu'",
-        "Header": "Laporan  Individu",
-        "Sort": "",
-        "IsLinkColumn": true,
-        "FormRoute": "sesiujian-details",
-        "IconCssClass": "fa fa-desktop",
-        "IconStoreId": "",
-        "Format": "text:{0}",
-        "RouteValueField": "Id",
-        "WebId": "e4b809a7-ebc2-43a5-e715-e305bd35ea62"
       }
     ]
   },
@@ -189,11 +155,11 @@
       }
     ]
   },
-  "IconClass": "",
+  "IconClass": "fa fa-bell-o",
   "IconStoreId": "sph-img-list",
   "EntityDefinitionId": "sesiujian",
-  "Name": "Sesi Ujian Diambil Mengikut Program",
-  "Route": "sesi-ujian-diambil-by-program",
+  "Name": "Sesi Ujian Belum Diambil Mengikut Program",
+  "Route": "sesi-ujian-belum-ambil-by-program",
   "Note": "Mengikut Program",
   "Query": "",
   "IsPublished": true,
@@ -201,13 +167,13 @@
   "TileColour": "bgreen",
   "CountMessage": "",
   "Entity": "",
-  "Partial": "partial/sesi-ujian-diambil-by-program",
+  "Partial": "partial/sesi-ujian-belum-ambil-by-program",
   "Template": null,
   "DisplayOnDashboard": false,
   "CreatedBy": "admin",
-  "Id": "sesiujian-sesi-ujian-diambil-by-program",
+  "Id": "sesiujian-sesi-ujian-belum-ambil-by-program",
   "CreatedDate": "2015-07-09T13:27:25.9079649+08:00",
   "ChangedBy": "admin",
-  "ChangedDate": "2015-07-13T13:49:06.5261616+08:00",
+  "ChangedDate": "2015-07-13T13:58:20.4887445+08:00",
   "WebId": "2af01962-ff9f-440f-d516-d578ff3ef69c"
 }

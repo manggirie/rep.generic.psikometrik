@@ -294,11 +294,11 @@
     "$values": []
   },
   "EntityDefinitionId": "jabatan",
-  "Name": "Jabatan details",
+  "Name": "Tambah Jabatan",
   "Route": "jabatan-details",
   "Note": null,
   "IsAllowedNewItem": true,
-  "IconClass": "glyphicon glyphicon-new-window",
+  "IconClass": "fa fa-plus",
   "IconStoreId": null,
   "IsPublished": true,
   "IsDefault": true,
@@ -312,12 +312,12 @@
   "Operation": "save",
   "Entity": "Jabatan",
   "Partial": null,
-  "Caption": null,
+  "Caption": "Kemaskini Maklumat Jabatan",
   "Layout": null,
   "CreatedBy": "admin",
   "Id": "jabatan-details",
   "CreatedDate": "2015-06-05T10:37:17.7103426+08:00",
   "ChangedBy": "admin",
-  "ChangedDate": "2015-06-05T10:37:17.7093427+08:00",
+  "ChangedDate": "2015-07-13T14:27:32.7562015+08:00",
   "WebId": "90586e6b-e311-48bb-8ea6-30408e969399"
 }

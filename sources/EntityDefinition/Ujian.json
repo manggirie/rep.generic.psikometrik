@@ -121,12 +121,13 @@
   "IsPublished": true,
   "IsShowOnNavigationBar": true,
   "TreatDataAsSource": true,
+  "DashboardTemplate": "Dashboard Standard",
   "StoreInDatabase": null,
   "StoreInElasticsearch": null,
   "CreatedBy": "admin",
   "Id": "ujian",
   "CreatedDate": "2015-06-16T08:05:00.1218075+08:00",
   "ChangedBy": "admin",
-  "ChangedDate": "2015-07-08T09:03:15.6956444+08:00",
+  "ChangedDate": "2015-07-13T10:00:48.6214903+08:00",
   "WebId": "b9308a1b-cbde-4d64-8ff9-8e1a9f1ef759"
 }
