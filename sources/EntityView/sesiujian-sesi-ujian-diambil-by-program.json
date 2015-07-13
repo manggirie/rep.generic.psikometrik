@@ -202,10 +202,12 @@
   "CountMessage": "",
   "Entity": "",
   "Partial": "partial/sesi-ujian-diambil-by-program",
+  "Template": null,
+  "DisplayOnDashboard": false,
   "CreatedBy": "admin",
   "Id": "sesiujian-sesi-ujian-diambil-by-program",
   "CreatedDate": "2015-07-09T13:27:25.9079649+08:00",
   "ChangedBy": "admin",
-  "ChangedDate": "2015-07-11T07:28:57.1639373+08:00",
+  "ChangedDate": "2015-07-13T13:49:06.5261616+08:00",
   "WebId": "2af01962-ff9f-440f-d516-d578ff3ef69c"
 }

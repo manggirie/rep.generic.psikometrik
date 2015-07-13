@@ -13,40 +13,6 @@
           "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.Sph.Domain.ConditionalFormatting, domain.sph]], domain.sph",
           "$values": []
         },
-        "Path": "Id",
-        "Header": "ID",
-        "Sort": "",
-        "IsLinkColumn": false,
-        "FormRoute": null,
-        "IconCssClass": "",
-        "IconStoreId": "",
-        "Format": "text:{0}",
-        "RouteValueField": "I",
-        "WebId": "a18e3d91-f5d0-4d3b-d445-5d03918099c7"
-      },
-      {
-        "$type": "Bespoke.Sph.Domain.ViewColumn, domain.sph",
-        "ConditionalFormattingCollection": {
-          "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.Sph.Domain.ConditionalFormatting, domain.sph]], domain.sph",
-          "$values": []
-        },
-        "Path": "KementerianNo",
-        "Header": "No Kementerian ",
-        "Sort": "",
-        "IsLinkColumn": true,
-        "FormRoute": "senarai-jabatan-mengikut-kementerian",
-        "IconCssClass": "fa fa-plus-square-o",
-        "IconStoreId": "",
-        "Format": "text:{0}",
-        "RouteValueField": "Id",
-        "WebId": "bcc02cbe-95dc-4dc4-a8a6-2758cb91606e"
-      },
-      {
-        "$type": "Bespoke.Sph.Domain.ViewColumn, domain.sph",
-        "ConditionalFormattingCollection": {
-          "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.Sph.Domain.ConditionalFormatting, domain.sph]], domain.sph",
-          "$values": []
-        },
         "Path": "NamaKementerian",
         "Header": "Nama Kementerian",
         "Sort": "",
@@ -91,6 +57,23 @@
         "Format": "text:{0}",
         "RouteValueField": "",
         "WebId": "dc07f2b0-110c-4bf3-fca4-00a4da385f75"
+      },
+      {
+        "$type": "Bespoke.Sph.Domain.ViewColumn, domain.sph",
+        "ConditionalFormattingCollection": {
+          "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.Sph.Domain.ConditionalFormatting, domain.sph]], domain.sph",
+          "$values": []
+        },
+        "Path": "'Senarai Jabatan'",
+        "Header": "Jabatan",
+        "Sort": "",
+        "IsLinkColumn": true,
+        "FormRoute": "senarai-jabatan-mengikut-kementerian",
+        "IconCssClass": "fa fa-plus-square-o",
+        "IconStoreId": "",
+        "Format": "text:{0}",
+        "RouteValueField": "encodeURIComponent(NamaKementerian)",
+        "WebId": "bcc02cbe-95dc-4dc4-a8a6-2758cb91606e"
       }
     ]
   },
@@ -132,6 +115,6 @@
   "Id": "kementerian-kementerian-all",
   "CreatedDate": "2015-06-29T06:45:02.3869085+08:00",
   "ChangedBy": "admin",
-  "ChangedDate": "2015-07-12T08:50:22.4325368+08:00",
+  "ChangedDate": "2015-07-13T14:22:56.948819+08:00",
   "WebId": "27f8a10d-7a50-4220-9e8f-989268649252"
 }

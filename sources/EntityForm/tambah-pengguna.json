@@ -149,12 +149,6 @@
                 "Caption": "Perempuan",
                 "Value": "Perempuan",
                 "WebId": "5a60ff69-fa8f-4a3d-e8ec-f11bb18fb18c"
-              },
-              {
-                "$type": "Bespoke.Sph.Domain.ComboBoxItem, domain.sph",
-                "Caption": "Tidak Diketahui",
-                "Value": "Tidak Diketahui",
-                "WebId": "4a1980b8-4c6e-46d8-a29d-b007a5728a71"
               }
             ]
           },
@@ -1688,6 +1682,6 @@
   "Id": "tambah-pengguna",
   "CreatedDate": "2015-06-16T08:04:09.5205895+08:00",
   "ChangedBy": "admin",
-  "ChangedDate": "2015-06-27T06:30:02.8012601+08:00",
+  "ChangedDate": "2015-07-13T14:44:24.6003545+08:00",
   "WebId": "4e32950c-7d95-4b44-983c-3c3e67811ded"
 }

@@ -1,4 +1,4 @@
-<h1>Senarai Program Yang Diluluskan</h1>
+<h1>Senarai Program</h1>
 <div class="row">
     <div class="col-md-8">
         <button class="btn btn-link pull-right" data-bind="visible: chartFiltered, click: clearChartFilter">
@@ -35,7 +35,12 @@
                                                         <span data-bind="text:sudahAmbil"></span>
                         </a>
                     </td>
-                    <td data-bind="text:belumAmbil"></td>
+                    <td>
+                        <a data-bind="attr : {href:'#sesi-ujian-belum-ambil-by-program' + '/' + encodeURIComponent(PermohonanNo), title:'Belum Ambil' }">
+                            <i class="fa fa-th-list"></i>
+                                                        <span data-bind="text:belumAmbil"></span>
+                        </a>
+                    </td>
 
 
                 </tr>

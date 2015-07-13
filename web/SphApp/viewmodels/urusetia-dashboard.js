@@ -23,7 +23,7 @@ define(["services/datacontext", "services/logger", "plugins/router", objectbuild
             //
 
             var date = moment().format('YYYY-MM-DD HH:mm:ss');
-            context.getCountAsync("Permohonan","TarikhTamat ge '" + date +"'").done(programSemasa);
+            context.getCountAsync("Permohonan","TarikhTamat ge '" + date +"' and TarikhMula le '" + date +"'").done(programSemasa);
         };
 
     return {

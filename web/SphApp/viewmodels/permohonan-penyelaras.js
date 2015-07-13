@@ -96,7 +96,7 @@
                                   
                                     app.showMessage("Permohonan program sudah dikemaskini", "JPA Sistem Ujian e-Psikometrik", ["OK"])
 	                                    .done(function () {
-                                            
+                                            window.location='#permohonan-baru-urusetia'
 	                                    });
                                  
                              } else {
@@ -143,7 +143,7 @@
                     return context.post(data, "/Permohonan/Save")
                         .then(function(result) {
                             entity().Id(result.id);
-                            app.showMessage("Your Permohonan has been successfully saved", "JPA Sistem Ujian e-Psikometrik", ["ok"]);
+                            app.showMessage("Your Permohonan has been successfully saved", "JPA Sistem Ujian e-Psikometrik", ["OK"]);
 
                         });
                     

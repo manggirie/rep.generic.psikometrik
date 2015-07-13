@@ -511,7 +511,7 @@
           "Size": "input-large",
           "CssClass": "",
           "Visible": "true",
-          "Enable": "true",
+          "Enable": "moment() <= moment(ko.unwrap(TarikhTamat))",
           "ElementId": "01ecd570-9ebf-4767-8d9c-f0c98f2c279e",
           "HelpText": null,
           "UseDisplayTemplate": false,
@@ -676,6 +676,6 @@
   "Id": "permohonan-penyelaras",
   "CreatedDate": "2015-06-05T10:45:40.0425071+08:00",
   "ChangedBy": "admin",
-  "ChangedDate": "2015-07-10T13:12:28.858112+08:00",
+  "ChangedDate": "2015-07-13T15:07:43.874028+08:00",
   "WebId": "d56af63c-c52e-401b-83b5-bfecea2c53d1"
 }

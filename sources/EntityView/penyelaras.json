@@ -32,7 +32,7 @@
         "Header": "Nama",
         "Sort": "",
         "IsLinkColumn": true,
-        "FormRoute": "tambah-pengguna",
+        "FormRoute": "pengguna-details",
         "IconCssClass": "fa fa-video-camera",
         "IconStoreId": "",
         "Format": "text:{0}",
@@ -130,6 +130,6 @@
   "Id": "penyelaras",
   "CreatedDate": "2015-06-16T08:04:09.5345994+08:00",
   "ChangedBy": "admin",
-  "ChangedDate": "2015-07-12T08:47:02.6859834+08:00",
+  "ChangedDate": "2015-07-13T14:04:37.9213557+08:00",
   "WebId": "a8494a5b-85d1-4b8b-dd3b-aa13a5b664c6"
 }

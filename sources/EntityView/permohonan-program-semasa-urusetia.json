@@ -60,7 +60,7 @@
         "Header": "Program",
         "Sort": "",
         "IsLinkColumn": true,
-        "FormRoute": "permohonan-penyelaras",
+        "FormRoute": "permohonan-urusetia-readonly",
         "IconCssClass": "",
         "IconStoreId": "",
         "Format": "text:{0}",
@@ -203,10 +203,12 @@
   "CountMessage": "",
   "Entity": "",
   "Partial": "partial/permohonan-urusetia-lulus",
+  "Template": null,
+  "DisplayOnDashboard": false,
   "CreatedBy": "admin",
   "Id": "permohonan-program-semasa-urusetia",
   "CreatedDate": "2015-06-05T10:45:40.0585082+08:00",
   "ChangedBy": "admin",
-  "ChangedDate": "2015-07-11T07:41:22.3379271+08:00",
+  "ChangedDate": "2015-07-13T12:59:38.9073421+08:00",
   "WebId": "0264f91b-ffce-46cc-d40a-e6d3cadb6fac"
 }
