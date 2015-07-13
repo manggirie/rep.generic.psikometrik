@@ -8,21 +8,16 @@
         <table class="table table-striped" data-bind="filter : {path:'tbody>tr'}, searchPaging :{ query: query, map : map, entity : 'Permohonan', list:list}">
             <thead>
                 <tr>
-                    <th>Bil.</th>
                     <th>Jenis</th>
                     <th>Tarikh Mula</th>
                     <th>TarikhTamat</th>
-                    <th>Tujuan Program</th>
-                    <th>Nama Jabatan</th>
+                    <th>Tujuan</th>
                     <th>Bil.Responden</th>
-                    <th>Nama Kementerian</th>
-                    <th>Penyelaras</th>
                 </tr>
             </thead>
             <tbody data-bind="foreach :list">
                 <tr data-bind="">
 
-                    <td data-bind="text:$index()+1"></td>
                     <td>
                         <a data-bind="attr : {href:'#permohonan-urusetia' + '/' + Id, title:'Jenis' }">
                             <i class="fa fa-edit"></i>
@@ -32,10 +27,7 @@
                     <td data-bind="date:TarikhMula"></td>
                     <td data-bind="date:TarikhTamat"></td>
                     <td data-bind="text:TujuanProgram"></td>
-                    <td data-bind="text:NamaJabatan"></td>
                     <td data-bind="text:BilRespondan"></td>
-                    <td data-bind="text:NamaKementerian"></td>
-                    <td data-bind="text:Penyelaras"></td>
 
 
                 </tr>

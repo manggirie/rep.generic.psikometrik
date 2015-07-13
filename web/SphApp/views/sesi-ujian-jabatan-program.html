@@ -1,0 +1,41 @@
+<h1>Sesi Ujian Belum Ambil</h1>
+<div class="row">
+    <div class="col-md-8">
+        <button class="btn btn-link pull-right" data-bind="visible: chartFiltered, click: clearChartFilter">
+            <i class="fa fa-times"></i>
+            Clear chart's filter
+        </button>
+        <table class="table table-striped" data-bind="filter : {path:'tbody>tr'}, searchPaging :{ query: query, map : map, entity : 'SesiUjian', list:list}">
+            <thead>
+                <tr>
+                    <th>Nama Pengguna</th>
+                    <th>My Kad</th>
+                    <th>Nama Ujian</th>
+                    <th>Nama Program</th>
+                    <th>Email</th>
+                </tr>
+            </thead>
+            <tbody data-bind="foreach :list">
+                <tr data-bind="">
+
+                    <td data-bind="text:NamaPengguna"></td>
+                    <td data-bind="text:MyKad"></td>
+                    <td data-bind="text:NamaUjian"></td>
+                    <td data-bind="text:NamaProgram"></td>
+                    <td>
+                        <a data-bind="attr : {href:'#sesiujian-details' + '/' + Id, title:'Email' }">
+                            <i class="fa fa-envelope-o"></i>
+                                                        <span data-bind="text:&#39;&#39;"></span>
+                        </a>
+                    </td>
+
+
+                </tr>
+            </tbody>
+        </table>
+        <img src="/Images/spinner-md.gif" alt="loading" class="absolute-center" data-bind="visible: isBusy" />
+    </div>
+
+    <!-- ko compose : {view : '_chart.panel'}-->
+    <!-- /ko -->
+</div>

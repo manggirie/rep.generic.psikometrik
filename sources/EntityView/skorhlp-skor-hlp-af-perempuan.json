@@ -67,7 +67,7 @@
         "IconCssClass": "",
         "IconStoreId": "",
         "Format": "text:{0}",
-        "RouteValueField": "",
+        "RouteValueField": "Id",
         "WebId": "31f63ae3-a5de-4522-a535-8d3ca1414dda"
       },
       {
@@ -84,7 +84,7 @@
         "IconCssClass": "",
         "IconStoreId": "",
         "Format": "text:{0}",
-        "RouteValueField": "",
+        "RouteValueField": "Id",
         "WebId": "e48b4527-cef1-49bd-e6fd-443264be0ed1"
       },
       {
@@ -101,7 +101,7 @@
         "IconCssClass": "",
         "IconStoreId": "",
         "Format": "text:{0}",
-        "RouteValueField": "",
+        "RouteValueField": "Id",
         "WebId": "015452c7-3429-4cd9-f112-14e83bb7e9bb"
       },
       {
@@ -118,7 +118,7 @@
         "IconCssClass": "",
         "IconStoreId": "",
         "Format": "text:{0}",
-        "RouteValueField": "",
+        "RouteValueField": "Id",
         "WebId": "35ff4c02-1e91-4ab7-b33d-c5420a46db01"
       },
       {
@@ -135,7 +135,7 @@
         "IconCssClass": "",
         "IconStoreId": "",
         "Format": "text:{0}",
-        "RouteValueField": "",
+        "RouteValueField": "Id",
         "WebId": "487c035d-eb96-4d3a-a9f4-ad709536d8e9"
       },
       {
@@ -152,7 +152,7 @@
         "IconCssClass": "",
         "IconStoreId": "",
         "Format": "text:{0}",
-        "RouteValueField": "",
+        "RouteValueField": "Id",
         "WebId": "f2bb420a-52c5-43d7-d4bb-e74b564c92f9"
       }
     ]
@@ -189,7 +189,7 @@
     "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.Sph.Domain.RouteParameter, domain.sph]], domain.sph",
     "$values": []
   },
-  "IconClass": null,
+  "IconClass": "fa fa-users",
   "IconStoreId": "3d394b6f-6d37-4887-a6d0-12020dcf5d19",
   "EntityDefinitionId": "skorhlp",
   "Name": "AF Perempuan",
@@ -202,10 +202,12 @@
   "CountMessage": null,
   "Entity": "SkorHlp",
   "Partial": null,
+  "Template": null,
+  "DisplayOnDashboard": false,
   "CreatedBy": "admin",
   "Id": "skorhlp-skor-hlp-af-perempuan",
   "CreatedDate": "2015-07-08T10:02:32.6648516+08:00",
   "ChangedBy": "admin",
-  "ChangedDate": "2015-07-09T07:54:10.1885004+08:00",
+  "ChangedDate": "2015-07-12T08:43:04.668391+08:00",
   "WebId": "23224438-0b49-4c99-8e57-f4dfc50c5956"
 }

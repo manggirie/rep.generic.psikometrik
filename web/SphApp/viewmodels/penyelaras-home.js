@@ -127,6 +127,7 @@ define(['services/datacontext', 'services/logger', 'plugins/router', "services/c
           case "bred": return "red-intense";
           case "bgreen": return "green-haze";
           case "bviolet": return "purple-plum";
+          case "borange": return "yellow-gold";
           default:return "blue-madison";
 
         }

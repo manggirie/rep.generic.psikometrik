@@ -1,0 +1,28 @@
+<h3 class="page-title">
+	Profil
+	<small data-bind="text: userProfile().FullName">reports & statistics</small>
+</h3>
+<div class="row">
+    <form class="form-horizontal" data-bind="with: userProfile">
+        <div class="form-group">
+            <label for="FullName" class="col-lg-2">Nama Penuh</label>
+            <div class="col-lg-9">
+                <input class="form-control" data-bind="value: FullName" id="FullName" type="text" name="FullName" />
+            </div>
+        </div>
+        <div class="form-group">
+            <label for="email-field" class="col-lg-2">Emel</label>
+            <div class="col-lg-9">
+                <input class="form-control" data-bind="value: Email" id="email-field" type="email" name="email" />
+            </div>
+        </div>
+
+        <div class="form-group">
+            <label for="Telephone" class="col-lg-2">Telefon </label>
+            <div class="col-lg-9">
+                <input class="form-control" data-bind="value: Telephone" id="Telephone" type="text" name="Telephone" />
+            </div>
+        </div>
+
+    </form>
+</div>

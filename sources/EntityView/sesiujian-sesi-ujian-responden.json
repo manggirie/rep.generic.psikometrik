@@ -99,7 +99,7 @@
         "FormRoute": null,
         "IconCssClass": "",
         "IconStoreId": "",
-        "Format": "text:{0}",
+        "Format": "date:{0}",
         "RouteValueField": "",
         "WebId": "a210282e-5818-4eec-d694-850fff3e6f1e"
       },
@@ -206,6 +206,6 @@
   "Id": "sesiujian-sesi-ujian-responden",
   "CreatedDate": "2015-07-09T13:27:25.9079649+08:00",
   "ChangedBy": "admin",
-  "ChangedDate": "2015-07-09T13:27:25.9079649+08:00",
+  "ChangedDate": "2015-07-11T07:21:27.2799817+08:00",
   "WebId": "2af01962-ff9f-440f-d516-d578ff3ef69c"
 }

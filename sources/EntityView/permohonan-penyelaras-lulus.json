@@ -144,7 +144,7 @@
   "IconClass": "",
   "IconStoreId": "sph-img-list",
   "EntityDefinitionId": "permohonan",
-  "Name": "Senarai Program Yang Telah Diluluskan",
+  "Name": "Permohonan Program  Lulus",
   "Route": "permohonan-penyelaras-lulus",
   "Note": "Untuk penyelaras",
   "Query": "",
@@ -158,6 +158,6 @@
   "Id": "permohonan-penyelaras-lulus",
   "CreatedDate": "2015-06-05T10:45:40.0585082+08:00",
   "ChangedBy": "admin",
-  "ChangedDate": "2015-06-30T19:56:25.7345205+08:00",
+  "ChangedDate": "2015-07-11T08:10:29.4607221+08:00",
   "WebId": "0264f91b-ffce-46cc-d40a-e6d3cadb6fac"
 }

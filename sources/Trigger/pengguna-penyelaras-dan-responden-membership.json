@@ -1,0 +1,137 @@
+{
+  "$type": "Bespoke.Sph.Domain.Trigger, domain.sph",
+  "RuleCollection": {
+    "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.Sph.Domain.Rule, domain.sph]], domain.sph",
+    "$values": [
+      {
+        "$type": "Bespoke.Sph.Domain.Rule, domain.sph",
+        "Left": {
+          "$type": "Bespoke.Sph.Domain.DocumentField, domain.sph",
+          "XPath": "",
+          "NamespacePrefix": "",
+          "TypeName": "",
+          "Path": "IsPenyelaras",
+          "Name": "IsPenyelaras",
+          "Note": "",
+          "WebId": "dea6fd36-5e1a-4e1b-af0d-c37ad07706db"
+        },
+        "Right": {
+          "$type": "Bespoke.Sph.Domain.ConstantField, domain.sph",
+          "TypeName": "System.Boolean, mscorlib",
+          "Value": true,
+          "Name": "true",
+          "Note": "",
+          "WebId": "ef985ac6-bec2-4231-edd5-6725c5cd00d8"
+        },
+        "Operator": "Eq",
+        "WebId": "562a5b1f-839d-4761-eeb6-2a0b67102084"
+      },
+      {
+        "$type": "Bespoke.Sph.Domain.Rule, domain.sph",
+        "Left": {
+          "$type": "Bespoke.Sph.Domain.DocumentField, domain.sph",
+          "XPath": "",
+          "NamespacePrefix": "",
+          "TypeName": "",
+          "Path": "IsResponden",
+          "Name": "IsResponden",
+          "Note": "",
+          "WebId": "ef1b11e5-9c41-4c66-b971-3bf678932c66"
+        },
+        "Right": {
+          "$type": "Bespoke.Sph.Domain.ConstantField, domain.sph",
+          "TypeName": "System.String, mscorlib",
+          "Value": "true",
+          "Name": "true",
+          "Note": "",
+          "WebId": "9f96ae09-fab2-4434-e921-2710dabdbfed"
+        },
+        "Operator": "Eq",
+        "WebId": "f0bad26b-adf5-4da4-ec58-05fc7a9e658e"
+      },
+      {
+        "$type": "Bespoke.Sph.Domain.Rule, domain.sph",
+        "Left": {
+          "$type": "Bespoke.Sph.Domain.DocumentField, domain.sph",
+          "XPath": "",
+          "NamespacePrefix": "",
+          "TypeName": "",
+          "Path": "IsUrusetia",
+          "Name": "IsUrusetia",
+          "Note": "",
+          "WebId": "6c8c3863-3e5f-47ba-a76d-142cece04393"
+        },
+        "Right": {
+          "$type": "Bespoke.Sph.Domain.ConstantField, domain.sph",
+          "TypeName": "System.String, mscorlib",
+          "Value": "false",
+          "Name": "false",
+          "Note": "",
+          "WebId": "3a6b7ce5-09ff-46ae-ded8-9ca2b13322a8"
+        },
+        "Operator": "Eq",
+        "WebId": "accc90c1-99a5-445c-fca5-eeb403f1bbfa"
+      }
+    ]
+  },
+  "ActionCollection": {
+    "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.Sph.Domain.CustomAction, domain.sph]], domain.sph",
+    "$values": [
+      {
+        "$type": "Bespoke.Sph.Domain.StartWorkflowAction, domain.sph",
+        "WorkflowDefinitionId": "creates-membership-for-new-penyelaras",
+        "Name": "",
+        "Version": 0,
+        "WorkflowTriggerMapCollection": {
+          "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.Sph.Domain.WorkflowTriggerMap, domain.sph]], domain.sph",
+          "$values": [
+            {
+              "$type": "Bespoke.Sph.Domain.WorkflowTriggerMap, domain.sph",
+              "VariablePath": "Pengguna",
+              "Field": {
+                "$type": "Bespoke.Sph.Domain.FunctionField, domain.sph",
+                "CodeNamespace": "ff3c05ee21",
+                "Script": "item",
+                "Name": "item",
+                "Note": "",
+                "WebId": "3c05ee21-cfb7-43e4-cfd7-dc06e64147b3"
+              },
+              "WebId": "e8e636db-e37a-455c-91be-fc49b54812be"
+            }
+          ]
+        },
+        "Title": "Creates membership for new Penyelaras",
+        "IsActive": true,
+        "TriggerId": "",
+        "Note": "",
+        "CustomActionId": 0,
+        "WebId": "393956d1-8847-4097-98cf-2bbdf028e3c2"
+      }
+    ]
+  },
+  "ReferencedAssemblyCollection": {
+    "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.Sph.Domain.ReferencedAssembly, domain.sph]], domain.sph",
+    "$values": []
+  },
+  "RequeueFilterCollection": {
+    "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.Sph.Domain.ExceptionFilter, domain.sph]], domain.sph",
+    "$values": []
+  },
+  "Name": "Penyelaras dan responden membership",
+  "Entity": "Pengguna",
+  "TypeOf": "Bespoke.epsikologi_pengguna.Domain.Pengguna, epsikologi.Pengguna",
+  "Note": "",
+  "IsActive": true,
+  "IsFiredOnAdded": true,
+  "IsFiredOnDeleted": false,
+  "IsFiredOnChanged": false,
+  "FiredOnOperations": "",
+  "ClassName": "PenggunaPenyelarasDanRespondenMembershipTriggerSubscriber",
+  "CodeNamespace": "Bespoke.Sph.TriggerSubscribers",
+  "CreatedBy": "admin",
+  "Id": "pengguna-penyelaras-dan-responden-membership",
+  "CreatedDate": "2015-06-16T08:04:09.5366008+08:00",
+  "ChangedBy": "admin",
+  "ChangedDate": "2015-07-11T09:50:42.6056303+08:00",
+  "WebId": "ae419759-6ae0-4c6e-ea9c-c7de9fd59a95"
+}

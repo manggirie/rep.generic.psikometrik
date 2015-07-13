@@ -470,16 +470,20 @@
     "WebId": null
   },
   "Name": "SesiUjian",
-  "Plural": "SesiUjians",
+  "Plural": "Sesi Ujian",
   "IconStoreId": "c15c1dfc-2b5b-42d2-a991-26a7f0b28daa",
   "IconClass": "fa fa-edit",
   "RecordName": "SesiNo",
   "IsPublished": true,
   "IsShowOnNavigationBar": true,
+  "TreatDataAsSource": false,
+  "DashboardTemplate": "Dashboard Standard",
+  "StoreInDatabase": null,
+  "StoreInElasticsearch": null,
   "CreatedBy": "admin",
   "Id": "sesiujian",
   "CreatedDate": "2015-06-01T18:46:59.9857666+08:00",
   "ChangedBy": "admin",
-  "ChangedDate": "2015-07-03T09:21:53.1551634+08:00",
+  "ChangedDate": "2015-07-12T08:54:21.6437069+08:00",
   "WebId": "db4b5955-f616-434c-d814-7621fcd20ec7"
 }
