@@ -1,0 +1,14 @@
+{
+  "$type": "Bespoke.epsikologi_kementerian.Domain.Kementerian, epsikologi.Kementerian",
+  "KementerianNo": "26489",
+  "NamaKementerian": "KEM. KESEJAHTERAAN BANDAR, PERUMAHAN & KERAJAAN TEMPATAN",
+  "Negeri": "Wilayah Persekutuan Putrajaya",
+  "KumpulanAgensi": "PAP",
+  "Abbreviation": null,
+  "CreatedBy": "admin",
+  "Id": "kem-kesejahteraan-bandar-perumahan-kerajaan-tempat",
+  "CreatedDate": "2015-06-23T12:03:50.1118036+08:00",
+  "ChangedBy": "admin",
+  "ChangedDate": "2015-06-23T12:03:50.1078032+08:00",
+  "WebId": "b9263faf-58d6-42de-b769-d02508dd490d"
+}
