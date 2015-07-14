@@ -6,14 +6,14 @@
   <Namespace>Bespoke.Sph.Domain</Namespace>
 </Query>
 
-foreach (var f in Directory.GetFiles(@"C:\temp\kementerian", "*.json"))
+foreach (var f in Directory.GetFiles(@"C:\temp\jabatan", "*.json"))
 {
-	var k = f.DeserializeFromJsonFile<Bespoke.epsikologi_kementerian.Domain.Kementerian>();
-	var id = k.NamaKementerian.ToIdFormat();
+	var k = f.DeserializeFromJsonFile<Bespoke.epsikologi_jabatan.Domain.Jabatan>();
+	var id = k.NamaJabatan.ToIdFormat();
 	k.Id = id.Substring(0, Math.Min(id.Length,50));
 	Console.WriteLine (k.Id);
-	Console.WriteLine (k);
+	//Console.WriteLine (k);
 	
-	File.WriteAllText(@"C:\project\rep.generic.psikometrik\sources\Kementerian\" + k.Id + ".json", k.ToJsonString(true));
+	File.WriteAllText(@"C:\project\rep.generic.psikometrik\sources\Jabatan\" + k.Id + ".json", k.ToJsonString(true));
 	
 }
