@@ -1,82 +1,106 @@
 @model web.sph.App_Code.HlpTraitViewModel
 @{
-	Layout = null;
+    Layout = null;
 }
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Laporan untuk @Model.Sesi.NamaPengguna</title>
-	<link rel="stylesheet" type="text/css" href="/content/external/bootstrap.min.css">
+    <title>Laporan untuk @Model.Sesi.NamaPengguna</title>
+    <link rel="stylesheet" type="text/css" href="/content/external/bootstrap.min.css">
 
-	<link href="/assets/global/plugins/bootstrap/css/bootstrap.min.css" rel="stylesheet" type="text/css"/>
-	<style type="text/css">
-	.tg  {border-collapse:collapse;border-spacing:0;}
-	.tg td{font-family:Arial, sans-serif;font-size:14px;padding:10px 5px;;overflow:hidden;word-break:normal;}
-	.tg th{font-family:Arial, sans-serif;font-size:14px;font-weight:normal;padding:10px 5px;;overflow:hidden;word-break:normal;}
-	.tg .tg-qgab{font-weight:bold;font-size:12px;font-family:"Comic Sans MS", cursive, sans-serif !important;;background-color:#c0c0c0;color:#000000}
-	.tg .tg-8rqm{font-weight:bold;font-size:12px;font-family:"Comic Sans MS", cursive, sans-serif !important;;background-color:#000000;color:#ffffff;text-align:center}
-	.tg .tg-vfu4{font-weight:bold;font-size:12px;font-family:"Comic Sans MS", cursive, sans-serif !important;;background-color:#000000;color:#ffffff}
-	.tg .tg-0raj{font-weight:bold;font-size:12px;font-family:"Comic Sans MS", cursive, sans-serif !important;;background-color:#656565;color:#ffffff;text-align:center}
-	.tg .tg-cjnz{font-weight:bold;font-size:12px;font-family:"Comic Sans MS", cursive, sans-serif !important;;background-color:#c0c0c0}
-	.tg .tg-wp0l{font-weight:bold;font-size:12px;font-family:"Comic Sans MS", cursive, sans-serif !important;;text-align:center}
-	.tg .tg-ezxl{font-weight:bold;font-size:12px;font-family:"Comic Sans MS", cursive, sans-serif !important;;background-color:#656565;color:#ffffff}
-	.tg .tg-p0h7{font-weight:bold;font-size:12px;font-family:"Comic Sans MS", cursive, sans-serif !important;;background-color:#c0c0c0;color:#333333;text-align:center}
-	.tg .tg-or6l{font-weight:bold;font-size:12px;font-family:"Comic Sans MS", cursive, sans-serif !important;}
-	.tg .tg-l5nx{font-weight:bold;font-size:12px;font-family:"Comic Sans MS", cursive, sans-serif !important;;background-color:#c0c0c0;color:#333333}
-	.tg .tg-w82q{font-family:"Comic Sans MS", cursive, sans-serif !important;}
+    <link href="/assets/global/plugins/bootstrap/css/bootstrap.min.css" rel="stylesheet" type="text/css"/>
+    <style type="text/css">
+    .tg  {border-collapse:collapse;border-spacing:0;}
+    .tg td{font-family:Arial, sans-serif;font-size:14px;padding:10px 5px;;overflow:hidden;word-break:normal;}
+    .tg th{font-family:Arial, sans-serif;font-size:14px;font-weight:normal;padding:10px 5px;;overflow:hidden;word-break:normal;}
+    .tg .tg-qgab{font-weight:bold;font-size:12px;font-family:"Comic Sans MS", cursive, sans-serif !important;;background-color:#c0c0c0;color:#000000}
+    .tg .tg-8rqm{font-weight:bold;font-size:12px;font-family:"Comic Sans MS", cursive, sans-serif !important;;background-color:#000000;color:#ffffff;text-align:center}
+    .tg .tg-vfu4{font-weight:bold;font-size:12px;font-family:"Comic Sans MS", cursive, sans-serif !important;;background-color:#000000;color:#ffffff}
+    .tg .tg-0raj{font-weight:bold;font-size:12px;font-family:"Comic Sans MS", cursive, sans-serif !important;;background-color:#656565;color:#ffffff;text-align:center}
+    .tg .tg-cjnz{font-weight:bold;font-size:12px;font-family:"Comic Sans MS", cursive, sans-serif !important;;background-color:#c0c0c0}
+    .tg .tg-wp0l{font-weight:bold;font-size:12px;font-family:"Comic Sans MS", cursive, sans-serif !important;;text-align:center}
+    .tg .tg-ezxl{font-weight:bold;font-size:12px;font-family:"Comic Sans MS", cursive, sans-serif !important;;background-color:#656565;color:#ffffff}
+    .tg .tg-p0h7{font-weight:bold;font-size:12px;font-family:"Comic Sans MS", cursive, sans-serif !important;;background-color:#c0c0c0;color:#333333;text-align:center}
+    .tg .tg-or6l{font-weight:bold;font-size:12px;font-family:"Comic Sans MS", cursive, sans-serif !important;}
+    .tg .tg-l5nx{font-weight:bold;font-size:12px;font-family:"Comic Sans MS", cursive, sans-serif !important;;background-color:#c0c0c0;color:#333333}
+    .tg .tg-w82q{font-family:"Comic Sans MS", cursive, sans-serif !important;}
 
-	.tr  {border-collapse:collapse;border-spacing:0;}
-	.tr td{font-family:Arial, sans-serif;font-size:14px;padding:10px 5px;;overflow:hidden;word-break:normal;}
-	.tr th{font-family:Arial, sans-serif;font-size:14px;font-weight:normal;padding:10px 5px;;overflow:hidden;word-break:normal;}
-	.tr .tr-1to1{background-color:#c0c0c0;color:#c0c0c0}
-	.tr .tr-4mn7{background-color:#ffffff;color:#ffffff}
-	.tr .tr-2g0z{background-color:#656565;color:#656565}
-	.tr .tr-0onx{background-color:#000000;color:#000000}
+    .tr  {border-collapse:collapse;border-spacing:0;}
+    .tr td{font-family:Arial, sans-serif;font-size:14px;padding:10px 5px;;overflow:hidden;word-break:normal;}
+    .tr th{font-family:Arial, sans-serif;font-size:14px;font-weight:normal;padding:10px 5px;;overflow:hidden;word-break:normal;}
+    .tr .tr-1to1{background-color:#c0c0c0;color:#c0c0c0}
+    .tr .tr-4mn7{background-color:#ffffff;color:#ffffff}
+    .tr .tr-2g0z{background-color:#656565;color:#656565}
+    .tr .tr-0onx{background-color:#000000;color:#000000}
 
-	.tq  {border-collapse:collapse;border-spacing:0;border-color:#ccc;}
-	.tq td{font-family:Arial, sans-serif;font-size:14px;padding:10px 5px;overflow:hidden;word-break:normal;border-color:#ccc;color:#333;background-color:#fff;}
-	.tq th{font-family:Arial, sans-serif;font-size:14px;font-weight:normal;padding:10px 5px;;overflow:hidden;word-break:normal;border-color:#ccc;color:#333;background-color:#f0f0f0;}
-	.tq.tq-j19f{font-weight:bold;background-color:#c0c0c0;color:#000000;text-align:center}
+    .tq  {border-collapse:collapse;border-spacing:0;border-color:#ccc;}
+    .tq td{font-family:Arial, sans-serif;font-size:14px;padding:10px 5px;overflow:hidden;word-break:normal;border-color:#ccc;color:#333;background-color:#fff;}
+    .tq th{font-family:Arial, sans-serif;font-size:14px;font-weight:normal;padding:10px 5px;;overflow:hidden;word-break:normal;border-color:#ccc;color:#333;background-color:#f0f0f0;}
+    .tq.tq-j19f{font-weight:bold;background-color:#c0c0c0;color:#000000;text-align:center}
 
-	</style>
+    </style>
 </head>
 <body>
 
 <h4 align="center">LAPORAN UJIAN KHAS HADIAH LATIHAN PERSEKUTUAN<br>
  JABATAN PERKHIDMATAN AWAM
 </h4>
-<table align="center"	width="1000"><tr><td><strong>Nama Pegawai:</strong> </td><td></td>
+<table align="center"   width="1000"><tr><td><strong>Nama Pegawai:</strong> </td><td></td>
 <td></td>
 <td></td><td></td><td></td><td></td><td></td><td></td><td><strong>No. Kad Pengenalan:</strong> </td><td></td><td></td></tr>
 <tr><td><br></td></tr>
 </table>
-<table align="center" width="1000"class="tg table tabel-bordered">
+<table align="center" width="974"class="tg table tabel-bordered">
   <tr align="center">
-    <th class="tg-031e"></th>
-    <th class="tg-031e"><div align="left"><strong>1.Kebolehpercayaan</strong></div></th>
-    <th id="KB1" class="tg-8rqm">1</th>
-    <th id="KB2" class="tg-8rqm">2</th>
-    <th id="KB3" class="tg-8rqm">3</th>
-    <th id="KB4" class="tg-8rqm">4</th>
-    <th id="KB5" class="tg-8rqm">5</th>
-    <th id="KB6" class="tg-0raj">6</th>
-    <th id="KB7" class="tg-0raj">7</th>
-    <th id="KB8" class="tg-0raj">8</th>
-    <th id="KB9" class="tg-p0h7">9</th>
-    <th id="KB10" class="tg-p0h7">10</th>
-    <th id="KB11" class="tg-p0h7">11</th>
-    <th id="KB12" class="tg-p0h7">12</th>
-    <th id="KB13" class="tg-wp0l">13</th>
-    <th id="KB14" class="tg-wp0l">14</th>
-    <th id="KB15" class="tg-wp0l">15</th>
-    <th class="tg-or6l"></th>
-    <th class="tg-or6l"></th>
-    <th class="tg-or6l"></th>
-    <th class="tg-or6l"></th>
-    <th class="tg-or6l"></th>
+    <th width="12" class="tg-031e"></th>
+    <th width="276" class="tg-031e"><div align="left"><strong>1.Kebolehpercayaan</strong></div></th>
+    <th width="21" class="tg-8rqm" id="KB1">1</th>
+    <th width="30" class="tg-8rqm" id="KB2">2</th>
+    <th width="30" class="tg-8rqm" id="KB3">3</th>
+    <th width="22" class="tg-8rqm" id="KB4">4</th>
+    <th width="38" class="tg-8rqm" id="KB5">5</th>
+    <th width="30" class="tg-0raj" id="KB6">6</th>
+    <th width="30" class="tg-0raj" id="KB7">7</th>
+    <th width="30" class="tg-0raj" id="KB8">8</th>
+    <th width="30" class="tg-p0h7" id="KB9">9</th>
+    <th width="30" class="tg-p0h7" id="KB10">10</th>
+    <th width="30" class="tg-p0h7" id="KB11">11</th>
+    <th width="30" class="tg-p0h7" id="KB12">12</th>
+    <th width="30" class="tg-wp0l" id="KB13">13</th>
+    <th width="30" class="tg-wp0l" id="KB14">14</th>
+    <th width="30" class="tg-wp0l" id="KB15">15</th>
+    <th width="30" class="tg-or6l"></th>
+    <th width="30" class="tg-or6l"></th>
+    <th width="30" class="tg-or6l"></th>
+    <th width="30" class="tg-or6l"></th>
+    <th width="33" class="tg-or6l"></th>
   </tr>
   <tr align="center">
     <td class="tg-031e"></td>
+    <td class="tg-031e"><div align="left"><strong>2.Pengurusan Pemikiran</strong></div></td>
+    <td class="tg-031e"></td>
+    <td class="tg-031e"></td>
+    <td class="tg-031e"></td>
+    <td class="tg-031e"></td>
+    <td class="tg-031e"></td>
+    <td class="tg-031e"></td>
+    <td class="tg-031e"></td>
+    <td class="tg-031e"></td>
+    <td class="tg-031e"></td>
+    <td class="tg-031e"></td>
+    <td class="tg-031e"></td>
+    <td class="tg-031e"></td>
+    <td class="tg-031e"></td>
+    <td class="tg-031e"></td>
+    <td class="tg-031e"></td>
+    <td class="tg-031e"></td>
+    <td class="tg-031e"></td>
+    <td class="tg-031e"></td>
+    <td class="tg-031e"></td>
+    <td class="tg-031e"></td>
+ </tr>
+  <tr align="center">
+    <td class="tg-031e"></td>
     <td class="tg-031e"></td>
     <td class="tg-031e"></td>
     <td class="tg-031e"></td>
@@ -101,8 +125,7 @@
   </tr>
   <tr align="center">
     <td class="tg-031e"></td>
-    <td class="tg-031e"><div align="left"><strong>2.Pengurusan Pemikiran</strong><strong> </strong><br>
-    (a) Berfikiran Rasional<strong></strong></div></td>
+    <td class="tg-031e">    <div align="justify">(a) Berfikiran Rasional<strong></strong></div></td>
     <td id="FR5" class="tg-8rqm">5</td>
     <td id="FR10" class="tg-8rqm">10</td>
     <td id="FR15" class="tg-8rqm">15</td>
@@ -126,6 +149,7 @@
   </tr>
   <tr align="center">
     <td class="tg-031e"></td>
+    <td class="tg-031e"><div align="left"><strong>3.Pengurusan Emosi</strong></div></td>
     <td class="tg-031e"></td>
     <td class="tg-031e"></td>
     <td class="tg-031e"></td>
@@ -146,12 +170,10 @@
     <td class="tg-031e"></td>
     <td class="tg-031e"></td>
     <td class="tg-031e"></td>
-    <td class="tg-031e"></td>
-  </tr>
+ </tr>
   <tr align="center">
     <td class="tg-031e"></td>
-    <td class="tg-031e"><div align="left"><strong>3.Pengurusan Emosi</strong><br>
-    (a)Ketenangan</div></td>
+       <td><div align="left">(a)Ketenangan</div></td>
     <td id="KT5" class="tg-vfu4">5</td>
     <td id="KT10" class="tg-vfu4">10</td>
     <td id="KT15" class="tg-vfu4">15</td>
@@ -250,7 +272,7 @@
   </tr>
   <tr>
     <td class="tg-031e"></td>
-    <td class="tg-031e"></td>
+    <td class="tg-031e"><strong>4.Pengurusan Tingkah Laku</strong></td>
     <td class="tg-w82q"></td>
     <td class="tg-w82q"></td>
     <td class="tg-w82q"></td>
@@ -274,8 +296,7 @@
   </tr>
   <tr align="center">
     <td class="tg-031e"></td>
-    <td class="tg-031e"><div align="left"><strong>4.Pengurusan Tingkah Laku</strong> <br>
-    (a) Aktif Sosial</div></td>
+    <td class="tg-031e"><div align="left">    (a) Aktif Sosial</div></td>
     <td id="AS5" class="tg-or6l">5</td>
     <td id="AS10" class="tg-or6l">10</td>
     <td id="AS15" class="tg-or6l">15</td>
@@ -397,16 +418,16 @@
 
 </table>
 
-<table align="center" class="tr">
+<table  border="1"  bordercolor="#000000" align="center" class="tr">
   <tr>
-    <th class="tr-4mn7">xxxxxxxxxx</th>
-    <th class="tr-031e"></th>
-    <th class="tr-1to1">xxxxxxxxx</th>
-    <th class="tr-031e"></th>
-    <th class="tr-2g0z">xxxxxxxxxx</th>
-    <th class="tr-031e"></th>
-    <th class="tr-0onx">xxxxxxxxxxx</th>
-    <th class="tr-031e"></th>
+    <th width="75" class="tr-4mn7"> </th>
+    <th  width="0" class="tr-031e"></th>
+    <th  width="75" class="tr-1to1"> </th>
+    <th  width="0" class="tr-031e"></th>
+    <th  width="75" class="tr-2g0z"> </th>
+    <th  width="0"  class="tr-031e"></th>
+    <th  width="75" class="tr-0onx">&nbsp;</th>
+    <th  width="0" class="tr-031e"></th>
   </tr>
   <tr>
     <td class="tr-031e"><div align="center">Rendah</div></td>
@@ -487,19 +508,19 @@
 </html>
 
 <script type="text/javascript">
-	var vm = @Html.Raw(Model.ToString());
-	window.onload = function() {
+    var vm = @Html.Raw(Model.ToString());
+    window.onload = function() {
 
-			document.getElementById("KB" + vm.KB.Point).setAttribute("style", "border:3px solid red");
-			document.getElementById("FR" + vm.FR.Percentile).setAttribute("style", "border:3px solid red");
-			document.getElementById("KT" + vm.KT.Percentile).setAttribute("style", "border:3px solid red");
-			document.getElementById("KC" + vm.KC.Percentile).setAttribute("style", "border:3px solid red");
-			document.getElementById("LP" + vm.LP.Percentile).setAttribute("style", "border:3px solid red");
-			document.getElementById("SM" + vm.SM.Percentile).setAttribute("style", "border:3px solid red");
-			document.getElementById("AS" + vm.AS.Percentile).setAttribute("style", "border:3px solid red");
-			document.getElementById("AF" + vm.AF.Percentile).setAttribute("style", "border:3px solid red");
-			document.getElementById("TL" + vm.TL.Percentile).setAttribute("style", "border:3px solid red");
-			document.getElementById("DT" + vm.DT.Percentile).setAttribute("style", "border:3px solid red");
+            document.getElementById("KB" + vm.KB.Point).setAttribute("style", "border:3px solid red");
+            document.getElementById("FR" + vm.FR.Percentile).setAttribute("style", "border:3px solid red");
+            document.getElementById("KT" + vm.KT.Percentile).setAttribute("style", "border:3px solid red");
+            document.getElementById("KC" + vm.KC.Percentile).setAttribute("style", "border:3px solid red");
+            document.getElementById("LP" + vm.LP.Percentile).setAttribute("style", "border:3px solid red");
+            document.getElementById("SM" + vm.SM.Percentile).setAttribute("style", "border:3px solid red");
+            document.getElementById("AS" + vm.AS.Percentile).setAttribute("style", "border:3px solid red");
+            document.getElementById("AF" + vm.AF.Percentile).setAttribute("style", "border:3px solid red");
+            document.getElementById("TL" + vm.TL.Percentile).setAttribute("style", "border:3px solid red");
+            document.getElementById("DT" + vm.DT.Percentile).setAttribute("style", "border:3px solid red");
 };
 
 </script>
