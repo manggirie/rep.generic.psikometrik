@@ -110,7 +110,7 @@
   "Entity": "PendaftaranProgram",
   "Partial": "partial/senarai_program_pengguna",
   "Template": "View without chart",
-  "DisplayOnDashboard": false,
+  "DisplayOnDashboard": true,
   "CreatedBy": "admin",
   "Id": "senarai-program-pengguna",
   "CreatedDate": "2015-05-25T10:32:23.276216+08:00",

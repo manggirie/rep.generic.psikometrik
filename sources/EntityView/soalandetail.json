@@ -159,6 +159,7 @@
   "IsPublished": true,
   "Visibilty": "",
   "TileColour": "bblue",
+  "DisplayOnDashboard": true,
   "CountMessage": "",
   "Entity": "",
   "Partial": "partial/soalandetail",

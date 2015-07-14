@@ -37,6 +37,7 @@
   "IsPublished": false,
   "Visibilty": "",
   "TileColour": "bblue",
+  "DisplayOnDashboard": true,
   "CountMessage": "",
   "Entity": "",
   "Partial": "",

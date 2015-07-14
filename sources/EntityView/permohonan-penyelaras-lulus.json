@@ -45,7 +45,7 @@
         "Header": "Jenis",
         "Sort": "",
         "IsLinkColumn": true,
-        "FormRoute": "permohonan-penyelaras",
+        "FormRoute": "permohonan-penyelaras-readonly",
         "IconCssClass": "",
         "IconStoreId": "",
         "Format": "text:{0}",
@@ -154,10 +154,12 @@
   "CountMessage": "",
   "Entity": "",
   "Partial": "partial/permohonan-penyelaras-lulus",
+  "Template": null,
+  "DisplayOnDashboard": true,
   "CreatedBy": "admin",
   "Id": "permohonan-penyelaras-lulus",
   "CreatedDate": "2015-06-05T10:45:40.0585082+08:00",
   "ChangedBy": "admin",
-  "ChangedDate": "2015-07-11T08:10:29.4607221+08:00",
+  "ChangedDate": "2015-07-14T14:38:07.7425032+08:00",
   "WebId": "0264f91b-ffce-46cc-d40a-e6d3cadb6fac"
 }

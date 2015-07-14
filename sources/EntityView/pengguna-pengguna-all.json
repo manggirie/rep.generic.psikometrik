@@ -127,7 +127,7 @@
   "Entity": "Pengguna",
   "Partial": "partial/pengguna-all",
   "Template": null,
-  "DisplayOnDashboard": false,
+  "DisplayOnDashboard": true,
   "CreatedBy": "admin",
   "Id": "pengguna-pengguna-all",
   "CreatedDate": "2015-06-16T08:04:09.5345994+08:00",

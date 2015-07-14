@@ -203,7 +203,7 @@
   "Entity": "",
   "Partial": "partial/sesi-ujian-diambil-by-program",
   "Template": null,
-  "DisplayOnDashboard": false,
+  "DisplayOnDashboard": true,
   "CreatedBy": "admin",
   "Id": "sesiujian-sesi-ujian-diambil-by-program",
   "CreatedDate": "2015-07-09T13:27:25.9079649+08:00",

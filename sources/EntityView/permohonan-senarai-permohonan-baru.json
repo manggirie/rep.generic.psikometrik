@@ -166,6 +166,7 @@
   "Note": "Yang belum di proses oleh urusetia",
   "Query": "",
   "IsPublished": true,
+  "DisplayOnDashboard": true,
   "Visibilty": "",
   "TileColour": "bviolet",
   "CountMessage": "",

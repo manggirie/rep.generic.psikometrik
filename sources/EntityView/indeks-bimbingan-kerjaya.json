@@ -172,7 +172,7 @@
   "Entity": "",
   "Partial": "partial/soalan-indeks-bimbingan-kerjaya",
   "Template": null,
-  "DisplayOnDashboard": false,
+  "DisplayOnDashboard": true,
   "CreatedBy": "admin",
   "Id": "indeks-bimbingan-kerjaya",
   "CreatedDate": "2015-06-05T10:14:02.1400355+08:00",

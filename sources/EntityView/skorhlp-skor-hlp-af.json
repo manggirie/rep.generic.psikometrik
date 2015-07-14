@@ -203,7 +203,7 @@
   "Entity": "SkorHlp",
   "Partial": null,
   "Template": null,
-  "DisplayOnDashboard": false,
+  "DisplayOnDashboard": true,
   "CreatedBy": "admin",
   "Id": "skorhlp-skor-hlp-af",
   "CreatedDate": "2015-07-08T10:02:32.6648516+08:00",

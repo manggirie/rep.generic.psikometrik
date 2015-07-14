@@ -125,7 +125,7 @@
   "Entity": "",
   "Partial": "partial/penyelaras",
   "Template": null,
-  "DisplayOnDashboard": false,
+  "DisplayOnDashboard": true,
   "CreatedBy": "admin",
   "Id": "penyelaras",
   "CreatedDate": "2015-06-16T08:04:09.5345994+08:00",

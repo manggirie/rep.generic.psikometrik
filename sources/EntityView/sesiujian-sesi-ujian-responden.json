@@ -199,6 +199,7 @@
   "IsPublished": true,
   "Visibilty": "",
   "TileColour": "bgreen",
+  "DisplayOnDashboard": true,
   "CountMessage": "",
   "Entity": "",
   "Partial": "",

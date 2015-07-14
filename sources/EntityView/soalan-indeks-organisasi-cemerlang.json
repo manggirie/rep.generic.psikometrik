@@ -166,7 +166,7 @@
   "Entity": "",
   "Partial": "partial/soalan-indeks-organisasi-cemerlang",
   "Template": null,
-  "DisplayOnDashboard": false,
+  "DisplayOnDashboard": true,
   "CreatedBy": "admin",
   "Id": "soalan-indeks-organisasi-cemerlang",
   "CreatedDate": "2015-06-22T11:34:46.1375517+08:00",

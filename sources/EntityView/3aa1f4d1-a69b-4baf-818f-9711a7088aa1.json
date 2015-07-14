@@ -110,7 +110,7 @@
   "Entity": "HlpRecomendation",
   "Partial": null,
   "Template": null,
-  "DisplayOnDashboard": false,
+  "DisplayOnDashboard": true,
   "CreatedBy": "admin",
   "Id": "3aa1f4d1-a69b-4baf-818f-9711a7088aa1",
   "CreatedDate": "2015-07-08T10:06:07.2962632+08:00",

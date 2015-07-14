@@ -91,7 +91,7 @@
   "Entity": "",
   "Partial": "",
   "Template": null,
-  "DisplayOnDashboard": false,
+  "DisplayOnDashboard": true,
   "CreatedBy": "admin",
   "Id": "urusetia",
   "CreatedDate": "2015-06-01T18:46:54.317415+08:00",

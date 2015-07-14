@@ -110,7 +110,7 @@
   "Entity": "Jabatan",
   "Partial": null,
   "Template": null,
-  "DisplayOnDashboard": false,
+  "DisplayOnDashboard": true,
   "CreatedBy": "admin",
   "Id": "jabatans-all",
   "CreatedDate": "2015-06-05T10:37:17.726344+08:00",

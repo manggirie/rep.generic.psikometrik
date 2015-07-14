@@ -114,6 +114,7 @@
   "Visibilty": null,
   "TileColour": "bgreen",
   "CountMessage": null,
+  "DisplayOnDashboard": true,
   "Entity": "Ujian",
   "Partial": "partial/ujian-all",
   "CreatedBy": "admin",

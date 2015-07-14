@@ -149,7 +149,7 @@
   "Entity": "",
   "Partial": "",
   "Template": null,
-  "DisplayOnDashboard": false,
+  "DisplayOnDashboard": true,
   "CreatedBy": "admin",
   "Id": "inventori-stres-organisasi",
   "CreatedDate": "2015-06-05T10:14:02.1460365+08:00",

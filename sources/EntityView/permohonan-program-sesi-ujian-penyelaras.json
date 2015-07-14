@@ -185,6 +185,7 @@
   "IsPublished": true,
   "Visibilty": "",
   "TileColour": "borange",
+  "DisplayOnDashboard": true,
   "CountMessage": "",
   "Entity": "",
   "Partial": "partial/permohonan-urusetia-lulus",

@@ -114,7 +114,7 @@
   "Entity": "",
   "Partial": "",
   "Template": null,
-  "DisplayOnDashboard": false,
+  "DisplayOnDashboard": true,
   "CreatedBy": "admin",
   "Id": "senarai-jabatan-mengikut-kementerian",
   "CreatedDate": "2015-06-05T10:37:17.7273431+08:00",

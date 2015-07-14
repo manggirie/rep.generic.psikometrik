@@ -168,6 +168,7 @@
   "IsPublished": true,
   "Visibilty": "",
   "TileColour": "blightblue",
+  "DisplayOnDashboard": true,
   "CountMessage": "",
   "Entity": "",
   "Partial": "partial/soalan-indeks-personaliti",

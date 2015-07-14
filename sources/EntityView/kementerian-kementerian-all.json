@@ -110,7 +110,7 @@
   "Entity": "Kementerian",
   "Partial": null,
   "Template": null,
-  "DisplayOnDashboard": false,
+  "DisplayOnDashboard": true,
   "CreatedBy": "admin",
   "Id": "kementerian-kementerian-all",
   "CreatedDate": "2015-06-29T06:45:02.3869085+08:00",

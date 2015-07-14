@@ -6514,10 +6514,11 @@ define('viewmodels/search', ['durandal/system', 'services/logger', objectbuilder
 /// <reference path="../../Scripts/require.js" />
 
 
-define('viewmodels/shell.custom', ["durandal/system","services/system", "plugins/router", "services/logger", "services/datacontext", objectbuilders.config, "services/message-header"],
-    function (system,system2, router, logger, context, config, msgHeader) {
-
+define('viewmodels/shell.custom', ["durandal/system","services/system", "plugins/router", "services/logger", "services/datacontext", objectbuilders.config, "services/message-header", objectbuilders.cultures],
+    function (system,system2, router, logger, context, config, msgHeader, cultures) {
+      // NOTE : do not delete cultures
         var activate = function () {
+
             return router.map(config.routes)
                 .buildNavigationModel()
                 //.mapUnknownRoutes("viewmodels/not.found", "not.found")
@@ -6735,41 +6736,11 @@ define('viewmodels/shell.custom', ["durandal/system","services/system", "plugins
 define('services/cultures.my', [],
     function () {
         var cultures = {
-            building: {
-                TEMPLATE_NAME: "Templat bangunan",
-                SAVE_BUILDING_MESSAGE: "Bangunan sudah di simpan",
-                MAP_TITLE: "Peta bangunan"
-            },
-            space: {
-                title: "Senarai ruang",
-                ADD_NEW_BUILDING: "[Tiada dalam senarai]",
-                toolbar: {
-                    ADD_NEW_SPACE: "Tambah ruang baru"
-                }
-            },
-            spacetemplate: {
-                title: "Templat ruang"
-            },
             messages: {
                 SAVE_SUCCESS: "{0} sudah berjaya di simpan",
                 SAVE_ERROR: "Ada masalah untuk menyimpan data anda",
                 FORM_IS_NOT_VALID: "Sila pastikan input anda betul",
-                DELETE_SUCCESS: "{0} sudah berjaya dihapuskan",
-            },
-            lots: {
-                LOT_LIST_TITLE: "Senarai unit di {0}"
-            },
-            maintenance_detail: {
-                CLOSE_MAINTENANCE_BUTTON_CAPTION: "Penyenggaraan Selesai",
-                ASSIGN_MAINTENANCE_BUTTON_CAPTION: "Tugaskan Pegawai"
-            },
-            maintenance: {
-                SAVE_TEMPLATE: "Templat berjaya disimpan",
-                NEW_MAINTENANCE_STATUS_CAPTION: "Baru",
-                INSPECTION_MAINTENANCE_STATUS_CAPTION: "Pemeriksaan",
-                INPROGRESS_MAINTENANCE_STATUS_CAPTION: "Penyenggaraan",
-                DONE_MAINTENANCE_STATUS_CAPTION: "Selesai"
-
+                DELETE_SUCCESS: "{0} sudah berjaya dihapuskan"
             },
             application: {
                 TEMPLATE_NAME: "Templat Permohonan"

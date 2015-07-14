@@ -144,7 +144,7 @@
   "Entity": "SesiUjian",
   "Partial": null,
   "Template": null,
-  "DisplayOnDashboard": false,
+  "DisplayOnDashboard": true,
   "CreatedBy": "admin",
   "Id": "sesiujians-all",
   "CreatedDate": "2015-05-26T15:13:57.0480728+08:00",

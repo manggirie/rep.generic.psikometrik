@@ -204,7 +204,7 @@
   "Entity": "",
   "Partial": "partial/permohonan-urusetia-lulus",
   "Template": null,
-  "DisplayOnDashboard": false,
+  "DisplayOnDashboard": true,
   "CreatedBy": "admin",
   "Id": "permohonan-program-semasa-urusetia",
   "CreatedDate": "2015-06-05T10:45:40.0585082+08:00",

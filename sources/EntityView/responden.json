@@ -125,7 +125,7 @@
   "Entity": "",
   "Partial": "",
   "Template": null,
-  "DisplayOnDashboard": false,
+  "DisplayOnDashboard": true,
   "CreatedBy": "admin",
   "Id": "responden",
   "CreatedDate": "2015-06-01T18:46:54.311415+08:00",

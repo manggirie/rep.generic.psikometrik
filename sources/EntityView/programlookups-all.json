@@ -72,6 +72,7 @@
   "IsPublished": true,
   "Visibilty": null,
   "TileColour": "bblue",
+  "DisplayOnDashboard": true,
   "CountMessage": null,
   "Entity": "ProgramLookup",
   "Partial": "partial/programlookups-all",
