@@ -18,7 +18,8 @@ define([objectbuilders.datacontext, objectbuilders.config, objectbuilders.logger
 
       },
       getTimeSpan = function(m) {
-        var ms = moment(moment()).diff(moment(m.CreatedDate, "YYYY-MM-DDTHH:mm"));
+        var date = moment(ko.unwrap(m.CreatedDate), "YYYY-MM-DDTHH:mm.ss");
+        var ms = moment().diff(date);
         var d = moment.duration(ms);
         return d.humanize();
       },
