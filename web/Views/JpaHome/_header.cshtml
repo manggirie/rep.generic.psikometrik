@@ -26,43 +26,7 @@
 
 				@if (Model.Designation.IsMessageVisible)
 				{
-					<!-- BEGIN INBOX DROPDOWN -->
-					<!-- DOC: Apply "dropdown-dark" class after below "dropdown-extended" to change the dropdown styte -->
-					<li class="dropdown dropdown-extended dropdown-inbox" id="header_inbox_bar">
-						<a href="javascript:;" class="dropdown-toggle" data-toggle="dropdown" data-hover="dropdown" data-close-others="true">
-						<i class="icon-envelope-open"></i>
-						<span class="badge badge-default">
-						@Model.TotalMessageCount </span>
-						</a>
-						<ul class="dropdown-menu">
-							<li class="external">
-								<h3>Anda ada <span class="bold">@Model.TotalMessageCount </span> mesej baru</h3>
-								<a href="#message.inbox">lihat semua</a>
-							</li>
-							<li>
-								<ul class="dropdown-menu-list scroller" style="height: 275px;" data-handle-color="#637283">
-								@foreach(var m in Model.Messages)
-								{
-									<li>
-										<a href="#message.detail/@m.Id">
-										<span class="photo">
-										<i class="fa fa-user fa2x"></i>
-										</span>
-										<span class="subject">
-										<span class="from"></span>
-										<span class="time">@(Humanizer.TimeSpanHumanizeExtensions.Humanize(DateTime.Now - m.CreatedDate)) </span>
-										</span>
-										<span class="message">
-										@m.Subject</span>
-										</a>
-									</li>
-
-								}
-								</ul>
-							</li>
-						</ul>
-					</li>
-
+					@Html.Partial("_messagesHeader")
 					<!-- END INBOX DROPDOWN -->
 				}
 
@@ -79,12 +43,6 @@
 						<li>
 							<a href="#user.profile">
 							<i class="icon-user"></i> Profil Saya </a>
-						</li>
-						<li>
-							<a href="#message.inbox">
-							<i class="icon-envelope-open"></i> Peti Mesej <span class="badge badge-danger">
-							@Model.TotalMessageCount </span>
-							</a>
 						</li>
 						<li class="divider">
 						</li>
