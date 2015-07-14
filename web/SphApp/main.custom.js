@@ -6514,8 +6514,8 @@ define('viewmodels/search', ['durandal/system', 'services/logger', objectbuilder
 /// <reference path="../../Scripts/require.js" />
 
 
-define('viewmodels/shell.custom', ["durandal/system","services/system", "plugins/router", "services/logger", "services/datacontext", objectbuilders.config, objectbuilders.cultures],
-    function (system,system2, router, logger, context, config) {
+define('viewmodels/shell.custom', ["durandal/system","services/system", "plugins/router", "services/logger", "services/datacontext", objectbuilders.config, "services/message-header"],
+    function (system,system2, router, logger, context, config, msgHeader) {
 
         var activate = function () {
             return router.map(config.routes)
@@ -6536,6 +6536,7 @@ define('viewmodels/shell.custom', ["durandal/system","services/system", "plugins
                     $(document).one("click", function () {
                         button.parent().removeClass("open");
                     });
+
                 };
 
 
@@ -6675,6 +6676,12 @@ define('viewmodels/shell.custom', ["durandal/system","services/system", "plugins
                     dofilter();
                 }
                 }, 5000);
+
+
+                // load messages for the header
+                return msgHeader.attached(view).done(function(){
+                  ko.applyBindings(msgHeader, document.getElementById("header_inbox_bar"));
+                });
 
             },
 
@@ -6976,6 +6983,21 @@ function (logger, system, ko2) {
     window.addEventListener('online', updateOnlineStatus);
     window.addEventListener('offline', updateOnlineStatus);
 
+    function sendDelete( url) {
+
+         var tcs = new $.Deferred();
+         $.ajax({
+             type: "DELETE",
+             data: "{}",
+             url: url,
+             contentType: "application/json; charset=utf-8",
+             dataType: "json",
+             error: tcs.reject,
+             success: tcs.resolve
+         });
+
+         return tcs.promise();
+     }
 
     function send(json, url, verb) {
         var tcs = new $.Deferred();
@@ -7320,6 +7342,7 @@ function (logger, system, ko2) {
         getDistinctAsync: getDistinctAsync,
         getTuplesAsync: getTuplesAsync,
         post: post,
+        sendDelete: sendDelete,
         send: send,
         get: get,
         clone: clone,
