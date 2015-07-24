@@ -2,9 +2,9 @@
     define([objectbuilders.datacontext, objectbuilders.logger, objectbuilders.router,
         objectbuilders.system, objectbuilders.validation, objectbuilders.eximp,
         objectbuilders.dialog, objectbuilders.watcher, objectbuilders.config,
-        objectbuilders.app ,'partial/permohonan-penyelaras-kemaskini'],
+        objectbuilders.app ],
         function (context, logger, router, system, validation, eximp, dialog, watcher,config,app
-            ,partial) {
+            ) {
 
             var entity = ko.observable(new bespoke.epsikologi_permohonan.domain.Permohonan({WebId:system.guid()})),
                 errors = ko.observableArray(),
@@ -18,9 +18,9 @@
                     var query = String.format("Id eq '{0}'", entityId),
                         tcs = new $.Deferred(),
                         itemTask = context.loadOneAsync("Permohonan", query),
-                        formTask = context.loadOneAsync("EntityForm", "Route eq 'permohonan-penyelaras-kemaskini'"),
+                        formTask = context.loadOneAsync("EntityForm", "Route eq 'permohonan-penyelaras-readonly'"),
                         watcherTask = watcher.getIsWatchingAsync("Permohonan", entityId),
-                        i18nTask = $.getJSON("i18n/" + config.lang + "/permohonan-penyelaras-kemaskini");
+                        i18nTask = $.getJSON("i18n/" + config.lang + "/permohonan-penyelaras-readonly");
 
                     $.when(itemTask, formTask, watcherTask, i18nTask).done(function(b,f,w,n) {
                         if (b) {
@@ -33,17 +33,8 @@
                         form(f);
                         watching(w);
                         i18n = n[0];
-
-                            if(typeof partial.activate === "function"){
-                                var pt = partial.activate(entity());
-                                if(typeof pt.done === "function"){
-                                    pt.done(tcs.resolve);
-                                }else{
-                                    tcs.resolve(true);
-                                }
-                            }
-
-
+                            tcs.resolve(true);
+                        
                     });
 
                     return tcs.promise();
@@ -63,12 +54,12 @@
                                  entity().Id(result.id);
                                  errors.removeAll();
 
-
-                                    app.showMessage("Permohonan sudah berjaya dihantar", "JPA Sistem Ujian e-Psikometrik", ["OK"])
+                                  
+                                    app.showMessage("Permohonan Berjaya Dihantar", "JPA Sistem Ujian e-Psikometrik", ["OK"])
 	                                    .done(function () {
                                             window.location='#penyelaras-home'
 	                                    });
-
+                                 
                              } else {
                                  errors.removeAll();
                                  _(result.rules).each(function(v){
@@ -93,7 +84,42 @@
                                  entity().Id(result.id);
                                  errors.removeAll();
 
+                                  
+                                    app.showMessage("Permohonan program sudah dikemaskini", "JPA Sistem Ujian e-Psikometrik", ["OK"])
+	                                    .done(function () {
+                                            window.location='#permohonan-baru-urusetia'
+	                                    });
+                                 
+                             } else {
+                                 errors.removeAll();
+                                 _(result.rules).each(function(v){
+                                     errors(v.ValidationErrors);
+                                 });
+                                 logger.error("There are errors in your entity, !!!");
+                             }
+                         });
+                 },
+                tukarResponden = function(){
 
+                     if (!validation.valid()) {
+                         return Task.fromResult(false);
+                     }
+
+                     var data = ko.mapping.toJSON(entity);
+
+                    return  context.post(data, "/Permohonan/TukarResponden" )
+                         .then(function (result) {
+                             if (result.success) {
+                                 logger.info(result.message);
+                                 entity().Id(result.id);
+                                 errors.removeAll();
+
+                                  
+                                    app.showMessage("Rekod anda sudah berjaya di simpan", "JPA Sistem Ujian e-Psikometrik", ["OK"])
+	                                    .done(function () {
+                                            window.location='#permohonan-penyelaras-lulus'
+	                                    });
+                                 
                              } else {
                                  errors.removeAll();
                                  _(result.rules).each(function(v){
@@ -105,13 +131,7 @@
                  },
                 attached = function (view) {
                     // validation
-                    validation.init($('#permohonan-penyelaras-kemaskini-form'), form());
-
-
-
-                    if(typeof partial.attached === "function"){
-                        partial.attached(view);
-                    }
+                    validation.init($('#permohonan-penyelaras-readonly-form'), form());
 
 
 
@@ -133,15 +153,15 @@
 
                     var data = ko.mapping.toJSON(entity);
 
-
+                        
 
                     return context.post(data, "/Permohonan/Save")
                         .then(function(result) {
                             entity().Id(result.id);
-                            app.showMessage("Your Permohonan has been successfully saved", "JPA Sistem Ujian e-Psikometrik", ["ok"]);
+                            app.showMessage("Your Permohonan has been successfully saved", "JPA Sistem Ujian e-Psikometrik", ["OK"]);
 
                         });
-
+                    
 
                 },
                 remove = function() {
@@ -162,9 +182,6 @@
                 };
 
             var vm = {
-
-                            partial : partial,
-
                                     activate: activate,
                 config: config,
                 attached: attached,
@@ -174,14 +191,12 @@
                 save : save,
                     permohonanDariPenyelaras : permohonanDariPenyelaras,
                     urusetiaProcessPermohonanDariPenyelaras : urusetiaProcessPermohonanDariPenyelaras,
+                    tukarResponden : tukarResponden,
                 //
 
 
                 toolbar : {
-
-                    saveCommand : save,
-
-                    commands : ko.observableArray([])
+                                                                                                    commands : ko.observableArray([])
                 }
             };
 
