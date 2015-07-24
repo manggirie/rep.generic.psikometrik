@@ -3235,7 +3235,7 @@ require.config({
 define("jquery", function () { return jQuery; });
 define("knockout", ko);
 
-define('main.custom', ["durandal/app", "durandal/viewLocator", "durandal/system", objectbuilders.config],
+define('main.custom', ["durandal/app", "durandal/viewLocator", "durandal/system", objectbuilders.config, objectbuilders.cultures],
     function (app, viewLocator, system, config) {
         system.debug(true);
         app.title = config.applicationFullName ;
