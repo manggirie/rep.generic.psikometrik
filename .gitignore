@@ -35,3 +35,6 @@ mail/
 utils/
 v4.0.2/
 StartWorker.bat
+*.7z
+update.bat
+10316/
