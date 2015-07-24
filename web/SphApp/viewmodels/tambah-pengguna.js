@@ -133,6 +133,36 @@
                              }
                          });
                  },
+                kemaskiniOlehPenyelaras = function(){
+
+                     if (!validation.valid()) {
+                         return Task.fromResult(false);
+                     }
+
+                     var data = ko.mapping.toJSON(entity);
+
+                    return  context.post(data, "/Pengguna/KemaskiniOlehPenyelaras" )
+                         .then(function (result) {
+                             if (result.success) {
+                                 logger.info(result.message);
+                                 entity().Id(result.id);
+                                 errors.removeAll();
+
+                                  
+                                    app.showMessage("Rekod berjaya disimpan", "JPA Sistem Ujian e-Psikometrik", ["OK"])
+	                                    .done(function () {
+                                            window.location='#responden-dari-jabatan'
+	                                    });
+                                 
+                             } else {
+                                 errors.removeAll();
+                                 _(result.rules).each(function(v){
+                                     errors(v.ValidationErrors);
+                                 });
+                                 logger.error("There are errors in your entity, !!!");
+                             }
+                         });
+                 },
                 attached = function (view) {
                     // validation
                     validation.init($('#tambah-pengguna-form'), form());
@@ -205,6 +235,7 @@
                     dateNow : dateNow,
                     tarikhKemaskiniNow : tarikhKemaskiniNow,
                     kemaskiniOlehUrusetia : kemaskiniOlehUrusetia,
+                    kemaskiniOlehPenyelaras : kemaskiniOlehPenyelaras,
                 //
 
 

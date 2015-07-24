@@ -18,9 +18,9 @@
                     var query = String.format("Id eq '{0}'", entityId),
                         tcs = new $.Deferred(),
                         itemTask = context.loadOneAsync("Pengguna", query),
-                        formTask = context.loadOneAsync("EntityForm", "Route eq 'pengguna-details'"),
+                        formTask = context.loadOneAsync("EntityForm", "Route eq 'kemaskini-pengguna-oleh-penyelaras'"),
                         watcherTask = watcher.getIsWatchingAsync("Pengguna", entityId),
-                        i18nTask = $.getJSON("i18n/" + config.lang + "/pengguna-details");
+                        i18nTask = $.getJSON("i18n/" + config.lang + "/kemaskini-pengguna-oleh-penyelaras");
 
                     $.when(itemTask, formTask, watcherTask, i18nTask).done(function(b,f,w,n) {
                         if (b) {
@@ -156,7 +156,7 @@
                  },
                 attached = function (view) {
                     // validation
-                    validation.init($('#pengguna-details-form'), form());
+                    validation.init($('#kemaskini-pengguna-oleh-penyelaras-form'), form());
 
 
 
@@ -223,7 +223,7 @@
 
                 toolbar : {
                                                                                                         
-                    saveCommand : kemaskiniOlehUrusetia,
+                    saveCommand : kemaskiniOlehPenyelaras,
                     
                     commands : ko.observableArray([])
                 }

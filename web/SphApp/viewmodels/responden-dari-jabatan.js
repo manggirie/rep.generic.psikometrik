@@ -45,7 +45,11 @@ function(context, logger, router, chart, config, partial) {
                         }
                     }
                 },
-                "sort": []
+                "sort": [{
+                    "ChangedDate": {
+                        "order": "desc"
+                    }
+                }]
             });
             var edQuery = String.format("Name eq '{0}'", 'Pengguna'),
                 tcs = new $.Deferred(),

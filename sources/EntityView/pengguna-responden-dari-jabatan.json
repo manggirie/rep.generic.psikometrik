@@ -31,7 +31,7 @@
         "Header": "Nama",
         "Sort": "",
         "IsLinkColumn": true,
-        "FormRoute": "pengguna-details",
+        "FormRoute": "kemaskini-pengguna-oleh-penyelaras",
         "IconCssClass": "fa fa-edit",
         "IconStoreId": "",
         "Format": "text:{0}",
@@ -110,7 +110,14 @@
   },
   "SortCollection": {
     "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.Sph.Domain.Sort, domain.sph]], domain.sph",
-    "$values": []
+    "$values": [
+      {
+        "$type": "Bespoke.Sph.Domain.Sort, domain.sph",
+        "Path": "ChangedDate",
+        "Direction": "Desc",
+        "WebId": "1debd4e1-70d3-4738-9d13-8d939042cb56"
+      }
+    ]
   },
   "ConditionalFormattingCollection": {
     "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.Sph.Domain.ConditionalFormatting, domain.sph]], domain.sph",
@@ -146,6 +153,6 @@
   "Id": "pengguna-responden-dari-jabatan",
   "CreatedDate": "2015-06-30T19:14:05.8002854+08:00",
   "ChangedBy": "admin",
-  "ChangedDate": "2015-07-13T15:00:57.1050527+08:00",
+  "ChangedDate": "2015-07-24T09:11:41.705153+08:00",
   "WebId": "3c1c61c1-26e5-4ef4-88b6-cef7a33db674"
 }

@@ -522,15 +522,93 @@
             "$values": [
               {
                 "$type": "Bespoke.Sph.Domain.ComboBoxItem, domain.sph",
-                "Caption": "PERAK",
-                "Value": "perak",
+                "Caption": "Johor",
+                "Value": "Johor",
+                "WebId": "05ca2aab-5e16-4f4d-c77f-08bd2d8a3b05"
+              },
+              {
+                "$type": "Bespoke.Sph.Domain.ComboBoxItem, domain.sph",
+                "Caption": "Kedah",
+                "Value": "Kedah",
+                "WebId": "29371e17-73fa-4a3f-e33d-dd65ba8de2c0"
+              },
+              {
+                "$type": "Bespoke.Sph.Domain.ComboBoxItem, domain.sph",
+                "Caption": "Kelantan",
+                "Value": "Kelantan",
+                "WebId": "431a11fc-fc54-4dd3-85c8-7edba9179aa5"
+              },
+              {
+                "$type": "Bespoke.Sph.Domain.ComboBoxItem, domain.sph",
+                "Caption": "Melaka",
+                "Value": "Melaka",
+                "WebId": "1f710191-94df-4f68-c6bf-9b6e74b04932"
+              },
+              {
+                "$type": "Bespoke.Sph.Domain.ComboBoxItem, domain.sph",
+                "Caption": "Negeri Sembilan",
+                "Value": "Negeri Sembilan",
+                "WebId": "98554982-3b20-498d-80b0-582925a998e7"
+              },
+              {
+                "$type": "Bespoke.Sph.Domain.ComboBoxItem, domain.sph",
+                "Caption": "Pahang",
+                "Value": "Pahang",
+                "WebId": "929c25c1-de4e-4a0d-da28-7688e6803a4d"
+              },
+              {
+                "$type": "Bespoke.Sph.Domain.ComboBoxItem, domain.sph",
+                "Caption": "Perak",
+                "Value": "Perak",
                 "WebId": "ccf12fb3-794e-4106-c3da-bb8e43461442"
               },
               {
                 "$type": "Bespoke.Sph.Domain.ComboBoxItem, domain.sph",
-                "Caption": "SELANGOR",
-                "Value": "selangor",
+                "Caption": "Perlis",
+                "Value": "Perlis",
+                "WebId": "b0459e65-b892-4ce1-fcd9-a6a64a76cc11"
+              },
+              {
+                "$type": "Bespoke.Sph.Domain.ComboBoxItem, domain.sph",
+                "Caption": "Pulau Pinang",
+                "Value": "Pulau Pinang",
+                "WebId": "ba236325-3d3a-48ae-b202-0fa57be76bbe"
+              },
+              {
+                "$type": "Bespoke.Sph.Domain.ComboBoxItem, domain.sph",
+                "Caption": "Sabah",
+                "Value": "Sabah",
+                "WebId": "e45e3683-f7fc-440f-e891-669ece208af8"
+              },
+              {
+                "$type": "Bespoke.Sph.Domain.ComboBoxItem, domain.sph",
+                "Caption": "Sarawak",
+                "Value": "Sarawak",
+                "WebId": "dc955c95-3cc2-4fd1-f5ed-49e72e94a9dc"
+              },
+              {
+                "$type": "Bespoke.Sph.Domain.ComboBoxItem, domain.sph",
+                "Caption": "Selangor",
+                "Value": "Selangor",
                 "WebId": "245fba11-e8a6-4968-8d75-9e73ecce5c8f"
+              },
+              {
+                "$type": "Bespoke.Sph.Domain.ComboBoxItem, domain.sph",
+                "Caption": "Terengganu",
+                "Value": "Terengganu",
+                "WebId": "38eeb9d0-bfe6-44ab-b4c6-67f06d0d8a1d"
+              },
+              {
+                "$type": "Bespoke.Sph.Domain.ComboBoxItem, domain.sph",
+                "Caption": "W.P. Kuala Lumpur",
+                "Value": "W.P. Kuala Lumpur",
+                "WebId": "b2ec8d08-7c5e-4b24-b5b5-464707f6a175"
+              },
+              {
+                "$type": "Bespoke.Sph.Domain.ComboBoxItem, domain.sph",
+                "Caption": "W.P. Labuan",
+                "Value": "W.P. Labuan",
+                "WebId": "0835d154-fdb1-4750-d689-d669a26e91b7"
               },
               {
                 "$type": "Bespoke.Sph.Domain.ComboBoxItem, domain.sph",
@@ -1222,6 +1300,6 @@
   "Id": "editpengguna",
   "CreatedDate": "2015-06-16T08:04:09.5330981+08:00",
   "ChangedBy": "admin",
-  "ChangedDate": "2015-07-24T08:40:51.2684039+08:00",
+  "ChangedDate": "2015-07-24T09:06:23.9592287+08:00",
   "WebId": "4e32950c-7d95-4b44-983c-3c3e67811ded"
 }

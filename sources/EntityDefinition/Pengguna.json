@@ -915,6 +915,33 @@
         "NavigateSuccessUrl": "#responden",
         "SuccessCommand": "",
         "WebId": "9b06ef6b-7132-4f8d-a46d-c28c583cdff1"
+      },
+      {
+        "$type": "Bespoke.Sph.Domain.EntityOperation, domain.sph",
+        "EntityPermissionCollection": {
+          "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.Sph.Domain.EntityPermission, domain.sph]], domain.sph",
+          "$values": []
+        },
+        "Rules": {
+          "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[System.String, mscorlib]], domain.sph",
+          "$values": []
+        },
+        "Permissions": {
+          "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[System.String, mscorlib]], domain.sph",
+          "$values": [
+            "PengurusanPenggunaJabatan"
+          ]
+        },
+        "SetterActionChildCollection": {
+          "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.Sph.Domain.SetterActionChild, domain.sph]], domain.sph",
+          "$values": []
+        },
+        "Name": "KemaskiniOlehPenyelaras",
+        "SuccessMessage": "Rekod berjaya disimpan",
+        "ShowSuccessMessage": true,
+        "NavigateSuccessUrl": "#responden-dari-jabatan",
+        "SuccessCommand": "",
+        "WebId": "54284d17-82cd-4881-fde7-d6b979d35c41"
       }
     ]
   },
@@ -944,6 +971,6 @@
   "Id": "pengguna",
   "CreatedDate": "2015-06-16T08:04:09.5200889+08:00",
   "ChangedBy": "admin",
-  "ChangedDate": "2015-07-24T07:33:04.8406174+08:00",
+  "ChangedDate": "2015-07-24T08:54:01.7180168+08:00",
   "WebId": "01c666ac-ab68-4416-9d69-a716a003c902"
 }

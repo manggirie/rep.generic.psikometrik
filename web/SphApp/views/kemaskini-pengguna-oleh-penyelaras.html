@@ -1,6 +1,6 @@
 
 
-<h1 data-i18n="Kemaskini Pengguna">Kemaskini Pengguna</h1>
+<h1 data-i18n="Kemaskini Pengguna Oleh Penyelaras">Kemaskini Pengguna Oleh Penyelaras</h1>
 <div id="error-list" class="row" data-bind="visible:errors().length">
     <!-- ko foreach : errors -->
     <div class="col-sm-8 col-sm-offset-2 alert alert-dismissable alert-danger">
@@ -15,7 +15,7 @@
 <div class="row">
     <div class="col-sm-8">
         
-<form class="form-horizontal" data-bind="with : entity" id="pengguna-details-form">
+<form class="form-horizontal" data-bind="with : entity" id="kemaskini-pengguna-oleh-penyelaras-form">
 <h2 data-i18n="Malumat Peribadi" data-bind="visible:true">Malumat Peribadi</h2>
 
 
@@ -36,14 +36,14 @@
 
 
     <div data-bind="visible:true" class="form-group">
-        <label data-i18n="My Kad" for="5fd9072c-4bb0-4ce4-a217-8d1ffabb15ed" class="col-md-4">My Kad</label>
+        <label data-i18n="My Kad" for="pengguna-mykad" class="col-md-4">My Kad</label>
         <div class="col-md-8">
             <input  class=" form-control input-large" title=""
-                   data-bind="value: MyKad, enable :true "
+                   data-bind="value: MyKad, enable :false "
                    
                    
                    
-                   id="5fd9072c-4bb0-4ce4-a217-8d1ffabb15ed" type="text" name="MyKad" />
+                   id="pengguna-mykad" type="text" name="MyKad" />
         </div>
     </div>
 
@@ -70,101 +70,6 @@
                     <option value="Kahwin" data-i18n="Kahwin">Kahwin</option>
                     <option value="Ibu Tunggal" data-i18n="Ibu Tunggal">Ibu Tunggal</option>
                     <option value="Bapa Tunggal" data-i18n="Bapa Tunggal">Bapa Tunggal</option>
-            </select>
-        </div>
-    </div>
-
-
-
-    <div data-bind="visible:true" class="form-group">
-        <label data-i18n="Alamat1" for="cc0c30a6-0bea-4b1e-e3c5-c2910f10a694" class="col-md-4">Alamat1</label>
-        <div class="col-md-8">
-            <input  class=" form-control input-large" title=""
-                   data-bind="value: Alamat().Alamat1, enable :true "
-                   
-                   
-                   
-                   id="cc0c30a6-0bea-4b1e-e3c5-c2910f10a694" type="text" name="Alamat.Alamat1" />
-        </div>
-    </div>
-
-
-
-    <div data-bind="visible:true" class="form-group">
-        <label data-i18n="Alamat2" for="720adb38-748d-4a3e-b2da-ca05f21aeb13" class="col-md-4">Alamat2</label>
-        <div class="col-md-8">
-            <input  class=" form-control input-large" title=""
-                   data-bind="value: Alamat().Alamat2, enable :true "
-                   
-                   
-                   
-                   id="720adb38-748d-4a3e-b2da-ca05f21aeb13" type="text" name="Alamat.Alamat2" />
-        </div>
-    </div>
-
-
-
-    <div data-bind="visible:true" class="form-group">
-        <label data-i18n="Alamat3" for="0799c120-2758-4eff-8e66-e57fbe8a0ef7" class="col-md-4">Alamat3</label>
-        <div class="col-md-8">
-            <input  class=" form-control input-large" title=""
-                   data-bind="value: Alamat().Alamat3, enable :true "
-                   
-                   
-                   
-                   id="0799c120-2758-4eff-8e66-e57fbe8a0ef7" type="text" name="Alamat.Alamat3" />
-        </div>
-    </div>
-
-
-
-    <div data-bind="visible:true" class="form-group">
-        <label data-i18n="Poskod" for="34659ad3-b20c-48ce-c798-022042442183" class="col-md-4">Poskod</label>
-        <div class="col-md-8">
-            <input  class=" form-control input-large" title=""
-                   data-bind="value: Alamat().Poskod, enable :true "
-                   
-                   
-                   
-                   id="34659ad3-b20c-48ce-c798-022042442183" type="text" name="Alamat.Poskod" />
-        </div>
-    </div>
-
-
-
-    <div data-bind="visible:true" class="form-group">
-        <label data-i18n="Bandar" for="6ed7c98b-fc28-4de1-f113-1e0b01d26181" class="col-md-4">Bandar</label>
-        <div class="col-md-8">
-            <input  class=" form-control input-large" title=""
-                   data-bind="value: Alamat().Bandar, enable :true "
-                   
-                   
-                   
-                   id="6ed7c98b-fc28-4de1-f113-1e0b01d26181" type="text" name="Alamat.Bandar" />
-        </div>
-    </div>
-
-
-    <div class="form-group" data-bind="visible:true">
-        <label data-i18n="Negeri" for="ff82c167-32a3-4cc4-a477-5e34b6086fba" class="col-md-4">Negeri</label>
-        <div class="col-md-8">
-            <select  data-bind="value: Alamat().Negeri, enable :true" id="ff82c167-32a3-4cc4-a477-5e34b6086fba" name="Alamat.Negeri" class=" input-large form-control">
-                    <option value="Johor" data-i18n="Johor">Johor</option>
-                    <option value="Kedah" data-i18n="Kedah">Kedah</option>
-                    <option value="Kelantan" data-i18n="Kelantan">Kelantan</option>
-                    <option value="Melaka" data-i18n="Melaka">Melaka</option>
-                    <option value="Negeri Sembilan" data-i18n="Negeri Sembilan">Negeri Sembilan</option>
-                    <option value="Pahang" data-i18n="Pahang">Pahang</option>
-                    <option value="Perak" data-i18n="Perak">Perak</option>
-                    <option value="Perlis" data-i18n="Perlis">Perlis</option>
-                    <option value="Pulau Pinang" data-i18n="Pulau Pinang">Pulau Pinang</option>
-                    <option value="Sabah" data-i18n="Sabah">Sabah</option>
-                    <option value="Sarawak" data-i18n="Sarawak">Sarawak</option>
-                    <option value="Selangor" data-i18n="Selangor">Selangor</option>
-                    <option value="Terengganu" data-i18n="Terengganu">Terengganu</option>
-                    <option value="W.P. Kuala Lumpur" data-i18n="W.P. Kuala Lumpur">W.P. Kuala Lumpur</option>
-                    <option value="W.P. Labuan" data-i18n="W.P. Labuan">W.P. Labuan</option>
-                    <option value="W.P Putrajaya" data-i18n="W.P Putrajaya">W.P Putrajaya</option>
             </select>
         </div>
     </div>
@@ -267,6 +172,101 @@
                    
                    
                    id="5abf2ddc-22f2-42e9-c43e-68516ee1cf45" type="text" name="Fax" />
+        </div>
+    </div>
+
+
+
+    <div data-bind="visible:true" class="form-group">
+        <label data-i18n="Alamat1" for="cc0c30a6-0bea-4b1e-e3c5-c2910f10a694" class="col-md-4">Alamat1</label>
+        <div class="col-md-8">
+            <input  class=" form-control input-large" title=""
+                   data-bind="value: Alamat().Alamat1, enable :true "
+                   
+                   
+                   
+                   id="cc0c30a6-0bea-4b1e-e3c5-c2910f10a694" type="text" name="Alamat.Alamat1" />
+        </div>
+    </div>
+
+
+
+    <div data-bind="visible:true" class="form-group">
+        <label data-i18n="Alamat2" for="720adb38-748d-4a3e-b2da-ca05f21aeb13" class="col-md-4">Alamat2</label>
+        <div class="col-md-8">
+            <input  class=" form-control input-large" title=""
+                   data-bind="value: Alamat().Alamat2, enable :true "
+                   
+                   
+                   
+                   id="720adb38-748d-4a3e-b2da-ca05f21aeb13" type="text" name="Alamat.Alamat2" />
+        </div>
+    </div>
+
+
+
+    <div data-bind="visible:true" class="form-group">
+        <label data-i18n="Alamat3" for="0799c120-2758-4eff-8e66-e57fbe8a0ef7" class="col-md-4">Alamat3</label>
+        <div class="col-md-8">
+            <input  class=" form-control input-large" title=""
+                   data-bind="value: Alamat().Alamat3, enable :true "
+                   
+                   
+                   
+                   id="0799c120-2758-4eff-8e66-e57fbe8a0ef7" type="text" name="Alamat.Alamat3" />
+        </div>
+    </div>
+
+
+
+    <div data-bind="visible:true" class="form-group">
+        <label data-i18n="Poskod" for="34659ad3-b20c-48ce-c798-022042442183" class="col-md-4">Poskod</label>
+        <div class="col-md-8">
+            <input  class=" form-control input-large" title=""
+                   data-bind="value: Alamat().Poskod, enable :true "
+                   
+                   
+                   
+                   id="34659ad3-b20c-48ce-c798-022042442183" type="text" name="Alamat.Poskod" />
+        </div>
+    </div>
+
+
+
+    <div data-bind="visible:true" class="form-group">
+        <label data-i18n="Bandar" for="6ed7c98b-fc28-4de1-f113-1e0b01d26181" class="col-md-4">Bandar</label>
+        <div class="col-md-8">
+            <input  class=" form-control input-large" title=""
+                   data-bind="value: Alamat().Bandar, enable :true "
+                   
+                   
+                   
+                   id="6ed7c98b-fc28-4de1-f113-1e0b01d26181" type="text" name="Alamat.Bandar" />
+        </div>
+    </div>
+
+
+    <div class="form-group" data-bind="visible:true">
+        <label data-i18n="Negeri" for="ff82c167-32a3-4cc4-a477-5e34b6086fba" class="col-md-4">Negeri</label>
+        <div class="col-md-8">
+            <select  data-bind="value: Alamat().Negeri, enable :true" id="ff82c167-32a3-4cc4-a477-5e34b6086fba" name="Alamat.Negeri" class=" input-large form-control">
+                    <option value="Johor" data-i18n="Johor">Johor</option>
+                    <option value="Kedah" data-i18n="Kedah">Kedah</option>
+                    <option value="Kelantan" data-i18n="Kelantan">Kelantan</option>
+                    <option value="Melaka" data-i18n="Melaka">Melaka</option>
+                    <option value="Negeri Sembilan" data-i18n="Negeri Sembilan">Negeri Sembilan</option>
+                    <option value="Pahang" data-i18n="Pahang">Pahang</option>
+                    <option value="Perak" data-i18n="Perak">Perak</option>
+                    <option value="Perlis" data-i18n="Perlis">Perlis</option>
+                    <option value="Pulau Pinang" data-i18n="Pulau Pinang">Pulau Pinang</option>
+                    <option value="Sabah" data-i18n="Sabah">Sabah</option>
+                    <option value="Sarawak" data-i18n="Sarawak">Sarawak</option>
+                    <option value="Selangor" data-i18n="Selangor">Selangor</option>
+                    <option value="Terengganu" data-i18n="Terengganu">Terengganu</option>
+                    <option value="W.P. Kuala Lumpur" data-i18n="W.P. Kuala Lumpur">W.P. Kuala Lumpur</option>
+                    <option value="W.P. Labuan" data-i18n="W.P. Labuan">W.P. Labuan</option>
+                    <option value="W.P Putrajaya" data-i18n="W.P Putrajaya">W.P Putrajaya</option>
+            </select>
         </div>
     </div>
 </form>
