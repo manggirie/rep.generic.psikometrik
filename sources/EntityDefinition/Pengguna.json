@@ -708,6 +708,95 @@
         "Boost": 0,
         "DefaultValue": null,
         "WebId": "219318ee-9a84-4654-fe95-9cea4304f074"
+      },
+      {
+        "$type": "Bespoke.Sph.Domain.Member, domain.sph",
+        "FullName": null,
+        "MemberCollection": {
+          "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.Sph.Domain.Member, domain.sph]], domain.sph",
+          "$values": [
+            {
+              "$type": "Bespoke.Sph.Domain.Member, domain.sph",
+              "FullName": null,
+              "MemberCollection": {
+                "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.Sph.Domain.Member, domain.sph]], domain.sph",
+                "$values": []
+              },
+              "FieldPermissionCollection": {
+                "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.Sph.Domain.FieldPermission, domain.sph]], domain.sph",
+                "$values": []
+              },
+              "Name": "Minat",
+              "TypeName": "System.String, mscorlib",
+              "IsNullable": true,
+              "IsNotIndexed": false,
+              "IsAnalyzed": false,
+              "IsFilterable": false,
+              "IsExcludeInAll": false,
+              "Boost": 2,
+              "DefaultValue": null,
+              "WebId": "27a62f67-d6c7-445a-851c-f5184cb82e72"
+            },
+            {
+              "$type": "Bespoke.Sph.Domain.Member, domain.sph",
+              "FullName": null,
+              "MemberCollection": {
+                "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.Sph.Domain.Member, domain.sph]], domain.sph",
+                "$values": []
+              },
+              "FieldPermissionCollection": {
+                "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.Sph.Domain.FieldPermission, domain.sph]], domain.sph",
+                "$values": []
+              },
+              "Name": "BidangPengajian",
+              "TypeName": "System.String, mscorlib",
+              "IsNullable": true,
+              "IsNotIndexed": false,
+              "IsAnalyzed": false,
+              "IsFilterable": false,
+              "IsExcludeInAll": false,
+              "Boost": 2,
+              "DefaultValue": null,
+              "WebId": "acdca8c4-c405-4fde-b31d-cb92d03d0119"
+            },
+            {
+              "$type": "Bespoke.Sph.Domain.Member, domain.sph",
+              "FullName": null,
+              "MemberCollection": {
+                "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.Sph.Domain.Member, domain.sph]], domain.sph",
+                "$values": []
+              },
+              "FieldPermissionCollection": {
+                "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.Sph.Domain.FieldPermission, domain.sph]], domain.sph",
+                "$values": []
+              },
+              "Name": "LuarNegara",
+              "TypeName": "System.Boolean, mscorlib",
+              "IsNullable": false,
+              "IsNotIndexed": false,
+              "IsAnalyzed": false,
+              "IsFilterable": false,
+              "IsExcludeInAll": false,
+              "Boost": 9,
+              "DefaultValue": null,
+              "WebId": "c1a342c8-bb6a-484b-a4db-45909942019d"
+            }
+          ]
+        },
+        "FieldPermissionCollection": {
+          "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.Sph.Domain.FieldPermission, domain.sph]], domain.sph",
+          "$values": []
+        },
+        "Name": "Pelajar",
+        "TypeName": "System.Object, mscorlib",
+        "IsNullable": false,
+        "IsNotIndexed": false,
+        "IsAnalyzed": false,
+        "IsFilterable": false,
+        "IsExcludeInAll": false,
+        "Boost": 0,
+        "DefaultValue": null,
+        "WebId": "6df61304-5ecf-4518-b788-d2a95fb549f5"
       }
     ]
   },
@@ -855,6 +944,6 @@
   "Id": "pengguna",
   "CreatedDate": "2015-06-16T08:04:09.5200889+08:00",
   "ChangedBy": "admin",
-  "ChangedDate": "2015-07-13T14:30:51.6624861+08:00",
+  "ChangedDate": "2015-07-24T07:33:04.8406174+08:00",
   "WebId": "01c666ac-ab68-4416-9d69-a716a003c902"
 }

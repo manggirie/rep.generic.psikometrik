@@ -20,7 +20,7 @@
              "Gred":{"type":"string","index":"not_analyzed","boost":1,"include_in_all":true},
              "Agensi":{"type":"string","index":"not_analyzed","boost":1,"include_in_all":true},
              "Warganegara":{"type":"string","index":"not_analyzed","boost":1,"include_in_all":true},
-             "KumpulanUmur":{"type":"string","index":"not_analyzed","boost":3,"include_in_all":true},
+             "KumpulanUmur":{"type":"string","index":"not_analyzed","boost":1,"include_in_all":true},
              "Saraan":{"type":"string","index":"not_analyzed","boost":1,"include_in_all":true},
     "Alamat":{
         "type":  "object",
@@ -42,7 +42,16 @@
              "KumpulanJawatan":{"type":"string","index":"not_analyzed","boost":1,"include_in_all":true},
              "NegeriBekerja":{"type":"string","index":"not_analyzed","boost":1,"include_in_all":true},
              "NamaJabatan":{"type":"string","index":"not_analyzed","boost":1,"include_in_all":true},
-             "NamaKementerian":{"type":"string","index":"not_analyzed","boost":1,"include_in_all":true}
+             "NamaKementerian":{"type":"string","index":"not_analyzed","boost":1,"include_in_all":true},
+    "Pelajar":{
+        "type":  "object",
+        "properties":{
+             "Minat":{"type":"string","index":"not_analyzed","boost":1,"include_in_all":true},
+             "BidangPengajian":{"type":"string","index":"not_analyzed","boost":1,"include_in_all":true},
+             "LuarNegara":{"type":"boolean","index":"not_analyzed","boost":1,"include_in_all":true}
+        }
+    }
+
         }
     }
 }
