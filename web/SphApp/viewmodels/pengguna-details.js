@@ -82,7 +82,7 @@
                                   
                                     app.showMessage("Rekod berjaya didaftarkan", "JPA Sistem Ujian e-Psikometrik", ["OK"])
 	                                    .done(function () {
-                                            window.location='#responden'
+                                            window.location='#pengguna-all'
 	                                    });
                                  
                              } else {
