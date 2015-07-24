@@ -174,11 +174,11 @@
   "Entity": "SkorHlp",
   "Partial": null,
   "Template": null,
-  "DisplayOnDashboard": false,
+  "DisplayOnDashboard": true,
   "CreatedBy": "admin",
   "Id": "06603183-f974-4d84-80ea-37ca3253d291",
   "CreatedDate": "2015-07-08T10:02:32.6648516+08:00",
   "ChangedBy": "admin",
-  "ChangedDate": "2015-07-12T08:42:21.0886751+08:00",
+  "ChangedDate": "2015-07-23T15:46:05.5574216+08:00",
   "WebId": "23224438-0b49-4c99-8e57-f4dfc50c5956"
 }
