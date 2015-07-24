@@ -65,7 +65,7 @@ namespace web.sph.App_Code
                     if (null != profile)
                     {
                         if (!profile.HasChangedDefaultPassword)
-                            return Redirect("/Sph/SphAccount/ChangePassword");
+                            return RedirectToAction("ChangePassword");
                         if (returnUrl == "/" ||
                             returnUrl.Equals("/epsikologi", StringComparison.InvariantCultureIgnoreCase) ||
                             returnUrl.Equals("/epsikologi#", StringComparison.InvariantCultureIgnoreCase) ||
@@ -88,9 +88,73 @@ namespace web.sph.App_Code
 
             return View(model);
         }
+
+
+       [AllowAnonymous]
+       [Route("change-password")]
+       public ActionResult ChangePassword()
+       {
+           return View();
+       }
+
+      [HttpPost]
+      [AllowAnonymous]
+      [Route("change-password")]
+      public async Task<ActionResult> ChangePassword(ChangePaswordModel model)
+      {
+          var userName = User.Identity.Name;
+
+          if (!Membership.ValidateUser(userName, model.OldPassword))
+          {
+              return Json(new { success = false, status = "PASSWORD_INCORRECT", message = "Your old password is incorrect", user = userName });
+          }
+          if (model.Password != model.ConfirmPassword)
+              return Json(new { success = false, status = "PASSWORD_DOESNOT_MATCH", message = "Your password is not the same" });
+
+
+          var user = Membership.GetUser(userName);
+          if (null == user) throw new Exception("Cannot find user");
+
+          try
+          {
+            var valid = user.ChangePassword(model.OldPassword, model.Password);
+            if (!valid)
+              return Json(new { success = false, status = "ERROR_CHANGING_PASSWORD", message = "There's an error changing your password" });
+          }catch(Exception ex)
+          {
+              return Json(new { success = false, status = "EXCEPTION_CHANGING_PASSWORD", message = ex.Message });
+          }
+
+          var context = new SphDataContext();
+          var profile = await context.LoadOneAsync<UserProfile>(u => u.UserName == User.Identity.Name);
+          profile.HasChangedDefaultPassword = true;
+
+          using (var session = context.OpenSession())
+          {
+              session.Attach(profile);
+              await session.SubmitChanges("Change password");
+          }
+
+          if (Request.ContentType.Contains("application/json"))
+          {
+              this.Response.ContentType = "application/json; charset=utf-8";
+              return Content(JsonConvert.SerializeObject(new { success = true, status = "OK" }));
+          }
+
+          return Redirect("/");
+      }
+
     }
 
-     public class JpaLoginModel
+    public class ChangePaswordModel
+    {
+        public string OldPassword { get; set; }
+        public string Password { get; set; }
+        public string ConfirmPassword { get; set; }
+        public string Message { get; set; }
+    }
+
+    public class JpaLoginModel
     {
         public string UserName { get; set; }
         public string Password { get; set; }

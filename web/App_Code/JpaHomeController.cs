@@ -50,7 +50,7 @@ namespace web.sph.App_Code
             };
             vm.Messages.AddRange(messagesLo.ItemCollection);
             if(this.User.IsInRole("Developers"))
-                return View("Developers");
+                return Redirect("/sph#dev.home");
 
             return View("Default", vm);
         }
