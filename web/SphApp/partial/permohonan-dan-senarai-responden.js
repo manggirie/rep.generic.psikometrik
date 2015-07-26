@@ -29,6 +29,7 @@ define(["services/datacontext", objectbuilders.app, objectbuilders.config], func
             var tcs = new $.Deferred();
             require(['viewmodels/tambah-responden-dialog' , 'durandal/app'], function (dialog, app2) {
                 dialog.maxCount ( permohonan().BilRespondan() - senaraiPendaftaran().length);
+                dialog.senaraiPendaftaran(senaraiPendaftaran());
                 app2.showDialog(dialog)
                     .done(function (result) {
                         if (result === "OK") {

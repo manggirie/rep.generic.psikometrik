@@ -6,9 +6,10 @@ define(["plugins/dialog", "services/datacontext", "services/config"],
                 results = ko.observableArray(),
                 maxCount = ko.observable(),
                 selectedRespondens = ko.observableArray(),
+                senaraiPendaftaran = ko.observableArray(),
                 searchAsync = function(){
-                    
-                    
+
+
                     var query = {
                               "query": {
                                 "filtered": {
@@ -17,7 +18,7 @@ define(["plugins/dialog", "services/datacontext", "services/config"],
                                       "must": [
                                         {
                                           "term": {
-                                            "NamaJabatan": config.namaJabatan 
+                                            "NamaJabatan": config.namaJabatan
                                           }
                                         },
                                         {
@@ -33,7 +34,7 @@ define(["plugins/dialog", "services/datacontext", "services/config"],
                               "from": 0,
                               "size": 20
                             };
-                                
+
                     if (ko.unwrap(searchText)) {
                         query.query = {
                             "query_string": {
@@ -42,19 +43,27 @@ define(["plugins/dialog", "services/datacontext", "services/config"],
                             }
                         };
                     }
-                  
-                  
-    
+
+
+
                     return context.searchAsync({ entity : "Pengguna" }, query)
                         .done(function (lo) {
-                            var list = _(lo.itemCollection).filter(function(v){ return v.IsResponden === true;});
+                            var list = _(lo.itemCollection).filter(function(v){
+                              var exist = _(senaraiPendaftaran()).find(function(k){
+                                return ko.unwrap(k.MyKad) === v.MyKad;
+                              });
+                              if(exist){
+                                return false;
+                              }
+                              return v.IsResponden === true;
+                            });
                             results(list);
                         });
-                    
-                    
+
+
                 },
                 activate = function(){
-                    
+
                     return context.getScalarAsync("Pengguna", "MyKad eq '" + config.userName + "'", "NamaKementerian")
                         .then(function(ministry){
                           config.namaKementerian = ministry;
@@ -87,6 +96,7 @@ define(["plugins/dialog", "services/datacontext", "services/config"],
 
             var vm = {
                 selectedRespondens : selectedRespondens,
+                senaraiPendaftaran : senaraiPendaftaran,
                 maxCount : maxCount,
                 canExecuteSave : ko.computed(function(){
                     return selectedRespondens().length > 0 && selectedRespondens().length <= maxCount();
