@@ -20,6 +20,11 @@ define(["types"], function (types) {
         mapTopic = function (topicHash) {
             var tcs = new $.Deferred();
             topicHash = topicHash.toLowerCase().replace(/#\/?/g, "").replace(new RegExp(/\/.*$/g), "");
+            if(topicHash.indexOf(" domain.sph") > -1){
+              var item =  /bespoke.sph.domain.(.*?), domain.sph/g.exec(topicHash)[1];
+              tcs.resolve(item + ".html");
+              return tcs.promise();
+            }
             $.get("scripts/topics.map", function (script) {
                 var ooo = JSON.parse(script);
                 tcs.resolve(ooo[topicHash]);
