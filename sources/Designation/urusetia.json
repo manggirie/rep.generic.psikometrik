@@ -29,7 +29,8 @@
   "Name": "Urusetia",
   "Description": "Pihak urusetia di Bahagian Psikologi",
   "IsActive": false,
-  "StartModule": "responden-home",
+  "StartModule": "urusetia-dashboard",
+  "EnforceStartModule": true,
   "IsSearchVisible": true,
   "IsMessageVisible": true,
   "IsHelpVisible": true,
@@ -40,6 +41,6 @@
   "Id": "urusetia",
   "CreatedDate": "2015-06-26T07:47:21.1173621+08:00",
   "ChangedBy": "admin",
-  "ChangedDate": "2015-06-26T08:14:49.479153+08:00",
+  "ChangedDate": "2015-07-27T08:02:01.4391097+08:00",
   "WebId": "e1f16dd3-5bf1-4c30-97a8-c289061fed80"
 }
