@@ -1,0 +1,49 @@
+<!DOCTYPE html><html><head><meta charset="utf-8"><title>Untitled Document.md</title><style></style></head><body>
+<h1 id="creates-your-own-brand-login-page">Creates your own brand login page</h1>
+<p>Since Reactive Developer does not dictate on how your security is handled, it&#39;s all up to the developers responsibility to create their own security mechanism that follows ASP.Net security pipe line.</p>
+<h2 id="custom-login-page-with-asp-net-mvc">Custom Login Page with ASP.Net MVC</h2>
+<p>You can easily create your own branded with ASP.Net MVC/Razor View</p>
+<p>Creates a new Controller in App_Code folder, name this controller something like <code>LoginController</code>.</p>
+<pre><code class="lang-csharp">
+using System.Web.Mvc;
+
+namespace web.sph.App_Code
+{
+    public class LoginController : Controller
+    {
+        public ActionResult Index()
+        {
+            return View();
+        }
+    }
+}
+</code></pre>
+<p>Now create the corresponding Razor View in Views\Login\Index.cshtml, your view need to contains at least a form with UserName and password field and set to POST to <code>Sph/SphAccount/Login</code> to use Reactive Developer internal ASP.Net membership providers. Or you can post it to your own custom membership provider.</p>
+<pre><code class="lang-html">  <span class="hljs-tag">&lt;<span class="hljs-title">form</span> <span class="hljs-attribute">method</span>=<span class="hljs-value">"POST"</span> <span class="hljs-attribute">action</span>=<span class="hljs-value">"/Sph/SphAccount/Login"</span> <span class="hljs-attribute">accept-charset</span>=<span class="hljs-value">"UTF-8"</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-title">input</span> <span class="hljs-attribute">autofocus</span>=<span class="hljs-value">"autofocus"</span> <span class="hljs-attribute">class</span>=<span class="hljs-value">"form-control"</span> <span class="hljs-attribute">id</span>=<span class="hljs-value">"UserName"</span> <span class="hljs-attribute">name</span>=<span class="hljs-value">"UserName"</span> <span class="hljs-attribute">placeholder</span>=<span class="hljs-value">"UserName"</span> <span class="hljs-attribute">required</span>=<span class="hljs-value">"True"</span> <span class="hljs-attribute">type</span>=<span class="hljs-value">"text"</span> <span class="hljs-attribute">value</span>=<span class="hljs-value">""</span> /&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-title">span</span> <span class="hljs-attribute">class</span>=<span class="hljs-value">"field-validation-valid"</span> <span class="hljs-attribute">data-valmsg-for</span>=<span class="hljs-value">"UserName"</span> <span class="hljs-attribute">data-valmsg-replace</span>=<span class="hljs-value">"true"</span>&gt;</span><span class="hljs-tag">&lt;/<span class="hljs-title">span</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-title">label</span> <span class="hljs-attribute">class</span>=<span class="hljs-value">"controls"</span>&gt;</span><span class="hljs-tag">&lt;/<span class="hljs-title">label</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-title">input</span> <span class="hljs-attribute">class</span>=<span class="hljs-value">"form-control"</span> <span class="hljs-attribute">id</span>=<span class="hljs-value">"Password"</span> <span class="hljs-attribute">name</span>=<span class="hljs-value">"Password"</span> <span class="hljs-attribute">placeholder</span>=<span class="hljs-value">"Password"</span> <span class="hljs-attribute">required</span>=<span class="hljs-value">"True"</span> <span class="hljs-attribute">type</span>=<span class="hljs-value">"password"</span> /&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-title">span</span> <span class="hljs-attribute">class</span>=<span class="hljs-value">"field-validation-valid"</span> <span class="hljs-attribute">data-valmsg-for</span>=<span class="hljs-value">"Password"</span> <span class="hljs-attribute">data-valmsg-replace</span>=<span class="hljs-value">"true"</span>&gt;</span><span class="hljs-tag">&lt;/<span class="hljs-title">span</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-title">label</span> <span class="hljs-attribute">class</span>=<span class="hljs-value">"checkbox"</span>&gt;</span>
+        <span class="hljs-tag">&lt;<span class="hljs-title">input</span> <span class="hljs-attribute">type</span>=<span class="hljs-value">"checkbox"</span> <span class="hljs-attribute">name</span>=<span class="hljs-value">"remember"</span> <span class="hljs-attribute">value</span>=<span class="hljs-value">"1"</span>&gt;</span>
+        Remember me
+    <span class="hljs-tag">&lt;/<span class="hljs-title">label</span>&gt;</span>
+
+    <span class="hljs-tag">&lt;<span class="hljs-title">input</span> <span class="hljs-attribute">type</span>=<span class="hljs-value">"hidden"</span> <span class="hljs-attribute">value</span>=<span class="hljs-value">""</span> <span class="hljs-attribute">name</span>=<span class="hljs-value">"ReturnUrl"</span>/&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-title">button</span> <span class="hljs-attribute">type</span>=<span class="hljs-value">"submit"</span> <span class="hljs-attribute">name</span>=<span class="hljs-value">"submit"</span> <span class="hljs-attribute">class</span>=<span class="hljs-value">"btn btn-default"</span>&gt;</span>Login<span class="hljs-tag">&lt;/<span class="hljs-title">button</span>&gt;</span>
+<span class="hljs-tag">&lt;/<span class="hljs-title">form</span>&gt;</span>
+</code></pre>
+<p>The final things you need to do is to let the runtime know about your new Login page, go to <code>web.config</code> file and locate this section in <code>system.web</code></p>
+<pre><code class="lang-xml"><span class="hljs-tag">&lt;<span class="hljs-title">authentication</span> <span class="hljs-attribute">mode</span>=<span class="hljs-value">"Forms"</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-title">forms</span> <span class="hljs-attribute">loginUrl</span>=<span class="hljs-value">"~/Sph/SphAccount/Login"</span> <span class="hljs-attribute">timeout</span>=<span class="hljs-value">"2880"</span> <span class="hljs-attribute">name</span>=<span class="hljs-value">".rx-developer.dev"</span> /&gt;</span>
+<span class="hljs-tag">&lt;/<span class="hljs-title">authentication</span>&gt;</span>
+</code></pre>
+<p>to</p>
+<pre><code class="lang-xml"><span class="hljs-tag">&lt;<span class="hljs-title">authentication</span> <span class="hljs-attribute">mode</span>=<span class="hljs-value">"Forms"</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-title">forms</span> <span class="hljs-attribute">loginUrl</span>=<span class="hljs-value">"~/Login"</span> <span class="hljs-attribute">timeout</span>=<span class="hljs-value">"2880"</span> <span class="hljs-attribute">name</span>=<span class="hljs-value">".rx-developer.dev"</span> /&gt;</span>
+<span class="hljs-tag">&lt;/<span class="hljs-title">authentication</span>&gt;</span>
+</code></pre>
+<p>Change the loginUrl to point to your new page</p>
+
+</body></html>
