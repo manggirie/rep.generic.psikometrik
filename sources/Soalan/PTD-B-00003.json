@@ -2,7 +2,7 @@
   "$type": "Bespoke.epsikologi_soalan.Domain.Soalan, epsikologi.Soalan",
   "NoRujukan": "PTD-B-00003",
   "SoalanNo": "PTD-B-00003",
-  "TeksSoalan": ".,mengelakkan diri dari membincangkan topik yang berbentuk falsafah kerana ia membosankan",
+  "TeksSoalan": "mengelakkan diri dari membincangkan topik yang berbentuk falsafah kerana ia membosankan",
   "SeksyenSoalan": "B",
   "PilihanJawapanCollection": {
     "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan]], domain.sph",
@@ -39,14 +39,14 @@
       }
     ]
   },
-  "Trait": null,
+  "Trait": "C2",
   "NamaUjian": "Profil Personaliti & Kerjaya Pegawai(PTD)",
   "Susunan": 3.0,
   "Kategori": null,
   "CreatedBy": "admin",
   "Id": "PTD-B-00003",
   "CreatedDate": "2015-07-06T11:24:51.9344064+08:00",
-  "ChangedBy": "admin",
-  "ChangedDate": "2015-07-06T11:24:51.9339058+08:00",
+  "ChangedBy": "urusetia2",
+  "ChangedDate": "2015-07-27T13:38:52.0760247+08:00",
   "WebId": "1c5137b6-2a3c-4a80-9018-64be0886eb5d"
 }

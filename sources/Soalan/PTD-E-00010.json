@@ -2,7 +2,7 @@
   "$type": "Bespoke.epsikologi_soalan.Domain.Soalan, epsikologi.Soalan",
   "NoRujukan": "PTD-E-00010",
   "SoalanNo": "PTD-E-00010",
-  "TeksSoalan": ".,berpandangan bahawa kebanyakan orang akan mengambil kesempatan ke atas saya jika mereka berpeluang berbuat demikian.",
+  "TeksSoalan": "berpandangan bahawa kebanyakan orang akan mengambil kesempatan ke atas saya jika mereka berpeluang berbuat demikian.",
   "SeksyenSoalan": "E",
   "PilihanJawapanCollection": {
     "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan]], domain.sph",
@@ -39,14 +39,14 @@
       }
     ]
   },
-  "Trait": null,
+  "Trait": "D5",
   "NamaUjian": "Profil Personaliti & Kerjaya Pegawai(PTD)",
   "Susunan": 10.0,
   "Kategori": null,
   "CreatedBy": "admin",
   "Id": "PTD-E-00010",
   "CreatedDate": "2015-07-06T11:24:53.2988697+08:00",
-  "ChangedBy": "admin",
-  "ChangedDate": "2015-07-06T11:24:53.2973694+08:00",
+  "ChangedBy": "urusetia2",
+  "ChangedDate": "2015-07-27T18:03:28.4555039+08:00",
   "WebId": "d8a77719-4588-4fe1-b699-0398ea594ba7"
 }

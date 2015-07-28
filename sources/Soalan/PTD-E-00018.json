@@ -2,7 +2,7 @@
   "$type": "Bespoke.epsikologi_soalan.Domain.Soalan, epsikologi.Soalan",
   "NoRujukan": "PTD-E-00018",
   "SoalanNo": "PTD-E-00018",
-  "TeksSoalan": ".,cenderung bersikap sinis terhadap niat orang lain dan tidak menghiraukan pandangan mereka.",
+  "TeksSoalan": "cenderung bersikap sinis terhadap niat orang lain dan tidak menghiraukan pandangan mereka.",
   "SeksyenSoalan": "E",
   "PilihanJawapanCollection": {
     "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan]], domain.sph",
@@ -39,14 +39,14 @@
       }
     ]
   },
-  "Trait": null,
+  "Trait": "D5",
   "NamaUjian": "Profil Personaliti & Kerjaya Pegawai(PTD)",
   "Susunan": 18.0,
   "Kategori": null,
   "CreatedBy": "admin",
   "Id": "PTD-E-00018",
   "CreatedDate": "2015-07-06T11:24:53.3899335+08:00",
-  "ChangedBy": "admin",
-  "ChangedDate": "2015-07-06T11:24:53.3879321+08:00",
+  "ChangedBy": "urusetia2",
+  "ChangedDate": "2015-07-27T18:06:25.3171883+08:00",
   "WebId": "87967021-1f93-4a79-932b-00fbb6e686fc"
 }

@@ -2,7 +2,7 @@
   "$type": "Bespoke.epsikologi_soalan.Domain.Soalan, epsikologi.Soalan",
   "NoRujukan": "PTD-D-00046",
   "SoalanNo": "PTD-D-00046",
-  "TeksSoalan": ".,boleh menguruskan masalah peribadi dengan baik walaupun terdapat halangan dan tentangan dalam setiap tindakan yang diambil",
+  "TeksSoalan": "boleh menguruskan masalah peribadi dengan baik walaupun terdapat halangan dan tentangan dalam setiap tindakan yang diambil",
   "SeksyenSoalan": "D",
   "PilihanJawapanCollection": {
     "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan]], domain.sph",
@@ -10,13 +10,13 @@
       {
         "$type": "Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan",
         "Teks": "Sangat Bersetuju",
-        "Nilai": 0,
+        "Nilai": 4,
         "WebId": null
       },
       {
         "$type": "Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan",
         "Teks": "Bersetuju",
-        "Nilai": 1,
+        "Nilai": 3,
         "WebId": null
       },
       {
@@ -28,25 +28,25 @@
       {
         "$type": "Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan",
         "Teks": "Tidak Bersetuju",
-        "Nilai": 3,
+        "Nilai": 1,
         "WebId": null
       },
       {
         "$type": "Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan",
         "Teks": "Sangat Tidak Bersetuju",
-        "Nilai": 4,
+        "Nilai": 0,
         "WebId": null
       }
     ]
   },
-  "Trait": null,
+  "Trait": "A4",
   "NamaUjian": "Profil Personaliti & Kerjaya Pegawai(PTD)",
   "Susunan": 46.0,
   "Kategori": null,
   "CreatedBy": "admin",
   "Id": "PTD-D-00046",
   "CreatedDate": "2015-07-06T11:24:53.1827873+08:00",
-  "ChangedBy": "admin",
-  "ChangedDate": "2015-07-06T11:24:53.1822872+08:00",
+  "ChangedBy": "urusetia2",
+  "ChangedDate": "2015-07-27T17:57:22.9649585+08:00",
   "WebId": "074f9346-d3a7-471e-adc7-51ada62d735b"
 }

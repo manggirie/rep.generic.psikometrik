@@ -2,7 +2,7 @@
   "$type": "Bespoke.epsikologi_soalan.Domain.Soalan, epsikologi.Soalan",
   "NoRujukan": "PTD-D-00015",
   "SoalanNo": "PTD-D-00015",
-  "TeksSoalan": ".,tidak mudah untuk meluahkan perasaan diri",
+  "TeksSoalan": "tidak mudah untuk meluahkan perasaan diri",
   "SeksyenSoalan": "D",
   "PilihanJawapanCollection": {
     "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan]], domain.sph",
@@ -39,14 +39,14 @@
       }
     ]
   },
-  "Trait": null,
+  "Trait": "E4",
   "NamaUjian": "Profil Personaliti & Kerjaya Pegawai(PTD)",
   "Susunan": 15.0,
   "Kategori": null,
   "CreatedBy": "admin",
   "Id": "PTD-D-00015",
   "CreatedDate": "2015-07-06T11:24:52.9396162+08:00",
-  "ChangedBy": "admin",
-  "ChangedDate": "2015-07-06T11:24:52.9391156+08:00",
+  "ChangedBy": "urusetia2",
+  "ChangedDate": "2015-07-27T17:46:15.2741961+08:00",
   "WebId": "65e53034-d352-4cbf-9eff-87a47b0e9bdd"
 }

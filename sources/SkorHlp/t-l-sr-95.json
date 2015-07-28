@@ -2,7 +2,7 @@
   "$type": "Bespoke.epsikologi_skorhlp.Domain.SkorHlp, epsikologi.SkorHlp",
   "No": "t-l-sr-95",
   "Tret": "KT",
-  "NilaiMin": 22,
+  "NilaiMin": 21,
   "NilaiMax": 25,
   "Percentile": 95,
   "Skor": "Skor Rendah",
@@ -10,7 +10,7 @@
   "CreatedBy": "urusetia1",
   "Id": "t-l-sr-95",
   "CreatedDate": "2015-07-08T13:41:42.675083+08:00",
-  "ChangedBy": "urusetia1",
-  "ChangedDate": "2015-07-08T13:41:42.6725815+08:00",
+  "ChangedBy": "admin",
+  "ChangedDate": "2015-07-28T10:57:34.8145596+08:00",
   "WebId": "9a16d3bb-b177-47aa-b2e0-8a7219e9a7bc"
 }

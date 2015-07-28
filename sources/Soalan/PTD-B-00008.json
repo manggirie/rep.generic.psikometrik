@@ -2,7 +2,7 @@
   "$type": "Bespoke.epsikologi_soalan.Domain.Soalan, epsikologi.Soalan",
   "NoRujukan": "PTD-B-00008",
   "SoalanNo": "PTD-B-00008",
-  "TeksSoalan": ".,cuba mengelakkan diri dari berurusan dengan orang yang suka membincangkan tentang falsafah atau teori berhubung sesuatu perkara",
+  "TeksSoalan": "cuba mengelakkan diri dari berurusan dengan orang yang suka membincangkan tentang falsafah atau teori berhubung sesuatu perkara",
   "SeksyenSoalan": "B",
   "PilihanJawapanCollection": {
     "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan]], domain.sph",
@@ -39,14 +39,14 @@
       }
     ]
   },
-  "Trait": null,
+  "Trait": "C2",
   "NamaUjian": "Profil Personaliti & Kerjaya Pegawai(PTD)",
   "Susunan": 8.0,
   "Kategori": null,
   "CreatedBy": "admin",
   "Id": "PTD-B-00008",
   "CreatedDate": "2015-07-06T11:24:51.9829404+08:00",
-  "ChangedBy": "admin",
-  "ChangedDate": "2015-07-06T11:24:51.9824403+08:00",
+  "ChangedBy": "urusetia2",
+  "ChangedDate": "2015-07-27T13:49:18.661677+08:00",
   "WebId": "7f9f27c2-48af-4c84-80d8-81032a531adc"
 }

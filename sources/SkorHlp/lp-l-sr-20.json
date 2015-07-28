@@ -3,14 +3,14 @@
   "No": "lp-l-sr-20",
   "Tret": "LP",
   "NilaiMin": 22,
-  "NilaiMax": 22,
+  "NilaiMax": 23,
   "Percentile": 20,
   "Skor": "Skor Rendah",
   "Jantina": "Lelaki",
   "CreatedBy": "urusetia1",
   "Id": "lp-l-sr-20",
   "CreatedDate": "2015-07-08T15:14:51.2180756+08:00",
-  "ChangedBy": "urusetia1",
-  "ChangedDate": "2015-07-08T15:14:51.2150735+08:00",
+  "ChangedBy": "admin",
+  "ChangedDate": "2015-07-28T12:00:42.4822932+08:00",
   "WebId": "db7876d5-030c-4bb9-92e7-1cb1f0a6045d"
 }

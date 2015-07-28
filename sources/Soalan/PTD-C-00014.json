@@ -2,7 +2,7 @@
   "$type": "Bespoke.epsikologi_soalan.Domain.Soalan, epsikologi.Soalan",
   "NoRujukan": "PTD-C-00014",
   "SoalanNo": "PTD-C-00014",
-  "TeksSoalan": ".,sering berhadapan dengan kesukaran untuk memulakan tugas.",
+  "TeksSoalan": "sering berhadapan dengan kesukaran untuk memulakan tugas",
   "SeksyenSoalan": "C",
   "PilihanJawapanCollection": {
     "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan]], domain.sph",
@@ -39,14 +39,14 @@
       }
     ]
   },
-  "Trait": null,
+  "Trait": "B3",
   "NamaUjian": "Profil Personaliti & Kerjaya Pegawai(PTD)",
   "Susunan": 14.0,
   "Kategori": null,
   "CreatedBy": "admin",
   "Id": "PTD-C-00014",
   "CreatedDate": "2015-07-06T11:24:52.4262543+08:00",
-  "ChangedBy": "admin",
-  "ChangedDate": "2015-07-06T11:24:52.4237518+08:00",
+  "ChangedBy": "urusetia2",
+  "ChangedDate": "2015-07-27T14:42:32.9450687+08:00",
   "WebId": "db83394b-0065-45c4-8918-59ebab28f89d"
 }
