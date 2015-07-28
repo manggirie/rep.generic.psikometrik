@@ -2,7 +2,7 @@
   "$type": "Bespoke.epsikologi_soalan.Domain.Soalan, epsikologi.Soalan",
   "NoRujukan": "PTD-E-00003",
   "SoalanNo": "PTD-E-00003",
-  "TeksSoalan": ".,sering berasa rendah diri dengan kehebatan orang lain apabila berada di majlis yang dihadiri oleh orang kenamaan.",
+  "TeksSoalan": "sering berasa rendah diri dengan kehebatan orang lain apabila berada di majlis yang dihadiri oleh orang kenamaan.",
   "SeksyenSoalan": "E",
   "PilihanJawapanCollection": {
     "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan]], domain.sph",
@@ -39,14 +39,14 @@
       }
     ]
   },
-  "Trait": null,
+  "Trait": "E5",
   "NamaUjian": "Profil Personaliti & Kerjaya Pegawai(PTD)",
   "Susunan": 3.0,
   "Kategori": null,
   "CreatedBy": "admin",
   "Id": "PTD-E-00003",
   "CreatedDate": "2015-07-06T11:24:53.2373256+08:00",
-  "ChangedBy": "admin",
-  "ChangedDate": "2015-07-06T11:24:53.2368255+08:00",
+  "ChangedBy": "urusetia2",
+  "ChangedDate": "2015-07-27T18:00:31.3857987+08:00",
   "WebId": "655258c8-fb6c-4799-8263-913486995f78"
 }

@@ -2,7 +2,7 @@
   "$type": "Bespoke.epsikologi_soalan.Domain.Soalan, epsikologi.Soalan",
   "NoRujukan": "PTD-E-00027",
   "SoalanNo": "PTD-E-00027",
-  "TeksSoalan": ".,tidak berasa selesa apabila diminta membuat ucapan secara spontan dalam majlis yang dihadiri oleh ramai orang yang penting.",
+  "TeksSoalan": "tidak berasa selesa apabila diminta membuat ucapan secara spontan dalam majlis yang dihadiri oleh ramai orang yang penting.",
   "SeksyenSoalan": "E",
   "PilihanJawapanCollection": {
     "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan]], domain.sph",
@@ -39,14 +39,14 @@
       }
     ]
   },
-  "Trait": null,
+  "Trait": "E5",
   "NamaUjian": "Profil Personaliti & Kerjaya Pegawai(PTD)",
   "Susunan": 27.0,
   "Kategori": null,
   "CreatedBy": "admin",
   "Id": "PTD-E-00027",
   "CreatedDate": "2015-07-06T11:24:53.5105193+08:00",
-  "ChangedBy": "admin",
-  "ChangedDate": "2015-07-06T11:24:53.5060155+08:00",
+  "ChangedBy": "urusetia2",
+  "ChangedDate": "2015-07-27T18:09:52.4488994+08:00",
   "WebId": "f68e9da9-9006-4269-96a1-ea02ce9577e8"
 }

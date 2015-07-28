@@ -2,7 +2,7 @@
   "$type": "Bespoke.epsikologi_soalan.Domain.Soalan, epsikologi.Soalan",
   "NoRujukan": "PTD-C-00012",
   "SoalanNo": "PTD-C-00012",
-  "TeksSoalan": ".,jarang mengalami perasaan tidak bersemangat dan boleh menghilangkan perasaan sugul dengan segera.",
+  "TeksSoalan": "jarang mengalami perasaan tidak bersemangat dan boleh menghilangkan perasaan sugul dengan segera.",
   "SeksyenSoalan": "C",
   "PilihanJawapanCollection": {
     "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan]], domain.sph",
@@ -10,13 +10,13 @@
       {
         "$type": "Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan",
         "Teks": "Sangat Bersetuju",
-        "Nilai": 0,
+        "Nilai": 4,
         "WebId": null
       },
       {
         "$type": "Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan",
         "Teks": "Bersetuju",
-        "Nilai": 1,
+        "Nilai": 3,
         "WebId": null
       },
       {
@@ -28,25 +28,25 @@
       {
         "$type": "Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan",
         "Teks": "Tidak Bersetuju",
-        "Nilai": 3,
+        "Nilai": 1,
         "WebId": null
       },
       {
         "$type": "Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan",
         "Teks": "Sangat Tidak Bersetuju",
-        "Nilai": 4,
+        "Nilai": 0,
         "WebId": null
       }
     ]
   },
-  "Trait": null,
+  "Trait": "A3",
   "NamaUjian": "Profil Personaliti & Kerjaya Pegawai(PTD)",
   "Susunan": 12.0,
   "Kategori": null,
   "CreatedBy": "admin",
   "Id": "PTD-C-00012",
   "CreatedDate": "2015-07-06T11:24:52.4032371+08:00",
-  "ChangedBy": "admin",
-  "ChangedDate": "2015-07-06T11:24:52.402737+08:00",
+  "ChangedBy": "urusetia2",
+  "ChangedDate": "2015-07-27T14:41:05.8653616+08:00",
   "WebId": "d2c8f47a-c9c3-48fc-bd08-7c148c4b6966"
 }

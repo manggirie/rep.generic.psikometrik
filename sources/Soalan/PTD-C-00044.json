@@ -2,7 +2,7 @@
   "$type": "Bespoke.epsikologi_soalan.Domain.Soalan, epsikologi.Soalan",
   "NoRujukan": "PTD-C-00044",
   "SoalanNo": "PTD-C-00044",
-  "TeksSoalan": ".,sedia melakukan sesuatu perkara melebihi daripada apa yang dijangkakan.",
+  "TeksSoalan": "sedia melakukan sesuatu perkara melebihi daripada apa yang dijangkakan.",
   "SeksyenSoalan": "C",
   "PilihanJawapanCollection": {
     "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan]], domain.sph",
@@ -10,13 +10,13 @@
       {
         "$type": "Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan",
         "Teks": "Sangat Bersetuju",
-        "Nilai": 0,
+        "Nilai": 4,
         "WebId": null
       },
       {
         "$type": "Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan",
         "Teks": "Bersetuju",
-        "Nilai": 1,
+        "Nilai": 3,
         "WebId": null
       },
       {
@@ -28,25 +28,25 @@
       {
         "$type": "Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan",
         "Teks": "Tidak Bersetuju",
-        "Nilai": 3,
+        "Nilai": 1,
         "WebId": null
       },
       {
         "$type": "Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan",
         "Teks": "Sangat Tidak Bersetuju",
-        "Nilai": 4,
+        "Nilai": 0,
         "WebId": null
       }
     ]
   },
-  "Trait": null,
+  "Trait": "B3",
   "NamaUjian": "Profil Personaliti & Kerjaya Pegawai(PTD)",
   "Susunan": 44.0,
   "Kategori": null,
   "CreatedBy": "admin",
   "Id": "PTD-C-00044",
   "CreatedDate": "2015-07-06T11:24:52.7104544+08:00",
-  "ChangedBy": "admin",
-  "ChangedDate": "2015-07-06T11:24:52.7099538+08:00",
+  "ChangedBy": "urusetia2",
+  "ChangedDate": "2015-07-27T16:06:05.1542442+08:00",
   "WebId": "d7f1d5c9-0bfa-4fda-8158-17b321e71fda"
 }

@@ -2,7 +2,7 @@
   "$type": "Bespoke.epsikologi_soalan.Domain.Soalan, epsikologi.Soalan",
   "NoRujukan": "PTD-D-00047",
   "SoalanNo": "PTD-D-00047",
-  "TeksSoalan": ".,merancang sesuatu perkara agar ia dapat diselesaikan dengan sebaik mungkin",
+  "TeksSoalan": "merancang sesuatu perkara agar ia dapat diselesaikan dengan sebaik mungkin",
   "SeksyenSoalan": "D",
   "PilihanJawapanCollection": {
     "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan]], domain.sph",
@@ -10,13 +10,13 @@
       {
         "$type": "Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan",
         "Teks": "Sangat Bersetuju",
-        "Nilai": 0,
+        "Nilai": 4,
         "WebId": null
       },
       {
         "$type": "Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan",
         "Teks": "Bersetuju",
-        "Nilai": 1,
+        "Nilai": 3,
         "WebId": null
       },
       {
@@ -28,25 +28,25 @@
       {
         "$type": "Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan",
         "Teks": "Tidak Bersetuju",
-        "Nilai": 3,
+        "Nilai": 1,
         "WebId": null
       },
       {
         "$type": "Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan",
         "Teks": "Sangat Tidak Bersetuju",
-        "Nilai": 4,
+        "Nilai": 0,
         "WebId": null
       }
     ]
   },
-  "Trait": null,
+  "Trait": "B4",
   "NamaUjian": "Profil Personaliti & Kerjaya Pegawai(PTD)",
   "Susunan": 47.0,
   "Kategori": null,
   "CreatedBy": "admin",
   "Id": "PTD-D-00047",
   "CreatedDate": "2015-07-06T11:24:53.1892917+08:00",
-  "ChangedBy": "admin",
-  "ChangedDate": "2015-07-06T11:24:53.1887916+08:00",
+  "ChangedBy": "urusetia2",
+  "ChangedDate": "2015-07-27T17:57:41.9178536+08:00",
   "WebId": "5044a222-002c-455b-89da-e1ebbbbfabf7"
 }

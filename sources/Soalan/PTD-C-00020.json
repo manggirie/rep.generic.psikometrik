@@ -2,7 +2,7 @@
   "$type": "Bespoke.epsikologi_soalan.Domain.Soalan, epsikologi.Soalan",
   "NoRujukan": "PTD-C-00020",
   "SoalanNo": "PTD-C-00020",
-  "TeksSoalan": ".,tidak mempunyai banyak tugas untuk dilakukan dan melakukan tugas sedia ada mengikut situasi semasa.",
+  "TeksSoalan": "tidak mempunyai banyak tugas untuk dilakukan dan melakukan tugas sedia ada mengikut situasi semasa.",
   "SeksyenSoalan": "C",
   "PilihanJawapanCollection": {
     "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan]], domain.sph",
@@ -39,14 +39,14 @@
       }
     ]
   },
-  "Trait": null,
+  "Trait": "B3",
   "NamaUjian": "Profil Personaliti & Kerjaya Pegawai(PTD)",
   "Susunan": 20.0,
   "Kategori": null,
   "CreatedBy": "admin",
   "Id": "PTD-C-00020",
   "CreatedDate": "2015-07-06T11:24:52.4797914+08:00",
-  "ChangedBy": "admin",
-  "ChangedDate": "2015-07-06T11:24:52.4797914+08:00",
+  "ChangedBy": "urusetia2",
+  "ChangedDate": "2015-07-27T15:55:48.1685518+08:00",
   "WebId": "69a5f0e7-cd63-48c8-ae9f-ee25ec73fd0b"
 }

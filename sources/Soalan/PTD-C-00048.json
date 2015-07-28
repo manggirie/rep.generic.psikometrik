@@ -2,7 +2,7 @@
   "$type": "Bespoke.epsikologi_soalan.Domain.Soalan, epsikologi.Soalan",
   "NoRujukan": "PTD-C-00048",
   "SoalanNo": "PTD-C-00048",
-  "TeksSoalan": ".,pernah diselubungi dengan perasaan takut dan bersalah sehingga menjejaskan aktiviti harian.",
+  "TeksSoalan": "pernah diselubungi dengan perasaan takut dan bersalah sehingga menjejaskan aktiviti harian.",
   "SeksyenSoalan": "C",
   "PilihanJawapanCollection": {
     "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan]], domain.sph",
@@ -39,14 +39,14 @@
       }
     ]
   },
-  "Trait": null,
+  "Trait": "A3",
   "NamaUjian": "Profil Personaliti & Kerjaya Pegawai(PTD)",
   "Susunan": 48.0,
   "Kategori": null,
   "CreatedBy": "admin",
   "Id": "PTD-C-00048",
   "CreatedDate": "2015-07-06T11:24:52.7359722+08:00",
-  "ChangedBy": "admin",
-  "ChangedDate": "2015-07-06T11:24:52.7354716+08:00",
+  "ChangedBy": "urusetia2",
+  "ChangedDate": "2015-07-27T16:07:33.7841063+08:00",
   "WebId": "de989ae4-8aa3-4fba-82e9-12d9d70cbfaa"
 }
