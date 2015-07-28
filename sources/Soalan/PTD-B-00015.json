@@ -2,7 +2,7 @@
   "$type": "Bespoke.epsikologi_soalan.Domain.Soalan, epsikologi.Soalan",
   "NoRujukan": "PTD-B-00015",
   "SoalanNo": "PTD-B-00015",
-  "TeksSoalan": ".,degil dan sedia untuk mempertahankan pandangan diri dengan rakan sekerja",
+  "TeksSoalan": "degil dan sedia untuk mempertahankan pandangan diri dengan rakan sekerja",
   "SeksyenSoalan": "B",
   "PilihanJawapanCollection": {
     "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan]], domain.sph",
@@ -39,14 +39,14 @@
       }
     ]
   },
-  "Trait": null,
+  "Trait": "E2",
   "NamaUjian": "Profil Personaliti & Kerjaya Pegawai(PTD)",
   "Susunan": 15.0,
   "Kategori": null,
   "CreatedBy": "admin",
   "Id": "PTD-B-00015",
   "CreatedDate": "2015-07-06T11:24:52.036478+08:00",
-  "ChangedBy": "admin",
-  "ChangedDate": "2015-07-06T11:24:52.036478+08:00",
+  "ChangedBy": "urusetia2",
+  "ChangedDate": "2015-07-27T14:23:57.4005254+08:00",
   "WebId": "d8ce6e2a-7f73-450e-9639-0f7e4cf9d8ee"
 }

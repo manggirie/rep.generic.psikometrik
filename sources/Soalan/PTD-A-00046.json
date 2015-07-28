@@ -10,13 +10,13 @@
       {
         "$type": "Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan",
         "Teks": "Sangat Bersetuju",
-        "Nilai": 0,
+        "Nilai": 4,
         "WebId": null
       },
       {
         "$type": "Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan",
         "Teks": "Bersetuju",
-        "Nilai": 1,
+        "Nilai": 3,
         "WebId": null
       },
       {
@@ -28,25 +28,25 @@
       {
         "$type": "Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan",
         "Teks": "Tidak Bersetuju",
-        "Nilai": 3,
+        "Nilai": 1,
         "WebId": null
       },
       {
         "$type": "Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan",
         "Teks": "Sangat Tidak Bersetuju",
-        "Nilai": 4,
+        "Nilai": 0,
         "WebId": null
       }
     ]
   },
-  "Trait": null,
+  "Trait": "D1",
   "NamaUjian": "Profil Personaliti & Kerjaya Pegawai(PTD)",
   "Susunan": 46.0,
   "Kategori": null,
   "CreatedBy": "admin",
   "Id": "PTD-A-00046",
   "CreatedDate": "2015-07-06T11:24:51.7958084+08:00",
-  "ChangedBy": "admin",
-  "ChangedDate": "2015-07-06T11:24:51.7953082+08:00",
+  "ChangedBy": "urusetia2",
+  "ChangedDate": "2015-07-27T13:30:08.7346958+08:00",
   "WebId": "395c45f1-266b-4d24-87e4-babf4aa35e83"
 }

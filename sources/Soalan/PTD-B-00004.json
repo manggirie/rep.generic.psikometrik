@@ -2,7 +2,7 @@
   "$type": "Bespoke.epsikologi_soalan.Domain.Soalan, epsikologi.Soalan",
   "NoRujukan": "PTD-B-00004",
   "SoalanNo": "PTD-B-00004",
-  "TeksSoalan": ".,berasa seronok berada di perjumpaan sosial yang dihadiri oleh ramai orang",
+  "TeksSoalan": "berasa seronok berada di perjumpaan sosial yang dihadiri oleh ramai orang",
   "SeksyenSoalan": "B",
   "PilihanJawapanCollection": {
     "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan]], domain.sph",
@@ -10,13 +10,13 @@
       {
         "$type": "Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan",
         "Teks": "Sangat Bersetuju",
-        "Nilai": 0,
+        "Nilai": 4,
         "WebId": null
       },
       {
         "$type": "Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan",
         "Teks": "Bersetuju",
-        "Nilai": 1,
+        "Nilai": 3,
         "WebId": null
       },
       {
@@ -28,25 +28,25 @@
       {
         "$type": "Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan",
         "Teks": "Tidak Bersetuju",
-        "Nilai": 3,
+        "Nilai": 1,
         "WebId": null
       },
       {
         "$type": "Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan",
         "Teks": "Sangat Tidak Bersetuju",
-        "Nilai": 4,
+        "Nilai": 0,
         "WebId": null
       }
     ]
   },
-  "Trait": null,
+  "Trait": "D2",
   "NamaUjian": "Profil Personaliti & Kerjaya Pegawai(PTD)",
   "Susunan": 4.0,
   "Kategori": null,
   "CreatedBy": "admin",
   "Id": "PTD-B-00004",
   "CreatedDate": "2015-07-06T11:24:51.9444139+08:00",
-  "ChangedBy": "admin",
-  "ChangedDate": "2015-07-06T11:24:51.9434123+08:00",
+  "ChangedBy": "urusetia2",
+  "ChangedDate": "2015-07-27T13:39:18.1746343+08:00",
   "WebId": "181c7edd-2283-4904-ab31-6a81d0feb71c"
 }
