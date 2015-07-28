@@ -39,14 +39,14 @@
       }
     ]
   },
-  "Trait": null,
+  "Trait": "B1",
   "NamaUjian": "Profil Personaliti & Kerjaya Pegawai(PTD)",
   "Susunan": 32.0,
   "Kategori": null,
   "CreatedBy": "admin",
   "Id": "PTD-A-00032",
   "CreatedDate": "2015-07-06T11:24:51.6762242+08:00",
-  "ChangedBy": "admin",
-  "ChangedDate": "2015-07-06T11:24:51.6752235+08:00",
+  "ChangedBy": "urusetia2",
+  "ChangedDate": "2015-07-27T13:26:01.1679416+08:00",
   "WebId": "88f494b3-5192-4fb1-a52f-a7261c128a35"
 }
