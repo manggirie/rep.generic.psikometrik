@@ -171,10 +171,12 @@
   "CountMessage": "",
   "Entity": "",
   "Partial": "partial/ujian-khas-hadiah-latihan-persekutuan",
+  "Template": null,
+  "DisplayOnDashboard": true,
   "CreatedBy": "admin",
   "Id": "ujian-khas-hadiah-latihan-persekutuan",
   "CreatedDate": "2015-06-22T11:34:46.1385518+08:00",
   "ChangedBy": "admin",
-  "ChangedDate": "2015-07-08T07:38:17.9675479+08:00",
+  "ChangedDate": "2015-07-28T15:14:59.4781425+08:00",
   "WebId": "38e6ae7a-002d-4780-d67c-faea94d5b459"
 }

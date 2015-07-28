@@ -166,11 +166,11 @@
   "Entity": "",
   "Partial": "partial/soalan-indeks-organisasi-cemerlang",
   "Template": null,
-  "DisplayOnDashboard": false,
+  "DisplayOnDashboard": true,
   "CreatedBy": "admin",
   "Id": "soalan-indeks-organisasi-cemerlang",
   "CreatedDate": "2015-06-22T11:34:46.1375517+08:00",
   "ChangedBy": "admin",
-  "ChangedDate": "2015-07-12T08:52:29.9653682+08:00",
+  "ChangedDate": "2015-07-28T15:12:24.5152693+08:00",
   "WebId": "38e6ae7a-002d-4780-d67c-faea94d5b459"
 }

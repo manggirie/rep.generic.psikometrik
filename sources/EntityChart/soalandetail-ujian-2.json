@@ -13,13 +13,13 @@
   "Aggregate": "term",
   "Field": "NamaUjian",
   "DateInterval": "year",
-  "IsDashboardItem": true,
+  "IsDashboardItem": false,
   "DasboardItemPosition": 0,
   "HistogramInterval": null,
   "CreatedBy": "admin",
   "Id": "soalandetail-ujian-2",
   "CreatedDate": "2015-06-28T06:39:40.7340035+08:00",
   "ChangedBy": "admin",
-  "ChangedDate": "2015-06-28T06:39:40.7320028+08:00",
+  "ChangedDate": "2015-07-28T15:08:14.1252693+08:00",
   "WebId": "9870f5b3-72a3-4449-c6db-74168c5ac3f4"
 }
