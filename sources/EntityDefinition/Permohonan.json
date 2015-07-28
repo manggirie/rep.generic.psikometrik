@@ -531,6 +531,28 @@
         "Boost": 3,
         "DefaultValue": null,
         "WebId": "b3f4d5b1-a9cf-484d-9caa-8d5bbbf07cf9"
+      },
+      {
+        "$type": "Bespoke.Sph.Domain.Member, domain.sph",
+        "FullName": null,
+        "MemberCollection": {
+          "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.Sph.Domain.Member, domain.sph]], domain.sph",
+          "$values": []
+        },
+        "FieldPermissionCollection": {
+          "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.Sph.Domain.FieldPermission, domain.sph]], domain.sph",
+          "$values": []
+        },
+        "Name": "Bahagian",
+        "TypeName": "System.String, mscorlib",
+        "IsNullable": true,
+        "IsNotIndexed": false,
+        "IsAnalyzed": false,
+        "IsFilterable": false,
+        "IsExcludeInAll": false,
+        "Boost": 2,
+        "DefaultValue": null,
+        "WebId": "0690b2f5-bcd7-41c8-f5ae-cfe1ad0bce9a"
       }
     ]
   },
@@ -704,6 +726,6 @@
   "Id": "permohonan",
   "CreatedDate": "2015-06-05T10:45:39.9585024+08:00",
   "ChangedBy": "admin",
-  "ChangedDate": "2015-07-24T09:42:12.48186+08:00",
+  "ChangedDate": "2015-07-28T11:44:57.3382303+08:00",
   "WebId": "5aff113b-31e8-4f89-b7eb-d089e79bd899"
 }

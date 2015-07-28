@@ -172,11 +172,11 @@
   "Entity": "",
   "Partial": "partial/soalan-indeks-bimbingan-kerjaya",
   "Template": null,
-  "DisplayOnDashboard": false,
+  "DisplayOnDashboard": true,
   "CreatedBy": "admin",
   "Id": "indeks-bimbingan-kerjaya",
   "CreatedDate": "2015-06-05T10:14:02.1400355+08:00",
   "ChangedBy": "admin",
-  "ChangedDate": "2015-07-12T08:51:25.9721254+08:00",
+  "ChangedDate": "2015-07-28T12:02:54.7206326+08:00",
   "WebId": "38e6ae7a-002d-4780-d67c-faea94d5b459"
 }

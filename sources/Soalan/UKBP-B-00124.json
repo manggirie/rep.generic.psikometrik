@@ -2,7 +2,7 @@
   "$type": "Bespoke.epsikologi_soalan.Domain.Soalan, epsikologi.Soalan",
   "NoRujukan": "UKBP-B-00124",
   "SoalanNo": "UKBP-B-00124",
-  "TeksSoalan": "Mengkaji kenakalan remaja.",
+  "TeksSoalan": "Mengkaji isu salah laku atau tingkah laku delikuen remaja.",
   "SeksyenSoalan": "B",
   "PilihanJawapanCollection": {
     "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan]], domain.sph",
@@ -29,6 +29,6 @@
   "Id": "UKBP-B-00124",
   "CreatedDate": "2015-07-06T11:24:56.8994106+08:00",
   "ChangedBy": "admin",
-  "ChangedDate": "2015-07-06T11:24:56.8989105+08:00",
+  "ChangedDate": "2015-07-23T11:22:58.2391718+08:00",
   "WebId": "5c2af1a2-dcec-4c41-8052-f0fccb644714"
 }

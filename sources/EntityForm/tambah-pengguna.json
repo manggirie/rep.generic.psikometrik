@@ -892,6 +892,50 @@
           "WebId": "646e55a8-0fdc-41c2-e061-f1fcfd471aa6"
         },
         {
+          "$type": "Bespoke.Sph.Domain.TextBox, domain.sph",
+          "DefaultValue": null,
+          "AutoCompletionEntity": null,
+          "AutoCompletionField": null,
+          "AutoCompletionQuery": null,
+          "IsPathIsRequired": true,
+          "TypeName": "TextBox",
+          "FieldValidation": {
+            "$type": "Bespoke.Sph.Domain.FieldValidation, domain.sph",
+            "IsRequired": false,
+            "Pattern": null,
+            "Mode": "",
+            "Message": null,
+            "Min": null,
+            "Max": null,
+            "MinLength": null,
+            "MaxLength": null,
+            "WebId": null
+          },
+          "Name": null,
+          "Label": "Bahagian/Seksyen",
+          "Tooltip": null,
+          "Path": "Bahagian",
+          "IsRequired": false,
+          "Size": null,
+          "CssClass": null,
+          "Visible": "true",
+          "Enable": "true",
+          "ElementId": "4a411589-c825-4272-8410-6efb9118876e",
+          "HelpText": null,
+          "UseDisplayTemplate": false,
+          "ToolboxIconClass": null,
+          "IsUniqueName": false,
+          "LabelColLg": null,
+          "LabelColMd": null,
+          "LabelColSm": null,
+          "LabelColXs": null,
+          "InputColLg": null,
+          "InputColMd": null,
+          "InputColSm": null,
+          "InputColXs": null,
+          "WebId": "4fdc4c7c-aba2-4157-e9c3-a614074fd5d4"
+        },
+        {
           "$type": "Bespoke.Sph.Domain.ComboBox, domain.sph",
           "ComboBoxItemCollection": {
             "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.Sph.Domain.ComboBoxItem, domain.sph]], domain.sph",
@@ -910,21 +954,27 @@
               },
               {
                 "$type": "Bespoke.Sph.Domain.ComboBoxItem, domain.sph",
-                "Caption": "41-48",
-                "Value": "41-48",
+                "Caption": "41-44",
+                "Value": "41-44",
                 "WebId": "c1a52f8d-4b71-4f93-8af4-df26df162034"
               },
               {
                 "$type": "Bespoke.Sph.Domain.ComboBoxItem, domain.sph",
-                "Caption": "52-54",
-                "Value": "52-54",
+                "Caption": "48-52",
+                "Value": "48-52",
                 "WebId": "d1566f6c-26fc-47f4-e508-3bc1a65ffc86"
+              },
+              {
+                "$type": "Bespoke.Sph.Domain.ComboBoxItem, domain.sph",
+                "Caption": "54",
+                "Value": "54",
+                "WebId": "4a7a53cc-cae4-40da-b2c9-769d7d249e95"
               },
               {
                 "$type": "Bespoke.Sph.Domain.ComboBoxItem, domain.sph",
                 "Caption": "JUSA",
                 "Value": "JUSA",
-                "WebId": "4a7a53cc-cae4-40da-b2c9-769d7d249e95"
+                "WebId": "690e94f4-6a53-48a2-eae9-70df4f531293"
               }
             ]
           },
@@ -1141,7 +1191,51 @@
           "TypeName": "TextBox",
           "FieldValidation": {
             "$type": "Bespoke.Sph.Domain.FieldValidation, domain.sph",
-            "IsRequired": true,
+            "IsRequired": false,
+            "Pattern": null,
+            "Mode": "email",
+            "Message": null,
+            "Min": null,
+            "Max": null,
+            "MinLength": null,
+            "MaxLength": null,
+            "WebId": null
+          },
+          "Name": null,
+          "Label": "Emel (alternatif)",
+          "Tooltip": null,
+          "Path": "Emel2",
+          "IsRequired": false,
+          "Size": "input-large",
+          "CssClass": "",
+          "Visible": "true",
+          "Enable": "true",
+          "ElementId": "748d4922-ae20-42b8-a3a0-7afc43d4082e",
+          "HelpText": null,
+          "UseDisplayTemplate": false,
+          "ToolboxIconClass": null,
+          "IsUniqueName": false,
+          "LabelColLg": null,
+          "LabelColMd": null,
+          "LabelColSm": null,
+          "LabelColXs": null,
+          "InputColLg": null,
+          "InputColMd": null,
+          "InputColSm": null,
+          "InputColXs": null,
+          "WebId": "87b1c8f8-4875-4d61-c2fd-d7ef2e676bda"
+        },
+        {
+          "$type": "Bespoke.Sph.Domain.TextBox, domain.sph",
+          "DefaultValue": null,
+          "AutoCompletionEntity": null,
+          "AutoCompletionField": null,
+          "AutoCompletionQuery": null,
+          "IsPathIsRequired": true,
+          "TypeName": "TextBox",
+          "FieldValidation": {
+            "$type": "Bespoke.Sph.Domain.FieldValidation, domain.sph",
+            "IsRequired": false,
             "Pattern": "[0-9]{2,3}-[0-9]{6,10}",
             "Mode": "",
             "Message": null,
@@ -1229,7 +1323,7 @@
           "TypeName": "TextBox",
           "FieldValidation": {
             "$type": "Bespoke.Sph.Domain.FieldValidation, domain.sph",
-            "IsRequired": true,
+            "IsRequired": false,
             "Pattern": null,
             "Mode": "",
             "Message": null,
@@ -1361,7 +1455,7 @@
           "TypeName": "TextBox",
           "FieldValidation": {
             "$type": "Bespoke.Sph.Domain.FieldValidation, domain.sph",
-            "IsRequired": true,
+            "IsRequired": false,
             "Pattern": "[0-9]{5}",
             "Mode": "",
             "Message": null,
@@ -1637,11 +1731,11 @@
   "Entity": "Pengguna",
   "Partial": "partial/tambah-pengguna",
   "Caption": "Tambah Pengguna Baru",
-  "Layout": null,
+  "Layout": " ",
   "CreatedBy": "admin",
   "Id": "tambah-pengguna",
   "CreatedDate": "2015-06-16T08:04:09.5205895+08:00",
   "ChangedBy": "admin",
-  "ChangedDate": "2015-07-24T09:07:28.4036633+08:00",
+  "ChangedDate": "2015-07-28T11:10:25.4296258+08:00",
   "WebId": "4e32950c-7d95-4b44-983c-3c3e67811ded"
 }
