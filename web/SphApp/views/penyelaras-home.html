@@ -1,19 +1,58 @@
+
+<!-- BEGIN PAGE HEADER-->
+<h3 class="page-title">
+	Laman Utama Penyelaras
+	<small>Jabatan</small>
+</h3>
+<!-- END PAGE HEADER-->
+<!-- BEGIN DASHBOARD STATS -->
 <div class="row">
-    <h1>Laman Utama Penyelaras</h1>
+  <!-- ko foreach : views -->
+	<div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+		<div class="dashboard-stat blue-madison" data-bind="attr : {'class' : 'dashboard-stat ' + $root.getTileClass(TileColour)}">
+			<div class="visual">
+				<i class="fa fa-comments"></i>
+			</div>
+			<div class="details">
+				<div class="number" data-bind="text: CountMessage">
+					1349
+				</div>
+				<div class="desc" data-bind="text:Name">
+				</div>
+			</div>
+			<a class="more"  data-bind="attr:{href : '#' + Route(), 'title' : Note}">
+						View more <i class="m-icon-swapright m-icon-white"></i>
+			</a>
+		</div>
+	</div>
+  <!-- /ko -->
 </div>
+<!-- END DASHBOARD STATS -->
 
 
+<div class="clearfix">
+</div>
 <div class="row">
-    <div class="col-lg-6">
+	<div class="col-md-8 col-sm-8">
+		<!-- BEGIN PORTLET-->
+		<div class="portlet light ">
+			<div class="portlet-title">
+				<div class="caption">
+					<i class="icon-bar-chart font-green-sharp hide"></i>
+					<span class="caption-subject font-green-sharp bold uppercase">Program Semasa</span>
+					<span class="caption-helper">..</span>
+				</div>
 
-        <h3>Program Semasa</h3>
+			</div>
+			<div class="portlet-body">
+
         <table class="table table-striped" data-bind="filter : {path:'tbody>tr'}, searchPaging :{ query: query,  entity : 'Permohonan', list:permohonanLulusList}">
             <thead>
                 <tr>
                     <th>#</th>
-                    <th>No</th>
-                    <th>Tarikh</th>
-                    <th>Tarikh Tama</th>
+                    <th>Nama Program</th>
+                    <th>Mula</th>
+                    <th>Tamat</th>
                     <th>Papar Responden</th>
                 </tr>
             </thead>
@@ -21,15 +60,12 @@
                 <tr data-bind="">
 
                     <td data-bind="text:$index() + 1"></td>
-                    <td>
-                        <a data-bind="attr : {href:'#permohonan-penyelaras-kemaskini' + '/' + Id, title:'PermohonanNo' }">
-                          <span data-bind="text:PermohonanNo"></span>
-                        </a>
-                    </td>
+                    <td data-bind="text:PermohonanNo"></td>
                     <td data-bind="date:TarikhMula"></td>
                     <td data-bind="date:TarikhTamat"></td>
                     <td>
                         <a data-bind="attr : {href:'#permohonan-dan-senarai-responden' + '/' + Id, title:'Papar Responden' }">
+													<i class="fa fa-users"></i>
                                                         <span data-bind="text:'Senarai Responden'"></span>
                         </a>
                     </td>
@@ -39,30 +75,12 @@
             </tbody>
         </table>
 
-    </div>
-    <div class="col-lg-6">
-        <h3>
-            Senarai paparan
-        </h3>
-        <ul id="entity-view-list" data-bind="foreach :views" class="metro-tile">
-
-            <li data-bind="attr : {'class':TileColour}">
-                <a data-bind="attr:{href : '#' + Route(), 'title' : Note}">
-                    <div class="pull-left">
-                        <img data-bind="attr:{src: '/sph/image/store/' + IconStoreId() }" alt="Icon" />
-                    </div>
-                    <div>
-                        <span class="count-message" data-bind="text:CountMessage"></span>
-                    </div>
-
-                    <div>
-                        <h5 data-bind="text: Name"></h5>
-                        <span data-bind="visible: !Note()">..</span>
-                        <p data-bind="text: Note">..</p>
-                    </div>
-                </a>
-            </li>
-
-        </ul>
-    </div>
+			</div>
+		</div>
+		<!-- END PORTLET-->
+	</div>
+	<div class="col-md-6 col-sm-6">
+		<!-- BEGIN PORTLET-->
+		<!-- END PORTLET-->
+	</div>
 </div>

@@ -10,10 +10,9 @@
                 <tr>
                     <th>Nama</th>
                     <th>MyKad</th>
-                    <th>TarikhDaftar</th>
-                    <th>IsResponden</th>
-                    <th>Is Penyelaras</th>
-                    <th>Is Urusetia</th>
+                    <th>Responden</th>
+                    <th>Penyelaras</th>
+                    <th>Urusetia</th>
                 </tr>
             </thead>
             <tbody data-bind="foreach :list">
@@ -25,10 +24,9 @@
                         </a>
                     </td>
                     <td data-bind="text:MyKad"></td>
-                    <td data-bind="date:{ value:TarikhDaftar, format:&#39;D/M/YYYY HH:mm&#39;}"></td>
-                    <td data-bind="text:IsResponden ? &#39;Ya&#39; : &#39;Tidak&#39;"></td>
+                    <td data-bind="html:IsResponden ? &#39;&lt;i class=\&#39;fa fa-check\&#39;&gt;&lt;/i&gt;&#39; :&#39;&#39;"></td>
                     <td data-bind="html:IsPenyelaras ? &#39;&lt;i class=\&#39;fa fa-check\&#39;&gt;&lt;/i&gt;&#39; :&#39;&#39;"></td>
-                    <td data-bind="text:IsUrusetia"></td>
+                    <td data-bind="html:IsUrusetia  ? &#39;&lt;i class=\&#39;fa fa-check\&#39;&gt;&lt;/i&gt;&#39; :&#39;&#39;"></td>
 
 
                 </tr>

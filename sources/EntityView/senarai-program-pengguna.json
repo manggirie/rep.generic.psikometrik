@@ -14,14 +14,14 @@
           "$values": []
         },
         "Path": "NamaProgram",
-        "Header": "NamaProgram",
+        "Header": "Program",
         "Sort": "",
         "IsLinkColumn": false,
         "FormRoute": null,
         "IconCssClass": "",
         "IconStoreId": "",
         "Format": "text:{0}",
-        "RouteValueField": "",
+        "RouteValueField": "Id",
         "WebId": "542f43fb-513a-4747-a33d-7fdbe1d98231"
       },
       {
@@ -30,16 +30,16 @@
           "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.Sph.Domain.ConditionalFormatting, domain.sph]], domain.sph",
           "$values": []
         },
-        "Path": "TarikhDaftar",
-        "Header": "TarikhDaftar",
+        "Path": "NamaPengguna",
+        "Header": "Nama",
         "Sort": "",
         "IsLinkColumn": false,
         "FormRoute": null,
         "IconCssClass": "",
         "IconStoreId": "",
-        "Format": "date:{0}",
-        "RouteValueField": "",
-        "WebId": "d7becb5f-8ca8-475a-a8de-a5137d094aa4"
+        "Format": "text:{0}",
+        "RouteValueField": "Id",
+        "WebId": "ad768ca2-5598-4d29-aafa-203ec612c23a"
       },
       {
         "$type": "Bespoke.Sph.Domain.ViewColumn, domain.sph",
@@ -47,16 +47,16 @@
           "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.Sph.Domain.ConditionalFormatting, domain.sph]], domain.sph",
           "$values": []
         },
-        "Path": "NamaResponden",
-        "Header": "NamaResponden",
+        "Path": "TarikhDaftar",
+        "Header": "Tarikh Daftar",
         "Sort": "",
         "IsLinkColumn": false,
         "FormRoute": null,
         "IconCssClass": "",
         "IconStoreId": "",
-        "Format": "text:{0}",
-        "RouteValueField": "",
-        "WebId": "ad768ca2-5598-4d29-aafa-203ec612c23a"
+        "Format": "date:{0}",
+        "RouteValueField": "Id",
+        "WebId": "d7becb5f-8ca8-475a-a8de-a5137d094aa4"
       },
       {
         "$type": "Bespoke.Sph.Domain.ViewColumn, domain.sph",
@@ -72,7 +72,7 @@
         "IconCssClass": "",
         "IconStoreId": "",
         "Format": "text:{0}",
-        "RouteValueField": "",
+        "RouteValueField": "Id",
         "WebId": "72b3bfc1-17b4-4604-a0b6-7d55cbe5701b"
       }
     ]
@@ -109,10 +109,12 @@
   "CountMessage": null,
   "Entity": "PendaftaranProgram",
   "Partial": "partial/senarai_program_pengguna",
+  "Template": "View without chart",
+  "DisplayOnDashboard": false,
   "CreatedBy": "admin",
   "Id": "senarai-program-pengguna",
   "CreatedDate": "2015-05-25T10:32:23.276216+08:00",
-  "ChangedBy": "admin2",
-  "ChangedDate": "2015-06-25T11:16:08.1024187+08:00",
+  "ChangedBy": "admin",
+  "ChangedDate": "2015-07-12T06:26:54.8898966+08:00",
   "WebId": "af211f03-4077-4e34-8114-a6624e4d6b62"
 }

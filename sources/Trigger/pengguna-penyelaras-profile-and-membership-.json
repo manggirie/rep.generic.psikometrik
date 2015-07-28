@@ -25,6 +25,52 @@
         },
         "Operator": "Eq",
         "WebId": "562a5b1f-839d-4761-eeb6-2a0b67102084"
+      },
+      {
+        "$type": "Bespoke.Sph.Domain.Rule, domain.sph",
+        "Left": {
+          "$type": "Bespoke.Sph.Domain.DocumentField, domain.sph",
+          "XPath": "",
+          "NamespacePrefix": "",
+          "TypeName": "",
+          "Path": "IsResponden",
+          "Name": "IsResponden",
+          "Note": "",
+          "WebId": "ef1b11e5-9c41-4c66-b971-3bf678932c66"
+        },
+        "Right": {
+          "$type": "Bespoke.Sph.Domain.ConstantField, domain.sph",
+          "TypeName": "System.Boolean, mscorlib",
+          "Value": false,
+          "Name": "false",
+          "Note": "",
+          "WebId": "9f96ae09-fab2-4434-e921-2710dabdbfed"
+        },
+        "Operator": "Eq",
+        "WebId": "f0bad26b-adf5-4da4-ec58-05fc7a9e658e"
+      },
+      {
+        "$type": "Bespoke.Sph.Domain.Rule, domain.sph",
+        "Left": {
+          "$type": "Bespoke.Sph.Domain.DocumentField, domain.sph",
+          "XPath": "",
+          "NamespacePrefix": "",
+          "TypeName": "",
+          "Path": "IsUrusetia",
+          "Name": "IsUrusetia",
+          "Note": "",
+          "WebId": "6c8c3863-3e5f-47ba-a76d-142cece04393"
+        },
+        "Right": {
+          "$type": "Bespoke.Sph.Domain.ConstantField, domain.sph",
+          "TypeName": "System.Boolean, mscorlib",
+          "Value": false,
+          "Name": "false",
+          "Note": "",
+          "WebId": "3a6b7ce5-09ff-46ae-ded8-9ca2b13322a8"
+        },
+        "Operator": "Eq",
+        "WebId": "accc90c1-99a5-445c-fca5-eeb403f1bbfa"
       }
     ]
   },
@@ -54,13 +100,11 @@
             }
           ]
         },
-        "UseAsync": true,
         "Title": "Creates membership for new Penyelaras",
         "IsActive": true,
         "TriggerId": "",
         "Note": "",
         "CustomActionId": 0,
-        "UseCode": false,
         "WebId": "393956d1-8847-4097-98cf-2bbdf028e3c2"
       }
     ]
@@ -88,6 +132,6 @@
   "Id": "pengguna-penyelaras-profile-and-membership-",
   "CreatedDate": "2015-06-16T08:04:09.5366008+08:00",
   "ChangedBy": "admin",
-  "ChangedDate": "2015-07-02T13:35:24.0873284+08:00",
+  "ChangedDate": "2015-07-13T14:35:23.3257656+08:00",
   "WebId": "ae419759-6ae0-4c6e-ea9c-c7de9fd59a95"
 }

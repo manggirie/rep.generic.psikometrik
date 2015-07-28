@@ -187,12 +187,13 @@
   "IsPublished": true,
   "IsShowOnNavigationBar": true,
   "TreatDataAsSource": true,
+  "DashboardTemplate": "Dashboard Standard",
   "StoreInDatabase": null,
   "StoreInElasticsearch": null,
   "CreatedBy": "admin",
   "Id": "skorhlp",
   "CreatedDate": "2015-07-08T10:02:32.6648516+08:00",
   "ChangedBy": "admin",
-  "ChangedDate": "2015-07-08T10:36:40.4429911+08:00",
+  "ChangedDate": "2015-07-12T08:41:58.0000305+08:00",
   "WebId": "35791a4e-5c92-473a-b5a4-cbfde0e6adb3"
 }

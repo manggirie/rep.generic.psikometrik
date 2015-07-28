@@ -1,0 +1,177 @@
+{
+  "$type": "Bespoke.Sph.Domain.EntityView, domain.sph",
+  "FilterCollection": {
+    "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.Sph.Domain.Filter, domain.sph]], domain.sph",
+    "$values": [
+      {
+        "$type": "Bespoke.Sph.Domain.Filter, domain.sph",
+        "Term": "Status",
+        "Operator": "Eq",
+        "Field": {
+          "$type": "Bespoke.Sph.Domain.ConstantField, domain.sph",
+          "TypeName": "System.String, mscorlib",
+          "Value": "Belum Ambil",
+          "Name": "Belum Ambil",
+          "Note": "",
+          "WebId": "98a04083-7026-432f-b132-1f496bfcf270"
+        },
+        "WebId": "a648a805-e565-4a10-f642-0cf8f9ac2498"
+      },
+      {
+        "$type": "Bespoke.Sph.Domain.Filter, domain.sph",
+        "Term": "NamaProgram",
+        "Operator": "Eq",
+        "Field": {
+          "$type": "Bespoke.Sph.Domain.JavascriptExpressionField, domain.sph",
+          "Expression": "program",
+          "Name": "program",
+          "Note": "",
+          "WebId": "a1c5e374-15a4-4e37-ebbd-5c97df8ba191"
+        },
+        "WebId": "39292b0f-7ebb-490f-9f1c-22cd27a0b349"
+      }
+    ]
+  },
+  "ViewColumnCollection": {
+    "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.Sph.Domain.ViewColumn, domain.sph]], domain.sph",
+    "$values": [
+      {
+        "$type": "Bespoke.Sph.Domain.ViewColumn, domain.sph",
+        "ConditionalFormattingCollection": {
+          "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.Sph.Domain.ConditionalFormatting, domain.sph]], domain.sph",
+          "$values": []
+        },
+        "Path": "NamaPengguna",
+        "Header": "Nama Pengguna",
+        "Sort": "",
+        "IsLinkColumn": false,
+        "FormRoute": null,
+        "IconCssClass": "",
+        "IconStoreId": "",
+        "Format": "text:{0}",
+        "RouteValueField": "",
+        "WebId": "97970628-675c-4e1f-b900-8459f32fc5ca"
+      },
+      {
+        "$type": "Bespoke.Sph.Domain.ViewColumn, domain.sph",
+        "ConditionalFormattingCollection": {
+          "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.Sph.Domain.ConditionalFormatting, domain.sph]], domain.sph",
+          "$values": []
+        },
+        "Path": "MyKad",
+        "Header": "My Kad",
+        "Sort": "",
+        "IsLinkColumn": false,
+        "FormRoute": null,
+        "IconCssClass": "",
+        "IconStoreId": "",
+        "Format": "text:{0}",
+        "RouteValueField": "",
+        "WebId": "ae9cc5bd-5aaa-451b-d5ca-7fc8c6779d5c"
+      },
+      {
+        "$type": "Bespoke.Sph.Domain.ViewColumn, domain.sph",
+        "ConditionalFormattingCollection": {
+          "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.Sph.Domain.ConditionalFormatting, domain.sph]], domain.sph",
+          "$values": []
+        },
+        "Path": "NamaUjian",
+        "Header": "Nama Ujian",
+        "Sort": "",
+        "IsLinkColumn": false,
+        "FormRoute": null,
+        "IconCssClass": "",
+        "IconStoreId": "",
+        "Format": "text:{0}",
+        "RouteValueField": "",
+        "WebId": "6f03039d-181d-4cbb-9430-adfe76accce0"
+      },
+      {
+        "$type": "Bespoke.Sph.Domain.ViewColumn, domain.sph",
+        "ConditionalFormattingCollection": {
+          "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.Sph.Domain.ConditionalFormatting, domain.sph]], domain.sph",
+          "$values": []
+        },
+        "Path": "NamaProgram",
+        "Header": "Nama Program",
+        "Sort": "",
+        "IsLinkColumn": false,
+        "FormRoute": null,
+        "IconCssClass": "",
+        "IconStoreId": "",
+        "Format": "text:{0}",
+        "RouteValueField": "",
+        "WebId": "535b01a0-4d9e-4a27-a49a-18e81e99a159"
+      },
+      {
+        "$type": "Bespoke.Sph.Domain.ViewColumn, domain.sph",
+        "ConditionalFormattingCollection": {
+          "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.Sph.Domain.ConditionalFormatting, domain.sph]], domain.sph",
+          "$values": []
+        },
+        "Path": "''",
+        "Header": "Email",
+        "Sort": "",
+        "IsLinkColumn": true,
+        "FormRoute": "sesiujian-details",
+        "IconCssClass": "fa fa-envelope-o",
+        "IconStoreId": "",
+        "Format": "text:{0}",
+        "RouteValueField": "Id",
+        "WebId": "6181c065-7615-4f0e-e30a-bb72d462d41f"
+      }
+    ]
+  },
+  "SortCollection": {
+    "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.Sph.Domain.Sort, domain.sph]], domain.sph",
+    "$values": [
+      {
+        "$type": "Bespoke.Sph.Domain.Sort, domain.sph",
+        "Path": "TarikhUjian",
+        "Direction": "Desc",
+        "WebId": "171037d7-d6e3-449f-f1d1-a805248b1b89"
+      }
+    ]
+  },
+  "ConditionalFormattingCollection": {
+    "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.Sph.Domain.ConditionalFormatting, domain.sph]], domain.sph",
+    "$values": []
+  },
+  "Performer": {
+    "$type": "Bespoke.Sph.Domain.Performer, domain.sph",
+    "UserProperty": "Roles",
+    "Value": "JanaLaporan",
+    "IsPublic": false,
+    "WebId": null
+  },
+  "RouteParameterCollection": {
+    "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.Sph.Domain.RouteParameter, domain.sph]], domain.sph",
+    "$values": [
+      {
+        "$type": "Bespoke.Sph.Domain.RouteParameter, domain.sph",
+        "Name": "program",
+        "Type": "string",
+        "WebId": "330e536f-01d8-46a9-8d4b-0bc1ed017bab"
+      }
+    ]
+  },
+  "IconClass": "",
+  "IconStoreId": "sph-img-list",
+  "EntityDefinitionId": "sesiujian",
+  "Name": "Sesi Ujian Belum Ambil",
+  "Route": "sesi-ujian-jabatan-program",
+  "Note": "Belum Jawab Untuk Penyelaras",
+  "Query": "",
+  "IsPublished": true,
+  "Visibilty": "",
+  "TileColour": "bgreen",
+  "CountMessage": "",
+  "Entity": "",
+  "Partial": "partial/sesi-ujian-jabatan-program",
+  "CreatedBy": "admin",
+  "Id": "sesiujian-ses-ujian-jabatan-program",
+  "CreatedDate": "2015-07-09T13:27:25.9079649+08:00",
+  "ChangedBy": "admin",
+  "ChangedDate": "2015-07-11T08:37:04.2327262+08:00",
+  "WebId": "2af01962-ff9f-440f-d516-d578ff3ef69c"
+}

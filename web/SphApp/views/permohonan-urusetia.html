@@ -43,22 +43,20 @@
         <span class="col-md-8" data-bind="text: NamaKementerian"></span>
     </div>
 
-
-    <div class="form-group" data-bind="visible:true">
-        <label data-i18n="Tarikh Mula" for="3594b3d5-f33e-4549-fb7a-a5397a30e63c" class="col-md-4">Tarikh Mula</label>
+    <div class="form-group" data-bind="visible : true">
+        <label data-i18n="Tarikh Mula" for="e5298065-e635-4970-8feb-5ea7dfb04856" class="col-md-4">Tarikh Mula</label>
         <div class="col-md-8">
             <input class=" form-control "
-                   data-bind="kendoDateTime: TarikhMula, enable :true" id="3594b3d5-f33e-4549-fb7a-a5397a30e63c" type="text"
+                   data-bind="kendoDate: TarikhMula, enable :true" id="e5298065-e635-4970-8feb-5ea7dfb04856" type="text"
                    name="TarikhMula" />
         </div>
     </div>
 
-
-    <div class="form-group" data-bind="visible:true">
-        <label data-i18n="Tarikh Tamat" for="19496c3c-933c-4bd8-b5df-a5e2e61f0431" class="col-md-4">Tarikh Tamat</label>
+    <div class="form-group" data-bind="visible : true">
+        <label data-i18n="Tarikh Tamat" for="24650a50-4571-4728-85e6-8c7d9844de23" class="col-md-4">Tarikh Tamat</label>
         <div class="col-md-8">
             <input class=" form-control "
-                   data-bind="kendoDateTime: TarikhTamat, enable :true" id="19496c3c-933c-4bd8-b5df-a5e2e61f0431" type="text"
+                   data-bind="kendoDate: TarikhTamat, enable :true" id="24650a50-4571-4728-85e6-8c7d9844de23" type="text"
                    name="TarikhTamat" />
         </div>
     </div>
@@ -248,17 +246,14 @@
         <label data-i18n="Tahun" for="22ba3055-42ad-4361-af1d-119b53fd4a51" class="col-md-4">Tahun</label>
         <div class="col-md-8">
             <select  data-bind="value: TahunProgram, enable :true" id="22ba3055-42ad-4361-af1d-119b53fd4a51" name="TahunProgram" class=" input-large form-control">
-                    <option value="2016" data-i18n="2016">2016</option>
                     <option value="2015" data-i18n="2015">2015</option>
+                    <option value="2016" data-i18n="2016">2016</option>
             </select>
         </div>
     </div>
 </form>
     </div>
     <div class="col-sm-4">
-            <h3 data-i18n="Audit Trail">Audit Trail</h3>
-        <!--ko compose: {model:'viewmodels/_audittrail.list', activationData:{id:$root.entity().Id(), entity : 'Permohonan'}} -->
-        <!--/ko-->
-
+        
     </div>
 </div>

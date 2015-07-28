@@ -2,7 +2,7 @@
     define([objectbuilders.datacontext, objectbuilders.logger, objectbuilders.router,
         objectbuilders.system, objectbuilders.validation, objectbuilders.eximp,
         objectbuilders.dialog, objectbuilders.watcher, objectbuilders.config,
-        objectbuilders.app ,'partial/permohonan-penyelaras'],
+        objectbuilders.app ,'partial/permohonan-penyelaras-kemaskini'],
         function (context, logger, router, system, validation, eximp, dialog, watcher,config,app
             ,partial) {
 
@@ -33,7 +33,7 @@
                         form(f);
                         watching(w);
                         i18n = n[0];
-                            
+
                             if(typeof partial.activate === "function"){
                                 var pt = partial.activate(entity());
                                 if(typeof pt.done === "function"){
@@ -42,8 +42,8 @@
                                     tcs.resolve(true);
                                 }
                             }
-                            
-                        
+
+
                     });
 
                     return tcs.promise();
@@ -63,12 +63,12 @@
                                  entity().Id(result.id);
                                  errors.removeAll();
 
-                                  
+
                                     app.showMessage("Permohonan sudah berjaya dihantar", "JPA Sistem Ujian e-Psikometrik", ["OK"])
 	                                    .done(function () {
                                             window.location='#penyelaras-home'
 	                                    });
-                                 
+
                              } else {
                                  errors.removeAll();
                                  _(result.rules).each(function(v){
@@ -93,7 +93,7 @@
                                  entity().Id(result.id);
                                  errors.removeAll();
 
-                                 
+
                              } else {
                                  errors.removeAll();
                                  _(result.rules).each(function(v){
@@ -108,12 +108,12 @@
                     validation.init($('#permohonan-penyelaras-kemaskini-form'), form());
 
 
-                        
+
                     if(typeof partial.attached === "function"){
                         partial.attached(view);
                     }
 
-                    
+
 
                 },
                 compositionComplete = function() {
@@ -133,7 +133,7 @@
 
                     var data = ko.mapping.toJSON(entity);
 
-                        
+
 
                     return context.post(data, "/Permohonan/Save")
                         .then(function(result) {
@@ -141,7 +141,7 @@
                             app.showMessage("Your Permohonan has been successfully saved", "JPA Sistem Ujian e-Psikometrik", ["ok"]);
 
                         });
-                    
+
 
                 },
                 remove = function() {
@@ -162,9 +162,9 @@
                 };
 
             var vm = {
-                            
+
                             partial : partial,
-                            
+
                                     activate: activate,
                 config: config,
                 attached: attached,
@@ -178,9 +178,9 @@
 
 
                 toolbar : {
-                                                                                                        
+
                     saveCommand : save,
-                    
+
                     commands : ko.observableArray([])
                 }
             };

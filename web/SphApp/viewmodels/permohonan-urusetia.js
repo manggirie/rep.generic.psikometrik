@@ -55,7 +55,7 @@
                                  errors.removeAll();
 
                                   
-                                    app.showMessage("Permohonan sudah berjaya dihantar", "JPA Sistem Ujian e-Psikometrik", ["OK"])
+                                    app.showMessage("Permohonan Berjaya Dihantar", "JPA Sistem Ujian e-Psikometrik", ["OK"])
 	                                    .done(function () {
                                             window.location='#penyelaras-home'
 	                                    });
@@ -87,7 +87,7 @@
                                   
                                     app.showMessage("Permohonan program sudah dikemaskini", "JPA Sistem Ujian e-Psikometrik", ["OK"])
 	                                    .done(function () {
-                                            
+                                            window.location='#permohonan-baru-urusetia'
 	                                    });
                                  
                              } else {
@@ -128,7 +128,7 @@
                     return context.post(data, "/Permohonan/Save")
                         .then(function(result) {
                             entity().Id(result.id);
-                            app.showMessage("Your Permohonan has been successfully saved", "JPA Sistem Ujian e-Psikometrik", ["ok"]);
+                            app.showMessage("Your Permohonan has been successfully saved", "JPA Sistem Ujian e-Psikometrik", ["OK"]);
 
                         });
                     
@@ -165,33 +165,7 @@
 
 
                 toolbar : {
-                        emailCommand : {
-                        entity : "Permohonan",
-                        id :id
-                    },
-                                            printCommand :{
-                        entity : 'Permohonan',
-                        id : id
-                    },
-                                    removeCommand :remove,
-                    canExecuteRemoveCommand : ko.computed(function(){
-                        return entity().Id();
-                    }),
-                                            
-                    watchCommand: function() {
-                        return watcher.watch("Permohonan", entity().Id())
-                            .done(function(){
-                                watching(true);
-                            });
-                    },
-                    unwatchCommand: function() {
-                        return watcher.unwatch("Permohonan", entity().Id())
-                            .done(function(){
-                                watching(false);
-                            });
-                    },
-                    watching: watching,
-                                            
+                                                                                                        
                     saveCommand : urusetiaProcessPermohonanDariPenyelaras,
                     
                     commands : ko.observableArray([])

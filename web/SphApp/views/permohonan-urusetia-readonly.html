@@ -1,0 +1,108 @@
+
+
+<h1 data-i18n="Permohonan oleh Urusetia">Permohonan oleh Urusetia</h1>
+<div id="error-list" class="row" data-bind="visible:errors().length">
+    <!-- ko foreach : errors -->
+    <div class="col-sm-8 col-sm-offset-2 alert alert-dismissable alert-danger">
+        <button type="button" class="close" data-dismiss="alert" aria-hidden="true">&times;</button>
+        <i class="fa fa-exclamation"></i>
+        <span data-bind="text:Message"></span>
+
+    </div>
+    <div class="col-sm-2"></div>
+    <!-- /ko-->
+</div>
+<div class="row">
+    <div class="col-sm-8">
+        
+<form class="form-horizontal" data-bind="with : entity" id="permohonan-urusetia-readonly-form">
+    <div class="form-group" data-bind="visible:true">
+        <label class="col-md-4">Jenis Permohonan</label>
+        <span class="col-md-8" data-bind="text: JenisPermohonan"></span>
+    </div>
+    <div class="form-group" data-bind="visible:true">
+        <label class="col-md-4">Penyelaras</label>
+        <span class="col-md-8" data-bind="text: Penyelaras"></span>
+    </div>
+    <div class="form-group" data-bind="visible:true">
+        <label class="col-md-4">Nama Jabatan</label>
+        <span class="col-md-8" data-bind="text: NamaJabatan"></span>
+    </div>
+    <div class="form-group" data-bind="visible:true">
+        <label class="col-md-4">Nama Kementerian</label>
+        <span class="col-md-8" data-bind="text: NamaKementerian"></span>
+    </div>
+<div class="form-group" data-bind="visible:true">
+    <label class="col-md-4">Tarikh Mula</label>
+    <span class="col-md-8" data-bind="date: TarikhMula"></span>
+</div><div class="form-group" data-bind="visible:true">
+    <label class="col-md-4">Tarikh Tamat</label>
+    <span class="col-md-8" data-bind="date: TarikhTamat"></span>
+</div><h2 data-i18n="Modul Ujian" data-bind="visible:true">Modul Ujian</h2>
+
+<div class="form-group" data-bind="visible:true">
+    <label class="col-md-4">Indeks Personaliti (IP)</label>
+    <span class="col-md-8" data-bind="visible: isIP">
+        <i class="fa fa-check"></i>
+    </span>
+</div><div class="form-group" data-bind="visible:true">
+    <label class="col-md-4">Indeks Bimbingan Kerjaya (IBK)</label>
+    <span class="col-md-8" data-bind="visible: isIBK">
+        <i class="fa fa-check"></i>
+    </span>
+</div><div class="form-group" data-bind="visible:true">
+    <label class="col-md-4">Indeks Perwatakan Unggul (IPU)</label>
+    <span class="col-md-8" data-bind="visible: isIPU">
+        <i class="fa fa-check"></i>
+    </span>
+</div><div class="form-group" data-bind="visible:true">
+    <label class="col-md-4">Inventori Stres Organisasi (ISO)</label>
+    <span class="col-md-8" data-bind="visible: isISO">
+        <i class="fa fa-check"></i>
+    </span>
+</div><div class="form-group" data-bind="visible:true">
+    <label class="col-md-4">Ujian Khas Hadiah Latihan Persekutuan (UKHLP)</label>
+    <span class="col-md-8" data-bind="visible: isUKHLP">
+        <i class="fa fa-check"></i>
+    </span>
+</div><div class="form-group" data-bind="visible:true">
+    <label class="col-md-4">Ujian Khas Biasiswa Persekutuan (UKBP)</label>
+    <span class="col-md-8" data-bind="visible: isUKBP">
+        <i class="fa fa-check"></i>
+    </span>
+</div><div class="form-group" data-bind="visible:true">
+    <label class="col-md-4">Profil Personaliti &amp; Kerjaya Pegawai (PPKP)</label>
+    <span class="col-md-8" data-bind="visible: isPPKP">
+        <i class="fa fa-check"></i>
+    </span>
+</div>    <div class="form-group" data-bind="visible:true">
+        <label class="col-md-4">Bil Responden</label>
+        <span class="col-md-8" data-bind="text: BilRespondan"></span>
+    </div>
+    <div class="form-group" data-bind="visible:true">
+        <label class="col-md-4">Tujuan Program</label>
+        <span class="col-md-8" data-bind="text: TujuanProgram"></span>
+    </div>
+<div class="form-group" data-bind="visible:true">
+    <label class="col-md-4">Status Permohonan</label>
+    <span class="col-md-8" data-bind="text: StatusPermohonan"></span>
+</div><div class="form-group" data-bind="visible:true">
+    <label class="col-md-4">Nama Program</label>
+    <span class="col-md-8" data-bind="text: NamaProgram"></span>
+</div>    <div class="form-group" data-bind="visible:true">
+        <label class="col-md-4">Bilangan</label>
+        <span class="col-md-8" data-bind="text: BilProgram"></span>
+    </div>
+    <div class="form-group" data-bind="visible:true">
+        <label class="col-md-4">Siri</label>
+        <span class="col-md-8" data-bind="text: SiriProgram"></span>
+    </div>
+<div class="form-group" data-bind="visible:true">
+    <label class="col-md-4">Tahun</label>
+    <span class="col-md-8" data-bind="text: TahunProgram"></span>
+</div></form>
+    </div>
+    <div class="col-sm-4">
+        
+    </div>
+</div>

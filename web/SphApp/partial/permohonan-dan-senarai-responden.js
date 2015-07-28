@@ -1,4 +1,4 @@
-define(["services/datacontext", objectbuilders.app], function(context, app){
+define(["services/datacontext", objectbuilders.app, objectbuilders.config], function(context, app, config){
     var permohonan = ko.observable(),
         senaraiPendaftaran = ko.observableArray(),
         activate = function(entity){
@@ -29,6 +29,7 @@ define(["services/datacontext", objectbuilders.app], function(context, app){
             var tcs = new $.Deferred();
             require(['viewmodels/tambah-responden-dialog' , 'durandal/app'], function (dialog, app2) {
                 dialog.maxCount ( permohonan().BilRespondan() - senaraiPendaftaran().length);
+                dialog.senaraiPendaftaran(senaraiPendaftaran());
                 app2.showDialog(dialog)
                     .done(function (result) {
                         if (result === "OK") {
@@ -71,7 +72,7 @@ define(["services/datacontext", objectbuilders.app], function(context, app){
                     };
                    return context.post(JSON.stringify(message), "/email-template/send");
                 }).then(function(){
-                    app.showMessage("Emel peringatan sudah dihantar kepada " + to, "title", ["OK"]);
+                    app.showMessage("Emel peringatan sudah dihantar kepada " + to, config.applicationFullName, ["OK"]);
                 });
 
             };

@@ -1,6 +1,6 @@
 
 
-<h1 data-i18n="EditPengguna">EditPengguna</h1>
+<h1 data-i18n="Kemaskini Pengguna">Kemaskini Pengguna</h1>
 <div id="error-list" class="row" data-bind="visible:errors().length">
     <!-- ko foreach : errors -->
     <div class="col-sm-8 col-sm-offset-2 alert alert-dismissable alert-danger">
@@ -16,6 +16,8 @@
     <div class="col-sm-8">
         
 <form class="form-horizontal" data-bind="with : entity" id="pengguna-details-form">
+<h2 data-i18n="Malumat Peribadi" data-bind="visible:true">Malumat Peribadi</h2>
+
 
 
 
@@ -147,53 +149,26 @@
         <label data-i18n="Negeri" for="ff82c167-32a3-4cc4-a477-5e34b6086fba" class="col-md-4">Negeri</label>
         <div class="col-md-8">
             <select  data-bind="value: Alamat().Negeri, enable :true" id="ff82c167-32a3-4cc4-a477-5e34b6086fba" name="Alamat.Negeri" class=" input-large form-control">
-                    <option value="perak" data-i18n="PERAK">PERAK</option>
-                    <option value="selangor" data-i18n="SELANGOR">SELANGOR</option>
+                    <option value="Johor" data-i18n="Johor">Johor</option>
+                    <option value="Kedah" data-i18n="Kedah">Kedah</option>
+                    <option value="Kelantan" data-i18n="Kelantan">Kelantan</option>
+                    <option value="Melaka" data-i18n="Melaka">Melaka</option>
+                    <option value="Negeri Sembilan" data-i18n="Negeri Sembilan">Negeri Sembilan</option>
+                    <option value="Pahang" data-i18n="Pahang">Pahang</option>
+                    <option value="Perak" data-i18n="Perak">Perak</option>
+                    <option value="Perlis" data-i18n="Perlis">Perlis</option>
+                    <option value="Pulau Pinang" data-i18n="Pulau Pinang">Pulau Pinang</option>
+                    <option value="Sabah" data-i18n="Sabah">Sabah</option>
+                    <option value="Sarawak" data-i18n="Sarawak">Sarawak</option>
+                    <option value="Selangor" data-i18n="Selangor">Selangor</option>
+                    <option value="Terengganu" data-i18n="Terengganu">Terengganu</option>
+                    <option value="W.P. Kuala Lumpur" data-i18n="W.P. Kuala Lumpur">W.P. Kuala Lumpur</option>
+                    <option value="W.P. Labuan" data-i18n="W.P. Labuan">W.P. Labuan</option>
                     <option value="W.P Putrajaya" data-i18n="W.P Putrajaya">W.P Putrajaya</option>
             </select>
         </div>
     </div>
-
-    <div class="form-group" data-bind="visible:true">
-        <div class="col-md-offset-4 col-md-8">
-            <div class="checkbox">
-                <label class="checkbox">
-                    <input data-bind="checked : IsPenyelaras, enable :true" id="IsPenyelaras" type="checkbox"
-                           name="IsPenyelaras"/>
-                    <span data-i18n="Is Penyelaras">Is Penyelaras</span>
-                    
-                </label>
-            </div>
-        </div>
-    </div>
-
-
-    <div class="form-group" data-bind="visible:true">
-        <div class="col-md-offset-4 col-md-8">
-            <div class="checkbox">
-                <label class="checkbox">
-                    <input data-bind="checked : IsResponden, enable :true" id="IsResponden" type="checkbox"
-                           name="IsResponden"/>
-                    <span data-i18n="Is Responden">Is Responden</span>
-                    
-                </label>
-            </div>
-        </div>
-    </div>
-
-
-    <div class="form-group" data-bind="visible:true">
-        <div class="col-md-offset-4 col-md-8">
-            <div class="checkbox">
-                <label class="checkbox">
-                    <input data-bind="checked : IsUrusetia, enable :true" id="IsUrusetia" type="checkbox"
-                           name="IsUrusetia"/>
-                    <span data-i18n="Is Urusetia">Is Urusetia</span>
-                    
-                </label>
-            </div>
-        </div>
-    </div>
+<h2 data-i18n="Maklumat Perkhidmatan" data-bind="visible:true">Maklumat Perkhidmatan</h2>
 
 
 
@@ -264,6 +239,8 @@
             </select>
         </div>
     </div>
+<h2 data-i18n="Maklumat Perhubungan" data-bind="visible:true">Maklumat Perhubungan</h2>
+
 
 
 

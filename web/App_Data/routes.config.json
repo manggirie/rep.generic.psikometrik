@@ -82,5 +82,19 @@
     "showWhenLoggedIn": false,
     "isAdminPage": false,
     "startPageRoute": null
+  },
+  {
+    "role": "JanaLaporan",
+    "groupName": null,
+    "route": "urusetia-dashboard",
+    "moduleId": "viewmodels/urusetia-dashboard",
+    "title": "Dashboard Urusetia",
+    "nav": true,
+    "icon": "fa fa-wheelchair",
+    "caption": "Dashboard urusetia",
+    "settings": null,
+    "showWhenLoggedIn": false,
+    "isAdminPage": false,
+    "startPageRoute": null
   }
 ]

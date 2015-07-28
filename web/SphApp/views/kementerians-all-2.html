@@ -8,23 +8,15 @@
         <table class="table table-striped" data-bind="filter : {path:'tbody>tr'}, searchPaging :{ query: query, map : map, entity : 'Kementerian', list:list}">
             <thead>
                 <tr>
-                    <th>ID</th>
-                    <th>No Kementerian </th>
                     <th>Nama Kementerian</th>
                     <th>Kumpulan Agensi</th>
                     <th>Negeri</th>
+                    <th>Jabatan</th>
                 </tr>
             </thead>
             <tbody data-bind="foreach :list">
                 <tr data-bind="">
 
-                    <td data-bind="text:Id"></td>
-                    <td>
-                        <a data-bind="attr : {href:'#senarai-jabatan-mengikut-kementerian' + '/' + Id, title:'No Kementerian ' }">
-                            <i class="fa fa-plus-square-o"></i>
-                                                        <span data-bind="text:KementerianNo"></span>
-                        </a>
-                    </td>
                     <td>
                         <a data-bind="attr : {href:'#kementerian-details' + '/' + Id, title:'Nama Kementerian' }">
                             <i class="fa fa-folder"></i>
@@ -33,6 +25,12 @@
                     </td>
                     <td data-bind="text:KumpulanAgensi"></td>
                     <td data-bind="text:Negeri"></td>
+                    <td>
+                        <a data-bind="attr : {href:'#senarai-jabatan-mengikut-kementerian' + '/' + encodeURIComponent(NamaKementerian), title:'Jabatan' }">
+                            <i class="fa fa-plus-square-o"></i>
+                                                        <span data-bind="text:&#39;Senarai Jabatan&#39;"></span>
+                        </a>
+                    </td>
 
 
                 </tr>

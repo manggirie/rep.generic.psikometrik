@@ -84,9 +84,9 @@
           "WebId": "d2be30a8-2bc8-4123-b335-34878d4636e4"
         },
         {
-          "$type": "Bespoke.Sph.Domain.DateTimePicker, domain.sph",
+          "$type": "Bespoke.Sph.Domain.DatePicker, domain.sph",
           "IsPathIsRequired": true,
-          "TypeName": "DateTimePicker",
+          "TypeName": "DatePicker",
           "FieldValidation": {
             "$type": "Bespoke.Sph.Domain.FieldValidation, domain.sph",
             "IsRequired": false,
@@ -107,9 +107,9 @@
           "Size": null,
           "CssClass": null,
           "Visible": "true",
-          "Enable": "StatusPermohonan() === 'BARU'",
+          "Enable": "true",
           "ElementId": "tarikhMulaPicker",
-          "HelpText": "Tarikh mula untuk duduki sesi ujian",
+          "HelpText": null,
           "UseDisplayTemplate": false,
           "ToolboxIconClass": null,
           "IsUniqueName": false,
@@ -121,12 +121,12 @@
           "InputColMd": null,
           "InputColSm": null,
           "InputColXs": null,
-          "WebId": "6cff930b-3312-4d22-d30d-10bf02570432"
+          "WebId": "644b38ae-8031-4ac1-dbce-34b076a067a8"
         },
         {
-          "$type": "Bespoke.Sph.Domain.DateTimePicker, domain.sph",
+          "$type": "Bespoke.Sph.Domain.DatePicker, domain.sph",
           "IsPathIsRequired": true,
-          "TypeName": "DateTimePicker",
+          "TypeName": "DatePicker",
           "FieldValidation": {
             "$type": "Bespoke.Sph.Domain.FieldValidation, domain.sph",
             "IsRequired": false,
@@ -147,9 +147,9 @@
           "Size": null,
           "CssClass": null,
           "Visible": "true",
-          "Enable": "StatusPermohonan() === 'BARU'",
+          "Enable": "true",
           "ElementId": "tarikhTamatPicker",
-          "HelpText": "Tarikh akhir untuk duduki sesi ujian",
+          "HelpText": null,
           "UseDisplayTemplate": false,
           "ToolboxIconClass": null,
           "IsUniqueName": false,
@@ -161,7 +161,7 @@
           "InputColMd": null,
           "InputColSm": null,
           "InputColXs": null,
-          "WebId": "ba668fe0-5b26-4b73-a226-c3381f302e69"
+          "WebId": "8090d3e1-0c2e-40f4-ad08-71691aea8e36"
         },
         {
           "$type": "Bespoke.Sph.Domain.SectionFormElement, domain.sph",
@@ -671,11 +671,11 @@
   "Entity": "permohonan",
   "Partial": "partial/permohonan-penyelaras-kemaskini",
   "Caption": "Permohonan Program oleh Penyelaras",
-  "Layout": null,
+  "Layout": "",
   "CreatedBy": "admin",
   "Id": "permohonan-penyelaras-kemaskini",
   "CreatedDate": "2015-06-05T10:45:40.0425071+08:00",
   "ChangedBy": "admin",
-  "ChangedDate": "2015-07-08T06:23:41.2188163+08:00",
+  "ChangedDate": "2015-07-24T10:06:44.6229787+08:00",
   "WebId": "d56af63c-c52e-401b-83b5-bfecea2c53d1"
 }

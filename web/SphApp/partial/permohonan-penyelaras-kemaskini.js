@@ -6,8 +6,8 @@ define([objectbuilders.config], function(config){
 
             },
             attached  = function(view){
-                var tarikhMulaPicker = $("#tarikhMulaPicker").data("kendoDateTimePicker"),
-                    tarikhTamatPicker = $("#tarikhTamatPicker").data("kendoDateTimePicker");
+                var tarikhMulaPicker = $(view).find("#tarikhMulaPicker").data("kendoDateTimePicker"),
+                    tarikhTamatPicker = $(view).find("#tarikhTamatPicker").data("kendoDateTimePicker");
                 tarikhMulaPicker.min(new Date());
                 tarikhTamatPicker.min(new Date());
 

@@ -1,95 +1,100 @@
 @model web.sph.App_Code.JpaLoginModel
 @{
     ViewBag.Title = "Log in";
-    Layout = null;
+    Layout = "_Layout.cshtml";
 }
 @using System.Web.Mvc.Html
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="utf-8" />
-    <title>@ViewBag.Title - SPH</title>
-    <link href="~/favicon.ico" rel="shortcut icon" type="image/x-icon" />
-    <meta name="viewport" content="width=device-width" />
-
-    <link href="/css/bootstrap.min.css" rel="stylesheet" />
-    <link href="/css/site.css" rel="stylesheet" />
-    <link href="/content/durandal.css" rel="stylesheet" />
-    <link href="/content/external/font-awesome.min.css" rel="stylesheet" />
-    <link href="/kendo/styles/kendo.common.css" rel="stylesheet" />
-    <link href="/kendo/styles/kendo.metro.css" rel="stylesheet" />
-
-</head>
-<body>
-    <div id="body" class="container">
-
-        <section>
-
-          <form action="/jpa-account/login" method="post">
-
-                <div class="row">
-                    @Html.Partial("_Slider")
-                    <div class="col-lg-4 col-lg-offset-2 login-form">
-                        <div class="logo">
-                            <img src="/Images/sph_32x32.png" alt="logo"/>
-                        </div>
-                        <h2>Login Page</h2>
-                        @if (!@ViewData.ModelState.IsValid)
-                        {
-                            <div class="alert alert-danger">
-                                <a class="close" data-dismiss="alert" href="#">&times;</a>
-                                Incorrect userName or password!
-                            </div>
-
-                        }
-                        <form method="POST" action="" accept-charset="UTF-8">
-                            @Html.TextBoxFor(m => m.UserName, new {placeholder = "UserName", @class = "form-control", required = true, autofocus = "autofocus"})
-                            @Html.ValidationMessageFor(m => m.UserName)
-                            <label class="controls"></label>
-                            @Html.PasswordFor(m => m.Password, new {placeholder = "Password", @class = "form-control", required = true})
-                            @Html.ValidationMessageFor(m => m.Password)
-                            <label class="checkbox">
-                                <input type="checkbox" name="remember" value="1">
-                                Remember me
-                            </label>
-
-                            <input type="hidden" value="" name="ReturnUrl"/>
-                            <button type="submit" name="submit" class="btn btn-default">Login</button>
-                        </form>
-
-                        <div>
-                            <p>
-                                <a href="@Url.Action("ForgotPassword")">Forgot your password</a>
-                            </p>
-                        </div>
-                    </div>
-
-                </div>
 
 
-                @Html.Partial("_Footer")
+	<!-- BEGIN LOGIN FORM -->
+	<form class="login-form" action="/jpa-account/login" method="post">
+		<h3 class="form-title">Log masuk ke akaun anda</h3>
+		<div class="alert alert-danger display-hide">
+			<button class="close" data-close="alert"></button>
+			<span>
+			Masukan mykad dan kata laluan anda. </span>
+		</div>
+		<div class="form-group">
+			<!--ie8, ie9 does not support html5 placeholder, so we just show field title for that-->
+			<label class="control-label visible-ie8 visible-ie9">Nama pengguna</label>
+			<div class="input-icon">
+				<i class="fa fa-user"></i>
+				<input class="form-control placeholder-no-fix" type="text" autocomplete="off" placeholder="Nama pengguna" name="UserName" id="UserName"/>
+			</div>
+		</div>
+		<div class="form-group">
+			<label class="control-label visible-ie8 visible-ie9">Kata Laluan</label>
+			<div class="input-icon">
+				<i class="fa fa-lock"></i>
+				<input class="form-control placeholder-no-fix" type="password" autocomplete="off" placeholder="Kata laluan" name="Password" id="Password"/>
+			</div>
+		</div>
+		<div class="form-actions">
+			<label class="checkbox">
+			<input type="checkbox" name="RememberMe" value="1"/> Ingat saya </label>
 
-            </form>
-        </section>
-    </div>
+
+      <input type="hidden" value="" name="ReturnUrl" value="@Request.RawUrl"/>
+      @if (!@ViewData.ModelState.IsValid)
+      {
+          <div class="alert alert-danger">
+              <a class="close" data-dismiss="alert" href="#">&times;</a>
+              Nama pengguna atau kata laluan anda salah!
+          </div>
+
+      }
+			<button type="submit" class="btn blue pull-right">
+			Login <i class="m-icon-swapright m-icon-white"></i>
+			</button>
+		</div>
+	  <div class="forget-password">
+			<h4>Terlupa kata laluan ?</h4>
+			<p>
+				Sila klik di  <a href="javascript:;" id="forget-password">
+				sini </a> untuk menetapkan semula kata laluan anda.
+			</p>
+		</div>
+	</form>
+	<!-- END LOGIN FORM -->
+	<!-- BEGIN FORGOT PASSWORD FORM -->
+	<form class="forget-form" action="index.html" method="post">
+		<h3>Lupa kata laluan ?</h3>
+		<p>
+			 Masukan email anda untuk reset kata laluan.
+		</p>
+		<div class="form-group">
+			<div class="input-icon">
+				<i class="fa fa-envelope"></i>
+				<input class="form-control placeholder-no-fix" type="text" autocomplete="off" placeholder="Emel" name="email"/>
+			</div>
+		</div>
+		<div class="form-actions">
+			<button type="button" id="back-btn" class="btn">
+			<i class="m-icon-swapleft"></i> Back </button>
+			<button type="submit" class="btn blue pull-right">
+			Submit <i class="m-icon-swapright m-icon-white"></i>
+			</button>
+		</div>
+	</form>
+	<!-- END FORGOT PASSWORD FORM -->
 
 
-    <script src="~/Scripts/__vendor.min.js"></script>
-    <script type="text/javascript">
-        $(function () {
-            $('.carousel').carousel({
-                interval: 2000
-            });
-            var retUrl = getParameterByName("ReturnUrl") + window.location.hash;
-            $('input[name=ReturnUrl]').val(retUrl);
+  @section scripts
+  {
+    <script>
+    jQuery(document).ready(function() {
 
-            function getParameterByName(name) {
-                name = name.replace(/[\[]/, "\\\[").replace(/[\]]/, "\\\]");
-                var regex = new RegExp("[\\?&]" + name + "=([^&#]*)"),
-                    results = regex.exec(location.search);
-                return results == null ? "" : decodeURIComponent(results[1].replace(/\+/g, " "));
-            }
-        });
+
+        var retUrl = getParameterByName("ReturnUrl") + window.location.hash;
+        $('input[name=ReturnUrl]').val(retUrl);
+
+        function getParameterByName(name) {
+            name = name.replace(/[\[]/, "\\\[").replace(/[\]]/, "\\\]");
+            var regex = new RegExp("[\\?&]" + name + "=([^&#]*)"),
+                results = regex.exec(location.search);
+            return results == null ? "" : decodeURIComponent(results[1].replace(/\+/g, " "));
+        }
+
+    });
     </script>
-</body>
-</html>
+  }

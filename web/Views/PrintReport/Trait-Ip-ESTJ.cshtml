@@ -1,47 +1,318 @@
 @model web.sph.App_Code.IpTraitViewModel
 @{
-	Layout = "_trait.layout.cshtml";
+  Layout = null;
+}
+<!DOCTYPE html >
+<html lang="en">
+<head>
+<meta http-equiv="X-UA-Compatible" content="IE=Edge" />
+<meta charset="utf-8" />
+</head>
+
+<body style="margin: 0;">
+
+<div id="jpedal" style="overflow: hidden; position:relative; width: 909px; height: 1286px;">
+
+<!-- Begin shared CSS values -->
+<style type="text/css" >
+.t {
+	position: absolute;
+	-webkit-transform-origin: top left;
+	-moz-transform-origin: top left;
+	-o-transform-origin: top left;
+	-ms-transform-origin: top left;
+	-webkit-transform: scale(0.25);
+	-moz-transform: scale(0.25);
+	-o-transform: scale(0.25);
+	-ms-transform: scale(0.25);
+	z-index: 2;
+	position:absolute;
+	white-space:nowrap;
+	overflow:visible;
+}
+</style>
+<!-- End shared CSS values -->
+
+<!-- Begin shared JS -->
+<script type="text/javascript">
+
+// Ensure that we're not replacing any onload events
+function addLoadEvent(func) {
+	var oldonload = window.onload;
+	if (typeof window.onload != 'function') {
+		window.onload = func;
+	} else {
+		window.onload = function() {
+			if (oldonload) {
+				oldonload();
+			}
+			func();
+		}
+	}
+}
+addLoadEvent(function(){load1();});
+
+function adjustWordSpacing(widths) {
+    var i, allLinesDone = false;
+    var isDone = [];
+    var currentSpacing = [];
+    var elements = [];
+
+    // Initialise arrays
+    for (i = 0; i < widths.length; i++) {
+        elements[i] = document.getElementById(widths[i][0]);
+        elements[i].style.wordSpacing = '0px';//Required if rerunning
+    }
+    for (i = 0; i < widths.length; i++) {
+        if (isIE) widths[i][1] = widths[i][1] * 4;
+        currentSpacing[i] = Math.floor((widths[i][1] - elements[i].offsetWidth) / elements[i].innerHTML.match(/\s.|&nbsp;./g).length);//min
+        if (isIE) currentSpacing[i] = Math.floor(currentSpacing[i] / 4);
+        isDone[i] = false;
+    }
+
+    while (!allLinesDone) {
+        // Add each adjustment to the render queue without forcing a render
+        for (i = 0; i < widths.length; i++) {
+            if (!isDone[i]) {
+                elements[i].style.wordSpacing = currentSpacing[i] + 'px';
+            }
+        }
+
+        allLinesDone = true;
+        // If elements still need to be wider, add 1 to the word spacing
+        for (i = 0; i < widths.length; i++) {
+            if (!isDone[i] && currentSpacing[i] < 160) {
+                if (elements[i].offsetWidth >= widths[i][1]) {
+                    isDone[i] = true;
+                } else {
+                    currentSpacing[i]++;
+                    allLinesDone = false;
+                }
+            }
+        }
+    }
+
+    for (i = 0; i < widths.length; i++) {
+        elements[i].style.wordSpacing = (currentSpacing[i] - 1) + 'px';
+    }
 }
 
+</script>
+<!-- End shared JS -->
 
 
-<pre>
-Berdasarkan kepada analisis ujian, secara umumnya dari aspek:
+<!-- Begin inline CSS -->
+<style type="text/css" >
 
-Hubungan Interpersonal	:	Aktif Sosial
-Memperoleh Maklumat		:	Fakta
-Membuat Keputusan		:	Rasional
-Cara Gaya Kehidupan		:	Sistematik
+#t1_1{left:110px;top:109px;}
+#t2_1{left:165px;top:148px;}
+#t3_1{left:440px;top:148px;}
+#t4_1{left:495px;top:148px;}
+#t5_1{left:165px;top:167px;}
+#t6_1{left:440px;top:167px;}
+#t7_1{left:495px;top:167px;}
+#t8_1{left:165px;top:187px;}
+#t9_1{left:440px;top:187px;}
+#ta_1{left:495px;top:187px;}
+#tb_1{left:165px;top:207px;}
+#tc_1{left:440px;top:207px;}
+#td_1{left:495px;top:207px;}
+#te_1{left:110px;top:246px;}
+#tf_1{left:110px;top:265px;}
+#tg_1{left:110px;top:285px;}
+#th_1{left:110px;top:324px;letter-spacing:1px;}
+#ti_1{left:110px;top:343px;}
+#tj_1{left:604px;top:343px;}
+#tk_1{left:110px;top:363px;letter-spacing:1px;}
+#tl_1{left:110px;top:383px;}
+#tm_1{left:110px;top:422px;}
+#tn_1{left:110px;top:441px;letter-spacing:1px;}
+#to_1{left:110px;top:461px;letter-spacing:1px;}
+#tp_1{left:110px;top:480px;letter-spacing:1px;}
+#tq_1{left:110px;top:500px;}
+#tr_1{left:110px;top:539px;letter-spacing:3px;}
+#ts_1{left:110px;top:559px;}
+#tt_1{left:615px;top:559px;}
+#tu_1{left:110px;top:578px;letter-spacing:2px;}
+#tv_1{left:254px;top:578px;letter-spacing:5px;}
+#tw_1{left:323px;top:578px;letter-spacing:4px;}
+#tx_1{left:403px;top:578px;letter-spacing:6px;}
+#ty_1{left:467px;top:578px;letter-spacing:2px;}
+#tz_1{left:579px;top:578px;letter-spacing:5px;}
+#t10_1{left:644px;top:578px;letter-spacing:2px;}
+#t11_1{left:767px;top:578px;}
+#t12_1{left:110px;top:598px;}
+#t13_1{left:640px;top:598px;}
+#t14_1{left:110px;top:617px;letter-spacing:1px;}
+#t15_1{left:110px;top:637px;}
+#t16_1{left:110px;top:676px;}
+#t17_1{left:110px;top:695px;letter-spacing:1px;}
+#t18_1{left:237px;top:695px;}
+#t19_1{left:110px;top:715px;}
+#t1a_1{left:623px;top:715px;}
+#t1b_1{left:110px;top:735px;letter-spacing:1px;}
+#t1c_1{left:110px;top:754px;letter-spacing:1px;}
+#t1d_1{left:110px;top:774px;}
+#t1e_1{left:110px;top:813px;letter-spacing:2px;}
+#t1f_1{left:110px;top:832px;letter-spacing:3px;}
+#t1g_1{left:110px;top:852px;letter-spacing:1px;}
+#t1h_1{left:562px;top:852px;}
+#t1i_1{left:110px;top:871px;}
+#t1j_1{left:110px;top:891px;}
+#t1k_1{left:110px;top:930px;}
+#t1l_1{left:110px;top:950px;}
+#t1m_1{left:110px;top:969px;letter-spacing:2px;}
+#t1n_1{left:612px;top:969px;letter-spacing:2px;}
+#t1o_1{left:110px;top:989px;}
+#t1p_1{left:110px;top:1008px;}
+#t1q_1{left:110px;top:1047px;}
+#t1r_1{left:110px;top:1067px;}
+#t1s_1{left:110px;top:1087px;}
+#t1t_1{left:329px;top:1087px;}
+#t1u_1{left:110px;top:1106px;}
+#t1v_1{left:796px;top:92px;}
 
-Perwatakan
-Anda mempamerkan diri sebagai seorang yang praktikal, realistik, tabah hati dan menggunakan fakta sebenar untuk menyelesaikan masalah.
+.s1_1{
+	FONT-SIZE: 67px;
+	FONT-FAMILY: BAAAAA-DejaVuSans-Bold1;
+	color: rgb(0,0,0);
+}
 
-Dari aspek hubungan interpersonal, anda memberi fokus kepada apa yang sebenarnya sedang berlaku dan perkara berkaitan fakta.  Anda boleh menjangka masalah yang berlaku dan mengambil tindakan bagi membetulkan situasi berkenaan mengikut apa yang dirancang.
+.s3_1{
+	FONT-SIZE: 73px;
+	FONT-FAMILY: DAAAAA-LiberationSerif1;
+	color: rgb(0,0,0);
+}
 
-Pekerjaan
-Secara umumnya, anda suka berinteraksi secara sosial dan bekerja dengan orang lain, boleh memberi kritikan apabila diperlukan serta mahukan konsep hormat-menghormati dan keadilan sesama rakan sekerja diamalkan dalam organisasi.
+.s2_1{
+	FONT-SIZE: 67px;
+	FONT-FAMILY: CAAAAA-DejaVuSans1;
+	color: rgb(0,0,0);
+}
 
-Dari aspek pekerjaan, anda berpegang kepada prinsip, suka kepada kepelbagaian dan tugas yang berstruktur atau berjadual.  Anda merancang dan melaksanakan tugas seperti yang ditetapkan serta menghargai dan mempamerkan kecekapan serta keefisienan dalam tugas.  Anda mempelajari tugas baru melalui perbualan, perlakuan dan berminat bagaimana orang lain melakukan tugas mereka.
+</style>
+<!-- End inline CSS -->
 
-Anda merupakan pengurus yang cemerlang kerana memahami sistem, prosedur dan logistik.  Anda suka kepada aspek pengurusan kerana boleh mengawasi semua perkara dan melaksanakan tugas pada masanya.  Anda membina idea melalui perbincangan dan memberikan prestasi terbaik apabila mengetahui masalah yang dikemukakan serta menggunakan teknik yang efektif untuk menyelesaikannya.
+<!-- Begin embedded font definitions -->
+<style id="fonts1" type="text/css" >
 
-Dari aspek membuat keputusan, anda menganalisis secara logik untuk memahami dan mengambil tindakan melalui pengumpulan data serta mengambil kira pengalaman diri dan orang lain.  Anda suka pekerjaan yang keputusannya boleh diperoleh dengan segera tetapi mempunyai kesabaran yang rendah terhadap kekeliruan, ketidakefisienan atau tugas separuh siap.
+@@font-face {
+	font-family: CAAAAA-DejaVuSans1;
+	src :url("1/fonts/CAAAAA-DejaVuSans.woff") format("woff");
+}
 
-Pengurusan Perubahan
-Apabila sesuatu perubahan dicadangkan, anda menggunakan penilaian diri yang logik dan mengemukakannya melalui pertanyaan.  Jika persoalan yang dikemukakan boleh dijawab, anda menyegerakan aktiviti merancang, menganjur dan melaksanakan perubahan tersebut.
+@@font-face {
+	font-family: DAAAAA-LiberationSerif1;
+	src :url("1/fonts/DAAAAA-LiberationSerif.woff") format("woff");
+}
 
-Kepimpinan
-Dari aspek kepimpinan, anda seorang ketua yang tegas dalam melaksanakan keputusan yang dibuat.  Anda mempunyai pemikiran dan pendirian yang tetap serta membuat keputusan yang rasional berdasarkan prinsip dan nilai sedia ada.
+@@font-face {
+	font-family: BAAAAA-DejaVuSans-Bold1;
+	src :url("1/fonts/BAAAAA-DejaVuSans-Bold.woff") format("woff");
+}
 
-Sebagai pengikut, anda sedia melaksanakan polisi yang efektif jika anda menghormati ketua dalam organisasi.
+</style>
+<!-- End embedded font definitions -->
 
-Persepsi Orang Lain
-Dari aspek hubungan interpersonal, anda seorang yang ceria dan suka berinteraksi dengan orang lain terutama yang berkaitan dengan tugas, permainan dan aktiviti keluarga.  Anda mengambil serius tentang peranan, hubungan dan bertanggungjawab memenuhi tugasan tersebut.  Anda boleh berkomunikasi dengan baik dan suka berterus terang tentang pendirian diri.
+<!-- Begin text definitions (Positioned/styled in CSS) -->
+<div id="t1_1" class="t s1_1">Berdasarkan kepada analisis ujian, secara umumnya dari aspek:</div>
+<div id="t2_1" class="t s1_1">Hubungan Interpersonal</div>
+<div id="t3_1" class="t s1_1">:</div>
+<div id="t4_1" class="t s1_1">Aktif Sosial</div>
+<div id="t5_1" class="t s1_1">Memperoleh Maklumat</div>
+<div id="t6_1" class="t s1_1">:</div>
+<div id="t7_1" class="t s1_1">Fakta</div>
+<div id="t8_1" class="t s1_1">Membuat Keputusan</div>
+<div id="t9_1" class="t s1_1">:</div>
+<div id="ta_1" class="t s1_1">Rasional</div>
+<div id="tb_1" class="t s1_1">Cara Gaya Kehidupan</div>
+<div id="tc_1" class="t s1_1">:</div>
+<div id="td_1" class="t s1_1">Sistematik</div>
+<div id="te_1" class="t s1_1">Perwatakan</div>
+<div id="tf_1" class="t s2_1">Anda mempamerkan diri sebagai seorang yang praktikal, realistik, tabah hati dan</div>
+<div id="tg_1" class="t s2_1">menggunakan fakta sebenar untuk menyelesaikan masalah. </div>
+<div id="th_1" class="t s2_1">Dari aspek hubungan interpersonal, anda memberi fokus kepada apa yang</div>
+<div id="ti_1" class="t s2_1">sebenarnya sedang berlaku dan perkara berkaitan fakta. </div>
+<div id="tj_1" class="t s2_1">Anda boleh menjangka</div>
+<div id="tk_1" class="t s2_1">masalah yang berlaku dan mengambil tindakan bagi membetulkan situasi</div>
+<div id="tl_1" class="t s2_1">berkenaan mengikut apa yang dirancang. </div>
+<div id="tm_1" class="t s1_1">Pekerjaan</div>
+<div id="tn_1" class="t s2_1">Secara umumnya, anda suka berinteraksi secara sosial dan bekerja dengan</div>
+<div id="to_1" class="t s2_1">orang lain, boleh memberi kritikan apabila diperlukan serta mahukan konsep</div>
+<div id="tp_1" class="t s2_1">hormat-menghormati dan keadilan sesama rakan sekerja diamalkan dalam</div>
+<div id="tq_1" class="t s2_1">organisasi. </div>
+<div id="tr_1" class="t s2_1">Dari aspek pekerjaan, anda berpegang kepada prinsip, suka kepada</div>
+<div id="ts_1" class="t s2_1">kepelbagaian dan tugas yang berstruktur atau berjadual. </div>
+<div id="tt_1" class="t s2_1">Anda merancang dan</div>
+<div id="tu_1" class="t s2_1">melaksanakan </div>
+<div id="tv_1" class="t s2_1">tugas </div>
+<div id="tw_1" class="t s2_1">seperti </div>
+<div id="tx_1" class="t s2_1">yang </div>
+<div id="ty_1" class="t s2_1">ditetapkan </div>
+<div id="tz_1" class="t s2_1">serta </div>
+<div id="t10_1" class="t s2_1">menghargai </div>
+<div id="t11_1" class="t s2_1">dan</div>
+<div id="t12_1" class="t s2_1">mempamerkan kecekapan serta keefisienan dalam tugas. </div>
+<div id="t13_1" class="t s2_1">Anda mempelajari</div>
+<div id="t14_1" class="t s2_1">tugas baru melalui perbualan, perlakuan dan berminat bagaimana orang lain</div>
+<div id="t15_1" class="t s2_1">melakukan tugas mereka. </div>
+<div id="t16_1" class="t s2_1">Anda merupakan pengurus yang cemerlang kerana memahami sistem, prosedur</div>
+<div id="t17_1" class="t s2_1">dan logistik. </div>
+<div id="t18_1" class="t s2_1">Anda suka kepada aspek pengurusan kerana boleh mengawasi</div>
+<div id="t19_1" class="t s2_1">semua perkara dan melaksanakan tugas pada masanya. </div>
+<div id="t1a_1" class="t s2_1">Anda membina idea</div>
+<div id="t1b_1" class="t s2_1">melalui perbincangan dan memberikan prestasi terbaik apabila mengetahui</div>
+<div id="t1c_1" class="t s2_1">masalah yang dikemukakan serta menggunakan teknik yang efektif untuk</div>
+<div id="t1d_1" class="t s2_1">menyelesaikannya. </div>
+<div id="t1e_1" class="t s2_1">Dari aspek membuat keputusan, anda menganalisis secara logik untuk</div>
+<div id="t1f_1" class="t s2_1">memahami dan mengambil tindakan melalui pengumpulan data serta</div>
+<div id="t1g_1" class="t s2_1">mengambil kira pengalaman diri dan orang lain. </div>
+<div id="t1h_1" class="t s2_1">Anda suka pekerjaan yang</div>
+<div id="t1i_1" class="t s2_1">keputusannya boleh diperoleh dengan segera tetapi mempunyai kesabaran yang</div>
+<div id="t1j_1" class="t s2_1">rendah terhadap kekeliruan, ketidakefisienan atau tugas separuh siap.</div>
+<div id="t1k_1" class="t s1_1">Pengurusan Perubahan</div>
+<div id="t1l_1" class="t s2_1">Apabila sesuatu perubahan dicadangkan, anda menggunakan penilaian diri yang</div>
+<div id="t1m_1" class="t s2_1">logik dan mengemukakannya melalui pertanyaan. </div>
+<div id="t1n_1" class="t s2_1">Jika persoalan yang</div>
+<div id="t1o_1" class="t s2_1">dikemukakan boleh dijawab, anda menyegerakan aktiviti merancang, menganjur</div>
+<div id="t1p_1" class="t s2_1">dan melaksanakan perubahan tersebut.</div>
+<div id="t1q_1" class="t s1_1">Kepimpinan</div>
+<div id="t1r_1" class="t s2_1">Dari aspek kepimpinan, anda seorang ketua yang tegas dalam melaksanakan</div>
+<div id="t1s_1" class="t s2_1">keputusan yang dibuat. </div>
+<div id="t1t_1" class="t s2_1">Anda mempunyai pemikiran dan pendirian yang tetap</div>
+<div id="t1u_1" class="t s2_1">serta membuat keputusan yang rasional berdasarkan prinsip dan nilai sedia ada.</div>
+<div id="t1v_1" class="t s3_1">ESTJ</div>
 
-Dari aspek perwatakan, anda seorang yang setia, lantang bersuara, berkeyakinan dan boleh membuat sistem, prosedur serta jadual.  Namun, sikap anda yang sangat yakin tentang bagaimana sesuatu perkara itu seharusnya dilakukan, membuatkan orang lain berasa anda menguasai mereka.
+<!-- End text definitions -->
 
-Reaksi Terhadap Stres
-Apabila mengalami stres yang tinggi, anda mungkin berasa terasing, tidak dihargai dan sukar berkomunikasi secara jelas tentang perasaan, stres atau kekecewaan yang dialami.
+<!-- Begin page background -->
+<div id="pg1Overlay" style="width:100%; height:100%; position:absolute; z-index:1; background-color:rgba(0,0,0,0); -webkit-user-select: none;"></div>
+<div id="pg1"><object width="909" height="1286" data="1/1.svg" type="image/svg+xml" id="pdf1" style="width:909px; height:1286px; background-color:white; -moz-transform:scale(1); z-index: 0;"></object></div>
+<!-- End page background -->
 
+<!-- Begin page loading JS -->
+<script id="ld1" type="text/javascript">
 
-</pre>
+var isIE = false;
+var f1 = [['t1_1',2440],['t2_1',925],['t4_1',430],['t5_1',870],['t8_1',784],['tb_1',811],['tf_1',2754],['tg_1',2037],['th_1',2753],['ti_1',1928],['tj_1',777],['tk_1',2754],['tl_1',1406],['tn_1',2753],['to_1',2754],['tp_1',2755],['tr_1',2752],['ts_1',1965],['tt_1',734],['t12_1',2050],['t13_1',633],['t14_1',2753],['t15_1',872],['t16_1',2753],['t17_1',435],['t18_1',2247],['t19_1',1989],['t1a_1',700],['t1b_1',2753],['t1c_1',2753],['t1e_1',2753],['t1f_1',2753],['t1g_1',1738],['t1h_1',944],['t1i_1',2752],['t1j_1',2376],['t1k_1',886],['t1l_1',2752],['t1m_1',1895],['t1n_1',747],['t1o_1',2752],['t1p_1',1345],['t1r_1',2752],['t1s_1',817],['t1t_1',1880],['t1u_1',2730]];
+function load1(){
+	var timeout = 100;
+	if (navigator.userAgent.match(/iPhone|iPad|iPod|Android/i)) timeout = 500;
+	setTimeout(function() {adjustWordSpacing(f1);},timeout);
+}
+</script>
+<!--[if lt IE 9]><script type="text/javascript">
+isIE = true;
+
+var divCount = 68;
+for (var i = 1; i < divCount; i++) {
+	var div = document.getElementById("t" + i.toString(36) + "_1");
+	div.style.top = (div.offsetTop * 4) + "px";
+	div.style.left = (div.offsetLeft * 4) + "px";
+	div.style.zoom = "25%";}
+</script><![endif]-->
+<!-- End page loading JS -->
+
+</div>
+</body>
+</html>

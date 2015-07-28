@@ -11,27 +11,23 @@
                     <th>Nama</th>
                     <th>My Kad</th>
                     <th>Gred</th>
-                    <th>Pekerjaan</th>
                     <th>Emel</th>
                     <th>Nama Jabatan</th>
-                    <th>Nama Kementerian</th>
                 </tr>
             </thead>
             <tbody data-bind="foreach :list">
                 <tr data-bind="">
 
                     <td>
-                        <a data-bind="attr : {href:'#tambah-pengguna' + '/' + Id, title:'Nama' }">
+                        <a data-bind="attr : {href:'#kemaskini-pengguna-oleh-penyelaras' + '/' + Id, title:'Nama' }">
                             <i class="fa fa-edit"></i>
                                                         <span data-bind="text:Nama"></span>
                         </a>
                     </td>
                     <td data-bind="text:MyKad"></td>
                     <td data-bind="text:Gred"></td>
-                    <td data-bind="text:Pekerjaan"></td>
                     <td data-bind="text:Emel"></td>
                     <td data-bind="text:NamaJabatan"></td>
-                    <td data-bind="text:NamaKementerian"></td>
 
 
                 </tr>

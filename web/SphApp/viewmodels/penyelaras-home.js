@@ -20,6 +20,7 @@ define(['services/datacontext', 'services/logger', 'plugins/router', "services/c
       charts = ko.observableArray([]),
       views = ko.observableArray([]),
       entity = ko.observable(new bespoke.sph.domain.EntityDefinition()),
+      today = moment().format("YYYY-MM-DDTHH:mm:ss.SSS"),
       query = {
               "query": {
                 "filtered": {
@@ -35,6 +36,20 @@ define(['services/datacontext', 'services/logger', 'plugins/router', "services/c
                           "term": {
                             "Penyelaras": config.userName
                           }
+                        },
+                        {
+                            "range": {
+                                "TarikhTamat": {
+                                   "from": today
+                                }
+                             }
+                        },
+                        {
+                             "range": {
+                                "TarikhMula": {
+                                   "to": today
+                                }
+                             }
                         }
                       ],
                       "must_not": []
@@ -120,10 +135,22 @@ define(['services/datacontext', 'services/logger', 'plugins/router', "services/c
             "order": "desc"
           }
         }]
+      },
+
+      getTileClass = function(color){
+        switch (ko.unwrap(color)) {
+          case "bred": return "red-intense";
+          case "bgreen": return "green-haze";
+          case "bviolet": return "purple-plum";
+          case "borange": return "yellow-gold";
+          default:return "blue-madison";
+
+        }
       };
 
     var vm = {
       query: query,
+      getTileClass : getTileClass,
       permohonanLulusList: permohonanLulusList,
       isBusy: isBusy,
       views: views,

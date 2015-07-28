@@ -708,6 +708,161 @@
         "Boost": 0,
         "DefaultValue": null,
         "WebId": "219318ee-9a84-4654-fe95-9cea4304f074"
+      },
+      {
+        "$type": "Bespoke.Sph.Domain.Member, domain.sph",
+        "FullName": null,
+        "MemberCollection": {
+          "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.Sph.Domain.Member, domain.sph]], domain.sph",
+          "$values": [
+            {
+              "$type": "Bespoke.Sph.Domain.Member, domain.sph",
+              "FullName": null,
+              "MemberCollection": {
+                "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.Sph.Domain.Member, domain.sph]], domain.sph",
+                "$values": []
+              },
+              "FieldPermissionCollection": {
+                "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.Sph.Domain.FieldPermission, domain.sph]], domain.sph",
+                "$values": []
+              },
+              "Name": "Minat",
+              "TypeName": "System.String, mscorlib",
+              "IsNullable": true,
+              "IsNotIndexed": false,
+              "IsAnalyzed": false,
+              "IsFilterable": false,
+              "IsExcludeInAll": false,
+              "Boost": 2,
+              "DefaultValue": null,
+              "WebId": "27a62f67-d6c7-445a-851c-f5184cb82e72"
+            },
+            {
+              "$type": "Bespoke.Sph.Domain.Member, domain.sph",
+              "FullName": null,
+              "MemberCollection": {
+                "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.Sph.Domain.Member, domain.sph]], domain.sph",
+                "$values": []
+              },
+              "FieldPermissionCollection": {
+                "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.Sph.Domain.FieldPermission, domain.sph]], domain.sph",
+                "$values": []
+              },
+              "Name": "BidangPengajian",
+              "TypeName": "System.String, mscorlib",
+              "IsNullable": true,
+              "IsNotIndexed": false,
+              "IsAnalyzed": false,
+              "IsFilterable": false,
+              "IsExcludeInAll": false,
+              "Boost": 2,
+              "DefaultValue": null,
+              "WebId": "acdca8c4-c405-4fde-b31d-cb92d03d0119"
+            },
+            {
+              "$type": "Bespoke.Sph.Domain.Member, domain.sph",
+              "FullName": null,
+              "MemberCollection": {
+                "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.Sph.Domain.Member, domain.sph]], domain.sph",
+                "$values": []
+              },
+              "FieldPermissionCollection": {
+                "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.Sph.Domain.FieldPermission, domain.sph]], domain.sph",
+                "$values": []
+              },
+              "Name": "LuarNegara",
+              "TypeName": "System.Boolean, mscorlib",
+              "IsNullable": false,
+              "IsNotIndexed": false,
+              "IsAnalyzed": false,
+              "IsFilterable": false,
+              "IsExcludeInAll": false,
+              "Boost": 9,
+              "DefaultValue": null,
+              "WebId": "c1a342c8-bb6a-484b-a4db-45909942019d"
+            },
+            {
+              "$type": "Bespoke.Sph.Domain.Member, domain.sph",
+              "FullName": null,
+              "MemberCollection": {
+                "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.Sph.Domain.Member, domain.sph]], domain.sph",
+                "$values": []
+              },
+              "FieldPermissionCollection": {
+                "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.Sph.Domain.FieldPermission, domain.sph]], domain.sph",
+                "$values": []
+              },
+              "Name": "TahapPendidikan",
+              "TypeName": "System.String, mscorlib",
+              "IsNullable": false,
+              "IsNotIndexed": false,
+              "IsAnalyzed": false,
+              "IsFilterable": false,
+              "IsExcludeInAll": false,
+              "Boost": 0,
+              "DefaultValue": null,
+              "WebId": "7ebab55d-44e6-48e0-d721-31421ab0413e"
+            }
+          ]
+        },
+        "FieldPermissionCollection": {
+          "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.Sph.Domain.FieldPermission, domain.sph]], domain.sph",
+          "$values": []
+        },
+        "Name": "Pelajar",
+        "TypeName": "System.Object, mscorlib",
+        "IsNullable": false,
+        "IsNotIndexed": false,
+        "IsAnalyzed": false,
+        "IsFilterable": false,
+        "IsExcludeInAll": false,
+        "Boost": 0,
+        "DefaultValue": null,
+        "WebId": "6df61304-5ecf-4518-b788-d2a95fb549f5"
+      },
+      {
+        "$type": "Bespoke.Sph.Domain.Member, domain.sph",
+        "FullName": null,
+        "MemberCollection": {
+          "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.Sph.Domain.Member, domain.sph]], domain.sph",
+          "$values": []
+        },
+        "FieldPermissionCollection": {
+          "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.Sph.Domain.FieldPermission, domain.sph]], domain.sph",
+          "$values": []
+        },
+        "Name": "Emel2",
+        "TypeName": "System.String, mscorlib",
+        "IsNullable": true,
+        "IsNotIndexed": false,
+        "IsAnalyzed": false,
+        "IsFilterable": false,
+        "IsExcludeInAll": false,
+        "Boost": 2,
+        "DefaultValue": null,
+        "WebId": "c80bf2ad-bba3-4a87-92bd-bf39e7fa0a58"
+      },
+      {
+        "$type": "Bespoke.Sph.Domain.Member, domain.sph",
+        "FullName": null,
+        "MemberCollection": {
+          "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.Sph.Domain.Member, domain.sph]], domain.sph",
+          "$values": []
+        },
+        "FieldPermissionCollection": {
+          "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.Sph.Domain.FieldPermission, domain.sph]], domain.sph",
+          "$values": []
+        },
+        "Name": "Bahagian",
+        "TypeName": "System.String, mscorlib",
+        "IsNullable": true,
+        "IsNotIndexed": false,
+        "IsAnalyzed": false,
+        "IsFilterable": false,
+        "IsExcludeInAll": false,
+        "Boost": 2,
+        "DefaultValue": null,
+        "WebId": "7bd8f2d9-9adc-4e26-e423-ade302eaff32"
       }
     ]
   },
@@ -794,11 +949,65 @@
           ]
         },
         "Name": "TarikhKemaskiniNow",
-        "SuccessMessage": "",
-        "ShowSuccessMessage": false,
-        "NavigateSuccessUrl": "",
+        "SuccessMessage": "Rekod berjaya didaftarkan",
+        "ShowSuccessMessage": true,
+        "NavigateSuccessUrl": "#pengguna-all",
         "SuccessCommand": "",
         "WebId": "a97bdf39-8490-4f87-bac8-e6925c7685c6"
+      },
+      {
+        "$type": "Bespoke.Sph.Domain.EntityOperation, domain.sph",
+        "EntityPermissionCollection": {
+          "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.Sph.Domain.EntityPermission, domain.sph]], domain.sph",
+          "$values": []
+        },
+        "Rules": {
+          "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[System.String, mscorlib]], domain.sph",
+          "$values": []
+        },
+        "Permissions": {
+          "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[System.String, mscorlib]], domain.sph",
+          "$values": [
+            "PengurusanPengguna"
+          ]
+        },
+        "SetterActionChildCollection": {
+          "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.Sph.Domain.SetterActionChild, domain.sph]], domain.sph",
+          "$values": []
+        },
+        "Name": "KemaskiniOlehUrusetia",
+        "SuccessMessage": "Rekod berjaya disimpan",
+        "ShowSuccessMessage": true,
+        "NavigateSuccessUrl": "#responden",
+        "SuccessCommand": "",
+        "WebId": "9b06ef6b-7132-4f8d-a46d-c28c583cdff1"
+      },
+      {
+        "$type": "Bespoke.Sph.Domain.EntityOperation, domain.sph",
+        "EntityPermissionCollection": {
+          "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.Sph.Domain.EntityPermission, domain.sph]], domain.sph",
+          "$values": []
+        },
+        "Rules": {
+          "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[System.String, mscorlib]], domain.sph",
+          "$values": []
+        },
+        "Permissions": {
+          "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[System.String, mscorlib]], domain.sph",
+          "$values": [
+            "PengurusanPenggunaJabatan"
+          ]
+        },
+        "SetterActionChildCollection": {
+          "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.Sph.Domain.SetterActionChild, domain.sph]], domain.sph",
+          "$values": []
+        },
+        "Name": "KemaskiniOlehPenyelaras",
+        "SuccessMessage": "Rekod berjaya disimpan",
+        "ShowSuccessMessage": true,
+        "NavigateSuccessUrl": "#responden-dari-jabatan",
+        "SuccessCommand": "",
+        "WebId": "54284d17-82cd-4881-fde7-d6b979d35c41"
       }
     ]
   },
@@ -820,10 +1029,14 @@
   "RecordName": "MyKad",
   "IsPublished": true,
   "IsShowOnNavigationBar": true,
+  "TreatDataAsSource": false,
+  "DashboardTemplate": "Dashboard Standard",
+  "StoreInDatabase": null,
+  "StoreInElasticsearch": null,
   "CreatedBy": "admin",
   "Id": "pengguna",
   "CreatedDate": "2015-06-16T08:04:09.5200889+08:00",
   "ChangedBy": "admin",
-  "ChangedDate": "2015-06-30T11:57:10.2743433+08:00",
+  "ChangedDate": "2015-07-28T11:11:42.5059771+08:00",
   "WebId": "01c666ac-ab68-4416-9d69-a716a003c902"
 }

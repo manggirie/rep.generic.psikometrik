@@ -1,45 +1,59 @@
 #Things to do
 
-## Responden dan Penyelaras
-* ~~Toolbar buttons turun bawah~~
-* ~~Toolbar button tukar melayu~~
-* ~~Save - simpan~~
-* ~~Delete Hapus~~
-* ~~Email - emel~~
-* ~~Update kemaskini~~
-* `Bila back soalan double` - cannot verify
-* ~~Messagebox - prompt bila save form~~
+## Master page
+* ~~Footer penafian~~
+* ~~Button new form with "Allow new Item" should have more descriptive caption~~
+
 
 ## Sesi ujian
-
-
-
-
+* Kalau hantar fail/offline, save local and then prompt balik next time dia buka dekat Dashboard, untuk hantar
 
 ## Laporan urusetia
-* More lookup
-* ~~View untuk permohonan penyelaras tambah field Tarikh pohon dan sort by TarikhMohon Filter yang BARU~~
+* ~~Search sesi ujian~~
+* ~~Dashboard~~
 
 ## Penyelaras
-* Role / designation untuk penyelaras & responden
-* Mohon permohonan cadangan tarik mestilah in the future
-* ~~Kalau permohonan sudah lulus - penyelaras tak boleh edit, kecuali Bilangan responden~~
-* ~~Bila tambah responden the list should be updated immediately~~
-* ~~Pemilihan responden maksimun berdasarakan Bilangan dalam permohonan, yang mana penyelaras boleh ejas~~
-* ~~penyelaras boleh hantar email reminder kepada responden, melalui button email~~
+* ~~Role / designation untuk penyelaras & responden~~
+* ~~Kalau dia jugak seorang responden, senaraikan ujian yang diperlu ambik~~
 
 
-## urusetia
-* ~~Buang search dekat nav bar~~
-* ~~Setiap trait report , mesti masukan peringatan macam dalam docs/master-report-ibk di page 1, di susuli dengan actual report.~~
+##Profile page
+* ~~Remove language -set the default to EN-US~~
+* ~~Tukar Bahasa Melayu~~
+* ~~Start module - remove for responden and penyelaras~~
+
+## Header
+* ~~Help tukar bahasa Melayu- manual pengguna~~
+* ~~Logout out kepada log keluar~~
+* ~~Profile ke profil~~
 
 
-## responden (fauzi)
-*  ~~responden tidak dapat tengok senarai ujian setelah login walaupun telah ditambah oleh penyelaras~~
-* ~~Back button pressed, jangan kira percubaan sesi~~
-* ~~Arahan, dipaparkan di responden home bila dia nak start sesi ujian~~
+#Pelajar - responden
+* Tambah responden - bila pelajar - hide badan berkanun/kementerian jabatan - hide maklumat pekerjaaa
+* Tambah member untuk pelajar
+  * Minat
+  * Bidang pengajian
+  * Dalam/Luar negara
+
 
 ##Error 070715 (Fauzi)
-1. Bila selesai edit (save) soalan Ujian Khas Hadiah Latihan Persekutuan, bilangan soalan akan berkurangan samada dlm view ataupun dlm db
+1. ~~Bila selesai edit (save) soalan Ujian Khas Hadiah Latihan Persekutuan, bilangan soalan akan berkurangan samada dlm view ataupun dlm db~~
+2. ~~Apabila reponden nak ambil ujian - Tempoh Ujian : undefined jam undefined minit~~
 
-2. Apabila reponden nak ambil ujian - Tempoh Ujian : undefined jam undefined minit
+
+
+## Pengguna
+* Secondary email - all the emails should be sent to both, primary and Secondary email
+* Bahagian - Penyelaras
+* Generated password is too complex, may be 6 chars
+* Untuk pelajar - allow batch data import for bulk upload, guna permohonan-dan-senarai-responden form, untuk Ujian HLP & UKBP sahaja
+
+## Profile page
+* Remove user kalau tersilap MyKad, kena delete dalam Pengguna, UserProfile dan MembershipUser, unutk elak duplicate email address
+
+## Ujian
+* Tarikh terkini - tarikh ujian yg diambil responden, x boleh ambil ujian yang sama dalam 6 bulan. (prompt message kepada penyelaras yang cuba mendaftarkan responden
+* "Responden telah mengambil ujian ?? kurang dari 6 bulan yang lalu".
+
+## Home page-
+* turn it back on- was disabled

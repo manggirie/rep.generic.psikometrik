@@ -1,0 +1,282 @@
+
+
+<h1 data-i18n="Kelulusan Permohonan oleh Urusetia">Kelulusan Permohonan oleh Urusetia</h1>
+<div id="error-list" class="row" data-bind="visible:errors().length">
+    <!-- ko foreach : errors -->
+    <div class="col-sm-8 col-sm-offset-2 alert alert-dismissable alert-danger">
+        <button type="button" class="close" data-dismiss="alert" aria-hidden="true">&times;</button>
+        <i class="fa fa-exclamation"></i>
+        <span data-bind="text:Message"></span>
+
+    </div>
+    <div class="col-sm-2"></div>
+    <!-- /ko-->
+</div>
+<div class="row">
+    <div class="col-sm-8">
+        
+<form class="form-horizontal" data-bind="with : entity" id="permohonan-urusetia-baru-form">
+
+
+    <div class="form-group" data-bind="visible:true">
+        <label data-i18n="Jenis Permohonan" for="08a5f5eb-2e06-45bd-e2ef-d651138d9fd9" class="col-md-4">Jenis Permohonan</label>
+        <div class="col-md-8">
+            <select  data-bind="value: JenisPermohonan, enable :true" id="08a5f5eb-2e06-45bd-e2ef-d651138d9fd9" name="JenisPermohonan" class="  form-control">
+                    <option value="Jabatan" data-i18n="Jabatan">Jabatan</option>
+                    <option value="Penjawat Awam (Individu)" data-i18n="Penjawat Awam (Individu)">Penjawat Awam (Individu)</option>
+                    <option value="Penjawat Swasta (Individu)" data-i18n="Penjawat Swasta (Individu)">Penjawat Swasta (Individu)</option>
+                    <option value="Pelajar (Individu)" data-i18n="Pelajar (Individu)">Pelajar (Individu)</option>
+            </select>
+        </div>
+    </div>
+    <div class="form-group" data-bind="visible:true">
+        <label class="col-md-4">Penyelaras</label>
+        <span class="col-md-8" data-bind="text: Penyelaras"></span>
+    </div>
+
+
+    <div class="form-group" data-bind="visible:true">
+        <label data-i18n="Nama Kementerian" for="4b935add-3613-431c-c2d4-1407ec7cdaf3" class="col-md-4">Nama Kementerian</label>
+        <div class="col-md-8">
+            <select  data-bind=" visible :true,  enable :true, comboBoxLookupOptions : { value: NamaKementerian, entity : 'Kementerian', valuePath : 'NamaKementerian', displayPath: 'NamaKementerian', query :'Id ne \'0\''}" id="4b935add-3613-431c-c2d4-1407ec7cdaf3" name="NamaKementerian" class="  form-control">
+            </select>
+        </div>
+    </div>
+
+
+    <div class="form-group" data-bind="visible:true">
+        <label data-i18n="Nama Jabatan" for="038ba618-c3f1-4e6d-bd95-87e7fc73f23d" class="col-md-4">Nama Jabatan</label>
+        <div class="col-md-8">
+            <select  data-bind="value: NamaJabatan, enable :true" id="038ba618-c3f1-4e6d-bd95-87e7fc73f23d" name="NamaJabatan" class="  form-control">
+            </select>
+        </div>
+    </div>
+
+
+
+    <div data-bind="visible:true" class="form-group">
+        <label data-i18n="Bahagian/Seksyen" for="e0464a8a-2431-47db-eb94-706dd3771fd2" class="col-md-4">Bahagian/Seksyen</label>
+        <div class="col-md-8">
+            <input  class=" form-control " title=""
+                   data-bind="value: Bahagian, enable :true "
+                   
+                   
+                   
+                   id="e0464a8a-2431-47db-eb94-706dd3771fd2" type="text" name="Bahagian" />
+        </div>
+    </div>
+
+    <div class="form-group" data-bind="visible : true">
+        <label data-i18n="Tarikh Mula" for="e5298065-e635-4970-8feb-5ea7dfb04856" class="col-md-4">Tarikh Mula</label>
+        <div class="col-md-8">
+            <input class=" form-control "
+                   data-bind="kendoDate: TarikhMula, enable :true" id="e5298065-e635-4970-8feb-5ea7dfb04856" type="text"
+                   name="TarikhMula" />
+        </div>
+    </div>
+
+    <div class="form-group" data-bind="visible : true">
+        <label data-i18n="Tarikh Tamat" for="24650a50-4571-4728-85e6-8c7d9844de23" class="col-md-4">Tarikh Tamat</label>
+        <div class="col-md-8">
+            <input class=" form-control "
+                   data-bind="kendoDate: TarikhTamat, enable :true" id="24650a50-4571-4728-85e6-8c7d9844de23" type="text"
+                   name="TarikhTamat" />
+        </div>
+    </div>
+<h2 data-i18n="Modul Ujian" data-bind="visible:true">Modul Ujian</h2>
+
+
+    <div class="form-group" data-bind="visible:true">
+        <div class="col-md-offset-4 col-md-8">
+            <div class="checkbox">
+                <label class="checkbox">
+                    <input data-bind="checked : isIP, enable :true" id="isIP" type="checkbox"
+                           name="isIP"/>
+                    <span data-i18n="Indeks Personaliti (IP)">Indeks Personaliti (IP)</span>
+                    
+                </label>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="form-group" data-bind="visible:true">
+        <div class="col-md-offset-4 col-md-8">
+            <div class="checkbox">
+                <label class="checkbox">
+                    <input data-bind="checked : isIBK, enable :true" id="isIBK" type="checkbox"
+                           name="isIBK"/>
+                    <span data-i18n="Indeks Bimbingan Kerjaya (IBK)">Indeks Bimbingan Kerjaya (IBK)</span>
+                    
+                </label>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="form-group" data-bind="visible:true">
+        <div class="col-md-offset-4 col-md-8">
+            <div class="checkbox">
+                <label class="checkbox">
+                    <input data-bind="checked : isIPU, enable :true" id="isIPU" type="checkbox"
+                           name="isIPU"/>
+                    <span data-i18n="Indeks Perwatakan Unggul (IPU)">Indeks Perwatakan Unggul (IPU)</span>
+                    
+                </label>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="form-group" data-bind="visible:true">
+        <div class="col-md-offset-4 col-md-8">
+            <div class="checkbox">
+                <label class="checkbox">
+                    <input data-bind="checked : isISO, enable :true" id="isISO" type="checkbox"
+                           name="isISO"/>
+                    <span data-i18n="Inventori Stres Organisasi (ISO)">Inventori Stres Organisasi (ISO)</span>
+                    
+                </label>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="form-group" data-bind="visible:true">
+        <div class="col-md-offset-4 col-md-8">
+            <div class="checkbox">
+                <label class="checkbox">
+                    <input data-bind="checked : isUKHLP, enable :true" id="isUKHLP" type="checkbox"
+                           name="isUKHLP"/>
+                    <span data-i18n="Ujian Khas Hadiah Latihan Persekutuan (UKHLP)">Ujian Khas Hadiah Latihan Persekutuan (UKHLP)</span>
+                    
+                </label>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="form-group" data-bind="visible:true">
+        <div class="col-md-offset-4 col-md-8">
+            <div class="checkbox">
+                <label class="checkbox">
+                    <input data-bind="checked : isUKBP, enable :true" id="isUKBP" type="checkbox"
+                           name="isUKBP"/>
+                    <span data-i18n="Ujian Khas Biasiswa Persekutuan (UKBP)">Ujian Khas Biasiswa Persekutuan (UKBP)</span>
+                    
+                </label>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="form-group" data-bind="visible:true">
+        <div class="col-md-offset-4 col-md-8">
+            <div class="checkbox">
+                <label class="checkbox">
+                    <input data-bind="checked : isPPKP, enable :true" id="isPPKP" type="checkbox"
+                           name="isPPKP"/>
+                    <span data-i18n="Profil Personaliti &amp; Kerjaya Pegawai (PPKP)">Profil Personaliti &amp; Kerjaya Pegawai (PPKP)</span>
+                    
+                </label>
+            </div>
+        </div>
+    </div>
+
+
+
+
+    <div data-bind="visible:true" class="form-group">
+        <label data-i18n="Bil Responden" for="01ecd570-9ebf-4767-8d9c-f0c98f2c279e" class="col-md-4">Bil Responden</label>
+        <div class="col-md-8">
+            <input  class=" form-control input-large" title=""
+                   data-bind="value: BilRespondan, enable :true "
+                   
+                   
+                   
+                   id="01ecd570-9ebf-4767-8d9c-f0c98f2c279e" type="text" name="BilRespondan" />
+        </div>
+    </div>
+
+
+
+    <div data-bind="visible:true" class="form-group">
+        <label data-i18n="Tujuan Program" for="78c51edb-b268-440c-a875-b8e42e32c39c" class="col-md-4">Tujuan Program</label>
+        <div class="col-md-8">
+            <input required class=" form-control " title=""
+                   data-bind="value: TujuanProgram, enable :true "
+                   
+                   
+                    data-rule-required="true" 
+
+                   id="78c51edb-b268-440c-a875-b8e42e32c39c" type="text" name="TujuanProgram" />
+        </div>
+    </div>
+
+
+    <div class="form-group" data-bind="visible:true">
+        <label data-i18n="Status Permohonan" for="2396e9fd-f8f0-4ff6-9e8c-afa40116e750" class="col-md-4">Status Permohonan</label>
+        <div class="col-md-8">
+            <select  data-bind="value: StatusPermohonan, enable :true" id="2396e9fd-f8f0-4ff6-9e8c-afa40116e750" name="StatusPermohonan" class=" input-large form-control">
+                    <option value="BARU" data-i18n="BARU">BARU</option>
+                    <option value="LULUS" data-i18n="LULUS">LULUS</option>
+                    <option value="GAGAL" data-i18n="GAGAL">GAGAL</option>
+            </select>
+        </div>
+    </div>
+
+
+    <div class="form-group" data-bind="visible:true">
+        <label data-i18n="Nama Program" for="ac05d2ee-56d3-4af7-9e13-afc52ac48066" class="col-md-4">Nama Program</label>
+        <div class="col-md-8">
+            <select  data-bind=" visible :true,  enable :true, comboBoxLookupOptions : { value: NamaProgram, entity : 'ProgramLookup', valuePath : 'NamaProgram', displayPath: 'NamaProgram', query :'Id ne \'0\''}" id="ac05d2ee-56d3-4af7-9e13-afc52ac48066" name="NamaProgram" class="  form-control">
+            </select>
+        </div>
+    </div>
+
+
+
+    <div data-bind="visible:true" class="form-group">
+        <label data-i18n="Bilangan" for="a81677e6-0ff6-4a48-abd7-063e8f9ff7b0" class="col-md-4">Bilangan</label>
+        <div class="col-md-8">
+            <input required class=" form-control input-large" title=""
+                   data-bind="value: BilProgram, enable :true "
+                   
+                   
+                    data-rule-number="true"  data-rule-required="true" 
+
+                   id="a81677e6-0ff6-4a48-abd7-063e8f9ff7b0" type="text" name="BilProgram" />
+        </div>
+    </div>
+
+
+
+    <div data-bind="visible:true" class="form-group">
+        <label data-i18n="Siri" for="72d3ca79-c0a9-4a04-8721-4a52f7b4605a" class="col-md-4">Siri</label>
+        <div class="col-md-8">
+            <input required class=" form-control input-large" title=""
+                   data-bind="value: SiriProgram, enable :true "
+                   
+                   
+                    data-rule-number="true"  data-rule-required="true" 
+
+                   id="72d3ca79-c0a9-4a04-8721-4a52f7b4605a" type="text" name="SiriProgram" />
+        </div>
+    </div>
+
+
+    <div class="form-group" data-bind="visible:true">
+        <label data-i18n="Tahun" for="22ba3055-42ad-4361-af1d-119b53fd4a51" class="col-md-4">Tahun</label>
+        <div class="col-md-8">
+            <select  data-bind="value: TahunProgram, enable :true" id="22ba3055-42ad-4361-af1d-119b53fd4a51" name="TahunProgram" class=" input-large form-control">
+                    <option value="2015" data-i18n="2015">2015</option>
+                    <option value="2016" data-i18n="2016">2016</option>
+            </select>
+        </div>
+    </div>
+</form>
+    </div>
+    <div class="col-sm-4">
+        
+    </div>
+</div>

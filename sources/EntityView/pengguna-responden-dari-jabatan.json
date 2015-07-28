@@ -31,7 +31,7 @@
         "Header": "Nama",
         "Sort": "",
         "IsLinkColumn": true,
-        "FormRoute": "tambah-pengguna",
+        "FormRoute": "kemaskini-pengguna-oleh-penyelaras",
         "IconCssClass": "fa fa-edit",
         "IconStoreId": "",
         "Format": "text:{0}",
@@ -78,23 +78,6 @@
           "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.Sph.Domain.ConditionalFormatting, domain.sph]], domain.sph",
           "$values": []
         },
-        "Path": "Pekerjaan",
-        "Header": "Pekerjaan",
-        "Sort": "",
-        "IsLinkColumn": false,
-        "FormRoute": null,
-        "IconCssClass": "",
-        "IconStoreId": "",
-        "Format": "text:{0}",
-        "RouteValueField": "",
-        "WebId": "53702292-980f-4719-b1fb-71165d3e6fab"
-      },
-      {
-        "$type": "Bespoke.Sph.Domain.ViewColumn, domain.sph",
-        "ConditionalFormattingCollection": {
-          "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.Sph.Domain.ConditionalFormatting, domain.sph]], domain.sph",
-          "$values": []
-        },
         "Path": "Emel",
         "Header": "Emel",
         "Sort": "",
@@ -122,29 +105,19 @@
         "Format": "text:{0}",
         "RouteValueField": "",
         "WebId": "7a63b9c5-23fd-48c9-d665-3cf760775432"
-      },
-      {
-        "$type": "Bespoke.Sph.Domain.ViewColumn, domain.sph",
-        "ConditionalFormattingCollection": {
-          "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.Sph.Domain.ConditionalFormatting, domain.sph]], domain.sph",
-          "$values": []
-        },
-        "Path": "NamaKementerian",
-        "Header": "Nama Kementerian",
-        "Sort": "",
-        "IsLinkColumn": false,
-        "FormRoute": null,
-        "IconCssClass": "",
-        "IconStoreId": "",
-        "Format": "text:{0}",
-        "RouteValueField": "",
-        "WebId": "cbeb43a5-143a-4a7d-9e24-9383c8299db3"
       }
     ]
   },
   "SortCollection": {
     "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.Sph.Domain.Sort, domain.sph]], domain.sph",
-    "$values": []
+    "$values": [
+      {
+        "$type": "Bespoke.Sph.Domain.Sort, domain.sph",
+        "Path": "ChangedDate",
+        "Direction": "Desc",
+        "WebId": "1debd4e1-70d3-4738-9d13-8d939042cb56"
+      }
+    ]
   },
   "ConditionalFormattingCollection": {
     "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.Sph.Domain.ConditionalFormatting, domain.sph]], domain.sph",
@@ -161,12 +134,12 @@
     "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.Sph.Domain.RouteParameter, domain.sph]], domain.sph",
     "$values": []
   },
-  "IconClass": "",
+  "IconClass": "fa fa-pagelines",
   "IconStoreId": "e6e5fc09-d31c-439d-bf0f-d16c0046c67a",
   "EntityDefinitionId": "pengguna",
   "Name": "Responden dari jabatan",
   "Route": "responden-dari-jabatan",
-  "Note": "Senarai responden mengikut Jabatan Penyelaras Semasa",
+  "Note": "Jabatan",
   "Query": "",
   "IsPublished": true,
   "Visibilty": "",
@@ -174,10 +147,12 @@
   "CountMessage": "",
   "Entity": "",
   "Partial": "partial/responden-dari-jabatan",
+  "Template": null,
+  "DisplayOnDashboard": false,
   "CreatedBy": "admin",
   "Id": "pengguna-responden-dari-jabatan",
   "CreatedDate": "2015-06-30T19:14:05.8002854+08:00",
   "ChangedBy": "admin",
-  "ChangedDate": "2015-06-30T19:14:05.8002854+08:00",
+  "ChangedDate": "2015-07-24T09:11:41.705153+08:00",
   "WebId": "3c1c61c1-26e5-4ef4-88b6-cef7a33db674"
 }

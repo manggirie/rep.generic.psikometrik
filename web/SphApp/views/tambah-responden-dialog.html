@@ -10,7 +10,7 @@
             </div>
             <div class="modal-body">
 
-              
+
                 <div style="height:300px; max-height: 400px;overflow-y: scroll">
                     <form class="form-horizontal" id="tambah-responden-dialog-form">
                         <div class="form group">
@@ -33,27 +33,25 @@
                             <tr>
                                 <th>Nama</th>
                                 <th>MyKad</th>
-                                <th>Jabatan</th>
                             </tr>
                         </thead>
                         <tbody id="tbody" data-bind="foreach:results" >
                             <tr>
-                                <td class="checkbox">
+                                <td>
                                     <label>
                                         <input type="checkbox" data-bind="value: MyKad"/>
                                         <!-- ko text : Nama -->
                                         <!-- /ko -->
                                     </label>
-                                    
+
                                 </td>
                                 <td data-bind="text: MyKad"></td>
-                                <td data-bind="text: NamaJabatan"></td>
                             </tr>
                         </tbody>
                     </table>
                 </div>
-                
-                
+
+
             </div>
             <div class="modal-footer">
                 <input form="tambah-responden-dialog-form" data-dismiss="modal" type="submit" class="btn btn-primary" value="OK" data-bind="click: okClick, enable: canExecuteSave" />

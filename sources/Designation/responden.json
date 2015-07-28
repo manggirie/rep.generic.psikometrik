@@ -15,6 +15,7 @@
   "Description": "Peserta Program",
   "IsActive": false,
   "StartModule": "responden-home",
+  "EnforceStartModule": true,
   "IsSearchVisible": false,
   "IsMessageVisible": false,
   "IsHelpVisible": true,
@@ -25,6 +26,6 @@
   "Id": "responden",
   "CreatedDate": "2015-06-26T07:47:21.1168615+08:00",
   "ChangedBy": "admin",
-  "ChangedDate": "2015-06-29T06:57:01.990753+08:00",
+  "ChangedDate": "2015-07-27T08:01:42.2047093+08:00",
   "WebId": "20cd0716-83e5-4f84-8f4b-edcc80cf6ee1"
 }

@@ -88,6 +88,71 @@
                                  entity().Id(result.id);
                                  errors.removeAll();
 
+                                  
+                                    app.showMessage("Rekod berjaya didaftarkan", "JPA Sistem Ujian e-Psikometrik", ["OK"])
+	                                    .done(function () {
+                                            window.location='#pengguna-all'
+	                                    });
+                                 
+                             } else {
+                                 errors.removeAll();
+                                 _(result.rules).each(function(v){
+                                     errors(v.ValidationErrors);
+                                 });
+                                 logger.error("There are errors in your entity, !!!");
+                             }
+                         });
+                 },
+                kemaskiniOlehUrusetia = function(){
+
+                     if (!validation.valid()) {
+                         return Task.fromResult(false);
+                     }
+
+                     var data = ko.mapping.toJSON(entity);
+
+                    return  context.post(data, "/Pengguna/KemaskiniOlehUrusetia" )
+                         .then(function (result) {
+                             if (result.success) {
+                                 logger.info(result.message);
+                                 entity().Id(result.id);
+                                 errors.removeAll();
+
+                                  
+                                    app.showMessage("Rekod berjaya disimpan", "JPA Sistem Ujian e-Psikometrik", ["OK"])
+	                                    .done(function () {
+                                            window.location='#responden'
+	                                    });
+                                 
+                             } else {
+                                 errors.removeAll();
+                                 _(result.rules).each(function(v){
+                                     errors(v.ValidationErrors);
+                                 });
+                                 logger.error("There are errors in your entity, !!!");
+                             }
+                         });
+                 },
+                kemaskiniOlehPenyelaras = function(){
+
+                     if (!validation.valid()) {
+                         return Task.fromResult(false);
+                     }
+
+                     var data = ko.mapping.toJSON(entity);
+
+                    return  context.post(data, "/Pengguna/KemaskiniOlehPenyelaras" )
+                         .then(function (result) {
+                             if (result.success) {
+                                 logger.info(result.message);
+                                 entity().Id(result.id);
+                                 errors.removeAll();
+
+                                  
+                                    app.showMessage("Rekod berjaya disimpan", "JPA Sistem Ujian e-Psikometrik", ["OK"])
+	                                    .done(function () {
+                                            window.location='#responden-dari-jabatan'
+	                                    });
                                  
                              } else {
                                  errors.removeAll();
@@ -133,7 +198,7 @@
                     return context.post(data, "/Pengguna/Save")
                         .then(function(result) {
                             entity().Id(result.id);
-                            app.showMessage("Your Pengguna has been successfully saved", "epsikologi", ["ok"]);
+                            app.showMessage("Your Pengguna has been successfully saved", "JPA Sistem Ujian e-Psikometrik", ["OK"]);
 
                         });
                     
@@ -169,6 +234,8 @@
                 save : save,
                     dateNow : dateNow,
                     tarikhKemaskiniNow : tarikhKemaskiniNow,
+                    kemaskiniOlehUrusetia : kemaskiniOlehUrusetia,
+                    kemaskiniOlehPenyelaras : kemaskiniOlehPenyelaras,
                 //
 
 

@@ -28,23 +28,6 @@
           "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.Sph.Domain.ConditionalFormatting, domain.sph]], domain.sph",
           "$values": []
         },
-        "Path": "$index()+1",
-        "Header": "Bil.",
-        "Sort": "",
-        "IsLinkColumn": false,
-        "FormRoute": null,
-        "IconCssClass": "",
-        "IconStoreId": "",
-        "Format": "text:{0}",
-        "RouteValueField": "Id",
-        "WebId": "ebbf6658-284b-4d2b-a7cd-1d1c16471670"
-      },
-      {
-        "$type": "Bespoke.Sph.Domain.ViewColumn, domain.sph",
-        "ConditionalFormattingCollection": {
-          "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.Sph.Domain.ConditionalFormatting, domain.sph]], domain.sph",
-          "$values": []
-        },
         "Path": "JenisPermohonan",
         "Header": "Jenis",
         "Sort": "",
@@ -97,32 +80,15 @@
           "$values": []
         },
         "Path": "TujuanProgram",
-        "Header": "Tujuan Program",
+        "Header": "Tujuan",
         "Sort": "",
         "IsLinkColumn": false,
         "FormRoute": null,
         "IconCssClass": "",
         "IconStoreId": "",
         "Format": "text:{0}",
-        "RouteValueField": "Id",
-        "WebId": "d75df265-b058-457d-b363-36ddb8867029"
-      },
-      {
-        "$type": "Bespoke.Sph.Domain.ViewColumn, domain.sph",
-        "ConditionalFormattingCollection": {
-          "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.Sph.Domain.ConditionalFormatting, domain.sph]], domain.sph",
-          "$values": []
-        },
-        "Path": "NamaJabatan",
-        "Header": "Nama Jabatan",
-        "Sort": "",
-        "IsLinkColumn": false,
-        "FormRoute": null,
-        "IconCssClass": "",
-        "IconStoreId": "",
-        "Format": "text:{0}",
-        "RouteValueField": "Id",
-        "WebId": "3b6dccfc-e013-48b6-a3a5-e35adbc0c035"
+        "RouteValueField": "",
+        "WebId": "258094e4-bdd2-457f-c1e5-3b3caa9468f7"
       },
       {
         "$type": "Bespoke.Sph.Domain.ViewColumn, domain.sph",
@@ -140,40 +106,6 @@
         "Format": "text:{0}",
         "RouteValueField": "Id",
         "WebId": "4b581f56-a90d-454a-8f19-e129145d66cb"
-      },
-      {
-        "$type": "Bespoke.Sph.Domain.ViewColumn, domain.sph",
-        "ConditionalFormattingCollection": {
-          "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.Sph.Domain.ConditionalFormatting, domain.sph]], domain.sph",
-          "$values": []
-        },
-        "Path": "NamaKementerian",
-        "Header": "Nama Kementerian",
-        "Sort": "",
-        "IsLinkColumn": false,
-        "FormRoute": null,
-        "IconCssClass": "",
-        "IconStoreId": "",
-        "Format": "text:{0}",
-        "RouteValueField": "Id",
-        "WebId": "6aab538a-0388-4551-b2e8-5bacd663ad37"
-      },
-      {
-        "$type": "Bespoke.Sph.Domain.ViewColumn, domain.sph",
-        "ConditionalFormattingCollection": {
-          "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.Sph.Domain.ConditionalFormatting, domain.sph]], domain.sph",
-          "$values": []
-        },
-        "Path": "Penyelaras",
-        "Header": "Penyelaras",
-        "Sort": "",
-        "IsLinkColumn": false,
-        "FormRoute": null,
-        "IconCssClass": "",
-        "IconStoreId": "",
-        "Format": "text:{0}",
-        "RouteValueField": "Id",
-        "WebId": "1d3480d2-27e1-4ad9-c202-a3db47843c6d"
       }
     ]
   },
@@ -196,7 +128,7 @@
     "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.Sph.Domain.RouteParameter, domain.sph]], domain.sph",
     "$values": []
   },
-  "IconClass": "",
+  "IconClass": "fa fa-mobile",
   "IconStoreId": "0531630d-0f71-4a70-aa00-7e6e027ddc8f",
   "EntityDefinitionId": "permohonan",
   "Name": "Permohonan Baru",
@@ -205,14 +137,16 @@
   "Query": "",
   "IsPublished": true,
   "Visibilty": "",
-  "TileColour": "bgreen",
+  "TileColour": "blightblue",
   "CountMessage": "",
   "Entity": "",
   "Partial": "partial/viewpermohonanpenyelaras",
+  "Template": "View without chart",
+  "DisplayOnDashboard": false,
   "CreatedBy": "admin",
   "Id": "permohonan-penyelaras",
   "CreatedDate": "2015-06-05T10:45:40.0595083+08:00",
   "ChangedBy": "admin",
-  "ChangedDate": "2015-07-01T08:17:23.2433294+08:00",
+  "ChangedDate": "2015-07-13T12:51:56.025393+08:00",
   "WebId": "0264f91b-ffce-46cc-d40a-e6d3cadb6fac"
 }

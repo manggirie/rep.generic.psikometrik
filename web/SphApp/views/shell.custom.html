@@ -1,27 +1,17 @@
 <div>
-    <header>
-        <!--ko compose: {view: 'header'} -->
-        <!--/ko-->
-        <!--ko compose: {view: 'nav.custom'} -->
-        <!--/ko-->
-    </header>
-    <section id="content" class="container">
+  <img src="/assets/admin/layout/img/loading.gif" class="pull-right" alt="loading" data-bind="visible: router.isNavigating" />
 
-        <img src="/Images/spinner-md.gif" alt="loading" class="absolute-center" data-bind="visible: router.isNavigating" />
-
-
-          <!--ko compose: {view: 'toolbar.custom.atas'} -->
-          <!--/ko-->
-        <!--ko compose: {model: router.activeItem,
-          attached: router.attached,
-          compositionComplete: router.compositionComplete,
-          transition: 'entrance'} -->
-        <!--/ko-->
+  <!--ko compose: {view: 'toolbar.custom.atas'} -->
+  <!--/ko-->
+  <!--ko compose: {model: router.activeItem,
+    attached: router.attached,
+    compositionComplete: router.compositionComplete,
+    transition: 'entrance'} -->
+  <!--/ko-->
 
 
-      <!--ko compose: {view: 'toolbar.custom.bawah'} -->
-      <!--/ko-->
+<!--ko compose: {view: 'toolbar.custom.bawah'} -->
+<!--/ko-->
 
-    </section>
 
 </div>

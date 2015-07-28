@@ -1,0 +1,54 @@
+<h1>Senarai Program</h1>
+<div class="row">
+    <div class="col-md-8">
+        <button class="btn btn-link pull-right" data-bind="visible: chartFiltered, click: clearChartFilter">
+            <i class="fa fa-times"></i>
+            Clear chart's filter
+        </button>
+        <table class="table table-striped" data-bind="filter : {path:'tbody>tr'}, searchPaging :{ query: query, map : map, entity : 'Permohonan', list:list}">
+            <thead>
+                <tr>
+                    <th>Program</th>
+                    <th>Tarikh Mula</th>
+                    <th>Tarikh Tama</th>
+                    <th>Bil. Responden</th>
+                    <th>Senarai Ujian</th>
+                    <th>Sudah Ambil</th>
+                    <th>Belum Ambil</th>
+                </tr>
+            </thead>
+            <tbody data-bind="foreach :list">
+                <tr data-bind="">
+
+                    <td>
+                        <a data-bind="attr : {href:'#permohonan-penyelaras' + '/' + Id, title:'Program' }">
+                                                        <span data-bind="text:PermohonanNo"></span>
+                        </a>
+                    </td>
+                    <td data-bind="date:TarikhMula"></td>
+                    <td data-bind="date:TarikhTamat"></td>
+                    <td data-bind="text:BilRespondan"></td>
+                    <td data-bind="text:senaraiUjian"></td>
+                    <td>
+                        <a data-bind="attr : {href:'#sesi-ujian-diambil-by-program' + '/' + encodeURIComponent(PermohonanNo), title:'Sudah Ambil' }">
+                            <i class="fa fa-list"></i>
+                                                        <span data-bind="text:sudahAmbil"></span>
+                        </a>
+                    </td>
+                    <td>
+                        <a data-bind="attr : {href:'#sesi-ujian-belum-ambil-by-program' + '/' + encodeURIComponent(PermohonanNo), title:'Belum Ambil' }">
+                            <i class="fa fa-th-list"></i>
+                                                        <span data-bind="text:belumAmbil"></span>
+                        </a>
+                    </td>
+
+
+                </tr>
+            </tbody>
+        </table>
+        <img src="/Images/spinner-md.gif" alt="loading" class="absolute-center" data-bind="visible: isBusy" />
+    </div>
+
+    <!-- ko compose : {view : '_chart.panel'}-->
+    <!-- /ko -->
+</div>

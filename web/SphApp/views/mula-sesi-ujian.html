@@ -1,8 +1,11 @@
-<h1>Mula sesi ujian</h1>
+<h3 class="page-title">
+	Mula sesi ujian
+	<small data-bind="text:ujian().NamaUjian"></small>
+</h3>
 <div class="row">
 
 
-    <div class="col-md-9">
+    <div class="col-lg-8 col-md-8 col-sm-12 col-xs-12">
     	<!-- ko foreach : sections -->
 
     	<h4 data-bind="text: 'Seksyen : ' + section, attr :{'id' : section}"></h4>
@@ -31,7 +34,7 @@
 
 
 
-    <div class="col-md-3" id="test-panel" style="position:fixed;top:70px;right:0px;">
+    <div class="col-lg-3 col-md-3 col-sm-12 col-xs-12" id="test-panel" style="position:fixed;top:70px;right:0px;">
     	<div  data-bind="with: ujian">
     		<h3 data-bind="text : 'Module Ujian : ' + ko.unwrap(NamaUjian)"></h3>
     	</div>
@@ -72,8 +75,8 @@
         Jangan papar yang sudah jawab
       </label>
       <br/>
-		<button class="btn btn-default" data-bind="command: $root.submitSesiUjian, enable: totalAnswered() === questionsCount()">
-        <i class="fa fa-sign-out"></i>
+		<button class="btn btn-primary" data-bind="command: $root.submitSesiUjian, enable: totalAnswered() === questionsCount()">
+        <i class="icon-drawer"></i>
         Hantar</button>
 		</div>
     </div>

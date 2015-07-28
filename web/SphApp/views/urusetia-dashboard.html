@@ -1,0 +1,122 @@
+<!-- BEGIN PAGE HEADER-->
+<h3 class="page-title">
+	Dashboard
+</h3>
+<!-- END PAGE HEADER-->
+<!-- BEGIN DASHBOARD STATS -->
+<div class="row">
+	<div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+		<div class="dashboard-stat blue-madison">
+			<div class="visual">
+				<i class="fa fa-comments"></i>
+			</div>
+			<div class="details">
+				<div class="number" data-bind="text: permohonanBaruCount">
+					1349
+				</div>
+				<div class="desc">
+					Permohonan Baru Dari Penyelaras
+				</div>
+			</div>
+			<a class="more" href="#permohonan-baru-urusetia">
+						View more <i class="m-icon-swapright m-icon-white"></i>
+						</a>
+		</div>
+	</div>
+	<div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+		<div class="dashboard-stat red-intense">
+			<div class="visual">
+				<i class="fa fa-bar-chart-o"></i>
+			</div>
+			<div class="details">
+				<div class="number" data-bind="text: ujianBelumAmbil">
+					12
+				</div>
+				<div class="desc">
+					Ujian Yang Belum Ambil
+				</div>
+			</div>
+			<a class="more" href="#permohonan-urusetia-lulus">
+						View more <i class="m-icon-swapright m-icon-white"></i>
+						</a>
+		</div>
+	</div>
+	<div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+		<div class="dashboard-stat green-haze">
+			<div class="visual">
+				<i class="fa fa-shopping-cart"></i>
+			</div>
+			<div class="details">
+				<div class="number" data-bind="text:programSemasa">
+					549
+				</div>
+				<div class="desc">
+						Program Semasa
+				</div>
+			</div>
+			<a class="more" href="#program-semasa-urusetia">
+						View more <i class="m-icon-swapright m-icon-white"></i>
+						</a>
+		</div>
+	</div>
+	<div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+		<div class="dashboard-stat purple-plum">
+			<div class="visual">
+				<i class="fa fa-users"></i>
+			</div>
+			<div class="details">
+				<div class="number" data-bind="text:respondenCount">
+					8900
+				</div>
+				<div class="desc">
+					Senarai Responden
+				</div>
+			</div>
+			<a class="more" href="#responden">
+						View more <i class="m-icon-swapright m-icon-white"></i>
+						</a>
+		</div>
+	</div>
+</div>
+<!-- END DASHBOARD STATS -->
+
+
+<div class="clearfix">
+</div>
+<div class="row">
+	<div class="col-md-6 col-sm-6">
+		<!-- BEGIN PORTLET-->
+		<div class="portlet light ">
+			<div class="portlet-title">
+				<div class="caption">
+					<i class="icon-bar-chart font-green-sharp hide"></i>
+					<span class="caption-subject font-green-sharp bold uppercase">Cetak laporan</span>
+					<span class="caption-helper">sesi ujian..</span>
+				</div>
+
+			</div>
+			<div class="portlet-body">
+
+				<!--ko compose: {model: "viewmodels/_laporan-sesi-ujian-mykad"} -->
+			  <!--/ko-->
+			</div>
+		</div>
+		<!-- END PORTLET-->
+	</div>
+	<div class="col-md-6 col-sm-6">
+		<!-- BEGIN PORTLET-->
+		<div class="portlet light ">
+			<div class="portlet-title">
+				<div class="caption">
+					<i class="icon-share font-red-sunglo hide"></i>
+					<span class="caption-subject font-red-sunglo bold uppercase">Senarai Soalan</span>
+				
+				</div>
+			</div>
+			<div class="portlet-body">
+				<div data-bind="chart: $root.soalanChart"></div>
+			</div>
+		</div>
+		<!-- END PORTLET-->
+	</div>
+</div>

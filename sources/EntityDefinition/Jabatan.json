@@ -143,12 +143,13 @@
   "IsPublished": true,
   "IsShowOnNavigationBar": true,
   "TreatDataAsSource": true,
+  "DashboardTemplate": null,
   "StoreInDatabase": null,
   "StoreInElasticsearch": null,
   "CreatedBy": "admin",
   "Id": "jabatan",
   "CreatedDate": "2015-06-05T10:37:17.7083426+08:00",
   "ChangedBy": "admin",
-  "ChangedDate": "2015-06-30T12:20:06.9707896+08:00",
+  "ChangedDate": "2015-07-27T10:48:43.241347+08:00",
   "WebId": "f95865f4-dbc9-4b62-990a-7d4e65d30f7a"
 }

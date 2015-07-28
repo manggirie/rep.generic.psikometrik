@@ -143,12 +143,13 @@
   "IsPublished": true,
   "IsShowOnNavigationBar": true,
   "TreatDataAsSource": true,
+  "DashboardTemplate": "Dashboard Standard",
   "StoreInDatabase": null,
   "StoreInElasticsearch": null,
-  "CreatedBy": null,
+  "CreatedBy": "admin",
   "Id": "kementerian",
-  "CreatedDate": "0001-01-01T00:00:00",
+  "CreatedDate": "2015-07-12T08:50:09.6060508+08:00",
   "ChangedBy": "admin",
-  "ChangedDate": "2015-06-29T06:44:10.96097+08:00",
+  "ChangedDate": "2015-07-12T08:50:09.6060508+08:00",
   "WebId": "c435379d-cced-4e3e-de46-46f27663e00f"
 }

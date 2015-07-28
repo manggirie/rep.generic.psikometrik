@@ -531,6 +531,28 @@
         "Boost": 3,
         "DefaultValue": null,
         "WebId": "b3f4d5b1-a9cf-484d-9caa-8d5bbbf07cf9"
+      },
+      {
+        "$type": "Bespoke.Sph.Domain.Member, domain.sph",
+        "FullName": null,
+        "MemberCollection": {
+          "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.Sph.Domain.Member, domain.sph]], domain.sph",
+          "$values": []
+        },
+        "FieldPermissionCollection": {
+          "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.Sph.Domain.FieldPermission, domain.sph]], domain.sph",
+          "$values": []
+        },
+        "Name": "Bahagian",
+        "TypeName": "System.String, mscorlib",
+        "IsNullable": true,
+        "IsNotIndexed": false,
+        "IsAnalyzed": false,
+        "IsFilterable": false,
+        "IsExcludeInAll": false,
+        "Boost": 2,
+        "DefaultValue": null,
+        "WebId": "0690b2f5-bcd7-41c8-f5ae-cfe1ad0bce9a"
       }
     ]
   },
@@ -553,7 +575,9 @@
         },
         "Permissions": {
           "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[System.String, mscorlib]], domain.sph",
-          "$values": []
+          "$values": [
+            "PengurusanPermohonanJabatan"
+          ]
         },
         "SetterActionChildCollection": {
           "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.Sph.Domain.SetterActionChild, domain.sph]], domain.sph",
@@ -583,13 +607,26 @@
                 "WebId": "b10eff67-e6ff-4867-98f5-592ac5ca65a8"
               },
               "WebId": "842b2a2e-d7d0-4a44-ccc3-7ee32204b772"
+            },
+            {
+              "$type": "Bespoke.Sph.Domain.SetterActionChild, domain.sph",
+              "Path": "TarikhTamat",
+              "Field": {
+                "$type": "Bespoke.Sph.Domain.FunctionField, domain.sph",
+                "CodeNamespace": "ffeaa59aa7",
+                "Script": "item.TarikhTamat.Date.AddHours(23).AddMinutes(50)",
+                "Name": "Tambah jam",
+                "Note": "",
+                "WebId": "eaa59aa7-e5ff-4850-a8ec-7c4dc31ab6df"
+              },
+              "WebId": "f2cf42ff-fdb3-415c-a677-d7cb54515b48"
             }
           ]
         },
         "Name": "PermohonanDariPenyelaras",
-        "SuccessMessage": "",
-        "ShowSuccessMessage": false,
-        "NavigateSuccessUrl": "",
+        "SuccessMessage": "Permohonan Berjaya Dihantar",
+        "ShowSuccessMessage": true,
+        "NavigateSuccessUrl": "#penyelaras-home",
         "SuccessCommand": "",
         "WebId": "bbf6a1ee-6bd9-4414-9d17-c6edf9959661"
       },
@@ -605,7 +642,9 @@
         },
         "Permissions": {
           "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[System.String, mscorlib]], domain.sph",
-          "$values": []
+          "$values": [
+            "PengurusanPermohonan"
+          ]
         },
         "SetterActionChildCollection": {
           "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.Sph.Domain.SetterActionChild, domain.sph]], domain.sph",
@@ -628,9 +667,36 @@
         "Name": "UrusetiaProcessPermohonanDariPenyelaras",
         "SuccessMessage": "Permohonan program sudah dikemaskini",
         "ShowSuccessMessage": true,
-        "NavigateSuccessUrl": "",
+        "NavigateSuccessUrl": "#permohonan-baru-urusetia",
         "SuccessCommand": "",
         "WebId": "e1557128-3b90-4bf5-d4ba-c975479f0e73"
+      },
+      {
+        "$type": "Bespoke.Sph.Domain.EntityOperation, domain.sph",
+        "EntityPermissionCollection": {
+          "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.Sph.Domain.EntityPermission, domain.sph]], domain.sph",
+          "$values": []
+        },
+        "Rules": {
+          "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[System.String, mscorlib]], domain.sph",
+          "$values": []
+        },
+        "Permissions": {
+          "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[System.String, mscorlib]], domain.sph",
+          "$values": [
+            "PengurusanPermohonanJabatan"
+          ]
+        },
+        "SetterActionChildCollection": {
+          "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.Sph.Domain.SetterActionChild, domain.sph]], domain.sph",
+          "$values": []
+        },
+        "Name": "TukarResponden",
+        "SuccessMessage": "Rekod anda sudah berjaya di simpan",
+        "ShowSuccessMessage": true,
+        "NavigateSuccessUrl": "#permohonan-penyelaras-lulus",
+        "SuccessCommand": "",
+        "WebId": "7dfbd405-5242-439e-c059-bd941a513ffb"
       }
     ]
   },
@@ -646,19 +712,20 @@
     "WebId": null
   },
   "Name": "Permohonan",
-  "Plural": "Permohonans",
+  "Plural": "Permohonan Program",
   "IconStoreId": "8d875fdf-1ebf-417a-997c-8a8b005051ef",
   "IconClass": "fa fa-share-square-o",
   "RecordName": "PermohonanNo",
   "IsPublished": true,
   "IsShowOnNavigationBar": true,
   "TreatDataAsSource": false,
+  "DashboardTemplate": "Dashboard Standard",
   "StoreInDatabase": null,
   "StoreInElasticsearch": null,
   "CreatedBy": "admin",
   "Id": "permohonan",
   "CreatedDate": "2015-06-05T10:45:39.9585024+08:00",
   "ChangedBy": "admin",
-  "ChangedDate": "2015-07-08T06:57:03.0647663+08:00",
+  "ChangedDate": "2015-07-28T11:44:57.3382303+08:00",
   "WebId": "5aff113b-31e8-4f89-b7eb-d089e79bd899"
 }

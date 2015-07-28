@@ -182,9 +182,9 @@
           "WebId": "dd6110d3-f270-44d6-9ab0-074132ecdfec"
         },
         {
-          "$type": "Bespoke.Sph.Domain.DateTimePicker, domain.sph",
+          "$type": "Bespoke.Sph.Domain.DatePicker, domain.sph",
           "IsPathIsRequired": true,
-          "TypeName": "DateTimePicker",
+          "TypeName": "DatePicker",
           "FieldValidation": {
             "$type": "Bespoke.Sph.Domain.FieldValidation, domain.sph",
             "IsRequired": false,
@@ -206,7 +206,7 @@
           "CssClass": null,
           "Visible": "true",
           "Enable": "true",
-          "ElementId": "3594b3d5-f33e-4549-fb7a-a5397a30e63c",
+          "ElementId": "e5298065-e635-4970-8feb-5ea7dfb04856",
           "HelpText": null,
           "UseDisplayTemplate": false,
           "ToolboxIconClass": null,
@@ -219,12 +219,12 @@
           "InputColMd": null,
           "InputColSm": null,
           "InputColXs": null,
-          "WebId": "9dbf1b1f-9263-40cc-a185-71f3ec70daa7"
+          "WebId": "717778f4-5143-4b28-92a3-62f50026eed4"
         },
         {
-          "$type": "Bespoke.Sph.Domain.DateTimePicker, domain.sph",
+          "$type": "Bespoke.Sph.Domain.DatePicker, domain.sph",
           "IsPathIsRequired": true,
-          "TypeName": "DateTimePicker",
+          "TypeName": "DatePicker",
           "FieldValidation": {
             "$type": "Bespoke.Sph.Domain.FieldValidation, domain.sph",
             "IsRequired": false,
@@ -246,7 +246,7 @@
           "CssClass": null,
           "Visible": "true",
           "Enable": "true",
-          "ElementId": "19496c3c-933c-4bd8-b5df-a5e2e61f0431",
+          "ElementId": "24650a50-4571-4728-85e6-8c7d9844de23",
           "HelpText": null,
           "UseDisplayTemplate": false,
           "ToolboxIconClass": null,
@@ -259,7 +259,7 @@
           "InputColMd": null,
           "InputColSm": null,
           "InputColXs": null,
-          "WebId": "2e7f0fca-fac7-4f81-aa78-08679a5652a5"
+          "WebId": "5f3a9630-efb7-47bb-e52e-42de46815cc2"
         },
         {
           "$type": "Bespoke.Sph.Domain.SectionFormElement, domain.sph",
@@ -889,14 +889,14 @@
             "$values": [
               {
                 "$type": "Bespoke.Sph.Domain.ComboBoxItem, domain.sph",
-                "Caption": "2016",
-                "Value": "2016",
+                "Caption": "2015",
+                "Value": "2015",
                 "WebId": "426c91ee-0e4e-4684-c9b9-3c8406aa57b7"
               },
               {
                 "$type": "Bespoke.Sph.Domain.ComboBoxItem, domain.sph",
-                "Caption": "2015",
-                "Value": "2015",
+                "Caption": "2016",
+                "Value": "2016",
                 "WebId": "4e177ebc-6c79-4cef-f3c0-1638595c0ed4"
               }
             ]
@@ -980,16 +980,16 @@
   "Name": "Permohonan Urusetia",
   "Route": "permohonan-urusetia",
   "Note": null,
-  "IsAllowedNewItem": true,
+  "IsAllowedNewItem": false,
   "IconClass": "fa fa-filter",
   "IconStoreId": null,
   "IsPublished": true,
   "IsDefault": true,
-  "IsWatchAvailable": true,
-  "IsEmailAvailable": true,
-  "IsPrintAvailable": true,
-  "IsAuditTrailAvailable": true,
-  "IsRemoveAvailable": true,
+  "IsWatchAvailable": false,
+  "IsEmailAvailable": false,
+  "IsPrintAvailable": false,
+  "IsAuditTrailAvailable": false,
+  "IsRemoveAvailable": false,
   "IsImportAvailable": false,
   "IsExportAvailable": false,
   "Operation": "UrusetiaProcessPermohonanDariPenyelaras",
@@ -1001,6 +1001,6 @@
   "Id": "permohonan-urusetia",
   "CreatedDate": "2015-06-16T08:04:20.3588975+08:00",
   "ChangedBy": "admin",
-  "ChangedDate": "2015-07-08T06:49:52.8157665+08:00",
+  "ChangedDate": "2015-07-13T12:35:29.3896818+08:00",
   "WebId": "d56af63c-c52e-401b-83b5-bfecea2c53d1"
 }
