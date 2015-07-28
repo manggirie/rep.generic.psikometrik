@@ -2,7 +2,7 @@
   "$type": "Bespoke.epsikologi_soalan.Domain.Soalan, epsikologi.Soalan",
   "NoRujukan": "UKBP-B-00101",
   "SoalanNo": "UKBP-B-00101",
-  "TeksSoalan": "Membaca buku atau majalah saintifik.",
+  "TeksSoalan": "Membaca bahan penulisan saintifik.",
   "SeksyenSoalan": "B",
   "PilihanJawapanCollection": {
     "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan]], domain.sph",
@@ -29,6 +29,6 @@
   "Id": "UKBP-B-00101",
   "CreatedDate": "2015-07-06T11:24:56.7302912+08:00",
   "ChangedBy": "admin",
-  "ChangedDate": "2015-07-06T11:24:56.7297911+08:00",
+  "ChangedDate": "2015-07-23T10:52:14.1903706+08:00",
   "WebId": "ef8e43d4-1faa-42da-81c2-393b08126c1c"
 }

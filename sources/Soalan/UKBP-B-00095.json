@@ -2,7 +2,7 @@
   "$type": "Bespoke.epsikologi_soalan.Domain.Soalan, epsikologi.Soalan",
   "NoRujukan": "UKBP-B-00095",
   "SoalanNo": "UKBP-B-00095",
-  "TeksSoalan": "Mengikuti kursus lukisan mekanikal.",
+  "TeksSoalan": "Mengikuti kursus Lukisan Kejuruteraan.",
   "SeksyenSoalan": "B",
   "PilihanJawapanCollection": {
     "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan]], domain.sph",
@@ -23,12 +23,12 @@
   },
   "Trait": null,
   "NamaUjian": "Ujian Khas Biasiswa Persekutuan(UKBP)",
-  "Susunan": 95.0,
+  "Susunan": 95.1,
   "Kategori": null,
   "CreatedBy": "admin",
   "Id": "UKBP-B-00095",
   "CreatedDate": "2015-07-06T11:24:56.6702489+08:00",
   "ChangedBy": "admin",
-  "ChangedDate": "2015-07-06T11:24:56.6682475+08:00",
+  "ChangedDate": "2015-07-23T10:49:15.9943706+08:00",
   "WebId": "5ff2f508-08db-4329-b921-367a6b8c5896"
 }

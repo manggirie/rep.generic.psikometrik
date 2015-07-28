@@ -2,7 +2,7 @@
   "$type": "Bespoke.epsikologi_soalan.Domain.Soalan, epsikologi.Soalan",
   "NoRujukan": "UKBP-B-00113",
   "SoalanNo": "UKBP-B-00113",
-  "TeksSoalan": "Berlatih menggunakan peralatan muzik.",
+  "TeksSoalan": "Berlatih menggunakan alat muzik.",
   "SeksyenSoalan": "B",
   "PilihanJawapanCollection": {
     "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan]], domain.sph",
@@ -23,12 +23,12 @@
   },
   "Trait": null,
   "NamaUjian": "Ujian Khas Biasiswa Persekutuan(UKBP)",
-  "Susunan": 113.0,
+  "Susunan": 113.1,
   "Kategori": null,
   "CreatedBy": "admin",
   "Id": "UKBP-B-00113",
   "CreatedDate": "2015-07-06T11:24:56.8253583+08:00",
   "ChangedBy": "admin",
-  "ChangedDate": "2015-07-06T11:24:56.8248582+08:00",
+  "ChangedDate": "2015-07-23T10:58:38.7597569+08:00",
   "WebId": "9e4b30b9-55af-4931-930a-67b31c61a3fa"
 }

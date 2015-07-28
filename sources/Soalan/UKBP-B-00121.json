@@ -2,7 +2,7 @@
   "$type": "Bespoke.epsikologi_soalan.Domain.Soalan, epsikologi.Soalan",
   "NoRujukan": "UKBP-B-00121",
   "SoalanNo": "UKBP-B-00121",
-  "TeksSoalan": "Membaca artikel atau buku sosiologi.",
+  "TeksSoalan": "Membaca bahan penulisan bidang sosiologi.",
   "SeksyenSoalan": "B",
   "PilihanJawapanCollection": {
     "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan]], domain.sph",
@@ -23,12 +23,12 @@
   },
   "Trait": null,
   "NamaUjian": "Ujian Khas Biasiswa Persekutuan(UKBP)",
-  "Susunan": 121.0,
+  "Susunan": 121.1,
   "Kategori": null,
   "CreatedBy": "admin",
   "Id": "UKBP-B-00121",
   "CreatedDate": "2015-07-06T11:24:56.8798971+08:00",
   "ChangedBy": "admin",
-  "ChangedDate": "2015-07-06T11:24:56.8793965+08:00",
+  "ChangedDate": "2015-07-23T11:21:46.361989+08:00",
   "WebId": "6c2bef9a-9a76-4371-aea7-29349845deab"
 }

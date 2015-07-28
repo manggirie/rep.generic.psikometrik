@@ -2,7 +2,7 @@
   "$type": "Bespoke.epsikologi_soalan.Domain.Soalan, epsikologi.Soalan",
   "NoRujukan": "UKBP-B-00120",
   "SoalanNo": "UKBP-B-00120",
-  "TeksSoalan": "Membaca artikel berbentuk artistik, kesusteraan atau muzikal.",
+  "TeksSoalan": "Membaca bahan penulisan seni, sastera atau muzik.",
   "SeksyenSoalan": "B",
   "PilihanJawapanCollection": {
     "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan]], domain.sph",
@@ -29,6 +29,6 @@
   "Id": "UKBP-B-00120",
   "CreatedDate": "2015-07-06T11:24:56.872392+08:00",
   "ChangedBy": "admin",
-  "ChangedDate": "2015-07-06T11:24:56.871891+08:00",
+  "ChangedDate": "2015-07-23T11:20:57.3440995+08:00",
   "WebId": "4f9bab51-8086-4320-a0bf-04eb0ab1ebc8"
 }
