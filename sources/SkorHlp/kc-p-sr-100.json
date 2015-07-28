@@ -2,7 +2,7 @@
   "$type": "Bespoke.epsikologi_skorhlp.Domain.SkorHlp, epsikologi.SkorHlp",
   "No": "kc-p-sr-100",
   "Tret": "KC",
-  "NilaiMin": 32,
+  "NilaiMin": 30,
   "NilaiMax": 40,
   "Percentile": 100,
   "Skor": "Skor Rendah",
@@ -10,7 +10,7 @@
   "CreatedBy": "urusetia1",
   "Id": "kc-p-sr-100",
   "CreatedDate": "2015-07-08T14:16:01.0290853+08:00",
-  "ChangedBy": "urusetia1",
-  "ChangedDate": "2015-07-08T14:16:01.0270839+08:00",
+  "ChangedBy": "admin",
+  "ChangedDate": "2015-07-28T11:30:41.6602243+08:00",
   "WebId": "ee301244-24d3-4530-b0b0-9d2f0213297c"
 }

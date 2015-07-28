@@ -3,14 +3,14 @@
   "No": "kt-l-sst-40",
   "Tret": "KT",
   "NilaiMin": 7,
-  "NilaiMax": 8,
+  "NilaiMax": 7,
   "Percentile": 40,
   "Skor": "Skor Sederhana Tinggi",
   "Jantina": "Lelaki",
   "CreatedBy": "urusetia1",
   "Id": "kt-l-sst-40",
   "CreatedDate": "2015-07-08T13:49:07.4638019+08:00",
-  "ChangedBy": "urusetia1",
-  "ChangedDate": "2015-07-08T13:49:07.4618005+08:00",
+  "ChangedBy": "admin",
+  "ChangedDate": "2015-07-28T10:13:17.2788373+08:00",
   "WebId": "8d2e6854-d75b-4740-b749-ef8faac059a1"
 }
