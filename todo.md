@@ -57,3 +57,8 @@
 
 ## Home page-
 * turn it back on- was disabled
+
+## Urusetia
+* Mohona program baru
+  * jabatan is not auto populated
+  * page title - Program baru oleh Urusetia
