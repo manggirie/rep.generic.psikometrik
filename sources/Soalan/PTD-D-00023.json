@@ -2,7 +2,7 @@
   "$type": "Bespoke.epsikologi_soalan.Domain.Soalan, epsikologi.Soalan",
   "NoRujukan": "PTD-D-00023",
   "SoalanNo": "PTD-D-00023",
-  "TeksSoalan": ".,jarang mengambil sesuatu perkara secara serius dan lebih suka membiarkan ia berlaku seadanya",
+  "TeksSoalan": "jarang mengambil sesuatu perkara secara serius dan lebih suka membiarkan ia berlaku seadanya",
   "SeksyenSoalan": "D",
   "PilihanJawapanCollection": {
     "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan]], domain.sph",
@@ -39,14 +39,14 @@
       }
     ]
   },
-  "Trait": null,
+  "Trait": "C4",
   "NamaUjian": "Profil Personaliti & Kerjaya Pegawai(PTD)",
   "Susunan": 23.0,
   "Kategori": null,
   "CreatedBy": "admin",
   "Id": "PTD-D-00023",
   "CreatedDate": "2015-07-06T11:24:53.0126677+08:00",
-  "ChangedBy": "admin",
-  "ChangedDate": "2015-07-06T11:24:53.0116665+08:00",
+  "ChangedBy": "urusetia2",
+  "ChangedDate": "2015-07-27T17:48:46.2542926+08:00",
   "WebId": "062f563b-c753-452e-909d-123122a01f51"
 }

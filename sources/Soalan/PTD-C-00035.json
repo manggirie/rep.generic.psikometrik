@@ -2,7 +2,7 @@
   "$type": "Bespoke.epsikologi_soalan.Domain.Soalan, epsikologi.Soalan",
   "NoRujukan": "PTD-C-00035",
   "SoalanNo": "PTD-C-00035",
-  "TeksSoalan": ".,\"cenderung melakukan tugas sedia ada dengan berpegang kepada konsep \"\"Biar Lambat Asal Selamat\"\".\"",
+  "TeksSoalan": "cenderung melakukan tugas sedia ada dengan berpegang kepada konsep \"Biar Lambat Asal Selamat\".",
   "SeksyenSoalan": "C",
   "PilihanJawapanCollection": {
     "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan]], domain.sph",
@@ -39,14 +39,14 @@
       }
     ]
   },
-  "Trait": null,
+  "Trait": "D3",
   "NamaUjian": "Profil Personaliti & Kerjaya Pegawai(PTD)",
   "Susunan": 35.0,
   "Kategori": null,
   "CreatedBy": "admin",
   "Id": "PTD-C-00035",
   "CreatedDate": "2015-07-06T11:24:52.6449079+08:00",
-  "ChangedBy": "admin",
-  "ChangedDate": "2015-07-06T11:24:52.6449079+08:00",
+  "ChangedBy": "urusetia2",
+  "ChangedDate": "2015-07-27T16:02:18.0865397+08:00",
   "WebId": "97ef79f9-11f2-4bca-a8af-2a3634eb4697"
 }

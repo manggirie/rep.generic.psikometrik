@@ -2,7 +2,7 @@
   "$type": "Bespoke.epsikologi_soalan.Domain.Soalan, epsikologi.Soalan",
   "NoRujukan": "PTD-E-00008",
   "SoalanNo": "PTD-E-00008",
-  "TeksSoalan": ".,berasa bangga mempunyai kebijaksanaan dalam mengendalikan hubungan dengan orang lain sehingga mereka boleh menuruti permintaan saya.",
+  "TeksSoalan": "berasa bangga mempunyai kebijaksanaan dalam mengendalikan hubungan dengan orang lain sehingga mereka boleh menuruti permintaan saya.",
   "SeksyenSoalan": "E",
   "PilihanJawapanCollection": {
     "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan]], domain.sph",
@@ -39,14 +39,14 @@
       }
     ]
   },
-  "Trait": null,
+  "Trait": "D6",
   "NamaUjian": "Profil Personaliti & Kerjaya Pegawai(PTD)",
   "Susunan": 8.0,
   "Kategori": null,
   "CreatedBy": "admin",
   "Id": "PTD-E-00008",
   "CreatedDate": "2015-07-06T11:24:53.2798558+08:00",
-  "ChangedBy": "admin",
-  "ChangedDate": "2015-07-06T11:24:53.2793552+08:00",
+  "ChangedBy": "urusetia2",
+  "ChangedDate": "2015-07-27T18:02:46.8643452+08:00",
   "WebId": "e6690e21-2362-4451-b19c-8e2fb2fed109"
 }

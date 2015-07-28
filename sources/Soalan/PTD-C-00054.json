@@ -2,7 +2,7 @@
   "$type": "Bespoke.epsikologi_soalan.Domain.Soalan, epsikologi.Soalan",
   "NoRujukan": "PTD-C-00054",
   "SoalanNo": "PTD-C-00054",
-  "TeksSoalan": ".,\"sering menggunakan perkataan seperti \"\"sedih\"\" atau \"\"sunyi\"\" bagi menggambarkan pengalaman diri.\"",
+  "TeksSoalan": "sering menggunakan perkataan seperti \"sedih\" atau \"sunyi\" bagi menggambarkan pengalaman diri.",
   "SeksyenSoalan": "C",
   "PilihanJawapanCollection": {
     "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan]], domain.sph",
@@ -39,14 +39,14 @@
       }
     ]
   },
-  "Trait": null,
+  "Trait": "A3",
   "NamaUjian": "Profil Personaliti & Kerjaya Pegawai(PTD)",
   "Susunan": 54.0,
   "Kategori": null,
   "CreatedBy": "admin",
   "Id": "PTD-C-00054",
   "CreatedDate": "2015-07-06T11:24:52.7805034+08:00",
-  "ChangedBy": "admin",
-  "ChangedDate": "2015-07-06T11:24:52.7800033+08:00",
+  "ChangedBy": "urusetia2",
+  "ChangedDate": "2015-07-27T16:10:11.8959159+08:00",
   "WebId": "7f51d739-1e28-420f-95e5-c0b026812101"
 }

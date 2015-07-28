@@ -2,7 +2,7 @@
   "$type": "Bespoke.epsikologi_soalan.Domain.Soalan, epsikologi.Soalan",
   "NoRujukan": "PTD-E-00005",
   "SoalanNo": "PTD-E-00005",
-  "TeksSoalan": ".,\"selalu bertindak secara spontan dan pernah melakukan perkara yang boleh dianggap sebagai \"\"bodoh\"\".\"",
+  "TeksSoalan": "selalu bertindak secara spontan dan pernah melakukan perkara yang boleh dianggap sebagai \"bodoh\".",
   "SeksyenSoalan": "E",
   "PilihanJawapanCollection": {
     "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan]], domain.sph",
@@ -39,14 +39,14 @@
       }
     ]
   },
-  "Trait": null,
+  "Trait": "B5",
   "NamaUjian": "Profil Personaliti & Kerjaya Pegawai(PTD)",
   "Susunan": 5.0,
   "Kategori": null,
   "CreatedBy": "admin",
   "Id": "PTD-E-00005",
   "CreatedDate": "2015-07-06T11:24:53.2568401+08:00",
-  "ChangedBy": "admin",
-  "ChangedDate": "2015-07-06T11:24:53.2563395+08:00",
+  "ChangedBy": "urusetia2",
+  "ChangedDate": "2015-07-27T18:01:27.2653861+08:00",
   "WebId": "962a9ce8-c01f-4d59-880c-82086738d60a"
 }

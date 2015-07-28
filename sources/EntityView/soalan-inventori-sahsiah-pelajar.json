@@ -177,10 +177,12 @@
   "CountMessage": "",
   "Entity": "",
   "Partial": "partial/soalan-inventori-sahsiah-pelajar",
+  "Template": null,
+  "DisplayOnDashboard": true,
   "CreatedBy": "admin",
   "Id": "soalan-inventori-sahsiah-pelajar",
   "CreatedDate": "2015-06-22T11:34:46.1285512+08:00",
   "ChangedBy": "admin",
-  "ChangedDate": "2015-06-23T11:30:58.8170439+08:00",
+  "ChangedDate": "2015-07-28T15:12:53.7336693+08:00",
   "WebId": "38e6ae7a-002d-4780-d67c-faea94d5b459"
 }

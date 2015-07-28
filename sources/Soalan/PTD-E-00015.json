@@ -2,7 +2,7 @@
   "$type": "Bespoke.epsikologi_soalan.Domain.Soalan, epsikologi.Soalan",
   "NoRujukan": "PTD-E-00015",
   "SoalanNo": "PTD-E-00015",
-  "TeksSoalan": ".,\"akan turut berasa malu dan mahu menyembunyikan diri apabila individu yang dikenali melakukan perkara yang dianggap \"\"bodoh\"\".\"",
+  "TeksSoalan": "akan turut berasa malu dan mahu menyembunyikan diri apabila individu yang dikenali melakukan perkara yang dianggap \"bodoh\".",
   "SeksyenSoalan": "E",
   "PilihanJawapanCollection": {
     "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan]], domain.sph",
@@ -39,14 +39,14 @@
       }
     ]
   },
-  "Trait": null,
+  "Trait": "E5",
   "NamaUjian": "Profil Personaliti & Kerjaya Pegawai(PTD)",
   "Susunan": 15.0,
   "Kategori": null,
   "CreatedBy": "admin",
   "Id": "PTD-E-00015",
   "CreatedDate": "2015-07-06T11:24:53.3469041+08:00",
-  "ChangedBy": "admin",
-  "ChangedDate": "2015-07-06T11:24:53.3464035+08:00",
+  "ChangedBy": "urusetia2",
+  "ChangedDate": "2015-07-27T18:05:30.8037375+08:00",
   "WebId": "6d62f9cd-cf49-47d6-98e5-8551a2e12ce1"
 }

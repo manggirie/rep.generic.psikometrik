@@ -2,7 +2,7 @@
   "$type": "Bespoke.epsikologi_soalan.Domain.Soalan, epsikologi.Soalan",
   "NoRujukan": "PTD-B-00020",
   "SoalanNo": "PTD-B-00020",
-  "TeksSoalan": ".,sering terlibat dengan perdebatan dan boleh menyinggung perasaan orang lain jika mereka memulakan pertengkaran terlebih dahulu",
+  "TeksSoalan": "sering terlibat dengan perdebatan dan boleh menyinggung perasaan orang lain jika mereka memulakan pertengkaran terlebih dahulu",
   "SeksyenSoalan": "B",
   "PilihanJawapanCollection": {
     "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan]], domain.sph",
@@ -39,14 +39,14 @@
       }
     ]
   },
-  "Trait": null,
+  "Trait": "E2",
   "NamaUjian": "Profil Personaliti & Kerjaya Pegawai(PTD)",
   "Susunan": 20.0,
   "Kategori": null,
   "CreatedBy": "admin",
   "Id": "PTD-B-00020",
   "CreatedDate": "2015-07-06T11:24:52.0695018+08:00",
-  "ChangedBy": "admin",
-  "ChangedDate": "2015-07-06T11:24:52.0690012+08:00",
+  "ChangedBy": "urusetia2",
+  "ChangedDate": "2015-07-27T14:25:25.8943739+08:00",
   "WebId": "1772d034-760b-489a-8cc2-bb9769ddde9c"
 }
