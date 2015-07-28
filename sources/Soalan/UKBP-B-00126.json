@@ -2,7 +2,7 @@
   "$type": "Bespoke.epsikologi_soalan.Domain.Soalan, epsikologi.Soalan",
   "NoRujukan": "UKBP-B-00126",
   "SoalanNo": "UKBP-B-00126",
-  "TeksSoalan": "Mengambil kursus perhubungan manusia.",
+  "TeksSoalan": "Mengikuti kursus perhubungan interpersonal.",
   "SeksyenSoalan": "B",
   "PilihanJawapanCollection": {
     "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan]], domain.sph",
@@ -29,6 +29,6 @@
   "Id": "UKBP-B-00126",
   "CreatedDate": "2015-07-06T11:24:56.9179239+08:00",
   "ChangedBy": "admin",
-  "ChangedDate": "2015-07-06T11:24:56.9174233+08:00",
+  "ChangedDate": "2015-07-28T15:55:12.4030979+08:00",
   "WebId": "9b4b1d45-6a70-49cb-9f9e-7a3449fb8a15"
 }
