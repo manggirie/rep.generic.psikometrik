@@ -13,16 +13,16 @@
           "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.Sph.Domain.ConditionalFormatting, domain.sph]], domain.sph",
           "$values": []
         },
-        "Path": "Nama",
-        "Header": "Nama",
+        "Path": "No",
+        "Header": "No",
         "Sort": "",
         "IsLinkColumn": true,
-        "FormRoute": "pengguna-details",
+        "FormRoute": "skoripu-details",
         "IconCssClass": "",
         "IconStoreId": "",
         "Format": "text:{0}",
         "RouteValueField": "Id",
-        "WebId": "a7f2056b-7174-43c6-bfd3-1bf770ba8348"
+        "WebId": "243443ba-a2e1-48c2-ae74-baf0ab6347d6"
       },
       {
         "$type": "Bespoke.Sph.Domain.ViewColumn, domain.sph",
@@ -30,8 +30,8 @@
           "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.Sph.Domain.ConditionalFormatting, domain.sph]], domain.sph",
           "$values": []
         },
-        "Path": "MyKad",
-        "Header": "MyKad",
+        "Path": "Tret",
+        "Header": "Tret",
         "Sort": "",
         "IsLinkColumn": false,
         "FormRoute": null,
@@ -39,7 +39,7 @@
         "IconStoreId": "",
         "Format": "text:{0}",
         "RouteValueField": "Id",
-        "WebId": "e2a4c65a-3f24-4ab4-c5ea-e5e2a6bd726b"
+        "WebId": "ed660cc1-d870-4b2f-b26d-8dd8232b27f0"
       },
       {
         "$type": "Bespoke.Sph.Domain.ViewColumn, domain.sph",
@@ -47,16 +47,16 @@
           "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.Sph.Domain.ConditionalFormatting, domain.sph]], domain.sph",
           "$values": []
         },
-        "Path": "IsResponden ? '<i class=\\'fa fa-check\\'></i>' :''",
-        "Header": "Responden",
+        "Path": "NilaiMin",
+        "Header": "Min",
         "Sort": "",
         "IsLinkColumn": false,
         "FormRoute": null,
         "IconCssClass": "",
         "IconStoreId": "",
-        "Format": "html:{0}",
+        "Format": "text:{0}",
         "RouteValueField": "Id",
-        "WebId": "9f61e645-b604-44ac-bbf6-a795d3f56817"
+        "WebId": "9ca9a720-203e-489a-8c29-d644e409d068"
       },
       {
         "$type": "Bespoke.Sph.Domain.ViewColumn, domain.sph",
@@ -64,16 +64,16 @@
           "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.Sph.Domain.ConditionalFormatting, domain.sph]], domain.sph",
           "$values": []
         },
-        "Path": "IsPenyelaras ? '<i class=\\'fa fa-check\\'></i>' :''",
-        "Header": "Penyelaras",
+        "Path": "NilaiMax",
+        "Header": "Nilai Max",
         "Sort": "",
         "IsLinkColumn": false,
         "FormRoute": null,
         "IconCssClass": "",
         "IconStoreId": "",
-        "Format": "html:{0}",
+        "Format": "text:{0}",
         "RouteValueField": "Id",
-        "WebId": "aef1280c-02cf-4191-d0f0-d59771e65663"
+        "WebId": "14e1e49d-8d65-49a5-bdc5-dcdf851f08fa"
       },
       {
         "$type": "Bespoke.Sph.Domain.ViewColumn, domain.sph",
@@ -81,16 +81,50 @@
           "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.Sph.Domain.ConditionalFormatting, domain.sph]], domain.sph",
           "$values": []
         },
-        "Path": "IsUrusetia  ? '<i class=\\'fa fa-check\\'></i>' :''",
-        "Header": "Urusetia",
+        "Path": "Percentile",
+        "Header": "Percentile",
         "Sort": "",
         "IsLinkColumn": false,
         "FormRoute": null,
         "IconCssClass": "",
         "IconStoreId": "",
-        "Format": "html:{0}",
+        "Format": "text:{0}",
         "RouteValueField": "Id",
-        "WebId": "0d98a127-3aab-4056-fe51-b38e7fdff751"
+        "WebId": "4f5491a8-d954-446d-d073-bfa263cb2f9d"
+      },
+      {
+        "$type": "Bespoke.Sph.Domain.ViewColumn, domain.sph",
+        "ConditionalFormattingCollection": {
+          "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.Sph.Domain.ConditionalFormatting, domain.sph]], domain.sph",
+          "$values": []
+        },
+        "Path": "Jantina",
+        "Header": "Jantina",
+        "Sort": "",
+        "IsLinkColumn": false,
+        "FormRoute": null,
+        "IconCssClass": "",
+        "IconStoreId": "",
+        "Format": "text:{0}",
+        "RouteValueField": "Id",
+        "WebId": "cf2eca6b-772f-4731-9019-3478a1dd4b10"
+      },
+      {
+        "$type": "Bespoke.Sph.Domain.ViewColumn, domain.sph",
+        "ConditionalFormattingCollection": {
+          "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.Sph.Domain.ConditionalFormatting, domain.sph]], domain.sph",
+          "$values": []
+        },
+        "Path": "Skor",
+        "Header": "Skor",
+        "Sort": "",
+        "IsLinkColumn": false,
+        "FormRoute": null,
+        "IconCssClass": "",
+        "IconStoreId": "",
+        "Format": "text:{0}",
+        "RouteValueField": "Id",
+        "WebId": "1ec480b7-19c4-4955-ea53-1b2ba71ec378"
       }
     ]
   },
@@ -104,34 +138,34 @@
   },
   "Performer": {
     "$type": "Bespoke.Sph.Domain.Performer, domain.sph",
-    "UserProperty": "Roles",
-    "Value": "PengurusanPengguna",
-    "IsPublic": false,
+    "UserProperty": "",
+    "Value": null,
+    "IsPublic": true,
     "WebId": null
   },
   "RouteParameterCollection": {
     "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.Sph.Domain.RouteParameter, domain.sph]], domain.sph",
     "$values": []
   },
-  "IconClass": "fa fa-users",
-  "IconStoreId": "e3d73a96-427a-4c30-a0e3-1d93db5bf94c",
-  "EntityDefinitionId": "pengguna",
-  "Name": "Senarai Pengguna",
-  "Route": "pengguna-all",
-  "Note": "Senarai Semua Pengguna",
+  "IconClass": "fa fa-sort-numeric-asc",
+  "IconStoreId": null,
+  "EntityDefinitionId": "skoripu",
+  "Name": "All Skor IPU",
+  "Route": "skor-ipu-all",
+  "Note": "IPU Table Lookup",
   "Query": null,
   "IsPublished": true,
   "Visibilty": null,
-  "TileColour": "borange",
+  "TileColour": "bgreen",
   "CountMessage": null,
-  "Entity": "Pengguna",
-  "Partial": "partial/pengguna-all",
+  "Entity": "SkorIPU",
+  "Partial": "partial/skor-ipu-all",
   "Template": null,
   "DisplayOnDashboard": true,
-  "CreatedBy": "admin",
-  "Id": "pengguna-pengguna-all",
-  "CreatedDate": "2015-06-16T08:04:09.5345994+08:00",
-  "ChangedBy": "admin",
-  "ChangedDate": "2015-07-29T12:49:01.615688+08:00",
-  "WebId": "7bc3651c-5ad2-4db7-802b-5a4de7c7b561"
+  "CreatedBy": "Pentadbir1",
+  "Id": "65ff0a47-031a-45f6-98a3-0cbf90d8c737",
+  "CreatedDate": "2015-07-29T09:51:14.366382+08:00",
+  "ChangedBy": "Pentadbir1",
+  "ChangedDate": "2015-07-29T10:15:08.600896+08:00",
+  "WebId": "866fcc0a-cb6f-48b2-a79b-89e82874c6b3"
 }
