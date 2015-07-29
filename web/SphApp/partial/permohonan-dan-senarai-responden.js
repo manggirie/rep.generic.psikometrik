@@ -1,4 +1,5 @@
-define(["services/datacontext", objectbuilders.app, objectbuilders.config], function(context, app, config){
+define(["services/datacontext", objectbuilders.app, objectbuilders.config, objectbuilders.logger], function(context, app, config, logger) {
+	"use strict"
     var permohonan = ko.observable(),
         filePelajar = ko.observable(),
         senaraiPendaftaran = ko.observableArray(),
@@ -18,9 +19,59 @@ define(["services/datacontext", objectbuilders.app, objectbuilders.config], func
         },
         save = function(pendaftaran) {
 
-            var data = ko.mapping.toJSON(pendaftaran);
-            return context.post(data, "/PendaftaranProgram/TambahResponden")
+            var data = ko.mapping.toJSON(pendaftaran),
+                sixMonthsAgo = moment().subtract(6, 'M').format("YYYY-MM-DD"),
+				pm = permohonan();
+			
+				var ujian = "";
+				if(ko.unwrap(pm.isIBK)){
+					ujian = "IBK";
+				}
+				if(ko.unwrap(pm.isUKBP)){
+					ujian = "UKBP";
+				}
+				if(ko.unwrap(pm.isIP)){
+					ujian = "IP";
+				}
+				if(ko.unwrap(pm.isHLP)){
+					ujian = "HLP";
+				}
+				if(ko.unwrap(pm.isIOC)){
+					ujian = "IOC";
+				}
+				if(ko.unwrap(pm.isIPE)){
+					ujian = "IPE";
+				}
+				if(ko.unwrap(pm.isIPU)){
+					ujian = "IPU";
+				}
+				if(ko.unwrap(pm.isISO)){
+					ujian = "ISO";
+				}
+				if(ko.unwrap(pm.isISP)){
+					ujian = "ISP";
+				}
+				if(ko.unwrap(pm.isPTD)){
+					ujian = "PTD";
+				}
+			
+            return context.loadOneAsync("Permohonan", "Id eq '" + ko.unwrap(pendaftaran.PermohonanId) + "'")
+                .then(function(pm){
+                    // TODO : what it has more than 1 Ujian
+                    var query =  String.format("Status eq 'Diambil' and TarikhUjian ge DateTime'{0}' and MyKad eq '{1}' and NamaUjian eq '{2}'", sixMonthsAgo, pendaftaran.MyKad(), ujian);
+                    return context.getCountAsync("SesiUjian", query, "Id")
+                })
+                .then(function(count){
+                    if(count > 0){
+                        logger.error(String.format("{0} sudah menduduki ujian {1} dan perlu menunngu 6 bulan", pendaftaran.MyKad(), ujian), ko.toJS(pendaftaran));
+						return Task.fromResult("Sudah daftar");
+                    }
+                    return context.post(data, "/PendaftaranProgram/TambahResponden");
+                })
                 .then(function(result) {
+					if(result === "Sudah daftar"){
+						return;
+					}
                     senaraiPendaftaran.push(pendaftaran);
                 });
 

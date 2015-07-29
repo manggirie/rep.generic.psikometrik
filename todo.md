@@ -30,8 +30,8 @@
 * Remove user kalau tersilap MyKad, kena delete dalam Pengguna, UserProfile dan MembershipUser, unutk elak duplicate email address
 
 ## Ujian
-* Tarikh terkini - tarikh ujian yg diambil responden, x boleh ambil ujian yang sama dalam 6 bulan. (prompt message kepada penyelaras yang cuba mendaftarkan responden
-* "Responden telah mengambil ujian ?? kurang dari 6 bulan yang lalu".
+* ~~Tarikh terkini - tarikh ujian yg diambil responden, x boleh ambil ujian yang sama dalam 6 bulan. (prompt message kepada penyelaras yang cuba mendaftarkan responden~~
+* ~~"Responden telah mengambil ujian ?? kurang dari 6 bulan yang lalu".~~
 
 ## Home page-
 * turn it back on- was disabled
