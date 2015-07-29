@@ -2,7 +2,7 @@
   "$type": "Bespoke.epsikologi_soalan.Domain.Soalan, epsikologi.Soalan",
   "NoRujukan": "UKBP-B-00152",
   "SoalanNo": "UKBP-B-00152",
-  "TeksSoalan": "Menukar minyak kereta atau tayar.",
+  "TeksSoalan": "Menukar minyak enjin atau tayar kereta.",
   "SeksyenSoalan": "B",
   "PilihanJawapanCollection": {
     "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan]], domain.sph",
@@ -29,6 +29,6 @@
   "Id": "UKBP-B-00152",
   "CreatedDate": "2015-07-06T11:24:57.1285728+08:00",
   "ChangedBy": "admin",
-  "ChangedDate": "2015-07-06T11:24:57.1275721+08:00",
+  "ChangedDate": "2015-07-29T10:36:21.9765709+08:00",
   "WebId": "721f9ce9-891c-4883-af6c-e8b5c36c5e7c"
 }

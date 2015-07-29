@@ -2,7 +2,7 @@
   "$type": "Bespoke.epsikologi_soalan.Domain.Soalan, epsikologi.Soalan",
   "NoRujukan": "UKBP-B-00153",
   "SoalanNo": "UKBP-B-00153",
-  "TeksSoalan": "Menggunakan peralatan elektrik seperti mesin pengerudi, mesin pengisar atau mesin jahit.",
+  "TeksSoalan": "Menggunakan peralatan elektrik seperti mesin gerudi, mesin kisar atau mesin jahit.",
   "SeksyenSoalan": "B",
   "PilihanJawapanCollection": {
     "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan]], domain.sph",
@@ -29,6 +29,6 @@
   "Id": "UKBP-B-00153",
   "CreatedDate": "2015-07-06T11:24:57.1345771+08:00",
   "ChangedBy": "admin",
-  "ChangedDate": "2015-07-06T11:24:57.1340765+08:00",
+  "ChangedDate": "2015-07-29T10:36:54.3528082+08:00",
   "WebId": "16371704-f1ab-43a0-aaa3-de94f7ee8d20"
 }

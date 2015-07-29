@@ -2,7 +2,7 @@
   "$type": "Bespoke.epsikologi_soalan.Domain.Soalan, epsikologi.Soalan",
   "NoRujukan": "UKBP-B-00148",
   "SoalanNo": "UKBP-B-00148",
-  "TeksSoalan": "Menyemak kesalahan atau kelemahan di dalam kertas kerja atau produk.",
+  "TeksSoalan": "Menyemak kesalahan dalam penyediaan kertas kerja.",
   "SeksyenSoalan": "B",
   "PilihanJawapanCollection": {
     "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan]], domain.sph",
@@ -29,6 +29,6 @@
   "Id": "UKBP-B-00148",
   "CreatedDate": "2015-07-06T11:24:57.1035552+08:00",
   "ChangedBy": "admin",
-  "ChangedDate": "2015-07-06T11:24:57.1035552+08:00",
+  "ChangedDate": "2015-07-29T10:33:52.7596507+08:00",
   "WebId": "fd515132-1453-4eeb-a602-4ce2c9f1e4ef"
 }
