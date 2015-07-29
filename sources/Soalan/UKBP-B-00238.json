@@ -2,7 +2,7 @@
   "$type": "Bespoke.epsikologi_soalan.Domain.Soalan, epsikologi.Soalan",
   "NoRujukan": "UKBP-B-00238",
   "SoalanNo": "UKBP-B-00238",
-  "TeksSoalan": "Pelakon (Penyanyi).",
+  "TeksSoalan": "Pelakon/Penyanyi.",
   "SeksyenSoalan": "B",
   "PilihanJawapanCollection": {
     "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan]], domain.sph",
@@ -29,6 +29,6 @@
   "Id": "UKBP-B-00238",
   "CreatedDate": "2015-07-06T11:24:57.9186302+08:00",
   "ChangedBy": "admin",
-  "ChangedDate": "2015-07-06T11:24:57.9176295+08:00",
+  "ChangedDate": "2015-07-29T15:29:03.7857213+08:00",
   "WebId": "9fb3b842-6545-457c-9fc7-79ef37f3e911"
 }
