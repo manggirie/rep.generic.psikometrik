@@ -1,0 +1,145 @@
+
+
+<h1 data-i18n="IP Recommendation">IP Recommendation</h1>
+<div id="error-list" class="row" data-bind="visible:errors().length">
+    <!-- ko foreach : errors -->
+    <div class="col-sm-8 col-sm-offset-2 alert alert-dismissable alert-danger">
+        <button type="button" class="close" data-dismiss="alert" aria-hidden="true">&times;</button>
+        <i class="fa fa-exclamation"></i>
+        <span data-bind="text:Message"></span>
+
+    </div>
+    <div class="col-sm-2"></div>
+    <!-- /ko-->
+</div>
+<div class="row">
+    <div class="col-sm-8">
+        
+<form class="form-horizontal" data-bind="with : entity" id="ip-recommendation-details-form">
+
+
+
+    <div data-bind="visible:true" class="form-group">
+        <label data-i18n="Skor" for="1a4988bb-acf0-428f-ca5f-9b2c06329e37" class="col-md-4">Skor</label>
+        <div class="col-md-8">
+            <input required class=" form-control input-large" title=""
+                   data-bind="value: Skor, enable :true "
+                   maxlength="4"
+                   pattern="[A-Z]{4}"
+                    data-rule-required="true" 
+ data-rule-maxlength="4"
+ data-rule-minlength="4"
+
+                   id="1a4988bb-acf0-428f-ca5f-9b2c06329e37" type="text" name="Skor" />
+        </div>
+    </div>
+
+
+
+    <div data-bind="visible:true" class="form-group">
+        <label data-i18n="Hubungan Interpersonal" for="89612ae0-fe14-4088-8c62-4afdf27ba8f6" class="col-md-4">Hubungan Interpersonal</label>
+        <div class="col-md-8">
+            <input  class=" form-control input-large" title=""
+                   data-bind="value: HubunganInterpersonal, enable :true "
+                   
+                   
+                   
+                   id="89612ae0-fe14-4088-8c62-4afdf27ba8f6" type="text" name="HubunganInterpersonal" />
+        </div>
+    </div>
+
+
+
+    <div data-bind="visible:true" class="form-group">
+        <label data-i18n="Memperoleh Maklumat" for="6a4451b9-caf3-40f5-b97c-b7763a8381b1" class="col-md-4">Memperoleh Maklumat</label>
+        <div class="col-md-8">
+            <input  class=" form-control input-large" title=""
+                   data-bind="value: MemperolehMaklumat, enable :true "
+                   
+                   
+                   
+                   id="6a4451b9-caf3-40f5-b97c-b7763a8381b1" type="text" name="MemperolehMaklumat" />
+        </div>
+    </div>
+
+
+
+    <div data-bind="visible:true" class="form-group">
+        <label data-i18n="Membuat Keputusan" for="c720174d-4d51-4261-b624-f449db699605" class="col-md-4">Membuat Keputusan</label>
+        <div class="col-md-8">
+            <input  class=" form-control input-large" title=""
+                   data-bind="value: MembuatKeputusan, enable :true "
+                   
+                   
+                   
+                   id="c720174d-4d51-4261-b624-f449db699605" type="text" name="MembuatKeputusan" />
+        </div>
+    </div>
+
+
+
+    <div data-bind="visible:true" class="form-group">
+        <label data-i18n="Cara Gaya Kehidupan" for="ab560d52-d079-4d6d-b2a9-26b23a1226ee" class="col-md-4">Cara Gaya Kehidupan</label>
+        <div class="col-md-8">
+            <input  class=" form-control input-large" title=""
+                   data-bind="value: CaraGayaKehidupan, enable :true "
+                   
+                   
+                   
+                   id="ab560d52-d079-4d6d-b2a9-26b23a1226ee" type="text" name="CaraGayaKehidupan" />
+        </div>
+    </div>
+
+    <div class="form-group" data-bind="visible:true">
+        <label data-i18n="Perwatakan" for="f185b935-bc44-47e5-ba9e-2225e54f7664" class="col-md-4">Perwatakan</label>
+        <div class="col-md-8">
+            <textarea class=" form-control input-large" data-bind="value: Perwatakan, visible :true, enable :true"
+                      id="f185b935-bc44-47e5-ba9e-2225e54f7664" name="Perwatakan"></textarea>
+        </div>
+    </div>
+
+    <div class="form-group" data-bind="visible:true">
+        <label data-i18n="Pekerjaan" for="085d1a53-673c-446b-a606-ce63c7f35ba7" class="col-md-4">Pekerjaan</label>
+        <div class="col-md-8">
+            <textarea class=" form-control input-large" data-bind="value: Pekerjaan, visible :true, enable :true"
+                      id="085d1a53-673c-446b-a606-ce63c7f35ba7" name="Pekerjaan"></textarea>
+        </div>
+    </div>
+
+    <div class="form-group" data-bind="visible:true">
+        <label data-i18n="Pengurusan Perubahan" for="33cbc1f9-f1c9-4071-c3c2-263a238259d2" class="col-md-4">Pengurusan Perubahan</label>
+        <div class="col-md-8">
+            <textarea class=" form-control input-large" data-bind="value: PengurusanPerubahan, visible :true, enable :true"
+                      id="33cbc1f9-f1c9-4071-c3c2-263a238259d2" name="PengurusanPerubahan"></textarea>
+        </div>
+    </div>
+
+    <div class="form-group" data-bind="visible:true">
+        <label data-i18n="Kepimpinan" for="77202fa9-e50d-44ed-94ab-73b5c602e097" class="col-md-4">Kepimpinan</label>
+        <div class="col-md-8">
+            <textarea class=" form-control input-large" data-bind="value: Kepimpinan, visible :true, enable :true"
+                      id="77202fa9-e50d-44ed-94ab-73b5c602e097" name="Kepimpinan"></textarea>
+        </div>
+    </div>
+
+    <div class="form-group" data-bind="visible:true">
+        <label data-i18n="Persepsi Orang Lain" for="c4531e05-b422-4a80-cadc-29e60732a7e0" class="col-md-4">Persepsi Orang Lain</label>
+        <div class="col-md-8">
+            <textarea class=" form-control input-large" data-bind="value: PersepsiOrangLain, visible :true, enable :true"
+                      id="c4531e05-b422-4a80-cadc-29e60732a7e0" name="PersepsiOrangLain"></textarea>
+        </div>
+    </div>
+
+    <div class="form-group" data-bind="visible:true">
+        <label data-i18n="Reaksi Terhadap Stres" for="275aa295-1d1b-42d4-8ec9-b60b54239491" class="col-md-4">Reaksi Terhadap Stres</label>
+        <div class="col-md-8">
+            <textarea class=" form-control input-large" data-bind="value: ReaksiTerhadapStres, visible :true, enable :true"
+                      id="275aa295-1d1b-42d4-8ec9-b60b54239491" name="ReaksiTerhadapStres"></textarea>
+        </div>
+    </div>
+</form>
+    </div>
+    <div class="col-sm-4">
+        
+    </div>
+</div>
