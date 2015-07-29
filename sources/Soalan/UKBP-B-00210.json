@@ -2,7 +2,7 @@
   "$type": "Bespoke.epsikologi_soalan.Domain.Soalan, epsikologi.Soalan",
   "NoRujukan": "UKBP-B-00210",
   "SoalanNo": "UKBP-B-00210",
-  "TeksSoalan": "Melakukan tugas dengan berhati-hati dan terurus.",
+  "TeksSoalan": "Melakukan tugas dengan berhati-hati dan sistematik.",
   "SeksyenSoalan": "B",
   "PilihanJawapanCollection": {
     "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan]], domain.sph",
@@ -29,6 +29,6 @@
   "Id": "UKBP-B-00210",
   "CreatedDate": "2015-07-06T11:24:57.5543731+08:00",
   "ChangedBy": "admin",
-  "ChangedDate": "2015-07-06T11:24:57.5538726+08:00",
+  "ChangedDate": "2015-07-29T15:04:11.6783036+08:00",
   "WebId": "4accbe22-5ff1-4601-b1cb-fdcfc84da66d"
 }
