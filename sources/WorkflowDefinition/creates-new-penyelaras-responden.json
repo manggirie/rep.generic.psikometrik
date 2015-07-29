@@ -5,7 +5,7 @@
     "$values": [
       {
         "$type": "Bespoke.Sph.Domain.ExpressionActivity, domain.sph",
-        "Expression": "this.Password = Guid.NewGuid().ToString();\n\nvar context = new SphDataContext();\nvar designation = await context.LoadOneAsync<Designation>(d => d.Name == \"Penyelaras dan Responden\");\nvar roles = designation.RoleCollection.ToArray();\nvar profile = new UserProfile {\n        Id = this.Pengguna.Id,\n        UserName = this.Pengguna.MyKad,\n        Email = this.Pengguna.Emel,\n        FullName = this.Pengguna.Nama,\n        Designation = \"Penyelaras dan Responden\",\n        HasChangedDefaultPassword = false,\n        RoleTypes = string.Join(\",\",roles),\n        StartModule = \"penyelaras-home\",\n        Language = \"en-US\"\n        \n    };\nvar exist = System.Web.Security.Membership.GetUser(profile.UserName);\nConsole.WriteLine(\"done mapping user profile\");\n\nif(null == exist)\n{\n    System.Web.Security.Membership.CreateUser(profile.UserName, this.Password, profile.Email);\n    System.Web.Security.Roles.AddUserToRoles(profile.UserName, roles); \n    \n    Console.WriteLine(\"insert into user profile\");\n    using(var session = context.OpenSession())\n    {\n        session.Attach(profile);\n        await session.SubmitChanges();\n    }\n    \n    //IsCreated = true;\n}\n            ",
+        "Expression": "this.Password = System.Web.Security.Membership.GeneratePassword(6,0);\n\nvar context = new SphDataContext();\nvar designation = await context.LoadOneAsync<Designation>(d => d.Name == \"Penyelaras dan Responden\");\nvar roles = designation.RoleCollection.ToArray();\nvar profile = new UserProfile {\n        Id = this.Pengguna.Id,\n        UserName = this.Pengguna.MyKad,\n        Email = this.Pengguna.Emel,\n        FullName = this.Pengguna.Nama,\n        Designation = \"Penyelaras dan Responden\",\n        HasChangedDefaultPassword = false,\n        RoleTypes = string.Join(\",\",roles),\n        StartModule = \"penyelaras-home\",\n        Language = \"en-US\"\n        \n    };\nvar exist = System.Web.Security.Membership.GetUser(profile.UserName);\nConsole.WriteLine(\"done mapping user profile\");\n\nif(null == exist)\n{\n    System.Web.Security.Membership.CreateUser(profile.UserName, this.Password, profile.Email);\n    System.Web.Security.Roles.AddUserToRoles(profile.UserName, roles); \n    \n    Console.WriteLine(\"insert into user profile\");\n    using(var session = context.OpenSession())\n    {\n        session.Attach(profile);\n        await session.SubmitChanges();\n    }\n    \n    //IsCreated = true;\n}\n            ",
         "IsAsync": false,
         "ExecutedCode": null,
         "ExecutingCode": null,
@@ -16,13 +16,13 @@
         },
         "WorkflowDesigner": {
           "$type": "Bespoke.Sph.Domain.WorkflowDesigner, domain.sph",
-          "X": 57,
-          "Y": 63,
+          "X": 66,
+          "Y": 60,
           "WebId": null
         },
         "IsInitiator": true,
         "NextActivityWebId": "41cddfd4-0781-44b1-db25-cbef78c61352",
-        "Name": "CreateProfileAndMembership",
+        "Name": "Tambah UserProfile",
         "TryScope": null,
         "CatchScope": null,
         "WebId": "6527072e-1302-4de8-cdbe-52968cfea0a4"
@@ -40,13 +40,13 @@
         },
         "WorkflowDesigner": {
           "$type": "Bespoke.Sph.Domain.WorkflowDesigner, domain.sph",
-          "X": 12,
-          "Y": 487,
+          "X": 403,
+          "Y": 787,
           "WebId": null
         },
         "IsInitiator": false,
         "NextActivityWebId": null,
-        "Name": "End_1",
+        "Name": "Siap",
         "TryScope": null,
         "CatchScope": null,
         "WebId": "56dd17a3-d01d-44d6-a2c1-d1fb0587655e"
@@ -55,7 +55,7 @@
         "$type": "Bespoke.Sph.Domain.NotificationActivity, domain.sph",
         "From": "admin@@sph.my",
         "Subject": "JPA ePsikometrik account has been created",
-        "Body": "Salam sejahtera,\n\nYour account has been created you can reach the application at \nYou user name is @Model.Pengguna.MyKad and your password is @Model.Password\n\nYou may have to change your password upon first time signing in.\n\nThis is a computer generated email.",
+        "Body": "Salam sejahtera,\n\nYour account has been created you can reach the application at \n@Bespoke.Sph.Domain.ConfigurationManager.BaseUr\n\nUser name :  @Model.Pengguna.MyKad \nPassword :  @Model.Password\n\nYou will have to change your password upon first time signing in.\n\nThis is a computer generated email\n      ",
         "To": "@Model.Pengguna.Emel",
         "UserName": null,
         "Cc": null,
@@ -156,16 +156,232 @@
         },
         "WorkflowDesigner": {
           "$type": "Bespoke.Sph.Domain.WorkflowDesigner, domain.sph",
-          "X": 279,
-          "Y": 275,
+          "X": 388,
+          "Y": 133,
           "WebId": null
         },
         "IsInitiator": false,
-        "NextActivityWebId": "56dd17a3-d01d-44d6-a2c1-d1fb0587655e",
+        "NextActivityWebId": "b5db7beb-3f22-4925-b506-5b0261913e7b",
         "Name": "Email Pengguna",
         "TryScope": null,
         "CatchScope": null,
         "WebId": "41cddfd4-0781-44b1-db25-cbef78c61352"
+      },
+      {
+        "$type": "Bespoke.Sph.Domain.DecisionActivity, domain.sph",
+        "DecisionBranchCollection": {
+          "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.Sph.Domain.DecisionBranch, domain.sph]], domain.sph",
+          "$values": [
+            {
+              "$type": "Bespoke.Sph.Domain.DecisionBranch, domain.sph",
+              "IsDefault": false,
+              "Expression": "!string.IsNullOrWhiteSpace(this.Pengguna.Emel2)",
+              "IsAsync": false,
+              "ExecutedCode": null,
+              "ExecutingCode": null,
+              "TypeName": "DecisionBranch",
+              "OtherMethodCollection": {
+                "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.Sph.Domain.Codes.Method, domain.sph]], domain.sph",
+                "$values": []
+              },
+              "WorkflowDesigner": {
+                "$type": "Bespoke.Sph.Domain.WorkflowDesigner, domain.sph",
+                "X": 0,
+                "Y": 0,
+                "WebId": "2a87fe1d-dfae-4a89-bdf1-6f5f8f63f7d8"
+              },
+              "IsInitiator": false,
+              "NextActivityWebId": "2cb0db00-49bf-4210-9a14-f2e2ead4f800",
+              "Name": "Ya",
+              "TryScope": "",
+              "CatchScope": "",
+              "WebId": "b5e86bcc-ab51-4ff4-abfa-a0c7de9182b5"
+            },
+            {
+              "$type": "Bespoke.Sph.Domain.DecisionBranch, domain.sph",
+              "IsDefault": true,
+              "Expression": null,
+              "IsAsync": false,
+              "ExecutedCode": null,
+              "ExecutingCode": null,
+              "TypeName": "DecisionBranch",
+              "OtherMethodCollection": {
+                "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.Sph.Domain.Codes.Method, domain.sph]], domain.sph",
+                "$values": []
+              },
+              "WorkflowDesigner": {
+                "$type": "Bespoke.Sph.Domain.WorkflowDesigner, domain.sph",
+                "X": 0,
+                "Y": 0,
+                "WebId": "6fae36ec-7fbb-40de-cb24-147203e1eec7"
+              },
+              "IsInitiator": false,
+              "NextActivityWebId": "56dd17a3-d01d-44d6-a2c1-d1fb0587655e",
+              "Name": "Tidak",
+              "TryScope": "",
+              "CatchScope": "",
+              "WebId": "d6cd70f6-6de2-4c10-d306-2cc3b0bec905"
+            }
+          ]
+        },
+        "IsAsync": false,
+        "ExecutedCode": null,
+        "ExecutingCode": null,
+        "TypeName": "Decision",
+        "OtherMethodCollection": {
+          "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.Sph.Domain.Codes.Method, domain.sph]], domain.sph",
+          "$values": [
+            {
+              "$type": "Bespoke.Sph.Domain.Codes.Method, domain.sph",
+              "Comment": null,
+              "AccessModifier": "Internal",
+              "ReturnType": null,
+              "Name": null,
+              "FileName": null,
+              "Code": "   [System.Diagnostics.Contracts.PureAttribute]\r\n   private bool AdaEmel2Ya()\r\n   {\r\n       var item = this;\r\n       return !string.IsNullOrWhiteSpace(this.Pengguna.Emel2);\r\n   }\r\n",
+              "Body": null,
+              "IsVirtual": false,
+              "IsOverride": false,
+              "IsStatic": false,
+              "ArgumentCollection": {
+                "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.Sph.Domain.MethodArg, domain.sph]], domain.sph",
+                "$values": []
+              },
+              "AttributeCollection": {
+                "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[System.String, mscorlib]], domain.sph",
+                "$values": []
+              }
+            }
+          ]
+        },
+        "WorkflowDesigner": {
+          "$type": "Bespoke.Sph.Domain.WorkflowDesigner, domain.sph",
+          "X": 343,
+          "Y": 369,
+          "WebId": null
+        },
+        "IsInitiator": false,
+        "NextActivityWebId": null,
+        "Name": "Ada Emel 2",
+        "TryScope": null,
+        "CatchScope": null,
+        "WebId": "b5db7beb-3f22-4925-b506-5b0261913e7b"
+      },
+      {
+        "$type": "Bespoke.Sph.Domain.NotificationActivity, domain.sph",
+        "From": "admin@@sph.my",
+        "Subject": "JPA ePsikometrik account has been created",
+        "Body": "Salam sejahtera,\n\nYour account has been created you can reach the application at \n@Bespoke.Sph.Domain.ConfigurationManager.BaseUr\n\nUser name :  @Model.Pengguna.MyKad \nPassword :  @Model.Password\n\nYou will have to change your password upon first time signing in.\n\nThis is a computer generated email\n      ",
+        "To": "@Model.Pengguna.Emel2",
+        "UserName": null,
+        "Cc": null,
+        "Bcc": null,
+        "IsHtmlEmail": false,
+        "IsAsync": false,
+        "ExecutedCode": null,
+        "ExecutingCode": null,
+        "TypeName": "Notification",
+        "OtherMethodCollection": {
+          "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.Sph.Domain.Codes.Method, domain.sph]], domain.sph",
+          "$values": [
+            {
+              "$type": "Bespoke.Sph.Domain.Codes.Method, domain.sph",
+              "Comment": null,
+              "AccessModifier": "Internal",
+              "ReturnType": null,
+              "Name": null,
+              "FileName": null,
+              "Code": "   private async Task<string> TransformFromEmail2Async(string template)\r\n   {\r\n\r\n            var razor = ObjectBuilder.GetObject<ITemplateEngine>();\r\n            return await razor.GenerateAsync(template, this).ConfigureAwait(false);   }\r\n",
+              "Body": null,
+              "IsVirtual": false,
+              "IsOverride": false,
+              "IsStatic": false,
+              "ArgumentCollection": {
+                "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.Sph.Domain.MethodArg, domain.sph]], domain.sph",
+                "$values": []
+              },
+              "AttributeCollection": {
+                "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[System.String, mscorlib]], domain.sph",
+                "$values": []
+              }
+            },
+            {
+              "$type": "Bespoke.Sph.Domain.Codes.Method, domain.sph",
+              "Comment": null,
+              "AccessModifier": "Internal",
+              "ReturnType": null,
+              "Name": null,
+              "FileName": null,
+              "Code": "   private async Task<string> TransformToEmail2Async(string template)\r\n   {\r\n\r\n            var razor = ObjectBuilder.GetObject<ITemplateEngine>();\r\n            return await razor.GenerateAsync(template, this).ConfigureAwait(false);   }\r\n",
+              "Body": null,
+              "IsVirtual": false,
+              "IsOverride": false,
+              "IsStatic": false,
+              "ArgumentCollection": {
+                "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.Sph.Domain.MethodArg, domain.sph]], domain.sph",
+                "$values": []
+              },
+              "AttributeCollection": {
+                "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[System.String, mscorlib]], domain.sph",
+                "$values": []
+              }
+            },
+            {
+              "$type": "Bespoke.Sph.Domain.Codes.Method, domain.sph",
+              "Comment": null,
+              "AccessModifier": "Internal",
+              "ReturnType": null,
+              "Name": null,
+              "FileName": null,
+              "Code": "   private async Task<string> TransformSubjectEmail2Async(string template)\r\n   {\r\n\r\n            var razor = ObjectBuilder.GetObject<ITemplateEngine>();\r\n            return await razor.GenerateAsync(template, this).ConfigureAwait(false);   }\r\n",
+              "Body": null,
+              "IsVirtual": false,
+              "IsOverride": false,
+              "IsStatic": false,
+              "ArgumentCollection": {
+                "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.Sph.Domain.MethodArg, domain.sph]], domain.sph",
+                "$values": []
+              },
+              "AttributeCollection": {
+                "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[System.String, mscorlib]], domain.sph",
+                "$values": []
+              }
+            },
+            {
+              "$type": "Bespoke.Sph.Domain.Codes.Method, domain.sph",
+              "Comment": null,
+              "AccessModifier": "Internal",
+              "ReturnType": null,
+              "Name": null,
+              "FileName": null,
+              "Code": "   private async Task<string> TransformBodyEmail2Async(string template)\r\n   {\r\n\r\n            var razor = ObjectBuilder.GetObject<ITemplateEngine>();\r\n            return await razor.GenerateAsync(template, this).ConfigureAwait(false);   }\r\n",
+              "Body": null,
+              "IsVirtual": false,
+              "IsOverride": false,
+              "IsStatic": false,
+              "ArgumentCollection": {
+                "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.Sph.Domain.MethodArg, domain.sph]], domain.sph",
+                "$values": []
+              },
+              "AttributeCollection": {
+                "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[System.String, mscorlib]], domain.sph",
+                "$values": []
+              }
+            }
+          ]
+        },
+        "WorkflowDesigner": {
+          "$type": "Bespoke.Sph.Domain.WorkflowDesigner, domain.sph",
+          "X": 275,
+          "Y": 603,
+          "WebId": null
+        },
+        "IsInitiator": false,
+        "NextActivityWebId": "56dd17a3-d01d-44d6-a2c1-d1fb0587655e",
+        "Name": "Email 2",
+        "TryScope": null,
+        "CatchScope": null,
+        "WebId": "2cb0db00-49bf-4210-9a14-f2e2ead4f800"
       }
     ]
   },
@@ -238,6 +454,6 @@
   "Id": "creates-new-penyelaras-responden",
   "CreatedDate": "2015-06-16T08:05:10.6327134+08:00",
   "ChangedBy": "admin",
-  "ChangedDate": "2015-07-11T09:56:23.1962796+08:00",
+  "ChangedDate": "2015-07-29T09:48:52.0895213+08:00",
   "WebId": "79cadf36-6a53-4c66-d9fc-3f21a5b318ff"
 }

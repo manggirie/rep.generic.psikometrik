@@ -108,12 +108,12 @@
         },
         "WorkflowDesigner": {
           "$type": "Bespoke.Sph.Domain.WorkflowDesigner, domain.sph",
-          "X": 432,
-          "Y": 71,
+          "X": 396,
+          "Y": 118,
           "WebId": null
         },
         "IsInitiator": false,
-        "NextActivityWebId": "3c628fca-73bc-458b-b34e-912678468dd2",
+        "NextActivityWebId": "ed409560-c389-44ab-818b-f40a8803cae9",
         "Name": "Email responden",
         "TryScope": null,
         "CatchScope": null,
@@ -156,8 +156,8 @@
         },
         "WorkflowDesigner": {
           "$type": "Bespoke.Sph.Domain.WorkflowDesigner, domain.sph",
-          "X": 420,
-          "Y": 779,
+          "X": 781,
+          "Y": 944,
           "WebId": null
         },
         "IsInitiator": false,
@@ -180,8 +180,8 @@
         },
         "WorkflowDesigner": {
           "$type": "Bespoke.Sph.Domain.WorkflowDesigner, domain.sph",
-          "X": 18,
-          "Y": 309,
+          "X": 833,
+          "Y": 368,
           "WebId": null
         },
         "IsInitiator": false,
@@ -204,8 +204,8 @@
         },
         "WorkflowDesigner": {
           "$type": "Bespoke.Sph.Domain.WorkflowDesigner, domain.sph",
-          "X": 26,
-          "Y": 509,
+          "X": 6,
+          "Y": 615,
           "WebId": null
         },
         "IsInitiator": false,
@@ -382,8 +382,8 @@
         },
         "WorkflowDesigner": {
           "$type": "Bespoke.Sph.Domain.WorkflowDesigner, domain.sph",
-          "X": 164,
-          "Y": 826,
+          "X": 174,
+          "Y": 730,
           "WebId": null
         },
         "IsInitiator": false,
@@ -392,6 +392,222 @@
         "TryScope": null,
         "CatchScope": null,
         "WebId": "f9b816f6-a1c8-42a9-86fa-838f0375f40b"
+      },
+      {
+        "$type": "Bespoke.Sph.Domain.DecisionActivity, domain.sph",
+        "DecisionBranchCollection": {
+          "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.Sph.Domain.DecisionBranch, domain.sph]], domain.sph",
+          "$values": [
+            {
+              "$type": "Bespoke.Sph.Domain.DecisionBranch, domain.sph",
+              "IsDefault": false,
+              "Expression": "!string.IsNullOrWhiteSpace(Responden.Emel2)",
+              "IsAsync": false,
+              "ExecutedCode": null,
+              "ExecutingCode": null,
+              "TypeName": "DecisionBranch",
+              "OtherMethodCollection": {
+                "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.Sph.Domain.Codes.Method, domain.sph]], domain.sph",
+                "$values": []
+              },
+              "WorkflowDesigner": {
+                "$type": "Bespoke.Sph.Domain.WorkflowDesigner, domain.sph",
+                "X": 0,
+                "Y": 0,
+                "WebId": "1792bd10-7f0d-4dd4-f47f-6df90f922adc"
+              },
+              "IsInitiator": false,
+              "NextActivityWebId": "5a20bfdf-94f4-4f7a-f7cf-a53f9aef5156",
+              "Name": "Ya",
+              "TryScope": "",
+              "CatchScope": "",
+              "WebId": "98104829-2ed7-4252-a485-bca922dc35ee"
+            },
+            {
+              "$type": "Bespoke.Sph.Domain.DecisionBranch, domain.sph",
+              "IsDefault": true,
+              "Expression": null,
+              "IsAsync": false,
+              "ExecutedCode": null,
+              "ExecutingCode": null,
+              "TypeName": "DecisionBranch",
+              "OtherMethodCollection": {
+                "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.Sph.Domain.Codes.Method, domain.sph]], domain.sph",
+                "$values": []
+              },
+              "WorkflowDesigner": {
+                "$type": "Bespoke.Sph.Domain.WorkflowDesigner, domain.sph",
+                "X": 0,
+                "Y": 0,
+                "WebId": "3754db49-bf0c-40c4-d1b6-fd8b976f6664"
+              },
+              "IsInitiator": false,
+              "NextActivityWebId": "3c628fca-73bc-458b-b34e-912678468dd2",
+              "Name": "Tidak",
+              "TryScope": "",
+              "CatchScope": "",
+              "WebId": "aaaae39b-70e0-4697-95b5-410f421f187d"
+            }
+          ]
+        },
+        "IsAsync": false,
+        "ExecutedCode": null,
+        "ExecutingCode": null,
+        "TypeName": "Decision",
+        "OtherMethodCollection": {
+          "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.Sph.Domain.Codes.Method, domain.sph]], domain.sph",
+          "$values": [
+            {
+              "$type": "Bespoke.Sph.Domain.Codes.Method, domain.sph",
+              "Comment": null,
+              "AccessModifier": "Internal",
+              "ReturnType": null,
+              "Name": null,
+              "FileName": null,
+              "Code": "   [System.Diagnostics.Contracts.PureAttribute]\r\n   private bool AdaEmel2Ya()\r\n   {\r\n       var item = this;\r\n       return !string.IsNullOrWhiteSpace(Responden.Emel2);\r\n   }\r\n",
+              "Body": null,
+              "IsVirtual": false,
+              "IsOverride": false,
+              "IsStatic": false,
+              "ArgumentCollection": {
+                "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.Sph.Domain.MethodArg, domain.sph]], domain.sph",
+                "$values": []
+              },
+              "AttributeCollection": {
+                "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[System.String, mscorlib]], domain.sph",
+                "$values": []
+              }
+            }
+          ]
+        },
+        "WorkflowDesigner": {
+          "$type": "Bespoke.Sph.Domain.WorkflowDesigner, domain.sph",
+          "X": 916,
+          "Y": 104,
+          "WebId": null
+        },
+        "IsInitiator": false,
+        "NextActivityWebId": null,
+        "Name": "Ada Emel 2",
+        "TryScope": null,
+        "CatchScope": null,
+        "WebId": "ed409560-c389-44ab-818b-f40a8803cae9"
+      },
+      {
+        "$type": "Bespoke.Sph.Domain.NotificationActivity, domain.sph",
+        "From": "admin@@sph.my",
+        "Subject": "Pendaftaran Program",
+        "Body": "Selamat Sejahtera,\n\nAnda sudah didaftaran unuk program @Model.Pendaftaran.NoPermohonan\n\nTerima Kasih",
+        "To": "@Model.Responden.Emel2",
+        "UserName": null,
+        "Cc": null,
+        "Bcc": null,
+        "IsHtmlEmail": false,
+        "IsAsync": false,
+        "ExecutedCode": null,
+        "ExecutingCode": null,
+        "TypeName": "Notification",
+        "OtherMethodCollection": {
+          "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.Sph.Domain.Codes.Method, domain.sph]], domain.sph",
+          "$values": [
+            {
+              "$type": "Bespoke.Sph.Domain.Codes.Method, domain.sph",
+              "Comment": null,
+              "AccessModifier": "Internal",
+              "ReturnType": null,
+              "Name": null,
+              "FileName": null,
+              "Code": "   private async Task<string> TransformFromEmail2RespondenAsync(string template)\r\n   {\r\n\r\n            var razor = ObjectBuilder.GetObject<ITemplateEngine>();\r\n            return await razor.GenerateAsync(template, this).ConfigureAwait(false);   }\r\n",
+              "Body": null,
+              "IsVirtual": false,
+              "IsOverride": false,
+              "IsStatic": false,
+              "ArgumentCollection": {
+                "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.Sph.Domain.MethodArg, domain.sph]], domain.sph",
+                "$values": []
+              },
+              "AttributeCollection": {
+                "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[System.String, mscorlib]], domain.sph",
+                "$values": []
+              }
+            },
+            {
+              "$type": "Bespoke.Sph.Domain.Codes.Method, domain.sph",
+              "Comment": null,
+              "AccessModifier": "Internal",
+              "ReturnType": null,
+              "Name": null,
+              "FileName": null,
+              "Code": "   private async Task<string> TransformToEmail2RespondenAsync(string template)\r\n   {\r\n\r\n            var razor = ObjectBuilder.GetObject<ITemplateEngine>();\r\n            return await razor.GenerateAsync(template, this).ConfigureAwait(false);   }\r\n",
+              "Body": null,
+              "IsVirtual": false,
+              "IsOverride": false,
+              "IsStatic": false,
+              "ArgumentCollection": {
+                "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.Sph.Domain.MethodArg, domain.sph]], domain.sph",
+                "$values": []
+              },
+              "AttributeCollection": {
+                "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[System.String, mscorlib]], domain.sph",
+                "$values": []
+              }
+            },
+            {
+              "$type": "Bespoke.Sph.Domain.Codes.Method, domain.sph",
+              "Comment": null,
+              "AccessModifier": "Internal",
+              "ReturnType": null,
+              "Name": null,
+              "FileName": null,
+              "Code": "   private async Task<string> TransformSubjectEmail2RespondenAsync(string template)\r\n   {\r\n\r\n            var razor = ObjectBuilder.GetObject<ITemplateEngine>();\r\n            return await razor.GenerateAsync(template, this).ConfigureAwait(false);   }\r\n",
+              "Body": null,
+              "IsVirtual": false,
+              "IsOverride": false,
+              "IsStatic": false,
+              "ArgumentCollection": {
+                "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.Sph.Domain.MethodArg, domain.sph]], domain.sph",
+                "$values": []
+              },
+              "AttributeCollection": {
+                "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[System.String, mscorlib]], domain.sph",
+                "$values": []
+              }
+            },
+            {
+              "$type": "Bespoke.Sph.Domain.Codes.Method, domain.sph",
+              "Comment": null,
+              "AccessModifier": "Internal",
+              "ReturnType": null,
+              "Name": null,
+              "FileName": null,
+              "Code": "   private async Task<string> TransformBodyEmail2RespondenAsync(string template)\r\n   {\r\n\r\n            var razor = ObjectBuilder.GetObject<ITemplateEngine>();\r\n            return await razor.GenerateAsync(template, this).ConfigureAwait(false);   }\r\n",
+              "Body": null,
+              "IsVirtual": false,
+              "IsOverride": false,
+              "IsStatic": false,
+              "ArgumentCollection": {
+                "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.Sph.Domain.MethodArg, domain.sph]], domain.sph",
+                "$values": []
+              },
+              "AttributeCollection": {
+                "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[System.String, mscorlib]], domain.sph",
+                "$values": []
+              }
+            }
+          ]
+        },
+        "WorkflowDesigner": {
+          "$type": "Bespoke.Sph.Domain.WorkflowDesigner, domain.sph",
+          "X": 585,
+          "Y": 276,
+          "WebId": null
+        },
+        "IsInitiator": false,
+        "NextActivityWebId": "3c628fca-73bc-458b-b34e-912678468dd2",
+        "Name": "Email 2 responden",
+        "TryScope": null,
+        "CatchScope": null,
+        "WebId": "5a20bfdf-94f4-4f7a-f7cf-a53f9aef5156"
       }
     ]
   },
@@ -538,6 +754,6 @@
   "Id": "pendaftaran-program-sessi-ujian",
   "CreatedDate": "2015-06-09T19:15:58.6767026+08:00",
   "ChangedBy": "admin",
-  "ChangedDate": "2015-07-08T09:14:26.0863199+08:00",
+  "ChangedDate": "2015-07-29T10:05:40.919623+08:00",
   "WebId": "365215bb-b0f3-45b4-8790-786d57be4c3c"
 }

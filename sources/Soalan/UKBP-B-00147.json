@@ -2,7 +2,7 @@
   "$type": "Bespoke.epsikologi_soalan.Domain.Soalan, epsikologi.Soalan",
   "NoRujukan": "UKBP-B-00147",
   "SoalanNo": "UKBP-B-00147",
-  "TeksSoalan": "Mengambil inventori barangan atau produk.",
+  "TeksSoalan": "Mengambil inventori barangan.",
   "SeksyenSoalan": "B",
   "PilihanJawapanCollection": {
     "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan]], domain.sph",
@@ -29,6 +29,6 @@
   "Id": "UKBP-B-00147",
   "CreatedDate": "2015-07-06T11:24:57.0955495+08:00",
   "ChangedBy": "admin",
-  "ChangedDate": "2015-07-06T11:24:57.0950489+08:00",
+  "ChangedDate": "2015-07-29T10:33:29.6853435+08:00",
   "WebId": "a1c1984e-5152-4e39-8b2d-d40f60c8c054"
 }
