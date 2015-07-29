@@ -5,6 +5,10 @@
     color: #b94a48;
 }
 
+.error{
+  color: red;
+}
+
 .field-validation-valid {
     display: none;
 }

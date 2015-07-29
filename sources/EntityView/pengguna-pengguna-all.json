@@ -127,11 +127,11 @@
   "Entity": "Pengguna",
   "Partial": "partial/pengguna-all",
   "Template": null,
-  "DisplayOnDashboard": false,
+  "DisplayOnDashboard": true,
   "CreatedBy": "admin",
   "Id": "pengguna-pengguna-all",
   "CreatedDate": "2015-06-16T08:04:09.5345994+08:00",
   "ChangedBy": "admin",
-  "ChangedDate": "2015-07-13T14:03:36.909782+08:00",
+  "ChangedDate": "2015-07-29T12:49:01.615688+08:00",
   "WebId": "7bc3651c-5ad2-4db7-802b-5a4de7c7b561"
 }

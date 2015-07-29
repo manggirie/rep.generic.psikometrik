@@ -2,7 +2,7 @@
   "$type": "Bespoke.epsikologi_soalan.Domain.Soalan, epsikologi.Soalan",
   "NoRujukan": "UKBP-B-00223",
   "SoalanNo": "UKBP-B-00223",
-  "TeksSoalan": "Ahli kaji cuaca.",
+  "TeksSoalan": "Pegawai Meteorlogi (Kaji Cuaca)",
   "SeksyenSoalan": "B",
   "PilihanJawapanCollection": {
     "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan]], domain.sph",
@@ -29,6 +29,6 @@
   "Id": "UKBP-B-00223",
   "CreatedDate": "2015-07-06T11:24:57.7149867+08:00",
   "ChangedBy": "admin",
-  "ChangedDate": "2015-07-06T11:24:57.7139856+08:00",
+  "ChangedDate": "2015-07-29T15:23:32.7899551+08:00",
   "WebId": "44bb9edc-2ac9-4457-a887-7dccfcae2678"
 }

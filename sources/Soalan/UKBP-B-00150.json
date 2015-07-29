@@ -2,7 +2,7 @@
   "$type": "Bespoke.epsikologi_soalan.Domain.Soalan, epsikologi.Soalan",
   "NoRujukan": "UKBP-B-00150",
   "SoalanNo": "UKBP-B-00150",
-  "TeksSoalan": "Bekerja di dalam pejabat.",
+  "TeksSoalan": "Bekerja di pejabat.",
   "SeksyenSoalan": "B",
   "PilihanJawapanCollection": {
     "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan]], domain.sph",
@@ -29,6 +29,6 @@
   "Id": "UKBP-B-00150",
   "CreatedDate": "2015-07-06T11:24:57.1160638+08:00",
   "ChangedBy": "admin",
-  "ChangedDate": "2015-07-06T11:24:57.1155632+08:00",
+  "ChangedDate": "2015-07-29T10:34:22.5026247+08:00",
   "WebId": "b511d2ce-c8f0-4fdf-b7f7-096e72e81131"
 }

@@ -2,7 +2,7 @@
   "$type": "Bespoke.epsikologi_soalan.Domain.Soalan, epsikologi.Soalan",
   "NoRujukan": "UKBP-B-00177",
   "SoalanNo": "UKBP-B-00177",
-  "TeksSoalan": "Mereka cipta pakaian, poster atau perabot.",
+  "TeksSoalan": "Merekacipta fesyen pakaian, poster atau perabot.",
   "SeksyenSoalan": "B",
   "PilihanJawapanCollection": {
     "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan]], domain.sph",
@@ -29,6 +29,6 @@
   "Id": "UKBP-B-00177",
   "CreatedDate": "2015-07-06T11:24:57.316205+08:00",
   "ChangedBy": "admin",
-  "ChangedDate": "2015-07-06T11:24:57.316205+08:00",
+  "ChangedDate": "2015-07-29T11:19:56.6848106+08:00",
   "WebId": "e245e6fe-29f7-4492-8421-c24caadb3f36"
 }

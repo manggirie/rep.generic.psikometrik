@@ -10,25 +10,27 @@
             </div>
             <div class="modal-body">
 
+				<div class="row">
+					<form class="form-horizontal" id="tambah-responden-dialog-form">
+						<div class="form group">
+							<label class="col-md-2" for="search-text">Search</label>
 
-                <div style="height:300px; max-height: 400px;overflow-y: scroll">
-                    <form class="form-horizontal" id="tambah-responden-dialog-form">
-                        <div class="form group">
-                            <label class="col-md-2" for="search-text">Search</label>
+							<div class="col-md-8">
+								<input class="form-control" autofocus type="text" id="search-text" data-bind="value: searchText" />
 
-                            <div class="col-md-8">
-                                <input class="form-control" autofocus type="text" id="search-text" data-bind="value: searchText" />
+							</div>
+							<div class="col-md-1">
+								<button class="btn btn-link" data-bind="command: searchAsync">
+									<i class="fa fa-search"></i>
+								</button>
+							</div>
+						</div>
 
-                            </div>
-                            <div class="col-md-1">
-                                <button class="btn btn-link" data-bind="command: searchAsync">
-                                    <i class="fa fa-search"></i>
-                                </button>
-                            </div>
-                        </div>
-
-                    </form>
-                    <table class="table table-condensed table-striped" data-bind="visible: results().length > 0">
+					</form>
+				</div>
+				<div class="row" style="padding-left:5px;padding-right:5px;">
+                	<div style="height:300px; max-height: 400px;overflow-y: scroll">               
+                    	<table class="table table-condensed table-striped" data-bind="visible: results().length > 0">
                         <thead id="thead">
                             <tr>
                                 <th>Nama</th>
@@ -49,8 +51,8 @@
                             </tr>
                         </tbody>
                     </table>
-                </div>
-
+                	</div>
+				</div>
 
             </div>
             <div class="modal-footer">

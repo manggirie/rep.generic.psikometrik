@@ -2,7 +2,7 @@
   "$type": "Bespoke.epsikologi_soalan.Domain.Soalan, epsikologi.Soalan",
   "NoRujukan": "UKBP-B-00158",
   "SoalanNo": "UKBP-B-00158",
-  "TeksSoalan": "Membaiki kerosakan paip yang kecil.",
+  "TeksSoalan": "Membaiki kerosakan kecil pada paip air.",
   "SeksyenSoalan": "B",
   "PilihanJawapanCollection": {
     "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan]], domain.sph",
@@ -29,6 +29,6 @@
   "Id": "UKBP-B-00158",
   "CreatedDate": "2015-07-06T11:24:57.1716032+08:00",
   "ChangedBy": "admin",
-  "ChangedDate": "2015-07-06T11:24:57.1711022+08:00",
+  "ChangedDate": "2015-07-29T10:45:09.8793559+08:00",
   "WebId": "c7332800-e0e5-4cd0-b907-40ad3347317f"
 }

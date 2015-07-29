@@ -45,10 +45,16 @@ namespace Bespoke.Sph.Workflows_CreatesMembershipForNewResponden_0
                     result = await this.CreateProfileAndMembershipAsync().ConfigureAwait(false);
                     break;
                 case "56dd17a3-d01d-44d6-a2c1-d1fb0587655e":
-                    result = await this.End1Async().ConfigureAwait(false);
+                    result = await this.SiapAsync().ConfigureAwait(false);
                     break;
                 case "41cddfd4-0781-44b1-db25-cbef78c61352":
                     result = await this.EmailPenggunaAsync().ConfigureAwait(false);
+                    break;
+                case "e3dc1536-e258-4a73-fb1d-7b59f8fabc35":
+                    result = await this.AdaEmel2Async().ConfigureAwait(false);
+                    break;
+                case "659b3c30-7a39-488e-da26-56b627c6050b":
+                    result = await this.Email2Async().ConfigureAwait(false);
                     break;
             }
             result.Correlation = correlation;
@@ -62,7 +68,7 @@ namespace Bespoke.Sph.Workflows_CreatesMembershipForNewResponden_0
 
             var result = new ActivityExecutionResult { Status = ActivityExecutionStatus.Success };
             var item = this;
-            this.Password = Guid.NewGuid().ToString();
+            this.Password = System.Web.Security.Membership.GeneratePassword(6, 0);
 
             var context = new SphDataContext();
             var designation = await context.LoadOneAsync<Designation>(d => d.Name == "Responden");
@@ -105,7 +111,7 @@ namespace Bespoke.Sph.Workflows_CreatesMembershipForNewResponden_0
         }
 
         //exec:56dd17a3-d01d-44d6-a2c1-d1fb0587655e
-        public Task<ActivityExecutionResult> End1Async()
+        public Task<ActivityExecutionResult> SiapAsync()
         {
             var result = new ActivityExecutionResult { Status = ActivityExecutionStatus.Success };
             result.NextActivities = new string[] { };
@@ -119,7 +125,7 @@ namespace Bespoke.Sph.Workflows_CreatesMembershipForNewResponden_0
         {
             var result = new ActivityExecutionResult { Status = ActivityExecutionStatus.Success };
             var act = this.GetActivity<NotificationActivity>("41cddfd4-0781-44b1-db25-cbef78c61352");
-            result.NextActivities = new[] { "56dd17a3-d01d-44d6-a2c1-d1fb0587655e" };
+            result.NextActivities = new[] { "e3dc1536-e258-4a73-fb1d-7b59f8fabc35" };
 
             var @from = await this.TransformFromEmailPenggunaAsync(act.From);
             var to = await this.TransformToEmailPenggunaAsync(act.To);
@@ -158,6 +164,72 @@ namespace Bespoke.Sph.Workflows_CreatesMembershipForNewResponden_0
                 {
                     session.Attach(message);
                     await session.SubmitChanges("Email Pengguna").ConfigureAwait(false);
+                }
+            }
+
+
+            return result;
+        }
+
+        //exec:e3dc1536-e258-4a73-fb1d-7b59f8fabc35
+        public Task<ActivityExecutionResult> AdaEmel2Async()
+        {
+            var result = new ActivityExecutionResult { Status = ActivityExecutionStatus.Success };
+            var branch1 = this.AdaEmel2Ya();
+            if (branch1)
+            {
+                result.NextActivities = new[] { "659b3c30-7a39-488e-da26-56b627c6050b" };
+                return Task.FromResult(result);
+            }
+            result.NextActivities = new[] { "56dd17a3-d01d-44d6-a2c1-d1fb0587655e" };
+
+            return Task.FromResult(result);
+        }
+
+        //exec:659b3c30-7a39-488e-da26-56b627c6050b
+        public async Task<ActivityExecutionResult> Email2Async()
+        {
+            var result = new ActivityExecutionResult { Status = ActivityExecutionStatus.Success };
+            var act = this.GetActivity<NotificationActivity>("659b3c30-7a39-488e-da26-56b627c6050b");
+            result.NextActivities = new[] { "56dd17a3-d01d-44d6-a2c1-d1fb0587655e" };
+
+            var @from = await this.TransformFromEmail2Async(act.From);
+            var to = await this.TransformToEmail2Async(act.To);
+            var subject = await this.TransformSubjectEmail2Async(act.Subject);
+            var body = await this.TransformBodyEmail2Async(act.Body);
+            var cc = await this.TransformBodyEmail2Async(act.Cc);
+            var bcc = await this.TransformBodyEmail2Async(act.Bcc);
+
+            var client = new System.Net.Mail.SmtpClient();
+            var mm = new System.Net.Mail.MailMessage();
+            mm.Subject = subject;
+            mm.Body = body;
+            mm.From = new System.Net.Mail.MailAddress(@from);
+            mm.To.Add(to);
+            if (!string.IsNullOrWhiteSpace(cc))
+                mm.CC.Add(cc);
+            if (!string.IsNullOrWhiteSpace(bcc))
+                mm.Bcc.Add(bcc);
+            await client.SendMailAsync(mm).ConfigureAwait(false);
+
+
+            var context = new SphDataContext();
+            foreach (var et in to.Split(new char[] { ',' }, StringSplitOptions.RemoveEmptyEntries))
+            {
+                var et1 = et;
+                var user = await context.LoadOneAsync<UserProfile>(u => u.Email == et1);
+                if (null == user) continue;
+                var message = new Message
+                {
+                    Subject = subject,
+                    UserName = user.UserName,
+                    Body = body,
+                    Id = Strings.GenerateId()
+                };
+                using (var session = context.OpenSession())
+                {
+                    session.Attach(message);
+                    await session.SubmitChanges("Email 2").ConfigureAwait(false);
                 }
             }
 

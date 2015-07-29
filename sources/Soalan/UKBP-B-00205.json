@@ -2,7 +2,7 @@
   "$type": "Bespoke.epsikologi_soalan.Domain.Soalan, epsikologi.Soalan",
   "NoRujukan": "UKBP-B-00205",
   "SoalanNo": "UKBP-B-00205",
-  "TeksSoalan": "Menguruskan kredit dan debit.",
+  "TeksSoalan": "Mengurus akaun (kredit dan debit).",
   "SeksyenSoalan": "B",
   "PilihanJawapanCollection": {
     "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan]], domain.sph",
@@ -29,6 +29,6 @@
   "Id": "UKBP-B-00205",
   "CreatedDate": "2015-07-06T11:24:57.5153456+08:00",
   "ChangedBy": "admin",
-  "ChangedDate": "2015-07-06T11:24:57.514845+08:00",
+  "ChangedDate": "2015-07-29T15:04:11.5593036+08:00",
   "WebId": "8c6a5896-c9e6-4591-aadb-f9505153d678"
 }

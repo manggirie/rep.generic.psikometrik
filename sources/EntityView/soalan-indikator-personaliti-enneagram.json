@@ -177,10 +177,12 @@
   "CountMessage": "",
   "Entity": "",
   "Partial": "partial/soalan-indikator-personaliti-enneagram",
+  "Template": null,
+  "DisplayOnDashboard": true,
   "CreatedBy": "admin",
   "Id": "soalan-indikator-personaliti-enneagram",
   "CreatedDate": "2015-06-22T11:34:46.1285512+08:00",
   "ChangedBy": "admin",
-  "ChangedDate": "2015-07-02T11:42:34.0463019+08:00",
+  "ChangedDate": "2015-07-28T15:12:43.9540693+08:00",
   "WebId": "38e6ae7a-002d-4780-d67c-faea94d5b459"
 }

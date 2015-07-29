@@ -140,6 +140,12 @@
             "$values": [
               {
                 "$type": "Bespoke.Sph.Domain.ComboBoxItem, domain.sph",
+                "Caption": "[Sila Pilih]",
+                "Value": "",
+                "WebId": "x4"
+              },
+              {
+                "$type": "Bespoke.Sph.Domain.ComboBoxItem, domain.sph",
                 "Caption": "Kurang 20 Tahun",
                 "Value": "< 20",
                 "WebId": "cb535547-6027-4e71-dd8e-82b6ef7ce094"
@@ -222,6 +228,12 @@
           "ComboBoxItemCollection": {
             "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.Sph.Domain.ComboBoxItem, domain.sph]], domain.sph",
             "$values": [
+              {
+                "$type": "Bespoke.Sph.Domain.ComboBoxItem, domain.sph",
+                "Caption": "[Sila Pilih]",
+                "Value": "",
+                "WebId": "x4"
+              },
               {
                 "$type": "Bespoke.Sph.Domain.ComboBoxItem, domain.sph",
                 "Caption": "Bujang",
@@ -522,6 +534,12 @@
             "$values": [
               {
                 "$type": "Bespoke.Sph.Domain.ComboBoxItem, domain.sph",
+                "Caption": "[Sila Pilih]",
+                "Value": "",
+                "WebId": "x4"
+              },
+              {
+                "$type": "Bespoke.Sph.Domain.ComboBoxItem, domain.sph",
                 "Caption": "Johor",
                 "Value": "Johor",
                 "WebId": "05ca2aab-5e16-4f4d-c77f-08bd2d8a3b05"
@@ -712,6 +730,12 @@
             "$values": [
               {
                 "$type": "Bespoke.Sph.Domain.ComboBoxItem, domain.sph",
+                "Caption": "[Sila Pilih]",
+                "Value": "",
+                "WebId": "x4"
+              },
+              {
+                "$type": "Bespoke.Sph.Domain.ComboBoxItem, domain.sph",
                 "Caption": "Kerajaan",
                 "Value": "Kerajaan",
                 "WebId": "afe87c5a-1670-42a7-f8ec-18ba49af6503"
@@ -802,10 +826,188 @@
           "WebId": "b63131ab-c9ee-4fe7-a4ef-d0e72b6c308d"
         },
         {
+          "$type": "Bespoke.Sph.Domain.TextBox, domain.sph",
+          "DefaultValue": null,
+          "AutoCompletionEntity": null,
+          "AutoCompletionField": null,
+          "AutoCompletionQuery": null,
+          "IsPathIsRequired": true,
+          "TypeName": "TextBox",
+          "FieldValidation": {
+            "$type": "Bespoke.Sph.Domain.FieldValidation, domain.sph",
+            "IsRequired": false,
+            "Pattern": null,
+            "Mode": "",
+            "Message": null,
+            "Min": null,
+            "Max": null,
+            "MinLength": null,
+            "MaxLength": null,
+            "WebId": null
+          },
+          "Name": null,
+          "Label": "Pelajar  Tahap Pendidikan",
+          "Tooltip": null,
+          "Path": "Pelajar.TahapPendidikan",
+          "IsRequired": false,
+          "Size": null,
+          "CssClass": null,
+          "Visible": "ko.unwrap(Pekerjaan) === 'Pelajar'",
+          "Enable": "true",
+          "ElementId": "c6cb5b90-a13a-43c5-c971-f896c99854fe",
+          "HelpText": null,
+          "UseDisplayTemplate": false,
+          "ToolboxIconClass": null,
+          "IsUniqueName": false,
+          "LabelColLg": null,
+          "LabelColMd": null,
+          "LabelColSm": null,
+          "LabelColXs": null,
+          "InputColLg": null,
+          "InputColMd": null,
+          "InputColSm": null,
+          "InputColXs": null,
+          "WebId": "5df9153d-6970-44e7-cb28-fabba4b948f2"
+        },
+        {
+          "$type": "Bespoke.Sph.Domain.CheckBox, domain.sph",
+          "IsPathIsRequired": true,
+          "TypeName": "CheckBox",
+          "FieldValidation": {
+            "$type": "Bespoke.Sph.Domain.FieldValidation, domain.sph",
+            "IsRequired": false,
+            "Pattern": null,
+            "Mode": "",
+            "Message": null,
+            "Min": null,
+            "Max": null,
+            "MinLength": null,
+            "MaxLength": null,
+            "WebId": null
+          },
+          "Name": null,
+          "Label": " Luar Negara",
+          "Tooltip": null,
+          "Path": "Pelajar.LuarNegara",
+          "IsRequired": false,
+          "Size": null,
+          "CssClass": null,
+          "Visible": "ko.unwrap(Pekerjaan) === 'Pelajar'",
+          "Enable": "true",
+          "ElementId": "ba8d2473-9be0-48cb-ed17-7f298426c2ee",
+          "HelpText": null,
+          "UseDisplayTemplate": false,
+          "ToolboxIconClass": null,
+          "IsUniqueName": false,
+          "LabelColLg": null,
+          "LabelColMd": null,
+          "LabelColSm": null,
+          "LabelColXs": null,
+          "InputColLg": null,
+          "InputColMd": null,
+          "InputColSm": null,
+          "InputColXs": null,
+          "WebId": "a6890661-dd96-4838-a1f6-d2c74739ef50"
+        },
+        {
+          "$type": "Bespoke.Sph.Domain.TextBox, domain.sph",
+          "DefaultValue": null,
+          "AutoCompletionEntity": null,
+          "AutoCompletionField": null,
+          "AutoCompletionQuery": null,
+          "IsPathIsRequired": true,
+          "TypeName": "TextBox",
+          "FieldValidation": {
+            "$type": "Bespoke.Sph.Domain.FieldValidation, domain.sph",
+            "IsRequired": false,
+            "Pattern": null,
+            "Mode": "",
+            "Message": null,
+            "Min": null,
+            "Max": null,
+            "MinLength": null,
+            "MaxLength": null,
+            "WebId": null
+          },
+          "Name": null,
+          "Label": "Minat",
+          "Tooltip": null,
+          "Path": "Pelajar.Minat",
+          "IsRequired": false,
+          "Size": null,
+          "CssClass": null,
+          "Visible": "ko.unwrap(Pekerjaan) === 'Pelajar'",
+          "Enable": "true",
+          "ElementId": "c2fa2d20-2baf-4dc9-f4c0-e1f897e97292",
+          "HelpText": null,
+          "UseDisplayTemplate": false,
+          "ToolboxIconClass": null,
+          "IsUniqueName": false,
+          "LabelColLg": null,
+          "LabelColMd": null,
+          "LabelColSm": null,
+          "LabelColXs": null,
+          "InputColLg": null,
+          "InputColMd": null,
+          "InputColSm": null,
+          "InputColXs": null,
+          "WebId": "ed626755-4853-41cd-c8d4-7347b3d948d3"
+        },
+        {
+          "$type": "Bespoke.Sph.Domain.TextBox, domain.sph",
+          "DefaultValue": null,
+          "AutoCompletionEntity": null,
+          "AutoCompletionField": null,
+          "AutoCompletionQuery": null,
+          "IsPathIsRequired": true,
+          "TypeName": "TextBox",
+          "FieldValidation": {
+            "$type": "Bespoke.Sph.Domain.FieldValidation, domain.sph",
+            "IsRequired": false,
+            "Pattern": null,
+            "Mode": "",
+            "Message": null,
+            "Min": null,
+            "Max": null,
+            "MinLength": null,
+            "MaxLength": null,
+            "WebId": null
+          },
+          "Name": null,
+          "Label": "Bidang Pengajian",
+          "Tooltip": null,
+          "Path": "Pelajar.BidangPengajian",
+          "IsRequired": false,
+          "Size": "input-large",
+          "CssClass": "",
+          "Visible": "ko.unwrap(Pekerjaan) === 'Pelajar'",
+          "Enable": "true",
+          "ElementId": "f977812f-48d5-4d25-c09b-368a392fccad",
+          "HelpText": null,
+          "UseDisplayTemplate": false,
+          "ToolboxIconClass": null,
+          "IsUniqueName": false,
+          "LabelColLg": null,
+          "LabelColMd": null,
+          "LabelColSm": null,
+          "LabelColXs": null,
+          "InputColLg": null,
+          "InputColMd": null,
+          "InputColSm": null,
+          "InputColXs": null,
+          "WebId": "8a0bc3bb-ffa0-415b-edb5-2de55bc7543f"
+        },
+        {
           "$type": "Bespoke.Sph.Domain.ComboBox, domain.sph",
           "ComboBoxItemCollection": {
             "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.Sph.Domain.ComboBoxItem, domain.sph]], domain.sph",
             "$values": [
+              {
+                "$type": "Bespoke.Sph.Domain.ComboBoxItem, domain.sph",
+                "Caption": "[Sila Pilih]",
+                "Value": "",
+                "WebId": "x4"
+              },
               {
                 "$type": "Bespoke.Sph.Domain.ComboBoxItem, domain.sph",
                 "Caption": "Badan Berkanun Persekutuan",
@@ -868,7 +1070,7 @@
           "IsRequired": false,
           "Size": "input-large",
           "CssClass": "",
-          "Visible": "true",
+          "Visible": "ko.unwrap(Pekerjaan) !== 'Pelajar'",
           "Enable": "true",
           "ElementId": "119ac31f-e09c-43cc-b3c7-91ce4cccaf9c",
           "HelpText": null,
@@ -890,6 +1092,12 @@
           "ComboBoxItemCollection": {
             "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.Sph.Domain.ComboBoxItem, domain.sph]], domain.sph",
             "$values": [
+              {
+                "$type": "Bespoke.Sph.Domain.ComboBoxItem, domain.sph",
+                "Caption": "[Sila Pilih]",
+                "Value": "",
+                "WebId": "x4"
+              },
               {
                 "$type": "Bespoke.Sph.Domain.ComboBoxItem, domain.sph",
                 "Caption": "Pengurusan Tertinggi",
@@ -946,7 +1154,7 @@
           "IsRequired": false,
           "Size": "input-large",
           "CssClass": "",
-          "Visible": "true",
+          "Visible": "ko.unwrap(Pekerjaan) !== 'Pelajar'",
           "Enable": "true",
           "ElementId": "136182e1-66a5-4fa8-bba1-e6080deb3fb3",
           "HelpText": null,
@@ -968,6 +1176,12 @@
           "ComboBoxItemCollection": {
             "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.Sph.Domain.ComboBoxItem, domain.sph]], domain.sph",
             "$values": [
+              {
+                "$type": "Bespoke.Sph.Domain.ComboBoxItem, domain.sph",
+                "Caption": "[Sila Pilih]",
+                "Value": "",
+                "WebId": "x4"
+              },
               {
                 "$type": "Bespoke.Sph.Domain.ComboBoxItem, domain.sph",
                 "Caption": "1-17",
@@ -1030,7 +1244,7 @@
           "IsRequired": false,
           "Size": "input-large",
           "CssClass": "",
-          "Visible": "true",
+          "Visible": "ko.unwrap(Pekerjaan) !== 'Pelajar'",
           "Enable": "true",
           "ElementId": "47b57d27-1b24-4502-aa6c-f3b2b141a868",
           "HelpText": null,
@@ -1052,6 +1266,12 @@
           "ComboBoxItemCollection": {
             "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.Sph.Domain.ComboBoxItem, domain.sph]], domain.sph",
             "$values": [
+              {
+                "$type": "Bespoke.Sph.Domain.ComboBoxItem, domain.sph",
+                "Caption": "[Sila Pilih]",
+                "Value": "",
+                "WebId": "x4"
+              },
               {
                 "$type": "Bespoke.Sph.Domain.ComboBoxItem, domain.sph",
                 "Caption": "Sistem Saraan Baru",
@@ -1102,7 +1322,7 @@
           "IsRequired": false,
           "Size": "input-large",
           "CssClass": "",
-          "Visible": "true",
+          "Visible": "ko.unwrap(Pekerjaan) !== 'Pelajar'",
           "Enable": "true",
           "ElementId": "dea60c85-93f9-4f63-9904-821d607e5c0d",
           "HelpText": null,
@@ -1215,6 +1435,50 @@
             "$type": "Bespoke.Sph.Domain.FieldValidation, domain.sph",
             "IsRequired": false,
             "Pattern": null,
+            "Mode": "email",
+            "Message": null,
+            "Min": null,
+            "Max": null,
+            "MinLength": null,
+            "MaxLength": null,
+            "WebId": null
+          },
+          "Name": null,
+          "Label": "Emel (alternatif)",
+          "Tooltip": null,
+          "Path": "Emel2",
+          "IsRequired": false,
+          "Size": "input-large",
+          "CssClass": "",
+          "Visible": "true",
+          "Enable": "true",
+          "ElementId": "6954dc13-3127-417f-8085-bd6ccd6da8af",
+          "HelpText": null,
+          "UseDisplayTemplate": false,
+          "ToolboxIconClass": null,
+          "IsUniqueName": false,
+          "LabelColLg": null,
+          "LabelColMd": null,
+          "LabelColSm": null,
+          "LabelColXs": null,
+          "InputColLg": null,
+          "InputColMd": null,
+          "InputColSm": null,
+          "InputColXs": null,
+          "WebId": "8d28e502-3ccd-4bec-e707-225caedaa93e"
+        },
+        {
+          "$type": "Bespoke.Sph.Domain.TextBox, domain.sph",
+          "DefaultValue": null,
+          "AutoCompletionEntity": null,
+          "AutoCompletionField": null,
+          "AutoCompletionQuery": null,
+          "IsPathIsRequired": true,
+          "TypeName": "TextBox",
+          "FieldValidation": {
+            "$type": "Bespoke.Sph.Domain.FieldValidation, domain.sph",
+            "IsRequired": false,
+            "Pattern": null,
             "Mode": "",
             "Message": null,
             "Min": null,
@@ -1295,11 +1559,11 @@
   "Entity": "Pengguna",
   "Partial": null,
   "Caption": null,
-  "Layout": null,
+  "Layout": " ",
   "CreatedBy": "admin",
-  "Id": "editpengguna",
+  "Id": "pengguna-details",
   "CreatedDate": "2015-06-16T08:04:09.5330981+08:00",
   "ChangedBy": "admin",
-  "ChangedDate": "2015-07-24T09:06:23.9592287+08:00",
+  "ChangedDate": "2015-07-29T13:19:30.6801155+08:00",
   "WebId": "4e32950c-7d95-4b44-983c-3c3e67811ded"
 }

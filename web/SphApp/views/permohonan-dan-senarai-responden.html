@@ -44,7 +44,16 @@
 </div><div class="form-group" data-bind="visible:true">
     <label class="col-md-4">Tarikh Tamat</label>
     <span class="col-md-8" data-bind="date: TarikhTamat"></span>
-</div><button data-bind="click : $root.partial.addResponden" class="btn btn-link">
+</div>
+<div data-bind="visible:isUKBP" class="form-group">
+	<label data-i18n="Muat Naik Pelajar" for="1edd0ae8-2cce-4b2d-ea1e-4a0c98f1281c" class="col-md-4">Muat Naik Pelajar</label>
+	<div class="col-md-8">
+		<input  class=" form-control " title=""
+			   data-bind="kendoUpload : $root.partial.filePelajar"
+			   id="1edd0ae8-2cce-4b2d-ea1e-4a0c98f1281c" type="file" name="files" />
+	</div>
+</div>
+<button data-bind="click : $root.partial.addResponden" class="btn btn-link">
 <i class="fa fa-plus"></i>
 Pemilihan Responden
     

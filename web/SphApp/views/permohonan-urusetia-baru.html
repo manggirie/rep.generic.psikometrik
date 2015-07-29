@@ -47,7 +47,7 @@
     <div class="form-group" data-bind="visible:true">
         <label data-i18n="Nama Jabatan" for="038ba618-c3f1-4e6d-bd95-87e7fc73f23d" class="col-md-4">Nama Jabatan</label>
         <div class="col-md-8">
-            <select  data-bind="value: NamaJabatan, enable :true" id="038ba618-c3f1-4e6d-bd95-87e7fc73f23d" name="NamaJabatan" class="  form-control">
+            <select  data-bind=" visible :true,  enable :true, comboBoxLookupOptions : { value: NamaJabatan, entity : 'Jabatan', valuePath : 'NamaJabatan', displayPath: 'NamaJabatan', query :ko.computed(function(){ return 'Kementerian eq \'' + NamaKementerian() + '\'';})}" id="038ba618-c3f1-4e6d-bd95-87e7fc73f23d" name="NamaJabatan" class="  form-control">
             </select>
         </div>
     </div>
