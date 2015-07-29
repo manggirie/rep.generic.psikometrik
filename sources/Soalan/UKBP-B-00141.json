@@ -2,7 +2,7 @@
   "$type": "Bespoke.epsikologi_soalan.Domain.Soalan, epsikologi.Soalan",
   "NoRujukan": "UKBP-B-00141",
   "SoalanNo": "UKBP-B-00141",
-  "TeksSoalan": "Mengisi borang cukai pendapatan.",
+  "TeksSoalan": "Melakukan tugas pengisian borang cukai pendapatan.",
   "SeksyenSoalan": "B",
   "PilihanJawapanCollection": {
     "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan]], domain.sph",
@@ -29,6 +29,6 @@
   "Id": "UKBP-B-00141",
   "CreatedDate": "2015-07-06T11:24:57.0435128+08:00",
   "ChangedBy": "admin",
-  "ChangedDate": "2015-07-06T11:24:57.0430122+08:00",
+  "ChangedDate": "2015-07-29T10:29:59.7203491+08:00",
   "WebId": "3c502f3a-dcfb-4708-97c3-c6c4e940ca5f"
 }

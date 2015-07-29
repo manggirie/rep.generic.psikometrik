@@ -2,7 +2,7 @@
   "$type": "Bespoke.epsikologi_soalan.Domain.Soalan, epsikologi.Soalan",
   "NoRujukan": "UKBP-B-00196",
   "SoalanNo": "UKBP-B-00196",
-  "TeksSoalan": "Mendapatkan orang untuk melakukan sesuatu perkara dengan cara saya.",
+  "TeksSoalan": "Mempengaruhi orang lain melakukan sesuatu perkara mengikut cara saya.",
   "SeksyenSoalan": "B",
   "PilihanJawapanCollection": {
     "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan]], domain.sph",
@@ -29,6 +29,6 @@
   "Id": "UKBP-B-00196",
   "CreatedDate": "2015-07-06T11:24:57.4533013+08:00",
   "ChangedBy": "admin",
-  "ChangedDate": "2015-07-06T11:24:57.4533013+08:00",
+  "ChangedDate": "2015-07-29T11:51:56.208562+08:00",
   "WebId": "900ce08a-f8c2-424a-9487-bd6217eee39a"
 }

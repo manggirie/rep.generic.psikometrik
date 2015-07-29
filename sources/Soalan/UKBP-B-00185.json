@@ -2,7 +2,7 @@
   "$type": "Bespoke.epsikologi_soalan.Domain.Soalan, epsikologi.Soalan",
   "NoRujukan": "UKBP-B-00185",
   "SoalanNo": "UKBP-B-00185",
-  "TeksSoalan": "Mengajar kanak-kanak dengan mudah.",
+  "TeksSoalan": "Mengajar kanak-kanak dengan baik.",
   "SeksyenSoalan": "B",
   "PilihanJawapanCollection": {
     "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan]], domain.sph",
@@ -29,6 +29,6 @@
   "Id": "UKBP-B-00185",
   "CreatedDate": "2015-07-06T11:24:57.3727447+08:00",
   "ChangedBy": "admin",
-  "ChangedDate": "2015-07-06T11:24:57.3722441+08:00",
+  "ChangedDate": "2015-07-29T11:48:20.9900423+08:00",
   "WebId": "8f7da402-3479-4a97-b140-016e42490817"
 }

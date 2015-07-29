@@ -2,7 +2,7 @@
   "$type": "Bespoke.epsikologi_soalan.Domain.Soalan, epsikologi.Soalan",
   "NoRujukan": "UKBP-B-00186",
   "SoalanNo": "UKBP-B-00186",
-  "TeksSoalan": "Mengajar orang dewasa dengan mudah.",
+  "TeksSoalan": "Mengajar orang dewasa dengan baik.",
   "SeksyenSoalan": "B",
   "PilihanJawapanCollection": {
     "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan]], domain.sph",
@@ -29,6 +29,6 @@
   "Id": "UKBP-B-00186",
   "CreatedDate": "2015-07-06T11:24:57.3802502+08:00",
   "ChangedBy": "admin",
-  "ChangedDate": "2015-07-06T11:24:57.3797497+08:00",
+  "ChangedDate": "2015-07-29T11:48:46.3235754+08:00",
   "WebId": "988d3d22-28f3-4535-b042-98debb1d6118"
 }
