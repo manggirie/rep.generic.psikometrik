@@ -96,7 +96,37 @@
                                   
                                     app.showMessage("Permohonan program sudah dikemaskini", "JPA Sistem Ujian e-Psikometrik", ["OK"])
 	                                    .done(function () {
-                                            
+                                            window.location='#permohonan-baru-urusetia'
+	                                    });
+                                 
+                             } else {
+                                 errors.removeAll();
+                                 _(result.rules).each(function(v){
+                                     errors(v.ValidationErrors);
+                                 });
+                                 logger.error("There are errors in your entity, !!!");
+                             }
+                         });
+                 },
+                tukarResponden = function(){
+
+                     if (!validation.valid()) {
+                         return Task.fromResult(false);
+                     }
+
+                     var data = ko.mapping.toJSON(entity);
+
+                    return  context.post(data, "/Permohonan/TukarResponden" )
+                         .then(function (result) {
+                             if (result.success) {
+                                 logger.info(result.message);
+                                 entity().Id(result.id);
+                                 errors.removeAll();
+
+                                  
+                                    app.showMessage("Rekod anda sudah berjaya di simpan", "JPA Sistem Ujian e-Psikometrik", ["OK"])
+	                                    .done(function () {
+                                            window.location='#permohonan-penyelaras-lulus'
 	                                    });
                                  
                              } else {
@@ -143,7 +173,7 @@
                     return context.post(data, "/Permohonan/Save")
                         .then(function(result) {
                             entity().Id(result.id);
-                            app.showMessage("Your Permohonan has been successfully saved", "JPA Sistem Ujian e-Psikometrik", ["ok"]);
+                            app.showMessage("Your Permohonan has been successfully saved", "JPA Sistem Ujian e-Psikometrik", ["OK"]);
 
                         });
                     
@@ -179,6 +209,7 @@
                 save : save,
                     permohonanDariPenyelaras : permohonanDariPenyelaras,
                     urusetiaProcessPermohonanDariPenyelaras : urusetiaProcessPermohonanDariPenyelaras,
+                    tukarResponden : tukarResponden,
                 //
 
 

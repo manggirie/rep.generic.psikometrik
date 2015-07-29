@@ -1,5 +1,6 @@
 define(["services/datacontext", objectbuilders.app, objectbuilders.config], function(context, app, config){
     var permohonan = ko.observable(),
+        filePelajar = ko.observable(),
         senaraiPendaftaran = ko.observableArray(),
         activate = function(entity){
             permohonan(entity);
@@ -13,7 +14,7 @@ define(["services/datacontext", objectbuilders.app, objectbuilders.config], func
 
         },
         attached  = function(view){
-
+        
         },
         save = function(pendaftaran) {
 
@@ -77,11 +78,20 @@ define(["services/datacontext", objectbuilders.app, objectbuilders.config], func
 
             };
         };
+        
+        // process the list of students
+        filePelajar.subscribe(function(w){
+            context.post(JSON.stringify({id : w}), "/jpa-account/process-respondents")
+            .done(function(r){
+                console.log(r);
+            });
+        });
 
     return {
         addResponden : addResponden,
         senaraiPendaftaran : senaraiPendaftaran,
         sendReminderEmail : sendReminderEmail,
+        filePelajar : filePelajar,
         activate : activate,
         attached : attached
     };
