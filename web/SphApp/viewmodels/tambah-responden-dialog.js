@@ -58,6 +58,7 @@ define(["plugins/dialog", "services/datacontext", "services/config"],
                               return v.IsResponden === true;
                             });
                             results(list);
+							selectedRespondens.removeAll();
                         });
 
 
