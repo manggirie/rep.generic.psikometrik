@@ -23,7 +23,7 @@
 ## Pengguna
 * Secondary email - all the emails should be sent to both, primary and Secondary email
 * ~~Bahagian - Penyelaras~~
-* Generated password is too complex, may be 6 chars
+* ~~Generated password is too complex, may be 6 chars~~
 * Untuk pelajar - allow batch data import for bulk upload, guna permohonan-dan-senarai-responden form, untuk Ujian HLP & UKBP sahaja
 
 ## Profile page
