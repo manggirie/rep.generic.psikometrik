@@ -34,4 +34,4 @@
 * ~~"Responden telah mengambil ujian ?? kurang dari 6 bulan yang lalu".~~
 
 ## Home page-
-* turn it back on- was disabled
+* ~~turn it back on- was disabled~~
