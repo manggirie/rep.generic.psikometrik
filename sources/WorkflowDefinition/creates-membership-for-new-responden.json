@@ -55,7 +55,7 @@
         "$type": "Bespoke.Sph.Domain.NotificationActivity, domain.sph",
         "From": "admin@@sph.my",
         "Subject": "JPA ePsikometrik account has been created",
-        "Body": "Salam sejahtera,\n\nYour account has been created you can reach the application at \n@ViewBag.BaseUrl\n\nUser name :  @Model.Pengguna.MyKad\nPassword :  @Model.Password\n\nYou will have to change your password upon first time signing in.\n\nThis is a computer generated email.\n        ",
+        "Body": "Salam sejahtera,\n\nYour account has been created you can reach the application at \n@ViewBag.BaseUrl\n\nUser name :  @Model.Pengguna.MyKad\nPassword :  @Raw(Model.Password)\n\nYou will have to change your password upon first time signing in.\n\nThis is a computer generated email.\n        ",
         "To": "@Model.Pengguna.Emel",
         "UserName": null,
         "Cc": null,
@@ -230,7 +230,29 @@
         "TypeName": "Decision",
         "OtherMethodCollection": {
           "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.Sph.Domain.Codes.Method, domain.sph]], domain.sph",
-          "$values": []
+          "$values": [
+            {
+              "$type": "Bespoke.Sph.Domain.Codes.Method, domain.sph",
+              "Comment": null,
+              "AccessModifier": "Internal",
+              "ReturnType": null,
+              "Name": null,
+              "FileName": null,
+              "Code": "   [System.Diagnostics.Contracts.PureAttribute]\r\n   private bool AdaEmel2Ya()\r\n   {\r\n       var item = this;\r\n       return !string.IsNullOrWhiteSpace(this.Pengguna.Emel2);\r\n   }\r\n",
+              "Body": null,
+              "IsVirtual": false,
+              "IsOverride": false,
+              "IsStatic": false,
+              "ArgumentCollection": {
+                "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.Sph.Domain.MethodArg, domain.sph]], domain.sph",
+                "$values": []
+              },
+              "AttributeCollection": {
+                "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[System.String, mscorlib]], domain.sph",
+                "$values": []
+              }
+            }
+          ]
         },
         "WorkflowDesigner": {
           "$type": "Bespoke.Sph.Domain.WorkflowDesigner, domain.sph",
@@ -249,7 +271,7 @@
         "$type": "Bespoke.Sph.Domain.NotificationActivity, domain.sph",
         "From": "admin@@sph.my",
         "Subject": "JPA ePsikometrik account has been created",
-        "Body": "Salam sejahtera,\n\nYour account has been created you can reach the application at \n@ViewBag.BaseUrl\n\nUser name :  @Model.Pengguna.MyKad\nPassword :  @Model.Password\n\nYou will have to change your password upon first time signing in.\n\nThis is a computer generated email.\n        ",
+        "Body": "Salam sejahtera,\n\nYour account has been created you can reach the application at \n@ViewBag.BaseUrl\n\nUser name :  @Model.Pengguna.MyKad\nPassword :  @Raw(Model.Password)\n\nYou will have to change your password upon first time signing in.\n\nThis is a computer generated email.\n        ",
         "To": "@Model.Pengguna.Emel2",
         "UserName": null,
         "Cc": null,
@@ -269,7 +291,7 @@
               "ReturnType": null,
               "Name": null,
               "FileName": null,
-              "Code": "   private async Task<string> TransformFromEmailPenggunaAsync(string template)\r\n   {\r\n\r\n            var razor = ObjectBuilder.GetObject<ITemplateEngine>();\r\n            return await razor.GenerateAsync(template, this).ConfigureAwait(false);   }\r\n",
+              "Code": "   private async Task<string> TransformFromEmail2Async(string template)\r\n   {\r\n\r\n            var razor = ObjectBuilder.GetObject<ITemplateEngine>();\r\n            return await razor.GenerateAsync(template, this).ConfigureAwait(false);   }\r\n",
               "Body": null,
               "IsVirtual": false,
               "IsOverride": false,
@@ -290,7 +312,7 @@
               "ReturnType": null,
               "Name": null,
               "FileName": null,
-              "Code": "   private async Task<string> TransformToEmailPenggunaAsync(string template)\r\n   {\r\n\r\n            var razor = ObjectBuilder.GetObject<ITemplateEngine>();\r\n            return await razor.GenerateAsync(template, this).ConfigureAwait(false);   }\r\n",
+              "Code": "   private async Task<string> TransformToEmail2Async(string template)\r\n   {\r\n\r\n            var razor = ObjectBuilder.GetObject<ITemplateEngine>();\r\n            return await razor.GenerateAsync(template, this).ConfigureAwait(false);   }\r\n",
               "Body": null,
               "IsVirtual": false,
               "IsOverride": false,
@@ -311,7 +333,7 @@
               "ReturnType": null,
               "Name": null,
               "FileName": null,
-              "Code": "   private async Task<string> TransformSubjectEmailPenggunaAsync(string template)\r\n   {\r\n\r\n            var razor = ObjectBuilder.GetObject<ITemplateEngine>();\r\n            return await razor.GenerateAsync(template, this).ConfigureAwait(false);   }\r\n",
+              "Code": "   private async Task<string> TransformSubjectEmail2Async(string template)\r\n   {\r\n\r\n            var razor = ObjectBuilder.GetObject<ITemplateEngine>();\r\n            return await razor.GenerateAsync(template, this).ConfigureAwait(false);   }\r\n",
               "Body": null,
               "IsVirtual": false,
               "IsOverride": false,
@@ -332,7 +354,7 @@
               "ReturnType": null,
               "Name": null,
               "FileName": null,
-              "Code": "   private async Task<string> TransformBodyEmailPenggunaAsync(string template)\r\n   {\r\n\r\n            var razor = ObjectBuilder.GetObject<ITemplateEngine>();\r\n            return await razor.GenerateAsync(template, this).ConfigureAwait(false);   }\r\n",
+              "Code": "   private async Task<string> TransformBodyEmail2Async(string template)\r\n   {\r\n\r\n            var razor = ObjectBuilder.GetObject<ITemplateEngine>();\r\n            return await razor.GenerateAsync(template, this).ConfigureAwait(false);   }\r\n",
               "Body": null,
               "IsVirtual": false,
               "IsOverride": false,
@@ -432,6 +454,6 @@
   "Id": "creates-membership-for-new-responden",
   "CreatedDate": "2015-06-16T08:05:10.6327134+08:00",
   "ChangedBy": "admin",
-  "ChangedDate": "2015-07-29T09:43:28.7908649+08:00",
+  "ChangedDate": "2015-07-29T09:58:13.5077812+08:00",
   "WebId": "79cadf36-6a53-4c66-d9fc-3f21a5b318ff"
 }
