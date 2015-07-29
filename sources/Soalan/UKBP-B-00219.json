@@ -2,7 +2,7 @@
   "$type": "Bespoke.epsikologi_soalan.Domain.Soalan, epsikologi.Soalan",
   "NoRujukan": "UKBP-B-00219",
   "SoalanNo": "UKBP-B-00219",
-  "TeksSoalan": "Tukang elektrik.",
+  "TeksSoalan": "Jurutera Elektrik/Elektronik",
   "SeksyenSoalan": "B",
   "PilihanJawapanCollection": {
     "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan]], domain.sph",
@@ -29,6 +29,6 @@
   "Id": "UKBP-B-00219",
   "CreatedDate": "2015-07-06T11:24:57.6744579+08:00",
   "ChangedBy": "admin",
-  "ChangedDate": "2015-07-06T11:24:57.6729571+08:00",
+  "ChangedDate": "2015-07-29T15:08:28.2536838+08:00",
   "WebId": "a93e9af9-4a23-45b4-be58-dbc3902f7bc9"
 }

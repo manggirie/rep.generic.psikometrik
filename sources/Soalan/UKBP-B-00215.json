@@ -2,7 +2,7 @@
   "$type": "Bespoke.epsikologi_soalan.Domain.Soalan, epsikologi.Soalan",
   "NoRujukan": "UKBP-B-00215",
   "SoalanNo": "UKBP-B-00215",
-  "TeksSoalan": "Inspektor pembinaan.",
+  "TeksSoalan": "Jurutera Awam",
   "SeksyenSoalan": "B",
   "PilihanJawapanCollection": {
     "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan]], domain.sph",
@@ -29,6 +29,6 @@
   "Id": "UKBP-B-00215",
   "CreatedDate": "2015-07-06T11:24:57.6184188+08:00",
   "ChangedBy": "admin",
-  "ChangedDate": "2015-07-06T11:24:57.6179178+08:00",
+  "ChangedDate": "2015-07-29T15:06:44.9599036+08:00",
   "WebId": "3cfd7c42-86a8-4203-b2ff-75dd4d665c9c"
 }

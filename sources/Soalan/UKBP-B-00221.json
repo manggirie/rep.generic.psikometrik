@@ -2,7 +2,7 @@
   "$type": "Bespoke.epsikologi_soalan.Domain.Soalan, epsikologi.Soalan",
   "NoRujukan": "UKBP-B-00221",
   "SoalanNo": "UKBP-B-00221",
-  "TeksSoalan": "Juruteknik elektronik.",
+  "TeksSoalan": "Pegawai Penguatkuasa.",
   "SeksyenSoalan": "B",
   "PilihanJawapanCollection": {
     "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan]], domain.sph",
@@ -29,6 +29,6 @@
   "Id": "UKBP-B-00221",
   "CreatedDate": "2015-07-06T11:24:57.6954727+08:00",
   "ChangedBy": "admin",
-  "ChangedDate": "2015-07-06T11:24:57.6954727+08:00",
+  "ChangedDate": "2015-07-29T15:23:06.8627951+08:00",
   "WebId": "73006fdb-0e57-46a0-af1b-5e2a74ca6d21"
 }

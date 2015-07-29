@@ -2,7 +2,7 @@
   "$type": "Bespoke.epsikologi_soalan.Domain.Soalan, epsikologi.Soalan",
   "NoRujukan": "UKBP-B-00254",
   "SoalanNo": "UKBP-B-00254",
-  "TeksSoalan": "Ahli psikologi klinikal.",
+  "TeksSoalan": "Ahli Psikologi.",
   "SeksyenSoalan": "B",
   "PilihanJawapanCollection": {
     "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan]], domain.sph",
@@ -29,6 +29,6 @@
   "Id": "UKBP-B-00254",
   "CreatedDate": "2015-07-06T11:24:58.0642328+08:00",
   "ChangedBy": "admin",
-  "ChangedDate": "2015-07-06T11:24:58.0637322+08:00",
+  "ChangedDate": "2015-07-29T16:20:19.1222734+08:00",
   "WebId": "ce30ab0f-8d2c-4b0d-a128-7dac02208b74"
 }

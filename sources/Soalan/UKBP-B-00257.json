@@ -2,7 +2,7 @@
   "$type": "Bespoke.epsikologi_soalan.Domain.Soalan, epsikologi.Soalan",
   "NoRujukan": "UKBP-B-00257",
   "SoalanNo": "UKBP-B-00257",
-  "TeksSoalan": "Pekerja sosial.",
+  "TeksSoalan": "Pegawai Kebajikan Masyarakat.",
   "SeksyenSoalan": "B",
   "PilihanJawapanCollection": {
     "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan]], domain.sph",
@@ -29,6 +29,6 @@
   "Id": "UKBP-B-00257",
   "CreatedDate": "2015-07-06T11:24:58.0857477+08:00",
   "ChangedBy": "admin",
-  "ChangedDate": "2015-07-06T11:24:58.0857477+08:00",
+  "ChangedDate": "2015-07-29T16:22:52.5333583+08:00",
   "WebId": "7fc34f59-06a3-4190-b905-ef35ea3da7c6"
 }

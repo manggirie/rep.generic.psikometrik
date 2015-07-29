@@ -2,7 +2,7 @@
   "$type": "Bespoke.epsikologi_soalan.Domain.Soalan, epsikologi.Soalan",
   "NoRujukan": "UKBP-B-00250",
   "SoalanNo": "UKBP-B-00250",
-  "TeksSoalan": "Pegawai anti dadah.",
+  "TeksSoalan": "Pegawai Anti Dadah.",
   "SeksyenSoalan": "B",
   "PilihanJawapanCollection": {
     "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan]], domain.sph",
@@ -29,6 +29,6 @@
   "Id": "UKBP-B-00250",
   "CreatedDate": "2015-07-06T11:24:58.0342116+08:00",
   "ChangedBy": "admin",
-  "ChangedDate": "2015-07-06T11:24:58.0337115+08:00",
+  "ChangedDate": "2015-07-29T16:18:44.7980508+08:00",
   "WebId": "d2f7c470-6896-4f51-b5f5-098a19706797"
 }

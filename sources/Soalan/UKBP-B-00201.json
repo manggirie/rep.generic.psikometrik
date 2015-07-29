@@ -2,7 +2,7 @@
   "$type": "Bespoke.epsikologi_soalan.Domain.Soalan, epsikologi.Soalan",
   "NoRujukan": "UKBP-B-00201",
   "SoalanNo": "UKBP-B-00201",
-  "TeksSoalan": "Menyimpan surat-menyurat dan kertas kerja yang lain.",
+  "TeksSoalan": "Merekod surat dan kertas kerja.",
   "SeksyenSoalan": "B",
   "PilihanJawapanCollection": {
     "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan]], domain.sph",
@@ -29,6 +29,6 @@
   "Id": "UKBP-B-00201",
   "CreatedDate": "2015-07-06T11:24:57.4883265+08:00",
   "ChangedBy": "admin",
-  "ChangedDate": "2015-07-06T11:24:57.4878264+08:00",
+  "ChangedDate": "2015-07-29T15:04:11.3833036+08:00",
   "WebId": "de3d7a1f-2a2e-495a-a61c-c02baee2629d"
 }

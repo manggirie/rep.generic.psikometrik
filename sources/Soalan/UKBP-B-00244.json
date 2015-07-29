@@ -2,7 +2,7 @@
   "$type": "Bespoke.epsikologi_soalan.Domain.Soalan, epsikologi.Soalan",
   "NoRujukan": "UKBP-B-00244",
   "SoalanNo": "UKBP-B-00244",
-  "TeksSoalan": "Penulis.",
+  "TeksSoalan": "Penulis Skrip.",
   "SeksyenSoalan": "B",
   "PilihanJawapanCollection": {
     "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan]], domain.sph",
@@ -29,6 +29,6 @@
   "Id": "UKBP-B-00244",
   "CreatedDate": "2015-07-06T11:24:57.9716677+08:00",
   "ChangedBy": "admin",
-  "ChangedDate": "2015-07-06T11:24:57.970667+08:00",
+  "ChangedDate": "2015-07-29T16:16:57.7573885+08:00",
   "WebId": "d6b14e77-667f-46a0-bf40-238fd30ec1b9"
 }

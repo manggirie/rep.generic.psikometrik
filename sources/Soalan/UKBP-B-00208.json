@@ -2,7 +2,7 @@
   "$type": "Bespoke.epsikologi_soalan.Domain.Soalan, epsikologi.Soalan",
   "NoRujukan": "UKBP-B-00208",
   "SoalanNo": "UKBP-B-00208",
-  "TeksSoalan": "Menulis (menaip) surat perniagaan.",
+  "TeksSoalan": "Menulis atau menaip surat rasmi.",
   "SeksyenSoalan": "B",
   "PilihanJawapanCollection": {
     "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan]], domain.sph",
@@ -29,6 +29,6 @@
   "Id": "UKBP-B-00208",
   "CreatedDate": "2015-07-06T11:24:57.5383618+08:00",
   "ChangedBy": "admin",
-  "ChangedDate": "2015-07-06T11:24:57.5378613+08:00",
+  "ChangedDate": "2015-07-29T15:04:11.6363036+08:00",
   "WebId": "d1efd3cc-36ce-4d98-bd0b-3ac4b6c21b69"
 }

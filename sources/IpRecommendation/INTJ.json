@@ -1,0 +1,20 @@
+{
+  "$type": "Bespoke.epsikologi_iprecommendation.Domain.IpRecommendation, epsikologi.IpRecommendation",
+  "Skor": "INTJ",
+  "HubunganInterpersonal": "Pasif Sosial",
+  "MemperolehMaklumat": "Gerak Hati",
+  "MembuatKeputusan": "Rasional",
+  "CaraGayaKehidupan": "Sistematik",
+  "Perwatakan": "Anda mempamerkan diri sebagai seorang suka berdikari, tabah hati, berfikiran rasional dan mementingkan ketepatan.  Anda suka cabaran yang kompleks dan perkara abstrak, membuat gambaran tentang masa hadapan serta merangka strategi bagi mencapai matlamat yang ditetapkan.  Anda tidak suka kepada kekeliruan atau ketidakefisienan dan melihat perkara rutin adalah sesuatu yang membosankan serta boleh menghakis kreativiti.  \n\nDari aspek hubungan interpersonal, anda suka mengasingkan diri tetapi berpengaruh dalam situasi yang memerlukan anda bertindak sedemikian.  Anda seorang yang teliti dan berpendirian tegas walaupun berhadapan dengan pendapat popular atau pihak berkuasa.  Anda juga mempunyai standard yang tinggi terhadap pengetahuan dan kecekapan yang ada pada diri serta orang lain.\n",
+  "Pekerjaan": null,
+  "PengurusanPerubahan": null,
+  "Kepimpinan": null,
+  "PersepsiOrangLain": null,
+  "ReaksiTerhadapStres": null,
+  "CreatedBy": "urusetia1",
+  "Id": "INTJ",
+  "CreatedDate": "2015-07-29T15:28:48.8383561+08:00",
+  "ChangedBy": "urusetia1",
+  "ChangedDate": "2015-07-29T15:28:48.7763533+08:00",
+  "WebId": "c091ac4a-3461-4522-b996-38d331a9ecce"
+}
