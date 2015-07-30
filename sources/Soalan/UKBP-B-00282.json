@@ -2,7 +2,7 @@
   "$type": "Bespoke.epsikologi_soalan.Domain.Soalan, epsikologi.Soalan",
   "NoRujukan": "UKBP-B-00282",
   "SoalanNo": "UKBP-B-00282",
-  "TeksSoalan": "Kerani audit.",
+  "TeksSoalan": "Pegawai Akaun.",
   "SeksyenSoalan": "B",
   "PilihanJawapanCollection": {
     "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan]], domain.sph",
@@ -29,6 +29,6 @@
   "Id": "UKBP-B-00282",
   "CreatedDate": "2015-07-06T11:24:58.2758838+08:00",
   "ChangedBy": "admin",
-  "ChangedDate": "2015-07-06T11:24:58.2748812+08:00",
+  "ChangedDate": "2015-07-30T15:16:24.549827+08:00",
   "WebId": "80d7735b-a124-4751-b793-d1f021664f23"
 }
