@@ -59,6 +59,28 @@
           "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.Sph.Domain.FieldPermission, domain.sph]], domain.sph",
           "$values": []
         },
+        "Name": "Text",
+        "TypeName": "System.String, mscorlib",
+        "IsNullable": false,
+        "IsNotIndexed": false,
+        "IsAnalyzed": true,
+        "IsFilterable": true,
+        "IsExcludeInAll": false,
+        "Boost": 3,
+        "DefaultValue": null,
+        "WebId": "27e1c7ef-d153-46e1-907d-9762513215cf"
+      },
+      {
+        "$type": "Bespoke.Sph.Domain.Member, domain.sph",
+        "FullName": null,
+        "MemberCollection": {
+          "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.Sph.Domain.Member, domain.sph]], domain.sph",
+          "$values": []
+        },
+        "FieldPermissionCollection": {
+          "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.Sph.Domain.FieldPermission, domain.sph]], domain.sph",
+          "$values": []
+        },
         "Name": "NilaiMin",
         "TypeName": "System.Int32, mscorlib",
         "IsNullable": false,
@@ -91,117 +113,6 @@
         "Boost": 0,
         "DefaultValue": null,
         "WebId": "d32bd901-f677-4dde-9cd4-8b8fcf10051e"
-      },
-      {
-        "$type": "Bespoke.Sph.Domain.Member, domain.sph",
-        "FullName": null,
-        "MemberCollection": {
-          "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.Sph.Domain.Member, domain.sph]], domain.sph",
-          "$values": []
-        },
-        "FieldPermissionCollection": {
-          "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.Sph.Domain.FieldPermission, domain.sph]], domain.sph",
-          "$values": []
-        },
-        "Name": "Skala",
-        "TypeName": "System.String, mscorlib",
-        "IsNullable": false,
-        "IsNotIndexed": false,
-        "IsAnalyzed": false,
-        "IsFilterable": true,
-        "IsExcludeInAll": false,
-        "Boost": 0,
-        "DefaultValue": null,
-        "WebId": "32f66077-7207-4092-d23d-0a406d51520d"
-      },
-      {
-        "$type": "Bespoke.Sph.Domain.Member, domain.sph",
-        "FullName": null,
-        "MemberCollection": {
-          "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.Sph.Domain.Member, domain.sph]], domain.sph",
-          "$values": []
-        },
-        "FieldPermissionCollection": {
-          "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.Sph.Domain.FieldPermission, domain.sph]], domain.sph",
-          "$values": []
-        },
-        "Name": "Tahap",
-        "TypeName": "System.String, mscorlib",
-        "IsNullable": false,
-        "IsNotIndexed": false,
-        "IsAnalyzed": false,
-        "IsFilterable": true,
-        "IsExcludeInAll": false,
-        "Boost": 0,
-        "DefaultValue": null,
-        "WebId": "b1767b1b-b397-4cf8-a172-7d2011d3eb36"
-      },
-      {
-        "$type": "Bespoke.Sph.Domain.Member, domain.sph",
-        "FullName": null,
-        "MemberCollection": {
-          "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.Sph.Domain.Member, domain.sph]], domain.sph",
-          "$values": [
-            {
-              "$type": "Bespoke.Sph.Domain.Member, domain.sph",
-              "FullName": null,
-              "MemberCollection": {
-                "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.Sph.Domain.Member, domain.sph]], domain.sph",
-                "$values": []
-              },
-              "FieldPermissionCollection": {
-                "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.Sph.Domain.FieldPermission, domain.sph]], domain.sph",
-                "$values": []
-              },
-              "Name": "Kategori",
-              "TypeName": "System.String, mscorlib",
-              "IsNullable": false,
-              "IsNotIndexed": false,
-              "IsAnalyzed": false,
-              "IsFilterable": false,
-              "IsExcludeInAll": false,
-              "Boost": 0,
-              "DefaultValue": null,
-              "WebId": "dbb15238-2cd2-466e-ea03-42316f7e671c"
-            },
-            {
-              "$type": "Bespoke.Sph.Domain.Member, domain.sph",
-              "FullName": null,
-              "MemberCollection": {
-                "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.Sph.Domain.Member, domain.sph]], domain.sph",
-                "$values": []
-              },
-              "FieldPermissionCollection": {
-                "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.Sph.Domain.FieldPermission, domain.sph]], domain.sph",
-                "$values": []
-              },
-              "Name": "Deskripsi",
-              "TypeName": "System.String, mscorlib",
-              "IsNullable": false,
-              "IsNotIndexed": false,
-              "IsAnalyzed": false,
-              "IsFilterable": false,
-              "IsExcludeInAll": false,
-              "Boost": 0,
-              "DefaultValue": null,
-              "WebId": "e89533d2-25fd-4bdf-ebe3-624b7c7d18ca"
-            }
-          ]
-        },
-        "FieldPermissionCollection": {
-          "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.Sph.Domain.FieldPermission, domain.sph]], domain.sph",
-          "$values": []
-        },
-        "Name": "RecommendationCollection",
-        "TypeName": "System.Array, mscorlib",
-        "IsNullable": false,
-        "IsNotIndexed": false,
-        "IsAnalyzed": false,
-        "IsFilterable": false,
-        "IsExcludeInAll": false,
-        "Boost": 0,
-        "DefaultValue": null,
-        "WebId": "2a8031fd-37c9-4cfa-ce3f-e8a7c67f7cbd"
       }
     ]
   },
@@ -239,6 +150,6 @@
   "Id": "ipurecommendation",
   "CreatedDate": "2015-07-08T10:07:09.7038341+08:00",
   "ChangedBy": "admin",
-  "ChangedDate": "2015-07-30T12:05:39.2963237+08:00",
+  "ChangedDate": "2015-07-30T10:45:48.1215128+08:00",
   "WebId": "de587e74-1e70-4a79-92bc-275236f76196"
 }

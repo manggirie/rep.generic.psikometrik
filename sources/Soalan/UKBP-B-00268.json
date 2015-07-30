@@ -2,7 +2,7 @@
   "$type": "Bespoke.epsikologi_soalan.Domain.Soalan, epsikologi.Soalan",
   "NoRujukan": "UKBP-B-00268",
   "SoalanNo": "UKBP-B-00268",
-  "TeksSoalan": "Pengusaha perniagaan kecil-kecilan.",
+  "TeksSoalan": "Ahli Perniagaan.",
   "SeksyenSoalan": "B",
   "PilihanJawapanCollection": {
     "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan]], domain.sph",
@@ -29,6 +29,6 @@
   "Id": "UKBP-B-00268",
   "CreatedDate": "2015-07-06T11:24:58.1683062+08:00",
   "ChangedBy": "admin",
-  "ChangedDate": "2015-07-06T11:24:58.1678061+08:00",
+  "ChangedDate": "2015-07-30T15:08:52.6816447+08:00",
   "WebId": "93a01944-005c-474d-bac2-6122db15a72d"
 }
