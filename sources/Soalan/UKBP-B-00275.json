@@ -2,7 +2,7 @@
   "$type": "Bespoke.epsikologi_soalan.Domain.Soalan, epsikologi.Soalan",
   "NoRujukan": "UKBP-B-00275",
   "SoalanNo": "UKBP-B-00275",
-  "TeksSoalan": "Juruwang.",
+  "TeksSoalan": "Pegawai Bank.",
   "SeksyenSoalan": "B",
   "PilihanJawapanCollection": {
     "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan]], domain.sph",
@@ -29,6 +29,6 @@
   "Id": "UKBP-B-00275",
   "CreatedDate": "2015-07-06T11:24:58.2198424+08:00",
   "ChangedBy": "admin",
-  "ChangedDate": "2015-07-06T11:24:58.2198424+08:00",
+  "ChangedDate": "2015-07-30T15:12:49.3973139+08:00",
   "WebId": "ad94b531-9b28-4b25-a99a-355a41305430"
 }

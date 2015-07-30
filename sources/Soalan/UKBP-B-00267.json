@@ -2,7 +2,7 @@
   "$type": "Bespoke.epsikologi_soalan.Domain.Soalan, epsikologi.Soalan",
   "NoRujukan": "UKBP-B-00267",
   "SoalanNo": "UKBP-B-00267",
-  "TeksSoalan": "Pengurus stesyen televisyen.",
+  "TeksSoalan": "Pengurus Stesen Penyiaran.",
   "SeksyenSoalan": "B",
   "PilihanJawapanCollection": {
     "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan]], domain.sph",
@@ -29,6 +29,6 @@
   "Id": "UKBP-B-00267",
   "CreatedDate": "2015-07-06T11:24:58.1618019+08:00",
   "ChangedBy": "admin",
-  "ChangedDate": "2015-07-06T11:24:58.1613013+08:00",
+  "ChangedDate": "2015-07-30T15:05:45.1756531+08:00",
   "WebId": "ae8ac6ce-8a99-45ff-a0bc-3e2ff6baeada"
 }
