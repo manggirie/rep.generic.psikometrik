@@ -58,11 +58,6 @@ namespace web.sph.App_Code
 
 
       }
-      public Bespoke.epsikologi_pengguna.Domain.Pengguna Pengguna {get { return m_pengguna;}}
-      public Bespoke.epsikologi_ujian.Domain.Ujian Ujian {get;set;}
-      public Bespoke.epsikologi_permohonan.Domain.Permohonan Permohonan {get;set;}
-      public Bespoke.epsikologi_iprecommendation.Domain.IpRecommendation Recommendation {get;set;}
-
       public int OneA {get;private set;}
       public int OneB {get;private set;}
 

@@ -1,0 +1,62 @@
+@model web.sph.App_Code.IpTraitViewModel
+@{
+	Layout = null;
+}
+<html>
+<head>
+	<title>Laporan untuk @Model.Sesi.NamaPengguna</title>
+	<link rel="stylesheet" type="text/css" href="/content/external/bootstrap.min.css">
+</head>
+<body>
+	<h1>Laporan untuk @Model.Sesi.NamaPengguna</h1>
+  @Html.Partial("_Trait-Ip-Header")
+
+<pre>
+Berdasarkan kepada analisis ujian, secara umumnya dari aspek:
+
+Hubungan Interpersonal	:	Pasif Sosial
+Memperoleh Maklumat		:	Fakta
+Membuat Keputusan		:	Rasional
+Cara Gaya Kehidupan		:	Sistematik
+
+Perwatakan
+Anda mempamerkan diri sebagai seorang yang realistik, praktikal dan mementingkan fakta.
+ Anda menilai sesuatu perkara dengan teliti berdasarkan maklumat,pengalaman dan pengetahuan
+ sedia ada.  Anda berpegang teguh kepada prinsip, nilai dan standard serta sedia memberi
+ kritikan apabila diperlukan.
+
+Dari aspek hubungan interpersonal, anda seorang yang setia dan bertanggungjawab kepada keluarga
+serta organisasi dan mengharapkan orang lain juga seperti anda.
+
+Pekerjaan
+Secara umumnya, anda suka bekerja bersendirian tanpa gangguan.  Namun, jika anda dikehendaki bekerja secara
+berkumpulan, anda bersedia berbuat demikian dengan syarat setiap ahli jelas dengan peranan dan
+tanggungjawab yang diberikan.
+
+Dari aspek pekerjaan, anda mahu konsep hormat-menghormati dan keadilan sesama rakan sekerja diamalkan
+dalam organisasi.  Anda seorang yang komited terhadap tugas dan percaya prosedur
+kerja yang standard adalah perlu bagi mencapai matlamat pada masa yang ditetapkan.
+
+Apabila anda dikehendaki melakukan satu tugas baru, anda cenderung membaca dan
+mempelajarinya sebelum memulakan tugasan tersebut.  Anda sedia menghadapi
+cabaran dalam menjalankan tugas tetapi akan menyuarakan rasa tidak puas hati
+jika diminta melakukan tugasan yang dilihat sebagai tidak munasabah.
+
+Dari aspek membuat keputusan, anda cenderung menganalisis sesuatu perkara secara
+logik dengan menggunakan maklumat sedia ada dan pengalaman diri atau orang lain
+sebelum mengambil tindakan.
+
+Pengurusan Perubahan
+Apabila sesuatu perubahan dicadangkan, anda sedia menerima dan melaksanakannya
+jika ia selaras dengan prinsip atau nilai diri.  Anda juga sedia menyokong
+sesuatu perubahan dilakukan jika fakta menunjukkan ia membawa keputusan yang
+lebih baik.  Bagaimanapun, sekiranya perubahan tersebut bercanggah dengan
+prinsip dan nilai diri, anda mungkin tidak bersedia membuat perubahan dan akan
+mempertahankan prinsip serta nilai sedia ada.
+
+</pre>
+<pre>
+  @Model.ToString()
+</pre>
+</body>
+</html>

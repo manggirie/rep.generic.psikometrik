@@ -85,23 +85,13 @@ namespace web.sph.App_Code
     		var context = new SphDataContext();
     		var sesi = await context.LoadOneAsync<Bespoke.epsikologi_sesiujian.Domain.SesiUjian>(x => x.Id == id);
         var user = await context.LoadOneAsync<Bespoke.epsikologi_pengguna.Domain.Pengguna>(x => x.MyKad == sesi.MyKad);
-        var ujian = await context.LoadOneAsync<Bespoke.epsikologi_ujian.Domain.Ujian>(x => x.Id == sesi.NamaUjian);
-        var permohonan = await context.LoadOneAsync<Bespoke.epsikologi_permohonan.Domain.Permohonan>(x => x.PermohonanNo == sesi.NamaProgram);
-
-      	if(null == sesi)
+    		if(null == sesi)
     			return HttpNotFound("Cannot find SesiUjian " + id);
       	if(null == sesi)
       		return HttpNotFound("Cannot find user with MyKad " + sesi.MyKad);
 
         var vm = new IpTraitViewModel(sesi, user);
-        vm.Permohonan = permohonan;
-        vm.Ujian = ujian;
-
-        vm.Recommendation = await context.LoadOneAsync<Bespoke.epsikologi_iprecommendation.Domain.IpRecommendation>(x => x.Skor == vm.Result);
-        if(null == vm.Recommendation)
-          throw new InvalidOperationException("Cannot find IpRecommendation for " + vm.Result);
-
-    		return View("Trait-Ip", vm);
+    		return View("Trait-Ip-" + vm.Result, vm);
     	}
 
     	[Route("trait/ibk/{id}")]

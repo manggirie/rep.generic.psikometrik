@@ -821,7 +821,7 @@
           "Size": "input-large",
           "CssClass": "",
           "Visible": "true",
-          "Enable": "false",
+          "Enable": "true",
           "ElementId": "2396e9fd-f8f0-4ff6-9e8c-afa40116e750",
           "HelpText": null,
           "UseDisplayTemplate": false,
@@ -1097,6 +1097,6 @@
   "Id": "permohonan-urusetia-baru",
   "CreatedDate": "2015-06-16T08:04:20.3588975+08:00",
   "ChangedBy": "admin",
-  "ChangedDate": "2015-07-30T12:41:31.1738925+08:00",
+  "ChangedDate": "2015-07-29T09:03:38.6625297+08:00",
   "WebId": "d56af63c-c52e-401b-83b5-bfecea2c53d1"
 }
