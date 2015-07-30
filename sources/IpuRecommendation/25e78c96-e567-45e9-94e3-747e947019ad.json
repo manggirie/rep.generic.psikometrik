@@ -1,0 +1,14 @@
+{
+  "$type": "Bespoke.epsikologi_ipurecommendation.Domain.IpuRecommendation, epsikologi.IpuRecommendation",
+  "No": "1",
+  "Tret": "1",
+  "Text": "1",
+  "NilaiMin": 1,
+  "NilaiMax": 1,
+  "CreatedBy": "admin",
+  "Id": "25e78c96-e567-45e9-94e3-747e947019ad",
+  "CreatedDate": "2015-07-30T10:46:44.0910049+08:00",
+  "ChangedBy": "admin",
+  "ChangedDate": "2015-07-30T10:46:44.0895032+08:00",
+  "WebId": "7ceb890f-01c4-4657-8d66-244e89d3b8ee"
+}

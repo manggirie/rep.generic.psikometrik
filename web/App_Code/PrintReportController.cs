@@ -75,7 +75,7 @@ namespace web.sph.App_Code
       		return HttpNotFound("Cannot find user with MyKad " + sesi.MyKad);
 
         var vm = new HlpTraitViewModel(sesi, user, scoreTables.ToArray(), recommendations.ToArray());
-    		return View("Trait-Hlp", vm);
+    		return View("Trait-Hlp-" + user.Jantina, vm);
     	}
 
 
