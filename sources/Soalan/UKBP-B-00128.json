@@ -2,7 +2,7 @@
   "$type": "Bespoke.epsikologi_soalan.Domain.Soalan, epsikologi.Soalan",
   "NoRujukan": "UKBP-B-00128",
   "SoalanNo": "UKBP-B-00128",
-  "TeksSoalan": "Menyelia aktiviti bagi pesakit kesihatan mental.",
+  "TeksSoalan": "Melibatkan diri dalam aktiviti kemasyarakatan.",
   "SeksyenSoalan": "B",
   "PilihanJawapanCollection": {
     "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan]], domain.sph",
@@ -29,6 +29,6 @@
   "Id": "UKBP-B-00128",
   "CreatedDate": "2015-07-06T11:24:56.9314337+08:00",
   "ChangedBy": "admin",
-  "ChangedDate": "2015-07-06T11:24:56.9309331+08:00",
+  "ChangedDate": "2015-07-28T15:56:50.9579642+08:00",
   "WebId": "84136e6c-6195-4a92-92ec-52dddbeb5b4c"
 }

@@ -2,7 +2,7 @@
   "$type": "Bespoke.epsikologi_soalan.Domain.Soalan, epsikologi.Soalan",
   "NoRujukan": "UKBP-B-00160",
   "SoalanNo": "UKBP-B-00160",
-  "TeksSoalan": "Mengecat bilik di rumah atau apartmen.",
+  "TeksSoalan": "Mengecat bilik.",
   "SeksyenSoalan": "B",
   "PilihanJawapanCollection": {
     "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan]], domain.sph",
@@ -29,6 +29,6 @@
   "Id": "UKBP-B-00160",
   "CreatedDate": "2015-07-06T11:24:57.187614+08:00",
   "ChangedBy": "admin",
-  "ChangedDate": "2015-07-06T11:24:57.1871139+08:00",
+  "ChangedDate": "2015-07-29T11:13:39.9955024+08:00",
   "WebId": "e0453ab1-63d3-465e-a787-460898cb1ac4"
 }

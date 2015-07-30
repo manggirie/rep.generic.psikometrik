@@ -2,7 +2,7 @@
   "$type": "Bespoke.epsikologi_soalan.Domain.Soalan, epsikologi.Soalan",
   "NoRujukan": "UKBP-B-00227",
   "SoalanNo": "UKBP-B-00227",
-  "TeksSoalan": "Ahli antropologi.",
+  "TeksSoalan": "Ahli Antropologi.",
   "SeksyenSoalan": "B",
   "PilihanJawapanCollection": {
     "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan]], domain.sph",
@@ -29,6 +29,6 @@
   "Id": "UKBP-B-00227",
   "CreatedDate": "2015-07-06T11:24:57.7625201+08:00",
   "ChangedBy": "admin",
-  "ChangedDate": "2015-07-06T11:24:57.7600283+08:00",
+  "ChangedDate": "2015-07-29T15:24:50.6557445+08:00",
   "WebId": "4ec93129-1e63-4a1c-a6dc-162cc3245e28"
 }

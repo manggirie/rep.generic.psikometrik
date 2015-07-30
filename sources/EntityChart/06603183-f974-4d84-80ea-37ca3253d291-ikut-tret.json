@@ -13,13 +13,13 @@
   "Aggregate": "term",
   "Field": "Tret",
   "DateInterval": "year",
-  "IsDashboardItem": true,
+  "IsDashboardItem": false,
   "DasboardItemPosition": 0,
   "HistogramInterval": null,
   "CreatedBy": "admin",
   "Id": "06603183-f974-4d84-80ea-37ca3253d291-ikut-tret",
   "CreatedDate": "2015-07-09T07:21:55.4673477+08:00",
-  "ChangedBy": "admin",
-  "ChangedDate": "2015-07-09T07:21:55.4673477+08:00",
+  "ChangedBy": "Pentadbir1",
+  "ChangedDate": "2015-07-29T11:55:27.8883733+08:00",
   "WebId": "33e719df-5736-4a56-af73-c1738f5b4493"
 }

@@ -2,7 +2,7 @@
   "$type": "Bespoke.epsikologi_soalan.Domain.Soalan, epsikologi.Soalan",
   "NoRujukan": "PTD-C-00006",
   "SoalanNo": "PTD-C-00006",
-  "TeksSoalan": ".,ada kalanya boleh merasakan bahawa orang lain tidak suka kepada saya.",
+  "TeksSoalan": "ada kalanya boleh merasakan bahawa orang lain tidak suka kepada saya.",
   "SeksyenSoalan": "C",
   "PilihanJawapanCollection": {
     "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan]], domain.sph",
@@ -39,14 +39,14 @@
       }
     ]
   },
-  "Trait": null,
+  "Trait": "A3",
   "NamaUjian": "Profil Personaliti & Kerjaya Pegawai(PTD)",
   "Susunan": 6.0,
   "Kategori": null,
   "CreatedBy": "admin",
   "Id": "PTD-C-00006",
   "CreatedDate": "2015-07-06T11:24:52.3436953+08:00",
-  "ChangedBy": "admin",
-  "ChangedDate": "2015-07-06T11:24:52.3426946+08:00",
+  "ChangedBy": "urusetia2",
+  "ChangedDate": "2015-07-27T14:38:07.4825251+08:00",
   "WebId": "14f7a857-bf82-4a3e-a329-fb840cfb0adb"
 }

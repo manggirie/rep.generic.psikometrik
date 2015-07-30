@@ -2,7 +2,7 @@
   "$type": "Bespoke.epsikologi_soalan.Domain.Soalan, epsikologi.Soalan",
   "NoRujukan": "PTD-D-00005",
   "SoalanNo": "PTD-D-00005",
-  "TeksSoalan": ".,jarang mencabar pendapat orang lain dan lebih suka membiarkan mereka membuat keputusan",
+  "TeksSoalan": "jarang mencabar pendapat orang lain dan lebih suka membiarkan mereka membuat keputusan",
   "SeksyenSoalan": "D",
   "PilihanJawapanCollection": {
     "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan]], domain.sph",
@@ -39,14 +39,14 @@
       }
     ]
   },
-  "Trait": null,
+  "Trait": "E4",
   "NamaUjian": "Profil Personaliti & Kerjaya Pegawai(PTD)",
   "Susunan": 5.0,
   "Kategori": null,
   "CreatedBy": "admin",
   "Id": "PTD-D-00005",
   "CreatedDate": "2015-07-06T11:24:52.8665641+08:00",
-  "ChangedBy": "admin",
-  "ChangedDate": "2015-07-06T11:24:52.866064+08:00",
+  "ChangedBy": "urusetia2",
+  "ChangedDate": "2015-07-27T16:15:02.4549689+08:00",
   "WebId": "88c4ed25-c902-4c8b-afbb-d3f85e05e0ef"
 }

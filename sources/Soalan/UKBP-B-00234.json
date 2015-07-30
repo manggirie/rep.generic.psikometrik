@@ -2,7 +2,7 @@
   "$type": "Bespoke.epsikologi_soalan.Domain.Soalan, epsikologi.Soalan",
   "NoRujukan": "UKBP-B-00234",
   "SoalanNo": "UKBP-B-00234",
-  "TeksSoalan": "Penyelidik bebas (Sains).",
+  "TeksSoalan": "Penyelidik Bebas (Saintifik)",
   "SeksyenSoalan": "B",
   "PilihanJawapanCollection": {
     "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan]], domain.sph",
@@ -29,6 +29,6 @@
   "Id": "UKBP-B-00234",
   "CreatedDate": "2015-07-06T11:24:57.8816041+08:00",
   "ChangedBy": "admin",
-  "ChangedDate": "2015-07-06T11:24:57.8811035+08:00",
+  "ChangedDate": "2015-07-29T15:28:14.5561372+08:00",
   "WebId": "30998dc6-cf9d-4e99-9401-7202aa91292d"
 }

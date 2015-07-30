@@ -188,11 +188,11 @@
           },
           "ComboBoxLookup": {
             "$type": "Bespoke.Sph.Domain.ComboBoxLookup, domain.sph",
-            "Entity": null,
-            "ValuePath": null,
-            "DisplayPath": null,
-            "Query": null,
-            "IsComputedQuery": false,
+            "Entity": "Jabatan",
+            "ValuePath": "NamaJabatan",
+            "DisplayPath": "NamaJabatan",
+            "Query": "'Kementerian eq \\'' + NamaKementerian() + '\\''",
+            "IsComputedQuery": true,
             "WebId": null
           },
           "IsPathIsRequired": true,
@@ -1097,6 +1097,6 @@
   "Id": "permohonan-urusetia-baru",
   "CreatedDate": "2015-06-16T08:04:20.3588975+08:00",
   "ChangedBy": "admin",
-  "ChangedDate": "2015-07-28T11:44:17.1785339+08:00",
+  "ChangedDate": "2015-07-29T09:03:38.6625297+08:00",
   "WebId": "d56af63c-c52e-401b-83b5-bfecea2c53d1"
 }

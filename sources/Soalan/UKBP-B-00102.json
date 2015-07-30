@@ -2,7 +2,7 @@
   "$type": "Bespoke.epsikologi_soalan.Domain.Soalan, epsikologi.Soalan",
   "NoRujukan": "UKBP-B-00102",
   "SoalanNo": "UKBP-B-00102",
-  "TeksSoalan": "Bekerja di pejabat atau makmal penyelidikan.",
+  "TeksSoalan": "Bekerja di bahagian atau makmal penyelidikan.",
   "SeksyenSoalan": "B",
   "PilihanJawapanCollection": {
     "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan]], domain.sph",
@@ -29,6 +29,6 @@
   "Id": "UKBP-B-00102",
   "CreatedDate": "2015-07-06T11:24:56.7362974+08:00",
   "ChangedBy": "admin",
-  "ChangedDate": "2015-07-06T11:24:56.7357954+08:00",
+  "ChangedDate": "2015-07-23T10:52:37.7623706+08:00",
   "WebId": "c32a76f0-ef26-4c50-9e70-263a0c2d8566"
 }

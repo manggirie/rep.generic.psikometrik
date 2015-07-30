@@ -2,7 +2,7 @@
   "$type": "Bespoke.epsikologi_soalan.Domain.Soalan, epsikologi.Soalan",
   "NoRujukan": "PTD-B-00045",
   "SoalanNo": "PTD-B-00045",
-  "TeksSoalan": ".,menaruh dendam dan akan membalas balik perbuatan jahat orang lain ke atas saya",
+  "TeksSoalan": "menaruh dendam dan akan membalas balik perbuatan jahat orang lain ke atas saya",
   "SeksyenSoalan": "B",
   "PilihanJawapanCollection": {
     "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan]], domain.sph",
@@ -39,14 +39,14 @@
       }
     ]
   },
-  "Trait": null,
+  "Trait": "E2",
   "NamaUjian": "Profil Personaliti & Kerjaya Pegawai(PTD)",
   "Susunan": 45.0,
   "Kategori": null,
   "CreatedBy": "admin",
   "Id": "PTD-B-00045",
   "CreatedDate": "2015-07-06T11:24:52.2421234+08:00",
-  "ChangedBy": "admin",
-  "ChangedDate": "2015-07-06T11:24:52.2416233+08:00",
+  "ChangedBy": "urusetia2",
+  "ChangedDate": "2015-07-27T14:34:34.630242+08:00",
   "WebId": "b4d5b80d-1eaf-4ea5-adee-dbbb1d5082b2"
 }

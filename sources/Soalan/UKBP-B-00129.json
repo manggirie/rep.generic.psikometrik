@@ -2,7 +2,7 @@
   "$type": "Bespoke.epsikologi_soalan.Domain.Soalan, epsikologi.Soalan",
   "NoRujukan": "UKBP-B-00129",
   "SoalanNo": "UKBP-B-00129",
-  "TeksSoalan": "Mengajar di kelas orang dewasa.",
+  "TeksSoalan": "Mengajar di kelas pemulihan.",
   "SeksyenSoalan": "B",
   "PilihanJawapanCollection": {
     "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan]], domain.sph",
@@ -29,6 +29,6 @@
   "Id": "UKBP-B-00129",
   "CreatedDate": "2015-07-06T11:24:56.9394393+08:00",
   "ChangedBy": "admin",
-  "ChangedDate": "2015-07-06T11:24:56.9389387+08:00",
+  "ChangedDate": "2015-07-28T15:57:15.5479552+08:00",
   "WebId": "d7e2277b-e2ba-4825-8b58-cb2e6d6a4c20"
 }

@@ -2,7 +2,7 @@
   "$type": "Bespoke.epsikologi_soalan.Domain.Soalan, epsikologi.Soalan",
   "NoRujukan": "UKBP-B-00098",
   "SoalanNo": "UKBP-B-00098",
-  "TeksSoalan": "Bekerja dengan mekanik atau juruteknik yang terkenal.",
+  "TeksSoalan": "Bekerja dengan mekanik atau jurutera yang terkenal.",
   "SeksyenSoalan": "B",
   "PilihanJawapanCollection": {
     "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan]], domain.sph",
@@ -29,6 +29,6 @@
   "Id": "UKBP-B-00098",
   "CreatedDate": "2015-07-06T11:24:56.7057742+08:00",
   "ChangedBy": "admin",
-  "ChangedDate": "2015-07-06T11:24:56.7052736+08:00",
+  "ChangedDate": "2015-07-23T10:50:33.0793706+08:00",
   "WebId": "b06a7ec0-8d8b-4b92-9ec0-38cca45569b5"
 }

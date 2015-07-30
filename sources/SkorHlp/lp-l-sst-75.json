@@ -3,14 +3,14 @@
   "No": "lp-l-sst-75",
   "Tret": "LP",
   "NilaiMin": 34,
-  "NilaiMax": 34,
+  "NilaiMax": 35,
   "Percentile": 75,
   "Skor": "Skor Sederhana Tinggi",
   "Jantina": "Lelaki",
   "CreatedBy": "urusetia1",
   "Id": "lp-l-sst-75",
   "CreatedDate": "2015-07-08T15:27:56.1256033+08:00",
-  "ChangedBy": "urusetia1",
-  "ChangedDate": "2015-07-08T15:27:56.1216005+08:00",
+  "ChangedBy": "admin",
+  "ChangedDate": "2015-07-28T11:45:04.713521+08:00",
   "WebId": "e64e090e-39b4-426f-9d47-dc94cfedf3ad"
 }

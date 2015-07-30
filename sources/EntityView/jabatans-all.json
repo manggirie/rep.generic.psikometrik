@@ -110,11 +110,11 @@
   "Entity": "Jabatan",
   "Partial": null,
   "Template": null,
-  "DisplayOnDashboard": false,
+  "DisplayOnDashboard": true,
   "CreatedBy": "admin",
   "Id": "jabatans-all",
   "CreatedDate": "2015-06-05T10:37:17.726344+08:00",
   "ChangedBy": "admin",
-  "ChangedDate": "2015-07-12T08:49:34.08446+08:00",
+  "ChangedDate": "2015-07-29T15:05:29.315378+08:00",
   "WebId": "98b461bb-b301-40a2-81bc-885e2954f342"
 }

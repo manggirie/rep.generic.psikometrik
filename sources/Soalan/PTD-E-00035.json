@@ -2,7 +2,7 @@
   "$type": "Bespoke.epsikologi_soalan.Domain.Soalan, epsikologi.Soalan",
   "NoRujukan": "PTD-E-00035",
   "SoalanNo": "PTD-E-00035",
-  "TeksSoalan": ".,mudah berasa malu dan tidak mungkin boleh berhadapan dengan orang lain setelah melakukan kesilapan yang dianggap memalukan diri.",
+  "TeksSoalan": "mudah berasa malu dan tidak mungkin boleh berhadapan dengan orang lain setelah melakukan kesilapan yang dianggap memalukan diri.",
   "SeksyenSoalan": "E",
   "PilihanJawapanCollection": {
     "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan]], domain.sph",
@@ -39,14 +39,14 @@
       }
     ]
   },
-  "Trait": null,
+  "Trait": "E5",
   "NamaUjian": "Profil Personaliti & Kerjaya Pegawai(PTD)",
   "Susunan": 35.0,
   "Kategori": null,
   "CreatedBy": "admin",
   "Id": "PTD-E-00035",
   "CreatedDate": "2015-07-06T11:24:53.6466159+08:00",
-  "ChangedBy": "admin",
-  "ChangedDate": "2015-07-06T11:24:53.6461148+08:00",
+  "ChangedBy": "urusetia2",
+  "ChangedDate": "2015-07-27T18:18:25.6626757+08:00",
   "WebId": "64d4138c-8a5f-4e5e-b5c3-c20aac5d0ce3"
 }

@@ -2,7 +2,7 @@
   "$type": "Bespoke.epsikologi_soalan.Domain.Soalan, epsikologi.Soalan",
   "NoRujukan": "PTD-C-00003",
   "SoalanNo": "PTD-C-00003",
-  "TeksSoalan": ".,mempunyai masalah untuk menetapkan pendirian diri terhadap apa yang ingin dilakukan.",
+  "TeksSoalan": "mempunyai masalah untuk menetapkan pendirian diri terhadap apa yang ingin dilakukan.",
   "SeksyenSoalan": "C",
   "PilihanJawapanCollection": {
     "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan]], domain.sph",
@@ -39,14 +39,14 @@
       }
     ]
   },
-  "Trait": null,
+  "Trait": "A3",
   "NamaUjian": "Profil Personaliti & Kerjaya Pegawai(PTD)",
   "Susunan": 3.0,
   "Kategori": null,
   "CreatedBy": "admin",
   "Id": "PTD-C-00003",
   "CreatedDate": "2015-07-06T11:24:52.3141747+08:00",
-  "ChangedBy": "admin",
-  "ChangedDate": "2015-07-06T11:24:52.3136741+08:00",
+  "ChangedBy": "urusetia2",
+  "ChangedDate": "2015-07-27T14:37:08.7966571+08:00",
   "WebId": "e52f66f4-7668-4735-b48d-9ee2fa964752"
 }

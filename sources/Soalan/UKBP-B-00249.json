@@ -2,7 +2,7 @@
   "$type": "Bespoke.epsikologi_soalan.Domain.Soalan, epsikologi.Soalan",
   "NoRujukan": "UKBP-B-00249",
   "SoalanNo": "UKBP-B-00249",
-  "TeksSoalan": "Guru sekolah menengah.",
+  "TeksSoalan": "Guru.",
   "SeksyenSoalan": "B",
   "PilihanJawapanCollection": {
     "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan]], domain.sph",
@@ -29,6 +29,6 @@
   "Id": "UKBP-B-00249",
   "CreatedDate": "2015-07-06T11:24:58.0262059+08:00",
   "ChangedBy": "admin",
-  "ChangedDate": "2015-07-06T11:24:58.0257054+08:00",
+  "ChangedDate": "2015-07-29T16:18:24.8575413+08:00",
   "WebId": "b12ea027-5c95-4e55-be8d-d6126652a563"
 }
