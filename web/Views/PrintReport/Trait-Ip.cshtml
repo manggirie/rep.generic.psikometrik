@@ -1,39 +1,69 @@
 @model web.sph.App_Code.IpTraitViewModel
 @{
-	Layout = null;
+	Layout = "_MasterPage.cshtml";
 }
-<html>
-<head>
-	<title>Laporan untuk @Model.Sesi.NamaPengguna</title>
-	<link rel="stylesheet" type="text/css" href="/content/external/bootstrap.min.css">
-</head>
-<body>
-	<h1>Laporan untuk @Model.Sesi.NamaPengguna</h1>
-	<div class="row">
-		<label class="col-md-4">Nama Pegawai :</label>
-		<strong class="col-md-8">@Model.Sesi.NamaPengguna :</strong>
-	</div>
-	<div class="row">
-		<label class="col-md-4">No KP Pegawai :</label>
-		<strong class="col-md-8">@Model.Sesi.MyKad</strong>
-	</div>
-	<div class="row">
-		<label class="col-md-4">Tempat Bertugas :</label>
-		<strong class="col-md-8">@Model.Sesi.MyKad</strong>
-	</div>
-	</div>
-	<div class="row">
-		<label class="col-md-4">1 A :</label>
-		<strong class="col-md-8">@Model.OneA</strong>
-	</div>
-	</div>
-	<div class="row">
-		<label class="col-md-4">1 B :</label>
-		<strong class="col-md-8">@Model.OneB</strong>
-	</div>
-	<div class="row">
-		<label class="col-md-4">1 B :</label>
-		<strong class="col-md-8">@Model.Result</strong>
-	</div>
-</body>
-</html>
+
+<div style="height:40px"></div>
+<table class="">
+  <colgroup>
+    <col style="width:180px"/>
+    <col style="width:20px"/>
+    <col style="width:600px"/>
+  </colgroup>
+  <tr>
+    <td>Hubungan Interpersonal</td>
+    <td>:</td>
+    <td>@Model.Recommendation.HubunganInterpersonal</td>
+  </tr>
+  <tr>
+    <td>Memperoleh Maklumat</td>
+    <td>:</td>
+    <td>@Model.Recommendation.MemperolehMaklumat</td>
+  </tr>
+  <tr>
+    <td>Membuat Keputusan</td>
+    <td>:</td>
+    <td>@Model.Recommendation.MembuatKeputusan</td>
+  </tr>
+  <tr>
+    <td>Cara Gaya Kehidupan</td>
+    <td>:</td>
+    <td>@Model.Recommendation.CaraGayaKehidupan</td>
+  </tr>
+  <tr>
+    <td style="vertical-align:top">Perwatakan</td>
+    <td style="vertical-align:top">:</td>
+    <td style="text-align:justify">@Html.Raw(Model.Recommendation.Perwatakan)</td>
+  </tr>
+  <tr>
+    <td style="vertical-align:top">Pekerjaan</td>
+    <td style="vertical-align:top">:</td>
+    <td style="text-align:justify">@Html.Raw(Model.Recommendation.Pekerjaan)</td>
+  </tr>
+  <tr>
+    <td style="vertical-align:top">Pengurusan Perubahan</td>
+    <td style="vertical-align:top">:</td>
+    <td style="text-align:justify">@Html.Raw(Model.Recommendation.PengurusanPerubahan)</td>
+  </tr>
+  <tr>
+    <td style="vertical-align:top">Kepimpinan</td>
+    <td style="vertical-align:top">:</td>
+    <td style="text-align:justify">@Html.Raw(Model.Recommendation.Kepimpinan)</td>
+  </tr>
+  <tr>
+    <td style="vertical-align:top">Persepsi Orang Lain</td>
+    <td style="vertical-align:top">:</td>
+    <td style="text-align:justify">@Html.Raw(Model.Recommendation.PersepsiOrangLain)</td>
+  </tr>
+  <tr>
+    <td style="vertical-align:top">Reaksi Terhadap Stres</td>
+    <td style="vertical-align:top">:</td>
+    <td style="text-align:justify">@Html.Raw(Model.Recommendation.ReaksiTerhadapStres)</td>
+  </tr>
+
+</table>
+
+<script type="text/javascript">
+
+	window.print();
+</script>
