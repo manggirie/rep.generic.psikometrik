@@ -2,7 +2,7 @@
   "$type": "Bespoke.epsikologi_soalan.Domain.Soalan, epsikologi.Soalan",
   "NoRujukan": "UKBP-B-00204",
   "SoalanNo": "UKBP-B-00204",
-  "TeksSoalan": "Menggunakan peralatan pemprosesan data yang mudah.",
+  "TeksSoalan": "Menggunakan alat pemprosesan data seperti kalkulator atau mesin juruwang.",
   "SeksyenSoalan": "B",
   "PilihanJawapanCollection": {
     "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan]], domain.sph",
@@ -29,6 +29,6 @@
   "Id": "UKBP-B-00204",
   "CreatedDate": "2015-07-06T11:24:57.5098415+08:00",
   "ChangedBy": "admin",
-  "ChangedDate": "2015-07-06T11:24:57.5093414+08:00",
+  "ChangedDate": "2015-07-29T15:04:11.5063036+08:00",
   "WebId": "20e1d47a-5635-4ca9-8464-95e129c96cd4"
 }

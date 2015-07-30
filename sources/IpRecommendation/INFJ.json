@@ -1,0 +1,20 @@
+{
+  "$type": "Bespoke.epsikologi_iprecommendation.Domain.IpRecommendation, epsikologi.IpRecommendation",
+  "Skor": "INFJ",
+  "HubunganInterpersonal": "Pasif Sosial",
+  "MemperolehMaklumat": "Gerak Hati",
+  "MembuatKeputusan": "Empati",
+  "CaraGayaKehidupan": "Sistematik",
+  "Perwatakan": "Anda mempamerkan diri sebagai seorang kreatif, idealistik, konseptual dan berwawasan.  Anda berpegang kepada nilai diri dan sedia berkorban untuk pembangunan potensi diri serta individu yang penting kepada anda dan mencari jalan alternatif untuk mencapai matlamat tersebut.\n\nDari aspek hubungan interpersonal, anda seorang yang prihatin dan penyayang, memberi fokus kepada interaksi sosial manusia serta boleh mengetuai dan mempengaruhi orang lain.  \n",
+  "Pekerjaan": null,
+  "PengurusanPerubahan": null,
+  "Kepimpinan": null,
+  "PersepsiOrangLain": null,
+  "ReaksiTerhadapStres": null,
+  "CreatedBy": "urusetia1",
+  "Id": "INFJ",
+  "CreatedDate": "2015-07-29T15:26:56.1694265+08:00",
+  "ChangedBy": "urusetia1",
+  "ChangedDate": "2015-07-29T15:26:56.1574255+08:00",
+  "WebId": "7bbe71a5-0ae4-4f45-ce98-114722abd092"
+}

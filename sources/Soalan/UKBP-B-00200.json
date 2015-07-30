@@ -2,7 +2,7 @@
   "$type": "Bespoke.epsikologi_soalan.Domain.Soalan, epsikologi.Soalan",
   "NoRujukan": "UKBP-B-00200",
   "SoalanNo": "UKBP-B-00200",
-  "TeksSoalan": "Memimpin.",
+  "TeksSoalan": "Memimpin sesuatu kumpulan atau tugasan.",
   "SeksyenSoalan": "B",
   "PilihanJawapanCollection": {
     "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan]], domain.sph",
@@ -23,12 +23,12 @@
   },
   "Trait": null,
   "NamaUjian": "Ujian Khas Biasiswa Persekutuan(UKBP)",
-  "Susunan": 200.0,
+  "Susunan": 200.1,
   "Kategori": null,
   "CreatedBy": "admin",
   "Id": "UKBP-B-00200",
   "CreatedDate": "2015-07-06T11:24:57.4818217+08:00",
   "ChangedBy": "admin",
-  "ChangedDate": "2015-07-06T11:24:57.4813211+08:00",
+  "ChangedDate": "2015-07-29T15:04:11.1493036+08:00",
   "WebId": "8059e9a9-7fff-493c-876e-0376bec950e0"
 }

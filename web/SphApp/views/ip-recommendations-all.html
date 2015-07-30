@@ -1,0 +1,41 @@
+<h1>All IpRecommendations</h1>
+<div class="row">
+    <div class="col-md-8">
+        <button class="btn btn-link pull-right" data-bind="visible: chartFiltered, click: clearChartFilter">
+            <i class="fa fa-times"></i>
+            Clear chart's filter
+        </button>
+        <table class="table table-striped" data-bind="filter : {path:'tbody>tr'}, searchPaging :{ query: query, map : map, entity : 'IpRecommendation', list:list}">
+            <thead>
+                <tr>
+                    <th>Skor</th>
+                    <th>Hubungan Interpersonal</th>
+                    <th>Memperoleh Maklumat</th>
+                    <th>Membuat Keputusan</th>
+                    <th>Cara Gaya Kehidupan</th>
+                </tr>
+            </thead>
+            <tbody data-bind="foreach :list">
+                <tr data-bind="">
+
+                    <td>
+                        <a data-bind="attr : {href:'#ip-recommendation-details' + '/' + Id, title:'Skor' }">
+                            <i class="fa fa-edit"></i>
+                                                        <span data-bind="text:Skor"></span>
+                        </a>
+                    </td>
+                    <td data-bind="text:HubunganInterpersonal"></td>
+                    <td data-bind="text:MemperolehMaklumat"></td>
+                    <td data-bind="text:MembuatKeputusan"></td>
+                    <td data-bind="text:CaraGayaKehidupan"></td>
+
+
+                </tr>
+            </tbody>
+        </table>
+        <img src="/Images/spinner-md.gif" alt="loading" class="absolute-center" data-bind="visible: isBusy" />
+    </div>
+
+    <!-- ko compose : {view : '_chart.panel'}-->
+    <!-- /ko -->
+</div>

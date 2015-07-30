@@ -2,7 +2,7 @@
   "$type": "Bespoke.epsikologi_soalan.Domain.Soalan, epsikologi.Soalan",
   "NoRujukan": "UKBP-B-00224",
   "SoalanNo": "UKBP-B-00224",
-  "TeksSoalan": "Ahli biologi.",
+  "TeksSoalan": "Ahli Biologi.",
   "SeksyenSoalan": "B",
   "PilihanJawapanCollection": {
     "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan]], domain.sph",
@@ -29,6 +29,6 @@
   "Id": "UKBP-B-00224",
   "CreatedDate": "2015-07-06T11:24:57.7269952+08:00",
   "ChangedBy": "admin",
-  "ChangedDate": "2015-07-06T11:24:57.7239926+08:00",
+  "ChangedDate": "2015-07-29T15:23:53.0235506+08:00",
   "WebId": "72253e9e-7aed-4a61-9411-6e1e6af26eda"
 }
