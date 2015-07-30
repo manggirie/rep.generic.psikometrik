@@ -462,13 +462,13 @@
   "IsExportAvailable": false,
   "Operation": "save",
   "Entity": "IpuRecommendation",
-  "Partial": null,
+  "Partial": "partial/ipurecommendation-details",
   "Caption": null,
   "Layout": " ",
   "CreatedBy": "Pentadbir1",
-  "Id": "eac09e06-1e9c-48f8-802b-18cd2e477b1d",
+  "Id": "ipurecommendation-details",
   "CreatedDate": "2015-07-30T09:34:12.2706791+08:00",
   "ChangedBy": "admin",
-  "ChangedDate": "2015-07-30T12:20:45.6533989+08:00",
+  "ChangedDate": "2015-07-30T12:49:19.4262327+08:00",
   "WebId": "b550eec0-f577-4275-9bbc-8ce5e179d3f2"
 }
