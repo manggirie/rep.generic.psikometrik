@@ -486,7 +486,7 @@
   "IsEmailAvailable": false,
   "IsPrintAvailable": false,
   "IsAuditTrailAvailable": false,
-  "IsRemoveAvailable": false,
+  "IsRemoveAvailable": true,
   "IsImportAvailable": false,
   "IsExportAvailable": false,
   "Operation": "save",
@@ -498,6 +498,6 @@
   "Id": "678f5f25-2733-45b1-83e7-08141cfdeba4",
   "CreatedDate": "2015-07-29T09:51:14.366382+08:00",
   "ChangedBy": "Pentadbir1",
-  "ChangedDate": "2015-07-29T11:53:27.9615761+08:00",
+  "ChangedDate": "2015-07-30T14:34:30.3825873+08:00",
   "WebId": "229d6184-fe52-4acb-8ebe-4df0b4853840"
 }
