@@ -2,7 +2,7 @@
   "$type": "Bespoke.epsikologi_skorhlp.Domain.SkorHlp, epsikologi.SkorHlp",
   "No": "sm-l-st-100",
   "Tret": "SM",
-  "NilaiMin": 38,
+  "NilaiMin": 39,
   "NilaiMax": 40,
   "Percentile": 100,
   "Skor": "Skor Tinggi",
@@ -10,7 +10,7 @@
   "CreatedBy": "urusetia1",
   "Id": "sm-l-st-100",
   "CreatedDate": "2015-07-08T15:51:12.952399+08:00",
-  "ChangedBy": "urusetia1",
-  "ChangedDate": "2015-07-08T15:51:12.9493969+08:00",
+  "ChangedBy": "admin",
+  "ChangedDate": "2015-07-29T12:32:42.7624851+08:00",
   "WebId": "4a0e2031-370d-420c-e86a-daa6f448bae6"
 }

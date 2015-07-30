@@ -176,7 +176,7 @@
     "$type": "Bespoke.Sph.Domain.Performer, domain.sph",
     "UserProperty": "Roles",
     "Value": "PengurusanSoalan",
-    "IsPublic": false,
+    "IsPublic": true,
     "WebId": null
   },
   "Name": "SkorIPU",
@@ -194,6 +194,6 @@
   "Id": "skoripu",
   "CreatedDate": "2015-07-08T10:02:32.6648516+08:00",
   "ChangedBy": "Pentadbir1",
-  "ChangedDate": "2015-07-29T09:53:11.5048942+08:00",
+  "ChangedDate": "2015-07-30T16:01:18.6339401+08:00",
   "WebId": "35791a4e-5c92-473a-b5a4-cbfde0e6adb3"
 }

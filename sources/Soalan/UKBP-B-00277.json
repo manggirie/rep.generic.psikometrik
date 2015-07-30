@@ -2,7 +2,7 @@
   "$type": "Bespoke.epsikologi_soalan.Domain.Soalan, epsikologi.Soalan",
   "NoRujukan": "UKBP-B-00277",
   "SoalanNo": "UKBP-B-00277",
-  "TeksSoalan": "Penganalisis kewangan.",
+  "TeksSoalan": "Penganalisis Kewangan.",
   "SeksyenSoalan": "B",
   "PilihanJawapanCollection": {
     "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan]], domain.sph",
@@ -29,6 +29,6 @@
   "Id": "UKBP-B-00277",
   "CreatedDate": "2015-07-06T11:24:58.235354+08:00",
   "ChangedBy": "admin",
-  "ChangedDate": "2015-07-06T11:24:58.2348534+08:00",
+  "ChangedDate": "2015-07-30T15:13:21.3575096+08:00",
   "WebId": "28385429-a3ac-428f-a478-96143b0293a6"
 }
