@@ -1,0 +1,38 @@
+{
+  "$type": "Bespoke.epsikologi_ipurecommendation.Domain.IpuRecommendation, epsikologi.IpuRecommendation",
+  "No": "A-86-100",
+  "Tret": "A",
+  "NilaiMin": 86,
+  "NilaiMax": 100,
+  "Skala": "Kebimbangan ",
+  "Tahap": "Tinggi ",
+  "RecommendationCollection": {
+    "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.epsikologi_ipurecommendation.Domain.Recommendation, epsikologi.IpuRecommendation]], domain.sph",
+    "$values": [
+      {
+        "$type": "Bespoke.epsikologi_ipurecommendation.Domain.Recommendation, epsikologi.IpuRecommendation",
+        "Kategori": "Interpretasi",
+        "Deskripsi": "Anda mungkin mengalami kebimbangan yang tinggi berdasarkan kepada simptom-simptom seperti berasa sangat risau, sangat mudah terganggu atau sukar memberi tumpuan terhadap apa yang berlaku di persekitaran anda.    Situasi ini boleh berlaku akibat tekanan perasaan atau kerisauan yang dicetuskan oleh faktor luaran bagi tempoh jangka masa panjang.    Atau, anda mungkin mempunyai terlalu banyak permasalahan (konflik) yang belum diselesaikan dan ia sering bermain-main di fikiran sehingga menjejaskan tumpuan terhadap apa yang berlaku di persekitaran anda.  ",
+        "WebId": "66334c2a-1437-42c2-9f30-1217ea6d4df9"
+      },
+      {
+        "$type": "Bespoke.epsikologi_ipurecommendation.Domain.Recommendation, epsikologi.IpuRecommendation",
+        "Kategori": "Implikasi ",
+        "Deskripsi": "Sekiranya anda berupaya mengendalikan kebimbangan secara efektif, anda boleh mencapai matlamat yang dirancang.    Jika anda tidak berupaya mengurus kebimbangan yang dialami, anda mungkin mengalami kesukaran memberi tumpuan atau menjadi terlalu asyik dengan permasalahan diri.  ",
+        "WebId": "cb04d8bb-934f-4f22-bbf0-e87fb25fb405"
+      },
+      {
+        "$type": "Bespoke.epsikologi_ipurecommendation.Domain.Recommendation, epsikologi.IpuRecommendation",
+        "Kategori": "Perspektif  Kepimpinan",
+        "Deskripsi": "Anda cenderung berasa sangat bimbang terhadap perkara yang tidak penting dan tiada keyakinan dengan kebolehan diri.  Kesannya, anda mungkin menjadi tidak fokus terhadap isu semasa dan tidak mengambil tindakan yang sewajarnya.",
+        "WebId": "24a6f864-5339-438b-866e-4113f17ed71e"
+      }
+    ]
+  },
+  "CreatedBy": "urusetia2",
+  "Id": "A-86-100",
+  "CreatedDate": "2015-07-30T13:00:39.6203231+08:00",
+  "ChangedBy": "urusetia2",
+  "ChangedDate": "2015-07-30T13:00:39.6173228+08:00",
+  "WebId": "49200d43-d320-49fb-b552-609eb3900412"
+}
