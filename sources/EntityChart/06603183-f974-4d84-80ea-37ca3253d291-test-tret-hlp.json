@@ -13,13 +13,13 @@
   "Aggregate": "term",
   "Field": "Tret",
   "DateInterval": "year",
-  "IsDashboardItem": true,
+  "IsDashboardItem": false,
   "DasboardItemPosition": 0,
   "HistogramInterval": null,
   "CreatedBy": "admin",
   "Id": "06603183-f974-4d84-80ea-37ca3253d291-test-tret-hlp",
   "CreatedDate": "2015-07-09T14:58:41.4604772+08:00",
-  "ChangedBy": "admin",
-  "ChangedDate": "2015-07-09T14:58:41.4604772+08:00",
+  "ChangedBy": "Pentadbir1",
+  "ChangedDate": "2015-07-29T11:55:29.3631167+08:00",
   "WebId": "9b2cad19-77e9-4765-ff80-e6e2339d20b4"
 }
