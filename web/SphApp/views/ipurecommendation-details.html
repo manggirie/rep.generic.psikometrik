@@ -34,20 +34,6 @@
 
 
     <div data-bind="visible:true" class="form-group">
-        <label data-i18n="Text" for="79269a47-6d8d-4076-9b99-5ae0a1b54e95" class="col-md-4">Text</label>
-        <div class="col-md-8">
-            <input  class=" form-control input-large" title=""
-                   data-bind="value: Text, enable :true "
-                   
-                   
-                   
-                   id="79269a47-6d8d-4076-9b99-5ae0a1b54e95" type="text" name="Text" />
-        </div>
-    </div>
-
-
-
-    <div data-bind="visible:true" class="form-group">
         <label data-i18n="Tret" for="164a5ceb-df05-4273-e38b-d9a40927d0bb" class="col-md-4">Tret</label>
         <div class="col-md-8">
             <input  class=" form-control input-large" title=""
@@ -56,6 +42,34 @@
                    
                    
                    id="164a5ceb-df05-4273-e38b-d9a40927d0bb" type="text" name="Tret" />
+        </div>
+    </div>
+
+
+
+    <div data-bind="visible:true" class="form-group">
+        <label data-i18n="Skala" for="c584cf93-ce99-40e7-e656-7da3d365edd5" class="col-md-4">Skala</label>
+        <div class="col-md-8">
+            <input  class=" form-control " title=""
+                   data-bind="value: Skala, enable :true "
+                   
+                   
+                   
+                   id="c584cf93-ce99-40e7-e656-7da3d365edd5" type="text" name="Skala" />
+        </div>
+    </div>
+
+
+
+    <div data-bind="visible:true" class="form-group">
+        <label data-i18n="Tahap" for="113611e1-11d1-45ac-b62b-54b77afd70aa" class="col-md-4">Tahap</label>
+        <div class="col-md-8">
+            <input  class=" form-control " title=""
+                   data-bind="value: Tahap, enable :true "
+                   
+                   
+                   
+                   id="113611e1-11d1-45ac-b62b-54b77afd70aa" type="text" name="Tahap" />
         </div>
     </div>
 
@@ -86,6 +100,63 @@
                    id="fd1889d0-4cc8-480d-bbcd-9ab2e98a5a2b" type="text" name="NilaiMax" />
         </div>
     </div>
+
+
+<div data-bind="visible:true">
+    <table class="table table-condensed table-striped">
+        <thead>
+            <tr>
+                    <th data-i18n="Kategori">Kategori</th>
+                    <th data-i18n="Deskripsi">Deskripsi</th>
+                <th></th>
+            </tr>
+        </thead>
+        <tbody data-bind="foreach :RecommendationCollection">
+            <tr>
+                    <td>
+                        
+
+
+    <input  class=" form-control " title=""
+           data-bind="value: Kategori, visible :true, enable :true ,uniqueName:true"
+           
+           
+           type="text"
+           name="Kategori"
+           
+            />
+
+
+                    </td>
+                    <td>
+                        
+
+
+    <input  class=" form-control " title=""
+           data-bind="value: Deskripsi, visible :true, enable :true ,uniqueName:true"
+           
+           
+           type="text"
+           name="Deskripsi"
+           
+            />
+
+
+                    </td>
+                <td>
+                    <a title="remove" href="#" data-bind="click : $parent.removeChildItem.call($parent,$parent.RecommendationCollection, $data)">
+                        <span class="glyphicon glyphicon-remove"></span>
+                    </a>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    <a data-i18n="Recommendation Collection" class="btn btn-link" data-bind="click : addChildItem(RecommendationCollection, bespoke.epsikologi_ipurecommendation.domain.Recommendation)">
+        <i class="fa fa-plus-circle"></i>
+        Recommendation Collection
+    </a>
+
+</div>
 </form>
     </div>
     <div class="col-sm-4">

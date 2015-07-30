@@ -74,23 +74,6 @@
         "Format": "text:{0}",
         "RouteValueField": "",
         "WebId": "7fbac5b5-48d4-47d8-eaa7-888304f1aba1"
-      },
-      {
-        "$type": "Bespoke.Sph.Domain.ViewColumn, domain.sph",
-        "ConditionalFormattingCollection": {
-          "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.Sph.Domain.ConditionalFormatting, domain.sph]], domain.sph",
-          "$values": []
-        },
-        "Path": "Text",
-        "Header": "Text",
-        "Sort": "",
-        "IsLinkColumn": false,
-        "FormRoute": null,
-        "IconCssClass": "",
-        "IconStoreId": "",
-        "Format": "text:{0}",
-        "RouteValueField": "",
-        "WebId": "cb7d3812-e38b-4ab5-ecad-20d81f55d542"
       }
     ]
   },
@@ -132,6 +115,6 @@
   "Id": "7c249604-d8bb-46b0-8357-9bae15f2db01",
   "CreatedDate": "2015-07-30T09:34:12.2706791+08:00",
   "ChangedBy": "admin",
-  "ChangedDate": "2015-07-30T10:39:49.1230588+08:00",
+  "ChangedDate": "2015-07-30T12:18:25.291+08:00",
   "WebId": "56710026-8a93-4278-a095-a48ded0b8842"
 }
