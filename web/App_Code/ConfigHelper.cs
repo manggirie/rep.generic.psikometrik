@@ -40,6 +40,9 @@ namespace web.sph.App_Code
             ObjectBuilder.AddCacheList<IRepository<Bespoke.epsikologi_hlprecomendation.Domain.HlpRecomendation>>(
                     new Bespoke.Sph.SqlRepository.SqlRepository<Bespoke.epsikologi_hlprecomendation.Domain.HlpRecomendation>());
 
+            ObjectBuilder.AddCacheList<IRepository<Bespoke.epsikologi_iprecommendation.Domain.IpRecommendation>>(
+                    new Bespoke.Sph.SqlRepository.SqlRepository<Bespoke.epsikologi_iprecommendation.Domain.IpRecommendation>());
+
     	}
     }
 }
