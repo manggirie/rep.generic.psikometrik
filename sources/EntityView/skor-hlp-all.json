@@ -17,12 +17,12 @@
         "Header": "No",
         "Sort": "",
         "IsLinkColumn": true,
-        "FormRoute": "ipurecommendation-details",
+        "FormRoute": "skorhlp-details",
         "IconCssClass": "fa fa-edit",
         "IconStoreId": "",
         "Format": "text:{0}",
         "RouteValueField": "Id",
-        "WebId": "1dc82011-3054-4b39-fda5-25271234f438"
+        "WebId": "4ea27e7c-6da5-436c-ef2b-6be4338716ca"
       },
       {
         "$type": "Bespoke.Sph.Domain.ViewColumn, domain.sph",
@@ -38,8 +38,8 @@
         "IconCssClass": "",
         "IconStoreId": "",
         "Format": "text:{0}",
-        "RouteValueField": "",
-        "WebId": "934d648e-83b0-4aac-857e-51ae135e0cd9"
+        "RouteValueField": "Id",
+        "WebId": "31f63ae3-a5de-4522-a535-8d3ca1414dda"
       },
       {
         "$type": "Bespoke.Sph.Domain.ViewColumn, domain.sph",
@@ -48,15 +48,15 @@
           "$values": []
         },
         "Path": "NilaiMin",
-        "Header": "Nilai Min",
+        "Header": "Min",
         "Sort": "",
         "IsLinkColumn": false,
         "FormRoute": null,
         "IconCssClass": "",
         "IconStoreId": "",
         "Format": "text:{0}",
-        "RouteValueField": "",
-        "WebId": "246f6017-1451-46e6-cd29-5c34cece27ff"
+        "RouteValueField": "Id",
+        "WebId": "e48b4527-cef1-49bd-e6fd-443264be0ed1"
       },
       {
         "$type": "Bespoke.Sph.Domain.ViewColumn, domain.sph",
@@ -72,8 +72,8 @@
         "IconCssClass": "",
         "IconStoreId": "",
         "Format": "text:{0}",
-        "RouteValueField": "",
-        "WebId": "7fbac5b5-48d4-47d8-eaa7-888304f1aba1"
+        "RouteValueField": "Id",
+        "WebId": "015452c7-3429-4cd9-f112-14e83bb7e9bb"
       },
       {
         "$type": "Bespoke.Sph.Domain.ViewColumn, domain.sph",
@@ -81,22 +81,69 @@
           "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.Sph.Domain.ConditionalFormatting, domain.sph]], domain.sph",
           "$values": []
         },
-        "Path": "Text",
-        "Header": "Text",
+        "Path": "Percentile",
+        "Header": "Percentile",
         "Sort": "",
         "IsLinkColumn": false,
         "FormRoute": null,
         "IconCssClass": "",
         "IconStoreId": "",
         "Format": "text:{0}",
-        "RouteValueField": "",
-        "WebId": "cb7d3812-e38b-4ab5-ecad-20d81f55d542"
+        "RouteValueField": "Id",
+        "WebId": "35ff4c02-1e91-4ab7-b33d-c5420a46db01"
+      },
+      {
+        "$type": "Bespoke.Sph.Domain.ViewColumn, domain.sph",
+        "ConditionalFormattingCollection": {
+          "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.Sph.Domain.ConditionalFormatting, domain.sph]], domain.sph",
+          "$values": []
+        },
+        "Path": "Jantina",
+        "Header": "Jantina",
+        "Sort": "",
+        "IsLinkColumn": false,
+        "FormRoute": null,
+        "IconCssClass": "",
+        "IconStoreId": "",
+        "Format": "text:{0}",
+        "RouteValueField": "Id",
+        "WebId": "487c035d-eb96-4d3a-a9f4-ad709536d8e9"
+      },
+      {
+        "$type": "Bespoke.Sph.Domain.ViewColumn, domain.sph",
+        "ConditionalFormattingCollection": {
+          "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.Sph.Domain.ConditionalFormatting, domain.sph]], domain.sph",
+          "$values": []
+        },
+        "Path": "Skor",
+        "Header": "Skor",
+        "Sort": "",
+        "IsLinkColumn": false,
+        "FormRoute": null,
+        "IconCssClass": "",
+        "IconStoreId": "",
+        "Format": "text:{0}",
+        "RouteValueField": "Id",
+        "WebId": "f2bb420a-52c5-43d7-d4bb-e74b564c92f9"
       }
     ]
   },
   "SortCollection": {
     "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.Sph.Domain.Sort, domain.sph]], domain.sph",
-    "$values": []
+    "$values": [
+      {
+        "$type": "Bespoke.Sph.Domain.Sort, domain.sph",
+        "Path": "Tret",
+        "Direction": "Asc",
+        "WebId": "b93373c7-753b-43fe-8fce-92224ba1f34a"
+      },
+      {
+        "$type": "Bespoke.Sph.Domain.Sort, domain.sph",
+        "Path": "NilaiMin",
+        "Direction": "Asc",
+        "WebId": "9140dbc4-9841-46f7-e5b3-cefc8dce7915"
+      }
+    ]
   },
   "ConditionalFormattingCollection": {
     "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.Sph.Domain.ConditionalFormatting, domain.sph]], domain.sph",
@@ -104,34 +151,34 @@
   },
   "Performer": {
     "$type": "Bespoke.Sph.Domain.Performer, domain.sph",
-    "UserProperty": "",
-    "Value": null,
-    "IsPublic": true,
+    "UserProperty": "Roles",
+    "Value": "PengurusanSoalan",
+    "IsPublic": false,
     "WebId": null
   },
   "RouteParameterCollection": {
     "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.Sph.Domain.RouteParameter, domain.sph]], domain.sph",
     "$values": []
   },
-  "IconClass": "fa fa-dot-circle-o",
-  "IconStoreId": null,
-  "EntityDefinitionId": "ipurecommendation",
-  "Name": "All Ipu Recommendations",
-  "Route": "ipu-recommendations-all",
-  "Note": null,
+  "IconClass": "fa fa-comment",
+  "IconStoreId": "fdfc1237-4f6d-481f-b6bf-e387129d91bc",
+  "EntityDefinitionId": "skorhlp",
+  "Name": "All Skor Hlp",
+  "Route": "skor-hlp-all",
+  "Note": "HLP lookup table",
   "Query": null,
   "IsPublished": true,
   "Visibilty": null,
-  "TileColour": "bblue",
+  "TileColour": "bgreen",
   "CountMessage": null,
-  "Entity": "IpuRecommendation",
+  "Entity": "SkorHlp",
   "Partial": null,
   "Template": null,
   "DisplayOnDashboard": true,
-  "CreatedBy": "Pentadbir1",
-  "Id": "7c249604-d8bb-46b0-8357-9bae15f2db01",
-  "CreatedDate": "2015-07-30T09:34:12.2706791+08:00",
+  "CreatedBy": "admin",
+  "Id": "skor-hlp-all",
+  "CreatedDate": "2015-07-08T10:02:32.6648516+08:00",
   "ChangedBy": "admin",
-  "ChangedDate": "2015-07-30T10:39:49.1230588+08:00",
-  "WebId": "56710026-8a93-4278-a095-a48ded0b8842"
+  "ChangedDate": "2015-07-23T15:46:05.5574216+08:00",
+  "WebId": "23224438-0b49-4c99-8e57-f4dfc50c5956"
 }

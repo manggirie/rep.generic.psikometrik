@@ -34,7 +34,7 @@
           "CssClass": "",
           "Visible": "true",
           "Enable": "true",
-          "ElementId": "24d0110d-83ee-4b3e-d493-139ed6943cd2",
+          "ElementId": "f7e1d47d-41e9-4441-83f4-5086c5e7a192",
           "HelpText": null,
           "UseDisplayTemplate": false,
           "ToolboxIconClass": null,
@@ -47,7 +47,7 @@
           "InputColMd": null,
           "InputColSm": null,
           "InputColXs": null,
-          "WebId": "74f052e4-d67f-41d6-d227-88b10ed5aa94"
+          "WebId": "3c9d29f7-bcb3-4bd4-9ddc-ed5dd9a8fddb"
         },
         {
           "$type": "Bespoke.Sph.Domain.ComboBox, domain.sph",
@@ -56,71 +56,71 @@
             "$values": [
               {
                 "$type": "Bespoke.Sph.Domain.ComboBoxItem, domain.sph",
-                "Caption": "KB",
-                "Value": "KB",
-                "WebId": "85787eb5-6161-4ffc-d725-4739b5aa7f88"
+                "Caption": "A",
+                "Value": "A",
+                "WebId": "b4531e9f-402f-49eb-919a-501ecbfc59ac"
               },
               {
                 "$type": "Bespoke.Sph.Domain.ComboBoxItem, domain.sph",
-                "Caption": "FR",
-                "Value": "FR",
-                "WebId": "4c8034cc-a373-407b-b5f4-5c1da57404de"
+                "Caption": "B",
+                "Value": "B",
+                "WebId": "3137345e-e08d-4ca4-9f58-39f466eb4ef6"
               },
               {
                 "$type": "Bespoke.Sph.Domain.ComboBoxItem, domain.sph",
-                "Caption": "KT",
-                "Value": "KT",
-                "WebId": "16efe996-f3d9-45a3-9161-9e61084fd088"
+                "Caption": "C",
+                "Value": "C",
+                "WebId": "33e0dd66-2aab-40e0-ddeb-1390830f8f95"
               },
               {
                 "$type": "Bespoke.Sph.Domain.ComboBoxItem, domain.sph",
-                "Caption": "KC",
-                "Value": "KC",
-                "WebId": "d2f453e4-9492-4e94-c5f3-c90cbff128df"
+                "Caption": "D",
+                "Value": "D",
+                "WebId": "e55036df-99c2-45cb-c4fc-6ed6d6cef2d7"
               },
               {
                 "$type": "Bespoke.Sph.Domain.ComboBoxItem, domain.sph",
-                "Caption": "LP",
-                "Value": "LP",
-                "WebId": "2ad7f93c-eeae-4385-b2e9-589f4e7aa875"
+                "Caption": "E",
+                "Value": "E",
+                "WebId": "2819437d-cede-4105-c6a5-40efeddf30a6"
               },
               {
                 "$type": "Bespoke.Sph.Domain.ComboBoxItem, domain.sph",
-                "Caption": "SM",
-                "Value": "SM",
-                "WebId": "b97fab8d-fc1f-4dd9-b57e-0d343fe3a060"
+                "Caption": "F",
+                "Value": "F",
+                "WebId": "e5738fec-7d5e-4c9c-cde9-cfdd5c939309"
               },
               {
                 "$type": "Bespoke.Sph.Domain.ComboBoxItem, domain.sph",
-                "Caption": "AS",
-                "Value": "AS",
-                "WebId": "42a91532-987a-4cb7-d64f-6bfbd8b75ee3"
+                "Caption": "G",
+                "Value": "G",
+                "WebId": "aa24c6ae-acbf-4bb9-d082-d592ed385f09"
               },
               {
                 "$type": "Bespoke.Sph.Domain.ComboBoxItem, domain.sph",
-                "Caption": "AF",
-                "Value": "AF",
-                "WebId": "7fcd391f-2a8e-4315-ba05-dcd21a8716c6"
+                "Caption": "H",
+                "Value": "H",
+                "WebId": "37e98dcb-7b12-4645-fe18-e4656fe9dcb9"
               },
               {
                 "$type": "Bespoke.Sph.Domain.ComboBoxItem, domain.sph",
-                "Caption": "TL",
-                "Value": "TL",
-                "WebId": "7a4dbfe9-4367-4bff-b6f3-c4f1a308e877"
+                "Caption": "I",
+                "Value": "I",
+                "WebId": "7d955add-ac20-4531-95a1-7a4676bb6d1e"
               },
               {
                 "$type": "Bespoke.Sph.Domain.ComboBoxItem, domain.sph",
-                "Caption": "DT",
-                "Value": "DT",
-                "WebId": "7ea06d9c-c26b-4fb1-a0a0-ea0b7c2806f6"
+                "Caption": "J",
+                "Value": "J",
+                "WebId": "f1221e56-dd26-43d2-8fa1-11a09694d916"
               }
             ]
           },
           "ComboBoxLookup": {
             "$type": "Bespoke.Sph.Domain.ComboBoxLookup, domain.sph",
             "Entity": null,
-            "ValuePath": null,
-            "DisplayPath": null,
+            "ValuePath": "",
+            "DisplayPath": "",
             "Query": null,
             "IsComputedQuery": false,
             "WebId": null
@@ -148,7 +148,7 @@
           "CssClass": "",
           "Visible": "true",
           "Enable": "true",
-          "ElementId": "ae233b54-2a8a-48eb-a9ae-31174c2580e6",
+          "ElementId": "33d31ce4-1166-412b-adeb-1567ed55d96e",
           "HelpText": null,
           "UseDisplayTemplate": false,
           "ToolboxIconClass": null,
@@ -161,7 +161,7 @@
           "InputColMd": null,
           "InputColSm": null,
           "InputColXs": null,
-          "WebId": "928199a4-89b4-472d-88ac-98904a91e0fb"
+          "WebId": "e63becd5-696c-4e64-b650-27a98d3cafa7"
         },
         {
           "$type": "Bespoke.Sph.Domain.ComboBox, domain.sph",
@@ -170,21 +170,21 @@
             "$values": [
               {
                 "$type": "Bespoke.Sph.Domain.ComboBoxItem, domain.sph",
-                "Caption": "Not Applicable",
+                "Caption": "NA",
                 "Value": "NA",
-                "WebId": "c58f868a-0bfe-4bc4-8ef3-3a7b910dfe17"
+                "WebId": "a0541236-0074-4f21-9462-05d71ee63d23"
               },
               {
                 "$type": "Bespoke.Sph.Domain.ComboBoxItem, domain.sph",
                 "Caption": "Lelaki",
                 "Value": "Lelaki",
-                "WebId": "02fd81eb-77f5-466f-eb94-c65c87025f0e"
+                "WebId": "b69c9314-61ef-41a2-9b6a-09811ab52340"
               },
               {
                 "$type": "Bespoke.Sph.Domain.ComboBoxItem, domain.sph",
                 "Caption": "Perempuan",
                 "Value": "Perempuan",
-                "WebId": "81d9c605-8e3e-419f-b561-2e4a218642b2"
+                "WebId": "855be38a-60c0-488b-e6bb-090d525a5b3d"
               }
             ]
           },
@@ -220,7 +220,7 @@
           "CssClass": "",
           "Visible": "true",
           "Enable": "true",
-          "ElementId": "3d1f9430-6d95-4db6-cd1d-72fb764cb6b3",
+          "ElementId": "4f96796c-f353-40a9-a041-4a133c27f7c5",
           "HelpText": null,
           "UseDisplayTemplate": false,
           "ToolboxIconClass": null,
@@ -233,7 +233,7 @@
           "InputColMd": null,
           "InputColSm": null,
           "InputColXs": null,
-          "WebId": "fb5d5aac-6002-4f61-f627-8831190bc33c"
+          "WebId": "830ce469-885e-40ff-fa77-599bd3469af1"
         },
         {
           "$type": "Bespoke.Sph.Domain.TextBox, domain.sph",
@@ -264,7 +264,7 @@
           "CssClass": "",
           "Visible": "true",
           "Enable": "true",
-          "ElementId": "499226da-054f-419f-8772-753c27203a28",
+          "ElementId": "bd0c8773-a7a7-418d-f707-c99f0c858183",
           "HelpText": null,
           "UseDisplayTemplate": false,
           "ToolboxIconClass": null,
@@ -277,7 +277,7 @@
           "InputColMd": null,
           "InputColSm": null,
           "InputColXs": null,
-          "WebId": "691ef866-11eb-4207-a5f3-5b8f9150e62a"
+          "WebId": "7b445932-d5d0-47ef-8369-0cf8fa68d117"
         },
         {
           "$type": "Bespoke.Sph.Domain.TextBox, domain.sph",
@@ -308,7 +308,7 @@
           "CssClass": "",
           "Visible": "true",
           "Enable": "true",
-          "ElementId": "95f71239-57c1-461e-d2fe-fa23312cb56e",
+          "ElementId": "738e18d2-4d27-41ed-ea93-e881d2b842eb",
           "HelpText": null,
           "UseDisplayTemplate": false,
           "ToolboxIconClass": null,
@@ -321,7 +321,7 @@
           "InputColMd": null,
           "InputColSm": null,
           "InputColXs": null,
-          "WebId": "2e14b4c0-6baa-467a-b3e2-d1e5f706ae86"
+          "WebId": "d24c54e9-36f9-42f1-f448-eb9b734d1507"
         },
         {
           "$type": "Bespoke.Sph.Domain.TextBox, domain.sph",
@@ -352,7 +352,7 @@
           "CssClass": "",
           "Visible": "true",
           "Enable": "true",
-          "ElementId": "f5928e0b-6fc9-44c0-f3b5-f85d1a0fc9ad",
+          "ElementId": "f46dd4b6-b37c-400b-84e8-532b87fed404",
           "HelpText": null,
           "UseDisplayTemplate": false,
           "ToolboxIconClass": null,
@@ -365,7 +365,7 @@
           "InputColMd": null,
           "InputColSm": null,
           "InputColXs": null,
-          "WebId": "b403e298-3724-4a1d-fbfa-1c2a6f934de1"
+          "WebId": "41e49e91-6700-478a-db98-98874b432c37"
         },
         {
           "$type": "Bespoke.Sph.Domain.ComboBox, domain.sph",
@@ -376,25 +376,25 @@
                 "$type": "Bespoke.Sph.Domain.ComboBoxItem, domain.sph",
                 "Caption": "Skor Rendah",
                 "Value": "Skor Rendah",
-                "WebId": "9e4fffd3-8b8c-4a4c-c4cb-94129635d5dc"
+                "WebId": "a99a0893-2a5a-4796-e034-5a6f50a2a7a8"
               },
               {
                 "$type": "Bespoke.Sph.Domain.ComboBoxItem, domain.sph",
                 "Caption": "Skor Sederhana Rendah",
                 "Value": "Skor Sederhana Rendah",
-                "WebId": "99e06763-edbb-4b7f-f614-2d5e27b7881a"
+                "WebId": "41c59d61-a245-4157-dc3d-68132d4b3540"
               },
               {
                 "$type": "Bespoke.Sph.Domain.ComboBoxItem, domain.sph",
                 "Caption": "Skor Sederhana Tinggi",
                 "Value": "Skor Sederhana Tinggi",
-                "WebId": "8f36d4b5-788b-47c4-e523-f3a5e8e0058a"
+                "WebId": "c2ee1ff4-cacf-4acf-e364-d20ccebc3cf9"
               },
               {
                 "$type": "Bespoke.Sph.Domain.ComboBoxItem, domain.sph",
                 "Caption": "Skor Tinggi",
                 "Value": "Skor Tinggi",
-                "WebId": "ecaf357e-091c-4b92-e7eb-61d7b77105fd"
+                "WebId": "2df26e14-ab57-4608-a5ea-3bd8d40669a2"
               }
             ]
           },
@@ -430,7 +430,7 @@
           "CssClass": "",
           "Visible": "true",
           "Enable": "true",
-          "ElementId": "4e5b331f-4a86-46c4-c344-afd0f1ef19ab",
+          "ElementId": "9793617e-7064-4427-a56b-c552827e7d90",
           "HelpText": null,
           "UseDisplayTemplate": false,
           "ToolboxIconClass": null,
@@ -443,7 +443,7 @@
           "InputColMd": null,
           "InputColSm": null,
           "InputColXs": null,
-          "WebId": "b1af9971-cbc0-4caa-880e-f2561f9f0375"
+          "WebId": "b3cec2c1-7a67-4d29-e3b2-9b99f083a13e"
         }
       ]
     },
@@ -473,9 +473,9 @@
     "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.Sph.Domain.FormLayout, domain.sph]], domain.sph",
     "$values": []
   },
-  "EntityDefinitionId": "skorhlp",
-  "Name": "SkorHlp details",
-  "Route": "skorhlp-details",
+  "EntityDefinitionId": "skoripu",
+  "Name": "SkorIPU details",
+  "Route": "skoripu-details",
   "Note": null,
   "IsAllowedNewItem": true,
   "IconClass": null,
@@ -490,14 +490,14 @@
   "IsImportAvailable": false,
   "IsExportAvailable": false,
   "Operation": "save",
-  "Entity": "SkorHlp",
-  "Partial": "partial/skorhlp-details",
+  "Entity": "SkorIPU",
+  "Partial": null,
   "Caption": null,
   "Layout": " ",
-  "CreatedBy": "admin",
-  "Id": "ac464df8-19d4-47b4-aead-19f0f195792d",
-  "CreatedDate": "2015-07-08T10:02:32.6648516+08:00",
-  "ChangedBy": "admin",
-  "ChangedDate": "2015-07-29T12:26:48.4920365+08:00",
-  "WebId": "91face5f-e827-49e8-8968-fbc3b043b564"
+  "CreatedBy": "Pentadbir1",
+  "Id": "skoripu-details",
+  "CreatedDate": "2015-07-29T09:51:14.366382+08:00",
+  "ChangedBy": "Pentadbir1",
+  "ChangedDate": "2015-07-30T14:34:30.3825873+08:00",
+  "WebId": "229d6184-fe52-4acb-8ebe-4df0b4853840"
 }

@@ -34,7 +34,7 @@
           "CssClass": "",
           "Visible": "true",
           "Enable": "true",
-          "ElementId": "b4b9061b-4b9c-4757-d82d-1d040b5380c0",
+          "ElementId": "23a34f6c-0a3d-4bea-b884-f031d8e2fa2e",
           "HelpText": null,
           "UseDisplayTemplate": false,
           "ToolboxIconClass": null,
@@ -47,60 +47,86 @@
           "InputColMd": null,
           "InputColSm": null,
           "InputColXs": null,
-          "WebId": "5009ba8a-e45d-4053-941b-39ef39eb48c4"
+          "WebId": "b5831372-251e-432a-e826-e4a0492fed09"
         },
         {
-          "$type": "Bespoke.Sph.Domain.TextBox, domain.sph",
-          "DefaultValue": null,
-          "AutoCompletionEntity": null,
-          "AutoCompletionField": null,
-          "AutoCompletionQuery": null,
-          "IsPathIsRequired": true,
-          "TypeName": "TextBox",
-          "FieldValidation": {
-            "$type": "Bespoke.Sph.Domain.FieldValidation, domain.sph",
-            "IsRequired": false,
-            "Pattern": null,
-            "Mode": "",
-            "Message": null,
-            "Min": null,
-            "Max": null,
-            "MinLength": null,
-            "MaxLength": null,
+          "$type": "Bespoke.Sph.Domain.ComboBox, domain.sph",
+          "ComboBoxItemCollection": {
+            "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.Sph.Domain.ComboBoxItem, domain.sph]], domain.sph",
+            "$values": [
+              {
+                "$type": "Bespoke.Sph.Domain.ComboBoxItem, domain.sph",
+                "Caption": "KB",
+                "Value": "KB",
+                "WebId": "85787eb5-6161-4ffc-d725-4739b5aa7f88"
+              },
+              {
+                "$type": "Bespoke.Sph.Domain.ComboBoxItem, domain.sph",
+                "Caption": "FR",
+                "Value": "FR",
+                "WebId": "4c8034cc-a373-407b-b5f4-5c1da57404de"
+              },
+              {
+                "$type": "Bespoke.Sph.Domain.ComboBoxItem, domain.sph",
+                "Caption": "KT",
+                "Value": "KT",
+                "WebId": "16efe996-f3d9-45a3-9161-9e61084fd088"
+              },
+              {
+                "$type": "Bespoke.Sph.Domain.ComboBoxItem, domain.sph",
+                "Caption": "KC",
+                "Value": "KC",
+                "WebId": "d2f453e4-9492-4e94-c5f3-c90cbff128df"
+              },
+              {
+                "$type": "Bespoke.Sph.Domain.ComboBoxItem, domain.sph",
+                "Caption": "LP",
+                "Value": "LP",
+                "WebId": "2ad7f93c-eeae-4385-b2e9-589f4e7aa875"
+              },
+              {
+                "$type": "Bespoke.Sph.Domain.ComboBoxItem, domain.sph",
+                "Caption": "SM",
+                "Value": "SM",
+                "WebId": "b97fab8d-fc1f-4dd9-b57e-0d343fe3a060"
+              },
+              {
+                "$type": "Bespoke.Sph.Domain.ComboBoxItem, domain.sph",
+                "Caption": "AS",
+                "Value": "AS",
+                "WebId": "42a91532-987a-4cb7-d64f-6bfbd8b75ee3"
+              },
+              {
+                "$type": "Bespoke.Sph.Domain.ComboBoxItem, domain.sph",
+                "Caption": "AF",
+                "Value": "AF",
+                "WebId": "7fcd391f-2a8e-4315-ba05-dcd21a8716c6"
+              },
+              {
+                "$type": "Bespoke.Sph.Domain.ComboBoxItem, domain.sph",
+                "Caption": "TL",
+                "Value": "TL",
+                "WebId": "7a4dbfe9-4367-4bff-b6f3-c4f1a308e877"
+              },
+              {
+                "$type": "Bespoke.Sph.Domain.ComboBoxItem, domain.sph",
+                "Caption": "DT",
+                "Value": "DT",
+                "WebId": "7ea06d9c-c26b-4fb1-a0a0-ea0b7c2806f6"
+              }
+            ]
+          },
+          "ComboBoxLookup": {
+            "$type": "Bespoke.Sph.Domain.ComboBoxLookup, domain.sph",
+            "Entity": null,
+            "ValuePath": null,
+            "DisplayPath": null,
+            "Query": null,
+            "IsComputedQuery": false,
             "WebId": null
           },
-          "Name": null,
-          "Label": "Text",
-          "Tooltip": null,
-          "Path": "Text",
-          "IsRequired": false,
-          "Size": "input-large",
-          "CssClass": "",
-          "Visible": "true",
-          "Enable": "true",
-          "ElementId": "79269a47-6d8d-4076-9b99-5ae0a1b54e95",
-          "HelpText": null,
-          "UseDisplayTemplate": false,
-          "ToolboxIconClass": null,
-          "IsUniqueName": false,
-          "LabelColLg": null,
-          "LabelColMd": null,
-          "LabelColSm": null,
-          "LabelColXs": null,
-          "InputColLg": null,
-          "InputColMd": null,
-          "InputColSm": null,
-          "InputColXs": null,
-          "WebId": "418cbf1f-44be-4a5e-c270-a8343f797224"
-        },
-        {
-          "$type": "Bespoke.Sph.Domain.TextBox, domain.sph",
-          "DefaultValue": null,
-          "AutoCompletionEntity": null,
-          "AutoCompletionField": null,
-          "AutoCompletionQuery": null,
           "IsPathIsRequired": true,
-          "TypeName": "TextBox",
+          "TypeName": "ComboBox",
           "FieldValidation": {
             "$type": "Bespoke.Sph.Domain.FieldValidation, domain.sph",
             "IsRequired": false,
@@ -122,7 +148,7 @@
           "CssClass": "",
           "Visible": "true",
           "Enable": "true",
-          "ElementId": "164a5ceb-df05-4273-e38b-d9a40927d0bb",
+          "ElementId": "ae233b54-2a8a-48eb-a9ae-31174c2580e6",
           "HelpText": null,
           "UseDisplayTemplate": false,
           "ToolboxIconClass": null,
@@ -135,16 +161,50 @@
           "InputColMd": null,
           "InputColSm": null,
           "InputColXs": null,
-          "WebId": "a7248c32-4edd-4eae-bc4a-6937f5ef454a"
+          "WebId": "928199a4-89b4-472d-88ac-98904a91e0fb"
         },
         {
-          "$type": "Bespoke.Sph.Domain.TextBox, domain.sph",
-          "DefaultValue": null,
-          "AutoCompletionEntity": null,
-          "AutoCompletionField": null,
-          "AutoCompletionQuery": null,
+          "$type": "Bespoke.Sph.Domain.ComboBox, domain.sph",
+          "ComboBoxItemCollection": {
+            "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.Sph.Domain.ComboBoxItem, domain.sph]], domain.sph",
+            "$values": [
+              {
+                "$type": "Bespoke.Sph.Domain.ComboBoxItem, domain.sph",
+                "Caption": "Skor Rendah",
+                "Value": "Skor Rendah",
+                "WebId": "9e4fffd3-8b8c-4a4c-c4cb-94129635d5dc"
+              },
+              {
+                "$type": "Bespoke.Sph.Domain.ComboBoxItem, domain.sph",
+                "Caption": "Skor Sederhana Rendah",
+                "Value": "Skor Sederhana Rendah",
+                "WebId": "99e06763-edbb-4b7f-f614-2d5e27b7881a"
+              },
+              {
+                "$type": "Bespoke.Sph.Domain.ComboBoxItem, domain.sph",
+                "Caption": "Skor Sederhana Tinggi",
+                "Value": "Skor Sederhana Tinggi",
+                "WebId": "8f36d4b5-788b-47c4-e523-f3a5e8e0058a"
+              },
+              {
+                "$type": "Bespoke.Sph.Domain.ComboBoxItem, domain.sph",
+                "Caption": "Skor Tinggi",
+                "Value": "Skor Tinggi",
+                "WebId": "ecaf357e-091c-4b92-e7eb-61d7b77105fd"
+              }
+            ]
+          },
+          "ComboBoxLookup": {
+            "$type": "Bespoke.Sph.Domain.ComboBoxLookup, domain.sph",
+            "Entity": null,
+            "ValuePath": null,
+            "DisplayPath": null,
+            "Query": null,
+            "IsComputedQuery": false,
+            "WebId": null
+          },
           "IsPathIsRequired": true,
-          "TypeName": "TextBox",
+          "TypeName": "ComboBox",
           "FieldValidation": {
             "$type": "Bespoke.Sph.Domain.FieldValidation, domain.sph",
             "IsRequired": false,
@@ -158,15 +218,15 @@
             "WebId": null
           },
           "Name": null,
-          "Label": "Nilai Min",
+          "Label": "Skor",
           "Tooltip": null,
-          "Path": "NilaiMin",
+          "Path": "Skor",
           "IsRequired": false,
           "Size": "input-large",
           "CssClass": "",
           "Visible": "true",
           "Enable": "true",
-          "ElementId": "1b9ffaa4-1127-4748-8cce-d346ae8597ed",
+          "ElementId": "4e5b331f-4a86-46c4-c344-afd0f1ef19ab",
           "HelpText": null,
           "UseDisplayTemplate": false,
           "ToolboxIconClass": null,
@@ -179,16 +239,14 @@
           "InputColMd": null,
           "InputColSm": null,
           "InputColXs": null,
-          "WebId": "4ea3c66d-a329-4667-d586-44c72c9345dd"
+          "WebId": "b1af9971-cbc0-4caa-880e-f2561f9f0375"
         },
         {
-          "$type": "Bespoke.Sph.Domain.TextBox, domain.sph",
-          "DefaultValue": null,
-          "AutoCompletionEntity": null,
-          "AutoCompletionField": null,
-          "AutoCompletionQuery": null,
+          "$type": "Bespoke.Sph.Domain.TextAreaElement, domain.sph",
+          "Rows": null,
+          "IsHtml": false,
           "IsPathIsRequired": true,
-          "TypeName": "TextBox",
+          "TypeName": "TextAreaElement",
           "FieldValidation": {
             "$type": "Bespoke.Sph.Domain.FieldValidation, domain.sph",
             "IsRequired": false,
@@ -202,15 +260,15 @@
             "WebId": null
           },
           "Name": null,
-          "Label": "Nilai Max",
+          "Label": "Text",
           "Tooltip": null,
-          "Path": "NilaiMax",
+          "Path": "Text",
           "IsRequired": false,
           "Size": "input-large",
           "CssClass": "",
           "Visible": "true",
           "Enable": "true",
-          "ElementId": "fd1889d0-4cc8-480d-bbcd-9ab2e98a5a2b",
+          "ElementId": "266306d4-93a5-45b3-9899-2891cd097c51",
           "HelpText": null,
           "UseDisplayTemplate": false,
           "ToolboxIconClass": null,
@@ -223,7 +281,7 @@
           "InputColMd": null,
           "InputColSm": null,
           "InputColXs": null,
-          "WebId": "4dce3902-0398-417e-b433-f171b47c7f5b"
+          "WebId": "fef354e5-796e-4d0e-9ef5-8fe86df15862"
         }
       ]
     },
@@ -253,12 +311,12 @@
     "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.Sph.Domain.FormLayout, domain.sph]], domain.sph",
     "$values": []
   },
-  "EntityDefinitionId": "ipurecommendation",
-  "Name": "IpuRecommendation details",
-  "Route": "ipurecommendation-details",
+  "EntityDefinitionId": "hlprecomendation",
+  "Name": "HLP Recommendation",
+  "Route": "hlp-recomendation-details",
   "Note": null,
   "IsAllowedNewItem": true,
-  "IconClass": "fa fa-plus",
+  "IconClass": "glyphicon glyphicon-new-window",
   "IconStoreId": null,
   "IsPublished": true,
   "IsDefault": true,
@@ -270,14 +328,14 @@
   "IsImportAvailable": false,
   "IsExportAvailable": false,
   "Operation": "save",
-  "Entity": "IpuRecommendation",
+  "Entity": "HlpRecomendation",
   "Partial": null,
   "Caption": null,
-  "Layout": " ",
-  "CreatedBy": "Pentadbir1",
-  "Id": "eac09e06-1e9c-48f8-802b-18cd2e477b1d",
-  "CreatedDate": "2015-07-30T09:34:12.2706791+08:00",
+  "Layout": null,
+  "CreatedBy": "admin",
+  "Id": "hlp-recomendation-details",
+  "CreatedDate": "2015-07-08T10:06:07.2962632+08:00",
   "ChangedBy": "admin",
-  "ChangedDate": "2015-07-30T10:46:27.2459327+08:00",
-  "WebId": "b550eec0-f577-4275-9bbc-8ce5e179d3f2"
+  "ChangedDate": "2015-07-08T11:01:49.0028384+08:00",
+  "WebId": "30906c4b-0bc4-411d-9f93-7745c3dc62af"
 }
