@@ -1,0 +1,164 @@
+
+
+<h1 data-i18n="IBK Kod Kerjaya">IBK Kod Kerjaya</h1>
+<div id="error-list" class="row" data-bind="visible:errors().length">
+    <!-- ko foreach : errors -->
+    <div class="col-sm-8 col-sm-offset-2 alert alert-dismissable alert-danger">
+        <button type="button" class="close" data-dismiss="alert" aria-hidden="true">&times;</button>
+        <i class="fa fa-exclamation"></i>
+        <span data-bind="text:Message"></span>
+
+    </div>
+    <div class="col-sm-2"></div>
+    <!-- /ko-->
+</div>
+<div class="row">
+    <div class="col-sm-8">
+        
+<form class="form-horizontal" data-bind="with : entity" id="ibk-kod-kerjaya-details-form">
+
+
+
+    <div data-bind="visible:true" class="form-group">
+        <label data-i18n="Kod" for="97ee656d-65fb-47ee-ef19-b00c2b7f40a0" class="col-md-4">Kod</label>
+        <div class="col-md-8">
+            <input  class=" form-control input-large" title=""
+                   data-bind="value: Kod, enable :true "
+                   
+                   
+                   
+                   id="97ee656d-65fb-47ee-ef19-b00c2b7f40a0" type="text" name="Kod" />
+        </div>
+    </div>
+
+
+
+    <div data-bind="visible:true" class="form-group">
+        <label data-i18n="Kategori Kerjaya Anda" for="c14b0b03-ae54-49af-dd08-789ac330830a" class="col-md-4">Kategori Kerjaya Anda</label>
+        <div class="col-md-8">
+            <input  class=" form-control input-large" title=""
+                   data-bind="value: KategoriKerjayaAnda, enable :true "
+                   
+                   
+                   
+                   id="c14b0b03-ae54-49af-dd08-789ac330830a" type="text" name="KategoriKerjayaAnda" />
+        </div>
+    </div>
+
+
+
+    <div data-bind="visible:true" class="form-group">
+        <label data-i18n="Kod Kerjaya Anda" for="94791c1b-a15e-4f7f-c546-73c1cc10478e" class="col-md-4">Kod Kerjaya Anda</label>
+        <div class="col-md-8">
+            <input  class=" form-control input-large" title=""
+                   data-bind="value: KodKerjayaAnda, enable :true "
+                   
+                   
+                   
+                   id="94791c1b-a15e-4f7f-c546-73c1cc10478e" type="text" name="KodKerjayaAnda" />
+        </div>
+    </div>
+
+    <div class="form-group" data-bind="visible:true">
+        <label data-i18n="Text" for="cc7a2b5b-6405-45a9-bbd0-2a7cc9626dbd" class="col-md-4">Text</label>
+        <div class="col-md-8">
+            <textarea class=" form-control input-large" data-bind="value: Text, visible :true, enable :true"
+                      id="cc7a2b5b-6405-45a9-bbd0-2a7cc9626dbd" name="Text"></textarea>
+        </div>
+    </div>
+
+    <div class="form-group" data-bind="visible:true">
+        <label data-i18n="Nota" for="c28d4f9b-85c1-4936-fede-05ee377014cc" class="col-md-4">Nota</label>
+        <div class="col-md-8">
+            <textarea class=" form-control input-large" data-bind="value: Nota, visible :true, enable :true"
+                      id="c28d4f9b-85c1-4936-fede-05ee377014cc" name="Nota"></textarea>
+        </div>
+    </div>
+
+
+<div data-bind="visible:true">
+    <table class="table table-condensed table-striped">
+        <thead>
+            <tr>
+                    <th data-i18n="Text">Text</th>
+                <th></th>
+            </tr>
+        </thead>
+        <tbody data-bind="foreach :AlternatifPilihanKerjayaCollection">
+            <tr>
+                    <td>
+                        
+
+
+    <input  class=" form-control " title=""
+           data-bind="value: Text, visible :true, enable :true ,uniqueName:true"
+           
+           
+           type="text"
+           name="Text"
+           
+            />
+
+
+                    </td>
+                <td>
+                    <a title="remove" href="#" data-bind="click : $parent.removeChildItem.call($parent,$parent.AlternatifPilihanKerjayaCollection, $data)">
+                        <span class="glyphicon glyphicon-remove"></span>
+                    </a>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    <a data-i18n="Alternatif Pilihan Kerjaya" class="btn btn-link" data-bind="click : addChildItem(AlternatifPilihanKerjayaCollection, bespoke.epsikologi_ibkkodkerjaya.domain.AlternatifPilihanKerjaya)">
+        <i class="fa fa-plus-circle"></i>
+        Alternatif Pilihan Kerjaya
+    </a>
+
+</div>
+
+
+<div data-bind="visible:true">
+    <table class="table table-condensed table-striped">
+        <thead>
+            <tr>
+                    <th data-i18n="Text">Text</th>
+                <th></th>
+            </tr>
+        </thead>
+        <tbody data-bind="foreach :AlternatifBidangPengajianCollection">
+            <tr>
+                    <td>
+                        
+
+
+    <input  class=" form-control " title=""
+           data-bind="value: Text, visible :true, enable :true ,uniqueName:true"
+           
+           
+           type="text"
+           name="Text"
+           
+            />
+
+
+                    </td>
+                <td>
+                    <a title="remove" href="#" data-bind="click : $parent.removeChildItem.call($parent,$parent.AlternatifBidangPengajianCollection, $data)">
+                        <span class="glyphicon glyphicon-remove"></span>
+                    </a>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    <a data-i18n="Alternatif Bidang Pengajian" class="btn btn-link" data-bind="click : addChildItem(AlternatifBidangPengajianCollection, bespoke.epsikologi_ibkkodkerjaya.domain.AlternatifBidangPengajian)">
+        <i class="fa fa-plus-circle"></i>
+        Alternatif Bidang Pengajian
+    </a>
+
+</div>
+</form>
+    </div>
+    <div class="col-sm-4">
+        
+    </div>
+</div>
