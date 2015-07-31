@@ -1,0 +1,16 @@
+{
+  "$type": "Bespoke.epsikologi_skoripu.Domain.SkorIPU, epsikologi.SkorIPU",
+  "No": "c-p-st-80",
+  "Tret": "C",
+  "NilaiMin": 34,
+  "NilaiMax": 34,
+  "Percentile": 80,
+  "Skor": "Skor Tinggi",
+  "Jantina": "Perempuan",
+  "CreatedBy": "Pentadbir1",
+  "Id": "9ae94024-efc6-408f-b2d6-3a73eae95bc6",
+  "CreatedDate": "2015-07-31T11:29:30.8740224+08:00",
+  "ChangedBy": "Pentadbir1",
+  "ChangedDate": "2015-07-31T11:29:30.8439933+08:00",
+  "WebId": "79292d9f-1ee0-4678-f6a0-0b68be445216"
+}
