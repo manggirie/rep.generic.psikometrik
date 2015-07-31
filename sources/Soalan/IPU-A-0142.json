@@ -3,32 +3,32 @@
   "NoRujukan": "0142",
   "SoalanNo": "0142",
   "TeksSoalan": "Saya biasanya kelihatan tenang.",
-  "SeksyenSoalan": "A",
+  "SeksyenSoalan": "",
   "PilihanJawapanCollection": {
     "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan]], domain.sph",
     "$values": [
       {
         "$type": "Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan",
         "Teks": "Ya",
-        "Nilai": 1,
+        "Nilai": 0,
         "WebId": null
       },
       {
         "$type": "Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan",
         "Teks": "Tidak",
-        "Nilai": 0,
+        "Nilai": 2,
         "WebId": null
       }
     ]
   },
-  "Trait": "NA",
+  "Trait": "A",
   "NamaUjian": "Indikator Perwatakan Unggul (IPU)",
-  "Susunan": 2.0,
+  "Susunan": 32.0,
   "Kategori": null,
   "CreatedBy": "admin",
   "Id": "IPU-A-0142",
   "CreatedDate": "2015-07-06T11:24:41.1448636+08:00",
   "ChangedBy": "admin",
-  "ChangedDate": "2015-07-06T11:24:41.1423616+08:00",
+  "ChangedDate": "2015-07-31T11:14:33.1038231+08:00",
   "WebId": "d9ece8ee-06f9-4794-8d36-96369b6b5487"
 }

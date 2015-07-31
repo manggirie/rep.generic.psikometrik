@@ -3,14 +3,14 @@
   "NoRujukan": "0146",
   "SoalanNo": "0146",
   "TeksSoalan": "Saya prihatin terhadap isu masyarakat seperti kemiskinan dan pengangguran walaupun tiada kaitan dengan saya.",
-  "SeksyenSoalan": "E",
+  "SeksyenSoalan": "",
   "PilihanJawapanCollection": {
     "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan]], domain.sph",
     "$values": [
       {
         "$type": "Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan",
         "Teks": "Ya",
-        "Nilai": 1,
+        "Nilai": 2,
         "WebId": null
       },
       {
@@ -21,14 +21,14 @@
       }
     ]
   },
-  "Trait": "NA",
+  "Trait": "E",
   "NamaUjian": "Indikator Perwatakan Unggul (IPU)",
-  "Susunan": 1.0,
+  "Susunan": 36.0,
   "Kategori": null,
   "CreatedBy": "admin",
   "Id": "IPU-E-0146",
   "CreatedDate": "2015-07-06T11:24:41.1963997+08:00",
   "ChangedBy": "admin",
-  "ChangedDate": "2015-07-06T11:24:41.1948994+08:00",
+  "ChangedDate": "2015-07-31T11:16:32.9878103+08:00",
   "WebId": "b755b625-4bd3-4295-89fe-f844d18229a8"
 }

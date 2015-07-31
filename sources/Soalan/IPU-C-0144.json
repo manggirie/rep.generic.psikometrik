@@ -3,14 +3,14 @@
   "NoRujukan": "0144",
   "SoalanNo": "0144",
   "TeksSoalan": "Saya berasa gembira apabila melibatkan diri dengan aktiviti sosial.",
-  "SeksyenSoalan": "C",
+  "SeksyenSoalan": "",
   "PilihanJawapanCollection": {
     "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan]], domain.sph",
     "$values": [
       {
         "$type": "Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan",
         "Teks": "Ya",
-        "Nilai": 1,
+        "Nilai": 2,
         "WebId": null
       },
       {
@@ -21,14 +21,14 @@
       }
     ]
   },
-  "Trait": "NA",
+  "Trait": "C",
   "NamaUjian": "Indikator Perwatakan Unggul (IPU)",
-  "Susunan": 1.0,
+  "Susunan": 34.0,
   "Kategori": null,
   "CreatedBy": "admin",
   "Id": "IPU-C-0144",
   "CreatedDate": "2015-07-06T11:24:41.1643771+08:00",
   "ChangedBy": "admin",
-  "ChangedDate": "2015-07-06T11:24:41.1638765+08:00",
+  "ChangedDate": "2015-07-31T11:15:41.129625+08:00",
   "WebId": "0cbce392-a243-4bf4-98bd-2a6bebaa06ca"
 }
