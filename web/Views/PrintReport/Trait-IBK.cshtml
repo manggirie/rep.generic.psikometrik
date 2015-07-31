@@ -1,25 +1,10 @@
-@model Bespoke.epsikologi_sesiujian.Domain.SesiUjian
+@model web.sph.App_Code.IbkTraitViewModel
 @{
-	Layout = null;
+	Layout = "_MasterPage.cshtml";
 }
-<html>
-<head>
-	<title>Laporan untuk @Model.NamaPengguna</title>
-	<link rel="stylesheet" type="text/css" href="/content/external/bootstrap.min.css">
-</head>
-<body>
-	<h1>Laporan untuk @Model.NamaPengguna</h1>
-	<div class="row">
-		<label class="col-md-4">Nama Pegawai :</label>
-		<strong class="col-md-8">@Model.NamaPengguna :</strong>
-	</div>
-	<div class="row">
-		<label class="col-md-4">No KP Pegawai :</label>
-		<strong class="col-md-8">@Model.MyKad</strong>
-	</div>
-	<div class="row">
-		<label class="col-md-4">Tempat Bertugas :</label>
-		<strong class="col-md-8">@Model.MyKad</strong>
-	</div>
-</body>
-</html>
+
+<script type="text/javascript">
+	setTimeout(function(){
+		window.print();
+	},1000);
+</script>

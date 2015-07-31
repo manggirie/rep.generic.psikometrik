@@ -35,6 +35,9 @@ namespace web.sph.App_Code
            Sesi = sesi;
       }
 
+      public Bespoke.epsikologi_pengguna.Domain.Pengguna Pengguna {get;set;}
+      public Bespoke.epsikologi_ujian.Domain.Ujian Ujian {get;set;}
+      public Bespoke.epsikologi_permohonan.Domain.Permohonan Permohonan {get;set;}
 
       public string Result
       {

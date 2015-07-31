@@ -109,12 +109,21 @@ namespace web.sph.App_Code
     	{
     		var context = new SphDataContext();
     		var sesi = await context.LoadOneAsync<Bespoke.epsikologi_sesiujian.Domain.SesiUjian>(x => x.Id == id);
+        var user = await context.LoadOneAsync<Bespoke.epsikologi_pengguna.Domain.Pengguna>(x => x.MyKad == sesi.MyKad);
+        var ujian = await context.LoadOneAsync<Bespoke.epsikologi_ujian.Domain.Ujian>(x => x.Id == sesi.NamaUjian);
+        var permohonan = await context.LoadOneAsync<Bespoke.epsikologi_permohonan.Domain.Permohonan>(x => x.PermohonanNo == sesi.NamaProgram);
 
     		if(null == sesi)
     			return HttpNotFound("Cannot find SesiUjian " + id);
 
-            var vm = new IbkTraitViewModel(sesi);
-    		return View("Trait-Ibk-" + vm.Result, vm);
+        var vm = new IbkTraitViewModel(sesi)
+        {
+          Pengguna = user,
+          Ujian = ujian,
+          Permohonan = permohonan
+        };
+
+        return View("Trait-Ibk", vm);
     	}
 
 
