@@ -12,14 +12,15 @@
                     <th>Tret</th>
                     <th>Nilai Min</th>
                     <th>Nilai Max</th>
-                    <th>Text</th>
+                    <th>Tahap</th>
+                    <th>Skala</th>
                 </tr>
             </thead>
             <tbody data-bind="foreach :list">
                 <tr data-bind="">
 
                     <td>
-                        <a data-bind="attr : {href:'#ipurecommendation-details' + '/' + Id, title:'No' }">
+                        <a data-bind="attr : {href:'#ipu-recommendation-details' + '/' + Id, title:'No' }">
                             <i class="fa fa-edit"></i>
                                                         <span data-bind="text:No"></span>
                         </a>
@@ -27,7 +28,8 @@
                     <td data-bind="text:Tret"></td>
                     <td data-bind="text:NilaiMin"></td>
                     <td data-bind="text:NilaiMax"></td>
-                    <td data-bind="text:Text"></td>
+                    <td data-bind="text:Tahap"></td>
+                    <td data-bind="text:Skala"></td>
 
 
                 </tr>

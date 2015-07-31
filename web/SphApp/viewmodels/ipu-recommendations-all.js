@@ -135,7 +135,7 @@ function(context, logger, router, chart, config) {
             });
         },
         attached = function(view) {
-            chart.init("IpuRecommendation", query, chartSeriesClick, "7c249604-d8bb-46b0-8357-9bae15f2db01");
+            chart.init("IpuRecommendation", query, chartSeriesClick, "ipu-recommendations-all");
         },
         clearChartFilter = function() {
             chartFiltered(false);
