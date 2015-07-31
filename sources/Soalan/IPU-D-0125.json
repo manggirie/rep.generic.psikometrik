@@ -3,14 +3,14 @@
   "NoRujukan": "0125",
   "SoalanNo": "0125",
   "TeksSoalan": "Saya dianggap seorang yang peramah dan senang berkawan.",
-  "SeksyenSoalan": "D",
+  "SeksyenSoalan": "",
   "PilihanJawapanCollection": {
     "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan]], domain.sph",
     "$values": [
       {
         "$type": "Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan",
         "Teks": "Ya",
-        "Nilai": 1,
+        "Nilai": 2,
         "WebId": null
       },
       {
@@ -21,14 +21,14 @@
       }
     ]
   },
-  "Trait": "NA",
+  "Trait": "D",
   "NamaUjian": "Indikator Perwatakan Unggul (IPU)",
-  "Susunan": 1.0,
+  "Susunan": 15.0,
   "Kategori": null,
   "CreatedBy": "admin",
   "Id": "IPU-D-0125",
   "CreatedDate": "2015-07-06T11:24:40.9337145+08:00",
   "ChangedBy": "admin",
-  "ChangedDate": "2015-07-06T11:24:40.9322133+08:00",
+  "ChangedDate": "2015-07-31T10:41:35.8723327+08:00",
   "WebId": "256a69dd-54f1-4ce1-a0a5-73961d547c1d"
 }

@@ -3,32 +3,32 @@
   "NoRujukan": "0112",
   "SoalanNo": "0112",
   "TeksSoalan": "Saya masih boleh bertenang walaupun orang lain sedang bersedih atau terganggu emosi.",
-  "SeksyenSoalan": "A",
+  "SeksyenSoalan": "",
   "PilihanJawapanCollection": {
     "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan]], domain.sph",
     "$values": [
       {
         "$type": "Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan",
         "Teks": "Ya",
-        "Nilai": 1,
+        "Nilai": 0,
         "WebId": null
       },
       {
         "$type": "Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan",
         "Teks": "Tidak",
-        "Nilai": 0,
+        "Nilai": 2,
         "WebId": null
       }
     ]
   },
-  "Trait": "NA",
+  "Trait": "A",
   "NamaUjian": "Indikator Perwatakan Unggul (IPU)",
-  "Susunan": 1.0,
+  "Susunan": 2.0,
   "Kategori": null,
   "CreatedBy": "admin",
   "Id": "IPU-A-0112",
   "CreatedDate": "2015-07-06T11:24:40.7185627+08:00",
   "ChangedBy": "admin",
-  "ChangedDate": "2015-07-06T11:24:40.7160607+08:00",
+  "ChangedDate": "2015-07-31T10:35:33.6420208+08:00",
   "WebId": "85c29ef2-0c78-4e4a-a0cf-1a0a3f8ba641"
 }

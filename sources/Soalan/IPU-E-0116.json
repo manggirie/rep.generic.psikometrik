@@ -3,14 +3,14 @@
   "NoRujukan": "0116",
   "SoalanNo": "0116",
   "TeksSoalan": "Saya seorang pemaaf.",
-  "SeksyenSoalan": "E",
+  "SeksyenSoalan": "",
   "PilihanJawapanCollection": {
     "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan]], domain.sph",
     "$values": [
       {
         "$type": "Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan",
         "Teks": "Ya",
-        "Nilai": 1,
+        "Nilai": 2,
         "WebId": null
       },
       {
@@ -21,14 +21,14 @@
       }
     ]
   },
-  "Trait": "NA",
+  "Trait": "E",
   "NamaUjian": "Indikator Perwatakan Unggul (IPU)",
-  "Susunan": 1.0,
+  "Susunan": 6.0,
   "Kategori": null,
   "CreatedBy": "admin",
   "Id": "IPU-E-0116",
   "CreatedDate": "2015-07-06T11:24:40.7831085+08:00",
   "ChangedBy": "admin",
-  "ChangedDate": "2015-07-06T11:24:40.7826079+08:00",
+  "ChangedDate": "2015-07-31T10:37:22.5731308+08:00",
   "WebId": "ecf189df-5eab-4238-a456-9016ad421790"
 }

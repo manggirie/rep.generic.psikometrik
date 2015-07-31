@@ -3,25 +3,25 @@
   "NoRujukan": "0111",
   "SoalanNo": "0111",
   "TeksSoalan": "Kadangkala saya terfikir sesuatu yang tidak elok untuk diperkatakan.",
-  "SeksyenSoalan": "J",
+  "SeksyenSoalan": "",
   "PilihanJawapanCollection": {
     "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan]], domain.sph",
     "$values": [
       {
         "$type": "Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan",
         "Teks": "Ya",
-        "Nilai": 1,
+        "Nilai": 0,
         "WebId": null
       },
       {
         "$type": "Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan",
         "Teks": "Tidak",
-        "Nilai": 0,
+        "Nilai": 1,
         "WebId": null
       }
     ]
   },
-  "Trait": "NA",
+  "Trait": "J",
   "NamaUjian": "Indikator Perwatakan Unggul (IPU)",
   "Susunan": 1.0,
   "Kategori": null,
@@ -29,6 +29,6 @@
   "Id": "IPU-J-0111",
   "CreatedDate": "2015-07-06T11:24:40.5959759+08:00",
   "ChangedBy": "admin",
-  "ChangedDate": "2015-07-06T11:24:40.5949752+08:00",
+  "ChangedDate": "2015-07-31T10:32:45.3887552+08:00",
   "WebId": "78ca08b8-4658-46e0-9b09-b63dec90523f"
 }
