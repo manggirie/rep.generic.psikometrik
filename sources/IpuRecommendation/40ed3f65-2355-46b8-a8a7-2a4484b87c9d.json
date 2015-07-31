@@ -1,0 +1,38 @@
+{
+  "$type": "Bespoke.epsikologi_ipurecommendation.Domain.IpuRecommendation, epsikologi.IpuRecommendation",
+  "No": "F-81-100",
+  "Tret": "F",
+  "NilaiMin": 81,
+  "NilaiMax": 100,
+  "Skala": "Berfikiran Emotif",
+  "Tahap": "Tinggi",
+  "RecommendationCollection": {
+    "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.epsikologi_ipurecommendation.Domain.Recommendation, epsikologi.IpuRecommendation]], domain.sph",
+    "$values": [
+      {
+        "$type": "Bespoke.epsikologi_ipurecommendation.Domain.Recommendation, epsikologi.IpuRecommendation",
+        "Kategori": "Interpretasi",
+        "Deskripsi": "Anda digambarkan sebagai seorang yang sangat sensitif, emosional dan mudah menjadi asyik dengan permasalahan diri.  Anda seorang yang sangat suka berkhayal, cemburu, menyimpan perasaan tidak puas hati terhadap diri sendiri dan sering mempunyai jangkaan yang salah terhadap motif orang lain. \t Apabila anda mengalami konflik yang mengganggu fikiran atau emosi, keupayaan anda berfikir secara rasional, munasabah dan logikal sangat mudah terganggu.  Dalam situasi sedemikian, anda mungkin tidak berupaya menilai atau membuat tindakan terhadap situasi kehidupan secara tepat.",
+        "WebId": "e60f59a0-d183-41b3-a093-949214a82925"
+      },
+      {
+        "$type": "Bespoke.epsikologi_ipurecommendation.Domain.Recommendation, epsikologi.IpuRecommendation",
+        "Kategori": "Implikasi",
+        "Deskripsi": "Sikap anda yang sangat emosional boleh menjurus anda mengalami gangguan keupayaan untuk berfikir dan bertindak secara kurang rasional serta tidak munasabah (tidak adil).  Ada kemungkinan anda mungkin mengalami gangguan emosi yang perlu diberi perhatian.  Perasaan dalaman anda juga sangat cenderung mewujudkan prejudis dan keadaan ini mengganggu keupayaan anda bertindak secara logikal dalam kehidupan seharian.",
+        "WebId": "1c731ede-444c-4dec-90ef-6ea2e29eb39d"
+      },
+      {
+        "$type": "Bespoke.epsikologi_ipurecommendation.Domain.Recommendation, epsikologi.IpuRecommendation",
+        "Kategori": "Perspektif Kepimpinan",
+        "Deskripsi": "Apabila anda berhadapan dengan terlalu banyak masalah atau mengalami tekanan emosi yang serius sehingga mengganggu fikiran, anda sangat cenderung mengambil tindakan atau keputusan berdasarkan kepada perasaan yang dialami pada masa itu.   Kesannya, anda mungkin mengambil pendekatan yang sangat terburu-buru tanpa menilai semula keputusan tersebut dan kemudian berasa sangat menyesal serta bersalah dengan keputusan yang telah dibuat. ",
+        "WebId": "c7f2f12b-4b72-4e2a-8e60-2ecbe18a58ad"
+      }
+    ]
+  },
+  "CreatedBy": "admin",
+  "Id": "40ed3f65-2355-46b8-a8a7-2a4484b87c9d",
+  "CreatedDate": "2015-07-31T18:47:09.7353192+08:00",
+  "ChangedBy": "admin",
+  "ChangedDate": "2015-07-31T18:47:09.7343191+08:00",
+  "WebId": "0d7e6179-afe6-4cdb-df68-f8c35db637fd"
+}

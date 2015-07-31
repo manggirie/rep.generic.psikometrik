@@ -1,0 +1,38 @@
+{
+  "$type": "Bespoke.epsikologi_ipurecommendation.Domain.IpuRecommendation, epsikologi.IpuRecommendation",
+  "No": "C-66-100",
+  "Tret": "C",
+  "NilaiMin": 66,
+  "NilaiMax": 100,
+  "Skala": "Aktif Sosial",
+  "Tahap": "Tinggi",
+  "RecommendationCollection": {
+    "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.epsikologi_ipurecommendation.Domain.Recommendation, epsikologi.IpuRecommendation]], domain.sph",
+    "$values": [
+      {
+        "$type": "Bespoke.epsikologi_ipurecommendation.Domain.Recommendation, epsikologi.IpuRecommendation",
+        "Kategori": "Interpretasi",
+        "Deskripsi": "Anda digambarkan sebagai seorang yang sangat aktif, cergas dan bertenaga dalam menjalani kehidupan seharian.  Anda sangat suka berbicara dengan orang lain dan sangat cenderung meluangkan masa (melibatkan diri) bersama rakan dalam aktiviti komuniti, persatuan, kelab atau kumpulan.  Anda sering berada dalam keadaan mendesak kerana anda berasakan anda mempunyai terlalu banyak perkara yang perlu dilakukan terutama apabila bersama orang lain. Anda juga berasa perlu memberi lebih banyak perhatian kepada setiap perkara kerana tiada orang lain yang boleh mengendalikan perkara tersebut tanpa bantuan anda.   Dari aspek pelaksanaan tugas, anda sering melakukan tugas seterusnya setelah anda selesai menjalankan tugas sebelumnya.  Anda mungkin   tidak boleh berdiam diri walaupun untuk beberapa minit tanpa berasa letih.  Anda berasa sesuatu tidak kena mungkin berlaku dan untuk mengendalikan masalah anda perlu bersikap (bergerak) aktif sepanjang masa.  ",
+        "WebId": "a03ded0d-1d8d-4d64-a878-ef6fb75138a3"
+      },
+      {
+        "$type": "Bespoke.epsikologi_ipurecommendation.Domain.Recommendation, epsikologi.IpuRecommendation",
+        "Kategori": "Implikasi",
+        "Deskripsi": "Kecenderungan anda yang sangat suka berbicara dengan orang lain boleh menjadikan anda leka (asyik) sehingga menjejaskan tugas anda.  Anda cenderung memberikan pendapat (pandangan) kepada orang lain walaupun ia tidak diperlukan.   Anda juga dilihat sebagai seorang yang sangat cenderung menyampaikan \u001cberita sensasi\u001d kepada orang lain sama ada secara disedari atau tidak.  Anda mungkin bersikap sedemikian kerana ingin menarik perhatian atau mendapatkan pengiktirafan.  ",
+        "WebId": "554be2cf-1c20-4450-a163-fbd4e2dc803f"
+      },
+      {
+        "$type": "Bespoke.epsikologi_ipurecommendation.Domain.Recommendation, epsikologi.IpuRecommendation",
+        "Kategori": "Perspektif Kepimpinan",
+        "Deskripsi": "Anda sangat mementingkan hubungan interpersonal dan suka berinteraksi secara sosial dengan orang lain.  Oleh yang demikian, anda sangat mudah diajak berbincang dan berbicara dengan sesiapa sahaja.    Namun, anda cenderung menggunakan komunikasi satu hala dan tidak memberi peluang kepada orang lain untuk berbicara.  Anda juga mungkin menjadi asyik dan banyak meluangkan masa untuk berbicara sehingga menjejaskan fokus anda terhadap tugas.  ",
+        "WebId": "de36b886-3a62-4c73-8b1b-ab04d5c0c94c"
+      }
+    ]
+  },
+  "CreatedBy": "admin",
+  "Id": "c4cce402-c6f4-4f55-9ff7-78a0c63d7aec",
+  "CreatedDate": "2015-07-31T18:36:16.7060228+08:00",
+  "ChangedBy": "admin",
+  "ChangedDate": "2015-07-31T18:36:16.7050227+08:00",
+  "WebId": "e206724d-8123-45d3-afe1-b551bfc0c573"
+}

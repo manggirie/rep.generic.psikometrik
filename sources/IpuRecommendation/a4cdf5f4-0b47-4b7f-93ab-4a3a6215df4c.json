@@ -1,0 +1,38 @@
+{
+  "$type": "Bespoke.epsikologi_ipurecommendation.Domain.IpuRecommendation, epsikologi.IpuRecommendation",
+  "No": "H-0-25",
+  "Tret": "H",
+  "NilaiMin": 0,
+  "NilaiMax": 25,
+  "Skala": "Toleransi",
+  "Tahap": "Tinggi ",
+  "RecommendationCollection": {
+    "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.epsikologi_ipurecommendation.Domain.Recommendation, epsikologi.IpuRecommendation]], domain.sph",
+    "$values": [
+      {
+        "$type": "Bespoke.epsikologi_ipurecommendation.Domain.Recommendation, epsikologi.IpuRecommendation",
+        "Kategori": "Interpretasi",
+        "Deskripsi": "Anda digambarkan sebagai seorang yang sangat penyabar, bertimbang rasa, berperikemanusiaan dan bertolak ansur.  Anda sangat menghormati orang lain, tidak bersikap diskriminasi terhadap orang lain dan tidak suka mengkritik atau membuat aduan.  ",
+        "WebId": "93780293-1d3f-44a0-894a-992e9eef6b0a"
+      },
+      {
+        "$type": "Bespoke.epsikologi_ipurecommendation.Domain.Recommendation, epsikologi.IpuRecommendation",
+        "Kategori": " Implikasi",
+        "Deskripsi": "Sikap anda yang mudah bertolak ansur,  bertimbang rasa, menghormati orang lain, kurang prejudis dan boleh bersabar menjadikan anda seorang yang dihormati kerana mempunyai prinsip, keunikan diri, identiti dan berkebolehan mempertahankan diri sendiri.  Namun demikian, anda mungkin mahu berhati-hati agar orang lain tidak mengambil kesempatan di atas kebaikan yang anda berikan kepada mereka.  Ada kalanya anda mungkin perlu bersikap kritis kerana perlu membuat keputusan yang tepat bergantung pada kesesuaian situasi.",
+        "WebId": "c0d02068-63e4-4f3c-a883-2700dc1b3a62"
+      },
+      {
+        "$type": "Bespoke.epsikologi_ipurecommendation.Domain.Recommendation, epsikologi.IpuRecommendation",
+        "Kategori": "Perspektif Kepimpinan",
+        "Deskripsi": "Anda seorang yang sangat sabar, bertoleransi, boleh bekerjasama dan mencapai kata sepakat dalam perbincangan dengan orang lain.  Oleh yang demikian, anda sering meluangkan masa mendengar dan menerima pandangan atau pendapat orang lain berhubung sesuatu perkara atau isu.  Bagaimanapun, anda perlu berhati-hati dengan sikap sedemikian kerana orang lain mungkin memanipulasikan kebaikan anda untuk memenuhi kepentingan mereka.",
+        "WebId": "c7e7d014-9a44-4f7b-9cdf-9d25e6f4d6be"
+      }
+    ]
+  },
+  "CreatedBy": "admin",
+  "Id": "a4cdf5f4-0b47-4b7f-93ab-4a3a6215df4c",
+  "CreatedDate": "2015-07-31T19:03:52.4865843+08:00",
+  "ChangedBy": "admin",
+  "ChangedDate": "2015-07-31T19:03:52.4845841+08:00",
+  "WebId": "e6989c38-a69d-42d9-8bfb-dbc98ace6bdd"
+}

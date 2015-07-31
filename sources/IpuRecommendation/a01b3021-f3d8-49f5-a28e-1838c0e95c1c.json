@@ -1,0 +1,38 @@
+{
+  "$type": "Bespoke.epsikologi_ipurecommendation.Domain.IpuRecommendation, epsikologi.IpuRecommendation",
+  "No": "E-76-100",
+  "Tret": "E",
+  "NilaiMin": 76,
+  "NilaiMax": 100,
+  "Skala": "Bersimpati",
+  "Tahap": "Tinggi",
+  "RecommendationCollection": {
+    "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.epsikologi_ipurecommendation.Domain.Recommendation, epsikologi.IpuRecommendation]], domain.sph",
+    "$values": [
+      {
+        "$type": "Bespoke.epsikologi_ipurecommendation.Domain.Recommendation, epsikologi.IpuRecommendation",
+        "Kategori": "Interpretasi",
+        "Deskripsi": "Anda digambarkan sebagai seorang yang sangat baik hati, memahami, penyayang dan prihatin kepada keperluan serta perasaan orang lain.  Anda sangat mengambil berat terhadap kebajikan orang lain (orang yang kurang bernasib baik, kanak-kanak dan orang tua) dan sangat kerap memberi semangat (galakan) kepada mereka yang memerlukan.  ",
+        "WebId": "6a87d94c-7081-4136-b08f-ff3d151c4012"
+      },
+      {
+        "$type": "Bespoke.epsikologi_ipurecommendation.Domain.Recommendation, epsikologi.IpuRecommendation",
+        "Kategori": "Implikasi",
+        "Deskripsi": "Sikap anda sangat mudah bersimpati dan mengambil berat permasalahan orang lain boleh mendorong mereka mengambil kesempatan atau mempergunakan anda.  Oleh yang demikian, anda perlu berfikiran dan bertindak secara objektif serta mempunyai disiplin diri yang baik, agar anda boleh mengelakkan diri dari dipergunakan oleh orang lain.",
+        "WebId": "ab03d4d4-2a27-4e89-a0fa-2a7eaa102413"
+      },
+      {
+        "$type": "Bespoke.epsikologi_ipurecommendation.Domain.Recommendation, epsikologi.IpuRecommendation",
+        "Kategori": "Perspektif Kepimpinan",
+        "Deskripsi": "Anda seorang yang sangat mudah bersimpati dan prihatin terhadap keperluan orang lain.  Oleh yang demikian,  anda sangat cenderung memberi sokongan, dorongan, bantuan dan nasihat kepada mereka yang memerlukan walaupun tanpa diminta.  Bagaimanapun, anda perlu berhati-hati kerana kadang kala orang lain akan mengambil kesempatan di atas kebaikan anda.",
+        "WebId": "f48a5a0c-d674-44be-a740-b01c90ce752a"
+      }
+    ]
+  },
+  "CreatedBy": "admin",
+  "Id": "a01b3021-f3d8-49f5-a28e-1838c0e95c1c",
+  "CreatedDate": "2015-07-31T18:45:08.8582327+08:00",
+  "ChangedBy": "admin",
+  "ChangedDate": "2015-07-31T18:45:08.8572326+08:00",
+  "WebId": "0312c927-641e-497b-d003-aa7b845665d1"
+}

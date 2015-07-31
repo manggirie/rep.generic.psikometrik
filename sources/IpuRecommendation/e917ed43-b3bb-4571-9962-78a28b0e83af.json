@@ -1,0 +1,26 @@
+{
+  "$type": "Bespoke.epsikologi_ipurecommendation.Domain.IpuRecommendation, epsikologi.IpuRecommendation",
+  "No": "J-9-11",
+  "Tret": "J",
+  "NilaiMin": 9,
+  "NilaiMax": 11,
+  "Skala": "Kebolehpercayaan Diragui",
+  "Tahap": "Sederhana ",
+  "RecommendationCollection": {
+    "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.epsikologi_ipurecommendation.Domain.Recommendation, epsikologi.IpuRecommendation]], domain.sph",
+    "$values": [
+      {
+        "$type": "Bespoke.epsikologi_ipurecommendation.Domain.Recommendation, epsikologi.IpuRecommendation",
+        "Kategori": "Interpretasi",
+        "Deskripsi": "Secara keseluruhannya, didapati terdapat ketidaktetapan (tidak konsisten) cara anda menjawab soalan dalam inventori ini.  Ada ketikanya, anda ingin menunjukkan diri anda lebih baik atau lebih teruk daripada keadaan sebenarnya. \t Situasi ini mungkin berlaku disebabkan oleh sikap atau mekanisme bela diri (defensif) anda tidak bersedia untuk berterus terang dan mengakui akan kelemahan yang ada pada diri anda.  Berkemungkinan juga anda bimbang akan apa orang lain kata terhadap diri anda.  Justeru itu, kemungkinan terdapat tafsiran yang kurang tepat terhadap beberapa aspek mengenai diri anda.",
+        "WebId": "6ef55d48-47e7-43f8-8c13-d44b9d181998"
+      }
+    ]
+  },
+  "CreatedBy": "admin",
+  "Id": "e917ed43-b3bb-4571-9962-78a28b0e83af",
+  "CreatedDate": "2015-07-31T19:10:43.6296945+08:00",
+  "ChangedBy": "admin",
+  "ChangedDate": "2015-07-31T19:10:43.6276943+08:00",
+  "WebId": "e420407a-2e4f-4ac0-ac62-33baa5922e6e"
+}

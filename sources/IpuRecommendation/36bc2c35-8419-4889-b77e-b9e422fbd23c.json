@@ -1,0 +1,38 @@
+{
+  "$type": "Bespoke.epsikologi_ipurecommendation.Domain.IpuRecommendation, epsikologi.IpuRecommendation",
+  "No": "G-96-100",
+  "Tret": "G",
+  "NilaiMin": 96,
+  "NilaiMax": 100,
+  "Skala": "Asertif",
+  "Tahap": "Tinggi",
+  "RecommendationCollection": {
+    "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.epsikologi_ipurecommendation.Domain.Recommendation, epsikologi.IpuRecommendation]], domain.sph",
+    "$values": [
+      {
+        "$type": "Bespoke.epsikologi_ipurecommendation.Domain.Recommendation, epsikologi.IpuRecommendation",
+        "Kategori": "Interpretasi",
+        "Deskripsi": "Anda digambarkan sebagai seorang yang sangat berkeyakinan tinggi, bersikap sangat asertif, sangat suka kepada persaingan, sangat tegas dan teliti dalam kehidupan seharian.    Anda mempamerkan diri anda mempunyai ciri-ciri kepimpinan, kekuatan ego yang sangat tinggi dan sangat berkemahiran dalam mempengaruhi (mengubah) pemikiran orang lain.  Anda juga sangat suka kepada pengucapan awam dan perdebatan serta berani mempertahankan hak diri.   Anda mungkin mempamerkan sikap yang sangat dominan melalui imitasi tingkah laku daripada ibu bapa, guru, ahli keluarga atau pihak berkuasa.  Sekiranya anda telah memikul tanggungjawab yang besar pada usia yang muda, situasi tersebut mungkin mempengaruhi sikap dominan anda yang tinggi.    Kemungkinan juga anda mempamerkan sikap dominan yang tinggi kerana berasa takut atau anda mungkin pernah dikecewakan dan tidak mempunyai cara lain meluahkan kekecewaan.  kepada orang lain.  Oleh yang demikian, anda perlu mengawal orang lain atau mereka akan mengawal (memudaratkan) anda.  ",
+        "WebId": "1f655ecf-e725-4848-93f3-55f34ac3d1a7"
+      },
+      {
+        "$type": "Bespoke.epsikologi_ipurecommendation.Domain.Recommendation, epsikologi.IpuRecommendation",
+        "Kategori": "Implikasi",
+        "Deskripsi": "Sikap dominan bermaksud berkebolehan memimpin atau menerajui sesuatu kedudukan dan bukan bermaksud bersikap terlalu agresif atau menggunakan kuasa ke atas orang lain bagi keperluan diri.    Sikap dominan merupakan ciri penting bagi pekerjaan yang memerlukan keyakinan, kekuatan ego atau semangat persaingan.  Ia juga merupakan petunjuk baik bagi kemahiran kepimpinan terutama apabila skor pada perwatakan lain juga adalah baik.   Namun demikian, sikap dominan yang tinggi boleh mendorong anda mengawal atau memberi arahan kepada orang lain secara keterlaluan.  Anda juga cenderung melakukan apa yang ingin anda lakukan tanpa mengambil kira perasaan orang lain dan melindungi hak serta gelaran anda walaupun pada masa yang tidak memerlukan anda berbuat demikian.    Ada kemungkinan anda bertindak sedemikian  kerana berasa tidak selesa melainkan anda mengawal sesuatu situasi berkenaan.  Sikap anda yang sangat cenderung mencetuskan persengketaan (perselisihan pendapat) berhubung banyak isu dalam semua situasi  dan kesukaran anda menerima kesalahan (kelemahan) diri atau sentiasa mahu dilihat sebagai seorang yang selalunya betul (benar) sering mencetuskan persengketaan dengan orang lain.",
+        "WebId": "31388b07-f2d3-446b-9860-e351b5dfba16"
+      },
+      {
+        "$type": "Bespoke.epsikologi_ipurecommendation.Domain.Recommendation, epsikologi.IpuRecommendation",
+        "Kategori": "Perspektif Kepimpinan",
+        "Deskripsi": "Apabila anda berhadapan dengan terlalu banyak masalah atau mengalami tekanan emosi yang serius sehingga mengganggu fikiran, anda sangat cenderung mengambil tindakan atau keputusan berdasarkan kepada perasaan yang dialami pada masa itu.   Kesannya, anda mungkin mengambil pendekatan yang sangat terburu-buru tanpa menilai semula keputusan tersebut dan kemudian berasa sangat menyesal serta bersalah dengan keputusan yang telah dibuat. ",
+        "WebId": "37fecd2a-9f23-4d35-8da6-e082dd727a8c"
+      }
+    ]
+  },
+  "CreatedBy": "admin",
+  "Id": "36bc2c35-8419-4889-b77e-b9e422fbd23c",
+  "CreatedDate": "2015-07-31T18:58:52.4195806+08:00",
+  "ChangedBy": "admin",
+  "ChangedDate": "2015-07-31T18:58:52.4175804+08:00",
+  "WebId": "054ce3f5-0bd4-4eab-f749-81eb81ef6e84"
+}

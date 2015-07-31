@@ -1,0 +1,38 @@
+{
+  "$type": "Bespoke.epsikologi_ipurecommendation.Domain.IpuRecommendation, epsikologi.IpuRecommendation",
+  "No": "E-51-75",
+  "Tret": "E",
+  "NilaiMin": 51,
+  "NilaiMax": 75,
+  "Skala": "Bersimpati",
+  "Tahap": "Sederhana ",
+  "RecommendationCollection": {
+    "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.epsikologi_ipurecommendation.Domain.Recommendation, epsikologi.IpuRecommendation]], domain.sph",
+    "$values": [
+      {
+        "$type": "Bespoke.epsikologi_ipurecommendation.Domain.Recommendation, epsikologi.IpuRecommendation",
+        "Kategori": "Interpretasi",
+        "Deskripsi": "Anda digambarkan sebagai seorang yang baik hati, memahami, penyayang dan prihatin kepada keperluan serta perasaan orang lain.  Anda mengambil berat terhadap kebajikan orang lain (orang yang kurang bernasib baik, kanak-kanak dan orang tua) dan kerap memberi semangat (galakan) kepada mereka yang memerlukan.",
+        "WebId": "4f428ef3-910c-4ba5-8026-eb774e53ec00"
+      },
+      {
+        "$type": "Bespoke.epsikologi_ipurecommendation.Domain.Recommendation, epsikologi.IpuRecommendation",
+        "Kategori": "Implikasi",
+        "Deskripsi": "Sikap anda yang suka membantu orang lain mendorong mereka menemui anda apabila mengalami kesusahan atau tekanan.  Oleh yang demikian, anda perlu berhati-hati agar anda tidak perangkap dalam permasalahan yang dihadapi oleh orang lain.",
+        "WebId": "0abc2f96-6416-4632-b298-7450046a58ed"
+      },
+      {
+        "$type": "Bespoke.epsikologi_ipurecommendation.Domain.Recommendation, epsikologi.IpuRecommendation",
+        "Kategori": "Perspektif Kepimpinan",
+        "Deskripsi": "Anda seorang yang mudah bersimpati dan prihatin kepada keperluan orang lain.  Oleh yang demikian,  anda cenderung memberi sokongan, dorongan, bantuan dan nasihat kepada mereka yang memerlukan walaupun kadang kala tanpa diminta.  ",
+        "WebId": "e0350407-8591-40ed-811e-7c69b73ed474"
+      }
+    ]
+  },
+  "CreatedBy": "admin",
+  "Id": "8ffe1f37-e603-4dc8-9da3-638304da63d6",
+  "CreatedDate": "2015-07-31T18:46:06.3779841+08:00",
+  "ChangedBy": "admin",
+  "ChangedDate": "2015-07-31T18:46:06.376984+08:00",
+  "WebId": "3946ba97-7412-4ccc-d8d7-336b8159fb29"
+}

@@ -1,0 +1,38 @@
+{
+  "$type": "Bespoke.epsikologi_ipurecommendation.Domain.IpuRecommendation, epsikologi.IpuRecommendation",
+  "No": "E-21-50",
+  "Tret": "E",
+  "NilaiMin": 21,
+  "NilaiMax": 50,
+  "Skala": "Kurang Bersimpati",
+  "Tahap": "Sederhana ",
+  "RecommendationCollection": {
+    "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.epsikologi_ipurecommendation.Domain.Recommendation, epsikologi.IpuRecommendation]], domain.sph",
+    "$values": [
+      {
+        "$type": "Bespoke.epsikologi_ipurecommendation.Domain.Recommendation, epsikologi.IpuRecommendation",
+        "Kategori": "Interpretasi",
+        "Deskripsi": "Anda digambarkan sebagai seorang yang kurang bertimbang rasa, kurang sensitif, tegas dan mementingkan diri sendiri.  Anda cenderung menidakkan perasaan atau mengasingkan (melindungi) diri daripada dipengaruhi oleh emosi.  Anda juga cenderung mengelakkan diri daripada terlibat dalam situasi yang kurang menyenangkan kerana senario sedemikian hanya menyakitkan untuk difikirkan.    Anda juga dilihat sebagai seorang yang kurang prihatin terhadap keinginan dan perasaan orang lain serta lambat mengenal pasti keperluan keluarga dan rakan kerana anda banyak memberi tumpuan kepada keinginan dan perasaan diri sendiri.   Anda cenderung melakukan (mengatakan) perkara yang menyakiti hati orang lain tanpa berasa anda telah (sengaja) menyakiti mereka.  Anda berasa bahawa orang lain cuba menyakiti anda daripada melihat tujuan mereka yang sebenar yang mungkin bukan seperti apa yang anda sangka.    Anda mudah berasa tidak selesa, tidak dipedulikan dan menjadi tidak sabar dengan orang lain apabila mereka meluahkan emosi (kegembiraan, kesedihan atau kemarahan) kepada anda.  Anda juga mudah berasa bosan dan cenderung mengubah topik apabila orang lain berbicara mengenai sesuatu perkara yang anda tidak berminat untuk mendengarnya.  ",
+        "WebId": "260812b2-8795-488e-8775-e2fcb19fd7ea"
+      },
+      {
+        "$type": "Bespoke.epsikologi_ipurecommendation.Domain.Recommendation, epsikologi.IpuRecommendation",
+        "Kategori": "Implikasi",
+        "Deskripsi": "Sikap kurang bersimpati mempamerkan anda kurang kebolehan untuk menyayangi, memahami, mengambil berat dan membantu orang lain.  Sikap ini memainkan peranan penting dalam hubungan interpersonal (persahabatan, perkahwinan, kekeluargaan atau keibubapaan), pemilihan kerjaya (kerjaya yang berkaitan dengan perkhidmatan sosial) dan kepuasan diri (bantuan yang diberi dihargai oleh individu lain).",
+        "WebId": "04777f17-2ceb-4da9-8aea-6a669b43a602"
+      },
+      {
+        "$type": "Bespoke.epsikologi_ipurecommendation.Domain.Recommendation, epsikologi.IpuRecommendation",
+        "Kategori": "Perspektif Kepimpinan",
+        "Deskripsi": "Anda seorang yang kurang memberi perhatian, kurang mengambil endah dan kurang menitikberatkan hubungan interpersonal dengan orang lain.  Kesannya, anda kurang bersimpati dan   prihatin terhadap keperluan serta kebajikan orang lain.",
+        "WebId": "cab90a12-c5ec-4d47-b2e6-3ebf4278d5a1"
+      }
+    ]
+  },
+  "CreatedBy": "admin",
+  "Id": "4cc80756-de45-40b7-b1cc-af45e5bcc55e",
+  "CreatedDate": "2015-07-31T18:44:07.0970572+08:00",
+  "ChangedBy": "admin",
+  "ChangedDate": "2015-07-31T18:44:07.0960571+08:00",
+  "WebId": "7a79bf56-82f0-420e-f77c-c35a1019e28a"
+}

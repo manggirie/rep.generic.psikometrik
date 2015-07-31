@@ -1,0 +1,38 @@
+{
+  "$type": "Bespoke.epsikologi_ipurecommendation.Domain.IpuRecommendation, epsikologi.IpuRecommendation",
+  "No": "I-41-85",
+  "Tret": "I",
+  "NilaiMin": 41,
+  "NilaiMax": 85,
+  "Skala": "Bersikap  Sistematik",
+  "Tahap": "Sederhana  ",
+  "RecommendationCollection": {
+    "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.epsikologi_ipurecommendation.Domain.Recommendation, epsikologi.IpuRecommendation]], domain.sph",
+    "$values": [
+      {
+        "$type": "Bespoke.epsikologi_ipurecommendation.Domain.Recommendation, epsikologi.IpuRecommendation",
+        "Kategori": "Interpretasi",
+        "Deskripsi": "Anda digambarkan sebagai seorang yang sistematik, tabah dalam melakukan tugas, menghormati pihak berkuasa dan mematuhi peraturan yang ditetapkan. Anda mempunyai kawalan dan jangkaan yang tinggi terhadap diri dan orang lain, mementingkan kesempurnaan, suka mengawal, bersikap tegar dan kurang fleksibel.      Anda suka berfikir sebelum bertindak, mementingkan penentuan matlamat dalam pencapaian tugas, terperinci apabila merancang aktiviti, mengikut apa yang telah dirancang dan mengelakkan perubahan secara tiba-tiba.  Sekiranya berlaku perubahan yang tidak dijangka, anda mungkin mengubah perancangan yang telah anda lakukan apabila perlu.  ",
+        "WebId": "c54c8485-413f-449c-93b3-321e1db2b9d5"
+      },
+      {
+        "$type": "Bespoke.epsikologi_ipurecommendation.Domain.Recommendation, epsikologi.IpuRecommendation",
+        "Kategori": "Implikasi",
+        "Deskripsi": "Anda mungkin mengulangi beberapa aktiviti yang sama pada masa tertentu dan berasa kurang selesa apabila sesuatu perkara mengganggu perancangan atau jangkaan anda .  Namun, anda boleh menerima perubahan yang berlaku dengan baik walaupun agak sukar bagi berbuat demikian pada peringkat permulaan.  Anda juga boleh menerima pendapat orang lain yang mempertikai idea yang dikemukakan secara positif.  ",
+        "WebId": "460d274e-69b9-442e-8b26-0f195f6cfa23"
+      },
+      {
+        "$type": "Bespoke.epsikologi_ipurecommendation.Domain.Recommendation, epsikologi.IpuRecommendation",
+        "Kategori": "Perspektif Kepimpinan",
+        "Deskripsi": "Anda seorang yang sistematik, teratur, mematuhi peraturan dan menitikberatkan kesempurnaan dalam hasilan kerja.  Oleh yang demikian, anda cenderung mengurus organisasi melalui perancangan, pembahagian, penyelarasan dan kawalan mutu kerja.",
+        "WebId": "ed11ee86-a9f0-48e8-86c3-1c1dd1108756"
+      }
+    ]
+  },
+  "CreatedBy": "admin",
+  "Id": "c9048d4c-d234-4520-ae62-f4d278e6ac3d",
+  "CreatedDate": "2015-07-31T19:09:17.426075+08:00",
+  "ChangedBy": "admin",
+  "ChangedDate": "2015-07-31T19:09:17.4250749+08:00",
+  "WebId": "6179b21b-04e3-45fc-b6a8-84e555f8340c"
+}

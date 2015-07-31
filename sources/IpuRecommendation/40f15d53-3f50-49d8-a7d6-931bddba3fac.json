@@ -1,0 +1,26 @@
+{
+  "$type": "Bespoke.epsikologi_ipurecommendation.Domain.IpuRecommendation, epsikologi.IpuRecommendation",
+  "No": "J-12-15",
+  "Tret": "J",
+  "NilaiMin": 12,
+  "NilaiMax": 15,
+  "Skala": "Kebolehpercayaan Diragui",
+  "Tahap": "Rendah",
+  "RecommendationCollection": {
+    "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.epsikologi_ipurecommendation.Domain.Recommendation, epsikologi.IpuRecommendation]], domain.sph",
+    "$values": [
+      {
+        "$type": "Bespoke.epsikologi_ipurecommendation.Domain.Recommendation, epsikologi.IpuRecommendation",
+        "Kategori": "Interpretasi",
+        "Deskripsi": "Secara keseluruhannya, cara anda menjawab soalan amat berhati-hati kerana anda mempunyai pelbagai andaian dan jangkaan terhadap inventori ini.  Anda juga mungkin berasa bimbang dan khuatir sekiranya tafsiran ini akan menunjukkan kelemahan atau kekurangan diri anda.  Ada juga kemungkinan anda lebih suka dilihat lebih rendah atau lebih lemah daripada keadaan sebenar.  Kebimbangan ini membuatkan jawapan anda menjadi tidak konsisten.  Justeru itu, kemungkinan tafsiran yang diberikan tidak menggambarkan diri anda sebenarnya.",
+        "WebId": "e4f4b873-f01f-4efd-a3fa-54af78b240f6"
+      }
+    ]
+  },
+  "CreatedBy": "admin",
+  "Id": "40f15d53-3f50-49d8-a7d6-931bddba3fac",
+  "CreatedDate": "2015-07-31T19:11:56.6089917+08:00",
+  "ChangedBy": "admin",
+  "ChangedDate": "2015-07-31T19:11:56.6079916+08:00",
+  "WebId": "72c07120-eb2c-4164-edca-5d1c007fcdca"
+}
