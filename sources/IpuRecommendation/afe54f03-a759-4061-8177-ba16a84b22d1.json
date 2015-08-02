@@ -1,0 +1,26 @@
+{
+  "$type": "Bespoke.epsikologi_ipurecommendation.Domain.IpuRecommendation, epsikologi.IpuRecommendation",
+  "No": "J-0-5",
+  "Tret": "J",
+  "NilaiMin": 0,
+  "NilaiMax": 5,
+  "Skala": "Kebolehpercayaan Diterima",
+  "Tahap": "Tinggi",
+  "RecommendationCollection": {
+    "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.epsikologi_ipurecommendation.Domain.Recommendation, epsikologi.IpuRecommendation]], domain.sph",
+    "$values": [
+      {
+        "$type": "Bespoke.epsikologi_ipurecommendation.Domain.Recommendation, epsikologi.IpuRecommendation",
+        "Kategori": "Interpretasi",
+        "Deskripsi": "Secara keseluruhannya, cara anda menjawab soalan dalam inventori ini menunjukkan yang anda telah menjawabnya dengan penuh keyakinan dan jujur.  Anda bersedia mengakui beberapa kelemahan dan kekurangan yang ada pada diri anda.   Anda juga tidak mudah dipengaruhi dengan apa yang mungkin orang perkatakan terhadap diri anda.  Anda sangat memahami diri anda dan bersikap terbuka.  Berkemungkinan besar semua tafsiran yang diberikan bertepatan dengan diri anda sebenarnya.",
+        "WebId": "6c51a5b9-282b-4f42-a5c9-cf1f8c9fb197"
+      }
+    ]
+  },
+  "CreatedBy": "admin",
+  "Id": "afe54f03-a759-4061-8177-ba16a84b22d1",
+  "CreatedDate": "2015-07-31T19:12:38.7502054+08:00",
+  "ChangedBy": "admin",
+  "ChangedDate": "2015-07-31T19:12:38.7492053+08:00",
+  "WebId": "38335d5a-4c19-4b49-8acd-f849f5fae045"
+}

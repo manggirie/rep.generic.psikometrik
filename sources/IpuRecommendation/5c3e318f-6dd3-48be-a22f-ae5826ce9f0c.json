@@ -1,0 +1,38 @@
+{
+  "$type": "Bespoke.epsikologi_ipurecommendation.Domain.IpuRecommendation, epsikologi.IpuRecommendation",
+  "No": "D-21-50",
+  "Tret": "D",
+  "NilaiMin": 21,
+  "NilaiMax": 50,
+  "Skala": "Pendaman Perasaan",
+  "Tahap": "Sederhana ",
+  "RecommendationCollection": {
+    "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.epsikologi_ipurecommendation.Domain.Recommendation, epsikologi.IpuRecommendation]], domain.sph",
+    "$values": [
+      {
+        "$type": "Bespoke.epsikologi_ipurecommendation.Domain.Recommendation, epsikologi.IpuRecommendation",
+        "Kategori": "Interpretasi",
+        "Deskripsi": "Anda digambarkan sebagai seorang yang sukar meluahkan (mempamerkan) perasaan (keintiman) dan cenderung memendam perasaan walaupun dengan mereka yang rapat dengan anda.    Anda mungkin mempunyai banyak konflik interpersonal yang masih belum diselesaikan dan mudah berasa curiga.  Apabila berada dalam situasi sebegini, anda jarang memberikan reaksi (tindak balas) kepada apa yang telah dilakukan oleh orang lain terhadap anda.",
+        "WebId": "a4dc83af-a250-4623-b256-c9435f82abb4"
+      },
+      {
+        "$type": "Bespoke.epsikologi_ipurecommendation.Domain.Recommendation, epsikologi.IpuRecommendation",
+        "Kategori": "Implikasi",
+        "Deskripsi": "Anda seorang yang agak pendiam, kurang berinteraksi secara sosial dengan orang lain dan suka kepada kehidupan yang tenang.  Kesannya, anda mungkin melibatkan diri dalam perbincangan dan memperkatakan perkara asas apabila dirasakan atau  difikirkan perlu.",
+        "WebId": "a6631a4d-115c-43b6-b260-1f2430593eca"
+      },
+      {
+        "$type": "Bespoke.epsikologi_ipurecommendation.Domain.Recommendation, epsikologi.IpuRecommendation",
+        "Kategori": "Perspektif Kepimpinan",
+        "Deskripsi": "Anda seorang yang suka memendam perasaan walaupun kepada individu yang rapat dengan anda.  Kesannya, anda berasa sukar untuk mempercayai orang lain dan situasi ini mencetuskan pelbagai kesan negatif kepada diri anda seperti kemurungan, berasa terbeban dengan masalah dan sebagainya.",
+        "WebId": "2e50c038-7c48-4b59-9f13-5cd08c444c07"
+      }
+    ]
+  },
+  "CreatedBy": "admin",
+  "Id": "5c3e318f-6dd3-48be-a22f-ae5826ce9f0c",
+  "CreatedDate": "2015-07-31T18:39:47.3460847+08:00",
+  "ChangedBy": "admin",
+  "ChangedDate": "2015-07-31T18:39:47.3450846+08:00",
+  "WebId": "62299911-b5f3-4eeb-8394-85c6a1f3c4f2"
+}

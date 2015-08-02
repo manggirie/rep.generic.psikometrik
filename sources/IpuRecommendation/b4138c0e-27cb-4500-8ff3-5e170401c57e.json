@@ -1,0 +1,38 @@
+{
+  "$type": "Bespoke.epsikologi_ipurecommendation.Domain.IpuRecommendation, epsikologi.IpuRecommendation",
+  "No": "D-0-20",
+  "Tret": "D",
+  "NilaiMin": 0,
+  "NilaiMax": 20,
+  "Skala": "Pendaman Perasaan",
+  "Tahap": "Tinggi",
+  "RecommendationCollection": {
+    "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.epsikologi_ipurecommendation.Domain.Recommendation, epsikologi.IpuRecommendation]], domain.sph",
+    "$values": [
+      {
+        "$type": "Bespoke.epsikologi_ipurecommendation.Domain.Recommendation, epsikologi.IpuRecommendation",
+        "Kategori": "Interpretasi",
+        "Deskripsi": "Anda digambarkan sebagai seorang yang sangat sukar meluahkan (mempamerkan) perasaan walaupun mengalami perasaan yang sangat kuat mengenainya.   Anda sangat cenderung memendam (menahan luahan) perasaan walaupun dengan mereka yang rapat dengan anda kerana anda mungkin tiada kemahiran meluahkan perasaan kepada orang lain.    Anda mungkin seorang yang sangat mudah berasa malu dan tidak tahu apa yang perlu dilakukan untuk mempamerkan perasaan anda kepada orang lain.  Apabila anda berada dalam situasi yang memerlukan anda memberikan tindak balas kepada perasaan orang lain, anda mungkin berinteraksi tanpa emosi.  Anda cenderung mengelak (menarik) diri dari berinteraksi atau menunggu untuk disapa oleh orang lain apabila berada dalam satu majlis.    Anda sangat cenderung memendam perasaan kerana berasa diri anda sempurna, ingin memuaskan hati orang lain atau ingin diri anda disukai oleh orang lain.  Anda mungkin telah dilatih atau tidak diberi peluang meluahkan (mempamerkan) perasaan kepada orang lain secara terbuka kerana keluarga anda juga bersikap demikian.    Anda berasa meluahkan perasaan adalah suatu tindakan yang tidak sepatutnya dilakukan.  Ada kemungkinan perasaan anda pernah disakiti   dengan teruk seperti kerap mengalami penolakan apabila meluahkan perasaan kepada orang lain.  Anda mungkin berasa sangat takut meluahkan perasaan kepada orang lain atau tidak mahu orang lain mempergunakan atau menyakiti anda dengan pelbagai cara.",
+        "WebId": "c44a5723-fa23-402d-a5e0-c178caae968b"
+      },
+      {
+        "$type": "Bespoke.epsikologi_ipurecommendation.Domain.Recommendation, epsikologi.IpuRecommendation",
+        "Kategori": "Implikasi",
+        "Deskripsi": "Kesukaran meluahkan perasaan merupakan satu masalah dalam menjalin hubungan interpersonal dengan orang lain.  Sekiranya anda tidak berupaya meluahkan perasaan, anda mungkin sukar mempamerkan kemesraan, keramahan, penghargaan dan sebagainya dalam bentuk yang difahami oleh orang lain.  Anda juga mungkin sukar memberikan reaksi terhadap luahan perasaan seperti kasih sayang, percintaan dan persahabatan.",
+        "WebId": "2f0e950f-5317-4507-8d65-feff6531a257"
+      },
+      {
+        "$type": "Bespoke.epsikologi_ipurecommendation.Domain.Recommendation, epsikologi.IpuRecommendation",
+        "Kategori": "Perspektif Kepimpinan",
+        "Deskripsi": "Anda seorang yang sangat suka memendam perasaan walaupun kepada individu yang rapat dengan anda.  Kesannya, anda mungkin berasa sangat sukar untuk mempercayai orang lain dan situasi ini mencetuskan pelbagai kesan negatif kepada diri anda seperti kemurungan, berasa terbeban dengan masalah dan sebagainya.  Anda juga mungkin mendapati orang lain sukar memahami diri anda.",
+        "WebId": "c94870e8-2c5a-4197-bd98-9055d153ff3c"
+      }
+    ]
+  },
+  "CreatedBy": "admin",
+  "Id": "b4138c0e-27cb-4500-8ff3-5e170401c57e",
+  "CreatedDate": "2015-07-31T18:38:44.582809+08:00",
+  "ChangedBy": "admin",
+  "ChangedDate": "2015-07-31T18:38:44.5808088+08:00",
+  "WebId": "4a19e298-c3ea-4091-9b93-dab5db18877d"
+}

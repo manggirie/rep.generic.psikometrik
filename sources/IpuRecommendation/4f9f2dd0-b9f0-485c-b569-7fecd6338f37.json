@@ -1,0 +1,38 @@
+{
+  "$type": "Bespoke.epsikologi_ipurecommendation.Domain.IpuRecommendation, epsikologi.IpuRecommendation",
+  "No": "G-16-35",
+  "Tret": "G",
+  "NilaiMin": 16,
+  "NilaiMax": 35,
+  "Skala": "Kebergantungan",
+  "Tahap": "Sederhana ",
+  "RecommendationCollection": {
+    "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.epsikologi_ipurecommendation.Domain.Recommendation, epsikologi.IpuRecommendation]], domain.sph",
+    "$values": [
+      {
+        "$type": "Bespoke.epsikologi_ipurecommendation.Domain.Recommendation, epsikologi.IpuRecommendation",
+        "Kategori": "Interpretasi",
+        "Deskripsi": "Anda digambarkan sebagai seorang yang pasif, mengikut (menurut) kata atau bersikap ketergantungan kepada orang lain dan mempunyai keyakinan atau harga diri yang rendah. Anda mudah dipengaruhi, dipergunakan atau memenuhi keinginan orang lain.  Anda juga cenderung mengelakkan diri dari membuat aduan dan berusaha mencari perdamaian seboleh mungkin.",
+        "WebId": "a55a7f69-0be5-4f70-b1a8-3c8e61941639"
+      },
+      {
+        "$type": "Bespoke.epsikologi_ipurecommendation.Domain.Recommendation, epsikologi.IpuRecommendation",
+        "Kategori": "Implikasi",
+        "Deskripsi": "Sikap anda yang cenderung melakukan apa yang orang lain mahu anda lakukan tanpa mengambil kira apa yang anda mahu (fikir) adalah terbaik untuk diri anda boleh mencetuskan kemarahan atau perasaan disakiti.  Secara tidak langsung, tindakan sedemikian memperkecilkan diri anda sendiri dan memperbesarkan kepentingan orang lain.  ",
+        "WebId": "77708835-444c-4a4f-819e-05f9592ffdc8"
+      },
+      {
+        "$type": "Bespoke.epsikologi_ipurecommendation.Domain.Recommendation, epsikologi.IpuRecommendation",
+        "Kategori": "Perspektif Kepimpinan",
+        "Deskripsi": "Anda seorang yang kurang tegas dan kurang yakin pada kebolehan diri.  Kesannya, anda agak sukar mempengaruhi orang lain, cenderung mengikut pendapat orang lain dan agak sukar mengambil tindakan atau keputusan yang tegas.",
+        "WebId": "0dd42a79-274d-480f-ac81-58c13802cd48"
+      }
+    ]
+  },
+  "CreatedBy": "admin",
+  "Id": "4f9f2dd0-b9f0-485c-b569-7fecd6338f37",
+  "CreatedDate": "2015-07-31T18:53:56.7030119+08:00",
+  "ChangedBy": "admin",
+  "ChangedDate": "2015-07-31T18:53:56.7020118+08:00",
+  "WebId": "57b32c83-5223-440e-a27d-0652b10b0d1e"
+}

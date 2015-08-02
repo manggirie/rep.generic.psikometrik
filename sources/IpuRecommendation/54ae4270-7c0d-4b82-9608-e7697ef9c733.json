@@ -1,0 +1,38 @@
+{
+  "$type": "Bespoke.epsikologi_ipurecommendation.Domain.IpuRecommendation, epsikologi.IpuRecommendation",
+  "No": "I-86-100",
+  "Tret": "I",
+  "NilaiMin": 86,
+  "NilaiMax": 100,
+  "Skala": "Bersikap Sistematik",
+  "Tahap": "Tinggi ",
+  "RecommendationCollection": {
+    "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.epsikologi_ipurecommendation.Domain.Recommendation, epsikologi.IpuRecommendation]], domain.sph",
+    "$values": [
+      {
+        "$type": "Bespoke.epsikologi_ipurecommendation.Domain.Recommendation, epsikologi.IpuRecommendation",
+        "Kategori": "Interpretasi",
+        "Deskripsi": "Anda digambarkan sebagai seorang yang sangat sistematik, tabah dalam melakukan tugas, menghormati pihak berkuasa dan mematuhi peraturan yang ditetapkan. Anda mempunyai kawalan dan jangkaan yang sangat tinggi terhadap diri dan orang lain, mementingkan kesempurnaan, suka mengawal, bersikap terlalu tegar dan tidak fleksibel.      Anda suka berfikir sebelum bertindak, sangat mementingkan penentuan matlamat dalam pencapaian tugas, sangat terperinci apabila merancang aktiviti, mengikut apa yang telah dirancang dan mengelakkan perubahan secara tiba-tiba.  Sekiranya berlaku perubahan yang tidak dijangka, anda mungkin tidak mengubah perancangan yang telah anda lakukan.  ",
+        "WebId": "42e8adaf-e86a-41d3-99e5-14fbf055a6f0"
+      },
+      {
+        "$type": "Bespoke.epsikologi_ipurecommendation.Domain.Recommendation, epsikologi.IpuRecommendation",
+        "Kategori": "Implikasi",
+        "Deskripsi": "Anda cenderung mengulangi aktiviti yang sama dan berasa tidak selesa apabila berlaku perubahan. Anda mudah berasa marah apabila ada yang mempertikai idea yang dikemukakan.    Sikap anda yang sangat sistematik juga menjadikan  anda mudah marah, panik atau hilang kawalan diri apabila sesuatu perkara mengganggu perancangan atau jangkaan.  Jika anda tidak boleh mengenal pasti apa yang benar atau salah, anda mudah berasa terganggu. Anda juga enggan merendahkan jangkaan anda dalam apa keadaan sekalipun.  ",
+        "WebId": "23ad5448-54ea-4b82-9704-7962e77599a6"
+      },
+      {
+        "$type": "Bespoke.epsikologi_ipurecommendation.Domain.Recommendation, epsikologi.IpuRecommendation",
+        "Kategori": "Perspektif Kepimpinan",
+        "Deskripsi": "Anda seorang yang sangat sistematik, teratur, mematuhi peraturan dan menitikberatkan kesempurnaan dalam hasilan kerja.  Oleh yang demikian, anda sangat cenderung mengurus organisasi melalui perancangan, pembahagian, penyelarasan dan kawalan mutu kerja.  Bagaimanapun, anda perlu bersikap fleksibel agar tidak berasa stres apabila berlaku perubahan secara mendadak atau spontan.",
+        "WebId": "9d63d66f-31d7-4218-87ed-b8d516a1707b"
+      }
+    ]
+  },
+  "CreatedBy": "admin",
+  "Id": "54ae4270-7c0d-4b82-9608-e7697ef9c733",
+  "CreatedDate": "2015-07-31T19:07:48.987232+08:00",
+  "ChangedBy": "admin",
+  "ChangedDate": "2015-07-31T19:07:48.9852318+08:00",
+  "WebId": "abd5d8ef-b12f-4b48-d6ff-4f4f5a46e285"
+}

@@ -1,0 +1,38 @@
+{
+  "$type": "Bespoke.epsikologi_ipurecommendation.Domain.IpuRecommendation, epsikologi.IpuRecommendation",
+  "No": "I-0-20",
+  "Tret": "I",
+  "NilaiMin": 0,
+  "NilaiMax": 20,
+  "Skala": "Bersikap Spontan",
+  "Tahap": "Tinggi ",
+  "RecommendationCollection": {
+    "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.epsikologi_ipurecommendation.Domain.Recommendation, epsikologi.IpuRecommendation]], domain.sph",
+    "$values": [
+      {
+        "$type": "Bespoke.epsikologi_ipurecommendation.Domain.Recommendation, epsikologi.IpuRecommendation",
+        "Kategori": "Interpretasi",
+        "Deskripsi": "Anda digambarkan sebagai seorang yang mempunyai kawalan diri yang rendah, tidak sistematik, mudah dipengaruhi dan sukar membuat keputusan.  Anda juga mudah berubah, kerap menukar pekerjaan dan mengalami masalah kerana tergesa-gesa mengambil tindakan.",
+        "WebId": "8c7ecab2-a55f-4008-9430-8402c01418d8"
+      },
+      {
+        "$type": "Bespoke.epsikologi_ipurecommendation.Domain.Recommendation, epsikologi.IpuRecommendation",
+        "Kategori": "Implikasi",
+        "Deskripsi": "Sikap anda yang cenderung bertindak spontan boleh dikaitkan dengan kurangnya komitmen atau kurangnya pencapaian matlamat dalam pekerjaan yang dirancang.  Anda juga cenderung mempamerkan tingkah laku yang boleh memudaratkan diri atau bertentangan dengan kehendak anda.",
+        "WebId": "fa6c711b-8ac6-44a4-8242-917dd86a9744"
+      },
+      {
+        "$type": "Bespoke.epsikologi_ipurecommendation.Domain.Recommendation, epsikologi.IpuRecommendation",
+        "Kategori": "Perspektif Kepimpinan",
+        "Deskripsi": "Anda seorang yang bersikap sangat fleksibel, spontan, terbuka dan suka kepada situasi kerja yang tidak mengongkong anda. Kesannya, anda sukar mengikut peraturan atau polisi yang dianggap tidak munasabah.  Anda juga sangat suka mengambil risiko tanpa berfikir secara rasional apabila mengambil tindakan atau keputusan walaupun tanpa maklumat yang lengkap. ",
+        "WebId": "e103eb96-7e92-47a6-a652-6700e7fbfd8f"
+      }
+    ]
+  },
+  "CreatedBy": "admin",
+  "Id": "60b013dd-a165-4992-8401-faa9e8e20541",
+  "CreatedDate": "2015-07-31T19:06:48.2981637+08:00",
+  "ChangedBy": "admin",
+  "ChangedDate": "2015-07-31T19:06:48.2971636+08:00",
+  "WebId": "286c15fc-c243-4036-e685-0225f988f3f3"
+}

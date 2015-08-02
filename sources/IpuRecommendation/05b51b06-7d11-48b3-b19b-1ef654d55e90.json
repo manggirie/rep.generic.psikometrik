@@ -1,0 +1,38 @@
+{
+  "$type": "Bespoke.epsikologi_ipurecommendation.Domain.IpuRecommendation, epsikologi.IpuRecommendation",
+  "No": "G-91-95",
+  "Tret": "G",
+  "NilaiMin": 91,
+  "NilaiMax": 95,
+  "Skala": "Asertif",
+  "Tahap": "Sederhana",
+  "RecommendationCollection": {
+    "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.epsikologi_ipurecommendation.Domain.Recommendation, epsikologi.IpuRecommendation]], domain.sph",
+    "$values": [
+      {
+        "$type": "Bespoke.epsikologi_ipurecommendation.Domain.Recommendation, epsikologi.IpuRecommendation",
+        "Kategori": "Interpretasi",
+        "Deskripsi": "Anda digambarkan sebagai seorang yang berkeyakinan tinggi, bersikap asertif dan berinisiatif, suka kepada persaingan, bersikap tegas dan teliti dalam kehidupan seharian.    Anda juga suka kepada pengucapan awam, perdebatan dan berani mempertahankan hak diri. Anda mempamerkan diri anda mempunyai ciri-ciri kepimpinan dan berkemahiran dalam mempengaruhi (mengubah) pemikiran orang lain.  ",
+        "WebId": "34c6124e-9d3c-4443-922e-9a9f10417ab9"
+      },
+      {
+        "$type": "Bespoke.epsikologi_ipurecommendation.Domain.Recommendation, epsikologi.IpuRecommendation",
+        "Kategori": "Implikasi",
+        "Deskripsi": "Sikap dominan bermaksud berkebolehan memimpin atau menerajui sesuatu kedudukan dan bukan bermaksud bersikap terlalu agresif atau menggunakan kuasa ke atas orang lain bagi keperluan diri.    Sikap dominan merupakan ciri penting bagi pekerjaan yang memerlukan keyakinan, kekuatan ego atau semangat persaingan.  Ia juga merupakan petunjuk baik bagi kemahiran kepimpinan terutama apabila skor pada perwatakan lain juga adalah baik.    Sikap dominan adalah kualiti yang memberi kelebihan dalam situasi pekerjaan pada peringkat eksekutif sekiranya kebolehan mempengaruhi orang lain digunakan secara berkesan.  Namun demikian, apabila sikap dominan digunakan secara keterlaluan, anda  cenderung mengasingkan diri apabila mempunyai persengketaan yang tinggi.",
+        "WebId": "0983c7fd-b6a3-43e4-a056-44bfc47f5ff1"
+      },
+      {
+        "$type": "Bespoke.epsikologi_ipurecommendation.Domain.Recommendation, epsikologi.IpuRecommendation",
+        "Kategori": "Perspektif Kepimpinan",
+        "Deskripsi": "Apabila anda berhadapan dengan terlalu banyak masalah atau mengalami tekanan emosi yang serius sehingga mengganggu fikiran, anda sangat cenderung mengambil tindakan atau keputusan berdasarkan kepada perasaan yang dialami pada masa itu.   Kesannya, anda mungkin mengambil pendekatan yang sangat terburu-buru tanpa menilai semula keputusan tersebut dan kemudian berasa sangat menyesal serta bersalah dengan keputusan yang telah dibuat. ",
+        "WebId": "4b802214-79d8-4fba-92ac-c98b8d099e0d"
+      }
+    ]
+  },
+  "CreatedBy": "admin",
+  "Id": "05b51b06-7d11-48b3-b19b-1ef654d55e90",
+  "CreatedDate": "2015-07-31T18:56:28.9952396+08:00",
+  "ChangedBy": "admin",
+  "ChangedDate": "2015-07-31T18:56:28.9942395+08:00",
+  "WebId": "131e3249-b6d8-4310-a620-f387d9a9bfe8"
+}

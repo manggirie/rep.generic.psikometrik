@@ -1,0 +1,38 @@
+{
+  "$type": "Bespoke.epsikologi_ipurecommendation.Domain.IpuRecommendation, epsikologi.IpuRecommendation",
+  "No": "H-51-75",
+  "Tret": "H",
+  "NilaiMin": 51,
+  "NilaiMax": 75,
+  "Skala": "Perselisihan Faham",
+  "Tahap": "Sederhana ",
+  "RecommendationCollection": {
+    "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.epsikologi_ipurecommendation.Domain.Recommendation, epsikologi.IpuRecommendation]], domain.sph",
+    "$values": [
+      {
+        "$type": "Bespoke.epsikologi_ipurecommendation.Domain.Recommendation, epsikologi.IpuRecommendation",
+        "Kategori": "Interpretasi",
+        "Deskripsi": "Anda digambarkan sebagai seorang yang bersikap kritis, suka menyindir, suka bertengkar, mudah marah dan kurang sabar.  Anda cenderung menjadi seorang yang kurang bertimbang rasa, kurang munasabah, kurang toleransi kepada kelemahan orang lain dan berasakan diri anda adalah lebih baik daripada orang lain.  Anda cenderung mempamerkan persengketaan dalam bentuk (nada) percakapan yang kritis atau kasar, bersikap punitif (mengenakan hukuman) atau membuat ulasan (komen) yang menyakitkan hati orang lain.  Anda juga cenderung meluahkan kemarahan secara nyata atau tidak nyata dalam bentuk melengah-lengahkan tugas, kedegilan, ketidaksabaran, terlalu banyak aduan, sindiran atau persengketaan.    Anda suka mencari kesalahan atau memperbesarkan kelemahan orang lain dengan cara yang menyakitkan perasaan orang lain.  Apabila anda melihat orang lain, anda tidak suka dengan apa yang anda lihat.  Anda sering melihat kesilapan dalam diri atau tindakan orang lain.",
+        "WebId": "3aded58e-0cb1-41cb-9b9b-808d35bd47bf"
+      },
+      {
+        "$type": "Bespoke.epsikologi_ipurecommendation.Domain.Recommendation, epsikologi.IpuRecommendation",
+        "Kategori": "Implikasi",
+        "Deskripsi": "Orang yang rapat dengan anda (pasangan anda, ahli keluarga dan rakan rapat) sensitif kepada perubahan sikap anda.  Mereka boleh berasa persengketaan tercetus apabila ia dilaksanakan melalui tindakan dan gaya bahasa anda (intonasi suara) walaupun perkataan yang sebenarnya mungkin tidak dipamerkan sebagai kemarahan atau kritikan.  Persengketaan yang dipamerkan secara nyata, kritis dan menghukum kerap digunakan sebagai balasan kepada rasa ketidaksempurnaan seperti ketakutan atau tidak selamat.   Anda mungkin mempamerkan persengketaan sama ada secara sedar atau tidak sedar kerana ingin mengimbangi rasa kekurangan pada diri, berasa takut kerana berasa diri terugut atau mempunyai sikap mempertahankan diri sendiri (defensif) yang keterlaluan.  Tingkah laku sedemikian boleh menyebabkan orang lain menjauhkan diri, menjejaskan hubungan interpersonal dan menjadi pencetus kepada ketidakharmonian rumah tangga kerana tindakan anda membuatkan orang lain berasa mereka tidak berharga, tidak diterima atau tidak sebaik anda.",
+        "WebId": "a70a86a9-79bc-4a16-a601-e76697d8c6ed"
+      },
+      {
+        "$type": "Bespoke.epsikologi_ipurecommendation.Domain.Recommendation, epsikologi.IpuRecommendation",
+        "Kategori": "Perspektif Kepimpinan",
+        "Deskripsi": "Anda cenderung bersikap sinis dan agresif, kurang sabar serta cepat marah dalam perhubungan dengan orang lain.  Kesannya, anda suka mengkritik, menyalahkan dan agak sukar mendengar atau menerima pandangan orang lain.",
+        "WebId": "0c6d4094-afaf-4041-86d8-82559d36cbe3"
+      }
+    ]
+  },
+  "CreatedBy": "admin",
+  "Id": "c72d45bf-db9a-4fb0-838a-1c89ba879de4",
+  "CreatedDate": "2015-07-31T19:00:03.670705+08:00",
+  "ChangedBy": "admin",
+  "ChangedDate": "2015-07-31T19:00:03.6697049+08:00",
+  "WebId": "a19ce1b5-b5f2-4e23-a10a-d6c0a03eef82"
+}
