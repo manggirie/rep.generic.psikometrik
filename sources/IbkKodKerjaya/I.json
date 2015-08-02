@@ -1,0 +1,204 @@
+{
+  "$type": "Bespoke.epsikologi_ibkkodkerjaya.Domain.IbkKodKerjaya, epsikologi.IbkKodKerjaya",
+  "Kod": "I",
+  "Nota": "Sekiranya anda ingin mengetahui interpretasi ujian secara lebih terperinci, sila hubungi pentadbir sistem anda atau pentadbir sistem di Jabatan Perkhidmatan Awam Malaysia.",
+  "KodKerjayaAnda": "INOVATIF",
+  "KategoriKerjayaAnda": "INOVATIF",
+  "Text": "Anda digambarkan sebagai seorang yang aktif bertenaga, berdaya saing, bercita-cita tinggi dan berpandangan positif terhadap kehidupan.  Anda seorang yang berkeyakinan tinggi, bersedia mengetuai sesuatu tugasan, boleh berkomunikasi dan membuat pengucapan awam dengan baik.  Anda suka kepada aktiviti yang tahan lasak, berbentuk persaingan dan memberi peluang untuk bersuara.\n\nAnda mempunyai hubungan interpersonal yang baik dengan orang lain, bijak berbahasa dan berkebolehan mencapai persetujuan dalam perbincangan.  Anda suka bekerja dengan orang lain dan berasa tertarik dengan persekitaran yang memerlukan anda untuk mempengaruhi, mengetuai atau mengurus matlamat organisasi.  Anda cenderung melibatkan diri dalam bidang pekerjaan seperti perniagaan, jualan, pemasaran, pengurusan dan khidmat sokongan.\n\nAnda berpegang kepada konsep \u0018Laksanakannya\u0019  dan suka kepada idea yang boleh diaplikasikan.  Di akhir pelaksanaan tugas, anda berasa bangga apabila sesuatu tugasan itu berjaya direalisasikan dan anda berpeluang menyaksikan kejayaan tersebut.",
+  "AlternatifPilihanKerjayaCollection": {
+    "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.epsikologi_ibkkodkerjaya.Domain.AlternatifPilihanKerjaya, epsikologi.IbkKodKerjaya]], domain.sph",
+    "$values": [
+      {
+        "$type": "Bespoke.epsikologi_ibkkodkerjaya.Domain.AlternatifPilihanKerjaya, epsikologi.IbkKodKerjaya",
+        "Text": "Pegawai Percukaian\t",
+        "WebId": "c50ed4d2-b6ea-4a08-b9f9-c0d391712caa"
+      },
+      {
+        "$type": "Bespoke.epsikologi_ibkkodkerjaya.Domain.AlternatifPilihanKerjaya, epsikologi.IbkKodKerjaya",
+        "Text": "Pegawai Statistik (Perangkawan)",
+        "WebId": "937080f8-548a-4fff-9d4e-35fecb2ebd65"
+      },
+      {
+        "$type": "Bespoke.epsikologi_ibkkodkerjaya.Domain.AlternatifPilihanKerjaya, epsikologi.IbkKodKerjaya",
+        "Text": "Pegawai Kewangan/ Belanjawan",
+        "WebId": "0e6e262c-23f0-43f2-a07a-1cc9df578579"
+      },
+      {
+        "$type": "Bespoke.epsikologi_ibkkodkerjaya.Domain.AlternatifPilihanKerjaya, epsikologi.IbkKodKerjaya",
+        "Text": "Perunding Komunikasi",
+        "WebId": "3e934fcf-886b-44bf-a2da-d4625e6603bc"
+      },
+      {
+        "$type": "Bespoke.epsikologi_ibkkodkerjaya.Domain.AlternatifPilihanKerjaya, epsikologi.IbkKodKerjaya",
+        "Text": "Eksekutif Perniagaan/ Jualan",
+        "WebId": "37aaf356-d885-420b-a464-f6efef31ccd0"
+      },
+      {
+        "$type": "Bespoke.epsikologi_ibkkodkerjaya.Domain.AlternatifPilihanKerjaya, epsikologi.IbkKodKerjaya",
+        "Text": "Jurutera",
+        "WebId": "0d469c5e-c009-458d-ad35-12d64c21a3b8"
+      },
+      {
+        "$type": "Bespoke.epsikologi_ibkkodkerjaya.Domain.AlternatifPilihanKerjaya, epsikologi.IbkKodKerjaya",
+        "Text": "Pegawai Polis",
+        "WebId": "2969236e-ab91-4856-9e6b-0814599b22ca"
+      },
+      {
+        "$type": "Bespoke.epsikologi_ibkkodkerjaya.Domain.AlternatifPilihanKerjaya, epsikologi.IbkKodKerjaya",
+        "Text": "Pengurus",
+        "WebId": "f8328d3c-b8fb-4b31-bccd-4949cff89f94"
+      },
+      {
+        "$type": "Bespoke.epsikologi_ibkkodkerjaya.Domain.AlternatifPilihanKerjaya, epsikologi.IbkKodKerjaya",
+        "Text": "Juruaudit ",
+        "WebId": "33ba4b17-0f1b-48ae-b20e-a13967f46167"
+      },
+      {
+        "$type": "Bespoke.epsikologi_ibkkodkerjaya.Domain.AlternatifPilihanKerjaya, epsikologi.IbkKodKerjaya",
+        "Text": "Pensyarah/ Dekan",
+        "WebId": "2684f256-67ba-407c-8ca5-87cf2b154e3e"
+      },
+      {
+        "$type": "Bespoke.epsikologi_ibkkodkerjaya.Domain.AlternatifPilihanKerjaya, epsikologi.IbkKodKerjaya",
+        "Text": "Akauntan",
+        "WebId": "cf56af44-73e7-49af-bb6b-e0e08d02c6c3"
+      },
+      {
+        "$type": "Bespoke.epsikologi_ibkkodkerjaya.Domain.AlternatifPilihanKerjaya, epsikologi.IbkKodKerjaya",
+        "Text": "Ahli Politik",
+        "WebId": "d5f4b113-5ebc-4384-8dd9-09d2f06b1e7b"
+      },
+      {
+        "$type": "Bespoke.epsikologi_ibkkodkerjaya.Domain.AlternatifPilihanKerjaya, epsikologi.IbkKodKerjaya",
+        "Text": "Pegawai Bomba ",
+        "WebId": "3b054197-1e4c-4812-8834-995bd3c662bb"
+      },
+      {
+        "$type": "Bespoke.epsikologi_ibkkodkerjaya.Domain.AlternatifPilihanKerjaya, epsikologi.IbkKodKerjaya",
+        "Text": "Agen Perisikan",
+        "WebId": "8930b951-2b81-4601-869f-959c5b2ba90f"
+      },
+      {
+        "$type": "Bespoke.epsikologi_ibkkodkerjaya.Domain.AlternatifPilihanKerjaya, epsikologi.IbkKodKerjaya",
+        "Text": "Pegawai Perkhidmatan Pelanggan",
+        "WebId": "3040212f-1a4a-48ff-9f3a-1ab815daf665"
+      },
+      {
+        "$type": "Bespoke.epsikologi_ibkkodkerjaya.Domain.AlternatifPilihanKerjaya, epsikologi.IbkKodKerjaya",
+        "Text": "Pegawai Undang-Undang",
+        "WebId": "97a50942-2025-47b8-84dc-0a1ab4bae233"
+      },
+      {
+        "$type": "Bespoke.epsikologi_ibkkodkerjaya.Domain.AlternatifPilihanKerjaya, epsikologi.IbkKodKerjaya",
+        "Text": "Agen Pelancongan",
+        "WebId": "9b17f5d0-0192-4f82-b5eb-0d00d3543a28"
+      },
+      {
+        "$type": "Bespoke.epsikologi_ibkkodkerjaya.Domain.AlternatifPilihanKerjaya, epsikologi.IbkKodKerjaya",
+        "Text": "Pegawai Perancang Bandar",
+        "WebId": "ae5756e2-9852-4cd1-bd41-12b5d080f8d2"
+      }
+    ]
+  },
+  "AlternatifBidangPengajianCollection": {
+    "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.epsikologi_ibkkodkerjaya.Domain.AlternatifBidangPengajian, epsikologi.IbkKodKerjaya]], domain.sph",
+    "$values": [
+      {
+        "$type": "Bespoke.epsikologi_ibkkodkerjaya.Domain.AlternatifBidangPengajian, epsikologi.IbkKodKerjaya",
+        "Text": "Pengurusan",
+        "WebId": "dd8e96b6-ae13-4c12-8185-d0372550a2f7"
+      },
+      {
+        "$type": "Bespoke.epsikologi_ibkkodkerjaya.Domain.AlternatifBidangPengajian, epsikologi.IbkKodKerjaya",
+        "Text": "Komunikasi & Massa Media",
+        "WebId": "d4fe1d16-9380-4ab1-a2a4-dd744b2fb910"
+      },
+      {
+        "$type": "Bespoke.epsikologi_ibkkodkerjaya.Domain.AlternatifBidangPengajian, epsikologi.IbkKodKerjaya",
+        "Text": "Perhotelan/ Pelancongan",
+        "WebId": "73290727-77fe-4d82-992a-40ab1fb74963"
+      },
+      {
+        "$type": "Bespoke.epsikologi_ibkkodkerjaya.Domain.AlternatifBidangPengajian, epsikologi.IbkKodKerjaya",
+        "Text": "Pemasaran",
+        "WebId": "e133c6ef-341c-4266-800e-ab6111c562e9"
+      },
+      {
+        "$type": "Bespoke.epsikologi_ibkkodkerjaya.Domain.AlternatifBidangPengajian, epsikologi.IbkKodKerjaya",
+        "Text": "Kewangan",
+        "WebId": "2cad17c2-e828-4368-b9fd-daa2fd6b932b"
+      },
+      {
+        "$type": "Bespoke.epsikologi_ibkkodkerjaya.Domain.AlternatifBidangPengajian, epsikologi.IbkKodKerjaya",
+        "Text": "Pendidikan",
+        "WebId": "2ac8ea96-bb38-49fe-a933-c29cd16d0c79"
+      },
+      {
+        "$type": "Bespoke.epsikologi_ibkkodkerjaya.Domain.AlternatifBidangPengajian, epsikologi.IbkKodKerjaya",
+        "Text": "Sains Politik\t",
+        "WebId": "5eddc039-ed1f-49a6-ba28-cf78e3e19185"
+      },
+      {
+        "$type": "Bespoke.epsikologi_ibkkodkerjaya.Domain.AlternatifBidangPengajian, epsikologi.IbkKodKerjaya",
+        "Text": "Sains Aktuari\t",
+        "WebId": "9cfed130-48da-463d-a070-6d5dea58c37c"
+      },
+      {
+        "$type": "Bespoke.epsikologi_ibkkodkerjaya.Domain.AlternatifBidangPengajian, epsikologi.IbkKodKerjaya",
+        "Text": "Ekonomi",
+        "WebId": "11b38cfb-e95a-4f14-b461-26d75c2fdfae"
+      },
+      {
+        "$type": "Bespoke.epsikologi_ibkkodkerjaya.Domain.AlternatifBidangPengajian, epsikologi.IbkKodKerjaya",
+        "Text": "Sains Kesihatan\t",
+        "WebId": "564e7928-5bba-4b40-8c5e-59351bf354bf"
+      },
+      {
+        "$type": "Bespoke.epsikologi_ibkkodkerjaya.Domain.AlternatifBidangPengajian, epsikologi.IbkKodKerjaya",
+        "Text": "Statistik\t",
+        "WebId": "518c3246-5347-4f13-9d9f-34957f4e49f1"
+      },
+      {
+        "$type": "Bespoke.epsikologi_ibkkodkerjaya.Domain.AlternatifBidangPengajian, epsikologi.IbkKodKerjaya",
+        "Text": "Perundangan",
+        "WebId": "16123d22-9d22-4f8d-ab93-cd83b10c7d7c"
+      },
+      {
+        "$type": "Bespoke.epsikologi_ibkkodkerjaya.Domain.AlternatifBidangPengajian, epsikologi.IbkKodKerjaya",
+        "Text": "Penerbangan\t",
+        "WebId": "8ead3f6b-6647-41d7-85e9-e71bca04218d"
+      },
+      {
+        "$type": "Bespoke.epsikologi_ibkkodkerjaya.Domain.AlternatifBidangPengajian, epsikologi.IbkKodKerjaya",
+        "Text": "Sains Sosial\t",
+        "WebId": "320ff057-340a-4b23-bb43-3aa77485c4ef"
+      },
+      {
+        "$type": "Bespoke.epsikologi_ibkkodkerjaya.Domain.AlternatifBidangPengajian, epsikologi.IbkKodKerjaya",
+        "Text": "Seni Bina",
+        "WebId": "48a0105b-8e8d-4d9f-8677-7499182c60e5"
+      },
+      {
+        "$type": "Bespoke.epsikologi_ibkkodkerjaya.Domain.AlternatifBidangPengajian, epsikologi.IbkKodKerjaya",
+        "Text": "Muzik\t",
+        "WebId": "e60a4e8d-9001-4191-9864-95dd39b5de20"
+      },
+      {
+        "$type": "Bespoke.epsikologi_ibkkodkerjaya.Domain.AlternatifBidangPengajian, epsikologi.IbkKodKerjaya",
+        "Text": "Penyiaran",
+        "WebId": "5c8c7da5-4664-446c-b4d5-6fdd9b1bb4ed"
+      },
+      {
+        "$type": "Bespoke.epsikologi_ibkkodkerjaya.Domain.AlternatifBidangPengajian, epsikologi.IbkKodKerjaya",
+        "Text": "Seni Lakonan/ Teater",
+        "WebId": "1aefc8cd-38a6-462e-9c20-c47a6d3e1654"
+      }
+    ]
+  },
+  "CreatedBy": "admin",
+  "Id": "I",
+  "CreatedDate": "2015-07-31T17:47:36.6172675+08:00",
+  "ChangedBy": "admin",
+  "ChangedDate": "2015-07-31T17:47:36.608263+08:00",
+  "WebId": "27283447-cd3a-4654-9109-4f6df947bb3b"
+}

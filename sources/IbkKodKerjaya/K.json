@@ -1,0 +1,174 @@
+{
+  "$type": "Bespoke.epsikologi_ibkkodkerjaya.Domain.IbkKodKerjaya, epsikologi.IbkKodKerjaya",
+  "Kod": "K",
+  "Nota": "Sekiranya anda ingin mengetahui interpretasi ujian secara lebih terperinci, sila hubungi pentadbir sistem anda atau pentadbir sistem di Jabatan Perkhidmatan Awam Malaysia.",
+  "KodKerjayaAnda": "KREATIF",
+  "KategoriKerjayaAnda": "KREATIF",
+  "Text": "Secara umumnya, anda digambarkan sebagai seorang yang bersikap terbuka, spontan, idealistik dan ingin tahu.  Anda seorang yang suka berdikari, mengkaji diri dan menghargai kebebasan, kesamaan serta keberanian.  Anda cenderung mempamerkan perasaan atau menyelesaikan permasalahan melalui aktiviti penulisan, kesenian, muzik atau warna.  Apabila membuat keputusan, anda cenderung berfikir secara mendalam dan bertindak mengikut gerak hati (naluri).  \n\nAnda suka bekerja dalam persekitaran yang bebas, tidak berstruktur dan tiada kongkongan kerana ia membolehkan anda menggunakan imaginasi serta kreativiti.  Anda berasa tertarik kepada tugasan yang kreatif dan cenderung memilih pekerjaan  seperti penulis, penulis skrip atau jurulatih drama.\n\nAnda berpegang kepada konsep \u001cCiptakannya\u001d dan  suka mencuba sesuatu yang baru seperti nyanyian atau pengiklanan.  Anda mungkin mempunyai kemahiran atau menggemari aktiviti yang berkaitan dengan muzik, drama, kesenian, bacaan atau penulisan.  Di akhir pelaksanaan tugas, anda mendapati wujudnya peluang untuk mencipta perkara baru dan berada bersama orang yang kreatif.",
+  "AlternatifPilihanKerjayaCollection": {
+    "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.epsikologi_ibkkodkerjaya.Domain.AlternatifPilihanKerjaya, epsikologi.IbkKodKerjaya]], domain.sph",
+    "$values": [
+      {
+        "$type": "Bespoke.epsikologi_ibkkodkerjaya.Domain.AlternatifPilihanKerjaya, epsikologi.IbkKodKerjaya",
+        "Text": "Pengurus Agensi Pengiklanan",
+        "WebId": "7f7009b1-4226-4c6f-cf77-72570c546070"
+      },
+      {
+        "$type": "Bespoke.epsikologi_ibkkodkerjaya.Domain.AlternatifPilihanKerjaya, epsikologi.IbkKodKerjaya",
+        "Text": "Pemberita",
+        "WebId": "1b4a9525-c2de-48d3-be99-61be04804a31"
+      },
+      {
+        "$type": "Bespoke.epsikologi_ibkkodkerjaya.Domain.AlternatifPilihanKerjaya, epsikologi.IbkKodKerjaya",
+        "Text": "Pereka Fesyen/ Dalaman/ Grafik",
+        "WebId": "833620b0-424a-4f08-bcbe-ced4e010742a"
+      },
+      {
+        "$type": "Bespoke.epsikologi_ibkkodkerjaya.Domain.AlternatifPilihanKerjaya, epsikologi.IbkKodKerjaya",
+        "Text": "Penulis Lirik/ Drama",
+        "WebId": "f00d3cf2-03c5-4cf1-d04d-03e8deaaa760"
+      },
+      {
+        "$type": "Bespoke.epsikologi_ibkkodkerjaya.Domain.AlternatifPilihanKerjaya, epsikologi.IbkKodKerjaya",
+        "Text": "Penulis",
+        "WebId": "30ee7c23-79c7-45c8-9ded-564d55a4f606"
+      },
+      {
+        "$type": "Bespoke.epsikologi_ibkkodkerjaya.Domain.AlternatifPilihanKerjaya, epsikologi.IbkKodKerjaya",
+        "Text": "Arkitek",
+        "WebId": "a6a23e89-a4f8-4dfb-a9e7-363c80ac70ef"
+      },
+      {
+        "$type": "Bespoke.epsikologi_ibkkodkerjaya.Domain.AlternatifPilihanKerjaya, epsikologi.IbkKodKerjaya",
+        "Text": "Pelukis/ Penyajak",
+        "WebId": "cbdda360-c570-4ac9-ef53-b92648f3912a"
+      },
+      {
+        "$type": "Bespoke.epsikologi_ibkkodkerjaya.Domain.AlternatifPilihanKerjaya, epsikologi.IbkKodKerjaya",
+        "Text": "Komposer",
+        "WebId": "d8b31152-4885-4fc6-b030-3f4dcf55620b"
+      },
+      {
+        "$type": "Bespoke.epsikologi_ibkkodkerjaya.Domain.AlternatifPilihanKerjaya, epsikologi.IbkKodKerjaya",
+        "Text": "Pengarah Muzik",
+        "WebId": "a2500688-e776-449e-9f89-27a8220e48a6"
+      },
+      {
+        "$type": "Bespoke.epsikologi_ibkkodkerjaya.Domain.AlternatifPilihanKerjaya, epsikologi.IbkKodKerjaya",
+        "Text": "Penyelaras Laman Web",
+        "WebId": "698c203c-00f8-4a9c-c37c-56190e09bd43"
+      },
+      {
+        "$type": "Bespoke.epsikologi_ibkkodkerjaya.Domain.AlternatifPilihanKerjaya, epsikologi.IbkKodKerjaya",
+        "Text": "Jurugambar/ Jurukamera",
+        "WebId": "ffba7a53-d1a1-41a1-e056-9b4c53ae5f1c"
+      },
+      {
+        "$type": "Bespoke.epsikologi_ibkkodkerjaya.Domain.AlternatifPilihanKerjaya, epsikologi.IbkKodKerjaya",
+        "Text": "Pengurus",
+        "WebId": "8b1f94cf-5c91-47fd-8ca5-622ebe1e1b9f"
+      },
+      {
+        "$type": "Bespoke.epsikologi_ibkkodkerjaya.Domain.AlternatifPilihanKerjaya, epsikologi.IbkKodKerjaya",
+        "Text": "Perekacipta",
+        "WebId": "374dd6b6-c156-4e9b-a5a4-41c197acc3a0"
+      },
+      {
+        "$type": "Bespoke.epsikologi_ibkkodkerjaya.Domain.AlternatifPilihanKerjaya, epsikologi.IbkKodKerjaya",
+        "Text": "Editor/ Pengarang",
+        "WebId": "330c2618-c09d-4901-b205-41eebe3c6457"
+      },
+      {
+        "$type": "Bespoke.epsikologi_ibkkodkerjaya.Domain.AlternatifPilihanKerjaya, epsikologi.IbkKodKerjaya",
+        "Text": "Jurumekap",
+        "WebId": "140bfcfa-c710-4584-ded2-ed099bda5b94"
+      },
+      {
+        "$type": "Bespoke.epsikologi_ibkkodkerjaya.Domain.AlternatifPilihanKerjaya, epsikologi.IbkKodKerjaya",
+        "Text": "Guru Drama/ Seni/ Tari",
+        "WebId": "cc996681-0883-4df7-d0be-5f9b84ea699b"
+      },
+      {
+        "$type": "Bespoke.epsikologi_ibkkodkerjaya.Domain.AlternatifPilihanKerjaya, epsikologi.IbkKodKerjaya",
+        "Text": "Pengkritik",
+        "WebId": "e1dd439c-df8c-4985-f19f-33797ecd241b"
+      },
+      {
+        "$type": "Bespoke.epsikologi_ibkkodkerjaya.Domain.AlternatifPilihanKerjaya, epsikologi.IbkKodKerjaya",
+        "Text": "Pegawai Perhubungan Awam",
+        "WebId": "a6d94632-1d9c-4dc1-9aee-76b94692421a"
+      }
+    ]
+  },
+  "AlternatifBidangPengajianCollection": {
+    "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.epsikologi_ibkkodkerjaya.Domain.AlternatifBidangPengajian, epsikologi.IbkKodKerjaya]], domain.sph",
+    "$values": [
+      {
+        "$type": "Bespoke.epsikologi_ibkkodkerjaya.Domain.AlternatifBidangPengajian, epsikologi.IbkKodKerjaya",
+        "Text": "Sains Kewartawanan\t",
+        "WebId": "1525809d-526f-4aca-fe01-b87c0d5bd2cc"
+      },
+      {
+        "$type": "Bespoke.epsikologi_ibkkodkerjaya.Domain.AlternatifBidangPengajian, epsikologi.IbkKodKerjaya",
+        "Text": "Bahasa & Kesusasteraan",
+        "WebId": "17f54dc5-3dde-4179-d0ac-77fa3ca0e331"
+      },
+      {
+        "$type": "Bespoke.epsikologi_ibkkodkerjaya.Domain.AlternatifBidangPengajian, epsikologi.IbkKodKerjaya",
+        "Text": "Penulisan Kreatif/ Teknikal",
+        "WebId": "2d065282-c113-4569-981a-f20e24f0d732"
+      },
+      {
+        "$type": "Bespoke.epsikologi_ibkkodkerjaya.Domain.AlternatifBidangPengajian, epsikologi.IbkKodKerjaya",
+        "Text": "Penulisan Drama/ Skrip",
+        "WebId": "989cef18-5d08-4660-ba50-43a136746499"
+      },
+      {
+        "$type": "Bespoke.epsikologi_ibkkodkerjaya.Domain.AlternatifBidangPengajian, epsikologi.IbkKodKerjaya",
+        "Text": "Pementasan Drama/ Teater",
+        "WebId": "af77e31c-f2ea-4623-e0f1-cf7d92991cf3"
+      },
+      {
+        "$type": "Bespoke.epsikologi_ibkkodkerjaya.Domain.AlternatifBidangPengajian, epsikologi.IbkKodKerjaya",
+        "Text": "Seni Bina",
+        "WebId": "7fd96f86-5d5e-48af-a8e2-a020a3d01230"
+      },
+      {
+        "$type": "Bespoke.epsikologi_ibkkodkerjaya.Domain.AlternatifBidangPengajian, epsikologi.IbkKodKerjaya",
+        "Text": "Fotografi",
+        "WebId": "f28b39a4-44c2-4489-e13c-e3e312bea186"
+      },
+      {
+        "$type": "Bespoke.epsikologi_ibkkodkerjaya.Domain.AlternatifBidangPengajian, epsikologi.IbkKodKerjaya",
+        "Text": "Muzik",
+        "WebId": "06166a04-1b03-485a-f22a-841fbfe49b1c"
+      },
+      {
+        "$type": "Bespoke.epsikologi_ibkkodkerjaya.Domain.AlternatifBidangPengajian, epsikologi.IbkKodKerjaya",
+        "Text": "Seni Lukis/ Arca",
+        "WebId": "bcd9d89e-7e11-4545-eb49-39831afa1b45"
+      },
+      {
+        "$type": "Bespoke.epsikologi_ibkkodkerjaya.Domain.AlternatifBidangPengajian, epsikologi.IbkKodKerjaya",
+        "Text": "Seni Tari",
+        "WebId": "cd41f600-8d0f-4602-cf8b-c343b6c30f87"
+      },
+      {
+        "$type": "Bespoke.epsikologi_ibkkodkerjaya.Domain.AlternatifBidangPengajian, epsikologi.IbkKodKerjaya",
+        "Text": "Rekaan Fesyen",
+        "WebId": "f02e11c8-3c3a-4b33-ff9f-4486dc604388"
+      },
+      {
+        "$type": "Bespoke.epsikologi_ibkkodkerjaya.Domain.AlternatifBidangPengajian, epsikologi.IbkKodKerjaya",
+        "Text": "Bahasa Asing",
+        "WebId": "46f8ec56-0d57-4a08-f30a-503b99a65c2a"
+      }
+    ]
+  },
+  "CreatedBy": "admin",
+  "Id": "K",
+  "CreatedDate": "2015-07-31T17:06:15.2028394+08:00",
+  "ChangedBy": "admin",
+  "ChangedDate": "2015-07-31T17:38:37.8051075+08:00",
+  "WebId": "80c1e2ad-f3e1-47f9-ef17-ffb4145b2722"
+}

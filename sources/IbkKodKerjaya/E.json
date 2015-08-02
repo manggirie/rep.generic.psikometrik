@@ -1,0 +1,204 @@
+{
+  "$type": "Bespoke.epsikologi_ibkkodkerjaya.Domain.IbkKodKerjaya, epsikologi.IbkKodKerjaya",
+  "Kod": "E",
+  "Nota": "Sekiranya anda ingin mengetahui interpretasi ujian secara lebih terperinci, sila hubungi pentadbir sistem anda atau pentadbir sistem di Jabatan Perkhidmatan Awam Malaysia.",
+  "KodKerjayaAnda": "EKSPLORASI ",
+  "KategoriKerjayaAnda": "EKSPLORASI ",
+  "Text": "Secara umumnya, anda digambarkan sebagai seorang yang bersifat ingin tahu dan sedia mencuba perkara baru.  Anda cenderung memikirkan sesuatu permasalahan dan penyelesaiannya secara mendalam daripada membuat keputusan secara tergesa-gesa.  Dari aspek tindakan, anda dilihat sebagai seorang yang melakukan sesuatu perkara dengan berhati-hati, teliti dan sistematik.  \n\nAnda seorang yang tabah, suka berdikari, bersikap terbuka, tidak suka dikongkong, menghargai kebebasan dan bercita-cita tinggi.  Anda berasa tertarik kepada aktiviti yang bersifat abstrak, ilmiah, kreatif dan merangsang daya fikir (intelektual).  Anda seorang yang berfikiran rasional, mempunyai pelbagai minat, suka mengkaji diri, membaca, menghargai ilmu pengetahuan dan mempelajari bahasa asing. \n\nAnda berpegang kepada konsep \u001cTerokainya\u001d dan suka menyelesaikan masalah yang berbentuk sainstifik kerana ia memberi anda ruang untuk memikirkan sesuatu perkara secara analitikal serta mendalam.  Anda cenderung menceburi kerjaya yang bersifat penyelidikan atau berasaskan matematik dan sains.  Dalam melaksanakan tugas, anda berpuashati jika diberi kebebasan untuk mencuba perkara atau idea baru.",
+  "AlternatifPilihanKerjayaCollection": {
+    "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.epsikologi_ibkkodkerjaya.Domain.AlternatifPilihanKerjaya, epsikologi.IbkKodKerjaya]], domain.sph",
+    "$values": [
+      {
+        "$type": "Bespoke.epsikologi_ibkkodkerjaya.Domain.AlternatifPilihanKerjaya, epsikologi.IbkKodKerjaya",
+        "Text": "Pegawai Perubatan",
+        "WebId": "b076e628-1c18-45cc-a554-bb575f3e105f"
+      },
+      {
+        "$type": "Bespoke.epsikologi_ibkkodkerjaya.Domain.AlternatifPilihanKerjaya, epsikologi.IbkKodKerjaya",
+        "Text": "Pegawai Veterinar/ Zoologi",
+        "WebId": "5995b57f-5a34-43b9-8b45-cd65cbb37d6a"
+      },
+      {
+        "$type": "Bespoke.epsikologi_ibkkodkerjaya.Domain.AlternatifPilihanKerjaya, epsikologi.IbkKodKerjaya",
+        "Text": "Pegawai Biologi/ Fizik/ Kimia\t",
+        "WebId": "cf654ec6-398e-4713-a9b6-cfdcb89a64ca"
+      },
+      {
+        "$type": "Bespoke.epsikologi_ibkkodkerjaya.Domain.AlternatifPilihanKerjaya, epsikologi.IbkKodKerjaya",
+        "Text": "Pegawai Kaji Cuaca",
+        "WebId": "dea8893f-21b2-446f-b4f0-93408cf9a73b"
+      },
+      {
+        "$type": "Bespoke.epsikologi_ibkkodkerjaya.Domain.AlternatifPilihanKerjaya, epsikologi.IbkKodKerjaya",
+        "Text": "Pegawai Arkeologi",
+        "WebId": "586496da-389c-4f9f-9558-5ebea61216e0"
+      },
+      {
+        "$type": "Bespoke.epsikologi_ibkkodkerjaya.Domain.AlternatifPilihanKerjaya, epsikologi.IbkKodKerjaya",
+        "Text": "Jurutera",
+        "WebId": "70c066b4-4ee7-48f1-9ec4-de050cf2c7d3"
+      },
+      {
+        "$type": "Bespoke.epsikologi_ibkkodkerjaya.Domain.AlternatifPilihanKerjaya, epsikologi.IbkKodKerjaya",
+        "Text": "Juruterbang",
+        "WebId": "e4638f6f-96bb-4ffb-c891-dba6d1dde079"
+      },
+      {
+        "$type": "Bespoke.epsikologi_ibkkodkerjaya.Domain.AlternatifPilihanKerjaya, epsikologi.IbkKodKerjaya",
+        "Text": "Pegawai Geologi    ",
+        "WebId": "554e8fcd-6452-4756-d3b8-4cd33b0d645f"
+      },
+      {
+        "$type": "Bespoke.epsikologi_ibkkodkerjaya.Domain.AlternatifPilihanKerjaya, epsikologi.IbkKodKerjaya",
+        "Text": "Pegawai Psikologi",
+        "WebId": "b1b0de51-608f-475b-deac-38484c9cfdff"
+      },
+      {
+        "$type": "Bespoke.epsikologi_ibkkodkerjaya.Domain.AlternatifPilihanKerjaya, epsikologi.IbkKodKerjaya",
+        "Text": "Pegawai Farmasi",
+        "WebId": "4510a81d-96d4-4470-a54b-6a34ac69afbf"
+      },
+      {
+        "$type": "Bespoke.epsikologi_ibkkodkerjaya.Domain.AlternatifPilihanKerjaya, epsikologi.IbkKodKerjaya",
+        "Text": "Pegawai Veterinar",
+        "WebId": "d0c0799d-0ce5-4ca1-ed1e-2d082c7effcc"
+      },
+      {
+        "$type": "Bespoke.epsikologi_ibkkodkerjaya.Domain.AlternatifPilihanKerjaya, epsikologi.IbkKodKerjaya",
+        "Text": "Jururawat",
+        "WebId": "300642b6-a63d-457f-da12-d63b95742a1d"
+      },
+      {
+        "$type": "Bespoke.epsikologi_ibkkodkerjaya.Domain.AlternatifPilihanKerjaya, epsikologi.IbkKodKerjaya",
+        "Text": "Ahli Psikologi",
+        "WebId": "a399c78f-51ba-4962-c1a3-a65ca9641e46"
+      },
+      {
+        "$type": "Bespoke.epsikologi_ibkkodkerjaya.Domain.AlternatifPilihanKerjaya, epsikologi.IbkKodKerjaya",
+        "Text": "Pengurus",
+        "WebId": "9059e00b-eca0-4fc3-a540-18f5d20db140"
+      },
+      {
+        "$type": "Bespoke.epsikologi_ibkkodkerjaya.Domain.AlternatifPilihanKerjaya, epsikologi.IbkKodKerjaya",
+        "Text": "Arkitek",
+        "WebId": "352528df-72e8-4394-9972-487368d5ce3f"
+      },
+      {
+        "$type": "Bespoke.epsikologi_ibkkodkerjaya.Domain.AlternatifPilihanKerjaya, epsikologi.IbkKodKerjaya",
+        "Text": "Juruaudit",
+        "WebId": "916dd1e6-5691-439f-9a89-f792d54d373f"
+      },
+      {
+        "$type": "Bespoke.epsikologi_ibkkodkerjaya.Domain.AlternatifPilihanKerjaya, epsikologi.IbkKodKerjaya",
+        "Text": "Pegawai Teknologi Maklumat",
+        "WebId": "458e3a46-b16e-4d54-dc25-30e8120cfdff"
+      },
+      {
+        "$type": "Bespoke.epsikologi_ibkkodkerjaya.Domain.AlternatifPilihanKerjaya, epsikologi.IbkKodKerjaya",
+        "Text": "Ahli Ekonomi",
+        "WebId": "cce3545c-79d3-46ee-c982-d31062fbb7c2"
+      }
+    ]
+  },
+  "AlternatifBidangPengajianCollection": {
+    "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.epsikologi_ibkkodkerjaya.Domain.AlternatifBidangPengajian, epsikologi.IbkKodKerjaya]], domain.sph",
+    "$values": [
+      {
+        "$type": "Bespoke.epsikologi_ibkkodkerjaya.Domain.AlternatifBidangPengajian, epsikologi.IbkKodKerjaya",
+        "Text": "Sains Pertanian",
+        "WebId": "4352d12a-bad7-4e72-b5cd-8711c71ef491"
+      },
+      {
+        "$type": "Bespoke.epsikologi_ibkkodkerjaya.Domain.AlternatifBidangPengajian, epsikologi.IbkKodKerjaya",
+        "Text": "Fizik/ Kimia/ Biologi",
+        "WebId": "c74d7fbf-181f-4795-d592-6877f609ff70"
+      },
+      {
+        "$type": "Bespoke.epsikologi_ibkkodkerjaya.Domain.AlternatifBidangPengajian, epsikologi.IbkKodKerjaya",
+        "Text": "Sains Aktuari/ Ekonomi",
+        "WebId": "24c9c2f5-acf1-4822-e0e3-49486cd5e690"
+      },
+      {
+        "$type": "Bespoke.epsikologi_ibkkodkerjaya.Domain.AlternatifBidangPengajian, epsikologi.IbkKodKerjaya",
+        "Text": "Sains Komputer",
+        "WebId": "0a9e97c8-e3bf-401a-f61a-d3a9e9dba9c5"
+      },
+      {
+        "$type": "Bespoke.epsikologi_ibkkodkerjaya.Domain.AlternatifBidangPengajian, epsikologi.IbkKodKerjaya",
+        "Text": "Seni Bina",
+        "WebId": "0a3745c1-c6a1-4f3a-902d-b2d1df83caab"
+      },
+      {
+        "$type": "Bespoke.epsikologi_ibkkodkerjaya.Domain.AlternatifBidangPengajian, epsikologi.IbkKodKerjaya",
+        "Text": "Perubatan",
+        "WebId": "98f66523-3d77-4c36-b412-1c5348004fd1"
+      },
+      {
+        "$type": "Bespoke.epsikologi_ibkkodkerjaya.Domain.AlternatifBidangPengajian, epsikologi.IbkKodKerjaya",
+        "Text": "Psikologi",
+        "WebId": "5b506073-aac7-4da5-d0f2-c69cf6bb8c39"
+      },
+      {
+        "$type": "Bespoke.epsikologi_ibkkodkerjaya.Domain.AlternatifBidangPengajian, epsikologi.IbkKodKerjaya",
+        "Text": "Veterinar/ Zoologi",
+        "WebId": "1072d970-1b5f-4657-fb17-56d15ba548a2"
+      },
+      {
+        "$type": "Bespoke.epsikologi_ibkkodkerjaya.Domain.AlternatifBidangPengajian, epsikologi.IbkKodKerjaya",
+        "Text": "Penerbangan",
+        "WebId": "2cbb460a-4d93-493c-8934-dbb2f606b235"
+      },
+      {
+        "$type": "Bespoke.epsikologi_ibkkodkerjaya.Domain.AlternatifBidangPengajian, epsikologi.IbkKodKerjaya",
+        "Text": "Kejuruteraan",
+        "WebId": "035c4fe3-7d2c-4bcc-f013-d273ad4e4ae4"
+      },
+      {
+        "$type": "Bespoke.epsikologi_ibkkodkerjaya.Domain.AlternatifBidangPengajian, epsikologi.IbkKodKerjaya",
+        "Text": "Farmasi",
+        "WebId": "349c30c9-aac4-48d7-be25-2357fd95dc36"
+      },
+      {
+        "$type": "Bespoke.epsikologi_ibkkodkerjaya.Domain.AlternatifBidangPengajian, epsikologi.IbkKodKerjaya",
+        "Text": "Pergigian",
+        "WebId": "4cd1f505-c9f2-4e30-83a7-91a9909637e7"
+      },
+      {
+        "$type": "Bespoke.epsikologi_ibkkodkerjaya.Domain.AlternatifBidangPengajian, epsikologi.IbkKodKerjaya",
+        "Text": "Sains Kesihatan",
+        "WebId": "5f46be64-42ba-4b66-bbec-9a8fa200f7ca"
+      },
+      {
+        "$type": "Bespoke.epsikologi_ibkkodkerjaya.Domain.AlternatifBidangPengajian, epsikologi.IbkKodKerjaya",
+        "Text": "Sains Forensik",
+        "WebId": "ccea2169-f999-495f-f283-653d082e4c0d"
+      },
+      {
+        "$type": "Bespoke.epsikologi_ibkkodkerjaya.Domain.AlternatifBidangPengajian, epsikologi.IbkKodKerjaya",
+        "Text": "Bahasa Asing",
+        "WebId": "895eb603-fce3-465e-f86e-fab8e1b452bd"
+      },
+      {
+        "$type": "Bespoke.epsikologi_ibkkodkerjaya.Domain.AlternatifBidangPengajian, epsikologi.IbkKodKerjaya",
+        "Text": "Muzik",
+        "WebId": "c53906ae-4711-4499-ab1e-a0a630053be6"
+      },
+      {
+        "$type": "Bespoke.epsikologi_ibkkodkerjaya.Domain.AlternatifBidangPengajian, epsikologi.IbkKodKerjaya",
+        "Text": "Pengurusan",
+        "WebId": "618ea5d0-72b8-4cb8-d0d3-357e9f56341f"
+      },
+      {
+        "$type": "Bespoke.epsikologi_ibkkodkerjaya.Domain.AlternatifBidangPengajian, epsikologi.IbkKodKerjaya",
+        "Text": "Sains Sosial",
+        "WebId": "a696cc08-286f-4587-d11a-743bf6b01f5a"
+      }
+    ]
+  },
+  "CreatedBy": "admin",
+  "Id": "E",
+  "CreatedDate": "2015-07-31T17:06:15.2828983+08:00",
+  "ChangedBy": "admin",
+  "ChangedDate": "2015-07-31T17:31:29.127352+08:00",
+  "WebId": "850c2af2-8a8b-4757-b3c0-2cc67d1b49a3"
+}
