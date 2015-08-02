@@ -3,7 +3,85 @@
 	Layout = "_MasterPage.cshtml";
 }
 
+<div style="height:40px"></div>
+<table class="">
+  <colgroup>
+    <col style="width:180px"/>
+    <col style="width:20px"/>
+    <col style="width:600px"/>
+  </colgroup>
+  <tr>
+    <td>Kod Kerjaya</td>
+    <td>:</td>
+    <td>@Model.KodKerjaya</td>
+  </tr>
+	<tr>
+		<td style="vertical-align:top">PILIHAN KERJAYA</td>
+		<td style="vertical-align:top">:</td>
+		<td style="text-align:justify">
+			<ol>
+			@foreach(var t in Model.IbkRecommendation.KerjayaCollection)
+			{
+				<li>@t.Text</li>
+			}
+		</ol>
+		</td>
+	</tr>
+	<tr>
+		<td style="vertical-align:top">BIDANG PENGAJIAN</td>
+		<td style="vertical-align:top">:</td>
+		<td style="text-align:justify">
+			<ol>
+			@foreach(var t in Model.IbkRecommendation.BidangPengajianCollection)
+			{
+				<li>@t.Text</li>
+			}
+		</ol>
+		</td>
+	</tr>
+</table>
+
+
+<div style="height:40px"></div>
+<div class="kod-kerjaya">
+	<p>Berdasarkan kepada analisis ujian:</p>
+	<p>
+	(1)	Kod Kerjaya Anda	:	 </p>
+	<p>
+	(2)	Kategori Kerjaya	:	@Model.IbkKodKerjaya.KodKerjayaAnda (@Model.IbkKodKerjaya.Kod)
+	</p>
+	<p>
+		@Html.Raw(Model.IbkKodKerjaya.Text.Replace("\n\n", "</p><p>"))
+	</p>
+
+</div>
+<h4>Alternatif Pilihan Kerjaya:</h4>
+<table class="table table-bordered table-condensed">
+	@for(int i = 0 ; i < Model.IbkKodKerjaya.AlternatifPilihanKerjayaCollection.Count; i +=3)
+	{
+
+		<tr>
+			<td>@Model.IbkKodKerjaya.AlternatifPilihanKerjayaCollection[i].Text</td>
+			<td>@Model.IbkKodKerjaya.AlternatifPilihanKerjayaCollection[i + 1].Text</td>
+			<td>@Model.IbkKodKerjaya.AlternatifPilihanKerjayaCollection[i + 2].Text</td>
+		</tr>
+	}
+</table>
+<h4>Alternatif Bidang Pengajian:</h4>
+<table class="table table-bordered table-condensed">
+	@for(int i = 0 ; i < Model.IbkKodKerjaya.AlternatifBidangPengajianCollection.Count; i +=3)
+	{
+
+		<tr>
+			<td>@Model.IbkKodKerjaya.AlternatifPilihanKerjayaCollection[i].Text</td>
+			<td>@Model.IbkKodKerjaya.AlternatifPilihanKerjayaCollection[i + 1].Text</td>
+			<td>@Model.IbkKodKerjaya.AlternatifPilihanKerjayaCollection[i + 2].Text</td>
+		</tr>
+	}
+</table>
+
 <script type="text/javascript">
+	var ibk = @Html.Raw(Model.ToString());
 	setTimeout(function(){
 		window.print();
 	},1000);

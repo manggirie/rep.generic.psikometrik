@@ -123,6 +123,19 @@ namespace web.sph.App_Code
           Permohonan = permohonan
         };
 
+
+        var id1 = vm.KodKerjaya.Replace("/", "-");
+        var id2 = id1.Substring(4,3) + "-" + id1.Substring(0,3) ;
+
+
+      //  if(vm.KodKerjaya != "xxx")
+      //    throw new Exception("id1 = " + id1 + " and id2 = " + id2);
+
+        vm.IbkRecommendation = await context.LoadOneAsync<Bespoke.epsikologi_ibkrecommendation.Domain.IbkRecommendation>(
+          x => x.Id == id1 || x.Id == id2 );
+        vm.IbkKodKerjaya = await context.LoadOneAsync<Bespoke.epsikologi_ibkkodkerjaya.Domain.IbkKodKerjaya>(x => x.Id == vm.KodKerjaya.Substring(0,1));
+
+
         return View("Trait-Ibk", vm);
     	}
 
