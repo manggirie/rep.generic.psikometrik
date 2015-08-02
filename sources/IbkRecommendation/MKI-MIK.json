@@ -1,0 +1,110 @@
+{
+  "$type": "Bespoke.epsikologi_ibkrecommendation.Domain.IbkRecommendation, epsikologi.IbkRecommendation",
+  "Kod": "MKI/MIK",
+  "KerjayaCollection": {
+    "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.epsikologi_ibkrecommendation.Domain.Kerjaya, epsikologi.IbkRecommendation]], domain.sph",
+    "$values": [
+      {
+        "$type": "Bespoke.epsikologi_ibkrecommendation.Domain.Kerjaya, epsikologi.IbkRecommendation",
+        "Text": "Hakim",
+        "Warna": null,
+        "WebId": "a2e3c714-f5c9-4fe2-9366-d9effad8df79"
+      },
+      {
+        "$type": "Bespoke.epsikologi_ibkrecommendation.Domain.Kerjaya, epsikologi.IbkRecommendation",
+        "Text": "-Pengarah:- Pendidikan Khas/ Pendidikan Agama  -Imam/ Guru Agama",
+        "Warna": null,
+        "WebId": "d39df34f-bfc9-4495-b162-43344db70c3e"
+      },
+      {
+        "$type": "Bespoke.epsikologi_ibkrecommendation.Domain.Kerjaya, epsikologi.IbkRecommendation",
+        "Text": "Pengarah:- Penyelidikan/ Televisyen/ Perancangan Komuniti",
+        "Warna": null,
+        "WebId": "dd090b41-b549-436b-9cfd-830c7aae96dd"
+      },
+      {
+        "$type": "Bespoke.epsikologi_ibkrecommendation.Domain.Kerjaya, epsikologi.IbkRecommendation",
+        "Text": "Dekan Pelajar",
+        "Warna": null,
+        "WebId": "c79f642d-7bb9-4bd6-99ca-0c2388f145b8"
+      },
+      {
+        "$type": "Bespoke.epsikologi_ibkrecommendation.Domain.Kerjaya, epsikologi.IbkRecommendation",
+        "Text": "Penerbit Radio & Televisyen ",
+        "Warna": null,
+        "WebId": "f893eb8f-b67e-4ddb-a755-982983300906"
+      },
+      {
+        "$type": "Bespoke.epsikologi_ibkrecommendation.Domain.Kerjaya, epsikologi.IbkRecommendation",
+        "Text": "Kaunselor: Kerjaya/ Ketagihan/ Terapi Muzik",
+        "Warna": null,
+        "WebId": "37223aec-d841-4d7f-af3b-ffc2f71d0505"
+      },
+      {
+        "$type": "Bespoke.epsikologi_ibkrecommendation.Domain.Kerjaya, epsikologi.IbkRecommendation",
+        "Text": "Guru:- Sekolah Rendah/ Prasekolah ",
+        "Warna": null,
+        "WebId": "240f3048-6f87-4976-a060-d03ee28e8b55"
+      },
+      {
+        "$type": "Bespoke.epsikologi_ibkrecommendation.Domain.Kerjaya, epsikologi.IbkRecommendation",
+        "Text": "Ahli Ekonomi Rumahtangga",
+        "Warna": null,
+        "WebId": "b2cba6d4-31d4-425c-bdc1-dc526955ae77"
+      },
+      {
+        "$type": "Bespoke.epsikologi_ibkrecommendation.Domain.Kerjaya, epsikologi.IbkRecommendation",
+        "Text": "Inspektor Makanan & Dadah ",
+        "Warna": null,
+        "WebId": "d7e1f48e-8dc4-4533-934a-7c74fcc3698f"
+      },
+      {
+        "$type": "Bespoke.epsikologi_ibkrecommendation.Domain.Kerjaya, epsikologi.IbkRecommendation",
+        "Text": "-Pengurus:- Kebajikan Pekerja -Pekerja:- Kebajikan Keluarga/ Sosial Psikiatri",
+        "Warna": null,
+        "WebId": "586f07a4-baa5-48e9-ab25-e53b2bb76e4e"
+      }
+    ]
+  },
+  "BidangPengajianCollection": {
+    "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.epsikologi_ibkrecommendation.Domain.BidangPengajian, epsikologi.IbkRecommendation]], domain.sph",
+    "$values": [
+      {
+        "$type": "Bespoke.epsikologi_ibkrecommendation.Domain.BidangPengajian, epsikologi.IbkRecommendation",
+        "Text": "Keagamaan",
+        "WebId": "fe9b21c2-0892-45a1-86cf-1a51814cd71e"
+      },
+      {
+        "$type": "Bespoke.epsikologi_ibkrecommendation.Domain.BidangPengajian, epsikologi.IbkRecommendation",
+        "Text": "Menengah Rendah & Pengajian Tinggi",
+        "WebId": "0bc6afb6-8d2c-453a-a806-287bc0200048"
+      },
+      {
+        "$type": "Bespoke.epsikologi_ibkrecommendation.Domain.BidangPengajian, epsikologi.IbkRecommendation",
+        "Text": "Kaunseling:-Perkahwinan/ Keluarga/ Terapi Muzik Psikologi:- Orang Dewasa/ Orang Tua",
+        "WebId": "eb22461f-5cde-454e-8bb9-bc9cb785bd01"
+      },
+      {
+        "$type": "Bespoke.epsikologi_ibkrecommendation.Domain.BidangPengajian, epsikologi.IbkRecommendation",
+        "Text": "Pengajian:- Pendidikan Seni/ Seni Tari/ Drama/ Muzik/ Sains/ Sains Komputer/ Bahasa Inggeris/ Bahasa Asing/ Jasmani/ Sejarah",
+        "WebId": "23cef2de-4447-420e-9f06-25fb26cfc935"
+      },
+      {
+        "$type": "Bespoke.epsikologi_ibkrecommendation.Domain.BidangPengajian, epsikologi.IbkRecommendation",
+        "Text": "Sains Sosial:- Pengurusan Penjagaan Kanak-Kanak",
+        "WebId": "7d54cd7e-0758-4db2-ba48-f0deb9b3fe01"
+      },
+      {
+        "$type": "Bespoke.epsikologi_ibkrecommendation.Domain.BidangPengajian, epsikologi.IbkRecommendation",
+        "Text": "-Perubatan  -Farmasi  -Sains Kesihatan:- Perubatan Sosial & Klinikal -Perkhidmatan Kosmetik -Perniagaan -Sains Pertanian -Sains Perpustakaan -Pembelajaran/ Operasi Pemasaran/ Kesenian Industri & Vokasional/ Ucapan Awam",
+        "WebId": "18a50acc-f7d8-43f2-ba20-db57e1ecf084"
+      }
+    ]
+  },
+  "CreatedBy": "admin",
+  "Id": "MKI-MIK",
+  "CreatedDate": "2015-07-31T19:11:51.7834502+08:00",
+  "ChangedBy": "admin",
+  "ChangedDate": "2015-07-31T19:11:51.7764457+08:00",
+  "WebId": "a4f55844-6cf6-451b-a25e-8b09aa4e9166"
+}

@@ -1,0 +1,31 @@
+{
+  "$type": "Bespoke.epsikologi_ibkrecommendation.Domain.IbkRecommendation, epsikologi.IbkRecommendation",
+  "Kod": "KIT/KTI",
+  "KerjayaCollection": {
+    "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.epsikologi_ibkrecommendation.Domain.Kerjaya, epsikologi.IbkRecommendation]], domain.sph",
+    "$values": [
+      {
+        "$type": "Bespoke.epsikologi_ibkrecommendation.Domain.Kerjaya, epsikologi.IbkRecommendation",
+        "Text": "* Sila rujuk pilihan kerjaya di bawah kategori K",
+        "Warna": null,
+        "WebId": "7bc69102-8d06-4934-bbc6-e9de8abdb2eb"
+      }
+    ]
+  },
+  "BidangPengajianCollection": {
+    "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.epsikologi_ibkrecommendation.Domain.BidangPengajian, epsikologi.IbkRecommendation]], domain.sph",
+    "$values": [
+      {
+        "$type": "Bespoke.epsikologi_ibkrecommendation.Domain.BidangPengajian, epsikologi.IbkRecommendation",
+        "Text": "*  Sila rujuk pilihan bidang pengajian di bawah kategori  K",
+        "WebId": "1d9afa35-859a-44d9-91d5-a1f9942fa763"
+      }
+    ]
+  },
+  "CreatedBy": "admin",
+  "Id": "KIT-KTI",
+  "CreatedDate": "2015-07-31T18:56:17.6408077+08:00",
+  "ChangedBy": "admin",
+  "ChangedDate": "2015-07-31T18:56:17.632802+08:00",
+  "WebId": "0b62b24f-115d-474a-ea27-bcd08e83ec3c"
+}

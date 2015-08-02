@@ -1,0 +1,92 @@
+{
+  "$type": "Bespoke.epsikologi_ibkrecommendation.Domain.IbkRecommendation, epsikologi.IbkRecommendation",
+  "Kod": "PKI/PIK",
+  "KerjayaCollection": {
+    "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.epsikologi_ibkrecommendation.Domain.Kerjaya, epsikologi.IbkRecommendation]], domain.sph",
+    "$values": [
+      {
+        "$type": "Bespoke.epsikologi_ibkrecommendation.Domain.Kerjaya, epsikologi.IbkRecommendation",
+        "Text": "Pengurus Taman Hidupan Laut ",
+        "Warna": null,
+        "WebId": "52f183cc-f2b9-4b92-9527-45ece82f03bc"
+      },
+      {
+        "$type": "Bespoke.epsikologi_ibkrecommendation.Domain.Kerjaya, epsikologi.IbkRecommendation",
+        "Text": "Arkitek",
+        "Warna": null,
+        "WebId": "d9ec3113-31d5-46b8-b41e-2041fb90f1e0"
+      },
+      {
+        "$type": "Bespoke.epsikologi_ibkrecommendation.Domain.Kerjaya, epsikologi.IbkRecommendation",
+        "Text": "Juruteknik:- Kesan Bunyi/ Piano",
+        "Warna": null,
+        "WebId": "0c8bd3fe-c045-4f3d-998f-b17d94f81443"
+      },
+      {
+        "$type": "Bespoke.epsikologi_ibkrecommendation.Domain.Kerjaya, epsikologi.IbkRecommendation",
+        "Text": "Juruteknik Pergigian",
+        "Warna": null,
+        "WebId": "83779ca6-6df4-4b14-b7b7-512e7b48b279"
+      },
+      {
+        "$type": "Bespoke.epsikologi_ibkrecommendation.Domain.Kerjaya, epsikologi.IbkRecommendation",
+        "Text": "Chef ",
+        "Warna": null,
+        "WebId": "5f814dcc-2b5a-4f3d-853e-4990ce0534cb"
+      },
+      {
+        "$type": "Bespoke.epsikologi_ibkrecommendation.Domain.Kerjaya, epsikologi.IbkRecommendation",
+        "Text": "Penyelia:- Minuman/ Penerbitan & Percetakan",
+        "Warna": null,
+        "WebId": "d8dc0a44-aa8f-4eb3-b3c5-f6ecffb6a25e"
+      },
+      {
+        "$type": "Bespoke.epsikologi_ibkrecommendation.Domain.Kerjaya, epsikologi.IbkRecommendation",
+        "Text": "Jurulatih Ekuesterian",
+        "Warna": null,
+        "WebId": "36650a27-f4be-4bfa-841c-cbd50afbe396"
+      }
+    ]
+  },
+  "BidangPengajianCollection": {
+    "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.epsikologi_ibkrecommendation.Domain.BidangPengajian, epsikologi.IbkRecommendation]], domain.sph",
+    "$values": [
+      {
+        "$type": "Bespoke.epsikologi_ibkrecommendation.Domain.BidangPengajian, epsikologi.IbkRecommendation",
+        "Text": "Pengurusan",
+        "WebId": "e374320c-9d1e-4174-8ab1-ab5d081f9c69"
+      },
+      {
+        "$type": "Bespoke.epsikologi_ibkrecommendation.Domain.BidangPengajian, epsikologi.IbkRecommendation",
+        "Text": "Hiasan Dalaman/ Seni Reka Grafik/ Kesenian Komersil/ Kesan Bunyi (Muzik)",
+        "WebId": "81439862-5220-4347-b4e8-201cdbb8c918"
+      },
+      {
+        "$type": "Bespoke.epsikologi_ibkrecommendation.Domain.BidangPengajian, epsikologi.IbkRecommendation",
+        "Text": "Pergigian",
+        "WebId": "24710148-8ac5-47bf-98cc-eba0d61a0ef9"
+      },
+      {
+        "$type": "Bespoke.epsikologi_ibkrecommendation.Domain.BidangPengajian, epsikologi.IbkRecommendation",
+        "Text": "Perhotelan",
+        "WebId": "58358a59-363e-4b21-b890-ad201838c9c5"
+      },
+      {
+        "$type": "Bespoke.epsikologi_ibkrecommendation.Domain.BidangPengajian, epsikologi.IbkRecommendation",
+        "Text": "Pengurusan/ Penerbitan/ Percetakan",
+        "WebId": "6bb35b22-9ef9-432d-8bca-2ff1475f42db"
+      },
+      {
+        "$type": "Bespoke.epsikologi_ibkrecommendation.Domain.BidangPengajian, epsikologi.IbkRecommendation",
+        "Text": "Ekuesterian",
+        "WebId": "9a2afed4-e38a-4ba5-8401-6e51b1e61c06"
+      }
+    ]
+  },
+  "CreatedBy": "admin",
+  "Id": "PKI-PIK",
+  "CreatedDate": "2015-07-31T18:22:50.7680738+08:00",
+  "ChangedBy": "admin",
+  "ChangedDate": "2015-07-31T18:22:50.8161031+08:00",
+  "WebId": "f5caf6fd-7549-449d-9c1d-727ec1e671f0"
+}

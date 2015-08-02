@@ -1,0 +1,88 @@
+{
+  "$type": "Bespoke.epsikologi_ibkrecommendation.Domain.IbkRecommendation, epsikologi.IbkRecommendation",
+  "Kod": "EKI/EIK",
+  "KerjayaCollection": {
+    "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.epsikologi_ibkrecommendation.Domain.Kerjaya, epsikologi.IbkRecommendation]], domain.sph",
+    "$values": [
+      {
+        "$type": "Bespoke.epsikologi_ibkrecommendation.Domain.Kerjaya, epsikologi.IbkRecommendation",
+        "Text": "Pakar Penyelidikan Perisikan",
+        "Warna": null,
+        "WebId": "445fb82e-82ad-4031-b797-0408c1f85291"
+      },
+      {
+        "$type": "Bespoke.epsikologi_ibkrecommendation.Domain.Kerjaya, epsikologi.IbkRecommendation",
+        "Text": "Pengarah:- Pengurusan Sistem Maklumat/ Kawalan Kualiti/ Statistik/ Analisis Rekod",
+        "Warna": null,
+        "WebId": "4ce62c13-979f-4d00-ab51-29d671f3b4ad"
+      },
+      {
+        "$type": "Bespoke.epsikologi_ibkrecommendation.Domain.Kerjaya, epsikologi.IbkRecommendation",
+        "Text": "Ahli Psikologi Eksperimen",
+        "Warna": null,
+        "WebId": "2c036d7f-d2f0-461d-871a-d4314bccb52c"
+      },
+      {
+        "$type": "Bespoke.epsikologi_ibkrecommendation.Domain.Kerjaya, epsikologi.IbkRecommendation",
+        "Text": "Penguasa Sistem Air & Pembuangan",
+        "Warna": null,
+        "WebId": "040ff888-8dce-4146-9409-19461d6a8311"
+      },
+      {
+        "$type": "Bespoke.epsikologi_ibkrecommendation.Domain.Kerjaya, epsikologi.IbkRecommendation",
+        "Text": "Jurukur Tanah ",
+        "Warna": null,
+        "WebId": "3fe8d24f-d842-462f-a879-d786ae64058c"
+      },
+      {
+        "$type": "Bespoke.epsikologi_ibkrecommendation.Domain.Kerjaya, epsikologi.IbkRecommendation",
+        "Text": "-Ketua:- Teknologi Perubatan/ Makmal Kimia/  -Penyelia:- Kualiti Vendor/ Serangga & Penyakit",
+        "Warna": null,
+        "WebId": "3929492c-45d3-40f8-b5a5-f1f2de36dd26"
+      },
+      {
+        "$type": "Bespoke.epsikologi_ibkrecommendation.Domain.Kerjaya, epsikologi.IbkRecommendation",
+        "Text": "-Perunding Komunikasi -Perekacipta Set Pengambaran -Konduktor Okestra\t",
+        "Warna": null,
+        "WebId": "ea800e06-e9cf-486c-ac77-89ddab7adf47"
+      },
+      {
+        "$type": "Bespoke.epsikologi_ibkrecommendation.Domain.Kerjaya, epsikologi.IbkRecommendation",
+        "Text": "-Penulis/ Penulis Skrip/ Ilustrator Perubatan (Sainstifik) -Penganalisis Simbol \t",
+        "Warna": null,
+        "WebId": "4eadec6f-2269-4a3b-e813-2ed41b5b6cbd"
+      }
+    ]
+  },
+  "BidangPengajianCollection": {
+    "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.epsikologi_ibkrecommendation.Domain.BidangPengajian, epsikologi.IbkRecommendation]], domain.sph",
+    "$values": [
+      {
+        "$type": "Bespoke.epsikologi_ibkrecommendation.Domain.BidangPengajian, epsikologi.IbkRecommendation",
+        "Text": "Pengajian Konflik & Keamanan",
+        "WebId": "a733b640-69ce-480d-a950-80d2d91ef4f5"
+      },
+      {
+        "$type": "Bespoke.epsikologi_ibkrecommendation.Domain.BidangPengajian, epsikologi.IbkRecommendation",
+        "Text": "Psikologi:- Eksperimen/ Fisiologi/ Psikobiologi/ Sosio-Psikologi Sukan/ Sosial",
+        "WebId": "d2e9046b-df32-4d4d-b12d-b13f7ed4abd2"
+      },
+      {
+        "$type": "Bespoke.epsikologi_ibkrecommendation.Domain.BidangPengajian, epsikologi.IbkRecommendation",
+        "Text": "-Muzik - Senibina",
+        "WebId": "c303a7d8-db6c-446a-99df-de46698b7dd6"
+      },
+      {
+        "$type": "Bespoke.epsikologi_ibkrecommendation.Domain.BidangPengajian, epsikologi.IbkRecommendation",
+        "Text": "Bahasa Asing & Kesusasteraan/ Falsafah",
+        "WebId": "a8b4bbf7-e9a0-48aa-a891-64a95171fe99"
+      }
+    ]
+  },
+  "CreatedBy": "admin",
+  "Id": "EKI-EIK",
+  "CreatedDate": "2015-07-31T18:33:20.5154426+08:00",
+  "ChangedBy": "admin",
+  "ChangedDate": "2015-07-31T18:34:11.9482133+08:00",
+  "WebId": "f60dbc96-813d-4594-d5ea-23b489620396"
+}

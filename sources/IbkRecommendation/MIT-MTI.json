@@ -1,0 +1,139 @@
+{
+  "$type": "Bespoke.epsikologi_ibkrecommendation.Domain.IbkRecommendation, epsikologi.IbkRecommendation",
+  "Kod": "MIT/MTI",
+  "KerjayaCollection": {
+    "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.epsikologi_ibkrecommendation.Domain.Kerjaya, epsikologi.IbkRecommendation]], domain.sph",
+    "$values": [
+      {
+        "$type": "Bespoke.epsikologi_ibkrecommendation.Domain.Kerjaya, epsikologi.IbkRecommendation",
+        "Text": "Pakar Pembangunan Kanak-Kanak",
+        "Warna": null,
+        "WebId": "56e05162-0c1b-47d7-b635-07e65b3b47be"
+      },
+      {
+        "$type": "Bespoke.epsikologi_ibkrecommendation.Domain.Kerjaya, epsikologi.IbkRecommendation",
+        "Text": "Ketua Stesyen Kawalan Trafik Udara/ Kapalterbang",
+        "Warna": null,
+        "WebId": "88767314-f133-4c80-bc84-9c0b4c186530"
+      },
+      {
+        "$type": "Bespoke.epsikologi_ibkrecommendation.Domain.Kerjaya, epsikologi.IbkRecommendation",
+        "Text": "-Pengarah:-  Komuniti/ Kebajikan/ Perkhidmatan Sukarela/ Perpustakaan/ Filem -Pembantu Perkhidmatan Sosial",
+        "Warna": null,
+        "WebId": "3913f714-06c8-49b7-af05-fb96a36edc13"
+      },
+      {
+        "$type": "Bespoke.epsikologi_ibkrecommendation.Domain.Kerjaya, epsikologi.IbkRecommendation",
+        "Text": "Pengarah:- Jururawat/ Kesihatan",
+        "Warna": null,
+        "WebId": "3d9205e5-0ccd-406c-9bb9-37b9f2bb0f55"
+      },
+      {
+        "$type": "Bespoke.epsikologi_ibkrecommendation.Domain.Kerjaya, epsikologi.IbkRecommendation",
+        "Text": "Timbalan Penguasa/ Pegawai Polis",
+        "Warna": null,
+        "WebId": "144894eb-b354-4e80-9f32-d65bfcda66e4"
+      },
+      {
+        "$type": "Bespoke.epsikologi_ibkrecommendation.Domain.Kerjaya, epsikologi.IbkRecommendation",
+        "Text": "Pengurus:- Personel/ Keselamatan/ Perjawatan/ Perhubungan Pelanggan/ Bantuan Kewangan",
+        "Warna": null,
+        "WebId": "14f967f7-58c0-439b-97c1-b00126661dfe"
+      },
+      {
+        "$type": "Bespoke.epsikologi_ibkrecommendation.Domain.Kerjaya, epsikologi.IbkRecommendation",
+        "Text": "Pegawai Pertanian Daerah",
+        "Warna": null,
+        "WebId": "39f54211-9a2f-4633-89ec-059251dafe92"
+      },
+      {
+        "$type": "Bespoke.epsikologi_ibkrecommendation.Domain.Kerjaya, epsikologi.IbkRecommendation",
+        "Text": "Kaunselor:- Pemulihan/ Vokasional/ Terapi Rekreasi/ Pekerjaan",
+        "Warna": null,
+        "WebId": "8679714b-45d7-4af6-8b53-c34e91337dd9"
+      },
+      {
+        "$type": "Bespoke.epsikologi_ibkrecommendation.Domain.Kerjaya, epsikologi.IbkRecommendation",
+        "Text": "Pegawai Penemuduga ",
+        "Warna": null,
+        "WebId": "e9a805b0-413c-4583-b0f4-65679651c650"
+      },
+      {
+        "$type": "Bespoke.epsikologi_ibkrecommendation.Domain.Kerjaya, epsikologi.IbkRecommendation",
+        "Text": "-Konsultan Pendidikan  -Guru:- Prasekolah/ Pendidikan Khas",
+        "Warna": null,
+        "WebId": "316bdede-6cbe-4c20-a3a4-f11c86fcb22e"
+      },
+      {
+        "$type": "Bespoke.epsikologi_ibkrecommendation.Domain.Kerjaya, epsikologi.IbkRecommendation",
+        "Text": "Ahli Penterjemah:- Orang Bisu/ Buta/ Pendidikan Khas \t",
+        "Warna": null,
+        "WebId": "1ef0ed19-856b-4ddc-9b83-46ded941d294"
+      },
+      {
+        "$type": "Bespoke.epsikologi_ibkrecommendation.Domain.Kerjaya, epsikologi.IbkRecommendation",
+        "Text": "-Jurulatih Latihan -Juruhebah Radio & Televisyen\t",
+        "Warna": null,
+        "WebId": "aaa3c8e4-d5a6-401a-8ddd-cb1e53c7a641"
+      },
+      {
+        "$type": "Bespoke.epsikologi_ibkrecommendation.Domain.Kerjaya, epsikologi.IbkRecommendation",
+        "Text": "Agen Impot & Ekspot/ Hartanah ",
+        "Warna": null,
+        "WebId": "b218c0f4-2366-4bc0-a1c5-3a31dab8a3bc"
+      },
+      {
+        "$type": "Bespoke.epsikologi_ibkrecommendation.Domain.Kerjaya, epsikologi.IbkRecommendation",
+        "Text": "Penyelia:- Kawalan Jaringan/ Jualan & Kos/ Kes Kajian/ Juruwang",
+        "Warna": null,
+        "WebId": "9ded2cb6-0848-41b3-9a1c-d417f3056c1a"
+      }
+    ]
+  },
+  "BidangPengajianCollection": {
+    "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.epsikologi_ibkrecommendation.Domain.BidangPengajian, epsikologi.IbkRecommendation]], domain.sph",
+    "$values": [
+      {
+        "$type": "Bespoke.epsikologi_ibkrecommendation.Domain.BidangPengajian, epsikologi.IbkRecommendation",
+        "Text": "Penjagaan & Pembangunan Kanak-Kanak",
+        "WebId": "171467f0-1720-4428-a487-4f4ad0ce2602"
+      },
+      {
+        "$type": "Bespoke.epsikologi_ibkrecommendation.Domain.BidangPengajian, epsikologi.IbkRecommendation",
+        "Text": "Perpustakaan/ Kerja Sosial",
+        "WebId": "b3f720cf-42ac-4362-acc8-06a9bd4d39c6"
+      },
+      {
+        "$type": "Bespoke.epsikologi_ibkrecommendation.Domain.BidangPengajian, epsikologi.IbkRecommendation",
+        "Text": "Pentadbiran & Pengurusan/ Pengurusan Sumber Manusia ",
+        "WebId": "62634770-2679-4eec-9db8-f2c5a2b3f26a"
+      },
+      {
+        "$type": "Bespoke.epsikologi_ibkrecommendation.Domain.BidangPengajian, epsikologi.IbkRecommendation",
+        "Text": "Terapi Pekerjaan",
+        "WebId": "45dd15f2-2095-4bea-bd84-b7eac813422e"
+      },
+      {
+        "$type": "Bespoke.epsikologi_ibkrecommendation.Domain.BidangPengajian, epsikologi.IbkRecommendation",
+        "Text": "Pendidikan Khas/ Autistik/ Bahasa Isyarat/ Ketidakupayaan Pembelajaran & Pertuturan/ Cacat Pendengaran/ Cacat Penglihatan/ Kecacatan Fizikal ",
+        "WebId": "1d731979-b132-496c-80ec-2cef89a1f1f5"
+      },
+      {
+        "$type": "Bespoke.epsikologi_ibkrecommendation.Domain.BidangPengajian, epsikologi.IbkRecommendation",
+        "Text": "Komputer & Perniagaan",
+        "WebId": "010c2a31-834a-449e-851a-3aaa7135fc05"
+      },
+      {
+        "$type": "Bespoke.epsikologi_ibkrecommendation.Domain.BidangPengajian, epsikologi.IbkRecommendation",
+        "Text": "-Sains Pemakanan -Perundangan",
+        "WebId": "814618b8-e625-4ffb-a9ab-62827f3142be"
+      }
+    ]
+  },
+  "CreatedBy": "admin",
+  "Id": "MIT-MTI",
+  "CreatedDate": "2015-07-31T19:15:17.1734158+08:00",
+  "ChangedBy": "admin",
+  "ChangedDate": "2015-07-31T19:15:17.169413+08:00",
+  "WebId": "784a8eb1-b8e1-45af-b827-85039e238142"
+}

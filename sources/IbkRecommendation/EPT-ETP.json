@@ -1,0 +1,76 @@
+{
+  "$type": "Bespoke.epsikologi_ibkrecommendation.Domain.IbkRecommendation, epsikologi.IbkRecommendation",
+  "Kod": "EPT/ETP",
+  "KerjayaCollection": {
+    "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.epsikologi_ibkrecommendation.Domain.Kerjaya, epsikologi.IbkRecommendation]], domain.sph",
+    "$values": [
+      {
+        "$type": "Bespoke.epsikologi_ibkrecommendation.Domain.Kerjaya, epsikologi.IbkRecommendation",
+        "Text": "Pakar Toksik/ Keracunan ",
+        "Warna": null,
+        "WebId": "acc7e1ff-7b4a-4fa5-92e8-3eb2ccf3b17d"
+      },
+      {
+        "$type": "Bespoke.epsikologi_ibkrecommendation.Domain.Kerjaya, epsikologi.IbkRecommendation",
+        "Text": "Jurutera:- Tenaga Nuklear/ Mekanikal/ Aeronautikal ",
+        "Warna": null,
+        "WebId": "c80ce069-141b-4f5e-b09e-cd47a5557cca"
+      },
+      {
+        "$type": "Bespoke.epsikologi_ibkrecommendation.Domain.Kerjaya, epsikologi.IbkRecommendation",
+        "Text": "Juruaudit Dalaman",
+        "Warna": null,
+        "WebId": "b5d3f8b9-eb01-433e-ba6e-718979085970"
+      },
+      {
+        "$type": "Bespoke.epsikologi_ibkrecommendation.Domain.Kerjaya, epsikologi.IbkRecommendation",
+        "Text": "Penganalisis:- Pengurusan/ Makmal Jenayah/ Ketegangan (Stres)",
+        "Warna": null,
+        "WebId": "6c2dbbc8-a4ec-49dd-a7ab-42475ed818fa"
+      },
+      {
+        "$type": "Bespoke.epsikologi_ibkrecommendation.Domain.Kerjaya, epsikologi.IbkRecommendation",
+        "Text": "-Pengaturcara:- Komputer/ Projek E-Perdagangan  -Juruteknik Makmal\t",
+        "Warna": null,
+        "WebId": "379edf60-28ce-47ef-964a-51fcb200f354"
+      },
+      {
+        "$type": "Bespoke.epsikologi_ibkrecommendation.Domain.Kerjaya, epsikologi.IbkRecommendation",
+        "Text": "Jurukemudi Kapal",
+        "Warna": null,
+        "WebId": "287cfbca-0d39-4b9c-a4b8-84c27cf1183a"
+      }
+    ]
+  },
+  "BidangPengajianCollection": {
+    "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.epsikologi_ibkrecommendation.Domain.BidangPengajian, epsikologi.IbkRecommendation]], domain.sph",
+    "$values": [
+      {
+        "$type": "Bespoke.epsikologi_ibkrecommendation.Domain.BidangPengajian, epsikologi.IbkRecommendation",
+        "Text": "Kejuruteraan Elektrik & Elektronik",
+        "WebId": "8e628ec7-51f7-4e8f-af33-d68a8008c3f3"
+      },
+      {
+        "$type": "Bespoke.epsikologi_ibkrecommendation.Domain.BidangPengajian, epsikologi.IbkRecommendation",
+        "Text": "Sains Forensik",
+        "WebId": "0e900cf3-aff8-4315-9feb-7f867c9e5c05"
+      },
+      {
+        "$type": "Bespoke.epsikologi_ibkrecommendation.Domain.BidangPengajian, epsikologi.IbkRecommendation",
+        "Text": "Pengaturcara Perisian Program:- Perniagaan \t",
+        "WebId": "de2bf6bb-8e97-48ec-9cae-0ab3fa3621db"
+      },
+      {
+        "$type": "Bespoke.epsikologi_ibkrecommendation.Domain.BidangPengajian, epsikologi.IbkRecommendation",
+        "Text": "Seni Lukisan Arkitek",
+        "WebId": "6ce29914-9a59-4be9-9d91-cabb9809cf26"
+      }
+    ]
+  },
+  "CreatedBy": "admin",
+  "Id": "EPT-ETP",
+  "CreatedDate": "2015-07-31T18:31:12.3491269+08:00",
+  "ChangedBy": "admin",
+  "ChangedDate": "2015-07-31T18:31:12.3401206+08:00",
+  "WebId": "ec831274-facf-4e42-d950-efa074fbf14e"
+}

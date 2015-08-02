@@ -1,0 +1,42 @@
+{
+  "$type": "Bespoke.epsikologi_ibkrecommendation.Domain.IbkRecommendation, epsikologi.IbkRecommendation",
+  "Kod": "KEM/KME",
+  "KerjayaCollection": {
+    "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.epsikologi_ibkrecommendation.Domain.Kerjaya, epsikologi.IbkRecommendation]], domain.sph",
+    "$values": [
+      {
+        "$type": "Bespoke.epsikologi_ibkrecommendation.Domain.Kerjaya, epsikologi.IbkRecommendation",
+        "Text": "-Penulis Semula -Pemberita \t",
+        "Warna": null,
+        "WebId": "5d12bd99-c54a-4df5-a9a8-2ed053e37790"
+      },
+      {
+        "$type": "Bespoke.epsikologi_ibkrecommendation.Domain.Kerjaya, epsikologi.IbkRecommendation",
+        "Text": "-Pelukis -Artis (Pameran) -Terapi Penari\t",
+        "Warna": null,
+        "WebId": "15693895-d686-4fde-b486-1a1ea8d6a0d3"
+      }
+    ]
+  },
+  "BidangPengajianCollection": {
+    "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.epsikologi_ibkrecommendation.Domain.BidangPengajian, epsikologi.IbkRecommendation]], domain.sph",
+    "$values": [
+      {
+        "$type": "Bespoke.epsikologi_ibkrecommendation.Domain.BidangPengajian, epsikologi.IbkRecommendation",
+        "Text": "Penulisan Teknikal/ Perniagaan",
+        "WebId": "c8fbe021-60e3-4a2b-b768-8e972b6c8551"
+      },
+      {
+        "$type": "Bespoke.epsikologi_ibkrecommendation.Domain.BidangPengajian, epsikologi.IbkRecommendation",
+        "Text": "Seni Tari",
+        "WebId": "495b9844-82f3-4d34-a6cb-98e6e63f506b"
+      }
+    ]
+  },
+  "CreatedBy": "admin",
+  "Id": "KEM-KME",
+  "CreatedDate": "2015-07-31T18:50:28.1791579+08:00",
+  "ChangedBy": "admin",
+  "ChangedDate": "2015-07-31T18:50:28.1691508+08:00",
+  "WebId": "42ebe0f3-26c6-4242-cb6f-afd05f30c70d"
+}

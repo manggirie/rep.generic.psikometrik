@@ -1,0 +1,122 @@
+{
+  "$type": "Bespoke.epsikologi_ibkrecommendation.Domain.IbkRecommendation, epsikologi.IbkRecommendation",
+  "Kod": "IKM/IMK",
+  "KerjayaCollection": {
+    "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.epsikologi_ibkrecommendation.Domain.Kerjaya, epsikologi.IbkRecommendation]], domain.sph",
+    "$values": [
+      {
+        "$type": "Bespoke.epsikologi_ibkrecommendation.Domain.Kerjaya, epsikologi.IbkRecommendation",
+        "Text": "Ahli Politik \t",
+        "Warna": null,
+        "WebId": "d7befa1b-4e57-4597-b836-266bd2b47525"
+      },
+      {
+        "$type": "Bespoke.epsikologi_ibkrecommendation.Domain.Kerjaya, epsikologi.IbkRecommendation",
+        "Text": "Hakim",
+        "Warna": null,
+        "WebId": "e0715751-ecd2-48dc-b890-d1f29a567da2"
+      },
+      {
+        "$type": "Bespoke.epsikologi_ibkrecommendation.Domain.Kerjaya, epsikologi.IbkRecommendation",
+        "Text": "Pengarah:- Penempatan/ Kemasukan \t",
+        "Warna": null,
+        "WebId": "c2ea3264-df87-40da-9f8a-48fff1e76740"
+      },
+      {
+        "$type": "Bespoke.epsikologi_ibkrecommendation.Domain.Kerjaya, epsikologi.IbkRecommendation",
+        "Text": "Naib Timbalan Presiden Dewan Perniagaan",
+        "Warna": null,
+        "WebId": "ddf4bf4e-2659-4acd-a873-12f0fb064757"
+      },
+      {
+        "$type": "Bespoke.epsikologi_ibkrecommendation.Domain.Kerjaya, epsikologi.IbkRecommendation",
+        "Text": "Pegawai Perkhidmatan Luar Negara\t",
+        "Warna": null,
+        "WebId": "7d849400-8e57-468c-b248-6ef9c6eed339"
+      },
+      {
+        "$type": "Bespoke.epsikologi_ibkrecommendation.Domain.Kerjaya, epsikologi.IbkRecommendation",
+        "Text": "Pengurus:- Projek Perumahan/ Konvesyen/ Jabatan/ Nurseri/ Tanaman/ Perniagaan Elektronik",
+        "Warna": null,
+        "WebId": "41ea33dd-4dc8-4682-86e6-4fa0a7c63015"
+      },
+      {
+        "$type": "Bespoke.epsikologi_ibkrecommendation.Domain.Kerjaya, epsikologi.IbkRecommendation",
+        "Text": "Penterjemah\t",
+        "Warna": null,
+        "WebId": "cce065ad-1ceb-4a3e-915a-5ff2c14f7220"
+      },
+      {
+        "$type": "Bespoke.epsikologi_ibkrecommendation.Domain.Kerjaya, epsikologi.IbkRecommendation",
+        "Text": "-Penyelia:- Pengeluaran Biji Benih -Penyelia:- Muzik/ Rekreasi\t",
+        "Warna": null,
+        "WebId": "3844558d-361b-4ae5-b33b-04fe40d2202b"
+      },
+      {
+        "$type": "Bespoke.epsikologi_ibkrecommendation.Domain.Kerjaya, epsikologi.IbkRecommendation",
+        "Text": "-Pentadbir Kebajikan Masyarakat -Pramugari -Pekerja Sosial Perubatan  -Eksekutif Persatuan\t",
+        "Warna": null,
+        "WebId": "19b15f66-e47b-4e8d-ad3a-3439dddcee62"
+      },
+      {
+        "$type": "Bespoke.epsikologi_ibkrecommendation.Domain.Kerjaya, epsikologi.IbkRecommendation",
+        "Text": "-Wakil:- Kumpulan Pekerja/ Pengilang/ Pengeluar Kasut/ Peralatan Rumah",
+        "Warna": null,
+        "WebId": "dbb4b330-0303-4530-818a-b1aff33fe944"
+      },
+      {
+        "$type": "Bespoke.epsikologi_ibkrecommendation.Domain.Kerjaya, epsikologi.IbkRecommendation",
+        "Text": "-Agen Kesusasteraan  -Pengarah Berita -Editor Suratkhabar -Jurukamera -Penerbit Filem -Pengurus:- Studio Tarian/ Artis -Koordinator:- Fesyen/ Model Fesyen",
+        "Warna": null,
+        "WebId": "e98a5e30-c72b-441b-be3c-6b6ce6d0b049"
+      },
+      {
+        "$type": "Bespoke.epsikologi_ibkrecommendation.Domain.Kerjaya, epsikologi.IbkRecommendation",
+        "Text": "-Jurujual:- Aksesori & Barang Hiasan/ Kosmetik & Kebersihan Diri -Jurujual:- Barangan Awam/ Sukan/ Peralatan/ Hiasan Muzik -Jurulelong -Peniaga Borong ",
+        "Warna": null,
+        "WebId": "35941795-236f-4edc-92b7-fbdc0ab33ea0"
+      }
+    ]
+  },
+  "BidangPengajianCollection": {
+    "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.epsikologi_ibkrecommendation.Domain.BidangPengajian, epsikologi.IbkRecommendation]], domain.sph",
+    "$values": [
+      {
+        "$type": "Bespoke.epsikologi_ibkrecommendation.Domain.BidangPengajian, epsikologi.IbkRecommendation",
+        "Text": "Sains Kehakiman/ Perundangan",
+        "WebId": "bd13c2d8-754f-4f8b-91eb-b4a73856a306"
+      },
+      {
+        "$type": "Bespoke.epsikologi_ibkrecommendation.Domain.BidangPengajian, epsikologi.IbkRecommendation",
+        "Text": "Kolej Komuniti & Kolej/ Kurikulum/  Pendidikan  ",
+        "WebId": "ef5735b8-d452-438f-8409-f7c60d533125"
+      },
+      {
+        "$type": "Bespoke.epsikologi_ibkrecommendation.Domain.BidangPengajian, epsikologi.IbkRecommendation",
+        "Text": "Organisasi Perancangan & Pengurusan \t",
+        "WebId": "c7599118-55ac-47b9-804c-19d9ec0864be"
+      },
+      {
+        "$type": "Bespoke.epsikologi_ibkrecommendation.Domain.BidangPengajian, epsikologi.IbkRecommendation",
+        "Text": "Perniagaan Muzik",
+        "WebId": "23f326c7-ebd2-497c-aa1f-426ad0cc93ed"
+      },
+      {
+        "$type": "Bespoke.epsikologi_ibkrecommendation.Domain.BidangPengajian, epsikologi.IbkRecommendation",
+        "Text": "-Penerbitan Filem/ Video -Konsultan Fesyen & Fabrik -Kesenian/ Seni Lakonan /  Arahan/ Drama/  Kesusasteraan Teater/ Sejarah & Kritikan/ Kewartawanan/ Penyiaran / Pengiklanan/ Massa Komunikasi/ Hubungan Awam & Komunikasi \t",
+        "WebId": "8f3d5207-20b6-4be3-a1fe-664a2f077748"
+      },
+      {
+        "$type": "Bespoke.epsikologi_ibkrecommendation.Domain.BidangPengajian, epsikologi.IbkRecommendation",
+        "Text": "-Pembelian/ Pengedaran Umum/ Kemahiran Jualan -Pemasaran:- Barangan Rumah/ Pejabat/ Barangan Hiasan Pengurusan Pelancongan",
+        "WebId": "052a841d-118a-4270-a5d7-a12d7aac4070"
+      }
+    ]
+  },
+  "CreatedBy": "admin",
+  "Id": "IKM-IMK",
+  "CreatedDate": "2015-07-31T19:27:37.9822159+08:00",
+  "ChangedBy": "admin",
+  "ChangedDate": "2015-07-31T19:27:38.052766+08:00",
+  "WebId": "080ea5ed-3f99-4154-e7fb-7feb0aa4a445"
+}

@@ -1,0 +1,31 @@
+{
+  "$type": "Bespoke.epsikologi_ibkrecommendation.Domain.IbkRecommendation, epsikologi.IbkRecommendation",
+  "Kod": "PKT/PTK",
+  "KerjayaCollection": {
+    "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.epsikologi_ibkrecommendation.Domain.Kerjaya, epsikologi.IbkRecommendation]], domain.sph",
+    "$values": [
+      {
+        "$type": "Bespoke.epsikologi_ibkrecommendation.Domain.Kerjaya, epsikologi.IbkRecommendation",
+        "Text": "Jurukamera *  Sila rujuk pilihan kerjaya di bawah kategori P",
+        "Warna": null,
+        "WebId": "802dac8e-f26c-4fa2-b274-511582ee8ea9"
+      }
+    ]
+  },
+  "BidangPengajianCollection": {
+    "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.epsikologi_ibkrecommendation.Domain.BidangPengajian, epsikologi.IbkRecommendation]], domain.sph",
+    "$values": [
+      {
+        "$type": "Bespoke.epsikologi_ibkrecommendation.Domain.BidangPengajian, epsikologi.IbkRecommendation",
+        "Text": "-Pendidikan -Teknologi Media *  Sila rujuk pilihan bidang pengajian di bawah kategori P",
+        "WebId": "f4bf45a9-18d6-4244-ba09-c43d1496497f"
+      }
+    ]
+  },
+  "CreatedBy": "admin",
+  "Id": "PKT-PTK",
+  "CreatedDate": "2015-07-31T18:14:26.3971954+08:00",
+  "ChangedBy": "admin",
+  "ChangedDate": "2015-07-31T18:14:26.3891897+08:00",
+  "WebId": "5db133d3-c7fb-444c-d419-a9a72ac3bbce"
+}

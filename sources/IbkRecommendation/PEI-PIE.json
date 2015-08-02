@@ -1,0 +1,91 @@
+{
+  "$type": "Bespoke.epsikologi_ibkrecommendation.Domain.IbkRecommendation, epsikologi.IbkRecommendation",
+  "Kod": "PEI/PIE",
+  "KerjayaCollection": {
+    "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.epsikologi_ibkrecommendation.Domain.Kerjaya, epsikologi.IbkRecommendation]], domain.sph",
+    "$values": [
+      {
+        "$type": "Bespoke.epsikologi_ibkrecommendation.Domain.Kerjaya, epsikologi.IbkRecommendation",
+        "Text": "Jurutera:- Automotif/ Perisian Sistem Komputer/ Petroleum",
+        "Warna": null,
+        "WebId": "32c68120-e1d5-47ab-bcaf-8ca7c790fdae"
+      },
+      {
+        "$type": "Bespoke.epsikologi_ibkrecommendation.Domain.Kerjaya, epsikologi.IbkRecommendation",
+        "Text": "-Juruterbang -Kapten Kapal -Penyelam Skuba",
+        "Warna": null,
+        "WebId": "a8efedc1-8320-4592-bdc0-2b98cb729144"
+      },
+      {
+        "$type": "Bespoke.epsikologi_ibkrecommendation.Domain.Kerjaya, epsikologi.IbkRecommendation",
+        "Text": "Ahli Geologi Petroleum",
+        "Warna": null,
+        "WebId": "fb344c10-37c1-45cb-a7b8-30d9687a372c"
+      },
+      {
+        "$type": "Bespoke.epsikologi_ibkrecommendation.Domain.Kerjaya, epsikologi.IbkRecommendation",
+        "Text": "-Pengurus (Penyelia) Kilang -Guru Seni Industri",
+        "Warna": null,
+        "WebId": "4211ae28-b7db-433e-b265-715aa5f893b9"
+      },
+      {
+        "$type": "Bespoke.epsikologi_ibkrecommendation.Domain.Kerjaya, epsikologi.IbkRecommendation",
+        "Text": "Juruteknik:- Peralatan Bioperubatan/ Anggota Tiruan (Palsu)/ Elektrikal/ Bunyi/ Makmal/ Kawalan Mutu Makanan/ Lalulintas/ Kualiti Air ",
+        "Warna": null,
+        "WebId": "e11f7e8f-044a-4226-ad88-72e91e844d7a"
+      },
+      {
+        "$type": "Bespoke.epsikologi_ibkrecommendation.Domain.Kerjaya, epsikologi.IbkRecommendation",
+        "Text": "Mekanik:- Kapalterbang/ Elektrik/ Radio/ Stesen Janakuasa",
+        "Warna": null,
+        "WebId": "2c4c5c5e-0ee6-4b1b-a9ae-de9ad8ef62a0"
+      }
+    ]
+  },
+  "BidangPengajianCollection": {
+    "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.epsikologi_ibkrecommendation.Domain.BidangPengajian, epsikologi.IbkRecommendation]], domain.sph",
+    "$values": [
+      {
+        "$type": "Bespoke.epsikologi_ibkrecommendation.Domain.BidangPengajian, epsikologi.IbkRecommendation",
+        "Text": "Kejuruteraan:- Teknologi Aeronautikal & Angkasalepas/ Elektrikal/ Elektronik & Komunikasi",
+        "WebId": "b335ca6f-0337-435a-f1a1-b5379f1eaf00"
+      },
+      {
+        "$type": "Bespoke.epsikologi_ibkrecommendation.Domain.BidangPengajian, epsikologi.IbkRecommendation",
+        "Text": "-Pengurusan Operasi Rumah Hijau/ Lanskap/ Nurseri (Semaian) -Pembinaan -Penerbitan/ Percetakan & Grafik  -Sains Hortikultur/ Tumbuhan",
+        "WebId": "23106bfb-e453-4c6e-d5c0-bfc41bb13a07"
+      },
+      {
+        "$type": "Bespoke.epsikologi_ibkrecommendation.Domain.BidangPengajian, epsikologi.IbkRecommendation",
+        "Text": "Kejuruteraan:- Automotif/ Mekanikal/ Elektrikal/ Elektronik & Komunikasi/ Senibina/ Merekabentuk/ Geologi/ Geofizikal/ Petroleum/ Bahan ",
+        "WebId": "59c667d1-ad3f-4fbb-a601-30730e6b9b8c"
+      },
+      {
+        "$type": "Bespoke.epsikologi_ibkrecommendation.Domain.BidangPengajian, epsikologi.IbkRecommendation",
+        "Text": "-Kejuruteraan:-Teknologi Aeronautikal & Angkasalepas -Penerbangan/ Perkapalan/ Penyelaman\t",
+        "WebId": "83097ee1-73b5-421d-aad2-b540c57955d0"
+      },
+      {
+        "$type": "Bespoke.epsikologi_ibkrecommendation.Domain.BidangPengajian, epsikologi.IbkRecommendation",
+        "Text": "Kejuruteraan:- Geologi/ Geofizikal/ Petroleum/ Mekanikal/ Bahan ",
+        "WebId": "263d7f54-3963-42c1-9537-83f69f75e073"
+      },
+      {
+        "$type": "Bespoke.epsikologi_ibkrecommendation.Domain.BidangPengajian, epsikologi.IbkRecommendation",
+        "Text": "Pengurusan Kejuruteraan Industri",
+        "WebId": "59a38eb5-4d2a-44d1-aaaf-eded92cdd066"
+      },
+      {
+        "$type": "Bespoke.epsikologi_ibkrecommendation.Domain.BidangPengajian, epsikologi.IbkRecommendation",
+        "Text": "Kejuruteraan:- Teknologi Bioperubatan/ Sains Pemakanan/ Pertanian",
+        "WebId": "2de1cf8a-a9fe-497f-d543-6333fc65bea8"
+      }
+    ]
+  },
+  "CreatedBy": "admin",
+  "Id": "PEI-PIE",
+  "CreatedDate": "2015-07-31T18:08:24.6368459+08:00",
+  "ChangedBy": "admin",
+  "ChangedDate": "2015-07-31T18:11:40.8931175+08:00",
+  "WebId": "8133e1b0-445b-49d2-a723-cd245f3f6474"
+}

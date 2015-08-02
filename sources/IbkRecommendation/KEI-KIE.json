@@ -1,0 +1,65 @@
+{
+  "$type": "Bespoke.epsikologi_ibkrecommendation.Domain.IbkRecommendation, epsikologi.IbkRecommendation",
+  "Kod": "KEI/KIE",
+  "KerjayaCollection": {
+    "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.epsikologi_ibkrecommendation.Domain.Kerjaya, epsikologi.IbkRecommendation]], domain.sph",
+    "$values": [
+      {
+        "$type": "Bespoke.epsikologi_ibkrecommendation.Domain.Kerjaya, epsikologi.IbkRecommendation",
+        "Text": "Pakar Penyelidikan Perisikan ",
+        "Warna": null,
+        "WebId": "9ba7e50d-e6a3-4d47-837f-00cf5f7bbd59"
+      },
+      {
+        "$type": "Bespoke.epsikologi_ibkrecommendation.Domain.Kerjaya, epsikologi.IbkRecommendation",
+        "Text": "Penulis:- Fiktion/ Bukan Fiktion/ Simbol",
+        "Warna": null,
+        "WebId": "c75b371e-1ede-449c-a939-9443fe18ced8"
+      },
+      {
+        "$type": "Bespoke.epsikologi_ibkrecommendation.Domain.Kerjaya, epsikologi.IbkRecommendation",
+        "Text": "-Perekacipta Set Filem -Penulis Skrin",
+        "Warna": null,
+        "WebId": "c70bc9a3-7454-462b-90e9-75506bd7e082"
+      },
+      {
+        "$type": "Bespoke.epsikologi_ibkrecommendation.Domain.Kerjaya, epsikologi.IbkRecommendation",
+        "Text": "Pengatur/ Konduktor Okestra",
+        "Warna": null,
+        "WebId": "67e73a44-b8c7-44bb-8a7f-e0e89af89d95"
+      },
+      {
+        "$type": "Bespoke.epsikologi_ibkrecommendation.Domain.Kerjaya, epsikologi.IbkRecommendation",
+        "Text": "Ilustrator Perubatan & Saintifik",
+        "Warna": null,
+        "WebId": "73d2c2db-d5d0-4e48-bbb4-bfa41f8bf9f3"
+      }
+    ]
+  },
+  "BidangPengajianCollection": {
+    "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.epsikologi_ibkrecommendation.Domain.BidangPengajian, epsikologi.IbkRecommendation]], domain.sph",
+    "$values": [
+      {
+        "$type": "Bespoke.epsikologi_ibkrecommendation.Domain.BidangPengajian, epsikologi.IbkRecommendation",
+        "Text": "Bahasa Asing",
+        "WebId": "54902478-86f3-41fc-acfa-a7a9e3c9388a"
+      },
+      {
+        "$type": "Bespoke.epsikologi_ibkrecommendation.Domain.BidangPengajian, epsikologi.IbkRecommendation",
+        "Text": "Kesusasteraan/ Falsafah",
+        "WebId": "e68cf40f-880a-4b0a-bb54-fcd13158251f"
+      },
+      {
+        "$type": "Bespoke.epsikologi_ibkrecommendation.Domain.BidangPengajian, epsikologi.IbkRecommendation",
+        "Text": "Muzik",
+        "WebId": "77691397-939f-4fbc-b2a4-b66c90acbeb3"
+      }
+    ]
+  },
+  "CreatedBy": "admin",
+  "Id": "KEI-KIE",
+  "CreatedDate": "2015-07-31T18:51:25.6849428+08:00",
+  "ChangedBy": "admin",
+  "ChangedDate": "2015-07-31T18:51:25.6759365+08:00",
+  "WebId": "2cda0c8f-5200-4528-ca97-dcbdc56f390c"
+}

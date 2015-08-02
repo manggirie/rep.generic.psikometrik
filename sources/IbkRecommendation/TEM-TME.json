@@ -1,0 +1,65 @@
+{
+  "$type": "Bespoke.epsikologi_ibkrecommendation.Domain.IbkRecommendation, epsikologi.IbkRecommendation",
+  "Kod": "TEM/TME",
+  "KerjayaCollection": {
+    "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.epsikologi_ibkrecommendation.Domain.Kerjaya, epsikologi.IbkRecommendation]], domain.sph",
+    "$values": [
+      {
+        "$type": "Bespoke.epsikologi_ibkrecommendation.Domain.Kerjaya, epsikologi.IbkRecommendation",
+        "Text": "Pakar/ Koordinator Keselamatan Komputer",
+        "Warna": null,
+        "WebId": "7c32d32e-22f3-472d-b9f7-c5cc1862530f"
+      },
+      {
+        "$type": "Bespoke.epsikologi_ibkrecommendation.Domain.Kerjaya, epsikologi.IbkRecommendation",
+        "Text": "Akauntan  ",
+        "Warna": null,
+        "WebId": "8cdd3f90-bfca-4a6f-843e-94561d773a2d"
+      },
+      {
+        "$type": "Bespoke.epsikologi_ibkrecommendation.Domain.Kerjaya, epsikologi.IbkRecommendation",
+        "Text": "Pemeriksa Poligraf /  Penyemak Bacaan",
+        "Warna": null,
+        "WebId": "bd4f862c-e498-4ba9-9f2c-600dbe474820"
+      },
+      {
+        "$type": "Bespoke.epsikologi_ibkrecommendation.Domain.Kerjaya, epsikologi.IbkRecommendation",
+        "Text": "Juruteknik:- Mata / Sokongan Pengguna",
+        "Warna": null,
+        "WebId": "cfaf88cb-5098-489d-bb90-d6de3d844f8f"
+      },
+      {
+        "$type": "Bespoke.epsikologi_ibkrecommendation.Domain.Kerjaya, epsikologi.IbkRecommendation",
+        "Text": "Pentadbiran Rekod Perubatan",
+        "Warna": null,
+        "WebId": "a5fdc705-97c2-4ec0-bc67-7f28aa825bad"
+      }
+    ]
+  },
+  "BidangPengajianCollection": {
+    "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.epsikologi_ibkrecommendation.Domain.BidangPengajian, epsikologi.IbkRecommendation]], domain.sph",
+    "$values": [
+      {
+        "$type": "Bespoke.epsikologi_ibkrecommendation.Domain.BidangPengajian, epsikologi.IbkRecommendation",
+        "Text": "Pembantu/ Juruteknologi Perubatan Mata ",
+        "WebId": "4667485e-ca33-4633-a6f5-996867456524"
+      },
+      {
+        "$type": "Bespoke.epsikologi_ibkrecommendation.Domain.BidangPengajian, epsikologi.IbkRecommendation",
+        "Text": "Pentadbiran Rekod Perubatan",
+        "WebId": "773bcf71-6696-4d8f-a45a-308bcef631e2"
+      },
+      {
+        "$type": "Bespoke.epsikologi_ibkrecommendation.Domain.BidangPengajian, epsikologi.IbkRecommendation",
+        "Text": "Komunikasi Perniagaan",
+        "WebId": "66907de3-5764-47ae-bf43-bcac312ea439"
+      }
+    ]
+  },
+  "CreatedBy": "admin",
+  "Id": "TEM-TME",
+  "CreatedDate": "2015-07-31T19:36:20.4616708+08:00",
+  "ChangedBy": "admin",
+  "ChangedDate": "2015-07-31T19:36:20.4526649+08:00",
+  "WebId": "c04034e2-7a77-444c-f2d4-e0de83cd03e9"
+}

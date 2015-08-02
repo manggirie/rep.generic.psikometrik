@@ -1,0 +1,109 @@
+{
+  "$type": "Bespoke.epsikologi_ibkrecommendation.Domain.IbkRecommendation, epsikologi.IbkRecommendation",
+  "Kod": "PMI/PIM",
+  "KerjayaCollection": {
+    "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.epsikologi_ibkrecommendation.Domain.Kerjaya, epsikologi.IbkRecommendation]], domain.sph",
+    "$values": [
+      {
+        "$type": "Bespoke.epsikologi_ibkrecommendation.Domain.Kerjaya, epsikologi.IbkRecommendation",
+        "Text": "Pakar:- Sambung Anggota/ Peralatan Radiologi",
+        "Warna": null,
+        "WebId": "edb2ed71-c6a8-4876-b72b-bb1f39ad76d3"
+      },
+      {
+        "$type": "Bespoke.epsikologi_ibkrecommendation.Domain.Kerjaya, epsikologi.IbkRecommendation",
+        "Text": "-Penyiasat Kapalterbang -Jurutera:- Penerbangan/ Keretapi",
+        "Warna": null,
+        "WebId": "020f2d3a-14bc-4eb3-8c18-c7818b8c69f5"
+      },
+      {
+        "$type": "Bespoke.epsikologi_ibkrecommendation.Domain.Kerjaya, epsikologi.IbkRecommendation",
+        "Text": "Pengurus Bangunan",
+        "Warna": null,
+        "WebId": "ebd19282-4034-47d4-b2da-0bd27c17df9b"
+      },
+      {
+        "$type": "Bespoke.epsikologi_ibkrecommendation.Domain.Kerjaya, epsikologi.IbkRecommendation",
+        "Text": "Juruelektrik/ Juruteknik Perkakasan Elektrikal",
+        "Warna": null,
+        "WebId": "21f55a47-9bde-4929-a4b9-7fc1e7d633de"
+      },
+      {
+        "$type": "Bespoke.epsikologi_ibkrecommendation.Domain.Kerjaya, epsikologi.IbkRecommendation",
+        "Text": "-Polis Peronda Lebuhraya -Ahli Bomba\t",
+        "Warna": null,
+        "WebId": "33a71720-552a-4d68-b56f-a3a29ebd55fc"
+      },
+      {
+        "$type": "Bespoke.epsikologi_ibkrecommendation.Domain.Kerjaya, epsikologi.IbkRecommendation",
+        "Text": "-Penyelia Pelabuhan -Penyelam",
+        "Warna": null,
+        "WebId": "866a95a7-3474-40fa-9c25-c4ffd7d50dbd"
+      },
+      {
+        "$type": "Bespoke.epsikologi_ibkrecommendation.Domain.Kerjaya, epsikologi.IbkRecommendation",
+        "Text": "Renjer Hidupan Liar\t",
+        "Warna": null,
+        "WebId": "55f2715a-2d74-468f-b998-576dabb0cf9f"
+      },
+      {
+        "$type": "Bespoke.epsikologi_ibkrecommendation.Domain.Kerjaya, epsikologi.IbkRecommendation",
+        "Text": "Penternak/ Petani",
+        "Warna": null,
+        "WebId": "0b32b250-5408-4d4c-93e6-66b66564fd32"
+      },
+      {
+        "$type": "Bespoke.epsikologi_ibkrecommendation.Domain.Kerjaya, epsikologi.IbkRecommendation",
+        "Text": "Chef Masakan:- Umum/ Roti/ Kek & Biskut",
+        "Warna": null,
+        "WebId": "8008da10-1b54-4780-9a11-3fac1d81bcd8"
+      }
+    ]
+  },
+  "BidangPengajianCollection": {
+    "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.epsikologi_ibkrecommendation.Domain.BidangPengajian, epsikologi.IbkRecommendation]], domain.sph",
+    "$values": [
+      {
+        "$type": "Bespoke.epsikologi_ibkrecommendation.Domain.BidangPengajian, epsikologi.IbkRecommendation",
+        "Text": "Perubatan",
+        "WebId": "7eda1c90-1878-4f2c-9230-c5e786cb1468"
+      },
+      {
+        "$type": "Bespoke.epsikologi_ibkrecommendation.Domain.BidangPengajian, epsikologi.IbkRecommendation",
+        "Text": "Pengurusan Bangunan ",
+        "WebId": "82a78150-3c20-4ec6-b699-89ba8b6d8282"
+      },
+      {
+        "$type": "Bespoke.epsikologi_ibkrecommendation.Domain.BidangPengajian, epsikologi.IbkRecommendation",
+        "Text": "Hidupan Marin (Laut)",
+        "WebId": "d16a13c0-2be9-4dea-b5ac-c3c24d41e6be"
+      },
+      {
+        "$type": "Bespoke.epsikologi_ibkrecommendation.Domain.BidangPengajian, epsikologi.IbkRecommendation",
+        "Text": "Hidupan Liar/ Perhutanan",
+        "WebId": "77d93de6-6c19-443c-a852-90e3581a18f4"
+      },
+      {
+        "$type": "Bespoke.epsikologi_ibkrecommendation.Domain.BidangPengajian, epsikologi.IbkRecommendation",
+        "Text": "Pengurusan Pertanian/ Pemprosesan Makanan/ Pengeluaran Ternakan/ Pertanian/ Peralatan Pertanian/ Akuakultur/ Hortikultur",
+        "WebId": "80db6623-1239-4db1-a957-5f62c6a20ff7"
+      },
+      {
+        "$type": "Bespoke.epsikologi_ibkrecommendation.Domain.BidangPengajian, epsikologi.IbkRecommendation",
+        "Text": "Perhotelan & Katering/ Masakan/ Pembuatan Pastri",
+        "WebId": "26c52837-2c8a-44f3-b3ad-2329d8a679c0"
+      },
+      {
+        "$type": "Bespoke.epsikologi_ibkrecommendation.Domain.BidangPengajian, epsikologi.IbkRecommendation",
+        "Text": "-Farmasi -Pengurusan Sumber Manusia/ Hartanah/ Tenaga/ Sistem Teknologi -Sains Keselamatan Pekerjaan & Teknologi -Penyiaran Radio & Televisyen -Latihan Ekuin -Hiasan Dalaman",
+        "WebId": "d5542e2f-f8d6-4f2e-bd34-6d59049e20f5"
+      }
+    ]
+  },
+  "CreatedBy": "admin",
+  "Id": "PMI-PIM",
+  "CreatedDate": "2015-07-31T18:25:23.2766897+08:00",
+  "ChangedBy": "admin",
+  "ChangedDate": "2015-07-31T18:25:23.2691851+08:00",
+  "WebId": "0280e894-9a26-4cb5-bbb8-2637fe1f770a"
+}

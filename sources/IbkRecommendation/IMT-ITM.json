@@ -1,0 +1,127 @@
+{
+  "$type": "Bespoke.epsikologi_ibkrecommendation.Domain.IbkRecommendation, epsikologi.IbkRecommendation",
+  "Kod": "IMT/ITM",
+  "KerjayaCollection": {
+    "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.epsikologi_ibkrecommendation.Domain.Kerjaya, epsikologi.IbkRecommendation]], domain.sph",
+    "$values": [
+      {
+        "$type": "Bespoke.epsikologi_ibkrecommendation.Domain.Kerjaya, epsikologi.IbkRecommendation",
+        "Text": "-Pengarah:- Tabung Pembangunan/ Perkhidmatan Sosial/ Hal Ehwal Pelajar/ Perkhidmatan Pesakit Luar -Pengarah:- Institusi Penyelidikan/ Program Pendidikan/  Rancangan Pendidikan Radio & Televisyen/ Media/ Radio/ Agensi Pengedaran ",
+        "Warna": null,
+        "WebId": "42edfdd2-405c-415c-9c29-9599ae9facd6"
+      },
+      {
+        "$type": "Bespoke.epsikologi_ibkrecommendation.Domain.Kerjaya, epsikologi.IbkRecommendation",
+        "Text": "Akauntan Percukaian \t",
+        "Warna": null,
+        "WebId": "7b2961f7-dd0a-49a4-82b9-b63c9df044cd"
+      },
+      {
+        "$type": "Bespoke.epsikologi_ibkrecommendation.Domain.Kerjaya, epsikologi.IbkRecommendation",
+        "Text": "Pakar Telekomunikasi \t",
+        "Warna": null,
+        "WebId": "dc86f406-bdcd-4598-8ad0-0d3e07d5c76b"
+      },
+      {
+        "$type": "Bespoke.epsikologi_ibkrecommendation.Domain.Kerjaya, epsikologi.IbkRecommendation",
+        "Text": "-Pengurus:- Perniagaan/ Pengedaran/ Kredit & Kutipan -Pengurus:- Ladang Ternakan Susu -Pengurus:- Pusat Penjagaan Harian -Pengurus:- Perjawatan -Pengurus:- Pejabat Insuran/ Kedai Kecantikan/ Kondominium/ Kelab Golf/ Pentas/ Stesyen Keretapi/ Cawangan Kedai ",
+        "Warna": null,
+        "WebId": "78ed9087-b8c4-4ec0-a40c-f2f4b0d94f73"
+      },
+      {
+        "$type": "Bespoke.epsikologi_ibkrecommendation.Domain.Kerjaya, epsikologi.IbkRecommendation",
+        "Text": "Penerbit Eksekutif Promosi",
+        "Warna": null,
+        "WebId": "af67a814-ac11-47c4-8632-c411eec8f0bc"
+      },
+      {
+        "$type": "Bespoke.epsikologi_ibkrecommendation.Domain.Kerjaya, epsikologi.IbkRecommendation",
+        "Text": "-Perancang Kewangan/ Pemeriksa Tuntutan -Pentadbir Tempat Sejarah -Pendaftar Kolej & Universiti -Perunding Keselamatan/ Ketua Detektif/ Penyiasat Pusat Membeli Belah -Inspektor Keselamatan & Kesihatan Pekerjaan",
+        "Warna": null,
+        "WebId": "66d0016e-a061-447c-b12f-da7813332286"
+      },
+      {
+        "$type": "Bespoke.epsikologi_ibkrecommendation.Domain.Kerjaya, epsikologi.IbkRecommendation",
+        "Text": "Penyelia:- Penebat Bangunan/ Pengedaran/ Kawalan Asap/ Telekomunikasi",
+        "Warna": null,
+        "WebId": "871b5718-cf2f-4905-8ea4-2bfc90388cdc"
+      },
+      {
+        "$type": "Bespoke.epsikologi_ibkrecommendation.Domain.Kerjaya, epsikologi.IbkRecommendation",
+        "Text": "Ketua Juruwang",
+        "Warna": null,
+        "WebId": "abe685d0-e058-4f44-9dbc-4d01bc912304"
+      },
+      {
+        "$type": "Bespoke.epsikologi_ibkrecommendation.Domain.Kerjaya, epsikologi.IbkRecommendation",
+        "Text": "Wakil:- Perkhidmatan Pelanggan/ Hubungan Pekerja-Majikan",
+        "Warna": null,
+        "WebId": "2058ea22-ca45-4221-984d-45e662bc99e8"
+      },
+      {
+        "$type": "Bespoke.epsikologi_ibkrecommendation.Domain.Kerjaya, epsikologi.IbkRecommendation",
+        "Text": "-Pembantu Pentadbiran -Pembantu Terapi Fizikal ",
+        "Warna": null,
+        "WebId": "7856b14b-f6b6-4fb4-8b41-11abf79bbdf0"
+      },
+      {
+        "$type": "Bespoke.epsikologi_ibkrecommendation.Domain.Kerjaya, epsikologi.IbkRecommendation",
+        "Text": "Pengawal:- Peribadi/ Keselamatan/ Kewangan",
+        "Warna": null,
+        "WebId": "432de1a4-cdff-4a61-b851-a601a0309167"
+      },
+      {
+        "$type": "Bespoke.epsikologi_ibkrecommendation.Domain.Kerjaya, epsikologi.IbkRecommendation",
+        "Text": "Agen:- Pelancongan/ Jualan Insuran/ Hartanah \t",
+        "Warna": null,
+        "WebId": "6dd27ffc-0837-4031-9ecf-1a44740a9a43"
+      }
+    ]
+  },
+  "BidangPengajianCollection": {
+    "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.epsikologi_ibkrecommendation.Domain.BidangPengajian, epsikologi.IbkRecommendation]], domain.sph",
+    "$values": [
+      {
+        "$type": "Bespoke.epsikologi_ibkrecommendation.Domain.BidangPengajian, epsikologi.IbkRecommendation",
+        "Text": "-Pentadbiran/ Setiausaha Eksekutif/ Penyeliaan Pejabat -Pentadbiran Sistem Kesihatan/ Perkhidmatan Kesihatan/ Kesihatan Pekerjaan & Kebersihan Industri/ Penyeliaan Wad @ Unit Kesihatan/ Koordinator Unit Kesihatan -Penyiaran Radio & Televisyen\t",
+        "WebId": "8916b4ab-2c6c-4d7c-8767-ab78d0730fdb"
+      },
+      {
+        "$type": "Bespoke.epsikologi_ibkrecommendation.Domain.BidangPengajian, epsikologi.IbkRecommendation",
+        "Text": "Perancang Kewangan/ Kewangan Awam",
+        "WebId": "52bcb482-fff1-4e6b-a524-ebd53825e32f"
+      },
+      {
+        "$type": "Bespoke.epsikologi_ibkrecommendation.Domain.BidangPengajian, epsikologi.IbkRecommendation",
+        "Text": "Perkhidmatan/ Risiko & Pemasaran Insuran/ Pemasaran Perkhidmatan @ Perniagaan Antarabangsa/ Pelaburan & Sekuriti",
+        "WebId": "35573f7b-c4f0-4a75-b417-f7b6eb3d70fc"
+      },
+      {
+        "$type": "Bespoke.epsikologi_ibkrecommendation.Domain.BidangPengajian, epsikologi.IbkRecommendation",
+        "Text": "Perkhidmatan Keselamatan & Pencegahan Kehilangan  \t",
+        "WebId": "2490b52b-a6c4-4a01-bc7d-86e21a62af97"
+      },
+      {
+        "$type": "Bespoke.epsikologi_ibkrecommendation.Domain.BidangPengajian, epsikologi.IbkRecommendation",
+        "Text": "Pemasaran Pengurusan & Perancangan Pemasaran Perkhidmatan/ Pemasaran Rekreasi & Layanan Mesra ",
+        "WebId": "4c5f9f5a-c8e0-4840-9936-a02471c6afe4"
+      },
+      {
+        "$type": "Bespoke.epsikologi_ibkrecommendation.Domain.BidangPengajian, epsikologi.IbkRecommendation",
+        "Text": "Perhotelan/ Risiko & Pemasaran Insuran/ Pelaburan & Sekuriti/ Promosi Pelancongan/ Pelancongan",
+        "WebId": "db998d88-60fb-4827-9a55-9152f2567e83"
+      },
+      {
+        "$type": "Bespoke.epsikologi_ibkrecommendation.Domain.BidangPengajian, epsikologi.IbkRecommendation",
+        "Text": "Kajian Taman Rekreasi",
+        "WebId": "72811141-4aa7-4af5-a34f-73ec96b5c7dd"
+      }
+    ]
+  },
+  "CreatedBy": "admin",
+  "Id": "IMT-ITM",
+  "CreatedDate": "2015-07-31T19:30:37.8028793+08:00",
+  "ChangedBy": "admin",
+  "ChangedDate": "2015-07-31T19:30:37.791872+08:00",
+  "WebId": "a3d4e2c2-7d51-4cd1-ef96-1d203a776d07"
+}

@@ -1,0 +1,49 @@
+{
+  "$type": "Bespoke.epsikologi_ibkrecommendation.Domain.IbkRecommendation, epsikologi.IbkRecommendation",
+  "Kod": "IPK/IKP",
+  "KerjayaCollection": {
+    "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.epsikologi_ibkrecommendation.Domain.Kerjaya, epsikologi.IbkRecommendation]], domain.sph",
+    "$values": [
+      {
+        "$type": "Bespoke.epsikologi_ibkrecommendation.Domain.Kerjaya, epsikologi.IbkRecommendation",
+        "Text": "Pengurus Lokasi",
+        "Warna": null,
+        "WebId": "27cdd485-8be9-443b-ad43-8fc82cfc3514"
+      },
+      {
+        "$type": "Bespoke.epsikologi_ibkrecommendation.Domain.Kerjaya, epsikologi.IbkRecommendation",
+        "Text": "Penguasa:- Taman/ Pelabuhan/ Pengurusan Bangunan",
+        "Warna": null,
+        "WebId": "ecf76274-cb08-42ca-bfb6-d865ad0b3225"
+      },
+      {
+        "$type": "Bespoke.epsikologi_ibkrecommendation.Domain.Kerjaya, epsikologi.IbkRecommendation",
+        "Text": "Penyelia:- Perkhidmatan/ Jualan/ LojI",
+        "Warna": null,
+        "WebId": "fc5e5990-c49a-4577-81e2-d384ee57a133"
+      },
+      {
+        "$type": "Bespoke.epsikologi_ibkrecommendation.Domain.Kerjaya, epsikologi.IbkRecommendation",
+        "Text": "Juruteknik Peralatan Keretapi",
+        "Warna": null,
+        "WebId": "a4d5ed7b-46cb-4d6a-a479-8c006c13a742"
+      }
+    ]
+  },
+  "BidangPengajianCollection": {
+    "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.epsikologi_ibkrecommendation.Domain.BidangPengajian, epsikologi.IbkRecommendation]], domain.sph",
+    "$values": [
+      {
+        "$type": "Bespoke.epsikologi_ibkrecommendation.Domain.BidangPengajian, epsikologi.IbkRecommendation",
+        "Text": "Pemasaran/ Pengurusan/ Pentadbiran",
+        "WebId": "c732f372-f78f-4239-8605-f14c1573fdef"
+      }
+    ]
+  },
+  "CreatedBy": "admin",
+  "Id": "IPK-IKP",
+  "CreatedDate": "2015-07-31T19:16:04.2708936+08:00",
+  "ChangedBy": "admin",
+  "ChangedDate": "2015-07-31T19:16:04.2638881+08:00",
+  "WebId": "365639d6-289d-41e2-b239-f884b12aa35b"
+}
