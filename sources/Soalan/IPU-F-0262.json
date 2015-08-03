@@ -3,14 +3,14 @@
   "NoRujukan": "0262",
   "SoalanNo": "0262",
   "TeksSoalan": "Saya cenderung untuk berkhayal atau mengelamun tentang perkara yang tidak mungkin terlaksana atau terjadi.",
-  "SeksyenSoalan": "F",
+  "SeksyenSoalan": "",
   "PilihanJawapanCollection": {
     "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan]], domain.sph",
     "$values": [
       {
         "$type": "Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan",
         "Teks": "Ya",
-        "Nilai": 1,
+        "Nilai": 2,
         "WebId": null
       },
       {
@@ -21,14 +21,14 @@
       }
     ]
   },
-  "Trait": "NA",
+  "Trait": "F",
   "NamaUjian": "Indikator Perwatakan Unggul (IPU)",
-  "Susunan": 1.0,
+  "Susunan": 152.0,
   "Kategori": null,
   "CreatedBy": "admin",
   "Id": "IPU-F-0262",
   "CreatedDate": "2015-07-06T11:24:42.2250535+08:00",
-  "ChangedBy": "admin",
-  "ChangedDate": "2015-07-06T11:24:42.2245534+08:00",
+  "ChangedBy": "urusetia1",
+  "ChangedDate": "2015-08-03T15:18:27.9595632+08:00",
   "WebId": "c2b1ecec-9800-43cb-96b3-743944a359e1"
 }

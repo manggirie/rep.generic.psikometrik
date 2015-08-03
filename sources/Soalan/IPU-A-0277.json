@@ -3,14 +3,14 @@
   "NoRujukan": "0277",
   "SoalanNo": "0277",
   "TeksSoalan": "Saya dianggap sebagai seorang yang mudah terasa.",
-  "SeksyenSoalan": "A",
+  "SeksyenSoalan": "",
   "PilihanJawapanCollection": {
     "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan]], domain.sph",
     "$values": [
       {
         "$type": "Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan",
         "Teks": "Ya",
-        "Nilai": 1,
+        "Nilai": 2,
         "WebId": null
       },
       {
@@ -21,14 +21,14 @@
       }
     ]
   },
-  "Trait": "NA",
+  "Trait": "A",
   "NamaUjian": "Indikator Perwatakan Unggul (IPU)",
-  "Susunan": 1.0,
+  "Susunan": 167.0,
   "Kategori": null,
   "CreatedBy": "admin",
   "Id": "IPU-A-0277",
   "CreatedDate": "2015-07-06T11:24:42.3211213+08:00",
-  "ChangedBy": "admin",
-  "ChangedDate": "2015-07-06T11:24:42.3206212+08:00",
+  "ChangedBy": "urusetia1",
+  "ChangedDate": "2015-08-03T15:23:26.3402521+08:00",
   "WebId": "d0b71d91-ef85-4a13-b8fd-73f6a98a4bc1"
 }

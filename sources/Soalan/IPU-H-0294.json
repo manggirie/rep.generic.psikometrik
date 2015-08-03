@@ -3,32 +3,32 @@
   "NoRujukan": "0294",
   "SoalanNo": "0294",
   "TeksSoalan": "Saya lambat membuat pengaduan walaupun apabila diri saya disusahkan atau diperalatkan.",
-  "SeksyenSoalan": "H",
+  "SeksyenSoalan": "",
   "PilihanJawapanCollection": {
     "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan]], domain.sph",
     "$values": [
       {
         "$type": "Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan",
         "Teks": "Ya",
-        "Nilai": 1,
+        "Nilai": 0,
         "WebId": null
       },
       {
         "$type": "Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan",
         "Teks": "Tidak",
-        "Nilai": 0,
+        "Nilai": 2,
         "WebId": null
       }
     ]
   },
-  "Trait": "NA",
+  "Trait": "H",
   "NamaUjian": "Indikator Perwatakan Unggul (IPU)",
-  "Susunan": 1.0,
+  "Susunan": 184.0,
   "Kategori": null,
   "CreatedBy": "admin",
   "Id": "IPU-H-0294",
   "CreatedDate": "2015-07-06T11:24:42.4542153+08:00",
-  "ChangedBy": "admin",
-  "ChangedDate": "2015-07-06T11:24:42.4537147+08:00",
+  "ChangedBy": "urusetia1",
+  "ChangedDate": "2015-08-03T15:29:43.7011353+08:00",
   "WebId": "6c439afc-e62f-49b6-8ff6-a904e5d47102"
 }
