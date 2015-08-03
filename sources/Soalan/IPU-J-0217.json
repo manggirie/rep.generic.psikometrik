@@ -3,32 +3,32 @@
   "NoRujukan": "0217",
   "SoalanNo": "0217",
   "TeksSoalan": "Peradaban saya di meja makan semasa di rumah tidak sebaik jika saya bersama orang lain.",
-  "SeksyenSoalan": "J",
+  "SeksyenSoalan": "",
   "PilihanJawapanCollection": {
     "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan]], domain.sph",
     "$values": [
       {
         "$type": "Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan",
         "Teks": "Ya",
-        "Nilai": 1,
+        "Nilai": 0,
         "WebId": null
       },
       {
         "$type": "Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan",
         "Teks": "Tidak",
-        "Nilai": 0,
+        "Nilai": 1,
         "WebId": null
       }
     ]
   },
-  "Trait": "NA",
+  "Trait": "J",
   "NamaUjian": "Indikator Perwatakan Unggul (IPU)",
-  "Susunan": 1.0,
+  "Susunan": 107.0,
   "Kategori": null,
   "CreatedBy": "admin",
   "Id": "IPU-J-0217",
   "CreatedDate": "2015-07-06T11:24:41.9278433+08:00",
-  "ChangedBy": "admin",
-  "ChangedDate": "2015-07-06T11:24:41.926843+08:00",
+  "ChangedBy": "urusetia1",
+  "ChangedDate": "2015-08-03T14:43:35.1002982+08:00",
   "WebId": "3166ce6e-6d85-4cdc-8665-ff23e9c4b7a4"
 }

@@ -3,14 +3,14 @@
   "NoRujukan": "0219",
   "SoalanNo": "0219",
   "TeksSoalan": "Saya kerap berasa kurang keyakinan diri.",
-  "SeksyenSoalan": "B",
+  "SeksyenSoalan": "",
   "PilihanJawapanCollection": {
     "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan]], domain.sph",
     "$values": [
       {
         "$type": "Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan",
         "Teks": "Ya",
-        "Nilai": 1,
+        "Nilai": 2,
         "WebId": null
       },
       {
@@ -21,14 +21,14 @@
       }
     ]
   },
-  "Trait": "NA",
+  "Trait": "B",
   "NamaUjian": "Indikator Perwatakan Unggul (IPU)",
-  "Susunan": 1.0,
+  "Susunan": 109.0,
   "Kategori": null,
   "CreatedBy": "admin",
   "Id": "IPU-B-0219",
   "CreatedDate": "2015-07-06T11:24:41.9468567+08:00",
-  "ChangedBy": "admin",
-  "ChangedDate": "2015-07-06T11:24:41.9468567+08:00",
+  "ChangedBy": "urusetia1",
+  "ChangedDate": "2015-08-03T14:44:22.1119989+08:00",
   "WebId": "51a36bfe-fd09-4396-a4da-f2ad5ebf449d"
 }

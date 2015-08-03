@@ -3,14 +3,14 @@
   "NoRujukan": "0245",
   "SoalanNo": "0245",
   "TeksSoalan": "Saya cenderung menguasai orang yang berada di sekeliling saya.",
-  "SeksyenSoalan": "H",
+  "SeksyenSoalan": "",
   "PilihanJawapanCollection": {
     "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan]], domain.sph",
     "$values": [
       {
         "$type": "Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan",
         "Teks": "Ya",
-        "Nilai": 1,
+        "Nilai": 2,
         "WebId": null
       },
       {
@@ -21,14 +21,14 @@
       }
     ]
   },
-  "Trait": "NA",
+  "Trait": "H",
   "NamaUjian": "Indikator Perwatakan Unggul (IPU)",
-  "Susunan": 1.0,
+  "Susunan": 135.0,
   "Kategori": null,
   "CreatedBy": "admin",
   "Id": "IPU-H-0245",
   "CreatedDate": "2015-07-06T11:24:42.1184781+08:00",
-  "ChangedBy": "admin",
-  "ChangedDate": "2015-07-06T11:24:42.1184781+08:00",
+  "ChangedBy": "urusetia1",
+  "ChangedDate": "2015-08-03T14:55:04.6292442+08:00",
   "WebId": "8324faa3-eea3-4c18-9f59-ce9e7ba68106"
 }

@@ -3,14 +3,14 @@
   "NoRujukan": "0246",
   "SoalanNo": "0246",
   "TeksSoalan": "Saya cenderung berfikir dahulu sebelum bertindak.",
-  "SeksyenSoalan": "I",
+  "SeksyenSoalan": "",
   "PilihanJawapanCollection": {
     "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan]], domain.sph",
     "$values": [
       {
         "$type": "Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan",
         "Teks": "Ya",
-        "Nilai": 1,
+        "Nilai": 2,
         "WebId": null
       },
       {
@@ -21,14 +21,14 @@
       }
     ]
   },
-  "Trait": "NA",
+  "Trait": "I",
   "NamaUjian": "Indikator Perwatakan Unggul (IPU)",
-  "Susunan": 1.0,
+  "Susunan": 136.0,
   "Kategori": null,
   "CreatedBy": "admin",
   "Id": "IPU-I-0246",
   "CreatedDate": "2015-07-06T11:24:42.1229815+08:00",
-  "ChangedBy": "admin",
-  "ChangedDate": "2015-07-06T11:24:42.1224809+08:00",
+  "ChangedBy": "urusetia1",
+  "ChangedDate": "2015-08-03T14:55:57.6545462+08:00",
   "WebId": "b808e5c2-52a8-48d9-b47d-fae80d291482"
 }

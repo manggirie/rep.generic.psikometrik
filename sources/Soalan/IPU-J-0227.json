@@ -3,32 +3,32 @@
   "NoRujukan": "0227",
   "SoalanNo": "0227",
   "TeksSoalan": "Sekiranya saya boleh menonton wayang tanpa membayar dan tidak pula dilihat oleh orang lain, saya mungkin akan melakukannya.",
-  "SeksyenSoalan": "J",
+  "SeksyenSoalan": "",
   "PilihanJawapanCollection": {
     "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan]], domain.sph",
     "$values": [
       {
         "$type": "Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan",
         "Teks": "Ya",
-        "Nilai": 1,
+        "Nilai": 0,
         "WebId": null
       },
       {
         "$type": "Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan",
         "Teks": "Tidak",
-        "Nilai": 0,
+        "Nilai": 1,
         "WebId": null
       }
     ]
   },
-  "Trait": "NA",
+  "Trait": "J",
   "NamaUjian": "Indikator Perwatakan Unggul (IPU)",
-  "Susunan": 1.0,
+  "Susunan": 117.0,
   "Kategori": null,
   "CreatedBy": "admin",
   "Id": "IPU-J-0227",
   "CreatedDate": "2015-07-06T11:24:42.0154058+08:00",
-  "ChangedBy": "admin",
-  "ChangedDate": "2015-07-06T11:24:42.0149052+08:00",
+  "ChangedBy": "urusetia1",
+  "ChangedDate": "2015-08-03T14:47:10.4478308+08:00",
   "WebId": "efee4791-0c13-47e7-936f-558ae67d8ea9"
 }
