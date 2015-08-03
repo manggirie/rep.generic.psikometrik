@@ -3,32 +3,32 @@
   "NoRujukan": "0179",
   "SoalanNo": "0179",
   "TeksSoalan": "Saya mudah terpengaruh dengan tawaran yang menarik.",
-  "SeksyenSoalan": "I",
+  "SeksyenSoalan": "",
   "PilihanJawapanCollection": {
     "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan]], domain.sph",
     "$values": [
       {
         "$type": "Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan",
         "Teks": "Ya",
-        "Nilai": 1,
+        "Nilai": 0,
         "WebId": null
       },
       {
         "$type": "Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan",
         "Teks": "Tidak",
-        "Nilai": 0,
+        "Nilai": 2,
         "WebId": null
       }
     ]
   },
-  "Trait": "NA",
+  "Trait": "I",
   "NamaUjian": "Indikator Perwatakan Unggul (IPU)",
-  "Susunan": 1.0,
+  "Susunan": 69.0,
   "Kategori": null,
   "CreatedBy": "admin",
   "Id": "IPU-I-0179",
   "CreatedDate": "2015-07-06T11:24:41.5135509+08:00",
-  "ChangedBy": "admin",
-  "ChangedDate": "2015-07-06T11:24:41.5130503+08:00",
+  "ChangedBy": "urusetia1",
+  "ChangedDate": "2015-08-03T13:53:06.6874872+08:00",
   "WebId": "57730a7e-1c3f-40f6-8951-f124e6f96c6b"
 }
