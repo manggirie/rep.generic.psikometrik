@@ -3,14 +3,14 @@
   "NoRujukan": "0248",
   "SoalanNo": "0248",
   "TeksSoalan": "Kadangkala saya berasa lesu akibat masalah emosi.",
-  "SeksyenSoalan": "B",
+  "SeksyenSoalan": "",
   "PilihanJawapanCollection": {
     "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan]], domain.sph",
     "$values": [
       {
         "$type": "Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan",
         "Teks": "Ya",
-        "Nilai": 1,
+        "Nilai": 2,
         "WebId": null
       },
       {
@@ -21,14 +21,14 @@
       }
     ]
   },
-  "Trait": "NA",
+  "Trait": "B",
   "NamaUjian": "Indikator Perwatakan Unggul (IPU)",
-  "Susunan": 1.0,
+  "Susunan": 138.0,
   "Kategori": null,
   "CreatedBy": "admin",
   "Id": "IPU-B-0248",
   "CreatedDate": "2015-07-06T11:24:42.1349895+08:00",
-  "ChangedBy": "admin",
-  "ChangedDate": "2015-07-06T11:24:42.1339892+08:00",
+  "ChangedBy": "urusetia1",
+  "ChangedDate": "2015-08-03T14:56:38.6996503+08:00",
   "WebId": "addb1ea6-cbec-48da-9b96-4f39f616d70d"
 }

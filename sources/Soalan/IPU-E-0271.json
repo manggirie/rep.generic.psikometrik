@@ -3,14 +3,14 @@
   "NoRujukan": "0271",
   "SoalanNo": "0271",
   "TeksSoalan": "Saya akan berbuat apa sahaja yang mungkin untuk melindungi binatang daripada dianiaya.",
-  "SeksyenSoalan": "E",
+  "SeksyenSoalan": "",
   "PilihanJawapanCollection": {
     "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan]], domain.sph",
     "$values": [
       {
         "$type": "Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan",
         "Teks": "Ya",
-        "Nilai": 1,
+        "Nilai": 2,
         "WebId": null
       },
       {
@@ -21,14 +21,14 @@
       }
     ]
   },
-  "Trait": "NA",
+  "Trait": "E",
   "NamaUjian": "Indikator Perwatakan Unggul (IPU)",
-  "Susunan": 1.0,
+  "Susunan": 161.0,
   "Kategori": null,
   "CreatedBy": "admin",
   "Id": "IPU-E-0271",
   "CreatedDate": "2015-07-06T11:24:42.283094+08:00",
-  "ChangedBy": "admin",
-  "ChangedDate": "2015-07-06T11:24:42.2825939+08:00",
+  "ChangedBy": "urusetia1",
+  "ChangedDate": "2015-08-03T15:21:45.6682521+08:00",
   "WebId": "ebcdc58d-7fd6-4aff-8df5-019eee520c82"
 }

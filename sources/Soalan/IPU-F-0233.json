@@ -3,14 +3,14 @@
   "NoRujukan": "0233",
   "SoalanNo": "0233",
   "TeksSoalan": "Saya kerap salah sangka apa yang orang lain buat dan perkatakan.",
-  "SeksyenSoalan": "F",
+  "SeksyenSoalan": "",
   "PilihanJawapanCollection": {
     "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan]], domain.sph",
     "$values": [
       {
         "$type": "Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan",
         "Teks": "Ya",
-        "Nilai": 1,
+        "Nilai": 2,
         "WebId": null
       },
       {
@@ -21,14 +21,14 @@
       }
     ]
   },
-  "Trait": "NA",
+  "Trait": "F",
   "NamaUjian": "Indikator Perwatakan Unggul (IPU)",
-  "Susunan": 1.0,
+  "Susunan": 123.0,
   "Kategori": null,
   "CreatedBy": "admin",
   "Id": "IPU-F-0233",
   "CreatedDate": "2015-07-06T11:24:42.0514321+08:00",
-  "ChangedBy": "admin",
-  "ChangedDate": "2015-07-06T11:24:42.0509306+08:00",
+  "ChangedBy": "urusetia1",
+  "ChangedDate": "2015-08-03T14:49:51.7499594+08:00",
   "WebId": "22f5eb48-cec9-4463-bce1-152a548be493"
 }

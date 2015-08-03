@@ -3,14 +3,14 @@
   "NoRujukan": "0216",
   "SoalanNo": "0216",
   "TeksSoalan": "Saya meletakkan barang-barang saya di tempat khas yang telah disediakan.",
-  "SeksyenSoalan": "I",
+  "SeksyenSoalan": "",
   "PilihanJawapanCollection": {
     "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan]], domain.sph",
     "$values": [
       {
         "$type": "Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan",
         "Teks": "Ya",
-        "Nilai": 1,
+        "Nilai": 2,
         "WebId": null
       },
       {
@@ -21,14 +21,14 @@
       }
     ]
   },
-  "Trait": "NA",
+  "Trait": "I",
   "NamaUjian": "Indikator Perwatakan Unggul (IPU)",
-  "Susunan": 1.0,
+  "Susunan": 106.0,
   "Kategori": null,
   "CreatedBy": "admin",
   "Id": "IPU-I-0216",
   "CreatedDate": "2015-07-06T11:24:41.9198376+08:00",
-  "ChangedBy": "admin",
-  "ChangedDate": "2015-07-06T11:24:41.919337+08:00",
+  "ChangedBy": "urusetia1",
+  "ChangedDate": "2015-08-03T14:43:11.7409625+08:00",
   "WebId": "91cb8e00-c648-49de-ba0e-212b20709575"
 }

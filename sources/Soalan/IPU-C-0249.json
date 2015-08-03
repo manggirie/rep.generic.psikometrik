@@ -3,32 +3,32 @@
   "NoRujukan": "0249",
   "SoalanNo": "0249",
   "TeksSoalan": "Saya hanya bergaul dengan seorang atau dua kawan sahaja.",
-  "SeksyenSoalan": "C",
+  "SeksyenSoalan": "",
   "PilihanJawapanCollection": {
     "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan]], domain.sph",
     "$values": [
       {
         "$type": "Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan",
         "Teks": "Ya",
-        "Nilai": 1,
+        "Nilai": 0,
         "WebId": null
       },
       {
         "$type": "Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan",
         "Teks": "Tidak",
-        "Nilai": 0,
+        "Nilai": 2,
         "WebId": null
       }
     ]
   },
-  "Trait": "NA",
+  "Trait": "C",
   "NamaUjian": "Indikator Perwatakan Unggul (IPU)",
-  "Susunan": 1.0,
+  "Susunan": 139.0,
   "Kategori": null,
   "CreatedBy": "admin",
   "Id": "IPU-C-0249",
   "CreatedDate": "2015-07-06T11:24:42.1434957+08:00",
-  "ChangedBy": "admin",
-  "ChangedDate": "2015-07-06T11:24:42.1429956+08:00",
+  "ChangedBy": "urusetia1",
+  "ChangedDate": "2015-08-03T14:56:58.8366638+08:00",
   "WebId": "ca207b57-9292-4f58-9686-8cc26fcb7b91"
 }
