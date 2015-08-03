@@ -3,32 +3,32 @@
   "NoRujukan": "0186",
   "SoalanNo": "0186",
   "TeksSoalan": "Saya cenderung menerima sesuatu perkara daripada membuat bantahan walaupun dirasakan tidak adil.",
-  "SeksyenSoalan": "G",
+  "SeksyenSoalan": "",
   "PilihanJawapanCollection": {
     "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan]], domain.sph",
     "$values": [
       {
         "$type": "Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan",
         "Teks": "Ya",
-        "Nilai": 1,
+        "Nilai": 0,
         "WebId": null
       },
       {
         "$type": "Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan",
         "Teks": "Tidak",
-        "Nilai": 0,
+        "Nilai": 2,
         "WebId": null
       }
     ]
   },
-  "Trait": "NA",
+  "Trait": "G",
   "NamaUjian": "Indikator Perwatakan Unggul (IPU)",
-  "Susunan": 1.0,
+  "Susunan": 76.0,
   "Kategori": null,
   "CreatedBy": "admin",
   "Id": "IPU-G-0186",
   "CreatedDate": "2015-07-06T11:24:41.5635862+08:00",
-  "ChangedBy": "admin",
-  "ChangedDate": "2015-07-06T11:24:41.563086+08:00",
+  "ChangedBy": "urusetia1",
+  "ChangedDate": "2015-08-03T14:06:34.9613065+08:00",
   "WebId": "43cecca2-8625-4b44-8f84-31300e45ffd1"
 }

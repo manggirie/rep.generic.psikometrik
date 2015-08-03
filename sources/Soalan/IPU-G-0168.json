@@ -3,14 +3,14 @@
   "NoRujukan": "0168",
   "SoalanNo": "0168",
   "TeksSoalan": "Saya suka mengawal dan menyelia orang lain.",
-  "SeksyenSoalan": "G",
+  "SeksyenSoalan": "",
   "PilihanJawapanCollection": {
     "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan]], domain.sph",
     "$values": [
       {
         "$type": "Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan",
         "Teks": "Ya",
-        "Nilai": 1,
+        "Nilai": 2,
         "WebId": null
       },
       {
@@ -21,14 +21,14 @@
       }
     ]
   },
-  "Trait": "NA",
+  "Trait": "G",
   "NamaUjian": "Indikator Perwatakan Unggul (IPU)",
-  "Susunan": 1.0,
+  "Susunan": 58.0,
   "Kategori": null,
   "CreatedBy": "admin",
   "Id": "IPU-G-0168",
   "CreatedDate": "2015-07-06T11:24:41.4169829+08:00",
-  "ChangedBy": "admin",
-  "ChangedDate": "2015-07-06T11:24:41.4169829+08:00",
+  "ChangedBy": "urusetia1",
+  "ChangedDate": "2015-08-03T13:35:35.9254215+08:00",
   "WebId": "44f1c3f2-9f3d-4867-8878-474fec2df023"
 }

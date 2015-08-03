@@ -3,14 +3,14 @@
   "NoRujukan": "0166",
   "SoalanNo": "0166",
   "TeksSoalan": "Saya cepat menyedari apabila seseorang memerlukan galakan atau kata-kata perangsang.",
-  "SeksyenSoalan": "E",
+  "SeksyenSoalan": "",
   "PilihanJawapanCollection": {
     "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan]], domain.sph",
     "$values": [
       {
         "$type": "Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan",
         "Teks": "Ya",
-        "Nilai": 1,
+        "Nilai": 2,
         "WebId": null
       },
       {
@@ -21,14 +21,14 @@
       }
     ]
   },
-  "Trait": "NA",
+  "Trait": "E",
   "NamaUjian": "Indikator Perwatakan Unggul (IPU)",
-  "Susunan": 1.0,
+  "Susunan": 56.0,
   "Kategori": null,
   "CreatedBy": "admin",
   "Id": "IPU-E-0166",
   "CreatedDate": "2015-07-06T11:24:41.3934661+08:00",
-  "ChangedBy": "admin",
-  "ChangedDate": "2015-07-06T11:24:41.3919657+08:00",
+  "ChangedBy": "urusetia1",
+  "ChangedDate": "2015-08-03T13:34:54.816311+08:00",
   "WebId": "19cf31b8-f424-44c5-80c4-a4c11690eee3"
 }

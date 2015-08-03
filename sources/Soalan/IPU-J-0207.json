@@ -3,32 +3,32 @@
   "NoRujukan": "0207",
   "SoalanNo": "0207",
   "TeksSoalan": "Ada masanya saya marah.",
-  "SeksyenSoalan": "J",
+  "SeksyenSoalan": "",
   "PilihanJawapanCollection": {
     "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan]], domain.sph",
     "$values": [
       {
         "$type": "Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan",
         "Teks": "Ya",
-        "Nilai": 1,
+        "Nilai": 0,
         "WebId": null
       },
       {
         "$type": "Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan",
         "Teks": "Tidak",
-        "Nilai": 0,
+        "Nilai": 1,
         "WebId": null
       }
     ]
   },
-  "Trait": "NA",
+  "Trait": "J",
   "NamaUjian": "Indikator Perwatakan Unggul (IPU)",
-  "Susunan": 1.0,
+  "Susunan": 97.0,
   "Kategori": null,
   "CreatedBy": "admin",
   "Id": "IPU-J-0207",
   "CreatedDate": "2015-07-06T11:24:41.8387809+08:00",
-  "ChangedBy": "admin",
-  "ChangedDate": "2015-07-06T11:24:41.8377802+08:00",
+  "ChangedBy": "urusetia1",
+  "ChangedDate": "2015-08-03T14:15:40.5968646+08:00",
   "WebId": "99b3453d-994c-41fe-b3f8-b585fdd68605"
 }

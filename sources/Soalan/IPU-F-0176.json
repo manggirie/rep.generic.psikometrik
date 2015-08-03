@@ -3,14 +3,14 @@
   "NoRujukan": "0176",
   "SoalanNo": "0176",
   "TeksSoalan": "Saya mudah berasa malu.",
-  "SeksyenSoalan": "F",
+  "SeksyenSoalan": "",
   "PilihanJawapanCollection": {
     "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan]], domain.sph",
     "$values": [
       {
         "$type": "Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan",
         "Teks": "Ya",
-        "Nilai": 1,
+        "Nilai": 2,
         "WebId": null
       },
       {
@@ -21,14 +21,14 @@
       }
     ]
   },
-  "Trait": "NA",
+  "Trait": "F",
   "NamaUjian": "Indikator Perwatakan Unggul (IPU)",
-  "Susunan": 1.0,
+  "Susunan": 66.0,
   "Kategori": null,
   "CreatedBy": "admin",
   "Id": "IPU-F-0176",
   "CreatedDate": "2015-07-06T11:24:41.4890338+08:00",
-  "ChangedBy": "admin",
-  "ChangedDate": "2015-07-06T11:24:41.4880326+08:00",
+  "ChangedBy": "urusetia1",
+  "ChangedDate": "2015-08-03T13:51:39.5297723+08:00",
   "WebId": "e2ea753a-72e9-4c8a-a704-a8bfdc2c434e"
 }

@@ -3,14 +3,14 @@
   "NoRujukan": "0204",
   "SoalanNo": "0204",
   "TeksSoalan": "Saya bersedia mempertahankan hak saya.",
-  "SeksyenSoalan": "G",
+  "SeksyenSoalan": "",
   "PilihanJawapanCollection": {
     "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan]], domain.sph",
     "$values": [
       {
         "$type": "Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan",
         "Teks": "Ya",
-        "Nilai": 1,
+        "Nilai": 2,
         "WebId": null
       },
       {
@@ -21,14 +21,14 @@
       }
     ]
   },
-  "Trait": "NA",
+  "Trait": "G",
   "NamaUjian": "Indikator Perwatakan Unggul (IPU)",
-  "Susunan": 1.0,
+  "Susunan": 94.0,
   "Kategori": null,
   "CreatedBy": "admin",
   "Id": "IPU-G-0204",
   "CreatedDate": "2015-07-06T11:24:41.8187667+08:00",
-  "ChangedBy": "admin",
-  "ChangedDate": "2015-07-06T11:24:41.8182666+08:00",
+  "ChangedBy": "urusetia1",
+  "ChangedDate": "2015-08-03T14:14:29.7387795+08:00",
   "WebId": "9ebb6df9-10b9-43d4-b5b0-bf6bb418c940"
 }
