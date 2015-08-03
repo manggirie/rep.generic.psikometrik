@@ -67,7 +67,7 @@ namespace web.sph.App_Code
 
         var a = context.LoadOneAsync<IpuRecommendation>(x => x.Tret == "A" && x.NilaiMin <= int.Parse(ap.A) && int.Parse(ap.A) <= x.NilaiMax);
         var b = context.LoadOneAsync<IpuRecommendation>(x => x.Tret == "B" && x.NilaiMin <= int.Parse(bp.B) && int.Parse(bp.B) <= x.NilaiMax);
-        var c = context.LoadOneAsync<IpuRecommendation>(x => x.Tret == "B" && x.NilaiMin <= int.Parse(bp.C) && int.Parse(cp.C) <= x.NilaiMax);
+        var c = context.LoadOneAsync<IpuRecommendation>(x => x.Tret == "C" && x.NilaiMin <= int.Parse(bp.C) && int.Parse(cp.C) <= x.NilaiMax);
         var d = context.LoadOneAsync<IpuRecommendation>(x => x.Tret == "D" && x.NilaiMin <= int.Parse(dp.D) && int.Parse(dp.D) <= x.NilaiMax);
         var e = context.LoadOneAsync<IpuRecommendation>(x => x.Tret == "E" && x.NilaiMin <= int.Parse(ep.E) && int.Parse(ep.E) <= x.NilaiMax);
         var f = context.LoadOneAsync<IpuRecommendation>(x => x.Tret == "F" && x.NilaiMin <= int.Parse(fp.F) && int.Parse(fp.F) <= x.NilaiMax);

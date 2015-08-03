@@ -2,7 +2,11 @@
 @{
 	Layout = "_MasterPage.cshtml";
 }
+<style media="print">
 
+	table.table-page-break2 {page-break-after: always;}
+
+</style>
 <div style="height:40px"></div>
 @Html.Partial("_ipu.trait", Model.RecommendationA)
 <div style="height:40px"></div>
