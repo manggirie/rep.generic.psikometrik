@@ -3,14 +3,14 @@
   "NoRujukan": "0178",
   "SoalanNo": "0178",
   "TeksSoalan": "Saya cenderung untuk bertelagah.",
-  "SeksyenSoalan": "H",
+  "SeksyenSoalan": "",
   "PilihanJawapanCollection": {
     "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan]], domain.sph",
     "$values": [
       {
         "$type": "Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan",
         "Teks": "Ya",
-        "Nilai": 1,
+        "Nilai": 2,
         "WebId": null
       },
       {
@@ -21,14 +21,14 @@
       }
     ]
   },
-  "Trait": "NA",
+  "Trait": "H",
   "NamaUjian": "Indikator Perwatakan Unggul (IPU)",
-  "Susunan": 1.0,
+  "Susunan": 68.0,
   "Kategori": null,
   "CreatedBy": "admin",
   "Id": "IPU-H-0178",
   "CreatedDate": "2015-07-06T11:24:41.5035438+08:00",
-  "ChangedBy": "admin",
-  "ChangedDate": "2015-07-06T11:24:41.5030437+08:00",
+  "ChangedBy": "urusetia1",
+  "ChangedDate": "2015-08-03T13:52:42.3040491+08:00",
   "WebId": "80b502ed-1aa3-4420-aa03-b84ed6f07857"
 }

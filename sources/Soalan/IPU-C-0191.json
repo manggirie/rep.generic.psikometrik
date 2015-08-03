@@ -3,14 +3,14 @@
   "NoRujukan": "0191",
   "SoalanNo": "0191",
   "TeksSoalan": "Saya suka melayan tetamu di rumah.",
-  "SeksyenSoalan": "C",
+  "SeksyenSoalan": "",
   "PilihanJawapanCollection": {
     "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan]], domain.sph",
     "$values": [
       {
         "$type": "Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan",
         "Teks": "Ya",
-        "Nilai": 1,
+        "Nilai": 2,
         "WebId": null
       },
       {
@@ -21,14 +21,14 @@
       }
     ]
   },
-  "Trait": "NA",
+  "Trait": "C",
   "NamaUjian": "Indikator Perwatakan Unggul (IPU)",
-  "Susunan": 1.0,
+  "Susunan": 81.0,
   "Kategori": null,
   "CreatedBy": "admin",
   "Id": "IPU-C-0191",
   "CreatedDate": "2015-07-06T11:24:41.69618+08:00",
-  "ChangedBy": "admin",
-  "ChangedDate": "2015-07-06T11:24:41.6946787+08:00",
+  "ChangedBy": "urusetia1",
+  "ChangedDate": "2015-08-03T14:09:08.7546843+08:00",
   "WebId": "2e9a1aae-ec0c-4490-a45e-1d3447136a20"
 }

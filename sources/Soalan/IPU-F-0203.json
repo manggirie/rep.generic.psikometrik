@@ -3,14 +3,14 @@
   "NoRujukan": "0203",
   "SoalanNo": "0203",
   "TeksSoalan": "Saya cenderung untuk membalas dendam.",
-  "SeksyenSoalan": "F",
+  "SeksyenSoalan": "",
   "PilihanJawapanCollection": {
     "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan]], domain.sph",
     "$values": [
       {
         "$type": "Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan",
         "Teks": "Ya",
-        "Nilai": 1,
+        "Nilai": 2,
         "WebId": null
       },
       {
@@ -21,14 +21,14 @@
       }
     ]
   },
-  "Trait": "NA",
+  "Trait": "F",
   "NamaUjian": "Indikator Perwatakan Unggul (IPU)",
-  "Susunan": 1.0,
+  "Susunan": 93.0,
   "Kategori": null,
   "CreatedBy": "admin",
   "Id": "IPU-F-0203",
   "CreatedDate": "2015-07-06T11:24:41.8112612+08:00",
-  "ChangedBy": "admin",
-  "ChangedDate": "2015-07-06T11:24:41.8102605+08:00",
+  "ChangedBy": "urusetia1",
+  "ChangedDate": "2015-08-03T14:14:09.9858044+08:00",
   "WebId": "4e024ccb-d31f-4dbc-a1b1-c15af6f98b8f"
 }

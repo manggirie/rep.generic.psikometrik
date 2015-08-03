@@ -3,14 +3,14 @@
   "NoRujukan": "0184",
   "SoalanNo": "0184",
   "TeksSoalan": "Saya terlalu lembut hati sehingga sukar untuk bersikap tegas.",
-  "SeksyenSoalan": "E",
+  "SeksyenSoalan": "",
   "PilihanJawapanCollection": {
     "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan]], domain.sph",
     "$values": [
       {
         "$type": "Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan",
         "Teks": "Ya",
-        "Nilai": 1,
+        "Nilai": 2,
         "WebId": null
       },
       {
@@ -21,14 +21,14 @@
       }
     ]
   },
-  "Trait": "NA",
+  "Trait": "E",
   "NamaUjian": "Indikator Perwatakan Unggul (IPU)",
-  "Susunan": 1.0,
+  "Susunan": 74.0,
   "Kategori": null,
   "CreatedBy": "admin",
   "Id": "IPU-E-0184",
   "CreatedDate": "2015-07-06T11:24:41.5470747+08:00",
-  "ChangedBy": "admin",
-  "ChangedDate": "2015-07-06T11:24:41.546074+08:00",
+  "ChangedBy": "urusetia1",
+  "ChangedDate": "2015-08-03T14:05:54.8592967+08:00",
   "WebId": "c047c6cc-e9b8-4268-afee-a4ab6c9a7488"
 }

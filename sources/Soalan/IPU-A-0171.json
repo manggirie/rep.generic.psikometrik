@@ -3,32 +3,32 @@
   "NoRujukan": "0171",
   "SoalanNo": "0171",
   "TeksSoalan": "Saya cepat kembali tenang selepas berlaku sesuatu peristiwa yang mengganggu fikiran.",
-  "SeksyenSoalan": "A",
+  "SeksyenSoalan": "",
   "PilihanJawapanCollection": {
     "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan]], domain.sph",
     "$values": [
       {
         "$type": "Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan",
         "Teks": "Ya",
-        "Nilai": 1,
+        "Nilai": 0,
         "WebId": null
       },
       {
         "$type": "Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan",
         "Teks": "Tidak",
-        "Nilai": 0,
+        "Nilai": 2,
         "WebId": null
       }
     ]
   },
-  "Trait": "NA",
+  "Trait": "A",
   "NamaUjian": "Indikator Perwatakan Unggul (IPU)",
-  "Susunan": 1.0,
+  "Susunan": 61.0,
   "Kategori": null,
   "CreatedBy": "admin",
   "Id": "IPU-A-0171",
   "CreatedDate": "2015-07-06T11:24:41.444002+08:00",
-  "ChangedBy": "admin",
-  "ChangedDate": "2015-07-06T11:24:41.4435019+08:00",
+  "ChangedBy": "urusetia1",
+  "ChangedDate": "2015-08-03T13:49:34.9403146+08:00",
   "WebId": "058b5623-82c2-4ccc-91b0-5736af3fc0f1"
 }

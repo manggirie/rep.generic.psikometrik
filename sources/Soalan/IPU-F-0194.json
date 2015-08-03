@@ -3,14 +3,14 @@
   "NoRujukan": "0194",
   "SoalanNo": "0194",
   "TeksSoalan": "Saya mendapati terlalu sukar untuk menerima kritikan atau celaan.",
-  "SeksyenSoalan": "F",
+  "SeksyenSoalan": "",
   "PilihanJawapanCollection": {
     "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan]], domain.sph",
     "$values": [
       {
         "$type": "Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan",
         "Teks": "Ya",
-        "Nilai": 1,
+        "Nilai": 2,
         "WebId": null
       },
       {
@@ -21,14 +21,14 @@
       }
     ]
   },
-  "Trait": "NA",
+  "Trait": "F",
   "NamaUjian": "Indikator Perwatakan Unggul (IPU)",
-  "Susunan": 1.0,
+  "Susunan": 84.0,
   "Kategori": null,
   "CreatedBy": "admin",
   "Id": "IPU-F-0194",
   "CreatedDate": "2015-07-06T11:24:41.7297039+08:00",
-  "ChangedBy": "admin",
-  "ChangedDate": "2015-07-06T11:24:41.7292033+08:00",
+  "ChangedBy": "urusetia1",
+  "ChangedDate": "2015-08-03T14:10:11.5139596+08:00",
   "WebId": "07fd3dd7-e2cd-45fc-a587-4ce6967a504d"
 }

@@ -3,32 +3,32 @@
   "NoRujukan": "0165",
   "SoalanNo": "0165",
   "TeksSoalan": "Saya berasa sukar dan malu membincangkan perkara berkaitan seks.",
-  "SeksyenSoalan": "D",
+  "SeksyenSoalan": "",
   "PilihanJawapanCollection": {
     "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan]], domain.sph",
     "$values": [
       {
         "$type": "Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan",
         "Teks": "Ya",
-        "Nilai": 1,
+        "Nilai": 0,
         "WebId": null
       },
       {
         "$type": "Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan",
         "Teks": "Tidak",
-        "Nilai": 0,
+        "Nilai": 2,
         "WebId": null
       }
     ]
   },
-  "Trait": "NA",
+  "Trait": "D",
   "NamaUjian": "Indikator Perwatakan Unggul (IPU)",
-  "Susunan": 1.0,
+  "Susunan": 55.0,
   "Kategori": null,
   "CreatedBy": "admin",
   "Id": "IPU-D-0165",
   "CreatedDate": "2015-07-06T11:24:41.3819582+08:00",
-  "ChangedBy": "admin",
-  "ChangedDate": "2015-07-06T11:24:41.3814581+08:00",
+  "ChangedBy": "urusetia1",
+  "ChangedDate": "2015-08-03T13:34:35.2563552+08:00",
   "WebId": "5cca8f83-6de3-4b9b-b27f-e3f644a78599"
 }
