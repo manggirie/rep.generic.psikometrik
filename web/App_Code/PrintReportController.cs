@@ -18,7 +18,7 @@ namespace web.sph.App_Code
 {
     [Authorize(Roles="JanaLaporan")]
     [RoutePrefix("cetak-laporan")]
-    public class PrintReportController : Controller
+    public partial class PrintReportController : Controller
     {
     	public PrintReportController()
     	{
