@@ -1,0 +1,21 @@
+{
+  "$type": "Bespoke.epsikologi_ppkprecommendation.Domain.PpkpRecommendation, epsikologi.PpkpRecommendation",
+  "No": "CB-151-240",
+  "Tret": "Asertif",
+  "NilaiMin": 151,
+  "NilaiMax": 240,
+  "Dimensi": "Keperibadian",
+  "ShortInterpretationCollection": {
+    "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.epsikologi_ppkprecommendation.Domain.ShortInterpretation, epsikologi.PpkpRecommendation]], domain.sph",
+    "$values": []
+  },
+  "Interpretasi": "Anda seorang yang mudah memberikan pendapat, suka berdebat dan sering mengemukakan soalan untuk memastikan pendapat diri adalah benar.  Anda seorang yang suka berdikari, bersikap analitis, mempunyai pemikiran tersendiri dan sukar menerima maklumat tanpa semakan dibuat.  \n\nAnda seorang yang bersikap dominan, tegas, suka mendesak, dan berkeyakinan tinggi dalam menentukan sesuatu perkara.  Anda beroleh kekuatan (dorongan) melalui halangan (cabaran) dan mahu usaha serta pencapaian diri diiktiraf.\n\nDari segi pekerjaan, anda seorang yang berorientasikan matlamat, suka bersaing, suka kepada cabaran dan selesa bekerja secara bersendirian daripada berpasukan .\n",
+  "Kepimpinan": "Anda mempunyai ciri-ciri seorang ketua tetapi bukan seorang ketua yang baik.  Sikap anda yang cenderung mengamalkan cara gaya pengurusan yang bersifat autokratik, menjurus anda membuat keputusan yang tidak disukai oleh ramai orang.\n\nWalaupun anda boleh menguruskan  \u0018politik pejabat\u0019 dan modal insan dengan baik tetapi sikap yang terlalu mengawal boleh mengganggu pencapaian matlamat jangka panjang. \n",
+  "Cadangan": "Anda perlu bersabar dengan karenah rakan sekerja yang dianggap lemah dan lembap.  Anda juga perlu berhati-hati apabila meluahkan pendapat atau bertingkah laku kerana tindakan sedemikian cenderung dilihat oleh orang lain sebagai biadap, tiada perasaan dan mementingkan diri.",
+  "CreatedBy": "admin",
+  "Id": "d310c733-4532-419e-b475-059b9e7d826a",
+  "CreatedDate": "2015-08-03T18:51:37.2703711+08:00",
+  "ChangedBy": "admin",
+  "ChangedDate": "2015-08-03T18:51:37.269371+08:00",
+  "WebId": "54f34352-185f-455a-e0dc-efd7d23acde6"
+}

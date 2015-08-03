@@ -119,22 +119,45 @@
         "FullName": null,
         "MemberCollection": {
           "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.Sph.Domain.Member, domain.sph]], domain.sph",
-          "$values": []
+          "$values": [
+            {
+              "$type": "Bespoke.Sph.Domain.Member, domain.sph",
+              "FullName": null,
+              "MemberCollection": {
+                "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.Sph.Domain.Member, domain.sph]], domain.sph",
+                "$values": []
+              },
+              "FieldPermissionCollection": {
+                "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.Sph.Domain.FieldPermission, domain.sph]], domain.sph",
+                "$values": []
+              },
+              "Name": "Text",
+              "TypeName": "System.String, mscorlib",
+              "IsNullable": false,
+              "IsNotIndexed": false,
+              "IsAnalyzed": false,
+              "IsFilterable": false,
+              "IsExcludeInAll": false,
+              "Boost": 0,
+              "DefaultValue": null,
+              "WebId": "f9a3e2e9-a6b4-4eed-97bc-e58ff03cb8d3"
+            }
+          ]
         },
         "FieldPermissionCollection": {
           "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.Sph.Domain.FieldPermission, domain.sph]], domain.sph",
           "$values": []
         },
-        "Name": "InterpretasiCollection",
+        "Name": "ShortInterpretationCollection",
         "TypeName": "System.Array, mscorlib",
-        "IsNullable": false,
+        "IsNullable": true,
         "IsNotIndexed": false,
         "IsAnalyzed": false,
         "IsFilterable": false,
         "IsExcludeInAll": false,
         "Boost": 0,
         "DefaultValue": null,
-        "WebId": "49fc9fb7-baba-499a-acf0-4d3eb9f65cb3"
+        "WebId": "05f17c48-a83d-4d97-83b2-b081e9a6bc63"
       },
       {
         "$type": "Bespoke.Sph.Domain.Member, domain.sph",
@@ -147,16 +170,60 @@
           "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.Sph.Domain.FieldPermission, domain.sph]], domain.sph",
           "$values": []
         },
-        "Name": "ShortInterpretation",
-        "TypeName": "System.Array, mscorlib",
-        "IsNullable": true,
+        "Name": "Interpretasi",
+        "TypeName": "System.String, mscorlib",
+        "IsNullable": false,
         "IsNotIndexed": false,
         "IsAnalyzed": false,
         "IsFilterable": false,
         "IsExcludeInAll": false,
         "Boost": 0,
         "DefaultValue": null,
-        "WebId": "05f17c48-a83d-4d97-83b2-b081e9a6bc63"
+        "WebId": "f0f84c49-14de-4705-e400-d490c10b9e69"
+      },
+      {
+        "$type": "Bespoke.Sph.Domain.Member, domain.sph",
+        "FullName": null,
+        "MemberCollection": {
+          "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.Sph.Domain.Member, domain.sph]], domain.sph",
+          "$values": []
+        },
+        "FieldPermissionCollection": {
+          "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.Sph.Domain.FieldPermission, domain.sph]], domain.sph",
+          "$values": []
+        },
+        "Name": "Kepimpinan",
+        "TypeName": "System.String, mscorlib",
+        "IsNullable": false,
+        "IsNotIndexed": false,
+        "IsAnalyzed": false,
+        "IsFilterable": false,
+        "IsExcludeInAll": false,
+        "Boost": 0,
+        "DefaultValue": null,
+        "WebId": "7d20d399-d57b-4c1d-f814-c95b81c66951"
+      },
+      {
+        "$type": "Bespoke.Sph.Domain.Member, domain.sph",
+        "FullName": null,
+        "MemberCollection": {
+          "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.Sph.Domain.Member, domain.sph]], domain.sph",
+          "$values": []
+        },
+        "FieldPermissionCollection": {
+          "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.Sph.Domain.FieldPermission, domain.sph]], domain.sph",
+          "$values": []
+        },
+        "Name": "Cadangan",
+        "TypeName": "System.String, mscorlib",
+        "IsNullable": false,
+        "IsNotIndexed": false,
+        "IsAnalyzed": false,
+        "IsFilterable": false,
+        "IsExcludeInAll": false,
+        "Boost": 0,
+        "DefaultValue": null,
+        "WebId": "b8373e8b-8b34-4696-bd8e-0044ab8366fc"
       }
     ]
   },
@@ -174,9 +241,9 @@
   },
   "Performer": {
     "$type": "Bespoke.Sph.Domain.Performer, domain.sph",
-    "UserProperty": "",
+    "UserProperty": "Roles",
     "Value": "",
-    "IsPublic": false,
+    "IsPublic": true,
     "WebId": null
   },
   "Name": "PpkpRecommendation",
@@ -184,16 +251,16 @@
   "IconStoreId": "sph-img-document",
   "IconClass": "",
   "RecordName": "No",
-  "IsPublished": false,
-  "IsShowOnNavigationBar": false,
-  "TreatDataAsSource": false,
-  "DashboardTemplate": null,
+  "IsPublished": true,
+  "IsShowOnNavigationBar": true,
+  "TreatDataAsSource": true,
+  "DashboardTemplate": "Dashboard Standard",
   "StoreInDatabase": null,
   "StoreInElasticsearch": null,
   "CreatedBy": "admin",
   "Id": "ppkprecommendation",
   "CreatedDate": "2015-08-03T16:27:06.122343+08:00",
   "ChangedBy": "admin",
-  "ChangedDate": "2015-08-03T16:27:06.122343+08:00",
+  "ChangedDate": "2015-08-03T18:42:45.256175+08:00",
   "WebId": "690d5e36-bd4e-4763-b3a2-104257c4c79b"
 }

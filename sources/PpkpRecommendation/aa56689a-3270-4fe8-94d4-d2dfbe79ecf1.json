@@ -1,0 +1,21 @@
+{
+  "$type": "Bespoke.epsikologi_ppkprecommendation.Domain.PpkpRecommendation, epsikologi.PpkpRecommendation",
+  "No": "CP-151-240",
+  "Tret": "Ekstrovert",
+  "NilaiMin": 151,
+  "NilaiMax": 240,
+  "Dimensi": "Hubungan Interpersonal",
+  "ShortInterpretationCollection": {
+    "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.epsikologi_ppkprecommendation.Domain.ShortInterpretation, epsikologi.PpkpRecommendation]], domain.sph",
+    "$values": []
+  },
+  "Interpretasi": "Anda seorang yang peramah, mudah mesra, bersemangat, aktif bertenaga dan suka melibatkan diri dalam aktiviti sosial serta orang lain.\n\nDalam aspek pekerjaan, anda berasa seronok melakukan pelbagai tugas terutama jika diberi pujian dan perhatian.  Anda seorang yang asertif, berkarisma dan cenderung  mengetuai orang lain atau bertindak sebagai ketua sama ada secara formal atau tidak formal. \n\nWalaupun anda seorang yang suka berbicara dan berfikiran terbuka, anda kurang kemahiran mendengar kerana suka mendominasi perbincangan.\n",
+  "Kepimpinan": "Kepimpinan anda lebih terserlah dan berjaya dalam persekitaran pekerjaan yang menekankan kepada persahabatan, kepercayaan, semangat berpasukan dan kerjasama. ",
+  "Cadangan": "Anda disarankan agar bersikap sistematik dan berhati-hati dalam menjalankan tugas.  Anda perlu meningkatkan daya tumpuan kepada tugas yang berbentuk rutin atau yang dilakukan dalam tempoh masa yang panjang.  Sekiranya anda mahu meminta bantuan atau meletakkan harapan kepada orang lain, anda perlu mengenali mereka secara terperinci terlebih dahulu.",
+  "CreatedBy": "admin",
+  "Id": "aa56689a-3270-4fe8-94d4-d2dfbe79ecf1",
+  "CreatedDate": "2015-08-03T18:49:02.2778734+08:00",
+  "ChangedBy": "admin",
+  "ChangedDate": "2015-08-03T18:49:02.2758732+08:00",
+  "WebId": "996e8c0a-0393-40d9-b656-438956b5f9f0"
+}
