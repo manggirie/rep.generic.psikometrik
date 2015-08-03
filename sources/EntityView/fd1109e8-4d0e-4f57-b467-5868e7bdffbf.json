@@ -1,0 +1,51 @@
+{
+  "$type": "Bespoke.Sph.Domain.EntityView, domain.sph",
+  "FilterCollection": {
+    "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.Sph.Domain.Filter, domain.sph]], domain.sph",
+    "$values": []
+  },
+  "ViewColumnCollection": {
+    "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.Sph.Domain.ViewColumn, domain.sph]], domain.sph",
+    "$values": []
+  },
+  "SortCollection": {
+    "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.Sph.Domain.Sort, domain.sph]], domain.sph",
+    "$values": []
+  },
+  "ConditionalFormattingCollection": {
+    "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.Sph.Domain.ConditionalFormatting, domain.sph]], domain.sph",
+    "$values": []
+  },
+  "Performer": {
+    "$type": "Bespoke.Sph.Domain.Performer, domain.sph",
+    "UserProperty": null,
+    "Value": null,
+    "IsPublic": false,
+    "WebId": null
+  },
+  "RouteParameterCollection": {
+    "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.Sph.Domain.RouteParameter, domain.sph]], domain.sph",
+    "$values": []
+  },
+  "IconClass": null,
+  "IconStoreId": null,
+  "EntityDefinitionId": "ipupercentilenorms",
+  "Name": "All IpuPercentileNorms",
+  "Route": "ipupercentilenorms-all",
+  "Note": null,
+  "Query": null,
+  "IsPublished": false,
+  "Visibilty": null,
+  "TileColour": null,
+  "CountMessage": null,
+  "Entity": "IpuPercentileNorms",
+  "Partial": null,
+  "Template": null,
+  "DisplayOnDashboard": false,
+  "CreatedBy": "admin",
+  "Id": "fd1109e8-4d0e-4f57-b467-5868e7bdffbf",
+  "CreatedDate": "2015-08-03T11:00:31.7550975+08:00",
+  "ChangedBy": "admin",
+  "ChangedDate": "2015-08-03T11:00:31.7550975+08:00",
+  "WebId": "e4557d4d-0d92-4af6-8890-8ef2c747a9ce"
+}
