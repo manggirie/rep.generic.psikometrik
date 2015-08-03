@@ -1,0 +1,38 @@
+{
+  "$type": "Bespoke.epsikologi_ipurecommendation.Domain.IpuRecommendation, epsikologi.IpuRecommendation",
+  "No": "A-26-50",
+  "Tret": "A",
+  "NilaiMin": 26,
+  "NilaiMax": 50,
+  "Skala": "Ketenangan",
+  "Tahap": "Sederhana",
+  "RecommendationCollection": {
+    "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.epsikologi_ipurecommendation.Domain.Recommendation, epsikologi.IpuRecommendation]], domain.sph",
+    "$values": [
+      {
+        "$type": "Bespoke.epsikologi_ipurecommendation.Domain.Recommendation, epsikologi.IpuRecommendation",
+        "Kategori": "Interpretasi",
+        "Deskripsi": "Anda berada dalam keadaan yang tenang dan jarang mengalami permasalahan (konflik) yang mengganggu fikiran.  Sekiranya anda mengalami kebimbangan, anda boleh mengendalikan situasi tersebut dengan baik.  ",
+        "WebId": "65910be5-8237-4b47-a39f-8e1803311cf6"
+      },
+      {
+        "$type": "Bespoke.epsikologi_ipurecommendation.Domain.Recommendation, epsikologi.IpuRecommendation",
+        "Kategori": "Implikasi",
+        "Deskripsi": "Walaupun anda berada pada tahap  ketenangan yang sederhana, ada kalanya anda dilihat bersikap kurang serius apabila berhadapan dengan permasalahan (konflik) yang kritikal.  Situasi ini mungkin berlaku kerana anda berasa kurang desakan untuk menyelesaikannya.",
+        "WebId": "47b41186-749a-40fc-a60c-cd8554e39287"
+      },
+      {
+        "$type": "Bespoke.epsikologi_ipurecommendation.Domain.Recommendation, epsikologi.IpuRecommendation",
+        "Kategori": " Perspektif Kepimpinan",
+        "Deskripsi": "Anda mempunyai keyakinan dengan kebolehan diri dan boleh memberi tumpuan terhadap isu semasa.  Oleh yang demikian, anda masih boleh bertenang dan membuat keputusan walaupun mengalami tekanan dalam situasi yang mencemaskan.",
+        "WebId": "098d9005-fe61-4b96-b662-c1dfc90280bb"
+      }
+    ]
+  },
+  "CreatedBy": "admin",
+  "Id": "0854b068-ffb2-4419-9b74-241c2c2b7944",
+  "CreatedDate": "2015-07-31T18:27:16.9160492+08:00",
+  "ChangedBy": "admin",
+  "ChangedDate": "2015-07-31T18:27:16.914049+08:00",
+  "WebId": "d17d7387-c9e1-4287-dcd3-106de866d6fe"
+}

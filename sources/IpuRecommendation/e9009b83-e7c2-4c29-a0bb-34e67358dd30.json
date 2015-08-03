@@ -1,0 +1,38 @@
+{
+  "$type": "Bespoke.epsikologi_ipurecommendation.Domain.IpuRecommendation, epsikologi.IpuRecommendation",
+  "No": "F-36-60",
+  "Tret": "F",
+  "NilaiMin": 36,
+  "NilaiMax": 60,
+  "Skala": "Berfikiran Rasional",
+  "Tahap": "Sederhana",
+  "RecommendationCollection": {
+    "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.epsikologi_ipurecommendation.Domain.Recommendation, epsikologi.IpuRecommendation]], domain.sph",
+    "$values": [
+      {
+        "$type": "Bespoke.epsikologi_ipurecommendation.Domain.Recommendation, epsikologi.IpuRecommendation",
+        "Kategori": "Interpretasi",
+        "Deskripsi": "Anda digambarkan sebagai seorang yang bersikap dan berfikiran rasional, munasabah, adil serta logikal apabila membuat keputusan walaupun mengalami tekanan emosi.  ",
+        "WebId": "3f8ed04b-63f0-44ec-9a73-3091cbaacef6"
+      },
+      {
+        "$type": "Bespoke.epsikologi_ipurecommendation.Domain.Recommendation, epsikologi.IpuRecommendation",
+        "Kategori": "Implikasi",
+        "Deskripsi": "Kebolehan anda untuk tidak terpengaruh oleh masalah emosi atau diri, membolehkan anda membuat analisis, keputusan atau tindakan tanpa dipengaruhi oleh kekeliruan, ketakutan, perasaan prejudis atau pilih kasih.  Apabila anda berhadapan dengan masalah atau mengalami tekanan emosi yang mengganggu fikiran, anda boleh berfikir dan membuat keputusan secara rasional tanpa mengikut emosi yang dialami pada masa itu.  Oleh yang demikian, anda berasa yakin dan bersikap positif dengan keputusan yang dibuat.  ",
+        "WebId": "f4a89615-8f0c-4bcf-8625-23ea999dc030"
+      },
+      {
+        "$type": "Bespoke.epsikologi_ipurecommendation.Domain.Recommendation, epsikologi.IpuRecommendation",
+        "Kategori": "Perspektif Kepimpinan",
+        "Deskripsi": "Apabila anda berhadapan dengan masalah atau mengalami tekanan emosi yang mengganggu fikiran, anda boleh berfikir dan membuat keputusan secara rasional tanpa mengikut emosi yang dialami pada masa itu.  Oleh yang demikian, anda berasa yakin dan bersikap positif dengan keputusan yang dibuat.  ",
+        "WebId": "289c60bc-61f2-46dd-9f96-957c2b277437"
+      }
+    ]
+  },
+  "CreatedBy": "admin",
+  "Id": "e9009b83-e7c2-4c29-a0bb-34e67358dd30",
+  "CreatedDate": "2015-07-31T18:49:50.6164057+08:00",
+  "ChangedBy": "admin",
+  "ChangedDate": "2015-07-31T18:49:50.6144055+08:00",
+  "WebId": "4a023be9-09cb-47c4-afc5-0bc49b59b15c"
+}

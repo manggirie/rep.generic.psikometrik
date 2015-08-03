@@ -1,0 +1,38 @@
+{
+  "$type": "Bespoke.epsikologi_ipurecommendation.Domain.IpuRecommendation, epsikologi.IpuRecommendation",
+  "No": "C-16-35",
+  "Tret": "C",
+  "NilaiMin": 16,
+  "NilaiMax": 35,
+  "Skala": "Pasif Sosial",
+  "Tahap": "Sederhana",
+  "RecommendationCollection": {
+    "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.epsikologi_ipurecommendation.Domain.Recommendation, epsikologi.IpuRecommendation]], domain.sph",
+    "$values": [
+      {
+        "$type": "Bespoke.epsikologi_ipurecommendation.Domain.Recommendation, epsikologi.IpuRecommendation",
+        "Kategori": "Interpretasi",
+        "Deskripsi": "Anda mempamerkan diri sebagai seorang yang bersikap pasif, suka menyendiri dan kurang sensitif terhadap perkara yang berlaku di persekitaran anda.    Anda seorang yang kurang aktif (melibatkan diri) dalam aktiviti sosial (kemasyarakatan) dan   mengelakkan diri daripada berinteraksi dengan orang lain.  Situasi ini mungkin berlaku kerana anda mudah berasa letih atau kurang sihat pada kebanyakan masa.  Ada kemungkinan anda mempamerkan sikap pasif sosial kerana berasa takut (malu) meluahkan pendapat atau mempamerkan minat (keinginan) kerana tidak suka dikritik (dipermainkan atau tidak diterima) oleh orang lain atau gagal menyampaikan maksud yang ingin diluahkan.    Anda mungkin pernah disakiti dan telah mempelajari cara untuk melindungi diri adalah dengan mengelakkan diri daripada berinteraksi dengan orang lain.",
+        "WebId": "9e3c3fb8-a94c-402f-b89c-c165be4c0e7c"
+      },
+      {
+        "$type": "Bespoke.epsikologi_ipurecommendation.Domain.Recommendation, epsikologi.IpuRecommendation",
+        "Kategori": "Implikasi",
+        "Deskripsi": "Anda cenderung memilih kehidupan yang tenang, merehatkan dan terhindar daripada aktiviti serta kebisingan kerana anda mungkin tidak mahu sebarang masalah mengganggu kehidupan anda.  Sekiranya anda perlu melibatkan diri dalam aktiviti sosial (kemasyarakatan), anda cenderung memilih untuk berada dalam kumpulan sosial yang kecil.  Anda juga mungkin melengahkan tindakan yang perlu dilakukan atau membiarkan orang lain membuat perancangan dan mengambil tindakan kerana ia memerlukan anda berusaha lebih gigih.",
+        "WebId": "166937ac-3a2e-400a-96fb-935f56913c8c"
+      },
+      {
+        "$type": "Bespoke.epsikologi_ipurecommendation.Domain.Recommendation, epsikologi.IpuRecommendation",
+        "Kategori": "Perspektif Kepimpinan",
+        "Deskripsi": "Anda seorang yang pendiam, kurang berinteraksi secara sosial dengan orang lain dan suka kepada kehidupan yang tenang.  Kesannya, anda mungkin melibatkan diri dalam perbincangan dan  memperkatakan perkara asas apabila dirasakan atau  difikirkan perlu.",
+        "WebId": "3f780fba-8cf4-4d85-be43-d7ca2a9c4134"
+      }
+    ]
+  },
+  "CreatedBy": "admin",
+  "Id": "b786584a-ccf6-404f-8cbb-528366fa1195",
+  "CreatedDate": "2015-07-31T18:34:55.7719302+08:00",
+  "ChangedBy": "admin",
+  "ChangedDate": "2015-07-31T18:34:55.76993+08:00",
+  "WebId": "4e1d4778-1ecc-46a5-da56-207adbb003fa"
+}

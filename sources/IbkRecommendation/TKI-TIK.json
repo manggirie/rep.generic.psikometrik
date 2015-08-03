@@ -1,0 +1,31 @@
+{
+  "$type": "Bespoke.epsikologi_ibkrecommendation.Domain.IbkRecommendation, epsikologi.IbkRecommendation",
+  "Kod": "TKI/TIK",
+  "KerjayaCollection": {
+    "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.epsikologi_ibkrecommendation.Domain.Kerjaya, epsikologi.IbkRecommendation]], domain.sph",
+    "$values": [
+      {
+        "$type": "Bespoke.epsikologi_ibkrecommendation.Domain.Kerjaya, epsikologi.IbkRecommendation",
+        "Text": "*  Sila rujuk pilihan kerjaya di bawah kategori T",
+        "Warna": null,
+        "WebId": "2894d49f-1007-45b7-96de-13af23220172"
+      }
+    ]
+  },
+  "BidangPengajianCollection": {
+    "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.epsikologi_ibkrecommendation.Domain.BidangPengajian, epsikologi.IbkRecommendation]], domain.sph",
+    "$values": [
+      {
+        "$type": "Bespoke.epsikologi_ibkrecommendation.Domain.BidangPengajian, epsikologi.IbkRecommendation",
+        "Text": "*  Sila rujuk pilihan bidang pengajian di bawah kategori  T",
+        "WebId": "64d927c0-d1b8-418a-98dd-4620ff04d621"
+      }
+    ]
+  },
+  "CreatedBy": "admin",
+  "Id": "TKI-TIK",
+  "CreatedDate": "2015-07-31T19:38:33.2371942+08:00",
+  "ChangedBy": "admin",
+  "ChangedDate": "2015-07-31T19:38:33.2737427+08:00",
+  "WebId": "6605eff5-d7a1-4d12-821e-58e3d9d9e9e3"
+}

@@ -1,0 +1,38 @@
+{
+  "$type": "Bespoke.epsikologi_ipurecommendation.Domain.IpuRecommendation, epsikologi.IpuRecommendation",
+  "No": "C-0-15",
+  "Tret": "C",
+  "NilaiMin": 0,
+  "NilaiMax": 15,
+  "Skala": "Pasif Sosial",
+  "Tahap": "Tinggi",
+  "RecommendationCollection": {
+    "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.epsikologi_ipurecommendation.Domain.Recommendation, epsikologi.IpuRecommendation]], domain.sph",
+    "$values": [
+      {
+        "$type": "Bespoke.epsikologi_ipurecommendation.Domain.Recommendation, epsikologi.IpuRecommendation",
+        "Kategori": "Interpretasi",
+        "Deskripsi": "Anda mempamerkan diri sebagai seorang yang bersikap sangat pasif, suka menyendiri dan tidak sensitif terhadap perkara yang berlaku di persekitaran anda.    Anda seorang yang tidak aktif (melibatkan diri) dalam aktiviti sosial (kemasyarakatan) dan mengelakkan diri daripada berinteraksi dengan orang lain.  Situasi ini mungkin berlaku kerana anda sangat mudah berasa letih atau tidak sihat pada kebanyakan masa.  Anda mempamerkan sikap pasif sosial kerana anda mungkin berasa sangat takut (malu) meluahkan pendapat atau mempamerkan minat (keinginan), tidak suka dikritik (dipermainkan atau tidak diterima) oleh orang lain atau gagal menyampaikan maksud yang ingin diluahkan.    Anda mungkin pernah disakiti dan telah mempelajari cara untuk melindungi diri adalah dengan mengelakkan diri daripada berinteraksi dengan orang lain.",
+        "WebId": "b278cd50-9bef-47e5-bc67-028764c7d3db"
+      },
+      {
+        "$type": "Bespoke.epsikologi_ipurecommendation.Domain.Recommendation, epsikologi.IpuRecommendation",
+        "Kategori": "Implikasi",
+        "Deskripsi": "Anda cenderung memilih kehidupan yang sangat tenang, merehatkan dan terhindar daripada kebisingan kerana bagi anda melibatkan diri dalam aktiviti sosial mendatangkan banyak masalah.  Sekiranya anda perlu melibatkan diri dalam aktiviti sosial (kemasyarakatan), anda lebih   cenderung memilih berada dalam kumpulan sosial yang kecil.  Anda juga cenderung melengahkan tindakan yang perlu dilakukan atau membiarkan orang lain membuat perancangan dan mengambil tindakan kerana ia memerlukan anda berusaha lebih gigih.  Sekiranya anda bersikap pasif sosial kerana perasaan malu yang keterlaluan, ia boleh menjejaskan keberkesanan ke atas pekerjaan, keseronokan bersama orang lain atau kepuasan dalam perkahwinan.  Tindakan sedemikian hanya menyakiti diri kerana apabila anda mengasingkan diri daripada orang lain, anda sebenarnya mewujudkan lebih banyak kesakitan dan kesunyian dalam diri anda.",
+        "WebId": "ecef8627-6f3d-4eca-9373-d7d15ab9611c"
+      },
+      {
+        "$type": "Bespoke.epsikologi_ipurecommendation.Domain.Recommendation, epsikologi.IpuRecommendation",
+        "Kategori": "Perspektif Kepimpinan",
+        "Deskripsi": "Anda seorang yang sangat pendiam, kurang berinteraksi secara sosial dengan orang lain dan suka kepada kehidupan yang tenang.  Kesannya, anda mungkin hanya melibatkan diri dalam perbincangan dan memperkatakan perkara asas apabila situasi memerlukan anda berbuat demikian.  Anda juga lebih suka memerhatikan orang lain bekerja daripada melibatkan diri dengan mereka.",
+        "WebId": "9fdc7be5-e731-4609-b29c-d03c7e562bda"
+      }
+    ]
+  },
+  "CreatedBy": "admin",
+  "Id": "e20b5106-a437-4e54-a61a-89635c3b9fbe",
+  "CreatedDate": "2015-07-31T18:33:40.3303868+08:00",
+  "ChangedBy": "admin",
+  "ChangedDate": "2015-07-31T18:33:40.3293867+08:00",
+  "WebId": "d3d95a29-1f74-4905-9396-0f45b4a63329"
+}

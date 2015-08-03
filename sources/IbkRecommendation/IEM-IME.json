@@ -1,0 +1,111 @@
+{
+  "$type": "Bespoke.epsikologi_ibkrecommendation.Domain.IbkRecommendation, epsikologi.IbkRecommendation",
+  "Kod": "IEM/IME",
+  "KerjayaCollection": {
+    "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.epsikologi_ibkrecommendation.Domain.Kerjaya, epsikologi.IbkRecommendation]], domain.sph",
+    "$values": [
+      {
+        "$type": "Bespoke.epsikologi_ibkrecommendation.Domain.Kerjaya, epsikologi.IbkRecommendation",
+        "Text": "Pakar Pendidikan",
+        "Warna": null,
+        "WebId": "abc6e8e4-4261-413b-ae18-de109c9a6056"
+      },
+      {
+        "$type": "Bespoke.epsikologi_ibkrecommendation.Domain.Kerjaya, epsikologi.IbkRecommendation",
+        "Text": "Pengarah:- Perkhidmatan Makanan/ Hubungan Industri/ Kawalan Kualiti/ Kebersihan ",
+        "Warna": null,
+        "WebId": "6befd7d5-b771-4c67-ba96-b7ac3db2df83"
+      },
+      {
+        "$type": "Bespoke.epsikologi_ibkrecommendation.Domain.Kerjaya, epsikologi.IbkRecommendation",
+        "Text": "-Pegawai Perancang Perkhidmatan Program -Ketua Jabatan Kolej/ Universiti",
+        "Warna": null,
+        "WebId": "173d04f9-edb7-4375-9933-785bb8d84c13"
+      },
+      {
+        "$type": "Bespoke.epsikologi_ibkrecommendation.Domain.Kerjaya, epsikologi.IbkRecommendation",
+        "Text": "Pengurus:- Makmal Pergigian/ Pendidikan & Latihan/ Projek Penyelidikan Persekitaran/ Operasi Penerbangan/ Pengangkutan ",
+        "Warna": null,
+        "WebId": "ae68899e-751f-4963-bff7-f513d4d95c14"
+      },
+      {
+        "$type": "Bespoke.epsikologi_ibkrecommendation.Domain.Kerjaya, epsikologi.IbkRecommendation",
+        "Text": "Peguam (Percukaian)",
+        "Warna": null,
+        "WebId": "462747c8-c6a1-490f-ae95-cad49468d53b"
+      },
+      {
+        "$type": "Bespoke.epsikologi_ibkrecommendation.Domain.Kerjaya, epsikologi.IbkRecommendation",
+        "Text": "-Pegawai:- Belanjawan/ Perancang Bandar -Pegawai Kesihatan Tugas Luar",
+        "Warna": null,
+        "WebId": "76c860b9-544b-4dd4-a076-bbf2dc1e8fcc"
+      },
+      {
+        "$type": "Bespoke.epsikologi_ibkrecommendation.Domain.Kerjaya, epsikologi.IbkRecommendation",
+        "Text": "Kapten Kapal ",
+        "Warna": null,
+        "WebId": "eff599ea-b97b-4873-92ce-141d8d62c3d4"
+      },
+      {
+        "$type": "Bespoke.epsikologi_ibkrecommendation.Domain.Kerjaya, epsikologi.IbkRecommendation",
+        "Text": "-Penerbit Rancangan Rekreasi/ Sukaneka -Pembaca Berita",
+        "Warna": null,
+        "WebId": "6626a462-1e03-4b1b-802c-d46ccfaf779e"
+      },
+      {
+        "$type": "Bespoke.epsikologi_ibkrecommendation.Domain.Kerjaya, epsikologi.IbkRecommendation",
+        "Text": "Penyelia:- Makmal/ Stesyen Janakuasa/ Operasi Komputer ",
+        "Warna": null,
+        "WebId": "a983005b-7b64-40e1-a634-6dcc05468572"
+      },
+      {
+        "$type": "Bespoke.epsikologi_ibkrecommendation.Domain.Kerjaya, epsikologi.IbkRecommendation",
+        "Text": "Penyiasat Persendirian",
+        "Warna": null,
+        "WebId": "18dd07d7-4a88-4fd3-b329-01409c2eef22"
+      },
+      {
+        "$type": "Bespoke.epsikologi_ibkrecommendation.Domain.Kerjaya, epsikologi.IbkRecommendation",
+        "Text": "-Perunding Perpustakaan -Pembantu Teknikal Perpustakaan\t",
+        "Warna": null,
+        "WebId": "0ac91a71-2cb9-4cfa-90f4-468b346bacc9"
+      }
+    ]
+  },
+  "BidangPengajianCollection": {
+    "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.epsikologi_ibkrecommendation.Domain.BidangPengajian, epsikologi.IbkRecommendation]], domain.sph",
+    "$values": [
+      {
+        "$type": "Bespoke.epsikologi_ibkrecommendation.Domain.BidangPengajian, epsikologi.IbkRecommendation",
+        "Text": "Pendidikan/ Pentadbiran Pendidikan Sekolah Rendah @ Menengah",
+        "WebId": "ff9befd4-b832-469a-98a6-c8f9e22472ab"
+      },
+      {
+        "$type": "Bespoke.epsikologi_ibkrecommendation.Domain.BidangPengajian, epsikologi.IbkRecommendation",
+        "Text": "Statistik Penyelidikan & Penilaian Pendidikan/ Metodologi Penyelidikan & Statistik/",
+        "WebId": "e98ccec3-912b-4f46-8ef7-0f78b6445594"
+      },
+      {
+        "$type": "Bespoke.epsikologi_ibkrecommendation.Domain.BidangPengajian, epsikologi.IbkRecommendation",
+        "Text": "Undang-Undang",
+        "WebId": "22cd70ed-c68e-4535-a020-d82f92f8c560"
+      },
+      {
+        "$type": "Bespoke.epsikologi_ibkrecommendation.Domain.BidangPengajian, epsikologi.IbkRecommendation",
+        "Text": "-Pengurusan & Perancangan Seni Reka Bandar/ Komuniti/ Kawasan/ Daerah -Perniagaan/ Kewangan  (Umum) @ Antarabangsa -Perubatan / Kesihatan Umum",
+        "WebId": "82f456fc-fb51-4b43-a9ef-a8c39da0fc76"
+      },
+      {
+        "$type": "Bespoke.epsikologi_ibkrecommendation.Domain.BidangPengajian, epsikologi.IbkRecommendation",
+        "Text": "-Senibina -Analisis Polisi Awam/ Pengurusan Awam & Bukan Kerajaan/ Sains Politik & Kerajaan ",
+        "WebId": "95f454d2-f230-457a-8184-42b489778f1a"
+      }
+    ]
+  },
+  "CreatedBy": "admin",
+  "Id": "IEM-IME",
+  "CreatedDate": "2015-07-31T19:24:34.1732768+08:00",
+  "ChangedBy": "admin",
+  "ChangedDate": "2015-07-31T19:24:34.1582666+08:00",
+  "WebId": "7d0037f4-4bc1-44c3-e6b4-96b40b5c6530"
+}

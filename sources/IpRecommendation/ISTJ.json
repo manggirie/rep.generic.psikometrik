@@ -1,0 +1,20 @@
+{
+  "$type": "Bespoke.epsikologi_iprecommendation.Domain.IpRecommendation, epsikologi.IpRecommendation",
+  "Skor": "ISTJ",
+  "HubunganInterpersonal": "Pasif Sosial",
+  "MemperolehMaklumat": "Fakta",
+  "MembuatKeputusan": "Rasional",
+  "CaraGayaKehidupan": "Sistematik",
+  "Perwatakan": "Anda mempamerkan diri sebagai seorang yang realistik, praktikal dan mementingkan fakta.  Anda menilai sesuatu perkara dengan teliti berdasarkan maklumat, pengalaman dan pengetahuan sedia ada.  Anda berpegang teguh kepada prinsip, nilai dan standard serta sedia memberi kritikan apabila diperlukan.  \n\nDari aspek hubungan interpersonal, anda seorang yang setia dan bertanggungjawab kepada keluarga serta organisasi dan mengharapkan orang lain juga seperti anda.\n",
+  "Pekerjaan": "Secara umumnya, anda suka bekerja bersendirian tanpa gangguan.  Namun, jika anda dikehendaki bekerja secara berkumpulan, anda bersedia berbuat demikian dengan syarat setiap ahli jelas dengan peranan dan tanggungjawab yang diberikan.  \n\nDari aspek pekerjaan, anda mahu konsep hormat-menghormati dan keadilan sesama rakan sekerja diamalkan dalam organisasi.  Anda seorang yang komited terhadap tugas dan percaya prosedur kerja yang standard adalah perlu bagi mencapai matlamat pada masa yang ditetapkan.   \n\nApabila anda dikehendaki melakukan satu tugas baru, anda cenderung membaca dan mempelajarinya sebelum memulakan tugasan tersebut.  Anda sedia menghadapi cabaran dalam menjalankan tugas tetapi akan menyuarakan rasa tidak puas hati jika diminta melakukan tugasan yang dilihat sebagai tidak munasabah.\n\nDari aspek membuat keputusan, anda cenderung menganalisis sesuatu perkara secara logik dengan menggunakan maklumat sedia ada dan pengalaman diri atau orang lain sebelum mengambil tindakan.\n",
+  "PengurusanPerubahan": "Apabila sesuatu perubahan dicadangkan, anda sedia menerima dan melaksanakannya jika ia selaras dengan prinsip atau nilai diri.  Anda juga sedia menyokong sesuatu perubahan dilakukan jika fakta menunjukkan ia membawa keputusan yang lebih baik.  Bagaimanapun, sekiranya perubahan tersebut bercanggah dengan prinsip dan nilai diri, anda mungkin tidak bersedia membuat perubahan dan akan mempertahankan prinsip serta nilai sedia ada.\n",
+  "Kepimpinan": "Dari aspek kepimpinan, anda seorang ketua yang berfikiran rasional, berpendirian tetap dan bersikap analitis serta tegas dalam melaksanakan keputusan yang dibuat.\n\nSebagai pengikut, anda sedia melaksanakan polisi organisasi yang efektif sekiranya anda menghormati ketua organisasi.\n",
+  "PersepsiOrangLain": "Dari aspek hubungan interpersonal, anda boleh berinteraksi secara sosial tetapi hanya berkongsi perkara peribadi dengan individu yang rapat dengan anda.  Anda mungkin sukar melihat keperluan diri yang berbeza dengan orang lain tetapi jika sesuatu perkara itu merupakan aspek penting kepada individu yang disayangi, anda akan berusaha memenuhi keperluan tersebut walaupun ia adalah tidak munasabah.\n\nDari aspek perwatakan, anda seorang yang tenang, serius dan memendam perasaan.  Anda juga seorang yang sistematik, menghargai tradisi, suka merancang dan memberi tumpuan kepada tugas yang berstruktur atau berjadual.\n",
+  "ReaksiTerhadapStres": "Apabila mengalami stres yang tinggi, anda cenderung berasa bimbang, mudah membuat penilaian yang kurang munasabah, kerap terperangkap dalam masalah dan mula menggambarkan kemungkinan negatif untuk diri serta orang lain.",
+  "CreatedBy": "urusetia1",
+  "Id": "ISTJ",
+  "CreatedDate": "2015-08-03T10:35:21.2330557+08:00",
+  "ChangedBy": "urusetia1",
+  "ChangedDate": "2015-08-03T10:35:21.2320556+08:00",
+  "WebId": "29ab6c8a-35f3-4091-9f0c-70eae810ec6b"
+}

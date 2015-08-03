@@ -1,0 +1,38 @@
+{
+  "$type": "Bespoke.epsikologi_ipurecommendation.Domain.IpuRecommendation, epsikologi.IpuRecommendation",
+  "No": "B-46-80",
+  "Tret": "B",
+  "NilaiMin": 46,
+  "NilaiMax": 80,
+  "Skala": "Kemurungan",
+  "Tahap": "Sederhana",
+  "RecommendationCollection": {
+    "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.epsikologi_ipurecommendation.Domain.Recommendation, epsikologi.IpuRecommendation]], domain.sph",
+    "$values": [
+      {
+        "$type": "Bespoke.epsikologi_ipurecommendation.Domain.Recommendation, epsikologi.IpuRecommendation",
+        "Kategori": "Interpretasi",
+        "Deskripsi": "Anda mungkin mengalami kemurungan yang sederhana berdasarkan kepada simptom-simptom seperti kesedihan, berasa kurang semangat, kurang keyakinan diri dan mudah berasa tersinggung dengan kritikan.    Anda juga cenderung mengalami perubahan emosi sama ada secara anda sedari atau tidak bergantung kepada bentuk perubahan emosi yang berlaku (secara nyata atau tidak nyata).  Anda berasa diri anda tidak dihargai oleh orang lain walaupun oleh mereka yang rapat dengan anda.  Anda cenderung bersikap pesimistik dan ada kalanya memberi gambaran seolah-olah anda tidak mempunyai harapan dalam kehidupan.  Episod kemurungan yang anda alami boleh dikaitkan dengan insiden yang berlaku dalam kehidupan seharian seperti peristiwa traumatik yang melanda diri atau kehilangan (kematian) individu yang disayangi.  ",
+        "WebId": "69abe3ac-c6db-4f04-ae74-f4c150fcf246"
+      },
+      {
+        "$type": "Bespoke.epsikologi_ipurecommendation.Domain.Recommendation, epsikologi.IpuRecommendation",
+        "Kategori": "Implikasi",
+        "Deskripsi": "Kemurungan yang dialami boleh menjadi serius sekiranya anda mempunyai banyak permasalahan (konflik) peribadi yang belum diselesaikan atau mengalami tekanan emosi yang mengganggu fikiran.  Sekiranya anda tidak menguruskan kemurungan dengan efektif, anda mungkin mengalami kemerosotan dalam kesejahteraan diri dan mempunyai hubungan interpersonal yang rendah.",
+        "WebId": "c9b6a4a2-b136-478c-963c-564eeb3c4de0"
+      },
+      {
+        "$type": "Bespoke.epsikologi_ipurecommendation.Domain.Recommendation, epsikologi.IpuRecommendation",
+        "Kategori": "Perspektif Kepimpinan",
+        "Deskripsi": "Apabila anda berasa kecewa dan putus asa, anda  cenderung menilai sesuatu perkara atau situasi secara negatif dan menyalahkan diri atau orang lain.  Kesannya, anda cenderung menjadi \u001cmoody\u001d terutama jika idea anda tidak diterima oleh orang lain.",
+        "WebId": "2df77d17-999e-44e0-840e-397cc3da7eea"
+      }
+    ]
+  },
+  "CreatedBy": "admin",
+  "Id": "f0493fcf-9291-42eb-87df-16a7c8a9a399",
+  "CreatedDate": "2015-07-31T18:29:54.3047865+08:00",
+  "ChangedBy": "admin",
+  "ChangedDate": "2015-07-31T18:29:54.3027863+08:00",
+  "WebId": "147412a9-5a30-4997-fe71-a7af14b7787e"
+}

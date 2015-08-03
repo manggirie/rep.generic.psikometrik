@@ -1,0 +1,75 @@
+{
+  "$type": "Bespoke.epsikologi_ibkrecommendation.Domain.IbkRecommendation, epsikologi.IbkRecommendation",
+  "Kod": "EKM/EMK",
+  "KerjayaCollection": {
+    "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.epsikologi_ibkrecommendation.Domain.Kerjaya, epsikologi.IbkRecommendation]], domain.sph",
+    "$values": [
+      {
+        "$type": "Bespoke.epsikologi_ibkrecommendation.Domain.Kerjaya, epsikologi.IbkRecommendation",
+        "Text": "Pakar Psikiatri",
+        "Warna": null,
+        "WebId": "a134ff0f-2702-4256-9078-6e7f29d411d5"
+      },
+      {
+        "$type": "Bespoke.epsikologi_ibkrecommendation.Domain.Kerjaya, epsikologi.IbkRecommendation",
+        "Text": "Ahli Ekonomi \t",
+        "Warna": null,
+        "WebId": "b4fefd85-898a-4705-bcd7-004c4a7375e1"
+      },
+      {
+        "$type": "Bespoke.epsikologi_ibkrecommendation.Domain.Kerjaya, epsikologi.IbkRecommendation",
+        "Text": "Penganalisis Kesenian",
+        "Warna": null,
+        "WebId": "b41ffdc1-4e08-4bbb-81f0-7311bd602b69"
+      },
+      {
+        "$type": "Bespoke.epsikologi_ibkrecommendation.Domain.Kerjaya, epsikologi.IbkRecommendation",
+        "Text": "Editor Kamus",
+        "Warna": null,
+        "WebId": "5f9ea1ce-bd22-4177-b6d2-f1714e0d34ea"
+      },
+      {
+        "$type": "Bespoke.epsikologi_ibkrecommendation.Domain.Kerjaya, epsikologi.IbkRecommendation",
+        "Text": "Jururawat/ Juruteknik/ Pembantu Perubatan",
+        "Warna": null,
+        "WebId": "817cd38f-66cb-4827-a5f1-f5f812382fc8"
+      }
+    ]
+  },
+  "BidangPengajianCollection": {
+    "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.epsikologi_ibkrecommendation.Domain.BidangPengajian, epsikologi.IbkRecommendation]], domain.sph",
+    "$values": [
+      {
+        "$type": "Bespoke.epsikologi_ibkrecommendation.Domain.BidangPengajian, epsikologi.IbkRecommendation",
+        "Text": "Perubatan",
+        "WebId": "2e9bfc7c-bc56-4596-8442-64c648bf9ddb"
+      },
+      {
+        "$type": "Bespoke.epsikologi_ibkrecommendation.Domain.BidangPengajian, epsikologi.IbkRecommendation",
+        "Text": "Ekonomi:- Pertanian/ Perniagaan/ Antarabangsa/ Pengurusan/ Pembangunan",
+        "WebId": "30f7cfc1-e64d-4b0d-89f4-b3a0655c6697"
+      },
+      {
+        "$type": "Bespoke.epsikologi_ibkrecommendation.Domain.BidangPengajian, epsikologi.IbkRecommendation",
+        "Text": "Bahasa",
+        "WebId": "f7b1c7fc-6606-453f-be1c-fe9f3db58ea8"
+      },
+      {
+        "$type": "Bespoke.epsikologi_ibkrecommendation.Domain.BidangPengajian, epsikologi.IbkRecommendation",
+        "Text": "Kejururawatan/ Pembantu Perubatan",
+        "WebId": "a3a05735-a77f-4581-9b65-b6d4733682e5"
+      },
+      {
+        "$type": "Bespoke.epsikologi_ibkrecommendation.Domain.BidangPengajian, epsikologi.IbkRecommendation",
+        "Text": "Pengurusan Sumber Keluarga",
+        "WebId": "afdb30a2-a532-419c-bf3e-d452212a8e99"
+      }
+    ]
+  },
+  "CreatedBy": "admin",
+  "Id": "EKM-EMK",
+  "CreatedDate": "2015-07-31T18:32:10.8749956+08:00",
+  "ChangedBy": "admin",
+  "ChangedDate": "2015-07-31T18:32:10.8679911+08:00",
+  "WebId": "62c4fbfa-a5c9-46c5-8d58-0748ab4e6611"
+}

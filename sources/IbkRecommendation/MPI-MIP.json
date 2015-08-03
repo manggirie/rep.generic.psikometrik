@@ -1,0 +1,114 @@
+{
+  "$type": "Bespoke.epsikologi_ibkrecommendation.Domain.IbkRecommendation, epsikologi.IbkRecommendation",
+  "Kod": "MPI/MIP",
+  "KerjayaCollection": {
+    "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.epsikologi_ibkrecommendation.Domain.Kerjaya, epsikologi.IbkRecommendation]], domain.sph",
+    "$values": [
+      {
+        "$type": "Bespoke.epsikologi_ibkrecommendation.Domain.Kerjaya, epsikologi.IbkRecommendation",
+        "Text": "Pakar:- Sokongan Teknikal/ Hubungan Pekerja\t",
+        "Warna": null,
+        "WebId": "89891452-ba63-412a-bb26-e642cd0c1d30"
+      },
+      {
+        "$type": "Bespoke.epsikologi_ibkrecommendation.Domain.Kerjaya, epsikologi.IbkRecommendation",
+        "Text": "-Pegawai Polis/ Detektif/ Detektif Narkotik -Agen Perisikan -Pengawal Sempadan -Pegawai Pemulihan\t",
+        "Warna": null,
+        "WebId": "aefa3591-04b0-45f5-9642-ff3aded95caf"
+      },
+      {
+        "$type": "Bespoke.epsikologi_ibkrecommendation.Domain.Kerjaya, epsikologi.IbkRecommendation",
+        "Text": "-Pengarah Kebajikan Pengguna/ Atlit  -Pekerja Komuniti\t",
+        "Warna": null,
+        "WebId": "82fc6aeb-1f5e-49cc-9f65-110264146ed5"
+      },
+      {
+        "$type": "Bespoke.epsikologi_ibkrecommendation.Domain.Kerjaya, epsikologi.IbkRecommendation",
+        "Text": "-Pentadbir Kemudahan Perubatan -Ahli Terapi Pekerjaan -Pembantu Kiropraktik -Jururawat\t",
+        "Warna": null,
+        "WebId": "71066282-6c77-424f-ae03-a490a811237a"
+      },
+      {
+        "$type": "Bespoke.epsikologi_ibkrecommendation.Domain.Kerjaya, epsikologi.IbkRecommendation",
+        "Text": "Jurulatih: Penerbangan/ Memandu ",
+        "Warna": null,
+        "WebId": "107c79f5-a413-4399-ac4d-a468a1407138"
+      },
+      {
+        "$type": "Bespoke.epsikologi_ibkrecommendation.Domain.Kerjaya, epsikologi.IbkRecommendation",
+        "Text": "Jurulatih:- Atlit/ Atlit Profesional/ Pendidikan Jasmani",
+        "Warna": null,
+        "WebId": "b6b22093-b122-43bd-ace4-7f3fb04f63cc"
+      },
+      {
+        "$type": "Bespoke.epsikologi_ibkrecommendation.Domain.Kerjaya, epsikologi.IbkRecommendation",
+        "Text": "-Guru Pendidikan Dewasa -Ketua Pustakawan -Pustakawan Muzik \t",
+        "Warna": null,
+        "WebId": "73612d79-b6e4-46b6-b460-edc3e76bfa1c"
+      },
+      {
+        "$type": "Bespoke.epsikologi_ibkrecommendation.Domain.Kerjaya, epsikologi.IbkRecommendation",
+        "Text": "-Pengurus:- Makanan Segera/ Pasaraya -Eksekutif Chef\t",
+        "Warna": null,
+        "WebId": "7b67fc3d-2a0a-4ae0-a1e8-d2572de7d1f3"
+      },
+      {
+        "$type": "Bespoke.epsikologi_ibkrecommendation.Domain.Kerjaya, epsikologi.IbkRecommendation",
+        "Text": "Penyelia:- Mekanik Kereta/ Kilang/ Kosmetik",
+        "Warna": null,
+        "WebId": "321176d8-2216-438f-af78-ddbca1196ce9"
+      }
+    ]
+  },
+  "BidangPengajianCollection": {
+    "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.epsikologi_ibkrecommendation.Domain.BidangPengajian, epsikologi.IbkRecommendation]], domain.sph",
+    "$values": [
+      {
+        "$type": "Bespoke.epsikologi_ibkrecommendation.Domain.BidangPengajian, epsikologi.IbkRecommendation",
+        "Text": "Perundangan",
+        "WebId": "8c27df68-74ab-4d8d-946c-89331d155d83"
+      },
+      {
+        "$type": "Bespoke.epsikologi_ibkrecommendation.Domain.BidangPengajian, epsikologi.IbkRecommendation",
+        "Text": "Sains Kepolisian\t",
+        "WebId": "5a4dca90-a586-4fb5-8c65-e9fb73ac01e0"
+      },
+      {
+        "$type": "Bespoke.epsikologi_ibkrecommendation.Domain.BidangPengajian, epsikologi.IbkRecommendation",
+        "Text": "Pentadbiran Hospital/ Kejururawatan/ Terapi Pekerjaan/ Fizikal/ Kaunseling Pemulihan & Vokasional",
+        "WebId": "307b2cbd-1f4e-4f9f-835d-1e630856af79"
+      },
+      {
+        "$type": "Bespoke.epsikologi_ibkrecommendation.Domain.BidangPengajian, epsikologi.IbkRecommendation",
+        "Text": "Kawalan Trafik Udara",
+        "WebId": "54e4efea-0bd6-4d76-a9cc-6ba5c30d375b"
+      },
+      {
+        "$type": "Bespoke.epsikologi_ibkrecommendation.Domain.BidangPengajian, epsikologi.IbkRecommendation",
+        "Text": "Pendidikan Jasmani & Kesihatan",
+        "WebId": "779493a2-15b4-4415-ba4f-046ec9130d4a"
+      },
+      {
+        "$type": "Bespoke.epsikologi_ibkrecommendation.Domain.BidangPengajian, epsikologi.IbkRecommendation",
+        "Text": "Pendidikan/ TESL",
+        "WebId": "3e7cb5d4-f075-4500-9018-591432fe4a15"
+      },
+      {
+        "$type": "Bespoke.epsikologi_ibkrecommendation.Domain.BidangPengajian, epsikologi.IbkRecommendation",
+        "Text": "Pentadbiran & Penyeliaan",
+        "WebId": "d4353cfe-2293-43ff-8631-d031e0eed010"
+      },
+      {
+        "$type": "Bespoke.epsikologi_ibkrecommendation.Domain.BidangPengajian, epsikologi.IbkRecommendation",
+        "Text": "-Sistem Jaringan Perniagaan & Telekomunikasi -Pengurusan Perladangan",
+        "WebId": "3b496903-8e82-4dff-8ed1-3340934cedf1"
+      }
+    ]
+  },
+  "CreatedBy": "admin",
+  "Id": "MPI-MIP",
+  "CreatedDate": "2015-07-31T19:03:42.4620566+08:00",
+  "ChangedBy": "admin",
+  "ChangedDate": "2015-07-31T19:03:42.4570522+08:00",
+  "WebId": "5b0e92e8-855a-4415-ce36-2101a2ade2cd"
+}

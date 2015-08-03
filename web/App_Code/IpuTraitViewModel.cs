@@ -25,6 +25,38 @@ namespace web.sph.App_Code
            Sesi = sesi;
       }
 
+
+      [JsonIgnore]
+      public Bespoke.epsikologi_pengguna.Domain.Pengguna Pengguna {get;set;}
+
+      [JsonIgnore]
+      public Bespoke.epsikologi_sesiujian.Domain.SesiUjian Sesi { get; set; }
+
+      [JsonIgnore]
+      public Bespoke.epsikologi_ujian.Domain.Ujian Ujian {get;set;}
+      [JsonIgnore]
+      public Bespoke.epsikologi_permohonan.Domain.Permohonan Permohonan {get;set;}
+      [JsonIgnore]
+      public Bespoke.epsikologi_ipurecommendation.Domain.IpuRecommendation RecommendationA {get;set;}
+      [JsonIgnore]
+      public Bespoke.epsikologi_ipurecommendation.Domain.IpuRecommendation RecommendationB {get;set;}
+      [JsonIgnore]
+      public Bespoke.epsikologi_ipurecommendation.Domain.IpuRecommendation RecommendationC {get;set;}
+      [JsonIgnore]
+      public Bespoke.epsikologi_ipurecommendation.Domain.IpuRecommendation RecommendationD {get;set;}
+      [JsonIgnore]
+      public Bespoke.epsikologi_ipurecommendation.Domain.IpuRecommendation RecommendationE {get;set;}
+      [JsonIgnore]
+      public Bespoke.epsikologi_ipurecommendation.Domain.IpuRecommendation RecommendationF {get;set;}
+      [JsonIgnore]
+      public Bespoke.epsikologi_ipurecommendation.Domain.IpuRecommendation RecommendationG {get;set;}
+      [JsonIgnore]
+      public Bespoke.epsikologi_ipurecommendation.Domain.IpuRecommendation RecommendationH {get;set;}
+      [JsonIgnore]
+      public Bespoke.epsikologi_ipurecommendation.Domain.IpuRecommendation RecommendationI {get;set;}
+      [JsonIgnore]
+      public Bespoke.epsikologi_ipurecommendation.Domain.IpuRecommendation RecommendationJ {get;set;}
+
       public int A
       {
         get
@@ -97,9 +129,6 @@ namespace web.sph.App_Code
           return  this.Sesi.JawapanCollection.Where(a => a.Trait == "J").Sum(a => a.Nilai);
         }
       }
-
-      [JsonIgnore]
-      public Bespoke.epsikologi_sesiujian.Domain.SesiUjian Sesi { get; set; }
       public override string ToString()
       {
           var setting = new JsonSerializerSettings();

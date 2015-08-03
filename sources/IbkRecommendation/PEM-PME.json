@@ -1,0 +1,81 @@
+{
+  "$type": "Bespoke.epsikologi_ibkrecommendation.Domain.IbkRecommendation, epsikologi.IbkRecommendation",
+  "Kod": "PEM/PME",
+  "KerjayaCollection": {
+    "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.epsikologi_ibkrecommendation.Domain.Kerjaya, epsikologi.IbkRecommendation]], domain.sph",
+    "$values": [
+      {
+        "$type": "Bespoke.epsikologi_ibkrecommendation.Domain.Kerjaya, epsikologi.IbkRecommendation",
+        "Text": "Jurutera:- Elektronik/ Mekanikal",
+        "Warna": null,
+        "WebId": "d9441237-96f4-43de-b340-6b2b72418909"
+      },
+      {
+        "$type": "Bespoke.epsikologi_ibkrecommendation.Domain.Kerjaya, epsikologi.IbkRecommendation",
+        "Text": "Juruterbang Helikopter",
+        "Warna": null,
+        "WebId": "eab7367e-1aab-42bd-830f-89b3b0e6a232"
+      },
+      {
+        "$type": "Bespoke.epsikologi_ibkrecommendation.Domain.Kerjaya, epsikologi.IbkRecommendation",
+        "Text": "Pegawai/ Penganalisis:- Alam Sekitar/ Pencemaran",
+        "Warna": null,
+        "WebId": "5438e185-2032-4381-8837-830febbb76f6"
+      },
+      {
+        "$type": "Bespoke.epsikologi_ibkrecommendation.Domain.Kerjaya, epsikologi.IbkRecommendation",
+        "Text": "Pegawai/ Renjer:- Perhutanan/ Perhilitan",
+        "Warna": null,
+        "WebId": "018cf5d2-86ee-47f5-8173-ffe0b7fd89bd"
+      },
+      {
+        "$type": "Bespoke.epsikologi_ibkrecommendation.Domain.Kerjaya, epsikologi.IbkRecommendation",
+        "Text": "Juruteknologi:- Perubatan/ Sains Kesihatan/ Perubatan Nuklear/ Terapi Radiasi/ Biologi/ Ultrasound/ Perubatan Kecemasan",
+        "Warna": null,
+        "WebId": "ef01e5a2-4319-4de2-b8d8-fa711cc7f95d"
+      },
+      {
+        "$type": "Bespoke.epsikologi_ibkrecommendation.Domain.Kerjaya, epsikologi.IbkRecommendation",
+        "Text": "Juruteknik:- Penganalisis Data Komunikasi/ Telekomunikasi/ Komputer/ Elektronik",
+        "Warna": null,
+        "WebId": "9236f0ad-2ed8-4633-ac37-a5ac460ceff7"
+      }
+    ]
+  },
+  "BidangPengajianCollection": {
+    "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.epsikologi_ibkrecommendation.Domain.BidangPengajian, epsikologi.IbkRecommendation]], domain.sph",
+    "$values": [
+      {
+        "$type": "Bespoke.epsikologi_ibkrecommendation.Domain.BidangPengajian, epsikologi.IbkRecommendation",
+        "Text": "Kejuruteraan:- Elektronik/ Mekanikal",
+        "WebId": "bc976dfb-7f0c-4dd6-897f-106f981406e1"
+      },
+      {
+        "$type": "Bespoke.epsikologi_ibkrecommendation.Domain.BidangPengajian, epsikologi.IbkRecommendation",
+        "Text": "Sains Alam Sekitar",
+        "WebId": "66b8449d-0c50-4b7e-95f2-e947e445ddb9"
+      },
+      {
+        "$type": "Bespoke.epsikologi_ibkrecommendation.Domain.BidangPengajian, epsikologi.IbkRecommendation",
+        "Text": "Sains Perhutanan",
+        "WebId": "38317e59-355c-403e-8531-c9410f52481f"
+      },
+      {
+        "$type": "Bespoke.epsikologi_ibkrecommendation.Domain.BidangPengajian, epsikologi.IbkRecommendation",
+        "Text": "Sains Kesihatan:- Perubatan/ Radiologi/ Elektrokardiografi/ Pembedahan/ Perubatan Kecemasan/ Bioteknologi",
+        "WebId": "b05b6504-8017-47c0-b75e-c87487430d3d"
+      },
+      {
+        "$type": "Bespoke.epsikologi_ibkrecommendation.Domain.BidangPengajian, epsikologi.IbkRecommendation",
+        "Text": "Kejuruteraan:- Komputer/ Elektronik/ Telekomunikasi",
+        "WebId": "6cbc6325-f7e9-4e1f-bc24-dfe6282e9d2a"
+      }
+    ]
+  },
+  "CreatedBy": "admin",
+  "Id": "PEM-PME",
+  "CreatedDate": "2015-07-31T18:05:20.0697971+08:00",
+  "ChangedBy": "admin",
+  "ChangedDate": "2015-07-31T18:05:20.0607903+08:00",
+  "WebId": "21d2f155-a4d3-4cac-f9d2-11b59b74acbd"
+}

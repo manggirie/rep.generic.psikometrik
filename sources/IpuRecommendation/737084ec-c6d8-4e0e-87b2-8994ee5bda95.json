@@ -1,0 +1,38 @@
+{
+  "$type": "Bespoke.epsikologi_ipurecommendation.Domain.IpuRecommendation, epsikologi.IpuRecommendation",
+  "No": "F-0-10",
+  "Tret": "F",
+  "NilaiMin": 0,
+  "NilaiMax": 10,
+  "Skala": "Berfikiran Rasional",
+  "Tahap": "Sederhana",
+  "RecommendationCollection": {
+    "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.epsikologi_ipurecommendation.Domain.Recommendation, epsikologi.IpuRecommendation]], domain.sph",
+    "$values": [
+      {
+        "$type": "Bespoke.epsikologi_ipurecommendation.Domain.Recommendation, epsikologi.IpuRecommendation",
+        "Kategori": "Interpretasi",
+        "Deskripsi": "Anda digambarkan sebagai seorang yang bersikap dan berfikiran rasional, munasabah, adil serta logikal apabila membuat keputusan walaupun mengalami tekanan emosi.  ",
+        "WebId": "7ba3a542-3be1-4286-a984-19b9e7119567"
+      },
+      {
+        "$type": "Bespoke.epsikologi_ipurecommendation.Domain.Recommendation, epsikologi.IpuRecommendation",
+        "Kategori": "Implikasi",
+        "Deskripsi": "Kebolehan anda untuk tidak terpengaruh oleh masalah emosi atau diri, membolehkan anda membuat analisis, keputusan atau tindakan tanpa dipengaruhi oleh kekeliruan, ketakutan, perasaan prejudis atau pilih kasih.  Apabila anda berhadapan dengan masalah atau mengalami tekanan emosi yang mengganggu fikiran, anda boleh berfikir dan membuat keputusan secara rasional tanpa mengikut emosi yang dialami pada masa itu.  Oleh yang demikian, anda berasa yakin dan bersikap positif dengan keputusan yang dibuat.  ",
+        "WebId": "4d9c4bea-80d8-4665-8181-0ef20afeb730"
+      },
+      {
+        "$type": "Bespoke.epsikologi_ipurecommendation.Domain.Recommendation, epsikologi.IpuRecommendation",
+        "Kategori": "Perspektif Kepimpinan",
+        "Deskripsi": "Apabila anda berhadapan dengan masalah atau mengalami tekanan emosi yang mengganggu fikiran, anda boleh berfikir dan membuat keputusan secara rasional tanpa mengikut emosi yang dialami pada masa itu.  Oleh yang demikian, anda berasa yakin dan bersikap positif dengan keputusan yang dibuat.  ",
+        "WebId": "bd0974c1-67fd-494f-8401-161ed55ed396"
+      }
+    ]
+  },
+  "CreatedBy": "admin",
+  "Id": "737084ec-c6d8-4e0e-87b2-8994ee5bda95",
+  "CreatedDate": "2015-07-31T18:51:36.4819912+08:00",
+  "ChangedBy": "admin",
+  "ChangedDate": "2015-07-31T18:51:36.479991+08:00",
+  "WebId": "7715f03b-493e-4fae-93cb-ee84ee0e204c"
+}

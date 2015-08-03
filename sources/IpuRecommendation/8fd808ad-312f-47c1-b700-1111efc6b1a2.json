@@ -1,0 +1,38 @@
+{
+  "$type": "Bespoke.epsikologi_ipurecommendation.Domain.IpuRecommendation, epsikologi.IpuRecommendation",
+  "No": "F-61-80",
+  "Tret": "F",
+  "NilaiMin": 61,
+  "NilaiMax": 80,
+  "Skala": "Berfikiran Emotif",
+  "Tahap": "Sederhana",
+  "RecommendationCollection": {
+    "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.epsikologi_ipurecommendation.Domain.Recommendation, epsikologi.IpuRecommendation]], domain.sph",
+    "$values": [
+      {
+        "$type": "Bespoke.epsikologi_ipurecommendation.Domain.Recommendation, epsikologi.IpuRecommendation",
+        "Kategori": "Interpretasi",
+        "Deskripsi": "Anda digambarkan sebagai seorang yang sensitif, emosional dan mudah menjadi asyik dengan permasalahan diri.  Anda seorang yang suka berkhayal, cemburu, menyimpan perasaan tidak puas hati terhadap diri sendiri dan mempunyai jangkaan yang salah terhadap motif orang lain.  Anda cenderung membentuk maklumat bagi memenuhi idea (persepsi) yang telah sedia ada.  Anda suka membuat interpretasi terhadap banyak perkara seperti menghubungkaitkan secara langsung dengan diri sendiri walaupun ada kalanya tidak wujud hubungan yang sebenar.   Anda mungkin mengalami kesedaran diri yang rendah, berasa kurang selesa dalam hubungan interpersonal dan mempunyai hubungan yang tegang (kurang baik) dengan orang lain. Situasi begini tidak boleh dihindarkan secara tiba-tiba tetapi ia boleh dikurangkan secara beransur-ansur melalui perubahan sikap. ",
+        "WebId": "024413be-ebe5-43c3-89bc-f9209ede1fa9"
+      },
+      {
+        "$type": "Bespoke.epsikologi_ipurecommendation.Domain.Recommendation, epsikologi.IpuRecommendation",
+        "Kategori": "Implikasi",
+        "Deskripsi": "Apabila anda mengalami konflik yang mengganggu fikiran atau emosi, keupayaan anda berfikir secara rasional, munasabah dan logikal mudah terganggu.  Faktor emosi  boleh mengganggu kebolehan anda memberi reaksi secara jelas dan logikal dan ia mungkin menjadi halangan kepada penyesuaian hidup yang bersesuaian.  Dalam situasi sedemikian, anda mungkin kurang berupaya menilai atau memberi maksud kepada situasi kehidupan secara tepat.",
+        "WebId": "c37b448b-237c-4f71-8154-33c3d1c5d657"
+      },
+      {
+        "$type": "Bespoke.epsikologi_ipurecommendation.Domain.Recommendation, epsikologi.IpuRecommendation",
+        "Kategori": "Perspektif Kepimpinan",
+        "Deskripsi": "Apabila anda berhadapan dengan masalah atau mengalami tekanan emosi yang mengganggu fikiran, anda cenderung mengambil tindakan atau keputusan berdasarkan kepada perasaan yang dialami pada masa itu.   Kesannya, anda mungkin mengambil pendekatan yang terburu-buru, jarang menilai semula keputusan tersebut dan kemudian berasa menyesal dengan keputusan yang telah dibuat. ",
+        "WebId": "38a10248-de73-4a8a-8d0a-12dcbe1a9f2f"
+      }
+    ]
+  },
+  "CreatedBy": "admin",
+  "Id": "8fd808ad-312f-47c1-b700-1111efc6b1a2",
+  "CreatedDate": "2015-07-31T18:48:10.709416+08:00",
+  "ChangedBy": "admin",
+  "ChangedDate": "2015-07-31T18:48:10.7074158+08:00",
+  "WebId": "b7a4e40e-6598-40ed-b8fd-b109a309ff71"
+}

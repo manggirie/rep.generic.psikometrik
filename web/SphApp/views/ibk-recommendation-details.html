@@ -1,0 +1,140 @@
+
+
+<h1 data-i18n="IbkRecommendation details">IbkRecommendation details</h1>
+<div id="error-list" class="row" data-bind="visible:errors().length">
+    <!-- ko foreach : errors -->
+    <div class="col-sm-8 col-sm-offset-2 alert alert-dismissable alert-danger">
+        <button type="button" class="close" data-dismiss="alert" aria-hidden="true">&times;</button>
+        <i class="fa fa-exclamation"></i>
+        <span data-bind="text:Message"></span>
+
+    </div>
+    <div class="col-sm-2"></div>
+    <!-- /ko-->
+</div>
+<div class="row">
+    <div class="col-sm-8">
+        
+<form class="form-horizontal" data-bind="with : entity" id="ibk-recommendation-details-form">
+
+
+
+    <div data-bind="visible:true" class="form-group">
+        <label data-i18n="Kod" for="b52f795b-4c36-45fd-8a5a-b733a58e7389" class="col-md-4">Kod</label>
+        <div class="col-md-8">
+            <input  class=" form-control input-large" title=""
+                   data-bind="value: Kod, enable :true "
+                   
+                   
+                   
+                   id="b52f795b-4c36-45fd-8a5a-b733a58e7389" type="text" name="Kod" />
+        </div>
+    </div>
+<h2 data-i18n="Kerjaya" data-bind="visible:true">Kerjaya</h2>
+
+
+
+<div data-bind="visible:true">
+    <table class="table table-condensed table-striped">
+        <thead>
+            <tr>
+                    <th data-i18n="Text">Text</th>
+                    <th data-i18n="Warna">Warna</th>
+                <th></th>
+            </tr>
+        </thead>
+        <tbody data-bind="foreach :KerjayaCollection">
+            <tr>
+                    <td>
+                        
+
+
+    <input  class=" form-control " title=""
+           data-bind="value: Text, visible :true, enable :true ,uniqueName:true"
+           
+           
+           type="text"
+           name="Text"
+           
+            />
+
+
+                    </td>
+                    <td>
+                        
+
+
+    <input  class=" form-control " title=""
+           data-bind="value: Warna, visible :true, enable :true ,uniqueName:true"
+           
+           
+           type="text"
+           name="Warna"
+           
+            />
+
+
+                    </td>
+                <td>
+                    <a title="remove" href="#" data-bind="click : $parent.removeChildItem.call($parent,$parent.KerjayaCollection, $data)">
+                        <span class="glyphicon glyphicon-remove"></span>
+                    </a>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    <a data-i18n="Kerjaya Collection" class="btn btn-link" data-bind="click : addChildItem(KerjayaCollection, bespoke.epsikologi_ibkrecommendation.domain.Kerjaya)">
+        <i class="fa fa-plus-circle"></i>
+        Kerjaya Collection
+    </a>
+
+</div>
+<h2 data-i18n="Bidang Pengajian" data-bind="visible:true">Bidang Pengajian</h2>
+
+
+
+<div data-bind="visible:true">
+    <table class="table table-condensed table-striped">
+        <thead>
+            <tr>
+                    <th data-i18n="Text">Text</th>
+                <th></th>
+            </tr>
+        </thead>
+        <tbody data-bind="foreach :BidangPengajianCollection">
+            <tr>
+                    <td>
+                        
+
+
+    <input  class=" form-control " title=""
+           data-bind="value: Text, visible :true, enable :true ,uniqueName:true"
+           
+           
+           type="text"
+           name="Text"
+           
+            />
+
+
+                    </td>
+                <td>
+                    <a title="remove" href="#" data-bind="click : $parent.removeChildItem.call($parent,$parent.BidangPengajianCollection, $data)">
+                        <span class="glyphicon glyphicon-remove"></span>
+                    </a>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    <a data-i18n="Bidang Pengajian Collection" class="btn btn-link" data-bind="click : addChildItem(BidangPengajianCollection, bespoke.epsikologi_ibkrecommendation.domain.BidangPengajian)">
+        <i class="fa fa-plus-circle"></i>
+        Bidang Pengajian Collection
+    </a>
+
+</div>
+</form>
+    </div>
+    <div class="col-sm-4">
+        
+    </div>
+</div>

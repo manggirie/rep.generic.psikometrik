@@ -1,0 +1,100 @@
+{
+  "$type": "Bespoke.epsikologi_ibkrecommendation.Domain.IbkRecommendation, epsikologi.IbkRecommendation",
+  "Kod": "EMT/ETM",
+  "KerjayaCollection": {
+    "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.epsikologi_ibkrecommendation.Domain.Kerjaya, epsikologi.IbkRecommendation]], domain.sph",
+    "$values": [
+      {
+        "$type": "Bespoke.epsikologi_ibkrecommendation.Domain.Kerjaya, epsikologi.IbkRecommendation",
+        "Text": "-Pakar Bahasa (Saintifik) -Penterjemah -Editor Semakan\t",
+        "Warna": null,
+        "WebId": "5b3917a6-0f4f-4e4e-9e41-fb9be55ba4d0"
+      },
+      {
+        "$type": "Bespoke.epsikologi_ibkrecommendation.Domain.Kerjaya, epsikologi.IbkRecommendation",
+        "Text": "Koordinator Keselamatan Komputer ",
+        "Warna": null,
+        "WebId": "2e551ef3-68f5-48b4-b305-4c7ee0262db1"
+      },
+      {
+        "$type": "Bespoke.epsikologi_ibkrecommendation.Domain.Kerjaya, epsikologi.IbkRecommendation",
+        "Text": "Pegawai Perubatan:- Pekerjaan \t",
+        "Warna": null,
+        "WebId": "0ceb6b6e-e238-42ed-9c19-bc71747ca9db"
+      },
+      {
+        "$type": "Bespoke.epsikologi_ibkrecommendation.Domain.Kerjaya, epsikologi.IbkRecommendation",
+        "Text": "Ahli Mikrobiologi/ Imunisasi Hemotologi",
+        "Warna": null,
+        "WebId": "599ddada-3baa-4453-aec1-a2d5ed2e7004"
+      },
+      {
+        "$type": "Bespoke.epsikologi_ibkrecommendation.Domain.Kerjaya, epsikologi.IbkRecommendation",
+        "Text": "-Penganalisis:-Penyelidikan Perniagaan/ Sokongan Bantuan -Penolong Penyelidik\t",
+        "Warna": null,
+        "WebId": "06fc9fd2-3929-4ff2-a05d-99218e5f71bb"
+      },
+      {
+        "$type": "Bespoke.epsikologi_ibkrecommendation.Domain.Kerjaya, epsikologi.IbkRecommendation",
+        "Text": "Akauntan \t",
+        "Warna": null,
+        "WebId": "d3a0d93f-9703-4a7c-aa87-a81619cdcf09"
+      },
+      {
+        "$type": "Bespoke.epsikologi_ibkrecommendation.Domain.Kerjaya, epsikologi.IbkRecommendation",
+        "Text": "Pemeriksa Poligraf\t",
+        "Warna": null,
+        "WebId": "ce8e8e90-972d-479c-817c-f58c467272ff"
+      },
+      {
+        "$type": "Bespoke.epsikologi_ibkrecommendation.Domain.Kerjaya, epsikologi.IbkRecommendation",
+        "Text": "-Pentadbir Rekod Perubatan  -Agen Pembayaran Semula\t",
+        "Warna": null,
+        "WebId": "e5da4e5a-7de3-4439-a0d7-ecdc6325c04c"
+      },
+      {
+        "$type": "Bespoke.epsikologi_ibkrecommendation.Domain.Kerjaya, epsikologi.IbkRecommendation",
+        "Text": "Juruterknik:- Mata/ Mesin Dialisis",
+        "Warna": null,
+        "WebId": "96939275-aca6-4118-b82e-e391702e2546"
+      },
+      {
+        "$type": "Bespoke.epsikologi_ibkrecommendation.Domain.Kerjaya, epsikologi.IbkRecommendation",
+        "Text": "Telekomunikator",
+        "Warna": null,
+        "WebId": "ed2f4b15-4add-4d41-8f84-8ad8f7f7925c"
+      }
+    ]
+  },
+  "BidangPengajianCollection": {
+    "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.epsikologi_ibkrecommendation.Domain.BidangPengajian, epsikologi.IbkRecommendation]], domain.sph",
+    "$values": [
+      {
+        "$type": "Bespoke.epsikologi_ibkrecommendation.Domain.BidangPengajian, epsikologi.IbkRecommendation",
+        "Text": "Sains Komputer",
+        "WebId": "94a6827e-fe27-41f9-aaca-b55c20462034"
+      },
+      {
+        "$type": "Bespoke.epsikologi_ibkrecommendation.Domain.BidangPengajian, epsikologi.IbkRecommendation",
+        "Text": "Perubatan",
+        "WebId": "140244eb-cea6-46b1-b824-5b745df8d1a1"
+      },
+      {
+        "$type": "Bespoke.epsikologi_ibkrecommendation.Domain.BidangPengajian, epsikologi.IbkRecommendation",
+        "Text": "Pentadbiran & Pengurusan Rekod",
+        "WebId": "11c6b3b1-5345-4788-85c7-4a91cf3fcde8"
+      },
+      {
+        "$type": "Bespoke.epsikologi_ibkrecommendation.Domain.BidangPengajian, epsikologi.IbkRecommendation",
+        "Text": "Sains Kesiharan: Mata/ Teknologi",
+        "WebId": "2ae2c809-fa4a-4887-8149-4e5064ab6492"
+      }
+    ]
+  },
+  "CreatedBy": "admin",
+  "Id": "EMT-ETM",
+  "CreatedDate": "2015-07-31T18:39:17.7237362+08:00",
+  "ChangedBy": "admin",
+  "ChangedDate": "2015-07-31T18:39:17.7137291+08:00",
+  "WebId": "c9f4cf53-fadc-4cbf-ae51-34396fed039d"
+}

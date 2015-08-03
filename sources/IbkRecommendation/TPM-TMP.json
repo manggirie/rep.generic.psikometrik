@@ -1,0 +1,82 @@
+{
+  "$type": "Bespoke.epsikologi_ibkrecommendation.Domain.IbkRecommendation, epsikologi.IbkRecommendation",
+  "Kod": "TPM/TMP",
+  "KerjayaCollection": {
+    "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.epsikologi_ibkrecommendation.Domain.Kerjaya, epsikologi.IbkRecommendation]], domain.sph",
+    "$values": [
+      {
+        "$type": "Bespoke.epsikologi_ibkrecommendation.Domain.Kerjaya, epsikologi.IbkRecommendation",
+        "Text": "Pakar Lanskap ",
+        "Warna": null,
+        "WebId": "ac9e36d0-2796-4610-9433-ecbcc3dc436f"
+      },
+      {
+        "$type": "Bespoke.epsikologi_ibkrecommendation.Domain.Kerjaya, epsikologi.IbkRecommendation",
+        "Text": "-Akauntan -Penganalisis Kredit\t",
+        "Warna": null,
+        "WebId": "b5596f2a-478b-4cf3-88f4-4832a1a9ec05"
+      },
+      {
+        "$type": "Bespoke.epsikologi_ibkrecommendation.Domain.Kerjaya, epsikologi.IbkRecommendation",
+        "Text": "-Pegawai:- Tenaga Kerja/ Pentadbiran/ Pengbilan/ Kos/ Pengeposan/ Pinjaman/ Harta/ Kutipan/ Fail/ Pengeluaran/ Kawalan Kualiti/ Trafik -Pegawai:- Pengawasan Sistem Tinjauan/ Pemprosesan Data/ Komputer/ Peralatan Komputer",
+        "Warna": null,
+        "WebId": "9d697366-6585-4792-a86d-e6a940d00746"
+      },
+      {
+        "$type": "Bespoke.epsikologi_ibkrecommendation.Domain.Kerjaya, epsikologi.IbkRecommendation",
+        "Text": "Juruaudit\t",
+        "Warna": null,
+        "WebId": "a89e3710-1e85-4c0c-b660-56338fbb05ed"
+      },
+      {
+        "$type": "Bespoke.epsikologi_ibkrecommendation.Domain.Kerjaya, epsikologi.IbkRecommendation",
+        "Text": "-Puskatakawan Kaset -Penyalin Muzik -Penulis Bibliograf -Penyedia Dokumen Perfileman Mikro",
+        "Warna": null,
+        "WebId": "580a292b-ca1f-4c57-854b-8e4443a4e2d4"
+      },
+      {
+        "$type": "Bespoke.epsikologi_ibkrecommendation.Domain.Kerjaya, epsikologi.IbkRecommendation",
+        "Text": "-Inspektor Pengeluaran -Penyemak Insuran -Broker \t",
+        "Warna": null,
+        "WebId": "1e3492d2-4221-4fe2-b268-3531a9f3ed8e"
+      },
+      {
+        "$type": "Bespoke.epsikologi_ibkrecommendation.Domain.Kerjaya, epsikologi.IbkRecommendation",
+        "Text": "Pengumpul:- Peralatan Muzik/ Elektronik/ Perabot",
+        "Warna": null,
+        "WebId": "0e601fd5-46e4-422b-89af-42acfd3f6e33"
+      }
+    ]
+  },
+  "BidangPengajianCollection": {
+    "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.epsikologi_ibkrecommendation.Domain.BidangPengajian, epsikologi.IbkRecommendation]], domain.sph",
+    "$values": [
+      {
+        "$type": "Bespoke.epsikologi_ibkrecommendation.Domain.BidangPengajian, epsikologi.IbkRecommendation",
+        "Text": "Seni Lanskap",
+        "WebId": "aabba36e-c84f-4e96-8e05-eabc77cb5816"
+      },
+      {
+        "$type": "Bespoke.epsikologi_ibkrecommendation.Domain.BidangPengajian, epsikologi.IbkRecommendation",
+        "Text": "Perakaunan Perundangan",
+        "WebId": "911750b0-c60e-4d19-b9a2-45915effe3b0"
+      },
+      {
+        "$type": "Bespoke.epsikologi_ibkrecommendation.Domain.BidangPengajian, epsikologi.IbkRecommendation",
+        "Text": "Pengurusan Sumber Manusia Sains Komputer  \t",
+        "WebId": "32a043d5-eace-493d-be44-9afee0d9832e"
+      },
+      {
+        "$type": "Bespoke.epsikologi_ibkrecommendation.Domain.BidangPengajian, epsikologi.IbkRecommendation",
+        "Text": "Sains Perpustakaan Seni Muzik",
+        "WebId": "6ef859ee-f457-4c6c-876b-29de619d266a"
+      }
+    ]
+  },
+  "CreatedBy": "admin",
+  "Id": "TPM-TMP",
+  "CreatedDate": "2015-07-31T19:33:31.3337389+08:00",
+  "ChangedBy": "admin",
+  "ChangedDate": "2015-07-31T19:33:31.3201125+08:00",
+  "WebId": "fc44f42a-663a-429c-9475-3d6af6d1ae40"
+}

@@ -1,0 +1,54 @@
+{
+  "$type": "Bespoke.epsikologi_ibkrecommendation.Domain.IbkRecommendation, epsikologi.IbkRecommendation",
+  "Kod": "MEK/MKE",
+  "KerjayaCollection": {
+    "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.epsikologi_ibkrecommendation.Domain.Kerjaya, epsikologi.IbkRecommendation]], domain.sph",
+    "$values": [
+      {
+        "$type": "Bespoke.epsikologi_ibkrecommendation.Domain.Kerjaya, epsikologi.IbkRecommendation",
+        "Text": "Ahli:- Psikologi Klinikal/ Kaunseling",
+        "Warna": null,
+        "WebId": "9520dfc6-6473-4f21-96f3-598369e7634c"
+      },
+      {
+        "$type": "Bespoke.epsikologi_ibkrecommendation.Domain.Kerjaya, epsikologi.IbkRecommendation",
+        "Text": "Pakar Patologi Ucapan\t",
+        "Warna": null,
+        "WebId": "c37fabaf-29a1-475a-8a54-dd66e1d2f9a4"
+      },
+      {
+        "$type": "Bespoke.epsikologi_ibkrecommendation.Domain.Kerjaya, epsikologi.IbkRecommendation",
+        "Text": "Pustakawan\t",
+        "Warna": null,
+        "WebId": "167723b8-98a6-496e-a650-4960f4fca6c8"
+      },
+      {
+        "$type": "Bespoke.epsikologi_ibkrecommendation.Domain.Kerjaya, epsikologi.IbkRecommendation",
+        "Text": "-Jururawat  -Pembantu Pergigian\t",
+        "Warna": null,
+        "WebId": "b80ee97e-72e4-4152-9890-b9ba0d0dd9aa"
+      }
+    ]
+  },
+  "BidangPengajianCollection": {
+    "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.epsikologi_ibkrecommendation.Domain.BidangPengajian, epsikologi.IbkRecommendation]], domain.sph",
+    "$values": [
+      {
+        "$type": "Bespoke.epsikologi_ibkrecommendation.Domain.BidangPengajian, epsikologi.IbkRecommendation",
+        "Text": "Kejururawatan: Umum/ Kesihatan Orang Dewasa @ Kanak-Kanak/ Pembedahan",
+        "WebId": "65ba34ab-12bd-4f93-ab39-059043ea998d"
+      },
+      {
+        "$type": "Bespoke.epsikologi_ibkrecommendation.Domain.BidangPengajian, epsikologi.IbkRecommendation",
+        "Text": "Pendidikan Biologi Psikiatrik\t",
+        "WebId": "ee62ae00-48ac-40bc-84fb-c4b206bfb388"
+      }
+    ]
+  },
+  "CreatedBy": "admin",
+  "Id": "MEK-MKE",
+  "CreatedDate": "2015-07-31T19:05:44.4497542+08:00",
+  "ChangedBy": "admin",
+  "ChangedDate": "2015-07-31T19:05:44.4322426+08:00",
+  "WebId": "bf4531a3-cd9b-41f1-8caa-12f0d077d4a5"
+}

@@ -1,0 +1,60 @@
+{
+  "$type": "Bespoke.epsikologi_ibkrecommendation.Domain.IbkRecommendation, epsikologi.IbkRecommendation",
+  "Kod": "IPT/ITP",
+  "KerjayaCollection": {
+    "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.epsikologi_ibkrecommendation.Domain.Kerjaya, epsikologi.IbkRecommendation]], domain.sph",
+    "$values": [
+      {
+        "$type": "Bespoke.epsikologi_ibkrecommendation.Domain.Kerjaya, epsikologi.IbkRecommendation",
+        "Text": "Pengurus Produksi",
+        "Warna": null,
+        "WebId": "f778e899-aa70-490c-b250-ad4fcad614e0"
+      },
+      {
+        "$type": "Bespoke.epsikologi_ibkrecommendation.Domain.Kerjaya, epsikologi.IbkRecommendation",
+        "Text": "Ketua Pekerja Peralatan Komunikasi",
+        "Warna": null,
+        "WebId": "1b31153f-3545-4fe2-a936-e2630a22c6c4"
+      },
+      {
+        "$type": "Bespoke.epsikologi_ibkrecommendation.Domain.Kerjaya, epsikologi.IbkRecommendation",
+        "Text": "Penyelia:- Kilang/ Bangunan/ Ladang/ Pembaikan Peralatan/ Produksi Bukan Besi/ Peralatan Komunikasi/ Kilang Pelupusan Sampah/ Peralatan Perlindungan/ Meja Bantuan/ Pengeluaran Perabot ",
+        "Warna": null,
+        "WebId": "a1df6e57-d9d7-4389-ace3-618c240aaace"
+      },
+      {
+        "$type": "Bespoke.epsikologi_ibkrecommendation.Domain.Kerjaya, epsikologi.IbkRecommendation",
+        "Text": "-Eksekutif Kebersihan -Juruteknik Kesihatan & Keselamatan Industri ",
+        "Warna": null,
+        "WebId": "b32e2531-2c6f-4030-bffe-ba271a5ad14f"
+      },
+      {
+        "$type": "Bespoke.epsikologi_ibkrecommendation.Domain.Kerjaya, epsikologi.IbkRecommendation",
+        "Text": "-Penyemak Trafik  -Kerani Pengedaran  -Wakil Pencari Kerja\t",
+        "Warna": null,
+        "WebId": "e28a8f54-b436-435f-9064-a07e0b1bdad7"
+      }
+    ]
+  },
+  "BidangPengajianCollection": {
+    "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.epsikologi_ibkrecommendation.Domain.BidangPengajian, epsikologi.IbkRecommendation]], domain.sph",
+    "$values": [
+      {
+        "$type": "Bespoke.epsikologi_ibkrecommendation.Domain.BidangPengajian, epsikologi.IbkRecommendation",
+        "Text": "Pengurusan/ Pentadbiran",
+        "WebId": "75a7ebe4-c3e9-4bfc-837b-8e67fb9f084c"
+      },
+      {
+        "$type": "Bespoke.epsikologi_ibkrecommendation.Domain.BidangPengajian, epsikologi.IbkRecommendation",
+        "Text": "-Sains Kesihatan -Komunikasi & Media Massa -Operasi Penjualan Produk Petroleum",
+        "WebId": "7023ed3c-8f25-4613-816c-fa01a5fa075f"
+      }
+    ]
+  },
+  "CreatedBy": "admin",
+  "Id": "IPT-ITP",
+  "CreatedDate": "2015-07-31T19:19:13.1282221+08:00",
+  "ChangedBy": "admin",
+  "ChangedDate": "2015-07-31T19:19:13.1608647+08:00",
+  "WebId": "df36e003-30b3-472b-9f75-d131b2e44b50"
+}

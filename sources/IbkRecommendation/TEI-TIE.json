@@ -1,0 +1,60 @@
+{
+  "$type": "Bespoke.epsikologi_ibkrecommendation.Domain.IbkRecommendation, epsikologi.IbkRecommendation",
+  "Kod": "TEI/TIE",
+  "KerjayaCollection": {
+    "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.epsikologi_ibkrecommendation.Domain.Kerjaya, epsikologi.IbkRecommendation]], domain.sph",
+    "$values": [
+      {
+        "$type": "Bespoke.epsikologi_ibkrecommendation.Domain.Kerjaya, epsikologi.IbkRecommendation",
+        "Text": "Akauntan\t",
+        "Warna": null,
+        "WebId": "ca2c9262-5046-439e-abaf-a5706510f8d4"
+      },
+      {
+        "$type": "Bespoke.epsikologi_ibkrecommendation.Domain.Kerjaya, epsikologi.IbkRecommendation",
+        "Text": "Penguasa Kastam",
+        "Warna": null,
+        "WebId": "a08b1efe-d149-401c-942e-9d316e299f02"
+      },
+      {
+        "$type": "Bespoke.epsikologi_ibkrecommendation.Domain.Kerjaya, epsikologi.IbkRecommendation",
+        "Text": "Penganalisis Pelaburan ",
+        "Warna": null,
+        "WebId": "399133ed-4b1b-40db-af8e-6e9d3df970f6"
+      },
+      {
+        "$type": "Bespoke.epsikologi_ibkrecommendation.Domain.Kerjaya, epsikologi.IbkRecommendation",
+        "Text": "Penyemak Cap Jari",
+        "Warna": null,
+        "WebId": "317e01cc-4968-4180-af30-51db68ebd6e4"
+      },
+      {
+        "$type": "Bespoke.epsikologi_ibkrecommendation.Domain.Kerjaya, epsikologi.IbkRecommendation",
+        "Text": "Inspektor Bangunan",
+        "Warna": null,
+        "WebId": "1b5889de-845c-4256-960e-767aae5bc213"
+      }
+    ]
+  },
+  "BidangPengajianCollection": {
+    "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.epsikologi_ibkrecommendation.Domain.BidangPengajian, epsikologi.IbkRecommendation]], domain.sph",
+    "$values": [
+      {
+        "$type": "Bespoke.epsikologi_ibkrecommendation.Domain.BidangPengajian, epsikologi.IbkRecommendation",
+        "Text": "Perakaunan",
+        "WebId": "8c2c8a4a-7497-4faf-b6c8-3f65b1c52560"
+      },
+      {
+        "$type": "Bespoke.epsikologi_ibkrecommendation.Domain.BidangPengajian, epsikologi.IbkRecommendation",
+        "Text": "Sains Aktuari",
+        "WebId": "8b004d01-a802-43e6-8f84-f3c0411cd5b0"
+      }
+    ]
+  },
+  "CreatedBy": "admin",
+  "Id": "TEI-TIE",
+  "CreatedDate": "2015-07-31T19:37:10.8053053+08:00",
+  "ChangedBy": "admin",
+  "ChangedDate": "2015-07-31T19:37:10.794298+08:00",
+  "WebId": "05dccd04-b878-47fe-9795-98aab5a6a1a9"
+}

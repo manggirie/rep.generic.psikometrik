@@ -1,0 +1,53 @@
+{
+  "$type": "Bespoke.epsikologi_ibkrecommendation.Domain.IbkRecommendation, epsikologi.IbkRecommendation",
+  "Kod": "PKM/PMK",
+  "KerjayaCollection": {
+    "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.epsikologi_ibkrecommendation.Domain.Kerjaya, epsikologi.IbkRecommendation]], domain.sph",
+    "$values": [
+      {
+        "$type": "Bespoke.epsikologi_ibkrecommendation.Domain.Kerjaya, epsikologi.IbkRecommendation",
+        "Text": "Chef:- Pastri/ Pencuci Mulut",
+        "Warna": null,
+        "WebId": "ff6e284b-e723-40c8-99f4-c3e03772bafd"
+      },
+      {
+        "$type": "Bespoke.epsikologi_ibkrecommendation.Domain.Kerjaya, epsikologi.IbkRecommendation",
+        "Text": "-Jurufoto -Pereka Fesyen",
+        "Warna": null,
+        "WebId": "5a97ee0f-f63d-490e-81bf-2cbd6afd9630"
+      },
+      {
+        "$type": "Bespoke.epsikologi_ibkrecommendation.Domain.Kerjaya, epsikologi.IbkRecommendation",
+        "Text": "Juruteknik:- Pentas/ Kamera/ Kesan Optikal",
+        "Warna": null,
+        "WebId": "87cf8d67-baf6-4d27-85c4-ab996b3c3961"
+      }
+    ]
+  },
+  "BidangPengajianCollection": {
+    "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.epsikologi_ibkrecommendation.Domain.BidangPengajian, epsikologi.IbkRecommendation]], domain.sph",
+    "$values": [
+      {
+        "$type": "Bespoke.epsikologi_ibkrecommendation.Domain.BidangPengajian, epsikologi.IbkRecommendation",
+        "Text": "Perhotelan/ Masakan",
+        "WebId": "03bc40d7-727f-447b-bce0-d28efd51212a"
+      },
+      {
+        "$type": "Bespoke.epsikologi_ibkrecommendation.Domain.BidangPengajian, epsikologi.IbkRecommendation",
+        "Text": "-Seni Fotografi -Rekaan Fesyen",
+        "WebId": "8b8c6474-5872-490f-a4b8-0156c23761f3"
+      },
+      {
+        "$type": "Bespoke.epsikologi_ibkrecommendation.Domain.BidangPengajian, epsikologi.IbkRecommendation",
+        "Text": "Kesan Khas\t",
+        "WebId": "82584ab5-5a8d-42c6-b1e7-294784fb1227"
+      }
+    ]
+  },
+  "CreatedBy": "admin",
+  "Id": "PKM-PMK",
+  "CreatedDate": "2015-07-31T18:15:52.3323412+08:00",
+  "ChangedBy": "admin",
+  "ChangedDate": "2015-07-31T18:15:52.3693683+08:00",
+  "WebId": "68d5fcf3-026e-4afc-faac-f43926621838"
+}

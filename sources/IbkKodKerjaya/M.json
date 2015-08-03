@@ -1,0 +1,204 @@
+{
+  "$type": "Bespoke.epsikologi_ibkkodkerjaya.Domain.IbkKodKerjaya, epsikologi.IbkKodKerjaya",
+  "Kod": "M",
+  "Nota": "Sekiranya anda ingin mengetahui interpretasi ujian secara lebih terperinci, sila hubungi pentadbir sistem anda atau pentadbir sistem di Jabatan Perkhidmatan Awam Malaysia.",
+  "KodKerjayaAnda": "MUDAH MESRA",
+  "KategoriKerjayaAnda": "MUDAH MESRA",
+  "Text": "Anda digambarkan sebagai seorang yang ceria, dikenali ramai, mudah mesra dan pemurah.  Anda juga seorang yang baik hati, penyabar, memahami dan menghormati orang lain.  Anda bersedia memaafkan orang lain dan cenderung menyelesaikan masalah menggunakan perbincangan atau mengatur semula hubungan.\n\nAnda suka membicarakan persoalan seperti kebajikan orang lain dan selalu berfikir bagaimana memberikan perkhidmatan kepada mereka.  Anda seorang yang bertanggungjawab, boleh bekerjasama, suka membantu orang lain dan berkebolehan mempengaruhi atau meyakinkan orang lain berhubung sesuatu perkara.\n\nAnda berpegang kepada konsep \u0018Ceritakanlah\u0019 dan menggemari aktiviti bercorak kemasyarakatan atau pendidikan.  Anda berasa tertarik untuk bekerja dalam persekitaran yang membolehkan anda membantu atau memberi kesedaran dan maklumat kepada orang lain seperti guru, ahli terapi, kaunselor dan jurulatih.  Di akhir pelaksanaan tugas, anda berasa bangga apabila dapat membantu orang lain menyelesaikan permasalahan mereka atau menambahbaik diri sendiri.",
+  "AlternatifPilihanKerjayaCollection": {
+    "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.epsikologi_ibkkodkerjaya.Domain.AlternatifPilihanKerjaya, epsikologi.IbkKodKerjaya]], domain.sph",
+    "$values": [
+      {
+        "$type": "Bespoke.epsikologi_ibkkodkerjaya.Domain.AlternatifPilihanKerjaya, epsikologi.IbkKodKerjaya",
+        "Text": "Pegawai Perubatan",
+        "WebId": "103fceee-0fc9-4551-92de-2983b2069550"
+      },
+      {
+        "$type": "Bespoke.epsikologi_ibkkodkerjaya.Domain.AlternatifPilihanKerjaya, epsikologi.IbkKodKerjaya",
+        "Text": "Pakar Psikologi/ Kaunseling",
+        "WebId": "28244280-a539-4c73-a972-b4d248ad9ea7"
+      },
+      {
+        "$type": "Bespoke.epsikologi_ibkkodkerjaya.Domain.AlternatifPilihanKerjaya, epsikologi.IbkKodKerjaya",
+        "Text": "Pegawai Pemakanan\t",
+        "WebId": "fe7b6507-d067-4a5a-b151-2065f2e1ba74"
+      },
+      {
+        "$type": "Bespoke.epsikologi_ibkkodkerjaya.Domain.AlternatifPilihanKerjaya, epsikologi.IbkKodKerjaya",
+        "Text": "Pegawai Agama",
+        "WebId": "ab0c89fb-fb0f-46b9-b798-2b38d5aad723"
+      },
+      {
+        "$type": "Bespoke.epsikologi_ibkkodkerjaya.Domain.AlternatifPilihanKerjaya, epsikologi.IbkKodKerjaya",
+        "Text": "Pegawai Kebajikan",
+        "WebId": "0ad1121b-cea5-4c1c-9e07-25fe81a09fd5"
+      },
+      {
+        "$type": "Bespoke.epsikologi_ibkkodkerjaya.Domain.AlternatifPilihanKerjaya, epsikologi.IbkKodKerjaya",
+        "Text": "Pegawai Kastam",
+        "WebId": "742c3c5f-82a8-4a7c-84c9-8d53c6174032"
+      },
+      {
+        "$type": "Bespoke.epsikologi_ibkkodkerjaya.Domain.AlternatifPilihanKerjaya, epsikologi.IbkKodKerjaya",
+        "Text": "Pengurus",
+        "WebId": "91610458-00d8-43b5-b5d6-499dc84d7630"
+      },
+      {
+        "$type": "Bespoke.epsikologi_ibkkodkerjaya.Domain.AlternatifPilihanKerjaya, epsikologi.IbkKodKerjaya",
+        "Text": "Pensyarah/ Guru",
+        "WebId": "4e218a1a-673f-40f5-9f11-13c840ac1f1b"
+      },
+      {
+        "$type": "Bespoke.epsikologi_ibkkodkerjaya.Domain.AlternatifPilihanKerjaya, epsikologi.IbkKodKerjaya",
+        "Text": "Pustakawan",
+        "WebId": "58fe18c8-3f98-4360-a8f5-22cbd46b02b0"
+      },
+      {
+        "$type": "Bespoke.epsikologi_ibkkodkerjaya.Domain.AlternatifPilihanKerjaya, epsikologi.IbkKodKerjaya",
+        "Text": "Jururawat",
+        "WebId": "0b69051e-9564-4515-b833-4c3d4cb82510"
+      },
+      {
+        "$type": "Bespoke.epsikologi_ibkkodkerjaya.Domain.AlternatifPilihanKerjaya, epsikologi.IbkKodKerjaya",
+        "Text": "Pegawai Pergigian",
+        "WebId": "b6eb2976-ab2d-4c81-a23f-a6a457b51708"
+      },
+      {
+        "$type": "Bespoke.epsikologi_ibkkodkerjaya.Domain.AlternatifPilihanKerjaya, epsikologi.IbkKodKerjaya",
+        "Text": "Perunding",
+        "WebId": "a0d233b7-0c4e-4269-893f-dc88dcbb5efe"
+      },
+      {
+        "$type": "Bespoke.epsikologi_ibkkodkerjaya.Domain.AlternatifPilihanKerjaya, epsikologi.IbkKodKerjaya",
+        "Text": "Pegawai Pemulihan",
+        "WebId": "5639180c-4e74-408e-a76d-d17444fa2314"
+      },
+      {
+        "$type": "Bespoke.epsikologi_ibkkodkerjaya.Domain.AlternatifPilihanKerjaya, epsikologi.IbkKodKerjaya",
+        "Text": "Pegawai Polis",
+        "WebId": "093f6333-bb99-406e-a9a0-faf464ebee6d"
+      },
+      {
+        "$type": "Bespoke.epsikologi_ibkkodkerjaya.Domain.AlternatifPilihanKerjaya, epsikologi.IbkKodKerjaya",
+        "Text": "Pegawai Veterinar",
+        "WebId": "2fc9cf86-a29d-4632-9812-102c9c5824b2"
+      },
+      {
+        "$type": "Bespoke.epsikologi_ibkkodkerjaya.Domain.AlternatifPilihanKerjaya, epsikologi.IbkKodKerjaya",
+        "Text": "Agen Perisikan",
+        "WebId": "f4a8f50a-7206-4323-8b0a-fbddfbe29f0b"
+      },
+      {
+        "$type": "Bespoke.epsikologi_ibkkodkerjaya.Domain.AlternatifPilihanKerjaya, epsikologi.IbkKodKerjaya",
+        "Text": "Penterjemah",
+        "WebId": "2188c5d9-834e-44f9-bc0c-a95139071b2c"
+      },
+      {
+        "$type": "Bespoke.epsikologi_ibkkodkerjaya.Domain.AlternatifPilihanKerjaya, epsikologi.IbkKodKerjaya",
+        "Text": "Pustakawan",
+        "WebId": "9c982f07-12c3-419e-b009-74e89cc22278"
+      }
+    ]
+  },
+  "AlternatifBidangPengajianCollection": {
+    "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.epsikologi_ibkkodkerjaya.Domain.AlternatifBidangPengajian, epsikologi.IbkKodKerjaya]], domain.sph",
+    "$values": [
+      {
+        "$type": "Bespoke.epsikologi_ibkkodkerjaya.Domain.AlternatifBidangPengajian, epsikologi.IbkKodKerjaya",
+        "Text": "Sains Perubatan",
+        "WebId": "55638461-ae97-40ab-b1e8-ea56d6498aaf"
+      },
+      {
+        "$type": "Bespoke.epsikologi_ibkkodkerjaya.Domain.AlternatifBidangPengajian, epsikologi.IbkKodKerjaya",
+        "Text": "Sains Pemakanan",
+        "WebId": "fb523117-6ae8-44e8-a5fa-ad6898887e78"
+      },
+      {
+        "$type": "Bespoke.epsikologi_ibkkodkerjaya.Domain.AlternatifBidangPengajian, epsikologi.IbkKodKerjaya",
+        "Text": "Sains Pengurusan",
+        "WebId": "b3137477-947b-47bf-93ed-51449b7b813f"
+      },
+      {
+        "$type": "Bespoke.epsikologi_ibkkodkerjaya.Domain.AlternatifBidangPengajian, epsikologi.IbkKodKerjaya",
+        "Text": "Sains Kesihatan\t",
+        "WebId": "c794b031-6f45-4c96-88c1-a23968ef7fab"
+      },
+      {
+        "$type": "Bespoke.epsikologi_ibkkodkerjaya.Domain.AlternatifBidangPengajian, epsikologi.IbkKodKerjaya",
+        "Text": "Sains Perpustakaan",
+        "WebId": "3ad24db0-24dd-4756-90ae-cc059841b7d3"
+      },
+      {
+        "$type": "Bespoke.epsikologi_ibkkodkerjaya.Domain.AlternatifBidangPengajian, epsikologi.IbkKodKerjaya",
+        "Text": "Sains Kepolisian",
+        "WebId": "800296c3-5462-4753-9cd3-e73dc0f9cbeb"
+      },
+      {
+        "$type": "Bespoke.epsikologi_ibkkodkerjaya.Domain.AlternatifBidangPengajian, epsikologi.IbkKodKerjaya",
+        "Text": "Sains Sosial",
+        "WebId": "330ed14c-ff8f-4d13-a0b9-ca008dba7fdf"
+      },
+      {
+        "$type": "Bespoke.epsikologi_ibkkodkerjaya.Domain.AlternatifBidangPengajian, epsikologi.IbkKodKerjaya",
+        "Text": "Sains Pendidikan",
+        "WebId": "1c987c38-bec6-47b7-a19c-9c067ca77a93"
+      },
+      {
+        "$type": "Bespoke.epsikologi_ibkkodkerjaya.Domain.AlternatifBidangPengajian, epsikologi.IbkKodKerjaya",
+        "Text": "Psikologi / Kaunseling",
+        "WebId": "0d94dbc6-b8a4-4bbe-af93-eddfd8e54fc7"
+      },
+      {
+        "$type": "Bespoke.epsikologi_ibkkodkerjaya.Domain.AlternatifBidangPengajian, epsikologi.IbkKodKerjaya",
+        "Text": "Pengajian Islam",
+        "WebId": "1f93e3a5-a008-47a3-a438-563955a7c636"
+      },
+      {
+        "$type": "Bespoke.epsikologi_ibkkodkerjaya.Domain.AlternatifBidangPengajian, epsikologi.IbkKodKerjaya",
+        "Text": "Pergigian",
+        "WebId": "e2b8d21d-b3a9-4f10-ad82-900a17b79b4c"
+      },
+      {
+        "$type": "Bespoke.epsikologi_ibkkodkerjaya.Domain.AlternatifBidangPengajian, epsikologi.IbkKodKerjaya",
+        "Text": "Veterinar",
+        "WebId": "bfdec620-4a90-4986-bcc6-2f594ca881d4"
+      },
+      {
+        "$type": "Bespoke.epsikologi_ibkkodkerjaya.Domain.AlternatifBidangPengajian, epsikologi.IbkKodKerjaya",
+        "Text": "Perundangan",
+        "WebId": "8ec76c15-e1f4-4d75-be77-44bfd0470036"
+      },
+      {
+        "$type": "Bespoke.epsikologi_ibkkodkerjaya.Domain.AlternatifBidangPengajian, epsikologi.IbkKodKerjaya",
+        "Text": "Perakaunan",
+        "WebId": "fd745a73-cc96-4415-bc1c-76a1332e1db2"
+      },
+      {
+        "$type": "Bespoke.epsikologi_ibkkodkerjaya.Domain.AlternatifBidangPengajian, epsikologi.IbkKodKerjaya",
+        "Text": "Sains Komputer",
+        "WebId": "07dba0de-ba12-4b89-8a22-15577e9edeb5"
+      },
+      {
+        "$type": "Bespoke.epsikologi_ibkkodkerjaya.Domain.AlternatifBidangPengajian, epsikologi.IbkKodKerjaya",
+        "Text": "Penjagaan Kanak-Kanak",
+        "WebId": "5903995d-1785-4980-94b8-91e414e4fd3e"
+      },
+      {
+        "$type": "Bespoke.epsikologi_ibkkodkerjaya.Domain.AlternatifBidangPengajian, epsikologi.IbkKodKerjaya",
+        "Text": "Farmasi",
+        "WebId": "4e203f36-9cc6-4e1d-9c46-dc411621c99f"
+      },
+      {
+        "$type": "Bespoke.epsikologi_ibkkodkerjaya.Domain.AlternatifBidangPengajian, epsikologi.IbkKodKerjaya",
+        "Text": "Sains Sukan",
+        "WebId": "acb12671-4478-4d5a-899b-0d539fdad56e"
+      }
+    ]
+  },
+  "CreatedBy": "admin",
+  "Id": "M",
+  "CreatedDate": "2015-07-31T17:43:24.7232118+08:00",
+  "ChangedBy": "admin",
+  "ChangedDate": "2015-07-31T17:43:24.7432255+08:00",
+  "WebId": "a5ee0efd-3c97-4d71-9525-76dfc5b89da8"
+}

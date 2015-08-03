@@ -1,0 +1,70 @@
+{
+  "$type": "Bespoke.epsikologi_ibkrecommendation.Domain.IbkRecommendation, epsikologi.IbkRecommendation",
+  "Kod": "MPK/MKP",
+  "KerjayaCollection": {
+    "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.epsikologi_ibkrecommendation.Domain.Kerjaya, epsikologi.IbkRecommendation]], domain.sph",
+    "$values": [
+      {
+        "$type": "Bespoke.epsikologi_ibkrecommendation.Domain.Kerjaya, epsikologi.IbkRecommendation",
+        "Text": "Chef:- Masakan Pastri & Pencuci Mulut",
+        "Warna": null,
+        "WebId": "20e9fbb4-ce01-4a56-90a7-fc660779b687"
+      },
+      {
+        "$type": "Bespoke.epsikologi_ibkrecommendation.Domain.Kerjaya, epsikologi.IbkRecommendation",
+        "Text": "Pereka Fesyen",
+        "Warna": null,
+        "WebId": "cbd288db-0568-4dd9-9373-b29ecc94b17a"
+      },
+      {
+        "$type": "Bespoke.epsikologi_ibkrecommendation.Domain.Kerjaya, epsikologi.IbkRecommendation",
+        "Text": "Inspektor Pencetak Skrin",
+        "Warna": null,
+        "WebId": "b830abf8-828d-41d1-aac1-42decd97a214"
+      },
+      {
+        "$type": "Bespoke.epsikologi_ibkrecommendation.Domain.Kerjaya, epsikologi.IbkRecommendation",
+        "Text": "Jurukamera/ Pelukis Optikal",
+        "Warna": null,
+        "WebId": "d179dadc-cd41-40fb-93df-e6d24afb575d"
+      },
+      {
+        "$type": "Bespoke.epsikologi_ibkrecommendation.Domain.Kerjaya, epsikologi.IbkRecommendation",
+        "Text": "Juruteknik:- Pementasan/ Kesan Khas",
+        "Warna": null,
+        "WebId": "8d2d0933-b241-4b4a-96e9-bd34f79fa323"
+      }
+    ]
+  },
+  "BidangPengajianCollection": {
+    "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.epsikologi_ibkrecommendation.Domain.BidangPengajian, epsikologi.IbkRecommendation]], domain.sph",
+    "$values": [
+      {
+        "$type": "Bespoke.epsikologi_ibkrecommendation.Domain.BidangPengajian, epsikologi.IbkRecommendation",
+        "Text": "Perhotelan & Masakan",
+        "WebId": "45011d2f-32a2-4b0a-96fd-3e07dd29093e"
+      },
+      {
+        "$type": "Bespoke.epsikologi_ibkrecommendation.Domain.BidangPengajian, epsikologi.IbkRecommendation",
+        "Text": "Seni Rekaan Fesyen",
+        "WebId": "82876d5f-ef37-4f03-821e-bd9d8ccd28cb"
+      },
+      {
+        "$type": "Bespoke.epsikologi_ibkrecommendation.Domain.BidangPengajian, epsikologi.IbkRecommendation",
+        "Text": "Seni Fotografi ",
+        "WebId": "6b9e9b58-9233-4ebc-aebe-3d4e1f0703ae"
+      },
+      {
+        "$type": "Bespoke.epsikologi_ibkrecommendation.Domain.BidangPengajian, epsikologi.IbkRecommendation",
+        "Text": "Pementasan",
+        "WebId": "53bbd512-a2d6-4b45-98cb-897d773e50c2"
+      }
+    ]
+  },
+  "CreatedBy": "admin",
+  "Id": "MPK-MKP",
+  "CreatedDate": "2015-07-31T19:01:17.4902299+08:00",
+  "ChangedBy": "admin",
+  "ChangedDate": "2015-07-31T19:01:17.4772207+08:00",
+  "WebId": "b86a6e67-163d-466f-a931-7beb8b0b3546"
+}

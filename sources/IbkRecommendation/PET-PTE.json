@@ -1,0 +1,71 @@
+{
+  "$type": "Bespoke.epsikologi_ibkrecommendation.Domain.IbkRecommendation, epsikologi.IbkRecommendation",
+  "Kod": "PET/PTE",
+  "KerjayaCollection": {
+    "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.epsikologi_ibkrecommendation.Domain.Kerjaya, epsikologi.IbkRecommendation]], domain.sph",
+    "$values": [
+      {
+        "$type": "Bespoke.epsikologi_ibkrecommendation.Domain.Kerjaya, epsikologi.IbkRecommendation",
+        "Text": "Jurutera:- Optikal/ Awam/ Utiliti",
+        "Warna": null,
+        "WebId": "da87df1e-6a88-400b-bd1b-ff51e69d30e1"
+      },
+      {
+        "$type": "Bespoke.epsikologi_ibkrecommendation.Domain.Kerjaya, epsikologi.IbkRecommendation",
+        "Text": "Penganalisis Kualiti",
+        "Warna": null,
+        "WebId": "78ede765-215b-40ed-9dde-385408fe300f"
+      },
+      {
+        "$type": "Bespoke.epsikologi_ibkrecommendation.Domain.Kerjaya, epsikologi.IbkRecommendation",
+        "Text": "Penyiasat Senjata Api",
+        "Warna": null,
+        "WebId": "18beaaad-d22a-4416-b932-e2a24513c79d"
+      },
+      {
+        "$type": "Bespoke.epsikologi_ibkrecommendation.Domain.Kerjaya, epsikologi.IbkRecommendation",
+        "Text": "Juruteknik:- Perkakasan Elektrik/ Elektronik/  Stesyen Radio/ Mikroelektronik/ Kamera Animasi/ Audiovisual/ Planetarium/ Komputer & Senireka/ Foto/ Kawalan Kualiti",
+        "Warna": null,
+        "WebId": "700d0250-8c16-442b-9e6f-684c36e366f5"
+      },
+      {
+        "$type": "Bespoke.epsikologi_ibkrecommendation.Domain.Kerjaya, epsikologi.IbkRecommendation",
+        "Text": "Juruteknik:- Perkakasan Makmal/  Elektrokardiograf",
+        "Warna": null,
+        "WebId": "eae477b4-39f5-46ad-8c84-1abc724103f2"
+      },
+      {
+        "$type": "Bespoke.epsikologi_ibkrecommendation.Domain.Kerjaya, epsikologi.IbkRecommendation",
+        "Text": "Mekanik Automobil",
+        "Warna": null,
+        "WebId": "ee8745b0-26ae-427e-a881-02c9e2ea483f"
+      }
+    ]
+  },
+  "BidangPengajianCollection": {
+    "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.epsikologi_ibkrecommendation.Domain.BidangPengajian, epsikologi.IbkRecommendation]], domain.sph",
+    "$values": [
+      {
+        "$type": "Bespoke.epsikologi_ibkrecommendation.Domain.BidangPengajian, epsikologi.IbkRecommendation",
+        "Text": "Kejuruteraan:- Awam/ Teknologi Awam/ Elektrikal/ Industri Elektronik",
+        "WebId": "fd82ba36-bf05-465f-a76e-ae340bce44fc"
+      },
+      {
+        "$type": "Bespoke.epsikologi_ibkrecommendation.Domain.BidangPengajian, epsikologi.IbkRecommendation",
+        "Text": "Perubatan/ Sains Kesihatan/ Sonografi",
+        "WebId": "81272f15-584d-4de8-b192-1669471b866a"
+      },
+      {
+        "$type": "Bespoke.epsikologi_ibkrecommendation.Domain.BidangPengajian, epsikologi.IbkRecommendation",
+        "Text": "Pengurusan",
+        "WebId": "bca42655-6730-4b12-aadf-1c703d1d1e26"
+      }
+    ]
+  },
+  "CreatedBy": "admin",
+  "Id": "PET-PTE",
+  "CreatedDate": "2015-07-31T18:13:43.5476201+08:00",
+  "ChangedBy": "admin",
+  "ChangedDate": "2015-07-31T18:13:43.59792+08:00",
+  "WebId": "61714ed3-34f4-45e8-9f56-3b05a35e8ff1"
+}

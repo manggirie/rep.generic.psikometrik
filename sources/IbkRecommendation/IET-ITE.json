@@ -1,0 +1,53 @@
+{
+  "$type": "Bespoke.epsikologi_ibkrecommendation.Domain.IbkRecommendation, epsikologi.IbkRecommendation",
+  "Kod": "IET/ITE",
+  "KerjayaCollection": {
+    "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.epsikologi_ibkrecommendation.Domain.Kerjaya, epsikologi.IbkRecommendation]], domain.sph",
+    "$values": [
+      {
+        "$type": "Bespoke.epsikologi_ibkrecommendation.Domain.Kerjaya, epsikologi.IbkRecommendation",
+        "Text": "Ketua Pemeriksa Bank",
+        "Warna": null,
+        "WebId": "cedc7cf4-c178-4223-9ca3-e88166f3b601"
+      },
+      {
+        "$type": "Bespoke.epsikologi_ibkrecommendation.Domain.Kerjaya, epsikologi.IbkRecommendation",
+        "Text": "Jurutera:- Kesihatan Industri/ Produksi/ Perlindungan Radiasi",
+        "Warna": null,
+        "WebId": "5976acb6-c5e3-47c3-97e4-39ff677f794b"
+      },
+      {
+        "$type": "Bespoke.epsikologi_ibkrecommendation.Domain.Kerjaya, epsikologi.IbkRecommendation",
+        "Text": "Peniaga Tukaran Asing",
+        "Warna": null,
+        "WebId": "fb09655c-544d-431f-879d-967a11b1201a"
+      }
+    ]
+  },
+  "BidangPengajianCollection": {
+    "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.epsikologi_ibkrecommendation.Domain.BidangPengajian, epsikologi.IbkRecommendation]], domain.sph",
+    "$values": [
+      {
+        "$type": "Bespoke.epsikologi_ibkrecommendation.Domain.BidangPengajian, epsikologi.IbkRecommendation",
+        "Text": "Sains Aktuari",
+        "WebId": "e80c2dd9-d0df-4648-82c5-608dab506c64"
+      },
+      {
+        "$type": "Bespoke.epsikologi_ibkrecommendation.Domain.BidangPengajian, epsikologi.IbkRecommendation",
+        "Text": "Kejuruteraan \t",
+        "WebId": "83ccf2a3-52fd-4301-a04f-7c3c32204827"
+      },
+      {
+        "$type": "Bespoke.epsikologi_ibkrecommendation.Domain.BidangPengajian, epsikologi.IbkRecommendation",
+        "Text": "Perniagaan/ Perdagangan",
+        "WebId": "4b38807d-d51c-4955-b62f-29ec695ed3b4"
+      }
+    ]
+  },
+  "CreatedBy": "admin",
+  "Id": "IET-ITE",
+  "CreatedDate": "2015-07-31T19:20:49.7457177+08:00",
+  "ChangedBy": "admin",
+  "ChangedDate": "2015-07-31T19:20:49.7337097+08:00",
+  "WebId": "e811a4b8-46a2-455b-cc55-111a7491ae10"
+}

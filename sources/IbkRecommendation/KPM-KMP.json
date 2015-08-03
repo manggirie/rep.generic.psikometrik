@@ -1,0 +1,53 @@
+{
+  "$type": "Bespoke.epsikologi_ibkrecommendation.Domain.IbkRecommendation, epsikologi.IbkRecommendation",
+  "Kod": "KPM/KMP",
+  "KerjayaCollection": {
+    "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.epsikologi_ibkrecommendation.Domain.Kerjaya, epsikologi.IbkRecommendation]], domain.sph",
+    "$values": [
+      {
+        "$type": "Bespoke.epsikologi_ibkrecommendation.Domain.Kerjaya, epsikologi.IbkRecommendation",
+        "Text": "Jurukamera:- Umum/ Kesan Optikal ",
+        "Warna": null,
+        "WebId": "b4c7b1c1-3b36-4652-a539-092f558b65c6"
+      },
+      {
+        "$type": "Bespoke.epsikologi_ibkrecommendation.Domain.Kerjaya, epsikologi.IbkRecommendation",
+        "Text": "Juruteknik Pentas",
+        "Warna": null,
+        "WebId": "39895011-2221-48aa-95bf-6c2f7fb0a95d"
+      },
+      {
+        "$type": "Bespoke.epsikologi_ibkrecommendation.Domain.Kerjaya, epsikologi.IbkRecommendation",
+        "Text": "Pereka:- Barangan Kemas/ Fesyen",
+        "Warna": null,
+        "WebId": "119d8b65-1305-4a0d-bb02-0d51de1cf0a1"
+      }
+    ]
+  },
+  "BidangPengajianCollection": {
+    "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.epsikologi_ibkrecommendation.Domain.BidangPengajian, epsikologi.IbkRecommendation]], domain.sph",
+    "$values": [
+      {
+        "$type": "Bespoke.epsikologi_ibkrecommendation.Domain.BidangPengajian, epsikologi.IbkRecommendation",
+        "Text": "Seni Fotografi",
+        "WebId": "52979d21-64a3-4411-a256-96eda6890f5a"
+      },
+      {
+        "$type": "Bespoke.epsikologi_ibkrecommendation.Domain.BidangPengajian, epsikologi.IbkRecommendation",
+        "Text": "Pementasan",
+        "WebId": "2b1db201-00af-46fe-911c-3872de349e57"
+      },
+      {
+        "$type": "Bespoke.epsikologi_ibkrecommendation.Domain.BidangPengajian, epsikologi.IbkRecommendation",
+        "Text": "Seni Rekaan Fesyen",
+        "WebId": "bd2be68c-e696-49fc-862a-e7a0dd0e8378"
+      }
+    ]
+  },
+  "CreatedBy": "admin",
+  "Id": "KPM-KMP",
+  "CreatedDate": "2015-07-31T18:47:36.0375379+08:00",
+  "ChangedBy": "admin",
+  "ChangedDate": "2015-07-31T18:47:36.0235285+08:00",
+  "WebId": "1baa6a29-a2e6-442f-966c-8aa2109553aa"
+}

@@ -43,6 +43,18 @@ namespace web.sph.App_Code
             ObjectBuilder.AddCacheList<IRepository<Bespoke.epsikologi_iprecommendation.Domain.IpRecommendation>>(
                     new Bespoke.Sph.SqlRepository.SqlRepository<Bespoke.epsikologi_iprecommendation.Domain.IpRecommendation>());
 
+            ObjectBuilder.AddCacheList<IRepository<Bespoke.epsikologi_ibkkodkerjaya.Domain.IbkKodKerjaya>>(
+                    new Bespoke.Sph.SqlRepository.SqlRepository<Bespoke.epsikologi_ibkkodkerjaya.Domain.IbkKodKerjaya>());
+
+            ObjectBuilder.AddCacheList<IRepository<Bespoke.epsikologi_ibkrecommendation.Domain.IbkRecommendation>>(
+                    new Bespoke.Sph.SqlRepository.SqlRepository<Bespoke.epsikologi_ibkrecommendation.Domain.IbkRecommendation>());
+
+            ObjectBuilder.AddCacheList<IRepository<Bespoke.epsikologi_ipurecommendation.Domain.IpuRecommendation>>(
+                    new Bespoke.Sph.SqlRepository.SqlRepository<Bespoke.epsikologi_ipurecommendation.Domain.IpuRecommendation>());
+
+            ObjectBuilder.AddCacheList<IRepository<Bespoke.epsikologi_skoripu.Domain.SkorIPU>>(
+                    new Bespoke.Sph.SqlRepository.SqlRepository<Bespoke.epsikologi_skoripu.Domain.SkorIPU>());
+
     	}
     }
 }

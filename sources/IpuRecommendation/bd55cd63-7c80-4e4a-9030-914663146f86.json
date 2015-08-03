@@ -1,0 +1,38 @@
+{
+  "$type": "Bespoke.epsikologi_ipurecommendation.Domain.IpuRecommendation, epsikologi.IpuRecommendation",
+  "No": "I-21-40",
+  "Tret": "I",
+  "NilaiMin": 21,
+  "NilaiMax": 40,
+  "Skala": "Bersikap Spontan",
+  "Tahap": "Sederhana",
+  "RecommendationCollection": {
+    "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.epsikologi_ipurecommendation.Domain.Recommendation, epsikologi.IpuRecommendation]], domain.sph",
+    "$values": [
+      {
+        "$type": "Bespoke.epsikologi_ipurecommendation.Domain.Recommendation, epsikologi.IpuRecommendation",
+        "Kategori": "Interpretasi",
+        "Deskripsi": "Anda digambarkan sebagai seorang yang mempunyai kawalan diri yang rendah, kurang sistematik, mudah dipengaruhi dan sukar membuat keputusan.  Anda juga mudah berubah, kerap menukar pekerjaan dan mengalami masalah kerana tergesa-gesa mengambil tindakan.",
+        "WebId": "da2a0f0f-96cc-4169-a4c8-64986807bad6"
+      },
+      {
+        "$type": "Bespoke.epsikologi_ipurecommendation.Domain.Recommendation, epsikologi.IpuRecommendation",
+        "Kategori": "Implikasi",
+        "Deskripsi": "Sikap anda yang cenderung bertindak spontan boleh dikaitkan dengan kurangnya komitmen atau kurangnya pencapaian matlamat dalam pekerjaan yang dirancang.  Anda juga cenderung mempamerkan tingkah laku yang boleh memudaratkan diri atau bertentangan dengan kehendak anda. ",
+        "WebId": "e3a7fdcb-cf49-4bf5-990f-fa942df9260a"
+      },
+      {
+        "$type": "Bespoke.epsikologi_ipurecommendation.Domain.Recommendation, epsikologi.IpuRecommendation",
+        "Kategori": "Perspektif Kepimpinan",
+        "Deskripsi": "Anda seorang yang bersikap fleksibel, spontan, terbuka dan suka kepada situasi kerja yang tidak mengongkong anda. Kesannya, anda agak sukar mengikut peraturan atau polisi yang dianggap tidak munasabah.  Anda juga sedia mengambil risiko apabila mengambil tindakan atau keputusan walaupun tidak mempunyai maklumat yang lengkap.  ",
+        "WebId": "02f7b4db-a2ea-489d-9e9f-6f6c40225beb"
+      }
+    ]
+  },
+  "CreatedBy": "admin",
+  "Id": "bd55cd63-7c80-4e4a-9030-914663146f86",
+  "CreatedDate": "2015-07-31T19:05:40.2013547+08:00",
+  "ChangedBy": "admin",
+  "ChangedDate": "2015-07-31T19:05:40.2003546+08:00",
+  "WebId": "fd1aaa3d-5998-46bc-fd2f-0143078fd479"
+}

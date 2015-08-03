@@ -1,0 +1,37 @@
+{
+  "$type": "Bespoke.epsikologi_ibkrecommendation.Domain.IbkRecommendation, epsikologi.IbkRecommendation",
+  "Kod": "KPE/KEP",
+  "KerjayaCollection": {
+    "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.epsikologi_ibkrecommendation.Domain.Kerjaya, epsikologi.IbkRecommendation]], domain.sph",
+    "$values": [
+      {
+        "$type": "Bespoke.epsikologi_ibkrecommendation.Domain.Kerjaya, epsikologi.IbkRecommendation",
+        "Text": "Arkitek: - Umum/ Lanskap ",
+        "Warna": null,
+        "WebId": "15bf4f76-e64f-4c63-8d1a-f974496d13f9"
+      },
+      {
+        "$type": "Bespoke.epsikologi_ibkrecommendation.Domain.Kerjaya, epsikologi.IbkRecommendation",
+        "Text": "-Pereka Pakaian -Model\t",
+        "Warna": null,
+        "WebId": "b053a2df-a678-4a54-84fe-0d7e314d01be"
+      }
+    ]
+  },
+  "BidangPengajianCollection": {
+    "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.epsikologi_ibkrecommendation.Domain.BidangPengajian, epsikologi.IbkRecommendation]], domain.sph",
+    "$values": [
+      {
+        "$type": "Bespoke.epsikologi_ibkrecommendation.Domain.BidangPengajian, epsikologi.IbkRecommendation",
+        "Text": "Senibina:- Persekitaran/ Lanskap",
+        "WebId": "e07dca34-2f40-42e3-8061-d852885fe858"
+      }
+    ]
+  },
+  "CreatedBy": "admin",
+  "Id": "KPE-KEP",
+  "CreatedDate": "2015-07-31T18:46:16.1591092+08:00",
+  "ChangedBy": "admin",
+  "ChangedDate": "2015-07-31T18:46:16.1841287+08:00",
+  "WebId": "aa986234-af52-42f2-c129-61ae6cc40536"
+}

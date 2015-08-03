@@ -1,0 +1,54 @@
+{
+  "$type": "Bespoke.epsikologi_ibkrecommendation.Domain.IbkRecommendation, epsikologi.IbkRecommendation",
+  "Kod": "MPT/MTP",
+  "KerjayaCollection": {
+    "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.epsikologi_ibkrecommendation.Domain.Kerjaya, epsikologi.IbkRecommendation]], domain.sph",
+    "$values": [
+      {
+        "$type": "Bespoke.epsikologi_ibkrecommendation.Domain.Kerjaya, epsikologi.IbkRecommendation",
+        "Text": "Pakar Pembangunan Jawatan",
+        "Warna": null,
+        "WebId": "43ae54ae-faee-458c-8da5-900881da4721"
+      },
+      {
+        "$type": "Bespoke.epsikologi_ibkrecommendation.Domain.Kerjaya, epsikologi.IbkRecommendation",
+        "Text": "Penyelia Pemprosesan Filem ",
+        "Warna": null,
+        "WebId": "e05d08b2-5b74-4edc-8e90-3946efdcfd62"
+      },
+      {
+        "$type": "Bespoke.epsikologi_ibkrecommendation.Domain.Kerjaya, epsikologi.IbkRecommendation",
+        "Text": "Atlit Profesional\t",
+        "Warna": null,
+        "WebId": "9f2cf103-0b10-4280-8221-f12a08b87cd2"
+      },
+      {
+        "$type": "Bespoke.epsikologi_ibkrecommendation.Domain.Kerjaya, epsikologi.IbkRecommendation",
+        "Text": "Pembantu:- Terapi Pernafasan/ Terapi Fizikal/ Perubatan/ Pengurusan Makanan",
+        "Warna": null,
+        "WebId": "674bae4b-3cc6-4cf2-9707-d6416870d5c0"
+      }
+    ]
+  },
+  "BidangPengajianCollection": {
+    "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.epsikologi_ibkrecommendation.Domain.BidangPengajian, epsikologi.IbkRecommendation]], domain.sph",
+    "$values": [
+      {
+        "$type": "Bespoke.epsikologi_ibkrecommendation.Domain.BidangPengajian, epsikologi.IbkRecommendation",
+        "Text": "Sains Sukan",
+        "WebId": "79340863-c22a-47df-8a6f-9e8bc6429068"
+      },
+      {
+        "$type": "Bespoke.epsikologi_ibkrecommendation.Domain.BidangPengajian, epsikologi.IbkRecommendation",
+        "Text": "Sains Kesihatan:- Teknologi Prosesan Data/ Bank Darah",
+        "WebId": "d531dc8e-1431-4b1a-824a-03a1bc63c8e2"
+      }
+    ]
+  },
+  "CreatedBy": "admin",
+  "Id": "MPT-MTP",
+  "CreatedDate": "2015-07-31T19:04:42.7745903+08:00",
+  "ChangedBy": "admin",
+  "ChangedDate": "2015-07-31T19:04:42.758579+08:00",
+  "WebId": "6ce237d6-decb-4781-dc90-9c128e852be5"
+}
