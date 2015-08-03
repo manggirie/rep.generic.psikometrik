@@ -3,14 +3,14 @@
   "NoRujukan": "0288",
   "SoalanNo": "0288",
   "TeksSoalan": "Saya kerap berasa murung oleh kenangan zaman kanak-kanak atau pengalaman yang lepas.",
-  "SeksyenSoalan": "B",
+  "SeksyenSoalan": "",
   "PilihanJawapanCollection": {
     "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan]], domain.sph",
     "$values": [
       {
         "$type": "Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan",
         "Teks": "Ya",
-        "Nilai": 1,
+        "Nilai": 2,
         "WebId": null
       },
       {
@@ -21,14 +21,14 @@
       }
     ]
   },
-  "Trait": "NA",
+  "Trait": "B",
   "NamaUjian": "Indikator Perwatakan Unggul (IPU)",
-  "Susunan": 1.0,
+  "Susunan": 178.0,
   "Kategori": null,
   "CreatedBy": "admin",
   "Id": "IPU-B-0288",
   "CreatedDate": "2015-07-06T11:24:42.4086824+08:00",
-  "ChangedBy": "admin",
-  "ChangedDate": "2015-07-06T11:24:42.4061814+08:00",
+  "ChangedBy": "urusetia1",
+  "ChangedDate": "2015-08-03T15:27:51.7439407+08:00",
   "WebId": "3c24b2f4-817b-46ba-816b-85824ad2a2db"
 }

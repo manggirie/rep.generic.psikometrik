@@ -3,32 +3,32 @@
   "NoRujukan": "0280",
   "SoalanNo": "0280",
   "TeksSoalan": "Saya cenderung berasa malu dan mengasingkan diri.",
-  "SeksyenSoalan": "D",
+  "SeksyenSoalan": "",
   "PilihanJawapanCollection": {
     "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan]], domain.sph",
     "$values": [
       {
         "$type": "Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan",
         "Teks": "Ya",
-        "Nilai": 1,
+        "Nilai": 0,
         "WebId": null
       },
       {
         "$type": "Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan",
         "Teks": "Tidak",
-        "Nilai": 0,
+        "Nilai": 2,
         "WebId": null
       }
     ]
   },
-  "Trait": "NA",
+  "Trait": "D",
   "NamaUjian": "Indikator Perwatakan Unggul (IPU)",
-  "Susunan": 1.0,
+  "Susunan": 170.0,
   "Kategori": null,
   "CreatedBy": "admin",
   "Id": "IPU-D-0280",
   "CreatedDate": "2015-07-06T11:24:42.3471392+08:00",
-  "ChangedBy": "admin",
-  "ChangedDate": "2015-07-06T11:24:42.3461385+08:00",
+  "ChangedBy": "urusetia1",
+  "ChangedDate": "2015-08-03T15:24:39.7417424+08:00",
   "WebId": "5ebbefed-1458-4ba9-bbaf-4a2b381526ef"
 }

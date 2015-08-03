@@ -3,14 +3,14 @@
   "NoRujukan": "0299",
   "SoalanNo": "0299",
   "TeksSoalan": "Orang lain mengatakan bahawa saya seorang yang sentiasa aktif.",
-  "SeksyenSoalan": "C",
+  "SeksyenSoalan": "",
   "PilihanJawapanCollection": {
     "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan]], domain.sph",
     "$values": [
       {
         "$type": "Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan",
         "Teks": "Ya",
-        "Nilai": 1,
+        "Nilai": 2,
         "WebId": null
       },
       {
@@ -21,14 +21,14 @@
       }
     ]
   },
-  "Trait": "NA",
+  "Trait": "C",
   "NamaUjian": "Indikator Perwatakan Unggul (IPU)",
-  "Susunan": 1.0,
+  "Susunan": 189.0,
   "Kategori": null,
   "CreatedBy": "admin",
   "Id": "IPU-C-0299",
   "CreatedDate": "2015-07-06T11:24:42.4927422+08:00",
-  "ChangedBy": "admin",
-  "ChangedDate": "2015-07-06T11:24:42.4922421+08:00",
+  "ChangedBy": "urusetia1",
+  "ChangedDate": "2015-08-03T15:31:16.6954338+08:00",
   "WebId": "1cd6b4a9-634d-4bc4-8a2f-e744666303e7"
 }

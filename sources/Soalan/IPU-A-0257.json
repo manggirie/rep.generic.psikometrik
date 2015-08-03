@@ -3,14 +3,14 @@
   "NoRujukan": "0257",
   "SoalanNo": "0257",
   "TeksSoalan": "Saya cuba mengurangkan tekanan perasaan dengan merokok, makan atau mengambil ubat-ubatan secara berlebihan.",
-  "SeksyenSoalan": "A",
+  "SeksyenSoalan": "",
   "PilihanJawapanCollection": {
     "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan]], domain.sph",
     "$values": [
       {
         "$type": "Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan",
         "Teks": "Ya",
-        "Nilai": 1,
+        "Nilai": 2,
         "WebId": null
       },
       {
@@ -21,14 +21,14 @@
       }
     ]
   },
-  "Trait": "NA",
+  "Trait": "A",
   "NamaUjian": "Indikator Perwatakan Unggul (IPU)",
-  "Susunan": 1.0,
+  "Susunan": 147.0,
   "Kategori": null,
   "CreatedBy": "admin",
   "Id": "IPU-A-0257",
   "CreatedDate": "2015-07-06T11:24:42.1930304+08:00",
-  "ChangedBy": "admin",
-  "ChangedDate": "2015-07-06T11:24:42.1915296+08:00",
+  "ChangedBy": "urusetia1",
+  "ChangedDate": "2015-08-03T15:16:44.7182401+08:00",
   "WebId": "0bc34ccc-6433-4668-bc3b-1704bcf5b374"
 }

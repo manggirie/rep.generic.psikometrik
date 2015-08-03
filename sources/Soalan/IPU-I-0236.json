@@ -3,32 +3,32 @@
   "NoRujukan": "0236",
   "SoalanNo": "0236",
   "TeksSoalan": "Saya cenderung membuat keputusan dengan tergesa-gesa.",
-  "SeksyenSoalan": "I",
+  "SeksyenSoalan": "",
   "PilihanJawapanCollection": {
     "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan]], domain.sph",
     "$values": [
       {
         "$type": "Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan",
         "Teks": "Ya",
-        "Nilai": 1,
+        "Nilai": 0,
         "WebId": null
       },
       {
         "$type": "Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan",
         "Teks": "Tidak",
-        "Nilai": 0,
+        "Nilai": 2,
         "WebId": null
       }
     ]
   },
-  "Trait": "NA",
+  "Trait": "I",
   "NamaUjian": "Indikator Perwatakan Unggul (IPU)",
-  "Susunan": 1.0,
+  "Susunan": 126.0,
   "Kategori": null,
   "CreatedBy": "admin",
   "Id": "IPU-I-0236",
   "CreatedDate": "2015-07-06T11:24:42.0669419+08:00",
-  "ChangedBy": "admin",
-  "ChangedDate": "2015-07-06T11:24:42.0664413+08:00",
+  "ChangedBy": "urusetia1",
+  "ChangedDate": "2015-08-03T14:51:25.8423677+08:00",
   "WebId": "026590bb-099e-41dc-916b-3b81358918e9"
 }

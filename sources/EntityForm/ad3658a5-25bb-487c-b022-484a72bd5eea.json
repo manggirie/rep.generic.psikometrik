@@ -1,0 +1,62 @@
+{
+  "$type": "Bespoke.Sph.Domain.EntityForm, domain.sph",
+  "FormDesign": {
+    "$type": "Bespoke.Sph.Domain.FormDesign, domain.sph",
+    "FormElementCollection": {
+      "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.Sph.Domain.FormElement, domain.sph]], domain.sph",
+      "$values": []
+    },
+    "Name": null,
+    "Description": null,
+    "ConfirmationText": null,
+    "ImageStoreId": null,
+    "LabelColLg": null,
+    "LabelColMd": null,
+    "LabelColSm": null,
+    "LabelColXs": null,
+    "InputColLg": null,
+    "InputColMd": null,
+    "InputColSm": null,
+    "InputColXs": null,
+    "WebId": null
+  },
+  "Rules": {
+    "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[System.String, mscorlib]], domain.sph",
+    "$values": []
+  },
+  "RouteParameterCollection": {
+    "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.Sph.Domain.RouteParameter, domain.sph]], domain.sph",
+    "$values": []
+  },
+  "FormLayoutCollection": {
+    "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.Sph.Domain.FormLayout, domain.sph]], domain.sph",
+    "$values": []
+  },
+  "EntityDefinitionId": "ppkprecommendation",
+  "Name": "PpkpRecommendation details",
+  "Route": "ppkprecommendation-details",
+  "Note": null,
+  "IsAllowedNewItem": false,
+  "IconClass": null,
+  "IconStoreId": null,
+  "IsPublished": false,
+  "IsDefault": true,
+  "IsWatchAvailable": false,
+  "IsEmailAvailable": false,
+  "IsPrintAvailable": false,
+  "IsAuditTrailAvailable": false,
+  "IsRemoveAvailable": false,
+  "IsImportAvailable": false,
+  "IsExportAvailable": false,
+  "Operation": null,
+  "Entity": "PpkpRecommendation",
+  "Partial": null,
+  "Caption": null,
+  "Layout": null,
+  "CreatedBy": "admin",
+  "Id": "ad3658a5-25bb-487c-b022-484a72bd5eea",
+  "CreatedDate": "2015-08-03T16:19:36.5803933+08:00",
+  "ChangedBy": "admin",
+  "ChangedDate": "2015-08-03T16:19:36.5803933+08:00",
+  "WebId": "aec0c269-2086-44b1-af23-3e0915a10cd9"
+}

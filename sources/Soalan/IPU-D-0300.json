@@ -3,32 +3,32 @@
   "NoRujukan": "0300",
   "SoalanNo": "0300",
   "TeksSoalan": "Saya berasa tersekat dan terhalang dalam hubungan percintaan.",
-  "SeksyenSoalan": "D",
+  "SeksyenSoalan": "",
   "PilihanJawapanCollection": {
     "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan]], domain.sph",
     "$values": [
       {
         "$type": "Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan",
         "Teks": "Ya",
-        "Nilai": 1,
+        "Nilai": 0,
         "WebId": null
       },
       {
         "$type": "Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan",
         "Teks": "Tidak",
-        "Nilai": 0,
+        "Nilai": 2,
         "WebId": null
       }
     ]
   },
-  "Trait": "NA",
+  "Trait": "D",
   "NamaUjian": "Indikator Perwatakan Unggul (IPU)",
-  "Susunan": 1.0,
+  "Susunan": 190.0,
   "Kategori": null,
   "CreatedBy": "admin",
   "Id": "IPU-D-0300",
   "CreatedDate": "2015-07-06T11:24:42.498746+08:00",
-  "ChangedBy": "admin",
-  "ChangedDate": "2015-07-06T11:24:42.4982459+08:00",
+  "ChangedBy": "urusetia1",
+  "ChangedDate": "2015-08-03T15:31:42.0329673+08:00",
   "WebId": "4ffacb25-e0f7-47ea-b8c7-8f29743ab65f"
 }

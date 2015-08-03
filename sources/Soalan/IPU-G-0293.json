@@ -3,14 +3,14 @@
   "NoRujukan": "0293",
   "SoalanNo": "0293",
   "TeksSoalan": "Pertuturan dan perlakuan saya menampakkan ketegasan.",
-  "SeksyenSoalan": "G",
+  "SeksyenSoalan": "",
   "PilihanJawapanCollection": {
     "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan]], domain.sph",
     "$values": [
       {
         "$type": "Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan",
         "Teks": "Ya",
-        "Nilai": 1,
+        "Nilai": 2,
         "WebId": null
       },
       {
@@ -21,14 +21,14 @@
       }
     ]
   },
-  "Trait": "NA",
+  "Trait": "G",
   "NamaUjian": "Indikator Perwatakan Unggul (IPU)",
-  "Susunan": 1.0,
+  "Susunan": 183.0,
   "Kategori": null,
   "CreatedBy": "admin",
   "Id": "IPU-G-0293",
   "CreatedDate": "2015-07-06T11:24:42.4477104+08:00",
-  "ChangedBy": "admin",
-  "ChangedDate": "2015-07-06T11:24:42.4462096+08:00",
+  "ChangedBy": "urusetia1",
+  "ChangedDate": "2015-08-03T15:29:26.276393+08:00",
   "WebId": "894092aa-b640-4c30-a59f-deed4580daa4"
 }

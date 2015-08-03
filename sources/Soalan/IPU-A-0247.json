@@ -3,14 +3,14 @@
   "NoRujukan": "0247",
   "SoalanNo": "0247",
   "TeksSoalan": "Saya berasa perlu berada dalam kesibukan, sehingga sukar untuk berehat.",
-  "SeksyenSoalan": "A",
+  "SeksyenSoalan": "",
   "PilihanJawapanCollection": {
     "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan]], domain.sph",
     "$values": [
       {
         "$type": "Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan",
         "Teks": "Ya",
-        "Nilai": 1,
+        "Nilai": 2,
         "WebId": null
       },
       {
@@ -21,14 +21,14 @@
       }
     ]
   },
-  "Trait": "NA",
+  "Trait": "A",
   "NamaUjian": "Indikator Perwatakan Unggul (IPU)",
-  "Susunan": 1.0,
+  "Susunan": 137.0,
   "Kategori": null,
   "CreatedBy": "admin",
   "Id": "IPU-A-0247",
   "CreatedDate": "2015-07-06T11:24:42.127985+08:00",
-  "ChangedBy": "admin",
-  "ChangedDate": "2015-07-06T11:24:42.1274844+08:00",
+  "ChangedBy": "urusetia1",
+  "ChangedDate": "2015-08-03T14:56:19.8607666+08:00",
   "WebId": "b741b952-546c-4325-98ab-f8cf03698c91"
 }

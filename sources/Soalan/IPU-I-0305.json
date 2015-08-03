@@ -3,32 +3,32 @@
   "NoRujukan": "0305",
   "SoalanNo": "0305",
   "TeksSoalan": "Minat saya kerap berubah daripada satu perkara kepada perkara yang lain.",
-  "SeksyenSoalan": "I",
+  "SeksyenSoalan": "",
   "PilihanJawapanCollection": {
     "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan]], domain.sph",
     "$values": [
       {
         "$type": "Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan",
         "Teks": "Ya",
-        "Nilai": 1,
+        "Nilai": 0,
         "WebId": null
       },
       {
         "$type": "Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan",
         "Teks": "Tidak",
-        "Nilai": 0,
+        "Nilai": 2,
         "WebId": null
       }
     ]
   },
-  "Trait": "NA",
+  "Trait": "I",
   "NamaUjian": "Indikator Perwatakan Unggul (IPU)",
-  "Susunan": 1.0,
+  "Susunan": 195.0,
   "Kategori": null,
   "CreatedBy": "admin",
   "Id": "IPU-I-0305",
   "CreatedDate": "2015-07-06T11:24:42.5347719+08:00",
-  "ChangedBy": "admin",
-  "ChangedDate": "2015-07-06T11:24:42.5342718+08:00",
+  "ChangedBy": "urusetia1",
+  "ChangedDate": "2015-08-03T15:33:15.5103141+08:00",
   "WebId": "95e0383c-2046-4968-b14d-948246cee2c1"
 }

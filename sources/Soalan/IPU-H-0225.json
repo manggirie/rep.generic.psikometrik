@@ -3,14 +3,14 @@
   "NoRujukan": "0225",
   "SoalanNo": "0225",
   "TeksSoalan": "Saya tidak menghormati individu yang kelihatan seperti tidak berdaya untuk menyara hidup.",
-  "SeksyenSoalan": "H",
+  "SeksyenSoalan": "",
   "PilihanJawapanCollection": {
     "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan]], domain.sph",
     "$values": [
       {
         "$type": "Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan",
         "Teks": "Ya",
-        "Nilai": 1,
+        "Nilai": 2,
         "WebId": null
       },
       {
@@ -21,14 +21,14 @@
       }
     ]
   },
-  "Trait": "NA",
+  "Trait": "H",
   "NamaUjian": "Indikator Perwatakan Unggul (IPU)",
-  "Susunan": 1.0,
+  "Susunan": 115.0,
   "Kategori": null,
   "CreatedBy": "admin",
   "Id": "IPU-H-0225",
   "CreatedDate": "2015-07-06T11:24:41.9983938+08:00",
-  "ChangedBy": "admin",
-  "ChangedDate": "2015-07-06T11:24:41.9973931+08:00",
+  "ChangedBy": "urusetia1",
+  "ChangedDate": "2015-08-03T14:46:26.1333998+08:00",
   "WebId": "d9430f56-92e6-44c1-98a8-c440f0c83453"
 }
