@@ -1,0 +1,64 @@
+{
+  "$type": "Bespoke.epsikologi_ibkrecommendation.Domain.IbkRecommendation, epsikologi.IbkRecommendation",
+  "Kod": "EPK/EKP",
+  "KerjayaCollection": {
+    "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.epsikologi_ibkrecommendation.Domain.Kerjaya, epsikologi.IbkRecommendation]], domain.sph",
+    "$values": [
+      {
+        "$type": "Bespoke.epsikologi_ibkrecommendation.Domain.Kerjaya, epsikologi.IbkRecommendation",
+        "Text": "Pegawai Perubatan/ Pakar Bedah ",
+        "Warna": null,
+        "WebId": "4d6d8e42-e725-4c5c-a96f-161668dc3c10"
+      },
+      {
+        "$type": "Bespoke.epsikologi_ibkrecommendation.Domain.Kerjaya, epsikologi.IbkRecommendation",
+        "Text": "Pegawai Veterinar",
+        "Warna": null,
+        "WebId": "fb28b6cd-990b-4093-8c83-796ca9c9a8e6"
+      },
+      {
+        "$type": "Bespoke.epsikologi_ibkrecommendation.Domain.Kerjaya, epsikologi.IbkRecommendation",
+        "Text": "Ahli Biologi\t",
+        "Warna": null,
+        "WebId": "83ff8f2b-055d-4cde-a251-8fe468cdfe61"
+      },
+      {
+        "$type": "Bespoke.epsikologi_ibkrecommendation.Domain.Kerjaya, epsikologi.IbkRecommendation",
+        "Text": "Arkitek:- Umum/ Lanskap",
+        "Warna": null,
+        "WebId": "6fd06067-9dbd-4e97-80bc-7d27f78f5559"
+      }
+    ]
+  },
+  "BidangPengajianCollection": {
+    "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.epsikologi_ibkrecommendation.Domain.BidangPengajian, epsikologi.IbkRecommendation]], domain.sph",
+    "$values": [
+      {
+        "$type": "Bespoke.epsikologi_ibkrecommendation.Domain.BidangPengajian, epsikologi.IbkRecommendation",
+        "Text": "Perubatan",
+        "WebId": "f91c66e2-4fc7-4b2d-93bd-5f250b5ab77b"
+      },
+      {
+        "$type": "Bespoke.epsikologi_ibkrecommendation.Domain.BidangPengajian, epsikologi.IbkRecommendation",
+        "Text": "Biologi/ Biopsikologi/ Mikrobiologi/ Virologi",
+        "WebId": "34f26f79-b4c1-4cf3-a1dc-dbb13d181198"
+      },
+      {
+        "$type": "Bespoke.epsikologi_ibkrecommendation.Domain.BidangPengajian, epsikologi.IbkRecommendation",
+        "Text": "Senibina Persekitaran/ Lanskap ",
+        "WebId": "99e6bef0-a244-4b20-8195-a6f8d88a64e7"
+      },
+      {
+        "$type": "Bespoke.epsikologi_ibkrecommendation.Domain.BidangPengajian, epsikologi.IbkRecommendation",
+        "Text": "-Sains Kesihatan -Seni Fotografi\t",
+        "WebId": "9a1af68e-e0bd-40f1-a257-937d13a8cc35"
+      }
+    ]
+  },
+  "CreatedBy": "admin",
+  "Id": "EPK-EKP",
+  "CreatedDate": "2015-07-31T18:29:47.0245115+08:00",
+  "ChangedBy": "admin",
+  "ChangedDate": "2015-07-31T18:29:47.0605365+08:00",
+  "WebId": "ef9754fb-3861-45a0-f98c-f78a8a0c3da8"
+}

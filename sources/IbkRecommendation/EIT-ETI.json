@@ -1,0 +1,60 @@
+{
+  "$type": "Bespoke.epsikologi_ibkrecommendation.Domain.IbkRecommendation, epsikologi.IbkRecommendation",
+  "Kod": "EIT/ETI",
+  "KerjayaCollection": {
+    "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.epsikologi_ibkrecommendation.Domain.Kerjaya, epsikologi.IbkRecommendation]], domain.sph",
+    "$values": [
+      {
+        "$type": "Bespoke.epsikologi_ibkrecommendation.Domain.Kerjaya, epsikologi.IbkRecommendation",
+        "Text": "Jurutera:- Pentadbiran Lebuhraya/ Kawalan Pencemaran/ Perlindungan Kebakaran/ Radiasi/ Keselamatan Industri",
+        "Warna": null,
+        "WebId": "826e7ead-162b-45f4-b4c0-1804941bdc3f"
+      },
+      {
+        "$type": "Bespoke.epsikologi_ibkrecommendation.Domain.Kerjaya, epsikologi.IbkRecommendation",
+        "Text": "-Ketua Pemeriksa Bank -Juruaudit -Penganalisis Pelaburan \t",
+        "Warna": null,
+        "WebId": "4f1c4248-2ec5-4ddc-9ee6-a5dac05779a4"
+      },
+      {
+        "$type": "Bespoke.epsikologi_ibkrecommendation.Domain.Kerjaya, epsikologi.IbkRecommendation",
+        "Text": "-Penguasa Kastam -Pegawai Pemeriksa Cap Jari",
+        "Warna": null,
+        "WebId": "1dc54b5d-e49a-4b2d-b730-6be6a93f6e46"
+      },
+      {
+        "$type": "Bespoke.epsikologi_ibkrecommendation.Domain.Kerjaya, epsikologi.IbkRecommendation",
+        "Text": "Inspektor Bangunan",
+        "Warna": null,
+        "WebId": "5c58e8de-28ba-437a-a721-c66c567713fc"
+      },
+      {
+        "$type": "Bespoke.epsikologi_ibkrecommendation.Domain.Kerjaya, epsikologi.IbkRecommendation",
+        "Text": "Peniaga Tukaran Asing\t",
+        "Warna": null,
+        "WebId": "7a4373c3-e745-46e4-81cb-4f9077b9eb78"
+      }
+    ]
+  },
+  "BidangPengajianCollection": {
+    "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.epsikologi_ibkrecommendation.Domain.BidangPengajian, epsikologi.IbkRecommendation]], domain.sph",
+    "$values": [
+      {
+        "$type": "Bespoke.epsikologi_ibkrecommendation.Domain.BidangPengajian, epsikologi.IbkRecommendation",
+        "Text": "Kejuruteraan \t",
+        "WebId": "e942d28e-3e1e-4766-8f71-1d28d60b9b26"
+      },
+      {
+        "$type": "Bespoke.epsikologi_ibkrecommendation.Domain.BidangPengajian, epsikologi.IbkRecommendation",
+        "Text": "-Farmasi  -Perakaunan",
+        "WebId": "a04c4038-42dd-47c9-9d72-9aa38082ae45"
+      }
+    ]
+  },
+  "CreatedBy": "admin",
+  "Id": "EIT-ETI",
+  "CreatedDate": "2015-07-31T18:41:01.5216727+08:00",
+  "ChangedBy": "admin",
+  "ChangedDate": "2015-07-31T18:41:01.5111659+08:00",
+  "WebId": "ccc1c48e-7c71-4cc0-f97a-eb9899c23de3"
+}

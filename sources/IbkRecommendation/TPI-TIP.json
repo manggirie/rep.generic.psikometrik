@@ -1,0 +1,98 @@
+{
+  "$type": "Bespoke.epsikologi_ibkrecommendation.Domain.IbkRecommendation, epsikologi.IbkRecommendation",
+  "Kod": "TPI/TIP",
+  "KerjayaCollection": {
+    "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.epsikologi_ibkrecommendation.Domain.Kerjaya, epsikologi.IbkRecommendation]], domain.sph",
+    "$values": [
+      {
+        "$type": "Bespoke.epsikologi_ibkrecommendation.Domain.Kerjaya, epsikologi.IbkRecommendation",
+        "Text": "-Akauntan -Juruaudit -Penganalisis Belanjawan -Penyiasat Akaun/ Pegawai Kad Kredit",
+        "Warna": null,
+        "WebId": "facab532-b4a0-49b3-ab1c-9e96676f6b7b"
+      },
+      {
+        "$type": "Bespoke.epsikologi_ibkrecommendation.Domain.Kerjaya, epsikologi.IbkRecommendation",
+        "Text": "Pendaftar Muzium",
+        "Warna": null,
+        "WebId": "52f37f1f-f81d-4e10-b930-41edbc96b710"
+      },
+      {
+        "$type": "Bespoke.epsikologi_ibkrecommendation.Domain.Kerjaya, epsikologi.IbkRecommendation",
+        "Text": "-Penerbit Radio -Pegawai Penyiaran -Pengurus :- Pembaikan/ Radiofoto",
+        "Warna": null,
+        "WebId": "cefeef68-464f-4fe3-894d-4b861c17465e"
+      },
+      {
+        "$type": "Bespoke.epsikologi_ibkrecommendation.Domain.Kerjaya, epsikologi.IbkRecommendation",
+        "Text": "-Koordinator Pengurusan Pencegahan -Pegawai:- Pentadbiran Surat/ Gaji/ Stor/ Utiliti",
+        "Warna": null,
+        "WebId": "f9609899-b371-4373-a544-932d2debea52"
+      },
+      {
+        "$type": "Bespoke.epsikologi_ibkrecommendation.Domain.Kerjaya, epsikologi.IbkRecommendation",
+        "Text": "Inspektor Fabrik",
+        "Warna": null,
+        "WebId": "a0f4469e-69c1-4f9c-a065-f9c29ecb6b0d"
+      },
+      {
+        "$type": "Bespoke.epsikologi_ibkrecommendation.Domain.Kerjaya, epsikologi.IbkRecommendation",
+        "Text": "Juruteknik Elektrik",
+        "Warna": null,
+        "WebId": "9f8998d6-c1b4-43ca-bc66-9dcb01583279"
+      },
+      {
+        "$type": "Bespoke.epsikologi_ibkrecommendation.Domain.Kerjaya, epsikologi.IbkRecommendation",
+        "Text": "-Pengumpul:- Peralatan Elektrik/ Barangan Kulit -Pembantu Direktori -Pembekal\t",
+        "Warna": null,
+        "WebId": "12ec7a4c-883f-4f64-9f60-51b15e8891e2"
+      },
+      {
+        "$type": "Bespoke.epsikologi_ibkrecommendation.Domain.Kerjaya, epsikologi.IbkRecommendation",
+        "Text": "Pelukis & Pewarna Kartun Anismasi",
+        "Warna": null,
+        "WebId": "86d2970f-03a5-41a9-9741-f8523ae60bd4"
+      }
+    ]
+  },
+  "BidangPengajianCollection": {
+    "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.epsikologi_ibkrecommendation.Domain.BidangPengajian, epsikologi.IbkRecommendation]], domain.sph",
+    "$values": [
+      {
+        "$type": "Bespoke.epsikologi_ibkrecommendation.Domain.BidangPengajian, epsikologi.IbkRecommendation",
+        "Text": "Perakaunan/ Statistik \t",
+        "WebId": "88d7ad8c-b0a1-41c7-809e-d4f32f42cef7"
+      },
+      {
+        "$type": "Bespoke.epsikologi_ibkrecommendation.Domain.BidangPengajian, epsikologi.IbkRecommendation",
+        "Text": "Penyiaran",
+        "WebId": "dbeff596-b415-4786-94b3-647203debb17"
+      },
+      {
+        "$type": "Bespoke.epsikologi_ibkrecommendation.Domain.BidangPengajian, epsikologi.IbkRecommendation",
+        "Text": "Pengurusan/ Pentadbiran \t",
+        "WebId": "5c2759c1-1947-45ab-8b74-b8666f679a57"
+      },
+      {
+        "$type": "Bespoke.epsikologi_ibkrecommendation.Domain.BidangPengajian, epsikologi.IbkRecommendation",
+        "Text": "Elektrolisis\t",
+        "WebId": "4286c9a2-538e-4db9-969c-c28f8b78bb8f"
+      },
+      {
+        "$type": "Bespoke.epsikologi_ibkrecommendation.Domain.BidangPengajian, epsikologi.IbkRecommendation",
+        "Text": "Sains Komputer Kejuruteraan\t",
+        "WebId": "5affb022-dbbb-41b2-9a2c-fdd3e20a0624"
+      },
+      {
+        "$type": "Bespoke.epsikologi_ibkrecommendation.Domain.BidangPengajian, epsikologi.IbkRecommendation",
+        "Text": "Media & Animasi\t",
+        "WebId": "76747f78-8359-4043-9807-37b5288bba22"
+      }
+    ]
+  },
+  "CreatedBy": "admin",
+  "Id": "TPI-TIP",
+  "CreatedDate": "2015-07-31T19:35:28.0807951+08:00",
+  "ChangedBy": "admin",
+  "ChangedDate": "2015-07-31T19:35:28.0717901+08:00",
+  "WebId": "436b611e-252e-45c7-a195-aca4787dea4e"
+}

@@ -1,0 +1,38 @@
+{
+  "$type": "Bespoke.epsikologi_ipurecommendation.Domain.IpuRecommendation, epsikologi.IpuRecommendation",
+  "No": "D-51-75",
+  "Tret": "D",
+  "NilaiMin": 51,
+  "NilaiMax": 75,
+  "Skala": "Luahan Perasaan",
+  "Tahap": "Sederhana ",
+  "RecommendationCollection": {
+    "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.epsikologi_ipurecommendation.Domain.Recommendation, epsikologi.IpuRecommendation]], domain.sph",
+    "$values": [
+      {
+        "$type": "Bespoke.epsikologi_ipurecommendation.Domain.Recommendation, epsikologi.IpuRecommendation",
+        "Kategori": "Interpretasi",
+        "Deskripsi": "Anda mudah meluah (mempamerkan) atau memberi tindak balas (reaksi) kepada perasaan yang dipamerkan oleh orang lain tanpa rasa malu (kurang selesa) terutama kepada mereka yang rapat dengan anda.  Anda juga mudah mempamerkan rasa simpati dan bersedia berkongsi kegembiraan, keseronokan atau kesedihan dengan orang lain. ",
+        "WebId": "3baa7f5d-b865-4844-96f0-5b761d4579f3"
+      },
+      {
+        "$type": "Bespoke.epsikologi_ipurecommendation.Domain.Recommendation, epsikologi.IpuRecommendation",
+        "Kategori": "Implikasi",
+        "Deskripsi": "Anda boleh meluahkan perasaan dengan mudah dan bersikap terbuka apabila berbicara dengan orang lain.",
+        "WebId": "8b514913-9fd8-4ae5-b0b3-318fd6acd043"
+      },
+      {
+        "$type": "Bespoke.epsikologi_ipurecommendation.Domain.Recommendation, epsikologi.IpuRecommendation",
+        "Kategori": "Perspektif Kepimpinan",
+        "Deskripsi": "Anda boleh menyuarakan idea, pendapat dan perasaan dengan jelas dan berterus terang apabila berinteraksi dengan orang lain.  Oleh yang demikian, anda boleh memberikan reaksi dan maklum balas yang sewajarnya mengikut kesesuaian situasi dan masa.  Bagaimanapun, anda perlu berhati-hati dalam meluahkan pendapat kerana kadang kala sikap anda suka berterus terang mungkin boleh menyinggung perasaan orang lain.",
+        "WebId": "31b87678-8b19-4849-9c4b-c9c75cccfcf8"
+      }
+    ]
+  },
+  "CreatedBy": "admin",
+  "Id": "d9e304df-f85e-42c7-920a-8288e2d4d835",
+  "CreatedDate": "2015-07-31T18:42:00.6954183+08:00",
+  "ChangedBy": "admin",
+  "ChangedDate": "2015-07-31T18:42:00.6944182+08:00",
+  "WebId": "312263ba-3400-46c0-c3a4-b889d376be10"
+}

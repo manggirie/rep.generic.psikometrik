@@ -1,0 +1,54 @@
+{
+  "$type": "Bespoke.epsikologi_ibkrecommendation.Domain.IbkRecommendation, epsikologi.IbkRecommendation",
+  "Kod": "KMT/KTM",
+  "KerjayaCollection": {
+    "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.epsikologi_ibkrecommendation.Domain.Kerjaya, epsikologi.IbkRecommendation]], domain.sph",
+    "$values": [
+      {
+        "$type": "Bespoke.epsikologi_ibkrecommendation.Domain.Kerjaya, epsikologi.IbkRecommendation",
+        "Text": "Pegawai Polis",
+        "Warna": null,
+        "WebId": "b8de7b33-e1a1-4dd3-b893-1100934e193b"
+      },
+      {
+        "$type": "Bespoke.epsikologi_ibkrecommendation.Domain.Kerjaya, epsikologi.IbkRecommendation",
+        "Text": "Jururawat",
+        "Warna": null,
+        "WebId": "50b8b20a-2de5-4a72-8801-4dab0d90ded5"
+      },
+      {
+        "$type": "Bespoke.epsikologi_ibkrecommendation.Domain.Kerjaya, epsikologi.IbkRecommendation",
+        "Text": "-Ahli Muzik (Instrumental) -Penulis (Simbol)",
+        "Warna": null,
+        "WebId": "8c0f2ebf-fef5-41b2-bfe3-233f56dac188"
+      },
+      {
+        "$type": "Bespoke.epsikologi_ibkrecommendation.Domain.Kerjaya, epsikologi.IbkRecommendation",
+        "Text": "-Juruteknik Penyediaan Kesan Optikal -Artis\t",
+        "Warna": null,
+        "WebId": "13297028-c4ac-44af-8c98-25bb316615fc"
+      }
+    ]
+  },
+  "BidangPengajianCollection": {
+    "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.epsikologi_ibkrecommendation.Domain.BidangPengajian, epsikologi.IbkRecommendation]], domain.sph",
+    "$values": [
+      {
+        "$type": "Bespoke.epsikologi_ibkrecommendation.Domain.BidangPengajian, epsikologi.IbkRecommendation",
+        "Text": "Kejururawatan",
+        "WebId": "2ca3985d-d5fe-4a02-b2a4-b023d308837c"
+      },
+      {
+        "$type": "Bespoke.epsikologi_ibkrecommendation.Domain.BidangPengajian, epsikologi.IbkRecommendation",
+        "Text": "Muzik: Piano & Organ",
+        "WebId": "9e7f19f6-1443-4cc7-96d4-c2afe3f49984"
+      }
+    ]
+  },
+  "CreatedBy": "admin",
+  "Id": "KMT-KTM",
+  "CreatedDate": "2015-07-31T18:55:12.908443+08:00",
+  "ChangedBy": "admin",
+  "ChangedDate": "2015-07-31T18:55:12.8984359+08:00",
+  "WebId": "716d11be-d73d-4435-e51d-7bf1db5613b6"
+}

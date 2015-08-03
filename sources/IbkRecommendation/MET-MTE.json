@@ -1,0 +1,99 @@
+{
+  "$type": "Bespoke.epsikologi_ibkrecommendation.Domain.IbkRecommendation, epsikologi.IbkRecommendation",
+  "Kod": "MET/MTE",
+  "KerjayaCollection": {
+    "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.epsikologi_ibkrecommendation.Domain.Kerjaya, epsikologi.IbkRecommendation]], domain.sph",
+    "$values": [
+      {
+        "$type": "Bespoke.epsikologi_ibkrecommendation.Domain.Kerjaya, epsikologi.IbkRecommendation",
+        "Text": "Pegawai Perubatan Pekerjaan ",
+        "Warna": null,
+        "WebId": "5ce7445b-addb-4ea0-adbb-9e158d69eb4b"
+      },
+      {
+        "$type": "Bespoke.epsikologi_ibkrecommendation.Domain.Kerjaya, epsikologi.IbkRecommendation",
+        "Text": "Akauntan \t",
+        "Warna": null,
+        "WebId": "d645949b-ca7d-4139-a84a-47909a85eb0d"
+      },
+      {
+        "$type": "Bespoke.epsikologi_ibkrecommendation.Domain.Kerjaya, epsikologi.IbkRecommendation",
+        "Text": "Ahli Mikrobiologi (Kesihatan Awam)",
+        "Warna": null,
+        "WebId": "98ce5a63-f8fc-4624-afe5-db0f6d699ac8"
+      },
+      {
+        "$type": "Bespoke.epsikologi_ibkrecommendation.Domain.Kerjaya, epsikologi.IbkRecommendation",
+        "Text": "Ahli Bahasa Saintifik\t",
+        "Warna": null,
+        "WebId": "5ad991e3-4950-4c44-8149-c3efaef17ef3"
+      },
+      {
+        "$type": "Bespoke.epsikologi_ibkrecommendation.Domain.Kerjaya, epsikologi.IbkRecommendation",
+        "Text": "Penganalisis:- Penyelidikan Pasaran/ Sokongan Pengguna",
+        "Warna": null,
+        "WebId": "c1b7efb6-b829-4173-a63d-02dc25c36c90"
+      },
+      {
+        "$type": "Bespoke.epsikologi_ibkrecommendation.Domain.Kerjaya, epsikologi.IbkRecommendation",
+        "Text": "-Penterjemah -Penyemak:- Tulisan Semula/ Poligraf  -Telekomunikator\t",
+        "Warna": null,
+        "WebId": "5c387432-e906-49da-9b98-30931ac2ee1c"
+      },
+      {
+        "$type": "Bespoke.epsikologi_ibkrecommendation.Domain.Kerjaya, epsikologi.IbkRecommendation",
+        "Text": "Pakar/ Koordinator Keselamatan Komputer  ",
+        "Warna": null,
+        "WebId": "cb7a5789-8827-4884-917f-b7bb93007691"
+      },
+      {
+        "$type": "Bespoke.epsikologi_ibkrecommendation.Domain.Kerjaya, epsikologi.IbkRecommendation",
+        "Text": "Pentadbir Rekod Perubatan Juruteknik Mata\t",
+        "Warna": null,
+        "WebId": "1f9feee1-70d7-4a5f-95f5-687cb908ec67"
+      },
+      {
+        "$type": "Bespoke.epsikologi_ibkrecommendation.Domain.Kerjaya, epsikologi.IbkRecommendation",
+        "Text": "Pembantu Penyelidikan\t",
+        "Warna": null,
+        "WebId": "52dd194c-1066-4988-95f5-a8084c7bb097"
+      }
+    ]
+  },
+  "BidangPengajianCollection": {
+    "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.epsikologi_ibkrecommendation.Domain.BidangPengajian, epsikologi.IbkRecommendation]], domain.sph",
+    "$values": [
+      {
+        "$type": "Bespoke.epsikologi_ibkrecommendation.Domain.BidangPengajian, epsikologi.IbkRecommendation",
+        "Text": "Perubatan",
+        "WebId": "03d708d1-d06c-4811-a9db-9bd15cd26923"
+      },
+      {
+        "$type": "Bespoke.epsikologi_ibkrecommendation.Domain.BidangPengajian, epsikologi.IbkRecommendation",
+        "Text": "Perakaunan",
+        "WebId": "637be65f-8543-4414-a1af-644b00f3a7db"
+      },
+      {
+        "$type": "Bespoke.epsikologi_ibkrecommendation.Domain.BidangPengajian, epsikologi.IbkRecommendation",
+        "Text": "Komunikasi Perniagaan ",
+        "WebId": "795da3c8-bedd-4add-a869-9e102b4d9ef7"
+      },
+      {
+        "$type": "Bespoke.epsikologi_ibkrecommendation.Domain.BidangPengajian, epsikologi.IbkRecommendation",
+        "Text": "Sains Komputer ",
+        "WebId": "5422fc53-6ecb-4aae-9a6a-5dcf0f300e0f"
+      },
+      {
+        "$type": "Bespoke.epsikologi_ibkrecommendation.Domain.BidangPengajian, epsikologi.IbkRecommendation",
+        "Text": "Sains Kesihatan:- Teknologi Rekod Perubatan/ Perubatan Mata",
+        "WebId": "9d43724a-cfa8-4b33-a5ea-8544387b5f8c"
+      }
+    ]
+  },
+  "CreatedBy": "admin",
+  "Id": "MET-MTE",
+  "CreatedDate": "2015-07-31T19:08:09.0159815+08:00",
+  "ChangedBy": "admin",
+  "ChangedDate": "2015-07-31T19:08:09.0695186+08:00",
+  "WebId": "142d3181-9c7b-44a6-c33d-57c321e26454"
+}

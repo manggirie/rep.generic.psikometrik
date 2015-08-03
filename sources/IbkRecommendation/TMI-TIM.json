@@ -1,0 +1,106 @@
+{
+  "$type": "Bespoke.epsikologi_ibkrecommendation.Domain.IbkRecommendation, epsikologi.IbkRecommendation",
+  "Kod": "TMI/TIM",
+  "KerjayaCollection": {
+    "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.epsikologi_ibkrecommendation.Domain.Kerjaya, epsikologi.IbkRecommendation]], domain.sph",
+    "$values": [
+      {
+        "$type": "Bespoke.epsikologi_ibkrecommendation.Domain.Kerjaya, epsikologi.IbkRecommendation",
+        "Text": "Akauntan",
+        "Warna": null,
+        "WebId": "824ce677-a93c-4af9-8199-5287059f9e6b"
+      },
+      {
+        "$type": "Bespoke.epsikologi_ibkrecommendation.Domain.Kerjaya, epsikologi.IbkRecommendation",
+        "Text": "Jurutera",
+        "Warna": null,
+        "WebId": "641c1882-11b3-4089-86c8-1c5361bab909"
+      },
+      {
+        "$type": "Bespoke.epsikologi_ibkrecommendation.Domain.Kerjaya, epsikologi.IbkRecommendation",
+        "Text": "Koordinator:- Media/ Kawalan Kualiti",
+        "Warna": null,
+        "WebId": "6648ab64-1579-4081-891d-df795216007b"
+      },
+      {
+        "$type": "Bespoke.epsikologi_ibkrecommendation.Domain.Kerjaya, epsikologi.IbkRecommendation",
+        "Text": "Pustakawan",
+        "Warna": null,
+        "WebId": "aa1a8b29-5063-412d-94d6-17af6f15897c"
+      },
+      {
+        "$type": "Bespoke.epsikologi_ibkrecommendation.Domain.Kerjaya, epsikologi.IbkRecommendation",
+        "Text": "Penyiasat Hal Ehwal Dalaman",
+        "Warna": null,
+        "WebId": "f7379668-2d10-4c17-adb2-bf0b435a4f3e"
+      },
+      {
+        "$type": "Bespoke.epsikologi_ibkrecommendation.Domain.Kerjaya, epsikologi.IbkRecommendation",
+        "Text": "Setiausaha",
+        "Warna": null,
+        "WebId": "2dd2f7ef-c404-4fb2-8176-e4e665444bb4"
+      },
+      {
+        "$type": "Bespoke.epsikologi_ibkrecommendation.Domain.Kerjaya, epsikologi.IbkRecommendation",
+        "Text": "Penyelia Kredit",
+        "Warna": null,
+        "WebId": "21bd97ca-976e-4616-a3bd-90ad58bd4ebd"
+      },
+      {
+        "$type": "Bespoke.epsikologi_ibkrecommendation.Domain.Kerjaya, epsikologi.IbkRecommendation",
+        "Text": "Pentadbiran:- Kemasukan Data/ Insurans/ Keselamatan/ Mahkamah/ Perbankan",
+        "Warna": null,
+        "WebId": "454a8d64-0566-42ef-bc3c-df8053b98012"
+      },
+      {
+        "$type": "Bespoke.epsikologi_ibkrecommendation.Domain.Kerjaya, epsikologi.IbkRecommendation",
+        "Text": "Juruwang\t",
+        "Warna": null,
+        "WebId": "608db9ee-9086-4c0a-b5c2-1abf60ab030e"
+      },
+      {
+        "$type": "Bespoke.epsikologi_ibkrecommendation.Domain.Kerjaya, epsikologi.IbkRecommendation",
+        "Text": "Penyambut Tetamu",
+        "Warna": null,
+        "WebId": "e69d0255-823d-408d-b7db-54da2cd20d04"
+      },
+      {
+        "$type": "Bespoke.epsikologi_ibkrecommendation.Domain.Kerjaya, epsikologi.IbkRecommendation",
+        "Text": "Agen Pelancongan",
+        "Warna": null,
+        "WebId": "52da1b54-df1e-4594-875d-ee6420ab8348"
+      }
+    ]
+  },
+  "BidangPengajianCollection": {
+    "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.epsikologi_ibkrecommendation.Domain.BidangPengajian, epsikologi.IbkRecommendation]], domain.sph",
+    "$values": [
+      {
+        "$type": "Bespoke.epsikologi_ibkrecommendation.Domain.BidangPengajian, epsikologi.IbkRecommendation",
+        "Text": "Pentadbiran dan Pengurusan Pejabat/ Kesihatan",
+        "WebId": "b13ea40a-6024-4745-8bcd-970ad745bacf"
+      },
+      {
+        "$type": "Bespoke.epsikologi_ibkrecommendation.Domain.BidangPengajian, epsikologi.IbkRecommendation",
+        "Text": "Kesetiausahaan",
+        "WebId": "3baf559a-d0ce-47da-a613-c9abefbe7aeb"
+      },
+      {
+        "$type": "Bespoke.epsikologi_ibkrecommendation.Domain.BidangPengajian, epsikologi.IbkRecommendation",
+        "Text": "Perundangan/ Sistem Maklumat",
+        "WebId": "70bc00c8-32b9-4f39-b3da-997ef7dc7c0c"
+      },
+      {
+        "$type": "Bespoke.epsikologi_ibkrecommendation.Domain.BidangPengajian, epsikologi.IbkRecommendation",
+        "Text": "Perbankan dan Kewangan",
+        "WebId": "dcd1a439-16c5-40f7-ade7-f73ca307e29f"
+      }
+    ]
+  },
+  "CreatedBy": "admin",
+  "Id": "TMI-TIM",
+  "CreatedDate": "2015-07-31T19:40:11.6737438+08:00",
+  "ChangedBy": "admin",
+  "ChangedDate": "2015-07-31T19:40:11.662736+08:00",
+  "WebId": "4c0c722f-f17d-4e0e-a7f8-36a9698fc15a"
+}

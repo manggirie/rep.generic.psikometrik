@@ -1,0 +1,38 @@
+{
+  "$type": "Bespoke.epsikologi_ipurecommendation.Domain.IpuRecommendation, epsikologi.IpuRecommendation",
+  "No": "F-11-35",
+  "Tret": "F",
+  "NilaiMin": 11,
+  "NilaiMax": 35,
+  "Skala": "Berfikiran Rasional",
+  "Tahap": "Tinggi ",
+  "RecommendationCollection": {
+    "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.epsikologi_ipurecommendation.Domain.Recommendation, epsikologi.IpuRecommendation]], domain.sph",
+    "$values": [
+      {
+        "$type": "Bespoke.epsikologi_ipurecommendation.Domain.Recommendation, epsikologi.IpuRecommendation",
+        "Kategori": "Interpretasi",
+        "Deskripsi": "Anda digambarkan sebagai seorang yang sangat rasional, munasabah, berfikiran logikal dan bersikap adil apabila membuat keputusan walaupun berada di bawah tekanan emosi.  ",
+        "WebId": "26459940-723f-4369-95c3-d86bc4bc8909"
+      },
+      {
+        "$type": "Bespoke.epsikologi_ipurecommendation.Domain.Recommendation, epsikologi.IpuRecommendation",
+        "Kategori": "Implikasi",
+        "Deskripsi": "Kebolehan anda untuk tidak terpengaruh oleh masalah emosi atau diri, membolehkan anda membuat analisis, keputusan atau tindakan tanpa dipengaruhi oleh kekeliruan, ketakutan, perasaan prejudis atau pilih kasih.  Namun demikian, ada kalanya anda mungkin bersikap terlalu analitis dan logikal sehingga tidak boleh diterima oleh orang lain.  Apabila anda berhadapan dengan pelbagai masalah atau mengalami tekanan emosi yang serius sehingga mengganggu fikiran, anda mampu berfikir dan membuat keputusan secara rasional tanpa mengikut emosi yang dialami pada masa itu.  Oleh yang demikian, anda berasa sangat yakin dan bersikap sangat positif dengan keputusan yang dibuat.    Bagaimanapun, sikap anda yang terlalu yakin dan positif menyebabkan anda kurang menggunakan gerak hati dalam membuat keputusan.",
+        "WebId": "bed797d8-2c7b-4296-90f1-1d2d4e4e1f4b"
+      },
+      {
+        "$type": "Bespoke.epsikologi_ipurecommendation.Domain.Recommendation, epsikologi.IpuRecommendation",
+        "Kategori": "Perspektif Kepimpinan",
+        "Deskripsi": "Apabila anda berhadapan dengan pelbagai masalah atau mengalami tekanan emosi yang serius sehingga mengganggu fikiran, anda mampu berfikir dan membuat keputusan secara rasional tanpa mengikut emosi yang dialami pada masa itu.  Oleh yang demikian, anda berasa sangat yakin dan bersikap sangat positif dengan keputusan yang dibuat.    Bagaimanapun, sikap anda yang terlalu yakin dan positif menyebabkan anda kurang menggunakan gerak hati dalam membuat keputusan. ",
+        "WebId": "4aff9a9c-6cf6-4489-a5b1-dc9fa90fad2d"
+      }
+    ]
+  },
+  "CreatedBy": "admin",
+  "Id": "1b6adf26-547d-4f64-b2d5-42872069d506",
+  "CreatedDate": "2015-07-31T18:52:40.4923916+08:00",
+  "ChangedBy": "admin",
+  "ChangedDate": "2015-07-31T18:52:40.4913915+08:00",
+  "WebId": "5faedc0f-93d1-4f4c-e574-f13721a7db1b"
+}

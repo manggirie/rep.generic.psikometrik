@@ -1,0 +1,38 @@
+{
+  "$type": "Bespoke.epsikologi_ipurecommendation.Domain.IpuRecommendation, epsikologi.IpuRecommendation",
+  "No": "G-0-15",
+  "Tret": "G",
+  "NilaiMin": 0,
+  "NilaiMax": 15,
+  "Skala": "Kebergantungan",
+  "Tahap": "Tinggi",
+  "RecommendationCollection": {
+    "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.epsikologi_ipurecommendation.Domain.Recommendation, epsikologi.IpuRecommendation]], domain.sph",
+    "$values": [
+      {
+        "$type": "Bespoke.epsikologi_ipurecommendation.Domain.Recommendation, epsikologi.IpuRecommendation",
+        "Kategori": "Interpretasi",
+        "Deskripsi": "Anda digambarkan sebagai seorang yang sangat pasif, mengikut (menurut) kata atau ketergantungan kepada orang lain dan mempunyai keyakinan serta harga diri yang sangat rendah.  Anda juga bersikap sangat mudah dipengaruhi, dipergunakan atau memenuhi keinginan orang lain.  Anda juga cenderung mengelakkan diri dari membuat aduan dan berusaha mencari perdamaian dengan apa cara sekalipun.  Anda mungkin mempamerkan sikap ketergantungan kerana mempunyai kemusykilan terhadap diri sendiri dan tiada  kebolehan menjadi asertif. Anda sering berasa takut, tidak selamat atau bimbang dengan apa yang ingin anda utarakan kerana ia mungkin tidak cukup baik atau orang lain berfikir (melihat) anda sebagai seorang yang bodoh atau membuat kesilapan.  ",
+        "WebId": "b83e4100-e21b-41a3-aefc-ebede14e2234"
+      },
+      {
+        "$type": "Bespoke.epsikologi_ipurecommendation.Domain.Recommendation, epsikologi.IpuRecommendation",
+        "Kategori": "Implikasi",
+        "Deskripsi": "Sikap anda yang cenderung melakukan apa yang orang lain mahu anda lakukan tanpa mengambil kira apa yang anda mahu (fikir) adalah terbaik untuk diri anda boleh mencetuskan kemarahan atau perasaan disakiti.  Anda juga cenderung meminta bantuan daripada orang lain walaupun anda boleh melakukannya kerana anda takut melakukan kesilapan walaupun anda seorang yang kompeten melakukan sesuatu tugas.  Ada kemungkinan anda bertindak sedemikian kerana berasa orang lain mungkin tidak suka atau akan memalukan anda jika tidak menuruti kemahuan mereka. Secara tidak langsung, tindakan sedemikian memperkecilkan diri anda sendiri dan memperbesarkan kepentingan orang lain.  ",
+        "WebId": "6e95b2b8-4119-49c7-a8b3-1df6d91c3ba2"
+      },
+      {
+        "$type": "Bespoke.epsikologi_ipurecommendation.Domain.Recommendation, epsikologi.IpuRecommendation",
+        "Kategori": "Perspektif Kepimpinan",
+        "Deskripsi": "Anda seorang yang tidak tegas dan mempunyai keyakinan yang rendah dengan  kebolehan diri.  Kesannya, anda sukar mempengaruhi orang lain, cenderung mengikut pendapat orang lain dan sukar mengambil tindakan atau keputusan yang tegas.  Sikap sedemikian menyebabkan anda kurang dihormati dan mudah di manipulasi. ",
+        "WebId": "9c8d10d6-6c05-4c4c-97e3-50f7416db864"
+      }
+    ]
+  },
+  "CreatedBy": "admin",
+  "Id": "1d49557a-8878-4beb-8011-9c8e97d2ee59",
+  "CreatedDate": "2015-07-31T18:55:10.921433+08:00",
+  "ChangedBy": "admin",
+  "ChangedDate": "2015-07-31T18:55:10.9194328+08:00",
+  "WebId": "cd95d806-10f0-4703-9275-5947974654c0"
+}

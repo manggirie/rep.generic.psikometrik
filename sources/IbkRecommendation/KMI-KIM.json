@@ -1,0 +1,111 @@
+{
+  "$type": "Bespoke.epsikologi_ibkrecommendation.Domain.IbkRecommendation, epsikologi.IbkRecommendation",
+  "Kod": "KMI/KIM",
+  "KerjayaCollection": {
+    "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.epsikologi_ibkrecommendation.Domain.Kerjaya, epsikologi.IbkRecommendation]], domain.sph",
+    "$values": [
+      {
+        "$type": "Bespoke.epsikologi_ibkrecommendation.Domain.Kerjaya, epsikologi.IbkRecommendation",
+        "Text": "-Jurukamera:- Filem/ Produksi/ Fotografi/ Pengiklanan -Penyelia Operasi Pengambaran -Pakar Produksi Audiovisual/ Warna -Guru Seni @ Drama/ Jurulatih Drama -Pengkritik -Narator",
+        "Warna": null,
+        "WebId": "08f4dcb4-eb47-4fca-b5aa-0eba08cb1cb6"
+      },
+      {
+        "$type": "Bespoke.epsikologi_ibkrecommendation.Domain.Kerjaya, epsikologi.IbkRecommendation",
+        "Text": "-Pengarah Muzik -Komposer -Konduktor Okestra -Guru Muzik\t",
+        "Warna": null,
+        "WebId": "226aa6f2-48bc-4fa7-94bf-81d802d235bd"
+      },
+      {
+        "$type": "Bespoke.epsikologi_ibkrecommendation.Domain.Kerjaya, epsikologi.IbkRecommendation",
+        "Text": "Penulis:- Lirik/ Lakon Layar",
+        "Warna": null,
+        "WebId": "803ecf7e-34ce-46c7-97ae-8f98884a8c63"
+      },
+      {
+        "$type": "Bespoke.epsikologi_ibkrecommendation.Domain.Kerjaya, epsikologi.IbkRecommendation",
+        "Text": "Pegawai Perhubungan Awam ",
+        "Warna": null,
+        "WebId": "447f0c69-2497-4bad-a1e4-e1b3d6253123"
+      },
+      {
+        "$type": "Bespoke.epsikologi_ibkrecommendation.Domain.Kerjaya, epsikologi.IbkRecommendation",
+        "Text": "Jurulatih Tarian",
+        "Warna": null,
+        "WebId": "ba036e36-e00b-4e67-bef6-b4ecf89e8e42"
+      },
+      {
+        "$type": "Bespoke.epsikologi_ibkrecommendation.Domain.Kerjaya, epsikologi.IbkRecommendation",
+        "Text": "-Editor:- Buku Cerita/ Teknikal/ Saintifik/ Filem/ Video/ Berita/ Buku/ Suratkhabar/ Majalah  -Pengarang:- Suratkhabar/ Majalah -Pengurus Agensi Pengiklanan\t",
+        "Warna": null,
+        "WebId": "4030e273-e035-4f90-973e-031ccad3d91a"
+      },
+      {
+        "$type": "Bespoke.epsikologi_ibkrecommendation.Domain.Kerjaya, epsikologi.IbkRecommendation",
+        "Text": "-Ahli Silap Mata -Pelawak -Aktor -Model -Penyajak\t",
+        "Warna": null,
+        "WebId": "0dc22bd8-834d-4f41-becc-b3919471b1ab"
+      },
+      {
+        "$type": "Bespoke.epsikologi_ibkrecommendation.Domain.Kerjaya, epsikologi.IbkRecommendation",
+        "Text": "Eksekutif Akaun\t",
+        "Warna": null,
+        "WebId": "67e709fa-fcf5-470f-be52-3285ce67ef9b"
+      },
+      {
+        "$type": "Bespoke.epsikologi_ibkrecommendation.Domain.Kerjaya, epsikologi.IbkRecommendation",
+        "Text": "Pengurus:- Agensi Artis/ Pameran",
+        "Warna": null,
+        "WebId": "10b82c26-4437-4c77-9b81-97a05686750b"
+      },
+      {
+        "$type": "Bespoke.epsikologi_ibkrecommendation.Domain.Kerjaya, epsikologi.IbkRecommendation",
+        "Text": "-Pereka Hiasan Dalaman -Dekorator Pementasan\t",
+        "Warna": null,
+        "WebId": "cd52c8c1-a0de-4f99-b1c1-776c5f21b8d5"
+      },
+      {
+        "$type": "Bespoke.epsikologi_ibkrecommendation.Domain.Kerjaya, epsikologi.IbkRecommendation",
+        "Text": "-Wakil Jualan Seni Grafik -Pelukis/ Pelukis Kartun\t",
+        "Warna": null,
+        "WebId": "532c99ed-bb00-47b8-92c3-7a205e3d5be3"
+      }
+    ]
+  },
+  "BidangPengajianCollection": {
+    "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.epsikologi_ibkrecommendation.Domain.BidangPengajian, epsikologi.IbkRecommendation]], domain.sph",
+    "$values": [
+      {
+        "$type": "Bespoke.epsikologi_ibkrecommendation.Domain.BidangPengajian, epsikologi.IbkRecommendation",
+        "Text": "Muzik (Teori & Ciptaan)",
+        "WebId": "0af664a2-48cd-46a4-8a74-6c11e8fcda67"
+      },
+      {
+        "$type": "Bespoke.epsikologi_ibkrecommendation.Domain.BidangPengajian, epsikologi.IbkRecommendation",
+        "Text": "Penulisan Skrip & Skrin",
+        "WebId": "7133461a-6135-4782-8505-fb0d3b784b91"
+      },
+      {
+        "$type": "Bespoke.epsikologi_ibkrecommendation.Domain.BidangPengajian, epsikologi.IbkRecommendation",
+        "Text": "Pengucapan Awam",
+        "WebId": "f1beb03c-c8f5-4bc4-a4c1-c020d3918335"
+      },
+      {
+        "$type": "Bespoke.epsikologi_ibkrecommendation.Domain.BidangPengajian, epsikologi.IbkRecommendation",
+        "Text": "Kesusasteraan/ Penulisan/ Penulisan Kreatif",
+        "WebId": "c0537a44-79f7-45bb-aa43-e1536cf67662"
+      },
+      {
+        "$type": "Bespoke.epsikologi_ibkrecommendation.Domain.BidangPengajian, epsikologi.IbkRecommendation",
+        "Text": "Seni Lukisan\t",
+        "WebId": "134f78a9-101e-48f9-a0ad-64d063557066"
+      }
+    ]
+  },
+  "CreatedBy": "admin",
+  "Id": "KMI-KIM",
+  "CreatedDate": "2015-07-31T18:54:25.9812348+08:00",
+  "ChangedBy": "admin",
+  "ChangedDate": "2015-07-31T18:54:25.9682251+08:00",
+  "WebId": "7da9b3ae-4df1-46ee-da16-1d6b410ccce3"
+}

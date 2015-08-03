@@ -1,0 +1,26 @@
+{
+  "$type": "Bespoke.epsikologi_ipurecommendation.Domain.IpuRecommendation, epsikologi.IpuRecommendation",
+  "No": "J-6-8",
+  "Tret": "J",
+  "NilaiMin": 6,
+  "NilaiMax": 8,
+  "Skala": "Kebolehpercayaan Diterima",
+  "Tahap": "Boleh Diterima  ",
+  "RecommendationCollection": {
+    "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.epsikologi_ipurecommendation.Domain.Recommendation, epsikologi.IpuRecommendation]], domain.sph",
+    "$values": [
+      {
+        "$type": "Bespoke.epsikologi_ipurecommendation.Domain.Recommendation, epsikologi.IpuRecommendation",
+        "Kategori": "Interpretasi",
+        "Deskripsi": "Secara keseluruhannya, cara anda menjawab soalan dalam inventori ini adalah konsisten.  Walau bagaimanapun, sesekali anda cuba menjawab untuk menunjukkan diri anda adalah lebih baik atau lebih teruk dari keadaan sebenar.  Situasi ini mungkin disebabkan oleh kebimbangan anda terhadap personaliti diri anda akan dipersoalkan.  Walaupun demikian, tafsiran terhadap diri anda boleh diterima dengan sedikit ketidaktepatan yang mungkin berlaku.",
+        "WebId": "0b9b19c7-a818-421c-a1dd-88b3f7df5a27"
+      }
+    ]
+  },
+  "CreatedBy": "admin",
+  "Id": "d721c69b-0cad-44d7-bb59-5e8b7ecaf05d",
+  "CreatedDate": "2015-07-31T19:13:39.0732371+08:00",
+  "ChangedBy": "admin",
+  "ChangedDate": "2015-07-31T19:13:39.0712369+08:00",
+  "WebId": "3fa98feb-1f3d-4d28-cbd1-b33b529a412a"
+}

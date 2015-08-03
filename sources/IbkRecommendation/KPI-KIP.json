@@ -1,0 +1,82 @@
+{
+  "$type": "Bespoke.epsikologi_ibkrecommendation.Domain.IbkRecommendation, epsikologi.IbkRecommendation",
+  "Kod": "KPI/KIP",
+  "KerjayaCollection": {
+    "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.epsikologi_ibkrecommendation.Domain.Kerjaya, epsikologi.IbkRecommendation]], domain.sph",
+    "$values": [
+      {
+        "$type": "Bespoke.epsikologi_ibkrecommendation.Domain.Kerjaya, epsikologi.IbkRecommendation",
+        "Text": "Pengurus Pameran Barangan",
+        "Warna": null,
+        "WebId": "3ca54d89-0565-4f0e-8de7-71c829bf7ad2"
+      },
+      {
+        "$type": "Bespoke.epsikologi_ibkrecommendation.Domain.Kerjaya, epsikologi.IbkRecommendation",
+        "Text": "Perekacipta:- Komersil/ Grafik/ Pakaian/ Gubahan Bunga/ llustrator",
+        "Warna": null,
+        "WebId": "bd214ffd-7974-41a2-a827-0ba7d3bcf7a5"
+      },
+      {
+        "$type": "Bespoke.epsikologi_ibkrecommendation.Domain.Kerjaya, epsikologi.IbkRecommendation",
+        "Text": "-Kontraktor Set Mini -Jurumekap Artis /Penghias Kek / Pengukir",
+        "Warna": null,
+        "WebId": "084c7eff-c58c-4174-a369-3504f4b4954e"
+      },
+      {
+        "$type": "Bespoke.epsikologi_ibkrecommendation.Domain.Kerjaya, epsikologi.IbkRecommendation",
+        "Text": "-Penari -Artis",
+        "Warna": null,
+        "WebId": "8c9518d2-d864-4d38-b5d7-0f26cf079d4e"
+      },
+      {
+        "$type": "Bespoke.epsikologi_ibkrecommendation.Domain.Kerjaya, epsikologi.IbkRecommendation",
+        "Text": "Ekuestarian",
+        "Warna": null,
+        "WebId": "d21d0246-46bc-4d5e-846c-355df09fab3a"
+      },
+      {
+        "$type": "Bespoke.epsikologi_ibkrecommendation.Domain.Kerjaya, epsikologi.IbkRecommendation",
+        "Text": "Pembina Keselamatan & Peralatan",
+        "Warna": null,
+        "WebId": "44e81fac-90d4-4cb5-8359-0dac07fabcb1"
+      },
+      {
+        "$type": "Bespoke.epsikologi_ibkrecommendation.Domain.Kerjaya, epsikologi.IbkRecommendation",
+        "Text": "Akrobat\t",
+        "Warna": null,
+        "WebId": "83f18804-345b-45bb-9417-35ae6e5697bc"
+      }
+    ]
+  },
+  "BidangPengajianCollection": {
+    "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.epsikologi_ibkrecommendation.Domain.BidangPengajian, epsikologi.IbkRecommendation]], domain.sph",
+    "$values": [
+      {
+        "$type": "Bespoke.epsikologi_ibkrecommendation.Domain.BidangPengajian, epsikologi.IbkRecommendation",
+        "Text": "Industri/Percetakan",
+        "WebId": "0e64b813-b2c8-49bd-a4c7-019ee46dccae"
+      },
+      {
+        "$type": "Bespoke.epsikologi_ibkrecommendation.Domain.BidangPengajian, epsikologi.IbkRecommendation",
+        "Text": "Rekaan Fesyen/ Ilustrasi",
+        "WebId": "d9556d59-86ae-4da6-b128-fcbbe6c50abe"
+      },
+      {
+        "$type": "Bespoke.epsikologi_ibkrecommendation.Domain.BidangPengajian, epsikologi.IbkRecommendation",
+        "Text": "Teater/ Reka Teater/ Ukir/ Hiasan Diri/ Pementasan Multimedia",
+        "WebId": "38a9e890-77c8-4755-b2b1-f10ced90f50e"
+      },
+      {
+        "$type": "Bespoke.epsikologi_ibkrecommendation.Domain.BidangPengajian, epsikologi.IbkRecommendation",
+        "Text": "Seni Tari\t",
+        "WebId": "217763a2-ab6b-452a-85df-af973a84ba35"
+      }
+    ]
+  },
+  "CreatedBy": "admin",
+  "Id": "KPI-KIP",
+  "CreatedDate": "2015-07-31T18:49:21.1913492+08:00",
+  "ChangedBy": "admin",
+  "ChangedDate": "2015-07-31T18:49:21.182843+08:00",
+  "WebId": "379107ef-4b92-47d5-fbcd-285e4a0f6d6b"
+}

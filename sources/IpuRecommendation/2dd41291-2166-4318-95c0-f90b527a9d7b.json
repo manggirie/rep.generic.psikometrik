@@ -1,0 +1,32 @@
+{
+  "$type": "Bespoke.epsikologi_ipurecommendation.Domain.IpuRecommendation, epsikologi.IpuRecommendation",
+  "No": "test",
+  "Tret": "A",
+  "NilaiMin": 1,
+  "NilaiMax": 20,
+  "Skala": "123",
+  "Tahap": "123",
+  "RecommendationCollection": {
+    "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.epsikologi_ipurecommendation.Domain.Recommendation, epsikologi.IpuRecommendation]], domain.sph",
+    "$values": [
+      {
+        "$type": "Bespoke.epsikologi_ipurecommendation.Domain.Recommendation, epsikologi.IpuRecommendation",
+        "Kategori": "a",
+        "Deskripsi": "a",
+        "WebId": "f5738e73-a86a-4f0d-aa7d-7b2be9228ed6"
+      },
+      {
+        "$type": "Bespoke.epsikologi_ipurecommendation.Domain.Recommendation, epsikologi.IpuRecommendation",
+        "Kategori": "aa",
+        "Deskripsi": "aa",
+        "WebId": "a43a425a-c72c-479d-b811-0c98f43e8a29"
+      }
+    ]
+  },
+  "CreatedBy": "urusetia1",
+  "Id": "2dd41291-2166-4318-95c0-f90b527a9d7b",
+  "CreatedDate": "2015-07-31T16:32:43.5899433+08:00",
+  "ChangedBy": "urusetia1",
+  "ChangedDate": "2015-07-31T16:32:43.5879414+08:00",
+  "WebId": "700787d5-c6a9-4e4e-c016-8a689fba1e8d"
+}

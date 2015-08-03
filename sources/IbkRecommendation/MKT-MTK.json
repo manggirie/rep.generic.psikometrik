@@ -1,0 +1,54 @@
+{
+  "$type": "Bespoke.epsikologi_ibkrecommendation.Domain.IbkRecommendation, epsikologi.IbkRecommendation",
+  "Kod": "MKT/MTK",
+  "KerjayaCollection": {
+    "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.epsikologi_ibkrecommendation.Domain.Kerjaya, epsikologi.IbkRecommendation]], domain.sph",
+    "$values": [
+      {
+        "$type": "Bespoke.epsikologi_ibkrecommendation.Domain.Kerjaya, epsikologi.IbkRecommendation",
+        "Text": "Jururawat",
+        "Warna": null,
+        "WebId": "8bd89e49-709c-42d6-a591-bc5f2c7215ec"
+      },
+      {
+        "$type": "Bespoke.epsikologi_ibkrecommendation.Domain.Kerjaya, epsikologi.IbkRecommendation",
+        "Text": "Juruteknik Persembahan Kesan Optikal",
+        "Warna": null,
+        "WebId": "7bd826b6-6363-4bc7-8670-0b37bdf1465d"
+      },
+      {
+        "$type": "Bespoke.epsikologi_ibkrecommendation.Domain.Kerjaya, epsikologi.IbkRecommendation",
+        "Text": "Pelukis Lakaran Polis\t",
+        "Warna": null,
+        "WebId": "481fc8aa-7fa6-4d6e-a16a-04ca1d954575"
+      },
+      {
+        "$type": "Bespoke.epsikologi_ibkrecommendation.Domain.Kerjaya, epsikologi.IbkRecommendation",
+        "Text": "Ahli Muzik Instrumental",
+        "Warna": null,
+        "WebId": "7e580f46-483a-4f6c-82db-ab9a2ac8e046"
+      }
+    ]
+  },
+  "BidangPengajianCollection": {
+    "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.epsikologi_ibkrecommendation.Domain.BidangPengajian, epsikologi.IbkRecommendation]], domain.sph",
+    "$values": [
+      {
+        "$type": "Bespoke.epsikologi_ibkrecommendation.Domain.BidangPengajian, epsikologi.IbkRecommendation",
+        "Text": "Kejururawatan",
+        "WebId": "a935779e-f036-4ce5-b1c2-17ac11fdf6e5"
+      },
+      {
+        "$type": "Bespoke.epsikologi_ibkrecommendation.Domain.BidangPengajian, epsikologi.IbkRecommendation",
+        "Text": "Seni Muzik (Piano & Organ)",
+        "WebId": "6552cdf0-913b-483b-b7f4-55486d1c43ea"
+      }
+    ]
+  },
+  "CreatedBy": "admin",
+  "Id": "MKT-MTK",
+  "CreatedDate": "2015-07-31T19:12:53.9256444+08:00",
+  "ChangedBy": "admin",
+  "ChangedDate": "2015-07-31T19:12:53.9126352+08:00",
+  "WebId": "bce2c882-3853-4d8a-d486-8be6fc037cb9"
+}

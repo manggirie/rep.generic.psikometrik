@@ -1,0 +1,31 @@
+{
+  "$type": "Bespoke.epsikologi_ibkrecommendation.Domain.IbkRecommendation, epsikologi.IbkRecommendation",
+  "Kod": "KPT/KTP",
+  "KerjayaCollection": {
+    "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.epsikologi_ibkrecommendation.Domain.Kerjaya, epsikologi.IbkRecommendation]], domain.sph",
+    "$values": [
+      {
+        "$type": "Bespoke.epsikologi_ibkrecommendation.Domain.Kerjaya, epsikologi.IbkRecommendation",
+        "Text": "*  Sila rujuk pilihan kerjaya di bawah kategori K",
+        "Warna": null,
+        "WebId": "d4d6d3dc-74bf-4218-b6dc-9b71e8fa4757"
+      }
+    ]
+  },
+  "BidangPengajianCollection": {
+    "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.epsikologi_ibkrecommendation.Domain.BidangPengajian, epsikologi.IbkRecommendation]], domain.sph",
+    "$values": [
+      {
+        "$type": "Bespoke.epsikologi_ibkrecommendation.Domain.BidangPengajian, epsikologi.IbkRecommendation",
+        "Text": "*  Sila rujuk pilihan bidang pengajian di bawah kategori  K",
+        "WebId": "ffc231c7-a9d4-43a5-bd90-249b67b5d12e"
+      }
+    ]
+  },
+  "CreatedBy": "admin",
+  "Id": "KPT-KTP",
+  "CreatedDate": "2015-07-31T18:55:34.3513504+08:00",
+  "ChangedBy": "admin",
+  "ChangedDate": "2015-07-31T18:55:34.337341+08:00",
+  "WebId": "2b495acc-1ee9-44be-b2f4-bc76bac3666c"
+}

@@ -1,0 +1,38 @@
+{
+  "$type": "Bespoke.epsikologi_ipurecommendation.Domain.IpuRecommendation, epsikologi.IpuRecommendation",
+  "No": "D-76-100",
+  "Tret": "D",
+  "NilaiMin": 76,
+  "NilaiMax": 100,
+  "Skala": "Luahan Perasaan",
+  "Tahap": "Tinggi",
+  "RecommendationCollection": {
+    "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.epsikologi_ipurecommendation.Domain.Recommendation, epsikologi.IpuRecommendation]], domain.sph",
+    "$values": [
+      {
+        "$type": "Bespoke.epsikologi_ipurecommendation.Domain.Recommendation, epsikologi.IpuRecommendation",
+        "Kategori": "Interpretasi",
+        "Deskripsi": "Anda sangat mudah meluah (mempamerkan) atau memberi tindak balas (reaksi) kepada perasaan yang dipamerkan oleh orang lain tanpa rasa malu (kurang selesa) terutama kepada mereka yang rapat dengan anda.  Anda juga sangat mudah mempamerkan rasa simpati dan bersedia berkongsi kegembiraan, keseronokan atau kesedihan dengan orang lain. ",
+        "WebId": "804fd5f6-d7d4-4f40-a8fc-0da79c225b7b"
+      },
+      {
+        "$type": "Bespoke.epsikologi_ipurecommendation.Domain.Recommendation, epsikologi.IpuRecommendation",
+        "Kategori": "Implikasi",
+        "Deskripsi": "Walaupun anda boleh meluahkan perasaan dengan mudah tetapi sikap anda yang terlalu kritis atau menyakiti perasaan orang lain boleh menjejaskan keunikan diri anda sebagai seorang yang bersikap terbuka .",
+        "WebId": "fb81f527-4aef-46ab-963d-fc5c6cdd6863"
+      },
+      {
+        "$type": "Bespoke.epsikologi_ipurecommendation.Domain.Recommendation, epsikologi.IpuRecommendation",
+        "Kategori": "Perspektif Kepimpinan",
+        "Deskripsi": "Anda seorang yang sangat suka berterus terang dan bersikap terbuka dalam meluahkan idea, pendapat dan perasaan apabila berinteraksi dengan orang lain.  Oleh yang demikian, anda segera memberikan reaksi dan maklum balas mengikut situasi pada masa itu.    Bagaimanapun, anda perlu berhati-hati dalam meluahkan pendapat kerana sikap anda yang sangat suka berterus terang dan memberi maklum balas yang kritis boleh menyinggung perasaan orang lain.",
+        "WebId": "46d048d1-ed22-41d4-8a8a-ac2e23199fab"
+      }
+    ]
+  },
+  "CreatedBy": "admin",
+  "Id": "617e1bfc-e8a8-47d2-8e65-e5632e071246",
+  "CreatedDate": "2015-07-31T18:40:51.5315026+08:00",
+  "ChangedBy": "admin",
+  "ChangedDate": "2015-07-31T18:40:51.5305025+08:00",
+  "WebId": "620091e1-0145-4a05-8eba-ebfa8ff13700"
+}

@@ -18,7 +18,7 @@ namespace web.sph.App_Code
 {
     [Authorize(Roles="JanaLaporan")]
     [RoutePrefix("cetak-laporan")]
-    public class PrintReportController : Controller
+    public partial class PrintReportController : Controller
     {
     	public PrintReportController()
     	{
@@ -109,12 +109,34 @@ namespace web.sph.App_Code
     	{
     		var context = new SphDataContext();
     		var sesi = await context.LoadOneAsync<Bespoke.epsikologi_sesiujian.Domain.SesiUjian>(x => x.Id == id);
+        var user = await context.LoadOneAsync<Bespoke.epsikologi_pengguna.Domain.Pengguna>(x => x.MyKad == sesi.MyKad);
+        var ujian = await context.LoadOneAsync<Bespoke.epsikologi_ujian.Domain.Ujian>(x => x.Id == sesi.NamaUjian);
+        var permohonan = await context.LoadOneAsync<Bespoke.epsikologi_permohonan.Domain.Permohonan>(x => x.PermohonanNo == sesi.NamaProgram);
 
     		if(null == sesi)
     			return HttpNotFound("Cannot find SesiUjian " + id);
 
-            var vm = new IbkTraitViewModel(sesi);
-    		return View("Trait-Ibk-" + vm.Result, vm);
+        var vm = new IbkTraitViewModel(sesi)
+        {
+          Pengguna = user,
+          Ujian = ujian,
+          Permohonan = permohonan
+        };
+
+
+        var id1 = vm.KodKerjaya.Replace("/", "-");
+        var id2 = id1.Substring(4,3) + "-" + id1.Substring(0,3) ;
+
+
+      //  if(vm.KodKerjaya != "xxx")
+      //    throw new Exception("id1 = " + id1 + " and id2 = " + id2);
+
+        vm.IbkRecommendation = await context.LoadOneAsync<Bespoke.epsikologi_ibkrecommendation.Domain.IbkRecommendation>(
+          x => x.Id == id1 || x.Id == id2 );
+        vm.IbkKodKerjaya = await context.LoadOneAsync<Bespoke.epsikologi_ibkkodkerjaya.Domain.IbkKodKerjaya>(x => x.Id == vm.KodKerjaya.Substring(0,1));
+
+
+        return View("Trait-Ibk", vm);
     	}
 
 

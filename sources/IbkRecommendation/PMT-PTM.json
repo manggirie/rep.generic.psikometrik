@@ -1,0 +1,70 @@
+{
+  "$type": "Bespoke.epsikologi_ibkrecommendation.Domain.IbkRecommendation, epsikologi.IbkRecommendation",
+  "Kod": "PMT/PTM",
+  "KerjayaCollection": {
+    "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.epsikologi_ibkrecommendation.Domain.Kerjaya, epsikologi.IbkRecommendation]], domain.sph",
+    "$values": [
+      {
+        "$type": "Bespoke.epsikologi_ibkrecommendation.Domain.Kerjaya, epsikologi.IbkRecommendation",
+        "Text": "Juruteknik Anggota Palsu/ Elektroensifalografik ",
+        "Warna": null,
+        "WebId": "666bb578-9100-49e2-a504-65cc51f1bfca"
+      },
+      {
+        "$type": "Bespoke.epsikologi_ibkrecommendation.Domain.Kerjaya, epsikologi.IbkRecommendation",
+        "Text": "Jurukir Barangan Perak",
+        "Warna": null,
+        "WebId": "287c5200-ecb9-47ad-9119-9f377e97716e"
+      },
+      {
+        "$type": "Bespoke.epsikologi_ibkrecommendation.Domain.Kerjaya, epsikologi.IbkRecommendation",
+        "Text": "Jurukur Carigali Minyak",
+        "Warna": null,
+        "WebId": "13565373-e7b0-4e0d-acc3-e670857944ed"
+      },
+      {
+        "$type": "Bespoke.epsikologi_ibkrecommendation.Domain.Kerjaya, epsikologi.IbkRecommendation",
+        "Text": "Penyiasat:- Stesyen Hidroelektrik/ Keselamatan",
+        "Warna": null,
+        "WebId": "7a4e86ef-afc4-432b-b327-504d154bdb7b"
+      },
+      {
+        "$type": "Bespoke.epsikologi_ibkrecommendation.Domain.Kerjaya, epsikologi.IbkRecommendation",
+        "Text": "Pengadun Bunyi",
+        "Warna": null,
+        "WebId": "5e54d79b-8236-400f-8c00-c3ade73d499c"
+      }
+    ]
+  },
+  "BidangPengajianCollection": {
+    "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.epsikologi_ibkrecommendation.Domain.BidangPengajian, epsikologi.IbkRecommendation]], domain.sph",
+    "$values": [
+      {
+        "$type": "Bespoke.epsikologi_ibkrecommendation.Domain.BidangPengajian, epsikologi.IbkRecommendation",
+        "Text": "Kesenian Pertukangan",
+        "WebId": "ba756995-177e-4fec-9d0d-5c43fa06edea"
+      },
+      {
+        "$type": "Bespoke.epsikologi_ibkrecommendation.Domain.BidangPengajian, epsikologi.IbkRecommendation",
+        "Text": "Teknologi Nuklear",
+        "WebId": "23305256-636b-4f7f-86cd-42a742bb8294"
+      },
+      {
+        "$type": "Bespoke.epsikologi_ibkrecommendation.Domain.BidangPengajian, epsikologi.IbkRecommendation",
+        "Text": "Kesenian Teater/ Rekacipta",
+        "WebId": "6237debc-1e54-40c8-80f9-a8ddd9c92784"
+      },
+      {
+        "$type": "Bespoke.epsikologi_ibkrecommendation.Domain.BidangPengajian, epsikologi.IbkRecommendation",
+        "Text": "Penternakan Artifisial",
+        "WebId": "75cbd036-948a-4244-aa2e-aca52507495c"
+      }
+    ]
+  },
+  "CreatedBy": "admin",
+  "Id": "PMT-PTM",
+  "CreatedDate": "2015-07-31T18:26:39.7676479+08:00",
+  "ChangedBy": "admin",
+  "ChangedDate": "2015-07-31T18:26:39.7526373+08:00",
+  "WebId": "f2f85688-d07e-45ab-cbcd-9853eaabbd93"
+}

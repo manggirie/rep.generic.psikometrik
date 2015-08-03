@@ -3,14 +3,14 @@
   "NoRujukan": "0113",
   "SoalanNo": "0113",
   "TeksSoalan": "Saya kerap berasa terasing dan tidak diperlukan.",
-  "SeksyenSoalan": "B",
+  "SeksyenSoalan": "",
   "PilihanJawapanCollection": {
     "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan]], domain.sph",
     "$values": [
       {
         "$type": "Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan",
         "Teks": "Ya",
-        "Nilai": 1,
+        "Nilai": 2,
         "WebId": null
       },
       {
@@ -21,14 +21,14 @@
       }
     ]
   },
-  "Trait": "NA",
+  "Trait": "B",
   "NamaUjian": "Indikator Perwatakan Unggul (IPU)",
-  "Susunan": 1.0,
+  "Susunan": 3.0,
   "Kategori": null,
   "CreatedBy": "admin",
   "Id": "IPU-B-0113",
   "CreatedDate": "2015-07-06T11:24:40.7420795+08:00",
   "ChangedBy": "admin",
-  "ChangedDate": "2015-07-06T11:24:40.7350741+08:00",
+  "ChangedDate": "2015-07-31T10:35:42.4212644+08:00",
   "WebId": "a77e596e-bd7c-40e5-a737-1d7f8c1db8c1"
 }

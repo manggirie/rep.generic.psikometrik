@@ -1,0 +1,38 @@
+{
+  "$type": "Bespoke.epsikologi_ipurecommendation.Domain.IpuRecommendation, epsikologi.IpuRecommendation",
+  "No": "C-36-65",
+  "Tret": "C",
+  "NilaiMin": 36,
+  "NilaiMax": 65,
+  "Skala": "Aktif Sosial",
+  "Tahap": "Sederhana",
+  "RecommendationCollection": {
+    "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.epsikologi_ipurecommendation.Domain.Recommendation, epsikologi.IpuRecommendation]], domain.sph",
+    "$values": [
+      {
+        "$type": "Bespoke.epsikologi_ipurecommendation.Domain.Recommendation, epsikologi.IpuRecommendation",
+        "Kategori": "Interpretasi",
+        "Deskripsi": "Anda digambarkan sebagai seorang yang aktif, cergas dan bertenaga dalam menjalani kehidupan seharian.  Anda seorang yang berhati-hati ketika berbicara (tahu kesesuaian masa dan tempat) dan cenderung meluangkan masa (melibatkan diri) bersama rakan dalam aktiviti komuniti, persatuan, kelab atau kumpulan.    Anda mungkin tidak mahu menjadi leka ketika berbicara atau dilihat sebagai seorang penyampai maklumat \u001csensasi\u001d kepada orang lain sama ada secara disedari atau tidak.    Ada kalanya, apabila anda bersama orang lain, anda berasa berada dalam keadaan mendesak kerana mempunyai banyak perkara yang perlu dilakukan. Anda juga berasa perlu memberi perhatian kepada kebanyakan perkara kerana orang lain mungkin tidak boleh mengendalikan perkara tersebut tanpa bantuan anda.  Dari aspek pelaksanaan tugas, ada kalanya, anda cenderung melakukan tugas seterusnya setelah anda menyelesaikan tugas sebelumnya.  Anda jarang berdiam diri walaupun untuk beberapa minit tanpa berasa letih.  Anda berasa sesuatu yang tidak kena mungkin berlaku melainkan anda bergerak aktif pada kebanyakan masa.  ",
+        "WebId": "fc23fc83-70b6-4b7e-a763-de8d01c687b0"
+      },
+      {
+        "$type": "Bespoke.epsikologi_ipurecommendation.Domain.Recommendation, epsikologi.IpuRecommendation",
+        "Kategori": "Implikasi",
+        "Deskripsi": "Dari aspek perkahwinan, sekiranya anda memperoleh skor yang sederhana atau sama dengan pasangan, anda mungkin mempunyai situasi perkahwinan yang stabil berbanding dengan mereka yang mempunyai skor yang tinggi atau tidak mempunyai skor yang sama.",
+        "WebId": "6f2e341a-8f82-4726-a415-6b2fb290da49"
+      },
+      {
+        "$type": "Bespoke.epsikologi_ipurecommendation.Domain.Recommendation, epsikologi.IpuRecommendation",
+        "Kategori": "Perspektif Kepimpinan",
+        "Deskripsi": "Anda mementingkan hubungan interpersonal dan suka berinteraksi secara sosial dengan orang lain. Oleh yang demikian, anda mudah diajak berbincang dan berbicara dengan sesiapa sahaja.  Namun, anda agak cenderung menggunakan komunikasi satu hala dan kurang memberi peluang kepada orang lain untuk berbicara.",
+        "WebId": "2002f544-b67e-481b-8d19-bd6a7e3136de"
+      }
+    ]
+  },
+  "CreatedBy": "admin",
+  "Id": "039fb75c-b8ec-4c88-919d-18d5c76117f7",
+  "CreatedDate": "2015-07-31T18:37:37.0570571+08:00",
+  "ChangedBy": "admin",
+  "ChangedDate": "2015-07-31T18:37:37.056057+08:00",
+  "WebId": "734213d9-c055-4266-85f9-ab295c9b3cc4"
+}

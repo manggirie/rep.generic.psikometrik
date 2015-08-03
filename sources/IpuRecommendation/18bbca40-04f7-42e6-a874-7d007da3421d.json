@@ -1,0 +1,38 @@
+{
+  "$type": "Bespoke.epsikologi_ipurecommendation.Domain.IpuRecommendation, epsikologi.IpuRecommendation",
+  "No": "B-21-45",
+  "Tret": "B",
+  "NilaiMin": 21,
+  "NilaiMax": 45,
+  "Skala": "Keceriaan",
+  "Tahap": "Sederhana",
+  "RecommendationCollection": {
+    "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.epsikologi_ipurecommendation.Domain.Recommendation, epsikologi.IpuRecommendation]], domain.sph",
+    "$values": [
+      {
+        "$type": "Bespoke.epsikologi_ipurecommendation.Domain.Recommendation, epsikologi.IpuRecommendation",
+        "Kategori": "Interpretasi",
+        "Deskripsi": "Anda mempamerkan diri anda sebagai seorang yang ceria dan gembira, bersikap optimistik dan menghargai kehidupan sedia ada.  Namun begitu, apabila anda mengalami permasalahan (konflik) peribadi yang mengganggu fikiran, anda mungkin berasa kecewa dan kurang bersemangat.  ",
+        "WebId": "2364fa29-8903-471d-bc92-411d008f9d62"
+      },
+      {
+        "$type": "Bespoke.epsikologi_ipurecommendation.Domain.Recommendation, epsikologi.IpuRecommendation",
+        "Kategori": "Implikasi",
+        "Deskripsi": "Sekiranya anda berhadapan dengan insiden yang mencetuskan permasalahan (konflik) yang mengganggu fikiran, anda mampu mengendalikannya dengan baik kerana anda    mempunyai semangat yang tinggi dan berfikiran positif terhadap kehidupan.",
+        "WebId": "4656894b-3539-4c8e-a0cd-738423bccedf"
+      },
+      {
+        "$type": "Bespoke.epsikologi_ipurecommendation.Domain.Recommendation, epsikologi.IpuRecommendation",
+        "Kategori": "Perspektif Kepimpinan",
+        "Deskripsi": "Anda suka kepada perkara yang baik dan positif serta cenderung menilai sesuatu perkara atau situasi secara optimistik.  Oleh yang demikian, anda mungkin kurang berminat mengetahui perkara-perkara negatif yang berlaku di sekeliling anda.",
+        "WebId": "77986ed5-b6eb-4853-bfdf-4d6bf71af771"
+      }
+    ]
+  },
+  "CreatedBy": "admin",
+  "Id": "18bbca40-04f7-42e6-a874-7d007da3421d",
+  "CreatedDate": "2015-07-31T18:32:20.9484494+08:00",
+  "ChangedBy": "admin",
+  "ChangedDate": "2015-07-31T18:32:20.9464492+08:00",
+  "WebId": "2338bbd1-0255-4b9c-e92c-5113bb806ee5"
+}

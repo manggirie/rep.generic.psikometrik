@@ -1,0 +1,38 @@
+{
+  "$type": "Bespoke.epsikologi_ipurecommendation.Domain.IpuRecommendation, epsikologi.IpuRecommendation",
+  "No": "B-0-20",
+  "Tret": "B",
+  "NilaiMin": 0,
+  "NilaiMax": 20,
+  "Skala": "Keceriaan",
+  "Tahap": "Tinggi",
+  "RecommendationCollection": {
+    "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.epsikologi_ipurecommendation.Domain.Recommendation, epsikologi.IpuRecommendation]], domain.sph",
+    "$values": [
+      {
+        "$type": "Bespoke.epsikologi_ipurecommendation.Domain.Recommendation, epsikologi.IpuRecommendation",
+        "Kategori": "Interpretasi",
+        "Deskripsi": "Anda mempamerkan diri anda sebagai seorang yang sangat ceria dan gembira, bersikap terlalu optimistik dan sangat menghargai kehidupan sedia ada.  ",
+        "WebId": "e5c26f30-6aaa-43eb-8401-cdca0b97ef2c"
+      },
+      {
+        "$type": "Bespoke.epsikologi_ipurecommendation.Domain.Recommendation, epsikologi.IpuRecommendation",
+        "Kategori": "Implikasi",
+        "Deskripsi": "Apabila anda mengalami permasalahan (konflik) yang mengganggu fikiran, anda boleh mengatasinya dengan cemerlang.  Namun begitu, sikap anda yang terlalu ceria dan sangat mengambil mudah ada kalanya dilihat sebagai tidak serius apabila mengalami dan menangani krisis dalam sesuatu situasi.",
+        "WebId": "812e7fe7-7c95-48b8-9521-fb6ba5adec6d"
+      },
+      {
+        "$type": "Bespoke.epsikologi_ipurecommendation.Domain.Recommendation, epsikologi.IpuRecommendation",
+        "Kategori": "Perspektif Kepimpinan",
+        "Deskripsi": "Anda sangat suka kepada perkara yang baik dan positif serta cenderung menilai sesuatu perkara atau situasi secara optimistik.  Oleh yang demikian, anda tidak berminat mengetahui perkara-perkara negatif yang berlaku di sekeliling anda.",
+        "WebId": "30a8b6d0-37dc-41f9-8b12-f944fc84091c"
+      }
+    ]
+  },
+  "CreatedBy": "admin",
+  "Id": "d4669e0f-52b7-473e-8486-ec716e67842d",
+  "CreatedDate": "2015-07-31T18:31:17.4050957+08:00",
+  "ChangedBy": "admin",
+  "ChangedDate": "2015-07-31T18:31:17.4040956+08:00",
+  "WebId": "f729d51a-60f1-4486-a41b-26a2b0a5fdab"
+}

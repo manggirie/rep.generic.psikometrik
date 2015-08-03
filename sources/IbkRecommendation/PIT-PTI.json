@@ -1,0 +1,65 @@
+{
+  "$type": "Bespoke.epsikologi_ibkrecommendation.Domain.IbkRecommendation, epsikologi.IbkRecommendation",
+  "Kod": "PIT/PTI",
+  "KerjayaCollection": {
+    "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.epsikologi_ibkrecommendation.Domain.Kerjaya, epsikologi.IbkRecommendation]], domain.sph",
+    "$values": [
+      {
+        "$type": "Bespoke.epsikologi_ibkrecommendation.Domain.Kerjaya, epsikologi.IbkRecommendation",
+        "Text": "Pengurus Ladang",
+        "Warna": null,
+        "WebId": "82b7587c-01b7-45d6-aed7-c82dd2b043a4"
+      },
+      {
+        "$type": "Bespoke.epsikologi_ibkrecommendation.Domain.Kerjaya, epsikologi.IbkRecommendation",
+        "Text": "Pengawai Penyiaran Radio",
+        "Warna": null,
+        "WebId": "6b3948ed-c3df-48be-9f5d-b13056de2239"
+      },
+      {
+        "$type": "Bespoke.epsikologi_ibkrecommendation.Domain.Kerjaya, epsikologi.IbkRecommendation",
+        "Text": "Ketua Penyiasat (Penyiasat):- Pembinaan/ Elektrikal ",
+        "Warna": null,
+        "WebId": "8dfb0917-afc5-4a50-8b40-55ce14516449"
+      },
+      {
+        "$type": "Bespoke.epsikologi_ibkrecommendation.Domain.Kerjaya, epsikologi.IbkRecommendation",
+        "Text": "-Jurunilai -Peniaga  -Jurukir Barangan Kemas ",
+        "Warna": null,
+        "WebId": "afdd9643-0154-484f-9116-321d16cf1b6a"
+      },
+      {
+        "$type": "Bespoke.epsikologi_ibkrecommendation.Domain.Kerjaya, epsikologi.IbkRecommendation",
+        "Text": "Juruteknik:- Pergigian/ Ortodontik/ Farmasi",
+        "Warna": null,
+        "WebId": "3d766de3-a85e-4831-a0dc-a18a7505e19b"
+      }
+    ]
+  },
+  "BidangPengajianCollection": {
+    "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.epsikologi_ibkrecommendation.Domain.BidangPengajian, epsikologi.IbkRecommendation]], domain.sph",
+    "$values": [
+      {
+        "$type": "Bespoke.epsikologi_ibkrecommendation.Domain.BidangPengajian, epsikologi.IbkRecommendation",
+        "Text": "Sistem Komunikasi /Peralatan Muzik / Elektrik/ Elektronik",
+        "WebId": "15edb4a6-7375-4546-88a6-64b93a52315f"
+      },
+      {
+        "$type": "Bespoke.epsikologi_ibkrecommendation.Domain.BidangPengajian, epsikologi.IbkRecommendation",
+        "Text": "Perubatan/Pergigian\t",
+        "WebId": "e2918b6f-b361-4fdb-9d12-3b5e845cdb48"
+      },
+      {
+        "$type": "Bespoke.epsikologi_ibkrecommendation.Domain.BidangPengajian, epsikologi.IbkRecommendation",
+        "Text": "-Fotografi -Makmal Filem -Perkhidmatan Marin -Seni Seramik/ Tekstil -Teknologi Automobil / Plastik",
+        "WebId": "e66316d9-ab8e-4086-ac8e-e7147dd5badd"
+      }
+    ]
+  },
+  "CreatedBy": "admin",
+  "Id": "PIT-PTI",
+  "CreatedDate": "2015-07-31T18:28:19.6961494+08:00",
+  "ChangedBy": "admin",
+  "ChangedDate": "2015-07-31T18:28:19.7341767+08:00",
+  "WebId": "38e23080-730d-44f3-97db-5a0c851725a3"
+}

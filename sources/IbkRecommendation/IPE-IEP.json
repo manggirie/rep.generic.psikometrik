@@ -1,0 +1,94 @@
+{
+  "$type": "Bespoke.epsikologi_ibkrecommendation.Domain.IbkRecommendation, epsikologi.IbkRecommendation",
+  "Kod": "IPE/IEP",
+  "KerjayaCollection": {
+    "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.epsikologi_ibkrecommendation.Domain.Kerjaya, epsikologi.IbkRecommendation]], domain.sph",
+    "$values": [
+      {
+        "$type": "Bespoke.epsikologi_ibkrecommendation.Domain.Kerjaya, epsikologi.IbkRecommendation",
+        "Text": "Kapten Kapal",
+        "Warna": null,
+        "WebId": "e04bc48e-ddb6-49f1-9034-feaa275a8406"
+      },
+      {
+        "$type": "Bespoke.epsikologi_ibkrecommendation.Domain.Kerjaya, epsikologi.IbkRecommendation",
+        "Text": "Jurutera:- Peralatan Kimia/ Mekanikal/ Industri / Pelabuhan ",
+        "Warna": null,
+        "WebId": "7238a388-0f83-404a-98a5-b967e735d9d5"
+      },
+      {
+        "$type": "Bespoke.epsikologi_ibkrecommendation.Domain.Kerjaya, epsikologi.IbkRecommendation",
+        "Text": "Pengarah:- Penyelidikan/ Pembangunan",
+        "Warna": null,
+        "WebId": "ff420bc3-a13d-4feb-9873-d96b2f9cbf74"
+      },
+      {
+        "$type": "Bespoke.epsikologi_ibkrecommendation.Domain.Kerjaya, epsikologi.IbkRecommendation",
+        "Text": "Pengurus:- Kilang/ Pelabuhan / Pengeluaran/ Pembalakan/ Program/ Kedai Dobi",
+        "Warna": null,
+        "WebId": "07f36405-cca5-43e2-aeff-54ed5477b4e5"
+      },
+      {
+        "$type": "Bespoke.epsikologi_ibkrecommendation.Domain.Kerjaya, epsikologi.IbkRecommendation",
+        "Text": "Pegawai:- Perniagaan & Perdagangan/ Pengeluaran Pertanian  ",
+        "Warna": null,
+        "WebId": "f7660c84-836d-4fd3-9895-2bae253862bf"
+      },
+      {
+        "$type": "Bespoke.epsikologi_ibkrecommendation.Domain.Kerjaya, epsikologi.IbkRecommendation",
+        "Text": "Setiausaha Lembaga Pendidikan ",
+        "Warna": null,
+        "WebId": "f7745428-8ce6-4074-b712-139b8760ab55"
+      },
+      {
+        "$type": "Bespoke.epsikologi_ibkrecommendation.Domain.Kerjaya, epsikologi.IbkRecommendation",
+        "Text": "Agen:- Percukaian/ Perisikan Khas",
+        "Warna": null,
+        "WebId": "133fe35b-24f0-4839-ae04-accabe55e7d8"
+      },
+      {
+        "$type": "Bespoke.epsikologi_ibkrecommendation.Domain.Kerjaya, epsikologi.IbkRecommendation",
+        "Text": "Penyelia:- Pengurusan Lebuh/Jalanraya/ Kawalan Trafik/ Pengurusan Bangunan/ Loji Rawatan Air ",
+        "Warna": null,
+        "WebId": "a41e406d-b661-4280-8103-66a4606561f8"
+      },
+      {
+        "$type": "Bespoke.epsikologi_ibkrecommendation.Domain.Kerjaya, epsikologi.IbkRecommendation",
+        "Text": "Kontraktor/ Wakil Jualan Sistem Keselamatan",
+        "Warna": null,
+        "WebId": "9cb3279e-965f-492a-9500-8107a0b17677"
+      }
+    ]
+  },
+  "BidangPengajianCollection": {
+    "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.epsikologi_ibkrecommendation.Domain.BidangPengajian, epsikologi.IbkRecommendation]], domain.sph",
+    "$values": [
+      {
+        "$type": "Bespoke.epsikologi_ibkrecommendation.Domain.BidangPengajian, epsikologi.IbkRecommendation",
+        "Text": "Kejuruteraan:- Sistem/ Awam",
+        "WebId": "8855867b-cfc6-481b-95ec-1050ac8ab2d6"
+      },
+      {
+        "$type": "Bespoke.epsikologi_ibkrecommendation.Domain.BidangPengajian, epsikologi.IbkRecommendation",
+        "Text": "Perniagaan/ Perdagangan/ Ekonomi/ Sains Pertanian",
+        "WebId": "febef07a-6981-422b-9040-e40319d2acf9"
+      },
+      {
+        "$type": "Bespoke.epsikologi_ibkrecommendation.Domain.BidangPengajian, epsikologi.IbkRecommendation",
+        "Text": "Pendidikan",
+        "WebId": "5cb26375-c789-42c6-b03b-96498b3448c3"
+      },
+      {
+        "$type": "Bespoke.epsikologi_ibkrecommendation.Domain.BidangPengajian, epsikologi.IbkRecommendation",
+        "Text": "Polisi & Pengurusan Sumber Asli",
+        "WebId": "a4a1435a-0253-4a82-8095-72a8466305bc"
+      }
+    ]
+  },
+  "CreatedBy": "admin",
+  "Id": "IPE-IEP",
+  "CreatedDate": "2015-07-31T19:18:01.4103082+08:00",
+  "ChangedBy": "admin",
+  "ChangedDate": "2015-07-31T19:18:01.3952976+08:00",
+  "WebId": "b63a92a3-a0b8-48c6-b21f-5a55777bd239"
+}

@@ -1,0 +1,38 @@
+{
+  "$type": "Bespoke.epsikologi_ipurecommendation.Domain.IpuRecommendation, epsikologi.IpuRecommendation",
+  "No": "A-0-25",
+  "Tret": "A",
+  "NilaiMin": 0,
+  "NilaiMax": 25,
+  "Skala": "Ketenangan",
+  "Tahap": "Tinggi",
+  "RecommendationCollection": {
+    "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.epsikologi_ipurecommendation.Domain.Recommendation, epsikologi.IpuRecommendation]], domain.sph",
+    "$values": [
+      {
+        "$type": "Bespoke.epsikologi_ipurecommendation.Domain.Recommendation, epsikologi.IpuRecommendation",
+        "Kategori": "Interpretasi",
+        "Deskripsi": "Anda berada dalam situasi yang sangat tenang dan bebas daripada permasalahan (konflik) yang mengganggu fikiran.  Sekiranya anda mengalami kebimbangan, anda boleh mengendalikan situasi tersebut dengan berkesan.  ",
+        "WebId": "be95b481-d8a6-4102-9f82-7a831c5fa4f6"
+      },
+      {
+        "$type": "Bespoke.epsikologi_ipurecommendation.Domain.Recommendation, epsikologi.IpuRecommendation",
+        "Kategori": "Implikasi",
+        "Deskripsi": "Anda mungkin berada pada tahap ketenangan yang tinggi tetapi orang lain cenderung melihat  anda sebagai seorang yang bersikap tidak serius apabila berhadapan dengan permasalahan (konflik) yang kritikal. Situasi ini mungkin berlaku kerana anda berasa tiada desakan untuk menyelesaikan sesuatu isu dengan segera.",
+        "WebId": "56223315-bd7c-460b-bced-1318588aa192"
+      },
+      {
+        "$type": "Bespoke.epsikologi_ipurecommendation.Domain.Recommendation, epsikologi.IpuRecommendation",
+        "Kategori": "Perspektif Kepimpinan",
+        "Deskripsi": "Anda mempunyai keyakinan yang tinggi dengan kebolehan diri dan selalu memberi tumpuan terhadap isu semasa.  Oleh yang demikian, anda tidak mudah panik apabila mengalami tekanan dan boleh membuat keputusan walaupun dalam situasi yang mencemaskan.  Bagaimanapun, kadang kala sikap anda yang terlalu tenang cenderung menjadikan anda  kurang serius dalam membuat keputusan atau mengambil tindakan dan terlepas pandang terhadap perkara kecil tetapi penting.  ",
+        "WebId": "e160c21c-e1ca-4d26-9f72-ba71be587ef4"
+      }
+    ]
+  },
+  "CreatedBy": "admin",
+  "Id": "b6e5e2dc-fc3e-4a72-9976-4a5106e10669",
+  "CreatedDate": "2015-07-31T18:25:20.6734261+08:00",
+  "ChangedBy": "admin",
+  "ChangedDate": "2015-07-31T18:25:20.672426+08:00",
+  "WebId": "85315331-7d4f-4a8d-ed14-4cda104f18fb"
+}

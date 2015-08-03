@@ -1,0 +1,125 @@
+{
+  "$type": "Bespoke.epsikologi_ibkrecommendation.Domain.IbkRecommendation, epsikologi.IbkRecommendation",
+  "Kod": "IPM/IMP",
+  "KerjayaCollection": {
+    "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.epsikologi_ibkrecommendation.Domain.Kerjaya, epsikologi.IbkRecommendation]], domain.sph",
+    "$values": [
+      {
+        "$type": "Bespoke.epsikologi_ibkrecommendation.Domain.Kerjaya, epsikologi.IbkRecommendation",
+        "Text": "Canselor Institusi Pendidikan ",
+        "Warna": null,
+        "WebId": "fcab678e-4c19-4374-86e3-22ba2271ffcb"
+      },
+      {
+        "$type": "Bespoke.epsikologi_ibkrecommendation.Domain.Kerjaya, epsikologi.IbkRecommendation",
+        "Text": "-Pengarah:- Muzium/ Pusat Kraftangan -Pengarah:- Perkhidmatan Bukan Kerajaan/ Sukan/ -Pengadil -Pengarah:- Pemasaran Media/ Stesen Radio @  Televisyen -Pengarah:- Trafik/ Pengangkutan -Pengarah:- Perkhidmatan Insuran/ Pejabat Broker -Pengarah:- Zoo\t",
+        "Warna": null,
+        "WebId": "9b47b18f-3e5f-4ceb-8322-8db90902140b"
+      },
+      {
+        "$type": "Bespoke.epsikologi_ibkrecommendation.Domain.Kerjaya, epsikologi.IbkRecommendation",
+        "Text": "-Pengurus:- Lapangan Terbang/ Pelabuhan -Pengurus:- Perkhidmatan Kereta Sewa/ Stesyen Minyak -Pengurus:- Pusat Rekreasi/ Perkhemahan/ Hotel/ Apartmen/ Agensi Pelancongan -Pengurus:- Kedai Roti/ Restoran Makanan Segera  -Pengurus:- Atlit/ Perhubungan Pekerja/ Perniagaan Kolej/ Universiti/ Perkhidmatan Teknikal Pelanggan -Pengurus:- Gudang/ Ladang/ Pejabat/ Stor/ Teater ",
+        "Warna": null,
+        "WebId": "d80c6038-9703-43ec-982b-7b963384742b"
+      },
+      {
+        "$type": "Bespoke.epsikologi_ibkrecommendation.Domain.Kerjaya, epsikologi.IbkRecommendation",
+        "Text": "-Perunding Pemulihan Vokasional -Penasihat Pengurusan Sumber Manusia -Pegawai Program Penagihan",
+        "Warna": null,
+        "WebId": "c8aaeea4-ef94-497a-80c9-118353f1e141"
+      },
+      {
+        "$type": "Bespoke.epsikologi_ibkrecommendation.Domain.Kerjaya, epsikologi.IbkRecommendation",
+        "Text": "-Pegawai Undang-Undang -Pentadbir Mahkamah",
+        "Warna": null,
+        "WebId": "677df6fb-b669-438f-974f-f7832b243add"
+      },
+      {
+        "$type": "Bespoke.epsikologi_ibkrecommendation.Domain.Kerjaya, epsikologi.IbkRecommendation",
+        "Text": "-Pegawai Kawalan Trafik Udara -Pegawai Bomba -Pegawai Polis -Pegawai Peronda Lebuhraya  -Juruterbang",
+        "Warna": null,
+        "WebId": "c5bae0c4-309f-476f-9712-0e804dc9f841"
+      },
+      {
+        "$type": "Bespoke.epsikologi_ibkrecommendation.Domain.Kerjaya, epsikologi.IbkRecommendation",
+        "Text": "-Penyelia:-Kilang Perabot -Penyelia:- Bahan Kimia -Penyelia:- Nurseri Perhutanan/ Kawalan Serangga -Penyelia:- Seksyen Perhubungan/ Perkhidmatan Sukarela  -Penyelia:- Jalanraya/ Lebuhraya -Penyelia:- Jualan Tiket/ Dapur/ Bilik Surat ",
+        "Warna": null,
+        "WebId": "88612ca0-a929-4a4c-9540-d9782dc19b85"
+      },
+      {
+        "$type": "Bespoke.epsikologi_ibkrecommendation.Domain.Kerjaya, epsikologi.IbkRecommendation",
+        "Text": "-Ketua Pejabat Pos  -Koordinator Pengeluaran  -Ahli Penemuduga Jawatan -Penterjemah Orang Pekak @ Buta  -Penilai Tuntutan -Agen Hartanah/ Pembelian -Kontraktor Lanskap -Kelasi -Juruelektrik -Wakil:- Jualan Komputer & Data Elektronik/ Pencari Pekerja/ Pengiklanan/ Peralatan Pertanian, Kraftangan/ Peralatan Pejabat/ Kenderaan/ Piano @ Organ",
+        "Warna": null,
+        "WebId": "1bbb7345-1980-4c49-bbce-8b621c7d99aa"
+      },
+      {
+        "$type": "Bespoke.epsikologi_ibkrecommendation.Domain.Kerjaya, epsikologi.IbkRecommendation",
+        "Text": "-Ketua Jurulatih -Jurulatih Pendidikan Perniagaan",
+        "Warna": null,
+        "WebId": "aa58e66a-65b2-4728-b1af-42954b3574f7"
+      },
+      {
+        "$type": "Bespoke.epsikologi_ibkrecommendation.Domain.Kerjaya, epsikologi.IbkRecommendation",
+        "Text": "-Inspektor Kebersihan -Pembantu:- Psikiatri/ Perkhidmatan Sosial/ Terapi Pekerjaan",
+        "Warna": null,
+        "WebId": "3763871d-67fb-46cd-8455-91cdadcced3c"
+      }
+    ]
+  },
+  "BidangPengajianCollection": {
+    "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.epsikologi_ibkrecommendation.Domain.BidangPengajian, epsikologi.IbkRecommendation]], domain.sph",
+    "$values": [
+      {
+        "$type": "Bespoke.epsikologi_ibkrecommendation.Domain.BidangPengajian, epsikologi.IbkRecommendation",
+        "Text": "Pendidikan\t",
+        "WebId": "f65e6a67-0aa3-494a-8ce9-db118634dfca"
+      },
+      {
+        "$type": "Bespoke.epsikologi_ibkrecommendation.Domain.BidangPengajian, epsikologi.IbkRecommendation",
+        "Text": "Sejarah/ Pendidikan Muzium/ Sukan/ Pemasaran/ Komunikasi/ Pengedaran & Pemasaran/ Pengadil  \t",
+        "WebId": "9af7c944-d318-461d-be1e-2b45cd9b8c55"
+      },
+      {
+        "$type": "Bespoke.epsikologi_ibkrecommendation.Domain.BidangPengajian, epsikologi.IbkRecommendation",
+        "Text": "-Perkhidmatan Pramugari -Penyediaan Makanan (Katerer)/ Masakan/ Perhotelan -Hartanah/ Pemasaran Kenderaan @ Perkhidmatan @ Produk  -Rekreasi Kesenian @ Awam/ Senireka Hiasan Dalaman/ Seni Ukiran Makanan/ Seni Dandanan @ Kosmetik -Operasi Perniagaan/ Perladangan/ Rangkaian Makanan Segera/ Restoran/ Pembelian & Penjualan Makanan/ Francais -Material & Logistik/ Kontrak & Pembelian \t",
+        "WebId": "c07ca239-fa9b-4b70-afcd-cd04806ef5b2"
+      },
+      {
+        "$type": "Bespoke.epsikologi_ibkrecommendation.Domain.BidangPengajian, epsikologi.IbkRecommendation",
+        "Text": "-Kajian:- Hubungan Pekerja-Majikan/ Tingkahlaku Organisasi -Pemulihan (Penjara)",
+        "WebId": "e1423f21-421e-4f88-b7b9-6e7138f9b859"
+      },
+      {
+        "$type": "Bespoke.epsikologi_ibkrecommendation.Domain.BidangPengajian, epsikologi.IbkRecommendation",
+        "Text": "Perundangan/ Kehakiman Jenayah",
+        "WebId": "ad4beb81-59d0-4fb0-83b0-a6caae0739ec"
+      },
+      {
+        "$type": "Bespoke.epsikologi_ibkrecommendation.Domain.BidangPengajian, epsikologi.IbkRecommendation",
+        "Text": "Penguatkuasaan/ Perlindungan Kebakaran & Keselamatan/ Perkhidmatan Bomba/ Penerbangan",
+        "WebId": "5931c4e3-3af0-4754-a563-adc423563f43"
+      },
+      {
+        "$type": "Bespoke.epsikologi_ibkrecommendation.Domain.BidangPengajian, epsikologi.IbkRecommendation",
+        "Text": "-Pertanian/ Sains Pertanian/ Peralatan Pertanian/ Perhutanan & Teknologi/ Perniagaan Pertanian & Operasi -Pemasaran/ Operasi Pengedaran & Pemasaran -Institusi Perkhidmatan \t",
+        "WebId": "e90142e6-afff-4dc9-9c58-778cc07011b1"
+      },
+      {
+        "$type": "Bespoke.epsikologi_ibkrecommendation.Domain.BidangPengajian, epsikologi.IbkRecommendation",
+        "Text": "Pentadbiran & Pengurusan Perniagaan",
+        "WebId": "ad706998-fc41-484e-b649-f46d758d73ad"
+      },
+      {
+        "$type": "Bespoke.epsikologi_ibkrecommendation.Domain.BidangPengajian, epsikologi.IbkRecommendation",
+        "Text": "-Sains Sosial -Produk & Perkhidmatan Kesihatan/ Hospital -Pendidikan Orang Dewasa",
+        "WebId": "9ba6e23f-ba13-45c6-9ccc-356b6f278e65"
+      }
+    ]
+  },
+  "CreatedBy": "admin",
+  "Id": "IPM-IMP",
+  "CreatedDate": "2015-07-31T19:22:56.9426275+08:00",
+  "ChangedBy": "admin",
+  "ChangedDate": "2015-07-31T19:22:56.9296188+08:00",
+  "WebId": "7d2fdfb1-74ef-4573-fced-92271760819a"
+}

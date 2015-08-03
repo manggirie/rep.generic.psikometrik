@@ -3,14 +3,14 @@
   "NoRujukan": "0119",
   "SoalanNo": "0119",
   "TeksSoalan": "Saya cepat memberi respons yang tidak bertimbang rasa dan menyakitkan hati.",
-  "SeksyenSoalan": "H",
+  "SeksyenSoalan": "",
   "PilihanJawapanCollection": {
     "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan]], domain.sph",
     "$values": [
       {
         "$type": "Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan",
         "Teks": "Ya",
-        "Nilai": 1,
+        "Nilai": 2,
         "WebId": null
       },
       {
@@ -21,14 +21,14 @@
       }
     ]
   },
-  "Trait": "NA",
+  "Trait": "H",
   "NamaUjian": "Indikator Perwatakan Unggul (IPU)",
-  "Susunan": 1.0,
+  "Susunan": 9.0,
   "Kategori": null,
   "CreatedBy": "admin",
   "Id": "IPU-H-0119",
   "CreatedDate": "2015-07-06T11:24:40.8296411+08:00",
   "ChangedBy": "admin",
-  "ChangedDate": "2015-07-06T11:24:40.8286399+08:00",
+  "ChangedDate": "2015-07-31T10:38:31.6607426+08:00",
   "WebId": "38b66ccd-c2e5-4d1d-b4fa-23cb8ef11e47"
 }
