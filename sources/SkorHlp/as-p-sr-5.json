@@ -3,14 +3,14 @@
   "No": "as-p-sr-5",
   "Tret": "AS",
   "NilaiMin": 0,
-  "NilaiMax": 7,
+  "NilaiMax": 12,
   "Percentile": 5,
   "Skor": "Skor Rendah",
   "Jantina": "Perempuan",
   "CreatedBy": "urusetia1",
   "Id": "as-p-sr-5",
   "CreatedDate": "2015-07-08T16:10:34.1194437+08:00",
-  "ChangedBy": "urusetia1",
-  "ChangedDate": "2015-07-08T16:10:34.1269497+08:00",
+  "ChangedBy": "admin",
+  "ChangedDate": "2015-08-03T14:21:25.4873502+08:00",
   "WebId": "d5640ad5-0f70-4e36-acbc-24ba0320e4cf"
 }
