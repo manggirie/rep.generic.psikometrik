@@ -3,32 +3,32 @@
   "NoRujukan": "0151",
   "SoalanNo": "0151",
   "TeksSoalan": "Kadangkala saya menangguhkan kerja yang sepatutnya saya lakukan pada hari ini ke hari esok.",
-  "SeksyenSoalan": "J",
+  "SeksyenSoalan": "",
   "PilihanJawapanCollection": {
     "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan]], domain.sph",
     "$values": [
       {
         "$type": "Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan",
         "Teks": "Ya",
-        "Nilai": 1,
+        "Nilai": 0,
         "WebId": null
       },
       {
         "$type": "Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan",
         "Teks": "Tidak",
-        "Nilai": 0,
+        "Nilai": 1,
         "WebId": null
       }
     ]
   },
-  "Trait": "NA",
+  "Trait": "J",
   "NamaUjian": "Indikator Perwatakan Unggul (IPU)",
-  "Susunan": 1.0,
+  "Susunan": 41.0,
   "Kategori": null,
   "CreatedBy": "admin",
   "Id": "IPU-J-0151",
   "CreatedDate": "2015-07-06T11:24:41.2524393+08:00",
-  "ChangedBy": "admin",
-  "ChangedDate": "2015-07-06T11:24:41.2519387+08:00",
+  "ChangedBy": "urusetia1",
+  "ChangedDate": "2015-08-03T13:20:20.1978579+08:00",
   "WebId": "c040955d-5568-4cba-869b-98ff9455ce33"
 }
