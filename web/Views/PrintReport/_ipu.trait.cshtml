@@ -1,0 +1,37 @@
+@model Bespoke.epsikologi_ipurecommendation.Domain.IpuRecommendation
+
+<table class="">
+  <colgroup>
+    <col style="width:180px"/>
+    <col style="width:20px"/>
+    <col style="width:600px"/>
+  </colgroup>
+  <tr>
+    <td>Tret</td>
+    <td>:</td>
+    <td>@Model.Tret</td>
+  </tr>
+  <tr>
+    <td>Skala</td>
+    <td>:</td>
+    <td>@Model.Skala</td>
+  </tr>
+  <tr>
+    <td>Tahap</td>
+    <td>:</td>
+    <td>@Model.Tahap</td>
+  </tr>
+
+  @foreach(var rec in Model.RecommendationCollection)
+  {
+    <tr>
+      <td style="vertical-align:top">@rec.Kategori</td>
+      <td style="vertical-align:top">:</td>
+      <td style="text-align:justify">
+        <p>
+          @Html.Raw(rec.Deskripsi.Replace("\n\n", "</p><p>"))
+        </p>
+      </td>
+    </tr>
+  }
+</table>
