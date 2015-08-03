@@ -55,6 +55,9 @@ namespace web.sph.App_Code
             ObjectBuilder.AddCacheList<IRepository<Bespoke.epsikologi_skoripu.Domain.SkorIPU>>(
                     new Bespoke.Sph.SqlRepository.SqlRepository<Bespoke.epsikologi_skoripu.Domain.SkorIPU>());
 
+            ObjectBuilder.AddCacheList<IRepository<Bespoke.epsikologi_ipupercentilenorms.Domain.IpuPercentileNorms>>(
+                    new Bespoke.Sph.SqlRepository.SqlRepository<Bespoke.epsikologi_ipupercentilenorms.Domain.IpuPercentileNorms>());
+
     	}
     }
 }
