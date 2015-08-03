@@ -1,0 +1,62 @@
+{
+  "$type": "Bespoke.Sph.Domain.EntityForm, domain.sph",
+  "FormDesign": {
+    "$type": "Bespoke.Sph.Domain.FormDesign, domain.sph",
+    "FormElementCollection": {
+      "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.Sph.Domain.FormElement, domain.sph]], domain.sph",
+      "$values": []
+    },
+    "Name": null,
+    "Description": null,
+    "ConfirmationText": null,
+    "ImageStoreId": null,
+    "LabelColLg": null,
+    "LabelColMd": null,
+    "LabelColSm": null,
+    "LabelColXs": null,
+    "InputColLg": null,
+    "InputColMd": null,
+    "InputColSm": null,
+    "InputColXs": null,
+    "WebId": null
+  },
+  "Rules": {
+    "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[System.String, mscorlib]], domain.sph",
+    "$values": []
+  },
+  "RouteParameterCollection": {
+    "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.Sph.Domain.RouteParameter, domain.sph]], domain.sph",
+    "$values": []
+  },
+  "FormLayoutCollection": {
+    "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.Sph.Domain.FormLayout, domain.sph]], domain.sph",
+    "$values": []
+  },
+  "EntityDefinitionId": "ipupercentilenorms",
+  "Name": "IpuPercentileNorms details",
+  "Route": "ipupercentilenorms-details",
+  "Note": null,
+  "IsAllowedNewItem": false,
+  "IconClass": null,
+  "IconStoreId": null,
+  "IsPublished": false,
+  "IsDefault": true,
+  "IsWatchAvailable": false,
+  "IsEmailAvailable": false,
+  "IsPrintAvailable": false,
+  "IsAuditTrailAvailable": false,
+  "IsRemoveAvailable": false,
+  "IsImportAvailable": false,
+  "IsExportAvailable": false,
+  "Operation": null,
+  "Entity": "IpuPercentileNorms",
+  "Partial": null,
+  "Caption": null,
+  "Layout": null,
+  "CreatedBy": "admin",
+  "Id": "525c6551-5d00-474d-9181-1a576b3175fa",
+  "CreatedDate": "2015-08-03T11:00:31.7550975+08:00",
+  "ChangedBy": "admin",
+  "ChangedDate": "2015-08-03T11:00:31.7550975+08:00",
+  "WebId": "92911829-9c6c-4a9e-8044-6f2d641e42e0"
+}
