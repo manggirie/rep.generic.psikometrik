@@ -57,6 +57,17 @@ namespace web.sph.App_Code
       [JsonIgnore]
       public Bespoke.epsikologi_ipurecommendation.Domain.IpuRecommendation RecommendationJ {get;set;}
 
+      public int? SkorA {get; set;}
+      public int? SkorB {get; set;}
+      public int? SkorC {get; set;}
+      public int? SkorD {get; set;}
+      public int? SkorE {get; set;}
+      public int? SkorF {get; set;}
+      public int? SkorG {get; set;}
+      public int? SkorH {get; set;}
+      public int? SkorI {get; set;}
+      public int? SkorJ {get; set;}
+
       public int A
       {
         get
