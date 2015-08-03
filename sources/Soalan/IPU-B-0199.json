@@ -3,14 +3,14 @@
   "NoRujukan": "0199",
   "SoalanNo": "0199",
   "TeksSoalan": "Saya kerap berasa tertekan kerana masalah peribadi.",
-  "SeksyenSoalan": "B",
+  "SeksyenSoalan": "",
   "PilihanJawapanCollection": {
     "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan]], domain.sph",
     "$values": [
       {
         "$type": "Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan",
         "Teks": "Ya",
-        "Nilai": 1,
+        "Nilai": 2,
         "WebId": null
       },
       {
@@ -21,14 +21,14 @@
       }
     ]
   },
-  "Trait": "NA",
+  "Trait": "B",
   "NamaUjian": "Indikator Perwatakan Unggul (IPU)",
-  "Susunan": 1.0,
+  "Susunan": 89.0,
   "Kategori": null,
   "CreatedBy": "admin",
   "Id": "IPU-B-0199",
   "CreatedDate": "2015-07-06T11:24:41.7787385+08:00",
-  "ChangedBy": "admin",
-  "ChangedDate": "2015-07-06T11:24:41.7782384+08:00",
+  "ChangedBy": "urusetia1",
+  "ChangedDate": "2015-08-03T14:11:57.3445416+08:00",
   "WebId": "71a7a3e5-ca2e-41f9-82ab-fb7e8bd439d2"
 }
