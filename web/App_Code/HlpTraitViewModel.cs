@@ -114,12 +114,20 @@ namespace web.sph.App_Code
       private HlpResult ComputeResultNoJantina(string TRET)
       {
           var point = m_sesi.JawapanCollection.Where(a => a.Trait == TRET).Sum(a => a.Nilai);
+<<<<<<< HEAD
 var temps = m_scoreTables
+=======
+          var temps = m_scoreTables
+>>>>>>> 5876b1eb3cca9dd06c95e2e261df3a0eec227e59
                       .Where(x => x.Tret == TRET && point >= x.NilaiMin && point <= x.NilaiMax)
                       .ToList();
           if(temps.Count != 0)
           {
+<<<<<<< HEAD
               throw new Exception(string.Format("TRET:{0} and point: {1} have {2} entries", TRET, point, temps));
+=======
+              throw new Exception(string.Format("TRET:{0} and point: {1} have {2} entries", TRET, point, temps.Count));
+>>>>>>> 5876b1eb3cca9dd06c95e2e261df3a0eec227e59
           }
 
           if(temps.Count > 1)
@@ -127,6 +135,10 @@ var temps = m_scoreTables
               var itemsx = string.Join(",", temps.Select(x => x.Id));
               throw new Exception(string.Format("TRET:{0} and point: {1} have {2} entries : {3}", TRET, point, temps, itemsx));
           }
+<<<<<<< HEAD
+=======
+
+>>>>>>> 5876b1eb3cca9dd06c95e2e261df3a0eec227e59
           var percent =  m_scoreTables
                           .Single(x => x.Tret == TRET && point >= x.NilaiMin && point <= x.NilaiMax)
                           .Percentile;

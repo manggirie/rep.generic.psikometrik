@@ -2,7 +2,7 @@
   "$type": "Bespoke.epsikologi_soalan.Domain.Soalan, epsikologi.Soalan",
   "NoRujukan": "HLP-00003",
   "SoalanNo": "HLP-00003",
-  "TeksSoalan": "3.\tSaya masih boleh bertenang walaupun orang lain sedang bersedih atau terganggu emosinya.",
+  "TeksSoalan": "Saya masih boleh bertenang walaupun orang lain sedang bersedih atau terganggu emosinya.",
   "SeksyenSoalan": null,
   "PilihanJawapanCollection": {
     "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan]], domain.sph",
@@ -25,10 +25,11 @@
   "NamaUjian": "Ujian Khas Hadiah Latihan Persekutuan(HLP)",
   "Susunan": 3.0,
   "Kategori": "Ketenangan",
+  "Bahagian": null,
   "CreatedBy": "admin",
   "Id": "HLP-00003",
   "CreatedDate": "2015-07-06T11:24:49.3115547+08:00",
   "ChangedBy": "admin",
-  "ChangedDate": "2015-07-07T12:47:30.9173834+08:00",
+  "ChangedDate": "2015-08-04T16:25:07.4160258+08:00",
   "WebId": "31c59009-23ac-4de1-8224-08eebf2a6f37"
 }

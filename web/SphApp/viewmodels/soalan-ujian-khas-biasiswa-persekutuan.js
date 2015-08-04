@@ -46,7 +46,7 @@ function(context, logger, router, chart, config, partial) {
                     }
                 },
                 "sort": [{
-                    "SeksyenSoalan": {
+                    "Bahagian": {
                         "order": "asc"
                     }
                 }, {

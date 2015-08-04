@@ -1,0 +1,35 @@
+{
+  "$type": "Bespoke.epsikologi_soalan.Domain.Soalan, epsikologi.Soalan",
+  "NoRujukan": "UKBP-B-00284",
+  "SoalanNo": "UKBP-B-00284",
+  "TeksSoalan": "Melakukan projek saintifik.",
+  "SeksyenSoalan": null,
+  "PilihanJawapanCollection": {
+    "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan]], domain.sph",
+    "$values": [
+      {
+        "$type": "Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan",
+        "Teks": "Ya",
+        "Nilai": 1,
+        "WebId": "42cef63b-8497-41cc-92e8-88af3ec860c7"
+      },
+      {
+        "$type": "Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan",
+        "Teks": "Tidak",
+        "Nilai": 0,
+        "WebId": "6d724628-57a5-4141-aaa2-3aa31d620746"
+      }
+    ]
+  },
+  "Trait": null,
+  "NamaUjian": "Ujian Khas Biasiswa Persekutuan(UKBP)",
+  "Susunan": 103.0,
+  "Kategori": null,
+  "Bahagian": null,
+  "CreatedBy": "admin",
+  "Id": "6010a8ad-a480-405c-b44d-154f4c2535c0",
+  "CreatedDate": "2015-08-04T15:02:52.2950642+08:00",
+  "ChangedBy": "admin",
+  "ChangedDate": "2015-08-04T15:02:52.294064+08:00",
+  "WebId": "9aa07b0b-96d9-4a4d-e35d-d86bc0eaf722"
+}
