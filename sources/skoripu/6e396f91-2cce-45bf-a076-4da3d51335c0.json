@@ -1,0 +1,16 @@
+{
+  "$type": "Bespoke.epsikologi_skoripu.Domain.SkorIPU, epsikologi.SkorIPU",
+  "No": "i-l-sst-60",
+  "Tret": "I",
+  "NilaiMin": 29,
+  "NilaiMax": 29,
+  "Percentile": 60,
+  "Skor": "Skor Sederhana Tinggi",
+  "Jantina": "Lelaki",
+  "CreatedBy": "admin",
+  "Id": "6e396f91-2cce-45bf-a076-4da3d51335c0",
+  "CreatedDate": "2015-08-04T10:24:38.0198914+08:00",
+  "ChangedBy": "admin",
+  "ChangedDate": "2015-08-04T10:24:37.9878882+08:00",
+  "WebId": "28d0b532-dd08-4e06-f12a-36abd8bbc3ad"
+}
