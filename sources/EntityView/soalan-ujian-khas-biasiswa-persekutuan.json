@@ -123,6 +123,23 @@
         "Format": "text:{0}",
         "RouteValueField": "Id",
         "WebId": "f5c6608e-12ca-42e5-9284-f7771a7a0211"
+      },
+      {
+        "$type": "Bespoke.Sph.Domain.ViewColumn, domain.sph",
+        "ConditionalFormattingCollection": {
+          "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.Sph.Domain.ConditionalFormatting, domain.sph]], domain.sph",
+          "$values": []
+        },
+        "Path": "Bahagian",
+        "Header": "Bahagian",
+        "Sort": "",
+        "IsLinkColumn": false,
+        "FormRoute": null,
+        "IconCssClass": "",
+        "IconStoreId": "",
+        "Format": "text:{0}",
+        "RouteValueField": "",
+        "WebId": "828a2921-8326-4bc9-8380-7ab531c6d519"
       }
     ]
   },
@@ -131,15 +148,15 @@
     "$values": [
       {
         "$type": "Bespoke.Sph.Domain.Sort, domain.sph",
-        "Path": "SeksyenSoalan",
+        "Path": "Bahagian",
         "Direction": "Asc",
-        "WebId": "7b54c72b-06ea-4a5f-cb0e-424d034d5747"
+        "WebId": "783cce93-a670-4a1c-e93f-39bfc7159360"
       },
       {
         "$type": "Bespoke.Sph.Domain.Sort, domain.sph",
         "Path": "Susunan",
         "Direction": "Asc",
-        "WebId": "e7f8d9fb-3f73-4b07-b53b-f232daa25725"
+        "WebId": "1c8f5638-f12d-43b8-d8f0-ccf83c4d7ab5"
       }
     ]
   },
@@ -177,6 +194,6 @@
   "Id": "soalan-ujian-khas-biasiswa-persekutuan",
   "CreatedDate": "2015-06-22T11:34:46.1285512+08:00",
   "ChangedBy": "admin",
-  "ChangedDate": "2015-07-29T11:00:08.7491299+08:00",
+  "ChangedDate": "2015-08-04T15:46:11.2209379+08:00",
   "WebId": "38e6ae7a-002d-4780-d67c-faea94d5b459"
 }
