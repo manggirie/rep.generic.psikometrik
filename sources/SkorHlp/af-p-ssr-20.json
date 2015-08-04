@@ -2,8 +2,8 @@
   "$type": "Bespoke.epsikologi_skorhlp.Domain.SkorHlp, epsikologi.SkorHlp",
   "No": "af-p-ssr-20",
   "Tret": "AF",
-  "NilaiMin": 12,
-  "NilaiMax": 13,
+  "NilaiMin": 14,
+  "NilaiMax": 15,
   "Percentile": 20,
   "Skor": "Skor Sederhana Rendah",
   "Jantina": "Perempuan",
@@ -11,6 +11,6 @@
   "Id": "af-p-ssr-20",
   "CreatedDate": "2015-07-09T15:51:21.0061714+08:00",
   "ChangedBy": "admin",
-  "ChangedDate": "2015-07-09T15:51:21.0051692+08:00",
+  "ChangedDate": "2015-08-04T11:35:20.7341482+08:00",
   "WebId": "ceec1819-97ce-4712-f3ce-443c09ce1d48"
 }

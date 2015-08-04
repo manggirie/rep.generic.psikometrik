@@ -2,15 +2,15 @@
   "$type": "Bespoke.epsikologi_skorhlp.Domain.SkorHlp, epsikologi.SkorHlp",
   "No": "af-l-ssr-35",
   "Tret": "AF",
-  "NilaiMin": 23,
-  "NilaiMax": 23,
+  "NilaiMin": 21,
+  "NilaiMax": 21,
   "Percentile": 35,
   "Skor": "Skor Sederhana Rendah",
   "Jantina": "Lelaki",
   "CreatedBy": "admin",
-  "Id": "af-l-sr-35",
-  "CreatedDate": "2015-07-09T15:27:12.9474155+08:00",
+  "Id": "af-l-ssr-35",
+  "CreatedDate": "2015-08-04T11:16:46.8737733+08:00",
   "ChangedBy": "admin",
-  "ChangedDate": "2015-07-09T15:39:58.4990863+08:00",
-  "WebId": "5942152e-47f7-49fd-aa38-1223d7fdbf0b"
+  "ChangedDate": "2015-08-04T11:16:46.8597719+08:00",
+  "WebId": "0dd14c82-9eb8-4bb7-c26c-ef2954a668a2"
 }

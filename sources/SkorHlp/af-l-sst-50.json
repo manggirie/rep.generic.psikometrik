@@ -1,0 +1,16 @@
+{
+  "$type": "Bespoke.epsikologi_skorhlp.Domain.SkorHlp, epsikologi.SkorHlp",
+  "No": "af-l-sst-50",
+  "Tret": "AF",
+  "NilaiMin": 24,
+  "NilaiMax": 24,
+  "Percentile": 50,
+  "Skor": "Skor Sederhana Tinggi",
+  "Jantina": "Lelaki",
+  "CreatedBy": "admin",
+  "Id": "af-l-sst-50",
+  "CreatedDate": "2015-08-04T11:20:48.1108946+08:00",
+  "ChangedBy": "admin",
+  "ChangedDate": "2015-08-04T11:20:48.1098945+08:00",
+  "WebId": "fe2b9421-5a9f-4263-cfac-61d6c9e8fc51"
+}

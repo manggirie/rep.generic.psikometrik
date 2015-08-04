@@ -3,7 +3,7 @@
   "No": "af-p-st-85",
   "Tret": "AF",
   "NilaiMin": 28,
-  "NilaiMax": 28,
+  "NilaiMax": 29,
   "Percentile": 85,
   "Skor": "Skor Tinggi",
   "Jantina": "Perempuan",
@@ -11,6 +11,6 @@
   "Id": "af-p-st-85",
   "CreatedDate": "2015-07-09T16:09:33.761097+08:00",
   "ChangedBy": "admin",
-  "ChangedDate": "2015-07-09T16:09:33.761097+08:00",
+  "ChangedDate": "2015-08-04T11:40:05.88066+08:00",
   "WebId": "a5627e0a-38bb-4d5c-8778-76c49ba11d6a"
 }
