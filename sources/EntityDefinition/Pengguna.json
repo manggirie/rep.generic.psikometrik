@@ -951,7 +951,7 @@
         "Name": "TarikhKemaskiniNow",
         "SuccessMessage": "Rekod berjaya didaftarkan",
         "ShowSuccessMessage": true,
-        "NavigateSuccessUrl": "#pengguna-all",
+        "NavigateSuccessUrl": "= config.roles.indexOf(\"PengurusanPenggunaJabatan\") > -1 ?  \"#responden-dari-jabatan\" : \"#pengguna-all\";",
         "SuccessCommand": "",
         "WebId": "a97bdf39-8490-4f87-bac8-e6925c7685c6"
       },
@@ -1037,6 +1037,6 @@
   "Id": "pengguna",
   "CreatedDate": "2015-06-16T08:04:09.5200889+08:00",
   "ChangedBy": "admin",
-  "ChangedDate": "2015-07-28T11:11:42.5059771+08:00",
+  "ChangedDate": "2015-08-03T15:03:03.2382884+08:00",
   "WebId": "01c666ac-ab68-4416-9d69-a716a003c902"
 }

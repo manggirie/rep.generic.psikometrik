@@ -1,0 +1,21 @@
+{
+  "$type": "Bespoke.epsikologi_ppkprecommendation.Domain.PpkpRecommendation, epsikologi.PpkpRecommendation",
+  "No": "KP-126-200",
+  "Tret": "Fokus",
+  "NilaiMin": 126,
+  "NilaiMax": 200,
+  "Dimensi": "Cara Gaya Bekerja",
+  "ShortInterpretationCollection": {
+    "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.epsikologi_ppkprecommendation.Domain.ShortInterpretation, epsikologi.PpkpRecommendation]], domain.sph",
+    "$values": []
+  },
+  "Interpretasi": "Anda seorang yang rajin berusaha, boleh diharap, bertanggungjawab, mempunyai keazaman dan berkeyakinan tinggi serta membuat persediaan rapi bagi mencapai sesuatu matlamat.\n\nDalam menjalankan tugas, anda seorang yang tabah, patuh, komited, efisien, tegas dan mementingkan kualiti serta ketelitian.  Anda suka merancang, membuat jangkaan, menggunakan pendekatan berstruktur dan melaksanakan tugas dengan kemas serta teratur.\n",
+  "Kepimpinan": "Anda mempamerkan diri sebagai seorang yang berdisiplin, bercita-cita tinggi, sangat fokus kepada tugas dan boleh dipercayai untuk mengotakan janji.",
+  "Cadangan": "Anda memerlukan ruang untuk merehatkan diri agar tidak menjadi seorang yang terlalu rajin bekerja (workaholic).  Anda disarankan agar bersikap fleksibel bagi mengurangkan stres kepada diri atau orang lain. ",
+  "CreatedBy": "admin",
+  "Id": "2fd58348-b2b6-46fd-8caf-503dd3340b8d",
+  "CreatedDate": "2015-08-03T18:29:13.0429618+08:00",
+  "ChangedBy": "admin",
+  "ChangedDate": "2015-08-03T18:29:13.0429618+08:00",
+  "WebId": "7428ca38-32c1-4da4-b611-d4c07548a2e1"
+}

@@ -1,0 +1,21 @@
+{
+  "$type": "Bespoke.epsikologi_ppkprecommendation.Domain.PpkpRecommendation, epsikologi.PpkpRecommendation",
+  "No": "HI-0-80",
+  "Tret": "Konvensional",
+  "NilaiMin": 0,
+  "NilaiMax": 80,
+  "Dimensi": "Cara Gaya Pemikiran",
+  "ShortInterpretationCollection": {
+    "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.epsikologi_ppkprecommendation.Domain.ShortInterpretation, epsikologi.PpkpRecommendation]], domain.sph",
+    "$values": []
+  },
+  "Interpretasi": "Anda seorang yang mematuhi peraturan (prosedur, sistem, garis panduan), bersikap serius, praktikal dan konservatif (tradisional).\n\nDari aspek pekerjaan, anda berasa selesa dengan tugas rutin yang dilakukan dan bekerja berdasarkan kepakaran kerana ia menjadikan anda seorang yang efisien dalam bidang berkaitan. Senario sedemikian menjadikan persekitaran kerja dan kehidupan anda aman, stabil, selamat serta damai.\n\nBagaimanapun, sikap anda yang terlalu fokus dan teliti ke atas sesuatu perkara, menjadikan anda tidak melihat konsep sesuatu perkara secara keseluruhan.  Anda juga tidak suka kepada risiko dan hanya menerima perubahan apabila situasi memaksa.\n",
+  "Kepimpinan": "Anda boleh mengurus projek atau situasi yang tidak memerlukan banyak perubahan dilakukan.  Anda juga berupaya melaksanakan rancangan dengan baik tetapi bukan seorang perancang yang berkesan.",
+  "Cadangan": "Anda disarankan menyesuaikan diri dengan perubahan atau idea baharu, bersikap fleksibel dari segi pemikiran dan tindakan serta memberi perhatian kepada situasi semasa dan masa hadapan.",
+  "CreatedBy": "admin",
+  "Id": "45ab4d7e-e665-4351-b36b-a861385e2052",
+  "CreatedDate": "2015-08-03T18:30:56.6903255+08:00",
+  "ChangedBy": "admin",
+  "ChangedDate": "2015-08-03T18:30:56.6893254+08:00",
+  "WebId": "ceb9dbc9-6441-4a15-e3a9-319066172441"
+}

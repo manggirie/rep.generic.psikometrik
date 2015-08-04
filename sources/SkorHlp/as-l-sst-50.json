@@ -3,14 +3,14 @@
   "No": "as-l-sst-50",
   "Tret": "AS",
   "NilaiMin": 26,
-  "NilaiMax": 26,
+  "NilaiMax": 27,
   "Percentile": 50,
   "Skor": "Skor Sederhana Tinggi",
   "Jantina": "Lelaki",
   "CreatedBy": "urusetia1",
   "Id": "as-l-sst-50",
   "CreatedDate": "2015-07-08T16:05:13.2345791+08:00",
-  "ChangedBy": "urusetia1",
-  "ChangedDate": "2015-07-08T16:05:13.2335779+08:00",
+  "ChangedBy": "admin",
+  "ChangedDate": "2015-08-03T15:13:57.7825482+08:00",
   "WebId": "c6ef8e13-fad4-4737-c7e5-7045331ed65b"
 }

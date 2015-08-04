@@ -1,0 +1,159 @@
+
+
+<h1 data-i18n="PpkpRecommendation details">PpkpRecommendation details</h1>
+<div id="error-list" class="row" data-bind="visible:errors().length">
+    <!-- ko foreach : errors -->
+    <div class="col-sm-8 col-sm-offset-2 alert alert-dismissable alert-danger">
+        <button type="button" class="close" data-dismiss="alert" aria-hidden="true">&times;</button>
+        <i class="fa fa-exclamation"></i>
+        <span data-bind="text:Message"></span>
+
+    </div>
+    <div class="col-sm-2"></div>
+    <!-- /ko-->
+</div>
+<div class="row">
+    <div class="col-sm-8">
+        
+<form class="form-horizontal" data-bind="with : entity" id="ppkprecommendation-details-form">
+
+
+
+    <div data-bind="visible:true" class="form-group">
+        <label data-i18n="No" for="d1f2303a-5dbc-4aff-cb79-c349841f5f90" class="col-md-4">No</label>
+        <div class="col-md-8">
+            <input  class=" form-control input-large" title=""
+                   data-bind="value: No, enable :true "
+                   
+                   
+                   
+                   id="d1f2303a-5dbc-4aff-cb79-c349841f5f90" type="text" name="No" />
+        </div>
+    </div>
+
+
+
+    <div data-bind="visible:true" class="form-group">
+        <label data-i18n="Tret" for="f31aa0c9-022a-46a5-dfc2-d0ba076f1f7c" class="col-md-4">Tret</label>
+        <div class="col-md-8">
+            <input  class=" form-control input-large" title=""
+                   data-bind="value: Tret, enable :true "
+                   
+                   
+                   
+                   id="f31aa0c9-022a-46a5-dfc2-d0ba076f1f7c" type="text" name="Tret" />
+        </div>
+    </div>
+
+
+
+    <div data-bind="visible:true" class="form-group">
+        <label data-i18n="Nilai Min" for="2d7107f2-c834-4d35-f247-7b30dfddfa5c" class="col-md-4">Nilai Min</label>
+        <div class="col-md-8">
+            <input  class=" form-control input-large" title=""
+                   data-bind="value: NilaiMin, enable :true "
+                   
+                   
+                   
+                   id="2d7107f2-c834-4d35-f247-7b30dfddfa5c" type="text" name="NilaiMin" />
+        </div>
+    </div>
+
+
+
+    <div data-bind="visible:true" class="form-group">
+        <label data-i18n="Nilai Max" for="f8f05e9c-4720-43fb-82c4-95f3fc5eb6fd" class="col-md-4">Nilai Max</label>
+        <div class="col-md-8">
+            <input  class=" form-control input-large" title=""
+                   data-bind="value: NilaiMax, enable :true "
+                   
+                   
+                   
+                   id="f8f05e9c-4720-43fb-82c4-95f3fc5eb6fd" type="text" name="NilaiMax" />
+        </div>
+    </div>
+
+
+
+    <div data-bind="visible:true" class="form-group">
+        <label data-i18n="Dimensi" for="05b42b3c-9ba0-4555-b9e5-cc7da6572edf" class="col-md-4">Dimensi</label>
+        <div class="col-md-8">
+            <input  class=" form-control input-large" title=""
+                   data-bind="value: Dimensi, enable :true "
+                   
+                   
+                   
+                   id="05b42b3c-9ba0-4555-b9e5-cc7da6572edf" type="text" name="Dimensi" />
+        </div>
+    </div>
+
+    <div class="form-group" data-bind="visible:true">
+        <label data-i18n="Interpretasi" for="4b1c079f-f8ab-4d70-82c4-efe2416cf8b2" class="col-md-4">Interpretasi</label>
+        <div class="col-md-8">
+            <textarea class=" form-control " data-bind="value: Interpretasi, visible :true, enable :true"
+                      id="4b1c079f-f8ab-4d70-82c4-efe2416cf8b2" name="Interpretasi"></textarea>
+        </div>
+    </div>
+
+    <div class="form-group" data-bind="visible:true">
+        <label data-i18n="Kepimpinan" for="1871ff81-be60-449d-d62a-ab3a2c806c2e" class="col-md-4">Kepimpinan</label>
+        <div class="col-md-8">
+            <textarea class=" form-control " data-bind="value: Kepimpinan, visible :true, enable :true"
+                      id="1871ff81-be60-449d-d62a-ab3a2c806c2e" name="Kepimpinan"></textarea>
+        </div>
+    </div>
+
+    <div class="form-group" data-bind="visible:true">
+        <label data-i18n="Cadangan" for="4fb0912f-8c2f-4283-e46d-186b6d3c5726" class="col-md-4">Cadangan</label>
+        <div class="col-md-8">
+            <textarea class=" form-control " data-bind="value: Cadangan, visible :true, enable :true"
+                      id="4fb0912f-8c2f-4283-e46d-186b6d3c5726" name="Cadangan"></textarea>
+        </div>
+    </div>
+
+
+<div data-bind="visible:true">
+    <table class="table table-condensed table-striped">
+        <thead>
+            <tr>
+                    <th data-i18n="Text">Text</th>
+                <th></th>
+            </tr>
+        </thead>
+        <tbody data-bind="foreach :ShortInterpretationCollection">
+            <tr>
+                    <td>
+                        
+
+
+    <input  class=" form-control " title=""
+           data-bind="value: Text, visible :true, enable :true ,uniqueName:true"
+           
+           
+           type="text"
+           name="Text"
+           
+            />
+
+
+                    </td>
+                <td>
+                    <a title="remove" href="#" data-bind="click : $parent.removeChildItem.call($parent,$parent.ShortInterpretationCollection, $data)">
+                        <span class="glyphicon glyphicon-remove"></span>
+                    </a>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    <a data-i18n="Short Interpretation" class="btn btn-link" data-bind="click : addChildItem(ShortInterpretationCollection, bespoke.epsikologi_ppkprecommendation.domain.ShortInterpretation)">
+        <i class="fa fa-plus-circle"></i>
+        Short Interpretation
+    </a>
+
+</div>
+</form>
+    </div>
+    <div class="col-sm-4">
+        
+    </div>
+</div>

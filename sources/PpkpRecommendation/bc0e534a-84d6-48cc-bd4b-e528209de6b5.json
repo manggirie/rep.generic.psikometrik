@@ -1,0 +1,21 @@
+{
+  "$type": "Bespoke.epsikologi_ppkprecommendation.Domain.PpkpRecommendation, epsikologi.PpkpRecommendation",
+  "No": "CP-121-150",
+  "Tret": "Ambivert",
+  "NilaiMin": 121,
+  "NilaiMax": 150,
+  "Dimensi": "Hubungan Interpersonal",
+  "ShortInterpretationCollection": {
+    "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.epsikologi_ppkprecommendation.Domain.ShortInterpretation, epsikologi.PpkpRecommendation]], domain.sph",
+    "$values": []
+  },
+  "Interpretasi": "Anda boleh bekerja secara bersendirian atau dengan orang lain, tetapi, jika dilakukan secara keterlaluan, anda mungkin berasa tidak berpuas hati.  Tertakluk kepada situasi pekerjaan yang dilakukan, keupayaan anda bekerja dalam situasi yang berbeza membuatkan anda ada kalanya dilihat sebagai seorang Introvert atau Ekstrovert.",
+  "Kepimpinan": "Anda mempamerkan diri sebagai seorang yang peramah, mudah didekati, bersemangat dan berasa selesa mengetuai sesuatu tugasan. ",
+  "Cadangan": "Tiada",
+  "CreatedBy": "admin",
+  "Id": "bc0e534a-84d6-48cc-bd4b-e528209de6b5",
+  "CreatedDate": "2015-08-03T18:48:16.6553116+08:00",
+  "ChangedBy": "admin",
+  "ChangedDate": "2015-08-03T18:48:16.6533114+08:00",
+  "WebId": "f3248e45-3ff5-485d-d376-12759426fce8"
+}

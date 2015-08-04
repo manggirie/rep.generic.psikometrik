@@ -1,0 +1,21 @@
+{
+  "$type": "Bespoke.epsikologi_ppkprecommendation.Domain.PpkpRecommendation, epsikologi.PpkpRecommendation",
+  "No": "KP-101-125",
+  "Tret": "Keseimbangan",
+  "NilaiMin": 101,
+  "NilaiMax": 125,
+  "Dimensi": "Cara Gaya Bekerja",
+  "ShortInterpretationCollection": {
+    "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.epsikologi_ppkprecommendation.Domain.ShortInterpretation, epsikologi.PpkpRecommendation]], domain.sph",
+    "$values": []
+  },
+  "Interpretasi": "Anda seorang yang bercita-cita tinggi, boleh mengubah fokus terhadap sesuatu matlamat mengikut keperluan, berupaya mengimbangi keperluan tugas dan peribadi dengan baik serta mempunyai masa terluang melakukan aktiviti yang merehatkan.  ",
+  "Kepimpinan": "Anda mempunyai disiplin dan piawaian tertentu terhadap diri serta orang lain.",
+  "Cadangan": "Tiada",
+  "CreatedBy": "admin",
+  "Id": "57b316a0-af34-4f07-b428-d1df4ed3d446",
+  "CreatedDate": "2015-08-03T18:28:24.0430623+08:00",
+  "ChangedBy": "admin",
+  "ChangedDate": "2015-08-03T18:28:24.0420622+08:00",
+  "WebId": "daf427a8-7e60-4be9-d8af-43d25ca6a683"
+}
