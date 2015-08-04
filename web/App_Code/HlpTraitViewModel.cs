@@ -114,6 +114,19 @@ namespace web.sph.App_Code
       private HlpResult ComputeResultNoJantina(string TRET)
       {
           var point = m_sesi.JawapanCollection.Where(a => a.Trait == TRET).Sum(a => a.Nilai);
+var temps = m_scoreTables
+                      .Where(x => x.Tret == TRET && point >= x.NilaiMin && point <= x.NilaiMax)
+                      .ToList();
+          if(temps.Count != 0)
+          {
+              throw new Exception(string.Format("TRET:{0} and point: {1} have {2} entries", TRET, point, temps));
+          }
+
+          if(temps.Count > 1)
+          {
+              var itemsx = string.Join(",", temps.Select(x => x.Id));
+              throw new Exception(string.Format("TRET:{0} and point: {1} have {2} entries : {3}", TRET, point, temps, itemsx));
+          }
           var percent =  m_scoreTables
                           .Single(x => x.Tret == TRET && point >= x.NilaiMin && point <= x.NilaiMax)
                           .Percentile;

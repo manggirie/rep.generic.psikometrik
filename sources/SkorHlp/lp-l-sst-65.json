@@ -1,7 +1,7 @@
 {
   "$type": "Bespoke.epsikologi_skorhlp.Domain.SkorHlp, epsikologi.SkorHlp",
   "No": "lp-l-sst-65",
-  "Tret": "KB",
+  "Tret": "LP",
   "NilaiMin": 33,
   "NilaiMax": 33,
   "Percentile": 65,
@@ -11,6 +11,6 @@
   "Id": "lp-l-sst-65",
   "CreatedDate": "2015-07-28T11:44:49.2089707+08:00",
   "ChangedBy": "admin",
-  "ChangedDate": "2015-07-28T11:44:49.2069705+08:00",
+  "ChangedDate": "2015-08-04T16:19:55.3404381+08:00",
   "WebId": "3c33e5f5-0bc9-4aac-c53c-c2a0d75fb113"
 }
