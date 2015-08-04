@@ -3,14 +3,14 @@
   "No": "tl-p-sr-95",
   "Tret": "TL",
   "NilaiMin": 21,
-  "NilaiMax": 24,
+  "NilaiMax": 25,
   "Percentile": 95,
   "Skor": "Skor Rendah",
   "Jantina": "Perempuan",
   "CreatedBy": "urusetia1",
   "Id": "tl-p-sr-95",
   "CreatedDate": "2015-07-08T16:32:58.3207378+08:00",
-  "ChangedBy": "urusetia1",
-  "ChangedDate": "2015-07-08T16:32:58.3182363+08:00",
+  "ChangedBy": "admin",
+  "ChangedDate": "2015-08-04T11:54:21.4282062+08:00",
   "WebId": "90eadd75-ee0a-4dc0-b16b-207bada58f76"
 }

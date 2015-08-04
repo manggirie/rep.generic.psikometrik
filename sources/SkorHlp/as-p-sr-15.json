@@ -3,7 +3,7 @@
   "No": "as-p-sr-15",
   "Tret": "AS",
   "NilaiMin": 16,
-  "NilaiMax": 17,
+  "NilaiMax": 18,
   "Percentile": 15,
   "Skor": "Skor Rendah",
   "Jantina": "Perempuan",
@@ -11,6 +11,6 @@
   "Id": "as-p-sr-15",
   "CreatedDate": "2015-07-08T16:11:42.7474007+08:00",
   "ChangedBy": "admin",
-  "ChangedDate": "2015-08-03T14:18:54.580261+08:00",
+  "ChangedDate": "2015-08-04T10:45:03.4194469+08:00",
   "WebId": "8c7f81fc-b6fc-4ca5-a874-324a226dc741"
 }

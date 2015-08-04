@@ -1,0 +1,17 @@
+{
+  "$type": "Bespoke.epsikologi_skorppkp.Domain.SkorPpkp, epsikologi.SkorPpkp",
+  "No": "A1-0-10",
+  "Dimensi": "Kestabilan Emosi",
+  "Tret": "A1",
+  "NamaTret": "Ketenangan",
+  "NilaiMin": 0,
+  "NilaiMax": 10,
+  "Tahap": "Sangat Rendah",
+  "Interpretasi": "Sangat tertekan, sentiasa berwaspada dan sangat bimbang.",
+  "CreatedBy": "admin",
+  "Id": "da8990ec-4e24-4822-9608-a1704f980504",
+  "CreatedDate": "2015-08-04T09:30:15.6517009+08:00",
+  "ChangedBy": "admin",
+  "ChangedDate": "2015-08-04T09:30:15.6386996+08:00",
+  "WebId": "f57ee719-81b4-4b5b-fb25-788f2eaf9b36"
+}
