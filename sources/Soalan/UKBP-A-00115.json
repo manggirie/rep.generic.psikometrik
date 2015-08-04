@@ -3,7 +3,7 @@
   "NoRujukan": "UKBP-A-00115",
   "SoalanNo": "UKBP-A-00115",
   "TeksSoalan": "Saya memerlukan dorongan dan galakan untuk bekerja dengan lebih berkesan.",
-  "SeksyenSoalan": "A",
+  "SeksyenSoalan": "",
   "PilihanJawapanCollection": {
     "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan]], domain.sph",
     "$values": [
@@ -25,6 +25,7 @@
   "NamaUjian": "Ujian Khas Biasiswa Persekutuan(UKBP)",
   "Susunan": 115.0,
   "Kategori": null,
+  "Bahagian": "A",
   "CreatedBy": "admin",
   "Id": "UKBP-A-00115",
   "CreatedDate": "2015-07-06T11:24:54.6988579+08:00",

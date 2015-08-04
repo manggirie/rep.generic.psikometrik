@@ -3,7 +3,7 @@
   "NoRujukan": "UKBP-A-00001",
   "SoalanNo": "UKBP-A-00001",
   "TeksSoalan": "Kadangkala saya terfikir sesuatu yang tidak elok untuk diperkatakan.",
-  "SeksyenSoalan": "A",
+  "SeksyenSoalan": "",
   "PilihanJawapanCollection": {
     "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan]], domain.sph",
     "$values": [
@@ -11,24 +11,25 @@
         "$type": "Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan",
         "Teks": "Ya",
         "Nilai": 0,
-        "WebId": null
+        "WebId": "530dd327-a61a-45a6-ab4a-eba7edad716c"
       },
       {
         "$type": "Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan",
         "Teks": "Tidak",
         "Nilai": 1,
-        "WebId": null
+        "WebId": "b2e34ccb-031b-4628-8df2-cb84ab5faa95"
       }
     ]
   },
-  "Trait": null,
-  "NamaUjian": "Ujian Khas Biasiswa Persekutuan (UKBP)",
+  "Trait": "KBY",
+  "NamaUjian": "Ujian Khas Biasiswa Persekutuan(UKBP)",
   "Susunan": 1.0,
   "Kategori": null,
+  "Bahagian": "A",
   "CreatedBy": "admin",
   "Id": "UKBP-A-00001",
-  "CreatedDate": "2015-07-06T11:24:53.6961497+08:00",
+  "CreatedDate": "2015-08-04T11:06:48.2385522+08:00",
   "ChangedBy": "admin",
-  "ChangedDate": "2015-07-07T09:52:04.5275011+08:00",
-  "WebId": "6cf45791-72bd-49e0-8dab-b8bf909237f9"
+  "ChangedDate": "2015-08-04T11:06:48.2365522+08:00",
+  "WebId": "f89d0c0e-f42c-4d9c-baa3-e9337e9a5a69"
 }

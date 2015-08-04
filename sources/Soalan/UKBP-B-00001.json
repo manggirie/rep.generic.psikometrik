@@ -3,7 +3,7 @@
   "NoRujukan": "UKBP-B-00001",
   "SoalanNo": "UKBP-B-00001",
   "TeksSoalan": "Adalah penting bagi saya untuk mempunyai badan yang kuat dan tangkas.",
-  "SeksyenSoalan": "B",
+  "SeksyenSoalan": "",
   "PilihanJawapanCollection": {
     "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan]], domain.sph",
     "$values": [
@@ -25,6 +25,7 @@
   "NamaUjian": "Ujian Khas Biasiswa Persekutuan(UKBP)",
   "Susunan": 1.0,
   "Kategori": null,
+  "Bahagian": "B",
   "CreatedBy": "admin",
   "Id": "UKBP-B-00001",
   "CreatedDate": "2015-07-06T11:24:55.8911997+08:00",

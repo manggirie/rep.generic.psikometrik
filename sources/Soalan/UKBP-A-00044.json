@@ -3,7 +3,7 @@
   "NoRujukan": "UKBP-A-00044",
   "SoalanNo": "UKBP-A-00044",
   "TeksSoalan": "Saya hanya membuat rumusan selepas meneliti semua perspektif tentang sesuatu perkara atau persoalan.",
-  "SeksyenSoalan": "A",
+  "SeksyenSoalan": "",
   "PilihanJawapanCollection": {
     "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan]], domain.sph",
     "$values": [
@@ -25,6 +25,7 @@
   "NamaUjian": "Ujian Khas Biasiswa Persekutuan(UKBP)",
   "Susunan": 44.0,
   "Kategori": null,
+  "Bahagian": "A",
   "CreatedBy": "admin",
   "Id": "UKBP-A-00044",
   "CreatedDate": "2015-07-06T11:24:54.0609078+08:00",

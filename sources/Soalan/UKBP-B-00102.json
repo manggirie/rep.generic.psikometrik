@@ -3,7 +3,7 @@
   "NoRujukan": "UKBP-B-00102",
   "SoalanNo": "UKBP-B-00102",
   "TeksSoalan": "Bekerja di bahagian atau makmal penyelidikan.",
-  "SeksyenSoalan": "B",
+  "SeksyenSoalan": "",
   "PilihanJawapanCollection": {
     "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan]], domain.sph",
     "$values": [
@@ -25,6 +25,7 @@
   "NamaUjian": "Ujian Khas Biasiswa Persekutuan(UKBP)",
   "Susunan": 102.0,
   "Kategori": null,
+  "Bahagian": "B",
   "CreatedBy": "admin",
   "Id": "UKBP-B-00102",
   "CreatedDate": "2015-07-06T11:24:56.7362974+08:00",

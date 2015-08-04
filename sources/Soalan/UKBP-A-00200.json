@@ -3,7 +3,7 @@
   "NoRujukan": "UKBP-A-00200",
   "SoalanNo": "UKBP-A-00200",
   "TeksSoalan": "Saya berpendapat bahawa negara kita terlalu prihatin terhadap keperluan dan kesusahan yang dialami oleh rakyat di negara lain.",
-  "SeksyenSoalan": "A",
+  "SeksyenSoalan": "",
   "PilihanJawapanCollection": {
     "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan]], domain.sph",
     "$values": [
@@ -25,6 +25,7 @@
   "NamaUjian": "Ujian Khas Biasiswa Persekutuan(UKBP)",
   "Susunan": 200.0,
   "Kategori": null,
+  "Bahagian": "A",
   "CreatedBy": "admin",
   "Id": "UKBP-A-00200",
   "CreatedDate": "2015-07-06T11:24:55.3678298+08:00",

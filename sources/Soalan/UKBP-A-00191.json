@@ -3,7 +3,7 @@
   "NoRujukan": "UKBP-A-00191",
   "SoalanNo": "UKBP-A-00191",
   "TeksSoalan": "Saya lebih suka membaca atau menonton televisyen selepas waktu kerja daripada keluar atau melibatkan diri dalam kegiatan sosial.",
-  "SeksyenSoalan": "A",
+  "SeksyenSoalan": "",
   "PilihanJawapanCollection": {
     "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan]], domain.sph",
     "$values": [
@@ -25,6 +25,7 @@
   "NamaUjian": "Ujian Khas Biasiswa Persekutuan(UKBP)",
   "Susunan": 191.0,
   "Kategori": null,
+  "Bahagian": "A",
   "CreatedBy": "admin",
   "Id": "UKBP-A-00191",
   "CreatedDate": "2015-07-06T11:24:55.2817691+08:00",

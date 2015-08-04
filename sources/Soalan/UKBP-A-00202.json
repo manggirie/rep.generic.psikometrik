@@ -3,7 +3,7 @@
   "NoRujukan": "UKBP-A-00202",
   "SoalanNo": "UKBP-A-00202",
   "TeksSoalan": "Saya lebih suka mendengar dan memerhati daripada mengambil bahagian dalam sesuatu perbincangan.",
-  "SeksyenSoalan": "A",
+  "SeksyenSoalan": "",
   "PilihanJawapanCollection": {
     "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan]], domain.sph",
     "$values": [
@@ -25,6 +25,7 @@
   "NamaUjian": "Ujian Khas Biasiswa Persekutuan(UKBP)",
   "Susunan": 202.0,
   "Kategori": null,
+  "Bahagian": "A",
   "CreatedBy": "admin",
   "Id": "UKBP-A-00202",
   "CreatedDate": "2015-07-06T11:24:55.3868432+08:00",

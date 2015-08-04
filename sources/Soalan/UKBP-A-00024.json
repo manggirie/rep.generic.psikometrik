@@ -3,7 +3,7 @@
   "NoRujukan": "UKBP-A-00024",
   "SoalanNo": "UKBP-A-00024",
   "TeksSoalan": "Dalam aktiviti berkumpulan, saya lebih cenderung menjadi pengikut daripada menjadi pemimpin.",
-  "SeksyenSoalan": "A",
+  "SeksyenSoalan": "",
   "PilihanJawapanCollection": {
     "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan]], domain.sph",
     "$values": [
@@ -25,6 +25,7 @@
   "NamaUjian": "Ujian Khas Biasiswa Persekutuan(UKBP)",
   "Susunan": 24.0,
   "Kategori": null,
+  "Bahagian": "A",
   "CreatedBy": "admin",
   "Id": "UKBP-A-00024",
   "CreatedDate": "2015-07-06T11:24:53.8857837+08:00",

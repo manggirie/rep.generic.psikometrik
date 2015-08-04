@@ -3,7 +3,7 @@
   "NoRujukan": "UKBP-B-00281",
   "SoalanNo": "UKBP-B-00281",
   "TeksSoalan": "Pegawai Audit.",
-  "SeksyenSoalan": "B",
+  "SeksyenSoalan": "",
   "PilihanJawapanCollection": {
     "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan]], domain.sph",
     "$values": [
@@ -25,6 +25,7 @@
   "NamaUjian": "Ujian Khas Biasiswa Persekutuan(UKBP)",
   "Susunan": 281.0,
   "Kategori": null,
+  "Bahagian": "B",
   "CreatedBy": "admin",
   "Id": "UKBP-B-00281",
   "CreatedDate": "2015-07-06T11:24:58.2658753+08:00",

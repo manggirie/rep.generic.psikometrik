@@ -3,7 +3,7 @@
   "NoRujukan": "UKBP-A-00048",
   "SoalanNo": "UKBP-A-00048",
   "TeksSoalan": "Saya sukar meluahkan perasaan dengan kata-kata.",
-  "SeksyenSoalan": "A",
+  "SeksyenSoalan": "",
   "PilihanJawapanCollection": {
     "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan]], domain.sph",
     "$values": [
@@ -25,6 +25,7 @@
   "NamaUjian": "Ujian Khas Biasiswa Persekutuan(UKBP)",
   "Susunan": 48.0,
   "Kategori": null,
+  "Bahagian": "A",
   "CreatedBy": "admin",
   "Id": "UKBP-A-00048",
   "CreatedDate": "2015-07-06T11:24:54.0914287+08:00",

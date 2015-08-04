@@ -3,7 +3,7 @@
   "NoRujukan": "UKBP-A-00171",
   "SoalanNo": "UKBP-A-00171",
   "TeksSoalan": "Saya cenderung menguasai orang yang berada di sekeliling saya.",
-  "SeksyenSoalan": "A",
+  "SeksyenSoalan": "",
   "PilihanJawapanCollection": {
     "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan]], domain.sph",
     "$values": [
@@ -25,6 +25,7 @@
   "NamaUjian": "Ujian Khas Biasiswa Persekutuan(UKBP)",
   "Susunan": 171.0,
   "Kategori": null,
+  "Bahagian": "A",
   "CreatedBy": "admin",
   "Id": "UKBP-A-00171",
   "CreatedDate": "2015-07-06T11:24:55.1266596+08:00",

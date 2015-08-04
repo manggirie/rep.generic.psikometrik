@@ -3,7 +3,7 @@
   "NoRujukan": "UKBP-B-00177",
   "SoalanNo": "UKBP-B-00177",
   "TeksSoalan": "Merekacipta fesyen pakaian, poster atau perabot.",
-  "SeksyenSoalan": "B",
+  "SeksyenSoalan": "",
   "PilihanJawapanCollection": {
     "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan]], domain.sph",
     "$values": [
@@ -25,6 +25,7 @@
   "NamaUjian": "Ujian Khas Biasiswa Persekutuan(UKBP)",
   "Susunan": 177.0,
   "Kategori": null,
+  "Bahagian": "B",
   "CreatedBy": "admin",
   "Id": "UKBP-B-00177",
   "CreatedDate": "2015-07-06T11:24:57.316205+08:00",

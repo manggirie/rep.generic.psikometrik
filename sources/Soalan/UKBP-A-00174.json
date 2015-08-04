@@ -3,7 +3,7 @@
   "NoRujukan": "UKBP-A-00174",
   "SoalanNo": "UKBP-A-00174",
   "TeksSoalan": "Terlalu sukar bagi saya meluahkan rasa simpati kepada seseorang yang sedang bersedih.",
-  "SeksyenSoalan": "A",
+  "SeksyenSoalan": "",
   "PilihanJawapanCollection": {
     "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan]], domain.sph",
     "$values": [
@@ -25,6 +25,7 @@
   "NamaUjian": "Ujian Khas Biasiswa Persekutuan(UKBP)",
   "Susunan": 174.0,
   "Kategori": null,
+  "Bahagian": "A",
   "CreatedBy": "admin",
   "Id": "UKBP-A-00174",
   "CreatedDate": "2015-07-06T11:24:55.1471743+08:00",

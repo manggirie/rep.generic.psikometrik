@@ -3,7 +3,7 @@
   "NoRujukan": "UKBP-A-00238",
   "SoalanNo": "UKBP-A-00238",
   "TeksSoalan": "Saya berpendapat kebanyakan orang berlumba-lumba untuk mendapatkan apa jua yang mereka mahukan.",
-  "SeksyenSoalan": "A",
+  "SeksyenSoalan": "",
   "PilihanJawapanCollection": {
     "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan]], domain.sph",
     "$values": [
@@ -25,6 +25,7 @@
   "NamaUjian": "Ujian Khas Biasiswa Persekutuan(UKBP)",
   "Susunan": 238.0,
   "Kategori": null,
+  "Bahagian": "A",
   "CreatedBy": "admin",
   "Id": "UKBP-A-00238",
   "CreatedDate": "2015-07-06T11:24:55.8336588+08:00",

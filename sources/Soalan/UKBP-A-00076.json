@@ -3,7 +3,7 @@
   "NoRujukan": "UKBP-A-00076",
   "SoalanNo": "UKBP-A-00076",
   "TeksSoalan": "Saya suka mengawal dan menyelia orang lain.",
-  "SeksyenSoalan": "A",
+  "SeksyenSoalan": "",
   "PilihanJawapanCollection": {
     "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan]], domain.sph",
     "$values": [
@@ -25,6 +25,7 @@
   "NamaUjian": "Ujian Khas Biasiswa Persekutuan(UKBP)",
   "Susunan": 76.0,
   "Kategori": null,
+  "Bahagian": "A",
   "CreatedBy": "admin",
   "Id": "UKBP-A-00076",
   "CreatedDate": "2015-07-06T11:24:54.297074+08:00",

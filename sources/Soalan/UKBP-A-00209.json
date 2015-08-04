@@ -3,7 +3,7 @@
   "NoRujukan": "UKBP-A-00209",
   "SoalanNo": "UKBP-A-00209",
   "TeksSoalan": "Saya akan membayar balik pinjaman yang diberikan oleh penaja hanya apabila pihak penaja menghubungi saya.",
-  "SeksyenSoalan": "A",
+  "SeksyenSoalan": "",
   "PilihanJawapanCollection": {
     "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan]], domain.sph",
     "$values": [
@@ -25,6 +25,7 @@
   "NamaUjian": "Ujian Khas Biasiswa Persekutuan(UKBP)",
   "Susunan": 209.0,
   "Kategori": null,
+  "Bahagian": "A",
   "CreatedBy": "admin",
   "Id": "UKBP-A-00209",
   "CreatedDate": "2015-07-06T11:24:55.4598948+08:00",

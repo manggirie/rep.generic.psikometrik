@@ -3,7 +3,7 @@
   "NoRujukan": "UKBP-A-00233",
   "SoalanNo": "UKBP-A-00233",
   "TeksSoalan": "Saya seorang yang bertimbang rasa dan memahami keadaan apabila berurusan dengan orang yang lebih berusia.",
-  "SeksyenSoalan": "A",
+  "SeksyenSoalan": "",
   "PilihanJawapanCollection": {
     "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan]], domain.sph",
     "$values": [
@@ -25,6 +25,7 @@
   "NamaUjian": "Ujian Khas Biasiswa Persekutuan(UKBP)",
   "Susunan": 233.0,
   "Kategori": null,
+  "Bahagian": "A",
   "CreatedBy": "admin",
   "Id": "UKBP-A-00233",
   "CreatedDate": "2015-07-06T11:24:55.7946308+08:00",

@@ -3,7 +3,7 @@
   "NoRujukan": "UKBP-A-00185",
   "SoalanNo": "UKBP-A-00185",
   "TeksSoalan": "Ada kalanya pemikiran saya berjalan dengan pantas sehingga saya tidak boleh boleh menyuarakannya.",
-  "SeksyenSoalan": "A",
+  "SeksyenSoalan": "",
   "PilihanJawapanCollection": {
     "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan]], domain.sph",
     "$values": [
@@ -25,6 +25,7 @@
   "NamaUjian": "Ujian Khas Biasiswa Persekutuan(UKBP)",
   "Susunan": 185.0,
   "Kategori": null,
+  "Bahagian": "A",
   "CreatedBy": "admin",
   "Id": "UKBP-A-00185",
   "CreatedDate": "2015-07-06T11:24:55.2337352+08:00",
