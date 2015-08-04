@@ -3,7 +3,7 @@
   "NoRujukan": "UKBP-A-00220",
   "SoalanNo": "UKBP-A-00220",
   "TeksSoalan": "Pencapaian prestasi akademik yang terbaik penting bagi menaikkan imej negara.",
-  "SeksyenSoalan": "A",
+  "SeksyenSoalan": "",
   "PilihanJawapanCollection": {
     "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan]], domain.sph",
     "$values": [
@@ -25,6 +25,7 @@
   "NamaUjian": "Ujian Khas Biasiswa Persekutuan(UKBP)",
   "Susunan": 220.0,
   "Kategori": null,
+  "Bahagian": "A",
   "CreatedBy": "admin",
   "Id": "UKBP-A-00220",
   "CreatedDate": "2015-07-06T11:24:55.7005644+08:00",

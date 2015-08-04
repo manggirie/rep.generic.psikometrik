@@ -3,7 +3,7 @@
   "NoRujukan": "UKBP-B-00221",
   "SoalanNo": "UKBP-B-00221",
   "TeksSoalan": "Pegawai Penguatkuasa.",
-  "SeksyenSoalan": "B",
+  "SeksyenSoalan": "",
   "PilihanJawapanCollection": {
     "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan]], domain.sph",
     "$values": [
@@ -25,6 +25,7 @@
   "NamaUjian": "Ujian Khas Biasiswa Persekutuan(UKBP)",
   "Susunan": 221.0,
   "Kategori": null,
+  "Bahagian": "B",
   "CreatedBy": "admin",
   "Id": "UKBP-B-00221",
   "CreatedDate": "2015-07-06T11:24:57.6954727+08:00",

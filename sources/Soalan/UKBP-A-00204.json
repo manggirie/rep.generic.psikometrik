@@ -3,7 +3,7 @@
   "NoRujukan": "UKBP-A-00204",
   "SoalanNo": "UKBP-A-00204",
   "TeksSoalan": "Saya mendapati sukar untuk melupakan sesuatu situasi atau peristiwa yang memalukan.",
-  "SeksyenSoalan": "A",
+  "SeksyenSoalan": "",
   "PilihanJawapanCollection": {
     "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan]], domain.sph",
     "$values": [
@@ -25,6 +25,7 @@
   "NamaUjian": "Ujian Khas Biasiswa Persekutuan(UKBP)",
   "Susunan": 204.0,
   "Kategori": null,
+  "Bahagian": "A",
   "CreatedBy": "admin",
   "Id": "UKBP-A-00204",
   "CreatedDate": "2015-07-06T11:24:55.4058567+08:00",

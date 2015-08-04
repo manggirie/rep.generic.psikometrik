@@ -3,7 +3,7 @@
   "NoRujukan": "UKBP-A-00003",
   "SoalanNo": "UKBP-A-00003",
   "TeksSoalan": "Saya masih boleh bertenang walaupun orang lain sedang bersedih atau terganggu emosinya.",
-  "SeksyenSoalan": "A",
+  "SeksyenSoalan": "",
   "PilihanJawapanCollection": {
     "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan]], domain.sph",
     "$values": [
@@ -11,24 +11,25 @@
         "$type": "Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan",
         "Teks": "Ya",
         "Nilai": 0,
-        "WebId": null
+        "WebId": "c6ae4ffd-ae83-4715-b99d-39ba345b408f"
       },
       {
         "$type": "Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan",
         "Teks": "Tidak",
         "Nilai": 2,
-        "WebId": null
+        "WebId": "fc5d628f-277b-4d87-974c-c241b1fc17c7"
       }
     ]
   },
   "Trait": "KTG",
-  "NamaUjian": "Ujian Khas Biasiswa Persekutuan (UKBP)",
+  "NamaUjian": "Ujian Khas Biasiswa Persekutuan(UKBP)",
   "Susunan": 3.0,
   "Kategori": null,
+  "Bahagian": "A",
   "CreatedBy": "admin",
   "Id": "UKBP-A-00003",
-  "CreatedDate": "2015-07-06T11:24:53.7136623+08:00",
+  "CreatedDate": "2015-08-04T11:09:24.4419425+08:00",
   "ChangedBy": "admin",
-  "ChangedDate": "2015-07-08T09:42:29.7338477+08:00",
-  "WebId": "d1d98010-7951-489d-a84e-b7c1a46392e1"
+  "ChangedDate": "2015-08-04T11:09:24.4379421+08:00",
+  "WebId": "aa5fe21d-95b9-4453-c7de-53703aaf7687"
 }

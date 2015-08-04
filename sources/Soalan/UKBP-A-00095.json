@@ -3,7 +3,7 @@
   "NoRujukan": "UKBP-A-00095",
   "SoalanNo": "UKBP-A-00095",
   "TeksSoalan": "Saya tidak pernah mengalami masalah disebabkan oleh tingkah laku seksual.",
-  "SeksyenSoalan": "A",
+  "SeksyenSoalan": "",
   "PilihanJawapanCollection": {
     "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan]], domain.sph",
     "$values": [
@@ -25,6 +25,7 @@
   "NamaUjian": "Ujian Khas Biasiswa Persekutuan(UKBP)",
   "Susunan": 95.0,
   "Kategori": null,
+  "Bahagian": "A",
   "CreatedBy": "admin",
   "Id": "UKBP-A-00095",
   "CreatedDate": "2015-07-06T11:24:54.4691955+08:00",

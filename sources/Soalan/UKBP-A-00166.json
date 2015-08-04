@@ -3,7 +3,7 @@
   "NoRujukan": "UKBP-A-00166",
   "SoalanNo": "UKBP-A-00166",
   "TeksSoalan": "Apabila berada dalam kumpulan, saya mempunyai masalah untuk membicarakan perkara yang sepatutnya dibincangkan.",
-  "SeksyenSoalan": "A",
+  "SeksyenSoalan": "",
   "PilihanJawapanCollection": {
     "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan]], domain.sph",
     "$values": [
@@ -25,6 +25,7 @@
   "NamaUjian": "Ujian Khas Biasiswa Persekutuan(UKBP)",
   "Susunan": 166.0,
   "Kategori": null,
+  "Bahagian": "A",
   "CreatedBy": "admin",
   "Id": "UKBP-A-00166",
   "CreatedDate": "2015-07-06T11:24:55.0891333+08:00",

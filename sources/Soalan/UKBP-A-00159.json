@@ -3,7 +3,7 @@
   "NoRujukan": "UKBP-A-00159",
   "SoalanNo": "UKBP-A-00159",
   "TeksSoalan": "Saya dianggap seorang yang tenang dan tidak cerewet.",
-  "SeksyenSoalan": "A",
+  "SeksyenSoalan": "",
   "PilihanJawapanCollection": {
     "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan]], domain.sph",
     "$values": [
@@ -25,6 +25,7 @@
   "NamaUjian": "Ujian Khas Biasiswa Persekutuan(UKBP)",
   "Susunan": 159.0,
   "Kategori": null,
+  "Bahagian": "A",
   "CreatedBy": "admin",
   "Id": "UKBP-A-00159",
   "CreatedDate": "2015-07-06T11:24:55.039098+08:00",

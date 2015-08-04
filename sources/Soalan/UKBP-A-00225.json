@@ -3,7 +3,7 @@
   "NoRujukan": "UKBP-A-00225",
   "SoalanNo": "UKBP-A-00225",
   "TeksSoalan": "Saya kerap berasa cemas tanpa sebab.",
-  "SeksyenSoalan": "A",
+  "SeksyenSoalan": "",
   "PilihanJawapanCollection": {
     "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan]], domain.sph",
     "$values": [
@@ -25,6 +25,7 @@
   "NamaUjian": "Ujian Khas Biasiswa Persekutuan(UKBP)",
   "Susunan": 225.0,
   "Kategori": null,
+  "Bahagian": "A",
   "CreatedBy": "admin",
   "Id": "UKBP-A-00225",
   "CreatedDate": "2015-07-06T11:24:55.7350886+08:00",

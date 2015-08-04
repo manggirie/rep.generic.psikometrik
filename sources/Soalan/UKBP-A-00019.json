@@ -3,7 +3,7 @@
   "NoRujukan": "UKBP-A-00019",
   "SoalanNo": "UKBP-A-00019",
   "TeksSoalan": "Saya bebas daripada prasangka perkauman.",
-  "SeksyenSoalan": "A",
+  "SeksyenSoalan": "",
   "PilihanJawapanCollection": {
     "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan]], domain.sph",
     "$values": [
@@ -25,6 +25,7 @@
   "NamaUjian": "Ujian Khas Biasiswa Persekutuan(UKBP)",
   "Susunan": 19.0,
   "Kategori": null,
+  "Bahagian": "A",
   "CreatedBy": "admin",
   "Id": "UKBP-A-00019",
   "CreatedDate": "2015-07-06T11:24:53.8477569+08:00",

@@ -3,7 +3,7 @@
   "NoRujukan": "UKBP-A-00102",
   "SoalanNo": "UKBP-A-00102",
   "TeksSoalan": "Saya cenderung menerima sesuatu perkara daripada membuat bantahan walaupun berpendapat perkara tersebut tidak adil.",
-  "SeksyenSoalan": "A",
+  "SeksyenSoalan": "",
   "PilihanJawapanCollection": {
     "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan]], domain.sph",
     "$values": [
@@ -25,6 +25,7 @@
   "NamaUjian": "Ujian Khas Biasiswa Persekutuan(UKBP)",
   "Susunan": 102.0,
   "Kategori": null,
+  "Bahagian": "A",
   "CreatedBy": "admin",
   "Id": "UKBP-A-00102",
   "CreatedDate": "2015-07-06T11:24:54.5722683+08:00",

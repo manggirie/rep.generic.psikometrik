@@ -3,7 +3,7 @@
   "NoRujukan": "UKBP-A-00062",
   "SoalanNo": "UKBP-A-00062",
   "TeksSoalan": "Saya berpendapat kegagalan ada di mana-mana dan sekiranya pelajar gagal dalam pengajian, soal ganti rugi tidak timbul.",
-  "SeksyenSoalan": "A",
+  "SeksyenSoalan": "",
   "PilihanJawapanCollection": {
     "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan]], domain.sph",
     "$values": [
@@ -25,6 +25,7 @@
   "NamaUjian": "Ujian Khas Biasiswa Persekutuan(UKBP)",
   "Susunan": 62.0,
   "Kategori": null,
+  "Bahagian": "A",
   "CreatedBy": "admin",
   "Id": "UKBP-A-00062",
   "CreatedDate": "2015-07-06T11:24:54.1940013+08:00",

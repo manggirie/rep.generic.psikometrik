@@ -3,7 +3,7 @@
   "NoRujukan": "UKBP-A-00002",
   "SoalanNo": "UKBP-A-00002",
   "TeksSoalan": "Saya aktif mengambil bahagian dalam aktiviti kumpulan atau kemasyarakatan.",
-  "SeksyenSoalan": "A",
+  "SeksyenSoalan": "",
   "PilihanJawapanCollection": {
     "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan]], domain.sph",
     "$values": [
@@ -11,24 +11,25 @@
         "$type": "Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan",
         "Teks": "Ya",
         "Nilai": 2,
-        "WebId": null
+        "WebId": "5a80ff33-f98b-48b0-a936-7d90ca839034"
       },
       {
         "$type": "Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan",
         "Teks": "Tidak",
         "Nilai": 0,
-        "WebId": null
+        "WebId": "e771a81a-bf24-4c70-aab1-9940569ad746"
       }
     ]
   },
   "Trait": "AKS",
-  "NamaUjian": "Ujian Khas Biasiswa Persekutuan (UKBP)",
+  "NamaUjian": "Ujian Khas Biasiswa Persekutuan(UKBP)",
   "Susunan": 2.0,
   "Kategori": null,
+  "Bahagian": "A",
   "CreatedBy": "admin",
   "Id": "UKBP-A-00002",
-  "CreatedDate": "2015-07-06T11:24:53.7056561+08:00",
+  "CreatedDate": "2015-08-04T11:08:07.5394683+08:00",
   "ChangedBy": "admin",
-  "ChangedDate": "2015-07-08T09:36:20.0726714+08:00",
-  "WebId": "7e51c0b2-b38c-430a-a8cf-64aef9249cc3"
+  "ChangedDate": "2015-08-04T11:08:07.536468+08:00",
+  "WebId": "20d90b24-3be6-4cff-84d3-bf483c87c415"
 }

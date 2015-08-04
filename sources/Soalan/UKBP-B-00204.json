@@ -3,7 +3,7 @@
   "NoRujukan": "UKBP-B-00204",
   "SoalanNo": "UKBP-B-00204",
   "TeksSoalan": "Menggunakan alat pemprosesan data seperti kalkulator atau mesin juruwang.",
-  "SeksyenSoalan": "B",
+  "SeksyenSoalan": "",
   "PilihanJawapanCollection": {
     "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan]], domain.sph",
     "$values": [
@@ -25,6 +25,7 @@
   "NamaUjian": "Ujian Khas Biasiswa Persekutuan(UKBP)",
   "Susunan": 204.0,
   "Kategori": null,
+  "Bahagian": "B",
   "CreatedBy": "admin",
   "Id": "UKBP-B-00204",
   "CreatedDate": "2015-07-06T11:24:57.5098415+08:00",
