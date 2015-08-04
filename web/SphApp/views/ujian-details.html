@@ -62,7 +62,153 @@
                    id="5277c415-2394-4592-c620-d3c8ad16d669" type="number" name="DurationMinutes" />
         </div>
     </div>
-  </form>
+  
+
+<div data-bind="visible:true">
+    <table class="table table-condensed table-striped">
+        <thead>
+            <tr>
+                    <th data-i18n="Nama">Nama</th>
+                    <th data-i18n="Jam">Jam</th>
+                    <th data-i18n="Minit">Minit</th>
+                <th></th>
+            </tr>
+        </thead>
+        <tbody data-bind="foreach :BahagianCollection">
+            <tr>
+                    <td>
+                        
+
+
+    <input  class=" form-control " title=""
+           data-bind="value: Name, visible :true, enable :true ,uniqueName:true"
+           
+           
+           type="text"
+           name="Name"
+           
+            />
+
+
+                    </td>
+                    <td>
+                        
+
+
+    <input  class=" form-control " title=""
+           data-bind="value: DurationHour, visible :true, enable :true ,uniqueName:true"
+           
+           
+           type="text"
+           name="DurationHour"
+           
+            />
+
+
+                    </td>
+                    <td>
+                        
+
+
+    <input  class=" form-control " title=""
+           data-bind="value: DurationMinutes, visible :true, enable :true ,uniqueName:true"
+           
+           
+           type="text"
+           name="DurationMinutes"
+           
+            />
+
+
+                    </td>
+                <td>
+                    <a title="remove" href="#" data-bind="click : $parent.removeChildItem.call($parent,$parent.BahagianCollection, $data)">
+                        <span class="glyphicon glyphicon-remove"></span>
+                    </a>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    <a data-i18n="Bahagian" class="btn btn-link" data-bind="click : addChildItem(BahagianCollection, bespoke.epsikologi_ujian.domain.Bahagian)">
+        <i class="fa fa-plus-circle"></i>
+        Bahagian
+    </a>
+
+</div>
+
+
+<div data-bind="visible:true">
+    <table class="table table-condensed table-striped">
+        <thead>
+            <tr>
+                    <th data-i18n="Nama">Nama</th>
+                    <th data-i18n="Jam">Jam</th>
+                    <th data-i18n="Minit">Minit</th>
+                <th></th>
+            </tr>
+        </thead>
+        <tbody data-bind="foreach :SectionCollection">
+            <tr>
+                    <td>
+                        
+
+
+    <input  class=" form-control " title=""
+           data-bind="value: Name, visible :true, enable :true ,uniqueName:true"
+           
+           
+           type="text"
+           name="Name"
+           
+            />
+
+
+                    </td>
+                    <td>
+                        
+
+
+    <input  class=" form-control " title=""
+           data-bind="value: DurationHour, visible :true, enable :true ,uniqueName:true"
+           
+           
+           type="text"
+           name="DurationHour"
+           
+            />
+
+
+                    </td>
+                    <td>
+                        
+
+
+    <input  class=" form-control " title=""
+           data-bind="value: DurationMinutes, visible :true, enable :true ,uniqueName:true"
+           
+           
+           type="text"
+           name="DurationMinutes"
+           
+            />
+
+
+                    </td>
+                <td>
+                    <a title="remove" href="#" data-bind="click : $parent.removeChildItem.call($parent,$parent.SectionCollection, $data)">
+                        <span class="glyphicon glyphicon-remove"></span>
+                    </a>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    <a data-i18n="Section" class="btn btn-link" data-bind="click : addChildItem(SectionCollection, bespoke.epsikologi_ujian.domain.Section)">
+        <i class="fa fa-plus-circle"></i>
+        Section
+    </a>
+
+</div>
+</form>
     </div>
     <div class="col-sm-4">
         

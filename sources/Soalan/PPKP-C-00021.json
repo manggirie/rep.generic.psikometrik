@@ -1,0 +1,53 @@
+{
+  "$type": "Bespoke.epsikologi_soalan.Domain.Soalan, epsikologi.Soalan",
+  "NoRujukan": "PPKP-C-00021",
+  "SoalanNo": "PPKP-C-00021",
+  "TeksSoalan": "sering ketawa dan gembira.",
+  "SeksyenSoalan": "C",
+  "PilihanJawapanCollection": {
+    "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan]], domain.sph",
+    "$values": [
+      {
+        "$type": "Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan",
+        "Teks": "Sangat Bersetuju",
+        "Nilai": 4,
+        "WebId": null
+      },
+      {
+        "$type": "Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan",
+        "Teks": "Bersetuju",
+        "Nilai": 3,
+        "WebId": null
+      },
+      {
+        "$type": "Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan",
+        "Teks": "Kadang-Kadang",
+        "Nilai": 2,
+        "WebId": null
+      },
+      {
+        "$type": "Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan",
+        "Teks": "Tidak Bersetuju",
+        "Nilai": 1,
+        "WebId": null
+      },
+      {
+        "$type": "Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan",
+        "Teks": "Sangat Tidak Bersetuju",
+        "Nilai": 0,
+        "WebId": null
+      }
+    ]
+  },
+  "Trait": "A3",
+  "NamaUjian": "Profil Personaliti & Kerjaya Pegawai(PPKP)",
+  "Susunan": 21.0,
+  "Kategori": null,
+  "Bahagian": null,
+  "CreatedBy": "admin",
+  "Id": "PPKP-C-00021",
+  "CreatedDate": "2015-07-06T11:24:52.4857956+08:00",
+  "ChangedBy": "urusetia2",
+  "ChangedDate": "2015-07-27T15:56:09.9697317+08:00",
+  "WebId": "0fe3fce3-1ec3-4226-a07d-bce28c9db745"
+}

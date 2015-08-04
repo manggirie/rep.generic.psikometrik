@@ -3,14 +3,10 @@
 	<small data-bind="text:ujian().NamaUjian"></small>
 </h3>
 <div class="row">
-
-
     <div class="col-lg-8 col-md-8 col-sm-12 col-xs-12">
     	<!-- ko foreach : sections -->
-
     	<h4 data-bind="text: 'Seksyen : ' + section, attr :{'id' : section}"></h4>
     	<span class="" data-bind="text: 'Jumlah Soalan ' + questions().length"></span>
-
         	<!-- ko foreach : questions -->
                 <div class="panel panel-default soalan-panel" data-bind="visible:Visible, css :{'panel-info': JawapanPilihan(),'panel-default': !JawapanPilihan()}">
                   <div class="panel-heading" data-bind="text:($index() + 1) + '.   ' + ko.unwrap(Text)">
@@ -27,13 +23,8 @@
                   </div>
                 </div>
         	<!-- /ko -->
-
-
     	<!-- /ko -->
     </div>
-
-
-
     <div class="col-lg-3 col-md-3 col-sm-12 col-xs-12" id="test-panel" style="position:fixed;top:70px;right:0px;">
     	<div  data-bind="with: ujian">
     		<h3 data-bind="text : 'Module Ujian : ' + ko.unwrap(NamaUjian)"></h3>
@@ -80,5 +71,4 @@
         Hantar</button>
 		</div>
     </div>
-
 </div>
