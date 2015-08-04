@@ -119,7 +119,7 @@ namespace web.sph.App_Code
                       .ToList();
           if(temps.Count != 0)
           {
-              throw new Exception(string.Format("TRET:{0} and point: {1} have {2} entries", TRET, point, temps));
+              throw new Exception(string.Format("TRET:{0} and point: {1} have {2} entries", TRET, point, temps.Count));
           }
 
           if(temps.Count > 1)
