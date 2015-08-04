@@ -1,0 +1,53 @@
+{
+  "$type": "Bespoke.epsikologi_soalan.Domain.Soalan, epsikologi.Soalan",
+  "NoRujukan": "PPKP-E-00029",
+  "SoalanNo": "PPKP-E-00029",
+  "TeksSoalan": "selalu mempertimbangkan implikasi ke atas sesuatu perkara sebelum mengambil tindakan.",
+  "SeksyenSoalan": "E",
+  "PilihanJawapanCollection": {
+    "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan]], domain.sph",
+    "$values": [
+      {
+        "$type": "Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan",
+        "Teks": "Sangat Bersetuju",
+        "Nilai": 4,
+        "WebId": null
+      },
+      {
+        "$type": "Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan",
+        "Teks": "Bersetuju",
+        "Nilai": 3,
+        "WebId": null
+      },
+      {
+        "$type": "Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan",
+        "Teks": "Kadang-Kadang",
+        "Nilai": 2,
+        "WebId": null
+      },
+      {
+        "$type": "Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan",
+        "Teks": "Tidak Bersetuju",
+        "Nilai": 1,
+        "WebId": null
+      },
+      {
+        "$type": "Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan",
+        "Teks": "Sangat Tidak Bersetuju",
+        "Nilai": 0,
+        "WebId": null
+      }
+    ]
+  },
+  "Trait": "B5",
+  "NamaUjian": "Profil Personaliti & Kerjaya Pegawai(PPKP)",
+  "Susunan": 29.0,
+  "Kategori": null,
+  "Bahagian": null,
+  "CreatedBy": "admin",
+  "Id": "PPKP-E-00029",
+  "CreatedDate": "2015-07-06T11:24:53.5590529+08:00",
+  "ChangedBy": "urusetia2",
+  "ChangedDate": "2015-07-27T18:11:57.4283961+08:00",
+  "WebId": "56138f2d-7b6f-4189-b47d-50bdf74bda69"
+}
