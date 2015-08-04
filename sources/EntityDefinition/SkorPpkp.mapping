@@ -1,0 +1,19 @@
+{
+    "skorppkp":{
+        "properties":{
+            "CreatedBy": {"type": "string", "index":"not_analyzed"},
+            "ChangedBy": {"type": "string", "index":"not_analyzed"},
+            "WebId": {"type": "string", "index":"not_analyzed"},
+            "CreatedDate": {"type": "date"},
+            "ChangedDate": {"type": "date"},
+             "No":{"type":"string","index":"not_analyzed","boost":1,"include_in_all":true},
+             "Dimensi":{"type":"string","index":"not_analyzed","boost":1,"include_in_all":true},
+             "Tret":{"type":"string","index":"not_analyzed","boost":1,"include_in_all":true},
+             "NamaTret":{"type":"string","index":"not_analyzed","boost":1,"include_in_all":true},
+             "NilaiMin":{"type":"integer","index":"analyzed","boost":1,"include_in_all":true,"ignore_malformed":false},
+             "NilaiMax":{"type":"integer","index":"analyzed","boost":1,"include_in_all":true,"ignore_malformed":false},
+             "Tahap":{"type":"string","index":"not_analyzed","boost":1,"include_in_all":true},
+             "Interpretasi":{"type":"string","index":"not_analyzed","boost":1,"include_in_all":true}
+        }
+    }
+}
