@@ -1,0 +1,53 @@
+{
+  "$type": "Bespoke.epsikologi_soalan.Domain.Soalan, epsikologi.Soalan",
+  "NoRujukan": "PPKP-C-00051",
+  "SoalanNo": "PPKP-C-00051",
+  "TeksSoalan": "riang dan bersikap optimistik terhadap kehidupan di sebalik pelbagai peristiwa sedih yang berlaku.",
+  "SeksyenSoalan": "C",
+  "PilihanJawapanCollection": {
+    "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan]], domain.sph",
+    "$values": [
+      {
+        "$type": "Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan",
+        "Teks": "Sangat Bersetuju",
+        "Nilai": 4,
+        "WebId": null
+      },
+      {
+        "$type": "Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan",
+        "Teks": "Bersetuju",
+        "Nilai": 3,
+        "WebId": null
+      },
+      {
+        "$type": "Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan",
+        "Teks": "Kadang-Kadang",
+        "Nilai": 2,
+        "WebId": null
+      },
+      {
+        "$type": "Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan",
+        "Teks": "Tidak Bersetuju",
+        "Nilai": 1,
+        "WebId": null
+      },
+      {
+        "$type": "Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan",
+        "Teks": "Sangat Tidak Bersetuju",
+        "Nilai": 0,
+        "WebId": null
+      }
+    ]
+  },
+  "Trait": "A3",
+  "NamaUjian": "Profil Personaliti & Kerjaya Pegawai(PPKP)",
+  "Susunan": 51.0,
+  "Kategori": null,
+  "Bahagian": null,
+  "CreatedBy": "admin",
+  "Id": "PPKP-C-00051",
+  "CreatedDate": "2015-07-06T11:24:52.7579882+08:00",
+  "ChangedBy": "urusetia2",
+  "ChangedDate": "2015-07-27T16:08:27.7675041+08:00",
+  "WebId": "5a0a655d-df1a-4652-abd6-0fc35fee65c5"
+}

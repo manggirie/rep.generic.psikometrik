@@ -4,6 +4,14 @@
   "NamaUjian": "Indikator Personaliti Enneagram (IPE)",
   "DurationHour": 0,
   "DurationMinutes": 5,
+  "SectionCollection": {
+    "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.epsikologi_ujian.Domain.Section, epsikologi.Ujian]], domain.sph",
+    "$values": []
+  },
+  "BahagianCollection": {
+    "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.epsikologi_ujian.Domain.Bahagian, epsikologi.Ujian]], domain.sph",
+    "$values": []
+  },
   "Arahan": null,
   "CreatedBy": "admin",
   "Id": "IPE",
