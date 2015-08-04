@@ -246,6 +246,28 @@
         "Boost": 0,
         "DefaultValue": null,
         "WebId": "a330a275-5e0c-48e6-e006-daa1d50d01e9"
+      },
+      {
+        "$type": "Bespoke.Sph.Domain.Member, domain.sph",
+        "FullName": null,
+        "MemberCollection": {
+          "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.Sph.Domain.Member, domain.sph]], domain.sph",
+          "$values": []
+        },
+        "FieldPermissionCollection": {
+          "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.Sph.Domain.FieldPermission, domain.sph]], domain.sph",
+          "$values": []
+        },
+        "Name": "Bahagian",
+        "TypeName": "System.String, mscorlib",
+        "IsNullable": true,
+        "IsNotIndexed": false,
+        "IsAnalyzed": false,
+        "IsFilterable": true,
+        "IsExcludeInAll": false,
+        "Boost": 0,
+        "DefaultValue": null,
+        "WebId": "c0c86de4-a29d-4db5-d483-98ce95e6a0b1"
       }
     ]
   },
@@ -283,6 +305,6 @@
   "Id": "soalan",
   "CreatedDate": "2015-06-05T10:14:02.0720325+08:00",
   "ChangedBy": "admin",
-  "ChangedDate": "2015-07-12T08:39:31.4519095+08:00",
+  "ChangedDate": "2015-08-04T12:07:29.4140772+08:00",
   "WebId": "43a6da47-6845-493e-dfbf-8e17ebe6ff37"
 }
