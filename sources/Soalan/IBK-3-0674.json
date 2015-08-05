@@ -24,11 +24,12 @@
   "Trait": "E3",
   "NamaUjian": "Indeks Bimbingan Kerjaya (IBK)",
   "Susunan": 0.5,
-  "Kategori": null,
+  "Kategori": "Inovatif",
+  "Bahagian": null,
   "CreatedBy": "admin",
   "Id": "IBK-3-0674",
   "CreatedDate": "2015-07-06T11:24:49.1339295+08:00",
-  "ChangedBy": "admin",
-  "ChangedDate": "2015-07-06T11:24:49.1304268+08:00",
+  "ChangedBy": "Urusetia01",
+  "ChangedDate": "2015-08-05T14:29:08.4599949+08:00",
   "WebId": "02d11724-d108-43c8-fa2f-f66a4dbdc905"
 }

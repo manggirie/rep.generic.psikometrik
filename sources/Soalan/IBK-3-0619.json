@@ -24,11 +24,12 @@
   "Trait": "D3",
   "NamaUjian": "Indeks Bimbingan Kerjaya (IBK)",
   "Susunan": 1.0,
-  "Kategori": null,
+  "Kategori": "Mudah Mesra",
+  "Bahagian": null,
   "CreatedBy": "admin",
   "Id": "IBK-3-0619",
   "CreatedDate": "2015-07-06T11:24:45.2121614+08:00",
-  "ChangedBy": "admin",
-  "ChangedDate": "2015-07-06T11:24:45.2096599+08:00",
+  "ChangedBy": "Urusetia01",
+  "ChangedDate": "2015-08-05T14:27:14.979648+08:00",
   "WebId": "b46e91ff-db5d-4968-890a-fd33626f361f"
 }

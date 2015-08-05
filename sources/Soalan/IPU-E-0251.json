@@ -10,13 +10,13 @@
       {
         "$type": "Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan",
         "Teks": "Ya",
-        "Nilai": 0,
+        "Nilai": 2,
         "WebId": null
       },
       {
         "$type": "Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan",
         "Teks": "Tidak",
-        "Nilai": 2,
+        "Nilai": 0,
         "WebId": null
       }
     ]
@@ -25,10 +25,11 @@
   "NamaUjian": "Indikator Perwatakan Unggul (IPU)",
   "Susunan": 141.0,
   "Kategori": null,
+  "Bahagian": null,
   "CreatedBy": "admin",
   "Id": "IPU-E-0251",
   "CreatedDate": "2015-07-06T11:24:42.1520015+08:00",
-  "ChangedBy": "urusetia1",
-  "ChangedDate": "2015-08-03T15:12:59.5017207+08:00",
+  "ChangedBy": "Urusetia01",
+  "ChangedDate": "2015-08-05T15:37:15.2826363+08:00",
   "WebId": "c2699654-db11-4c4b-8d47-53d852314b69"
 }

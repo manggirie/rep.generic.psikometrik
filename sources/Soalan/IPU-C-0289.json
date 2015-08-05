@@ -23,12 +23,13 @@
   },
   "Trait": "C",
   "NamaUjian": "Indikator Perwatakan Unggul (IPU)",
-  "Susunan": 178.0,
+  "Susunan": 179.0,
   "Kategori": null,
+  "Bahagian": null,
   "CreatedBy": "admin",
   "Id": "IPU-C-0289",
   "CreatedDate": "2015-07-06T11:24:42.4151873+08:00",
-  "ChangedBy": "urusetia1",
-  "ChangedDate": "2015-08-03T15:28:11.918958+08:00",
+  "ChangedBy": "Urusetia01",
+  "ChangedDate": "2015-08-05T15:22:56.4927659+08:00",
   "WebId": "ea38aea7-2dc4-4b3a-9e71-6ba42dbba84b"
 }

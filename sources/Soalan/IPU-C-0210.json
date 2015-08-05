@@ -25,10 +25,11 @@
   "NamaUjian": "Indikator Perwatakan Unggul (IPU)",
   "Susunan": 100.0,
   "Kategori": null,
+  "Bahagian": null,
   "CreatedBy": "admin",
   "Id": "IPU-C-0210",
   "CreatedDate": "2015-07-06T11:24:41.8637985+08:00",
-  "ChangedBy": "urusetia1",
-  "ChangedDate": "2015-08-03T14:16:53.9011943+08:00",
+  "ChangedBy": "Urusetia01",
+  "ChangedDate": "2015-08-05T15:21:07.9109088+08:00",
   "WebId": "d2677227-7cda-469c-9d63-6a64f13f1936"
 }
