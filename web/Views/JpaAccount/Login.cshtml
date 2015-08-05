@@ -6,95 +6,99 @@
 @using System.Web.Mvc.Html
 
 
-	<!-- BEGIN LOGIN FORM -->
-	<form class="login-form" action="/jpa-account/login" method="post">
-		<h3 class="form-title">Log masuk ke akaun anda</h3>
-		<div class="alert alert-danger display-hide">
-			<button class="close" data-close="alert"></button>
-			<span>
-			Masukan mykad dan kata laluan anda. </span>
-		</div>
-		<div class="form-group">
-			<!--ie8, ie9 does not support html5 placeholder, so we just show field title for that-->
-			<label class="control-label visible-ie8 visible-ie9">Nama pengguna</label>
-			<div class="input-icon">
-				<i class="fa fa-user"></i>
-				<input class="form-control placeholder-no-fix" type="text" autocomplete="off" placeholder="Nama pengguna" name="UserName" id="UserName"/>
-			</div>
-		</div>
-		<div class="form-group">
-			<label class="control-label visible-ie8 visible-ie9">Kata Laluan</label>
-			<div class="input-icon">
-				<i class="fa fa-lock"></i>
-				<input class="form-control placeholder-no-fix" type="password" autocomplete="off" placeholder="Kata laluan" name="Password" id="Password"/>
-			</div>
-		</div>
-		<div class="form-actions">
-			<label class="checkbox">
-			<input type="checkbox" name="RememberMe" value="1"/> Ingat saya </label>
+<!-- BEGIN LOGIN FORM -->
+<form class="login-form" action="/jpa-account/login" method="post">
+    <h3 class="form-title">Log masuk ke akaun anda</h3>
+    <div class="alert alert-danger display-hide">
+        <button class="close" data-close="alert"></button>
+        <span>
+            Masukan mykad dan kata laluan anda.
+        </span>
+    </div>
+    <div class="form-group">
+        <!--ie8, ie9 does not support html5 placeholder, so we just show field title for that-->
+        <label class="control-label visible-ie8 visible-ie9">Nama pengguna</label>
+        <div class="input-icon">
+            <i class="fa fa-user"></i>
+            <input class="form-control placeholder-no-fix" type="text" autocomplete="off" placeholder="Nama pengguna" name="UserName" id="UserName" />
+        </div>
+    </div>
+    <div class="form-group">
+        <label class="control-label visible-ie8 visible-ie9">Kata Laluan</label>
+        <div class="input-icon">
+            <i class="fa fa-lock"></i>
+            <input class="form-control placeholder-no-fix" type="password" autocomplete="off" placeholder="Kata laluan" name="Password" id="Password" />
+        </div>
+    </div>
+    <div class="form-actions">
+        <label class="checkbox">
+            <input type="checkbox" name="RememberMe" value="true" /> Ingat saya
+        </label>
 
 
-      <input type="hidden" value="" name="ReturnUrl" value="@Request.RawUrl"/>
-      @if (!@ViewData.ModelState.IsValid)
-      {
-          <div class="alert alert-danger">
-              <a class="close" data-dismiss="alert" href="#">&times;</a>
-              Nama pengguna atau kata laluan anda salah!
-          </div>
+        <input type="hidden" name="ReturnUrl" value="@Request.RawUrl" />
+        @if (!@ViewData.ModelState.IsValid)
+        {
+            <div class="alert alert-danger">
+                <a class="close" data-dismiss="alert" href="#">&times;</a>
+                Nama pengguna atau kata laluan anda salah!
+            </div>
 
-      }
-			<button type="submit" class="btn blue pull-right">
-			Login <i class="m-icon-swapright m-icon-white"></i>
-			</button>
-		</div>
-	  <div class="forget-password">
-			<h4>Terlupa kata laluan ?</h4>
-			<p>
-				Sila klik di  <a href="javascript:;" id="forget-password">
-				sini </a> untuk menetapkan semula kata laluan anda.
-			</p>
-		</div>
-	</form>
-	<!-- END LOGIN FORM -->
-	<!-- BEGIN FORGOT PASSWORD FORM -->
-	<form class="forget-form" action="index.html" method="post">
-		<h3>Lupa kata laluan ?</h3>
-		<p>
-			 Masukan email anda untuk reset kata laluan.
-		</p>
-		<div class="form-group">
-			<div class="input-icon">
-				<i class="fa fa-envelope"></i>
-				<input class="form-control placeholder-no-fix" type="text" autocomplete="off" placeholder="Emel" name="email"/>
-			</div>
-		</div>
-		<div class="form-actions">
-			<button type="button" id="back-btn" class="btn">
-			<i class="m-icon-swapleft"></i> Back </button>
-			<button type="submit" class="btn blue pull-right">
-			Submit <i class="m-icon-swapright m-icon-white"></i>
-			</button>
-		</div>
-	</form>
-	<!-- END FORGOT PASSWORD FORM -->
+        }
+        <button type="submit" class="btn blue pull-right">
+            Login <i class="m-icon-swapright m-icon-white"></i>
+        </button>
+    </div>
+    <div class="forget-password">
+        <h4>Terlupa kata laluan ?</h4>
+        <p>
+            Sila klik di  <a href="javascript:;" id="forget-password">
+                sini
+            </a> untuk menetapkan semula kata laluan anda.
+        </p>
+    </div>
+</form>
+<!-- END LOGIN FORM -->
+<!-- BEGIN FORGOT PASSWORD FORM -->
+<form class="forget-form" action="index.html" method="post">
+    <h3>Lupa kata laluan ?</h3>
+    <p>
+        Masukan email anda untuk reset kata laluan.
+    </p>
+    <div class="form-group">
+        <div class="input-icon">
+            <i class="fa fa-envelope"></i>
+            <input class="form-control placeholder-no-fix" type="text" autocomplete="off" placeholder="Emel" name="email" />
+        </div>
+    </div>
+    <div class="form-actions">
+        <button type="button" id="back-btn" class="btn">
+            <i class="m-icon-swapleft"></i> Back
+        </button>
+        <button type="submit" class="btn blue pull-right">
+            Submit <i class="m-icon-swapright m-icon-white"></i>
+        </button>
+    </div>
+</form>
+<!-- END FORGOT PASSWORD FORM -->
 
 
-  @section scripts
+@section scripts
   {
     <script>
-    jQuery(document).ready(function() {
+        jQuery(document).ready(function () {
 
 
-        var retUrl = getParameterByName("ReturnUrl") + window.location.hash;
-        $('input[name=ReturnUrl]').val(retUrl);
+            var retUrl = getParameterByName("ReturnUrl") + window.location.hash;
+            $('input[name=ReturnUrl]').val(retUrl);
 
-        function getParameterByName(name) {
-            name = name.replace(/[\[]/, "\\\[").replace(/[\]]/, "\\\]");
-            var regex = new RegExp("[\\?&]" + name + "=([^&#]*)"),
-                results = regex.exec(location.search);
-            return results == null ? "" : decodeURIComponent(results[1].replace(/\+/g, " "));
-        }
+            function getParameterByName(name) {
+                name = name.replace(/[\[]/, "\\\[").replace(/[\]]/, "\\\]");
+                var regex = new RegExp("[\\?&]" + name + "=([^&#]*)"),
+                    results = regex.exec(location.search);
+                return results == null ? "" : decodeURIComponent(results[1].replace(/\+/g, " "));
+            }
 
-    });
+        });
     </script>
-  }
+}
