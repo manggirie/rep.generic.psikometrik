@@ -10,13 +10,13 @@
       {
         "$type": "Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan",
         "Teks": "Ya",
-        "Nilai": 1,
+        "Nilai": 0,
         "WebId": null
       },
       {
         "$type": "Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan",
         "Teks": "Tidak",
-        "Nilai": 0,
+        "Nilai": 1,
         "WebId": null
       }
     ]
@@ -25,10 +25,11 @@
   "NamaUjian": "Inventori Stres Organisasi (ISO)",
   "Susunan": 59.0,
   "Kategori": "Stress Vulnerability",
+  "Bahagian": null,
   "CreatedBy": "admin",
   "Id": "ISO--0708",
   "CreatedDate": "2015-06-22T16:26:37.2423571+08:00",
-  "ChangedBy": "admin",
-  "ChangedDate": "2015-07-01T16:16:58.3776261+08:00",
+  "ChangedBy": "Urusetia02",
+  "ChangedDate": "2015-08-05T10:59:28.1040663+08:00",
   "WebId": "55e62aed-db7e-445f-83a6-290bfaee69c1"
 }

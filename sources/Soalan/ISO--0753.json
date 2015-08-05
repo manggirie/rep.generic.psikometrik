@@ -25,10 +25,11 @@
   "NamaUjian": "Inventori Stres Organisasi (ISO)",
   "Susunan": 104.0,
   "Kategori": "Ukuran Stres Kerja",
+  "Bahagian": null,
   "CreatedBy": "admin",
   "Id": "ISO--0753",
   "CreatedDate": "2015-06-22T16:26:39.8835082+08:00",
-  "ChangedBy": "admin",
-  "ChangedDate": "2015-07-02T09:48:40.8030461+08:00",
+  "ChangedBy": "Urusetia02",
+  "ChangedDate": "2015-08-05T11:13:01.2873765+08:00",
   "WebId": "17740485-05af-47dd-bcdd-aa5c1ce6c8d5"
 }
