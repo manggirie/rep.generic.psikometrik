@@ -2,7 +2,7 @@
   "$type": "Bespoke.epsikologi_skorhlp.Domain.SkorHlp, epsikologi.SkorHlp",
   "No": "dt-l-sr-5",
   "Tret": "DT",
-  "NilaiMin": 1,
+  "NilaiMin": 0,
   "NilaiMax": 1,
   "Percentile": 5,
   "Skor": "Skor Rendah",

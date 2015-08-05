@@ -79,78 +79,75 @@ namespace web.sph.App_Code
       }
 
 
-      private HlpResult ComputeResult(string TRET)
+      private HlpResult ComputeResult(string tret)
       {
-          var point = m_sesi.JawapanCollection.Where(a => a.Trait == TRET).Sum(a => a.Nilai);
+          var point = m_sesi.JawapanCollection.Where(a => a.Trait == tret).Sum(a => a.Nilai);
           var list =  m_scoreTables
                         .Where(x => x.Jantina == m_pengguna.Jantina)
-                        .Where(x => x.Tret == TRET && point >= x.NilaiMin && point <= x.NilaiMax)
+                        .Where(x => x.Tret == tret && point >= x.NilaiMin && point <= x.NilaiMax)
                         .ToList();
           if(list.Count != 1)
-            throw new Exception("Overlap score tables " + string.Join(";", list.Select(x => x.Id).ToArray()) + " -> Tret :" + TRET + " Point : " + point + " Jantina :" + m_pengguna.Jantina);
+            throw new Exception(string.Format("Overlap score tables [{0}] {1} -> Tret :{2},  Point : {3},  Jantina :{4}", list.Count, string.Join(";", list.Select(x => x.Id).ToArray()), tret, point, m_pengguna.Jantina));
 
           var percent =  m_scoreTables
                           .Where(x => x.Jantina == m_pengguna.Jantina)
-                          .Single(x => x.Tret == TRET && point >= x.NilaiMin && point <= x.NilaiMax)
+                          .Single(x => x.Tret == tret && point >= x.NilaiMin && point <= x.NilaiMax)
                           .Percentile;
-          var score = m_scoreTables.Where(x => x.Tret == TRET)
+          var score = m_scoreTables.Where(x => x.Tret == tret)
                         .Where(x => point >= x.NilaiMin && point <= x.NilaiMax)
                         .Where(x => x.Jantina == m_pengguna.Jantina)
                         .Select(x => x.Skor).Single();
           var result = new HlpResult
                     {
-                        Tret = TRET,
+                        Tret = tret,
                         Skor = score ,
                         Percentile = percent,
                         Point = point
                     };
-          result.Recommendation = m_recommendations.Where(x => x.Tret == TRET && x.Skor == result.Skor)
+          result.Recommendation = m_recommendations.Where(x => x.Tret == tret && x.Skor == result.Skor)
                   .Select(x => x.Text)
                   .SingleOrDefault();
           return result;
       }
 
 
-      private HlpResult ComputeResultNoJantina(string TRET)
+      private HlpResult ComputeResultNoJantina(string tret)
       {
-          var point = m_sesi.JawapanCollection.Where(a => a.Trait == TRET).Sum(a => a.Nilai);
+          var point = m_sesi.JawapanCollection.Where(a => a.Trait == tret).Sum(a => a.Nilai);
 
 	var temps = m_scoreTables
 	
-                      .Where(x => x.Tret == TRET && point >= x.NilaiMin && point <= x.NilaiMax)
+                      .Where(x => x.Tret == tret && point >= x.NilaiMin && point <= x.NilaiMax)
                       .ToList();
-          if(temps.Count != 0)
+          if(temps.Count < 1)
           {
-
-              throw new Exception(string.Format("TRET:{0} and point: {1} have {2} entries", TRET, point, temps));
-
-              throw new Exception(string.Format("TRET:{0} and point: {1} have {2} entries", TRET, point, temps.Count));
+              throw new Exception(string.Format("TRET:{0} and point: {1} have {2} entries", tret, point, temps.Count));
 
           }
 
           if(temps.Count > 1)
           {
               var itemsx = string.Join(",", temps.Select(x => x.Id));
-              throw new Exception(string.Format("TRET:{0} and point: {1} have {2} entries : {3}", TRET, point, temps, itemsx));
+              throw new Exception(string.Format("TRET:{0} and point: {1} have {2} entries : {3}", tret, point, temps.Count, itemsx));
           }
 
 
 
 
           var percent =  m_scoreTables
-                          .Single(x => x.Tret == TRET && point >= x.NilaiMin && point <= x.NilaiMax)
+                          .Single(x => x.Tret == tret && point >= x.NilaiMin && point <= x.NilaiMax)
                           .Percentile;
-          var score = m_scoreTables.Where(x => x.Tret == TRET)
+          var score = m_scoreTables.Where(x => x.Tret == tret)
                         .Where(x => point >= x.NilaiMin && point <= x.NilaiMax)
                         .Select(x => x.Skor).Single();
           var result = new HlpResult
                     {
-                        Tret = TRET,
+                        Tret = tret,
                         Skor = score ,
                         Percentile = percent,
                         Point = point
                     };
-          result.Recommendation = m_recommendations.Where(x => x.Tret == TRET && x.Skor == result.Skor)
+          result.Recommendation = m_recommendations.Where(x => x.Tret == tret && x.Skor == result.Skor)
                   .Select(x => x.Text)
                   .SingleOrDefault();
           return result;
