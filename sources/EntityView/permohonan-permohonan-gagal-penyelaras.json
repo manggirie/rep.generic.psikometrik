@@ -119,23 +119,6 @@
         "Format": "text:{0}",
         "RouteValueField": "Id",
         "WebId": "4b581f56-a90d-454a-8f19-e129145d66cb"
-      },
-      {
-        "$type": "Bespoke.Sph.Domain.ViewColumn, domain.sph",
-        "ConditionalFormattingCollection": {
-          "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.Sph.Domain.ConditionalFormatting, domain.sph]], domain.sph",
-          "$values": []
-        },
-        "Path": "'Senarai Responden'",
-        "Header": "Papar Responden",
-        "Sort": "",
-        "IsLinkColumn": true,
-        "FormRoute": "permohonan-dan-senarai-responden",
-        "IconCssClass": "",
-        "IconStoreId": "",
-        "Format": "text:{0}",
-        "RouteValueField": "Id",
-        "WebId": "9ed03118-ac3a-4be0-e37d-e2aeed5f1dd7"
       }
     ]
   },
@@ -177,6 +160,6 @@
   "Id": "permohonan-permohonan-gagal-penyelaras",
   "CreatedDate": "2015-06-30T19:54:54.7228493+08:00",
   "ChangedBy": "admin",
-  "ChangedDate": "2015-07-24T10:35:01.4382189+08:00",
+  "ChangedDate": "2015-08-05T09:37:47.3852624+08:00",
   "WebId": "0264f91b-ffce-46cc-d40a-e6d3cadb6fac"
 }

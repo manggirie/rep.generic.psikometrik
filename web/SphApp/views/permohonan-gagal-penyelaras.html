@@ -13,7 +13,6 @@
                     <th>Tarikh Tama</th>
                     <th>Tujuan</th>
                     <th>Bil. Responden</th>
-                    <th>Papar Responden</th>
                 </tr>
             </thead>
             <tbody data-bind="foreach :list">
@@ -28,11 +27,6 @@
                     <td data-bind="date:TarikhTamat"></td>
                     <td data-bind="text:TujuanProgram"></td>
                     <td data-bind="text:BilRespondan"></td>
-                    <td>
-                        <a data-bind="attr : {href:'#permohonan-dan-senarai-responden' + '/' + Id, title:'Papar Responden' }">
-                                                        <span data-bind="text:&#39;Senarai Responden&#39;"></span>
-                        </a>
-                    </td>
 
 
                 </tr>
