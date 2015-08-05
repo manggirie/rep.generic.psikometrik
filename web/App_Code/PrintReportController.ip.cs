@@ -40,14 +40,20 @@ namespace web.sph.App_Code
 
             using (var stream = new MemoryStream(Encoding.UTF8.GetBytes(html)))
             {
-                var options = new HtmlLoadOptions(ConfigurationManager.BaseUrl);
-                var pdf = new Document(stream, options);
-                options.PageInfo.IsLandscape = false;
+                try{
+                  var options = new HtmlLoadOptions(ConfigurationManager.BaseUrl);
+                  var pdf = new Document(stream, options);
+                  options.PageInfo.IsLandscape = false;
 
-                var os = new MemoryStream();
-                pdf.Save(os, SaveFormat.Pdf);
-                os.Position = 0;
-                return File(os, MimeMapping.GetMimeMapping(".pdf"), "Laporan Indeks Personaliti (IP).pdf");
+                  var os = new MemoryStream();
+                  pdf.Save(os, SaveFormat.Pdf);
+                  os.Position = 0;
+                  return File(os, MimeMapping.GetMimeMapping(".pdf"), "Laporan Indeks Personaliti (IP).pdf");
+                }
+                catch(System.NotSupportedException)
+                {
+                  return Redirect("/cetak-laporan/trait-html/ip/" + id);
+                }
 
 
             }
