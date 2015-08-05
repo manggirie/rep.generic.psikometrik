@@ -1,61 +1,53 @@
-using System;
-using System.Web.Mvc;
-using System.Text;
-using Bespoke.Sph.Domain;
-using System.Threading.Tasks;
 using System.Linq;
-using System.Reflection;
-using System.Collections.Concurrent;
-using System.Collections.Generic;
-using System.IO;
-using System.Diagnostics;
-
+using Bespoke.epsikologi_ipurecommendation.Domain;
+using Bespoke.epsikologi_pengguna.Domain;
+using Bespoke.epsikologi_permohonan.Domain;
+using Bespoke.epsikologi_sesiujian.Domain;
+using Bespoke.epsikologi_ujian.Domain;
 using Newtonsoft.Json;
-using Newtonsoft.Json.Linq;
-using Newtonsoft.Json.Schema;
-
+using Newtonsoft.Json.Converters;
 
 namespace web.sph.App_Code
 {
     public class IpuTraitViewModel
     {
 
-      public IpuTraitViewModel(Bespoke.epsikologi_sesiujian.Domain.SesiUjian sesi)
+      public IpuTraitViewModel(SesiUjian sesi)
       {
            Sesi = sesi;
       }
 
 
       [JsonIgnore]
-      public Bespoke.epsikologi_pengguna.Domain.Pengguna Pengguna {get;set;}
+      public Pengguna Pengguna {get;set;}
 
       [JsonIgnore]
-      public Bespoke.epsikologi_sesiujian.Domain.SesiUjian Sesi { get; set; }
+      public SesiUjian Sesi { get; set; }
 
       [JsonIgnore]
-      public Bespoke.epsikologi_ujian.Domain.Ujian Ujian {get;set;}
+      public Ujian Ujian {get;set;}
       [JsonIgnore]
-      public Bespoke.epsikologi_permohonan.Domain.Permohonan Permohonan {get;set;}
+      public Permohonan Permohonan {get;set;}
       [JsonIgnore]
-      public Bespoke.epsikologi_ipurecommendation.Domain.IpuRecommendation RecommendationA {get;set;}
+      public IpuRecommendation RecommendationA {get;set;}
       [JsonIgnore]
-      public Bespoke.epsikologi_ipurecommendation.Domain.IpuRecommendation RecommendationB {get;set;}
+      public IpuRecommendation RecommendationB {get;set;}
       [JsonIgnore]
-      public Bespoke.epsikologi_ipurecommendation.Domain.IpuRecommendation RecommendationC {get;set;}
+      public IpuRecommendation RecommendationC {get;set;}
       [JsonIgnore]
-      public Bespoke.epsikologi_ipurecommendation.Domain.IpuRecommendation RecommendationD {get;set;}
+      public IpuRecommendation RecommendationD {get;set;}
       [JsonIgnore]
-      public Bespoke.epsikologi_ipurecommendation.Domain.IpuRecommendation RecommendationE {get;set;}
+      public IpuRecommendation RecommendationE {get;set;}
       [JsonIgnore]
-      public Bespoke.epsikologi_ipurecommendation.Domain.IpuRecommendation RecommendationF {get;set;}
+      public IpuRecommendation RecommendationF {get;set;}
       [JsonIgnore]
-      public Bespoke.epsikologi_ipurecommendation.Domain.IpuRecommendation RecommendationG {get;set;}
+      public IpuRecommendation RecommendationG {get;set;}
       [JsonIgnore]
-      public Bespoke.epsikologi_ipurecommendation.Domain.IpuRecommendation RecommendationH {get;set;}
+      public IpuRecommendation RecommendationH {get;set;}
       [JsonIgnore]
-      public Bespoke.epsikologi_ipurecommendation.Domain.IpuRecommendation RecommendationI {get;set;}
+      public IpuRecommendation RecommendationI {get;set;}
       [JsonIgnore]
-      public Bespoke.epsikologi_ipurecommendation.Domain.IpuRecommendation RecommendationJ {get;set;}
+      public IpuRecommendation RecommendationJ {get;set;}
 
       public int? SkorA {get; set;}
       public int? SkorB {get; set;}
@@ -143,7 +135,7 @@ namespace web.sph.App_Code
       public override string ToString()
       {
           var setting = new JsonSerializerSettings();
-         setting.Converters.Add(new Newtonsoft.Json.Converters.StringEnumConverter());
+         setting.Converters.Add(new StringEnumConverter());
          setting.Formatting = Formatting.Indented;
          return JsonConvert.SerializeObject(this, setting);
       }

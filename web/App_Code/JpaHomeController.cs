@@ -14,10 +14,7 @@ namespace web.sph.App_Code
          public int TotalMessageCount { get; set; }
          private readonly ObjectCollection<Message> m_itemCollection = new ObjectCollection<Message>();
 
-         public ObjectCollection<Message> Messages
-         {
-             get { return m_itemCollection; }
-         }
+         public ObjectCollection<Message> Messages => m_itemCollection;
      }
 
 
