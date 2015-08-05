@@ -29,7 +29,7 @@ namespace web.sph.App_Code
 
 
         [Route("trait/ip/{id}")]
-        public async Task<ActionResult> PrintPdfTraitIp(string id)
+        public async Task<ActionResult> PrintPdfTraitIp(string id, int tryCount = 0)
         {
             var license = new License();
             license.SetLicense(@"C:\project\rep.generic.psikometrik\lib\Aspose.Pdf.lic");
@@ -40,15 +40,25 @@ namespace web.sph.App_Code
 
             using (var stream = new MemoryStream(Encoding.UTF8.GetBytes(html)))
             {
-                var options = new HtmlLoadOptions(ConfigurationManager.BaseUrl);
-                var pdf = new Document(stream, options);
-                options.PageInfo.IsLandscape = false;
+                try
+                {
+                    var options = new HtmlLoadOptions(ConfigurationManager.BaseUrl);
+                    var pdf = new Document(stream, options);
+                    options.PageInfo.IsLandscape = false;
 
-                var os = new MemoryStream();
-                pdf.Save(os, SaveFormat.Pdf);
-                os.Position = 0;
-                return File(os, MimeMapping.GetMimeMapping(".pdf"), "Laporan Indeks Personaliti (IP).pdf");
-
+                    var os = new MemoryStream();
+                    pdf.Save(os, SaveFormat.Pdf);
+                    os.Position = 0;
+                    return File(os, MimeMapping.GetMimeMapping(".pdf"), "Laporan Indeks Personaliti (IP).pdf");
+                }
+                catch (NotSupportedException e) when (e.Message.Contains("woff") && tryCount < 3)
+                {
+                    return await PrintPdfTraitIp(id, tryCount + 1);
+                }
+                catch (NotSupportedException e) when (e.Message.Contains("woff") && tryCount >= 3)
+                {
+                    return await PrintSesiUjianTraitIp(id);
+                }
 
             }
 

@@ -79,16 +79,10 @@ namespace web.sph.App_Code
           }
       }
 
-      public string KodKerjaya
-      {
-        get
-        {
-          return this.KodKerjaya1 + "/" + this.KodKerjaya2;
-        }
-      }
+      public string KodKerjaya => this.KodKerjaya1 + "/" + this.KodKerjaya2;
 
 
-      public int P
+        public int P
       {
         get
         {

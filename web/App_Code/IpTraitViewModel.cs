@@ -58,8 +58,8 @@ namespace web.sph.App_Code
 
 
       }
-      public Bespoke.epsikologi_pengguna.Domain.Pengguna Pengguna {get { return m_pengguna;}}
-      public Bespoke.epsikologi_ujian.Domain.Ujian Ujian {get;set;}
+      public Bespoke.epsikologi_pengguna.Domain.Pengguna Pengguna => m_pengguna;
+        public Bespoke.epsikologi_ujian.Domain.Ujian Ujian {get;set;}
       public Bespoke.epsikologi_permohonan.Domain.Permohonan Permohonan {get;set;}
       public Bespoke.epsikologi_iprecommendation.Domain.IpRecommendation Recommendation {get;set;}
 
@@ -96,10 +96,10 @@ namespace web.sph.App_Code
       public int ElevenA {get;private set;}
       public int ElevenB {get;private set;}
 
-      public int E { get{return OneA + TwoA;} }
-      public int I { get{return OneB + TwoB;} }
+      public int E => OneA + TwoA;
+        public int I => OneB + TwoB;
 
-      // kalau sama & lelaki -> E
+        // kalau sama & lelaki -> E
       public string EI
       {
         get
@@ -110,10 +110,10 @@ namespace web.sph.App_Code
         }
       }
 
-      public int S { get{return ThreeA + FourA + FiveA;} }
-      public int N { get{return ThreeB + FourB + FiveB;} }
+      public int S => ThreeA + FourA + FiveA;
+        public int N => ThreeB + FourB + FiveB;
 
-      // kalau sama & lelaki -> S
+        // kalau sama & lelaki -> S
       public string SN
       {
         get
@@ -125,9 +125,9 @@ namespace web.sph.App_Code
         }
       }
 
-      public int T { get{return SixA + SevenA + EightA;} }
-      public int F { get{return SixB + SevenB + EightB;} }
-      // kalau sama & lelaki -> T
+      public int T => SixA + SevenA + EightA;
+        public int F => SixB + SevenB + EightB;
+        // kalau sama & lelaki -> T
       public string TF
       {
         get
@@ -138,10 +138,10 @@ namespace web.sph.App_Code
         }
       }
 
-      public int J { get{return NineA + TenA + ElevenA;} }
-      public int P { get{return NineB + TenB + ElevenB;} }
+      public int J => NineA + TenA + ElevenA;
+        public int P => NineB + TenB + ElevenB;
 
-      // kalau sama & lelaki -> J
+        // kalau sama & lelaki -> J
       public string JP
       {
         get
@@ -153,8 +153,9 @@ namespace web.sph.App_Code
         }
       }
 
-      public string Result  { get{ return EI + SN + TF + JP; } }
-      [JsonIgnore]
+      public string Result => EI + SN + TF + JP;
+
+        [JsonIgnore]
       public Bespoke.epsikologi_sesiujian.Domain.SesiUjian Sesi { get; set; }
       public override string ToString()
       {

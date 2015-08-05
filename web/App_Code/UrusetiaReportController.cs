@@ -1,13 +1,12 @@
-using System;
-using System.Web.Mvc;
-using System.Text;
-using Bespoke.Sph.Domain;
-using System.Threading.Tasks;
 using System.Linq;
-using System.Reflection;
-using System.Collections.Concurrent;
-using System.IO;
-using System.Diagnostics;
+using System.Text;
+using System.Threading.Tasks;
+using System.Web.Mvc;
+using Bespoke.epsikologi_permohonan.Domain;
+using Bespoke.epsikologi_sesiujian.Domain;
+using Bespoke.epsikologi_soalan.Domain;
+using Bespoke.epsikologi_ujian.Domain;
+using Bespoke.Sph.Domain;
 
 namespace web.sph.App_Code
 {
@@ -25,11 +24,11 @@ namespace web.sph.App_Code
         public async Task<ActionResult> Program(ProgramReportModel model)
         {
             var context = new SphDataContext();
-            var no = string.Format("{0}/{1}/{2}/{3}", model.Program, model.Bil, model.Siri, model.Tahun);
-            var permohonan = await context.LoadOneAsync<Bespoke.epsikologi_permohonan.Domain.Permohonan>(x => x.PermohonanNo == no);
-            var ujian = await context.LoadOneAsync<Bespoke.epsikologi_ujian.Domain.Ujian>(x => x.UjianNo == model.Ujian || x.NamaUjian == model.Ujian);
+            var no = $"{model.Program}/{model.Bil}/{model.Siri}/{model.Tahun}";
+            var permohonan = await context.LoadOneAsync<Permohonan>(x => x.PermohonanNo == no);
+            var ujian = await context.LoadOneAsync<Ujian>(x => x.UjianNo == model.Ujian || x.NamaUjian == model.Ujian);
 
-            var query = context.CreateQueryable<Bespoke.epsikologi_sesiujian.Domain.SesiUjian>()
+            var query = context.CreateQueryable<SesiUjian>()
                 .Where(s => s.NamaProgram == no)
                 .Where(s =>s.NamaUjian == model.Ujian)
                 .Where(s => s.Status == "Diambil");
@@ -42,7 +41,7 @@ namespace web.sph.App_Code
                 sesi.AddRange(sesiLo.ItemCollection);
             }
 
-            var soalanQuery = context.CreateQueryable<Bespoke.epsikologi_soalan.Domain.Soalan>()
+            var soalanQuery = context.CreateQueryable<Soalan>()
                                 .Where (s => s.NamaUjian == ujian.UjianNo || s.NamaUjian == ujian.NamaUjian);
             var soalanLo = await context.LoadAsync(soalanQuery, 1, 200, true);
             var soalans = soalanLo.ItemCollection;

@@ -39,3 +39,4 @@ StartWorker.bat
 update.bat
 10316/
 *.tmp
+packages/

@@ -1,17 +1,6 @@
-using System;
 using System.Web.Mvc;
-using System.Text;
 using Bespoke.Sph.Domain;
 using System.Threading.Tasks;
-using System.Linq;
-using System.Reflection;
-using System.Collections.Concurrent;
-using System.IO;
-using System.Diagnostics;
-
-using Newtonsoft.Json;
-using Newtonsoft.Json.Linq;
-using Newtonsoft.Json.Schema;
 using Bespoke.epsikologi_ipurecommendation.Domain;
 using Bespoke.epsikologi_skoripu.Domain;
 using Bespoke.epsikologi_ipupercentilenorms.Domain;
@@ -36,15 +25,17 @@ namespace web.sph.App_Code
 
         	if(null == sesi)
       			return HttpNotFound("Cannot find SesiUjian " + id);
-        	if(null == sesi)
+        	if(null == user)
         		return HttpNotFound("Cannot find user with MyKad " + sesi.MyKad);
 
-          var vm = new IpuTraitViewModel(sesi);
-          vm.Permohonan = await permohonanTask;
-          vm.Ujian = await ujianTask;
-          vm.Pengguna = user;
+      	    var vm = new IpuTraitViewModel(sesi)
+      	    {
+      	        Permohonan = await permohonanTask,
+      	        Ujian = await ujianTask,
+      	        Pengguna = user
+      	    };
 
-          /* */
+      	    /* */
           var apTask = context.LoadOneAsync<IpuPercentileNorms>(x => x.RawScore == vm.A.ToString());
           var bpTask = context.LoadOneAsync<IpuPercentileNorms>(x => x.RawScore == vm.B.ToString());
           var cpTask = context.LoadOneAsync<IpuPercentileNorms>(x => x.RawScore == vm.C.ToString());
