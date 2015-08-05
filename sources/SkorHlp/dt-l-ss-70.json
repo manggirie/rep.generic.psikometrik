@@ -1,6 +1,6 @@
 {
   "$type": "Bespoke.epsikologi_skorhlp.Domain.SkorHlp, epsikologi.SkorHlp",
-  "No": "dt-l-ss-70",
+  "No": "dt-l-sst-70",
   "Tret": "DT",
   "NilaiMin": 14,
   "NilaiMax": 14,
@@ -11,6 +11,6 @@
   "Id": "dt-l-ss-70",
   "CreatedDate": "2015-07-08T16:48:16.0238761+08:00",
   "ChangedBy": "urusetia1",
-  "ChangedDate": "2015-07-08T16:48:16.0228753+08:00",
+  "ChangedDate": "2015-08-05T12:07:11.1993352+08:00",
   "WebId": "67773015-9e97-4915-8305-e9259133eb55"
 }
