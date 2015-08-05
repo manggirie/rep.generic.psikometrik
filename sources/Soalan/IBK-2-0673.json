@@ -24,11 +24,12 @@
   "Trait": "F2",
   "NamaUjian": "Indeks Bimbingan Kerjaya (IBK)",
   "Susunan": 0.2,
-  "Kategori": null,
+  "Kategori": "Tradisional",
+  "Bahagian": null,
   "CreatedBy": "admin",
   "Id": "IBK-2-0673",
   "CreatedDate": "2015-07-06T11:24:49.2400049+08:00",
-  "ChangedBy": "admin",
-  "ChangedDate": "2015-07-06T11:24:49.2395043+08:00",
+  "ChangedBy": "Urusetia01",
+  "ChangedDate": "2015-08-05T11:41:27.39297+08:00",
   "WebId": "b9680a0e-770a-4f2f-92d1-788f34f7138a"
 }
