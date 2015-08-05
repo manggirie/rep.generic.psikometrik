@@ -1,16 +1,16 @@
 {
   "$type": "Bespoke.epsikologi_skorhlp.Domain.SkorHlp, epsikologi.SkorHlp",
-  "No": "kt-p-ssr-85",
+  "No": "kt-p-ssr-80",
   "Tret": "KT",
-  "NilaiMin": 20,
-  "NilaiMax": 21,
-  "Percentile": 85,
+  "NilaiMin": 19,
+  "NilaiMax": 19,
+  "Percentile": 80,
   "Skor": "Skor Sederhana Rendah",
   "Jantina": "Perempuan",
   "CreatedBy": "urusetia1",
   "Id": "kt-p-ssr-85",
   "CreatedDate": "2015-07-08T13:57:28.1055192+08:00",
-  "ChangedBy": "admin",
-  "ChangedDate": "2015-07-28T10:52:32.6803492+08:00",
+  "ChangedBy": "urusetia1",
+  "ChangedDate": "2015-08-05T12:28:34.0216046+08:00",
   "WebId": "68b4f6ad-02ec-431c-d774-f52f4ff8bc79"
 }

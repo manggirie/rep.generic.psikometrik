@@ -25,10 +25,11 @@
   "NamaUjian": "Inventori Stres Organisasi (ISO)",
   "Susunan": 92.0,
   "Kategori": "Stress Vulnerability",
+  "Bahagian": null,
   "CreatedBy": "admin",
   "Id": "ISO--0741",
   "CreatedDate": "2015-06-22T16:26:39.2064695+08:00",
-  "ChangedBy": "admin",
-  "ChangedDate": "2015-07-02T09:08:46.7351965+08:00",
+  "ChangedBy": "Urusetia02",
+  "ChangedDate": "2015-08-05T11:09:09.3651866+08:00",
   "WebId": "7cf195d4-ee77-417d-9f7e-8a5cd91e6f17"
 }
