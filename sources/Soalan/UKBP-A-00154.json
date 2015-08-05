@@ -3,7 +3,7 @@
   "NoRujukan": "UKBP-A-00154",
   "SoalanNo": "UKBP-A-00154",
   "TeksSoalan": "Kadangkala, tanpa sebarang sebab atau apabila sesuatu berlaku tidak seperti yang dirancang, saya berasa sangat gembira.",
-  "SeksyenSoalan": "A",
+  "SeksyenSoalan": "",
   "PilihanJawapanCollection": {
     "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan]], domain.sph",
     "$values": [
@@ -25,6 +25,7 @@
   "NamaUjian": "Ujian Khas Biasiswa Persekutuan(UKBP)",
   "Susunan": 154.0,
   "Kategori": null,
+  "Bahagian": "A",
   "CreatedBy": "admin",
   "Id": "UKBP-A-00154",
   "CreatedDate": "2015-07-06T11:24:54.9995699+08:00",

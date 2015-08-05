@@ -3,7 +3,7 @@
   "NoRujukan": "UKBP-A-00087",
   "SoalanNo": "UKBP-A-00087",
   "TeksSoalan": "Saya boleh menyatakan penghargaan atau kegembiraan apabila melihat sesuatu yang indah dan cantik.",
-  "SeksyenSoalan": "A",
+  "SeksyenSoalan": "",
   "PilihanJawapanCollection": {
     "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan]], domain.sph",
     "$values": [
@@ -25,6 +25,7 @@
   "NamaUjian": "Ujian Khas Biasiswa Persekutuan(UKBP)",
   "Susunan": 87.0,
   "Kategori": null,
+  "Bahagian": "A",
   "CreatedBy": "admin",
   "Id": "UKBP-A-00087",
   "CreatedDate": "2015-07-06T11:24:54.3861369+08:00",

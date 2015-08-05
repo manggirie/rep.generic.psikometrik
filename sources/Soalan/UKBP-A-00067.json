@@ -3,7 +3,7 @@
   "NoRujukan": "UKBP-A-00067",
   "SoalanNo": "UKBP-A-00067",
   "TeksSoalan": "Saya terus melaksanakan sesuatu aktiviti supaya tidak membazirkan masa.",
-  "SeksyenSoalan": "A",
+  "SeksyenSoalan": "",
   "PilihanJawapanCollection": {
     "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan]], domain.sph",
     "$values": [
@@ -25,6 +25,7 @@
   "NamaUjian": "Ujian Khas Biasiswa Persekutuan(UKBP)",
   "Susunan": 67.0,
   "Kategori": null,
+  "Bahagian": "A",
   "CreatedBy": "admin",
   "Id": "UKBP-A-00067",
   "CreatedDate": "2015-07-06T11:24:54.2275252+08:00",

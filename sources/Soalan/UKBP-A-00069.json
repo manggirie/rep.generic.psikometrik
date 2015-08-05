@@ -3,7 +3,7 @@
   "NoRujukan": "UKBP-A-00069",
   "SoalanNo": "UKBP-A-00069",
   "TeksSoalan": "Saya mendapati sukar untuk memberi tumpuan kepada sesuatu tugas.",
-  "SeksyenSoalan": "A",
+  "SeksyenSoalan": "",
   "PilihanJawapanCollection": {
     "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan]], domain.sph",
     "$values": [
@@ -25,6 +25,7 @@
   "NamaUjian": "Ujian Khas Biasiswa Persekutuan(UKBP)",
   "Susunan": 69.0,
   "Kategori": null,
+  "Bahagian": "A",
   "CreatedBy": "admin",
   "Id": "UKBP-A-00069",
   "CreatedDate": "2015-07-06T11:24:54.241034+08:00",

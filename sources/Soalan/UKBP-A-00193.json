@@ -3,7 +3,7 @@
   "NoRujukan": "UKBP-A-00193",
   "SoalanNo": "UKBP-A-00193",
   "TeksSoalan": "Saya cenderung untuk berkhayal atau mengelamun tentang perkara yang tidak mungkin terlaksana atau terjadi.",
-  "SeksyenSoalan": "A",
+  "SeksyenSoalan": "",
   "PilihanJawapanCollection": {
     "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan]], domain.sph",
     "$values": [
@@ -25,6 +25,7 @@
   "NamaUjian": "Ujian Khas Biasiswa Persekutuan(UKBP)",
   "Susunan": 193.0,
   "Kategori": null,
+  "Bahagian": "A",
   "CreatedBy": "admin",
   "Id": "UKBP-A-00193",
   "CreatedDate": "2015-07-06T11:24:55.303284+08:00",

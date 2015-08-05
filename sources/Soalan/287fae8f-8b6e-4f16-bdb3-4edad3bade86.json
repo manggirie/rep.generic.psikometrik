@@ -1,0 +1,35 @@
+{
+  "$type": "Bespoke.epsikologi_soalan.Domain.Soalan, epsikologi.Soalan",
+  "NoRujukan": "UKBP-B-00092",
+  "SoalanNo": "UKBP-B-00092",
+  "TeksSoalan": "Menyanyi atau berbicara secara berirama.",
+  "SeksyenSoalan": null,
+  "PilihanJawapanCollection": {
+    "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan]], domain.sph",
+    "$values": [
+      {
+        "$type": "Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan",
+        "Teks": "Ya",
+        "Nilai": 1,
+        "WebId": "9ca85613-19d7-40f7-b000-10d2f14c899f"
+      },
+      {
+        "$type": "Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan",
+        "Teks": "Tidak",
+        "Nilai": 0,
+        "WebId": "30fabd18-e910-41ed-af6d-d40d1ab23003"
+      }
+    ]
+  },
+  "Trait": null,
+  "NamaUjian": "Ujian Khas Biasiswa Persekutuan(UKBP)",
+  "Susunan": 172.0,
+  "Kategori": null,
+  "Bahagian": "B",
+  "CreatedBy": "admin",
+  "Id": "287fae8f-8b6e-4f16-bdb3-4edad3bade86",
+  "CreatedDate": "2015-08-04T15:33:11.086956+08:00",
+  "ChangedBy": "admin",
+  "ChangedDate": "2015-08-04T15:33:09.4446825+08:00",
+  "WebId": "d42256f1-71cf-4dcb-d36f-994b2da0fb8a"
+}

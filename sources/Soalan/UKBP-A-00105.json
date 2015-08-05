@@ -3,7 +3,7 @@
   "NoRujukan": "UKBP-A-00105",
   "SoalanNo": "UKBP-A-00105",
   "TeksSoalan": "Sekiranya saya boleh menonton wayang tanpa membayar dan tidak pula dilihat oleh orang lain, saya mungkin akan melakukannya.",
-  "SeksyenSoalan": "A",
+  "SeksyenSoalan": "",
   "PilihanJawapanCollection": {
     "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan]], domain.sph",
     "$values": [
@@ -25,6 +25,7 @@
   "NamaUjian": "Ujian Khas Biasiswa Persekutuan(UKBP)",
   "Susunan": 105.0,
   "Kategori": null,
+  "Bahagian": "A",
   "CreatedBy": "admin",
   "Id": "UKBP-A-00105",
   "CreatedDate": "2015-07-06T11:24:54.6137974+08:00",

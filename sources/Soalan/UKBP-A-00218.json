@@ -3,7 +3,7 @@
   "NoRujukan": "UKBP-A-00218",
   "SoalanNo": "UKBP-A-00218",
   "TeksSoalan": "Saya tidak mengalami penurunan atau peningkatan berat badan.",
-  "SeksyenSoalan": "A",
+  "SeksyenSoalan": "",
   "PilihanJawapanCollection": {
     "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan]], domain.sph",
     "$values": [
@@ -25,6 +25,7 @@
   "NamaUjian": "Ujian Khas Biasiswa Persekutuan(UKBP)",
   "Susunan": 218.0,
   "Kategori": null,
+  "Bahagian": "A",
   "CreatedBy": "admin",
   "Id": "UKBP-A-00218",
   "CreatedDate": "2015-07-06T11:24:55.6825517+08:00",

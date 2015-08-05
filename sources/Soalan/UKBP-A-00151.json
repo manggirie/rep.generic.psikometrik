@@ -3,7 +3,7 @@
   "NoRujukan": "UKBP-A-00151",
   "SoalanNo": "UKBP-A-00151",
   "TeksSoalan": "Bagi saya tanggungjawab mempertahankan maruah negara bukan tugas pelajar kerana mereka perlu memberi tumpuan dalam bidang akademik sahaja.",
-  "SeksyenSoalan": "A",
+  "SeksyenSoalan": "",
   "PilihanJawapanCollection": {
     "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan]], domain.sph",
     "$values": [
@@ -25,6 +25,7 @@
   "NamaUjian": "Ujian Khas Biasiswa Persekutuan(UKBP)",
   "Susunan": 151.0,
   "Kategori": null,
+  "Bahagian": "A",
   "CreatedBy": "admin",
   "Id": "UKBP-A-00151",
   "CreatedDate": "2015-07-06T11:24:54.9710495+08:00",

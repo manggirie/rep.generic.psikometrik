@@ -3,7 +3,7 @@
   "NoRujukan": "UKBP-A-00094",
   "SoalanNo": "UKBP-A-00094",
   "TeksSoalan": "Kanak-kanak yang aktif dan bising membuatkan saya cepat marah.",
-  "SeksyenSoalan": "A",
+  "SeksyenSoalan": "",
   "PilihanJawapanCollection": {
     "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan]], domain.sph",
     "$values": [
@@ -25,6 +25,7 @@
   "NamaUjian": "Ujian Khas Biasiswa Persekutuan(UKBP)",
   "Susunan": 94.0,
   "Kategori": null,
+  "Bahagian": "A",
   "CreatedBy": "admin",
   "Id": "UKBP-A-00094",
   "CreatedDate": "2015-07-06T11:24:54.4556862+08:00",

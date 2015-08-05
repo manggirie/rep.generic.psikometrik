@@ -20,7 +20,7 @@ foreach($t in $files){
 }
 
 Write-Host "Deploying dll, Please wait...."
-sleep -Seconds 10
+sleep -Seconds 1
 
 foreach($t in $files){
     $name = "$t".Replace(".json", "")

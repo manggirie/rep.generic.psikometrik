@@ -1,0 +1,35 @@
+{
+  "$type": "Bespoke.epsikologi_soalan.Domain.Soalan, epsikologi.Soalan",
+  "NoRujukan": "UKBP-B-00095",
+  "SoalanNo": "UKBP-B-00095",
+  "TeksSoalan": "Menggunakan mesin pengeposan otomatik.",
+  "SeksyenSoalan": null,
+  "PilihanJawapanCollection": {
+    "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan]], domain.sph",
+    "$values": [
+      {
+        "$type": "Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan",
+        "Teks": "Ya",
+        "Nilai": 1,
+        "WebId": "08fafa87-072a-41f7-8a8d-ddeee1e6eba3"
+      },
+      {
+        "$type": "Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan",
+        "Teks": "Tidak",
+        "Nilai": 0,
+        "WebId": "d9475336-64e2-4a9f-91dd-dcd42e7c913c"
+      }
+    ]
+  },
+  "Trait": null,
+  "NamaUjian": "Ujian Khas Biasiswa Persekutuan(UKBP)",
+  "Susunan": 203.0,
+  "Kategori": null,
+  "Bahagian": "B",
+  "CreatedBy": "admin",
+  "Id": "008b87e4-6d3d-46c1-b35b-14e31130b9c8",
+  "CreatedDate": "2015-08-04T15:36:32.2391432+08:00",
+  "ChangedBy": "admin",
+  "ChangedDate": "2015-08-04T15:36:32.2181411+08:00",
+  "WebId": "33b1700c-a8c3-411c-98f0-435f11e050c5"
+}

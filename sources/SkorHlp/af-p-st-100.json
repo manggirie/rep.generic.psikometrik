@@ -2,7 +2,7 @@
   "$type": "Bespoke.epsikologi_skorhlp.Domain.SkorHlp, epsikologi.SkorHlp",
   "No": "af-p-st-100",
   "Tret": "AF",
-  "NilaiMin": 33,
+  "NilaiMin": 34,
   "NilaiMax": 40,
   "Percentile": 100,
   "Skor": "Skor Tinggi",
@@ -11,6 +11,6 @@
   "Id": "af-p-st-100",
   "CreatedDate": "2015-07-09T16:10:55.3125601+08:00",
   "ChangedBy": "admin",
-  "ChangedDate": "2015-07-09T16:10:55.3125601+08:00",
+  "ChangedDate": "2015-08-04T11:42:17.8968603+08:00",
   "WebId": "9d58f1da-d7b5-43c3-f433-9e1fa2c73bee"
 }

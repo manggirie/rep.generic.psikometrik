@@ -3,7 +3,7 @@
   "NoRujukan": "UKBP-A-00237",
   "SoalanNo": "UKBP-A-00237",
   "TeksSoalan": "Sekiranya perlu, saya akan bersikap adil dan saksama dalam membantu orang lain menyelesaikan perbezaan atau pertelingkahan mereka.",
-  "SeksyenSoalan": "A",
+  "SeksyenSoalan": "",
   "PilihanJawapanCollection": {
     "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan]], domain.sph",
     "$values": [
@@ -25,6 +25,7 @@
   "NamaUjian": "Ujian Khas Biasiswa Persekutuan(UKBP)",
   "Susunan": 237.0,
   "Kategori": null,
+  "Bahagian": "A",
   "CreatedBy": "admin",
   "Id": "UKBP-A-00237",
   "CreatedDate": "2015-07-06T11:24:55.8266539+08:00",

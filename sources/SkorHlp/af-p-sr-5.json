@@ -3,7 +3,7 @@
   "No": "af-p-sr-5",
   "Tret": "AF",
   "NilaiMin": 0,
-  "NilaiMax": 7,
+  "NilaiMax": 9,
   "Percentile": 5,
   "Skor": "Skor Rendah",
   "Jantina": "Perempuan",
@@ -11,6 +11,6 @@
   "Id": "af-p-sr-5",
   "CreatedDate": "2015-07-09T15:49:19.0238131+08:00",
   "ChangedBy": "admin",
-  "ChangedDate": "2015-07-09T15:49:18.7949123+08:00",
+  "ChangedDate": "2015-08-04T11:33:11.5332294+08:00",
   "WebId": "81c97d32-0fc7-46e0-d827-4a0d35314779"
 }

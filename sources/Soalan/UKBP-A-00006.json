@@ -3,7 +3,7 @@
   "NoRujukan": "UKBP-A-00006",
   "SoalanNo": "UKBP-A-00006",
   "TeksSoalan": "Saya cepat memberi respons yang tidak bertimbang rasa dan menyakitkan hati.",
-  "SeksyenSoalan": "A",
+  "SeksyenSoalan": "",
   "PilihanJawapanCollection": {
     "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan]], domain.sph",
     "$values": [
@@ -25,6 +25,7 @@
   "NamaUjian": "Ujian Khas Biasiswa Persekutuan(UKBP)",
   "Susunan": 6.0,
   "Kategori": null,
+  "Bahagian": "A",
   "CreatedBy": "admin",
   "Id": "UKBP-A-00006",
   "CreatedDate": "2015-07-06T11:24:53.734678+08:00",

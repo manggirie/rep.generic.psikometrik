@@ -3,7 +3,7 @@
   "NoRujukan": "UKBP-A-00035",
   "SoalanNo": "UKBP-A-00035",
   "TeksSoalan": "Saya selesa mempamerkan kemesraan terhadap ahli keluarga secara terbuka.",
-  "SeksyenSoalan": "A",
+  "SeksyenSoalan": "",
   "PilihanJawapanCollection": {
     "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan]], domain.sph",
     "$values": [
@@ -25,6 +25,7 @@
   "NamaUjian": "Ujian Khas Biasiswa Persekutuan(UKBP)",
   "Susunan": 35.0,
   "Kategori": null,
+  "Bahagian": "A",
   "CreatedBy": "admin",
   "Id": "UKBP-A-00035",
   "CreatedDate": "2015-07-06T11:24:53.9783489+08:00",

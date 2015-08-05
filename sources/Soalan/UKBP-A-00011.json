@@ -3,7 +3,7 @@
   "NoRujukan": "UKBP-A-00011",
   "SoalanNo": "UKBP-A-00011",
   "TeksSoalan": "Saya mempunyai pengaruh yang kuat ke atas pemikiran ahli keluarga atau rakan sekerja.",
-  "SeksyenSoalan": "A",
+  "SeksyenSoalan": "",
   "PilihanJawapanCollection": {
     "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan]], domain.sph",
     "$values": [
@@ -25,6 +25,7 @@
   "NamaUjian": "Ujian Khas Biasiswa Persekutuan(UKBP)",
   "Susunan": 11.0,
   "Kategori": null,
+  "Bahagian": "A",
   "CreatedBy": "admin",
   "Id": "UKBP-A-00011",
   "CreatedDate": "2015-07-06T11:24:53.7817103+08:00",

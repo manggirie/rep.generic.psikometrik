@@ -3,7 +3,7 @@
   "NoRujukan": "UKBP-A-00245",
   "SoalanNo": "UKBP-A-00245",
   "TeksSoalan": "Ibu bapa dan keluarga saya mencari banyak kesalahan saya daripada yang sepatutnya.",
-  "SeksyenSoalan": "A",
+  "SeksyenSoalan": "",
   "PilihanJawapanCollection": {
     "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan]], domain.sph",
     "$values": [
@@ -25,6 +25,7 @@
   "NamaUjian": "Ujian Khas Biasiswa Persekutuan(UKBP)",
   "Susunan": 245.0,
   "Kategori": null,
+  "Bahagian": "A",
   "CreatedBy": "admin",
   "Id": "UKBP-A-00245",
   "CreatedDate": "2015-07-06T11:24:55.8846944+08:00",

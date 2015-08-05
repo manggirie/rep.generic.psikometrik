@@ -1,0 +1,53 @@
+{
+  "$type": "Bespoke.epsikologi_soalan.Domain.Soalan, epsikologi.Soalan",
+  "NoRujukan": "PPKP-B-00029",
+  "SoalanNo": "PPKP-B-00029",
+  "TeksSoalan": "tidak suka mempunyai jiran yang tinggal terlalu dekat dengan rumah?",
+  "SeksyenSoalan": "B",
+  "PilihanJawapanCollection": {
+    "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan]], domain.sph",
+    "$values": [
+      {
+        "$type": "Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan",
+        "Teks": "Sangat Bersetuju",
+        "Nilai": 0,
+        "WebId": null
+      },
+      {
+        "$type": "Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan",
+        "Teks": "Bersetuju",
+        "Nilai": 1,
+        "WebId": null
+      },
+      {
+        "$type": "Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan",
+        "Teks": "Kadang-Kadang",
+        "Nilai": 2,
+        "WebId": null
+      },
+      {
+        "$type": "Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan",
+        "Teks": "Tidak Bersetuju",
+        "Nilai": 3,
+        "WebId": null
+      },
+      {
+        "$type": "Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan",
+        "Teks": "Sangat Tidak Bersetuju",
+        "Nilai": 4,
+        "WebId": null
+      }
+    ]
+  },
+  "Trait": "D2",
+  "NamaUjian": "Profil Personaliti & Kerjaya Pegawai(PPKP)",
+  "Susunan": 29.0,
+  "Kategori": null,
+  "Bahagian": null,
+  "CreatedBy": "admin",
+  "Id": "PPKP-B-00029",
+  "CreatedDate": "2015-07-06T11:24:52.1315451+08:00",
+  "ChangedBy": "urusetia2",
+  "ChangedDate": "2015-07-27T14:29:07.857568+08:00",
+  "WebId": "b5172d95-e511-45e4-8a72-c6156d5a6121"
+}

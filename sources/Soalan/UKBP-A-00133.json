@@ -3,7 +3,7 @@
   "NoRujukan": "UKBP-A-00133",
   "SoalanNo": "UKBP-A-00133",
   "TeksSoalan": "Kebiasaannya saya tidak berasa risau dan bimbang.",
-  "SeksyenSoalan": "A",
+  "SeksyenSoalan": "",
   "PilihanJawapanCollection": {
     "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan]], domain.sph",
     "$values": [
@@ -25,6 +25,7 @@
   "NamaUjian": "Ujian Khas Biasiswa Persekutuan(UKBP)",
   "Susunan": 133.0,
   "Kategori": null,
+  "Bahagian": "A",
   "CreatedBy": "admin",
   "Id": "UKBP-A-00133",
   "CreatedDate": "2015-07-06T11:24:54.8339528+08:00",

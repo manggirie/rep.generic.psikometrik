@@ -3,7 +3,7 @@
   "NoRujukan": "UKBP-A-00240",
   "SoalanNo": "UKBP-A-00240",
   "TeksSoalan": "Saya berasa kurang selesa melakukan sesuatu tindakan secara spontan dalam sesuatu majlis walaupun orang lain melakukan perkara yang sama.",
-  "SeksyenSoalan": "A",
+  "SeksyenSoalan": "",
   "PilihanJawapanCollection": {
     "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan]], domain.sph",
     "$values": [
@@ -25,6 +25,7 @@
   "NamaUjian": "Ujian Khas Biasiswa Persekutuan(UKBP)",
   "Susunan": 240.0,
   "Kategori": null,
+  "Bahagian": "A",
   "CreatedBy": "admin",
   "Id": "UKBP-A-00240",
   "CreatedDate": "2015-07-06T11:24:55.8491696+08:00",

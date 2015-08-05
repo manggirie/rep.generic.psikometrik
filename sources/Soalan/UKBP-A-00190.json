@@ -3,7 +3,7 @@
   "NoRujukan": "UKBP-A-00190",
   "SoalanNo": "UKBP-A-00190",
   "TeksSoalan": "Saya mempunyai sedikit ketakutan berbanding dengan kawan saya.",
-  "SeksyenSoalan": "A",
+  "SeksyenSoalan": "",
   "PilihanJawapanCollection": {
     "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan]], domain.sph",
     "$values": [
@@ -25,6 +25,7 @@
   "NamaUjian": "Ujian Khas Biasiswa Persekutuan(UKBP)",
   "Susunan": 190.0,
   "Kategori": null,
+  "Bahagian": "A",
   "CreatedBy": "admin",
   "Id": "UKBP-A-00190",
   "CreatedDate": "2015-07-06T11:24:55.2722621+08:00",
