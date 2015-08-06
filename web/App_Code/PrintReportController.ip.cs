@@ -1,69 +1,27 @@
 using System;
-using System.IO;
-using System.Text;
 using System.Threading.Tasks;
-using System.Web;
 using System.Web.Mvc;
-using Aspose.Pdf;
 using Bespoke.epsikologi_iprecommendation.Domain;
 using Bespoke.epsikologi_pengguna.Domain;
 using Bespoke.epsikologi_permohonan.Domain;
 using Bespoke.epsikologi_sesiujian.Domain;
 using Bespoke.epsikologi_ujian.Domain;
 using Bespoke.Sph.Domain;
-using Document = Aspose.Pdf.Document;
 
 namespace web.sph.App_Code
 {
     public partial class PrintReportController
     {
-
-        [Route("trait-html/ip/{id}")]
-        public async Task<ActionResult> PrintSesiUjianTraitIp(string id)
-        {
-            var vm = await GetIpTraitViewModelAsync(id);
-            if (null == vm)
-                return HttpNotFound("Cannot find SesiUjian " + id);
-            return View("Trait-Ip", vm);
-        }
-
-
+        
         [Route("trait/ip/{id}")]
         public async Task<ActionResult> PrintPdfTraitIp(string id, int tryCount = 0)
         {
-            var license = new License();
-            license.SetLicense(@"C:\project\rep.generic.psikometrik\lib\Aspose.Pdf.lic");
-            license.Embedded = true;
-
             var vm = await GetIpTraitViewModelAsync(id);
-            var html = RenderViewToString(this, "Trait-Ip", vm);
-
-            using (var stream = new MemoryStream(Encoding.UTF8.GetBytes(html)))
-            {
-                try
-                {
-                    var options = new HtmlLoadOptions(ConfigurationManager.BaseUrl);
-                    var pdf = new Document(stream, options);
-                    options.PageInfo.IsLandscape = false;
-
-                    var os = new MemoryStream();
-                    pdf.Save(os, SaveFormat.Pdf);
-                    os.Position = 0;
-                    return File(os, MimeMapping.GetMimeMapping(".pdf"), "Laporan Indeks Personaliti (IP).pdf");
-                }
-                catch (NotSupportedException e) when (e.Message.Contains("woff") && tryCount < 3)
-                {
-                    return await PrintPdfTraitIp(id, tryCount + 1);
-                }
-                catch (NotSupportedException e) when (e.Message.Contains("woff") && tryCount >= 3)
-                {
-                    return await PrintSesiUjianTraitIp(id);
-                }
-
-            }
+            const string VIEW_NAME = "Trait-IP";
+            return Pdf(vm, VIEW_NAME, x => View(VIEW_NAME, x));
 
         }
-
+        
         private async Task<IpTraitViewModel> GetIpTraitViewModelAsync(string id)
         {
             var context = new SphDataContext();
@@ -101,31 +59,6 @@ namespace web.sph.App_Code
             return View("Indikator-" + sesi.NamaUjian, sesi);
         }
 
-        public static string RenderPartialViewToString(Controller controller, string viewName, object model)
-        {
-            controller.ViewData.Model = model;
-            using (var sw = new StringWriter())
-            {
-                var viewResult = ViewEngines.Engines.FindPartialView(controller.ControllerContext, viewName);
-                var viewContext = new ViewContext(controller.ControllerContext, viewResult.View, controller.ViewData, controller.TempData, sw);
-                viewResult.View.Render(viewContext, sw);
-
-                return sw.ToString();
-            }
-        }
-
-        public static string RenderViewToString(Controller controller, string viewName, object model)
-        {
-            controller.ViewData.Model = model;
-            using (var sw = new StringWriter())
-            {
-                var viewResult = ViewEngines.Engines.FindView(controller.ControllerContext, viewName, "~/Views/PrintReport/_MasterPage.cshtml");
-                var viewContext = new ViewContext(controller.ControllerContext, viewResult.View, controller.ViewData, controller.TempData, sw);
-                viewResult.View.Render(viewContext, sw);
-
-                return sw.ToString();
-            }
-        }
 
     }
 }
