@@ -120,7 +120,7 @@
     "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.Sph.Domain.RouteParameter, domain.sph]], domain.sph",
     "$values": []
   },
-  "IconClass": null,
+  "IconClass": "fa fa-fighter-jet",
   "IconStoreId": "f001e6ea-de89-4ac5-a2fb-506f669ea87b",
   "EntityDefinitionId": "percubaansesi",
   "Name": "All Percubaan sesi ujian",
@@ -133,10 +133,12 @@
   "CountMessage": null,
   "Entity": "PercubaanSesi",
   "Partial": null,
+  "Template": null,
+  "DisplayOnDashboard": true,
   "CreatedBy": "admin",
   "Id": "percubaan-sesi-ujian-all",
   "CreatedDate": "2015-06-28T15:38:32.3367388+08:00",
   "ChangedBy": "admin",
-  "ChangedDate": "2015-06-28T16:23:52.4371906+08:00",
+  "ChangedDate": "2015-08-06T08:28:32.969397+08:00",
   "WebId": "49d9ee84-fe0b-4d6c-b859-98ef72830b3b"
 }

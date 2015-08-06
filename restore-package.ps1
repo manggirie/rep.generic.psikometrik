@@ -33,3 +33,17 @@ if((Test-Path .\web\bin\roslyn) -eq $false){
 
 copy .\packages\Microsoft.Net.Compilers.1.0.0\tools\*.* .\web\bin\roslyn
 copy .\lib\Aspose.Pdf.dll .\web\bin\
+copy .\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.1.0.0\lib\net45\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll .\web\bin\
+
+Write-Host -ForegroundColor Yellow 'Please insert this line into your web.config file on the second last line just before </configuration>'
+Write-Host ' 
+<system.codedom>
+    <compilers>
+        <compiler language="c#;cs;csharp" 
+            extension=".cs" 
+            type="Microsoft.CodeDom.Providers.DotNetCompilerPlatform.CSharpCodeProvider, Microsoft.CodeDom.Providers.DotNetCompilerPlatform, Version=1.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35" 
+            warningLevel="4" 
+            compilerOptions="/langversion:6 /nowarn:1659;1699;1701" />
+    </compilers>
+</system.codedom>
+'

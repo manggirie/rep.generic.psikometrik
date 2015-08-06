@@ -11,35 +11,35 @@
         "$type": "Bespoke.epsikologi_ujian.Domain.Section, epsikologi.Ujian",
         "Name": "A",
         "DurationHour": 0,
-        "DurationMinutes": 25,
+        "DurationMinutes": 1,
         "WebId": "29d2e788-21b5-4d44-980c-b686cad5bd0f"
       },
       {
         "$type": "Bespoke.epsikologi_ujian.Domain.Section, epsikologi.Ujian",
         "Name": "B",
         "DurationHour": 0,
-        "DurationMinutes": 20,
+        "DurationMinutes": 1,
         "WebId": "a01f1a3c-05bb-4487-db29-78602375ba54"
       },
       {
         "$type": "Bespoke.epsikologi_ujian.Domain.Section, epsikologi.Ujian",
         "Name": "C",
         "DurationHour": 0,
-        "DurationMinutes": 25,
+        "DurationMinutes": 1,
         "WebId": "a707b3a8-58d9-4d27-9530-de781d9153d5"
       },
       {
         "$type": "Bespoke.epsikologi_ujian.Domain.Section, epsikologi.Ujian",
         "Name": "D",
         "DurationHour": 0,
-        "DurationMinutes": 20,
+        "DurationMinutes": 1,
         "WebId": "30e86ace-ee26-481a-a5b9-682fa603c7bf"
       },
       {
         "$type": "Bespoke.epsikologi_ujian.Domain.Section, epsikologi.Ujian",
         "Name": "E",
         "DurationHour": 0,
-        "DurationMinutes": 15,
+        "DurationMinutes": 1,
         "WebId": "2ae0aca7-378a-4add-b21d-0b4909580549"
       }
     ]

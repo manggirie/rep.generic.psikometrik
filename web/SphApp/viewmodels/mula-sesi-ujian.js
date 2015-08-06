@@ -9,8 +9,8 @@ define(["services/datacontext", objectbuilders.app, objectbuilders.router, objec
         interval = null,
         timer = ko.observable(),
         sections = ko.observableArray(),
+        currentSection = ko.observable(),
         mapJawapan = function (v) {
-
             var questions = ko.observableArray(),
                 section = _(sections()).find(function (s) {
                     return s.section === ko.unwrap(v.SeksyenSoalan);
@@ -36,6 +36,11 @@ define(["services/datacontext", objectbuilders.app, objectbuilders.router, objec
                 "PilihanJawapanCollection": v.PilihanJawapanCollection
             };
             answer.Visible = ko.computed(function () {
+                if (currentSection()) {
+                    if (currentSection() !== ko.unwrap(this.SeksyenSoalan)) {
+                        return false;
+                    }
+                }
                 if (!this.JawapanPilihan()) {
                     return true;
                 }
@@ -53,7 +58,9 @@ define(["services/datacontext", objectbuilders.app, objectbuilders.router, objec
             sections.removeAll();
             totalAnswered(0);
             questionsCount(0);
-            
+
+            var $f = "";
+
             return context.loadOneAsync("SesiUjian", String.format("Id eq '{0}'", id))
                 .then(function (a) {
                     sesiUjian(a);
@@ -61,12 +68,14 @@ define(["services/datacontext", objectbuilders.app, objectbuilders.router, objec
                 })
                 .then(function (b) {
                     ujian(b);
+                    var $q = String.format("NamaUjian eq '{0}'", ko.unwrap(ujian().NamaUjian));
+                    $f = encodeURIComponent($q);
                     return context.loadAsync({
                         entity: "Soalan",
                         size: 200,
                         includeTotal: true,
                         orderby: "Susunan"
-                    }, String.format("NamaUjian eq '{0}'", ko.unwrap(ujian().NamaUjian)));
+                    }, $f);
                 })
                 .then(function (qLo) {
                     sesiUjian().JawapanCollection.removeAll();
@@ -80,7 +89,7 @@ define(["services/datacontext", objectbuilders.app, objectbuilders.router, objec
                             size: 200,
                             includeTotal: true,
                             page: 2
-                        }, String.format("NamaUjian eq '{0}'", ko.unwrap(ujian().NamaUjian)));
+                        }, $f);
                     }
                     return Task.fromResult(0);
                 })
@@ -94,6 +103,74 @@ define(["services/datacontext", objectbuilders.app, objectbuilders.router, objec
                     });
                     // assume it's only 400 max
                 });
+
+
+        },
+        durationForSection = function () {
+
+            var runTimer = function (v) {
+                if (interval) {
+                    clearInterval(interval);
+                }
+
+                var hours = ko.unwrap(v.DurationHour),
+                    minutes = ko.unwrap(v.DurationMinutes),
+                    start = moment.duration(hours, "hours"),
+                    tcs = new $.Deferred(),
+                    sct = sections().find(function(x) {
+                            return x.section === v.Name();
+                        });
+
+                if (minutes === 1) {
+
+                    start.add(20, "s");
+                } else {
+                    start.add(minutes * 60, "s");
+                }
+
+                // hide other sections
+                currentSection(v.Name());
+
+                interval = window.setInterval(function () {
+                    start.subtract(1000);
+                    timer(start.hours() + " jam " + start.minutes() + " minit   " + start.seconds() + " saat");
+                    if (sct.questions().length <= sct.answered()) {
+
+                        tcs.resolve();
+                        return;
+                    }
+
+                    if (start.as("seconds") <= 0) {
+                        clearInterval(interval);
+
+                        context.post(ko.toJSON({}), "/sesi-ujian/timeout/" + ko.unwrap(sesiUjian().Id));
+                        app.showMessage("Anda sudah kehabisan masa, anda akan di log keluar", "JPA ePsikometrik", ["OK"])
+                            .done(function () {
+                                totalAnswered(questionsCount());
+                                router.navigate("responden-home");
+                            });
+                        tcs.reject();
+                    }
+                }, 1000);
+
+                return tcs.promise();
+            };
+
+            var index = 0;
+            var run = function () {
+                var sct = ujian().SectionCollection()[index];
+                if (typeof sct === "undefined") {
+                    return;
+                }
+                runTimer(sct)
+                        .fail()
+                        .done(function () {
+                            index++;
+                        run();
+                    });
+
+            };
+            run();
 
 
         },
@@ -118,41 +195,51 @@ define(["services/datacontext", objectbuilders.app, objectbuilders.router, objec
 
             });
 
+            $(view).on("contextmenu", function (e) {
+                e.preventDefault();
+            });
+
+            $(view).attr("unselectable", "on")
+                 .css({
+                     '-moz-user-select': "-moz-none",
+                     '-moz-user-select': "none",
+                     '-o-user-select': "none",
+                     '-khtml-user-select': "none", /* you could also put this in a class */
+                     '-webkit-user-select': "none",/* and add the CSS class here instead */
+                     '-ms-user-select': "none",
+                     'user-select': "none"
+                 }).bind("selectstart", function () { return false; });
+
+            if (ko.unwrap(ujian().DurationHour) === null) {
+                if (ujian().BahagianCollection().length > 0) {
+                    console.log("durationForBahagian");
+                }
+                else {
+                    durationForSection();
+                }
+                return;
+            }
+
             var hours = ko.unwrap(ujian().DurationHour),
                 minutes = ko.unwrap(ujian().DurationMinutes),
-                start = moment.duration(hours, 'hours');
-            start.add( minutes * 60,'s');
+                start = moment.duration(hours, "hours");
+            start.add(minutes * 60, "s");
 
             interval = window.setInterval(function () {
                 start.subtract(1000);
                 timer(start.hours() + " jam " + start.minutes() + " minit   " + start.seconds() + " saat");
-                if(start.as('seconds') <= 0 ){
-                  clearInterval(interval);
+                if (start.as("seconds") <= 0) {
+                    clearInterval(interval);
 
-
-                  context.post(ko.toJSON({}), "/sesi-ujian/timeout/" + ko.unwrap(sesiUjian().Id));
-                  app.showMessage("Anda sudah kehabisan masa, anda akan di log keluar", "JPA ePsikometrik", ["OK"])
-                      .done(function () {
-                          totalAnswered(questionsCount());
-                          router.navigate("responden-home");
-                      });
-
+                    context.post(ko.toJSON({}), "/sesi-ujian/timeout/" + ko.unwrap(sesiUjian().Id));
+                    app.showMessage("Anda sudah kehabisan masa, anda akan di log keluar", "JPA ePsikometrik", ["OK"])
+                        .done(function () {
+                            totalAnswered(questionsCount());
+                            router.navigate("responden-home");
+                        });
                 }
             }, 1000);
 
-            $(view).on("contextmenu",function(e){
-               e.preventDefault();
-            });
-
-            $(view).attr('unselectable','on')
-                 .css({'-moz-user-select':'-moz-none',
-                       '-moz-user-select':'none',
-                       '-o-user-select':'none',
-                       '-khtml-user-select':'none', /* you could also put this in a class */
-                       '-webkit-user-select':'none',/* and add the CSS class here instead */
-                       '-ms-user-select':'none',
-                       'user-select':'none'
-                 }).bind('selectstart', function(){ return false; });
 
         },
         detached = function () {
@@ -206,6 +293,7 @@ define(["services/datacontext", objectbuilders.app, objectbuilders.router, objec
         detached: detached,
         canDeactivate: canDeactivate,
         timer: timer,
+        currentSection: currentSection,
         questionsCount: questionsCount,
         totalAnswered: totalAnswered,
         sesiUjian: sesiUjian,
