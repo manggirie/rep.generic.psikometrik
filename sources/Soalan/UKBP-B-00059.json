@@ -3,7 +3,7 @@
   "NoRujukan": "UKBP-B-00059",
   "SoalanNo": "UKBP-B-00059",
   "TeksSoalan": "Adalah sesuatu yang menyeronokkan apabila dapat mempengaruhi seseorang.",
-  "SeksyenSoalan": "",
+  "SeksyenSoalan": "1",
   "PilihanJawapanCollection": {
     "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan]], domain.sph",
     "$values": [
@@ -21,7 +21,7 @@
       }
     ]
   },
-  "Trait": null,
+  "Trait": "E",
   "NamaUjian": "Ujian Khas Biasiswa Persekutuan(UKBP)",
   "Susunan": 59.0,
   "Kategori": null,
@@ -30,6 +30,6 @@
   "Id": "UKBP-B-00059",
   "CreatedDate": "2015-07-06T11:24:56.3240049+08:00",
   "ChangedBy": "admin",
-  "ChangedDate": "2015-07-06T11:24:56.3230038+08:00",
+  "ChangedDate": "2015-08-07T16:15:02.3073089+08:00",
   "WebId": "e47e7be8-e3e8-4d84-8021-b124714dbd9f"
 }

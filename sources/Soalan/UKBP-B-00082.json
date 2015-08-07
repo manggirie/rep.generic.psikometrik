@@ -3,7 +3,7 @@
   "NoRujukan": "UKBP-B-00082",
   "SoalanNo": "UKBP-B-00082",
   "TeksSoalan": "Saya seorang pendengar yang baik apabila seseorang meluahkan masalah peribadinya kepada saya.",
-  "SeksyenSoalan": "",
+  "SeksyenSoalan": "1",
   "PilihanJawapanCollection": {
     "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan]], domain.sph",
     "$values": [
@@ -21,7 +21,7 @@
       }
     ]
   },
-  "Trait": null,
+  "Trait": "D",
   "NamaUjian": "Ujian Khas Biasiswa Persekutuan(UKBP)",
   "Susunan": 82.0,
   "Kategori": null,
@@ -30,6 +30,6 @@
   "Id": "UKBP-B-00082",
   "CreatedDate": "2015-07-06T11:24:56.5031309+08:00",
   "ChangedBy": "admin",
-  "ChangedDate": "2015-07-06T11:24:56.5021302+08:00",
+  "ChangedDate": "2015-08-07T16:28:52.7071719+08:00",
   "WebId": "2b8b3401-e874-4a3d-913a-297d074f140b"
 }

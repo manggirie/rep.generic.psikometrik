@@ -3,7 +3,7 @@
   "NoRujukan": "UKBP-B-00022",
   "SoalanNo": "UKBP-B-00022",
   "TeksSoalan": "Saya dapat merasakan apabila seseorang itu memerlukan orang lain untuk bercakap dengannya.",
-  "SeksyenSoalan": "",
+  "SeksyenSoalan": "1",
   "PilihanJawapanCollection": {
     "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan]], domain.sph",
     "$values": [
@@ -21,7 +21,7 @@
       }
     ]
   },
-  "Trait": null,
+  "Trait": "D",
   "NamaUjian": "Ujian Khas Biasiswa Persekutuan(UKBP)",
   "Susunan": 22.0,
   "Kategori": null,
@@ -30,6 +30,6 @@
   "Id": "UKBP-B-00022",
   "CreatedDate": "2015-07-06T11:24:56.0573165+08:00",
   "ChangedBy": "admin",
-  "ChangedDate": "2015-07-06T11:24:56.0563158+08:00",
+  "ChangedDate": "2015-08-07T15:44:27.8665499+08:00",
   "WebId": "a0e4c281-d8ef-46ee-b136-db0e01cad937"
 }

@@ -232,7 +232,7 @@
     "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.Sph.Domain.RouteParameter, domain.sph]], domain.sph",
     "$values": []
   },
-  "IconClass": null,
+  "IconClass": "fa fa-plus-square-o",
   "IconStoreId": null,
   "EntityDefinitionId": "ukbppercentilenorms",
   "Name": "All Ukbp PercentileNorms",
@@ -246,11 +246,11 @@
   "Entity": "UkbpPercentileNorms",
   "Partial": "partial/ukbp percentilenorms-all",
   "Template": null,
-  "DisplayOnDashboard": false,
+  "DisplayOnDashboard": true,
   "CreatedBy": "admin",
   "Id": "2dda0da9-9a79-43e3-87ec-93a80c38ebb5",
   "CreatedDate": "2015-08-07T11:15:30.3846556+08:00",
   "ChangedBy": "admin",
-  "ChangedDate": "2015-08-07T11:46:10.2206208+08:00",
+  "ChangedDate": "2015-08-07T15:17:13.8013456+08:00",
   "WebId": "03f7ec19-52cf-48e8-8b17-3943768d5df6"
 }

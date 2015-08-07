@@ -3,7 +3,7 @@
   "NoRujukan": "UKBP-B-00025",
   "SoalanNo": "UKBP-B-00025",
   "TeksSoalan": "Saya suka membeli sesuatu benda yang praktikal dan kemudian memasangnya sendiri.",
-  "SeksyenSoalan": "",
+  "SeksyenSoalan": "1",
   "PilihanJawapanCollection": {
     "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan]], domain.sph",
     "$values": [
@@ -21,7 +21,7 @@
       }
     ]
   },
-  "Trait": null,
+  "Trait": "A",
   "NamaUjian": "Ujian Khas Biasiswa Persekutuan(UKBP)",
   "Susunan": 25.0,
   "Kategori": null,
@@ -30,6 +30,6 @@
   "Id": "UKBP-B-00025",
   "CreatedDate": "2015-07-06T11:24:56.0763299+08:00",
   "ChangedBy": "admin",
-  "ChangedDate": "2015-07-06T11:24:56.0758293+08:00",
+  "ChangedDate": "2015-08-07T15:45:28.5116138+08:00",
   "WebId": "ee52aa8a-9440-4286-9b17-c972936173c2"
 }

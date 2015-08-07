@@ -3,7 +3,7 @@
   "NoRujukan": "UKBP-B-00024",
   "SoalanNo": "UKBP-B-00024",
   "TeksSoalan": "Saya memilih untuk berhati-hati daripada mengambil risiko apabila membuat sesuatu keputusan.",
-  "SeksyenSoalan": "",
+  "SeksyenSoalan": "1",
   "PilihanJawapanCollection": {
     "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan]], domain.sph",
     "$values": [
@@ -21,7 +21,7 @@
       }
     ]
   },
-  "Trait": null,
+  "Trait": "F",
   "NamaUjian": "Ujian Khas Biasiswa Persekutuan(UKBP)",
   "Susunan": 24.0,
   "Kategori": null,
@@ -30,6 +30,6 @@
   "Id": "UKBP-B-00024",
   "CreatedDate": "2015-07-06T11:24:56.0678237+08:00",
   "ChangedBy": "admin",
-  "ChangedDate": "2015-07-06T11:24:56.0673231+08:00",
+  "ChangedDate": "2015-08-07T15:45:08.3065935+08:00",
   "WebId": "ec6a77c3-cc88-47be-ba8d-cb9946f09132"
 }

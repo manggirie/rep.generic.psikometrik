@@ -3,7 +3,7 @@
   "NoRujukan": "UKBP-B-00086",
   "SoalanNo": "UKBP-B-00086",
   "TeksSoalan": "Pada pendapat saya, kita perlu memikir dan merancang tindakan yang tepat sebelum melaksanakan sesuatu perkara.",
-  "SeksyenSoalan": "",
+  "SeksyenSoalan": "1",
   "PilihanJawapanCollection": {
     "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan]], domain.sph",
     "$values": [
@@ -21,7 +21,7 @@
       }
     ]
   },
-  "Trait": null,
+  "Trait": "B",
   "NamaUjian": "Ujian Khas Biasiswa Persekutuan(UKBP)",
   "Susunan": 86.0,
   "Kategori": null,
@@ -30,6 +30,6 @@
   "Id": "UKBP-B-00086",
   "CreatedDate": "2015-07-06T11:24:56.549664+08:00",
   "ChangedBy": "admin",
-  "ChangedDate": "2015-07-06T11:24:56.5481627+08:00",
+  "ChangedDate": "2015-08-07T16:29:57.7612723+08:00",
   "WebId": "7cf04c2b-4e5d-480c-8381-d6b53198522a"
 }

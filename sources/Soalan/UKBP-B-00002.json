@@ -3,7 +3,7 @@
   "NoRujukan": "UKBP-B-00002",
   "SoalanNo": "UKBP-B-00002",
   "TeksSoalan": "Saya perlu memahami sesuatu dengan teliti.",
-  "SeksyenSoalan": "",
+  "SeksyenSoalan": "1",
   "PilihanJawapanCollection": {
     "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan]], domain.sph",
     "$values": [
@@ -21,7 +21,7 @@
       }
     ]
   },
-  "Trait": null,
+  "Trait": "B",
   "NamaUjian": "Ujian Khas Biasiswa Persekutuan(UKBP)",
   "Susunan": 2.0,
   "Kategori": null,
@@ -30,6 +30,6 @@
   "Id": "UKBP-B-00002",
   "CreatedDate": "2015-07-06T11:24:55.899705+08:00",
   "ChangedBy": "admin",
-  "ChangedDate": "2015-07-06T11:24:55.8992049+08:00",
+  "ChangedDate": "2015-08-07T15:22:21.6876096+08:00",
   "WebId": "5ea19bfe-d376-48e2-9358-8b54a6e7dfb5"
 }

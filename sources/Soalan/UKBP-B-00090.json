@@ -3,7 +3,7 @@
   "NoRujukan": "UKBP-B-00090",
   "SoalanNo": "UKBP-B-00090",
   "TeksSoalan": "Adalah amat memuaskan bagi saya apabila dapat melakukan sesuatu tugas secara teliti dan sempurna.",
-  "SeksyenSoalan": "",
+  "SeksyenSoalan": "1",
   "PilihanJawapanCollection": {
     "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan]], domain.sph",
     "$values": [
@@ -21,7 +21,7 @@
       }
     ]
   },
-  "Trait": null,
+  "Trait": "F",
   "NamaUjian": "Ujian Khas Biasiswa Persekutuan(UKBP)",
   "Susunan": 90.0,
   "Kategori": null,
@@ -30,6 +30,6 @@
   "Id": "UKBP-B-00090",
   "CreatedDate": "2015-07-06T11:24:56.6087061+08:00",
   "ChangedBy": "admin",
-  "ChangedDate": "2015-07-06T11:24:56.6062041+08:00",
+  "ChangedDate": "2015-08-07T16:31:07.6309119+08:00",
   "WebId": "25bff052-5601-42e7-8279-590f7246e285"
 }

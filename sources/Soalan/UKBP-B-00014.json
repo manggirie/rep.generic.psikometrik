@@ -3,7 +3,7 @@
   "NoRujukan": "UKBP-B-00014",
   "SoalanNo": "UKBP-B-00014",
   "TeksSoalan": "Saya berasa puas hati apabila dapat menerokai idea-idea baru.",
-  "SeksyenSoalan": "",
+  "SeksyenSoalan": "1",
   "PilihanJawapanCollection": {
     "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan]], domain.sph",
     "$values": [
@@ -21,7 +21,7 @@
       }
     ]
   },
-  "Trait": null,
+  "Trait": "B",
   "NamaUjian": "Ujian Khas Biasiswa Persekutuan(UKBP)",
   "Susunan": 14.0,
   "Kategori": null,
@@ -30,6 +30,6 @@
   "Id": "UKBP-B-00014",
   "CreatedDate": "2015-07-06T11:24:56.0002762+08:00",
   "ChangedBy": "admin",
-  "ChangedDate": "2015-07-06T11:24:55.9997761+08:00",
+  "ChangedDate": "2015-08-07T15:35:43.9259874+08:00",
   "WebId": "35bd623e-da2f-4c4f-b184-4fef357c7ff0"
 }

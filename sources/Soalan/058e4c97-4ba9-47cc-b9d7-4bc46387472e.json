@@ -1,9 +1,9 @@
 {
   "$type": "Bespoke.epsikologi_soalan.Domain.Soalan, epsikologi.Soalan",
-  "NoRujukan": "UKBP-B-00284",
-  "SoalanNo": "UKBP-B-00284",
-  "TeksSoalan": "Melakukan projek saintifik.",
-  "SeksyenSoalan": null,
+  "NoRujukan": "UKBP-A-00283",
+  "SoalanNo": "UKBP-A-00283",
+  "TeksSoalan": "Semua jenis muzik, warna dan keindahan boleh mempengaruhi \u0018mood\u0019 saya.",
+  "SeksyenSoalan": "1",
   "PilihanJawapanCollection": {
     "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan]], domain.sph",
     "$values": [
@@ -11,25 +11,25 @@
         "$type": "Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan",
         "Teks": "Ya",
         "Nilai": 1,
-        "WebId": "42cef63b-8497-41cc-92e8-88af3ec860c7"
+        "WebId": "59054110-a471-48b8-84a9-7f714adb99d5"
       },
       {
         "$type": "Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan",
         "Teks": "Tidak",
         "Nilai": 0,
-        "WebId": "6d724628-57a5-4141-aaa2-3aa31d620746"
+        "WebId": "cb5c83ca-e6de-4e97-b163-259a6e498218"
       }
     ]
   },
-  "Trait": null,
+  "Trait": "C",
   "NamaUjian": "Ujian Khas Biasiswa Persekutuan(UKBP)",
-  "Susunan": 103.0,
+  "Susunan": 3.0,
   "Kategori": null,
-  "Bahagian": null,
+  "Bahagian": "B",
   "CreatedBy": "admin",
-  "Id": "6010a8ad-a480-405c-b44d-154f4c2535c0",
-  "CreatedDate": "2015-08-04T15:02:52.2950642+08:00",
+  "Id": "058e4c97-4ba9-47cc-b9d7-4bc46387472e",
+  "CreatedDate": "2015-08-07T15:28:21.8038561+08:00",
   "ChangedBy": "admin",
-  "ChangedDate": "2015-08-04T15:02:52.294064+08:00",
-  "WebId": "9aa07b0b-96d9-4a4d-e35d-d86bc0eaf722"
+  "ChangedDate": "2015-08-07T15:28:21.7988556+08:00",
+  "WebId": "5223ab44-71f4-4ff6-e68a-44bc5f8599b0"
 }

@@ -3,7 +3,7 @@
   "NoRujukan": "UKBP-B-00070",
   "SoalanNo": "UKBP-B-00070",
   "TeksSoalan": "Saya berasa risau kerana terlalu ramai orang yang memerlukan pertolongan dalam masyarakat kita.",
-  "SeksyenSoalan": "",
+  "SeksyenSoalan": "1",
   "PilihanJawapanCollection": {
     "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan]], domain.sph",
     "$values": [
@@ -21,7 +21,7 @@
       }
     ]
   },
-  "Trait": null,
+  "Trait": "D",
   "NamaUjian": "Ujian Khas Biasiswa Persekutuan(UKBP)",
   "Susunan": 70.0,
   "Kategori": null,
@@ -30,6 +30,6 @@
   "Id": "UKBP-B-00070",
   "CreatedDate": "2015-07-06T11:24:56.4020596+08:00",
   "ChangedBy": "admin",
-  "ChangedDate": "2015-07-06T11:24:56.4015595+08:00",
+  "ChangedDate": "2015-08-07T16:21:18.4167059+08:00",
   "WebId": "2f04e0bb-b7c8-47f1-96a6-6a2512f1e9a0"
 }

@@ -3,7 +3,7 @@
   "NoRujukan": "UKBP-B-00050",
   "SoalanNo": "UKBP-B-00050",
   "TeksSoalan": "Saya akan memikirkan sesuatu masalah sehingga saya memperolehi jawapannya.",
-  "SeksyenSoalan": "",
+  "SeksyenSoalan": "1",
   "PilihanJawapanCollection": {
     "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan]], domain.sph",
     "$values": [
@@ -21,7 +21,7 @@
       }
     ]
   },
-  "Trait": null,
+  "Trait": "B",
   "NamaUjian": "Ujian Khas Biasiswa Persekutuan(UKBP)",
   "Susunan": 50.0,
   "Kategori": null,
@@ -30,6 +30,6 @@
   "Id": "UKBP-B-00050",
   "CreatedDate": "2015-07-06T11:24:56.2589586+08:00",
   "ChangedBy": "admin",
-  "ChangedDate": "2015-07-06T11:24:56.2574615+08:00",
+  "ChangedDate": "2015-08-07T16:09:11.114341+08:00",
   "WebId": "cde61abb-70c1-4f57-a366-06f1314e91e4"
 }

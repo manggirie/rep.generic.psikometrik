@@ -3,7 +3,7 @@
   "NoRujukan": "UKBP-B-00018",
   "SoalanNo": "UKBP-B-00018",
   "TeksSoalan": "Saya berasa bangga apabila dapat melakukan sesuatu perkara dengan sangat teliti.",
-  "SeksyenSoalan": "",
+  "SeksyenSoalan": "1",
   "PilihanJawapanCollection": {
     "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan]], domain.sph",
     "$values": [
@@ -21,7 +21,7 @@
       }
     ]
   },
-  "Trait": null,
+  "Trait": "F",
   "NamaUjian": "Ujian Khas Biasiswa Persekutuan(UKBP)",
   "Susunan": 18.0,
   "Kategori": null,
@@ -30,6 +30,6 @@
   "Id": "UKBP-B-00018",
   "CreatedDate": "2015-07-06T11:24:56.0312981+08:00",
   "ChangedBy": "admin",
-  "ChangedDate": "2015-07-06T11:24:56.0307975+08:00",
+  "ChangedDate": "2015-08-07T15:41:04.9262579+08:00",
   "WebId": "360359f6-1e22-46cf-81eb-b7b769cbecc0"
 }

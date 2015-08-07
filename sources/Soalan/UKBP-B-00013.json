@@ -3,7 +3,7 @@
   "NoRujukan": "UKBP-B-00013",
   "SoalanNo": "UKBP-B-00013",
   "TeksSoalan": "Saya gembira membuat sesuatu perkara hasil kerja tangan saya sendiri.",
-  "SeksyenSoalan": "",
+  "SeksyenSoalan": "1",
   "PilihanJawapanCollection": {
     "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan]], domain.sph",
     "$values": [
@@ -21,7 +21,7 @@
       }
     ]
   },
-  "Trait": null,
+  "Trait": "A",
   "NamaUjian": "Ujian Khas Biasiswa Persekutuan(UKBP)",
   "Susunan": 13.0,
   "Kategori": null,
@@ -30,6 +30,6 @@
   "Id": "UKBP-B-00013",
   "CreatedDate": "2015-07-06T11:24:55.9912708+08:00",
   "ChangedBy": "admin",
-  "ChangedDate": "2015-07-06T11:24:55.9892684+08:00",
+  "ChangedDate": "2015-08-07T15:35:27.6634017+08:00",
   "WebId": "8cdaedb8-7f22-4935-be20-523272316ef3"
 }

@@ -3,7 +3,7 @@
   "NoRujukan": "UKBP-B-00054",
   "SoalanNo": "UKBP-B-00054",
   "TeksSoalan": "Saya berasa lebih tenteram apabila aktiviti harian saya telah dirancang.",
-  "SeksyenSoalan": "",
+  "SeksyenSoalan": "1",
   "PilihanJawapanCollection": {
     "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan]], domain.sph",
     "$values": [
@@ -21,7 +21,7 @@
       }
     ]
   },
-  "Trait": null,
+  "Trait": "F",
   "NamaUjian": "Ujian Khas Biasiswa Persekutuan(UKBP)",
   "Susunan": 54.0,
   "Kategori": null,
@@ -30,6 +30,6 @@
   "Id": "UKBP-B-00054",
   "CreatedDate": "2015-07-06T11:24:56.2874789+08:00",
   "ChangedBy": "admin",
-  "ChangedDate": "2015-07-06T11:24:56.2869783+08:00",
+  "ChangedDate": "2015-08-07T16:10:13.3783659+08:00",
   "WebId": "79798b39-e1ac-4e4a-a3b7-9bbd588da338"
 }

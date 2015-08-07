@@ -3,7 +3,7 @@
   "NoRujukan": "UKBP-B-00042",
   "SoalanNo": "UKBP-B-00042",
   "TeksSoalan": "Menepati masa adalah sangat mustahak bagi saya.",
-  "SeksyenSoalan": "",
+  "SeksyenSoalan": "1",
   "PilihanJawapanCollection": {
     "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan]], domain.sph",
     "$values": [
@@ -21,7 +21,7 @@
       }
     ]
   },
-  "Trait": null,
+  "Trait": "F",
   "NamaUjian": "Ujian Khas Biasiswa Persekutuan(UKBP)",
   "Susunan": 42.0,
   "Kategori": null,
@@ -30,6 +30,6 @@
   "Id": "UKBP-B-00042",
   "CreatedDate": "2015-07-06T11:24:56.1994168+08:00",
   "ChangedBy": "admin",
-  "ChangedDate": "2015-07-06T11:24:56.1989162+08:00",
+  "ChangedDate": "2015-08-07T15:53:51.5609263+08:00",
   "WebId": "e3665c04-549a-473f-8a55-3e237a9ce74c"
 }

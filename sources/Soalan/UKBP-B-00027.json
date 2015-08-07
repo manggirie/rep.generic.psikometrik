@@ -3,7 +3,7 @@
   "NoRujukan": "UKBP-B-00027",
   "SoalanNo": "UKBP-B-00027",
   "TeksSoalan": "Saya mempunyai daya imaginasi yang tinggi.",
-  "SeksyenSoalan": "",
+  "SeksyenSoalan": "1",
   "PilihanJawapanCollection": {
     "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan]], domain.sph",
     "$values": [
@@ -21,7 +21,7 @@
       }
     ]
   },
-  "Trait": null,
+  "Trait": "C",
   "NamaUjian": "Ujian Khas Biasiswa Persekutuan(UKBP)",
   "Susunan": 27.0,
   "Kategori": null,
@@ -30,6 +30,6 @@
   "Id": "UKBP-B-00027",
   "CreatedDate": "2015-07-06T11:24:56.0913405+08:00",
   "ChangedBy": "admin",
-  "ChangedDate": "2015-07-06T11:24:56.0908399+08:00",
+  "ChangedDate": "2015-08-07T15:46:01.6479271+08:00",
   "WebId": "b20430da-9c0f-44ef-993f-f034b33e09d9"
 }

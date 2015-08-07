@@ -3,7 +3,7 @@
   "NoRujukan": "UKBP-B-00067",
   "SoalanNo": "UKBP-B-00067",
   "TeksSoalan": "Perkara pertama yang saya lihat pada sesebuah kereta ialah kebagusan enjinnya.",
-  "SeksyenSoalan": "",
+  "SeksyenSoalan": "1",
   "PilihanJawapanCollection": {
     "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan]], domain.sph",
     "$values": [
@@ -21,7 +21,7 @@
       }
     ]
   },
-  "Trait": null,
+  "Trait": "A",
   "NamaUjian": "Ujian Khas Biasiswa Persekutuan(UKBP)",
   "Susunan": 67.0,
   "Kategori": null,
@@ -30,6 +30,6 @@
   "Id": "UKBP-B-00067",
   "CreatedDate": "2015-07-06T11:24:56.380044+08:00",
   "ChangedBy": "admin",
-  "ChangedDate": "2015-07-06T11:24:56.3795439+08:00",
+  "ChangedDate": "2015-08-07T16:20:26.4089059+08:00",
   "WebId": "234529b6-51e1-4e69-ab76-68ae8ae66b85"
 }

@@ -3,7 +3,7 @@
   "NoRujukan": "UKBP-B-00071",
   "SoalanNo": "UKBP-B-00071",
   "TeksSoalan": "Adalah sesuatu yang menyeronokkan apabila sesuatu idea dapat disampaikan kepada orang lain.",
-  "SeksyenSoalan": "",
+  "SeksyenSoalan": "1",
   "PilihanJawapanCollection": {
     "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan]], domain.sph",
     "$values": [
@@ -21,7 +21,7 @@
       }
     ]
   },
-  "Trait": null,
+  "Trait": "E",
   "NamaUjian": "Ujian Khas Biasiswa Persekutuan(UKBP)",
   "Susunan": 71.0,
   "Kategori": null,
@@ -30,6 +30,6 @@
   "Id": "UKBP-B-00071",
   "CreatedDate": "2015-07-06T11:24:56.4100652+08:00",
   "ChangedBy": "admin",
-  "ChangedDate": "2015-07-06T11:24:56.4085644+08:00",
+  "ChangedDate": "2015-08-07T16:21:34.4425059+08:00",
   "WebId": "b7f5b9d6-161b-4725-94aa-17bdb5177f3c"
 }

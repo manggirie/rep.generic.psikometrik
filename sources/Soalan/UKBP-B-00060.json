@@ -3,7 +3,7 @@
   "NoRujukan": "UKBP-B-00060",
   "SoalanNo": "UKBP-B-00060",
   "TeksSoalan": "Apabila saya menetapkan untuk melakukan sesuatu, saya akan melakukannya dengan teratur dan terperinci.",
-  "SeksyenSoalan": "",
+  "SeksyenSoalan": "1",
   "PilihanJawapanCollection": {
     "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan]], domain.sph",
     "$values": [
@@ -21,7 +21,7 @@
       }
     ]
   },
-  "Trait": null,
+  "Trait": "F",
   "NamaUjian": "Ujian Khas Biasiswa Persekutuan(UKBP)",
   "Susunan": 60.0,
   "Kategori": null,
@@ -30,6 +30,6 @@
   "Id": "UKBP-B-00060",
   "CreatedDate": "2015-07-06T11:24:56.3310094+08:00",
   "ChangedBy": "admin",
-  "ChangedDate": "2015-07-06T11:24:56.3305088+08:00",
+  "ChangedDate": "2015-08-07T16:15:23.7081665+08:00",
   "WebId": "1a76f73d-3ae6-407f-9989-3c65572a92cc"
 }

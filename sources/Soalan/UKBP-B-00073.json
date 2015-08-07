@@ -3,7 +3,7 @@
   "NoRujukan": "UKBP-B-00073",
   "SoalanNo": "UKBP-B-00073",
   "TeksSoalan": "Selalunya saya tahu apa yang perlu dilakukan dalam situasi kecemasan.",
-  "SeksyenSoalan": "",
+  "SeksyenSoalan": "1",
   "PilihanJawapanCollection": {
     "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan]], domain.sph",
     "$values": [
@@ -21,7 +21,7 @@
       }
     ]
   },
-  "Trait": null,
+  "Trait": "A",
   "NamaUjian": "Ujian Khas Biasiswa Persekutuan(UKBP)",
   "Susunan": 73.0,
   "Kategori": null,
@@ -30,6 +30,6 @@
   "Id": "UKBP-B-00073",
   "CreatedDate": "2015-07-06T11:24:56.4245752+08:00",
   "ChangedBy": "admin",
-  "ChangedDate": "2015-07-06T11:24:56.423575+08:00",
+  "ChangedDate": "2015-08-07T16:22:11.1985059+08:00",
   "WebId": "ef6a42ef-432a-4dbf-aa0c-2f5230f3f2ba"
 }

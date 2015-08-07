@@ -3,7 +3,7 @@
   "NoRujukan": "UKBP-B-00021",
   "SoalanNo": "UKBP-B-00021",
   "TeksSoalan": "Saya suka berpakaian luar biasa dan mencuba warna serta fesyen yang terbaru.",
-  "SeksyenSoalan": "",
+  "SeksyenSoalan": "1",
   "PilihanJawapanCollection": {
     "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan]], domain.sph",
     "$values": [
@@ -21,7 +21,7 @@
       }
     ]
   },
-  "Trait": null,
+  "Trait": "C",
   "NamaUjian": "Ujian Khas Biasiswa Persekutuan(UKBP)",
   "Susunan": 21.0,
   "Kategori": null,
@@ -30,6 +30,6 @@
   "Id": "UKBP-B-00021",
   "CreatedDate": "2015-07-06T11:24:56.0523139+08:00",
   "ChangedBy": "admin",
-  "ChangedDate": "2015-07-06T11:24:56.0518124+08:00",
+  "ChangedDate": "2015-08-07T15:44:06.8614496+08:00",
   "WebId": "1f8367cc-9e18-42af-b209-2c3c8739b438"
 }

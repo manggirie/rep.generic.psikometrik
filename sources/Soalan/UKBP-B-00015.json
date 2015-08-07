@@ -3,7 +3,7 @@
   "NoRujukan": "UKBP-B-00015",
   "SoalanNo": "UKBP-B-00015",
   "TeksSoalan": "Saya selalu mencari cara-cara baru untuk mempamerkan kreativiti saya.",
-  "SeksyenSoalan": "",
+  "SeksyenSoalan": "1",
   "PilihanJawapanCollection": {
     "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan]], domain.sph",
     "$values": [
@@ -21,7 +21,7 @@
       }
     ]
   },
-  "Trait": null,
+  "Trait": "C",
   "NamaUjian": "Ujian Khas Biasiswa Persekutuan(UKBP)",
   "Susunan": 15.0,
   "Kategori": null,
@@ -30,6 +30,6 @@
   "Id": "UKBP-B-00015",
   "CreatedDate": "2015-07-06T11:24:56.008782+08:00",
   "ChangedBy": "admin",
-  "ChangedDate": "2015-07-06T11:24:56.0082819+08:00",
+  "ChangedDate": "2015-08-07T15:35:59.9700002+08:00",
   "WebId": "3a942cf7-22c4-4f75-ab57-8bd9c260a920"
 }

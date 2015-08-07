@@ -3,7 +3,7 @@
   "NoRujukan": "UKBP-B-00041",
   "SoalanNo": "UKBP-B-00041",
   "TeksSoalan": "Saya akan memulakan sesuatu projek dan membiarkan orang lain menguruskannya secara terperinci.",
-  "SeksyenSoalan": "",
+  "SeksyenSoalan": "1",
   "PilihanJawapanCollection": {
     "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan]], domain.sph",
     "$values": [
@@ -21,7 +21,7 @@
       }
     ]
   },
-  "Trait": null,
+  "Trait": "E",
   "NamaUjian": "Ujian Khas Biasiswa Persekutuan(UKBP)",
   "Susunan": 41.0,
   "Kategori": null,
@@ -30,6 +30,6 @@
   "Id": "UKBP-B-00041",
   "CreatedDate": "2015-07-06T11:24:56.188409+08:00",
   "ChangedBy": "admin",
-  "ChangedDate": "2015-07-06T11:24:56.1879084+08:00",
+  "ChangedDate": "2015-08-07T15:53:28.0691818+08:00",
   "WebId": "9c66cf0d-9194-4f67-b15b-5e4337b44158"
 }

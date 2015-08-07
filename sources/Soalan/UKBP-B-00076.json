@@ -3,7 +3,7 @@
   "NoRujukan": "UKBP-B-00076",
   "SoalanNo": "UKBP-B-00076",
   "TeksSoalan": "Selalunya saya akan meluangkan masa untuk mendampingi orang-orang yang kesepian dan tiada berteman.",
-  "SeksyenSoalan": "",
+  "SeksyenSoalan": "1",
   "PilihanJawapanCollection": {
     "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan]], domain.sph",
     "$values": [
@@ -21,7 +21,7 @@
       }
     ]
   },
-  "Trait": null,
+  "Trait": "D",
   "NamaUjian": "Ujian Khas Biasiswa Persekutuan(UKBP)",
   "Susunan": 76.0,
   "Kategori": null,
@@ -30,6 +30,6 @@
   "Id": "UKBP-B-00076",
   "CreatedDate": "2015-07-06T11:24:56.4480925+08:00",
   "ChangedBy": "admin",
-  "ChangedDate": "2015-07-06T11:24:56.4475919+08:00",
+  "ChangedDate": "2015-08-07T16:25:08.9243871+08:00",
   "WebId": "5b74c0ef-b37e-46c9-b4c1-11fa284d9e94"
 }

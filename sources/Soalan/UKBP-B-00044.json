@@ -3,7 +3,7 @@
   "NoRujukan": "UKBP-B-00044",
   "SoalanNo": "UKBP-B-00044",
   "TeksSoalan": "Saya sering mengajukan pertanyaan 'mengapa'.",
-  "SeksyenSoalan": "",
+  "SeksyenSoalan": "1",
   "PilihanJawapanCollection": {
     "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan]], domain.sph",
     "$values": [
@@ -21,7 +21,7 @@
       }
     ]
   },
-  "Trait": null,
+  "Trait": "B",
   "NamaUjian": "Ujian Khas Biasiswa Persekutuan(UKBP)",
   "Susunan": 44.0,
   "Kategori": null,
@@ -30,6 +30,6 @@
   "Id": "UKBP-B-00044",
   "CreatedDate": "2015-07-06T11:24:56.2129265+08:00",
   "ChangedBy": "admin",
-  "ChangedDate": "2015-07-06T11:24:56.2129265+08:00",
+  "ChangedDate": "2015-08-07T15:54:26.3396945+08:00",
   "WebId": "f14fdf14-aaae-4955-99a2-05055687c9c2"
 }
