@@ -3,7 +3,7 @@
   "NoRujukan": "UKBP-B-00053",
   "SoalanNo": "UKBP-B-00053",
   "TeksSoalan": "Kenaikan pangkat dan perkembangan diri serta kerjaya adalah penting bagi saya.",
-  "SeksyenSoalan": "",
+  "SeksyenSoalan": "1",
   "PilihanJawapanCollection": {
     "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan]], domain.sph",
     "$values": [
@@ -21,7 +21,7 @@
       }
     ]
   },
-  "Trait": null,
+  "Trait": "E",
   "NamaUjian": "Ujian Khas Biasiswa Persekutuan(UKBP)",
   "Susunan": 53.0,
   "Kategori": null,
@@ -30,6 +30,6 @@
   "Id": "UKBP-B-00053",
   "CreatedDate": "2015-07-06T11:24:56.2809741+08:00",
   "ChangedBy": "admin",
-  "ChangedDate": "2015-07-06T11:24:56.2809741+08:00",
+  "ChangedDate": "2015-08-07T16:09:59.9627649+08:00",
   "WebId": "e7c6bf1e-2953-4e94-b49a-af0ca7244fa6"
 }
