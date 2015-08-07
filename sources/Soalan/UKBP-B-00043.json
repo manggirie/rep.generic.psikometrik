@@ -3,7 +3,7 @@
   "NoRujukan": "UKBP-B-00043",
   "SoalanNo": "UKBP-B-00043",
   "TeksSoalan": "Melakukan aktiviti-aktiviti luaran adalah sesuatu yang amat menyegarkan.",
-  "SeksyenSoalan": "",
+  "SeksyenSoalan": "1",
   "PilihanJawapanCollection": {
     "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan]], domain.sph",
     "$values": [
@@ -21,7 +21,7 @@
       }
     ]
   },
-  "Trait": null,
+  "Trait": "A",
   "NamaUjian": "Ujian Khas Biasiswa Persekutuan(UKBP)",
   "Susunan": 43.0,
   "Kategori": null,
@@ -30,6 +30,6 @@
   "Id": "UKBP-B-00043",
   "CreatedDate": "2015-07-06T11:24:56.2059211+08:00",
   "ChangedBy": "admin",
-  "ChangedDate": "2015-07-06T11:24:56.2054205+08:00",
+  "ChangedDate": "2015-08-07T15:54:09.7077622+08:00",
   "WebId": "5b43427a-4e44-4bb3-8d25-a5a86cb7972b"
 }

@@ -3,7 +3,7 @@
   "NoRujukan": "UKBP-B-00038",
   "SoalanNo": "UKBP-B-00038",
   "TeksSoalan": "Saya perlu membuat analisis sesuatu masalah dengan teliti sebelum mengambil sebarang tindakan.",
-  "SeksyenSoalan": "",
+  "SeksyenSoalan": "1",
   "PilihanJawapanCollection": {
     "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan]], domain.sph",
     "$values": [
@@ -21,7 +21,7 @@
       }
     ]
   },
-  "Trait": null,
+  "Trait": "B",
   "NamaUjian": "Ujian Khas Biasiswa Persekutuan(UKBP)",
   "Susunan": 38.0,
   "Kategori": null,
@@ -30,6 +30,6 @@
   "Id": "UKBP-B-00038",
   "CreatedDate": "2015-07-06T11:24:56.1668936+08:00",
   "ChangedBy": "admin",
-  "ChangedDate": "2015-07-06T11:24:56.1668936+08:00",
+  "ChangedDate": "2015-08-07T15:52:15.5208314+08:00",
   "WebId": "d9962bb1-1662-4788-ab08-942a879ad16d"
 }
