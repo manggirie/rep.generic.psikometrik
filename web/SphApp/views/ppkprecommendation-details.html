@@ -111,46 +111,13 @@
         </div>
     </div>
 
-
-<div data-bind="visible:true">
-    <table class="table table-condensed table-striped">
-        <thead>
-            <tr>
-                    <th data-i18n="Text">Text</th>
-                <th></th>
-            </tr>
-        </thead>
-        <tbody data-bind="foreach :ShortInterpretationCollection">
-            <tr>
-                    <td>
-                        
-
-
-    <input  class=" form-control " title=""
-           data-bind="value: Text, visible :true, enable :true ,uniqueName:true"
-           
-           
-           type="text"
-           name="Text"
-           
-            />
-
-
-                    </td>
-                <td>
-                    <a title="remove" href="#" data-bind="click : $parent.removeChildItem.call($parent,$parent.ShortInterpretationCollection, $data)">
-                        <span class="glyphicon glyphicon-remove"></span>
-                    </a>
-                </td>
-            </tr>
-        </tbody>
-    </table>
-    <a data-i18n="Short Interpretation" class="btn btn-link" data-bind="click : addChildItem(ShortInterpretationCollection, bespoke.epsikologi_ppkprecommendation.domain.ShortInterpretation)">
-        <i class="fa fa-plus-circle"></i>
-        Short Interpretation
-    </a>
-
-</div>
+    <div class="form-group" data-bind="visible:true">
+        <label data-i18n="Interpretasi Ringkas" for="21a372eb-b23c-40b4-e5e8-5b20cbc06780" class="col-md-4">Interpretasi Ringkas</label>
+        <div class="col-md-8">
+            <textarea class=" form-control input-large" data-bind="value: InterpretasiRingkas, visible :true, enable :true"
+                      id="21a372eb-b23c-40b4-e5e8-5b20cbc06780" name="InterpretasiRingkas"></textarea>
+        </div>
+    </div>
 </form>
     </div>
     <div class="col-sm-4">
