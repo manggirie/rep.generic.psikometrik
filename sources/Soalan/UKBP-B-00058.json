@@ -3,7 +3,7 @@
   "NoRujukan": "UKBP-B-00058",
   "SoalanNo": "UKBP-B-00058",
   "TeksSoalan": "Saya boleh mengurus dan memahami orang yang meluahkan perasaannya secara berlebihan.",
-  "SeksyenSoalan": "",
+  "SeksyenSoalan": "1",
   "PilihanJawapanCollection": {
     "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan]], domain.sph",
     "$values": [
@@ -21,7 +21,7 @@
       }
     ]
   },
-  "Trait": null,
+  "Trait": "D",
   "NamaUjian": "Ujian Khas Biasiswa Persekutuan(UKBP)",
   "Susunan": 58.0,
   "Kategori": null,
@@ -30,6 +30,6 @@
   "Id": "UKBP-B-00058",
   "CreatedDate": "2015-07-06T11:24:56.3149981+08:00",
   "ChangedBy": "admin",
-  "ChangedDate": "2015-07-06T11:24:56.314498+08:00",
+  "ChangedDate": "2015-08-07T16:14:39.8034903+08:00",
   "WebId": "3064a631-4300-4dba-9cba-82f9d51c71c1"
 }

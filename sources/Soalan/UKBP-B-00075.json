@@ -3,7 +3,7 @@
   "NoRujukan": "UKBP-B-00075",
   "SoalanNo": "UKBP-B-00075",
   "TeksSoalan": "Saya suka mencipta sesuatu perkara yang menarik.",
-  "SeksyenSoalan": "",
+  "SeksyenSoalan": "1",
   "PilihanJawapanCollection": {
     "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan]], domain.sph",
     "$values": [
@@ -21,7 +21,7 @@
       }
     ]
   },
-  "Trait": null,
+  "Trait": "C",
   "NamaUjian": "Ujian Khas Biasiswa Persekutuan(UKBP)",
   "Susunan": 75.0,
   "Kategori": null,
@@ -30,6 +30,6 @@
   "Id": "UKBP-B-00075",
   "CreatedDate": "2015-07-06T11:24:56.4385856+08:00",
   "ChangedBy": "admin",
-  "ChangedDate": "2015-07-06T11:24:56.4380855+08:00",
+  "ChangedDate": "2015-08-07T16:22:42.7328059+08:00",
   "WebId": "4ef13b52-ceb6-4ee6-b8dc-82dec9d1b276"
 }

@@ -3,7 +3,7 @@
   "NoRujukan": "UKBP-B-00061",
   "SoalanNo": "UKBP-B-00061",
   "TeksSoalan": "Kerja-kerja yang menggunakan tenaga atau kekuatan fizikal bukanlah sesuatu yang sukar dilakukan.",
-  "SeksyenSoalan": "",
+  "SeksyenSoalan": "1",
   "PilihanJawapanCollection": {
     "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan]], domain.sph",
     "$values": [
@@ -21,7 +21,7 @@
       }
     ]
   },
-  "Trait": null,
+  "Trait": "A",
   "NamaUjian": "Ujian Khas Biasiswa Persekutuan(UKBP)",
   "Susunan": 61.0,
   "Kategori": null,
@@ -30,6 +30,6 @@
   "Id": "UKBP-B-00061",
   "CreatedDate": "2015-07-06T11:24:56.336013+08:00",
   "ChangedBy": "admin",
-  "ChangedDate": "2015-07-06T11:24:56.3355124+08:00",
+  "ChangedDate": "2015-08-07T16:15:42.8403279+08:00",
   "WebId": "93f9f827-4eac-49d2-8f92-423d0e85f319"
 }

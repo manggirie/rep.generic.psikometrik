@@ -3,7 +3,7 @@
   "NoRujukan": "UKBP-B-00063",
   "SoalanNo": "UKBP-B-00063",
   "TeksSoalan": "Saya tidak suka disamakan dengan orang lain kerana saya suka membuat sesuatu yang berlainan.",
-  "SeksyenSoalan": "",
+  "SeksyenSoalan": "1",
   "PilihanJawapanCollection": {
     "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan]], domain.sph",
     "$values": [
@@ -21,7 +21,7 @@
       }
     ]
   },
-  "Trait": null,
+  "Trait": "C",
   "NamaUjian": "Ujian Khas Biasiswa Persekutuan(UKBP)",
   "Susunan": 63.0,
   "Kategori": null,
@@ -30,6 +30,6 @@
   "Id": "UKBP-B-00063",
   "CreatedDate": "2015-07-06T11:24:56.3515241+08:00",
   "ChangedBy": "admin",
-  "ChangedDate": "2015-07-06T11:24:56.351024+08:00",
+  "ChangedDate": "2015-08-07T16:16:15.7386379+08:00",
   "WebId": "1602b1a0-daed-44a1-a33a-b8a8ff760d2f"
 }

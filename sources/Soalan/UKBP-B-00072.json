@@ -3,7 +3,7 @@
   "NoRujukan": "UKBP-B-00072",
   "SoalanNo": "UKBP-B-00072",
   "TeksSoalan": "Saya sangat cekap menyemak sesuatu perkara secara terperinci.",
-  "SeksyenSoalan": "",
+  "SeksyenSoalan": "1",
   "PilihanJawapanCollection": {
     "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan]], domain.sph",
     "$values": [
@@ -21,7 +21,7 @@
       }
     ]
   },
-  "Trait": null,
+  "Trait": "F",
   "NamaUjian": "Ujian Khas Biasiswa Persekutuan(UKBP)",
   "Susunan": 72.0,
   "Kategori": null,
@@ -30,6 +30,6 @@
   "Id": "UKBP-B-00072",
   "CreatedDate": "2015-07-06T11:24:56.41657+08:00",
   "ChangedBy": "admin",
-  "ChangedDate": "2015-07-06T11:24:56.41657+08:00",
+  "ChangedDate": "2015-08-07T16:21:55.1491059+08:00",
   "WebId": "ae52b78a-e711-41a3-bdba-d98d7c42048f"
 }

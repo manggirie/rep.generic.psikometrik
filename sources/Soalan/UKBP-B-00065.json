@@ -3,7 +3,7 @@
   "NoRujukan": "UKBP-B-00065",
   "SoalanNo": "UKBP-B-00065",
   "TeksSoalan": "Saya bersedia mengambil risiko untuk maju ke hadapan.",
-  "SeksyenSoalan": "",
+  "SeksyenSoalan": "1",
   "PilihanJawapanCollection": {
     "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan]], domain.sph",
     "$values": [
@@ -21,7 +21,7 @@
       }
     ]
   },
-  "Trait": null,
+  "Trait": "E",
   "NamaUjian": "Ujian Khas Biasiswa Persekutuan(UKBP)",
   "Susunan": 65.0,
   "Kategori": null,
@@ -30,6 +30,6 @@
   "Id": "UKBP-B-00065",
   "CreatedDate": "2015-07-06T11:24:56.3665347+08:00",
   "ChangedBy": "admin",
-  "ChangedDate": "2015-07-06T11:24:56.3660341+08:00",
+  "ChangedDate": "2015-08-07T16:16:49.4253335+08:00",
   "WebId": "d5b990c2-4a3c-4958-bae6-3deff2a3db19"
 }

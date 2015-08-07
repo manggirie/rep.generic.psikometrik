@@ -3,7 +3,7 @@
   "NoRujukan": "UKBP-B-00077",
   "SoalanNo": "UKBP-B-00077",
   "TeksSoalan": "Saya suka tawar-menawar.",
-  "SeksyenSoalan": "",
+  "SeksyenSoalan": "1",
   "PilihanJawapanCollection": {
     "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan]], domain.sph",
     "$values": [
@@ -21,7 +21,7 @@
       }
     ]
   },
-  "Trait": null,
+  "Trait": "E",
   "NamaUjian": "Ujian Khas Biasiswa Persekutuan(UKBP)",
   "Susunan": 77.0,
   "Kategori": null,
@@ -30,6 +30,6 @@
   "Id": "UKBP-B-00077",
   "CreatedDate": "2015-07-06T11:24:56.4545969+08:00",
   "ChangedBy": "admin",
-  "ChangedDate": "2015-07-06T11:24:56.4545969+08:00",
+  "ChangedDate": "2015-08-07T16:25:26.4267299+08:00",
   "WebId": "17d97477-97a2-4749-82ae-c9dce7b442d6"
 }
