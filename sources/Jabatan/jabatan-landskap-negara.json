@@ -1,0 +1,14 @@
+{
+  "$type": "Bespoke.epsikologi_jabatan.Domain.Jabatan, epsikologi.Jabatan",
+  "JabatanNo": "jabatan-landskap-negara",
+  "NamaJabatan": "JABATAN LANDSKAP NEGARA",
+  "AgensiNo": "NA",
+  "Kementerian": "KEMENTERIAN KESEJAHTERAAN BANDAR, PERUMAHAN DAN KERAJAAN TEMPATAN",
+  "AgensiKumpulan": "PAP",
+  "CreatedBy": "erymuzuan",
+  "Id": "jabatan-landskap-negara",
+  "CreatedDate": "2015-08-08T07:27:15.5879265+08:00",
+  "ChangedBy": "admin",
+  "ChangedDate": "2015-08-08T07:27:15.5879265+08:00",
+  "WebId": "832f5aca-0783-44b1-a22a-d292377af12c"
+}

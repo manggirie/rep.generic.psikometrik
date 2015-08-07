@@ -1,0 +1,14 @@
+{
+  "$type": "Bespoke.epsikologi_jabatan.Domain.Jabatan, epsikologi.Jabatan",
+  "JabatanNo": "perbadanan-kemajuan-iktisad-negeri-kelantan-kelant",
+  "NamaJabatan": "PERBADANAN KEMAJUAN IKTISAD NEGERI KELANTAN",
+  "AgensiNo": "NA",
+  "Kementerian": "PENTADBIRAN KERAJAAN NEGERI KELANTAN",
+  "AgensiKumpulan": "BBN",
+  "CreatedBy": "erymuzuan",
+  "Id": "perbadanan-kemajuan-iktisad-negeri-kelantan-kelant",
+  "CreatedDate": "2015-08-08T07:27:15.5909253+08:00",
+  "ChangedBy": "admin",
+  "ChangedDate": "2015-08-08T07:27:15.5909253+08:00",
+  "WebId": "f2bc1e9e-3f6d-4f09-aa11-7c7e7757283f"
+}

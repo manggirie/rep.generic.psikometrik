@@ -1,0 +1,14 @@
+{
+  "$type": "Bespoke.epsikologi_jabatan.Domain.Jabatan, epsikologi.Jabatan",
+  "JabatanNo": "yayasan-pembangunan-keluarga-darul-tazim-johor",
+  "NamaJabatan": "YAYASAN PEMBANGUNAN KELUARGA DARUL TAZIM",
+  "AgensiNo": "NA",
+  "Kementerian": "PENTADBIRAN KERAJAAN NEGERI JOHOR",
+  "AgensiKumpulan": "BBN",
+  "CreatedBy": "erymuzuan",
+  "Id": "yayasan-pembangunan-keluarga-darul-tazim-johor",
+  "CreatedDate": "2015-08-08T07:27:15.5899252+08:00",
+  "ChangedBy": "admin",
+  "ChangedDate": "2015-08-08T07:27:15.5899252+08:00",
+  "WebId": "05571e8e-3dee-4df3-ac54-b95710b4f7a5"
+}

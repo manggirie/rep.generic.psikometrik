@@ -1,0 +1,14 @@
+{
+  "$type": "Bespoke.epsikologi_jabatan.Domain.Jabatan, epsikologi.Jabatan",
+  "JabatanNo": "jabatan-tanah-dan-galian-negeri-perlis-perlis",
+  "NamaJabatan": "JABATAN TANAH DAN GALIAN NEGERI PERLIS",
+  "AgensiNo": "NA",
+  "Kementerian": "PENTADBIRAN KERAJAAN NEGERI PERLIS",
+  "AgensiKumpulan": "PAN",
+  "CreatedBy": "erymuzuan",
+  "Id": "jabatan-tanah-dan-galian-negeri-perlis-perlis",
+  "CreatedDate": "2015-08-08T07:27:15.592926+08:00",
+  "ChangedBy": "admin",
+  "ChangedDate": "2015-08-08T07:27:15.592926+08:00",
+  "WebId": "1e998878-94b3-4378-9431-fc3a6c9ad4fc"
+}

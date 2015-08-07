@@ -1,0 +1,14 @@
+{
+  "$type": "Bespoke.epsikologi_jabatan.Domain.Jabatan, epsikologi.Jabatan",
+  "JabatanNo": "majlis-perbandaran-manjung-perak",
+  "NamaJabatan": "MAJLIS PERBANDARAN MANJUNG",
+  "AgensiNo": "NA",
+  "Kementerian": "PENTADBIRAN KERAJAAN NEGERI PERAK",
+  "AgensiKumpulan": "PBT",
+  "CreatedBy": "erymuzuan",
+  "Id": "majlis-perbandaran-manjung-perak",
+  "CreatedDate": "2015-08-08T07:27:15.592926+08:00",
+  "ChangedBy": "admin",
+  "ChangedDate": "2015-08-08T07:27:15.592926+08:00",
+  "WebId": "0c6b4bd5-48e4-440d-a057-8ecf9b4afec9"
+}

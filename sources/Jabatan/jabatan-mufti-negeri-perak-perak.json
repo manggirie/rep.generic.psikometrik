@@ -1,0 +1,14 @@
+{
+  "$type": "Bespoke.epsikologi_jabatan.Domain.Jabatan, epsikologi.Jabatan",
+  "JabatanNo": "jabatan-mufti-negeri-perak-perak",
+  "NamaJabatan": "JABATAN MUFTI NEGERI PERAK",
+  "AgensiNo": "NA",
+  "Kementerian": "PENTADBIRAN KERAJAAN NEGERI PERAK",
+  "AgensiKumpulan": "PAN",
+  "CreatedBy": "erymuzuan",
+  "Id": "jabatan-mufti-negeri-perak-perak",
+  "CreatedDate": "2015-08-08T07:27:15.5924258+08:00",
+  "ChangedBy": "admin",
+  "ChangedDate": "2015-08-08T07:27:15.5924258+08:00",
+  "WebId": "cd7bf6f0-3793-45fb-aae8-ea6294293a48"
+}

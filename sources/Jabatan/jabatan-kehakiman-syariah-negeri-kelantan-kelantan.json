@@ -1,0 +1,14 @@
+{
+  "$type": "Bespoke.epsikologi_jabatan.Domain.Jabatan, epsikologi.Jabatan",
+  "JabatanNo": "jabatan-kehakiman-syariah-negeri-kelantan-kelantan",
+  "NamaJabatan": "JABATAN KEHAKIMAN SYARIAH NEGERI KELANTAN",
+  "AgensiNo": "NA",
+  "Kementerian": "PENTADBIRAN KERAJAAN NEGERI KELANTAN",
+  "AgensiKumpulan": "PAN",
+  "CreatedBy": "erymuzuan",
+  "Id": "jabatan-kehakiman-syariah-negeri-kelantan-kelantan",
+  "CreatedDate": "2015-08-08T07:27:15.5909253+08:00",
+  "ChangedBy": "admin",
+  "ChangedDate": "2015-08-08T07:27:15.5909253+08:00",
+  "WebId": "44416bf1-af80-427c-b6e0-0008c9653ed6"
+}

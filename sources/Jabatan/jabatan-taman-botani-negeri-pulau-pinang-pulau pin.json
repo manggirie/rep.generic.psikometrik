@@ -1,0 +1,14 @@
+{
+  "$type": "Bespoke.epsikologi_jabatan.Domain.Jabatan, epsikologi.Jabatan",
+  "JabatanNo": "jabatan-taman-botani-negeri-pulau-pinang-pulau pin",
+  "NamaJabatan": "JABATAN TAMAN BOTANI NEGERI PULAU PINANG",
+  "AgensiNo": "NA",
+  "Kementerian": "PENTADBIRAN KERAJAAN NEGERI PULAU PINANG",
+  "AgensiKumpulan": "PAN",
+  "CreatedBy": "erymuzuan",
+  "Id": "jabatan-taman-botani-negeri-pulau-pinang-pulau pin",
+  "CreatedDate": "2015-08-08T07:27:15.5934259+08:00",
+  "ChangedBy": "admin",
+  "ChangedDate": "2015-08-08T07:27:15.5934259+08:00",
+  "WebId": "aa5445a3-d233-468c-9fdc-bbdd931185d5"
+}

@@ -1,0 +1,14 @@
+{
+  "$type": "Bespoke.epsikologi_jabatan.Domain.Jabatan, epsikologi.Jabatan",
+  "JabatanNo": "pejabat-kdymm-tuanku-sultan-kedah-darul-aman-kedah",
+  "NamaJabatan": "PEJABAT KDYMM TUANKU SULTAN KEDAH DARUL AMAN",
+  "AgensiNo": "NA",
+  "Kementerian": "PENTADBIRAN KERAJAAN NEGERI KEDAH",
+  "AgensiKumpulan": "PAN",
+  "CreatedBy": "erymuzuan",
+  "Id": "pejabat-kdymm-tuanku-sultan-kedah-darul-aman-kedah",
+  "CreatedDate": "2015-08-08T07:27:15.5904261+08:00",
+  "ChangedBy": "admin",
+  "ChangedDate": "2015-08-08T07:27:15.5904261+08:00",
+  "WebId": "279c807b-32cf-41a4-b299-a3d9031cd6f1"
+}

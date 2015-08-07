@@ -1,0 +1,14 @@
+{
+  "$type": "Bespoke.epsikologi_jabatan.Domain.Jabatan, epsikologi.Jabatan",
+  "JabatanNo": "jabatan-hal-ehwal-agama-islam-negeri-sabah-sabah",
+  "NamaJabatan": "JABATAN HAL EHWAL AGAMA ISLAM NEGERI SABAH",
+  "AgensiNo": "NA",
+  "Kementerian": "PENTADBIRAN KERAJAAN NEGERI SABAH",
+  "AgensiKumpulan": "PAN",
+  "CreatedBy": "erymuzuan",
+  "Id": "jabatan-hal-ehwal-agama-islam-negeri-sabah-sabah",
+  "CreatedDate": "2015-08-08T07:27:15.6009264+08:00",
+  "ChangedBy": "admin",
+  "ChangedDate": "2015-08-08T07:27:15.6009264+08:00",
+  "WebId": "49fc4058-30a0-47cf-8a5b-84a2b29ddf58"
+}

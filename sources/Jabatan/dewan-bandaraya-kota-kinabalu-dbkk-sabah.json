@@ -1,0 +1,14 @@
+{
+  "$type": "Bespoke.epsikologi_jabatan.Domain.Jabatan, epsikologi.Jabatan",
+  "JabatanNo": "dewan-bandaraya-kota-kinabalu-dbkk-sabah",
+  "NamaJabatan": "DEWAN BANDARAYA KOTA KINABALU (DBKK)",
+  "AgensiNo": "NA",
+  "Kementerian": "PENTADBIRAN KERAJAAN NEGERI SABAH",
+  "AgensiKumpulan": "PBT",
+  "CreatedBy": "erymuzuan",
+  "Id": "dewan-bandaraya-kota-kinabalu-dbkk-sabah",
+  "CreatedDate": "2015-08-08T07:27:15.6014257+08:00",
+  "ChangedBy": "admin",
+  "ChangedDate": "2015-08-08T07:27:15.6014257+08:00",
+  "WebId": "fcd6bd62-7f12-4d6d-bfc6-3376961caa7d"
+}

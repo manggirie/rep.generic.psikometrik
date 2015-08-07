@@ -1,0 +1,14 @@
+{
+  "$type": "Bespoke.epsikologi_jabatan.Domain.Jabatan, epsikologi.Jabatan",
+  "JabatanNo": "jabatan-pembangunan-sumber-manusia-sabah",
+  "NamaJabatan": "JABATAN PEMBANGUNAN SUMBER MANUSIA",
+  "AgensiNo": "NA",
+  "Kementerian": "PENTADBIRAN KERAJAAN NEGERI SABAH",
+  "AgensiKumpulan": "PAN",
+  "CreatedBy": "erymuzuan",
+  "Id": "jabatan-pembangunan-sumber-manusia-sabah",
+  "CreatedDate": "2015-08-08T07:27:15.6009264+08:00",
+  "ChangedBy": "admin",
+  "ChangedDate": "2015-08-08T07:27:15.6009264+08:00",
+  "WebId": "8e67c24a-8c6a-478c-9aea-d06591a5cdf6"
+}

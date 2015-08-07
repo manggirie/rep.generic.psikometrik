@@ -1,0 +1,14 @@
+{
+  "$type": "Bespoke.epsikologi_jabatan.Domain.Jabatan, epsikologi.Jabatan",
+  "JabatanNo": "pejabat-daerah-dan-tanah-seberang-perai-tengah-pul",
+  "NamaJabatan": "PEJABAT DAERAH DAN TANAH, SEBERANG PERAI TENGAH",
+  "AgensiNo": "NA",
+  "Kementerian": "PENTADBIRAN KERAJAAN NEGERI PULAU PINANG",
+  "AgensiKumpulan": "PAN",
+  "CreatedBy": "erymuzuan",
+  "Id": "pejabat-daerah-dan-tanah-seberang-perai-tengah-pul",
+  "CreatedDate": "2015-08-08T07:27:15.5934259+08:00",
+  "ChangedBy": "admin",
+  "ChangedDate": "2015-08-08T07:27:15.5934259+08:00",
+  "WebId": "7b22cc48-d1f9-45b6-89fe-b74bf1055844"
+}

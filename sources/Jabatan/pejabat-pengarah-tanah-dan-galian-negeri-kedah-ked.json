@@ -1,0 +1,14 @@
+{
+  "$type": "Bespoke.epsikologi_jabatan.Domain.Jabatan, epsikologi.Jabatan",
+  "JabatanNo": "pejabat-pengarah-tanah-dan-galian-negeri-kedah-ked",
+  "NamaJabatan": "PEJABAT PENGARAH TANAH DAN GALIAN NEGERI KEDAH",
+  "AgensiNo": "NA",
+  "Kementerian": "PENTADBIRAN KERAJAAN NEGERI KEDAH",
+  "AgensiKumpulan": "PAN",
+  "CreatedBy": "erymuzuan",
+  "Id": "pejabat-pengarah-tanah-dan-galian-negeri-kedah-ked",
+  "CreatedDate": "2015-08-08T07:27:15.5904261+08:00",
+  "ChangedBy": "admin",
+  "ChangedDate": "2015-08-08T07:27:15.5904261+08:00",
+  "WebId": "cb31dae1-e99d-4822-a84f-f146019f6be1"
+}

@@ -1,0 +1,14 @@
+{
+  "$type": "Bespoke.epsikologi_jabatan.Domain.Jabatan, epsikologi.Jabatan",
+  "JabatanNo": "lembaga-muzium-negeri-kedah-kedah",
+  "NamaJabatan": "LEMBAGA MUZIUM NEGERI KEDAH",
+  "AgensiNo": "NA",
+  "Kementerian": "PENTADBIRAN KERAJAAN NEGERI KEDAH",
+  "AgensiKumpulan": "BBN",
+  "CreatedBy": "erymuzuan",
+  "Id": "lembaga-muzium-negeri-kedah-kedah",
+  "CreatedDate": "2015-08-08T07:27:15.5904261+08:00",
+  "ChangedBy": "admin",
+  "ChangedDate": "2015-08-08T07:27:15.5904261+08:00",
+  "WebId": "12aeb470-c7b7-4ae4-b5df-5a39983cae89"
+}

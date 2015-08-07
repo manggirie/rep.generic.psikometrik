@@ -1,0 +1,14 @@
+{
+  "$type": "Bespoke.epsikologi_jabatan.Domain.Jabatan, epsikologi.Jabatan",
+  "JabatanNo": "lembaga-muzium-pulau-pinang-pulau pinang",
+  "NamaJabatan": "LEMBAGA MUZIUM PULAU PINANG",
+  "AgensiNo": "NA",
+  "Kementerian": "PENTADBIRAN KERAJAAN NEGERI PULAU PINANG",
+  "AgensiKumpulan": "BBN",
+  "CreatedBy": "erymuzuan",
+  "Id": "lembaga-muzium-pulau-pinang-pulau pinang",
+  "CreatedDate": "2015-08-08T07:27:15.5934259+08:00",
+  "ChangedBy": "admin",
+  "ChangedDate": "2015-08-08T07:27:15.5934259+08:00",
+  "WebId": "fc4a8e9a-3839-43be-ac75-e6482ad08cf2"
+}

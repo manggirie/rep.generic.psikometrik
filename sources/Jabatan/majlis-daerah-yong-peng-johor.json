@@ -1,0 +1,14 @@
+{
+  "$type": "Bespoke.epsikologi_jabatan.Domain.Jabatan, epsikologi.Jabatan",
+  "JabatanNo": "majlis-daerah-yong-peng-johor",
+  "NamaJabatan": "MAJLIS DAERAH YONG PENG",
+  "AgensiNo": "NA",
+  "Kementerian": "PENTADBIRAN KERAJAAN NEGERI JOHOR",
+  "AgensiKumpulan": "PBT",
+  "CreatedBy": "erymuzuan",
+  "Id": "majlis-daerah-yong-peng-johor",
+  "CreatedDate": "2015-08-08T07:27:15.5904261+08:00",
+  "ChangedBy": "admin",
+  "ChangedDate": "2015-08-08T07:27:15.5904261+08:00",
+  "WebId": "035ae893-1c73-4eac-b579-e3df153abdee"
+}

@@ -1,0 +1,14 @@
+{
+  "$type": "Bespoke.epsikologi_jabatan.Domain.Jabatan, epsikologi.Jabatan",
+  "JabatanNo": "majlis-daerah-tampin-sembilan",
+  "NamaJabatan": "MAJLIS DAERAH TAMPIN",
+  "AgensiNo": "NA",
+  "Kementerian": "PENTADBIRAN KERAJAAN NEGERI SEMBILAN",
+  "AgensiKumpulan": "PBT",
+  "CreatedBy": "erymuzuan",
+  "Id": "majlis-daerah-tampin-sembilan",
+  "CreatedDate": "2015-08-08T07:27:15.6034267+08:00",
+  "ChangedBy": "admin",
+  "ChangedDate": "2015-08-08T07:27:15.6034267+08:00",
+  "WebId": "6ebf8f26-5eb0-4b34-b944-e48fd9ee9c0d"
+}

@@ -1,0 +1,14 @@
+{
+  "$type": "Bespoke.epsikologi_jabatan.Domain.Jabatan, epsikologi.Jabatan",
+  "JabatanNo": "jabatan-pengairan-dan-saliran-negeri-selangor-sela",
+  "NamaJabatan": "JABATAN PENGAIRAN DAN SALIRAN NEGERI SELANGOR",
+  "AgensiNo": "NA",
+  "Kementerian": "PENTADBIRAN KERAJAAN NEGERI SELANGOR",
+  "AgensiKumpulan": "PAN",
+  "CreatedBy": "erymuzuan",
+  "Id": "jabatan-pengairan-dan-saliran-negeri-selangor-sela",
+  "CreatedDate": "2015-08-08T07:27:15.6029264+08:00",
+  "ChangedBy": "admin",
+  "ChangedDate": "2015-08-08T07:27:15.6029264+08:00",
+  "WebId": "546b4697-7215-4a45-a09e-09e56e4c79c2"
+}

@@ -1,0 +1,14 @@
+{
+  "$type": "Bespoke.epsikologi_jabatan.Domain.Jabatan, epsikologi.Jabatan",
+  "JabatanNo": "perbadanan-kemajuan-negeri-negeri-sembilan-sembila",
+  "NamaJabatan": "PERBADANAN KEMAJUAN NEGERI, NEGERI SEMBILAN",
+  "AgensiNo": "NA",
+  "Kementerian": "PENTADBIRAN KERAJAAN NEGERI SEMBILAN",
+  "AgensiKumpulan": "BBN",
+  "CreatedBy": "erymuzuan",
+  "Id": "perbadanan-kemajuan-negeri-negeri-sembilan-sembila",
+  "CreatedDate": "2015-08-08T07:27:15.6034267+08:00",
+  "ChangedBy": "admin",
+  "ChangedDate": "2015-08-08T07:27:15.6034267+08:00",
+  "WebId": "f4961536-0457-42d7-9b60-a11b45e422ae"
+}

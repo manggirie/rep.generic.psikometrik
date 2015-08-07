@@ -1,0 +1,14 @@
+{
+  "$type": "Bespoke.epsikologi_jabatan.Domain.Jabatan, epsikologi.Jabatan",
+  "JabatanNo": "jabatan-kehakiman-syariah-negeri-pulau-pinang-pula",
+  "NamaJabatan": "JABATAN KEHAKIMAN SYARIAH NEGERI PULAU PINANG",
+  "AgensiNo": "NA",
+  "Kementerian": "PENTADBIRAN KERAJAAN NEGERI PULAU PINANG",
+  "AgensiKumpulan": "PAN",
+  "CreatedBy": "erymuzuan",
+  "Id": "jabatan-kehakiman-syariah-negeri-pulau-pinang-pula",
+  "CreatedDate": "2015-08-08T07:27:15.592926+08:00",
+  "ChangedBy": "admin",
+  "ChangedDate": "2015-08-08T07:27:15.592926+08:00",
+  "WebId": "593c7812-add2-4cc4-8f11-9ae3a1be10cc"
+}

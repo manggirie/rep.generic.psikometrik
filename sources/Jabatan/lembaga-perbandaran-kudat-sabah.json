@@ -1,0 +1,14 @@
+{
+  "$type": "Bespoke.epsikologi_jabatan.Domain.Jabatan, epsikologi.Jabatan",
+  "JabatanNo": "lembaga-perbandaran-kudat-sabah",
+  "NamaJabatan": "LEMBAGA PERBANDARAN KUDAT",
+  "AgensiNo": "NA",
+  "Kementerian": "PENTADBIRAN KERAJAAN NEGERI SABAH",
+  "AgensiKumpulan": "PBT",
+  "CreatedBy": "erymuzuan",
+  "Id": "lembaga-perbandaran-kudat-sabah",
+  "CreatedDate": "2015-08-08T07:27:15.6014257+08:00",
+  "ChangedBy": "admin",
+  "ChangedDate": "2015-08-08T07:27:15.6014257+08:00",
+  "WebId": "ed427f56-dde6-432f-a896-57dce0c8a7dc"
+}

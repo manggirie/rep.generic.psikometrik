@@ -1,0 +1,14 @@
+{
+  "$type": "Bespoke.epsikologi_jabatan.Domain.Jabatan, epsikologi.Jabatan",
+  "JabatanNo": "majlis-daerah-beluran-sabah",
+  "NamaJabatan": "MAJLIS DAERAH  BELURAN",
+  "AgensiNo": "NA",
+  "Kementerian": "PENTADBIRAN KERAJAAN NEGERI SABAH",
+  "AgensiKumpulan": "PBT",
+  "CreatedBy": "erymuzuan",
+  "Id": "majlis-daerah-beluran-sabah",
+  "CreatedDate": "2015-08-08T07:27:15.6014257+08:00",
+  "ChangedBy": "admin",
+  "ChangedDate": "2015-08-08T07:27:15.6014257+08:00",
+  "WebId": "84802e02-456b-41f7-9ce2-204db13fc879"
+}

@@ -1,0 +1,14 @@
+{
+  "$type": "Bespoke.epsikologi_jabatan.Domain.Jabatan, epsikologi.Jabatan",
+  "JabatanNo": "jabatan-perkhidmatan-veterinar-negeri-selangor-sel",
+  "NamaJabatan": "JABATAN PERKHIDMATAN VETERINAR NEGERI SELANGOR",
+  "AgensiNo": "NA",
+  "Kementerian": "PENTADBIRAN KERAJAAN NEGERI SELANGOR",
+  "AgensiKumpulan": "PAN",
+  "CreatedBy": "erymuzuan",
+  "Id": "jabatan-perkhidmatan-veterinar-negeri-selangor-sel",
+  "CreatedDate": "2015-08-08T07:27:15.6029264+08:00",
+  "ChangedBy": "admin",
+  "ChangedDate": "2015-08-08T07:27:15.6029264+08:00",
+  "WebId": "033577bf-1a08-477e-aa42-75297c1fb480"
+}

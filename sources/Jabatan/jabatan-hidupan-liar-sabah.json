@@ -1,0 +1,14 @@
+{
+  "$type": "Bespoke.epsikologi_jabatan.Domain.Jabatan, epsikologi.Jabatan",
+  "JabatanNo": "jabatan-hidupan-liar-sabah",
+  "NamaJabatan": "JABATAN HIDUPAN LIAR",
+  "AgensiNo": "NA",
+  "Kementerian": "PENTADBIRAN KERAJAAN NEGERI SABAH",
+  "AgensiKumpulan": "PAN",
+  "CreatedBy": "erymuzuan",
+  "Id": "jabatan-hidupan-liar-sabah",
+  "CreatedDate": "2015-08-08T07:27:15.6009264+08:00",
+  "ChangedBy": "admin",
+  "ChangedDate": "2015-08-08T07:27:15.6009264+08:00",
+  "WebId": "51c0849f-8068-4f45-910a-19b3143f0877"
+}

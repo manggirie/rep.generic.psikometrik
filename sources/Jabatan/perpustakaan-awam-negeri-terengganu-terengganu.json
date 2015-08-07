@@ -1,0 +1,14 @@
+{
+  "$type": "Bespoke.epsikologi_jabatan.Domain.Jabatan, epsikologi.Jabatan",
+  "JabatanNo": "perpustakaan-awam-negeri-terengganu-terengganu",
+  "NamaJabatan": "PERPUSTAKAAN AWAM NEGERI TERENGGANU",
+  "AgensiNo": "NA",
+  "Kementerian": "PENTADBIRAN KERAJAAN NEGERI TERENGGANU",
+  "AgensiKumpulan": "BBN",
+  "CreatedBy": "erymuzuan",
+  "Id": "perpustakaan-awam-negeri-terengganu-terengganu",
+  "CreatedDate": "2015-08-08T07:27:15.6039266+08:00",
+  "ChangedBy": "admin",
+  "ChangedDate": "2015-08-08T07:27:15.6039266+08:00",
+  "WebId": "3a3acb3c-d236-4a8b-b64b-343e46f1aaf5"
+}

@@ -1,0 +1,14 @@
+{
+  "$type": "Bespoke.epsikologi_jabatan.Domain.Jabatan, epsikologi.Jabatan",
+  "JabatanNo": "majlis-daerah-raub-pahang",
+  "NamaJabatan": "MAJLIS DAERAH RAUB",
+  "AgensiNo": "NA",
+  "Kementerian": "PENTADBIRAN KERAJAAN NEGERI PAHANG",
+  "AgensiKumpulan": "PBT",
+  "CreatedBy": "erymuzuan",
+  "Id": "majlis-daerah-raub-pahang",
+  "CreatedDate": "2015-08-08T07:27:15.5924258+08:00",
+  "ChangedBy": "admin",
+  "ChangedDate": "2015-08-08T07:27:15.5924258+08:00",
+  "WebId": "d4ef0a38-5afb-4faa-b814-f14da8c301d7"
+}

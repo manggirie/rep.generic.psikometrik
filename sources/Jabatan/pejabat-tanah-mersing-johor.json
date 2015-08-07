@@ -1,0 +1,14 @@
+{
+  "$type": "Bespoke.epsikologi_jabatan.Domain.Jabatan, epsikologi.Jabatan",
+  "JabatanNo": "pejabat-tanah-mersing-johor",
+  "NamaJabatan": "PEJABAT TANAH MERSING",
+  "AgensiNo": "NA",
+  "Kementerian": "PENTADBIRAN KERAJAAN NEGERI JOHOR",
+  "AgensiKumpulan": "PAN",
+  "CreatedBy": "erymuzuan",
+  "Id": "pejabat-tanah-mersing-johor",
+  "CreatedDate": "2015-08-08T07:27:15.5899252+08:00",
+  "ChangedBy": "admin",
+  "ChangedDate": "2015-08-08T07:27:15.5899252+08:00",
+  "WebId": "75bd3bbf-2b0b-4f02-a825-974ce409e793"
+}

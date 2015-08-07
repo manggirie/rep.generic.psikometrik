@@ -1,0 +1,14 @@
+{
+  "$type": "Bespoke.epsikologi_jabatan.Domain.Jabatan, epsikologi.Jabatan",
+  "JabatanNo": "majlis-daerah-jerantut-pahang",
+  "NamaJabatan": "MAJLIS DAERAH JERANTUT",
+  "AgensiNo": "NA",
+  "Kementerian": "PENTADBIRAN KERAJAAN NEGERI PAHANG",
+  "AgensiKumpulan": "PBT",
+  "CreatedBy": "erymuzuan",
+  "Id": "majlis-daerah-jerantut-pahang",
+  "CreatedDate": "2015-08-08T07:27:15.5919252+08:00",
+  "ChangedBy": "admin",
+  "ChangedDate": "2015-08-08T07:27:15.5919252+08:00",
+  "WebId": "0bca16a1-da38-4bf2-a759-ab93863505b4"
+}

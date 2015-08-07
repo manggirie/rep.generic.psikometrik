@@ -1,0 +1,14 @@
+{
+  "$type": "Bespoke.epsikologi_jabatan.Domain.Jabatan, epsikologi.Jabatan",
+  "JabatanNo": "majlis-daerah-sipitang-sabah",
+  "NamaJabatan": "MAJLIS DAERAH SIPITANG",
+  "AgensiNo": "NA",
+  "Kementerian": "PENTADBIRAN KERAJAAN NEGERI SABAH",
+  "AgensiKumpulan": "PBT",
+  "CreatedBy": "erymuzuan",
+  "Id": "majlis-daerah-sipitang-sabah",
+  "CreatedDate": "2015-08-08T07:27:15.6014257+08:00",
+  "ChangedBy": "admin",
+  "ChangedDate": "2015-08-08T07:27:15.6014257+08:00",
+  "WebId": "95ae8d07-7102-4b88-8601-182593d4056a"
+}

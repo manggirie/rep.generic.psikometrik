@@ -1,0 +1,14 @@
+{
+  "$type": "Bespoke.epsikologi_jabatan.Domain.Jabatan, epsikologi.Jabatan",
+  "JabatanNo": "perbadanan-kemajuan-negeri-melaka-melaka",
+  "NamaJabatan": "PERBADANAN KEMAJUAN NEGERI MELAKA",
+  "AgensiNo": "NA",
+  "Kementerian": "PENTADBIRAN KERAJAAN NEGERI MELAKA",
+  "AgensiKumpulan": "BBN",
+  "CreatedBy": "erymuzuan",
+  "Id": "perbadanan-kemajuan-negeri-melaka-melaka",
+  "CreatedDate": "2015-08-08T07:27:15.5914256+08:00",
+  "ChangedBy": "admin",
+  "ChangedDate": "2015-08-08T07:27:15.5914256+08:00",
+  "WebId": "8da76583-ab85-40d6-9588-2680c41aa3e6"
+}

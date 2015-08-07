@@ -1,0 +1,14 @@
+{
+  "$type": "Bespoke.epsikologi_jabatan.Domain.Jabatan, epsikologi.Jabatan",
+  "JabatanNo": "majlis-perbandaran-port-dickson-sembilan",
+  "NamaJabatan": "MAJLIS PERBANDARAN PORT DICKSON",
+  "AgensiNo": "NA",
+  "Kementerian": "PENTADBIRAN KERAJAAN NEGERI SEMBILAN",
+  "AgensiKumpulan": "PBT",
+  "CreatedBy": "erymuzuan",
+  "Id": "majlis-perbandaran-port-dickson-sembilan",
+  "CreatedDate": "2015-08-08T07:27:15.6034267+08:00",
+  "ChangedBy": "admin",
+  "ChangedDate": "2015-08-08T07:27:15.6034267+08:00",
+  "WebId": "34656b7c-fee9-46da-aa4e-0fc51016cf01"
+}

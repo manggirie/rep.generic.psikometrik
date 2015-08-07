@@ -1,0 +1,14 @@
+{
+  "$type": "Bespoke.epsikologi_jabatan.Domain.Jabatan, epsikologi.Jabatan",
+  "JabatanNo": "majlis-perbandaran-bentong-pahang",
+  "NamaJabatan": "MAJLIS PERBANDARAN BENTONG",
+  "AgensiNo": "NA",
+  "Kementerian": "PENTADBIRAN KERAJAAN NEGERI PAHANG",
+  "AgensiKumpulan": "PBT",
+  "CreatedBy": "erymuzuan",
+  "Id": "majlis-perbandaran-bentong-pahang",
+  "CreatedDate": "2015-08-08T07:27:15.5924258+08:00",
+  "ChangedBy": "admin",
+  "ChangedDate": "2015-08-08T07:27:15.5924258+08:00",
+  "WebId": "f71271e6-9c87-4776-b350-a9583845631f"
+}

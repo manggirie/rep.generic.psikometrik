@@ -1,0 +1,14 @@
+{
+  "$type": "Bespoke.epsikologi_jabatan.Domain.Jabatan, epsikologi.Jabatan",
+  "JabatanNo": "pejabat-pengarah-kebajikan-masyarakat-negeri-teren",
+  "NamaJabatan": "PEJABAT PENGARAH KEBAJIKAN MASYARAKAT NEGERI",
+  "AgensiNo": "NA",
+  "Kementerian": "PENTADBIRAN KERAJAAN NEGERI TERENGGANU",
+  "AgensiKumpulan": "PAN",
+  "CreatedBy": "erymuzuan",
+  "Id": "pejabat-pengarah-kebajikan-masyarakat-negeri-teren",
+  "CreatedDate": "2015-08-08T07:27:15.6034267+08:00",
+  "ChangedBy": "admin",
+  "ChangedDate": "2015-08-08T07:27:15.6034267+08:00",
+  "WebId": "407c353f-11bb-4e1d-8257-e1b2c7d67ac3"
+}

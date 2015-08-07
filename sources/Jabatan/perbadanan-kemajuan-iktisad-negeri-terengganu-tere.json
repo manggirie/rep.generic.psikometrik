@@ -1,0 +1,14 @@
+{
+  "$type": "Bespoke.epsikologi_jabatan.Domain.Jabatan, epsikologi.Jabatan",
+  "JabatanNo": "perbadanan-kemajuan-iktisad-negeri-terengganu-tere",
+  "NamaJabatan": "PERBADANAN KEMAJUAN IKTISAD NEGERI TERENGGANU",
+  "AgensiNo": "NA",
+  "Kementerian": "PENTADBIRAN KERAJAAN NEGERI TERENGGANU",
+  "AgensiKumpulan": "BBN",
+  "CreatedBy": "erymuzuan",
+  "Id": "perbadanan-kemajuan-iktisad-negeri-terengganu-tere",
+  "CreatedDate": "2015-08-08T07:27:15.6034267+08:00",
+  "ChangedBy": "admin",
+  "ChangedDate": "2015-08-08T07:27:15.6034267+08:00",
+  "WebId": "2885ac49-3a81-4776-ae9b-13d80a76ceb8"
+}

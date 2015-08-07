@@ -1,0 +1,14 @@
+{
+  "$type": "Bespoke.epsikologi_jabatan.Domain.Jabatan, epsikologi.Jabatan",
+  "JabatanNo": "majlis-daerah-jeli-kelantan",
+  "NamaJabatan": "MAJLIS DAERAH JELI",
+  "AgensiNo": "NA",
+  "Kementerian": "PENTADBIRAN KERAJAAN NEGERI KELANTAN",
+  "AgensiKumpulan": "PBT",
+  "CreatedBy": "erymuzuan",
+  "Id": "majlis-daerah-jeli-kelantan",
+  "CreatedDate": "2015-08-08T07:27:15.5914256+08:00",
+  "ChangedBy": "admin",
+  "ChangedDate": "2015-08-08T07:27:15.5914256+08:00",
+  "WebId": "078d3479-e335-4530-8512-130890388f2e"
+}

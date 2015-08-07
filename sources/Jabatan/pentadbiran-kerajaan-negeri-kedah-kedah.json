@@ -1,0 +1,14 @@
+{
+  "$type": "Bespoke.epsikologi_jabatan.Domain.Jabatan, epsikologi.Jabatan",
+  "JabatanNo": "pentadbiran-kerajaan-negeri-kedah-kedah",
+  "NamaJabatan": "PENTADBIRAN KERAJAAN NEGERI KEDAH",
+  "AgensiNo": "NA",
+  "Kementerian": "PENTADBIRAN KERAJAAN NEGERI KEDAH",
+  "AgensiKumpulan": "PAN",
+  "CreatedBy": "erymuzuan",
+  "Id": "pentadbiran-kerajaan-negeri-kedah-kedah",
+  "CreatedDate": "2015-08-08T07:27:15.5904261+08:00",
+  "ChangedBy": "admin",
+  "ChangedDate": "2015-08-08T07:27:15.5904261+08:00",
+  "WebId": "040c05ff-d635-453d-9bcc-59e9027dbe45"
+}

@@ -1,0 +1,14 @@
+{
+  "$type": "Bespoke.epsikologi_jabatan.Domain.Jabatan, epsikologi.Jabatan",
+  "JabatanNo": "yayasan-perak-perak",
+  "NamaJabatan": "YAYASAN PERAK",
+  "AgensiNo": "NA",
+  "Kementerian": "PENTADBIRAN KERAJAAN NEGERI PERAK",
+  "AgensiKumpulan": "BBN",
+  "CreatedBy": "erymuzuan",
+  "Id": "yayasan-perak-perak",
+  "CreatedDate": "2015-08-08T07:27:15.5924258+08:00",
+  "ChangedBy": "admin",
+  "ChangedDate": "2015-08-08T07:27:15.5924258+08:00",
+  "WebId": "e5e5777c-77b8-40f7-a851-1f352e23f939"
+}

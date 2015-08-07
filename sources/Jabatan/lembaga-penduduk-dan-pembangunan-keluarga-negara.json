@@ -1,0 +1,14 @@
+{
+  "$type": "Bespoke.epsikologi_jabatan.Domain.Jabatan, epsikologi.Jabatan",
+  "JabatanNo": "lembaga-penduduk-dan-pembangunan-keluarga-negara",
+  "NamaJabatan": "LEMBAGA PENDUDUK DAN PEMBANGUNAN KELUARGA NEGARA",
+  "AgensiNo": "NA",
+  "Kementerian": "KEMENTERIAN PEMBANGUNAN WANITA, KELUARGA DAN MASYARAKAT",
+  "AgensiKumpulan": "BBP",
+  "CreatedBy": "erymuzuan",
+  "Id": "lembaga-penduduk-dan-pembangunan-keluarga-negara",
+  "CreatedDate": "2015-08-08T07:27:15.5884271+08:00",
+  "ChangedBy": "admin",
+  "ChangedDate": "2015-08-08T07:27:15.5884271+08:00",
+  "WebId": "027c97d1-0717-4097-9393-4c56cc1aa65e"
+}

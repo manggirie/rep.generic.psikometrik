@@ -1,0 +1,14 @@
+{
+  "$type": "Bespoke.epsikologi_jabatan.Domain.Jabatan, epsikologi.Jabatan",
+  "JabatanNo": "perbadanan-hang-tuah-jaya-melaka",
+  "NamaJabatan": "PERBADANAN HANG TUAH JAYA",
+  "AgensiNo": "NA",
+  "Kementerian": "PENTADBIRAN KERAJAAN NEGERI MELAKA",
+  "AgensiKumpulan": "BBN",
+  "CreatedBy": "erymuzuan",
+  "Id": "perbadanan-hang-tuah-jaya-melaka",
+  "CreatedDate": "2015-08-08T07:27:15.5914256+08:00",
+  "ChangedBy": "admin",
+  "ChangedDate": "2015-08-08T07:27:15.5914256+08:00",
+  "WebId": "324dc7a0-eda5-45dd-88dd-24cbb4eef3b1"
+}

@@ -1,0 +1,14 @@
+{
+  "$type": "Bespoke.epsikologi_jabatan.Domain.Jabatan, epsikologi.Jabatan",
+  "JabatanNo": "perbadanan-islam-johor-johor",
+  "NamaJabatan": "PERBADANAN ISLAM JOHOR",
+  "AgensiNo": "NA",
+  "Kementerian": "PENTADBIRAN KERAJAAN NEGERI JOHOR",
+  "AgensiKumpulan": "BBN",
+  "CreatedBy": "erymuzuan",
+  "Id": "perbadanan-islam-johor-johor",
+  "CreatedDate": "2015-08-08T07:27:15.5899252+08:00",
+  "ChangedBy": "admin",
+  "ChangedDate": "2015-08-08T07:27:15.5899252+08:00",
+  "WebId": "9799d0ef-140f-41d4-a3e5-28c0439f7618"
+}

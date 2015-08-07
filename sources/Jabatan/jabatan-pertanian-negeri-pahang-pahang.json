@@ -1,0 +1,14 @@
+{
+  "$type": "Bespoke.epsikologi_jabatan.Domain.Jabatan, epsikologi.Jabatan",
+  "JabatanNo": "jabatan-pertanian-negeri-pahang-pahang",
+  "NamaJabatan": "JABATAN PERTANIAN NEGERI PAHANG",
+  "AgensiNo": "NA",
+  "Kementerian": "PENTADBIRAN KERAJAAN NEGERI PAHANG",
+  "AgensiKumpulan": "PAN",
+  "CreatedBy": "erymuzuan",
+  "Id": "jabatan-pertanian-negeri-pahang-pahang",
+  "CreatedDate": "2015-08-08T07:27:15.5919252+08:00",
+  "ChangedBy": "admin",
+  "ChangedDate": "2015-08-08T07:27:15.5919252+08:00",
+  "WebId": "2bce4661-c621-47dc-ac27-f131c89b4d8c"
+}

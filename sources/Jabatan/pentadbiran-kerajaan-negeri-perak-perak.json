@@ -1,0 +1,14 @@
+{
+  "$type": "Bespoke.epsikologi_jabatan.Domain.Jabatan, epsikologi.Jabatan",
+  "JabatanNo": "pentadbiran-kerajaan-negeri-perak-perak",
+  "NamaJabatan": "PENTADBIRAN KERAJAAN NEGERI PERAK",
+  "AgensiNo": "NA",
+  "Kementerian": "PENTADBIRAN KERAJAAN NEGERI PERAK",
+  "AgensiKumpulan": "PAN",
+  "CreatedBy": "erymuzuan",
+  "Id": "pentadbiran-kerajaan-negeri-perak-perak",
+  "CreatedDate": "2015-08-08T07:27:15.5924258+08:00",
+  "ChangedBy": "admin",
+  "ChangedDate": "2015-08-08T07:27:15.5924258+08:00",
+  "WebId": "ab5b1eed-dcec-4fba-aa6a-661fee65dae3"
+}

@@ -1,0 +1,14 @@
+{
+  "$type": "Bespoke.epsikologi_jabatan.Domain.Jabatan, epsikologi.Jabatan",
+  "JabatanNo": "suruhanjaya-perkhidmatan-awam-negeri-selangor-sela",
+  "NamaJabatan": "SURUHANJAYA PERKHIDMATAN AWAM NEGERI SELANGOR",
+  "AgensiNo": "NA",
+  "Kementerian": "PENTADBIRAN KERAJAAN NEGERI SELANGOR",
+  "AgensiKumpulan": "PAN",
+  "CreatedBy": "erymuzuan",
+  "Id": "suruhanjaya-perkhidmatan-awam-negeri-selangor-sela",
+  "CreatedDate": "2015-08-08T07:27:15.6029264+08:00",
+  "ChangedBy": "admin",
+  "ChangedDate": "2015-08-08T07:27:15.6029264+08:00",
+  "WebId": "1cd749cd-4544-45d1-ae8c-1db7d4cf94f7"
+}

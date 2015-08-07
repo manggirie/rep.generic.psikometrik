@@ -1,0 +1,14 @@
+{
+  "$type": "Bespoke.epsikologi_jabatan.Domain.Jabatan, epsikologi.Jabatan",
+  "JabatanNo": "kementerian-tenaga-teknologi-hijau-dan-air",
+  "NamaJabatan": "KEMENTERIAN TENAGA, TEKNOLOGI HIJAU DAN AIR",
+  "AgensiNo": "NA",
+  "Kementerian": "KEMENTERIAN TENAGA, TEKNOLOGI HIJAU DAN AIR",
+  "AgensiKumpulan": "PAP",
+  "CreatedBy": "erymuzuan",
+  "Id": "kementerian-tenaga-teknologi-hijau-dan-air",
+  "CreatedDate": "2015-08-08T07:27:15.5894249+08:00",
+  "ChangedBy": "admin",
+  "ChangedDate": "2015-08-08T07:27:15.5894249+08:00",
+  "WebId": "16a40056-dabe-4bfd-8d06-4cfa06d9d5e1"
+}

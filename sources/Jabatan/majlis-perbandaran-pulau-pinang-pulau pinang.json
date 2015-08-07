@@ -1,0 +1,14 @@
+{
+  "$type": "Bespoke.epsikologi_jabatan.Domain.Jabatan, epsikologi.Jabatan",
+  "JabatanNo": "majlis-perbandaran-pulau-pinang-pulau pinang",
+  "NamaJabatan": "MAJLIS PERBANDARAN PULAU PINANG",
+  "AgensiNo": "NA",
+  "Kementerian": "PENTADBIRAN KERAJAAN NEGERI PULAU PINANG",
+  "AgensiKumpulan": "PBT",
+  "CreatedBy": "erymuzuan",
+  "Id": "majlis-perbandaran-pulau-pinang-pulau pinang",
+  "CreatedDate": "2015-08-08T07:27:15.6004265+08:00",
+  "ChangedBy": "admin",
+  "ChangedDate": "2015-08-08T07:27:15.6004265+08:00",
+  "WebId": "c3f5367f-9048-4866-8864-52f7728b900d"
+}

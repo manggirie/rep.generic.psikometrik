@@ -1,0 +1,14 @@
+{
+  "$type": "Bespoke.epsikologi_jabatan.Domain.Jabatan, epsikologi.Jabatan",
+  "JabatanNo": "pejabat-kewangan-dan-perbendaharaan-negeri-pahang-",
+  "NamaJabatan": "PEJABAT KEWANGAN DAN PERBENDAHARAAN NEGERI PAHANG",
+  "AgensiNo": "NA",
+  "Kementerian": "PENTADBIRAN KERAJAAN NEGERI PAHANG",
+  "AgensiKumpulan": "PAN",
+  "CreatedBy": "erymuzuan",
+  "Id": "pejabat-kewangan-dan-perbendaharaan-negeri-pahang-",
+  "CreatedDate": "2015-08-08T07:27:15.5919252+08:00",
+  "ChangedBy": "admin",
+  "ChangedDate": "2015-08-08T07:27:15.5919252+08:00",
+  "WebId": "9d344335-53aa-4d23-925a-ae8974c37601"
+}

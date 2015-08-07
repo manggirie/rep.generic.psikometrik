@@ -1,0 +1,14 @@
+{
+  "$type": "Bespoke.epsikologi_jabatan.Domain.Jabatan, epsikologi.Jabatan",
+  "JabatanNo": "majlis-bandaraya-alor-setar-kedah",
+  "NamaJabatan": "MAJLIS BANDARAYA ALOR SETAR",
+  "AgensiNo": "NA",
+  "Kementerian": "PENTADBIRAN KERAJAAN NEGERI KEDAH",
+  "AgensiKumpulan": "PBT",
+  "CreatedBy": "erymuzuan",
+  "Id": "majlis-bandaraya-alor-setar-kedah",
+  "CreatedDate": "2015-08-08T07:27:15.5909253+08:00",
+  "ChangedBy": "admin",
+  "ChangedDate": "2015-08-08T07:27:15.5909253+08:00",
+  "WebId": "df8e68f1-6f7d-4eb6-b397-c93659a5b9cd"
+}

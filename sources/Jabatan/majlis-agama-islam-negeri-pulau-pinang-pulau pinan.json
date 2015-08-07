@@ -1,0 +1,14 @@
+{
+  "$type": "Bespoke.epsikologi_jabatan.Domain.Jabatan, epsikologi.Jabatan",
+  "JabatanNo": "majlis-agama-islam-negeri-pulau-pinang-pulau pinan",
+  "NamaJabatan": "MAJLIS AGAMA ISLAM NEGERI PULAU PINANG",
+  "AgensiNo": "NA",
+  "Kementerian": "PENTADBIRAN KERAJAAN NEGERI PULAU PINANG",
+  "AgensiKumpulan": "BBN",
+  "CreatedBy": "erymuzuan",
+  "Id": "majlis-agama-islam-negeri-pulau-pinang-pulau pinan",
+  "CreatedDate": "2015-08-08T07:27:15.6004265+08:00",
+  "ChangedBy": "admin",
+  "ChangedDate": "2015-08-08T07:27:15.6004265+08:00",
+  "WebId": "d0c290a4-c2dc-416a-922c-691d6f1cb7f5"
+}

@@ -1,0 +1,14 @@
+{
+  "$type": "Bespoke.epsikologi_jabatan.Domain.Jabatan, epsikologi.Jabatan",
+  "JabatanNo": "majlis-agama-islam-dan-adat-melayu-terengganu-tere",
+  "NamaJabatan": "MAJLIS AGAMA ISLAM DAN ADAT MELAYU TERENGGANU",
+  "AgensiNo": "NA",
+  "Kementerian": "PENTADBIRAN KERAJAAN NEGERI TERENGGANU",
+  "AgensiKumpulan": "BBN",
+  "CreatedBy": "erymuzuan",
+  "Id": "majlis-agama-islam-dan-adat-melayu-terengganu-tere",
+  "CreatedDate": "2015-08-08T07:27:15.6034267+08:00",
+  "ChangedBy": "admin",
+  "ChangedDate": "2015-08-08T07:27:15.6034267+08:00",
+  "WebId": "36c42b37-08c3-4900-90d5-b610f5f9287c"
+}

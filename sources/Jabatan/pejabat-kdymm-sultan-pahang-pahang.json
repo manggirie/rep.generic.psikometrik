@@ -1,0 +1,14 @@
+{
+  "$type": "Bespoke.epsikologi_jabatan.Domain.Jabatan, epsikologi.Jabatan",
+  "JabatanNo": "pejabat-kdymm-sultan-pahang-pahang",
+  "NamaJabatan": "PEJABAT KDYMM SULTAN PAHANG",
+  "AgensiNo": "NA",
+  "Kementerian": "PENTADBIRAN KERAJAAN NEGERI PAHANG",
+  "AgensiKumpulan": "PAN",
+  "CreatedBy": "erymuzuan",
+  "Id": "pejabat-kdymm-sultan-pahang-pahang",
+  "CreatedDate": "2015-08-08T07:27:15.5919252+08:00",
+  "ChangedBy": "admin",
+  "ChangedDate": "2015-08-08T07:27:15.5919252+08:00",
+  "WebId": "2d437c17-1545-4115-86a7-eb259caaae92"
+}

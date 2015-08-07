@@ -1,0 +1,14 @@
+{
+  "$type": "Bespoke.epsikologi_jabatan.Domain.Jabatan, epsikologi.Jabatan",
+  "JabatanNo": "kementerian-kewangan-sabah-sabah",
+  "NamaJabatan": "KEMENTERIAN KEWANGAN SABAH",
+  "AgensiNo": "NA",
+  "Kementerian": "PENTADBIRAN KERAJAAN NEGERI SABAH",
+  "AgensiKumpulan": "PAN",
+  "CreatedBy": "erymuzuan",
+  "Id": "kementerian-kewangan-sabah-sabah",
+  "CreatedDate": "2015-08-08T07:27:15.6004265+08:00",
+  "ChangedBy": "admin",
+  "ChangedDate": "2015-08-08T07:27:15.6004265+08:00",
+  "WebId": "13b2393d-e2d5-4a79-97f9-5f3aa9f2e127"
+}

@@ -1,0 +1,14 @@
+{
+  "$type": "Bespoke.epsikologi_jabatan.Domain.Jabatan, epsikologi.Jabatan",
+  "JabatanNo": "majlis-daerah-kuala-langat-selangor",
+  "NamaJabatan": "MAJLIS DAERAH KUALA LANGAT",
+  "AgensiNo": "NA",
+  "Kementerian": "PENTADBIRAN KERAJAAN NEGERI SELANGOR",
+  "AgensiKumpulan": "PBT",
+  "CreatedBy": "erymuzuan",
+  "Id": "majlis-daerah-kuala-langat-selangor",
+  "CreatedDate": "2015-08-08T07:27:15.6029264+08:00",
+  "ChangedBy": "admin",
+  "ChangedDate": "2015-08-08T07:27:15.6029264+08:00",
+  "WebId": "ae7ba250-30f9-481b-90c9-4137f968f81a"
+}

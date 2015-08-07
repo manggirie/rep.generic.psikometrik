@@ -1,0 +1,14 @@
+{
+  "$type": "Bespoke.epsikologi_kementerian.Domain.Kementerian, epsikologi.Kementerian",
+  "KementerianNo": "kementerian-pembangunan-wanita-keluarga-dan-masyar",
+  "NamaKementerian": "KEMENTERIAN PEMBANGUNAN WANITA, KELUARGA DAN MASYARAKAT",
+  "Negeri": "",
+  "KumpulanAgensi": "BBP",
+  "Abbreviation": "LEMBAGA PENDUDUK DAN PEMBANGUNAN KELUARGA NEGARA",
+  "CreatedBy": "erymuzuan",
+  "Id": "kementerian-pembangunan-wanita-keluarga-dan-masyar",
+  "CreatedDate": "2015-08-08T07:27:17.4141011+08:00",
+  "ChangedBy": "admin",
+  "ChangedDate": "2015-08-08T07:27:17.4141011+08:00",
+  "WebId": "d05efa3d-6e1a-454a-9811-39e3830a4029"
+}

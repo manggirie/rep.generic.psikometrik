@@ -1,0 +1,14 @@
+{
+  "$type": "Bespoke.epsikologi_jabatan.Domain.Jabatan, epsikologi.Jabatan",
+  "JabatanNo": "pejabat-tyt-yang-dipertua-negeri-melaka-melaka",
+  "NamaJabatan": "PEJABAT TYT YANG DIPERTUA NEGERI MELAKA",
+  "AgensiNo": "NA",
+  "Kementerian": "PENTADBIRAN KERAJAAN NEGERI MELAKA",
+  "AgensiKumpulan": "PAN",
+  "CreatedBy": "erymuzuan",
+  "Id": "pejabat-tyt-yang-dipertua-negeri-melaka-melaka",
+  "CreatedDate": "2015-08-08T07:27:15.5914256+08:00",
+  "ChangedBy": "admin",
+  "ChangedDate": "2015-08-08T07:27:15.5914256+08:00",
+  "WebId": "1d133f1a-6b92-45ed-a484-d1c4179f0e86"
+}

@@ -1,0 +1,14 @@
+{
+  "$type": "Bespoke.epsikologi_jabatan.Domain.Jabatan, epsikologi.Jabatan",
+  "JabatanNo": "majlis-perbandaran-kota-bharu-bandar-raya-islam-ke",
+  "NamaJabatan": "MAJLIS PERBANDARAN KOTA BHARU BANDAR RAYA ISLAM",
+  "AgensiNo": "NA",
+  "Kementerian": "PENTADBIRAN KERAJAAN NEGERI KELANTAN",
+  "AgensiKumpulan": "PBT",
+  "CreatedBy": "erymuzuan",
+  "Id": "majlis-perbandaran-kota-bharu-bandar-raya-islam-ke",
+  "CreatedDate": "2015-08-08T07:27:15.5914256+08:00",
+  "ChangedBy": "admin",
+  "ChangedDate": "2015-08-08T07:27:15.5914256+08:00",
+  "WebId": "a730f23d-495b-4120-a593-27e23cecfb10"
+}

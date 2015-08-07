@@ -1,0 +1,14 @@
+{
+  "$type": "Bespoke.epsikologi_jabatan.Domain.Jabatan, epsikologi.Jabatan",
+  "JabatanNo": "kementerian-pelancongan-kebudayaan-dan-alam-sekita",
+  "NamaJabatan": "KEMENTERIAN PELANCONGAN, KEBUDAYAAN DAN ALAM SEKITAR",
+  "AgensiNo": "NA",
+  "Kementerian": "PENTADBIRAN KERAJAAN NEGERI SABAH",
+  "AgensiKumpulan": "PAN",
+  "CreatedBy": "erymuzuan",
+  "Id": "kementerian-pelancongan-kebudayaan-dan-alam-sekita",
+  "CreatedDate": "2015-08-08T07:27:15.6009264+08:00",
+  "ChangedBy": "admin",
+  "ChangedDate": "2015-08-08T07:27:15.6009264+08:00",
+  "WebId": "acb6b03b-f39d-454c-9998-b8ddd004165d"
+}

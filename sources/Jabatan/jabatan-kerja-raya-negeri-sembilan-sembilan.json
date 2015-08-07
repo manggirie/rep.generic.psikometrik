@@ -1,0 +1,14 @@
+{
+  "$type": "Bespoke.epsikologi_jabatan.Domain.Jabatan, epsikologi.Jabatan",
+  "JabatanNo": "jabatan-kerja-raya-negeri-sembilan-sembilan",
+  "NamaJabatan": "JABATAN KERJA RAYA NEGERI SEMBILAN",
+  "AgensiNo": "NA",
+  "Kementerian": "PENTADBIRAN KERAJAAN NEGERI SEMBILAN",
+  "AgensiKumpulan": "PAN",
+  "CreatedBy": "erymuzuan",
+  "Id": "jabatan-kerja-raya-negeri-sembilan-sembilan",
+  "CreatedDate": "2015-08-08T07:27:15.6029264+08:00",
+  "ChangedBy": "admin",
+  "ChangedDate": "2015-08-08T07:27:15.6029264+08:00",
+  "WebId": "22e23c28-0db6-4c0c-b39e-a1950092e0f5"
+}

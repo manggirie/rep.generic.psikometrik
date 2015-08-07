@@ -1,0 +1,14 @@
+{
+  "$type": "Bespoke.epsikologi_jabatan.Domain.Jabatan, epsikologi.Jabatan",
+  "JabatanNo": "perbadanan-perpustakaan-awam-pulau-pinang-pulau pi",
+  "NamaJabatan": "PERBADANAN PERPUSTAKAAN AWAM PULAU PINANG",
+  "AgensiNo": "NA",
+  "Kementerian": "PENTADBIRAN KERAJAAN NEGERI PULAU PINANG",
+  "AgensiKumpulan": "BBN",
+  "CreatedBy": "erymuzuan",
+  "Id": "perbadanan-perpustakaan-awam-pulau-pinang-pulau pi",
+  "CreatedDate": "2015-08-08T07:27:15.6004265+08:00",
+  "ChangedBy": "admin",
+  "ChangedDate": "2015-08-08T07:27:15.6004265+08:00",
+  "WebId": "906eec17-ad19-4673-9cc3-fd9917d03b5c"
+}

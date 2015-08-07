@@ -1,0 +1,14 @@
+{
+  "$type": "Bespoke.epsikologi_jabatan.Domain.Jabatan, epsikologi.Jabatan",
+  "JabatanNo": "majlis-agama-islam-dan-adat-melayu-perak-maipk-pe",
+  "NamaJabatan": "MAJLIS AGAMA ISLAM DAN ADAT MELAYU PERAK (MAIPK)",
+  "AgensiNo": "NA",
+  "Kementerian": "PENTADBIRAN KERAJAAN NEGERI PERAK",
+  "AgensiKumpulan": "BBN",
+  "CreatedBy": "erymuzuan",
+  "Id": "majlis-agama-islam-dan-adat-melayu-perak-maipk-pe",
+  "CreatedDate": "2015-08-08T07:27:15.5924258+08:00",
+  "ChangedBy": "admin",
+  "ChangedDate": "2015-08-08T07:27:15.5924258+08:00",
+  "WebId": "848c43c4-756e-4ea9-8365-0a9830088e2a"
+}

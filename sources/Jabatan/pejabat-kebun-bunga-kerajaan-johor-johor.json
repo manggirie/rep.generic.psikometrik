@@ -1,0 +1,14 @@
+{
+  "$type": "Bespoke.epsikologi_jabatan.Domain.Jabatan, epsikologi.Jabatan",
+  "JabatanNo": "pejabat-kebun-bunga-kerajaan-johor-johor",
+  "NamaJabatan": "PEJABAT KEBUN BUNGA KERAJAAN JOHOR",
+  "AgensiNo": "NA",
+  "Kementerian": "PENTADBIRAN KERAJAAN NEGERI JOHOR",
+  "AgensiKumpulan": "PAN",
+  "CreatedBy": "erymuzuan",
+  "Id": "pejabat-kebun-bunga-kerajaan-johor-johor",
+  "CreatedDate": "2015-08-08T07:27:15.5899252+08:00",
+  "ChangedBy": "admin",
+  "ChangedDate": "2015-08-08T07:27:15.5899252+08:00",
+  "WebId": "7e92e31a-38ee-4d27-bb0b-d357dd2ec225"
+}

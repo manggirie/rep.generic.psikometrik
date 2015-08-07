@@ -1,0 +1,14 @@
+{
+  "$type": "Bespoke.epsikologi_jabatan.Domain.Jabatan, epsikologi.Jabatan",
+  "JabatanNo": "agensi-angkasa-negara-angkasa-",
+  "NamaJabatan": "AGENSI ANGKASA NEGARA (ANGKASA)",
+  "AgensiNo": "NA",
+  "Kementerian": "KEMENTERIAN SAINS, TEKNOLOGI DAN INOVASI",
+  "AgensiKumpulan": "PAP",
+  "CreatedBy": "erymuzuan",
+  "Id": "agensi-angkasa-negara-angkasa-",
+  "CreatedDate": "2015-08-08T07:27:15.5894249+08:00",
+  "ChangedBy": "admin",
+  "ChangedDate": "2015-08-08T07:27:15.5894249+08:00",
+  "WebId": "460420fe-5012-47e2-b77d-707d6f951703"
+}

@@ -1,0 +1,14 @@
+{
+  "$type": "Bespoke.epsikologi_jabatan.Domain.Jabatan, epsikologi.Jabatan",
+  "JabatanNo": "majlis-daerah-samarahan-sarawak",
+  "NamaJabatan": "MAJLIS DAERAH SAMARAHAN",
+  "AgensiNo": "NA",
+  "Kementerian": "PENTADBIRAN KERAJAAN NEGERI SARAWAK",
+  "AgensiKumpulan": "PBT",
+  "CreatedBy": "erymuzuan",
+  "Id": "majlis-daerah-samarahan-sarawak",
+  "CreatedDate": "2015-08-08T07:27:15.6024275+08:00",
+  "ChangedBy": "admin",
+  "ChangedDate": "2015-08-08T07:27:15.6024275+08:00",
+  "WebId": "e6a41862-5ec7-428a-a000-cb74a7dc6b25"
+}

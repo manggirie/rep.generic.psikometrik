@@ -1,0 +1,14 @@
+{
+  "$type": "Bespoke.epsikologi_jabatan.Domain.Jabatan, epsikologi.Jabatan",
+  "JabatanNo": "agensi-remote-sensing-malaysia",
+  "NamaJabatan": "AGENSI REMOTE SENSING MALAYSIA",
+  "AgensiNo": "NA",
+  "Kementerian": "KEMENTERIAN SAINS, TEKNOLOGI DAN INOVASI",
+  "AgensiKumpulan": "PAP",
+  "CreatedBy": "erymuzuan",
+  "Id": "agensi-remote-sensing-malaysia",
+  "CreatedDate": "2015-08-08T07:27:15.5894249+08:00",
+  "ChangedBy": "admin",
+  "ChangedDate": "2015-08-08T07:27:15.5894249+08:00",
+  "WebId": "b68a0b41-39de-4722-a151-29e32f0d2d83"
+}

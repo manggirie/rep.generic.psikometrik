@@ -1,0 +1,14 @@
+{
+  "$type": "Bespoke.epsikologi_jabatan.Domain.Jabatan, epsikologi.Jabatan",
+  "JabatanNo": "yayasan-pembangunan-keluarga-terengganu-terengganu",
+  "NamaJabatan": "YAYASAN PEMBANGUNAN KELUARGA TERENGGANU",
+  "AgensiNo": "NA",
+  "Kementerian": "PENTADBIRAN KERAJAAN NEGERI TERENGGANU",
+  "AgensiKumpulan": "BBN",
+  "CreatedBy": "erymuzuan",
+  "Id": "yayasan-pembangunan-keluarga-terengganu-terengganu",
+  "CreatedDate": "2015-08-08T07:27:15.6039266+08:00",
+  "ChangedBy": "admin",
+  "ChangedDate": "2015-08-08T07:27:15.6039266+08:00",
+  "WebId": "80107718-bb9c-4c9f-adc4-03cb5af6787a"
+}

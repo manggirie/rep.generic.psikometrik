@@ -1,0 +1,14 @@
+{
+  "$type": "Bespoke.epsikologi_jabatan.Domain.Jabatan, epsikologi.Jabatan",
+  "JabatanNo": "pentadbiran-kerajaan-negeri-perlis-perlis",
+  "NamaJabatan": "PENTADBIRAN KERAJAAN NEGERI PERLIS",
+  "AgensiNo": "NA",
+  "Kementerian": "PENTADBIRAN KERAJAAN NEGERI PERLIS",
+  "AgensiKumpulan": "PAN",
+  "CreatedBy": "erymuzuan",
+  "Id": "pentadbiran-kerajaan-negeri-perlis-perlis",
+  "CreatedDate": "2015-08-08T07:27:15.592926+08:00",
+  "ChangedBy": "admin",
+  "ChangedDate": "2015-08-08T07:27:15.592926+08:00",
+  "WebId": "c1632aa5-65f4-44f2-82b5-349aa811e4f3"
+}

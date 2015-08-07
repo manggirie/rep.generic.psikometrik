@@ -1,0 +1,14 @@
+{
+  "$type": "Bespoke.epsikologi_jabatan.Domain.Jabatan, epsikologi.Jabatan",
+  "JabatanNo": "pusat-kepelbagaian-biologi-sarawak-sarawak",
+  "NamaJabatan": "PUSAT KEPELBAGAIAN BIOLOGI SARAWAK",
+  "AgensiNo": "NA",
+  "Kementerian": "PENTADBIRAN KERAJAAN NEGERI SARAWAK",
+  "AgensiKumpulan": "BBN",
+  "CreatedBy": "erymuzuan",
+  "Id": "pusat-kepelbagaian-biologi-sarawak-sarawak",
+  "CreatedDate": "2015-08-08T07:27:15.6024275+08:00",
+  "ChangedBy": "admin",
+  "ChangedDate": "2015-08-08T07:27:15.6024275+08:00",
+  "WebId": "f6a97c28-9822-4c04-9dbd-010897d12915"
+}

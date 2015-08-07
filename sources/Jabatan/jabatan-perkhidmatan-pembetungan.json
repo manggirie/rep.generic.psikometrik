@@ -1,0 +1,14 @@
+{
+  "$type": "Bespoke.epsikologi_jabatan.Domain.Jabatan, epsikologi.Jabatan",
+  "JabatanNo": "jabatan-perkhidmatan-pembetungan",
+  "NamaJabatan": "JABATAN PERKHIDMATAN PEMBETUNGAN",
+  "AgensiNo": "NA",
+  "Kementerian": "KEMENTERIAN TENAGA, TEKNOLOGI HIJAU DAN AIR",
+  "AgensiKumpulan": "PAP",
+  "CreatedBy": "erymuzuan",
+  "Id": "jabatan-perkhidmatan-pembetungan",
+  "CreatedDate": "2015-08-08T07:27:15.5894249+08:00",
+  "ChangedBy": "admin",
+  "ChangedDate": "2015-08-08T07:27:15.5894249+08:00",
+  "WebId": "cec7bf12-2222-4d36-aa60-d8718a9b8403"
+}

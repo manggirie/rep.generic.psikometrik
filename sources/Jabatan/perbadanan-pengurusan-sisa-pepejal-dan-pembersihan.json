@@ -1,0 +1,14 @@
+{
+  "$type": "Bespoke.epsikologi_jabatan.Domain.Jabatan, epsikologi.Jabatan",
+  "JabatanNo": "perbadanan-pengurusan-sisa-pepejal-dan-pembersihan",
+  "NamaJabatan": "PERBADANAN PENGURUSAN SISA PEPEJAL DAN PEMBERSIHAN AWAM",
+  "AgensiNo": "NA",
+  "Kementerian": "KEMENTERIAN KESEJAHTERAAN BANDAR, PERUMAHAN DAN KERAJAAN TEMPATAN",
+  "AgensiKumpulan": "BBP",
+  "CreatedBy": "erymuzuan",
+  "Id": "perbadanan-pengurusan-sisa-pepejal-dan-pembersihan",
+  "CreatedDate": "2015-08-08T07:27:15.5879265+08:00",
+  "ChangedBy": "admin",
+  "ChangedDate": "2015-08-08T07:27:15.5879265+08:00",
+  "WebId": "d0816ac5-c44d-47d9-bccb-86ca9e4a4104"
+}

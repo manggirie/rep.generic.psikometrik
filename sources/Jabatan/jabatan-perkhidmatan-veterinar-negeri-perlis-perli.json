@@ -1,0 +1,14 @@
+{
+  "$type": "Bespoke.epsikologi_jabatan.Domain.Jabatan, epsikologi.Jabatan",
+  "JabatanNo": "jabatan-perkhidmatan-veterinar-negeri-perlis-perli",
+  "NamaJabatan": "JABATAN PERKHIDMATAN VETERINAR NEGERI PERLIS",
+  "AgensiNo": "NA",
+  "Kementerian": "PENTADBIRAN KERAJAAN NEGERI PERLIS",
+  "AgensiKumpulan": "PAN",
+  "CreatedBy": "erymuzuan",
+  "Id": "jabatan-perkhidmatan-veterinar-negeri-perlis-perli",
+  "CreatedDate": "2015-08-08T07:27:15.592926+08:00",
+  "ChangedBy": "admin",
+  "ChangedDate": "2015-08-08T07:27:15.592926+08:00",
+  "WebId": "cf778d73-da97-4458-8d41-0c4f236b3029"
+}

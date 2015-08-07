@@ -1,0 +1,14 @@
+{
+  "$type": "Bespoke.epsikologi_jabatan.Domain.Jabatan, epsikologi.Jabatan",
+  "JabatanNo": "majlis-daerah-maradong-dan-julau-bintangor-sarawa",
+  "NamaJabatan": "MAJLIS DAERAH MARADONG DAN JULAU (BINTANGOR)",
+  "AgensiNo": "NA",
+  "Kementerian": "PENTADBIRAN KERAJAAN NEGERI SARAWAK",
+  "AgensiKumpulan": "PBT",
+  "CreatedBy": "erymuzuan",
+  "Id": "majlis-daerah-maradong-dan-julau-bintangor-sarawa",
+  "CreatedDate": "2015-08-08T07:27:15.6024275+08:00",
+  "ChangedBy": "admin",
+  "ChangedDate": "2015-08-08T07:27:15.6024275+08:00",
+  "WebId": "331805b3-f72d-4bb1-ae61-90270e4455d0"
+}

@@ -1,0 +1,14 @@
+{
+  "$type": "Bespoke.epsikologi_jabatan.Domain.Jabatan, epsikologi.Jabatan",
+  "JabatanNo": "jabatan-kehakiman-syariah-negeri-perlis-perlis",
+  "NamaJabatan": "JABATAN KEHAKIMAN SYARIAH NEGERI PERLIS",
+  "AgensiNo": "NA",
+  "Kementerian": "PENTADBIRAN KERAJAAN NEGERI PERLIS",
+  "AgensiKumpulan": "PAN",
+  "CreatedBy": "erymuzuan",
+  "Id": "jabatan-kehakiman-syariah-negeri-perlis-perlis",
+  "CreatedDate": "2015-08-08T07:27:15.592926+08:00",
+  "ChangedBy": "admin",
+  "ChangedDate": "2015-08-08T07:27:15.592926+08:00",
+  "WebId": "56d0af7c-ecef-4f0a-a67e-523d9f78c6e5"
+}

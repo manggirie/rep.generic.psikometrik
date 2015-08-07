@@ -1,0 +1,14 @@
+{
+  "$type": "Bespoke.epsikologi_jabatan.Domain.Jabatan, epsikologi.Jabatan",
+  "JabatanNo": "jabatan-perkhidmatan-veterinar-negeri-johor-johor",
+  "NamaJabatan": "JABATAN PERKHIDMATAN VETERINAR NEGERI JOHOR",
+  "AgensiNo": "NA",
+  "Kementerian": "PENTADBIRAN KERAJAAN NEGERI JOHOR",
+  "AgensiKumpulan": "PAN",
+  "CreatedBy": "erymuzuan",
+  "Id": "jabatan-perkhidmatan-veterinar-negeri-johor-johor",
+  "CreatedDate": "2015-08-08T07:27:15.5899252+08:00",
+  "ChangedBy": "admin",
+  "ChangedDate": "2015-08-08T07:27:15.5899252+08:00",
+  "WebId": "47dee6ce-32f9-4c37-b2c2-1f7b71a43572"
+}

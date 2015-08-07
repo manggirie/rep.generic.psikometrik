@@ -1,0 +1,14 @@
+{
+  "$type": "Bespoke.epsikologi_jabatan.Domain.Jabatan, epsikologi.Jabatan",
+  "JabatanNo": "jabatan-kerajaan-tempatan-mansuh-",
+  "NamaJabatan": "JABATAN KERAJAAN TEMPATAN (MANSUH)",
+  "AgensiNo": "NA",
+  "Kementerian": "KEMENTERIAN KESEJAHTERAAN BANDAR, PERUMAHAN DAN KERAJAAN TEMPATAN",
+  "AgensiKumpulan": "PAP",
+  "CreatedBy": "erymuzuan",
+  "Id": "jabatan-kerajaan-tempatan-mansuh-",
+  "CreatedDate": "2015-08-08T07:27:15.5879265+08:00",
+  "ChangedBy": "admin",
+  "ChangedDate": "2015-08-08T07:27:15.5879265+08:00",
+  "WebId": "19c6016c-828b-415f-8fa6-005d14529dfe"
+}

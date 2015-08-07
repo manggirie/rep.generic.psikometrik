@@ -1,0 +1,14 @@
+{
+  "$type": "Bespoke.epsikologi_jabatan.Domain.Jabatan, epsikologi.Jabatan",
+  "JabatanNo": "jabatan-kehakiman-syariah-negeri-selangor-selangor",
+  "NamaJabatan": "JABATAN KEHAKIMAN SYARIAH NEGERI SELANGOR",
+  "AgensiNo": "NA",
+  "Kementerian": "PENTADBIRAN KERAJAAN NEGERI SELANGOR",
+  "AgensiKumpulan": "PAN",
+  "CreatedBy": "erymuzuan",
+  "Id": "jabatan-kehakiman-syariah-negeri-selangor-selangor",
+  "CreatedDate": "2015-08-08T07:27:15.6024275+08:00",
+  "ChangedBy": "admin",
+  "ChangedDate": "2015-08-08T07:27:15.6024275+08:00",
+  "WebId": "094aa3d6-5f59-4c70-a5ba-507529037316"
+}

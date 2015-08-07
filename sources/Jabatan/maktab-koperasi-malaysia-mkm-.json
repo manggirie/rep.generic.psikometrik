@@ -1,0 +1,14 @@
+{
+  "$type": "Bespoke.epsikologi_jabatan.Domain.Jabatan, epsikologi.Jabatan",
+  "JabatanNo": "maktab-koperasi-malaysia-mkm-",
+  "NamaJabatan": "MAKTAB KOPERASI MALAYSIA (MKM)",
+  "AgensiNo": "NA",
+  "Kementerian": "KEMENTERIAN PERDAGANGAN DALAM NEGERI, KOPERASI DAN KEPENGGUNAAN",
+  "AgensiKumpulan": "BBP",
+  "CreatedBy": "erymuzuan",
+  "Id": "maktab-koperasi-malaysia-mkm-",
+  "CreatedDate": "2015-08-08T07:27:15.5889253+08:00",
+  "ChangedBy": "admin",
+  "ChangedDate": "2015-08-08T07:27:15.5889253+08:00",
+  "WebId": "fb13aa23-d3b6-4e31-ac0f-edae34e14487"
+}

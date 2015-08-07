@@ -1,0 +1,14 @@
+{
+  "$type": "Bespoke.epsikologi_jabatan.Domain.Jabatan, epsikologi.Jabatan",
+  "JabatanNo": "jabatan-pengairan-dan-saliran-negeri-melaka-melaka",
+  "NamaJabatan": "JABATAN PENGAIRAN DAN SALIRAN NEGERI MELAKA",
+  "AgensiNo": "NA",
+  "Kementerian": "PENTADBIRAN KERAJAAN NEGERI MELAKA",
+  "AgensiKumpulan": "PAN",
+  "CreatedBy": "erymuzuan",
+  "Id": "jabatan-pengairan-dan-saliran-negeri-melaka-melaka",
+  "CreatedDate": "2015-08-08T07:27:15.5914256+08:00",
+  "ChangedBy": "admin",
+  "ChangedDate": "2015-08-08T07:27:15.5914256+08:00",
+  "WebId": "f1606560-0400-4c28-bede-96f23a55986d"
+}

@@ -1,0 +1,14 @@
+{
+  "$type": "Bespoke.epsikologi_jabatan.Domain.Jabatan, epsikologi.Jabatan",
+  "JabatanNo": "jabatan-perancangan-bandar-dan-desa-negeri-melaka-",
+  "NamaJabatan": "JABATAN PERANCANGAN BANDAR DAN DESA NEGERI MELAKA",
+  "AgensiNo": "NA",
+  "Kementerian": "PENTADBIRAN KERAJAAN NEGERI MELAKA",
+  "AgensiKumpulan": "PAN",
+  "CreatedBy": "erymuzuan",
+  "Id": "jabatan-perancangan-bandar-dan-desa-negeri-melaka-",
+  "CreatedDate": "2015-08-08T07:27:15.5914256+08:00",
+  "ChangedBy": "admin",
+  "ChangedDate": "2015-08-08T07:27:15.5914256+08:00",
+  "WebId": "bdc18f5d-3c4e-4d53-bfdb-9471b7d0a5d3"
+}

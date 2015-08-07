@@ -1,0 +1,14 @@
+{
+  "$type": "Bespoke.epsikologi_jabatan.Domain.Jabatan, epsikologi.Jabatan",
+  "JabatanNo": "jabatan-perumahan-negara",
+  "NamaJabatan": "JABATAN PERUMAHAN NEGARA",
+  "AgensiNo": "NA",
+  "Kementerian": "KEMENTERIAN KESEJAHTERAAN BANDAR, PERUMAHAN DAN KERAJAAN TEMPATAN",
+  "AgensiKumpulan": "PAP",
+  "CreatedBy": "erymuzuan",
+  "Id": "jabatan-perumahan-negara",
+  "CreatedDate": "2015-08-08T07:27:15.5879265+08:00",
+  "ChangedBy": "admin",
+  "ChangedDate": "2015-08-08T07:27:15.5879265+08:00",
+  "WebId": "8f0e2ebf-f059-4915-9b61-e9525fb5c56f"
+}

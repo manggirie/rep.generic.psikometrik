@@ -1,0 +1,14 @@
+{
+  "$type": "Bespoke.epsikologi_kementerian.Domain.Kementerian, epsikologi.Kementerian",
+  "KementerianNo": "kementerian-sains-teknologi-dan-inovasi",
+  "NamaKementerian": "KEMENTERIAN SAINS, TEKNOLOGI DAN INOVASI",
+  "Negeri": "",
+  "KumpulanAgensi": "BBP",
+  "Abbreviation": "AKADEMI SAINS MALAYSIA",
+  "CreatedBy": "erymuzuan",
+  "Id": "kementerian-sains-teknologi-dan-inovasi",
+  "CreatedDate": "2015-08-08T07:27:17.4161011+08:00",
+  "ChangedBy": "admin",
+  "ChangedDate": "2015-08-08T07:27:17.4161011+08:00",
+  "WebId": "cd2b6e56-7d7b-43ba-94bb-80c63587db24"
+}

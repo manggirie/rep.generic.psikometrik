@@ -1,0 +1,14 @@
+{
+  "$type": "Bespoke.epsikologi_jabatan.Domain.Jabatan, epsikologi.Jabatan",
+  "JabatanNo": "majlis-perbandaran-dungun-terengganu",
+  "NamaJabatan": "MAJLIS PERBANDARAN DUNGUN",
+  "AgensiNo": "NA",
+  "Kementerian": "PENTADBIRAN KERAJAAN NEGERI TERENGGANU",
+  "AgensiKumpulan": "PBT",
+  "CreatedBy": "erymuzuan",
+  "Id": "majlis-perbandaran-dungun-terengganu",
+  "CreatedDate": "2015-08-08T07:27:15.6039266+08:00",
+  "ChangedBy": "admin",
+  "ChangedDate": "2015-08-08T07:27:15.6039266+08:00",
+  "WebId": "7a21e29c-9d17-4247-8938-df986b5769ab"
+}

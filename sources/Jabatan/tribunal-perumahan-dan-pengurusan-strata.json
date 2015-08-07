@@ -1,0 +1,14 @@
+{
+  "$type": "Bespoke.epsikologi_jabatan.Domain.Jabatan, epsikologi.Jabatan",
+  "JabatanNo": "tribunal-perumahan-dan-pengurusan-strata",
+  "NamaJabatan": "TRIBUNAL PERUMAHAN DAN PENGURUSAN STRATA",
+  "AgensiNo": "NA",
+  "Kementerian": "KEMENTERIAN KESEJAHTERAAN BANDAR, PERUMAHAN DAN KERAJAAN TEMPATAN",
+  "AgensiKumpulan": "PAP",
+  "CreatedBy": "erymuzuan",
+  "Id": "tribunal-perumahan-dan-pengurusan-strata",
+  "CreatedDate": "2015-08-08T07:27:15.5879265+08:00",
+  "ChangedBy": "admin",
+  "ChangedDate": "2015-08-08T07:27:15.5879265+08:00",
+  "WebId": "aa6c6142-7726-4e62-ad75-85be5dc85a08"
+}

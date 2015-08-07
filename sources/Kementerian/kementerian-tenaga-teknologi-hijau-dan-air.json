@@ -1,0 +1,14 @@
+{
+  "$type": "Bespoke.epsikologi_kementerian.Domain.Kementerian, epsikologi.Kementerian",
+  "KementerianNo": "kementerian-tenaga-teknologi-hijau-dan-air",
+  "NamaKementerian": "KEMENTERIAN TENAGA, TEKNOLOGI HIJAU DAN AIR",
+  "Negeri": "",
+  "KumpulanAgensi": "PAP",
+  "Abbreviation": "JABATAN PERKHIDMATAN PEMBETUNGAN",
+  "CreatedBy": "erymuzuan",
+  "Id": "kementerian-tenaga-teknologi-hijau-dan-air",
+  "CreatedDate": "2015-08-08T07:27:17.4161011+08:00",
+  "ChangedBy": "admin",
+  "ChangedDate": "2015-08-08T07:27:17.4161011+08:00",
+  "WebId": "3af9a233-1f6d-4337-aa23-f377a7351fab"
+}

@@ -1,0 +1,14 @@
+{
+  "$type": "Bespoke.epsikologi_jabatan.Domain.Jabatan, epsikologi.Jabatan",
+  "JabatanNo": "jabatan-standard-malaysia-standards-malaysia-",
+  "NamaJabatan": "JABATAN STANDARD MALAYSIA (STANDARDS MALAYSIA)",
+  "AgensiNo": "NA",
+  "Kementerian": "KEMENTERIAN SAINS, TEKNOLOGI DAN INOVASI",
+  "AgensiKumpulan": "PAP",
+  "CreatedBy": "erymuzuan",
+  "Id": "jabatan-standard-malaysia-standards-malaysia-",
+  "CreatedDate": "2015-08-08T07:27:15.5894249+08:00",
+  "ChangedBy": "admin",
+  "ChangedDate": "2015-08-08T07:27:15.5894249+08:00",
+  "WebId": "83620b93-06e7-4cee-90bb-17d2a3ff130b"
+}

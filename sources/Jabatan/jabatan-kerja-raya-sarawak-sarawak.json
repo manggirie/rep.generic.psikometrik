@@ -1,0 +1,14 @@
+{
+  "$type": "Bespoke.epsikologi_jabatan.Domain.Jabatan, epsikologi.Jabatan",
+  "JabatanNo": "jabatan-kerja-raya-sarawak-sarawak",
+  "NamaJabatan": "JABATAN KERJA RAYA SARAWAK",
+  "AgensiNo": "NA",
+  "Kementerian": "PENTADBIRAN KERAJAAN NEGERI SARAWAK",
+  "AgensiKumpulan": "PAN",
+  "CreatedBy": "erymuzuan",
+  "Id": "jabatan-kerja-raya-sarawak-sarawak",
+  "CreatedDate": "2015-08-08T07:27:15.6019253+08:00",
+  "ChangedBy": "admin",
+  "ChangedDate": "2015-08-08T07:27:15.6019253+08:00",
+  "WebId": "1aff8e11-eea2-4d68-a3c2-c0796c369c21"
+}

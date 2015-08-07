@@ -1,0 +1,14 @@
+{
+  "$type": "Bespoke.epsikologi_jabatan.Domain.Jabatan, epsikologi.Jabatan",
+  "JabatanNo": "lembaga-pelabuhan-miri-sarawak-sarawak",
+  "NamaJabatan": "LEMBAGA PELABUHAN MIRI SARAWAK",
+  "AgensiNo": "NA",
+  "Kementerian": "PENTADBIRAN KERAJAAN NEGERI SARAWAK",
+  "AgensiKumpulan": "BBN",
+  "CreatedBy": "erymuzuan",
+  "Id": "lembaga-pelabuhan-miri-sarawak-sarawak",
+  "CreatedDate": "2015-08-08T07:27:15.6019253+08:00",
+  "ChangedBy": "admin",
+  "ChangedDate": "2015-08-08T07:27:15.6019253+08:00",
+  "WebId": "5c25d5d5-f786-4d42-8829-8de3ad7998f0"
+}

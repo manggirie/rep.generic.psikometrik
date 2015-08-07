@@ -1,0 +1,14 @@
+{
+  "$type": "Bespoke.epsikologi_jabatan.Domain.Jabatan, epsikologi.Jabatan",
+  "JabatanNo": "jabatan-kebajikan-masyarakat-negeri-selangor-selan",
+  "NamaJabatan": "JABATAN KEBAJIKAN MASYARAKAT NEGERI SELANGOR",
+  "AgensiNo": "NA",
+  "Kementerian": "PENTADBIRAN KERAJAAN NEGERI SELANGOR",
+  "AgensiKumpulan": "PAN",
+  "CreatedBy": "erymuzuan",
+  "Id": "jabatan-kebajikan-masyarakat-negeri-selangor-selan",
+  "CreatedDate": "2015-08-08T07:27:15.6024275+08:00",
+  "ChangedBy": "admin",
+  "ChangedDate": "2015-08-08T07:27:15.6024275+08:00",
+  "WebId": "908e6ada-c66a-4c43-a091-1193722d4f53"
+}

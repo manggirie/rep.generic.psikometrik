@@ -1,0 +1,14 @@
+{
+  "$type": "Bespoke.epsikologi_jabatan.Domain.Jabatan, epsikologi.Jabatan",
+  "JabatanNo": "pejabat-penyimpan-mohor-besar-raja-raja-malaysia",
+  "NamaJabatan": "PEJABAT PENYIMPAN MOHOR BESAR RAJA-RAJA, MALAYSIA",
+  "AgensiNo": "NA",
+  "Kementerian": "JABATAN PERDANA MENTERI",
+  "AgensiKumpulan": "PAP",
+  "CreatedBy": "erymuzuan",
+  "Id": "pejabat-penyimpan-mohor-besar-raja-raja-malaysia",
+  "CreatedDate": "2015-08-08T07:27:15.5869266+08:00",
+  "ChangedBy": "admin",
+  "ChangedDate": "2015-08-08T07:27:15.5869266+08:00",
+  "WebId": "34423b4f-6dab-4a10-9cc3-3581287e93b3"
+}

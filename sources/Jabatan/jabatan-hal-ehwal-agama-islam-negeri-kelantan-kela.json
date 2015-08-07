@@ -1,0 +1,14 @@
+{
+  "$type": "Bespoke.epsikologi_jabatan.Domain.Jabatan, epsikologi.Jabatan",
+  "JabatanNo": "jabatan-hal-ehwal-agama-islam-negeri-kelantan-kela",
+  "NamaJabatan": "JABATAN HAL EHWAL AGAMA ISLAM NEGERI KELANTAN",
+  "AgensiNo": "NA",
+  "Kementerian": "PENTADBIRAN KERAJAAN NEGERI KELANTAN",
+  "AgensiKumpulan": "PAN",
+  "CreatedBy": "erymuzuan",
+  "Id": "jabatan-hal-ehwal-agama-islam-negeri-kelantan-kela",
+  "CreatedDate": "2015-08-08T07:27:15.5909253+08:00",
+  "ChangedBy": "admin",
+  "ChangedDate": "2015-08-08T07:27:15.5909253+08:00",
+  "WebId": "b3afdbab-b56e-4a3a-b43a-ab43b0abdf1e"
+}

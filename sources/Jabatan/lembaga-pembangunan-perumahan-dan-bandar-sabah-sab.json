@@ -1,0 +1,14 @@
+{
+  "$type": "Bespoke.epsikologi_jabatan.Domain.Jabatan, epsikologi.Jabatan",
+  "JabatanNo": "lembaga-pembangunan-perumahan-dan-bandar-sabah-sab",
+  "NamaJabatan": "LEMBAGA PEMBANGUNAN PERUMAHAN DAN BANDAR SABAH",
+  "AgensiNo": "NA",
+  "Kementerian": "PENTADBIRAN KERAJAAN NEGERI SABAH",
+  "AgensiKumpulan": "BBN",
+  "CreatedBy": "erymuzuan",
+  "Id": "lembaga-pembangunan-perumahan-dan-bandar-sabah-sab",
+  "CreatedDate": "2015-08-08T07:27:15.6014257+08:00",
+  "ChangedBy": "admin",
+  "ChangedDate": "2015-08-08T07:27:15.6014257+08:00",
+  "WebId": "eda701eb-c473-4aee-9490-9a1a9cd8f9b5"
+}

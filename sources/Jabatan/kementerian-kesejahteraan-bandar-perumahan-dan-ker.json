@@ -1,0 +1,14 @@
+{
+  "$type": "Bespoke.epsikologi_jabatan.Domain.Jabatan, epsikologi.Jabatan",
+  "JabatanNo": "kementerian-kesejahteraan-bandar-perumahan-dan-ker",
+  "NamaJabatan": "KEMENTERIAN KESEJAHTERAAN BANDAR, PERUMAHAN DAN KERAJAAN TEMPATAN",
+  "AgensiNo": "NA",
+  "Kementerian": "KEMENTERIAN KESEJAHTERAAN BANDAR, PERUMAHAN DAN KERAJAAN TEMPATAN",
+  "AgensiKumpulan": "PAP",
+  "CreatedBy": "erymuzuan",
+  "Id": "kementerian-kesejahteraan-bandar-perumahan-dan-ker",
+  "CreatedDate": "2015-08-08T07:27:15.5874262+08:00",
+  "ChangedBy": "admin",
+  "ChangedDate": "2015-08-08T07:27:15.5874262+08:00",
+  "WebId": "53d3e6e0-db9c-44b2-8bbc-203493dc4125"
+}

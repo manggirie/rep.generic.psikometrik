@@ -4,25 +4,31 @@
   <Reference Relative="..\web\bin\epsikologi.Jabatan.dll">C:\project\rep.generic.psikometrik\web\bin\epsikologi.Jabatan.dll</Reference>
   <Reference Relative="..\web\bin\epsikologi.Kementerian.dll">C:\project\rep.generic.psikometrik\web\bin\epsikologi.Kementerian.dll</Reference>
   <Reference Relative="..\web\bin\Newtonsoft.Json.dll">C:\project\rep.generic.psikometrik\web\bin\Newtonsoft.Json.dll</Reference>
+  <Namespace>Bespoke.Sph.Domain</Namespace>
+  <Namespace>OfficeOpenXml</Namespace>
 </Query>
 
-var lines = File.ReadAllLines(@"C:\project\rep.generic.psikometrik\docs\Senarai agensi mengikut Kementerian.csv");
-var departments = from l in lines
-				  where !string.IsNullOrWhiteSpace(l)
-				  let vals = l.Split(new[] {","}, StringSplitOptions.RemoveEmptyEntries)
-				  where vals.Length == 3
-				  let id = Bespoke.Sph.Domain.Strings.ToIdFormat(vals[2])
-				  let id2 = id.Length > 50 ? id.Substring(0,50) : id
-				  let ak = vals[1].Replace("PERKHIDMATAN AWAM PERSEKUTUAN", "PAP")
+var excel = new ExcelPackage(new FileInfo(@"C:\project\rep.generic.psikometrik\docs\Senarai agensi mengikut Kementerian.xlsx"));
+var ws = excel.Workbook.Worksheets["Sheet1"];
+
+var departments = from l in Enumerable.Range(5,725)
+				  let ministry = ws.Cells["A" + l].Value.ToString()
+				  let ka  = ws.Cells["B" + l].Value.ToString()
+				  let agensi  = ws.Cells["C" + l].Value.ToString()
+				  let id = Bespoke.Sph.Domain.Strings.ToIdFormat(agensi)+(ministry.Contains("PENTADBIRAN KERAJAAN NEGERI") ? ("-" + ministry.Replace("PENTADBIRAN KERAJAAN NEGERI", "").Trim()) : "").ToLowerInvariant()
+				  let id0 = id.Length > 50 ? id.Substring(0, 50) : id
+				  let id2 = id0.Replace("--", "-")
+				  let ak = ka.Replace("PERKHIDMATAN AWAM PERSEKUTUAN", "PAP")
 				  .Replace("BADAN BERKANUN PERSEKUTUAN", "BBP")
 				  .Replace("PIHAK BERKUASA TEMPATAN", "PBT")
 				  .Replace("PERKHIDMATAN AWAM NEGERI", "PAN")
 				  .Replace("BADAN BERKANUN NEGERI", "BBN")
+
 				  select new Bespoke.epsikologi_jabatan.Domain.Jabatan
 				  {
-				  	Kementerian = vals[0],
+				  	Kementerian = ministry,
 					AgensiKumpulan = ak,
-					NamaJabatan = vals[2],
+					NamaJabatan = agensi,
 					Id = id2,
 					JabatanNo = id2,
 					CreatedBy = "erymuzuan",
@@ -33,7 +39,7 @@ var departments = from l in lines
 					AgensiNo = "NA"
 
 				  };
-departments.GroupBy(d => d.AgensiKumpulan).Select(d => new { d.Key, Count = d.Count() }).Dump();
+departments.GroupBy(d => d.Id).Select(d => new { d.Key, Count = d.Count() }).Where(d => d.Count > 1).Dump();
 departments.GroupBy(d => d.Kementerian).Select(d => new { d.Key, Count = d.Count() }).OrderByDescending(d => d.Count).Dump();
 
 departments.ToList().ForEach(d => File.WriteAllText($@"C:\project\rep.generic.psikometrik\sources\Jabatan\{d.Id}.json", Bespoke.Sph.Domain.JsonSerializerService.ToJsonString(d, true)));
@@ -47,12 +53,17 @@ var ministries = from d in departments
 				 	NamaKementerian = d.Kementerian,
 					Abbreviation = d.NamaJabatan,
 					KementerianNo = id2,
-					KumpulanAgensi = d.AgensiKumpulan,
-					Id = id2,
-					Negeri = state
-					
+					 KumpulanAgensi = d.AgensiKumpulan,
+					 Id = id2,
+					 CreatedBy = "erymuzuan",
+					 CreatedDate = DateTime.Now,
+					 ChangedBy = "admin",
+					 ChangedDate = DateTime.Now,
+					 WebId = Guid.NewGuid().ToString(),
+					 Negeri = state
+
 				 };
-				 ministries.Dump();
+ministries.Dump();
 
 ministries.ToList().ForEach(d => File.WriteAllText($@"C:\project\rep.generic.psikometrik\sources\Kementerian\{d.Id}.json", Bespoke.Sph.Domain.JsonSerializerService.ToJsonString(d,true)));
 

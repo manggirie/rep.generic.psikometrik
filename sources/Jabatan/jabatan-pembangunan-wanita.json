@@ -1,0 +1,14 @@
+{
+  "$type": "Bespoke.epsikologi_jabatan.Domain.Jabatan, epsikologi.Jabatan",
+  "JabatanNo": "jabatan-pembangunan-wanita",
+  "NamaJabatan": "JABATAN PEMBANGUNAN WANITA",
+  "AgensiNo": "NA",
+  "Kementerian": "KEMENTERIAN PEMBANGUNAN WANITA, KELUARGA DAN MASYARAKAT",
+  "AgensiKumpulan": "PAP",
+  "CreatedBy": "erymuzuan",
+  "Id": "jabatan-pembangunan-wanita",
+  "CreatedDate": "2015-08-08T07:27:15.5884271+08:00",
+  "ChangedBy": "admin",
+  "ChangedDate": "2015-08-08T07:27:15.5884271+08:00",
+  "WebId": "56b73c8a-e36d-4c7b-9a59-d4dedd0ea425"
+}

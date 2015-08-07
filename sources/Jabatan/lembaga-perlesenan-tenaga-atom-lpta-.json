@@ -1,0 +1,14 @@
+{
+  "$type": "Bespoke.epsikologi_jabatan.Domain.Jabatan, epsikologi.Jabatan",
+  "JabatanNo": "lembaga-perlesenan-tenaga-atom-lpta-",
+  "NamaJabatan": "LEMBAGA PERLESENAN TENAGA ATOM (LPTA)",
+  "AgensiNo": "NA",
+  "Kementerian": "KEMENTERIAN SAINS, TEKNOLOGI DAN INOVASI",
+  "AgensiKumpulan": "PAP",
+  "CreatedBy": "erymuzuan",
+  "Id": "lembaga-perlesenan-tenaga-atom-lpta-",
+  "CreatedDate": "2015-08-08T07:27:15.5894249+08:00",
+  "ChangedBy": "admin",
+  "ChangedDate": "2015-08-08T07:27:15.5894249+08:00",
+  "WebId": "f6d86a61-62a6-4ac1-80aa-23137328b4ed"
+}

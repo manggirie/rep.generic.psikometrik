@@ -1,0 +1,14 @@
+{
+  "$type": "Bespoke.epsikologi_jabatan.Domain.Jabatan, epsikologi.Jabatan",
+  "JabatanNo": "majlis-agama-islam-negeri-kedah-darul-aman-kedah",
+  "NamaJabatan": "MAJLIS AGAMA ISLAM NEGERI KEDAH DARUL AMAN",
+  "AgensiNo": "NA",
+  "Kementerian": "PENTADBIRAN KERAJAAN NEGERI KEDAH",
+  "AgensiKumpulan": "BBN",
+  "CreatedBy": "erymuzuan",
+  "Id": "majlis-agama-islam-negeri-kedah-darul-aman-kedah",
+  "CreatedDate": "2015-08-08T07:27:15.5904261+08:00",
+  "ChangedBy": "admin",
+  "ChangedDate": "2015-08-08T07:27:15.5904261+08:00",
+  "WebId": "97a085e7-ef08-4fdf-9c0b-f549960d50e9"
+}

@@ -1,0 +1,14 @@
+{
+  "$type": "Bespoke.epsikologi_jabatan.Domain.Jabatan, epsikologi.Jabatan",
+  "JabatanNo": "perbendaharaan-negeri-sarawak",
+  "NamaJabatan": "PERBENDAHARAAN NEGERI",
+  "AgensiNo": "NA",
+  "Kementerian": "PENTADBIRAN KERAJAAN NEGERI SARAWAK",
+  "AgensiKumpulan": "PAN",
+  "CreatedBy": "erymuzuan",
+  "Id": "perbendaharaan-negeri-sarawak",
+  "CreatedDate": "2015-08-08T07:27:15.6019253+08:00",
+  "ChangedBy": "admin",
+  "ChangedDate": "2015-08-08T07:27:15.6019253+08:00",
+  "WebId": "7d7d5388-615e-4882-ad3b-2bb7ad97c900"
+}

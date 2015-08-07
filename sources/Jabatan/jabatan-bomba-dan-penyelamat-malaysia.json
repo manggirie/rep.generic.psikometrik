@@ -1,0 +1,14 @@
+{
+  "$type": "Bespoke.epsikologi_jabatan.Domain.Jabatan, epsikologi.Jabatan",
+  "JabatanNo": "jabatan-bomba-dan-penyelamat-malaysia",
+  "NamaJabatan": "JABATAN BOMBA DAN PENYELAMAT MALAYSIA",
+  "AgensiNo": "NA",
+  "Kementerian": "KEMENTERIAN KESEJAHTERAAN BANDAR, PERUMAHAN DAN KERAJAAN TEMPATAN",
+  "AgensiKumpulan": "PAP",
+  "CreatedBy": "erymuzuan",
+  "Id": "jabatan-bomba-dan-penyelamat-malaysia",
+  "CreatedDate": "2015-08-08T07:27:15.5874262+08:00",
+  "ChangedBy": "admin",
+  "ChangedDate": "2015-08-08T07:27:15.5874262+08:00",
+  "WebId": "e8db8d91-2c33-4bd4-9684-6d8ad41c6dae"
+}

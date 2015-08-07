@@ -1,0 +1,14 @@
+{
+  "$type": "Bespoke.epsikologi_jabatan.Domain.Jabatan, epsikologi.Jabatan",
+  "JabatanNo": "lembaga-kemajuan-bintulu-sarawak-sarawak",
+  "NamaJabatan": "LEMBAGA KEMAJUAN BINTULU SARAWAK",
+  "AgensiNo": "NA",
+  "Kementerian": "PENTADBIRAN KERAJAAN NEGERI SARAWAK",
+  "AgensiKumpulan": "BBN",
+  "CreatedBy": "erymuzuan",
+  "Id": "lembaga-kemajuan-bintulu-sarawak-sarawak",
+  "CreatedDate": "2015-08-08T07:27:15.6019253+08:00",
+  "ChangedBy": "admin",
+  "ChangedDate": "2015-08-08T07:27:15.6019253+08:00",
+  "WebId": "6efa2ab7-b9d7-4193-a444-4472224d9bd9"
+}

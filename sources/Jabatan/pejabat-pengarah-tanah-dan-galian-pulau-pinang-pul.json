@@ -1,0 +1,14 @@
+{
+  "$type": "Bespoke.epsikologi_jabatan.Domain.Jabatan, epsikologi.Jabatan",
+  "JabatanNo": "pejabat-pengarah-tanah-dan-galian-pulau-pinang-pul",
+  "NamaJabatan": "PEJABAT PENGARAH TANAH DAN GALIAN PULAU PINANG",
+  "AgensiNo": "NA",
+  "Kementerian": "PENTADBIRAN KERAJAAN NEGERI PULAU PINANG",
+  "AgensiKumpulan": "PAN",
+  "CreatedBy": "erymuzuan",
+  "Id": "pejabat-pengarah-tanah-dan-galian-pulau-pinang-pul",
+  "CreatedDate": "2015-08-08T07:27:15.5934259+08:00",
+  "ChangedBy": "admin",
+  "ChangedDate": "2015-08-08T07:27:15.5934259+08:00",
+  "WebId": "6d7121ca-2c51-4d3c-9655-01d628836ffe"
+}

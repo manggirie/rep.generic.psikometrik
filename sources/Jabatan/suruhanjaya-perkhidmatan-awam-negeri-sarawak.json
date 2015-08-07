@@ -1,0 +1,14 @@
+{
+  "$type": "Bespoke.epsikologi_jabatan.Domain.Jabatan, epsikologi.Jabatan",
+  "JabatanNo": "suruhanjaya-perkhidmatan-awam-negeri-sarawak",
+  "NamaJabatan": "SURUHANJAYA PERKHIDMATAN AWAM NEGERI",
+  "AgensiNo": "NA",
+  "Kementerian": "PENTADBIRAN KERAJAAN NEGERI SARAWAK",
+  "AgensiKumpulan": "PAN",
+  "CreatedBy": "erymuzuan",
+  "Id": "suruhanjaya-perkhidmatan-awam-negeri-sarawak",
+  "CreatedDate": "2015-08-08T07:27:15.6019253+08:00",
+  "ChangedBy": "admin",
+  "ChangedDate": "2015-08-08T07:27:15.6019253+08:00",
+  "WebId": "e4ccc53f-ad4f-41fb-84cf-83a8d9a4f5ee"
+}

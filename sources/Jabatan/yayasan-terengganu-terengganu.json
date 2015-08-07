@@ -1,0 +1,14 @@
+{
+  "$type": "Bespoke.epsikologi_jabatan.Domain.Jabatan, epsikologi.Jabatan",
+  "JabatanNo": "yayasan-terengganu-terengganu",
+  "NamaJabatan": "YAYASAN TERENGGANU",
+  "AgensiNo": "NA",
+  "Kementerian": "PENTADBIRAN KERAJAAN NEGERI TERENGGANU",
+  "AgensiKumpulan": "BBN",
+  "CreatedBy": "erymuzuan",
+  "Id": "yayasan-terengganu-terengganu",
+  "CreatedDate": "2015-08-08T07:27:15.6039266+08:00",
+  "ChangedBy": "admin",
+  "ChangedDate": "2015-08-08T07:27:15.6039266+08:00",
+  "WebId": "8947fbbc-be59-4b26-bebe-d96b7c144d0c"
+}
