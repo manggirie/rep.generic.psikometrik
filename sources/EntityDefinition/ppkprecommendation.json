@@ -119,51 +119,6 @@
         "FullName": null,
         "MemberCollection": {
           "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.Sph.Domain.Member, domain.sph]], domain.sph",
-          "$values": [
-            {
-              "$type": "Bespoke.Sph.Domain.Member, domain.sph",
-              "FullName": null,
-              "MemberCollection": {
-                "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.Sph.Domain.Member, domain.sph]], domain.sph",
-                "$values": []
-              },
-              "FieldPermissionCollection": {
-                "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.Sph.Domain.FieldPermission, domain.sph]], domain.sph",
-                "$values": []
-              },
-              "Name": "Text",
-              "TypeName": "System.String, mscorlib",
-              "IsNullable": false,
-              "IsNotIndexed": false,
-              "IsAnalyzed": false,
-              "IsFilterable": false,
-              "IsExcludeInAll": false,
-              "Boost": 0,
-              "DefaultValue": null,
-              "WebId": "f9a3e2e9-a6b4-4eed-97bc-e58ff03cb8d3"
-            }
-          ]
-        },
-        "FieldPermissionCollection": {
-          "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.Sph.Domain.FieldPermission, domain.sph]], domain.sph",
-          "$values": []
-        },
-        "Name": "ShortInterpretationCollection",
-        "TypeName": "System.Array, mscorlib",
-        "IsNullable": true,
-        "IsNotIndexed": false,
-        "IsAnalyzed": false,
-        "IsFilterable": false,
-        "IsExcludeInAll": false,
-        "Boost": 0,
-        "DefaultValue": null,
-        "WebId": "05f17c48-a83d-4d97-83b2-b081e9a6bc63"
-      },
-      {
-        "$type": "Bespoke.Sph.Domain.Member, domain.sph",
-        "FullName": null,
-        "MemberCollection": {
-          "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.Sph.Domain.Member, domain.sph]], domain.sph",
           "$values": []
         },
         "FieldPermissionCollection": {
@@ -224,6 +179,28 @@
         "Boost": 0,
         "DefaultValue": null,
         "WebId": "b8373e8b-8b34-4696-bd8e-0044ab8366fc"
+      },
+      {
+        "$type": "Bespoke.Sph.Domain.Member, domain.sph",
+        "FullName": null,
+        "MemberCollection": {
+          "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.Sph.Domain.Member, domain.sph]], domain.sph",
+          "$values": []
+        },
+        "FieldPermissionCollection": {
+          "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.Sph.Domain.FieldPermission, domain.sph]], domain.sph",
+          "$values": []
+        },
+        "Name": "InterpretasiRingkas",
+        "TypeName": "System.String, mscorlib",
+        "IsNullable": false,
+        "IsNotIndexed": false,
+        "IsAnalyzed": false,
+        "IsFilterable": false,
+        "IsExcludeInAll": false,
+        "Boost": 0,
+        "DefaultValue": null,
+        "WebId": "881a471e-3e27-406b-9da1-77c8d3ebe6f6"
       }
     ]
   },
@@ -249,7 +226,7 @@
   "Name": "PpkpRecommendation",
   "Plural": "PpkpRecommendations",
   "IconStoreId": "sph-img-document",
-  "IconClass": "",
+  "IconClass": "fa fa-wheelchair",
   "RecordName": "No",
   "IsPublished": true,
   "IsShowOnNavigationBar": true,
@@ -261,6 +238,6 @@
   "Id": "ppkprecommendation",
   "CreatedDate": "2015-08-03T16:27:06.122343+08:00",
   "ChangedBy": "admin",
-  "ChangedDate": "2015-08-04T11:09:58.449935+08:00",
+  "ChangedDate": "2015-08-07T15:58:36.2864502+08:00",
   "WebId": "690d5e36-bd4e-4763-b3a2-104257c4c79b"
 }

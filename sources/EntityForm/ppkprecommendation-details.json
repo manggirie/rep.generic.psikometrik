@@ -352,66 +352,11 @@
           "WebId": "d99eac6e-3927-40a7-a521-128785bd66a0"
         },
         {
-          "$type": "Bespoke.Sph.Domain.ListView, domain.sph",
-          "ChildItemType": "bespoke.epsikologi_ppkprecommendation.domain.ShortInterpretation",
-          "IsChildItemFunction": false,
-          "ListViewColumnCollection": {
-            "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.Sph.Domain.ListViewColumn, domain.sph]], domain.sph",
-            "$values": [
-              {
-                "$type": "Bespoke.Sph.Domain.ListViewColumn, domain.sph",
-                "Label": "Text",
-                "Path": "Text",
-                "Input": {
-                  "$type": "Bespoke.Sph.Domain.TextBox, domain.sph",
-                  "DefaultValue": "",
-                  "AutoCompletionEntity": "",
-                  "AutoCompletionField": "",
-                  "AutoCompletionQuery": "",
-                  "IsPathIsRequired": true,
-                  "TypeName": "TextBox",
-                  "FieldValidation": {
-                    "$type": "Bespoke.Sph.Domain.FieldValidation, domain.sph",
-                    "IsRequired": false,
-                    "Pattern": "",
-                    "Mode": "",
-                    "Message": "",
-                    "Min": null,
-                    "Max": null,
-                    "MinLength": null,
-                    "MaxLength": null,
-                    "WebId": null
-                  },
-                  "Name": "",
-                  "Label": "Text",
-                  "Tooltip": "",
-                  "Path": "Text",
-                  "IsRequired": false,
-                  "Size": "",
-                  "CssClass": "",
-                  "Visible": "",
-                  "Enable": "",
-                  "ElementId": "",
-                  "HelpText": "",
-                  "UseDisplayTemplate": false,
-                  "ToolboxIconClass": "",
-                  "IsUniqueName": false,
-                  "LabelColLg": null,
-                  "LabelColMd": null,
-                  "LabelColSm": null,
-                  "LabelColXs": null,
-                  "InputColLg": null,
-                  "InputColMd": null,
-                  "InputColSm": null,
-                  "InputColXs": null,
-                  "WebId": "3d4bb1e7-9377-4a2c-a954-d1d35796b286"
-                },
-                "WebId": "d00ff7cd-7480-4914-9615-4165bfa542a8"
-              }
-            ]
-          },
+          "$type": "Bespoke.Sph.Domain.TextAreaElement, domain.sph",
+          "Rows": null,
+          "IsHtml": false,
           "IsPathIsRequired": true,
-          "TypeName": "ListView",
+          "TypeName": "TextAreaElement",
           "FieldValidation": {
             "$type": "Bespoke.Sph.Domain.FieldValidation, domain.sph",
             "IsRequired": false,
@@ -425,15 +370,15 @@
             "WebId": null
           },
           "Name": null,
-          "Label": "Short Interpretation",
+          "Label": "Interpretasi Ringkas",
           "Tooltip": null,
-          "Path": "ShortInterpretationCollection",
+          "Path": "InterpretasiRingkas",
           "IsRequired": false,
           "Size": "input-large",
           "CssClass": "",
           "Visible": "true",
           "Enable": "true",
-          "ElementId": "5d25dea9-892c-4e2f-e261-abf34e6c73fb",
+          "ElementId": "21a372eb-b23c-40b4-e5e8-5b20cbc06780",
           "HelpText": null,
           "UseDisplayTemplate": false,
           "ToolboxIconClass": null,
@@ -446,7 +391,7 @@
           "InputColMd": null,
           "InputColSm": null,
           "InputColXs": null,
-          "WebId": "d7aeaaea-823c-45aa-a521-bf637733f85d"
+          "WebId": "5be9b917-03b6-402b-d641-b65607e5462f"
         }
       ]
     },
@@ -498,9 +443,9 @@
   "Caption": null,
   "Layout": " ",
   "CreatedBy": "admin",
-  "Id": "ad3658a5-25bb-487c-b022-484a72bd5eea",
+  "Id": "ppkprecommendation-details",
   "CreatedDate": "2015-08-03T16:19:36.5803933+08:00",
   "ChangedBy": "admin",
-  "ChangedDate": "2015-08-03T17:49:10.4157231+08:00",
+  "ChangedDate": "2015-08-07T15:14:38.9556142+08:00",
   "WebId": "aec0c269-2086-44b1-af23-3e0915a10cd9"
 }
