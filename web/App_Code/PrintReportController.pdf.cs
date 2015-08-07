@@ -12,14 +12,15 @@ namespace web.sph.App_Code
 {
     public partial class PrintReportController
     {
-        
-        public ActionResult Pdf(object vm, string view, Func<object, ActionResult> failOver, int tryCount = 0)
+
+        public ActionResult Pdf(LaporanViewModel vm, string view, Func<string, string> htmlProcessing = null, bool isLandscape = false, int tryCount = 0)
         {
             var license = new License();
             license.SetLicense(ConfigurationManager.BaseDirectory + @"\lib\Aspose.Pdf.lic");
             license.Embedded = true;
 
             var html = RenderViewToString(this, view, vm);
+            if (htmlProcessing != null) html = htmlProcessing(html);
 
             using (var stream = new MemoryStream(Encoding.UTF8.GetBytes(html)))
             {
@@ -27,9 +28,9 @@ namespace web.sph.App_Code
                 {
                     var page = new PageInfo
                     {
-                        Height = PageSize.A4Height,
-                        Width = PageSize.A4Width,
-                        IsLandscape = false,
+                        Height = isLandscape ? PageSize.A4Width : PageSize.A4Height,
+                        Width = isLandscape ? PageSize.A4Height : PageSize.A4Width,
+                        IsLandscape = isLandscape,
                         Margin = new MarginInfo(5, 5, 5, 5),
 
                     };
@@ -40,15 +41,15 @@ namespace web.sph.App_Code
                     var os = new MemoryStream();
                     pdf.Save(os, SaveFormat.Pdf);
                     os.Position = 0;
-                    return File(os, MimeMapping.GetMimeMapping(".pdf"), "Laporan Indeks Personaliti (IP).pdf");
+                    return File(os, MimeMapping.GetMimeMapping(".pdf"), $"{vm.Ujian.NamaUjian}-{vm.Sesi.MyKad}.pdf");
                 }
                 catch (NotSupportedException e) when (e.Message.Contains("woff") && tryCount < 3)
                 {
-                    return Pdf(vm, view, failOver, tryCount + 1);
+                    return Pdf(vm, view, htmlProcessing, isLandscape, tryCount + 1);
                 }
                 catch (NotSupportedException e) when (e.Message.Contains("woff") && tryCount >= 3)
                 {
-                    return failOver(vm);
+                    return Content(html);
                 }
 
 

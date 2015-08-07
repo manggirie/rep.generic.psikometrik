@@ -18,7 +18,7 @@ namespace web.sph.App_Code
         public string Recommendation { get; set; }
         public int Point { get; set; }
     }
-    public class HlpTraitViewModel
+    public class HlpTraitViewModel :LaporanViewModel
     {
 
         private readonly SesiUjian m_sesi;
@@ -34,7 +34,11 @@ namespace web.sph.App_Code
             m_pengguna = pengguna;
             m_scoreTables = scoreTables;
             m_recommendations = recommendations;
+            this.Pengguna = pengguna;
+            this.Sesi = sesi;
         }
+        
+        
 
         public override string ToString()
         {
@@ -43,12 +47,7 @@ namespace web.sph.App_Code
             setting.Formatting = Formatting.Indented;
             return JsonConvert.SerializeObject(this, setting);
         }
-
-        [JsonIgnore]
-        public Pengguna Pengguna => m_pengguna;
-
-        [JsonIgnore]
-        public SesiUjian Sesi => m_sesi;
+        
 
         
         public HlpResult FR => ComputeResult("FR");
