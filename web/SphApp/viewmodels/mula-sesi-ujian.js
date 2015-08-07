@@ -122,8 +122,7 @@ define(["services/datacontext", objectbuilders.app, objectbuilders.router, objec
                         });
 
                 if (minutes === 1) {
-
-                    start.add(20, "s");
+                    start.add(40, "s");
                 } else {
                     start.add(minutes * 60, "s");
                 }
