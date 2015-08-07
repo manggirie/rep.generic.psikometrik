@@ -3,7 +3,7 @@
   "NoRujukan": "UKBP-B-00009",
   "SoalanNo": "UKBP-B-00009",
   "TeksSoalan": "Saya menghargai persekitaran yang cantik dan pada masa yang sama, warna serta reka bentuk memberi makna kepada saya.",
-  "SeksyenSoalan": "",
+  "SeksyenSoalan": "1",
   "PilihanJawapanCollection": {
     "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan]], domain.sph",
     "$values": [
@@ -21,7 +21,7 @@
       }
     ]
   },
-  "Trait": null,
+  "Trait": "C",
   "NamaUjian": "Ujian Khas Biasiswa Persekutuan(UKBP)",
   "Susunan": 9.0,
   "Kategori": null,
@@ -30,6 +30,6 @@
   "Id": "UKBP-B-00009",
   "CreatedDate": "2015-07-06T11:24:55.9587467+08:00",
   "ChangedBy": "admin",
-  "ChangedDate": "2015-07-06T11:24:55.9582465+08:00",
+  "ChangedDate": "2015-08-07T15:34:01.8244117+08:00",
   "WebId": "0ea9e6d4-9659-4273-b0c5-6e572ae62804"
 }

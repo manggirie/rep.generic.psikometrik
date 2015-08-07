@@ -3,7 +3,7 @@
   "NoRujukan": "UKBP-B-00012",
   "SoalanNo": "UKBP-B-00012",
   "TeksSoalan": "Saya meluangkan masa untuk membuat perancangan secara teliti sebelum memulakan sesuatu tugasan.",
-  "SeksyenSoalan": "",
+  "SeksyenSoalan": "1",
   "PilihanJawapanCollection": {
     "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan]], domain.sph",
     "$values": [
@@ -21,7 +21,7 @@
       }
     ]
   },
-  "Trait": null,
+  "Trait": "F",
   "NamaUjian": "Ujian Khas Biasiswa Persekutuan(UKBP)",
   "Susunan": 12.0,
   "Kategori": null,
@@ -30,6 +30,6 @@
   "Id": "UKBP-B-00012",
   "CreatedDate": "2015-07-06T11:24:55.9812633+08:00",
   "ChangedBy": "admin",
-  "ChangedDate": "2015-07-06T11:24:55.9807622+08:00",
+  "ChangedDate": "2015-08-07T15:35:11.172453+08:00",
   "WebId": "515ec2ef-bdb4-48e0-a805-baef55caca11"
 }
