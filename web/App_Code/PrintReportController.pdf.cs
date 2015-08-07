@@ -31,7 +31,7 @@ namespace web.sph.App_Code
                         Height = isLandscape ? PageSize.A4Width : PageSize.A4Height,
                         Width = isLandscape ? PageSize.A4Height : PageSize.A4Width,
                         IsLandscape = isLandscape,
-                        Margin = new MarginInfo(5, 5, 5, 5),
+                        Margin = new MarginInfo(8, 10, 8, 10),
 
                     };
                     var options = new HtmlLoadOptions(ConfigurationManager.BaseUrl) { PageInfo = page };
