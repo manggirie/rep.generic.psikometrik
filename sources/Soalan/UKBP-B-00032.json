@@ -3,7 +3,7 @@
   "NoRujukan": "UKBP-B-00032",
   "SoalanNo": "UKBP-B-00032",
   "TeksSoalan": "Saya tidak sabar untuk membaca apa jua jenis bahan bacaan yang boleh menarik minat saya.",
-  "SeksyenSoalan": "",
+  "SeksyenSoalan": "1",
   "PilihanJawapanCollection": {
     "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan]], domain.sph",
     "$values": [
@@ -21,7 +21,7 @@
       }
     ]
   },
-  "Trait": null,
+  "Trait": "B",
   "NamaUjian": "Ujian Khas Biasiswa Persekutuan(UKBP)",
   "Susunan": 32.0,
   "Kategori": null,
@@ -30,6 +30,6 @@
   "Id": "UKBP-B-00032",
   "CreatedDate": "2015-07-06T11:24:56.127866+08:00",
   "ChangedBy": "admin",
-  "ChangedDate": "2015-07-06T11:24:56.1273659+08:00",
+  "ChangedDate": "2015-08-07T15:48:39.3076915+08:00",
   "WebId": "594022fd-de59-4260-a2b9-d667a95602de"
 }

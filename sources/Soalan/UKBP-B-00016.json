@@ -3,7 +3,7 @@
   "NoRujukan": "UKBP-B-00016",
   "SoalanNo": "UKBP-B-00016",
   "TeksSoalan": "Saya suka berkongsi masalah peribadi dengan orang lain.",
-  "SeksyenSoalan": "",
+  "SeksyenSoalan": "1",
   "PilihanJawapanCollection": {
     "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan]], domain.sph",
     "$values": [
@@ -21,7 +21,7 @@
       }
     ]
   },
-  "Trait": null,
+  "Trait": "D",
   "NamaUjian": "Ujian Khas Biasiswa Persekutuan(UKBP)",
   "Susunan": 16.0,
   "Kategori": null,
@@ -30,6 +30,6 @@
   "Id": "UKBP-B-00016",
   "CreatedDate": "2015-07-06T11:24:56.0167876+08:00",
   "ChangedBy": "admin",
-  "ChangedDate": "2015-07-06T11:24:56.0167876+08:00",
+  "ChangedDate": "2015-08-07T15:39:37.6895351+08:00",
   "WebId": "909c6b58-b932-4ee2-b48e-6cad6bd2d813"
 }
