@@ -1,14 +1,14 @@
 {
   "$type": "Bespoke.epsikologi_jabatan.Domain.Jabatan, epsikologi.Jabatan",
-  "JabatanNo": "36495",
+  "JabatanNo": "institut-sukan-negara",
   "NamaJabatan": "INSTITUT SUKAN NEGARA",
   "AgensiNo": "NA",
-  "Kementerian": null,
+  "Kementerian": "KEMENTERIAN BELIA DAN SUKAN",
   "AgensiKumpulan": "BBP",
-  "CreatedBy": "admin",
+  "CreatedBy": "erymuzuan",
   "Id": "institut-sukan-negara",
-  "CreatedDate": "2015-06-05T10:39:32.7488142+08:00",
+  "CreatedDate": "2015-08-07T19:18:51.1720212+08:00",
   "ChangedBy": "admin",
-  "ChangedDate": "2015-07-01T13:41:27.0193484+08:00",
-  "WebId": "0c6166f7-d200-4558-93e5-191911148959"
+  "ChangedDate": "2015-08-07T19:18:51.1720212+08:00",
+  "WebId": "ad9f771b-83c3-4289-9841-c7a917d9003e"
 }

@@ -1,14 +1,14 @@
 {
   "$type": "Bespoke.epsikologi_jabatan.Domain.Jabatan, epsikologi.Jabatan",
-  "JabatanNo": "179973",
+  "JabatanNo": "universiti-tun-hussein-onn-malaysia-uthm-",
   "NamaJabatan": "UNIVERSITI TUN HUSSEIN ONN MALAYSIA (UTHM)",
-  "AgensiNo": "26281",
-  "Kementerian": "KEM. PENGAJIAN TINGGI",
+  "AgensiNo": "NA",
+  "Kementerian": "KEMENTERIAN PENDIDIKAN MALAYSIA",
   "AgensiKumpulan": "BBP",
-  "CreatedBy": "admin",
+  "CreatedBy": "erymuzuan",
   "Id": "universiti-tun-hussein-onn-malaysia-uthm-",
-  "CreatedDate": "2015-06-05T10:39:26.4654604+08:00",
+  "CreatedDate": "2015-08-07T19:18:51.1725208+08:00",
   "ChangedBy": "admin",
-  "ChangedDate": "2015-07-01T13:41:15.3921858+08:00",
-  "WebId": "099affa3-9767-4c04-bd68-8c85a5ee2773"
+  "ChangedDate": "2015-08-07T19:18:51.1725208+08:00",
+  "WebId": "74b6ae74-97b7-4df2-832c-afb792e6cb82"
 }

@@ -1,14 +1,14 @@
 {
   "$type": "Bespoke.epsikologi_jabatan.Domain.Jabatan, epsikologi.Jabatan",
-  "JabatanNo": "30297",
+  "JabatanNo": "lembaga-pelabuhan-johor",
   "NamaJabatan": "LEMBAGA PELABUHAN JOHOR",
-  "AgensiNo": "59098",
-  "Kementerian": "PSUK NEGERI JOHOR",
+  "AgensiNo": "NA",
+  "Kementerian": "KEMENTERIAN PENGANGKUTAN",
   "AgensiKumpulan": "BBP",
-  "CreatedBy": "admin",
+  "CreatedBy": "erymuzuan",
   "Id": "lembaga-pelabuhan-johor",
-  "CreatedDate": "2015-06-05T10:39:32.3867939+08:00",
+  "CreatedDate": "2015-08-07T19:18:51.1725208+08:00",
   "ChangedBy": "admin",
-  "ChangedDate": "2015-07-01T13:41:26.3962861+08:00",
-  "WebId": "52c8d968-9cdf-46fa-84b7-0a109d29e1b6"
+  "ChangedDate": "2015-08-07T19:18:51.1725208+08:00",
+  "WebId": "7dad0f71-5e8a-4eca-b9f8-fd863749bc77"
 }

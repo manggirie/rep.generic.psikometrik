@@ -1,0 +1,14 @@
+{
+  "$type": "Bespoke.epsikologi_jabatan.Domain.Jabatan, epsikologi.Jabatan",
+  "JabatanNo": "unit-penyelarasan-pelaksanaan",
+  "NamaJabatan": "UNIT PENYELARASAN PELAKSANAAN",
+  "AgensiNo": "NA",
+  "Kementerian": "JABATAN PERDANA MENTERI",
+  "AgensiKumpulan": "PAP",
+  "CreatedBy": "erymuzuan",
+  "Id": "unit-penyelarasan-pelaksanaan",
+  "CreatedDate": "2015-08-07T19:18:51.1720212+08:00",
+  "ChangedBy": "admin",
+  "ChangedDate": "2015-08-07T19:18:51.1720212+08:00",
+  "WebId": "4c4d7c2a-88e1-4fee-b778-14ef2d68606b"
+}

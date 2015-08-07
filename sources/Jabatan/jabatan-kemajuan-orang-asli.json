@@ -1,0 +1,14 @@
+{
+  "$type": "Bespoke.epsikologi_jabatan.Domain.Jabatan, epsikologi.Jabatan",
+  "JabatanNo": "jabatan-kemajuan-orang-asli",
+  "NamaJabatan": "JABATAN KEMAJUAN ORANG ASLI",
+  "AgensiNo": "NA",
+  "Kementerian": "KEMENTERIAN KEMAJUAN LUAR BANDAR DAN WILAYAH",
+  "AgensiKumpulan": "PAP",
+  "CreatedBy": "erymuzuan",
+  "Id": "jabatan-kemajuan-orang-asli",
+  "CreatedDate": "2015-08-07T19:18:51.1725208+08:00",
+  "ChangedBy": "admin",
+  "ChangedDate": "2015-08-07T19:18:51.1725208+08:00",
+  "WebId": "34cbce84-e3ff-4c75-a539-ef217cba5424"
+}

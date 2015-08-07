@@ -1,14 +1,14 @@
 {
   "$type": "Bespoke.epsikologi_jabatan.Domain.Jabatan, epsikologi.Jabatan",
-  "JabatanNo": "88471",
+  "JabatanNo": "majlis-daerah-sabak-bernam",
   "NamaJabatan": "MAJLIS DAERAH SABAK BERNAM",
   "AgensiNo": "NA",
-  "Kementerian": null,
+  "Kementerian": "PENTADBIRAN KERAJAAN NEGERI SELANGOR",
   "AgensiKumpulan": "PBT",
-  "CreatedBy": "admin",
+  "CreatedBy": "erymuzuan",
   "Id": "majlis-daerah-sabak-bernam",
-  "CreatedDate": "2015-06-05T10:39:36.6710353+08:00",
+  "CreatedDate": "2015-08-07T19:18:51.1750204+08:00",
   "ChangedBy": "admin",
-  "ChangedDate": "2015-07-01T13:41:36.1072571+08:00",
-  "WebId": "827a630f-a7dd-4dda-b61f-ae56b6ada2a6"
+  "ChangedDate": "2015-08-07T19:18:51.1750204+08:00",
+  "WebId": "d9c59c90-fbb0-4613-970d-d85fb65be174"
 }

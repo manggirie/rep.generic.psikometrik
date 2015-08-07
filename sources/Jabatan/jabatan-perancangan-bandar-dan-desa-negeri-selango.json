@@ -1,0 +1,14 @@
+{
+  "$type": "Bespoke.epsikologi_jabatan.Domain.Jabatan, epsikologi.Jabatan",
+  "JabatanNo": "jabatan-perancangan-bandar-dan-desa-negeri-selango",
+  "NamaJabatan": "JABATAN PERANCANGAN BANDAR DAN DESA NEGERI SELANGOR",
+  "AgensiNo": "NA",
+  "Kementerian": "PENTADBIRAN KERAJAAN NEGERI SELANGOR",
+  "AgensiKumpulan": "PAN",
+  "CreatedBy": "erymuzuan",
+  "Id": "jabatan-perancangan-bandar-dan-desa-negeri-selango",
+  "CreatedDate": "2015-08-07T19:18:51.1750204+08:00",
+  "ChangedBy": "admin",
+  "ChangedDate": "2015-08-07T19:18:51.1750204+08:00",
+  "WebId": "7878be52-7523-4791-ad4b-2640f655045e"
+}

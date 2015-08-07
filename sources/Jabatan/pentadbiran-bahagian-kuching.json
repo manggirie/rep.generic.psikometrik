@@ -1,0 +1,14 @@
+{
+  "$type": "Bespoke.epsikologi_jabatan.Domain.Jabatan, epsikologi.Jabatan",
+  "JabatanNo": "pentadbiran-bahagian-kuching",
+  "NamaJabatan": "PENTADBIRAN BAHAGIAN KUCHING",
+  "AgensiNo": "NA",
+  "Kementerian": "PENTADBIRAN KERAJAAN NEGERI SARAWAK",
+  "AgensiKumpulan": "PAN",
+  "CreatedBy": "erymuzuan",
+  "Id": "pentadbiran-bahagian-kuching",
+  "CreatedDate": "2015-08-07T19:18:51.1745205+08:00",
+  "ChangedBy": "admin",
+  "ChangedDate": "2015-08-07T19:18:51.1745205+08:00",
+  "WebId": "b5e6d67c-5c23-4b1e-879b-31f0c7d2f43d"
+}

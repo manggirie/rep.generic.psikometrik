@@ -1,0 +1,14 @@
+{
+  "$type": "Bespoke.epsikologi_jabatan.Domain.Jabatan, epsikologi.Jabatan",
+  "JabatanNo": "jabatan-pengairan-dan-saliran-negeri-sembilan",
+  "NamaJabatan": "JABATAN PENGAIRAN DAN SALIRAN NEGERI SEMBILAN",
+  "AgensiNo": "NA",
+  "Kementerian": "PENTADBIRAN KERAJAAN NEGERI SEMBILAN",
+  "AgensiKumpulan": "PAN",
+  "CreatedBy": "erymuzuan",
+  "Id": "jabatan-pengairan-dan-saliran-negeri-sembilan",
+  "CreatedDate": "2015-08-07T19:18:51.1750204+08:00",
+  "ChangedBy": "admin",
+  "ChangedDate": "2015-08-07T19:18:51.1750204+08:00",
+  "WebId": "8827d971-3e8b-4d23-b32e-f226d1a74639"
+}

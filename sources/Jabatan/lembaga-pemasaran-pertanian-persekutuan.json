@@ -1,14 +1,14 @@
 {
   "$type": "Bespoke.epsikologi_jabatan.Domain.Jabatan, epsikologi.Jabatan",
-  "JabatanNo": "59214",
+  "JabatanNo": "lembaga-pemasaran-pertanian-persekutuan",
   "NamaJabatan": "LEMBAGA PEMASARAN PERTANIAN PERSEKUTUAN",
   "AgensiNo": "NA",
-  "Kementerian": null,
+  "Kementerian": "KEMENTERIAN PERTANIAN DAN INDUSTRI ASAS TANI",
   "AgensiKumpulan": "BBP",
-  "CreatedBy": "admin",
+  "CreatedBy": "erymuzuan",
   "Id": "lembaga-pemasaran-pertanian-persekutuan",
-  "CreatedDate": "2015-06-05T10:39:34.7559276+08:00",
+  "CreatedDate": "2015-08-07T19:18:51.1730207+08:00",
   "ChangedBy": "admin",
-  "ChangedDate": "2015-07-01T13:41:31.9988463+08:00",
-  "WebId": "5ee72c06-240f-4096-bf6b-e014182bf3b8"
+  "ChangedDate": "2015-08-07T19:18:51.1730207+08:00",
+  "WebId": "3a608308-c294-4539-8573-822d6d057559"
 }

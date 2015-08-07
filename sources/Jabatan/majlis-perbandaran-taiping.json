@@ -1,14 +1,14 @@
 {
   "$type": "Bespoke.epsikologi_jabatan.Domain.Jabatan, epsikologi.Jabatan",
-  "JabatanNo": "56786",
+  "JabatanNo": "majlis-perbandaran-taiping",
   "NamaJabatan": "MAJLIS PERBANDARAN TAIPING",
   "AgensiNo": "NA",
-  "Kementerian": null,
+  "Kementerian": "PENTADBIRAN KERAJAAN NEGERI PERAK",
   "AgensiKumpulan": "PBT",
-  "CreatedBy": "admin",
+  "CreatedBy": "erymuzuan",
   "Id": "majlis-perbandaran-taiping",
-  "CreatedDate": "2015-06-05T10:39:34.6199197+08:00",
+  "CreatedDate": "2015-08-07T19:18:51.1740209+08:00",
   "ChangedBy": "admin",
-  "ChangedDate": "2015-07-01T13:41:30.6317096+08:00",
-  "WebId": "f53a9696-68a5-48e0-801f-765999ce9f55"
+  "ChangedDate": "2015-08-07T19:18:51.1740209+08:00",
+  "WebId": "d4f9e04b-4417-4331-962b-d745e8e126e6"
 }

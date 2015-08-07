@@ -1,14 +1,14 @@
 {
   "$type": "Bespoke.epsikologi_jabatan.Domain.Jabatan, epsikologi.Jabatan",
-  "JabatanNo": "162374",
+  "JabatanNo": "institut-penyelidikan-pembangunan-belia-malaysia",
   "NamaJabatan": "INSTITUT PENYELIDIKAN PEMBANGUNAN BELIA MALAYSIA",
   "AgensiNo": "NA",
-  "Kementerian": null,
+  "Kementerian": "KEMENTERIAN BELIA DAN SUKAN",
   "AgensiKumpulan": "BBP",
-  "CreatedBy": "admin",
+  "CreatedBy": "erymuzuan",
   "Id": "institut-penyelidikan-pembangunan-belia-malaysia",
-  "CreatedDate": "2015-06-05T10:39:25.947431+08:00",
+  "CreatedDate": "2015-08-07T19:18:51.1720212+08:00",
   "ChangedBy": "admin",
-  "ChangedDate": "2015-07-01T13:41:14.4330899+08:00",
-  "WebId": "dd5d81c6-d648-41b3-95a0-022f09dc4d8d"
+  "ChangedDate": "2015-08-07T19:18:51.1720212+08:00",
+  "WebId": "a620d36d-ce55-4073-a4de-3685b1b2f111"
 }

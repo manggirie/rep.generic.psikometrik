@@ -1,14 +1,14 @@
 {
   "$type": "Bespoke.epsikologi_jabatan.Domain.Jabatan, epsikologi.Jabatan",
-  "JabatanNo": "178777",
+  "JabatanNo": "perbadanan-perpustakaan-awam-pahang",
   "NamaJabatan": "PERBADANAN PERPUSTAKAAN AWAM PAHANG",
-  "AgensiNo": "53300",
-  "Kementerian": "PSUK NEGERI PAHANG",
+  "AgensiNo": "NA",
+  "Kementerian": "PENTADBIRAN KERAJAAN NEGERI PAHANG",
   "AgensiKumpulan": "BBN",
-  "CreatedBy": "admin",
+  "CreatedBy": "erymuzuan",
   "Id": "perbadanan-perpustakaan-awam-pahang",
-  "CreatedDate": "2015-06-05T10:39:26.3004511+08:00",
+  "CreatedDate": "2015-08-07T19:18:51.1740209+08:00",
   "ChangedBy": "admin",
-  "ChangedDate": "2015-07-01T13:41:15.1321598+08:00",
-  "WebId": "74e36813-0f2a-4acf-8586-70f938ae9e12"
+  "ChangedDate": "2015-08-07T19:18:51.1740209+08:00",
+  "WebId": "b40b4828-3b1d-421e-9eb4-c6bfb5eb768a"
 }

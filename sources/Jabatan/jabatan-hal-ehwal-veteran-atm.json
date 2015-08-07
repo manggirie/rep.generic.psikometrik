@@ -1,0 +1,14 @@
+{
+  "$type": "Bespoke.epsikologi_jabatan.Domain.Jabatan, epsikologi.Jabatan",
+  "JabatanNo": "jabatan-hal-ehwal-veteran-atm",
+  "NamaJabatan": "JABATAN HAL EHWAL VETERAN ATM",
+  "AgensiNo": "NA",
+  "Kementerian": "KEMENTERIAN PERTAHANAN",
+  "AgensiKumpulan": "PAP",
+  "CreatedBy": "erymuzuan",
+  "Id": "jabatan-hal-ehwal-veteran-atm",
+  "CreatedDate": "2015-08-07T19:18:51.1725208+08:00",
+  "ChangedBy": "admin",
+  "ChangedDate": "2015-08-07T19:18:51.1725208+08:00",
+  "WebId": "e7bdafce-eede-4439-8b66-3272c9187d7e"
+}

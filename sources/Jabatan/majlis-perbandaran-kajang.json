@@ -1,14 +1,14 @@
 {
   "$type": "Bespoke.epsikologi_jabatan.Domain.Jabatan, epsikologi.Jabatan",
-  "JabatanNo": "88672",
+  "JabatanNo": "majlis-perbandaran-kajang",
   "NamaJabatan": "MAJLIS PERBANDARAN KAJANG",
   "AgensiNo": "NA",
-  "Kementerian": null,
+  "Kementerian": "PENTADBIRAN KERAJAAN NEGERI SELANGOR",
   "AgensiKumpulan": "PBT",
-  "CreatedBy": "admin",
+  "CreatedBy": "erymuzuan",
   "Id": "majlis-perbandaran-kajang",
-  "CreatedDate": "2015-06-05T10:39:36.7120373+08:00",
+  "CreatedDate": "2015-08-07T19:18:51.1750204+08:00",
   "ChangedBy": "admin",
-  "ChangedDate": "2015-07-01T13:41:36.2102674+08:00",
-  "WebId": "423bd493-abd9-4479-b597-ce9a282f31db"
+  "ChangedDate": "2015-08-07T19:18:51.1750204+08:00",
+  "WebId": "4a1f063f-963f-42a8-bd1c-128c98ee9991"
 }

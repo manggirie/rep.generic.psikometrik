@@ -1,14 +1,14 @@
 {
   "$type": "Bespoke.epsikologi_jabatan.Domain.Jabatan, epsikologi.Jabatan",
-  "JabatanNo": "61721",
+  "JabatanNo": "majlis-perbandaran-kluang",
   "NamaJabatan": "MAJLIS PERBANDARAN KLUANG",
   "AgensiNo": "NA",
-  "Kementerian": null,
+  "Kementerian": "PENTADBIRAN KERAJAAN NEGERI JOHOR",
   "AgensiKumpulan": "PBT",
-  "CreatedBy": "admin",
+  "CreatedBy": "erymuzuan",
   "Id": "majlis-perbandaran-kluang",
-  "CreatedDate": "2015-06-05T10:39:35.0889463+08:00",
+  "CreatedDate": "2015-08-07T19:18:51.1730207+08:00",
   "ChangedBy": "admin",
-  "ChangedDate": "2015-07-01T13:41:32.6889153+08:00",
-  "WebId": "272c9afe-3c71-4f5b-95e9-bf0ee418d233"
+  "ChangedDate": "2015-08-07T19:18:51.1730207+08:00",
+  "WebId": "037bc327-3c32-486a-a1c7-5d6b3cb22864"
 }

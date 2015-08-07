@@ -1,14 +1,14 @@
 {
   "$type": "Bespoke.epsikologi_jabatan.Domain.Jabatan, epsikologi.Jabatan",
-  "JabatanNo": "60792",
+  "JabatanNo": "perbadanan-muzium-negeri-kelantan",
   "NamaJabatan": "PERBADANAN MUZIUM NEGERI KELANTAN",
-  "AgensiNo": "59081",
-  "Kementerian": "PSUK NEGERI KELANTAN",
+  "AgensiNo": "NA",
+  "Kementerian": "PENTADBIRAN KERAJAAN NEGERI KELANTAN",
   "AgensiKumpulan": "BBN",
-  "CreatedBy": "admin",
+  "CreatedBy": "erymuzuan",
   "Id": "perbadanan-muzium-negeri-kelantan",
-  "CreatedDate": "2015-06-05T10:39:34.8899349+08:00",
+  "CreatedDate": "2015-08-07T19:18:51.1735206+08:00",
   "ChangedBy": "admin",
-  "ChangedDate": "2015-07-01T13:41:32.3768841+08:00",
-  "WebId": "dafd8c45-fe70-4ebc-afa0-00a31b19a3a5"
+  "ChangedDate": "2015-08-07T19:18:51.1735206+08:00",
+  "WebId": "5ba79e2a-e0e3-463c-a79d-6145139276be"
 }

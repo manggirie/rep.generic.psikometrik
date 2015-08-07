@@ -1,0 +1,14 @@
+{
+  "$type": "Bespoke.epsikologi_jabatan.Domain.Jabatan, epsikologi.Jabatan",
+  "JabatanNo": "lembaga-kemajuan-johor-tenggara-kejora-",
+  "NamaJabatan": "LEMBAGA KEMAJUAN JOHOR TENGGARA (KEJORA)",
+  "AgensiNo": "NA",
+  "Kementerian": "KEMENTERIAN KEMAJUAN LUAR BANDAR DAN WILAYAH",
+  "AgensiKumpulan": "BBP",
+  "CreatedBy": "erymuzuan",
+  "Id": "lembaga-kemajuan-johor-tenggara-kejora-",
+  "CreatedDate": "2015-08-07T19:18:51.1725208+08:00",
+  "ChangedBy": "admin",
+  "ChangedDate": "2015-08-07T19:18:51.1725208+08:00",
+  "WebId": "700de6f6-deca-4c6c-b3fd-6ef5d9f21f9a"
+}

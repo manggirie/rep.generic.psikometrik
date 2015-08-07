@@ -1,14 +1,14 @@
 {
   "$type": "Bespoke.epsikologi_jabatan.Domain.Jabatan, epsikologi.Jabatan",
-  "JabatanNo": "68981",
+  "JabatanNo": "majlis-peperiksaan-malaysia",
   "NamaJabatan": "MAJLIS PEPERIKSAAN MALAYSIA",
   "AgensiNo": "NA",
-  "Kementerian": null,
+  "Kementerian": "KEMENTERIAN PENDIDIKAN MALAYSIA",
   "AgensiKumpulan": "BBP",
-  "CreatedBy": "admin",
+  "CreatedBy": "erymuzuan",
   "Id": "majlis-peperiksaan-malaysia",
-  "CreatedDate": "2015-06-05T10:39:35.7359831+08:00",
+  "CreatedDate": "2015-08-07T19:18:51.1725208+08:00",
   "ChangedBy": "admin",
-  "ChangedDate": "2015-07-01T13:41:33.9830447+08:00",
-  "WebId": "6b778b6b-51a7-4a54-84cb-dcc072b02f5a"
+  "ChangedDate": "2015-08-07T19:18:51.1725208+08:00",
+  "WebId": "ea60d7e2-8e68-48eb-9ddc-fb9f600ab39c"
 }

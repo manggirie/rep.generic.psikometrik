@@ -1,14 +1,14 @@
 {
   "$type": "Bespoke.epsikologi_jabatan.Domain.Jabatan, epsikologi.Jabatan",
-  "JabatanNo": "88542",
+  "JabatanNo": "majlis-perbandaran-klang",
   "NamaJabatan": "MAJLIS PERBANDARAN KLANG",
   "AgensiNo": "NA",
-  "Kementerian": null,
+  "Kementerian": "PENTADBIRAN KERAJAAN NEGERI SELANGOR",
   "AgensiKumpulan": "PBT",
-  "CreatedBy": "admin",
+  "CreatedBy": "erymuzuan",
   "Id": "majlis-perbandaran-klang",
-  "CreatedDate": "2015-06-05T10:39:36.6840362+08:00",
+  "CreatedDate": "2015-08-07T19:18:51.1750204+08:00",
   "ChangedBy": "admin",
-  "ChangedDate": "2015-07-01T13:41:36.1432607+08:00",
-  "WebId": "8d610b8b-2cec-4ce7-8e45-348665bf335f"
+  "ChangedDate": "2015-08-07T19:18:51.1750204+08:00",
+  "WebId": "a270afd8-6d5f-47f0-a08d-1138bc946eb8"
 }

@@ -1,0 +1,14 @@
+{
+  "$type": "Bespoke.epsikologi_jabatan.Domain.Jabatan, epsikologi.Jabatan",
+  "JabatanNo": "majlis-daerah-kunak",
+  "NamaJabatan": "MAJLIS DAERAH KUNAK",
+  "AgensiNo": "NA",
+  "Kementerian": "PENTADBIRAN KERAJAAN NEGERI SABAH",
+  "AgensiKumpulan": "PBT",
+  "CreatedBy": "erymuzuan",
+  "Id": "majlis-daerah-kunak",
+  "CreatedDate": "2015-08-07T19:18:51.1745205+08:00",
+  "ChangedBy": "admin",
+  "ChangedDate": "2015-08-07T19:18:51.1745205+08:00",
+  "WebId": "7e1779d4-c68b-4e42-907e-54aa5f0a15c1"
+}

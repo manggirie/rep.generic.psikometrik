@@ -1,14 +1,14 @@
 {
   "$type": "Bespoke.epsikologi_jabatan.Domain.Jabatan, epsikologi.Jabatan",
-  "JabatanNo": "178838",
+  "JabatanNo": "majlis-daerah-lipis",
   "NamaJabatan": "MAJLIS DAERAH LIPIS",
-  "AgensiNo": "53300",
-  "Kementerian": "PSUK NEGERI PAHANG",
+  "AgensiNo": "NA",
+  "Kementerian": "PENTADBIRAN KERAJAAN NEGERI PAHANG",
   "AgensiKumpulan": "PBT",
-  "CreatedBy": "admin",
+  "CreatedBy": "erymuzuan",
   "Id": "majlis-daerah-lipis",
-  "CreatedDate": "2015-06-05T10:39:26.360454+08:00",
+  "CreatedDate": "2015-08-07T19:18:51.1740209+08:00",
   "ChangedBy": "admin",
-  "ChangedDate": "2015-07-01T13:41:15.264173+08:00",
-  "WebId": "72ce13fc-3816-487b-8946-3d9adaf86209"
+  "ChangedDate": "2015-08-07T19:18:51.1740209+08:00",
+  "WebId": "ac9020a6-f8a2-4c6d-a05c-23fd1f986db9"
 }

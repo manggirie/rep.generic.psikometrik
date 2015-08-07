@@ -1,0 +1,14 @@
+{
+  "$type": "Bespoke.epsikologi_jabatan.Domain.Jabatan, epsikologi.Jabatan",
+  "JabatanNo": "lembaga-kemajuan-pertanian-kemubu",
+  "NamaJabatan": "LEMBAGA KEMAJUAN PERTANIAN KEMUBU",
+  "AgensiNo": "NA",
+  "Kementerian": "KEMENTERIAN PERTANIAN DAN INDUSTRI ASAS TANI",
+  "AgensiKumpulan": "BBP",
+  "CreatedBy": "erymuzuan",
+  "Id": "lembaga-kemajuan-pertanian-kemubu",
+  "CreatedDate": "2015-08-07T19:18:51.1730207+08:00",
+  "ChangedBy": "admin",
+  "ChangedDate": "2015-08-07T19:18:51.1730207+08:00",
+  "WebId": "e823180b-1732-453f-8a3a-b9fd8aa5959b"
+}

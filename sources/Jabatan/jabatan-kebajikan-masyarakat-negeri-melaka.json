@@ -1,14 +1,14 @@
 {
   "$type": "Bespoke.epsikologi_jabatan.Domain.Jabatan, epsikologi.Jabatan",
-  "JabatanNo": "214682",
+  "JabatanNo": "jabatan-kebajikan-masyarakat-negeri-melaka",
   "NamaJabatan": "JABATAN KEBAJIKAN MASYARAKAT NEGERI MELAKA",
-  "AgensiNo": "24556",
-  "Kementerian": "KEM. PEMBANGUNAN WANITA, KELUARGA & MASYARAKAT",
-  "AgensiKumpulan": "BBN",
-  "CreatedBy": "admin",
+  "AgensiNo": "NA",
+  "Kementerian": "PENTADBIRAN KERAJAAN NEGERI MELAKA",
+  "AgensiKumpulan": "PAN",
+  "CreatedBy": "erymuzuan",
   "Id": "jabatan-kebajikan-masyarakat-negeri-melaka",
-  "CreatedDate": "2015-06-05T10:39:29.086608+08:00",
+  "CreatedDate": "2015-08-07T19:18:51.1735206+08:00",
   "ChangedBy": "admin",
-  "ChangedDate": "2015-07-01T13:41:19.7236189+08:00",
-  "WebId": "6ec04aa3-78b6-46cf-999c-8eda48fd8bc1"
+  "ChangedDate": "2015-08-07T19:18:51.1735206+08:00",
+  "WebId": "7c610c0d-0ca5-4623-9258-44bdcb546c7c"
 }

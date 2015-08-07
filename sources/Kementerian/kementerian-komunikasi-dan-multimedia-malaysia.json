@@ -1,0 +1,14 @@
+{
+  "$type": "Bespoke.epsikologi_kementerian.Domain.Kementerian, epsikologi.Kementerian",
+  "KementerianNo": "kementerian-komunikasi-dan-multimedia-malaysia",
+  "NamaKementerian": "KEMENTERIAN KOMUNIKASI DAN MULTIMEDIA MALAYSIA",
+  "Negeri": "",
+  "KumpulanAgensi": "BBP",
+  "Abbreviation": "PERTUBUHAN BERITA NASIONAL MALAYSIA (BERNAMA)",
+  "CreatedBy": null,
+  "Id": "kementerian-komunikasi-dan-multimedia-malaysia",
+  "CreatedDate": "0001-01-01T00:00:00",
+  "ChangedBy": null,
+  "ChangedDate": "0001-01-01T00:00:00",
+  "WebId": null
+}

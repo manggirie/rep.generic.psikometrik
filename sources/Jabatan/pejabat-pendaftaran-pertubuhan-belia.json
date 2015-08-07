@@ -1,0 +1,14 @@
+{
+  "$type": "Bespoke.epsikologi_jabatan.Domain.Jabatan, epsikologi.Jabatan",
+  "JabatanNo": "pejabat-pendaftaran-pertubuhan-belia",
+  "NamaJabatan": "PEJABAT PENDAFTARAN PERTUBUHAN BELIA",
+  "AgensiNo": "NA",
+  "Kementerian": "KEMENTERIAN BELIA DAN SUKAN",
+  "AgensiKumpulan": "PAP",
+  "CreatedBy": "erymuzuan",
+  "Id": "pejabat-pendaftaran-pertubuhan-belia",
+  "CreatedDate": "2015-08-07T19:18:51.1720212+08:00",
+  "ChangedBy": "admin",
+  "ChangedDate": "2015-08-07T19:18:51.1720212+08:00",
+  "WebId": "1d3043a1-6710-4fe7-9621-9060c0b8b6ac"
+}

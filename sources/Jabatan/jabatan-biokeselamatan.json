@@ -1,0 +1,14 @@
+{
+  "$type": "Bespoke.epsikologi_jabatan.Domain.Jabatan, epsikologi.Jabatan",
+  "JabatanNo": "jabatan-biokeselamatan",
+  "NamaJabatan": "JABATAN BIOKESELAMATAN",
+  "AgensiNo": "NA",
+  "Kementerian": "KEMENTERIAN SUMBER ASLI DAN ALAM SEKITAR",
+  "AgensiKumpulan": "PAP",
+  "CreatedBy": "erymuzuan",
+  "Id": "jabatan-biokeselamatan",
+  "CreatedDate": "2015-08-07T19:18:51.1730207+08:00",
+  "ChangedBy": "admin",
+  "ChangedDate": "2015-08-07T19:18:51.1730207+08:00",
+  "WebId": "7ef89e40-e203-4e4d-bd02-1300207cfd3c"
+}

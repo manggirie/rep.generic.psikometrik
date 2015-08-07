@@ -1,0 +1,14 @@
+{
+  "$type": "Bespoke.epsikologi_jabatan.Domain.Jabatan, epsikologi.Jabatan",
+  "JabatanNo": "lembaga-tembakau-negara-ltn-",
+  "NamaJabatan": "LEMBAGA TEMBAKAU NEGARA (LTN)",
+  "AgensiNo": "NA",
+  "Kementerian": "KEMENTERIAN PERUSAHAAN PERLADANGAN DAN KOMODITI",
+  "AgensiKumpulan": "BBP",
+  "CreatedBy": "erymuzuan",
+  "Id": "lembaga-tembakau-negara-ltn-",
+  "CreatedDate": "2015-08-07T19:18:51.1730207+08:00",
+  "ChangedBy": "admin",
+  "ChangedDate": "2015-08-07T19:18:51.1730207+08:00",
+  "WebId": "fbbfb607-5bd0-4faa-b6d1-2d8bc898faac"
+}

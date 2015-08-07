@@ -1,0 +1,14 @@
+{
+  "$type": "Bespoke.epsikologi_jabatan.Domain.Jabatan, epsikologi.Jabatan",
+  "JabatanNo": "institut-penyiaran-dan-penerangan-tun-abdul-razak",
+  "NamaJabatan": "INSTITUT PENYIARAN DAN PENERANGAN TUN ABDUL RAZAK",
+  "AgensiNo": "NA",
+  "Kementerian": "KEMENTERIAN KOMUNIKASI DAN MULTIMEDIA MALAYSIA",
+  "AgensiKumpulan": "PAP",
+  "CreatedBy": "erymuzuan",
+  "Id": "institut-penyiaran-dan-penerangan-tun-abdul-razak",
+  "CreatedDate": "2015-08-07T19:18:51.1725208+08:00",
+  "ChangedBy": "admin",
+  "ChangedDate": "2015-08-07T19:18:51.1725208+08:00",
+  "WebId": "29abb5e8-b3b0-40ba-8529-aac0a1c4d0c1"
+}

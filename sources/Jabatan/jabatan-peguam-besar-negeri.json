@@ -1,0 +1,14 @@
+{
+  "$type": "Bespoke.epsikologi_jabatan.Domain.Jabatan, epsikologi.Jabatan",
+  "JabatanNo": "jabatan-peguam-besar-negeri",
+  "NamaJabatan": "JABATAN PEGUAM BESAR NEGERI",
+  "AgensiNo": "NA",
+  "Kementerian": "PENTADBIRAN KERAJAAN NEGERI SABAH",
+  "AgensiKumpulan": "PAN",
+  "CreatedBy": "erymuzuan",
+  "Id": "jabatan-peguam-besar-negeri",
+  "CreatedDate": "2015-08-07T19:18:51.1745205+08:00",
+  "ChangedBy": "admin",
+  "ChangedDate": "2015-08-07T19:18:51.1745205+08:00",
+  "WebId": "a581529e-9dd1-4989-81b4-cb1c466e7004"
+}

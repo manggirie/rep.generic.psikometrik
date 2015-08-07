@@ -1,14 +1,14 @@
 {
   "$type": "Bespoke.epsikologi_jabatan.Domain.Jabatan, epsikologi.Jabatan",
-  "JabatanNo": "30264",
+  "JabatanNo": "suruhanjaya-pelabuhan-pulau-pinang",
   "NamaJabatan": "SURUHANJAYA PELABUHAN PULAU PINANG",
-  "AgensiNo": "50850",
-  "Kementerian": "PSUK NEGERI PULAU PINANG",
+  "AgensiNo": "NA",
+  "Kementerian": "KEMENTERIAN PENGANGKUTAN",
   "AgensiKumpulan": "BBP",
-  "CreatedBy": "admin",
+  "CreatedBy": "erymuzuan",
   "Id": "suruhanjaya-pelabuhan-pulau-pinang",
-  "CreatedDate": "2015-06-05T10:39:32.344791+08:00",
+  "CreatedDate": "2015-08-07T19:18:51.1725208+08:00",
   "ChangedBy": "admin",
-  "ChangedDate": "2015-07-01T13:41:26.345281+08:00",
-  "WebId": "dbcef3f6-fdc4-4be8-8678-0d84a1c3ed6c"
+  "ChangedDate": "2015-08-07T19:18:51.1725208+08:00",
+  "WebId": "295d227e-91e9-49d4-8726-1e544ad23db9"
 }

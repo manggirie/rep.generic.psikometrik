@@ -1,0 +1,14 @@
+{
+  "$type": "Bespoke.epsikologi_jabatan.Domain.Jabatan, epsikologi.Jabatan",
+  "JabatanNo": "jabatan-penilaian-dan-perkhidmatan-harta",
+  "NamaJabatan": "JABATAN PENILAIAN DAN PERKHIDMATAN HARTA",
+  "AgensiNo": "NA",
+  "Kementerian": "KEMENTERIAN KEWANGAN",
+  "AgensiKumpulan": "PAP",
+  "CreatedBy": "erymuzuan",
+  "Id": "jabatan-penilaian-dan-perkhidmatan-harta",
+  "CreatedDate": "2015-08-07T19:18:51.1725208+08:00",
+  "ChangedBy": "admin",
+  "ChangedDate": "2015-08-07T19:18:51.1725208+08:00",
+  "WebId": "69ba6de0-ad2d-410b-9e51-4bee95d0b54f"
+}

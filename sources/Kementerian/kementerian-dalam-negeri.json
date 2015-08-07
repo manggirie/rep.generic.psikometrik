@@ -1,0 +1,14 @@
+{
+  "$type": "Bespoke.epsikologi_kementerian.Domain.Kementerian, epsikologi.Kementerian",
+  "KementerianNo": "kementerian-dalam-negeri",
+  "NamaKementerian": "KEMENTERIAN DALAM NEGERI",
+  "Negeri": "",
+  "KumpulanAgensi": "PAP",
+  "Abbreviation": "POLIS DI RAJA MALAYSIA",
+  "CreatedBy": null,
+  "Id": "kementerian-dalam-negeri",
+  "CreatedDate": "0001-01-01T00:00:00",
+  "ChangedBy": null,
+  "ChangedDate": "0001-01-01T00:00:00",
+  "WebId": null
+}

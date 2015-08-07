@@ -1,14 +1,14 @@
 {
   "$type": "Bespoke.epsikologi_jabatan.Domain.Jabatan, epsikologi.Jabatan",
-  "JabatanNo": "62324",
+  "JabatanNo": "majlis-daerah-kuala-krai",
   "NamaJabatan": "MAJLIS DAERAH KUALA KRAI",
   "AgensiNo": "NA",
-  "Kementerian": null,
+  "Kementerian": "PENTADBIRAN KERAJAAN NEGERI KELANTAN",
   "AgensiKumpulan": "PBT",
-  "CreatedBy": "admin",
+  "CreatedBy": "erymuzuan",
   "Id": "majlis-daerah-kuala-krai",
-  "CreatedDate": "2015-06-05T10:39:35.1999533+08:00",
+  "CreatedDate": "2015-08-07T19:18:51.1735206+08:00",
   "ChangedBy": "admin",
-  "ChangedDate": "2015-07-01T13:41:32.9499414+08:00",
-  "WebId": "f72d77d0-cd0f-4666-8871-14185d4fa61c"
+  "ChangedDate": "2015-08-07T19:18:51.1735206+08:00",
+  "WebId": "6b614beb-831c-46e3-8c18-3af2798c3e68"
 }

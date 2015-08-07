@@ -1,0 +1,14 @@
+{
+  "$type": "Bespoke.epsikologi_jabatan.Domain.Jabatan, epsikologi.Jabatan",
+  "JabatanNo": "kementerian-pembangunan-infrastruktur",
+  "NamaJabatan": "KEMENTERIAN PEMBANGUNAN INFRASTRUKTUR",
+  "AgensiNo": "NA",
+  "Kementerian": "PENTADBIRAN KERAJAAN NEGERI SABAH",
+  "AgensiKumpulan": "PAN",
+  "CreatedBy": "erymuzuan",
+  "Id": "kementerian-pembangunan-infrastruktur",
+  "CreatedDate": "2015-08-07T19:18:51.1745205+08:00",
+  "ChangedBy": "admin",
+  "ChangedDate": "2015-08-07T19:18:51.1745205+08:00",
+  "WebId": "1eb681f2-76c6-448e-be28-49d47f5bda4d"
+}

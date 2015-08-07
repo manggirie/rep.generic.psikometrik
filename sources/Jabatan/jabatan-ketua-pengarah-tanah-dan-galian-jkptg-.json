@@ -1,0 +1,14 @@
+{
+  "$type": "Bespoke.epsikologi_jabatan.Domain.Jabatan, epsikologi.Jabatan",
+  "JabatanNo": "jabatan-ketua-pengarah-tanah-dan-galian-jkptg-",
+  "NamaJabatan": "JABATAN KETUA PENGARAH TANAH DAN GALIAN (JKPTG)",
+  "AgensiNo": "NA",
+  "Kementerian": "KEMENTERIAN SUMBER ASLI DAN ALAM SEKITAR",
+  "AgensiKumpulan": "PAP",
+  "CreatedBy": "erymuzuan",
+  "Id": "jabatan-ketua-pengarah-tanah-dan-galian-jkptg-",
+  "CreatedDate": "2015-08-07T19:18:51.1730207+08:00",
+  "ChangedBy": "admin",
+  "ChangedDate": "2015-08-07T19:18:51.1730207+08:00",
+  "WebId": "10ae6feb-4002-4dcf-ab6d-cf80d45fcb31"
+}

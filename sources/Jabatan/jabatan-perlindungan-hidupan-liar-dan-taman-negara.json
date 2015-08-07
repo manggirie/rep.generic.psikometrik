@@ -1,0 +1,14 @@
+{
+  "$type": "Bespoke.epsikologi_jabatan.Domain.Jabatan, epsikologi.Jabatan",
+  "JabatanNo": "jabatan-perlindungan-hidupan-liar-dan-taman-negara",
+  "NamaJabatan": "JABATAN PERLINDUNGAN HIDUPAN LIAR DAN TAMAN NEGARA (PERHILITAN)",
+  "AgensiNo": "NA",
+  "Kementerian": "KEMENTERIAN SUMBER ASLI DAN ALAM SEKITAR",
+  "AgensiKumpulan": "PAP",
+  "CreatedBy": "erymuzuan",
+  "Id": "jabatan-perlindungan-hidupan-liar-dan-taman-negara",
+  "CreatedDate": "2015-08-07T19:18:51.1730207+08:00",
+  "ChangedBy": "admin",
+  "ChangedDate": "2015-08-07T19:18:51.1730207+08:00",
+  "WebId": "af1aff21-e030-434f-ac34-a6b37beeb7a6"
+}

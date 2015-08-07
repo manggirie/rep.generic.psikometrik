@@ -1,14 +1,14 @@
 {
   "$type": "Bespoke.epsikologi_jabatan.Domain.Jabatan, epsikologi.Jabatan",
-  "JabatanNo": "16357",
+  "JabatanNo": "majlis-amanah-rakyat",
   "NamaJabatan": "MAJLIS AMANAH RAKYAT",
   "AgensiNo": "NA",
-  "Kementerian": null,
+  "Kementerian": "KEMENTERIAN KEMAJUAN LUAR BANDAR DAN WILAYAH",
   "AgensiKumpulan": "BBP",
-  "CreatedBy": "admin",
+  "CreatedBy": "erymuzuan",
   "Id": "majlis-amanah-rakyat",
-  "CreatedDate": "2015-06-05T10:39:26.0674375+08:00",
+  "CreatedDate": "2015-08-07T19:18:51.1725208+08:00",
   "ChangedBy": "admin",
-  "ChangedDate": "2015-07-01T13:41:14.5130979+08:00",
-  "WebId": "532789d9-e9dc-4d61-8d52-7a607357ba99"
+  "ChangedDate": "2015-08-07T19:18:51.1725208+08:00",
+  "WebId": "4df94ddf-26c9-43e7-b6ae-834a5b278928"
 }

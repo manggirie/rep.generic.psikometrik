@@ -1,14 +1,14 @@
 {
   "$type": "Bespoke.epsikologi_jabatan.Domain.Jabatan, epsikologi.Jabatan",
-  "JabatanNo": "53567",
+  "JabatanNo": "lembaga-lada-malaysia",
   "NamaJabatan": "LEMBAGA LADA MALAYSIA",
   "AgensiNo": "NA",
-  "Kementerian": null,
+  "Kementerian": "KEMENTERIAN PERUSAHAAN PERLADANGAN DAN KOMODITI",
   "AgensiKumpulan": "BBP",
-  "CreatedBy": "admin",
+  "CreatedBy": "erymuzuan",
   "Id": "lembaga-lada-malaysia",
-  "CreatedDate": "2015-06-05T10:39:34.2118968+08:00",
+  "CreatedDate": "2015-08-07T19:18:51.1730207+08:00",
   "ChangedBy": "admin",
-  "ChangedDate": "2015-07-01T13:41:29.8196284+08:00",
-  "WebId": "72ab0e0f-bb63-4c2f-9385-1dd329c8bbf2"
+  "ChangedDate": "2015-08-07T19:18:51.1730207+08:00",
+  "WebId": "7e9b0d22-a185-406f-9363-f44e134ba722"
 }

@@ -1,14 +1,14 @@
 {
   "$type": "Bespoke.epsikologi_jabatan.Domain.Jabatan, epsikologi.Jabatan",
-  "JabatanNo": "43700",
+  "JabatanNo": "lembaga-minyak-sawit-malaysia-mpob-",
   "NamaJabatan": "LEMBAGA MINYAK SAWIT MALAYSIA (MPOB)",
   "AgensiNo": "NA",
-  "Kementerian": null,
+  "Kementerian": "KEMENTERIAN PERUSAHAAN PERLADANGAN DAN KOMODITI",
   "AgensiKumpulan": "BBP",
-  "CreatedBy": "admin",
+  "CreatedBy": "erymuzuan",
   "Id": "lembaga-minyak-sawit-malaysia-mpob-",
-  "CreatedDate": "2015-06-05T10:39:33.3198463+08:00",
+  "CreatedDate": "2015-08-07T19:18:51.1730207+08:00",
   "ChangedBy": "admin",
-  "ChangedDate": "2015-07-01T13:41:27.9304395+08:00",
-  "WebId": "84415517-ae84-49d5-9323-c6827151309c"
+  "ChangedDate": "2015-08-07T19:18:51.1730207+08:00",
+  "WebId": "a0f713d8-7732-4e5b-a04a-a328f0d51100"
 }

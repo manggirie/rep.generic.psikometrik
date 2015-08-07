@@ -1,14 +1,14 @@
 {
   "$type": "Bespoke.epsikologi_jabatan.Domain.Jabatan, epsikologi.Jabatan",
-  "JabatanNo": "41973",
+  "JabatanNo": "majlis-perbandaran-kulim",
   "NamaJabatan": "MAJLIS PERBANDARAN KULIM",
   "AgensiNo": "NA",
-  "Kementerian": null,
+  "Kementerian": "PENTADBIRAN KERAJAAN NEGERI KEDAH",
   "AgensiKumpulan": "PBT",
-  "CreatedBy": "admin",
+  "CreatedBy": "erymuzuan",
   "Id": "majlis-perbandaran-kulim",
-  "CreatedDate": "2015-06-05T10:39:33.1568371+08:00",
+  "CreatedDate": "2015-08-07T19:18:51.1735206+08:00",
   "ChangedBy": "admin",
-  "ChangedDate": "2015-07-01T13:41:27.5444009+08:00",
-  "WebId": "c7da7f28-068b-4e75-8e2b-7377cac0efd4"
+  "ChangedDate": "2015-08-07T19:18:51.1735206+08:00",
+  "WebId": "6293fbf8-b6cf-43f2-a586-84561876b752"
 }

@@ -1,0 +1,14 @@
+{
+  "$type": "Bespoke.epsikologi_jabatan.Domain.Jabatan, epsikologi.Jabatan",
+  "JabatanNo": "majlis-agama-islam-dan-adat-istiadat-melayu-perlis",
+  "NamaJabatan": "MAJLIS AGAMA ISLAM DAN ADAT ISTIADAT MELAYU PERLIS",
+  "AgensiNo": "NA",
+  "Kementerian": "PENTADBIRAN KERAJAAN NEGERI PERLIS",
+  "AgensiKumpulan": "BBN",
+  "CreatedBy": "erymuzuan",
+  "Id": "majlis-agama-islam-dan-adat-istiadat-melayu-perlis",
+  "CreatedDate": "2015-08-07T19:18:51.1740209+08:00",
+  "ChangedBy": "admin",
+  "ChangedDate": "2015-08-07T19:18:51.1740209+08:00",
+  "WebId": "f7799f8b-0faa-43d5-9ce5-e93e635b118a"
+}

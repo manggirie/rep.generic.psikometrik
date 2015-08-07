@@ -1,14 +1,14 @@
 {
   "$type": "Bespoke.epsikologi_jabatan.Domain.Jabatan, epsikologi.Jabatan",
-  "JabatanNo": "178825",
+  "JabatanNo": "perbadanan-stadium-darul-makmur",
   "NamaJabatan": "PERBADANAN STADIUM DARUL MAKMUR",
-  "AgensiNo": "53300",
-  "Kementerian": "PSUK NEGERI PAHANG",
+  "AgensiNo": "NA",
+  "Kementerian": "PENTADBIRAN KERAJAAN NEGERI PAHANG",
   "AgensiKumpulan": "BBN",
-  "CreatedBy": "admin",
+  "CreatedBy": "erymuzuan",
   "Id": "perbadanan-stadium-darul-makmur",
-  "CreatedDate": "2015-06-05T10:39:26.3224519+08:00",
+  "CreatedDate": "2015-08-07T19:18:51.1740209+08:00",
   "ChangedBy": "admin",
-  "ChangedDate": "2015-07-01T13:41:15.1721638+08:00",
-  "WebId": "49fed798-d819-404f-a97f-9258e8389d82"
+  "ChangedDate": "2015-08-07T19:18:51.1740209+08:00",
+  "WebId": "99a7777d-ac72-46fb-9a28-84cffde26065"
 }

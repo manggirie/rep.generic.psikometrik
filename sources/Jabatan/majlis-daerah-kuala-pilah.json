@@ -1,14 +1,14 @@
 {
   "$type": "Bespoke.epsikologi_jabatan.Domain.Jabatan, epsikologi.Jabatan",
-  "JabatanNo": "31638",
+  "JabatanNo": "majlis-daerah-kuala-pilah",
   "NamaJabatan": "MAJLIS DAERAH KUALA PILAH",
   "AgensiNo": "NA",
-  "Kementerian": null,
+  "Kementerian": "PENTADBIRAN KERAJAAN NEGERI SEMBILAN",
   "AgensiKumpulan": "PBT",
-  "CreatedBy": "admin",
+  "CreatedBy": "erymuzuan",
   "Id": "majlis-daerah-kuala-pilah",
-  "CreatedDate": "2015-06-05T10:39:32.601806+08:00",
+  "CreatedDate": "2015-08-07T19:18:51.1750204+08:00",
   "ChangedBy": "admin",
-  "ChangedDate": "2015-07-01T13:41:26.6963161+08:00",
-  "WebId": "4dd2ea38-51c7-45a8-b14d-e7a6bf9d4544"
+  "ChangedDate": "2015-08-07T19:18:51.1750204+08:00",
+  "WebId": "ff4b89a2-fe0a-4e50-9337-2d0f91ba16c0"
 }

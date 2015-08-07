@@ -1,14 +1,14 @@
 {
   "$type": "Bespoke.epsikologi_jabatan.Domain.Jabatan, epsikologi.Jabatan",
-  "JabatanNo": "53125",
+  "JabatanNo": "majlis-daerah-besut",
   "NamaJabatan": "MAJLIS DAERAH BESUT",
   "AgensiNo": "NA",
-  "Kementerian": null,
+  "Kementerian": "PENTADBIRAN KERAJAAN NEGERI TERENGGANU",
   "AgensiKumpulan": "PBT",
-  "CreatedBy": "admin",
+  "CreatedBy": "erymuzuan",
   "Id": "majlis-daerah-besut",
-  "CreatedDate": "2015-06-05T10:39:34.1018906+08:00",
+  "CreatedDate": "2015-08-07T19:18:51.1755203+08:00",
   "ChangedBy": "admin",
-  "ChangedDate": "2015-07-01T13:41:29.5726037+08:00",
-  "WebId": "aebeff61-4e69-46ad-b7ea-6b9982508808"
+  "ChangedDate": "2015-08-07T19:18:51.1755203+08:00",
+  "WebId": "975b3457-75f5-415c-a6af-0b616cb5c39a"
 }

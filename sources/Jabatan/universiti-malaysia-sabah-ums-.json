@@ -1,14 +1,14 @@
 {
   "$type": "Bespoke.epsikologi_jabatan.Domain.Jabatan, epsikologi.Jabatan",
-  "JabatanNo": "86586",
+  "JabatanNo": "universiti-malaysia-sabah-ums-",
   "NamaJabatan": "UNIVERSITI MALAYSIA SABAH (UMS)",
-  "AgensiNo": "26281",
-  "Kementerian": "KEM. PENGAJIAN TINGGI",
+  "AgensiNo": "NA",
+  "Kementerian": "KEMENTERIAN PENDIDIKAN MALAYSIA",
   "AgensiKumpulan": "BBP",
-  "CreatedBy": "admin",
+  "CreatedBy": "erymuzuan",
   "Id": "universiti-malaysia-sabah-ums-",
-  "CreatedDate": "2015-06-05T10:39:36.6240326+08:00",
+  "CreatedDate": "2015-08-07T19:18:51.1725208+08:00",
   "ChangedBy": "admin",
-  "ChangedDate": "2015-07-01T13:41:36.0102474+08:00",
-  "WebId": "51aa39d6-7018-413d-97f1-0cf8610b0358"
+  "ChangedDate": "2015-08-07T19:18:51.1725208+08:00",
+  "WebId": "ca0a5b5a-35d4-4b39-bff7-10ec6416d0f5"
 }

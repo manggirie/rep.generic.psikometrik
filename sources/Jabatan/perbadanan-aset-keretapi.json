@@ -1,14 +1,14 @@
 {
   "$type": "Bespoke.epsikologi_jabatan.Domain.Jabatan, epsikologi.Jabatan",
-  "JabatanNo": "30176",
+  "JabatanNo": "perbadanan-aset-keretapi",
   "NamaJabatan": "PERBADANAN ASET KERETAPI",
   "AgensiNo": "NA",
-  "Kementerian": null,
+  "Kementerian": "KEMENTERIAN PENGANGKUTAN",
   "AgensiKumpulan": "BBP",
-  "CreatedBy": "admin",
+  "CreatedBy": "erymuzuan",
   "Id": "perbadanan-aset-keretapi",
-  "CreatedDate": "2015-06-05T10:39:32.3227902+08:00",
+  "CreatedDate": "2015-08-07T19:18:51.1725208+08:00",
   "ChangedBy": "admin",
-  "ChangedDate": "2015-07-01T13:41:26.2832748+08:00",
-  "WebId": "36d4d485-d394-4d49-8c6b-fb71899de101"
+  "ChangedDate": "2015-08-07T19:18:51.1725208+08:00",
+  "WebId": "1f54c01b-8a06-446d-97c2-dbdca7b55483"
 }

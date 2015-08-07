@@ -1,14 +1,14 @@
 {
   "$type": "Bespoke.epsikologi_jabatan.Domain.Jabatan, epsikologi.Jabatan",
-  "JabatanNo": "62470",
+  "JabatanNo": "majlis-daerah-dabong",
   "NamaJabatan": "MAJLIS DAERAH DABONG",
   "AgensiNo": "NA",
-  "Kementerian": null,
+  "Kementerian": "PENTADBIRAN KERAJAAN NEGERI KELANTAN",
   "AgensiKumpulan": "PBT",
-  "CreatedBy": "admin",
+  "CreatedBy": "erymuzuan",
   "Id": "majlis-daerah-dabong",
-  "CreatedDate": "2015-06-05T10:39:35.2669561+08:00",
+  "CreatedDate": "2015-08-07T19:18:51.1735206+08:00",
   "ChangedBy": "admin",
-  "ChangedDate": "2015-07-01T13:41:33.1909655+08:00",
-  "WebId": "d21400af-dd47-4e73-ab10-d2625cfdfc80"
+  "ChangedDate": "2015-08-07T19:18:51.1735206+08:00",
+  "WebId": "c3f11477-8227-422b-bfdb-9b15d7481862"
 }

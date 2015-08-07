@@ -1,14 +1,14 @@
 {
   "$type": "Bespoke.epsikologi_jabatan.Domain.Jabatan, epsikologi.Jabatan",
-  "JabatanNo": "56539",
+  "JabatanNo": "majlis-daerah-kerian",
   "NamaJabatan": "MAJLIS DAERAH KERIAN",
   "AgensiNo": "NA",
-  "Kementerian": null,
+  "Kementerian": "PENTADBIRAN KERAJAAN NEGERI PERAK",
   "AgensiKumpulan": "PBT",
-  "CreatedBy": "admin",
+  "CreatedBy": "erymuzuan",
   "Id": "majlis-daerah-kerian",
-  "CreatedDate": "2015-06-05T10:39:34.5069136+08:00",
+  "CreatedDate": "2015-08-07T19:18:51.1740209+08:00",
   "ChangedBy": "admin",
-  "ChangedDate": "2015-07-01T13:41:30.3246789+08:00",
-  "WebId": "afd763d5-1baf-4193-85ef-00483f9f0799"
+  "ChangedDate": "2015-08-07T19:18:51.1740209+08:00",
+  "WebId": "b7bc05b6-69a3-47c4-b726-1fbb3989dba1"
 }

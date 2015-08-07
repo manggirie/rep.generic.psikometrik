@@ -1,0 +1,14 @@
+{
+  "$type": "Bespoke.epsikologi_kementerian.Domain.Kementerian, epsikologi.Kementerian",
+  "KementerianNo": "kementerian-sumber-asli-dan-alam-sekitar",
+  "NamaKementerian": "KEMENTERIAN SUMBER ASLI DAN ALAM SEKITAR",
+  "Negeri": "",
+  "KumpulanAgensi": "BBP",
+  "Abbreviation": "INSTITUT PENYELIDIKAN PERHUTANAN MALAYSIA (FRIM)",
+  "CreatedBy": null,
+  "Id": "kementerian-sumber-asli-dan-alam-sekitar",
+  "CreatedDate": "0001-01-01T00:00:00",
+  "ChangedBy": null,
+  "ChangedDate": "0001-01-01T00:00:00",
+  "WebId": null
+}

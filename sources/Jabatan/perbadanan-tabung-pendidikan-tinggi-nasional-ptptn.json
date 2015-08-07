@@ -1,14 +1,14 @@
 {
   "$type": "Bespoke.epsikologi_jabatan.Domain.Jabatan, epsikologi.Jabatan",
-  "JabatanNo": "81990",
+  "JabatanNo": "perbadanan-tabung-pendidikan-tinggi-nasional-ptptn",
   "NamaJabatan": "PERBADANAN TABUNG PENDIDIKAN TINGGI NASIONAL (PTPTN)",
   "AgensiNo": "NA",
-  "Kementerian": null,
+  "Kementerian": "KEMENTERIAN PENDIDIKAN MALAYSIA",
   "AgensiKumpulan": "BBP",
-  "CreatedBy": "admin",
+  "CreatedBy": "erymuzuan",
   "Id": "perbadanan-tabung-pendidikan-tinggi-nasional-ptptn",
-  "CreatedDate": "2015-06-05T10:39:36.5790299+08:00",
+  "CreatedDate": "2015-08-07T19:18:51.1725208+08:00",
   "ChangedBy": "admin",
-  "ChangedDate": "2015-07-01T13:41:35.9232387+08:00",
-  "WebId": "7d79952e-0ae2-44cb-a8d0-9cec627bb3a2"
+  "ChangedDate": "2015-08-07T19:18:51.1725208+08:00",
+  "WebId": "3aec7a3e-7314-4730-b166-fb1e1e1fd846"
 }

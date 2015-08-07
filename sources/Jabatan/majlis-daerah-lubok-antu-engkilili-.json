@@ -1,0 +1,14 @@
+{
+  "$type": "Bespoke.epsikologi_jabatan.Domain.Jabatan, epsikologi.Jabatan",
+  "JabatanNo": "majlis-daerah-lubok-antu-engkilili-",
+  "NamaJabatan": "MAJLIS DAERAH LUBOK ANTU (ENGKILILI)",
+  "AgensiNo": "NA",
+  "Kementerian": "PENTADBIRAN KERAJAAN NEGERI SARAWAK",
+  "AgensiKumpulan": "PBT",
+  "CreatedBy": "erymuzuan",
+  "Id": "majlis-daerah-lubok-antu-engkilili-",
+  "CreatedDate": "2015-08-07T19:18:51.1750204+08:00",
+  "ChangedBy": "admin",
+  "ChangedDate": "2015-08-07T19:18:51.1750204+08:00",
+  "WebId": "a64e1bcc-e002-435f-ae4e-94b2b547174a"
+}

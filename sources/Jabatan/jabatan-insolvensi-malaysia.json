@@ -1,0 +1,14 @@
+{
+  "$type": "Bespoke.epsikologi_jabatan.Domain.Jabatan, epsikologi.Jabatan",
+  "JabatanNo": "jabatan-insolvensi-malaysia",
+  "NamaJabatan": "JABATAN INSOLVENSI MALAYSIA",
+  "AgensiNo": "NA",
+  "Kementerian": "JABATAN PERDANA MENTERI",
+  "AgensiKumpulan": "PAP",
+  "CreatedBy": "erymuzuan",
+  "Id": "jabatan-insolvensi-malaysia",
+  "CreatedDate": "2015-08-07T19:18:51.1720212+08:00",
+  "ChangedBy": "admin",
+  "ChangedDate": "2015-08-07T19:18:51.1720212+08:00",
+  "WebId": "0f0d8973-9944-43e7-b325-71d586cc76fb"
+}

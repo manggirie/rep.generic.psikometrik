@@ -1,14 +1,14 @@
 {
   "$type": "Bespoke.epsikologi_jabatan.Domain.Jabatan, epsikologi.Jabatan",
-  "JabatanNo": "42340",
+  "JabatanNo": "perbadanan-perpustakaan-awam-kedah",
   "NamaJabatan": "PERBADANAN PERPUSTAKAAN AWAM KEDAH",
-  "AgensiNo": "28037",
-  "Kementerian": "PSUK NEGERI KEDAH",
+  "AgensiNo": "NA",
+  "Kementerian": "PENTADBIRAN KERAJAAN NEGERI KEDAH",
   "AgensiKumpulan": "BBN",
-  "CreatedBy": "admin",
+  "CreatedBy": "erymuzuan",
   "Id": "perbadanan-perpustakaan-awam-kedah",
-  "CreatedDate": "2015-06-05T10:39:33.253843+08:00",
+  "CreatedDate": "2015-08-07T19:18:51.1735206+08:00",
   "ChangedBy": "admin",
-  "ChangedDate": "2015-07-01T13:41:27.815428+08:00",
-  "WebId": "d7dc70c5-07d3-4345-9138-cff6dbd92530"
+  "ChangedDate": "2015-08-07T19:18:51.1735206+08:00",
+  "WebId": "47afb960-729e-49a9-9d84-d68e237dfafc"
 }

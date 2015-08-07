@@ -1,0 +1,14 @@
+{
+  "$type": "Bespoke.epsikologi_jabatan.Domain.Jabatan, epsikologi.Jabatan",
+  "JabatanNo": "kementerian-wilayah-persekutuan",
+  "NamaJabatan": "KEMENTERIAN WILAYAH PERSEKUTUAN",
+  "AgensiNo": "NA",
+  "Kementerian": "KEMENTERIAN WILAYAH PERSEKUTUAN",
+  "AgensiKumpulan": "PAP",
+  "CreatedBy": "erymuzuan",
+  "Id": "kementerian-wilayah-persekutuan",
+  "CreatedDate": "2015-08-07T19:18:51.1730207+08:00",
+  "ChangedBy": "admin",
+  "ChangedDate": "2015-08-07T19:18:51.1730207+08:00",
+  "WebId": "27862a3f-9fe1-4234-9bbf-28ef4681844e"
+}

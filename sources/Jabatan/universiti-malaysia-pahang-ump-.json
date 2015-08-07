@@ -1,14 +1,14 @@
 {
   "$type": "Bespoke.epsikologi_jabatan.Domain.Jabatan, epsikologi.Jabatan",
-  "JabatanNo": "191004",
+  "JabatanNo": "universiti-malaysia-pahang-ump-",
   "NamaJabatan": "UNIVERSITI MALAYSIA PAHANG (UMP)",
-  "AgensiNo": "26281",
-  "Kementerian": "KEM. PENGAJIAN TINGGI",
+  "AgensiNo": "NA",
+  "Kementerian": "KEMENTERIAN PENDIDIKAN MALAYSIA",
   "AgensiKumpulan": "BBP",
-  "CreatedBy": "admin",
+  "CreatedBy": "erymuzuan",
   "Id": "universiti-malaysia-pahang-ump-",
-  "CreatedDate": "2015-06-05T10:39:28.4225702+08:00",
+  "CreatedDate": "2015-08-07T19:18:51.1725208+08:00",
   "ChangedBy": "admin",
-  "ChangedDate": "2015-07-01T13:41:18.8215287+08:00",
-  "WebId": "3766a5e8-3fbd-45fa-b0d5-71e2d9dd4470"
+  "ChangedDate": "2015-08-07T19:18:51.1725208+08:00",
+  "WebId": "4184ebe9-1e58-4398-a551-e69511e12650"
 }

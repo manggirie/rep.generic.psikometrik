@@ -1,14 +1,14 @@
 {
   "$type": "Bespoke.epsikologi_jabatan.Domain.Jabatan, epsikologi.Jabatan",
-  "JabatanNo": "214683",
+  "JabatanNo": "jabatan-kebajikan-masyarakat-negeri-pahang",
   "NamaJabatan": "JABATAN KEBAJIKAN MASYARAKAT NEGERI PAHANG",
-  "AgensiNo": "24556",
-  "Kementerian": "KEM. PEMBANGUNAN WANITA, KELUARGA & MASYARAKAT",
-  "AgensiKumpulan": "BBN",
-  "CreatedBy": "admin",
+  "AgensiNo": "NA",
+  "Kementerian": "PENTADBIRAN KERAJAAN NEGERI PAHANG",
+  "AgensiKumpulan": "PAN",
+  "CreatedBy": "erymuzuan",
   "Id": "jabatan-kebajikan-masyarakat-negeri-pahang",
-  "CreatedDate": "2015-06-05T10:39:29.1066091+08:00",
+  "CreatedDate": "2015-08-07T19:18:51.1735206+08:00",
   "ChangedBy": "admin",
-  "ChangedDate": "2015-07-01T13:41:19.7536219+08:00",
-  "WebId": "33facbd0-dae7-44a5-8ed1-ffe656f09552"
+  "ChangedDate": "2015-08-07T19:18:51.1735206+08:00",
+  "WebId": "487b4bc9-cda4-4e10-b11f-0b1c2ce1c0e2"
 }

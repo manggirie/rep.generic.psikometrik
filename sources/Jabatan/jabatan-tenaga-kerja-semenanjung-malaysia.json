@@ -1,0 +1,14 @@
+{
+  "$type": "Bespoke.epsikologi_jabatan.Domain.Jabatan, epsikologi.Jabatan",
+  "JabatanNo": "jabatan-tenaga-kerja-semenanjung-malaysia",
+  "NamaJabatan": "JABATAN TENAGA KERJA SEMENANJUNG MALAYSIA",
+  "AgensiNo": "NA",
+  "Kementerian": "KEMENTERIAN SUMBER MANUSIA",
+  "AgensiKumpulan": "PAP",
+  "CreatedBy": "erymuzuan",
+  "Id": "jabatan-tenaga-kerja-semenanjung-malaysia",
+  "CreatedDate": "2015-08-07T19:18:51.1730207+08:00",
+  "ChangedBy": "admin",
+  "ChangedDate": "2015-08-07T19:18:51.1730207+08:00",
+  "WebId": "af8fa383-c069-4878-8b13-06400597455b"
+}

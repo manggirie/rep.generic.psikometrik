@@ -1,0 +1,14 @@
+{
+  "$type": "Bespoke.epsikologi_jabatan.Domain.Jabatan, epsikologi.Jabatan",
+  "JabatanNo": "pihak-berkuasa-kemajuan-pekebun-kecil-perusahaan-g",
+  "NamaJabatan": "PIHAK BERKUASA KEMAJUAN PEKEBUN KECIL PERUSAHAAN GETAH (RISDA)",
+  "AgensiNo": "NA",
+  "Kementerian": "KEMENTERIAN KEMAJUAN LUAR BANDAR DAN WILAYAH",
+  "AgensiKumpulan": "BBP",
+  "CreatedBy": "erymuzuan",
+  "Id": "pihak-berkuasa-kemajuan-pekebun-kecil-perusahaan-g",
+  "CreatedDate": "2015-08-07T19:18:51.1725208+08:00",
+  "ChangedBy": "admin",
+  "ChangedDate": "2015-08-07T19:18:51.1725208+08:00",
+  "WebId": "1ef437cd-61f4-4eb4-886b-3c621738b24d"
+}

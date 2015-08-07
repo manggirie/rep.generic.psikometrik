@@ -1,14 +1,14 @@
 {
   "$type": "Bespoke.epsikologi_jabatan.Domain.Jabatan, epsikologi.Jabatan",
-  "JabatanNo": "56482",
+  "JabatanNo": "majlis-perbandaran-kuala-kangsar",
   "NamaJabatan": "MAJLIS PERBANDARAN KUALA KANGSAR",
   "AgensiNo": "NA",
-  "Kementerian": null,
+  "Kementerian": "PENTADBIRAN KERAJAAN NEGERI PERAK",
   "AgensiKumpulan": "PBT",
-  "CreatedBy": "admin",
+  "CreatedBy": "erymuzuan",
   "Id": "majlis-perbandaran-kuala-kangsar",
-  "CreatedDate": "2015-06-05T10:39:34.43891+08:00",
+  "CreatedDate": "2015-08-07T19:18:51.1740209+08:00",
   "ChangedBy": "admin",
-  "ChangedDate": "2015-07-01T13:41:30.225669+08:00",
-  "WebId": "492b438f-0e5a-487b-b438-2f75e311fe06"
+  "ChangedDate": "2015-08-07T19:18:51.1740209+08:00",
+  "WebId": "d6f31f18-98df-4f89-8d2a-553e1ee3fc1d"
 }

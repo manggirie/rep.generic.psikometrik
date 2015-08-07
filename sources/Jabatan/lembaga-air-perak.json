@@ -1,14 +1,14 @@
 {
   "$type": "Bespoke.epsikologi_jabatan.Domain.Jabatan, epsikologi.Jabatan",
-  "JabatanNo": "57971",
+  "JabatanNo": "lembaga-air-perak",
   "NamaJabatan": "LEMBAGA AIR PERAK",
-  "AgensiNo": "55725",
-  "Kementerian": "PSUK NEGERI PERAK",
+  "AgensiNo": "NA",
+  "Kementerian": "PENTADBIRAN KERAJAAN NEGERI PERAK",
   "AgensiKumpulan": "BBN",
-  "CreatedBy": "admin",
+  "CreatedBy": "erymuzuan",
   "Id": "lembaga-air-perak",
-  "CreatedDate": "2015-06-05T10:39:34.6429209+08:00",
+  "CreatedDate": "2015-08-07T19:18:51.1740209+08:00",
   "ChangedBy": "admin",
-  "ChangedDate": "2015-07-01T13:41:30.7797244+08:00",
-  "WebId": "26814a4c-48e8-4bd4-8f10-10148ca2688e"
+  "ChangedDate": "2015-08-07T19:18:51.1740209+08:00",
+  "WebId": "fa80da13-ce7a-44a5-ac43-bdc204b423af"
 }

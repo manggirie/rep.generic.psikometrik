@@ -1,14 +1,14 @@
 {
   "$type": "Bespoke.epsikologi_jabatan.Domain.Jabatan, epsikologi.Jabatan",
-  "JabatanNo": "43197",
+  "JabatanNo": "majlis-bandaraya-shah-alam",
   "NamaJabatan": "MAJLIS BANDARAYA SHAH ALAM",
   "AgensiNo": "NA",
-  "Kementerian": null,
+  "Kementerian": "PENTADBIRAN KERAJAAN NEGERI SELANGOR",
   "AgensiKumpulan": "PBT",
-  "CreatedBy": "admin",
+  "CreatedBy": "erymuzuan",
   "Id": "majlis-bandaraya-shah-alam",
-  "CreatedDate": "2015-06-05T10:39:33.3028451+08:00",
+  "CreatedDate": "2015-08-07T19:18:51.1750204+08:00",
   "ChangedBy": "admin",
-  "ChangedDate": "2015-07-01T13:41:27.9114376+08:00",
-  "WebId": "1ada809a-5748-46ff-95e9-a52174fe71db"
+  "ChangedDate": "2015-08-07T19:18:51.1750204+08:00",
+  "WebId": "ba6c491d-3000-43e6-a93f-d51ec203e992"
 }

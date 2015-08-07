@@ -1,14 +1,14 @@
 {
   "$type": "Bespoke.epsikologi_jabatan.Domain.Jabatan, epsikologi.Jabatan",
-  "JabatanNo": "31537",
+  "JabatanNo": "lembaga-muzium-negeri-sembilan",
   "NamaJabatan": "LEMBAGA MUZIUM NEGERI SEMBILAN",
-  "AgensiNo": "31306",
-  "Kementerian": "PSUK NEGERI SEMBILAN",
+  "AgensiNo": "NA",
+  "Kementerian": "PENTADBIRAN KERAJAAN NEGERI SEMBILAN",
   "AgensiKumpulan": "BBN",
-  "CreatedBy": "admin",
+  "CreatedBy": "erymuzuan",
   "Id": "lembaga-muzium-negeri-sembilan",
-  "CreatedDate": "2015-06-05T10:39:32.5098006+08:00",
+  "CreatedDate": "2015-08-07T19:18:51.1750204+08:00",
   "ChangedBy": "admin",
-  "ChangedDate": "2015-07-01T13:41:26.5723037+08:00",
-  "WebId": "cc04c217-3547-4c55-8e77-01dffefe9aa2"
+  "ChangedDate": "2015-08-07T19:18:51.1750204+08:00",
+  "WebId": "3ebb09ac-fea0-4d0b-a2ad-18851a41c483"
 }

@@ -1,0 +1,14 @@
+{
+  "$type": "Bespoke.epsikologi_jabatan.Domain.Jabatan, epsikologi.Jabatan",
+  "JabatanNo": "jabatan-pengairan-dan-saliran",
+  "NamaJabatan": "JABATAN PENGAIRAN DAN SALIRAN",
+  "AgensiNo": "NA",
+  "Kementerian": "PENTADBIRAN KERAJAAN NEGERI SARAWAK",
+  "AgensiKumpulan": "PAN",
+  "CreatedBy": "erymuzuan",
+  "Id": "jabatan-pengairan-dan-saliran",
+  "CreatedDate": "2015-08-07T19:18:51.1745205+08:00",
+  "ChangedBy": "admin",
+  "ChangedDate": "2015-08-07T19:18:51.1745205+08:00",
+  "WebId": "8dca0a4f-02b1-4f67-a207-6b95cf76861e"
+}

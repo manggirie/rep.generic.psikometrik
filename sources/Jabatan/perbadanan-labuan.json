@@ -1,14 +1,14 @@
 {
   "$type": "Bespoke.epsikologi_jabatan.Domain.Jabatan, epsikologi.Jabatan",
-  "JabatanNo": "55676",
+  "JabatanNo": "perbadanan-labuan",
   "NamaJabatan": "PERBADANAN LABUAN",
   "AgensiNo": "NA",
-  "Kementerian": null,
+  "Kementerian": "KEMENTERIAN WILAYAH PERSEKUTUAN",
   "AgensiKumpulan": "BBP",
-  "CreatedBy": "admin",
+  "CreatedBy": "erymuzuan",
   "Id": "perbadanan-labuan",
-  "CreatedDate": "2015-06-05T10:39:34.2528995+08:00",
+  "CreatedDate": "2015-08-07T19:18:51.1730207+08:00",
   "ChangedBy": "admin",
-  "ChangedDate": "2015-07-01T13:41:29.895636+08:00",
-  "WebId": "f26fc00f-6bf3-4f39-8b5c-7e0b0c5b8083"
+  "ChangedDate": "2015-08-07T19:18:51.1730207+08:00",
+  "WebId": "a9a3c9c5-6b85-49e1-b965-a27ff108c62c"
 }

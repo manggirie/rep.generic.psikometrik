@@ -1,0 +1,14 @@
+{
+  "$type": "Bespoke.epsikologi_kementerian.Domain.Kementerian, epsikologi.Kementerian",
+  "KementerianNo": "pentadbiran-kerajaan-negeri-perlis",
+  "NamaKementerian": "PENTADBIRAN KERAJAAN NEGERI PERLIS",
+  "Negeri": "PERLIS",
+  "KumpulanAgensi": "PBT",
+  "Abbreviation": "MAJLIS PERBANDARAN KANGAR PERLIS",
+  "CreatedBy": null,
+  "Id": "pentadbiran-kerajaan-negeri-perlis",
+  "CreatedDate": "0001-01-01T00:00:00",
+  "ChangedBy": null,
+  "ChangedDate": "0001-01-01T00:00:00",
+  "WebId": null
+}

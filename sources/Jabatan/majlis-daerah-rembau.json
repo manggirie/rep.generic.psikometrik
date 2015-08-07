@@ -1,14 +1,14 @@
 {
   "$type": "Bespoke.epsikologi_jabatan.Domain.Jabatan, epsikologi.Jabatan",
-  "JabatanNo": "31666",
+  "JabatanNo": "majlis-daerah-rembau",
   "NamaJabatan": "MAJLIS DAERAH REMBAU",
   "AgensiNo": "NA",
-  "Kementerian": null,
+  "Kementerian": "PENTADBIRAN KERAJAAN NEGERI SEMBILAN",
   "AgensiKumpulan": "PBT",
-  "CreatedBy": "admin",
+  "CreatedBy": "erymuzuan",
   "Id": "majlis-daerah-rembau",
-  "CreatedDate": "2015-06-05T10:39:32.6148066+08:00",
+  "CreatedDate": "2015-08-07T19:18:51.1750204+08:00",
   "ChangedBy": "admin",
-  "ChangedDate": "2015-07-01T13:41:26.7263191+08:00",
-  "WebId": "ba0fb4f8-dddd-498a-b145-24e586e6c911"
+  "ChangedDate": "2015-08-07T19:18:51.1750204+08:00",
+  "WebId": "ba3bc2c1-1fb9-4cd1-96d9-869ab04a42a1"
 }

@@ -1,0 +1,14 @@
+{
+  "$type": "Bespoke.epsikologi_jabatan.Domain.Jabatan, epsikologi.Jabatan",
+  "JabatanNo": "jabatan-perkhidmatan-kuarantin-dan-pemeriksaan-mal",
+  "NamaJabatan": "JABATAN PERKHIDMATAN KUARANTIN DAN PEMERIKSAAN MALAYSIA (MAQIS)",
+  "AgensiNo": "NA",
+  "Kementerian": "KEMENTERIAN PERTANIAN DAN INDUSTRI ASAS TANI",
+  "AgensiKumpulan": "PAP",
+  "CreatedBy": "erymuzuan",
+  "Id": "jabatan-perkhidmatan-kuarantin-dan-pemeriksaan-mal",
+  "CreatedDate": "2015-08-07T19:18:51.1725208+08:00",
+  "ChangedBy": "admin",
+  "ChangedDate": "2015-08-07T19:18:51.1725208+08:00",
+  "WebId": "e9a5da37-482f-4ba9-8392-60584bffe671"
+}

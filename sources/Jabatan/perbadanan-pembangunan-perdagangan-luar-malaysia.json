@@ -1,0 +1,14 @@
+{
+  "$type": "Bespoke.epsikologi_jabatan.Domain.Jabatan, epsikologi.Jabatan",
+  "JabatanNo": "perbadanan-pembangunan-perdagangan-luar-malaysia",
+  "NamaJabatan": "PERBADANAN PEMBANGUNAN PERDAGANGAN LUAR MALAYSIA",
+  "AgensiNo": "NA",
+  "Kementerian": "KEMENTERIAN PERDAGANGAN ANTARABANGSA DAN INDUSTRI",
+  "AgensiKumpulan": "BBP",
+  "CreatedBy": "erymuzuan",
+  "Id": "perbadanan-pembangunan-perdagangan-luar-malaysia",
+  "CreatedDate": "2015-08-07T19:18:51.1725208+08:00",
+  "ChangedBy": "admin",
+  "ChangedDate": "2015-08-07T19:18:51.1725208+08:00",
+  "WebId": "da1223c2-dfd2-42f8-b9d6-d2ecf5786e26"
+}

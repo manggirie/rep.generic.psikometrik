@@ -1,14 +1,14 @@
 {
   "$type": "Bespoke.epsikologi_jabatan.Domain.Jabatan, epsikologi.Jabatan",
-  "JabatanNo": "49345",
+  "JabatanNo": "lembaga-koko-malaysia",
   "NamaJabatan": "LEMBAGA KOKO MALAYSIA",
   "AgensiNo": "NA",
-  "Kementerian": null,
+  "Kementerian": "KEMENTERIAN PERUSAHAAN PERLADANGAN DAN KOMODITI",
   "AgensiKumpulan": "BBP",
-  "CreatedBy": "admin",
+  "CreatedBy": "erymuzuan",
   "Id": "lembaga-koko-malaysia",
-  "CreatedDate": "2015-06-05T10:39:33.6618652+08:00",
+  "CreatedDate": "2015-08-07T19:18:51.1730207+08:00",
   "ChangedBy": "admin",
-  "ChangedDate": "2015-07-01T13:41:28.815528+08:00",
-  "WebId": "5fed6838-04de-46fc-b289-acb130fc8835"
+  "ChangedDate": "2015-08-07T19:18:51.1730207+08:00",
+  "WebId": "f28be9a2-4146-49e2-88b3-2a9ec63396d4"
 }

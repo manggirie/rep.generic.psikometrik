@@ -1,14 +1,14 @@
 {
   "$type": "Bespoke.epsikologi_jabatan.Domain.Jabatan, epsikologi.Jabatan",
-  "JabatanNo": "47125",
+  "JabatanNo": "pertubuhan-berita-nasional-malaysia-bernama-",
   "NamaJabatan": "PERTUBUHAN BERITA NASIONAL MALAYSIA (BERNAMA)",
   "AgensiNo": "NA",
-  "Kementerian": null,
+  "Kementerian": "KEMENTERIAN KOMUNIKASI DAN MULTIMEDIA MALAYSIA",
   "AgensiKumpulan": "BBP",
-  "CreatedBy": "admin",
+  "CreatedBy": "erymuzuan",
   "Id": "pertubuhan-berita-nasional-malaysia-bernama-",
-  "CreatedDate": "2015-06-05T10:39:33.6468657+08:00",
+  "CreatedDate": "2015-08-07T19:18:51.1725208+08:00",
   "ChangedBy": "admin",
-  "ChangedDate": "2015-07-01T13:41:28.7985263+08:00",
-  "WebId": "850acde1-f1fb-4454-bc48-b3f528c51ba4"
+  "ChangedDate": "2015-08-07T19:18:51.1725208+08:00",
+  "WebId": "66e979ca-ce38-4399-9daf-78344353113a"
 }

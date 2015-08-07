@@ -1,14 +1,14 @@
 {
   "$type": "Bespoke.epsikologi_jabatan.Domain.Jabatan, epsikologi.Jabatan",
-  "JabatanNo": "53261",
+  "JabatanNo": "majlis-daerah-setiu",
   "NamaJabatan": "MAJLIS DAERAH SETIU",
   "AgensiNo": "NA",
-  "Kementerian": null,
+  "Kementerian": "PENTADBIRAN KERAJAAN NEGERI TERENGGANU",
   "AgensiKumpulan": "PBT",
-  "CreatedBy": "admin",
+  "CreatedBy": "erymuzuan",
   "Id": "majlis-daerah-setiu",
-  "CreatedDate": "2015-06-05T10:39:34.1578939+08:00",
+  "CreatedDate": "2015-08-07T19:18:51.1755203+08:00",
   "ChangedBy": "admin",
-  "ChangedDate": "2015-07-01T13:41:29.6806145+08:00",
-  "WebId": "cc292ee7-b17d-4328-b967-bfb66f7896b4"
+  "ChangedDate": "2015-08-07T19:18:51.1755203+08:00",
+  "WebId": "ece13d68-b761-472f-a924-0683de1ee4c9"
 }

@@ -1,14 +1,14 @@
 {
   "$type": "Bespoke.epsikologi_jabatan.Domain.Jabatan, epsikologi.Jabatan",
-  "JabatanNo": "192321",
+  "JabatanNo": "universiti-teknologi-malaysia-utm-",
   "NamaJabatan": "UNIVERSITI TEKNOLOGI MALAYSIA (UTM)",
-  "AgensiNo": "26281",
-  "Kementerian": "KEM. PENGAJIAN TINGGI",
+  "AgensiNo": "NA",
+  "Kementerian": "KEMENTERIAN PENDIDIKAN MALAYSIA",
   "AgensiKumpulan": "BBP",
-  "CreatedBy": "admin",
+  "CreatedBy": "erymuzuan",
   "Id": "universiti-teknologi-malaysia-utm-",
-  "CreatedDate": "2015-06-05T10:39:28.5945804+08:00",
+  "CreatedDate": "2015-08-07T19:18:51.1725208+08:00",
   "ChangedBy": "admin",
-  "ChangedDate": "2015-07-01T13:41:19.0915557+08:00",
-  "WebId": "276a642b-7377-40b7-9116-0b17f6d112fb"
+  "ChangedDate": "2015-08-07T19:18:51.1725208+08:00",
+  "WebId": "f38e0225-65b9-4f40-8229-de37583f5812"
 }

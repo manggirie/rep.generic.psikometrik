@@ -1,0 +1,14 @@
+{
+  "$type": "Bespoke.epsikologi_kementerian.Domain.Kementerian, epsikologi.Kementerian",
+  "KementerianNo": "pentadbiran-kerajaan-negeri-kelantan",
+  "NamaKementerian": "PENTADBIRAN KERAJAAN NEGERI KELANTAN",
+  "Negeri": "KELANTAN",
+  "KumpulanAgensi": "PBT",
+  "Abbreviation": "MAJLIS PERBANDARAN KOTA BHARU BANDAR RAYA ISLAM",
+  "CreatedBy": null,
+  "Id": "pentadbiran-kerajaan-negeri-kelantan",
+  "CreatedDate": "0001-01-01T00:00:00",
+  "ChangedBy": null,
+  "ChangedDate": "0001-01-01T00:00:00",
+  "WebId": null
+}

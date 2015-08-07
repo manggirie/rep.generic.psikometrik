@@ -1,14 +1,14 @@
 {
   "$type": "Bespoke.epsikologi_jabatan.Domain.Jabatan, epsikologi.Jabatan",
-  "JabatanNo": "62475",
+  "JabatanNo": "majlis-daerah-tumpat",
   "NamaJabatan": "MAJLIS DAERAH TUMPAT",
   "AgensiNo": "NA",
-  "Kementerian": null,
+  "Kementerian": "PENTADBIRAN KERAJAAN NEGERI KELANTAN",
   "AgensiKumpulan": "PBT",
-  "CreatedBy": "admin",
+  "CreatedBy": "erymuzuan",
   "Id": "majlis-daerah-tumpat",
-  "CreatedDate": "2015-06-05T10:39:35.2809572+08:00",
+  "CreatedDate": "2015-08-07T19:18:51.1735206+08:00",
   "ChangedBy": "admin",
-  "ChangedDate": "2015-07-01T13:41:33.2399704+08:00",
-  "WebId": "0852c716-7884-4dee-906b-ac8cbfc21b18"
+  "ChangedDate": "2015-08-07T19:18:51.1735206+08:00",
+  "WebId": "875d46e4-a13e-4061-82ec-dbc7e8a63143"
 }

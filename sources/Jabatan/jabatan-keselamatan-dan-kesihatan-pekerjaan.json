@@ -1,0 +1,14 @@
+{
+  "$type": "Bespoke.epsikologi_jabatan.Domain.Jabatan, epsikologi.Jabatan",
+  "JabatanNo": "jabatan-keselamatan-dan-kesihatan-pekerjaan",
+  "NamaJabatan": "JABATAN KESELAMATAN DAN KESIHATAN PEKERJAAN",
+  "AgensiNo": "NA",
+  "Kementerian": "KEMENTERIAN SUMBER MANUSIA",
+  "AgensiKumpulan": "PAP",
+  "CreatedBy": "erymuzuan",
+  "Id": "jabatan-keselamatan-dan-kesihatan-pekerjaan",
+  "CreatedDate": "2015-08-07T19:18:51.1730207+08:00",
+  "ChangedBy": "admin",
+  "ChangedDate": "2015-08-07T19:18:51.1730207+08:00",
+  "WebId": "6efd10a4-e59e-4496-8f62-ad10a72674c5"
+}

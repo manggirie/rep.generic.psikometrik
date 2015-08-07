@@ -1,14 +1,14 @@
 {
   "$type": "Bespoke.epsikologi_jabatan.Domain.Jabatan, epsikologi.Jabatan",
-  "JabatanNo": "100821",
+  "JabatanNo": "majlis-daerah-labis",
   "NamaJabatan": "MAJLIS DAERAH LABIS",
   "AgensiNo": "NA",
-  "Kementerian": null,
+  "Kementerian": "PENTADBIRAN KERAJAAN NEGERI JOHOR",
   "AgensiKumpulan": "PBT",
-  "CreatedBy": "admin",
+  "CreatedBy": "erymuzuan",
   "Id": "majlis-daerah-labis",
-  "CreatedDate": "2015-06-05T10:39:24.8603698+08:00",
+  "CreatedDate": "2015-08-07T19:18:51.1730207+08:00",
   "ChangedBy": "admin",
-  "ChangedDate": "2015-07-01T13:41:12.6819148+08:00",
-  "WebId": "97186d10-cc71-4444-b86b-8e9117907586"
+  "ChangedDate": "2015-08-07T19:18:51.1730207+08:00",
+  "WebId": "4586339b-9e74-434a-b079-7c6c540bd4a1"
 }

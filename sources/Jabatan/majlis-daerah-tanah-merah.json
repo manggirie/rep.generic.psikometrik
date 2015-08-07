@@ -1,14 +1,14 @@
 {
   "$type": "Bespoke.epsikologi_jabatan.Domain.Jabatan, epsikologi.Jabatan",
-  "JabatanNo": "62462",
+  "JabatanNo": "majlis-daerah-tanah-merah",
   "NamaJabatan": "MAJLIS DAERAH TANAH MERAH",
   "AgensiNo": "NA",
-  "Kementerian": null,
+  "Kementerian": "PENTADBIRAN KERAJAAN NEGERI KELANTAN",
   "AgensiKumpulan": "PBT",
-  "CreatedBy": "admin",
+  "CreatedBy": "erymuzuan",
   "Id": "majlis-daerah-tanah-merah",
-  "CreatedDate": "2015-06-05T10:39:35.2549558+08:00",
+  "CreatedDate": "2015-08-07T19:18:51.1735206+08:00",
   "ChangedBy": "admin",
-  "ChangedDate": "2015-07-01T13:41:33.1189583+08:00",
-  "WebId": "86091191-70b4-4ff5-a065-e3d3185ca085"
+  "ChangedDate": "2015-08-07T19:18:51.1735206+08:00",
+  "WebId": "cb023926-296a-450f-b52e-83a179ea7658"
 }

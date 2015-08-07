@@ -1,14 +1,14 @@
 {
   "$type": "Bespoke.epsikologi_jabatan.Domain.Jabatan, epsikologi.Jabatan",
-  "JabatanNo": "45636",
+  "JabatanNo": "lembaga-pembangunan-langkawi",
   "NamaJabatan": "LEMBAGA PEMBANGUNAN LANGKAWI",
   "AgensiNo": "NA",
-  "Kementerian": null,
+  "Kementerian": "KEMENTERIAN KEWANGAN",
   "AgensiKumpulan": "BBP",
-  "CreatedBy": "admin",
+  "CreatedBy": "erymuzuan",
   "Id": "lembaga-pembangunan-langkawi",
-  "CreatedDate": "2015-06-05T10:39:33.3488483+08:00",
+  "CreatedDate": "2015-08-07T19:18:51.1725208+08:00",
   "ChangedBy": "admin",
-  "ChangedDate": "2015-07-01T13:41:27.995446+08:00",
-  "WebId": "43c2deae-b900-4384-8d85-6229c2352db3"
+  "ChangedDate": "2015-08-07T19:18:51.1725208+08:00",
+  "WebId": "d2e8ee61-cf84-4e41-85b1-1d6c8b8e7d16"
 }

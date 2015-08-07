@@ -1,14 +1,14 @@
 {
   "$type": "Bespoke.epsikologi_jabatan.Domain.Jabatan, epsikologi.Jabatan",
-  "JabatanNo": "30371",
+  "JabatanNo": "lembaga-pelabuhan-kuantan",
   "NamaJabatan": "LEMBAGA PELABUHAN KUANTAN",
   "AgensiNo": "NA",
-  "Kementerian": null,
+  "Kementerian": "KEMENTERIAN PENGANGKUTAN",
   "AgensiKumpulan": "BBP",
-  "CreatedBy": "admin",
+  "CreatedBy": "erymuzuan",
   "Id": "lembaga-pelabuhan-kuantan",
-  "CreatedDate": "2015-06-05T10:39:32.4467968+08:00",
+  "CreatedDate": "2015-08-07T19:18:51.1725208+08:00",
   "ChangedBy": "admin",
-  "ChangedDate": "2015-07-01T13:41:26.4692934+08:00",
-  "WebId": "311c85dd-6893-4e2c-afc5-40701838bbd5"
+  "ChangedDate": "2015-08-07T19:18:51.1725208+08:00",
+  "WebId": "09336eac-c761-491c-b498-b8d815794548"
 }

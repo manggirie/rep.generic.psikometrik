@@ -1,0 +1,14 @@
+{
+  "$type": "Bespoke.epsikologi_jabatan.Domain.Jabatan, epsikologi.Jabatan",
+  "JabatanNo": "jabatan-perpaduan-negara-dan-integrasi-nasional",
+  "NamaJabatan": "JABATAN PERPADUAN NEGARA DAN INTEGRASI NASIONAL",
+  "AgensiNo": "NA",
+  "Kementerian": "JABATAN PERDANA MENTERI",
+  "AgensiKumpulan": "PAP",
+  "CreatedBy": "erymuzuan",
+  "Id": "jabatan-perpaduan-negara-dan-integrasi-nasional",
+  "CreatedDate": "2015-08-07T19:18:51.1720212+08:00",
+  "ChangedBy": "admin",
+  "ChangedDate": "2015-08-07T19:18:51.1720212+08:00",
+  "WebId": "e5767eba-0e73-4f9e-9642-b3663be29e3f"
+}

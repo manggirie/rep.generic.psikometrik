@@ -1,14 +1,14 @@
 {
   "$type": "Bespoke.epsikologi_jabatan.Domain.Jabatan, epsikologi.Jabatan",
-  "JabatanNo": "191353",
+  "JabatanNo": "universiti-pendidikan-sultan-idris-upsi-",
   "NamaJabatan": "UNIVERSITI PENDIDIKAN SULTAN IDRIS (UPSI)",
-  "AgensiNo": "26281",
-  "Kementerian": "KEM. PENGAJIAN TINGGI",
+  "AgensiNo": "NA",
+  "Kementerian": "KEMENTERIAN PENDIDIKAN MALAYSIA",
   "AgensiKumpulan": "BBP",
-  "CreatedBy": "admin",
+  "CreatedBy": "erymuzuan",
   "Id": "universiti-pendidikan-sultan-idris-upsi-",
-  "CreatedDate": "2015-06-05T10:39:28.4535722+08:00",
+  "CreatedDate": "2015-08-07T19:18:51.1725208+08:00",
   "ChangedBy": "admin",
-  "ChangedDate": "2015-07-01T13:41:18.8995365+08:00",
-  "WebId": "565e6e4d-832a-4d86-b061-5763307441c3"
+  "ChangedDate": "2015-08-07T19:18:51.1725208+08:00",
+  "WebId": "105f7632-db09-455b-88bb-5a3a9f773a8a"
 }

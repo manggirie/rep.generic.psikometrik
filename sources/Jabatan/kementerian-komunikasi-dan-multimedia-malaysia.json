@@ -1,0 +1,14 @@
+{
+  "$type": "Bespoke.epsikologi_jabatan.Domain.Jabatan, epsikologi.Jabatan",
+  "JabatanNo": "kementerian-komunikasi-dan-multimedia-malaysia",
+  "NamaJabatan": "KEMENTERIAN KOMUNIKASI DAN MULTIMEDIA MALAYSIA",
+  "AgensiNo": "NA",
+  "Kementerian": "KEMENTERIAN KOMUNIKASI DAN MULTIMEDIA MALAYSIA",
+  "AgensiKumpulan": "PAP",
+  "CreatedBy": "erymuzuan",
+  "Id": "kementerian-komunikasi-dan-multimedia-malaysia",
+  "CreatedDate": "2015-08-07T19:18:51.1725208+08:00",
+  "ChangedBy": "admin",
+  "ChangedDate": "2015-08-07T19:18:51.1725208+08:00",
+  "WebId": "271eef45-0a4f-4039-9218-a66cbe7f3f67"
+}

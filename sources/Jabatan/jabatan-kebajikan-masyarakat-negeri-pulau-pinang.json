@@ -1,14 +1,14 @@
 {
   "$type": "Bespoke.epsikologi_jabatan.Domain.Jabatan, epsikologi.Jabatan",
-  "JabatanNo": "214684",
+  "JabatanNo": "jabatan-kebajikan-masyarakat-negeri-pulau-pinang",
   "NamaJabatan": "JABATAN KEBAJIKAN MASYARAKAT NEGERI PULAU PINANG",
-  "AgensiNo": "24556",
-  "Kementerian": "KEM. PEMBANGUNAN WANITA, KELUARGA & MASYARAKAT",
-  "AgensiKumpulan": "BBN",
-  "CreatedBy": "admin",
+  "AgensiNo": "NA",
+  "Kementerian": "PENTADBIRAN KERAJAAN NEGERI PULAU PINANG",
+  "AgensiKumpulan": "PAN",
+  "CreatedBy": "erymuzuan",
   "Id": "jabatan-kebajikan-masyarakat-negeri-pulau-pinang",
-  "CreatedDate": "2015-06-05T10:39:29.1316103+08:00",
+  "CreatedDate": "2015-08-07T19:18:51.1740209+08:00",
   "ChangedBy": "admin",
-  "ChangedDate": "2015-07-01T13:41:19.7806246+08:00",
-  "WebId": "0b1cb53e-f868-4583-b1ae-d5b25353d5b8"
+  "ChangedDate": "2015-08-07T19:18:51.1740209+08:00",
+  "WebId": "91f699c1-6535-4430-a98f-b6c9194de39b"
 }

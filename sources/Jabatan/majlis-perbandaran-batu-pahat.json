@@ -1,14 +1,14 @@
 {
   "$type": "Bespoke.epsikologi_jabatan.Domain.Jabatan, epsikologi.Jabatan",
-  "JabatanNo": "61846",
+  "JabatanNo": "majlis-perbandaran-batu-pahat",
   "NamaJabatan": "MAJLIS PERBANDARAN BATU PAHAT",
   "AgensiNo": "NA",
-  "Kementerian": null,
+  "Kementerian": "PENTADBIRAN KERAJAAN NEGERI JOHOR",
   "AgensiKumpulan": "PBT",
-  "CreatedBy": "admin",
+  "CreatedBy": "erymuzuan",
   "Id": "majlis-perbandaran-batu-pahat",
-  "CreatedDate": "2015-06-05T10:39:35.115948+08:00",
+  "CreatedDate": "2015-08-07T19:18:51.1730207+08:00",
   "ChangedBy": "admin",
-  "ChangedDate": "2015-07-01T13:41:32.7799244+08:00",
-  "WebId": "6f39c913-da36-4995-8bab-e28a5a58e4e4"
+  "ChangedDate": "2015-08-07T19:18:51.1730207+08:00",
+  "WebId": "09049249-0077-4d1f-b099-a0236d27f94a"
 }

@@ -1,0 +1,14 @@
+{
+  "$type": "Bespoke.epsikologi_jabatan.Domain.Jabatan, epsikologi.Jabatan",
+  "JabatanNo": "jabatan-kerja-raya-negeri-pahang",
+  "NamaJabatan": "JABATAN KERJA RAYA NEGERI PAHANG",
+  "AgensiNo": "NA",
+  "Kementerian": "PENTADBIRAN KERAJAAN NEGERI PAHANG",
+  "AgensiKumpulan": "PAN",
+  "CreatedBy": "erymuzuan",
+  "Id": "jabatan-kerja-raya-negeri-pahang",
+  "CreatedDate": "2015-08-07T19:18:51.1735206+08:00",
+  "ChangedBy": "admin",
+  "ChangedDate": "2015-08-07T19:18:51.1735206+08:00",
+  "WebId": "916f10fe-6f1b-459a-8c61-1313da46c559"
+}

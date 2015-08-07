@@ -1,0 +1,14 @@
+{
+  "$type": "Bespoke.epsikologi_jabatan.Domain.Jabatan, epsikologi.Jabatan",
+  "JabatanNo": "pejabat-setiausaha-persekutuan-sarawak",
+  "NamaJabatan": "PEJABAT SETIAUSAHA PERSEKUTUAN SARAWAK",
+  "AgensiNo": "NA",
+  "Kementerian": "JABATAN PERDANA MENTERI",
+  "AgensiKumpulan": "PAP",
+  "CreatedBy": "erymuzuan",
+  "Id": "pejabat-setiausaha-persekutuan-sarawak",
+  "CreatedDate": "2015-08-07T19:18:51.1720212+08:00",
+  "ChangedBy": "admin",
+  "ChangedDate": "2015-08-07T19:18:51.1720212+08:00",
+  "WebId": "96d9e04f-b4af-40d7-9acc-2ab64da96c4f"
+}

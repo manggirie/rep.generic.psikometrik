@@ -1,14 +1,14 @@
 {
   "$type": "Bespoke.epsikologi_jabatan.Domain.Jabatan, epsikologi.Jabatan",
-  "JabatanNo": "62825",
+  "JabatanNo": "majlis-agama-islam-negeri-johor",
   "NamaJabatan": "MAJLIS AGAMA ISLAM NEGERI JOHOR",
-  "AgensiNo": "59098",
-  "Kementerian": "PSUK NEGERI JOHOR",
+  "AgensiNo": "NA",
+  "Kementerian": "PENTADBIRAN KERAJAAN NEGERI JOHOR",
   "AgensiKumpulan": "BBN",
-  "CreatedBy": "admin",
+  "CreatedBy": "erymuzuan",
   "Id": "majlis-agama-islam-negeri-johor",
-  "CreatedDate": "2015-06-05T10:39:35.5479719+08:00",
+  "CreatedDate": "2015-08-07T19:18:51.1730207+08:00",
   "ChangedBy": "admin",
-  "ChangedDate": "2015-07-01T13:41:33.7110175+08:00",
-  "WebId": "5afd7e77-67dd-4da0-b83f-2ac1e57a1da2"
+  "ChangedDate": "2015-08-07T19:18:51.1730207+08:00",
+  "WebId": "ed38fbb6-e5f9-4d1d-a221-b91c8cf5bc55"
 }

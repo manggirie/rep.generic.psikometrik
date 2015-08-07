@@ -1,14 +1,14 @@
 {
   "$type": "Bespoke.epsikologi_jabatan.Domain.Jabatan, epsikologi.Jabatan",
-  "JabatanNo": "187430",
+  "JabatanNo": "universiti-malaysia-kelantan-umk-",
   "NamaJabatan": "UNIVERSITI MALAYSIA KELANTAN (UMK)",
-  "AgensiNo": "26281",
-  "Kementerian": "KEM. PENGAJIAN TINGGI",
+  "AgensiNo": "NA",
+  "Kementerian": "KEMENTERIAN PENDIDIKAN MALAYSIA",
   "AgensiKumpulan": "BBP",
-  "CreatedBy": "admin",
+  "CreatedBy": "erymuzuan",
   "Id": "universiti-malaysia-kelantan-umk-",
-  "CreatedDate": "2015-06-05T10:39:28.2885639+08:00",
+  "CreatedDate": "2015-08-07T19:18:51.1725208+08:00",
   "ChangedBy": "admin",
-  "ChangedDate": "2015-07-01T13:41:18.4634929+08:00",
-  "WebId": "48335505-052a-4c8e-a133-1de82eb9105b"
+  "ChangedDate": "2015-08-07T19:18:51.1725208+08:00",
+  "WebId": "8de8a11f-0fd8-412c-9c39-aebedd44ed92"
 }

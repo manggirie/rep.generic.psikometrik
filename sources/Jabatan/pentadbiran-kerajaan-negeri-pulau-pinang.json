@@ -1,0 +1,14 @@
+{
+  "$type": "Bespoke.epsikologi_jabatan.Domain.Jabatan, epsikologi.Jabatan",
+  "JabatanNo": "pentadbiran-kerajaan-negeri-pulau-pinang",
+  "NamaJabatan": "PENTADBIRAN KERAJAAN NEGERI PULAU PINANG",
+  "AgensiNo": "NA",
+  "Kementerian": "PENTADBIRAN KERAJAAN NEGERI PULAU PINANG",
+  "AgensiKumpulan": "PAN",
+  "CreatedBy": "erymuzuan",
+  "Id": "pentadbiran-kerajaan-negeri-pulau-pinang",
+  "CreatedDate": "2015-08-07T19:18:51.1740209+08:00",
+  "ChangedBy": "admin",
+  "ChangedDate": "2015-08-07T19:18:51.1740209+08:00",
+  "WebId": "b2839849-dc71-4072-bb64-7c23ddc89311"
+}

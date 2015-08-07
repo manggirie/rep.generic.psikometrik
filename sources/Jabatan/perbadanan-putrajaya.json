@@ -1,14 +1,14 @@
 {
   "$type": "Bespoke.epsikologi_jabatan.Domain.Jabatan, epsikologi.Jabatan",
-  "JabatanNo": "55512",
+  "JabatanNo": "perbadanan-putrajaya",
   "NamaJabatan": "PERBADANAN PUTRAJAYA",
   "AgensiNo": "NA",
-  "Kementerian": null,
+  "Kementerian": "KEMENTERIAN WILAYAH PERSEKUTUAN",
   "AgensiKumpulan": "BBP",
-  "CreatedBy": "admin",
+  "CreatedBy": "erymuzuan",
   "Id": "perbadanan-putrajaya",
-  "CreatedDate": "2015-06-05T10:39:34.2368981+08:00",
+  "CreatedDate": "2015-08-07T19:18:51.1730207+08:00",
   "ChangedBy": "admin",
-  "ChangedDate": "2015-07-01T13:41:29.8606325+08:00",
-  "WebId": "d9e2755d-2344-44fc-97ef-9641ada067c1"
+  "ChangedDate": "2015-08-07T19:18:51.1730207+08:00",
+  "WebId": "2b703a3e-1d71-4956-9e61-1157f6b5405d"
 }

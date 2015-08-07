@@ -1,14 +1,14 @@
 {
   "$type": "Bespoke.epsikologi_jabatan.Domain.Jabatan, epsikologi.Jabatan",
-  "JabatanNo": "43911",
+  "JabatanNo": "lembaga-perindustrian-kayu-malaysia-mtib-",
   "NamaJabatan": "LEMBAGA PERINDUSTRIAN KAYU MALAYSIA (MTIB)",
   "AgensiNo": "NA",
-  "Kementerian": null,
+  "Kementerian": "KEMENTERIAN PERUSAHAAN PERLADANGAN DAN KOMODITI",
   "AgensiKumpulan": "BBP",
-  "CreatedBy": "admin",
+  "CreatedBy": "erymuzuan",
   "Id": "lembaga-perindustrian-kayu-malaysia-mtib-",
-  "CreatedDate": "2015-06-05T10:39:33.3358471+08:00",
+  "CreatedDate": "2015-08-07T19:18:51.1730207+08:00",
   "ChangedBy": "admin",
-  "ChangedDate": "2015-07-01T13:41:27.9634428+08:00",
-  "WebId": "32bbd053-43e4-4b79-89c2-cd149facfdcd"
+  "ChangedDate": "2015-08-07T19:18:51.1730207+08:00",
+  "WebId": "63396ba6-f82c-4e56-8215-5d01e851444c"
 }

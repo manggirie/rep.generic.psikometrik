@@ -1,14 +1,14 @@
 {
   "$type": "Bespoke.epsikologi_jabatan.Domain.Jabatan, epsikologi.Jabatan",
-  "JabatanNo": "30281",
+  "JabatanNo": "lembaga-pelabuhan-bintulu",
   "NamaJabatan": "LEMBAGA PELABUHAN BINTULU",
   "AgensiNo": "NA",
-  "Kementerian": null,
+  "Kementerian": "KEMENTERIAN PENGANGKUTAN",
   "AgensiKumpulan": "BBP",
-  "CreatedBy": "admin",
+  "CreatedBy": "erymuzuan",
   "Id": "lembaga-pelabuhan-bintulu",
-  "CreatedDate": "2015-06-05T10:39:32.3637919+08:00",
+  "CreatedDate": "2015-08-07T19:18:51.1725208+08:00",
   "ChangedBy": "admin",
-  "ChangedDate": "2015-07-01T13:41:26.3742839+08:00",
-  "WebId": "b73a4a3b-ac1e-4a98-8a50-b83f46e1910b"
+  "ChangedDate": "2015-08-07T19:18:51.1725208+08:00",
+  "WebId": "060a25b0-2c14-4ec6-9b0f-59e832e2913d"
 }

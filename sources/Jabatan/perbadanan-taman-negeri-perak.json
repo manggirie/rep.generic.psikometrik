@@ -1,14 +1,14 @@
 {
   "$type": "Bespoke.epsikologi_jabatan.Domain.Jabatan, epsikologi.Jabatan",
-  "JabatanNo": "163752",
+  "JabatanNo": "perbadanan-taman-negeri-perak",
   "NamaJabatan": "PERBADANAN TAMAN NEGERI PERAK",
-  "AgensiNo": "55725",
-  "Kementerian": "PSUK NEGERI PERAK",
+  "AgensiNo": "NA",
+  "Kementerian": "PENTADBIRAN KERAJAAN NEGERI PERAK",
   "AgensiKumpulan": "BBN",
-  "CreatedBy": "admin",
+  "CreatedBy": "erymuzuan",
   "Id": "perbadanan-taman-negeri-perak",
-  "CreatedDate": "2015-06-05T10:39:26.1504424+08:00",
+  "CreatedDate": "2015-08-07T19:18:51.1740209+08:00",
   "ChangedBy": "admin",
-  "ChangedDate": "2015-07-01T13:41:14.6101076+08:00",
-  "WebId": "8f678d4f-0431-42c1-a402-8781692af442"
+  "ChangedDate": "2015-08-07T19:18:51.1740209+08:00",
+  "WebId": "30a20f11-6a8b-48c9-887a-b37e7b9ac99c"
 }

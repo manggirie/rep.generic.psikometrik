@@ -1,0 +1,14 @@
+{
+  "$type": "Bespoke.epsikologi_jabatan.Domain.Jabatan, epsikologi.Jabatan",
+  "JabatanNo": "institut-kemajuan-desa-infra-",
+  "NamaJabatan": "INSTITUT KEMAJUAN DESA (INFRA)",
+  "AgensiNo": "NA",
+  "Kementerian": "KEMENTERIAN KEMAJUAN LUAR BANDAR DAN WILAYAH",
+  "AgensiKumpulan": "PAP",
+  "CreatedBy": "erymuzuan",
+  "Id": "institut-kemajuan-desa-infra-",
+  "CreatedDate": "2015-08-07T19:18:51.1720212+08:00",
+  "ChangedBy": "admin",
+  "ChangedDate": "2015-08-07T19:18:51.1720212+08:00",
+  "WebId": "46759a61-abc5-4ff2-b046-40c9b05e62e2"
+}

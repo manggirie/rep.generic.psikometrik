@@ -1,14 +1,14 @@
 {
   "$type": "Bespoke.epsikologi_jabatan.Domain.Jabatan, epsikologi.Jabatan",
-  "JabatanNo": "31615",
+  "JabatanNo": "majlis-daerah-jempol",
   "NamaJabatan": "MAJLIS DAERAH JEMPOL",
   "AgensiNo": "NA",
-  "Kementerian": null,
+  "Kementerian": "PENTADBIRAN KERAJAAN NEGERI SEMBILAN",
   "AgensiKumpulan": "PBT",
-  "CreatedBy": "admin",
+  "CreatedBy": "erymuzuan",
   "Id": "majlis-daerah-jempol",
-  "CreatedDate": "2015-06-05T10:39:32.5778052+08:00",
+  "CreatedDate": "2015-08-07T19:18:51.1750204+08:00",
   "ChangedBy": "admin",
-  "ChangedDate": "2015-07-01T13:41:26.6713136+08:00",
-  "WebId": "d54af326-d604-41a9-9ae4-af74f8513d72"
+  "ChangedDate": "2015-08-07T19:18:51.1750204+08:00",
+  "WebId": "495b8c8e-bfd1-4e9b-8041-76b30813ae3a"
 }

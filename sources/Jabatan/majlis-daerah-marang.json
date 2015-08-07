@@ -1,14 +1,14 @@
 {
   "$type": "Bespoke.epsikologi_jabatan.Domain.Jabatan, epsikologi.Jabatan",
-  "JabatanNo": "53238",
+  "JabatanNo": "majlis-daerah-marang",
   "NamaJabatan": "MAJLIS DAERAH MARANG",
   "AgensiNo": "NA",
-  "Kementerian": null,
+  "Kementerian": "PENTADBIRAN KERAJAAN NEGERI TERENGGANU",
   "AgensiKumpulan": "PBT",
-  "CreatedBy": "admin",
+  "CreatedBy": "erymuzuan",
   "Id": "majlis-daerah-marang",
-  "CreatedDate": "2015-06-05T10:39:34.140893+08:00",
+  "CreatedDate": "2015-08-07T19:18:51.1755203+08:00",
   "ChangedBy": "admin",
-  "ChangedDate": "2015-07-01T13:41:29.6536118+08:00",
-  "WebId": "49948a1b-4cb6-4535-a933-8d27fedb6d7e"
+  "ChangedDate": "2015-08-07T19:18:51.1755203+08:00",
+  "WebId": "7bdb7a29-68aa-4075-9a51-c528e4553ee1"
 }

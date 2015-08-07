@@ -1,0 +1,14 @@
+{
+  "$type": "Bespoke.epsikologi_jabatan.Domain.Jabatan, epsikologi.Jabatan",
+  "JabatanNo": "jabatan-tenaga-manusia",
+  "NamaJabatan": "JABATAN TENAGA MANUSIA",
+  "AgensiNo": "NA",
+  "Kementerian": "KEMENTERIAN SUMBER MANUSIA",
+  "AgensiKumpulan": "PAP",
+  "CreatedBy": "erymuzuan",
+  "Id": "jabatan-tenaga-manusia",
+  "CreatedDate": "2015-08-07T19:18:51.1730207+08:00",
+  "ChangedBy": "admin",
+  "ChangedDate": "2015-08-07T19:18:51.1730207+08:00",
+  "WebId": "b5b4d5c5-cfb6-459f-adf4-045935282f6b"
+}

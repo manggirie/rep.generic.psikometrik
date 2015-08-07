@@ -1,14 +1,14 @@
 {
   "$type": "Bespoke.epsikologi_jabatan.Domain.Jabatan, epsikologi.Jabatan",
-  "JabatanNo": "62482",
+  "JabatanNo": "majlis-daerah-bachok",
   "NamaJabatan": "MAJLIS DAERAH BACHOK",
   "AgensiNo": "NA",
-  "Kementerian": null,
+  "Kementerian": "PENTADBIRAN KERAJAAN NEGERI KELANTAN",
   "AgensiKumpulan": "PBT",
-  "CreatedBy": "admin",
+  "CreatedBy": "erymuzuan",
   "Id": "majlis-daerah-bachok",
-  "CreatedDate": "2015-06-05T10:39:35.3089587+08:00",
+  "CreatedDate": "2015-08-07T19:18:51.1735206+08:00",
   "ChangedBy": "admin",
-  "ChangedDate": "2015-07-01T13:41:33.3039768+08:00",
-  "WebId": "b345df02-271b-4b32-806f-94f50fe9d303"
+  "ChangedDate": "2015-08-07T19:18:51.1735206+08:00",
+  "WebId": "d7e2c0e0-40e3-478f-80b2-0d17e89ca9ce"
 }

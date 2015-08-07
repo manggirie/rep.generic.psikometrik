@@ -1,14 +1,14 @@
 {
   "$type": "Bespoke.epsikologi_jabatan.Domain.Jabatan, epsikologi.Jabatan",
-  "JabatanNo": "62578",
+  "JabatanNo": "yayasan-pelajaran-johor",
   "NamaJabatan": "YAYASAN PELAJARAN JOHOR",
-  "AgensiNo": "59098",
-  "Kementerian": "PSUK NEGERI JOHOR",
+  "AgensiNo": "NA",
+  "Kementerian": "PENTADBIRAN KERAJAAN NEGERI JOHOR",
   "AgensiKumpulan": "BBN",
-  "CreatedBy": "admin",
+  "CreatedBy": "erymuzuan",
   "Id": "yayasan-pelajaran-johor",
-  "CreatedDate": "2015-06-05T10:39:35.4399661+08:00",
+  "CreatedDate": "2015-08-07T19:18:51.1730207+08:00",
   "ChangedBy": "admin",
-  "ChangedDate": "2015-07-01T13:41:33.5480012+08:00",
-  "WebId": "6816a7f6-4437-4916-92ad-200cb8a370b0"
+  "ChangedDate": "2015-08-07T19:18:51.1730207+08:00",
+  "WebId": "8ce41afe-7577-4d7a-b3d2-87dbd857adaf"
 }

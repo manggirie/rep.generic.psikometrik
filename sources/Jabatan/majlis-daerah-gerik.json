@@ -1,14 +1,14 @@
 {
   "$type": "Bespoke.epsikologi_jabatan.Domain.Jabatan, epsikologi.Jabatan",
-  "JabatanNo": "55808",
+  "JabatanNo": "majlis-daerah-gerik",
   "NamaJabatan": "MAJLIS DAERAH GERIK",
   "AgensiNo": "NA",
-  "Kementerian": null,
+  "Kementerian": "PENTADBIRAN KERAJAAN NEGERI PERAK",
   "AgensiKumpulan": "PBT",
-  "CreatedBy": "admin",
+  "CreatedBy": "erymuzuan",
   "Id": "majlis-daerah-gerik",
-  "CreatedDate": "2015-06-05T10:39:34.3139029+08:00",
+  "CreatedDate": "2015-08-07T19:18:51.1740209+08:00",
   "ChangedBy": "admin",
-  "ChangedDate": "2015-07-01T13:41:29.9466411+08:00",
-  "WebId": "e9b62e42-fa9b-4b6b-b31f-13c9b7651354"
+  "ChangedDate": "2015-08-07T19:18:51.1740209+08:00",
+  "WebId": "238077e2-d775-4bbe-98fa-b042a872c995"
 }

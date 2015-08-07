@@ -1,14 +1,14 @@
 {
   "$type": "Bespoke.epsikologi_jabatan.Domain.Jabatan, epsikologi.Jabatan",
-  "JabatanNo": "62589",
+  "JabatanNo": "yayasan-warisan-johor",
   "NamaJabatan": "YAYASAN WARISAN JOHOR",
-  "AgensiNo": "59098",
-  "Kementerian": "PSUK NEGERI JOHOR",
+  "AgensiNo": "NA",
+  "Kementerian": "PENTADBIRAN KERAJAAN NEGERI JOHOR",
   "AgensiKumpulan": "BBN",
-  "CreatedBy": "admin",
+  "CreatedBy": "erymuzuan",
   "Id": "yayasan-warisan-johor",
-  "CreatedDate": "2015-06-05T10:39:35.4579672+08:00",
+  "CreatedDate": "2015-08-07T19:18:51.1730207+08:00",
   "ChangedBy": "admin",
-  "ChangedDate": "2015-07-01T13:41:33.586005+08:00",
-  "WebId": "496406ed-78a1-4637-8bb3-7b13f3aafc71"
+  "ChangedDate": "2015-08-07T19:18:51.1730207+08:00",
+  "WebId": "58428fc3-dfac-491d-984d-825da537da5a"
 }

@@ -1,14 +1,14 @@
 {
   "$type": "Bespoke.epsikologi_jabatan.Domain.Jabatan, epsikologi.Jabatan",
-  "JabatanNo": "56390",
+  "JabatanNo": "majlis-daerah-tanjong-malim",
   "NamaJabatan": "MAJLIS DAERAH TANJONG MALIM",
   "AgensiNo": "NA",
-  "Kementerian": null,
+  "Kementerian": "PENTADBIRAN KERAJAAN NEGERI PERAK",
   "AgensiKumpulan": "PBT",
-  "CreatedBy": "admin",
+  "CreatedBy": "erymuzuan",
   "Id": "majlis-daerah-tanjong-malim",
-  "CreatedDate": "2015-06-05T10:39:34.360905+08:00",
+  "CreatedDate": "2015-08-07T19:18:51.1740209+08:00",
   "ChangedBy": "admin",
-  "ChangedDate": "2015-07-01T13:41:30.0606525+08:00",
-  "WebId": "715d4534-f85a-4c30-a39e-5a9b4f26311b"
+  "ChangedDate": "2015-08-07T19:18:51.1740209+08:00",
+  "WebId": "90380947-549d-4f9f-8498-a777e3f0c117"
 }

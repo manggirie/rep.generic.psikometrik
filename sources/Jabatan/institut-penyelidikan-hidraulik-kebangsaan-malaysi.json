@@ -1,0 +1,14 @@
+{
+  "$type": "Bespoke.epsikologi_jabatan.Domain.Jabatan, epsikologi.Jabatan",
+  "JabatanNo": "institut-penyelidikan-hidraulik-kebangsaan-malaysi",
+  "NamaJabatan": "INSTITUT PENYELIDIKAN HIDRAULIK KEBANGSAAN MALAYSIA (NAHRIM)",
+  "AgensiNo": "NA",
+  "Kementerian": "KEMENTERIAN SUMBER ASLI DAN ALAM SEKITAR",
+  "AgensiKumpulan": "PAP",
+  "CreatedBy": "erymuzuan",
+  "Id": "institut-penyelidikan-hidraulik-kebangsaan-malaysi",
+  "CreatedDate": "2015-08-07T19:18:51.1730207+08:00",
+  "ChangedBy": "admin",
+  "ChangedDate": "2015-08-07T19:18:51.1730207+08:00",
+  "WebId": "53c1166c-e665-4ff9-86a2-7b1f18f54d87"
+}

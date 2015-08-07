@@ -1,14 +1,14 @@
 {
   "$type": "Bespoke.epsikologi_jabatan.Domain.Jabatan, epsikologi.Jabatan",
-  "JabatanNo": "53346",
+  "JabatanNo": "lembaga-muzium-negeri-terengganu",
   "NamaJabatan": "LEMBAGA MUZIUM NEGERI TERENGGANU",
   "AgensiNo": "NA",
-  "Kementerian": null,
+  "Kementerian": "PENTADBIRAN KERAJAAN NEGERI TERENGGANU",
   "AgensiKumpulan": "BBN",
-  "CreatedBy": "admin",
+  "CreatedBy": "erymuzuan",
   "Id": "lembaga-muzium-negeri-terengganu",
-  "CreatedDate": "2015-06-05T10:39:34.1708944+08:00",
+  "CreatedDate": "2015-08-07T19:18:51.1755203+08:00",
   "ChangedBy": "admin",
-  "ChangedDate": "2015-07-01T13:41:29.705617+08:00",
-  "WebId": "58a75242-e069-444a-8881-f21390e968c0"
+  "ChangedDate": "2015-08-07T19:18:51.1755203+08:00",
+  "WebId": "aea84f8c-260a-4c67-9207-e213e2a15f09"
 }

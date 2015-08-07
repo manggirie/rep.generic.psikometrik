@@ -1,0 +1,14 @@
+{
+  "$type": "Bespoke.epsikologi_kementerian.Domain.Kementerian, epsikologi.Kementerian",
+  "KementerianNo": "kementerian-kerja-raya",
+  "NamaKementerian": "KEMENTERIAN KERJA RAYA",
+  "Negeri": "",
+  "KumpulanAgensi": "BBP",
+  "Abbreviation": "LEMBAGA PEMBANGUNAN INDUSTRI PEMBINAAN MALAYSIA (CIDB)",
+  "CreatedBy": null,
+  "Id": "kementerian-kerja-raya",
+  "CreatedDate": "0001-01-01T00:00:00",
+  "ChangedBy": null,
+  "ChangedDate": "0001-01-01T00:00:00",
+  "WebId": null
+}

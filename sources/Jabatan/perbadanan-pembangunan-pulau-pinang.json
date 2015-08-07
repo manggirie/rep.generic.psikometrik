@@ -1,14 +1,14 @@
 {
   "$type": "Bespoke.epsikologi_jabatan.Domain.Jabatan, epsikologi.Jabatan",
-  "JabatanNo": "50935",
+  "JabatanNo": "perbadanan-pembangunan-pulau-pinang",
   "NamaJabatan": "PERBADANAN PEMBANGUNAN PULAU PINANG",
-  "AgensiNo": "50850",
-  "Kementerian": "PSUK NEGERI PULAU PINANG",
+  "AgensiNo": "NA",
+  "Kementerian": "PENTADBIRAN KERAJAAN NEGERI PULAU PINANG",
   "AgensiKumpulan": "BBN",
-  "CreatedBy": "admin",
+  "CreatedBy": "erymuzuan",
   "Id": "perbadanan-pembangunan-pulau-pinang",
-  "CreatedDate": "2015-06-05T10:39:33.7268704+08:00",
+  "CreatedDate": "2015-08-07T19:18:51.1740209+08:00",
   "ChangedBy": "admin",
-  "ChangedDate": "2015-07-01T13:41:29.0015466+08:00",
-  "WebId": "8f590adc-953f-4cea-9fcf-6418cddd1585"
+  "ChangedDate": "2015-08-07T19:18:51.1740209+08:00",
+  "WebId": "cb744513-4b6e-4fda-bab5-8915c9a31443"
 }

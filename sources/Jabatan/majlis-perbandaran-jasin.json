@@ -1,14 +1,14 @@
 {
   "$type": "Bespoke.epsikologi_jabatan.Domain.Jabatan, epsikologi.Jabatan",
-  "JabatanNo": "163000",
+  "JabatanNo": "majlis-perbandaran-jasin",
   "NamaJabatan": "MAJLIS PERBANDARAN JASIN",
   "AgensiNo": "NA",
-  "Kementerian": null,
+  "Kementerian": "PENTADBIRAN KERAJAAN NEGERI MELAKA",
   "AgensiKumpulan": "PBT",
-  "CreatedBy": "admin",
+  "CreatedBy": "erymuzuan",
   "Id": "majlis-perbandaran-jasin",
-  "CreatedDate": "2015-06-05T10:39:26.0054339+08:00",
+  "CreatedDate": "2015-08-07T19:18:51.1735206+08:00",
   "ChangedBy": "admin",
-  "ChangedDate": "2015-07-01T13:41:14.4710937+08:00",
-  "WebId": "ee272760-6a64-4676-988d-0b71355b5c3a"
+  "ChangedDate": "2015-08-07T19:18:51.1735206+08:00",
+  "WebId": "08de21a9-5744-400f-aa55-4e4fb6d85abc"
 }

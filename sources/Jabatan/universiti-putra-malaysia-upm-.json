@@ -1,14 +1,14 @@
 {
   "$type": "Bespoke.epsikologi_jabatan.Domain.Jabatan, epsikologi.Jabatan",
-  "JabatanNo": "192247",
+  "JabatanNo": "universiti-putra-malaysia-upm-",
   "NamaJabatan": "UNIVERSITI PUTRA MALAYSIA (UPM)",
-  "AgensiNo": "26281",
-  "Kementerian": "KEM. PENGAJIAN TINGGI",
+  "AgensiNo": "NA",
+  "Kementerian": "KEMENTERIAN PENDIDIKAN MALAYSIA",
   "AgensiKumpulan": "BBP",
-  "CreatedBy": "admin",
+  "CreatedBy": "erymuzuan",
   "Id": "universiti-putra-malaysia-upm-",
-  "CreatedDate": "2015-06-05T10:39:28.5455773+08:00",
+  "CreatedDate": "2015-08-07T19:18:51.1725208+08:00",
   "ChangedBy": "admin",
-  "ChangedDate": "2015-07-01T13:41:19.0615527+08:00",
-  "WebId": "46d260d5-f293-454d-917f-b66ae27d2dd6"
+  "ChangedDate": "2015-08-07T19:18:51.1725208+08:00",
+  "WebId": "ca4f43b4-db76-4a35-9f56-f9b462cace69"
 }

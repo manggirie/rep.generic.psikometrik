@@ -1,0 +1,14 @@
+{
+  "$type": "Bespoke.epsikologi_jabatan.Domain.Jabatan, epsikologi.Jabatan",
+  "JabatanNo": "jabatan-hal-ehwal-khas-jasa-",
+  "NamaJabatan": "JABATAN HAL EHWAL KHAS (JASA)",
+  "AgensiNo": "NA",
+  "Kementerian": "KEMENTERIAN KOMUNIKASI DAN MULTIMEDIA MALAYSIA",
+  "AgensiKumpulan": "PAP",
+  "CreatedBy": "erymuzuan",
+  "Id": "jabatan-hal-ehwal-khas-jasa-",
+  "CreatedDate": "2015-08-07T19:18:51.1725208+08:00",
+  "ChangedBy": "admin",
+  "ChangedDate": "2015-08-07T19:18:51.1725208+08:00",
+  "WebId": "098fc2cf-aa92-466d-b189-f1d5b29a33e1"
+}

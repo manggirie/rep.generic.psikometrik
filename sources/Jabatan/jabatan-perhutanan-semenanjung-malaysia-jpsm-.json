@@ -1,0 +1,14 @@
+{
+  "$type": "Bespoke.epsikologi_jabatan.Domain.Jabatan, epsikologi.Jabatan",
+  "JabatanNo": "jabatan-perhutanan-semenanjung-malaysia-jpsm-",
+  "NamaJabatan": "JABATAN PERHUTANAN SEMENANJUNG MALAYSIA (JPSM)",
+  "AgensiNo": "NA",
+  "Kementerian": "KEMENTERIAN SUMBER ASLI DAN ALAM SEKITAR",
+  "AgensiKumpulan": "PAP",
+  "CreatedBy": "erymuzuan",
+  "Id": "jabatan-perhutanan-semenanjung-malaysia-jpsm-",
+  "CreatedDate": "2015-08-07T19:18:51.1730207+08:00",
+  "ChangedBy": "admin",
+  "ChangedDate": "2015-08-07T19:18:51.1730207+08:00",
+  "WebId": "f94af1e3-45da-41b7-9fbf-d7bb60cc3739"
+}

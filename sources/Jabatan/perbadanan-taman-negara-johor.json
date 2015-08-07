@@ -1,14 +1,14 @@
 {
   "$type": "Bespoke.epsikologi_jabatan.Domain.Jabatan, epsikologi.Jabatan",
-  "JabatanNo": "104192",
+  "JabatanNo": "perbadanan-taman-negara-johor",
   "NamaJabatan": "PERBADANAN TAMAN NEGARA JOHOR",
-  "AgensiNo": "59098",
-  "Kementerian": "PSUK NEGERI JOHOR",
+  "AgensiNo": "NA",
+  "Kementerian": "PENTADBIRAN KERAJAAN NEGERI JOHOR",
   "AgensiKumpulan": "BBN",
-  "CreatedBy": "admin",
+  "CreatedBy": "erymuzuan",
   "Id": "perbadanan-taman-negara-johor",
-  "CreatedDate": "2015-06-05T10:39:25.0983832+08:00",
+  "CreatedDate": "2015-08-07T19:18:51.1730207+08:00",
   "ChangedBy": "admin",
-  "ChangedDate": "2015-07-01T13:41:12.9449411+08:00",
-  "WebId": "5ed072ac-74e1-456e-87c6-e7a770dc82d0"
+  "ChangedDate": "2015-08-07T19:18:51.1730207+08:00",
+  "WebId": "92417663-d0f8-40eb-ae45-2209d10e12b0"
 }

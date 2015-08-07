@@ -1,0 +1,14 @@
+{
+  "$type": "Bespoke.epsikologi_jabatan.Domain.Jabatan, epsikologi.Jabatan",
+  "JabatanNo": "perbadanan-kemajuan-kraftangan-malaysia",
+  "NamaJabatan": "PERBADANAN KEMAJUAN KRAFTANGAN MALAYSIA",
+  "AgensiNo": "NA",
+  "Kementerian": "KEMENTERIAN PELANCONGAN DAN KEBUDAYAAN MALAYSIA",
+  "AgensiKumpulan": "BBP",
+  "CreatedBy": "erymuzuan",
+  "Id": "perbadanan-kemajuan-kraftangan-malaysia",
+  "CreatedDate": "2015-08-07T19:18:51.1725208+08:00",
+  "ChangedBy": "admin",
+  "ChangedDate": "2015-08-07T19:18:51.1725208+08:00",
+  "WebId": "99740fb8-010e-48d3-8099-1ddf35cf1b4c"
+}

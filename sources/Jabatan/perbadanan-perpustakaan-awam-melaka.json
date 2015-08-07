@@ -1,14 +1,14 @@
 {
   "$type": "Bespoke.epsikologi_jabatan.Domain.Jabatan, epsikologi.Jabatan",
-  "JabatanNo": "39573",
+  "JabatanNo": "perbadanan-perpustakaan-awam-melaka",
   "NamaJabatan": "PERBADANAN PERPUSTAKAAN AWAM MELAKA",
   "AgensiNo": "NA",
-  "Kementerian": null,
+  "Kementerian": "PENTADBIRAN KERAJAAN NEGERI MELAKA",
   "AgensiKumpulan": "BBN",
-  "CreatedBy": "admin",
+  "CreatedBy": "erymuzuan",
   "Id": "perbadanan-perpustakaan-awam-melaka",
-  "CreatedDate": "2015-06-05T10:39:32.8618206+08:00",
+  "CreatedDate": "2015-08-07T19:18:51.1735206+08:00",
   "ChangedBy": "admin",
-  "ChangedDate": "2015-07-01T13:41:27.1133578+08:00",
-  "WebId": "db47cdd8-f25f-48ca-bf41-c7c5e708b0ab"
+  "ChangedDate": "2015-08-07T19:18:51.1735206+08:00",
+  "WebId": "43a4dab4-1acb-4942-bbc9-1e843879ff34"
 }

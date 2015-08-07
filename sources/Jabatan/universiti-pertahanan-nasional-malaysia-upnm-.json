@@ -1,14 +1,14 @@
 {
   "$type": "Bespoke.epsikologi_jabatan.Domain.Jabatan, epsikologi.Jabatan",
-  "JabatanNo": "190947",
+  "JabatanNo": "universiti-pertahanan-nasional-malaysia-upnm-",
   "NamaJabatan": "UNIVERSITI PERTAHANAN NASIONAL MALAYSIA (UPNM)",
-  "AgensiNo": "26281",
-  "Kementerian": "KEM. PENGAJIAN TINGGI",
+  "AgensiNo": "NA",
+  "Kementerian": "KEMENTERIAN PENDIDIKAN MALAYSIA",
   "AgensiKumpulan": "BBP",
-  "CreatedBy": "admin",
+  "CreatedBy": "erymuzuan",
   "Id": "universiti-pertahanan-nasional-malaysia-upnm-",
-  "CreatedDate": "2015-06-05T10:39:28.4045698+08:00",
+  "CreatedDate": "2015-08-07T19:18:51.1725208+08:00",
   "ChangedBy": "admin",
-  "ChangedDate": "2015-07-01T13:41:18.7865252+08:00",
-  "WebId": "bfa0927c-f9c9-4600-878a-a6e0731b0605"
+  "ChangedDate": "2015-08-07T19:18:51.1725208+08:00",
+  "WebId": "07ff02f6-fb4f-4710-b375-7ab01d0470fb"
 }

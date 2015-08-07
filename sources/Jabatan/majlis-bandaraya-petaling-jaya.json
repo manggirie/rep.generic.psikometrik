@@ -1,14 +1,14 @@
 {
   "$type": "Bespoke.epsikologi_jabatan.Domain.Jabatan, epsikologi.Jabatan",
-  "JabatanNo": "52736",
+  "JabatanNo": "majlis-bandaraya-petaling-jaya",
   "NamaJabatan": "MAJLIS BANDARAYA PETALING JAYA",
   "AgensiNo": "NA",
-  "Kementerian": null,
+  "Kementerian": "PENTADBIRAN KERAJAAN NEGERI SELANGOR",
   "AgensiKumpulan": "PBT",
-  "CreatedBy": "admin",
+  "CreatedBy": "erymuzuan",
   "Id": "majlis-bandaraya-petaling-jaya",
-  "CreatedDate": "2015-06-05T10:39:34.0138865+08:00",
+  "CreatedDate": "2015-08-07T19:18:51.1750204+08:00",
   "ChangedBy": "admin",
-  "ChangedDate": "2015-07-01T13:41:29.4335898+08:00",
-  "WebId": "98c9217b-1a6e-4566-907e-f1901a503e6d"
+  "ChangedDate": "2015-08-07T19:18:51.1750204+08:00",
+  "WebId": "ca8e6677-fa5c-4c6a-b40a-bb8e7708a1fe"
 }

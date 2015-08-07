@@ -1,0 +1,14 @@
+{
+  "$type": "Bespoke.epsikologi_jabatan.Domain.Jabatan, epsikologi.Jabatan",
+  "JabatanNo": "institut-penyelidikan-dan-kemajuan-pertanian-malay",
+  "NamaJabatan": "INSTITUT PENYELIDIKAN DAN KEMAJUAN PERTANIAN MALAYSIA (MARDI)",
+  "AgensiNo": "NA",
+  "Kementerian": "KEMENTERIAN PERTANIAN DAN INDUSTRI ASAS TANI",
+  "AgensiKumpulan": "BBP",
+  "CreatedBy": "erymuzuan",
+  "Id": "institut-penyelidikan-dan-kemajuan-pertanian-malay",
+  "CreatedDate": "2015-08-07T19:18:51.1730207+08:00",
+  "ChangedBy": "admin",
+  "ChangedDate": "2015-08-07T19:18:51.1730207+08:00",
+  "WebId": "39906fe7-1955-4caa-9fae-e0796649981a"
+}

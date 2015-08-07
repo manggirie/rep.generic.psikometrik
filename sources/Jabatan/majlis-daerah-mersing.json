@@ -1,14 +1,14 @@
 {
   "$type": "Bespoke.epsikologi_jabatan.Domain.Jabatan, epsikologi.Jabatan",
-  "JabatanNo": "61559",
+  "JabatanNo": "majlis-daerah-mersing",
   "NamaJabatan": "MAJLIS DAERAH MERSING",
   "AgensiNo": "NA",
-  "Kementerian": null,
+  "Kementerian": "PENTADBIRAN KERAJAAN NEGERI JOHOR",
   "AgensiKumpulan": "PBT",
-  "CreatedBy": "admin",
+  "CreatedBy": "erymuzuan",
   "Id": "majlis-daerah-mersing",
-  "CreatedDate": "2015-06-05T10:39:35.0289427+08:00",
+  "CreatedDate": "2015-08-07T19:18:51.1730207+08:00",
   "ChangedBy": "admin",
-  "ChangedDate": "2015-07-01T13:41:32.5609025+08:00",
-  "WebId": "c3ec26d1-e6d4-40ab-840c-0af5e6bffa49"
+  "ChangedDate": "2015-08-07T19:18:51.1730207+08:00",
+  "WebId": "76ff1613-d1ae-4deb-9945-68d545b6c633"
 }

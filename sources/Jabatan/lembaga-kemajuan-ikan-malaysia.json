@@ -1,0 +1,14 @@
+{
+  "$type": "Bespoke.epsikologi_jabatan.Domain.Jabatan, epsikologi.Jabatan",
+  "JabatanNo": "lembaga-kemajuan-ikan-malaysia",
+  "NamaJabatan": "LEMBAGA KEMAJUAN IKAN MALAYSIA",
+  "AgensiNo": "NA",
+  "Kementerian": "KEMENTERIAN PERTANIAN DAN INDUSTRI ASAS TANI",
+  "AgensiKumpulan": "BBP",
+  "CreatedBy": "erymuzuan",
+  "Id": "lembaga-kemajuan-ikan-malaysia",
+  "CreatedDate": "2015-08-07T19:18:51.1730207+08:00",
+  "ChangedBy": "admin",
+  "ChangedDate": "2015-08-07T19:18:51.1730207+08:00",
+  "WebId": "0aea3b42-fa69-4f3c-af58-df40cf8b7132"
+}

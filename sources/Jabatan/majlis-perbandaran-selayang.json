@@ -1,14 +1,14 @@
 {
   "$type": "Bespoke.epsikologi_jabatan.Domain.Jabatan, epsikologi.Jabatan",
-  "JabatanNo": "100965",
+  "JabatanNo": "majlis-perbandaran-selayang",
   "NamaJabatan": "MAJLIS PERBANDARAN SELAYANG",
   "AgensiNo": "NA",
-  "Kementerian": null,
+  "Kementerian": "PENTADBIRAN KERAJAAN NEGERI SELANGOR",
   "AgensiKumpulan": "PBT",
-  "CreatedBy": "admin",
+  "CreatedBy": "erymuzuan",
   "Id": "majlis-perbandaran-selayang",
-  "CreatedDate": "2015-06-05T10:39:24.9793762+08:00",
+  "CreatedDate": "2015-08-07T19:18:51.1750204+08:00",
   "ChangedBy": "admin",
-  "ChangedDate": "2015-07-01T13:41:12.7519218+08:00",
-  "WebId": "0fabe1eb-bce2-46d3-90a4-72c6af106797"
+  "ChangedDate": "2015-08-07T19:18:51.1750204+08:00",
+  "WebId": "eb6b197e-4782-47c0-b79b-348b55b266e8"
 }

@@ -1,14 +1,14 @@
 {
   "$type": "Bespoke.epsikologi_jabatan.Domain.Jabatan, epsikologi.Jabatan",
-  "JabatanNo": "233000",
+  "JabatanNo": "perbadanan-pembangunan-kampong-bharu-baru-",
   "NamaJabatan": "PERBADANAN PEMBANGUNAN KAMPONG BHARU (BARU)",
   "AgensiNo": "NA",
-  "Kementerian": null,
+  "Kementerian": "KEMENTERIAN WILAYAH PERSEKUTUAN",
   "AgensiKumpulan": "BBP",
-  "CreatedBy": "admin",
+  "CreatedBy": "erymuzuan",
   "Id": "perbadanan-pembangunan-kampong-bharu-baru-",
-  "CreatedDate": "2015-06-05T10:39:31.7327578+08:00",
+  "CreatedDate": "2015-08-07T19:18:51.1730207+08:00",
   "ChangedBy": "admin",
-  "ChangedDate": "2015-07-01T13:41:25.7742239+08:00",
-  "WebId": "898d5046-69cb-45ca-bd9d-b6a07a16e54c"
+  "ChangedDate": "2015-08-07T19:18:51.1730207+08:00",
+  "WebId": "fc8990e5-54d7-4812-b9a8-7f9743e7a92a"
 }

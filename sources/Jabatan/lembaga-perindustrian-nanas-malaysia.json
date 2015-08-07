@@ -1,14 +1,14 @@
 {
   "$type": "Bespoke.epsikologi_jabatan.Domain.Jabatan, epsikologi.Jabatan",
-  "JabatanNo": "29901",
+  "JabatanNo": "lembaga-perindustrian-nanas-malaysia",
   "NamaJabatan": "LEMBAGA PERINDUSTRIAN NANAS MALAYSIA",
   "AgensiNo": "NA",
-  "Kementerian": null,
+  "Kementerian": "KEMENTERIAN PERTANIAN DAN INDUSTRI ASAS TANI",
   "AgensiKumpulan": "BBP",
-  "CreatedBy": "admin",
+  "CreatedBy": "erymuzuan",
   "Id": "lembaga-perindustrian-nanas-malaysia",
-  "CreatedDate": "2015-06-05T10:39:32.3047895+08:00",
+  "CreatedDate": "2015-08-07T19:18:51.1730207+08:00",
   "ChangedBy": "admin",
-  "ChangedDate": "2015-07-01T13:41:26.2572722+08:00",
-  "WebId": "a9936830-94b5-4792-abb0-bf8cbe523393"
+  "ChangedDate": "2015-08-07T19:18:51.1730207+08:00",
+  "WebId": "9435ed23-242f-48d5-97ae-4ba1d2e0be84"
 }

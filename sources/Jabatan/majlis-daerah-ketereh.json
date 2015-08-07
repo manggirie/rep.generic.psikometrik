@@ -1,14 +1,14 @@
 {
   "$type": "Bespoke.epsikologi_jabatan.Domain.Jabatan, epsikologi.Jabatan",
-  "JabatanNo": "62346",
+  "JabatanNo": "majlis-daerah-ketereh",
   "NamaJabatan": "MAJLIS DAERAH KETEREH",
   "AgensiNo": "NA",
-  "Kementerian": null,
+  "Kementerian": "PENTADBIRAN KERAJAAN NEGERI KELANTAN",
   "AgensiKumpulan": "PBT",
-  "CreatedBy": "admin",
+  "CreatedBy": "erymuzuan",
   "Id": "majlis-daerah-ketereh",
-  "CreatedDate": "2015-06-05T10:39:35.2159534+08:00",
+  "CreatedDate": "2015-08-07T19:18:51.1735206+08:00",
   "ChangedBy": "admin",
-  "ChangedDate": "2015-07-01T13:41:32.9899454+08:00",
-  "WebId": "eff8e906-095a-40d5-adbc-d8a91f22660d"
+  "ChangedDate": "2015-08-07T19:18:51.1735206+08:00",
+  "WebId": "de1c1926-d30b-4f2b-943c-4f1392b89d7b"
 }

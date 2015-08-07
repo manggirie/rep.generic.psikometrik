@@ -1,14 +1,14 @@
 {
   "$type": "Bespoke.epsikologi_jabatan.Domain.Jabatan, epsikologi.Jabatan",
-  "JabatanNo": "56434",
+  "JabatanNo": "majlis-daerah-selama",
   "NamaJabatan": "MAJLIS DAERAH SELAMA",
   "AgensiNo": "NA",
-  "Kementerian": null,
+  "Kementerian": "PENTADBIRAN KERAJAAN NEGERI PERAK",
   "AgensiKumpulan": "PBT",
-  "CreatedBy": "admin",
+  "CreatedBy": "erymuzuan",
   "Id": "majlis-daerah-selama",
-  "CreatedDate": "2015-06-05T10:39:34.3889068+08:00",
+  "CreatedDate": "2015-08-07T19:18:51.1740209+08:00",
   "ChangedBy": "admin",
-  "ChangedDate": "2015-07-01T13:41:30.1496614+08:00",
-  "WebId": "d55f1d9d-6f5d-4835-9d87-a0aaea33f9c0"
+  "ChangedDate": "2015-08-07T19:18:51.1740209+08:00",
+  "WebId": "fe5329ac-47a4-40f4-a32b-b9d012cc83e2"
 }

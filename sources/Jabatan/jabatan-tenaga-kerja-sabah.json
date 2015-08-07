@@ -1,0 +1,14 @@
+{
+  "$type": "Bespoke.epsikologi_jabatan.Domain.Jabatan, epsikologi.Jabatan",
+  "JabatanNo": "jabatan-tenaga-kerja-sabah",
+  "NamaJabatan": "JABATAN TENAGA KERJA SABAH",
+  "AgensiNo": "NA",
+  "Kementerian": "KEMENTERIAN SUMBER MANUSIA",
+  "AgensiKumpulan": "PAP",
+  "CreatedBy": "erymuzuan",
+  "Id": "jabatan-tenaga-kerja-sabah",
+  "CreatedDate": "2015-08-07T19:18:51.1730207+08:00",
+  "ChangedBy": "admin",
+  "ChangedDate": "2015-08-07T19:18:51.1730207+08:00",
+  "WebId": "56b438cd-fc27-42a4-9b4f-621e85d16d4e"
+}

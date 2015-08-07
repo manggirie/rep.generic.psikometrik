@@ -1,14 +1,14 @@
 {
   "$type": "Bespoke.epsikologi_jabatan.Domain.Jabatan, epsikologi.Jabatan",
-  "JabatanNo": "62520",
+  "JabatanNo": "majlis-daerah-pasir-puteh",
   "NamaJabatan": "MAJLIS DAERAH PASIR PUTEH",
   "AgensiNo": "NA",
-  "Kementerian": null,
+  "Kementerian": "PENTADBIRAN KERAJAAN NEGERI KELANTAN",
   "AgensiKumpulan": "PBT",
-  "CreatedBy": "admin",
+  "CreatedBy": "erymuzuan",
   "Id": "majlis-daerah-pasir-puteh",
-  "CreatedDate": "2015-06-05T10:39:35.3939636+08:00",
+  "CreatedDate": "2015-08-07T19:18:51.1735206+08:00",
   "ChangedBy": "admin",
-  "ChangedDate": "2015-07-01T13:41:33.4569921+08:00",
-  "WebId": "0bbf5ae2-9e90-4003-8ba9-3dd3adf4495d"
+  "ChangedDate": "2015-08-07T19:18:51.1735206+08:00",
+  "WebId": "11841ca6-a96d-42da-9a23-17b02bd4813a"
 }

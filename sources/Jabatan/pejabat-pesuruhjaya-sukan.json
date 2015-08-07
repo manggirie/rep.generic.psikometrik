@@ -1,0 +1,14 @@
+{
+  "$type": "Bespoke.epsikologi_jabatan.Domain.Jabatan, epsikologi.Jabatan",
+  "JabatanNo": "pejabat-pesuruhjaya-sukan",
+  "NamaJabatan": "PEJABAT PESURUHJAYA SUKAN",
+  "AgensiNo": "NA",
+  "Kementerian": "KEMENTERIAN BELIA DAN SUKAN",
+  "AgensiKumpulan": "PAP",
+  "CreatedBy": "erymuzuan",
+  "Id": "pejabat-pesuruhjaya-sukan",
+  "CreatedDate": "2015-08-07T19:18:51.1720212+08:00",
+  "ChangedBy": "admin",
+  "ChangedDate": "2015-08-07T19:18:51.1720212+08:00",
+  "WebId": "ecb0c17b-6520-4fd3-8cfb-1e024ee4d732"
+}

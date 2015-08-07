@@ -1,14 +1,14 @@
 {
   "$type": "Bespoke.epsikologi_jabatan.Domain.Jabatan, epsikologi.Jabatan",
-  "JabatanNo": "62857",
+  "JabatanNo": "majlis-perbandaran-pasir-gudang",
   "NamaJabatan": "MAJLIS PERBANDARAN PASIR GUDANG",
   "AgensiNo": "NA",
-  "Kementerian": null,
+  "Kementerian": "PENTADBIRAN KERAJAAN NEGERI JOHOR",
   "AgensiKumpulan": "PBT",
-  "CreatedBy": "admin",
+  "CreatedBy": "erymuzuan",
   "Id": "majlis-perbandaran-pasir-gudang",
-  "CreatedDate": "2015-06-05T10:39:35.5839744+08:00",
+  "CreatedDate": "2015-08-07T19:18:51.1730207+08:00",
   "ChangedBy": "admin",
-  "ChangedDate": "2015-07-01T13:41:33.7440208+08:00",
-  "WebId": "ad17f43c-d76d-4bd1-8338-b265ec4fb71c"
+  "ChangedDate": "2015-08-07T19:18:51.1730207+08:00",
+  "WebId": "04ebafc3-c7fd-40e7-8d48-8d8d59fe4a4e"
 }

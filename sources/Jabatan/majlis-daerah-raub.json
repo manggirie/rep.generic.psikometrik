@@ -1,14 +1,14 @@
 {
   "$type": "Bespoke.epsikologi_jabatan.Domain.Jabatan, epsikologi.Jabatan",
-  "JabatanNo": "58438",
+  "JabatanNo": "majlis-daerah-raub",
   "NamaJabatan": "MAJLIS DAERAH RAUB",
   "AgensiNo": "NA",
-  "Kementerian": null,
+  "Kementerian": "PENTADBIRAN KERAJAAN NEGERI PAHANG",
   "AgensiKumpulan": "PBT",
-  "CreatedBy": "admin",
+  "CreatedBy": "erymuzuan",
   "Id": "majlis-daerah-raub",
-  "CreatedDate": "2015-06-05T10:39:34.6739226+08:00",
+  "CreatedDate": "2015-08-07T19:18:51.1740209+08:00",
   "ChangedBy": "admin",
-  "ChangedDate": "2015-07-01T13:41:30.9297394+08:00",
-  "WebId": "1adc10a7-7edc-43db-92a8-5863bd38fcb4"
+  "ChangedDate": "2015-08-07T19:18:51.1740209+08:00",
+  "WebId": "748d7dde-5c7e-45c4-89ee-cb12096f0b08"
 }

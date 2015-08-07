@@ -1,14 +1,14 @@
 {
   "$type": "Bespoke.epsikologi_jabatan.Domain.Jabatan, epsikologi.Jabatan",
-  "JabatanNo": "192200",
+  "JabatanNo": "pusat-perubatan-universiti-malaya-ppum-",
   "NamaJabatan": "PUSAT PERUBATAN UNIVERSITI MALAYA (PPUM)",
-  "AgensiNo": "26281",
-  "Kementerian": "KEM. PENGAJIAN TINGGI",
+  "AgensiNo": "NA",
+  "Kementerian": "KEMENTERIAN PENDIDIKAN MALAYSIA",
   "AgensiKumpulan": "BBP",
-  "CreatedBy": "admin",
+  "CreatedBy": "erymuzuan",
   "Id": "pusat-perubatan-universiti-malaya-ppum-",
-  "CreatedDate": "2015-06-05T10:39:28.5105756+08:00",
+  "CreatedDate": "2015-08-07T19:18:51.1725208+08:00",
   "ChangedBy": "admin",
-  "ChangedDate": "2015-07-01T13:41:19.0195485+08:00",
-  "WebId": "3e7dd8aa-48be-4ea2-9b5d-a8d3bdd74f5a"
+  "ChangedDate": "2015-08-07T19:18:51.1725208+08:00",
+  "WebId": "5b5e9fac-8f1d-465b-a742-03a06f221e37"
 }

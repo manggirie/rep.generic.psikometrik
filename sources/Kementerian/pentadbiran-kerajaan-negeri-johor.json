@@ -1,0 +1,14 @@
+{
+  "$type": "Bespoke.epsikologi_kementerian.Domain.Kementerian, epsikologi.Kementerian",
+  "KementerianNo": "pentadbiran-kerajaan-negeri-johor",
+  "NamaKementerian": "PENTADBIRAN KERAJAAN NEGERI JOHOR",
+  "Negeri": "JOHOR",
+  "KumpulanAgensi": "PBT",
+  "Abbreviation": "MAJLIS PERBANDARAN PASIR GUDANG",
+  "CreatedBy": null,
+  "Id": "pentadbiran-kerajaan-negeri-johor",
+  "CreatedDate": "0001-01-01T00:00:00",
+  "ChangedBy": null,
+  "ChangedDate": "0001-01-01T00:00:00",
+  "WebId": null
+}

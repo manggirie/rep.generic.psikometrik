@@ -1,14 +1,14 @@
 {
   "$type": "Bespoke.epsikologi_jabatan.Domain.Jabatan, epsikologi.Jabatan",
-  "JabatanNo": "31504",
+  "JabatanNo": "yayasan-negeri-sembilan",
   "NamaJabatan": "YAYASAN NEGERI SEMBILAN",
-  "AgensiNo": "31306",
-  "Kementerian": "PSUK NEGERI SEMBILAN",
+  "AgensiNo": "NA",
+  "Kementerian": "PENTADBIRAN KERAJAAN NEGERI SEMBILAN",
   "AgensiKumpulan": "BBN",
-  "CreatedBy": "admin",
+  "CreatedBy": "erymuzuan",
   "Id": "yayasan-negeri-sembilan",
-  "CreatedDate": "2015-06-05T10:39:32.4687986+08:00",
+  "CreatedDate": "2015-08-07T19:18:51.1750204+08:00",
   "ChangedBy": "admin",
-  "ChangedDate": "2015-07-01T13:41:26.5242989+08:00",
-  "WebId": "da808680-0cc2-4813-8182-bf0ad119a304"
+  "ChangedDate": "2015-08-07T19:18:51.1750204+08:00",
+  "WebId": "7fc55994-f591-474d-ae00-fcb40edf505c"
 }

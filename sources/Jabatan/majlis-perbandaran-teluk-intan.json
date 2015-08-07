@@ -1,14 +1,14 @@
 {
   "$type": "Bespoke.epsikologi_jabatan.Domain.Jabatan, epsikologi.Jabatan",
-  "JabatanNo": "56453",
+  "JabatanNo": "majlis-perbandaran-teluk-intan",
   "NamaJabatan": "MAJLIS PERBANDARAN TELUK INTAN",
   "AgensiNo": "NA",
-  "Kementerian": null,
+  "Kementerian": "PENTADBIRAN KERAJAAN NEGERI PERAK",
   "AgensiKumpulan": "PBT",
-  "CreatedBy": "admin",
+  "CreatedBy": "erymuzuan",
   "Id": "majlis-perbandaran-teluk-intan",
-  "CreatedDate": "2015-06-05T10:39:34.4139087+08:00",
+  "CreatedDate": "2015-08-07T19:18:51.1740209+08:00",
   "ChangedBy": "admin",
-  "ChangedDate": "2015-07-01T13:41:30.1886653+08:00",
-  "WebId": "71ea9415-2ca5-420b-b95b-f0bcc86ae9dd"
+  "ChangedDate": "2015-08-07T19:18:51.1740209+08:00",
+  "WebId": "b2e7da87-93e7-49e9-aa9f-f60c783a1f5e"
 }

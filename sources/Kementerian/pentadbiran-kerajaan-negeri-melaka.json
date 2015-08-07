@@ -1,0 +1,14 @@
+{
+  "$type": "Bespoke.epsikologi_kementerian.Domain.Kementerian, epsikologi.Kementerian",
+  "KementerianNo": "pentadbiran-kerajaan-negeri-melaka",
+  "NamaKementerian": "PENTADBIRAN KERAJAAN NEGERI MELAKA",
+  "Negeri": "MELAKA",
+  "KumpulanAgensi": "PBT",
+  "Abbreviation": "MAJLIS PERBANDARAN JASIN",
+  "CreatedBy": null,
+  "Id": "pentadbiran-kerajaan-negeri-melaka",
+  "CreatedDate": "0001-01-01T00:00:00",
+  "ChangedBy": null,
+  "ChangedDate": "0001-01-01T00:00:00",
+  "WebId": null
+}

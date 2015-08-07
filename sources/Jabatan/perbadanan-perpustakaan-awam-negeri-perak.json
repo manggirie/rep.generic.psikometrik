@@ -1,14 +1,14 @@
 {
   "$type": "Bespoke.epsikologi_jabatan.Domain.Jabatan, epsikologi.Jabatan",
-  "JabatanNo": "56729",
+  "JabatanNo": "perbadanan-perpustakaan-awam-negeri-perak",
   "NamaJabatan": "PERBADANAN PERPUSTAKAAN AWAM NEGERI PERAK",
-  "AgensiNo": "55725",
-  "Kementerian": "PSUK NEGERI PERAK",
+  "AgensiNo": "NA",
+  "Kementerian": "PENTADBIRAN KERAJAAN NEGERI PERAK",
   "AgensiKumpulan": "BBN",
-  "CreatedBy": "admin",
+  "CreatedBy": "erymuzuan",
   "Id": "perbadanan-perpustakaan-awam-negeri-perak",
-  "CreatedDate": "2015-06-05T10:39:34.6069191+08:00",
+  "CreatedDate": "2015-08-07T19:18:51.1740209+08:00",
   "ChangedBy": "admin",
-  "ChangedDate": "2015-07-01T13:41:30.5727037+08:00",
-  "WebId": "55c05d48-bd8c-49dd-a0d9-745f221546b0"
+  "ChangedDate": "2015-08-07T19:18:51.1740209+08:00",
+  "WebId": "9d85df85-f8b5-4a4e-8bc4-2c65d666e26b"
 }

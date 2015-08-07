@@ -1,0 +1,14 @@
+{
+  "$type": "Bespoke.epsikologi_jabatan.Domain.Jabatan, epsikologi.Jabatan",
+  "JabatanNo": "institut-diplomasi-dan-hubungan-luar-negeri-idfr-",
+  "NamaJabatan": "INSTITUT DIPLOMASI DAN HUBUNGAN LUAR NEGERI (IDFR)",
+  "AgensiNo": "NA",
+  "Kementerian": "KEMENTERIAN LUAR NEGERI",
+  "AgensiKumpulan": "PAP",
+  "CreatedBy": "erymuzuan",
+  "Id": "institut-diplomasi-dan-hubungan-luar-negeri-idfr-",
+  "CreatedDate": "2015-08-07T19:18:51.1725208+08:00",
+  "ChangedBy": "admin",
+  "ChangedDate": "2015-08-07T19:18:51.1725208+08:00",
+  "WebId": "df2581e3-d462-493b-be95-b58b4d5d9c81"
+}

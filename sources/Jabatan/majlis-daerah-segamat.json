@@ -1,14 +1,14 @@
 {
   "$type": "Bespoke.epsikologi_jabatan.Domain.Jabatan, epsikologi.Jabatan",
-  "JabatanNo": "61882",
+  "JabatanNo": "majlis-daerah-segamat",
   "NamaJabatan": "MAJLIS DAERAH SEGAMAT",
   "AgensiNo": "NA",
-  "Kementerian": null,
+  "Kementerian": "PENTADBIRAN KERAJAAN NEGERI JOHOR",
   "AgensiKumpulan": "PBT",
-  "CreatedBy": "admin",
+  "CreatedBy": "erymuzuan",
   "Id": "majlis-daerah-segamat",
-  "CreatedDate": "2015-06-05T10:39:35.1489496+08:00",
+  "CreatedDate": "2015-08-07T19:18:51.1730207+08:00",
   "ChangedBy": "admin",
-  "ChangedDate": "2015-07-01T13:41:32.8519316+08:00",
-  "WebId": "68858a2e-eab3-4d0a-b425-47665fa44b31"
+  "ChangedDate": "2015-08-07T19:18:51.1730207+08:00",
+  "WebId": "33238e05-3d48-4563-b285-4604d807c97d"
 }

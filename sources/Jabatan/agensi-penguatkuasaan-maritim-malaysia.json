@@ -1,0 +1,14 @@
+{
+  "$type": "Bespoke.epsikologi_jabatan.Domain.Jabatan, epsikologi.Jabatan",
+  "JabatanNo": "agensi-penguatkuasaan-maritim-malaysia",
+  "NamaJabatan": "AGENSI PENGUATKUASAAN MARITIM MALAYSIA",
+  "AgensiNo": "NA",
+  "Kementerian": "JABATAN PERDANA MENTERI",
+  "AgensiKumpulan": "PAP",
+  "CreatedBy": "erymuzuan",
+  "Id": "agensi-penguatkuasaan-maritim-malaysia",
+  "CreatedDate": "2015-08-07T19:18:51.1720212+08:00",
+  "ChangedBy": "admin",
+  "ChangedDate": "2015-08-07T19:18:51.1720212+08:00",
+  "WebId": "22485a4c-18ba-463c-a4f4-4ff794bd6a25"
+}

@@ -1,0 +1,14 @@
+{
+  "$type": "Bespoke.epsikologi_jabatan.Domain.Jabatan, epsikologi.Jabatan",
+  "JabatanNo": "kementerian-pertanian-dan-industri-asas-tani",
+  "NamaJabatan": "KEMENTERIAN PERTANIAN DAN INDUSTRI ASAS TANI",
+  "AgensiNo": "NA",
+  "Kementerian": "KEMENTERIAN PERTANIAN DAN INDUSTRI ASAS TANI",
+  "AgensiKumpulan": "PAP",
+  "CreatedBy": "erymuzuan",
+  "Id": "kementerian-pertanian-dan-industri-asas-tani",
+  "CreatedDate": "2015-08-07T19:18:51.1725208+08:00",
+  "ChangedBy": "admin",
+  "ChangedDate": "2015-08-07T19:18:51.1725208+08:00",
+  "WebId": "9c747ed5-230b-4145-a99e-663f6d6819ef"
+}

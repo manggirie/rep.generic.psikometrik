@@ -1,0 +1,14 @@
+{
+  "$type": "Bespoke.epsikologi_kementerian.Domain.Kementerian, epsikologi.Kementerian",
+  "KementerianNo": "kementerian-kewangan",
+  "NamaKementerian": "KEMENTERIAN KEWANGAN",
+  "Negeri": "",
+  "KumpulanAgensi": "BBP",
+  "Abbreviation": "LEMBAGA PEMBANGUNAN LANGKAWI",
+  "CreatedBy": null,
+  "Id": "kementerian-kewangan",
+  "CreatedDate": "0001-01-01T00:00:00",
+  "ChangedBy": null,
+  "ChangedDate": "0001-01-01T00:00:00",
+  "WebId": null
+}

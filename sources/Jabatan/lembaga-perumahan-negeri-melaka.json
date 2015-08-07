@@ -1,14 +1,14 @@
 {
   "$type": "Bespoke.epsikologi_jabatan.Domain.Jabatan, epsikologi.Jabatan",
-  "JabatanNo": "70154",
+  "JabatanNo": "lembaga-perumahan-negeri-melaka",
   "NamaJabatan": "LEMBAGA PERUMAHAN NEGERI MELAKA",
   "AgensiNo": "NA",
-  "Kementerian": null,
+  "Kementerian": "PENTADBIRAN KERAJAAN NEGERI MELAKA",
   "AgensiKumpulan": "BBN",
-  "CreatedBy": "admin",
+  "CreatedBy": "erymuzuan",
   "Id": "lembaga-perumahan-negeri-melaka",
-  "CreatedDate": "2015-06-05T10:39:35.7829855+08:00",
+  "CreatedDate": "2015-08-07T19:18:51.1735206+08:00",
   "ChangedBy": "admin",
-  "ChangedDate": "2015-07-01T13:41:34.0580522+08:00",
-  "WebId": "300ce9ee-0a06-4cbc-89f4-59c1fb02d971"
+  "ChangedDate": "2015-08-07T19:18:51.1735206+08:00",
+  "WebId": "94bbd721-d76c-46b4-ae11-0c7b3bed38e3"
 }

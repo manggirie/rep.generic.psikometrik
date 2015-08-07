@@ -1,14 +1,14 @@
 {
   "$type": "Bespoke.epsikologi_jabatan.Domain.Jabatan, epsikologi.Jabatan",
-  "JabatanNo": "88598",
+  "JabatanNo": "majlis-perbandaran-ampang-jaya",
   "NamaJabatan": "MAJLIS PERBANDARAN AMPANG JAYA",
   "AgensiNo": "NA",
-  "Kementerian": null,
+  "Kementerian": "PENTADBIRAN KERAJAAN NEGERI SELANGOR",
   "AgensiKumpulan": "PBT",
-  "CreatedBy": "admin",
+  "CreatedBy": "erymuzuan",
   "Id": "majlis-perbandaran-ampang-jaya",
-  "CreatedDate": "2015-06-05T10:39:36.6980366+08:00",
+  "CreatedDate": "2015-08-07T19:18:51.1750204+08:00",
   "ChangedBy": "admin",
-  "ChangedDate": "2015-07-01T13:41:36.1732637+08:00",
-  "WebId": "7fb2ca99-3dc1-4d70-85a2-3eee9d170b21"
+  "ChangedDate": "2015-08-07T19:18:51.1750204+08:00",
+  "WebId": "b734804a-3a6f-4912-83c1-9ef495ab42f0"
 }

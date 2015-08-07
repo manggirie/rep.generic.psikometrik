@@ -1,0 +1,14 @@
+{
+  "$type": "Bespoke.epsikologi_jabatan.Domain.Jabatan, epsikologi.Jabatan",
+  "JabatanNo": "bahagian-hal-ehwal-undang-undang-bheuu-",
+  "NamaJabatan": "BAHAGIAN HAL EHWAL UNDANG-UNDANG (BHEUU)",
+  "AgensiNo": "NA",
+  "Kementerian": "JABATAN PERDANA MENTERI",
+  "AgensiKumpulan": "PAP",
+  "CreatedBy": "erymuzuan",
+  "Id": "bahagian-hal-ehwal-undang-undang-bheuu-",
+  "CreatedDate": "2015-08-07T19:18:51.1720212+08:00",
+  "ChangedBy": "admin",
+  "ChangedDate": "2015-08-07T19:18:51.1720212+08:00",
+  "WebId": "4fdf3899-d44d-4f94-8493-ea10ef1fdf7a"
+}

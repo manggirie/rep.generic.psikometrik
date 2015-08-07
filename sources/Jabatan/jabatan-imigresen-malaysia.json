@@ -1,0 +1,14 @@
+{
+  "$type": "Bespoke.epsikologi_jabatan.Domain.Jabatan, epsikologi.Jabatan",
+  "JabatanNo": "jabatan-imigresen-malaysia",
+  "NamaJabatan": "JABATAN IMIGRESEN MALAYSIA",
+  "AgensiNo": "NA",
+  "Kementerian": "KEMENTERIAN DALAM NEGERI",
+  "AgensiKumpulan": "PAP",
+  "CreatedBy": "erymuzuan",
+  "Id": "jabatan-imigresen-malaysia",
+  "CreatedDate": "2015-08-07T19:18:51.1720212+08:00",
+  "ChangedBy": "admin",
+  "ChangedDate": "2015-08-07T19:18:51.1720212+08:00",
+  "WebId": "3caf33be-95bc-47d0-9e53-0943ecae41aa"
+}

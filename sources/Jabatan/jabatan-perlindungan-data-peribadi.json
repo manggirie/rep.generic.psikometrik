@@ -1,0 +1,14 @@
+{
+  "$type": "Bespoke.epsikologi_jabatan.Domain.Jabatan, epsikologi.Jabatan",
+  "JabatanNo": "jabatan-perlindungan-data-peribadi",
+  "NamaJabatan": "JABATAN PERLINDUNGAN DATA PERIBADI",
+  "AgensiNo": "NA",
+  "Kementerian": "KEMENTERIAN KOMUNIKASI DAN MULTIMEDIA MALAYSIA",
+  "AgensiKumpulan": "PAP",
+  "CreatedBy": "erymuzuan",
+  "Id": "jabatan-perlindungan-data-peribadi",
+  "CreatedDate": "2015-08-07T19:18:51.1725208+08:00",
+  "ChangedBy": "admin",
+  "ChangedDate": "2015-08-07T19:18:51.1725208+08:00",
+  "WebId": "daa96558-cc60-4123-ad7e-ab05082a78ba"
+}

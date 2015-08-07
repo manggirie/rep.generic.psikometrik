@@ -1,14 +1,14 @@
 {
   "$type": "Bespoke.epsikologi_jabatan.Domain.Jabatan, epsikologi.Jabatan",
-  "JabatanNo": "39443",
+  "JabatanNo": "yayasan-melaka",
   "NamaJabatan": "YAYASAN MELAKA",
   "AgensiNo": "NA",
-  "Kementerian": null,
+  "Kementerian": "PENTADBIRAN KERAJAAN NEGERI MELAKA",
   "AgensiKumpulan": "BBN",
-  "CreatedBy": "admin",
+  "CreatedBy": "erymuzuan",
   "Id": "yayasan-melaka",
-  "CreatedDate": "2015-06-05T10:39:32.8168185+08:00",
+  "CreatedDate": "2015-08-07T19:18:51.1735206+08:00",
   "ChangedBy": "admin",
-  "ChangedDate": "2015-07-01T13:41:27.0783543+08:00",
-  "WebId": "94fcc382-7862-4975-afa4-eccf87f665d1"
+  "ChangedDate": "2015-08-07T19:18:51.1735206+08:00",
+  "WebId": "d72c29cc-c83c-4e5f-86e0-6f9e91d85e98"
 }

@@ -1,14 +1,14 @@
 {
   "$type": "Bespoke.epsikologi_jabatan.Domain.Jabatan, epsikologi.Jabatan",
-  "JabatanNo": "41692",
+  "JabatanNo": "majlis-daerah-yan",
   "NamaJabatan": "MAJLIS DAERAH YAN",
   "AgensiNo": "NA",
-  "Kementerian": null,
+  "Kementerian": "PENTADBIRAN KERAJAAN NEGERI KEDAH",
   "AgensiKumpulan": "PBT",
-  "CreatedBy": "admin",
+  "CreatedBy": "erymuzuan",
   "Id": "majlis-daerah-yan",
-  "CreatedDate": "2015-06-05T10:39:33.093834+08:00",
+  "CreatedDate": "2015-08-07T19:18:51.1735206+08:00",
   "ChangedBy": "admin",
-  "ChangedDate": "2015-07-01T13:41:27.4073872+08:00",
-  "WebId": "3a31ece0-7b97-441b-b584-632c41d09dcb"
+  "ChangedDate": "2015-08-07T19:18:51.1735206+08:00",
+  "WebId": "500de4c7-956f-4895-b184-fa20a981fec1"
 }

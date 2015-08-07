@@ -1,0 +1,14 @@
+{
+  "$type": "Bespoke.epsikologi_jabatan.Domain.Jabatan, epsikologi.Jabatan",
+  "JabatanNo": "kementerian-pengangkutan",
+  "NamaJabatan": "KEMENTERIAN PENGANGKUTAN",
+  "AgensiNo": "NA",
+  "Kementerian": "KEMENTERIAN PENGANGKUTAN",
+  "AgensiKumpulan": "PAP",
+  "CreatedBy": "erymuzuan",
+  "Id": "kementerian-pengangkutan",
+  "CreatedDate": "2015-08-07T19:18:51.1725208+08:00",
+  "ChangedBy": "admin",
+  "ChangedDate": "2015-08-07T19:18:51.1725208+08:00",
+  "WebId": "a4c5bb23-c0e2-4c82-aebd-77303a1d6b35"
+}

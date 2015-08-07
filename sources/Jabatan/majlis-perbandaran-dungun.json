@@ -1,14 +1,14 @@
 {
   "$type": "Bespoke.epsikologi_jabatan.Domain.Jabatan, epsikologi.Jabatan",
-  "JabatanNo": "53154",
+  "JabatanNo": "majlis-perbandaran-dungun",
   "NamaJabatan": "MAJLIS PERBANDARAN DUNGUN",
   "AgensiNo": "NA",
-  "Kementerian": null,
+  "Kementerian": "PENTADBIRAN KERAJAAN NEGERI TERENGGANU",
   "AgensiKumpulan": "PBT",
-  "CreatedBy": "admin",
+  "CreatedBy": "erymuzuan",
   "Id": "majlis-perbandaran-dungun",
-  "CreatedDate": "2015-06-05T10:39:34.1128915+08:00",
+  "CreatedDate": "2015-08-07T19:18:51.1755203+08:00",
   "ChangedBy": "admin",
-  "ChangedDate": "2015-07-01T13:41:29.6026067+08:00",
-  "WebId": "1f4afba7-bf04-4b7a-bb20-d39384d1ba26"
+  "ChangedDate": "2015-08-07T19:18:51.1755203+08:00",
+  "WebId": "9a8ac45b-1a0a-41d8-8826-244c18a5ea78"
 }

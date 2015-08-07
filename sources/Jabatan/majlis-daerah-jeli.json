@@ -1,14 +1,14 @@
 {
   "$type": "Bespoke.epsikologi_jabatan.Domain.Jabatan, epsikologi.Jabatan",
-  "JabatanNo": "62448",
+  "JabatanNo": "majlis-daerah-jeli",
   "NamaJabatan": "MAJLIS DAERAH JELI",
   "AgensiNo": "NA",
-  "Kementerian": null,
+  "Kementerian": "PENTADBIRAN KERAJAAN NEGERI KELANTAN",
   "AgensiKumpulan": "PBT",
-  "CreatedBy": "admin",
+  "CreatedBy": "erymuzuan",
   "Id": "majlis-daerah-jeli",
-  "CreatedDate": "2015-06-05T10:39:35.2429547+08:00",
+  "CreatedDate": "2015-08-07T19:18:51.1735206+08:00",
   "ChangedBy": "admin",
-  "ChangedDate": "2015-07-01T13:41:33.0529517+08:00",
-  "WebId": "f26bf041-c53a-4829-b232-c514a9566765"
+  "ChangedDate": "2015-08-07T19:18:51.1735206+08:00",
+  "WebId": "92e022cd-2a4e-4e32-88f0-824c0549d128"
 }

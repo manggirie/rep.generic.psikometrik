@@ -1,0 +1,14 @@
+{
+  "$type": "Bespoke.epsikologi_jabatan.Domain.Jabatan, epsikologi.Jabatan",
+  "JabatanNo": "kementerian-pembangunan-masyarakat-hal-ehwal-pengg",
+  "NamaJabatan": "KEMENTERIAN PEMBANGUNAN MASYARAKAT & HAL EHWAL PENGGUNA",
+  "AgensiNo": "NA",
+  "Kementerian": "PENTADBIRAN KERAJAAN NEGERI SABAH",
+  "AgensiKumpulan": "PAN",
+  "CreatedBy": "erymuzuan",
+  "Id": "kementerian-pembangunan-masyarakat-hal-ehwal-pengg",
+  "CreatedDate": "2015-08-07T19:18:51.1745205+08:00",
+  "ChangedBy": "admin",
+  "ChangedDate": "2015-08-07T19:18:51.1745205+08:00",
+  "WebId": "053e5177-dabf-4a3e-ac94-234f28688786"
+}

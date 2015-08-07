@@ -1,14 +1,14 @@
 {
   "$type": "Bespoke.epsikologi_jabatan.Domain.Jabatan, epsikologi.Jabatan",
-  "JabatanNo": "178662",
+  "JabatanNo": "majlis-daerah-rompin",
   "NamaJabatan": "MAJLIS DAERAH ROMPIN",
   "AgensiNo": "NA",
-  "Kementerian": null,
+  "Kementerian": "PENTADBIRAN KERAJAAN NEGERI PAHANG",
   "AgensiKumpulan": "PBT",
-  "CreatedBy": "admin",
+  "CreatedBy": "erymuzuan",
   "Id": "majlis-daerah-rompin",
-  "CreatedDate": "2015-06-05T10:39:26.2194459+08:00",
+  "CreatedDate": "2015-08-07T19:18:51.1740209+08:00",
   "ChangedBy": "admin",
-  "ChangedDate": "2015-07-01T13:41:14.8531319+08:00",
-  "WebId": "e3f7ff6b-4bc2-4291-a092-d2a25642d820"
+  "ChangedDate": "2015-08-07T19:18:51.1740209+08:00",
+  "WebId": "b1c0ba1d-fddc-4eef-8795-0dccd1af482e"
 }

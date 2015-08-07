@@ -1,14 +1,14 @@
 {
   "$type": "Bespoke.epsikologi_jabatan.Domain.Jabatan, epsikologi.Jabatan",
-  "JabatanNo": "215598",
+  "JabatanNo": "perbadanan-bukit-bendera-pulau-pinang",
   "NamaJabatan": "PERBADANAN BUKIT BENDERA PULAU PINANG",
-  "AgensiNo": "50850",
-  "Kementerian": "PSUK NEGERI PULAU PINANG",
+  "AgensiNo": "NA",
+  "Kementerian": "PENTADBIRAN KERAJAAN NEGERI PULAU PINANG",
   "AgensiKumpulan": "BBN",
-  "CreatedBy": "admin",
+  "CreatedBy": "erymuzuan",
   "Id": "perbadanan-bukit-bendera-pulau-pinang",
-  "CreatedDate": "2015-06-05T10:39:29.8206497+08:00",
+  "CreatedDate": "2015-08-07T19:18:51.1740209+08:00",
   "ChangedBy": "admin",
-  "ChangedDate": "2015-07-01T13:41:21.0617527+08:00",
-  "WebId": "74c72026-96ef-4267-b20e-a8c8ffe473c3"
+  "ChangedDate": "2015-08-07T19:18:51.1740209+08:00",
+  "WebId": "2270e300-0129-4ec0-81a5-518f65906740"
 }

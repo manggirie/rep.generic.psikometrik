@@ -1,14 +1,14 @@
 {
   "$type": "Bespoke.epsikologi_jabatan.Domain.Jabatan, epsikologi.Jabatan",
-  "JabatanNo": "61624",
+  "JabatanNo": "majlis-perbandaran-muar",
   "NamaJabatan": "MAJLIS PERBANDARAN MUAR",
   "AgensiNo": "NA",
-  "Kementerian": null,
+  "Kementerian": "PENTADBIRAN KERAJAAN NEGERI JOHOR",
   "AgensiKumpulan": "PBT",
-  "CreatedBy": "admin",
+  "CreatedBy": "erymuzuan",
   "Id": "majlis-perbandaran-muar",
-  "CreatedDate": "2015-06-05T10:39:35.0719454+08:00",
+  "CreatedDate": "2015-08-07T19:18:51.1730207+08:00",
   "ChangedBy": "admin",
-  "ChangedDate": "2015-07-01T13:41:32.6479112+08:00",
-  "WebId": "d65cd6d4-7708-4d04-9d58-30041076bb9b"
+  "ChangedDate": "2015-08-07T19:18:51.1730207+08:00",
+  "WebId": "83573c0a-e062-4a96-8005-bb67937230e9"
 }

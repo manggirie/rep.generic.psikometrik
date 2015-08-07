@@ -1,0 +1,14 @@
+{
+  "$type": "Bespoke.epsikologi_jabatan.Domain.Jabatan, epsikologi.Jabatan",
+  "JabatanNo": "jabatan-penerbangan-awam",
+  "NamaJabatan": "JABATAN PENERBANGAN AWAM",
+  "AgensiNo": "NA",
+  "Kementerian": "KEMENTERIAN PENGANGKUTAN",
+  "AgensiKumpulan": "PAP",
+  "CreatedBy": "erymuzuan",
+  "Id": "jabatan-penerbangan-awam",
+  "CreatedDate": "2015-08-07T19:18:51.1725208+08:00",
+  "ChangedBy": "admin",
+  "ChangedDate": "2015-08-07T19:18:51.1725208+08:00",
+  "WebId": "50ff5657-5502-4e38-9e2a-2209225e3740"
+}

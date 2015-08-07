@@ -1,14 +1,14 @@
 {
   "$type": "Bespoke.epsikologi_jabatan.Domain.Jabatan, epsikologi.Jabatan",
-  "JabatanNo": "214685",
+  "JabatanNo": "jabatan-kebajikan-masyarakat-negeri-selangor",
   "NamaJabatan": "JABATAN KEBAJIKAN MASYARAKAT NEGERI SELANGOR",
-  "AgensiNo": "24556",
-  "Kementerian": "KEM. PEMBANGUNAN WANITA, KELUARGA & MASYARAKAT",
-  "AgensiKumpulan": "BBN",
-  "CreatedBy": "admin",
+  "AgensiNo": "NA",
+  "Kementerian": "PENTADBIRAN KERAJAAN NEGERI SELANGOR",
+  "AgensiKumpulan": "PAN",
+  "CreatedBy": "erymuzuan",
   "Id": "jabatan-kebajikan-masyarakat-negeri-selangor",
-  "CreatedDate": "2015-06-05T10:39:29.1816129+08:00",
+  "CreatedDate": "2015-08-07T19:18:51.1750204+08:00",
   "ChangedBy": "admin",
-  "ChangedDate": "2015-07-01T13:41:19.8076273+08:00",
-  "WebId": "2864eacc-5fff-458e-bc4e-df5b7af63633"
+  "ChangedDate": "2015-08-07T19:18:51.1750204+08:00",
+  "WebId": "ea469490-673b-45e7-aec4-fb94d3ddaf05"
 }

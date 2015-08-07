@@ -1,14 +1,14 @@
 {
   "$type": "Bespoke.epsikologi_jabatan.Domain.Jabatan, epsikologi.Jabatan",
-  "JabatanNo": "235417",
+  "JabatanNo": "majlis-sukan-wilayah-persekutuan",
   "NamaJabatan": "MAJLIS SUKAN WILAYAH PERSEKUTUAN",
   "AgensiNo": "NA",
-  "Kementerian": null,
+  "Kementerian": "KEMENTERIAN WILAYAH PERSEKUTUAN",
   "AgensiKumpulan": "BBP",
-  "CreatedBy": "admin",
+  "CreatedBy": "erymuzuan",
   "Id": "majlis-sukan-wilayah-persekutuan",
-  "CreatedDate": "2015-06-05T10:39:31.8147616+08:00",
+  "CreatedDate": "2015-08-07T19:18:51.1730207+08:00",
   "ChangedBy": "admin",
-  "ChangedDate": "2015-07-01T13:41:25.9202385+08:00",
-  "WebId": "0285987f-28a4-4c88-a7f8-3500354ab94e"
+  "ChangedDate": "2015-08-07T19:18:51.1730207+08:00",
+  "WebId": "ccdbc2e3-786a-45e6-97b3-b5960670fee0"
 }

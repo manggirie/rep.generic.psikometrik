@@ -1,14 +1,14 @@
 {
   "$type": "Bespoke.epsikologi_jabatan.Domain.Jabatan, epsikologi.Jabatan",
-  "JabatanNo": "61772",
+  "JabatanNo": "majlis-perbandaran-kulai",
   "NamaJabatan": "MAJLIS PERBANDARAN KULAI",
   "AgensiNo": "NA",
-  "Kementerian": null,
+  "Kementerian": "PENTADBIRAN KERAJAAN NEGERI JOHOR",
   "AgensiKumpulan": "PBT",
-  "CreatedBy": "admin",
+  "CreatedBy": "erymuzuan",
   "Id": "majlis-perbandaran-kulai",
-  "CreatedDate": "2015-06-05T10:39:35.1019462+08:00",
+  "CreatedDate": "2015-08-07T19:18:51.1730207+08:00",
   "ChangedBy": "admin",
-  "ChangedDate": "2015-07-01T13:41:32.7469211+08:00",
-  "WebId": "f6ce368b-7675-44d8-8707-cd0857b915c2"
+  "ChangedDate": "2015-08-07T19:18:51.1730207+08:00",
+  "WebId": "5963f5cd-415c-4076-8dad-27f71cf172a5"
 }

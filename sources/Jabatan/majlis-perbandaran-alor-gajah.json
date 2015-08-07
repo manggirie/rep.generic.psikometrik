@@ -1,14 +1,14 @@
 {
   "$type": "Bespoke.epsikologi_jabatan.Domain.Jabatan, epsikologi.Jabatan",
-  "JabatanNo": "76460",
+  "JabatanNo": "majlis-perbandaran-alor-gajah",
   "NamaJabatan": "MAJLIS PERBANDARAN ALOR GAJAH",
   "AgensiNo": "NA",
-  "Kementerian": null,
+  "Kementerian": "PENTADBIRAN KERAJAAN NEGERI MELAKA",
   "AgensiKumpulan": "PBT",
-  "CreatedBy": "admin",
+  "CreatedBy": "erymuzuan",
   "Id": "majlis-perbandaran-alor-gajah",
-  "CreatedDate": "2015-06-05T10:39:35.8339883+08:00",
+  "CreatedDate": "2015-08-07T19:18:51.1735206+08:00",
   "ChangedBy": "admin",
-  "ChangedDate": "2015-07-01T13:41:34.1680632+08:00",
-  "WebId": "4863d0cd-2057-4253-b286-939283b6a7b2"
+  "ChangedDate": "2015-08-07T19:18:51.1735206+08:00",
+  "WebId": "6c6c06a8-88d1-41dd-b5e4-6441c9d7da11"
 }

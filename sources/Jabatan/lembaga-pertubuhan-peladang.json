@@ -1,14 +1,14 @@
 {
   "$type": "Bespoke.epsikologi_jabatan.Domain.Jabatan, epsikologi.Jabatan",
-  "JabatanNo": "68595",
+  "JabatanNo": "lembaga-pertubuhan-peladang",
   "NamaJabatan": "LEMBAGA PERTUBUHAN PELADANG",
   "AgensiNo": "NA",
-  "Kementerian": null,
+  "Kementerian": "KEMENTERIAN PERTANIAN DAN INDUSTRI ASAS TANI",
   "AgensiKumpulan": "BBP",
-  "CreatedBy": "admin",
+  "CreatedBy": "erymuzuan",
   "Id": "lembaga-pertubuhan-peladang",
-  "CreatedDate": "2015-06-05T10:39:35.7189816+08:00",
+  "CreatedDate": "2015-08-07T19:18:51.1730207+08:00",
   "ChangedBy": "admin",
-  "ChangedDate": "2015-07-01T13:41:33.9490413+08:00",
-  "WebId": "7106973d-93b4-48ab-9341-4fb960ee0534"
+  "ChangedDate": "2015-08-07T19:18:51.1730207+08:00",
+  "WebId": "908c1fbe-ead4-4a2b-92f9-7024ae9c19f2"
 }

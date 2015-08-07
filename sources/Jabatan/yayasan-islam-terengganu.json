@@ -1,14 +1,14 @@
 {
   "$type": "Bespoke.epsikologi_jabatan.Domain.Jabatan, epsikologi.Jabatan",
-  "JabatanNo": "53087",
+  "JabatanNo": "yayasan-islam-terengganu",
   "NamaJabatan": "YAYASAN ISLAM TERENGGANU",
   "AgensiNo": "NA",
-  "Kementerian": null,
+  "Kementerian": "PENTADBIRAN KERAJAAN NEGERI TERENGGANU",
   "AgensiKumpulan": "BBN",
-  "CreatedBy": "admin",
+  "CreatedBy": "erymuzuan",
   "Id": "yayasan-islam-terengganu",
-  "CreatedDate": "2015-06-05T10:39:34.0608879+08:00",
+  "CreatedDate": "2015-08-07T19:18:51.1755203+08:00",
   "ChangedBy": "admin",
-  "ChangedDate": "2015-07-01T13:41:29.4915956+08:00",
-  "WebId": "995477e3-5d69-4498-aa13-c106335a384e"
+  "ChangedDate": "2015-08-07T19:18:51.1755203+08:00",
+  "WebId": "2c98329d-505d-4631-ac16-a1a3b58e6f09"
 }

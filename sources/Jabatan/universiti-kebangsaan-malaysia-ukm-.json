@@ -1,14 +1,14 @@
 {
   "$type": "Bespoke.epsikologi_jabatan.Domain.Jabatan, epsikologi.Jabatan",
-  "JabatanNo": "186897",
+  "JabatanNo": "universiti-kebangsaan-malaysia-ukm-",
   "NamaJabatan": "UNIVERSITI KEBANGSAAN MALAYSIA (UKM)",
-  "AgensiNo": "26281",
-  "Kementerian": "KEM. PENGAJIAN TINGGI",
+  "AgensiNo": "NA",
+  "Kementerian": "KEMENTERIAN PENDIDIKAN MALAYSIA",
   "AgensiKumpulan": "BBP",
-  "CreatedBy": "admin",
+  "CreatedBy": "erymuzuan",
   "Id": "universiti-kebangsaan-malaysia-ukm-",
-  "CreatedDate": "2015-06-05T10:39:28.2385607+08:00",
+  "CreatedDate": "2015-08-07T19:18:51.1725208+08:00",
   "ChangedBy": "admin",
-  "ChangedDate": "2015-07-01T13:41:18.3274793+08:00",
-  "WebId": "1c9c16aa-00f6-4d30-a7db-484363b20962"
+  "ChangedDate": "2015-08-07T19:18:51.1725208+08:00",
+  "WebId": "c2aeef5c-df11-48c7-936f-989ee0596d52"
 }

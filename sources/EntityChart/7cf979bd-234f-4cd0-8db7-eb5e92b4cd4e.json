@@ -13,13 +13,13 @@
   "Aggregate": "term",
   "Field": "Kementerian",
   "DateInterval": "year",
-  "IsDashboardItem": true,
+  "IsDashboardItem": false,
   "DasboardItemPosition": 0,
   "HistogramInterval": null,
   "CreatedBy": "admin",
   "Id": "7cf979bd-234f-4cd0-8db7-eb5e92b4cd4e",
   "CreatedDate": "2015-06-05T10:40:47.0274886+08:00",
-  "ChangedBy": "urusetia",
-  "ChangedDate": "2015-06-25T14:31:29.9401367+08:00",
+  "ChangedBy": "urusetia1",
+  "ChangedDate": "2015-08-07T19:21:37.9004235+08:00",
   "WebId": "3cef6c94-4aba-47f4-e8df-50357555f5f2"
 }

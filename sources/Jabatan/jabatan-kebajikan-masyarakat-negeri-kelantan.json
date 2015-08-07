@@ -1,14 +1,14 @@
 {
   "$type": "Bespoke.epsikologi_jabatan.Domain.Jabatan, epsikologi.Jabatan",
-  "JabatanNo": "214681",
+  "JabatanNo": "jabatan-kebajikan-masyarakat-negeri-kelantan",
   "NamaJabatan": "JABATAN KEBAJIKAN MASYARAKAT NEGERI KELANTAN",
-  "AgensiNo": "24556",
-  "Kementerian": "KEM. PEMBANGUNAN WANITA, KELUARGA & MASYARAKAT",
-  "AgensiKumpulan": "BBN",
-  "CreatedBy": "admin",
+  "AgensiNo": "NA",
+  "Kementerian": "PENTADBIRAN KERAJAAN NEGERI KELANTAN",
+  "AgensiKumpulan": "PAN",
+  "CreatedBy": "erymuzuan",
   "Id": "jabatan-kebajikan-masyarakat-negeri-kelantan",
-  "CreatedDate": "2015-06-05T10:39:29.0496073+08:00",
+  "CreatedDate": "2015-08-07T19:18:51.1735206+08:00",
   "ChangedBy": "admin",
-  "ChangedDate": "2015-07-01T13:41:19.6886154+08:00",
-  "WebId": "5a343c4a-c90f-4197-99ea-c443e7207d22"
+  "ChangedDate": "2015-08-07T19:18:51.1735206+08:00",
+  "WebId": "4558027b-f3a5-4538-84fe-1c278c1e1deb"
 }

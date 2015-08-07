@@ -1,14 +1,14 @@
 {
   "$type": "Bespoke.epsikologi_jabatan.Domain.Jabatan, epsikologi.Jabatan",
-  "JabatanNo": "61527",
+  "JabatanNo": "majlis-daerah-pontian",
   "NamaJabatan": "MAJLIS DAERAH PONTIAN",
   "AgensiNo": "NA",
-  "Kementerian": null,
+  "Kementerian": "PENTADBIRAN KERAJAAN NEGERI JOHOR",
   "AgensiKumpulan": "PBT",
-  "CreatedBy": "admin",
+  "CreatedBy": "erymuzuan",
   "Id": "majlis-daerah-pontian",
-  "CreatedDate": "2015-06-05T10:39:34.9399381+08:00",
+  "CreatedDate": "2015-08-07T19:18:51.1730207+08:00",
   "ChangedBy": "admin",
-  "ChangedDate": "2015-07-01T13:41:32.4638928+08:00",
-  "WebId": "7eb4f31d-c7c4-44a3-89bc-a9bcd7ce2fbd"
+  "ChangedDate": "2015-08-07T19:18:51.1730207+08:00",
+  "WebId": "03f8832b-8d35-4b27-89c6-066454e87549"
 }

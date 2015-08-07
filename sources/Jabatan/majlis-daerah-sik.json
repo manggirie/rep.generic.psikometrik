@@ -1,14 +1,14 @@
 {
   "$type": "Bespoke.epsikologi_jabatan.Domain.Jabatan, epsikologi.Jabatan",
-  "JabatanNo": "42412",
+  "JabatanNo": "majlis-daerah-sik",
   "NamaJabatan": "MAJLIS DAERAH SIK",
   "AgensiNo": "NA",
-  "Kementerian": null,
+  "Kementerian": "PENTADBIRAN KERAJAAN NEGERI KEDAH",
   "AgensiKumpulan": "PBT",
-  "CreatedBy": "admin",
+  "CreatedBy": "erymuzuan",
   "Id": "majlis-daerah-sik",
-  "CreatedDate": "2015-06-05T10:39:33.2878448+08:00",
+  "CreatedDate": "2015-08-07T19:18:51.1735206+08:00",
   "ChangedBy": "admin",
-  "ChangedDate": "2015-07-01T13:41:27.8774342+08:00",
-  "WebId": "364fc29f-d155-41a6-88d4-6f152e8710ce"
+  "ChangedDate": "2015-08-07T19:18:51.1735206+08:00",
+  "WebId": "abfb42fb-16af-44e4-9cba-565e7c2d935a"
 }

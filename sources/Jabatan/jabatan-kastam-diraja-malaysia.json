@@ -1,0 +1,14 @@
+{
+  "$type": "Bespoke.epsikologi_jabatan.Domain.Jabatan, epsikologi.Jabatan",
+  "JabatanNo": "jabatan-kastam-diraja-malaysia",
+  "NamaJabatan": "JABATAN KASTAM DIRAJA MALAYSIA",
+  "AgensiNo": "NA",
+  "Kementerian": "KEMENTERIAN KEWANGAN",
+  "AgensiKumpulan": "PAP",
+  "CreatedBy": "erymuzuan",
+  "Id": "jabatan-kastam-diraja-malaysia",
+  "CreatedDate": "2015-08-07T19:18:51.1725208+08:00",
+  "ChangedBy": "admin",
+  "ChangedDate": "2015-08-07T19:18:51.1725208+08:00",
+  "WebId": "ef4fc0df-b969-4a1e-a166-84889371f360"
+}

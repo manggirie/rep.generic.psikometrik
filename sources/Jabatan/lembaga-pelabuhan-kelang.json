@@ -1,14 +1,14 @@
 {
   "$type": "Bespoke.epsikologi_jabatan.Domain.Jabatan, epsikologi.Jabatan",
-  "JabatanNo": "30338",
+  "JabatanNo": "lembaga-pelabuhan-kelang",
   "NamaJabatan": "LEMBAGA PELABUHAN KELANG",
   "AgensiNo": "NA",
-  "Kementerian": null,
+  "Kementerian": "KEMENTERIAN PENGANGKUTAN",
   "AgensiKumpulan": "BBP",
-  "CreatedBy": "admin",
+  "CreatedBy": "erymuzuan",
   "Id": "lembaga-pelabuhan-kelang",
-  "CreatedDate": "2015-06-05T10:39:32.4097951+08:00",
+  "CreatedDate": "2015-08-07T19:18:51.1725208+08:00",
   "ChangedBy": "admin",
-  "ChangedDate": "2015-07-01T13:41:26.4422907+08:00",
-  "WebId": "ef04afcb-33da-4093-b9cc-d0a83a046b50"
+  "ChangedDate": "2015-08-07T19:18:51.1725208+08:00",
+  "WebId": "58337709-a225-415f-8a37-fe2615d04e11"
 }

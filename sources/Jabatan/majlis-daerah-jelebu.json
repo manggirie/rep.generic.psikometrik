@@ -1,14 +1,14 @@
 {
   "$type": "Bespoke.epsikologi_jabatan.Domain.Jabatan, epsikologi.Jabatan",
-  "JabatanNo": "31603",
+  "JabatanNo": "majlis-daerah-jelebu",
   "NamaJabatan": "MAJLIS DAERAH JELEBU",
   "AgensiNo": "NA",
-  "Kementerian": null,
+  "Kementerian": "PENTADBIRAN KERAJAAN NEGERI SEMBILAN",
   "AgensiKumpulan": "PBT",
-  "CreatedBy": "admin",
+  "CreatedBy": "erymuzuan",
   "Id": "majlis-daerah-jelebu",
-  "CreatedDate": "2015-06-05T10:39:32.5578035+08:00",
+  "CreatedDate": "2015-08-07T19:18:51.1750204+08:00",
   "ChangedBy": "admin",
-  "ChangedDate": "2015-07-01T13:41:26.6403105+08:00",
-  "WebId": "43113f38-a7cb-4f21-9dff-419680e8559e"
+  "ChangedDate": "2015-08-07T19:18:51.1750204+08:00",
+  "WebId": "a916783c-2155-44c9-b9f9-cd37cd642a38"
 }

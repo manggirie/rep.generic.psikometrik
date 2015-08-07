@@ -1,14 +1,14 @@
 {
   "$type": "Bespoke.epsikologi_jabatan.Domain.Jabatan, epsikologi.Jabatan",
-  "JabatanNo": "31974",
+  "JabatanNo": "perbadanan-perpustakaan-awam-selangor",
   "NamaJabatan": "PERBADANAN PERPUSTAKAAN AWAM SELANGOR",
-  "AgensiNo": "1",
-  "Kementerian": "PSUK NEGERI SELANGOR",
+  "AgensiNo": "NA",
+  "Kementerian": "PENTADBIRAN KERAJAAN NEGERI SELANGOR",
   "AgensiKumpulan": "BBN",
-  "CreatedBy": "admin",
+  "CreatedBy": "erymuzuan",
   "Id": "perbadanan-perpustakaan-awam-selangor",
-  "CreatedDate": "2015-06-05T10:39:32.7388135+08:00",
+  "CreatedDate": "2015-08-07T19:18:51.1750204+08:00",
   "ChangedBy": "admin",
-  "ChangedDate": "2015-07-01T13:41:26.9873452+08:00",
-  "WebId": "17f08c0f-fa69-4af6-81d0-6898c8d231f2"
+  "ChangedDate": "2015-08-07T19:18:51.1750204+08:00",
+  "WebId": "a1fe031d-149c-4938-8a95-9f3874bab488"
 }

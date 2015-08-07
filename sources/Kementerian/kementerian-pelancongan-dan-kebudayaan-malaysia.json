@@ -1,0 +1,14 @@
+{
+  "$type": "Bespoke.epsikologi_kementerian.Domain.Kementerian, epsikologi.Kementerian",
+  "KementerianNo": "kementerian-pelancongan-dan-kebudayaan-malaysia",
+  "NamaKementerian": "KEMENTERIAN PELANCONGAN DAN KEBUDAYAAN MALAYSIA",
+  "Negeri": "",
+  "KumpulanAgensi": "BBP",
+  "Abbreviation": "PERBADANAN KEMAJUAN KRAFTANGAN MALAYSIA",
+  "CreatedBy": null,
+  "Id": "kementerian-pelancongan-dan-kebudayaan-malaysia",
+  "CreatedDate": "0001-01-01T00:00:00",
+  "ChangedBy": null,
+  "ChangedDate": "0001-01-01T00:00:00",
+  "WebId": null
+}

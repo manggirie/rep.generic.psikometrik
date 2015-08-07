@@ -1,0 +1,14 @@
+{
+  "$type": "Bespoke.epsikologi_kementerian.Domain.Kementerian, epsikologi.Kementerian",
+  "KementerianNo": "kementerian-wilayah-persekutuan",
+  "NamaKementerian": "KEMENTERIAN WILAYAH PERSEKUTUAN",
+  "Negeri": "",
+  "KumpulanAgensi": "PBT",
+  "Abbreviation": "DEWAN BANDARAYA KUALA LUMPUR",
+  "CreatedBy": null,
+  "Id": "kementerian-wilayah-persekutuan",
+  "CreatedDate": "0001-01-01T00:00:00",
+  "ChangedBy": null,
+  "ChangedDate": "0001-01-01T00:00:00",
+  "WebId": null
+}

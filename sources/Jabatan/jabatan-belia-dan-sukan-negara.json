@@ -1,0 +1,14 @@
+{
+  "$type": "Bespoke.epsikologi_jabatan.Domain.Jabatan, epsikologi.Jabatan",
+  "JabatanNo": "jabatan-belia-dan-sukan-negara",
+  "NamaJabatan": "JABATAN BELIA DAN SUKAN NEGARA",
+  "AgensiNo": "NA",
+  "Kementerian": "KEMENTERIAN BELIA DAN SUKAN",
+  "AgensiKumpulan": "PAP",
+  "CreatedBy": "erymuzuan",
+  "Id": "jabatan-belia-dan-sukan-negara",
+  "CreatedDate": "2015-08-07T19:18:51.1720212+08:00",
+  "ChangedBy": "admin",
+  "ChangedDate": "2015-08-07T19:18:51.1720212+08:00",
+  "WebId": "528418c1-3823-4a23-80fa-8b5aabbbe148"
+}

@@ -1,14 +1,14 @@
 {
   "$type": "Bespoke.epsikologi_jabatan.Domain.Jabatan, epsikologi.Jabatan",
-  "JabatanNo": "42382",
+  "JabatanNo": "majlis-daerah-baling",
   "NamaJabatan": "MAJLIS DAERAH BALING",
   "AgensiNo": "NA",
-  "Kementerian": null,
+  "Kementerian": "PENTADBIRAN KERAJAAN NEGERI KEDAH",
   "AgensiKumpulan": "PBT",
-  "CreatedBy": "admin",
+  "CreatedBy": "erymuzuan",
   "Id": "majlis-daerah-baling",
-  "CreatedDate": "2015-06-05T10:39:33.2688436+08:00",
+  "CreatedDate": "2015-08-07T19:18:51.1735206+08:00",
   "ChangedBy": "admin",
-  "ChangedDate": "2015-07-01T13:41:27.8514316+08:00",
-  "WebId": "e55f5dec-dda4-435c-8b65-e47939fe255c"
+  "ChangedDate": "2015-08-07T19:18:51.1735206+08:00",
+  "WebId": "a4fec715-a147-4000-9ae6-8c59ac5ddd73"
 }

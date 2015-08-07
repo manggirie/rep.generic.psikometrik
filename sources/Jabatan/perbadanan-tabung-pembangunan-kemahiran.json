@@ -1,0 +1,14 @@
+{
+  "$type": "Bespoke.epsikologi_jabatan.Domain.Jabatan, epsikologi.Jabatan",
+  "JabatanNo": "perbadanan-tabung-pembangunan-kemahiran",
+  "NamaJabatan": "PERBADANAN TABUNG PEMBANGUNAN KEMAHIRAN",
+  "AgensiNo": "NA",
+  "Kementerian": "KEMENTERIAN SUMBER MANUSIA",
+  "AgensiKumpulan": "BBP",
+  "CreatedBy": "erymuzuan",
+  "Id": "perbadanan-tabung-pembangunan-kemahiran",
+  "CreatedDate": "2015-08-07T19:18:51.1730207+08:00",
+  "ChangedBy": "admin",
+  "ChangedDate": "2015-08-07T19:18:51.1730207+08:00",
+  "WebId": "0a3e078e-c788-4b55-aa61-568314fd6dad"
+}

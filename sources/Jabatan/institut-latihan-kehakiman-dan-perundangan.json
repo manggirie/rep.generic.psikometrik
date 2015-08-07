@@ -1,0 +1,14 @@
+{
+  "$type": "Bespoke.epsikologi_jabatan.Domain.Jabatan, epsikologi.Jabatan",
+  "JabatanNo": "institut-latihan-kehakiman-dan-perundangan",
+  "NamaJabatan": "INSTITUT LATIHAN KEHAKIMAN DAN PERUNDANGAN",
+  "AgensiNo": "NA",
+  "Kementerian": "JABATAN PERDANA MENTERI",
+  "AgensiKumpulan": "PAP",
+  "CreatedBy": "erymuzuan",
+  "Id": "institut-latihan-kehakiman-dan-perundangan",
+  "CreatedDate": "2015-08-07T19:18:51.1720212+08:00",
+  "ChangedBy": "admin",
+  "ChangedDate": "2015-08-07T19:18:51.1720212+08:00",
+  "WebId": "db4eec8a-4b04-4aef-a92d-aa6d60e77274"
+}

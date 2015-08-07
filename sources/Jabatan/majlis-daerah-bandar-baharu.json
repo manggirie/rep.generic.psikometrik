@@ -1,14 +1,14 @@
 {
   "$type": "Bespoke.epsikologi_jabatan.Domain.Jabatan, epsikologi.Jabatan",
-  "JabatanNo": "41944",
+  "JabatanNo": "majlis-daerah-bandar-baharu",
   "NamaJabatan": "MAJLIS DAERAH BANDAR BAHARU",
   "AgensiNo": "NA",
-  "Kementerian": null,
+  "Kementerian": "PENTADBIRAN KERAJAAN NEGERI KEDAH",
   "AgensiKumpulan": "PBT",
-  "CreatedBy": "admin",
+  "CreatedBy": "erymuzuan",
   "Id": "majlis-daerah-bandar-baharu",
-  "CreatedDate": "2015-06-05T10:39:33.1398365+08:00",
+  "CreatedDate": "2015-08-07T19:18:51.1735206+08:00",
   "ChangedBy": "admin",
-  "ChangedDate": "2015-07-01T13:41:27.5283993+08:00",
-  "WebId": "031ddf22-49e7-46ef-adc6-d0db0b0ec885"
+  "ChangedDate": "2015-08-07T19:18:51.1735206+08:00",
+  "WebId": "c55b1ad2-b185-402d-b3b1-999b262e32f1"
 }

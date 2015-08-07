@@ -1,14 +1,14 @@
 {
   "$type": "Bespoke.epsikologi_jabatan.Domain.Jabatan, epsikologi.Jabatan",
-  "JabatanNo": "61574",
+  "JabatanNo": "majlis-daerah-kota-tinggi",
   "NamaJabatan": "MAJLIS DAERAH KOTA TINGGI",
   "AgensiNo": "NA",
-  "Kementerian": null,
+  "Kementerian": "PENTADBIRAN KERAJAAN NEGERI JOHOR",
   "AgensiKumpulan": "PBT",
-  "CreatedBy": "admin",
+  "CreatedBy": "erymuzuan",
   "Id": "majlis-daerah-kota-tinggi",
-  "CreatedDate": "2015-06-05T10:39:35.0549445+08:00",
+  "CreatedDate": "2015-08-07T19:18:51.1730207+08:00",
   "ChangedBy": "admin",
-  "ChangedDate": "2015-07-01T13:41:32.6149079+08:00",
-  "WebId": "52b4661c-cdb9-460f-9b32-681d150ca6d2"
+  "ChangedDate": "2015-08-07T19:18:51.1730207+08:00",
+  "WebId": "d7dbf1bf-6318-45a0-890e-61ebb81702b5"
 }

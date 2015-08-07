@@ -1,0 +1,14 @@
+{
+  "$type": "Bespoke.epsikologi_jabatan.Domain.Jabatan, epsikologi.Jabatan",
+  "JabatanNo": "kementerian-pembangunan-sumber-dan-kemajuan-teknol",
+  "NamaJabatan": "KEMENTERIAN PEMBANGUNAN SUMBER DAN KEMAJUAN TEKNOLOGI MAKLUMAT",
+  "AgensiNo": "NA",
+  "Kementerian": "PENTADBIRAN KERAJAAN NEGERI SABAH",
+  "AgensiKumpulan": "PAN",
+  "CreatedBy": "erymuzuan",
+  "Id": "kementerian-pembangunan-sumber-dan-kemajuan-teknol",
+  "CreatedDate": "2015-08-07T19:18:51.1745205+08:00",
+  "ChangedBy": "admin",
+  "ChangedDate": "2015-08-07T19:18:51.1745205+08:00",
+  "WebId": "360ffb64-7de1-4993-87bb-d3c0824227c6"
+}

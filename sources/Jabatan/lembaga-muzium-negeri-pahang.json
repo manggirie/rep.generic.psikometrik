@@ -1,14 +1,14 @@
 {
   "$type": "Bespoke.epsikologi_jabatan.Domain.Jabatan, epsikologi.Jabatan",
-  "JabatanNo": "58606",
+  "JabatanNo": "lembaga-muzium-negeri-pahang",
   "NamaJabatan": "LEMBAGA MUZIUM NEGERI PAHANG",
-  "AgensiNo": "53300",
-  "Kementerian": "PSUK NEGERI PAHANG",
+  "AgensiNo": "NA",
+  "Kementerian": "PENTADBIRAN KERAJAAN NEGERI PAHANG",
   "AgensiKumpulan": "BBN",
-  "CreatedBy": "admin",
+  "CreatedBy": "erymuzuan",
   "Id": "lembaga-muzium-negeri-pahang",
-  "CreatedDate": "2015-06-05T10:39:34.7229253+08:00",
+  "CreatedDate": "2015-08-07T19:18:51.1740209+08:00",
   "ChangedBy": "admin",
-  "ChangedDate": "2015-07-01T13:41:31.2817746+08:00",
-  "WebId": "292260c0-cb47-417d-a5b0-503bcc2a6943"
+  "ChangedDate": "2015-08-07T19:18:51.1740209+08:00",
+  "WebId": "b0fb2e96-933f-4c83-8ab2-a1dec4f6d32c"
 }

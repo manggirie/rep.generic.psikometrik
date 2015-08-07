@@ -1,0 +1,14 @@
+{
+  "$type": "Bespoke.epsikologi_jabatan.Domain.Jabatan, epsikologi.Jabatan",
+  "JabatanNo": "kementerian-dalam-negeri",
+  "NamaJabatan": "KEMENTERIAN DALAM NEGERI",
+  "AgensiNo": "NA",
+  "Kementerian": "KEMENTERIAN DALAM NEGERI",
+  "AgensiKumpulan": "PAP",
+  "CreatedBy": "erymuzuan",
+  "Id": "kementerian-dalam-negeri",
+  "CreatedDate": "2015-08-07T19:18:51.1720212+08:00",
+  "ChangedBy": "admin",
+  "ChangedDate": "2015-08-07T19:18:51.1720212+08:00",
+  "WebId": "2f2a6ef0-e4a3-40d8-891c-c04477c8e25a"
+}

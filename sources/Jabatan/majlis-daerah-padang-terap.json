@@ -1,14 +1,14 @@
 {
   "$type": "Bespoke.epsikologi_jabatan.Domain.Jabatan, epsikologi.Jabatan",
-  "JabatanNo": "41743",
+  "JabatanNo": "majlis-daerah-padang-terap",
   "NamaJabatan": "MAJLIS DAERAH PADANG TERAP",
   "AgensiNo": "NA",
-  "Kementerian": null,
+  "Kementerian": "PENTADBIRAN KERAJAAN NEGERI KEDAH",
   "AgensiKumpulan": "PBT",
-  "CreatedBy": "admin",
+  "CreatedBy": "erymuzuan",
   "Id": "majlis-daerah-padang-terap",
-  "CreatedDate": "2015-06-05T10:39:33.1118354+08:00",
+  "CreatedDate": "2015-08-07T19:18:51.1735206+08:00",
   "ChangedBy": "admin",
-  "ChangedDate": "2015-07-01T13:41:27.4343899+08:00",
-  "WebId": "f8702ea9-e0f7-4fcc-84a8-e27a78822cdb"
+  "ChangedDate": "2015-08-07T19:18:51.1735206+08:00",
+  "WebId": "7d49cb7d-6819-49f6-8e5a-ca8f6a20f57c"
 }

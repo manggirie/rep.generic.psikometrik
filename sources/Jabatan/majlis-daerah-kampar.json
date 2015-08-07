@@ -1,14 +1,14 @@
 {
   "$type": "Bespoke.epsikologi_jabatan.Domain.Jabatan, epsikologi.Jabatan",
-  "JabatanNo": "56563",
+  "JabatanNo": "majlis-daerah-kampar",
   "NamaJabatan": "MAJLIS DAERAH KAMPAR",
   "AgensiNo": "NA",
-  "Kementerian": null,
+  "Kementerian": "PENTADBIRAN KERAJAAN NEGERI PERAK",
   "AgensiKumpulan": "PBT",
-  "CreatedBy": "admin",
+  "CreatedBy": "erymuzuan",
   "Id": "majlis-daerah-kampar",
-  "CreatedDate": "2015-06-05T10:39:34.5319149+08:00",
+  "CreatedDate": "2015-08-07T19:18:51.1740209+08:00",
   "ChangedBy": "admin",
-  "ChangedDate": "2015-07-01T13:41:30.4016866+08:00",
-  "WebId": "075afa07-1ba5-4bcd-9fdb-07dd5084561a"
+  "ChangedDate": "2015-08-07T19:18:51.1740209+08:00",
+  "WebId": "14f5d793-c1b9-4d68-aa38-bf0f63ebe260"
 }

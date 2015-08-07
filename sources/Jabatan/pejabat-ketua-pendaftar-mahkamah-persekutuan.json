@@ -1,0 +1,14 @@
+{
+  "$type": "Bespoke.epsikologi_jabatan.Domain.Jabatan, epsikologi.Jabatan",
+  "JabatanNo": "pejabat-ketua-pendaftar-mahkamah-persekutuan",
+  "NamaJabatan": "PEJABAT KETUA PENDAFTAR MAHKAMAH PERSEKUTUAN",
+  "AgensiNo": "NA",
+  "Kementerian": "JABATAN PERDANA MENTERI",
+  "AgensiKumpulan": "PAP",
+  "CreatedBy": "erymuzuan",
+  "Id": "pejabat-ketua-pendaftar-mahkamah-persekutuan",
+  "CreatedDate": "2015-08-07T19:18:51.1720212+08:00",
+  "ChangedBy": "admin",
+  "ChangedDate": "2015-08-07T19:18:51.1720212+08:00",
+  "WebId": "c182b9da-f2f7-47aa-b7fc-6e2b706bd3f0"
+}

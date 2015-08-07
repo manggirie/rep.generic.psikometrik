@@ -1,14 +1,14 @@
 {
   "$type": "Bespoke.epsikologi_jabatan.Domain.Jabatan, epsikologi.Jabatan",
-  "JabatanNo": "55848",
+  "JabatanNo": "majlis-daerah-pengkalan-hulu",
   "NamaJabatan": "MAJLIS DAERAH PENGKALAN HULU",
   "AgensiNo": "NA",
-  "Kementerian": null,
+  "Kementerian": "PENTADBIRAN KERAJAAN NEGERI PERAK",
   "AgensiKumpulan": "PBT",
-  "CreatedBy": "admin",
+  "CreatedBy": "erymuzuan",
   "Id": "majlis-daerah-pengkalan-hulu",
-  "CreatedDate": "2015-06-05T10:39:34.3479047+08:00",
+  "CreatedDate": "2015-08-07T19:18:51.1740209+08:00",
   "ChangedBy": "admin",
-  "ChangedDate": "2015-07-01T13:41:30.0146479+08:00",
-  "WebId": "056e752d-8ac4-4dea-9df4-50561a0a0683"
+  "ChangedDate": "2015-08-07T19:18:51.1740209+08:00",
+  "WebId": "e0978d52-aab8-413b-b562-0e0d60c7c87d"
 }

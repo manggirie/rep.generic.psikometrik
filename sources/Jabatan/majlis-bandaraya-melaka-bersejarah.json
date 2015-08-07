@@ -1,14 +1,14 @@
 {
   "$type": "Bespoke.epsikologi_jabatan.Domain.Jabatan, epsikologi.Jabatan",
-  "JabatanNo": "180234",
+  "JabatanNo": "majlis-bandaraya-melaka-bersejarah",
   "NamaJabatan": "MAJLIS BANDARAYA MELAKA BERSEJARAH",
-  "AgensiNo": "36573",
-  "Kementerian": "PSUK NEGERI MELAKA",
+  "AgensiNo": "NA",
+  "Kementerian": "PENTADBIRAN KERAJAAN NEGERI MELAKA",
   "AgensiKumpulan": "PBT",
-  "CreatedBy": "admin",
+  "CreatedBy": "erymuzuan",
   "Id": "majlis-bandaraya-melaka-bersejarah",
-  "CreatedDate": "2015-06-05T10:39:26.4814611+08:00",
+  "CreatedDate": "2015-08-07T19:18:51.1735206+08:00",
   "ChangedBy": "admin",
-  "ChangedDate": "2015-07-01T13:41:15.4411907+08:00",
-  "WebId": "b95da9de-1ee7-4877-a195-7974dcfd8ae7"
+  "ChangedDate": "2015-08-07T19:18:51.1735206+08:00",
+  "WebId": "40eb6b80-1696-42ba-8782-cfed04b1f9df"
 }

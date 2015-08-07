@@ -1,0 +1,14 @@
+{
+  "$type": "Bespoke.epsikologi_jabatan.Domain.Jabatan, epsikologi.Jabatan",
+  "JabatanNo": "kementerian-pelancongan-dan-kebudayaan-malaysia",
+  "NamaJabatan": "KEMENTERIAN PELANCONGAN DAN KEBUDAYAAN MALAYSIA",
+  "AgensiNo": "NA",
+  "Kementerian": "KEMENTERIAN PELANCONGAN DAN KEBUDAYAAN MALAYSIA",
+  "AgensiKumpulan": "PAP",
+  "CreatedBy": "erymuzuan",
+  "Id": "kementerian-pelancongan-dan-kebudayaan-malaysia",
+  "CreatedDate": "2015-08-07T19:18:51.1725208+08:00",
+  "ChangedBy": "admin",
+  "ChangedDate": "2015-08-07T19:18:51.1725208+08:00",
+  "WebId": "e0f5b6f3-0ba8-40ca-8928-7447dea67cc7"
+}

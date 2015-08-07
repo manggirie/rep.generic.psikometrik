@@ -1,14 +1,14 @@
 {
   "$type": "Bespoke.epsikologi_jabatan.Domain.Jabatan, epsikologi.Jabatan",
-  "JabatanNo": "191070",
+  "JabatanNo": "universiti-teknikal-malaysia-melaka-utem-",
   "NamaJabatan": "UNIVERSITI TEKNIKAL MALAYSIA MELAKA (UTEM)",
-  "AgensiNo": "26281",
-  "Kementerian": "KEM. PENGAJIAN TINGGI",
+  "AgensiNo": "NA",
+  "Kementerian": "KEMENTERIAN PENDIDIKAN MALAYSIA",
   "AgensiKumpulan": "BBP",
-  "CreatedBy": "admin",
+  "CreatedBy": "erymuzuan",
   "Id": "universiti-teknikal-malaysia-melaka-utem-",
-  "CreatedDate": "2015-06-05T10:39:28.4415715+08:00",
+  "CreatedDate": "2015-08-07T19:18:51.1725208+08:00",
   "ChangedBy": "admin",
-  "ChangedDate": "2015-07-01T13:41:18.8555321+08:00",
-  "WebId": "53931b60-8a45-48c3-bc87-38f6f65926db"
+  "ChangedDate": "2015-08-07T19:18:51.1725208+08:00",
+  "WebId": "9fe0c8cc-da25-4778-a176-5e839395147d"
 }

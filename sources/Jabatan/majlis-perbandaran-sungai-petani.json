@@ -1,14 +1,14 @@
 {
   "$type": "Bespoke.epsikologi_jabatan.Domain.Jabatan, epsikologi.Jabatan",
-  "JabatanNo": "42062",
+  "JabatanNo": "majlis-perbandaran-sungai-petani",
   "NamaJabatan": "MAJLIS PERBANDARAN SUNGAI PETANI",
   "AgensiNo": "NA",
-  "Kementerian": null,
+  "Kementerian": "PENTADBIRAN KERAJAAN NEGERI KEDAH",
   "AgensiKumpulan": "PBT",
-  "CreatedBy": "admin",
+  "CreatedBy": "erymuzuan",
   "Id": "majlis-perbandaran-sungai-petani",
-  "CreatedDate": "2015-06-05T10:39:33.1798387+08:00",
+  "CreatedDate": "2015-08-07T19:18:51.1735206+08:00",
   "ChangedBy": "admin",
-  "ChangedDate": "2015-07-01T13:41:27.5864051+08:00",
-  "WebId": "2471c294-e77a-4310-86ae-8fd6d462036f"
+  "ChangedDate": "2015-08-07T19:18:51.1735206+08:00",
+  "WebId": "28d91a46-7447-489a-acb2-9c92e87a875c"
 }

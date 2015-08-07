@@ -1,14 +1,14 @@
 {
   "$type": "Bespoke.epsikologi_jabatan.Domain.Jabatan, epsikologi.Jabatan",
-  "JabatanNo": "52696",
+  "JabatanNo": "majlis-perbandaran-sepang",
   "NamaJabatan": "MAJLIS PERBANDARAN SEPANG",
   "AgensiNo": "NA",
-  "Kementerian": null,
+  "Kementerian": "PENTADBIRAN KERAJAAN NEGERI SELANGOR",
   "AgensiKumpulan": "PBT",
-  "CreatedBy": "admin",
+  "CreatedBy": "erymuzuan",
   "Id": "majlis-perbandaran-sepang",
-  "CreatedDate": "2015-06-05T10:39:33.9798837+08:00",
+  "CreatedDate": "2015-08-07T19:18:51.1750204+08:00",
   "ChangedBy": "admin",
-  "ChangedDate": "2015-07-01T13:41:29.4035868+08:00",
-  "WebId": "30fad1d5-7e8c-4cb9-ae7c-b773fc3271d5"
+  "ChangedDate": "2015-08-07T19:18:51.1750204+08:00",
+  "WebId": "32d89d8d-c55d-4182-a88d-f4625d46017a"
 }

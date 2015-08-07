@@ -1,14 +1,14 @@
 {
   "$type": "Bespoke.epsikologi_jabatan.Domain.Jabatan, epsikologi.Jabatan",
-  "JabatanNo": "217239",
+  "JabatanNo": "perbadanan-stadium-negeri-melaka",
   "NamaJabatan": "PERBADANAN STADIUM NEGERI MELAKA",
   "AgensiNo": "NA",
-  "Kementerian": null,
+  "Kementerian": "PENTADBIRAN KERAJAAN NEGERI MELAKA",
   "AgensiKumpulan": "BBN",
-  "CreatedBy": "admin",
+  "CreatedBy": "erymuzuan",
   "Id": "perbadanan-stadium-negeri-melaka",
-  "CreatedDate": "2015-06-05T10:39:30.1076655+08:00",
+  "CreatedDate": "2015-08-07T19:18:51.1735206+08:00",
   "ChangedBy": "admin",
-  "ChangedDate": "2015-07-01T13:41:22.2378703+08:00",
-  "WebId": "17410782-0b0e-4b05-9839-d21e02dae812"
+  "ChangedDate": "2015-08-07T19:18:51.1735206+08:00",
+  "WebId": "bed75a60-1f96-4ffd-a1b3-c8c45c834c66"
 }

@@ -1,14 +1,14 @@
 {
   "$type": "Bespoke.epsikologi_jabatan.Domain.Jabatan, epsikologi.Jabatan",
-  "JabatanNo": "61539",
+  "JabatanNo": "majlis-daerah-tangkak",
   "NamaJabatan": "MAJLIS DAERAH TANGKAK",
   "AgensiNo": "NA",
-  "Kementerian": null,
+  "Kementerian": "PENTADBIRAN KERAJAAN NEGERI JOHOR",
   "AgensiKumpulan": "PBT",
-  "CreatedBy": "admin",
+  "CreatedBy": "erymuzuan",
   "Id": "majlis-daerah-tangkak",
-  "CreatedDate": "2015-06-05T10:39:34.9809412+08:00",
+  "CreatedDate": "2015-08-07T19:18:51.1730207+08:00",
   "ChangedBy": "admin",
-  "ChangedDate": "2015-07-01T13:41:32.4988963+08:00",
-  "WebId": "998a4890-e929-4fb1-a4c3-cc8f76348631"
+  "ChangedDate": "2015-08-07T19:18:51.1730207+08:00",
+  "WebId": "40cb7832-bd2a-40ae-af2f-298da6210a8e"
 }

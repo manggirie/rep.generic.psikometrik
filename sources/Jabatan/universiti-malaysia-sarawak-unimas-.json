@@ -1,14 +1,14 @@
 {
   "$type": "Bespoke.epsikologi_jabatan.Domain.Jabatan, epsikologi.Jabatan",
-  "JabatanNo": "191557",
+  "JabatanNo": "universiti-malaysia-sarawak-unimas-",
   "NamaJabatan": "UNIVERSITI MALAYSIA SARAWAK (UNIMAS)",
-  "AgensiNo": "26281",
-  "Kementerian": "KEM. PENGAJIAN TINGGI",
+  "AgensiNo": "NA",
+  "Kementerian": "KEMENTERIAN PENDIDIKAN MALAYSIA",
   "AgensiKumpulan": "BBP",
-  "CreatedBy": "admin",
+  "CreatedBy": "erymuzuan",
   "Id": "universiti-malaysia-sarawak-unimas-",
-  "CreatedDate": "2015-06-05T10:39:28.4665724+08:00",
+  "CreatedDate": "2015-08-07T19:18:51.1725208+08:00",
   "ChangedBy": "admin",
-  "ChangedDate": "2015-07-01T13:41:18.9315397+08:00",
-  "WebId": "18eae29d-c9cc-4917-87ef-aff6aff4c06c"
+  "ChangedDate": "2015-08-07T19:18:51.1725208+08:00",
+  "WebId": "7c11dfc2-89c3-4d19-8ac6-8f65d2875cc3"
 }

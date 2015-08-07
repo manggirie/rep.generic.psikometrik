@@ -1,14 +1,14 @@
 {
   "$type": "Bespoke.epsikologi_jabatan.Domain.Jabatan, epsikologi.Jabatan",
-  "JabatanNo": "163724",
+  "JabatanNo": "perbadanan-hang-tuah-jaya",
   "NamaJabatan": "PERBADANAN HANG TUAH JAYA",
   "AgensiNo": "NA",
-  "Kementerian": null,
+  "Kementerian": "PENTADBIRAN KERAJAAN NEGERI MELAKA",
   "AgensiKumpulan": "BBN",
-  "CreatedBy": "admin",
+  "CreatedBy": "erymuzuan",
   "Id": "perbadanan-hang-tuah-jaya",
-  "CreatedDate": "2015-06-05T10:39:26.1154404+08:00",
+  "CreatedDate": "2015-08-07T19:18:51.1735206+08:00",
   "ChangedBy": "admin",
-  "ChangedDate": "2015-07-01T13:41:14.5621028+08:00",
-  "WebId": "ecb6e49e-3df0-45b0-a09e-7387f159d9f6"
+  "ChangedDate": "2015-08-07T19:18:51.1735206+08:00",
+  "WebId": "d98cce16-a7d5-4a4e-aa94-0521a5a30897"
 }

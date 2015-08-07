@@ -1,0 +1,14 @@
+{
+  "$type": "Bespoke.epsikologi_jabatan.Domain.Jabatan, epsikologi.Jabatan",
+  "JabatanNo": "pihak-berkuasa-peranti-perubatan",
+  "NamaJabatan": "PIHAK BERKUASA PERANTI PERUBATAN",
+  "AgensiNo": "NA",
+  "Kementerian": "KEMENTERIAN KESIHATAN MALAYSIA",
+  "AgensiKumpulan": "BBP",
+  "CreatedBy": "erymuzuan",
+  "Id": "pihak-berkuasa-peranti-perubatan",
+  "CreatedDate": "2015-08-07T19:18:51.1725208+08:00",
+  "ChangedBy": "admin",
+  "ChangedDate": "2015-08-07T19:18:51.1725208+08:00",
+  "WebId": "998d6a6d-27a8-4348-a7f3-38206081f724"
+}

@@ -1,14 +1,14 @@
 {
   "$type": "Bespoke.epsikologi_jabatan.Domain.Jabatan, epsikologi.Jabatan",
-  "JabatanNo": "31755",
+  "JabatanNo": "majlis-perbandaran-nilai",
   "NamaJabatan": "MAJLIS PERBANDARAN NILAI",
   "AgensiNo": "NA",
-  "Kementerian": null,
+  "Kementerian": "PENTADBIRAN KERAJAAN NEGERI SEMBILAN",
   "AgensiKumpulan": "PBT",
-  "CreatedBy": "admin",
+  "CreatedBy": "erymuzuan",
   "Id": "majlis-perbandaran-nilai",
-  "CreatedDate": "2015-06-05T10:39:32.6578093+08:00",
+  "CreatedDate": "2015-08-07T19:18:51.1755203+08:00",
   "ChangedBy": "admin",
-  "ChangedDate": "2015-07-01T13:41:26.7943259+08:00",
-  "WebId": "3a99d2d4-ba23-4576-b96a-d87d12783d67"
+  "ChangedDate": "2015-08-07T19:18:51.1755203+08:00",
+  "WebId": "b7d2b786-dd28-41a1-871e-710980750ee8"
 }

@@ -1,14 +1,14 @@
 {
   "$type": "Bespoke.epsikologi_jabatan.Domain.Jabatan, epsikologi.Jabatan",
-  "JabatanNo": "88419",
+  "JabatanNo": "majlis-daerah-hulu-selangor",
   "NamaJabatan": "MAJLIS DAERAH HULU SELANGOR",
-  "AgensiNo": "1",
-  "Kementerian": "PSUK NEGERI SELANGOR",
+  "AgensiNo": "NA",
+  "Kementerian": "PENTADBIRAN KERAJAAN NEGERI SELANGOR",
   "AgensiKumpulan": "PBT",
-  "CreatedBy": "admin",
+  "CreatedBy": "erymuzuan",
   "Id": "majlis-daerah-hulu-selangor",
-  "CreatedDate": "2015-06-05T10:39:36.6400337+08:00",
+  "CreatedDate": "2015-08-07T19:18:51.1750204+08:00",
   "ChangedBy": "admin",
-  "ChangedDate": "2015-07-01T13:41:36.0452509+08:00",
-  "WebId": "0a54b848-c2b7-4389-98b5-a477970c5263"
+  "ChangedDate": "2015-08-07T19:18:51.1750204+08:00",
+  "WebId": "06d0ba31-c8f2-4c65-9e0d-e1a017087693"
 }

@@ -1,0 +1,14 @@
+{
+  "$type": "Bespoke.epsikologi_jabatan.Domain.Jabatan, epsikologi.Jabatan",
+  "JabatanNo": "agensi-antidadah-kebangsaan",
+  "NamaJabatan": "AGENSI ANTIDADAH KEBANGSAAN",
+  "AgensiNo": "NA",
+  "Kementerian": "KEMENTERIAN DALAM NEGERI",
+  "AgensiKumpulan": "PAP",
+  "CreatedBy": "erymuzuan",
+  "Id": "agensi-antidadah-kebangsaan",
+  "CreatedDate": "2015-08-07T19:18:51.1720212+08:00",
+  "ChangedBy": "admin",
+  "ChangedDate": "2015-08-07T19:18:51.1720212+08:00",
+  "WebId": "5804a6b4-6c30-4437-828e-958fa9e76ab6"
+}

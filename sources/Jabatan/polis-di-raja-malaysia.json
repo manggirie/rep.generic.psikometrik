@@ -1,0 +1,14 @@
+{
+  "$type": "Bespoke.epsikologi_jabatan.Domain.Jabatan, epsikologi.Jabatan",
+  "JabatanNo": "polis-di-raja-malaysia",
+  "NamaJabatan": "POLIS DI RAJA MALAYSIA",
+  "AgensiNo": "NA",
+  "Kementerian": "KEMENTERIAN DALAM NEGERI",
+  "AgensiKumpulan": "PAP",
+  "CreatedBy": "erymuzuan",
+  "Id": "polis-di-raja-malaysia",
+  "CreatedDate": "2015-08-07T19:18:51.1720212+08:00",
+  "ChangedBy": "admin",
+  "ChangedDate": "2015-08-07T19:18:51.1720212+08:00",
+  "WebId": "40b2bad6-f028-4361-8695-3f419c39e385"
+}

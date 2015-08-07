@@ -1,14 +1,14 @@
 {
   "$type": "Bespoke.epsikologi_jabatan.Domain.Jabatan, epsikologi.Jabatan",
-  "JabatanNo": "31552",
+  "JabatanNo": "majlis-agama-islam-negeri-sembilan",
   "NamaJabatan": "MAJLIS AGAMA ISLAM NEGERI SEMBILAN",
-  "AgensiNo": "31306",
-  "Kementerian": "PSUK NEGERI SEMBILAN",
+  "AgensiNo": "NA",
+  "Kementerian": "PENTADBIRAN KERAJAAN NEGERI SEMBILAN",
   "AgensiKumpulan": "BBN",
-  "CreatedBy": "admin",
+  "CreatedBy": "erymuzuan",
   "Id": "majlis-agama-islam-negeri-sembilan",
-  "CreatedDate": "2015-06-05T10:39:32.5328015+08:00",
+  "CreatedDate": "2015-08-07T19:18:51.1750204+08:00",
   "ChangedBy": "admin",
-  "ChangedDate": "2015-07-01T13:41:26.6003065+08:00",
-  "WebId": "2888e3bd-2973-4c15-b4fa-adb144385691"
+  "ChangedDate": "2015-08-07T19:18:51.1750204+08:00",
+  "WebId": "5c0a24ed-feed-4a12-9ebd-2b54fe47c8fc"
 }

@@ -1,14 +1,14 @@
 {
   "$type": "Bespoke.epsikologi_jabatan.Domain.Jabatan, epsikologi.Jabatan",
-  "JabatanNo": "51787",
+  "JabatanNo": "majlis-perbandaran-subang-jaya",
   "NamaJabatan": "MAJLIS PERBANDARAN SUBANG JAYA",
   "AgensiNo": "NA",
-  "Kementerian": null,
+  "Kementerian": "PENTADBIRAN KERAJAAN NEGERI SELANGOR",
   "AgensiKumpulan": "PBT",
-  "CreatedBy": "admin",
+  "CreatedBy": "erymuzuan",
   "Id": "majlis-perbandaran-subang-jaya",
-  "CreatedDate": "2015-06-05T10:39:33.831875+08:00",
+  "CreatedDate": "2015-08-07T19:18:51.1750204+08:00",
   "ChangedBy": "admin",
-  "ChangedDate": "2015-07-01T13:41:29.1965661+08:00",
-  "WebId": "063adc8d-c617-42cd-93ed-20eeee56eab7"
+  "ChangedDate": "2015-08-07T19:18:51.1750204+08:00",
+  "WebId": "ae6089b7-bef3-4313-a345-42c6f1cd57dc"
 }

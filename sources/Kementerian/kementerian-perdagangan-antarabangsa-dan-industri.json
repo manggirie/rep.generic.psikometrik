@@ -1,0 +1,14 @@
+{
+  "$type": "Bespoke.epsikologi_kementerian.Domain.Kementerian, epsikologi.Kementerian",
+  "KementerianNo": "kementerian-perdagangan-antarabangsa-dan-industri",
+  "NamaKementerian": "KEMENTERIAN PERDAGANGAN ANTARABANGSA DAN INDUSTRI",
+  "Negeri": "",
+  "KumpulanAgensi": "BBP",
+  "Abbreviation": "PERBADANAN PRODUKTIVITI MALAYSIA",
+  "CreatedBy": null,
+  "Id": "kementerian-perdagangan-antarabangsa-dan-industri",
+  "CreatedDate": "0001-01-01T00:00:00",
+  "ChangedBy": null,
+  "ChangedDate": "0001-01-01T00:00:00",
+  "WebId": null
+}

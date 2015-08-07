@@ -1,14 +1,14 @@
 {
   "$type": "Bespoke.epsikologi_jabatan.Domain.Jabatan, epsikologi.Jabatan",
-  "JabatanNo": "41884",
+  "JabatanNo": "majlis-daerah-pendang",
   "NamaJabatan": "MAJLIS DAERAH PENDANG",
   "AgensiNo": "NA",
-  "Kementerian": null,
+  "Kementerian": "PENTADBIRAN KERAJAAN NEGERI KEDAH",
   "AgensiKumpulan": "PBT",
-  "CreatedBy": "admin",
+  "CreatedBy": "erymuzuan",
   "Id": "majlis-daerah-pendang",
-  "CreatedDate": "2015-06-05T10:39:33.1268359+08:00",
+  "CreatedDate": "2015-08-07T19:18:51.1735206+08:00",
   "ChangedBy": "admin",
-  "ChangedDate": "2015-07-01T13:41:27.4763941+08:00",
-  "WebId": "0ce3f858-5b61-468e-8a1d-812dbc364fac"
+  "ChangedDate": "2015-08-07T19:18:51.1735206+08:00",
+  "WebId": "4c28ebd6-885f-4874-9c8f-64561c23382e"
 }

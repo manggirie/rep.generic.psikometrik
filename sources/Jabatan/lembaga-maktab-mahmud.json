@@ -1,14 +1,14 @@
 {
   "$type": "Bespoke.epsikologi_jabatan.Domain.Jabatan, epsikologi.Jabatan",
-  "JabatanNo": "42207",
+  "JabatanNo": "lembaga-maktab-mahmud",
   "NamaJabatan": "LEMBAGA MAKTAB MAHMUD",
   "AgensiNo": "NA",
-  "Kementerian": null,
+  "Kementerian": "PENTADBIRAN KERAJAAN NEGERI KEDAH",
   "AgensiKumpulan": "BBN",
-  "CreatedBy": "admin",
+  "CreatedBy": "erymuzuan",
   "Id": "lembaga-maktab-mahmud",
-  "CreatedDate": "2015-06-05T10:39:33.2078411+08:00",
+  "CreatedDate": "2015-08-07T19:18:51.1735206+08:00",
   "ChangedBy": "admin",
-  "ChangedDate": "2015-07-01T13:41:27.6674132+08:00",
-  "WebId": "88bc0402-de65-45d7-9bba-b25ee7a99dcd"
+  "ChangedDate": "2015-08-07T19:18:51.1735206+08:00",
+  "WebId": "44fc1d46-5fd1-4022-aa04-de0247b87d67"
 }

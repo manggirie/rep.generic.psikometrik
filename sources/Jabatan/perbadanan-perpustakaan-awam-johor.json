@@ -1,14 +1,14 @@
 {
   "$type": "Bespoke.epsikologi_jabatan.Domain.Jabatan, epsikologi.Jabatan",
-  "JabatanNo": "62620",
+  "JabatanNo": "perbadanan-perpustakaan-awam-johor",
   "NamaJabatan": "PERBADANAN PERPUSTAKAAN AWAM JOHOR",
-  "AgensiNo": "59098",
-  "Kementerian": "PSUK NEGERI JOHOR",
+  "AgensiNo": "NA",
+  "Kementerian": "PENTADBIRAN KERAJAAN NEGERI JOHOR",
   "AgensiKumpulan": "BBN",
-  "CreatedBy": "admin",
+  "CreatedBy": "erymuzuan",
   "Id": "perbadanan-perpustakaan-awam-johor",
-  "CreatedDate": "2015-06-05T10:39:35.4879687+08:00",
+  "CreatedDate": "2015-08-07T19:18:51.1730207+08:00",
   "ChangedBy": "admin",
-  "ChangedDate": "2015-07-01T13:41:33.6230087+08:00",
-  "WebId": "299289aa-90b5-4e4a-8c9c-7200ec0cd114"
+  "ChangedDate": "2015-08-07T19:18:51.1730207+08:00",
+  "WebId": "30980afe-9b6a-4363-b17c-7ecfc7c3fb48"
 }

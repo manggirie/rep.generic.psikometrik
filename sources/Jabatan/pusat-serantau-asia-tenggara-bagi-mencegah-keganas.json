@@ -1,0 +1,14 @@
+{
+  "$type": "Bespoke.epsikologi_jabatan.Domain.Jabatan, epsikologi.Jabatan",
+  "JabatanNo": "pusat-serantau-asia-tenggara-bagi-mencegah-keganas",
+  "NamaJabatan": "PUSAT SERANTAU ASIA TENGGARA BAGI MENCEGAH KEGANASAN (SEARCCT)",
+  "AgensiNo": "NA",
+  "Kementerian": "KEMENTERIAN LUAR NEGERI",
+  "AgensiKumpulan": "PAP",
+  "CreatedBy": "erymuzuan",
+  "Id": "pusat-serantau-asia-tenggara-bagi-mencegah-keganas",
+  "CreatedDate": "2015-08-07T19:18:51.1725208+08:00",
+  "ChangedBy": "admin",
+  "ChangedDate": "2015-08-07T19:18:51.1725208+08:00",
+  "WebId": "54a7f5f0-1980-48cb-81d6-5c1f36368942"
+}

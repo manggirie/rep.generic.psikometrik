@@ -1,14 +1,14 @@
 {
   "$type": "Bespoke.epsikologi_jabatan.Domain.Jabatan, epsikologi.Jabatan",
-  "JabatanNo": "56515",
+  "JabatanNo": "majlis-daerah-batu-gajah",
   "NamaJabatan": "MAJLIS DAERAH BATU GAJAH",
   "AgensiNo": "NA",
-  "Kementerian": null,
+  "Kementerian": "PENTADBIRAN KERAJAAN NEGERI PERAK",
   "AgensiKumpulan": "PBT",
-  "CreatedBy": "admin",
+  "CreatedBy": "erymuzuan",
   "Id": "majlis-daerah-batu-gajah",
-  "CreatedDate": "2015-06-05T10:39:34.4719113+08:00",
+  "CreatedDate": "2015-08-07T19:18:51.1740209+08:00",
   "ChangedBy": "admin",
-  "ChangedDate": "2015-07-01T13:41:30.2746739+08:00",
-  "WebId": "c1c15263-bdd7-425e-960e-1e336de93e48"
+  "ChangedDate": "2015-08-07T19:18:51.1740209+08:00",
+  "WebId": "495a83d0-6340-46a3-87f7-a2c8fdca6fce"
 }

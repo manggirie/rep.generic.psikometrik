@@ -1,14 +1,14 @@
 {
   "$type": "Bespoke.epsikologi_jabatan.Domain.Jabatan, epsikologi.Jabatan",
-  "JabatanNo": "41659",
+  "JabatanNo": "majlis-daerah-kubang-pasu",
   "NamaJabatan": "MAJLIS DAERAH KUBANG PASU",
   "AgensiNo": "NA",
-  "Kementerian": null,
+  "Kementerian": "PENTADBIRAN KERAJAAN NEGERI KEDAH",
   "AgensiKumpulan": "PBT",
-  "CreatedBy": "admin",
+  "CreatedBy": "erymuzuan",
   "Id": "majlis-daerah-kubang-pasu",
-  "CreatedDate": "2015-06-05T10:39:33.0778329+08:00",
+  "CreatedDate": "2015-08-07T19:18:51.1735206+08:00",
   "ChangedBy": "admin",
-  "ChangedDate": "2015-07-01T13:41:27.3613826+08:00",
-  "WebId": "afa54a9e-0fbd-48b4-9dfa-9f3c477b7edf"
+  "ChangedDate": "2015-08-07T19:18:51.1735206+08:00",
+  "WebId": "62ce970d-9a33-43d1-974b-ac19664ef87f"
 }

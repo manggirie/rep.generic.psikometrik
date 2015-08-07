@@ -1,14 +1,14 @@
 {
   "$type": "Bespoke.epsikologi_jabatan.Domain.Jabatan, epsikologi.Jabatan",
-  "JabatanNo": "25972",
+  "JabatanNo": "majlis-sukan-negara",
   "NamaJabatan": "MAJLIS SUKAN NEGARA",
   "AgensiNo": "NA",
-  "Kementerian": null,
+  "Kementerian": "KEMENTERIAN BELIA DAN SUKAN",
   "AgensiKumpulan": "BBP",
-  "CreatedBy": "admin",
+  "CreatedBy": "erymuzuan",
   "Id": "majlis-sukan-negara",
-  "CreatedDate": "2015-06-05T10:39:31.9957719+08:00",
+  "CreatedDate": "2015-08-07T19:18:51.1720212+08:00",
   "ChangedBy": "admin",
-  "ChangedDate": "2015-07-01T13:41:26.1472612+08:00",
-  "WebId": "e2e66ca7-cc6d-40f2-9b79-580b3f1061cf"
+  "ChangedDate": "2015-08-07T19:18:51.1720212+08:00",
+  "WebId": "31bdbea3-b385-4b0d-a0ed-5cc67ebc0389"
 }

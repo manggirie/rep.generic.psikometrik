@@ -1,14 +1,14 @@
 {
   "$type": "Bespoke.epsikologi_jabatan.Domain.Jabatan, epsikologi.Jabatan",
-  "JabatanNo": "62506",
+  "JabatanNo": "majlis-daerah-machang",
   "NamaJabatan": "MAJLIS DAERAH MACHANG",
   "AgensiNo": "NA",
-  "Kementerian": null,
+  "Kementerian": "PENTADBIRAN KERAJAAN NEGERI KELANTAN",
   "AgensiKumpulan": "PBT",
-  "CreatedBy": "admin",
+  "CreatedBy": "erymuzuan",
   "Id": "majlis-daerah-machang",
-  "CreatedDate": "2015-06-05T10:39:35.3579621+08:00",
+  "CreatedDate": "2015-08-07T19:18:51.1735206+08:00",
   "ChangedBy": "admin",
-  "ChangedDate": "2015-07-01T13:41:33.4189883+08:00",
-  "WebId": "6cc96deb-7aef-4180-9e97-fb07622cb3f6"
+  "ChangedDate": "2015-08-07T19:18:51.1735206+08:00",
+  "WebId": "76fbde92-d71a-49ac-b889-e11fc4af3935"
 }
