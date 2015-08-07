@@ -1,18 +1,92 @@
 @model web.sph.App_Code.PpkpTraitViewModel
 @{
-	Layout = "_MasterPage.cshtml";
+    Layout = "_MasterPage.cshtml";
 }
 
 <div style="height:40px"></div>
 <table class="">
-  <colgroup>
-    <col style="width:180px"/>
-    <col style="width:20px"/>
-    <col style="width:600px"/>
-  </colgroup>
+    <colgroup>
+        <col style="width:180px" />
+        <col style="width:20px" />
+        <col style="width:600px" />
+    </colgroup>
 
 </table>
+<div class="row">
+    <div class="col-lg-7 col-md-7 col-sm-12">
+        <p>Chart</p>
+    </div>
+    <div class="col-lg-5 col-md-5 col-sm-12">
+        <h3>PROFIL PERSONALITI</h3>
+        <div>
+            <strong>KESTABILAN EMOSI : @Model.Emosi.Tret</strong>
+            <br />
+            @Model.Emosi.InterpretasiRingkas
+        </div>
+        <div>
+            <strong>Keperibadian: @Model.Peribadi.Tret</strong>
+            <br />
+            @Model.Peribadi.InterpretasiRingkas
+        </div>
 
+        <div>
+            <strong> Hubungan Interpersonal: @Model.Interpersonal.Tret</strong>
+            <br />
+            @Model.Interpersonal.InterpretasiRingkas
+        </div>
+        <div>
+            <strong>Gaya Cara Pemikiran : @Model.Pemikiran.Tret</strong>
+
+            <br />
+            @Model.Pemikiran.InterpretasiRingkas
+        </div>
+        <div>
+            <strong>Gaya Cara Kerja : @Model.GayaBekerja.Tret</strong>
+            <br />
+            @Model.GayaBekerja.InterpretasiRingkas
+        </div>
+    </div>
+
+</div>
+<div class="row">
+    <div class="col-lg-7 col-md-7 col-sm-12">
+        <p>Radar Chart</p>
+    </div>
+    <div class="col-lg-5 col-md-5 col-sm-12">
+        <h3>PROFIL KEMPIMPINAN</h3>
+        <div>
+            <strong>@Model.Emosi.Tret</strong>
+            <br />
+            @Model.Emosi.Kepimpinan
+        </div>
+        <div>
+            <strong>@Model.Peribadi.Tret</strong>
+            <br />
+            @Model.Peribadi.Kepimpinan
+        </div>
+
+        <div>
+            <strong>  @Model.Interpersonal.Tret</strong>
+            <br />
+            @Model.Interpersonal.Kepimpinan
+        </div>
+        <div>
+            <strong> @Model.Pemikiran.Tret</strong>
+
+            <br />
+            @Model.Pemikiran.Kepimpinan
+        </div>
+        <div>
+            <strong> @Model.GayaBekerja.Tret</strong>
+
+            <br />
+            @Model.GayaBekerja.Kepimpinan
+        </div>
+    </div>
+
+</div>
 <script type="text/javascript">
-	window.print();
+    var vm = @Html.Raw(Model.ToString());
+
+    window.print();
 </script>

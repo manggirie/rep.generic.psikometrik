@@ -1,13 +1,20 @@
-using System;
-using System.Web.Mvc;
-using System.Text;
+using Bespoke.epsikologi_hlprecomendation.Domain;
+using Bespoke.epsikologi_ibkkodkerjaya.Domain;
+using Bespoke.epsikologi_ibkrecommendation.Domain;
+using Bespoke.epsikologi_iprecommendation.Domain;
+using Bespoke.epsikologi_ipupercentilenorms.Domain;
+using Bespoke.epsikologi_ipurecommendation.Domain;
+using Bespoke.epsikologi_pengguna.Domain;
+using Bespoke.epsikologi_percubaansesi.Domain;
+using Bespoke.epsikologi_permohonan.Domain;
+using Bespoke.epsikologi_ppkprecommendation.Domain;
+using Bespoke.epsikologi_sesiujian.Domain;
+using Bespoke.epsikologi_skorhlp.Domain;
+using Bespoke.epsikologi_skoripu.Domain;
+using Bespoke.epsikologi_soalan.Domain;
+using Bespoke.epsikologi_ujian.Domain;
 using Bespoke.Sph.Domain;
-using System.Threading.Tasks;
-using System.Linq;
-using System.Reflection;
-using System.Collections.Concurrent;
-using System.IO;
-using System.Diagnostics;
+using Bespoke.Sph.SqlRepository;
 
 namespace web.sph.App_Code
 {
@@ -16,47 +23,35 @@ namespace web.sph.App_Code
     {
     	public static void RegisterDependencies()
     	{
-      		ObjectBuilder.AddCacheList<IRepository<Bespoke.epsikologi_permohonan.Domain.Permohonan>>(
-                    new Bespoke.Sph.SqlRepository.SqlRepository<Bespoke.epsikologi_permohonan.Domain.Permohonan>());
+      		ObjectBuilder.AddCacheList<IRepository<Permohonan>>(new SqlRepository<Permohonan>());
 
-            ObjectBuilder.AddCacheList<IRepository<Bespoke.epsikologi_ujian.Domain.Ujian>>(
-                    new Bespoke.Sph.SqlRepository.SqlRepository<Bespoke.epsikologi_ujian.Domain.Ujian>());
+            ObjectBuilder.AddCacheList<IRepository<Ujian>>(new SqlRepository<Ujian>());
 
-            ObjectBuilder.AddCacheList<IRepository<Bespoke.epsikologi_sesiujian.Domain.SesiUjian>>(
-                    new Bespoke.Sph.SqlRepository.SqlRepository<Bespoke.epsikologi_sesiujian.Domain.SesiUjian>());
+            ObjectBuilder.AddCacheList<IRepository<SesiUjian>>(new SqlRepository<SesiUjian>());
 
-            ObjectBuilder.AddCacheList<IRepository<Bespoke.epsikologi_soalan.Domain.Soalan>>(
-                    new Bespoke.Sph.SqlRepository.SqlRepository<Bespoke.epsikologi_soalan.Domain.Soalan>());
+            ObjectBuilder.AddCacheList<IRepository<Soalan>>(new SqlRepository<Soalan>());
 
-            ObjectBuilder.AddCacheList<IRepository<Bespoke.epsikologi_percubaansesi.Domain.PercubaanSesi>>(
-                    new Bespoke.Sph.SqlRepository.SqlRepository<Bespoke.epsikologi_percubaansesi.Domain.PercubaanSesi>());
+            ObjectBuilder.AddCacheList<IRepository<PercubaanSesi>>(new SqlRepository<PercubaanSesi>());
 
-            ObjectBuilder.AddCacheList<IRepository<Bespoke.epsikologi_pengguna.Domain.Pengguna>>(
-                    new Bespoke.Sph.SqlRepository.SqlRepository<Bespoke.epsikologi_pengguna.Domain.Pengguna>());
+            ObjectBuilder.AddCacheList<IRepository<Pengguna>>(new SqlRepository<Pengguna>());
 
-            ObjectBuilder.AddCacheList<IRepository<Bespoke.epsikologi_skorhlp.Domain.SkorHlp>>(
-                    new Bespoke.Sph.SqlRepository.SqlRepository<Bespoke.epsikologi_skorhlp.Domain.SkorHlp>());
+            ObjectBuilder.AddCacheList<IRepository<SkorHlp>>(new SqlRepository<SkorHlp>());
 
-            ObjectBuilder.AddCacheList<IRepository<Bespoke.epsikologi_hlprecomendation.Domain.HlpRecomendation>>(
-                    new Bespoke.Sph.SqlRepository.SqlRepository<Bespoke.epsikologi_hlprecomendation.Domain.HlpRecomendation>());
+            ObjectBuilder.AddCacheList<IRepository<HlpRecomendation>>(new SqlRepository<HlpRecomendation>());
 
-            ObjectBuilder.AddCacheList<IRepository<Bespoke.epsikologi_iprecommendation.Domain.IpRecommendation>>(
-                    new Bespoke.Sph.SqlRepository.SqlRepository<Bespoke.epsikologi_iprecommendation.Domain.IpRecommendation>());
+            ObjectBuilder.AddCacheList<IRepository<IpRecommendation>>(new SqlRepository<IpRecommendation>());
 
-            ObjectBuilder.AddCacheList<IRepository<Bespoke.epsikologi_ibkkodkerjaya.Domain.IbkKodKerjaya>>(
-                    new Bespoke.Sph.SqlRepository.SqlRepository<Bespoke.epsikologi_ibkkodkerjaya.Domain.IbkKodKerjaya>());
+            ObjectBuilder.AddCacheList<IRepository<IbkKodKerjaya>>(new SqlRepository<IbkKodKerjaya>());
 
-            ObjectBuilder.AddCacheList<IRepository<Bespoke.epsikologi_ibkrecommendation.Domain.IbkRecommendation>>(
-                    new Bespoke.Sph.SqlRepository.SqlRepository<Bespoke.epsikologi_ibkrecommendation.Domain.IbkRecommendation>());
+            ObjectBuilder.AddCacheList<IRepository<IbkRecommendation>>(new SqlRepository<IbkRecommendation>());
 
-            ObjectBuilder.AddCacheList<IRepository<Bespoke.epsikologi_ipurecommendation.Domain.IpuRecommendation>>(
-                    new Bespoke.Sph.SqlRepository.SqlRepository<Bespoke.epsikologi_ipurecommendation.Domain.IpuRecommendation>());
+            ObjectBuilder.AddCacheList<IRepository<IpuRecommendation>>( new SqlRepository<IpuRecommendation>());
 
-            ObjectBuilder.AddCacheList<IRepository<Bespoke.epsikologi_skoripu.Domain.SkorIPU>>(
-                    new Bespoke.Sph.SqlRepository.SqlRepository<Bespoke.epsikologi_skoripu.Domain.SkorIPU>());
+            ObjectBuilder.AddCacheList<IRepository<SkorIPU>>( new SqlRepository<SkorIPU>());
 
-            ObjectBuilder.AddCacheList<IRepository<Bespoke.epsikologi_ipupercentilenorms.Domain.IpuPercentileNorms>>(
-                    new Bespoke.Sph.SqlRepository.SqlRepository<Bespoke.epsikologi_ipupercentilenorms.Domain.IpuPercentileNorms>());
+            ObjectBuilder.AddCacheList<IRepository<IpuPercentileNorms>>( new SqlRepository<IpuPercentileNorms>());
+
+            ObjectBuilder.AddCacheList<IRepository<PpkpRecommendation>>(new SqlRepository<PpkpRecommendation>());
 
     	}
     }
