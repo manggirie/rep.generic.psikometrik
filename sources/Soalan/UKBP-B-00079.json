@@ -3,7 +3,7 @@
   "NoRujukan": "UKBP-B-00079",
   "SoalanNo": "UKBP-B-00079",
   "TeksSoalan": "Bagi saya, bersukan adalah penting untuk membina badan yang sihat dan kuat.",
-  "SeksyenSoalan": "",
+  "SeksyenSoalan": "1",
   "PilihanJawapanCollection": {
     "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan]], domain.sph",
     "$values": [
@@ -21,7 +21,7 @@
       }
     ]
   },
-  "Trait": null,
+  "Trait": "A",
   "NamaUjian": "Ujian Khas Biasiswa Persekutuan(UKBP)",
   "Susunan": 79.0,
   "Kategori": null,
@@ -30,6 +30,6 @@
   "Id": "UKBP-B-00079",
   "CreatedDate": "2015-07-06T11:24:56.4706082+08:00",
   "ChangedBy": "admin",
-  "ChangedDate": "2015-07-06T11:24:56.4701081+08:00",
+  "ChangedDate": "2015-08-07T16:28:07.1913753+08:00",
   "WebId": "9340943e-e448-432c-82c7-afa6a605fd02"
 }

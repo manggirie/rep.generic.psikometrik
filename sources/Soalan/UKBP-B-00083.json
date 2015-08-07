@@ -3,7 +3,7 @@
   "NoRujukan": "UKBP-B-00083",
   "SoalanNo": "UKBP-B-00083",
   "TeksSoalan": "Jika saya gagal membuat sesuatu perkara pada kali pertama, selalunya saya akan bangkit semula dengan penuh semangat.",
-  "SeksyenSoalan": "",
+  "SeksyenSoalan": "1",
   "PilihanJawapanCollection": {
     "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan]], domain.sph",
     "$values": [
@@ -21,7 +21,7 @@
       }
     ]
   },
-  "Trait": null,
+  "Trait": "E",
   "NamaUjian": "Ujian Khas Biasiswa Persekutuan(UKBP)",
   "Susunan": 83.0,
   "Kategori": null,
@@ -30,6 +30,6 @@
   "Id": "UKBP-B-00083",
   "CreatedDate": "2015-07-06T11:24:56.5166402+08:00",
   "ChangedBy": "admin",
-  "ChangedDate": "2015-07-06T11:24:56.5151394+08:00",
+  "ChangedDate": "2015-08-07T16:29:09.9789033+08:00",
   "WebId": "b715d0b5-7698-4eeb-9795-af9273a82a8c"
 }
