@@ -2,7 +2,22 @@
   "$type": "Bespoke.Sph.Domain.EntityView, domain.sph",
   "FilterCollection": {
     "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.Sph.Domain.Filter, domain.sph]], domain.sph",
-    "$values": []
+    "$values": [
+      {
+        "$type": "Bespoke.Sph.Domain.Filter, domain.sph",
+        "Term": "Jantina",
+        "Operator": "Eq",
+        "Field": {
+          "$type": "Bespoke.Sph.Domain.ConstantField, domain.sph",
+          "TypeName": "System.String, mscorlib",
+          "Value": "Lelaki",
+          "Name": "Lelaki",
+          "Note": "",
+          "WebId": "9e4345b2-3268-46e9-d76d-fbd5677af50b"
+        },
+        "WebId": "9d83a127-9b05-4e5b-9ed0-71d6a21cd122"
+      }
+    ]
   },
   "ViewColumnCollection": {
     "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.Sph.Domain.ViewColumn, domain.sph]], domain.sph",
@@ -235,8 +250,8 @@
   "IconClass": "fa fa-plus-square-o",
   "IconStoreId": null,
   "EntityDefinitionId": "ukbppercentilenorms",
-  "Name": "All Ukbp PercentileNorms",
-  "Route": "ukbp-percentile-norms-all",
+  "Name": "Male Ukbp PercentileNorms",
+  "Route": "male-ukbp-percentile-norms",
   "Note": null,
   "Query": null,
   "IsPublished": true,
@@ -244,13 +259,13 @@
   "TileColour": "bblue",
   "CountMessage": null,
   "Entity": "UkbpPercentileNorms",
-  "Partial": "partial/ukbp percentilenorms-all",
+  "Partial": "partial/male-ukbp-percentile-norms",
   "Template": null,
   "DisplayOnDashboard": true,
   "CreatedBy": "admin",
-  "Id": "2dda0da9-9a79-43e3-87ec-93a80c38ebb5",
+  "Id": "ukbppercentilenorms-male-ukbp-percentile-norms",
   "CreatedDate": "2015-08-07T11:15:30.3846556+08:00",
   "ChangedBy": "admin",
-  "ChangedDate": "2015-08-07T15:17:13.8013456+08:00",
+  "ChangedDate": "2015-08-07T15:15:39.7205905+08:00",
   "WebId": "03f7ec19-52cf-48e8-8b17-3943768d5df6"
 }

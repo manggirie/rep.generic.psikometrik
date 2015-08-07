@@ -1,0 +1,55 @@
+<h1>Male Ukbp PercentileNorms</h1>
+<div class="row">
+    <div class="col-md-8">
+        <button class="btn btn-link pull-right" data-bind="visible: chartFiltered, click: clearChartFilter">
+            <i class="fa fa-times"></i>
+            Clear chart's filter
+        </button>
+        <table class="table table-striped" data-bind="filter : {path:'tbody>tr'}, searchPaging :{ query: query, map : map, entity : 'UkbpPercentileNorms', list:list}">
+            <thead>
+                <tr>
+                    <th>No</th>
+                    <th>Raw Score</th>
+                    <th>Jantina</th>
+                    <th>A</th>
+                    <th>B</th>
+                    <th>C</th>
+                    <th>D</th>
+                    <th>E</th>
+                    <th>F</th>
+                    <th>G</th>
+                    <th>H</th>
+                    <th>I</th>
+                </tr>
+            </thead>
+            <tbody data-bind="foreach :list">
+                <tr data-bind="">
+
+                    <td>
+                        <a data-bind="attr : {href:'#ukbppercentilenorms-details' + '/' + Id, title:'No' }">
+                            <i class="fa fa-plus"></i>
+                                                        <span data-bind="text:No"></span>
+                        </a>
+                    </td>
+                    <td data-bind="text:RawScore"></td>
+                    <td data-bind="text:Jantina"></td>
+                    <td data-bind="text:A"></td>
+                    <td data-bind="text:B"></td>
+                    <td data-bind="text:C"></td>
+                    <td data-bind="text:D"></td>
+                    <td data-bind="text:E"></td>
+                    <td data-bind="text:F"></td>
+                    <td data-bind="text:G"></td>
+                    <td data-bind="text:H"></td>
+                    <td data-bind="text:I"></td>
+
+
+                </tr>
+            </tbody>
+        </table>
+        <img src="/Images/spinner-md.gif" alt="loading" class="absolute-center" data-bind="visible: isBusy" />
+    </div>
+
+    <!-- ko compose : {view : '_chart.panel'}-->
+    <!-- /ko -->
+</div>
