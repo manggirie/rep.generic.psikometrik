@@ -5,17 +5,14 @@
   "NilaiMin": 126,
   "NilaiMax": 200,
   "Dimensi": "Kestabilan Emosi",
-  "ShortInterpretationCollection": {
-    "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.epsikologi_ppkprecommendation.Domain.ShortInterpretation, epsikologi.PpkpRecommendation]], domain.sph",
-    "$values": []
-  },
   "Interpretasi": "Anda seorang yang sangat tenang dan optimistik walaupun berada dalam situasi tertekan.  Anda mempunyai emosi yang stabil dan berupaya menjadikan sesuatu situasi lebih baik daripada sedia ada.\n\nDalam membuat keputusan, anda seorang yang tegas, berkeyakinan tinggi dan sedia menghadapi sesuatu yang di luar jangka.  Anda boleh menyelesaikan sesuatu isu secara rasional, analitis dan efektif. \n\nAnda seorang yang bercita-cita tinggi, suka mempunyai autonomi dan mengetuai kumpulan atau orang lain.  Anda menghargai keselamatan, keamanan dan sangat berpuashati dengan kehidupan yang dilalui.\n",
   "Kepimpinan": "Keupayaan mengawal stres menyebabkan orang lain mempunyai keyakinan yang tinggi terhadap anda sebagai seorang ketua. ",
   "Cadangan": "Anda perlu berhati-hati dalam mempamerkan sikap yang terlalu tenang ketika berhadapan dengan situasi krisis kerana tindakan sedemikian boleh mendorong orang lain melihat anda sebagai seorang yang tidak serius menyelesaikan sesuatu isu dengan segera. ",
+  "InterpretasiRingkas": "Tenang, Rasional, Stabil",
   "CreatedBy": "admin",
   "Id": "f4a0f66f-3a9b-4fc4-b2e5-6dfbcad6cb97",
   "CreatedDate": "2015-08-03T18:25:28.6375235+08:00",
-  "ChangedBy": "admin",
-  "ChangedDate": "2015-08-03T18:25:28.6365234+08:00",
+  "ChangedBy": "urusetia1",
+  "ChangedDate": "2015-08-07T15:24:26.3252166+08:00",
   "WebId": "fb90ff06-0eec-4a34-95b9-3b08d4eadb2a"
 }

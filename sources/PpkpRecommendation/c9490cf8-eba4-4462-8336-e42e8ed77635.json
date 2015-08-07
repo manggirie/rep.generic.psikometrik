@@ -5,17 +5,14 @@
   "NilaiMin": 0,
   "NilaiMax": 100,
   "Dimensi": "Cara Gaya Bekerja",
-  "ShortInterpretationCollection": {
-    "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.epsikologi_ppkprecommendation.Domain.ShortInterpretation, epsikologi.PpkpRecommendation]], domain.sph",
-    "$values": []
-  },
   "Interpretasi": "Anda seorang yang bersikap spontan, tidak suka kepada tugas yang berstruktur dan boleh melakukan pelbagai tugas pada masa yang sama.  Anda mengambil pendekatan secara bersantai, bersikap fleksibel dan terbuka dalam melaksanakan tugas kerana yang penting adalah kewajaran atau kebergunaannya dalam mencapai matlamat.\n\nImplikasinya, anda dilihat sebagai seorang yang kurang teliti, berhati-hati dan produktif, mengambil mudah terhadap tanggungjawab, tidak merancang dan sistematik.\n",
   "Kepimpinan": "Anda boleh menguruskan modal insan dengan baik tetapi kurang sistematik dan mudah terganggu dengan pencapaian matlamat jangka panjang.",
   "Cadangan": "Anda perlu bersikap sistematik, teliti dan membuat perancangan agar tidak melakukan tugasan pada saat terakhir.",
+  "InterpretasiRingkas": "Fleksibel, Keterbukaan, Berlengah-Lengah",
   "CreatedBy": "admin",
   "Id": "c9490cf8-eba4-4462-8336-e42e8ed77635",
   "CreatedDate": "2015-08-03T18:27:30.8207406+08:00",
-  "ChangedBy": "admin",
-  "ChangedDate": "2015-08-03T18:27:30.8187404+08:00",
+  "ChangedBy": "urusetia1",
+  "ChangedDate": "2015-08-07T15:23:55.4158369+08:00",
   "WebId": "adeb7523-b04a-48d7-e01a-368e8ad26abd"
 }

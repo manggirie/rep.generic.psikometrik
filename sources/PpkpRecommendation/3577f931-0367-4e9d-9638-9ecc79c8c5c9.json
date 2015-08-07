@@ -5,17 +5,14 @@
   "NilaiMin": 81,
   "NilaiMax": 100,
   "Dimensi": "Cara Gaya Pemikiran",
-  "ShortInterpretationCollection": {
-    "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.epsikologi_ppkprecommendation.Domain.ShortInterpretation, epsikologi.PpkpRecommendation]], domain.sph",
-    "$values": []
-  },
   "Interpretasi": "Anda sedia mempertimbangkan cara baru melakukan sesuatu perkara jika terdapat bukti yang meyakinkan.  Anda menghargai inovasi dan keberkesanan serta sedia menerima dan mengembangkan idea yang bagus daripada orang lain.",
   "Kepimpinan": "Anda mempunyai imaginasi, boleh membuat jangkaan tentang masa hadapan, memberi fokus kepada strategi dan menerima perubahan apabila diperlukan.",
   "Cadangan": "Tiada",
+  "InterpretasiRingkas": "Inovasi, Imaginasi, Perlu Diyakini",
   "CreatedBy": "admin",
   "Id": "3577f931-0367-4e9d-9638-9ecc79c8c5c9",
   "CreatedDate": "2015-08-03T18:31:41.569813+08:00",
-  "ChangedBy": "admin",
-  "ChangedDate": "2015-08-03T18:31:41.5688129+08:00",
+  "ChangedBy": "urusetia1",
+  "ChangedDate": "2015-08-07T15:22:43.702582+08:00",
   "WebId": "1a3afd68-42c9-4085-d5f9-e24828002cee"
 }

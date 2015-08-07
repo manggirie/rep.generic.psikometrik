@@ -5,17 +5,14 @@
   "NilaiMin": 0,
   "NilaiMax": 100,
   "Dimensi": "Kestabilan Emosi",
-  "ShortInterpretationCollection": {
-    "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.epsikologi_ppkprecommendation.Domain.ShortInterpretation, epsikologi.PpkpRecommendation]], domain.sph",
-    "$values": []
-  },
   "Interpretasi": "Anda sangat mengambil berat dan bertanggungjawab terhadap permasalahan yang dialami atau yang dicetuskan oleh orang lain.  Bagaimanapun, anda sering merujuk kepada ketua kerana tidak suka dan berasa tidak yakin untuk membuat keputusan. \n\nDari segi emosi, anda mudah berasa bimbang apabila stres atau berhadapan dengan perubahan (sesuatu yang diluar jangka).  Anda juga mudah dipengaruhi oleh emosi negatif,  bersikap pesimistik dan menjadi \u0018moody\u0019.\n\nImplikasinya, anda jarang berpuashati dengan kehidupan yang dilalui dan sering berasa perlu kestabilan dalam kehidupan.\n",
   "Kepimpinan": "Kegagalan mengawal stres menyebabkan orang lain hilang keyakinan terhadap anda sebagai seorang ketua.",
   "Cadangan": "Anda disarankan untuk meluahkan emosi negatif secara efektif dan menyelesaikan masalah sedia ada dengan segera.",
+  "InterpretasiRingkas": "Sensitif, Bimbang, Berwaspada",
   "CreatedBy": "urusetia1",
   "Id": "778d372c-6491-4c65-9102-d1b64e95b358",
   "CreatedDate": "2015-08-03T17:52:47.2384032+08:00",
   "ChangedBy": "urusetia1",
-  "ChangedDate": "2015-08-03T17:52:47.236403+08:00",
+  "ChangedDate": "2015-08-07T15:21:26.9168997+08:00",
   "WebId": "a4bdf191-0eda-4e44-f102-46372cc15d7a"
 }

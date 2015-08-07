@@ -5,17 +5,14 @@
   "NilaiMin": 121,
   "NilaiMax": 150,
   "Dimensi": "Keperibadian",
-  "ShortInterpretationCollection": {
-    "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.epsikologi_ppkprecommendation.Domain.ShortInterpretation, epsikologi.PpkpRecommendation]], domain.sph",
-    "$values": []
-  },
   "Interpretasi": "Anda boleh bekerja secara bersendirian, bekerjasama atau bersaing dengan orang lain mengikut kesesuaian situasi.  Anda sering mencari peluang sama rata dengan orang lain dan suka mengambil jalan tengah apabila membantu dua pihak yang berselisihan faham.",
   "Kepimpinan": "Anda seorang yang tegas tetapi boleh memahami keperluan orang lain.  Anda mempunyai kemahiran perundingan yang baik dan menggunakan pendekatan \u0018menang-menang\u0019.",
   "Cadangan": "Tiada",
+  "InterpretasiRingkas": "Toleransi, Kesamarataan, \u001cMenang-Menang\u001d",
   "CreatedBy": "admin",
   "Id": "dc41f0ab-a30e-4c8e-aa89-0b740638d336",
   "CreatedDate": "2015-08-03T18:50:52.5559001+08:00",
-  "ChangedBy": "admin",
-  "ChangedDate": "2015-08-03T18:50:52.5538999+08:00",
+  "ChangedBy": "urusetia1",
+  "ChangedDate": "2015-08-07T15:24:12.1586171+08:00",
   "WebId": "0ba74a61-a152-4484-f5cb-fa6623cef865"
 }
