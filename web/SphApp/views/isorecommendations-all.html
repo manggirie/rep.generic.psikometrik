@@ -1,0 +1,44 @@
+<h1>All IsoRecommendations</h1>
+<div class="row">
+    <div class="col-md-8">
+        <button class="btn btn-link pull-right" data-bind="visible: chartFiltered, click: clearChartFilter">
+            <i class="fa fa-times"></i>
+            Clear chart's filter
+        </button>
+        <table class="table table-striped" data-bind="filter : {path:'tbody>tr'}, searchPaging :{ query: query, map : map, entity : 'IsoRecommendation', list:list}">
+            <thead>
+                <tr>
+                    <th>No</th>
+                    <th>Dimensi</th>
+                    <th>Tret</th>
+                    <th>Nilai Min</th>
+                    <th>Nilai Max</th>
+                    <th>Kategori</th>
+                    <th>Ciri</th>
+                </tr>
+            </thead>
+            <tbody data-bind="foreach :list">
+                <tr data-bind="">
+
+                    <td>
+                        <a data-bind="attr : {href:'#isorecommendation-details' + '/' + Id, title:'No' }">
+                                                        <span data-bind="text:No"></span>
+                        </a>
+                    </td>
+                    <td data-bind="text:Dimensi"></td>
+                    <td data-bind="text:Tret"></td>
+                    <td data-bind="text:NilaiMin"></td>
+                    <td data-bind="text:NilaiMax"></td>
+                    <td data-bind="text:Kategori"></td>
+                    <td data-bind="text:Ciri"></td>
+
+
+                </tr>
+            </tbody>
+        </table>
+        <img src="/Images/spinner-md.gif" alt="loading" class="absolute-center" data-bind="visible: isBusy" />
+    </div>
+
+    <!-- ko compose : {view : '_chart.panel'}-->
+    <!-- /ko -->
+</div>
