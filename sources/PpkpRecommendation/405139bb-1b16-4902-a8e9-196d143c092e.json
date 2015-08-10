@@ -5,17 +5,14 @@
   "NilaiMin": 101,
   "NilaiMax": 125,
   "Dimensi": "Kestabilan Emosi",
-  "ShortInterpretationCollection": {
-    "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.epsikologi_ppkprecommendation.Domain.ShortInterpretation, epsikologi.PpkpRecommendation]], domain.sph",
-    "$values": []
-  },
   "Interpretasi": "Anda seorang yang tenang dan mempunyai daya tahan sederhana terhadap stres.  Bagaimanapun, ada ketikanya, anda mungkin berasa bimbang atau kecewa apabila berhadapan dengan peristiwa luar jangka, krisis atau kecemasan.  Dalam situasi tertentu, anda berasa ragu dan cenderung merujuk kepada ketua sebelum membuat keputusan.\n\nNamun, disebalik apa yang anda lalui, anda masih berpuashati dan menghargai kehidupan yang dilalui. \n",
   "Kepimpinan": "Keupayaan mengawal stres membuatkan orang lain berasa yakin terhadap anda  sebagai seorang ketua. ",
   "Cadangan": "Anda memerlukan masa untuk menenangkan fikiran dan emosi sebelum memulakan kerja atau menyelesaikan masalah sedia ada.",
+  "InterpretasiRingkas": "\u0013 Kadangkala Kecewa, Berasa Ragu, Berpuashati",
   "CreatedBy": "admin",
   "Id": "405139bb-1b16-4902-a8e9-196d143c092e",
   "CreatedDate": "2015-08-03T18:24:35.5712174+08:00",
-  "ChangedBy": "admin",
-  "ChangedDate": "2015-08-03T18:24:35.5602163+08:00",
+  "ChangedBy": "urusetia1",
+  "ChangedDate": "2015-08-10T09:59:09.5761322+08:00",
   "WebId": "2dc8fd8a-7390-42a0-815b-015f9cc9aad1"
 }

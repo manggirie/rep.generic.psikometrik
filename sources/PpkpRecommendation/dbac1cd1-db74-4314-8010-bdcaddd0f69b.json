@@ -5,17 +5,14 @@
   "NilaiMin": 101,
   "NilaiMax": 160,
   "Dimensi": "Cara Gaya Pemikiran",
-  "ShortInterpretationCollection": {
-    "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.epsikologi_ppkprecommendation.Domain.ShortInterpretation, epsikologi.PpkpRecommendation]], domain.sph",
-    "$values": []
-  },
   "Interpretasi": "Anda seorang yang bersikap ingin tahu, berwawasan, suka menyelesaikan masalah dan mencabar cara bagaimana sesuatu perkara dilakukan.  \n\nAnda suka kepada teori, konsep atau idea baru dan bersedia membuat perubahan serta menerima risiko.  Anda seorang yang berfikiran kreatif dan strategik, bersikap idealistik dan mempunyai pelbagai minat.\n\nImplikasinya, walaupun anda seorang yang berimaginasi tinggi, ada kalanya, anda dilihat sebagai seorang yang tidak praktikal dan hidup dalam dunia fantasi.\n",
   "Kepimpinan": "Anda melihat perubahan sebagai sesuatu yang menyeronokkan tetapi tidak suka memeriksa sesuatu perkara secara terperinci.",
   "Cadangan": "Anda disarankan memberi perhatian kepada perkara penting secara terperinci, mematuhi prosedur dan sistem sedia ada serta merancang sebelum melaksanakan sesuatu tugasan.",
+  "InterpretasiRingkas": "\u0013 Bersifat Ingin Tahu, Kreatif, Kepelbagaian",
   "CreatedBy": "admin",
   "Id": "dbac1cd1-db74-4314-8010-bdcaddd0f69b",
   "CreatedDate": "2015-08-03T18:32:36.7693324+08:00",
-  "ChangedBy": "admin",
-  "ChangedDate": "2015-08-03T18:32:36.7673322+08:00",
+  "ChangedBy": "urusetia1",
+  "ChangedDate": "2015-08-10T09:58:34.1885938+08:00",
   "WebId": "3a9f3c9b-477e-4544-e9bc-865b9b5b3777"
 }
