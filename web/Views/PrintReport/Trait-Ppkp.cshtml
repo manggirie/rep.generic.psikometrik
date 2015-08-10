@@ -27,10 +27,11 @@
     </colgroup>
     <tbody>
         <tr>
-            <td>
-                <canvas id="profil-personaliti-chart" height="400" width="400"></canvas>
+            <td style="text-align: center">
+                <strong>PROFIL PERSONALITI</strong>
+                <canvas id="profil-personaliti-chart" height="250" width="400"></canvas>
             </td>
-            <td>
+            <td style="vertical-align:top">
 
                 <div>
                     <h3>PROFIL PERSONALITI</h3>
@@ -66,7 +67,8 @@
         </tr>
 
         <tr>
-            <td>
+            <td style="text-align: center">
+                <strong>PROFIL KEPIMPINAN</strong>
                 <canvas id="profil-kempipinan-chart" height="400" width="400"></canvas>
             </td>
             <td>
@@ -105,10 +107,13 @@
         </tr>
 
         <tr>
-          <td colspan="2">
+            <td colspan="2" style="text-align: center">
+                <div style="border: 1px solid #000000;padding-top: 10px">
 
-            <canvas id="kesesuaian-penempatan-chart" height="400" width="800"></canvas>
-          </td>
+                    <strong>KESESUAIAN PENEMPATAN</strong>
+                    <canvas id="kesesuaian-penempatan-chart" height="250" width="600"></canvas>
+                </div>
+            </td>
         </tr>
     </tbody>
 </table>
@@ -137,53 +142,59 @@
     var kepimpinanData = {
         labels: ["BERDAYA TAHAN", "ASERTIF", "EKSTROVERT", "STRATEGIS", "FOKUS"],
         datasets: [
-			{
-			    label: "PROFIL KEMPIPINAN",
-			    fillColor: "rgba(220,220,220,0.2)",
-			    strokeColor: "red",
-			    pointColor: "red",
-			    pointStrokeColor: "#fff",
-			    pointHighlightFill: "#fff",
-			    pointHighlightStroke: "rgba(220,220,220,1)",
-			    data: [@Model.ProfilKepimpinan.BerdayaTahan, @Model.ProfilKepimpinan.Asertif, @Model.ProfilKepimpinan.Ekstrovert, @Model.ProfilKepimpinan.Strategis, @Model.ProfilKepimpinan.Fokus]
-			}
+            {
+                label: "PROFIL KEMPIPINAN",
+                fillColor: "rgba(220,220,220,0.2)",
+                strokeColor: "red",
+                pointColor: "red",
+                pointStrokeColor: "#fff",
+                pointHighlightFill: "#fff",
+                pointHighlightStroke: "rgba(220,220,220,1)",
+                data: [@Model.ProfilKepimpinan.BerdayaTahan, @Model.ProfilKepimpinan.Asertif, @Model.ProfilKepimpinan.Ekstrovert, @Model.ProfilKepimpinan.Strategis, @Model.ProfilKepimpinan.Fokus]
+            }
         ]
     };
     var kesesuaianPenempatanData = {
         labels: ["Pembuat Dasar dan Strategi", "Penyelesaian Masalah", "Penguatkuasaan", "Operasi", "Perkhidmatan Pelanggan"],
         datasets: [
-			{
-			    label: "KESESUAIAN PENEMPATAN",
-			    fillColor: "rgba(220,220,220,0.2)",
-			    strokeColor: "red",
-			    pointColor: "red",
-			    pointStrokeColor: "#fff",
-			    pointHighlightFill: "#fff",
-			    pointHighlightStroke: "rgba(220,220,220,1)",
-			    data: [@Model.ProfilKepimpinan.BerdayaTahan, @Model.ProfilKepimpinan.Asertif, @Model.ProfilKepimpinan.Ekstrovert, @Model.ProfilKepimpinan.Strategis, @Model.ProfilKepimpinan.Fokus]
-			}
+            {
+                label: "KESESUAIAN PENEMPATAN",
+                pointStrokeColor: "#fff",
+                pointHighlightFill: "#fff",
+                pointHighlightStroke: "rgba(220,220,220,1)",
+                data: [@Model.ProfilKepimpinan.BerdayaTahan, @Model.ProfilKepimpinan.Asertif, @Model.ProfilKepimpinan.Ekstrovert, @Model.ProfilKepimpinan.Strategis, @Model.ProfilKepimpinan.Fokus]
+            }
         ]
     };
-    window.onload = function(){
+    window.onload = function() {
 
 
         window.profilPersonalitiChart = new Chart(document.getElementById("profil-personaliti-chart").getContext("2d")).Line(personalitiData, {
-            bezierCurve :false
+            bezierCurve: false
         });
-        window.profilKepimpinanChart =  new Chart(document.getElementById("profil-kempipinan-chart").getContext("2d")).Radar(kepimpinanData, {
-            datasetFill : false,
-            scaleShowLabels : true,
-            scaleOverride : true,
-            scaleSteps : 5,
-            scaleStepWidth : 1,
-            scaleStartValue : 0 
+        window.profilKepimpinanChart = new Chart(document.getElementById("profil-kempipinan-chart").getContext("2d")).Radar(kepimpinanData, {
+            datasetFill: false,
+            scaleShowLabels: true,
+            scaleOverride: true,
+            scaleSteps: 5,
+            scaleStepWidth: 1,
+            scaleStartValue: 0
         });
-        window.kesesuaianPenempatanChart =  new Chart(document.getElementById("kesesuaian-penempatan-chart").getContext("2d")).Bar(kesesuaianPenempatanData, {
-            scaleOverride : true,
-            scaleSteps : 5,
-            scaleStepWidth : 1,
-            scaleStartValue : 0 
+        var kpc = document.getElementById("kesesuaian-penempatan-chart").getContext("2d");
+      
+        window.kesesuaianPenempatanChart = new Chart(kpc).Bar(kesesuaianPenempatanData, {
+            scaleOverride: true,
+            scaleSteps: 5,
+            scaleStepWidth: 1,
+            scaleStartValue: 0
         });
+
+        kesesuaianPenempatanChart.datasets[0].bars[0].fillColor = "red"; //bar 1
+        kesesuaianPenempatanChart.datasets[0].bars[1].fillColor = "greenyellow"; //bar 2
+        kesesuaianPenempatanChart.datasets[0].bars[2].fillColor = "#98bde3"; //bar 3
+        kesesuaianPenempatanChart.datasets[0].bars[3].fillColor = "#719bf0"; //bar 3
+        kesesuaianPenempatanChart.datasets[0].bars[4].fillColor = "#3bae63"; //bar 3
+        kesesuaianPenempatanChart.update();
 
 //myBarChart = new Chart(ctx).Bar(data, options);
 
@@ -194,3 +205,4 @@
     }
 
 </script>
+<div style="color: #98bde3"></div>
