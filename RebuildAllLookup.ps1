@@ -56,3 +56,5 @@ foreach($t in $files){
 
 Write-Host "Done..."
 
+copy .\lib\EPPlus.dll .\web\bin\
+

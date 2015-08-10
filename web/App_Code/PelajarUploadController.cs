@@ -35,7 +35,7 @@ namespace web.sph.App_Code
             var context = new SphDataContext();
             var store = ObjectBuilder.GetObject<IBinaryStore>();
             var doc = await store.GetContentAsync(id);
-            var temp = System.IO.Path.GetTempFileName() + ".xlsx";
+            var temp = Path.GetTempFileName() + ".xlsx";
             System.IO.File.WriteAllBytes(temp, doc.Content);
 
             var file = new FileInfo(temp);
