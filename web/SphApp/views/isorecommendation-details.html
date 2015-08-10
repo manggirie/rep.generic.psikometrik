@@ -1,0 +1,125 @@
+
+
+<h1 data-i18n="IsoRecommendation details">IsoRecommendation details</h1>
+<div id="error-list" class="row" data-bind="visible:errors().length">
+    <!-- ko foreach : errors -->
+    <div class="col-sm-8 col-sm-offset-2 alert alert-dismissable alert-danger">
+        <button type="button" class="close" data-dismiss="alert" aria-hidden="true">&times;</button>
+        <i class="fa fa-exclamation"></i>
+        <span data-bind="text:Message"></span>
+
+    </div>
+    <div class="col-sm-2"></div>
+    <!-- /ko-->
+</div>
+<div class="row">
+    <div class="col-sm-8">
+        
+<form class="form-horizontal" data-bind="with : entity" id="isorecommendation-details-form">
+
+
+
+    <div data-bind="visible:true" class="form-group">
+        <label data-i18n="No" for="9a4bc109-ef7f-4687-f59e-311659da678a" class="col-md-4">No</label>
+        <div class="col-md-8">
+            <input  class=" form-control input-large" title=""
+                   data-bind="value: No, enable :true "
+                   
+                   
+                   
+                   id="9a4bc109-ef7f-4687-f59e-311659da678a" type="text" name="No" />
+        </div>
+    </div>
+
+
+    <div class="form-group" data-bind="visible:true">
+        <label data-i18n="Dimensi" for="0e2b53a4-aa35-4ee6-d50d-abe2ba60e2eb" class="col-md-4">Dimensi</label>
+        <div class="col-md-8">
+            <select  data-bind="value: Dimensi, enable :true" id="0e2b53a4-aa35-4ee6-d50d-abe2ba60e2eb" name="Dimensi" class=" input-large form-control">
+                    <option value="Anda dan Stres" data-i18n="Anda dan Stres">Anda dan Stres</option>
+                    <option value="Punca Stres" data-i18n="Punca Stres">Punca Stres</option>
+                    <option value="Tindak Balas Stres" data-i18n="Tindak Balas Stres">Tindak Balas Stres</option>
+                    <option value="Orientasi Terhadap Stres" data-i18n="Orientasi Terhadap Stres">Orientasi Terhadap Stres</option>
+                    <option value="Kecenderungan Stres" data-i18n="Kecenderungan Stres">Kecenderungan Stres</option>
+            </select>
+        </div>
+    </div>
+
+
+    <div class="form-group" data-bind="visible:true">
+        <label data-i18n="Tret" for="6a83e449-d54c-4ecf-dd9f-9a272adaae9a" class="col-md-4">Tret</label>
+        <div class="col-md-8">
+            <select  data-bind="value: Tret, enable :true" id="6a83e449-d54c-4ecf-dd9f-9a272adaae9a" name="Tret" class=" input-large form-control">
+                    <option value="Kebimbangan" data-i18n="Kebimbangan">Kebimbangan</option>
+                    <option value="Kekecewaan" data-i18n="Kekecewaan">Kekecewaan</option>
+                    <option value="Bebanan dan Stres" data-i18n="Bebanan dan Stres">Bebanan dan Stres</option>
+                    <option value="Kebosanan dan Kesunyian" data-i18n="Kebosanan dan Kesunyian">Kebosanan dan Kesunyian</option>
+                    <option value="Ukuran Stres" data-i18n="Ukuran Stres">Ukuran Stres</option>
+                    <option value="Reaksi Terhadap Stres" data-i18n="Reaksi Terhadap Stres">Reaksi Terhadap Stres</option>
+                    <option value="Kehidupan Seimbang" data-i18n="Kehidupan Seimbang">Kehidupan Seimbang</option>
+                    <option value="Keperluan Pengurusan Masa" data-i18n="Keperluan Pengurusan Masa">Keperluan Pengurusan Masa</option>
+                    <option value="Berisiko Menghadapi Stres" data-i18n="Berisiko Menghadapi Stres">Berisiko Menghadapi Stres</option>
+                    <option value="Tahap Stres" data-i18n="Tahap Stres">Tahap Stres</option>
+            </select>
+        </div>
+    </div>
+
+
+
+    <div data-bind="visible:true" class="form-group">
+        <label data-i18n="Nilai Min" for="677d3454-bdc6-4063-88a7-e3f4a956ce29" class="col-md-4">Nilai Min</label>
+        <div class="col-md-8">
+            <input  class=" form-control input-large" title=""
+                   data-bind="value: NilaiMin, enable :true "
+                   
+                   
+                   
+                   id="677d3454-bdc6-4063-88a7-e3f4a956ce29" type="text" name="NilaiMin" />
+        </div>
+    </div>
+
+
+
+    <div data-bind="visible:true" class="form-group">
+        <label data-i18n="Nilai Max" for="cd005d2a-caf1-4fb2-801a-fd39770435ef" class="col-md-4">Nilai Max</label>
+        <div class="col-md-8">
+            <input  class=" form-control input-large" title=""
+                   data-bind="value: NilaiMax, enable :true "
+                   
+                   
+                   
+                   id="cd005d2a-caf1-4fb2-801a-fd39770435ef" type="text" name="NilaiMax" />
+        </div>
+    </div>
+
+
+    <div class="form-group" data-bind="visible:true">
+        <label data-i18n="Kategori" for="13a61bf4-e78a-41ef-d2e6-322cca4a516e" class="col-md-4">Kategori</label>
+        <div class="col-md-8">
+            <select  data-bind="value: Kategori, enable :true" id="13a61bf4-e78a-41ef-d2e6-322cca4a516e" name="Kategori" class=" input-large form-control">
+                    <option value="Tinggi" data-i18n="Tinggi">Tinggi</option>
+                    <option value="Sederhana" data-i18n="Sederhana">Sederhana</option>
+                    <option value="Rendah" data-i18n="Rendah">Rendah</option>
+            </select>
+        </div>
+    </div>
+
+
+
+    <div data-bind="visible:true" class="form-group">
+        <label data-i18n="Ciri" for="9cfac657-afb8-4bc6-d48f-00071bc5543a" class="col-md-4">Ciri</label>
+        <div class="col-md-8">
+            <input  class=" form-control input-large" title=""
+                   data-bind="value: Ciri, enable :true "
+                   
+                   
+                   
+                   id="9cfac657-afb8-4bc6-d48f-00071bc5543a" type="text" name="Ciri" />
+        </div>
+    </div>
+</form>
+    </div>
+    <div class="col-sm-4">
+        
+    </div>
+</div>
