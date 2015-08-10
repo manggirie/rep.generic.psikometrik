@@ -3,6 +3,14 @@
     Layout = "_MasterPage.cshtml";
 }
 
+@section head
+{
+    <style type="text/css">
+        .blue-header {
+            color: blue;
+        }
+    </style>
+}
 <div style="height:40px"></div>
 <table class="">
     <colgroup>
@@ -12,81 +20,177 @@
     </colgroup>
 
 </table>
-<div class="row">
-    <div class="col-lg-7 col-md-7 col-sm-12">
-        <p>Chart</p>
-    </div>
-    <div class="col-lg-5 col-md-5 col-sm-12">
-        <h3>PROFIL PERSONALITI</h3>
-        <div>
-            <strong>KESTABILAN EMOSI : @Model.Emosi.Tret</strong>
-            <br />
-            @Model.Emosi.InterpretasiRingkas
-        </div>
-        <div>
-            <strong>Keperibadian: @Model.Peribadi.Tret</strong>
-            <br />
-            @Model.Peribadi.InterpretasiRingkas
-        </div>
+<table class="row">
+    <colgroup>
+        <col style="width: 400px" />
+        <col style="width: 450px" />
+    </colgroup>
+    <tbody>
+        <tr>
+            <td>
+                <canvas id="profil-personaliti-chart" height="400" width="400"></canvas>
+            </td>
+            <td>
 
-        <div>
-            <strong> Hubungan Interpersonal: @Model.Interpersonal.Tret</strong>
-            <br />
-            @Model.Interpersonal.InterpretasiRingkas
-        </div>
-        <div>
-            <strong>Gaya Cara Pemikiran : @Model.Pemikiran.Tret</strong>
+                <div>
+                    <h3>PROFIL PERSONALITI</h3>
+                    <div>
+                        <strong class="blue-header">KESTABILAN EMOSI : @Model.Emosi.Tret</strong>
+                        <br />
+                        @Model.Emosi.InterpretasiRingkas
+                    </div>
+                    <div>
+                        <strong>Keperibadian: @Model.Peribadi.Tret</strong>
+                        <br />
+                        @Model.Peribadi.InterpretasiRingkas
+                    </div>
 
-            <br />
-            @Model.Pemikiran.InterpretasiRingkas
-        </div>
-        <div>
-            <strong>Gaya Cara Kerja : @Model.GayaBekerja.Tret</strong>
-            <br />
-            @Model.GayaBekerja.InterpretasiRingkas
-        </div>
-    </div>
+                    <div>
+                        <strong> Hubungan Interpersonal: @Model.Interpersonal.Tret</strong>
+                        <br />
+                        @Model.Interpersonal.InterpretasiRingkas
+                    </div>
+                    <div>
+                        <strong>Gaya Cara Pemikiran : @Model.Pemikiran.Tret</strong>
 
-</div>
-<div class="row">
-    <div class="col-lg-7 col-md-7 col-sm-12">
-        <p>Radar Chart</p>
-    </div>
-    <div class="col-lg-5 col-md-5 col-sm-12">
-        <h3>PROFIL KEMPIMPINAN</h3>
-        <div>
-            <strong>@Model.Emosi.Tret</strong>
-            <br />
-            @Model.Emosi.Kepimpinan
-        </div>
-        <div>
-            <strong>@Model.Peribadi.Tret</strong>
-            <br />
-            @Model.Peribadi.Kepimpinan
-        </div>
+                        <br />
+                        @Model.Pemikiran.InterpretasiRingkas
+                    </div>
+                    <div>
+                        <strong>Gaya Cara Kerja : @Model.GayaBekerja.Tret</strong>
+                        <br />
+                        @Model.GayaBekerja.InterpretasiRingkas
+                    </div>
+                </div>
+            </td>
+        </tr>
 
-        <div>
-            <strong>  @Model.Interpersonal.Tret</strong>
-            <br />
-            @Model.Interpersonal.Kepimpinan
-        </div>
-        <div>
-            <strong> @Model.Pemikiran.Tret</strong>
+        <tr>
+            <td>
+                <canvas id="profil-kempipinan-chart" height="400" width="400"></canvas>
+            </td>
+            <td>
+                <div>
+                    <h3>PROFIL KEMPIMPINAN</h3>
+                    <div>
+                        <strong>@Model.Emosi.Tret</strong>
+                        <br />
+                        @Model.Emosi.Kepimpinan
+                    </div>
+                    <div>
+                        <strong>@Model.Peribadi.Tret</strong>
+                        <br />
+                        @Model.Peribadi.Kepimpinan
+                    </div>
 
-            <br />
-            @Model.Pemikiran.Kepimpinan
-        </div>
-        <div>
-            <strong> @Model.GayaBekerja.Tret</strong>
+                    <div>
+                        <strong> @Model.Interpersonal.Tret</strong>
+                        <br />
+                        @Model.Interpersonal.Kepimpinan
+                    </div>
+                    <div>
+                        <strong> @Model.Pemikiran.Tret</strong>
 
-            <br />
-            @Model.GayaBekerja.Kepimpinan
-        </div>
-    </div>
+                        <br />
+                        @Model.Pemikiran.Kepimpinan
+                    </div>
+                    <div>
+                        <strong> @Model.GayaBekerja.Tret</strong>
 
-</div>
+                        <br />
+                        @Model.GayaBekerja.Kepimpinan
+                    </div>
+                </div>
+            </td>
+        </tr>
+
+        <tr>
+          <td colspan="2">
+
+            <canvas id="kesesuaian-penempatan-chart" height="400" width="800"></canvas>
+          </td>
+        </tr>
+    </tbody>
+</table>
+
+<script src="~/Scripts/Chart.min.js"></script>
 <script type="text/javascript">
     var vm = @Html.Raw(Model.ToString());
 
-    window.print();
+
+    var personalitiData = {
+        labels: ["Emosi", "Peribadi", "Interpersonal", "Pemikiran", "Gaya Bekerja"],
+        datasets: [
+            {
+                label: "PROFIL PERSONALITI",
+                fillColor: "rgba(220,220,220,0.2)",
+                strokeColor: "blue",
+                pointColor: "blue",
+                pointStrokeColor: "#fff",
+                pointHighlightFill: "#fff",
+                pointHighlightStroke: "rgba(220,220,220,1)",
+                data: [@Model.ProfilPersonaliti.Emosi, @Model.ProfilPersonaliti.Peribadi, @Model.ProfilPersonaliti.Interpersonal, @Model.ProfilPersonaliti.Pemikiran, @Model.ProfilPersonaliti.GayaBekerja]
+            }
+        ]
+    };
+
+    var kepimpinanData = {
+        labels: ["BERDAYA TAHAN", "ASERTIF", "EKSTROVERT", "STRATEGIS", "FOKUS"],
+        datasets: [
+			{
+			    label: "PROFIL KEMPIPINAN",
+			    fillColor: "rgba(220,220,220,0.2)",
+			    strokeColor: "red",
+			    pointColor: "red",
+			    pointStrokeColor: "#fff",
+			    pointHighlightFill: "#fff",
+			    pointHighlightStroke: "rgba(220,220,220,1)",
+			    data: [@Model.ProfilKepimpinan.BerdayaTahan, @Model.ProfilKepimpinan.Asertif, @Model.ProfilKepimpinan.Ekstrovert, @Model.ProfilKepimpinan.Strategis, @Model.ProfilKepimpinan.Fokus]
+			}
+        ]
+    };
+    var kesesuaianPenempatanData = {
+        labels: ["Pembuat Dasar dan Strategi", "Penyelesaian Masalah", "Penguatkuasaan", "Operasi", "Perkhidmatan Pelanggan"],
+        datasets: [
+			{
+			    label: "KESESUAIAN PENEMPATAN",
+			    fillColor: "rgba(220,220,220,0.2)",
+			    strokeColor: "red",
+			    pointColor: "red",
+			    pointStrokeColor: "#fff",
+			    pointHighlightFill: "#fff",
+			    pointHighlightStroke: "rgba(220,220,220,1)",
+			    data: [@Model.ProfilKepimpinan.BerdayaTahan, @Model.ProfilKepimpinan.Asertif, @Model.ProfilKepimpinan.Ekstrovert, @Model.ProfilKepimpinan.Strategis, @Model.ProfilKepimpinan.Fokus]
+			}
+        ]
+    };
+    window.onload = function(){
+
+
+        window.profilPersonalitiChart = new Chart(document.getElementById("profil-personaliti-chart").getContext("2d")).Line(personalitiData, {
+            bezierCurve :false
+        });
+        window.profilKepimpinanChart =  new Chart(document.getElementById("profil-kempipinan-chart").getContext("2d")).Radar(kepimpinanData, {
+            datasetFill : false,
+            scaleShowLabels : true,
+            scaleOverride : true,
+            scaleSteps : 5,
+            scaleStepWidth : 1,
+            scaleStartValue : 0 
+        });
+        window.kesesuaianPenempatanChart =  new Chart(document.getElementById("kesesuaian-penempatan-chart").getContext("2d")).Bar(kesesuaianPenempatanData, {
+            scaleOverride : true,
+            scaleSteps : 5,
+            scaleStepWidth : 1,
+            scaleStartValue : 0 
+        });
+
+//myBarChart = new Chart(ctx).Bar(data, options);
+
+        setTimeout(function() {
+
+            window.print();
+        }, 1000);
+    }
+
 </script>

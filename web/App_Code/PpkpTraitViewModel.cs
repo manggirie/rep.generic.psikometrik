@@ -2,6 +2,7 @@ using System.Collections.Generic;
 using System.Linq;
 using Bespoke.epsikologi_ppkprecommendation.Domain;
 using Bespoke.epsikologi_sesiujian.Domain;
+using Newtonsoft.Json;
 
 namespace web.sph.App_Code
 {
@@ -22,24 +23,63 @@ namespace web.sph.App_Code
             public int Peribadi => m_vm.E1 + m_vm.E2 + m_vm.E3 + m_vm.E4 + m_vm.E5;
 
         }
+        public class ProfilKepimpinanType
+        {
+            private readonly PpkpTraitViewModel m_vm;
+            public ProfilKepimpinanType(PpkpTraitViewModel vm)
+            {
+                m_vm = vm;
+            }
 
-        private readonly List<PpkpRecommendation> m_recommendationList = new List<PpkpRecommendation>(); 
+            public int BerdayaTahan => ((m_vm.A1 + m_vm.A2 + m_vm.A3 + m_vm.A4) * 5 / (50 * 4));
+            public int Asertif => ((m_vm.B1 + m_vm.B2 + m_vm.B3 + m_vm.B4 + m_vm.B5) * 5 / (50 * 4));
+            public int Ekstrovert => ((m_vm.C1 + m_vm.C2 + m_vm.C3 + m_vm.C4) / (40 * 4)) * 5;
+            public int Strategis => ((m_vm.D1 + m_vm.D2 + m_vm.D3 + m_vm.D4 + m_vm.D5 + m_vm.D6) * 5 / (60 * 4));
+            public int Fokus => ((m_vm.E1 + m_vm.E2 + m_vm.E3 + m_vm.E4 + m_vm.E5) * 5 / (50 * 4));
+
+        }
+        public class KesesuaianPenempatanType
+        {
+            private readonly PpkpTraitViewModel m_vm;
+            public KesesuaianPenempatanType(PpkpTraitViewModel vm)
+            {
+                m_vm = vm;
+            }
+
+            public int PembuatDasarDanStrategi => ((m_vm.A1 + m_vm.A2 + m_vm.A3 + m_vm.A4) * 5 / (50 * 4));
+            public int PenyelesaiMasalah => ((m_vm.B1 + m_vm.B2 + m_vm.B3 + m_vm.B4 + m_vm.B5) * 5 / (50 * 4));
+            public int Penguatkuasa => ((m_vm.C1 + m_vm.C2 + m_vm.C3 + m_vm.C4) / (40 * 4)) * 5;
+            public int OperasiRutin => ((m_vm.D1 + m_vm.D2 + m_vm.D3 + m_vm.D4 + m_vm.D5 + m_vm.D6) * 5 / (60 * 4));
+            public int PerkhidmatanPelanggan => ((m_vm.E1 + m_vm.E2 + m_vm.E3 + m_vm.E4 + m_vm.E5) * 5 / (50 * 4));
+
+        }
+
+        private readonly List<PpkpRecommendation> m_recommendationList = new List<PpkpRecommendation>();
         public PpkpTraitViewModel(SesiUjian sesi, PpkpRecommendation[] list)
         {
             Sesi = sesi;
             this.ProfilPersonaliti = new ProfilPersonalitiDimensiUmumType(this);
+            this.ProfilKepimpinan = new ProfilKepimpinanType(this);
+            this.KesesuaianPenempatan = new KesesuaianPenempatanType(this);
             m_recommendationList.Clear();
             m_recommendationList.AddRange(list);
 
         }
+        [JsonIgnore]
+        public PpkpRecommendation Emosi => m_recommendationList.Single(x => x.Dimensi == "Kestabilan Emosi" && x.NilaiMin <= this.ProfilPersonaliti.Emosi && this.ProfilPersonaliti.Emosi <= x.NilaiMax);
 
-        public PpkpRecommendation Emosi  => m_recommendationList.Single(x => x.Dimensi == "Kestabilan Emosi" && x.NilaiMin <= this.ProfilPersonaliti.Emosi && this.ProfilPersonaliti.Emosi <= x.NilaiMax);
-        public PpkpRecommendation GayaBekerja  => m_recommendationList.Single(x => x.Dimensi == "Cara Gaya Bekerja" && x.NilaiMin <= this.ProfilPersonaliti.GayaBekerja && this.ProfilPersonaliti.GayaBekerja <= x.NilaiMax);
-        public PpkpRecommendation Pemikiran  => m_recommendationList.Single(x => x.Dimensi == "Cara Gaya Pemikiran" && x.NilaiMin <= this.ProfilPersonaliti.Pemikiran && this.ProfilPersonaliti.Pemikiran <= x.NilaiMax);
+        [JsonIgnore]
+        public PpkpRecommendation GayaBekerja => m_recommendationList.Single(x => x.Dimensi == "Cara Gaya Bekerja" && x.NilaiMin <= this.ProfilPersonaliti.GayaBekerja && this.ProfilPersonaliti.GayaBekerja <= x.NilaiMax);
+        [JsonIgnore]
+        public PpkpRecommendation Pemikiran => m_recommendationList.Single(x => x.Dimensi == "Cara Gaya Pemikiran" && x.NilaiMin <= this.ProfilPersonaliti.Pemikiran && this.ProfilPersonaliti.Pemikiran <= x.NilaiMax);
+        [JsonIgnore]
         public PpkpRecommendation Interpersonal => m_recommendationList.Single(x => x.Dimensi == "Hubungan Interpersonal" && x.NilaiMin <= this.ProfilPersonaliti.Interpersonal && this.ProfilPersonaliti.Interpersonal <= x.NilaiMax);
+        [JsonIgnore]
         public PpkpRecommendation Peribadi => m_recommendationList.Single(x => x.Dimensi == "Keperibadian" && x.NilaiMin <= this.ProfilPersonaliti.Peribadi && this.ProfilPersonaliti.Peribadi <= x.NilaiMax);
 
-        public ProfilPersonalitiDimensiUmumType ProfilPersonaliti{ get;}
+        public ProfilPersonalitiDimensiUmumType ProfilPersonaliti { get; }
+        public ProfilKepimpinanType ProfilKepimpinan { get; }
+        public KesesuaianPenempatanType KesesuaianPenempatan { get; }
 
         public int A1 => this.Sesi.JawapanCollection.Where(a => a.Trait == "A1").Sum(a => a.Nilai);
         public int A2 => this.Sesi.JawapanCollection.Where(a => a.Trait == "A2").Sum(a => a.Nilai);
