@@ -117,7 +117,7 @@ define(["services/datacontext", objectbuilders.app, objectbuilders.router, objec
                     minutes = ko.unwrap(v.DurationMinutes),
                     start = moment.duration(hours, "hours"),
                     tcs = new $.Deferred(),
-                    sct = sections().find(function(x) {
+                    sct = _(sections()).find(function(x) {
                             return x.section === v.Name();
                         });
 
