@@ -3,7 +3,7 @@
   "NoRujukan": "UKBP-B-00223",
   "SoalanNo": "UKBP-B-00223",
   "TeksSoalan": "Pegawai Meteorlogi (Kaji Cuaca)",
-  "SeksyenSoalan": "",
+  "SeksyenSoalan": "2",
   "PilihanJawapanCollection": {
     "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan]], domain.sph",
     "$values": [
@@ -21,15 +21,15 @@
       }
     ]
   },
-  "Trait": null,
+  "Trait": "B3",
   "NamaUjian": "Ujian Khas Biasiswa Persekutuan(UKBP)",
   "Susunan": 223.0,
-  "Kategori": null,
+  "Kategori": "3",
   "Bahagian": "B",
   "CreatedBy": "admin",
   "Id": "UKBP-B-00223",
   "CreatedDate": "2015-07-06T11:24:57.7149867+08:00",
   "ChangedBy": "admin",
-  "ChangedDate": "2015-07-29T15:23:32.7899551+08:00",
+  "ChangedDate": "2015-08-11T15:59:03.888238+08:00",
   "WebId": "44bb9edc-2ac9-4457-a887-7dccfcae2678"
 }

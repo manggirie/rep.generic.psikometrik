@@ -3,7 +3,7 @@
   "NoRujukan": "UKBP-B-00231",
   "SoalanNo": "UKBP-B-00231",
   "TeksSoalan": "Ahli Fizik.",
-  "SeksyenSoalan": "",
+  "SeksyenSoalan": "2",
   "PilihanJawapanCollection": {
     "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan]], domain.sph",
     "$values": [
@@ -21,15 +21,15 @@
       }
     ]
   },
-  "Trait": null,
+  "Trait": "B3",
   "NamaUjian": "Ujian Khas Biasiswa Persekutuan(UKBP)",
   "Susunan": 231.0,
-  "Kategori": null,
+  "Kategori": "3",
   "Bahagian": "B",
   "CreatedBy": "admin",
   "Id": "UKBP-B-00231",
   "CreatedDate": "2015-07-06T11:24:57.8330706+08:00",
   "ChangedBy": "admin",
-  "ChangedDate": "2015-07-29T15:25:51.2916568+08:00",
+  "ChangedDate": "2015-08-11T16:01:37.242238+08:00",
   "WebId": "5e817da8-46f6-4c20-908c-769e22be272b"
 }

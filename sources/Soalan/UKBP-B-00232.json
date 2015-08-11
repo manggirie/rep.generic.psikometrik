@@ -3,7 +3,7 @@
   "NoRujukan": "UKBP-B-00232",
   "SoalanNo": "UKBP-B-00232",
   "TeksSoalan": "Penyelidik Sains Sosial.",
-  "SeksyenSoalan": "",
+  "SeksyenSoalan": "2",
   "PilihanJawapanCollection": {
     "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan]], domain.sph",
     "$values": [
@@ -21,15 +21,15 @@
       }
     ]
   },
-  "Trait": null,
+  "Trait": "B3",
   "NamaUjian": "Ujian Khas Biasiswa Persekutuan(UKBP)",
   "Susunan": 232.0,
-  "Kategori": null,
+  "Kategori": "3",
   "Bahagian": "B",
   "CreatedBy": "admin",
   "Id": "UKBP-B-00232",
   "CreatedDate": "2015-07-06T11:24:57.8515829+08:00",
   "ChangedBy": "admin",
-  "ChangedDate": "2015-07-29T15:26:16.5771952+08:00",
+  "ChangedDate": "2015-08-11T16:01:49.698238+08:00",
   "WebId": "07f2b768-a261-4626-a847-9e5bcff0eba5"
 }
