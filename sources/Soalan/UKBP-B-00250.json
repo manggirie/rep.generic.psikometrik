@@ -3,7 +3,7 @@
   "NoRujukan": "UKBP-B-00250",
   "SoalanNo": "UKBP-B-00250",
   "TeksSoalan": "Pegawai Anti Dadah.",
-  "SeksyenSoalan": "",
+  "SeksyenSoalan": "2",
   "PilihanJawapanCollection": {
     "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan]], domain.sph",
     "$values": [
@@ -21,15 +21,15 @@
       }
     ]
   },
-  "Trait": null,
+  "Trait": "D3",
   "NamaUjian": "Ujian Khas Biasiswa Persekutuan(UKBP)",
   "Susunan": 250.0,
-  "Kategori": null,
+  "Kategori": "3",
   "Bahagian": "B",
   "CreatedBy": "admin",
   "Id": "UKBP-B-00250",
   "CreatedDate": "2015-07-06T11:24:58.0342116+08:00",
   "ChangedBy": "admin",
-  "ChangedDate": "2015-07-29T16:18:44.7980508+08:00",
+  "ChangedDate": "2015-08-11T16:22:26.9576442+08:00",
   "WebId": "d2f7c470-6896-4f51-b5f5-098a19706797"
 }

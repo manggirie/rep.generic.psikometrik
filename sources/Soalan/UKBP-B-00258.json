@@ -3,7 +3,7 @@
   "NoRujukan": "UKBP-B-00258",
   "SoalanNo": "UKBP-B-00258",
   "TeksSoalan": "Jururawat.",
-  "SeksyenSoalan": "",
+  "SeksyenSoalan": "2",
   "PilihanJawapanCollection": {
     "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan]], domain.sph",
     "$values": [
@@ -21,15 +21,15 @@
       }
     ]
   },
-  "Trait": null,
+  "Trait": "D3",
   "NamaUjian": "Ujian Khas Biasiswa Persekutuan(UKBP)",
   "Susunan": 258.0,
-  "Kategori": null,
+  "Kategori": "3",
   "Bahagian": "B",
   "CreatedBy": "admin",
   "Id": "UKBP-B-00258",
   "CreatedDate": "2015-07-06T11:24:58.0947546+08:00",
   "ChangedBy": "admin",
-  "ChangedDate": "2015-07-29T16:23:11.589114+08:00",
+  "ChangedDate": "2015-08-11T16:24:04.6826724+08:00",
   "WebId": "dce3dc39-7689-423e-b715-3894b2736888"
 }

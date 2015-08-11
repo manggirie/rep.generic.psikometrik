@@ -3,7 +3,7 @@
   "NoRujukan": "UKBP-B-00248",
   "SoalanNo": "UKBP-B-00248",
   "TeksSoalan": "Pustakawan.",
-  "SeksyenSoalan": "",
+  "SeksyenSoalan": "2",
   "PilihanJawapanCollection": {
     "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan]], domain.sph",
     "$values": [
@@ -21,15 +21,15 @@
       }
     ]
   },
-  "Trait": null,
+  "Trait": "D3",
   "NamaUjian": "Ujian Khas Biasiswa Persekutuan(UKBP)",
   "Susunan": 248.0,
-  "Kategori": null,
+  "Kategori": "3",
   "Bahagian": "B",
   "CreatedBy": "admin",
   "Id": "UKBP-B-00248",
   "CreatedDate": "2015-07-06T11:24:58.0136973+08:00",
   "ChangedBy": "admin",
-  "ChangedDate": "2015-07-29T16:18:14.2748556+08:00",
+  "ChangedDate": "2015-08-11T16:21:54.2305875+08:00",
   "WebId": "ff0f7527-e075-4000-b0b4-b3095551fe50"
 }
