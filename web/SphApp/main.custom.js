@@ -6680,7 +6680,8 @@ define('viewmodels/shell.custom', ["durandal/system","services/system", "plugins
 
                 // load messages for the header
                 return msgHeader.attached(view).done(function(){
-                  ko.applyBindings(msgHeader, document.getElementById("header_inbox_bar"));
+                    // TODO: we get an error that header is already has binding here
+                    // ko.applyBindings(msgHeader, document.getElementById("header_inbox_bar"));
                 });
 
             },

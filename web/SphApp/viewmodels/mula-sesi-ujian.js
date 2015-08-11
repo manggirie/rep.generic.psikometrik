@@ -1,4 +1,4 @@
-define(["services/datacontext", objectbuilders.app, objectbuilders.router, objectbuilders.config], function (context, app, router, config) {
+define(["services/datacontext", objectbuilders.app, objectbuilders.config, objectbuilders.router], function (context, app, config, router) {
     var sesiUjian = ko.observable(),
         ujian = ko.observable(),
         pendaftaran = ko.observable(),
@@ -101,7 +101,7 @@ define(["services/datacontext", objectbuilders.app, objectbuilders.router, objec
                     _(questions).each(function (v) {
                         sesiUjian().JawapanCollection.push(v);
                     });
-                    // assume it's only 400 max
+                    // TODO: assume it's only 400 max, well not for UKBP which is more than 500 questions
                 });
 
 
@@ -117,9 +117,9 @@ define(["services/datacontext", objectbuilders.app, objectbuilders.router, objec
                     minutes = ko.unwrap(v.DurationMinutes),
                     start = moment.duration(hours, "hours"),
                     tcs = new $.Deferred(),
-                    sct = _(sections()).find(function(x) {
-                            return x.section === v.Name();
-                        });
+                    sct = _(sections()).find(function (x) {
+                        return x.section === v.Name();
+                    });
 
                 if (minutes === 1) {
                     start.add(40, "s");
@@ -164,12 +164,67 @@ define(["services/datacontext", objectbuilders.app, objectbuilders.router, objec
                 runTimer(sct)
                         .fail()
                         .done(function () {
-                            index++;
-                        run();
-                    });
-
+                            app.showMessage("Adakah anda ingin teruskan ke seksyen seterusnya? Jika and tekan <strong>Tidak</strong>, " +
+                                    "sesi anda akan disimpan dan anda buleh sambung semula pada masa akan datang, ataupun take a break, " +
+                                    "comeback and press <strong>Yes</strong> to continue", "JPA ePsikometrik", ["Ya", "Tidak"])
+                                  .done(function (dr) {
+                                      if (dr === "Ya") {
+                                          index++;
+                                          run();
+                                      } else {
+                                          context.post(ko.toJSON(sesiUjian), "/sesi-ujian")
+                                          .done(function () {
+                                              router.navigate("responden-home");
+                                          });
+                                      }
+                                  });
+                        });
             };
-            run();
+
+            // get saved items
+            $.getJSON("/sesi-ujian").done(function (ur) {
+                if (!ur.success) {
+                    run();
+                    return;
+                }
+                if (!ur.sesi) {
+                    run();
+                    return;
+                }
+                if (ur.sesi.Id !== ko.unwrap(sesiUjian().Id)) {
+                    run();
+                    return;
+                }
+                // move to the section which was not yet answered
+                var idx = 0;
+                console.log("we got a hit here");
+                _(ur.sesi.JawapanCollection).each(function (a) {
+                    if (!a.JawapanPilihan && idx <= 0) {
+                        // find the index of the question which has not been answered
+                        var temp = -1;
+                        _(sections()).each(function (v, i) {
+                            if (a.SeksyenSoalan === ko.unwrap(v.section)) {
+                                temp = i;
+                            }
+                        });
+                        idx = temp;
+                        return;
+                    }
+                    if (!a.JawapanPilihan) {
+                        return;
+                    }
+                    var q = _(sesiUjian().JawapanCollection()).find(function (v) {
+                        return a.SoalanNo === ko.unwrap(v.SoalanNo);
+                    });
+                    if (q) {
+                        q.JawapanPilihan(a.JawapanPilihan);
+                        q.Nilai(a.Nilai);
+                    }
+                });
+                index = idx;
+                run();
+
+            });
 
 
         },
@@ -200,7 +255,6 @@ define(["services/datacontext", objectbuilders.app, objectbuilders.router, objec
 
             $(view).attr("unselectable", "on")
                  .css({
-                     '-moz-user-select': "-moz-none",
                      '-moz-user-select': "none",
                      '-o-user-select': "none",
                      '-khtml-user-select': "none", /* you could also put this in a class */

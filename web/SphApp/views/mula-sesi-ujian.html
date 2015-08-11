@@ -1,6 +1,6 @@
 <h3 class="page-title">
-	Mula sesi ujian
-	<small data-bind="text:ujian().NamaUjian"></small>
+    Mula sesi ujian
+    <small data-bind="text:ujian().NamaUjian"></small>
 </h3>
 <div class="row">
     <div class="col-lg-8 col-md-8 col-sm-12 col-xs-12">
@@ -25,52 +25,53 @@
             </div>
             <!-- /ko -->
         </div>
-    	<!-- /ko -->
+        <!-- /ko -->
     </div>
     <div class="col-lg-3 col-md-3 col-sm-12 col-xs-12" id="test-panel" style="position:fixed;top:70px;right:0px;">
-    	<div  data-bind="with: ujian">
-    		<h3 data-bind="text : 'Module Ujian : ' + ko.unwrap(NamaUjian)"></h3>
-    	</div>
-    	<div>
+        <div data-bind="with: ujian">
+            <h3 data-bind="text : 'Module Ujian : ' + ko.unwrap(NamaUjian)"></h3>
+        </div>
+        <div>
 
-    		<label>Jumlah Soalan</label>
-    		<strong data-bind="text:questionsCount"></strong>
-        <br/>
+            <label>Jumlah Soalan</label>
+            <strong data-bind="text:questionsCount"></strong>
+            <br />
 
-    		<label>Jumlah Soalan DiJawab</label>
-    		<strong data-bind="text:totalAnswered"></strong>
+            <label>Jumlah Soalan DiJawab</label>
+            <strong data-bind="text:totalAnswered"></strong>
 
-    		<br/>
-    		<label>Timer :</label>
-    		<strong data-bind="text:timer"></strong>
+            <br />
+            <label>Timer :</label>
+            <strong data-bind="text:timer"></strong>
 
 
-    	</div>
-    	 <ul id="nav" class="nav hidden-xs hidden-sm" data-spy="affix">
-    	 	<!-- ko foreach : sections -->
+        </div>
+        <ul id="nav" class="nav hidden-xs hidden-sm" data-spy="affix">
+            <!-- ko foreach : sections -->
 
             <li>
-              	<a data-bind="click : $root.goToSection,attr :{'title' : 'Pergi ke seksyen '+ section }" href="#mula-sesi-ujian" title="Pergi ke seksyen">
+                <a data-bind="click : $root.goToSection,attr :{'title' : 'Pergi ke seksyen '+ section }" href="#mula-sesi-ujian" title="Pergi ke seksyen">
 
                     <i class="fa fa-arrow-circle-right"></i>
                     <span data-bind="text: 'Seksyen ' + ko.unwrap(section) + '  (' + ko.unwrap(answered) + '/' + ko.unwrap(questions).length + ')', attr :{'href' : '#'+ section }"></span>
 
-				</a>
+                </a>
             </li>
 
-    		<!-- /ko -->
+            <!-- /ko -->
 
 
-          </ul>
-		<div>
-      <label>
-        <input type="checkbox" data-bind="checked: $root.hideAnswered"/>
-        Jangan papar yang sudah jawab
-      </label>
-      <br/>
-		<button class="btn btn-primary" data-bind="command: $root.submitSesiUjian, enable: totalAnswered() === questionsCount()">
-        <i class="icon-drawer"></i>
-        Hantar</button>
-		</div>
+        </ul>
+        <div>
+            <label>
+                <input type="checkbox" data-bind="checked: $root.hideAnswered" />
+                Jangan papar yang sudah jawab
+            </label>
+            <br />
+            <button class="btn btn-primary" data-bind="command: $root.submitSesiUjian, enable: totalAnswered() === questionsCount()">
+                <i class="icon-drawer"></i>
+                Hantar
+            </button>
+        </div>
     </div>
 </div>
