@@ -40,17 +40,63 @@ namespace web.sph.App_Code
         }
         public class KesesuaianPenempatanType
         {
-            private readonly PpkpTraitViewModel m_vm;
+            private readonly IList<string> m_trets;
             public KesesuaianPenempatanType(PpkpTraitViewModel vm)
             {
-                m_vm = vm;
+                m_trets = new List<string>
+                {
+                    vm.Emosi.Tret,
+                    vm.Peribadi.Tret,
+                    vm.Interpersonal.Tret,
+                    vm.Pemikiran.Tret,
+                    vm.GayaBekerja.Tret
+                };
             }
 
-            public int PembuatDasarDanStrategi => ((m_vm.A1 + m_vm.A2 + m_vm.A3 + m_vm.A4) * 5 / (50 * 4));
-            public int PenyelesaiMasalah => ((m_vm.B1 + m_vm.B2 + m_vm.B3 + m_vm.B4 + m_vm.B5) * 5 / (50 * 4));
-            public int Penguatkuasa => ((m_vm.C1 + m_vm.C2 + m_vm.C3 + m_vm.C4) / (40 * 4)) * 5;
-            public int OperasiRutin => ((m_vm.D1 + m_vm.D2 + m_vm.D3 + m_vm.D4 + m_vm.D5 + m_vm.D6) * 5 / (60 * 4));
-            public int PerkhidmatanPelanggan => ((m_vm.E1 + m_vm.E2 + m_vm.E3 + m_vm.E4 + m_vm.E5) * 5 / (50 * 4));
+            public int PembuatDasarDanStrategi
+            {
+                get
+                {
+                    var list = new[] { "Berdaya Tahan", "Ekstrovert", "Introvert", "Strategis", "Moderator", "Asertif", "Fokus" };
+                    return m_trets.Count(t => list.Contains(t));
+                }
+            }
+            public int PenyelesaiMasalah
+            {
+                get
+                {
+                    var list = new[] { "Responsif", "Berdaya Tahan", "Ambivert", "Strategis", "Moderator",
+                        "Konvensional", "Perundingan", "Asertif", "Keseimbangan", "Spontan", "Fokus" };
+                    return m_trets.Count(t => list.Contains(t));
+                }
+            }
+            public double Penguatkuasa
+            {
+                get
+                {
+                    var list = new[] { "Berdaya Tahan", "Ekstrovert", "Ambivert", "Introvert", "Asertif" };
+
+                    return m_trets.Count(t => list.Contains(t)) * 5d / 3d;
+                }
+            }
+            public int OperasiRutin
+            {
+                get
+                {
+                    var list = new[] {"Berdaya Tahan", "Responsif", "Ekstrovert", "Introvert", "Strategis",
+                        "Konvensional", "Moderator", "Asertif", "Perundingan", "Keseimbangan", "Spontan", "Fokus"};
+                    return m_trets.Count(t => list.Contains(t));
+                }
+            }
+            public int PerkhidmatanPelanggan
+            {
+                get
+                {
+                    var list = new[] { "Reaktif", "Responsif", "Berdaya Tahan", "Ekstrovert",
+                        "Ambivert", "Strategis", "Konvensional", "Submisif", "Perundingan", "Asertif", "Fokus", "Spontan"};
+                    return m_trets.Count(t => list.Contains(t));
+                }
+            }
 
         }
 
@@ -58,11 +104,12 @@ namespace web.sph.App_Code
         public PpkpTraitViewModel(SesiUjian sesi, PpkpRecommendation[] list)
         {
             Sesi = sesi;
+            m_recommendationList.Clear();
+            m_recommendationList.AddRange(list);
+
             this.ProfilPersonaliti = new ProfilPersonalitiDimensiUmumType(this);
             this.ProfilKepimpinan = new ProfilKepimpinanType(this);
             this.KesesuaianPenempatan = new KesesuaianPenempatanType(this);
-            m_recommendationList.Clear();
-            m_recommendationList.AddRange(list);
 
         }
         [JsonIgnore]
