@@ -1,0 +1,17 @@
+{
+  "$type": "Bespoke.epsikologi_skorppkp.Domain.SkorPpkp, epsikologi.SkorPpkp",
+  "No": "D4-11-20",
+  "Dimensi": "Hubungan Interpersonal",
+  "Tret": "D4",
+  "NamaTret": "Kepimpinan",
+  "NilaiMin": 11,
+  "NilaiMax": 20,
+  "Tahap": "Rendah",
+  "Interpretasi": "Sukar mempengaruhi orang lain untuk bekerjasama, kurang sedia mengambil tanggungjawab dan mengharapkan orang lain untuk mengetuai sesuatu tugasan.",
+  "CreatedBy": "urusetia3",
+  "Id": "2339965e-24ba-46b6-a6d3-6d231a9c9df0",
+  "CreatedDate": "2015-08-11T14:52:44.8806884+08:00",
+  "ChangedBy": "urusetia3",
+  "ChangedDate": "2015-08-11T14:52:44.8796883+08:00",
+  "WebId": "77343e58-f468-4f6d-d5ce-abca78a5f841"
+}

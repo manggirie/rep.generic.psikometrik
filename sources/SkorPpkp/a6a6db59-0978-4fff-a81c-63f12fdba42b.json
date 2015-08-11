@@ -1,0 +1,17 @@
+{
+  "$type": "Bespoke.epsikologi_skorppkp.Domain.SkorPpkp, epsikologi.SkorPpkp",
+  "No": "E4-34-40",
+  "Dimensi": "Keperibadian",
+  "Tret": "E4",
+  "NamaTret": "Bersikap Asertif",
+  "NilaiMin": 34,
+  "NilaiMax": 40,
+  "Tahap": "Sangat Tinggi",
+  "Interpretasi": "Bersikap sangat asertif, sangat berpengaruh, berbicara dengan penuh keyakinan dan sering mengetuai sesuatu kumpulan.",
+  "CreatedBy": "urusetia3",
+  "Id": "a6a6db59-0978-4fff-a81c-63f12fdba42b",
+  "CreatedDate": "2015-08-11T15:30:40.5062282+08:00",
+  "ChangedBy": "urusetia3",
+  "ChangedDate": "2015-08-11T15:30:40.504228+08:00",
+  "WebId": "81d72f16-f23e-45f9-8152-793589d70265"
+}

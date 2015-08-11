@@ -1,0 +1,17 @@
+{
+  "$type": "Bespoke.epsikologi_skorppkp.Domain.SkorPpkp, epsikologi.SkorPpkp",
+  "No": "C1-0-10",
+  "Dimensi": "Cara Gaya Pemikiran",
+  "Tret": "C1",
+  "NamaTret": "Kreatif",
+  "NilaiMin": 0,
+  "NilaiMax": 10,
+  "Tahap": "Sangat Rendah",
+  "Interpretasi": "Sangat cenderung memfokuskan pemikiran kepada aktiviti sedia ada dan menganggap imaginasi adalah sesuatu yang sangat membosankan.",
+  "CreatedBy": "urusetia3",
+  "Id": "f2e7a857-c882-4319-9c16-dad25e08dc67",
+  "CreatedDate": "2015-08-11T14:19:11.7093726+08:00",
+  "ChangedBy": "urusetia3",
+  "ChangedDate": "2015-08-11T14:19:11.7073724+08:00",
+  "WebId": "98379f1d-b3f8-4078-bd06-95806db53878"
+}

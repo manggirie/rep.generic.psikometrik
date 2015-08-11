@@ -1,0 +1,17 @@
+{
+  "$type": "Bespoke.epsikologi_skorppkp.Domain.SkorPpkp, epsikologi.SkorPpkp",
+  "No": "C1-26-33",
+  "Dimensi": "Cara Gaya Pemikiran",
+  "Tret": "C1",
+  "NamaTret": "Kreatif",
+  "NilaiMin": 26,
+  "NilaiMax": 33,
+  "Tahap": "Tinggi",
+  "Interpretasi": "Mempunyai daya imaginasi yang tinggi, berfikiran terbuka dan mudah memperincikan imaginasi kepada kreativiti.",
+  "CreatedBy": "urusetia3",
+  "Id": "8b3acdc6-5768-4147-9a8d-2f05eee02b08",
+  "CreatedDate": "2015-08-11T14:21:34.0736076+08:00",
+  "ChangedBy": "urusetia3",
+  "ChangedDate": "2015-08-11T14:21:34.0726075+08:00",
+  "WebId": "2b25f6f6-a79c-4093-9ca9-ce196e54e46e"
+}

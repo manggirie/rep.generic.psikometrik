@@ -1,0 +1,17 @@
+{
+  "$type": "Bespoke.epsikologi_skorppkp.Domain.SkorPpkp, epsikologi.SkorPpkp",
+  "No": "E3-21-25",
+  "Dimensi": "Keperibadian",
+  "Tret": "E3",
+  "NamaTret": "Kesederhanaan",
+  "NilaiMin": 21,
+  "NilaiMax": 25,
+  "Tahap": "Sederhana",
+  "Interpretasi": "Berkeyakinan dan mempunyai penghargaan kendiri serta kurang menonjolkan diri selagi tidak berasa bosan dengan aktiviti yang dilakukan.",
+  "CreatedBy": "urusetia3",
+  "Id": "66fd04c5-ab30-4e97-be6c-62a50f7091bf",
+  "CreatedDate": "2015-08-11T15:23:21.5163336+08:00",
+  "ChangedBy": "urusetia3",
+  "ChangedDate": "2015-08-11T15:23:21.5153335+08:00",
+  "WebId": "703dd2ce-b573-4847-adc2-d5c3ac5172a8"
+}

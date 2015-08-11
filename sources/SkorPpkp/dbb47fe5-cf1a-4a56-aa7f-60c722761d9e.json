@@ -1,0 +1,17 @@
+{
+  "$type": "Bespoke.epsikologi_skorppkp.Domain.SkorPpkp, epsikologi.SkorPpkp",
+  "No": "D3-0-10",
+  "Dimensi": "Hubungan Interpersonal",
+  "Tret": "D3",
+  "NamaTret": "Aktiviti Harian",
+  "NilaiMin": 0,
+  "NilaiMax": 10,
+  "Tahap": "Sangat Rendah",
+  "Interpretasi": "Menjalani kehidupan harian dalam keadaan yang sangat merehatkan, sangat bersantai dan tidak sibuk.",
+  "CreatedBy": "urusetia3",
+  "Id": "dbb47fe5-cf1a-4a56-aa7f-60c722761d9e",
+  "CreatedDate": "2015-08-11T14:47:04.1146152+08:00",
+  "ChangedBy": "urusetia3",
+  "ChangedDate": "2015-08-11T14:47:04.1136151+08:00",
+  "WebId": "c44367be-1f36-47d0-c5dd-d83f3c520bc8"
+}

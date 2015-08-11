@@ -1,0 +1,17 @@
+{
+  "$type": "Bespoke.epsikologi_skorppkp.Domain.SkorPpkp, epsikologi.SkorPpkp",
+  "No": "E5-34-40",
+  "Dimensi": "Keperibadian",
+  "Tret": "E5",
+  "NamaTret": "Kesedaran Kendiri",
+  "NilaiMin": 34,
+  "NilaiMax": 40,
+  "Tahap": "Sangat Tinggi",
+  "Interpretasi": "Tidak mudah terganggu dengan kritikan, berasa sangat selesa bersama orang lain dan mempunyai keyakinan diri yang sangat tinggi.",
+  "CreatedBy": "urusetia3",
+  "Id": "ad9fdbb7-bb19-4784-b3d8-91eb3a05a06d",
+  "CreatedDate": "2015-08-11T15:34:30.2341987+08:00",
+  "ChangedBy": "urusetia3",
+  "ChangedDate": "2015-08-11T15:34:30.2492002+08:00",
+  "WebId": "277b69a9-6c0a-4a34-b77b-b0fd8e847e08"
+}

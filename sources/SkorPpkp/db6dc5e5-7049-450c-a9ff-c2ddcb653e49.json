@@ -1,0 +1,17 @@
+{
+  "$type": "Bespoke.epsikologi_skorppkp.Domain.SkorPpkp, epsikologi.SkorPpkp",
+  "No": "E1-0-20",
+  "Dimensi": "Keperibadian",
+  "Tret": "E1",
+  "NamaTret": "Kesediaan Membantu",
+  "NilaiMin": 0,
+  "NilaiMax": 20,
+  "Tahap": "Sangat Rendah",
+  "Interpretasi": "Sangat mementingkan diri dan tidak bersedia membantu orang lain.",
+  "CreatedBy": "urusetia3",
+  "Id": "db6dc5e5-7049-450c-a9ff-c2ddcb653e49",
+  "CreatedDate": "2015-08-11T15:07:07.6059523+08:00",
+  "ChangedBy": "urusetia3",
+  "ChangedDate": "2015-08-11T15:07:07.6039521+08:00",
+  "WebId": "0ea213d9-4351-4c10-ab62-c1d6f5590d2a"
+}

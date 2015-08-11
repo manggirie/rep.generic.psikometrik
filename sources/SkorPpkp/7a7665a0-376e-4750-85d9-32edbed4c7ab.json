@@ -1,0 +1,17 @@
+{
+  "$type": "Bespoke.epsikologi_skorppkp.Domain.SkorPpkp, epsikologi.SkorPpkp",
+  "No": "B5-34-40",
+  "Dimensi": "Cara Gaya Bekerja",
+  "Tret": "B5",
+  "NamaTret": "Pertimbangan Diri",
+  "NilaiMin": 34,
+  "NilaiMax": 40,
+  "Tahap": "Sangat Tinggi",
+  "Interpretasi": "Sangat berhati-hati, teliti dan berfikir dahulu sebelum membuat keputusan.",
+  "CreatedBy": "urusetia3",
+  "Id": "7a7665a0-376e-4750-85d9-32edbed4c7ab",
+  "CreatedDate": "2015-08-11T14:17:52.6594684+08:00",
+  "ChangedBy": "urusetia3",
+  "ChangedDate": "2015-08-11T14:17:52.6574682+08:00",
+  "WebId": "f11343d3-d817-4409-8a01-4b2eb041d37e"
+}

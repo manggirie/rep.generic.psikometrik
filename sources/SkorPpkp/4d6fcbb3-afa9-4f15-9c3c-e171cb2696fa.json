@@ -1,0 +1,17 @@
+{
+  "$type": "Bespoke.epsikologi_skorppkp.Domain.SkorPpkp, epsikologi.SkorPpkp",
+  "No": "D2-0-10",
+  "Dimensi": "Hubungan Interpersonal",
+  "Tret": "D2",
+  "NamaTret": "Aktif Sosial",
+  "NilaiMin": 0,
+  "NilaiMax": 10,
+  "Tahap": "Sangat Rendah",
+  "Interpretasi": "Sangat suka bersendirian, tidak suka dengan kehadiran ramai orang dan mengelakkan diri dari menghadiri majlis sosial.",
+  "CreatedBy": "urusetia3",
+  "Id": "4d6fcbb3-afa9-4f15-9c3c-e171cb2696fa",
+  "CreatedDate": "2015-08-11T14:41:04.8086882+08:00",
+  "ChangedBy": "urusetia3",
+  "ChangedDate": "2015-08-11T14:41:04.8076881+08:00",
+  "WebId": "a43a54b8-1313-4efe-98e1-8b98d618b16c"
+}

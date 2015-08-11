@@ -1,0 +1,17 @@
+{
+  "$type": "Bespoke.epsikologi_skorppkp.Domain.SkorPpkp, epsikologi.SkorPpkp",
+  "No": "E2-21-25",
+  "Dimensi": "Keperibadian",
+  "Tret": "E2",
+  "NamaTret": "Kepersetujuan",
+  "NilaiMin": 21,
+  "NilaiMax": 25,
+  "Tahap": "Sederhana",
+  "Interpretasi": "Cenderung menuruti keperluan orang lain bagi mengelakkan konflik atau persengketaan dan sedia memaafkan orang lain serta melupakan apa yang terjadi sekiranya emosi diri masih terkawal.",
+  "CreatedBy": "urusetia3",
+  "Id": "cc2f314d-3d10-4b5c-b6e4-0a241a721377",
+  "CreatedDate": "2015-08-11T15:17:31.1142969+08:00",
+  "ChangedBy": "urusetia3",
+  "ChangedDate": "2015-08-11T15:17:31.1122967+08:00",
+  "WebId": "daa6e251-f70a-4a08-e5d8-a1b3e9ac05d4"
+}

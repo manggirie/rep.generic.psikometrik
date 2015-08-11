@@ -1,0 +1,17 @@
+{
+  "$type": "Bespoke.epsikologi_skorppkp.Domain.SkorPpkp, epsikologi.SkorPpkp",
+  "No": "E2-11-20",
+  "Dimensi": "Keperibadian",
+  "Tret": "E2",
+  "NamaTret": "Kepersetujuan",
+  "NilaiMin": 11,
+  "NilaiMax": 20,
+  "Tahap": "Rendah",
+  "Interpretasi": "Bersikap asertif, suka kepada persaingan dan mudah meluahkan perasaan.",
+  "CreatedBy": "urusetia3",
+  "Id": "f6c715c2-a70e-4548-9a07-b4bf06a3a45c",
+  "CreatedDate": "2015-08-11T15:16:45.2567116+08:00",
+  "ChangedBy": "urusetia3",
+  "ChangedDate": "2015-08-11T15:16:45.2547114+08:00",
+  "WebId": "b84bc59d-0ff1-40c2-b018-0e4ace1b7f70"
+}

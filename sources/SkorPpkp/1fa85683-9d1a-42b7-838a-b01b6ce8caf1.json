@@ -1,0 +1,17 @@
+{
+  "$type": "Bespoke.epsikologi_skorppkp.Domain.SkorPpkp, epsikologi.SkorPpkp",
+  "No": "D6-11-20",
+  "Dimensi": "Hubungan Interpersonal",
+  "Tret": "D6",
+  "NamaTret": "Ketelusan",
+  "NilaiMin": 11,
+  "NilaiMax": 20,
+  "Tahap": "Rendah",
+  "Interpretasi": "Suka menggunakan pujian dan memanipulasi orang lain bagi mengambil kesempatan atau cuba melindungi perasaan diri.",
+  "CreatedBy": "urusetia3",
+  "Id": "1fa85683-9d1a-42b7-838a-b01b6ce8caf1",
+  "CreatedDate": "2015-08-11T15:03:38.7390677+08:00",
+  "ChangedBy": "urusetia3",
+  "ChangedDate": "2015-08-11T15:03:38.7370675+08:00",
+  "WebId": "1384d486-262e-4445-8ece-60bd64b59502"
+}

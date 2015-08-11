@@ -1,0 +1,17 @@
+{
+  "$type": "Bespoke.epsikologi_skorppkp.Domain.SkorPpkp, epsikologi.SkorPpkp",
+  "No": "E3-26-33",
+  "Dimensi": "Keperibadian",
+  "Tret": "E3",
+  "NamaTret": "Kesederhanaan",
+  "NilaiMin": 26,
+  "NilaiMax": 33,
+  "Tahap": "Tinggi",
+  "Interpretasi": "Berkeyakinan dan mempunyai penghargaan kendiri yang tinggi serta suka merendah diri.",
+  "CreatedBy": "urusetia3",
+  "Id": "88b4f0ba-675c-4d46-8178-8e1c71932c00",
+  "CreatedDate": "2015-08-11T15:24:39.8141626+08:00",
+  "ChangedBy": "urusetia3",
+  "ChangedDate": "2015-08-11T15:24:39.8121624+08:00",
+  "WebId": "592bf9d2-1a17-4df4-b901-2583c98d1a35"
+}

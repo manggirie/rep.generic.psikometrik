@@ -1,0 +1,17 @@
+{
+  "$type": "Bespoke.epsikologi_skorppkp.Domain.SkorPpkp, epsikologi.SkorPpkp",
+  "No": "D1-34-40",
+  "Dimensi": "Hubungan Interpersonal",
+  "Tret": "D1",
+  "NamaTret": "Mudah Mesra",
+  "NilaiMin": 34,
+  "NilaiMax": 40,
+  "Tahap": "Sangat Tinggi",
+  "Interpretasi": "Sangat peramah, penyayang dan mudah mesra.",
+  "CreatedBy": "urusetia3",
+  "Id": "6afebbb6-d1f1-4c62-9057-8c96195125f9",
+  "CreatedDate": "2015-08-11T14:39:55.8937974+08:00",
+  "ChangedBy": "urusetia3",
+  "ChangedDate": "2015-08-11T14:39:55.8917972+08:00",
+  "WebId": "e6e4a75a-a434-4be8-ff31-0d1bd1b67ee1"
+}

@@ -1,0 +1,17 @@
+{
+  "$type": "Bespoke.epsikologi_skorppkp.Domain.SkorPpkp, epsikologi.SkorPpkp",
+  "No": "B4-26-33",
+  "Dimensi": "Cara Gaya Bekerja",
+  "Tret": "B4",
+  "NamaTret": "Disiplin Diri",
+  "NilaiMin": 26,
+  "NilaiMax": 33,
+  "Tahap": "Tinggi",
+  "Interpretasi": "Bermotivasi tinggi memulakan tugas dan melaksanakannya sehingga selesai walaupun berhadapan dengan kebosanan atau halangan.",
+  "CreatedBy": "urusetia3",
+  "Id": "cc53108b-ebfa-49e9-8e0d-bdf46fe64ec0",
+  "CreatedDate": "2015-08-11T14:12:29.6841741+08:00",
+  "ChangedBy": "urusetia3",
+  "ChangedDate": "2015-08-11T14:12:29.683174+08:00",
+  "WebId": "f014b0fb-fa13-4ad7-a0d0-3c34b00de8cb"
+}

@@ -1,0 +1,17 @@
+{
+  "$type": "Bespoke.epsikologi_skorppkp.Domain.SkorPpkp, epsikologi.SkorPpkp",
+  "No": "D1-21-25",
+  "Dimensi": "Hubungan Interpersonal",
+  "Tret": "D1",
+  "NamaTret": "Mudah Mesra",
+  "NilaiMin": 21,
+  "NilaiMax": 25,
+  "Tahap": "Sederhana",
+  "Interpretasi": "Ada kalanya bersikap peramah, penyayang dan mudah mesra selagi aktiviti tersebut tidak mengganggu kehidupan harian.",
+  "CreatedBy": "urusetia3",
+  "Id": "cb43573c-f07c-425c-b1a1-bc235271e03b",
+  "CreatedDate": "2015-08-11T14:38:07.4885725+08:00",
+  "ChangedBy": "urusetia3",
+  "ChangedDate": "2015-08-11T14:38:07.4865725+08:00",
+  "WebId": "f901bbe0-d4b6-44dd-ac7f-116f61b5d956"
+}
