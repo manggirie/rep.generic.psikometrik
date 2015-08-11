@@ -3,7 +3,7 @@
   "NoRujukan": "UKBP-B-00211",
   "SoalanNo": "UKBP-B-00211",
   "TeksSoalan": "Jurutera Kapalterbang",
-  "SeksyenSoalan": "",
+  "SeksyenSoalan": "2",
   "PilihanJawapanCollection": {
     "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan]], domain.sph",
     "$values": [
@@ -21,15 +21,15 @@
       }
     ]
   },
-  "Trait": null,
+  "Trait": "A3",
   "NamaUjian": "Ujian Khas Biasiswa Persekutuan(UKBP)",
   "Susunan": 211.0,
-  "Kategori": null,
+  "Kategori": "3",
   "Bahagian": "B",
   "CreatedBy": "admin",
   "Id": "UKBP-B-00211",
   "CreatedDate": "2015-07-06T11:24:57.5618787+08:00",
   "ChangedBy": "admin",
-  "ChangedDate": "2015-07-29T15:04:11.7783036+08:00",
+  "ChangedDate": "2015-08-11T15:53:16.394238+08:00",
   "WebId": "42141bfd-b08f-4b19-9fc7-c0cd6e7cd3c0"
 }

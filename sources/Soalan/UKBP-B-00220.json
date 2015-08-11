@@ -3,7 +3,7 @@
   "NoRujukan": "UKBP-B-00220",
   "SoalanNo": "UKBP-B-00220",
   "TeksSoalan": "Juruterbang helikopter.",
-  "SeksyenSoalan": "",
+  "SeksyenSoalan": "2",
   "PilihanJawapanCollection": {
     "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan]], domain.sph",
     "$values": [
@@ -21,15 +21,15 @@
       }
     ]
   },
-  "Trait": null,
+  "Trait": "A3",
   "NamaUjian": "Ujian Khas Biasiswa Persekutuan(UKBP)",
   "Susunan": 220.0,
-  "Kategori": null,
+  "Kategori": "3",
   "Bahagian": "B",
   "CreatedBy": "admin",
   "Id": "UKBP-B-00220",
   "CreatedDate": "2015-07-06T11:24:57.6839644+08:00",
   "ChangedBy": "admin",
-  "ChangedDate": "2015-07-06T11:24:57.6834643+08:00",
+  "ChangedDate": "2015-08-11T15:55:31.182238+08:00",
   "WebId": "33c4bda3-4fd8-461a-99fa-acaa7debd644"
 }

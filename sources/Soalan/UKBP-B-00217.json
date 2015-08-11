@@ -3,7 +3,7 @@
   "NoRujukan": "UKBP-B-00217",
   "SoalanNo": "UKBP-B-00217",
   "TeksSoalan": "Pegawai Polis",
-  "SeksyenSoalan": "",
+  "SeksyenSoalan": "2",
   "PilihanJawapanCollection": {
     "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan]], domain.sph",
     "$values": [
@@ -21,15 +21,15 @@
       }
     ]
   },
-  "Trait": null,
+  "Trait": "A3",
   "NamaUjian": "Ujian Khas Biasiswa Persekutuan(UKBP)",
   "Susunan": 217.0,
-  "Kategori": null,
+  "Kategori": "3",
   "Bahagian": "B",
   "CreatedBy": "admin",
   "Id": "UKBP-B-00217",
   "CreatedDate": "2015-07-06T11:24:57.6529429+08:00",
   "ChangedBy": "admin",
-  "ChangedDate": "2015-07-29T15:07:38.4493702+08:00",
+  "ChangedDate": "2015-08-11T15:54:46.610238+08:00",
   "WebId": "8d9ac1ea-b8d5-422e-9635-2da7c2298b66"
 }
