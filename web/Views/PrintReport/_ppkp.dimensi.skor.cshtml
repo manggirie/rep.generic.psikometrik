@@ -1,0 +1,29 @@
+@model  IEnumerable<Bespoke.epsikologi_skorppkp.Domain.SkorPpkp>
+
+@foreach (var score in Model)
+{
+    <table class="">
+        <colgroup>
+            <col style="width:180px" />
+            <col style="width:20px" />
+            <col style="width:600px" />
+        </colgroup>
+        <tr>
+            <td style="vertical-align: top">Tret</td>
+            <td style="vertical-align: top">:</td>
+            <td style="vertical-align: top">@score.Tret</td>
+        </tr>
+        <tr>
+            <td style="vertical-align: top">Tahap</td>
+            <td style="vertical-align: top">:</td>
+            <td style="vertical-align: top">@score.Tahap</td>
+        </tr>
+        <tr>
+            <td style="vertical-align: top">Interpretasi</td>
+            <td style="vertical-align: top">:</td>
+            <td style="vertical-align: top">@score.Interpretasi</td>
+        </tr>
+
+    </table>
+}
+

@@ -11,6 +11,7 @@ using Bespoke.epsikologi_ppkprecommendation.Domain;
 using Bespoke.epsikologi_sesiujian.Domain;
 using Bespoke.epsikologi_skorhlp.Domain;
 using Bespoke.epsikologi_skoripu.Domain;
+using Bespoke.epsikologi_skorppkp.Domain;
 using Bespoke.epsikologi_soalan.Domain;
 using Bespoke.epsikologi_ujian.Domain;
 using Bespoke.Sph.Domain;
@@ -52,6 +53,7 @@ namespace web.sph.App_Code
             ObjectBuilder.AddCacheList<IRepository<IpuPercentileNorms>>( new SqlRepository<IpuPercentileNorms>());
 
             ObjectBuilder.AddCacheList<IRepository<PpkpRecommendation>>(new SqlRepository<PpkpRecommendation>());
+            ObjectBuilder.AddCacheList<IRepository<SkorPpkp>>(new SqlRepository<SkorPpkp>());
 
     	}
     }

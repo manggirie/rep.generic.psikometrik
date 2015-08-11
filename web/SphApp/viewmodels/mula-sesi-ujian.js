@@ -164,9 +164,7 @@ define(["services/datacontext", objectbuilders.app, objectbuilders.config, objec
                 runTimer(sct)
                         .fail()
                         .done(function () {
-                            app.showMessage("Adakah anda ingin teruskan ke seksyen seterusnya? Jika and tekan <strong>Tidak</strong>, " +
-                                    "sesi anda akan disimpan dan anda buleh sambung semula pada masa akan datang, ataupun take a break, " +
-                                    "comeback and press <strong>Yes</strong> to continue", "JPA ePsikometrik", ["Ya", "Tidak"])
+                            app.showMessage("Adakah anda bersedia untuk menjawab soalan seksyen seterusnya?", "JPA ePsikometrik", ["Ya", "Tidak"])
                                   .done(function (dr) {
                                       if (dr === "Ya") {
                                           index++;
