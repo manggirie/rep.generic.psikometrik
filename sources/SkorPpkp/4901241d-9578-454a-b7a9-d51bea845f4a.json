@@ -1,0 +1,17 @@
+{
+  "$type": "Bespoke.epsikologi_skorppkp.Domain.SkorPpkp, epsikologi.SkorPpkp",
+  "No": "A4-21-25",
+  "Dimensi": "Kestabilan Emosi",
+  "Tret": "A4",
+  "NamaTret": "Daya Tahan",
+  "NilaiMin": 21,
+  "NilaiMax": 25,
+  "Tahap": "Sederhana",
+  "Interpretasi": "Ada kalanya berupaya dan berkeyakinan menangani krisis atau tekanan yang dialami tetapi untuk tempoh masa yang terhad.",
+  "CreatedBy": "urusetia3",
+  "Id": "4901241d-9578-454a-b7a9-d51bea845f4a",
+  "CreatedDate": "2015-08-11T13:48:05.6777881+08:00",
+  "ChangedBy": "urusetia3",
+  "ChangedDate": "2015-08-11T13:48:05.676788+08:00",
+  "WebId": "8d96941c-1c07-4ea7-c770-cd353e09f6bb"
+}

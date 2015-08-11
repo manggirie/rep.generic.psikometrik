@@ -1,0 +1,17 @@
+{
+  "$type": "Bespoke.epsikologi_skorppkp.Domain.SkorPpkp, epsikologi.SkorPpkp",
+  "No": "A2-21-25",
+  "Dimensi": "Kestabilan Emosi",
+  "Tret": "A2",
+  "NamaTret": "Kesabaran",
+  "NilaiMin": 21,
+  "NilaiMax": 25,
+  "Tahap": "Sederhana",
+  "Interpretasi": "Ada kalanya tekanan atau krisis luar jangka yang dialami boleh mencetuskan kemarahan atau kekecewaan.",
+  "CreatedBy": "urusetia3",
+  "Id": "3f0ebabc-8519-477c-9217-449a9521ff0f",
+  "CreatedDate": "2015-08-11T13:38:56.5598818+08:00",
+  "ChangedBy": "urusetia3",
+  "ChangedDate": "2015-08-11T13:38:56.5588817+08:00",
+  "WebId": "62da8397-a97a-44dd-8785-1b578ca83a70"
+}

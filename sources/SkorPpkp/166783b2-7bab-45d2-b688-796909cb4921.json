@@ -1,0 +1,17 @@
+{
+  "$type": "Bespoke.epsikologi_skorppkp.Domain.SkorPpkp, epsikologi.SkorPpkp",
+  "No": "A4-34-40",
+  "Dimensi": "Kestabilan Emosi",
+  "Tret": "A4",
+  "NamaTret": "Daya Tahan",
+  "NilaiMin": 34,
+  "NilaiMax": 40,
+  "Tahap": "Sangat Tinggi",
+  "Interpretasi": "Mempunyai keupayaan dan keyakinan diri yang sangat tinggi dalam mengatasi krisis atau situasi yang sukar secara efektif.",
+  "CreatedBy": "urusetia3",
+  "Id": "166783b2-7bab-45d2-b688-796909cb4921",
+  "CreatedDate": "2015-08-11T13:49:30.7742969+08:00",
+  "ChangedBy": "urusetia3",
+  "ChangedDate": "2015-08-11T13:49:30.7722967+08:00",
+  "WebId": "4444a565-eeb1-4238-e6a8-3a0b6dad2226"
+}

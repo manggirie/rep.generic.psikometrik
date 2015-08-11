@@ -1,0 +1,17 @@
+{
+  "$type": "Bespoke.epsikologi_skorppkp.Domain.SkorPpkp, epsikologi.SkorPpkp",
+  "No": "A1-11-20",
+  "Dimensi": "Kestabilan Emosi",
+  "Tret": "A1",
+  "NamaTret": "Ketenangan",
+  "NilaiMin": 11,
+  "NilaiMax": 20,
+  "Tahap": "Rendah",
+  "Interpretasi": "Cenderung berasa tertekan, bimbang dan gelisah.",
+  "CreatedBy": "urusetia3",
+  "Id": "42dbc2b7-0a20-49b3-87ef-11fc2361f51a",
+  "CreatedDate": "2015-08-11T13:31:38.1470449+08:00",
+  "ChangedBy": "urusetia3",
+  "ChangedDate": "2015-08-11T13:32:49.155145+08:00",
+  "WebId": "0555ad45-a362-47bb-9f32-c9fb96397af3"
+}

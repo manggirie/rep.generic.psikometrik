@@ -1,0 +1,17 @@
+{
+  "$type": "Bespoke.epsikologi_skorppkp.Domain.SkorPpkp, epsikologi.SkorPpkp",
+  "No": "B2-0-10",
+  "Dimensi": "Cara Gaya Bekerja",
+  "Tret": "B2",
+  "NamaTret": "Sistematik",
+  "NilaiMin": 0,
+  "NilaiMax": 10,
+  "Tahap": "Sangat Rendah",
+  "Interpretasi": "Tidak mementingkan kekemasan dan keteraturan dalam melaksanakan tugas",
+  "CreatedBy": "urusetia3",
+  "Id": "0cdbac60-699e-4907-9c3c-40d94897528a",
+  "CreatedDate": "2015-08-11T13:56:04.5086664+08:00",
+  "ChangedBy": "urusetia3",
+  "ChangedDate": "2015-08-11T13:56:04.5076663+08:00",
+  "WebId": "eba0d9a1-80e7-4007-d101-078d73ee6ec4"
+}

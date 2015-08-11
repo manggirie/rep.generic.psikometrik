@@ -1,0 +1,17 @@
+{
+  "$type": "Bespoke.epsikologi_skorppkp.Domain.SkorPpkp, epsikologi.SkorPpkp",
+  "No": "B3-0-10",
+  "Dimensi": "Cara Gaya Bekerja",
+  "Tret": "B3",
+  "NamaTret": "Pencapaian Diutamakan",
+  "NilaiMin": 0,
+  "NilaiMax": 10,
+  "Tahap": "Sangat Rendah",
+  "Interpretasi": "Tiada matlamat yang jelas dan tidak berusaha melaksanakan tugas dengan sebaiknya.",
+  "CreatedBy": "urusetia3",
+  "Id": "6871e887-0ce3-40cd-858b-ee64bf712af3",
+  "CreatedDate": "2015-08-11T14:02:11.4953614+08:00",
+  "ChangedBy": "urusetia3",
+  "ChangedDate": "2015-08-11T14:02:11.4933612+08:00",
+  "WebId": "5ad52cc1-9fd1-4fa3-b47c-7b4526018f90"
+}

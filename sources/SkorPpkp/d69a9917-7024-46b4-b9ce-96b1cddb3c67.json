@@ -1,0 +1,17 @@
+{
+  "$type": "Bespoke.epsikologi_skorppkp.Domain.SkorPpkp, epsikologi.SkorPpkp",
+  "No": "A4-0-10",
+  "Dimensi": "Kestabilan Emosi",
+  "Tret": "A4",
+  "NamaTret": "Daya Tahan",
+  "NilaiMin": 0,
+  "NilaiMax": 10,
+  "Tahap": "Sangat Rendah",
+  "Interpretasi": "Sangat mudah berputus asa, berasa tiada harapan atau tidak berupaya mengatasi krisis yang dialami.",
+  "CreatedBy": "urusetia3",
+  "Id": "d69a9917-7024-46b4-b9ce-96b1cddb3c67",
+  "CreatedDate": "2015-08-11T13:46:24.7736987+08:00",
+  "ChangedBy": "urusetia3",
+  "ChangedDate": "2015-08-11T13:46:24.7726986+08:00",
+  "WebId": "85e3bd80-0592-4aae-a31f-d7f93d2a89a5"
+}

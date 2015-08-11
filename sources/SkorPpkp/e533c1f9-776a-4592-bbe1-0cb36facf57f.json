@@ -1,0 +1,17 @@
+{
+  "$type": "Bespoke.epsikologi_skorppkp.Domain.SkorPpkp, epsikologi.SkorPpkp",
+  "No": "B3-26-33",
+  "Dimensi": "Cara Gaya Bekerja",
+  "Tret": "B3",
+  "NamaTret": "Pencapaian Diutamakan",
+  "NilaiMin": 26,
+  "NilaiMax": 33,
+  "Tahap": "Tinggi",
+  "Interpretasi": "Mempunyai aspirasi yang tinggi dan berusaha mencapai matlamat yang ditetapkan.",
+  "CreatedBy": "urusetia3",
+  "Id": "e533c1f9-776a-4592-bbe1-0cb36facf57f",
+  "CreatedDate": "2015-08-11T14:05:27.8379937+08:00",
+  "ChangedBy": "urusetia3",
+  "ChangedDate": "2015-08-11T14:05:27.8359935+08:00",
+  "WebId": "b19b3da1-a2f2-4ac1-dc61-b0e6c9ebaf50"
+}

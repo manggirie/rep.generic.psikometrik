@@ -1,0 +1,17 @@
+{
+  "$type": "Bespoke.epsikologi_skorppkp.Domain.SkorPpkp, epsikologi.SkorPpkp",
+  "No": "A3-66-80",
+  "Dimensi": "Kestabilan Emosi",
+  "Tret": "A3",
+  "NamaTret": "Keceriaan",
+  "NilaiMin": 66,
+  "NilaiMax": 80,
+  "Tahap": "Sangat Tinggi",
+  "Interpretasi": "Sangat ceria, gembira atau optimistik terhadap kehidupan dan jarang sekali berasa sedih, tidak bersemangat atau kesepian.",
+  "CreatedBy": "urusetia3",
+  "Id": "a7459275-aaab-421d-9faf-34c416315874",
+  "CreatedDate": "2015-08-11T13:44:56.4298652+08:00",
+  "ChangedBy": "urusetia3",
+  "ChangedDate": "2015-08-11T13:44:56.4288651+08:00",
+  "WebId": "92e1566d-0dd1-4a51-de7c-6a8046b00971"
+}
