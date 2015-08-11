@@ -3,7 +3,7 @@
   "NoRujukan": "UKBP-B-00235",
   "SoalanNo": "UKBP-B-00235",
   "TeksSoalan": "Penyajak/Penyair.",
-  "SeksyenSoalan": "",
+  "SeksyenSoalan": "2",
   "PilihanJawapanCollection": {
     "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan]], domain.sph",
     "$values": [
@@ -21,15 +21,15 @@
       }
     ]
   },
-  "Trait": null,
+  "Trait": "C3",
   "NamaUjian": "Ujian Khas Biasiswa Persekutuan(UKBP)",
   "Susunan": 235.0,
-  "Kategori": null,
+  "Kategori": "3",
   "Bahagian": "B",
   "CreatedBy": "admin",
   "Id": "UKBP-B-00235",
   "CreatedDate": "2015-07-06T11:24:57.8881089+08:00",
   "ChangedBy": "admin",
-  "ChangedDate": "2015-07-29T15:28:38.1687376+08:00",
+  "ChangedDate": "2015-08-11T16:10:42.1461441+08:00",
   "WebId": "b8079cf8-5d96-4ac1-a1c4-6ae9426f7035"
 }
