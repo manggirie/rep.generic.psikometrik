@@ -3,7 +3,7 @@
   "NoRujukan": "UKBP-B-00268",
   "SoalanNo": "UKBP-B-00268",
   "TeksSoalan": "Ahli Perniagaan.",
-  "SeksyenSoalan": "",
+  "SeksyenSoalan": "2",
   "PilihanJawapanCollection": {
     "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan]], domain.sph",
     "$values": [
@@ -21,15 +21,15 @@
       }
     ]
   },
-  "Trait": null,
+  "Trait": "E3",
   "NamaUjian": "Ujian Khas Biasiswa Persekutuan(UKBP)",
   "Susunan": 268.0,
-  "Kategori": null,
+  "Kategori": "3",
   "Bahagian": "B",
   "CreatedBy": "admin",
   "Id": "UKBP-B-00268",
   "CreatedDate": "2015-07-06T11:24:58.1683062+08:00",
   "ChangedBy": "admin",
-  "ChangedDate": "2015-07-30T15:08:52.6816447+08:00",
+  "ChangedDate": "2015-08-11T16:42:54.9315235+08:00",
   "WebId": "93a01944-005c-474d-bac2-6122db15a72d"
 }

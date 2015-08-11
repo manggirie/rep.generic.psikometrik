@@ -3,7 +3,7 @@
   "NoRujukan": "UKBP-B-00282",
   "SoalanNo": "UKBP-B-00282",
   "TeksSoalan": "Pegawai Akaun.",
-  "SeksyenSoalan": "",
+  "SeksyenSoalan": "2",
   "PilihanJawapanCollection": {
     "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan]], domain.sph",
     "$values": [
@@ -21,15 +21,15 @@
       }
     ]
   },
-  "Trait": null,
+  "Trait": "E3",
   "NamaUjian": "Ujian Khas Biasiswa Persekutuan(UKBP)",
   "Susunan": 282.0,
-  "Kategori": null,
+  "Kategori": "3",
   "Bahagian": "B",
   "CreatedBy": "admin",
   "Id": "UKBP-B-00282",
   "CreatedDate": "2015-07-06T11:24:58.2758838+08:00",
   "ChangedBy": "admin",
-  "ChangedDate": "2015-07-30T15:16:24.549827+08:00",
+  "ChangedDate": "2015-08-11T16:47:12.3712089+08:00",
   "WebId": "80d7735b-a124-4751-b793-d1f021664f23"
 }

@@ -3,7 +3,7 @@
   "NoRujukan": "UKBP-B-00274",
   "SoalanNo": "UKBP-B-00274",
   "TeksSoalan": "Penyiasat Kredit.",
-  "SeksyenSoalan": "",
+  "SeksyenSoalan": "2",
   "PilihanJawapanCollection": {
     "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan]], domain.sph",
     "$values": [
@@ -21,15 +21,15 @@
       }
     ]
   },
-  "Trait": null,
+  "Trait": "E3",
   "NamaUjian": "Ujian Khas Biasiswa Persekutuan(UKBP)",
   "Susunan": 274.0,
-  "Kategori": null,
+  "Kategori": "3",
   "Bahagian": "B",
   "CreatedBy": "admin",
   "Id": "UKBP-B-00274",
   "CreatedDate": "2015-07-06T11:24:58.2133385+08:00",
   "ChangedBy": "admin",
-  "ChangedDate": "2015-07-30T15:12:33.3417085+08:00",
+  "ChangedDate": "2015-08-11T16:45:24.6982089+08:00",
   "WebId": "0547a191-437c-4603-9ff9-95cfefb46bac"
 }

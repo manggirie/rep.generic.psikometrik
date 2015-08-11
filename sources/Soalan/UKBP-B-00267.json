@@ -3,7 +3,7 @@
   "NoRujukan": "UKBP-B-00267",
   "SoalanNo": "UKBP-B-00267",
   "TeksSoalan": "Pengurus Stesen Penyiaran.",
-  "SeksyenSoalan": "",
+  "SeksyenSoalan": "2",
   "PilihanJawapanCollection": {
     "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan]], domain.sph",
     "$values": [
@@ -21,15 +21,15 @@
       }
     ]
   },
-  "Trait": null,
+  "Trait": "E3",
   "NamaUjian": "Ujian Khas Biasiswa Persekutuan(UKBP)",
   "Susunan": 267.0,
-  "Kategori": null,
+  "Kategori": "3",
   "Bahagian": "B",
   "CreatedBy": "admin",
   "Id": "UKBP-B-00267",
   "CreatedDate": "2015-07-06T11:24:58.1618019+08:00",
   "ChangedBy": "admin",
-  "ChangedDate": "2015-07-30T15:05:45.1756531+08:00",
+  "ChangedDate": "2015-08-11T16:42:41.8792184+08:00",
   "WebId": "ae8ac6ce-8a99-45ff-a0bc-3e2ff6baeada"
 }

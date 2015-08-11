@@ -3,7 +3,7 @@
   "NoRujukan": "UKBP-B-00263",
   "SoalanNo": "UKBP-B-00263",
   "TeksSoalan": "Agen Hartanah.",
-  "SeksyenSoalan": "",
+  "SeksyenSoalan": "2",
   "PilihanJawapanCollection": {
     "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan]], domain.sph",
     "$values": [
@@ -21,15 +21,15 @@
       }
     ]
   },
-  "Trait": null,
+  "Trait": "E3",
   "NamaUjian": "Ujian Khas Biasiswa Persekutuan(UKBP)",
   "Susunan": 263.0,
-  "Kategori": null,
+  "Kategori": "3",
   "Bahagian": "B",
   "CreatedBy": "admin",
   "Id": "UKBP-B-00263",
   "CreatedDate": "2015-07-06T11:24:58.1317807+08:00",
   "ChangedBy": "admin",
-  "ChangedDate": "2015-07-30T15:02:54.7160791+08:00",
+  "ChangedDate": "2015-08-11T16:39:44.5594882+08:00",
   "WebId": "22c3feeb-504d-4053-8aa1-9d24a4a759d7"
 }

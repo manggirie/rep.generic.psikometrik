@@ -3,7 +3,7 @@
   "NoRujukan": "UKBP-B-00278",
   "SoalanNo": "UKBP-B-00278",
   "TeksSoalan": "Pegawai Penilai Harta.",
-  "SeksyenSoalan": "",
+  "SeksyenSoalan": "2",
   "PilihanJawapanCollection": {
     "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan]], domain.sph",
     "$values": [
@@ -21,15 +21,15 @@
       }
     ]
   },
-  "Trait": null,
+  "Trait": "E3",
   "NamaUjian": "Ujian Khas Biasiswa Persekutuan(UKBP)",
   "Susunan": 278.0,
-  "Kategori": null,
+  "Kategori": "3",
   "Bahagian": "B",
   "CreatedBy": "admin",
   "Id": "UKBP-B-00278",
   "CreatedDate": "2015-07-06T11:24:58.2418584+08:00",
   "ChangedBy": "admin",
-  "ChangedDate": "2015-07-30T15:14:01.0244759+08:00",
+  "ChangedDate": "2015-08-11T16:46:17.2402089+08:00",
   "WebId": "3bccf7b9-9902-494d-a050-b81ba1c9d8d8"
 }

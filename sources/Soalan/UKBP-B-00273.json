@@ -3,7 +3,7 @@
   "NoRujukan": "UKBP-B-00273",
   "SoalanNo": "UKBP-B-00273",
   "TeksSoalan": "Akauntan Awam Bertauliah.",
-  "SeksyenSoalan": "",
+  "SeksyenSoalan": "2",
   "PilihanJawapanCollection": {
     "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan]], domain.sph",
     "$values": [
@@ -21,15 +21,15 @@
       }
     ]
   },
-  "Trait": null,
+  "Trait": "E3",
   "NamaUjian": "Ujian Khas Biasiswa Persekutuan(UKBP)",
   "Susunan": 273.0,
-  "Kategori": null,
+  "Kategori": "3",
   "Bahagian": "B",
   "CreatedBy": "admin",
   "Id": "UKBP-B-00273",
   "CreatedDate": "2015-07-06T11:24:58.2063331+08:00",
   "ChangedBy": "admin",
-  "ChangedDate": "2015-07-30T15:12:02.7626509+08:00",
+  "ChangedDate": "2015-08-11T16:45:10.8472089+08:00",
   "WebId": "0fa42c46-bf34-4553-802c-9a8fb568c6b9"
 }

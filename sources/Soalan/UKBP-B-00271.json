@@ -3,7 +3,7 @@
   "NoRujukan": "UKBP-B-00271",
   "SoalanNo": "UKBP-B-00271",
   "TeksSoalan": "Pegawai Kewangan.",
-  "SeksyenSoalan": "",
+  "SeksyenSoalan": "2",
   "PilihanJawapanCollection": {
     "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan]], domain.sph",
     "$values": [
@@ -21,15 +21,15 @@
       }
     ]
   },
-  "Trait": null,
+  "Trait": "F3",
   "NamaUjian": "Ujian Khas Biasiswa Persekutuan(UKBP)",
   "Susunan": 271.0,
-  "Kategori": null,
+  "Kategori": "3",
   "Bahagian": "B",
   "CreatedBy": "admin",
   "Id": "UKBP-B-00271",
   "CreatedDate": "2015-07-06T11:24:58.1918231+08:00",
   "ChangedBy": "admin",
-  "ChangedDate": "2015-07-30T15:11:19.1422893+08:00",
+  "ChangedDate": "2015-08-11T16:44:16.7422089+08:00",
   "WebId": "2fb41753-1556-47cc-b8dc-b31a43469b05"
 }
