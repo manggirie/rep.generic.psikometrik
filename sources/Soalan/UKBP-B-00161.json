@@ -3,7 +3,7 @@
   "NoRujukan": "UKBP-B-00161",
   "SoalanNo": "UKBP-B-00161",
   "TeksSoalan": "Menggunakan algebra bagi menyelesaikan masalah matematik.",
-  "SeksyenSoalan": "",
+  "SeksyenSoalan": "2",
   "PilihanJawapanCollection": {
     "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan]], domain.sph",
     "$values": [
@@ -21,15 +21,15 @@
       }
     ]
   },
-  "Trait": null,
+  "Trait": "B2",
   "NamaUjian": "Ujian Khas Biasiswa Persekutuan(UKBP)",
   "Susunan": 161.0,
-  "Kategori": null,
+  "Kategori": "2",
   "Bahagian": "B",
   "CreatedBy": "admin",
   "Id": "UKBP-B-00161",
   "CreatedDate": "2015-07-06T11:24:57.1956197+08:00",
   "ChangedBy": "admin",
-  "ChangedDate": "2015-07-29T11:14:11.0616196+08:00",
+  "ChangedDate": "2015-08-11T15:26:29.4233168+08:00",
   "WebId": "ba2a8571-991a-4989-84f7-e55e7a6f725c"
 }

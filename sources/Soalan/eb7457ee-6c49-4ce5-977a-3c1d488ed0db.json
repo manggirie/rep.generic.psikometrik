@@ -3,7 +3,7 @@
   "NoRujukan": "UKBP-B-00091",
   "SoalanNo": "UKBP-B-00091",
   "TeksSoalan": "Menggunakan komputer bagi mengkaji permasalahan saintifik.",
-  "SeksyenSoalan": null,
+  "SeksyenSoalan": "2",
   "PilihanJawapanCollection": {
     "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan]], domain.sph",
     "$values": [
@@ -21,15 +21,15 @@
       }
     ]
   },
-  "Trait": null,
+  "Trait": "B2",
   "NamaUjian": "Ujian Khas Biasiswa Persekutuan(UKBP)",
   "Susunan": 165.0,
-  "Kategori": null,
+  "Kategori": "2",
   "Bahagian": "B",
   "CreatedBy": "admin",
   "Id": "eb7457ee-6c49-4ce5-977a-3c1d488ed0db",
   "CreatedDate": "2015-08-04T15:12:07.1079599+08:00",
   "ChangedBy": "admin",
-  "ChangedDate": "2015-08-04T15:12:07.0879579+08:00",
+  "ChangedDate": "2015-08-11T15:27:37.8600014+08:00",
   "WebId": "f764f403-cd18-40d0-a0a7-ed1ba1680c18"
 }

@@ -3,7 +3,7 @@
   "NoRujukan": "UKBP-B-00156",
   "SoalanNo": "UKBP-B-00156",
   "TeksSoalan": "Membaikpulih perabot.",
-  "SeksyenSoalan": "",
+  "SeksyenSoalan": "2",
   "PilihanJawapanCollection": {
     "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan]], domain.sph",
     "$values": [
@@ -21,15 +21,15 @@
       }
     ]
   },
-  "Trait": null,
+  "Trait": "A2",
   "NamaUjian": "Ujian Khas Biasiswa Persekutuan(UKBP)",
   "Susunan": 156.0,
-  "Kategori": null,
+  "Kategori": "2",
   "Bahagian": "B",
   "CreatedBy": "admin",
   "Id": "UKBP-B-00156",
   "CreatedDate": "2015-07-06T11:24:57.1550913+08:00",
   "ChangedBy": "admin",
-  "ChangedDate": "2015-07-29T10:44:23.7867471+08:00",
+  "ChangedDate": "2015-08-11T15:23:37.2030863+08:00",
   "WebId": "add360f6-ae01-4e55-bdd7-51ee8b8f4f68"
 }

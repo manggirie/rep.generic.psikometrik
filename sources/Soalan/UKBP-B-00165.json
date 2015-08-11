@@ -3,7 +3,7 @@
   "NoRujukan": "UKBP-B-00165",
   "SoalanNo": "UKBP-B-00165",
   "TeksSoalan": "Menerangkan fungsi sel darah putih.",
-  "SeksyenSoalan": "",
+  "SeksyenSoalan": "2",
   "PilihanJawapanCollection": {
     "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan]], domain.sph",
     "$values": [
@@ -21,15 +21,15 @@
       }
     ]
   },
-  "Trait": null,
+  "Trait": "B2",
   "NamaUjian": "Ujian Khas Biasiswa Persekutuan(UKBP)",
   "Susunan": 165.1,
-  "Kategori": null,
+  "Kategori": "2",
   "Bahagian": "B",
   "CreatedBy": "admin",
   "Id": "UKBP-B-00165",
   "CreatedDate": "2015-07-06T11:24:57.2211375+08:00",
   "ChangedBy": "admin",
-  "ChangedDate": "2015-07-29T11:16:09.9398106+08:00",
+  "ChangedDate": "2015-08-11T15:27:53.0740436+08:00",
   "WebId": "6a6e1cd2-0945-4a77-985a-cd67d886d900"
 }

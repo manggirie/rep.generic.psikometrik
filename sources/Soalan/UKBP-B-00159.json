@@ -3,7 +3,7 @@
   "NoRujukan": "UKBP-B-00159",
   "SoalanNo": "UKBP-B-00159",
   "TeksSoalan": "Membina objek kecil berasaskan kayu.",
-  "SeksyenSoalan": "",
+  "SeksyenSoalan": "2",
   "PilihanJawapanCollection": {
     "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan]], domain.sph",
     "$values": [
@@ -21,15 +21,15 @@
       }
     ]
   },
-  "Trait": null,
+  "Trait": "A2",
   "NamaUjian": "Ujian Khas Biasiswa Persekutuan(UKBP)",
   "Susunan": 159.0,
-  "Kategori": null,
+  "Kategori": "2",
   "Bahagian": "B",
   "CreatedBy": "admin",
   "Id": "UKBP-B-00159",
   "CreatedDate": "2015-07-06T11:24:57.1816098+08:00",
   "ChangedBy": "admin",
-  "ChangedDate": "2015-07-29T10:45:38.3191996+08:00",
+  "ChangedDate": "2015-08-11T15:24:15.6335642+08:00",
   "WebId": "854d9249-ac0d-4259-b0f0-e0cd4b9888b9"
 }

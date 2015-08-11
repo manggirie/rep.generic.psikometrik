@@ -3,7 +3,7 @@
   "NoRujukan": "UKBP-B-00169",
   "SoalanNo": "UKBP-B-00169",
   "TeksSoalan": "Memahami teori 'Big Bang' bagi alam semesta.",
-  "SeksyenSoalan": "",
+  "SeksyenSoalan": "2",
   "PilihanJawapanCollection": {
     "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan]], domain.sph",
     "$values": [
@@ -21,15 +21,15 @@
       }
     ]
   },
-  "Trait": null,
+  "Trait": "B2",
   "NamaUjian": "Ujian Khas Biasiswa Persekutuan(UKBP)",
   "Susunan": 169.0,
-  "Kategori": null,
+  "Kategori": "2",
   "Bahagian": "B",
   "CreatedBy": "admin",
   "Id": "UKBP-B-00169",
   "CreatedDate": "2015-07-06T11:24:57.2496578+08:00",
   "ChangedBy": "admin",
-  "ChangedDate": "2015-07-06T11:24:57.2491572+08:00",
+  "ChangedDate": "2015-08-11T15:28:51.8667998+08:00",
   "WebId": "8a1287e3-c2da-4a0f-a086-62792d430572"
 }

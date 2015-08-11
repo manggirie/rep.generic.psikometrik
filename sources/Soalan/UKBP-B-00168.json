@@ -3,7 +3,7 @@
   "NoRujukan": "UKBP-B-00168",
   "SoalanNo": "UKBP-B-00168",
   "TeksSoalan": "Menulis laporan saintifik.",
-  "SeksyenSoalan": "",
+  "SeksyenSoalan": "2",
   "PilihanJawapanCollection": {
     "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan]], domain.sph",
     "$values": [
@@ -21,15 +21,15 @@
       }
     ]
   },
-  "Trait": null,
+  "Trait": "B2",
   "NamaUjian": "Ujian Khas Biasiswa Persekutuan(UKBP)",
   "Susunan": 168.0,
-  "Kategori": null,
+  "Kategori": "2",
   "Bahagian": "B",
   "CreatedBy": "admin",
   "Id": "UKBP-B-00168",
   "CreatedDate": "2015-07-06T11:24:57.2426529+08:00",
   "ChangedBy": "admin",
-  "ChangedDate": "2015-07-06T11:24:57.2416522+08:00",
+  "ChangedDate": "2015-08-11T15:28:33.539135+08:00",
   "WebId": "08ff5c62-9e29-4cc5-8744-4a8f6b86d783"
 }

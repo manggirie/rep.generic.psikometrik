@@ -3,7 +3,7 @@
   "NoRujukan": "UKBP-B-00154",
   "SoalanNo": "UKBP-B-00154",
   "TeksSoalan": "Membaikpulih produk kayu.",
-  "SeksyenSoalan": "",
+  "SeksyenSoalan": "2",
   "PilihanJawapanCollection": {
     "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan]], domain.sph",
     "$values": [
@@ -21,15 +21,15 @@
       }
     ]
   },
-  "Trait": null,
+  "Trait": "A2",
   "NamaUjian": "Ujian Khas Biasiswa Persekutuan(UKBP)",
   "Susunan": 154.0,
-  "Kategori": null,
+  "Kategori": "2",
   "Bahagian": "B",
   "CreatedBy": "admin",
   "Id": "UKBP-B-00154",
   "CreatedDate": "2015-07-06T11:24:57.143583+08:00",
   "ChangedBy": "admin",
-  "ChangedDate": "2015-07-29T10:37:28.8052531+08:00",
+  "ChangedDate": "2015-08-11T15:23:08.6225147+08:00",
   "WebId": "0284759a-e979-4a76-b9c9-06785deb3b8b"
 }

@@ -3,7 +3,7 @@
   "NoRujukan": "UKBP-B-00162",
   "SoalanNo": "UKBP-B-00162",
   "TeksSoalan": "Melakukan eksperimen atau kaji selidik saintifik.",
-  "SeksyenSoalan": "",
+  "SeksyenSoalan": "2",
   "PilihanJawapanCollection": {
     "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan]], domain.sph",
     "$values": [
@@ -21,15 +21,15 @@
       }
     ]
   },
-  "Trait": null,
+  "Trait": "B2",
   "NamaUjian": "Ujian Khas Biasiswa Persekutuan(UKBP)",
   "Susunan": 162.0,
-  "Kategori": null,
+  "Kategori": "2",
   "Bahagian": "B",
   "CreatedBy": "admin",
   "Id": "UKBP-B-00162",
   "CreatedDate": "2015-07-06T11:24:57.2006232+08:00",
   "ChangedBy": "admin",
-  "ChangedDate": "2015-07-29T11:14:35.7610982+08:00",
+  "ChangedDate": "2015-08-11T15:26:50.223476+08:00",
   "WebId": "ccb61d7f-8fba-420c-bab0-66b51c24edbe"
 }

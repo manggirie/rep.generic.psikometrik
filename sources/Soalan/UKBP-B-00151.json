@@ -3,7 +3,7 @@
   "NoRujukan": "UKBP-B-00151",
   "SoalanNo": "UKBP-B-00151",
   "TeksSoalan": "Membuat lukisan teknik.",
-  "SeksyenSoalan": "",
+  "SeksyenSoalan": "2",
   "PilihanJawapanCollection": {
     "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan]], domain.sph",
     "$values": [
@@ -21,15 +21,15 @@
       }
     ]
   },
-  "Trait": null,
+  "Trait": "A2",
   "NamaUjian": "Ujian Khas Biasiswa Persekutuan(UKBP)",
   "Susunan": 151.1,
-  "Kategori": null,
+  "Kategori": "2",
   "Bahagian": "B",
   "CreatedBy": "admin",
   "Id": "UKBP-B-00151",
   "CreatedDate": "2015-07-06T11:24:57.1215674+08:00",
   "ChangedBy": "admin",
-  "ChangedDate": "2015-07-29T10:35:52.9616697+08:00",
+  "ChangedDate": "2015-08-11T15:22:29.6458252+08:00",
   "WebId": "f79dbd78-c7f3-4747-a03d-96788ce301a1"
 }

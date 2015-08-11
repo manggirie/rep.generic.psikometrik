@@ -3,7 +3,7 @@
   "NoRujukan": "UKBP-B-00164",
   "SoalanNo": "UKBP-B-00164",
   "TeksSoalan": "Menggunakan jadual logaritma.",
-  "SeksyenSoalan": "",
+  "SeksyenSoalan": "2",
   "PilihanJawapanCollection": {
     "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan]], domain.sph",
     "$values": [
@@ -21,15 +21,15 @@
       }
     ]
   },
-  "Trait": null,
+  "Trait": "B2",
   "NamaUjian": "Ujian Khas Biasiswa Persekutuan(UKBP)",
   "Susunan": 164.0,
-  "Kategori": null,
+  "Kategori": "2",
   "Bahagian": "B",
   "CreatedBy": "admin",
   "Id": "UKBP-B-00164",
   "CreatedDate": "2015-07-06T11:24:57.2131318+08:00",
   "ChangedBy": "admin",
-  "ChangedDate": "2015-07-06T11:24:57.2126322+08:00",
+  "ChangedDate": "2015-08-11T15:27:23.8031906+08:00",
   "WebId": "b16f6cf4-3057-4509-99ec-766120b50fa7"
 }

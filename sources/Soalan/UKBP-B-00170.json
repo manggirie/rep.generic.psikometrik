@@ -3,7 +3,7 @@
   "NoRujukan": "UKBP-B-00170",
   "SoalanNo": "UKBP-B-00170",
   "TeksSoalan": "Memahami fungsi DNA di dalam genetik.",
-  "SeksyenSoalan": "",
+  "SeksyenSoalan": "2",
   "PilihanJawapanCollection": {
     "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan]], domain.sph",
     "$values": [
@@ -21,15 +21,15 @@
       }
     ]
   },
-  "Trait": null,
+  "Trait": "B2",
   "NamaUjian": "Ujian Khas Biasiswa Persekutuan(UKBP)",
   "Susunan": 170.0,
-  "Kategori": null,
+  "Kategori": "2",
   "Bahagian": "B",
   "CreatedBy": "admin",
   "Id": "UKBP-B-00170",
   "CreatedDate": "2015-07-06T11:24:57.2611662+08:00",
   "ChangedBy": "admin",
-  "ChangedDate": "2015-07-06T11:24:57.2606661+08:00",
+  "ChangedDate": "2015-08-11T15:29:05.8635314+08:00",
   "WebId": "0e24c6bd-fee6-4b0a-a499-d316a8a1631c"
 }

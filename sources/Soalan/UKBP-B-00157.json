@@ -3,7 +3,7 @@
   "NoRujukan": "UKBP-B-00157",
   "SoalanNo": "UKBP-B-00157",
   "TeksSoalan": "Menggunakan peralatan atau perkakasan pertukangan.",
-  "SeksyenSoalan": "",
+  "SeksyenSoalan": "2",
   "PilihanJawapanCollection": {
     "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan]], domain.sph",
     "$values": [
@@ -21,15 +21,15 @@
       }
     ]
   },
-  "Trait": null,
+  "Trait": "A2",
   "NamaUjian": "Ujian Khas Biasiswa Persekutuan(UKBP)",
   "Susunan": 157.0,
-  "Kategori": null,
+  "Kategori": "2",
   "Bahagian": "B",
   "CreatedBy": "admin",
   "Id": "UKBP-B-00157",
   "CreatedDate": "2015-07-06T11:24:57.1640972+08:00",
   "ChangedBy": "admin",
-  "ChangedDate": "2015-07-29T10:44:47.0440726+08:00",
+  "ChangedDate": "2015-08-11T15:23:50.0619428+08:00",
   "WebId": "06e0e16e-a8f9-4722-9b94-ba6cf09316a2"
 }
