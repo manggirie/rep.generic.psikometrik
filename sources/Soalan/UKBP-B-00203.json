@@ -3,7 +3,7 @@
   "NoRujukan": "UKBP-B-00203",
   "SoalanNo": "UKBP-B-00203",
   "TeksSoalan": "Menyediakan banyak kertas kerja dalam jangka masa yang singkat.",
-  "SeksyenSoalan": "",
+  "SeksyenSoalan": "2",
   "PilihanJawapanCollection": {
     "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan]], domain.sph",
     "$values": [
@@ -21,15 +21,15 @@
       }
     ]
   },
-  "Trait": null,
+  "Trait": "F2",
   "NamaUjian": "Ujian Khas Biasiswa Persekutuan(UKBP)",
   "Susunan": 203.1,
-  "Kategori": null,
+  "Kategori": "2",
   "Bahagian": "B",
   "CreatedBy": "admin",
   "Id": "UKBP-B-00203",
   "CreatedDate": "2015-07-06T11:24:57.5003345+08:00",
   "ChangedBy": "admin",
-  "ChangedDate": "2015-07-29T15:04:11.4493036+08:00",
+  "ChangedDate": "2015-08-11T15:48:48.1287461+08:00",
   "WebId": "97137f83-7a2c-46fe-b4bb-88c2a4890ba1"
 }
