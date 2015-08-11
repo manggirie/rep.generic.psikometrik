@@ -3,7 +3,7 @@
   "NoRujukan": "UKBP-B-00106",
   "SoalanNo": "UKBP-B-00106",
   "TeksSoalan": "Mengambil kursus Fizik.",
-  "SeksyenSoalan": "",
+  "SeksyenSoalan": "2",
   "PilihanJawapanCollection": {
     "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan]], domain.sph",
     "$values": [
@@ -21,15 +21,15 @@
       }
     ]
   },
-  "Trait": null,
+  "Trait": "B1",
   "NamaUjian": "Ujian Khas Biasiswa Persekutuan(UKBP)",
   "Susunan": 106.0,
-  "Kategori": null,
+  "Kategori": "1",
   "Bahagian": "B",
   "CreatedBy": "admin",
   "Id": "UKBP-B-00106",
   "CreatedDate": "2015-07-06T11:24:56.7733216+08:00",
   "ChangedBy": "admin",
-  "ChangedDate": "2015-07-06T11:24:56.7723209+08:00",
+  "ChangedDate": "2015-08-11T14:33:30.2680038+08:00",
   "WebId": "34cbed9e-7b96-4218-a8b0-f1d5d6f19f57"
 }

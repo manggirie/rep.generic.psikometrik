@@ -3,7 +3,7 @@
   "NoRujukan": "UKBP-B-00109",
   "SoalanNo": "UKBP-B-00109",
   "TeksSoalan": "Mengambil kursus Biologi.",
-  "SeksyenSoalan": "",
+  "SeksyenSoalan": "2",
   "PilihanJawapanCollection": {
     "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan]], domain.sph",
     "$values": [
@@ -21,15 +21,15 @@
       }
     ]
   },
-  "Trait": null,
+  "Trait": "B1",
   "NamaUjian": "Ujian Khas Biasiswa Persekutuan(UKBP)",
   "Susunan": 109.0,
-  "Kategori": null,
+  "Kategori": "1",
   "Bahagian": "B",
   "CreatedBy": "admin",
   "Id": "UKBP-B-00109",
   "CreatedDate": "2015-07-06T11:24:56.7978392+08:00",
   "ChangedBy": "admin",
-  "ChangedDate": "2015-07-06T11:24:56.7973386+08:00",
+  "ChangedDate": "2015-08-11T14:34:22.1581923+08:00",
   "WebId": "4da87ab6-ffa2-471d-a804-a7e098a3ac47"
 }

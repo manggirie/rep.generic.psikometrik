@@ -3,7 +3,7 @@
   "NoRujukan": "UKBP-B-00107",
   "SoalanNo": "UKBP-B-00107",
   "TeksSoalan": "Mengambil kursus Kimia.",
-  "SeksyenSoalan": "",
+  "SeksyenSoalan": "2",
   "PilihanJawapanCollection": {
     "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan]], domain.sph",
     "$values": [
@@ -21,15 +21,15 @@
       }
     ]
   },
-  "Trait": null,
+  "Trait": "B1",
   "NamaUjian": "Ujian Khas Biasiswa Persekutuan(UKBP)",
   "Susunan": 107.0,
-  "Kategori": null,
+  "Kategori": "1",
   "Bahagian": "B",
   "CreatedBy": "admin",
   "Id": "UKBP-B-00107",
   "CreatedDate": "2015-07-06T11:24:56.779826+08:00",
   "ChangedBy": "admin",
-  "ChangedDate": "2015-07-06T11:24:56.779826+08:00",
+  "ChangedDate": "2015-08-11T14:33:49.3089077+08:00",
   "WebId": "f34b1adf-c0ea-4868-8ec3-2515c0740820"
 }

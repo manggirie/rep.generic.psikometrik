@@ -3,7 +3,7 @@
   "NoRujukan": "UKBP-B-00299",
   "SoalanNo": "UKBP-B-00299",
   "TeksSoalan": "Melakukan projek saintifik.",
-  "SeksyenSoalan": null,
+  "SeksyenSoalan": "2",
   "PilihanJawapanCollection": {
     "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan]], domain.sph",
     "$values": [
@@ -21,15 +21,15 @@
       }
     ]
   },
-  "Trait": null,
+  "Trait": "B1",
   "NamaUjian": "Ujian Khas Biasiswa Persekutuan(UKBP)",
   "Susunan": 103.0,
-  "Kategori": null,
+  "Kategori": "1",
   "Bahagian": "B",
   "CreatedBy": "admin",
   "Id": "aa7d35a5-de7c-4348-a4fb-f871daed94ed",
   "CreatedDate": "2015-08-04T16:04:16.0823073+08:00",
   "ChangedBy": "admin",
-  "ChangedDate": "2015-08-04T16:04:16.0673058+08:00",
+  "ChangedDate": "2015-08-11T14:31:25.873021+08:00",
   "WebId": "3e113182-55ec-4db5-d2ad-cc153d97cb5f"
 }
