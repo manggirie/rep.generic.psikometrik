@@ -59,7 +59,14 @@ define(["services/datacontext", objectbuilders.app, objectbuilders.config, objec
             totalAnswered(0);
             questionsCount(0);
 
-            var $f = "";
+            var $f = "",
+                soalanOption = {
+                    entity: "Soalan",
+                    size: 200,
+                    includeTotal: true,
+                    orderby: "Susunan",
+                    page : 1
+                };
 
             return context.loadOneAsync("SesiUjian", String.format("Id eq '{0}'", id))
                 .then(function (a) {
@@ -70,12 +77,7 @@ define(["services/datacontext", objectbuilders.app, objectbuilders.config, objec
                     ujian(b);
                     var $q = String.format("NamaUjian eq '{0}'", ko.unwrap(ujian().NamaUjian));
                     $f = encodeURIComponent($q);
-                    return context.loadAsync({
-                        entity: "Soalan",
-                        size: 200,
-                        includeTotal: true,
-                        orderby: "Susunan"
-                    }, $f);
+                    return context.loadAsync(soalanOption, $f);
                 })
                 .then(function (qLo) {
                     sesiUjian().JawapanCollection.removeAll();
@@ -84,12 +86,8 @@ define(["services/datacontext", objectbuilders.app, objectbuilders.config, objec
                     questionsCount(qLo.rows);
 
                     if (qLo.rows > qLo.size) {
-                        return context.loadAsync({
-                            entity: "Soalan",
-                            size: 200,
-                            includeTotal: true,
-                            page: 2
-                        }, $f);
+                        soalanOption.page = 2;
+                        return context.loadAsync(soalanOption, $f);
                     }
                     return Task.fromResult(0);
                 })
