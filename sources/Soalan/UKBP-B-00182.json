@@ -3,7 +3,7 @@
   "NoRujukan": "UKBP-B-00182",
   "SoalanNo": "UKBP-B-00182",
   "TeksSoalan": "Menerangkan sesuatu perkara dengan baik kepada orang lain.",
-  "SeksyenSoalan": "",
+  "SeksyenSoalan": "2",
   "PilihanJawapanCollection": {
     "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan]], domain.sph",
     "$values": [
@@ -21,15 +21,15 @@
       }
     ]
   },
-  "Trait": null,
+  "Trait": "D2",
   "NamaUjian": "Ujian Khas Biasiswa Persekutuan(UKBP)",
   "Susunan": 182.0,
-  "Kategori": null,
+  "Kategori": "2",
   "Bahagian": "B",
   "CreatedBy": "admin",
   "Id": "UKBP-B-00182",
   "CreatedDate": "2015-07-06T11:24:57.3537313+08:00",
   "ChangedBy": "admin",
-  "ChangedDate": "2015-07-29T11:47:24.2073646+08:00",
+  "ChangedDate": "2015-08-11T15:34:46.7976214+08:00",
   "WebId": "d325f4de-d427-4c7b-b787-3a58f9e52653"
 }

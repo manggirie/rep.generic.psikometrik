@@ -3,7 +3,7 @@
   "NoRujukan": "UKBP-B-00093",
   "SoalanNo": "UKBP-B-00093",
   "TeksSoalan": "Bekerja secara berkesan dengan orang lain berbanding menggunakan idea atau peralatan.",
-  "SeksyenSoalan": null,
+  "SeksyenSoalan": "2",
   "PilihanJawapanCollection": {
     "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan]], domain.sph",
     "$values": [
@@ -21,15 +21,15 @@
       }
     ]
   },
-  "Trait": null,
+  "Trait": "D2",
   "NamaUjian": "Ujian Khas Biasiswa Persekutuan(UKBP)",
-  "Susunan": 190.0,
-  "Kategori": null,
+  "Susunan": 190.1,
+  "Kategori": "2",
   "Bahagian": "B",
   "CreatedBy": "admin",
   "Id": "ec664666-6597-4390-aae5-742fe7302147",
   "CreatedDate": "2015-08-04T15:34:15.070072+08:00",
   "ChangedBy": "admin",
-  "ChangedDate": "2015-08-04T15:34:15.0270677+08:00",
+  "ChangedDate": "2015-08-11T15:40:29.4818864+08:00",
   "WebId": "91ca5a36-2428-4ce6-e338-b03a76070a4b"
 }

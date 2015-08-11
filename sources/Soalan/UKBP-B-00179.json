@@ -3,7 +3,7 @@
   "NoRujukan": "UKBP-B-00179",
   "SoalanNo": "UKBP-B-00179",
   "TeksSoalan": "Menulis teks ucapan.",
-  "SeksyenSoalan": "",
+  "SeksyenSoalan": "2",
   "PilihanJawapanCollection": {
     "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan]], domain.sph",
     "$values": [
@@ -21,15 +21,15 @@
       }
     ]
   },
-  "Trait": null,
+  "Trait": "C2",
   "NamaUjian": "Ujian Khas Biasiswa Persekutuan(UKBP)",
   "Susunan": 179.0,
-  "Kategori": null,
+  "Kategori": "2",
   "Bahagian": "B",
   "CreatedBy": "admin",
   "Id": "UKBP-B-00179",
   "CreatedDate": "2015-07-06T11:24:57.3302149+08:00",
   "ChangedBy": "admin",
-  "ChangedDate": "2015-07-06T11:24:57.3302149+08:00",
+  "ChangedDate": "2015-08-11T15:33:19.4458871+08:00",
   "WebId": "67b41f39-1463-4984-9771-79a73b9ae59a"
 }

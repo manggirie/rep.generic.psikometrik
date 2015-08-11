@@ -3,7 +3,7 @@
   "NoRujukan": "UKBP-B-00172",
   "SoalanNo": "UKBP-B-00172",
   "TeksSoalan": "Membuat persembahan bermain alat muzik secara solo.",
-  "SeksyenSoalan": "",
+  "SeksyenSoalan": "2",
   "PilihanJawapanCollection": {
     "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan]], domain.sph",
     "$values": [
@@ -21,15 +21,15 @@
       }
     ]
   },
-  "Trait": null,
+  "Trait": "C2",
   "NamaUjian": "Ujian Khas Biasiswa Persekutuan(UKBP)",
   "Susunan": 172.1,
-  "Kategori": null,
+  "Kategori": "2",
   "Bahagian": "B",
   "CreatedBy": "admin",
   "Id": "UKBP-B-00172",
   "CreatedDate": "2015-07-06T11:24:57.2776776+08:00",
   "ChangedBy": "admin",
-  "ChangedDate": "2015-07-29T11:18:05.7468106+08:00",
+  "ChangedDate": "2015-08-11T15:31:32.6082044+08:00",
   "WebId": "0c9253b3-0d71-4e23-a92b-0249e53a8693"
 }

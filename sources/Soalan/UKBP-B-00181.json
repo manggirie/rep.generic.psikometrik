@@ -3,7 +3,7 @@
   "NoRujukan": "UKBP-B-00181",
   "SoalanNo": "UKBP-B-00181",
   "TeksSoalan": "Beramah mesra dengan semua orang.",
-  "SeksyenSoalan": "",
+  "SeksyenSoalan": "2",
   "PilihanJawapanCollection": {
     "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan]], domain.sph",
     "$values": [
@@ -21,15 +21,15 @@
       }
     ]
   },
-  "Trait": null,
+  "Trait": "D2",
   "NamaUjian": "Ujian Khas Biasiswa Persekutuan(UKBP)",
   "Susunan": 181.0,
-  "Kategori": null,
+  "Kategori": "2",
   "Bahagian": "B",
   "CreatedBy": "admin",
   "Id": "UKBP-B-00181",
   "CreatedDate": "2015-07-06T11:24:57.3452255+08:00",
   "ChangedBy": "admin",
-  "ChangedDate": "2015-07-06T11:24:57.3447249+08:00",
+  "ChangedDate": "2015-08-11T15:34:34.8274245+08:00",
   "WebId": "129ebef8-a61c-4abb-b5d1-85b799263228"
 }
