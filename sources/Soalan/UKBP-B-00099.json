@@ -3,7 +3,7 @@
   "NoRujukan": "UKBP-B-00099",
   "SoalanNo": "UKBP-B-00099",
   "TeksSoalan": "Bekerja di luar pejabat.",
-  "SeksyenSoalan": "",
+  "SeksyenSoalan": "2",
   "PilihanJawapanCollection": {
     "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan]], domain.sph",
     "$values": [
@@ -21,15 +21,15 @@
       }
     ]
   },
-  "Trait": null,
+  "Trait": "A1",
   "NamaUjian": "Ujian Khas Biasiswa Persekutuan(UKBP)",
   "Susunan": 99.0,
-  "Kategori": null,
+  "Kategori": "1",
   "Bahagian": "B",
   "CreatedBy": "admin",
   "Id": "UKBP-B-00099",
   "CreatedDate": "2015-07-06T11:24:56.7147805+08:00",
   "ChangedBy": "admin",
-  "ChangedDate": "2015-07-06T11:24:56.7142804+08:00",
+  "ChangedDate": "2015-08-11T14:28:18.7563894+08:00",
   "WebId": "41fcf0d4-9c64-4a58-aca0-a96e70b19f43"
 }

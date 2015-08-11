@@ -3,7 +3,7 @@
   "NoRujukan": "UKBP-B-00091",
   "SoalanNo": "UKBP-B-00091",
   "TeksSoalan": "Membaikpulih barangan elektrik",
-  "SeksyenSoalan": "",
+  "SeksyenSoalan": "2",
   "PilihanJawapanCollection": {
     "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan]], domain.sph",
     "$values": [
@@ -21,15 +21,15 @@
       }
     ]
   },
-  "Trait": null,
+  "Trait": "A1",
   "NamaUjian": "Ujian Khas Biasiswa Persekutuan(UKBP)",
   "Susunan": 91.0,
-  "Kategori": null,
+  "Kategori": "1",
   "Bahagian": "B",
   "CreatedBy": "admin",
   "Id": "UKBP-B-00091",
   "CreatedDate": "2015-07-06T11:24:56.6167113+08:00",
   "ChangedBy": "admin",
-  "ChangedDate": "2015-07-09T12:33:18.2755238+08:00",
+  "ChangedDate": "2015-08-11T14:21:17.4318468+08:00",
   "WebId": "440e9fc1-abc1-4958-a2cf-315638aff7f3"
 }
