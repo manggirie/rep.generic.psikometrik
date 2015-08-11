@@ -1,0 +1,17 @@
+{
+  "$type": "Bespoke.epsikologi_skorppkp.Domain.SkorPpkp, epsikologi.SkorPpkp",
+  "No": "E5-21-25",
+  "Dimensi": "Keperibadian",
+  "Tret": "E5",
+  "NamaTret": "Kesedaran Kendiri",
+  "NilaiMin": 21,
+  "NilaiMax": 25,
+  "Tahap": "Sederhana",
+  "Interpretasi": "Ada kalanya berasa terganggu dengan kritikan, kurang selesa bersama orang lain dan berasa rendah diri mengikut situasi sosial yang dialami.",
+  "CreatedBy": "urusetia3",
+  "Id": "bf8fa8d4-a73d-4c29-a9ac-2142a977edb6",
+  "CreatedDate": "2015-08-11T15:33:05.6917453+08:00",
+  "ChangedBy": "urusetia3",
+  "ChangedDate": "2015-08-11T15:33:05.6907452+08:00",
+  "WebId": "6dddb469-6116-4e6d-b2ba-7e0994fd52e1"
+}

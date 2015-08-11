@@ -1,0 +1,17 @@
+{
+  "$type": "Bespoke.epsikologi_skorppkp.Domain.SkorPpkp, epsikologi.SkorPpkp",
+  "No": "B5-0-10",
+  "Dimensi": "Cara Gaya Bekerja",
+  "Tret": "B5",
+  "NamaTret": "Pertimbangan Diri",
+  "NilaiMin": 0,
+  "NilaiMax": 10,
+  "Tahap": "Sangat Rendah",
+  "Interpretasi": "Sering bertindak secara tergesa-gesa dan membuat keputusan tanpa memikirkan kesan daripada tindakan yang dibuat.",
+  "CreatedBy": "urusetia3",
+  "Id": "458a41b0-790d-4080-b384-90b39cfc41cd",
+  "CreatedDate": "2015-08-11T14:14:03.6345682+08:00",
+  "ChangedBy": "urusetia3",
+  "ChangedDate": "2015-08-11T14:14:03.6335681+08:00",
+  "WebId": "8756aa2e-3cb8-43c7-c316-8ed71ebf7c29"
+}

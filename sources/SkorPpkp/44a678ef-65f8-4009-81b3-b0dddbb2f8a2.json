@@ -1,0 +1,17 @@
+{
+  "$type": "Bespoke.epsikologi_skorppkp.Domain.SkorPpkp, epsikologi.SkorPpkp",
+  "No": "C4-0-10",
+  "Dimensi": "Cara Gaya Pemikiran",
+  "Tret": "C4",
+  "NamaTret": "Kesediaan Berubah",
+  "NilaiMin": 0,
+  "NilaiMax": 10,
+  "Tahap": "Sangat Rendah",
+  "Interpretasi": "Tidak memberi perhatian secara terperinci dalam setiap perkara, tidak serius terhadap kesilapan yang berlaku dan membiarkan apa yang berlaku mengikut seadanya.",
+  "CreatedBy": "urusetia3",
+  "Id": "44a678ef-65f8-4009-81b3-b0dddbb2f8a2",
+  "CreatedDate": "2015-08-11T14:32:28.1236811+08:00",
+  "ChangedBy": "urusetia3",
+  "ChangedDate": "2015-08-11T14:32:28.1386781+08:00",
+  "WebId": "29dceabb-160e-4024-da8f-2c1ed089f2ea"
+}

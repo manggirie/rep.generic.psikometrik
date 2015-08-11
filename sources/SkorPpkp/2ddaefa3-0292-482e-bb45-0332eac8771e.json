@@ -1,0 +1,17 @@
+{
+  "$type": "Bespoke.epsikologi_skorppkp.Domain.SkorPpkp, epsikologi.SkorPpkp",
+  "No": "D6-34-40",
+  "Dimensi": "Hubungan Interpersonal",
+  "Tret": "D6",
+  "NamaTret": "Ketelusan",
+  "NilaiMin": 34,
+  "NilaiMax": 40,
+  "Tahap": "Sangat Tinggi",
+  "Interpretasi": "Sangat suka berterus terang dan mudah mempercayai orang lain .",
+  "CreatedBy": "urusetia3",
+  "Id": "2ddaefa3-0292-482e-bb45-0332eac8771e",
+  "CreatedDate": "2015-08-11T15:06:06.6528576+08:00",
+  "ChangedBy": "urusetia3",
+  "ChangedDate": "2015-08-11T15:06:06.6508574+08:00",
+  "WebId": "6257f600-f5e5-4738-8177-34ac7c583e2c"
+}

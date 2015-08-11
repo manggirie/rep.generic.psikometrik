@@ -1,0 +1,17 @@
+{
+  "$type": "Bespoke.epsikologi_skorppkp.Domain.SkorPpkp, epsikologi.SkorPpkp",
+  "No": "C2-11-20",
+  "Dimensi": "Cara Gaya Pemikiran",
+  "Tret": "C2",
+  "NamaTret": "Keabstrakan Idea",
+  "NilaiMin": 11,
+  "NilaiMax": 20,
+  "Tahap": "Rendah",
+  "Interpretasi": "Jarang bersikap terbuka, berfikiran konservatif dan mempunyai minat yang terhad kepada perkara yang diketahui sahaja.",
+  "CreatedBy": "urusetia3",
+  "Id": "5d2dc81b-f742-461b-8092-8db3473fdf4f",
+  "CreatedDate": "2015-08-11T14:24:05.2367224+08:00",
+  "ChangedBy": "urusetia3",
+  "ChangedDate": "2015-08-11T14:24:05.2347222+08:00",
+  "WebId": "b36a64a5-62b8-44cd-f322-9d8ff679e9e8"
+}

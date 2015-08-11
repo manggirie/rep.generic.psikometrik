@@ -1,0 +1,17 @@
+{
+  "$type": "Bespoke.epsikologi_skorppkp.Domain.SkorPpkp, epsikologi.SkorPpkp",
+  "No": "E4-21-25",
+  "Dimensi": "Keperibadian",
+  "Tret": "E4",
+  "NamaTret": "Bersikap Asertif",
+  "NilaiMin": 21,
+  "NilaiMax": 25,
+  "Tahap": "Sederhana",
+  "Interpretasi": "Ada kalanya bersikap asertif, berpengaruh, berbicara dengan yakin dan mengetuai sesuatu kumpulan sekiranya situasi memerlukan.",
+  "CreatedBy": "urusetia3",
+  "Id": "e348cb1b-e3c9-41b8-a469-39966c74d21d",
+  "CreatedDate": "2015-08-11T15:28:32.9074696+08:00",
+  "ChangedBy": "urusetia3",
+  "ChangedDate": "2015-08-11T15:28:32.9054694+08:00",
+  "WebId": "090d9e3d-b0e5-4296-d283-a28e633dd415"
+}

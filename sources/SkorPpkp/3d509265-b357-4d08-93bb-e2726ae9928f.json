@@ -1,0 +1,17 @@
+{
+  "$type": "Bespoke.epsikologi_skorppkp.Domain.SkorPpkp, epsikologi.SkorPpkp",
+  "No": "D1-0-10",
+  "Dimensi": "Hubungan Interpersonal",
+  "Tret": "D1",
+  "NamaTret": "Mudah Mesra",
+  "NilaiMin": 0,
+  "NilaiMax": 10,
+  "Tahap": "Sangat Rendah",
+  "Interpretasi": "Tidak suka berbicara, tidak mesra dan bersikap sangat dingin.",
+  "CreatedBy": "urusetia3",
+  "Id": "3d509265-b357-4d08-93bb-e2726ae9928f",
+  "CreatedDate": "2015-08-11T14:36:24.3965725+08:00",
+  "ChangedBy": "urusetia3",
+  "ChangedDate": "2015-08-11T14:36:24.3955725+08:00",
+  "WebId": "c3c122bc-5366-4971-c12e-7e1649a8a4d3"
+}

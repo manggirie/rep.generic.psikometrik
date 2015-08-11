@@ -1,0 +1,17 @@
+{
+  "$type": "Bespoke.epsikologi_skorppkp.Domain.SkorPpkp, epsikologi.SkorPpkp",
+  "No": "B4-11-20",
+  "Dimensi": "Cara Gaya Bekerja",
+  "Tret": "B4",
+  "NamaTret": "Disiplin Diri",
+  "NilaiMin": 11,
+  "NilaiMax": 20,
+  "Tahap": "Rendah",
+  "Interpretasi": "Suka melengah-lengahkan diri dari memulakan tugas, kurang bersemangat dan mudah berputus asa.",
+  "CreatedBy": "urusetia3",
+  "Id": "95be0094-9146-4537-986a-1f761d0c9397",
+  "CreatedDate": "2015-08-11T14:10:55.1527219+08:00",
+  "ChangedBy": "urusetia3",
+  "ChangedDate": "2015-08-11T14:10:55.1507217+08:00",
+  "WebId": "7df53496-a914-44fa-a0b3-5623dc1a80c3"
+}

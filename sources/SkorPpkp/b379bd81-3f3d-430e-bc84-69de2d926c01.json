@@ -1,0 +1,17 @@
+{
+  "$type": "Bespoke.epsikologi_skorppkp.Domain.SkorPpkp, epsikologi.SkorPpkp",
+  "No": "D2-21-25",
+  "Dimensi": "Hubungan Interpersonal",
+  "Tret": "D2",
+  "NamaTret": "Aktif Sosial",
+  "NilaiMin": 21,
+  "NilaiMax": 25,
+  "Tahap": "Sederhana",
+  "Interpretasi": "Menghargai kehadiran orang lain dan berasa seronok dapat berjumpa ramai orang sekiranya aktiviti tersebut tidak mengganggu kehidupan seharian.",
+  "CreatedBy": "urusetia3",
+  "Id": "b379bd81-3f3d-430e-bc84-69de2d926c01",
+  "CreatedDate": "2015-08-11T14:44:06.7728828+08:00",
+  "ChangedBy": "urusetia3",
+  "ChangedDate": "2015-08-11T14:44:06.7708826+08:00",
+  "WebId": "187db2bc-c752-42bf-b3cb-1de7f0436c4d"
+}

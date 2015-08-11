@@ -1,0 +1,17 @@
+{
+  "$type": "Bespoke.epsikologi_skorppkp.Domain.SkorPpkp, epsikologi.SkorPpkp",
+  "No": "E4-0-10",
+  "Dimensi": "Keperibadian",
+  "Tret": "E4",
+  "NamaTret": "Bersikap Asertif",
+  "NilaiMin": 0,
+  "NilaiMax": 10,
+  "Tahap": "Sangat Rendah",
+  "Interpretasi": "Bersikap sangat kebergantungan dan sering membiarkan orang lain mengetuai sesuatu tugasan.",
+  "CreatedBy": "urusetia3",
+  "Id": "3ee3428f-29c0-4d6b-a98e-6c6e92a8cebc",
+  "CreatedDate": "2015-08-11T15:27:07.5909388+08:00",
+  "ChangedBy": "urusetia3",
+  "ChangedDate": "2015-08-11T15:27:07.5899387+08:00",
+  "WebId": "2774291b-6c08-4cc4-d6bd-ea45e3b5c240"
+}

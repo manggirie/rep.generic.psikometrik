@@ -1,0 +1,17 @@
+{
+  "$type": "Bespoke.epsikologi_skorppkp.Domain.SkorPpkp, epsikologi.SkorPpkp",
+  "No": "D5-34-40",
+  "Dimensi": "Hubungan Interpersonal",
+  "Tret": "D5",
+  "NamaTret": "Kepercayaan",
+  "NilaiMin": 34,
+  "NilaiMax": 40,
+  "Tahap": "Sangat Tinggi",
+  "Interpretasi": "Mempunyai kepercayaan yang sangat tinggi terhadap orang lain bahawa mereka bersikap jujur dan berniat baik.",
+  "CreatedBy": "urusetia3",
+  "Id": "8779a228-e2bb-47a1-921d-797e6975a947",
+  "CreatedDate": "2015-08-11T15:00:56.335829+08:00",
+  "ChangedBy": "urusetia3",
+  "ChangedDate": "2015-08-11T15:00:56.3338288+08:00",
+  "WebId": "993e35ac-562e-4f6a-bf51-0144399928d3"
+}

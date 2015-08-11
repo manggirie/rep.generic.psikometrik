@@ -1,0 +1,17 @@
+{
+  "$type": "Bespoke.epsikologi_skorppkp.Domain.SkorPpkp, epsikologi.SkorPpkp",
+  "No": "E3-11-20",
+  "Dimensi": "Keperibadian",
+  "Tret": "E3",
+  "NamaTret": "Kesederhanaan",
+  "NilaiMin": 11,
+  "NilaiMax": 20,
+  "Tahap": "Rendah",
+  "Interpretasi": "Berbangga dengan diri, berasakan diri adalah lebih baik daripada orang lain dan suka menonjolkan diri.",
+  "CreatedBy": "urusetia3",
+  "Id": "5f5f295a-486f-4040-9075-75158f66c2d3",
+  "CreatedDate": "2015-08-11T15:21:26.688852+08:00",
+  "ChangedBy": "urusetia3",
+  "ChangedDate": "2015-08-11T15:21:26.6878519+08:00",
+  "WebId": "8d648e08-5adb-4512-802f-4e5d5be37a35"
+}

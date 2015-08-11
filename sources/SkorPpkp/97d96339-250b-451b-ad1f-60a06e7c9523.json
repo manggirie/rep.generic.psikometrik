@@ -1,0 +1,17 @@
+{
+  "$type": "Bespoke.epsikologi_skorppkp.Domain.SkorPpkp, epsikologi.SkorPpkp",
+  "No": "D4-21-25",
+  "Dimensi": "Hubungan Interpersonal",
+  "Tret": "D4",
+  "NamaTret": "Kepimpinan",
+  "NilaiMin": 21,
+  "NilaiMax": 25,
+  "Tahap": "Sederhana",
+  "Interpretasi": "Ada kalanya boleh mempengaruhi orang lain melakukan sesuatu perkara, sedia mengambil tanggungjawab dan mengetuai orang lain sekiranya situasi memerlukan.",
+  "CreatedBy": "urusetia3",
+  "Id": "97d96339-250b-451b-ad1f-60a06e7c9523",
+  "CreatedDate": "2015-08-11T14:53:37.6899688+08:00",
+  "ChangedBy": "urusetia3",
+  "ChangedDate": "2015-08-11T14:53:37.6889687+08:00",
+  "WebId": "b324c522-d726-48cb-c702-45e392f64083"
+}

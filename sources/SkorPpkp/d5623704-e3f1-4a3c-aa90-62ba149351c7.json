@@ -1,0 +1,17 @@
+{
+  "$type": "Bespoke.epsikologi_skorppkp.Domain.SkorPpkp, epsikologi.SkorPpkp",
+  "No": "D2-34-40",
+  "Dimensi": "Hubungan Interpersonal",
+  "Tret": "D2",
+  "NamaTret": "Aktif Sosial",
+  "NilaiMin": 34,
+  "NilaiMax": 40,
+  "Tahap": "Tinggi",
+  "Interpretasi": "Sangat suka dengan kehadiran orang lain dan berasa sangat seronok jika dapat berjumpa dengan lebih ramai orang.",
+  "CreatedBy": "urusetia3",
+  "Id": "d5623704-e3f1-4a3c-aa90-62ba149351c7",
+  "CreatedDate": "2015-08-11T14:45:47.8579903+08:00",
+  "ChangedBy": "urusetia3",
+  "ChangedDate": "2015-08-11T14:45:47.8559901+08:00",
+  "WebId": "bae9a735-62ea-4e2a-d681-de3edbdd3a91"
+}

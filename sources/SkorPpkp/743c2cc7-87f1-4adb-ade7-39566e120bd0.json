@@ -1,0 +1,17 @@
+{
+  "$type": "Bespoke.epsikologi_skorppkp.Domain.SkorPpkp, epsikologi.SkorPpkp",
+  "No": "C3-26-33",
+  "Dimensi": "Cara Gaya Pemikiran",
+  "Tret": "C3",
+  "NamaTret": "Kesediaan Berubah",
+  "NilaiMin": 26,
+  "NilaiMax": 33,
+  "Tahap": "Tinggi",
+  "Interpretasi": "Menghargai kesediaan melakukan aktiviti yang berbeza dan suka kepada kepelbagaian serta pembaharuan.",
+  "CreatedBy": "urusetia3",
+  "Id": "743c2cc7-87f1-4adb-ade7-39566e120bd0",
+  "CreatedDate": "2015-08-11T14:29:30.0323065+08:00",
+  "ChangedBy": "urusetia3",
+  "ChangedDate": "2015-08-11T14:29:30.0303069+08:00",
+  "WebId": "400f08d6-5918-4363-a62f-29581eeabd6d"
+}

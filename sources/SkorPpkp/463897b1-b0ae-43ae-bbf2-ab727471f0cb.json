@@ -1,0 +1,17 @@
+{
+  "$type": "Bespoke.epsikologi_skorppkp.Domain.SkorPpkp, epsikologi.SkorPpkp",
+  "No": "C3-0-10",
+  "Dimensi": "Cara Gaya Pemikiran",
+  "Tret": "C3",
+  "NamaTret": "Kesediaan Berubah",
+  "NilaiMin": 0,
+  "NilaiMax": 10,
+  "Tahap": "Sangat Rendah",
+  "Interpretasi": "Sangat sukar menerima perubahan terhadap sebarang aktiviti dan lebih suka kepada aktiviti harian yang rutin.",
+  "CreatedBy": "urusetia3",
+  "Id": "463897b1-b0ae-43ae-bbf2-ab727471f0cb",
+  "CreatedDate": "2015-08-11T14:27:18.9090877+08:00",
+  "ChangedBy": "urusetia3",
+  "ChangedDate": "2015-08-11T14:27:18.9070875+08:00",
+  "WebId": "60cd7bb8-79a8-4181-d967-76547d899d71"
+}

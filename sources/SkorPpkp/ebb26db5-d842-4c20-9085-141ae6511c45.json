@@ -1,0 +1,17 @@
+{
+  "$type": "Bespoke.epsikologi_skorppkp.Domain.SkorPpkp, epsikologi.SkorPpkp",
+  "No": "D3-26-33",
+  "Dimensi": "Hubungan Interpersonal",
+  "Tret": "D3",
+  "NamaTret": "Aktiviti Harian",
+  "NilaiMin": 26,
+  "NilaiMax": 33,
+  "Tahap": "Tinggi",
+  "Interpretasi": "Menjalani kehidupan harian dengan bertenaga, bersemangat dan sibuk dengan pelbagai aktiviti.",
+  "CreatedBy": "urusetia3",
+  "Id": "ebb26db5-d842-4c20-9085-141ae6511c45",
+  "CreatedDate": "2015-08-11T14:49:58.8880908+08:00",
+  "ChangedBy": "urusetia3",
+  "ChangedDate": "2015-08-11T14:49:58.8870907+08:00",
+  "WebId": "7ab5c231-2a14-47df-f2e2-f7cce751ef9e"
+}

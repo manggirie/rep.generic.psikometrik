@@ -1,0 +1,17 @@
+{
+  "$type": "Bespoke.epsikologi_skorppkp.Domain.SkorPpkp, epsikologi.SkorPpkp",
+  "No": "E5-11-20",
+  "Dimensi": "Keperibadian",
+  "Tret": "E5",
+  "NamaTret": "Kesedaran Kendiri",
+  "NilaiMin": 11,
+  "NilaiMax": 20,
+  "Tahap": "Rendah",
+  "Interpretasi": "Mudah berasa terganggu dengan kritikan orang lain, kurang selesa bersama orang lain dan mudah berasa rendah diri.",
+  "CreatedBy": "urusetia3",
+  "Id": "0e11b724-5e25-4e59-b87b-7af0ff406cd2",
+  "CreatedDate": "2015-08-11T15:32:25.4417207+08:00",
+  "ChangedBy": "urusetia3",
+  "ChangedDate": "2015-08-11T15:32:25.4397205+08:00",
+  "WebId": "c6e5c3e4-11b7-4b9c-f675-34a00acf84a3"
+}

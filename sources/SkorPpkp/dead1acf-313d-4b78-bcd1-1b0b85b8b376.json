@@ -1,0 +1,17 @@
+{
+  "$type": "Bespoke.epsikologi_skorppkp.Domain.SkorPpkp, epsikologi.SkorPpkp",
+  "No": "E1-51-65",
+  "Dimensi": "Keperibadian",
+  "Tret": "E1",
+  "NamaTret": "Kesediaan Membantu",
+  "NilaiMin": 51,
+  "NilaiMax": 65,
+  "Tahap": "Tinggi",
+  "Interpretasi": "Mengambil berat, prihatin dan sedia membantu orang lain pada kebanyakan masa.",
+  "CreatedBy": "urusetia3",
+  "Id": "dead1acf-313d-4b78-bcd1-1b0b85b8b376",
+  "CreatedDate": "2015-08-11T15:12:04.7416629+08:00",
+  "ChangedBy": "urusetia3",
+  "ChangedDate": "2015-08-11T15:12:04.7396627+08:00",
+  "WebId": "d322c7d2-d926-4fde-ae6b-102bfb250d57"
+}
