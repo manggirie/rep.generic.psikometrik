@@ -3,7 +3,7 @@
   "NoRujukan": "UKBP-B-00194",
   "SoalanNo": "UKBP-B-00194",
   "TeksSoalan": "Merancang kerja orang lain.",
-  "SeksyenSoalan": "",
+  "SeksyenSoalan": "2",
   "PilihanJawapanCollection": {
     "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan]], domain.sph",
     "$values": [
@@ -21,15 +21,15 @@
       }
     ]
   },
-  "Trait": null,
+  "Trait": "E2",
   "NamaUjian": "Ujian Khas Biasiswa Persekutuan(UKBP)",
   "Susunan": 194.0,
-  "Kategori": null,
+  "Kategori": "2",
   "Bahagian": "B",
   "CreatedBy": "admin",
   "Id": "UKBP-B-00194",
   "CreatedDate": "2015-07-06T11:24:57.4402922+08:00",
   "ChangedBy": "admin",
-  "ChangedDate": "2015-07-06T11:24:57.439792+08:00",
+  "ChangedDate": "2015-08-11T15:43:17.614698+08:00",
   "WebId": "46e6777c-9eaa-4113-958c-297020ccedaf"
 }
