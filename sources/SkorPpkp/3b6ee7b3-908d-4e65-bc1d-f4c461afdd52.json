@@ -1,0 +1,17 @@
+{
+  "$type": "Bespoke.epsikologi_skorppkp.Domain.SkorPpkp, epsikologi.SkorPpkp",
+  "No": "A1-26-33",
+  "Dimensi": "Kestabilan Emosi",
+  "Tret": "A1",
+  "NamaTret": "Ketenangan",
+  "NilaiMin": 26,
+  "NilaiMax": 33,
+  "Tahap": "Tinggi",
+  "Interpretasi": "Berupaya mengendalikan stres dengan tenang dan rasional.",
+  "CreatedBy": "urusetia3",
+  "Id": "3b6ee7b3-908d-4e65-bc1d-f4c461afdd52",
+  "CreatedDate": "2015-08-11T13:35:54.7176994+08:00",
+  "ChangedBy": "urusetia3",
+  "ChangedDate": "2015-08-11T13:35:54.7166993+08:00",
+  "WebId": "caf182f1-f4d8-4544-ff81-c06c61bcc3ff"
+}

@@ -1,0 +1,17 @@
+{
+  "$type": "Bespoke.epsikologi_skorppkp.Domain.SkorPpkp, epsikologi.SkorPpkp",
+  "No": "A2-34-40",
+  "Dimensi": "Kestabilan Emosi",
+  "Tret": "A2",
+  "NamaTret": "Kesabaran",
+  "NilaiMin": 34,
+  "NilaiMax": 40,
+  "Tahap": "Sangat Tinggi",
+  "Interpretasi": "Sangat sabar dan tidak mudah marah di sebalik ketegangan yang berlaku ketika perselisihan faham.",
+  "CreatedBy": "urusetia3",
+  "Id": "a69307f0-036a-4534-af4e-b986665a9980",
+  "CreatedDate": "2015-08-11T13:40:20.9473197+08:00",
+  "ChangedBy": "urusetia3",
+  "ChangedDate": "2015-08-11T13:40:20.9463196+08:00",
+  "WebId": "991610f6-4b38-463e-a894-6941c52b76ce"
+}

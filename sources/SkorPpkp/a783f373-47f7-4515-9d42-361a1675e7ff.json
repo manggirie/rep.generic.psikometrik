@@ -1,0 +1,17 @@
+{
+  "$type": "Bespoke.epsikologi_skorppkp.Domain.SkorPpkp, epsikologi.SkorPpkp",
+  "No": "A4-26-33",
+  "Dimensi": "Kestabilan Emosi",
+  "Tret": "A4",
+  "NamaTret": "Daya Tahan",
+  "NilaiMin": 26,
+  "NilaiMax": 33,
+  "Tahap": "Tinggi",
+  "Interpretasi": "Berupaya dan berkeyakinan dalam menangani krisis atau situasi yang sukar dengan baik.",
+  "CreatedBy": "urusetia3",
+  "Id": "a783f373-47f7-4515-9d42-361a1675e7ff",
+  "CreatedDate": "2015-08-11T13:48:46.8559055+08:00",
+  "ChangedBy": "urusetia3",
+  "ChangedDate": "2015-08-11T13:48:46.8549054+08:00",
+  "WebId": "52e747d8-c953-4191-a6ad-a10935269ce1"
+}

@@ -1,0 +1,17 @@
+{
+  "$type": "Bespoke.epsikologi_skorppkp.Domain.SkorPpkp, epsikologi.SkorPpkp",
+  "No": "B1-11-20",
+  "Dimensi": "Cara Gaya Bekerja",
+  "Tret": "B1",
+  "NamaTret": "Kesempurnaan",
+  "NilaiMin": 11,
+  "NilaiMax": 20,
+  "Tahap": "Rendah",
+  "Interpretasi": "Kurang bersedia, kurang cekap dan kurang berhati-hati dalam menjalankan tugas.",
+  "CreatedBy": "urusetia3",
+  "Id": "fbf701bb-9d2a-4d2d-be1f-8f0d9fc27aad",
+  "CreatedDate": "2015-08-11T13:51:13.4125597+08:00",
+  "ChangedBy": "urusetia3",
+  "ChangedDate": "2015-08-11T13:51:13.4115596+08:00",
+  "WebId": "0bdda61f-9ab2-4eb3-ed61-f7846cd76c0f"
+}

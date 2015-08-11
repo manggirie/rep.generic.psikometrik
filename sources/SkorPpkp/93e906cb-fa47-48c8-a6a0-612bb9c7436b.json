@@ -1,0 +1,17 @@
+{
+  "$type": "Bespoke.epsikologi_skorppkp.Domain.SkorPpkp, epsikologi.SkorPpkp",
+  "No": "A2-26-33",
+  "Dimensi": "Kestabilan Emosi",
+  "Tret": "A2",
+  "NamaTret": "Kesabaran",
+  "NilaiMin": 26,
+  "NilaiMax": 33,
+  "Tahap": "Tinggi",
+  "Interpretasi": "Berupaya mengawal kemarahan atau kekecewaan dan bersikap sabar walaupun berada dalam situasi yang tertekan.",
+  "CreatedBy": "urusetia3",
+  "Id": "93e906cb-fa47-48c8-a6a0-612bb9c7436b",
+  "CreatedDate": "2015-08-11T13:39:37.9580212+08:00",
+  "ChangedBy": "urusetia3",
+  "ChangedDate": "2015-08-11T13:39:37.9570211+08:00",
+  "WebId": "ad80612d-9015-46f1-9228-6e22f3f605c1"
+}

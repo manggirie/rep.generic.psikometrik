@@ -1,0 +1,17 @@
+{
+  "$type": "Bespoke.epsikologi_skorppkp.Domain.SkorPpkp, epsikologi.SkorPpkp",
+  "No": "A1-21-25",
+  "Dimensi": "Kestabilan Emosi",
+  "Tret": "A1",
+  "NamaTret": "Ketenangan",
+  "NilaiMin": 21,
+  "NilaiMax": 25,
+  "Tahap": "Sederhana",
+  "Interpretasi": "Ada kalanya berasa bimbang dan resah tetapi masih boleh bertenang selagi situasi stres masih terkawal. ",
+  "CreatedBy": "urusetia3",
+  "Id": "ad5a065c-c92d-4c93-b4e1-383a4cfd9a08",
+  "CreatedDate": "2015-08-11T13:34:39.7472031+08:00",
+  "ChangedBy": "urusetia3",
+  "ChangedDate": "2015-08-11T13:34:39.746203+08:00",
+  "WebId": "91130971-c504-4872-ae42-68dc8a92a7e6"
+}

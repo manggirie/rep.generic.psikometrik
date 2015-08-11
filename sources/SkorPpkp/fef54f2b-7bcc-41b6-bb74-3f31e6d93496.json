@@ -1,0 +1,17 @@
+{
+  "$type": "Bespoke.epsikologi_skorppkp.Domain.SkorPpkp, epsikologi.SkorPpkp",
+  "No": "A3-41-50",
+  "Dimensi": "Kestabilan Emosi",
+  "Tret": "A3",
+  "NamaTret": "Keceriaan",
+  "NilaiMin": 41,
+  "NilaiMax": 50,
+  "Tahap": "Sederhana",
+  "Interpretasi": "Ada kalanya, mengalami kesedihan, kurang bersemangat atau kesunyian tetapi bukan untuk tempoh yang lama.",
+  "CreatedBy": "urusetia3",
+  "Id": "fef54f2b-7bcc-41b6-bb74-3f31e6d93496",
+  "CreatedDate": "2015-08-11T13:43:21.9864218+08:00",
+  "ChangedBy": "urusetia3",
+  "ChangedDate": "2015-08-11T13:43:21.9844216+08:00",
+  "WebId": "0828a3de-76c0-4833-9170-88db028fe5c5"
+}

@@ -1,0 +1,17 @@
+{
+  "$type": "Bespoke.epsikologi_skorppkp.Domain.SkorPpkp, epsikologi.SkorPpkp",
+  "No": "A2-0-10",
+  "Dimensi": "Kestabilan Emosi",
+  "Tret": "A2",
+  "NamaTret": "Kesabaran",
+  "NilaiMin": 0,
+  "NilaiMax": 10,
+  "Tahap": "Sangat Rendah",
+  "Interpretasi": "Sangat mudah berasa marah apabila berasa kecewa, geram atau sakit hati.",
+  "CreatedBy": "urusetia3",
+  "Id": "8a0a31d6-f90a-4c93-8fbc-84eb5e9b8e98",
+  "CreatedDate": "2015-08-11T13:37:39.594186+08:00",
+  "ChangedBy": "urusetia3",
+  "ChangedDate": "2015-08-11T13:37:39.5931859+08:00",
+  "WebId": "d0d2d06c-2e02-4f4e-863a-fcfff5693c2a"
+}
