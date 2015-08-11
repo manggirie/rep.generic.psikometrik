@@ -3,7 +3,7 @@
   "NoRujukan": "UKBP-B-00111",
   "SoalanNo": "UKBP-B-00111",
   "TeksSoalan": "Membuat lakaran, melukis atau mewarna.",
-  "SeksyenSoalan": "",
+  "SeksyenSoalan": "2",
   "PilihanJawapanCollection": {
     "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan]], domain.sph",
     "$values": [
@@ -21,15 +21,15 @@
       }
     ]
   },
-  "Trait": null,
+  "Trait": "C1",
   "NamaUjian": "Ujian Khas Biasiswa Persekutuan(UKBP)",
   "Susunan": 111.0,
-  "Kategori": null,
+  "Kategori": "1",
   "Bahagian": "B",
   "CreatedBy": "admin",
   "Id": "UKBP-B-00111",
   "CreatedDate": "2015-07-06T11:24:56.8123492+08:00",
   "ChangedBy": "admin",
-  "ChangedDate": "2015-07-06T11:24:56.811849+08:00",
+  "ChangedDate": "2015-08-11T14:37:52.3292073+08:00",
   "WebId": "26d82c99-27b2-46aa-856c-3ec489d3c7e1"
 }

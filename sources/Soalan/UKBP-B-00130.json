@@ -3,7 +3,7 @@
   "NoRujukan": "UKBP-B-00130",
   "SoalanNo": "UKBP-B-00130",
   "TeksSoalan": "Menjadi sukarelawan.",
-  "SeksyenSoalan": "",
+  "SeksyenSoalan": "2",
   "PilihanJawapanCollection": {
     "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan]], domain.sph",
     "$values": [
@@ -21,15 +21,15 @@
       }
     ]
   },
-  "Trait": null,
+  "Trait": "D1",
   "NamaUjian": "Ujian Khas Biasiswa Persekutuan(UKBP)",
   "Susunan": 130.0,
-  "Kategori": null,
+  "Kategori": "1",
   "Bahagian": "B",
   "CreatedBy": "admin",
   "Id": "UKBP-B-00130",
   "CreatedDate": "2015-07-06T11:24:56.9469444+08:00",
   "ChangedBy": "admin",
-  "ChangedDate": "2015-07-28T15:57:46.6280638+08:00",
+  "ChangedDate": "2015-08-11T14:47:22.063175+08:00",
   "WebId": "4abc828e-9f9d-4092-b96c-e57b5f9e6f77"
 }

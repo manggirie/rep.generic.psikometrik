@@ -3,7 +3,7 @@
   "NoRujukan": "UKBP-B-00122",
   "SoalanNo": "UKBP-B-00122",
   "TeksSoalan": "Membuat kerja kebajikan atau sukarela.",
-  "SeksyenSoalan": "",
+  "SeksyenSoalan": "2",
   "PilihanJawapanCollection": {
     "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan]], domain.sph",
     "$values": [
@@ -21,15 +21,15 @@
       }
     ]
   },
-  "Trait": null,
+  "Trait": "D1",
   "NamaUjian": "Ujian Khas Biasiswa Persekutuan(UKBP)",
   "Susunan": 122.0,
-  "Kategori": null,
+  "Kategori": "1",
   "Bahagian": "B",
   "CreatedBy": "admin",
   "Id": "UKBP-B-00122",
   "CreatedDate": "2015-07-06T11:24:56.8859013+08:00",
   "ChangedBy": "admin",
-  "ChangedDate": "2015-07-06T11:24:56.8859013+08:00",
+  "ChangedDate": "2015-08-11T14:45:14.1153815+08:00",
   "WebId": "79db78f0-0801-4830-abd9-f6e5ae4dfd85"
 }

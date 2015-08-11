@@ -3,7 +3,7 @@
   "NoRujukan": "UKBP-B-00127",
   "SoalanNo": "UKBP-B-00127",
   "TeksSoalan": "Mengajar di sekolah atau institusi pendidikan.",
-  "SeksyenSoalan": "",
+  "SeksyenSoalan": "2",
   "PilihanJawapanCollection": {
     "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan]], domain.sph",
     "$values": [
@@ -21,15 +21,15 @@
       }
     ]
   },
-  "Trait": null,
+  "Trait": "D1",
   "NamaUjian": "Ujian Khas Biasiswa Persekutuan(UKBP)",
   "Susunan": 127.0,
-  "Kategori": null,
+  "Kategori": "1",
   "Bahagian": "B",
   "CreatedBy": "admin",
   "Id": "UKBP-B-00127",
   "CreatedDate": "2015-07-06T11:24:56.9239282+08:00",
   "ChangedBy": "admin",
-  "ChangedDate": "2015-07-28T15:55:46.6645668+08:00",
+  "ChangedDate": "2015-08-11T14:46:52.4532143+08:00",
   "WebId": "4438a2ca-808c-4db3-a17d-16fd4e6dea46"
 }

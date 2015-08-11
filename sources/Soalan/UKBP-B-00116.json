@@ -3,7 +3,7 @@
   "NoRujukan": "UKBP-B-00116",
   "SoalanNo": "UKBP-B-00116",
   "TeksSoalan": "Mengikuti kursus kesenian.",
-  "SeksyenSoalan": "",
+  "SeksyenSoalan": "2",
   "PilihanJawapanCollection": {
     "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan]], domain.sph",
     "$values": [
@@ -21,15 +21,15 @@
       }
     ]
   },
-  "Trait": null,
+  "Trait": "C1",
   "NamaUjian": "Ujian Khas Biasiswa Persekutuan(UKBP)",
   "Susunan": 116.0,
-  "Kategori": null,
+  "Kategori": "1",
   "Bahagian": "B",
   "CreatedBy": "admin",
   "Id": "UKBP-B-00116",
   "CreatedDate": "2015-07-06T11:24:56.8468738+08:00",
   "ChangedBy": "admin",
-  "ChangedDate": "2015-07-06T11:24:56.8468738+08:00",
+  "ChangedDate": "2015-08-11T14:43:01.637135+08:00",
   "WebId": "1d3804bd-08ad-4094-9f82-e5f505877fa0"
 }

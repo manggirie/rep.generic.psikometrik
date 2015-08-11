@@ -3,7 +3,7 @@
   "NoRujukan": "UKBP-B-00085",
   "SoalanNo": "UKBP-B-00085",
   "TeksSoalan": "Bermain alat muzik untuk kumpulan muzik atau orkestra.",
-  "SeksyenSoalan": null,
+  "SeksyenSoalan": "2",
   "PilihanJawapanCollection": {
     "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan]], domain.sph",
     "$values": [
@@ -21,15 +21,15 @@
       }
     ]
   },
-  "Trait": null,
+  "Trait": "C1",
   "NamaUjian": "Ujian Khas Biasiswa Persekutuan(UKBP)",
   "Susunan": 113.0,
-  "Kategori": null,
+  "Kategori": "1",
   "Bahagian": "B",
   "CreatedBy": "admin",
   "Id": "f5319b32-b35c-451d-8748-2b7f9ce1ed94",
   "CreatedDate": "2015-08-04T15:04:46.5993628+08:00",
   "ChangedBy": "admin",
-  "ChangedDate": "2015-08-04T15:04:46.5933616+08:00",
+  "ChangedDate": "2015-08-11T14:38:31.6881428+08:00",
   "WebId": "1339f925-955a-452f-e6a5-819ed4e95a9b"
 }

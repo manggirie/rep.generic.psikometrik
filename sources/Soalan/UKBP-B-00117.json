@@ -3,7 +3,7 @@
   "NoRujukan": "UKBP-B-00117",
   "SoalanNo": "UKBP-B-00117",
   "TeksSoalan": "Menyusun atau mengubah melodi muzik.",
-  "SeksyenSoalan": "",
+  "SeksyenSoalan": "2",
   "PilihanJawapanCollection": {
     "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan]], domain.sph",
     "$values": [
@@ -21,15 +21,15 @@
       }
     ]
   },
-  "Trait": null,
+  "Trait": "C1",
   "NamaUjian": "Ujian Khas Biasiswa Persekutuan(UKBP)",
   "Susunan": 117.0,
-  "Kategori": null,
+  "Kategori": "1",
   "Bahagian": "B",
   "CreatedBy": "admin",
   "Id": "UKBP-B-00117",
   "CreatedDate": "2015-07-06T11:24:56.8538787+08:00",
   "ChangedBy": "admin",
-  "ChangedDate": "2015-07-23T11:12:16.2808391+08:00",
+  "ChangedDate": "2015-08-11T14:40:12.1161846+08:00",
   "WebId": "763a454d-e0e5-446e-8976-d5aacafca93e"
 }
