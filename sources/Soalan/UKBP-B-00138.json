@@ -3,7 +3,7 @@
   "NoRujukan": "UKBP-B-00138",
   "SoalanNo": "UKBP-B-00138",
   "TeksSoalan": "Mengambil bahagian di dalam kempen parti politik.",
-  "SeksyenSoalan": "",
+  "SeksyenSoalan": "2",
   "PilihanJawapanCollection": {
     "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan]], domain.sph",
     "$values": [
@@ -21,15 +21,15 @@
       }
     ]
   },
-  "Trait": null,
+  "Trait": "E1",
   "NamaUjian": "Ujian Khas Biasiswa Persekutuan(UKBP)",
   "Susunan": 138.0,
-  "Kategori": null,
+  "Kategori": "1",
   "Bahagian": "B",
   "CreatedBy": "admin",
   "Id": "UKBP-B-00138",
   "CreatedDate": "2015-07-06T11:24:57.0179945+08:00",
   "ChangedBy": "admin",
-  "ChangedDate": "2015-07-06T11:24:57.0174935+08:00",
+  "ChangedDate": "2015-08-11T14:52:59.8079461+08:00",
   "WebId": "a9245f79-bbcb-4ecf-9e12-f863a8d6b806"
 }

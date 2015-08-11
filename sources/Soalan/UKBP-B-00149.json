@@ -3,7 +3,7 @@
   "NoRujukan": "UKBP-B-00149",
   "SoalanNo": "UKBP-B-00149",
   "TeksSoalan": "Mengemaskini rekod atau fail.",
-  "SeksyenSoalan": "",
+  "SeksyenSoalan": "2",
   "PilihanJawapanCollection": {
     "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan]], domain.sph",
     "$values": [
@@ -21,15 +21,15 @@
       }
     ]
   },
-  "Trait": null,
+  "Trait": "F1",
   "NamaUjian": "Ujian Khas Biasiswa Persekutuan(UKBP)",
   "Susunan": 149.0,
-  "Kategori": null,
+  "Kategori": "1",
   "Bahagian": "B",
   "CreatedBy": "admin",
   "Id": "UKBP-B-00149",
   "CreatedDate": "2015-07-06T11:24:57.1105597+08:00",
   "ChangedBy": "admin",
-  "ChangedDate": "2015-07-06T11:24:57.1105597+08:00",
+  "ChangedDate": "2015-08-11T14:58:00.3960019+08:00",
   "WebId": "29875dbd-4ac8-4eee-9e91-133817a58152"
 }

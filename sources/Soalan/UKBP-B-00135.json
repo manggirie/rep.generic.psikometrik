@@ -3,7 +3,7 @@
   "NoRujukan": "UKBP-B-00135",
   "SoalanNo": "UKBP-B-00135",
   "TeksSoalan": "Menyelia kerja orang lain.",
-  "SeksyenSoalan": "",
+  "SeksyenSoalan": "2",
   "PilihanJawapanCollection": {
     "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan]], domain.sph",
     "$values": [
@@ -21,15 +21,15 @@
       }
     ]
   },
-  "Trait": null,
+  "Trait": "E1",
   "NamaUjian": "Ujian Khas Biasiswa Persekutuan(UKBP)",
   "Susunan": 135.0,
-  "Kategori": null,
+  "Kategori": "1",
   "Bahagian": "B",
   "CreatedBy": "admin",
   "Id": "UKBP-B-00135",
   "CreatedDate": "2015-07-06T11:24:56.9879734+08:00",
   "ChangedBy": "admin",
-  "ChangedDate": "2015-07-06T11:24:56.9879734+08:00",
+  "ChangedDate": "2015-08-11T14:52:14.8994557+08:00",
   "WebId": "034325f8-b379-4ed6-a0b2-29a705a9ef7e"
 }

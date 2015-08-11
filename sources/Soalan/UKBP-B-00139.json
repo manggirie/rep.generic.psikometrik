@@ -3,7 +3,7 @@
   "NoRujukan": "UKBP-B-00139",
   "SoalanNo": "UKBP-B-00139",
   "TeksSoalan": "Bertindak sebagai pakar runding (konsultant) organisasi atau perniagaan.",
-  "SeksyenSoalan": "",
+  "SeksyenSoalan": "2",
   "PilihanJawapanCollection": {
     "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan]], domain.sph",
     "$values": [
@@ -21,15 +21,15 @@
       }
     ]
   },
-  "Trait": null,
+  "Trait": "E1",
   "NamaUjian": "Ujian Khas Biasiswa Persekutuan(UKBP)",
   "Susunan": 139.0,
-  "Kategori": null,
+  "Kategori": "1",
   "Bahagian": "B",
   "CreatedBy": "admin",
   "Id": "UKBP-B-00139",
   "CreatedDate": "2015-07-06T11:24:57.0254996+08:00",
   "ChangedBy": "admin",
-  "ChangedDate": "2015-07-06T11:24:57.0244998+08:00",
+  "ChangedDate": "2015-08-11T14:53:17.1656817+08:00",
   "WebId": "d35ea95a-ec35-4a4e-b61e-16561d8128e0"
 }

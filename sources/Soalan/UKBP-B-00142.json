@@ -3,7 +3,7 @@
   "NoRujukan": "UKBP-B-00142",
   "SoalanNo": "UKBP-B-00142",
   "TeksSoalan": "Menguruskan peralatan dan mesin di pejabat.",
-  "SeksyenSoalan": "",
+  "SeksyenSoalan": "2",
   "PilihanJawapanCollection": {
     "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan]], domain.sph",
     "$values": [
@@ -21,15 +21,15 @@
       }
     ]
   },
-  "Trait": null,
+  "Trait": "F1",
   "NamaUjian": "Ujian Khas Biasiswa Persekutuan(UKBP)",
   "Susunan": 142.1,
-  "Kategori": null,
+  "Kategori": "1",
   "Bahagian": "B",
   "CreatedBy": "admin",
   "Id": "UKBP-B-00142",
   "CreatedDate": "2015-07-06T11:24:57.0540195+08:00",
   "ChangedBy": "admin",
-  "ChangedDate": "2015-07-29T10:30:59.1232888+08:00",
+  "ChangedDate": "2015-08-11T14:56:13.5713205+08:00",
   "WebId": "ff70e847-90e8-4869-b674-355b5011a832"
 }

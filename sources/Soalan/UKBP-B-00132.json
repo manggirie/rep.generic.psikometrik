@@ -3,7 +3,7 @@
   "NoRujukan": "UKBP-B-00132",
   "SoalanNo": "UKBP-B-00132",
   "TeksSoalan": "Mengurus perniagaan atau syarikat sendiri.",
-  "SeksyenSoalan": "",
+  "SeksyenSoalan": "2",
   "PilihanJawapanCollection": {
     "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan]], domain.sph",
     "$values": [
@@ -21,15 +21,15 @@
       }
     ]
   },
-  "Trait": null,
+  "Trait": "E1",
   "NamaUjian": "Ujian Khas Biasiswa Persekutuan(UKBP)",
   "Susunan": 132.0,
-  "Kategori": null,
+  "Kategori": "1",
   "Bahagian": "B",
   "CreatedBy": "admin",
   "Id": "UKBP-B-00132",
   "CreatedDate": "2015-07-06T11:24:56.9659578+08:00",
   "ChangedBy": "admin",
-  "ChangedDate": "2015-07-28T15:59:49.1711589+08:00",
+  "ChangedDate": "2015-08-11T14:50:43.6263293+08:00",
   "WebId": "3cc6480a-66ee-4114-ad86-3b3fdf28710a"
 }

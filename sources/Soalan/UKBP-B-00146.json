@@ -3,7 +3,7 @@
   "NoRujukan": "UKBP-B-00146",
   "SoalanNo": "UKBP-B-00146",
   "TeksSoalan": "Mengambil kursus Perdagangan atau Ekonomi Asas.",
-  "SeksyenSoalan": "",
+  "SeksyenSoalan": "2",
   "PilihanJawapanCollection": {
     "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan]], domain.sph",
     "$values": [
@@ -21,15 +21,15 @@
       }
     ]
   },
-  "Trait": null,
+  "Trait": "F1",
   "NamaUjian": "Ujian Khas Biasiswa Persekutuan(UKBP)",
   "Susunan": 146.0,
-  "Kategori": null,
+  "Kategori": "1",
   "Bahagian": "B",
   "CreatedBy": "admin",
   "Id": "UKBP-B-00146",
   "CreatedDate": "2015-07-06T11:24:57.0875439+08:00",
   "ChangedBy": "admin",
-  "ChangedDate": "2015-07-29T10:33:08.0161768+08:00",
+  "ChangedDate": "2015-08-11T14:57:19.0748702+08:00",
   "WebId": "f5b983c1-ad44-4d52-8a4f-124d7bf414b4"
 }
