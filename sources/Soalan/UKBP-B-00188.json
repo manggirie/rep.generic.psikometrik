@@ -3,7 +3,7 @@
   "NoRujukan": "UKBP-B-00188",
   "SoalanNo": "UKBP-B-00188",
   "TeksSoalan": "Memahami etika perhubungan sosial.",
-  "SeksyenSoalan": "",
+  "SeksyenSoalan": "2",
   "PilihanJawapanCollection": {
     "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan]], domain.sph",
     "$values": [
@@ -21,15 +21,15 @@
       }
     ]
   },
-  "Trait": null,
+  "Trait": "D2",
   "NamaUjian": "Ujian Khas Biasiswa Persekutuan(UKBP)",
   "Susunan": 188.0,
-  "Kategori": null,
+  "Kategori": "2",
   "Bahagian": "B",
   "CreatedBy": "admin",
   "Id": "UKBP-B-00188",
   "CreatedDate": "2015-07-06T11:24:57.395761+08:00",
   "ChangedBy": "admin",
-  "ChangedDate": "2015-07-29T11:49:30.2769703+08:00",
+  "ChangedDate": "2015-08-11T15:37:51.0150413+08:00",
   "WebId": "c63fe986-0b56-4af1-a244-58830f75b0aa"
 }

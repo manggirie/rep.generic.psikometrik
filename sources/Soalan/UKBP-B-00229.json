@@ -3,7 +3,7 @@
   "NoRujukan": "UKBP-B-00229",
   "SoalanNo": "UKBP-B-00229",
   "TeksSoalan": "Ahli Geologi.",
-  "SeksyenSoalan": "",
+  "SeksyenSoalan": "2",
   "PilihanJawapanCollection": {
     "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan]], domain.sph",
     "$values": [
@@ -21,15 +21,15 @@
       }
     ]
   },
-  "Trait": null,
+  "Trait": "B3",
   "NamaUjian": "Ujian Khas Biasiswa Persekutuan(UKBP)",
   "Susunan": 229.0,
-  "Kategori": null,
+  "Kategori": "3",
   "Bahagian": "B",
   "CreatedBy": "admin",
   "Id": "UKBP-B-00229",
   "CreatedDate": "2015-07-06T11:24:57.7965441+08:00",
   "ChangedBy": "admin",
-  "ChangedDate": "2015-07-29T15:25:22.264531+08:00",
+  "ChangedDate": "2015-08-11T16:01:08.840238+08:00",
   "WebId": "b0d27571-fd39-4776-9c6e-c9d187333634"
 }

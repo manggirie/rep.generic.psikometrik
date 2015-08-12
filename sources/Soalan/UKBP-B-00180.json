@@ -3,7 +3,7 @@
   "NoRujukan": "UKBP-B-00180",
   "SoalanNo": "UKBP-B-00180",
   "TeksSoalan": "Mengambil gambar menarik dengan menggunakan kamera.",
-  "SeksyenSoalan": "",
+  "SeksyenSoalan": "2",
   "PilihanJawapanCollection": {
     "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan]], domain.sph",
     "$values": [
@@ -21,15 +21,15 @@
       }
     ]
   },
-  "Trait": null,
+  "Trait": "C2",
   "NamaUjian": "Ujian Khas Biasiswa Persekutuan(UKBP)",
   "Susunan": 180.0,
-  "Kategori": null,
+  "Kategori": "2",
   "Bahagian": "B",
   "CreatedBy": "admin",
   "Id": "UKBP-B-00180",
   "CreatedDate": "2015-07-06T11:24:57.3377205+08:00",
   "ChangedBy": "admin",
-  "ChangedDate": "2015-07-29T11:46:57.8297271+08:00",
+  "ChangedDate": "2015-08-11T15:33:32.9882412+08:00",
   "WebId": "52e2dc92-8b07-4571-9149-72b4185ab0d8"
 }

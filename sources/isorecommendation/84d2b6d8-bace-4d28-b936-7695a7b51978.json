@@ -1,0 +1,16 @@
+{
+  "$type": "Bespoke.epsikologi_isorecommendation.Domain.IsoRecommendation, epsikologi.IsoRecommendation",
+  "No": "ps-bs-0-4",
+  "Tret": "Bebanan dan Stres",
+  "NilaiMin": 0,
+  "NilaiMax": 4,
+  "Kategori": "Rendah",
+  "Ciri": "Tahap bebanan stres rendah, kelihatan aktif dan bertenaga, ceria dan tenang walaupun dalam situasi yang tertekan.\nPengurusan stres dengan mengenal pasti simptom stres seperti kebosanan, bersikap pesimistik atau mudah letih dan mengendalikan bebanan stres secara efektif dengan berjumpa doktor, melakukan senaman atau melibatkan diri dengan aktiviti yang menarik minat.\n",
+  "Dimensi": "Punca Stres",
+  "CreatedBy": "urusetia1",
+  "Id": "84d2b6d8-bace-4d28-b936-7695a7b51978",
+  "CreatedDate": "2015-08-12T08:36:05.6472177+08:00",
+  "ChangedBy": "urusetia1",
+  "ChangedDate": "2015-08-12T08:36:05.6302187+08:00",
+  "WebId": "47a7847c-2ce2-4a31-ffbd-51af98dd9db4"
+}

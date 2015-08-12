@@ -3,7 +3,7 @@
   "NoRujukan": "UKBP-B-00255",
   "SoalanNo": "UKBP-B-00255",
   "TeksSoalan": "Pegawai Perubatan/Pergigian.",
-  "SeksyenSoalan": "",
+  "SeksyenSoalan": "2",
   "PilihanJawapanCollection": {
     "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan]], domain.sph",
     "$values": [
@@ -21,15 +21,15 @@
       }
     ]
   },
-  "Trait": null,
+  "Trait": "D3",
   "NamaUjian": "Ujian Khas Biasiswa Persekutuan(UKBP)",
   "Susunan": 255.0,
-  "Kategori": null,
+  "Kategori": "3",
   "Bahagian": "B",
   "CreatedBy": "admin",
   "Id": "UKBP-B-00255",
   "CreatedDate": "2015-07-06T11:24:58.0722384+08:00",
   "ChangedBy": "admin",
-  "ChangedDate": "2015-07-29T16:21:14.4817201+08:00",
+  "ChangedDate": "2015-08-11T16:23:38.180123+08:00",
   "WebId": "694ae1e3-c7d5-4e4e-bd78-aa73984ab658"
 }

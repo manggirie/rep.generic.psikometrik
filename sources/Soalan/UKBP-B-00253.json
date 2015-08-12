@@ -3,7 +3,7 @@
   "NoRujukan": "UKBP-B-00253",
   "SoalanNo": "UKBP-B-00253",
   "TeksSoalan": "Pegawai Agama.",
-  "SeksyenSoalan": "",
+  "SeksyenSoalan": "2",
   "PilihanJawapanCollection": {
     "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan]], domain.sph",
     "$values": [
@@ -21,15 +21,15 @@
       }
     ]
   },
-  "Trait": null,
+  "Trait": "D3",
   "NamaUjian": "Ujian Khas Biasiswa Persekutuan(UKBP)",
   "Susunan": 253.0,
-  "Kategori": null,
+  "Kategori": "3",
   "Bahagian": "B",
   "CreatedBy": "admin",
   "Id": "UKBP-B-00253",
   "CreatedDate": "2015-07-06T11:24:58.055727+08:00",
   "ChangedBy": "admin",
-  "ChangedDate": "2015-07-29T16:19:54.9545036+08:00",
+  "ChangedDate": "2015-08-11T16:23:05.7037536+08:00",
   "WebId": "9c57c0b5-16c6-4fb0-b10d-91d79fa55ed7"
 }

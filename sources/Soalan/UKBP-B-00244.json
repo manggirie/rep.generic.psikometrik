@@ -3,7 +3,7 @@
   "NoRujukan": "UKBP-B-00244",
   "SoalanNo": "UKBP-B-00244",
   "TeksSoalan": "Penulis Skrip.",
-  "SeksyenSoalan": "",
+  "SeksyenSoalan": "2",
   "PilihanJawapanCollection": {
     "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan]], domain.sph",
     "$values": [
@@ -21,15 +21,15 @@
       }
     ]
   },
-  "Trait": null,
+  "Trait": "C3",
   "NamaUjian": "Ujian Khas Biasiswa Persekutuan(UKBP)",
   "Susunan": 244.0,
-  "Kategori": null,
+  "Kategori": "3",
   "Bahagian": "B",
   "CreatedBy": "admin",
   "Id": "UKBP-B-00244",
   "CreatedDate": "2015-07-06T11:24:57.9716677+08:00",
   "ChangedBy": "admin",
-  "ChangedDate": "2015-07-29T16:16:57.7573885+08:00",
+  "ChangedDate": "2015-08-11T16:16:40.597639+08:00",
   "WebId": "d6b14e77-667f-46a0-bf40-238fd30ec1b9"
 }

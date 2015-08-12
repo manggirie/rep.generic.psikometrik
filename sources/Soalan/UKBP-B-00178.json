@@ -3,7 +3,7 @@
   "NoRujukan": "UKBP-B-00178",
   "SoalanNo": "UKBP-B-00178",
   "TeksSoalan": "Menulis cerpen atau puisi dengan baik.",
-  "SeksyenSoalan": "",
+  "SeksyenSoalan": "2",
   "PilihanJawapanCollection": {
     "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan]], domain.sph",
     "$values": [
@@ -21,15 +21,15 @@
       }
     ]
   },
-  "Trait": null,
+  "Trait": "C2",
   "NamaUjian": "Ujian Khas Biasiswa Persekutuan(UKBP)",
   "Susunan": 178.0,
-  "Kategori": null,
+  "Kategori": "2",
   "Bahagian": "B",
   "CreatedBy": "admin",
   "Id": "UKBP-B-00178",
   "CreatedDate": "2015-07-06T11:24:57.3222093+08:00",
   "ChangedBy": "admin",
-  "ChangedDate": "2015-07-29T11:20:17.4648106+08:00",
+  "ChangedDate": "2015-08-11T15:32:59.8269254+08:00",
   "WebId": "4996617f-2073-4543-94ed-2763f04bd65c"
 }

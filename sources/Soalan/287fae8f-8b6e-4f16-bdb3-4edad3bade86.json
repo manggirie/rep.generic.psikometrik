@@ -3,7 +3,7 @@
   "NoRujukan": "UKBP-B-00092",
   "SoalanNo": "UKBP-B-00092",
   "TeksSoalan": "Menyanyi atau berbicara secara berirama.",
-  "SeksyenSoalan": null,
+  "SeksyenSoalan": "2",
   "PilihanJawapanCollection": {
     "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan]], domain.sph",
     "$values": [
@@ -21,15 +21,15 @@
       }
     ]
   },
-  "Trait": null,
+  "Trait": "C2",
   "NamaUjian": "Ujian Khas Biasiswa Persekutuan(UKBP)",
   "Susunan": 172.0,
-  "Kategori": null,
+  "Kategori": "2",
   "Bahagian": "B",
   "CreatedBy": "admin",
   "Id": "287fae8f-8b6e-4f16-bdb3-4edad3bade86",
   "CreatedDate": "2015-08-04T15:33:11.086956+08:00",
   "ChangedBy": "admin",
-  "ChangedDate": "2015-08-04T15:33:09.4446825+08:00",
+  "ChangedDate": "2015-08-11T15:31:18.6618099+08:00",
   "WebId": "d42256f1-71cf-4dcb-d36f-994b2da0fb8a"
 }

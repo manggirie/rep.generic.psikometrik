@@ -3,7 +3,7 @@
   "NoRujukan": "UKBP-B-00265",
   "SoalanNo": "UKBP-B-00265",
   "TeksSoalan": "Ahli Politik.",
-  "SeksyenSoalan": "",
+  "SeksyenSoalan": "2",
   "PilihanJawapanCollection": {
     "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan]], domain.sph",
     "$values": [
@@ -21,15 +21,15 @@
       }
     ]
   },
-  "Trait": null,
+  "Trait": "E3",
   "NamaUjian": "Ujian Khas Biasiswa Persekutuan(UKBP)",
   "Susunan": 265.0,
-  "Kategori": null,
+  "Kategori": "3",
   "Bahagian": "B",
   "CreatedBy": "admin",
   "Id": "UKBP-B-00265",
   "CreatedDate": "2015-07-06T11:24:58.1457901+08:00",
   "ChangedBy": "admin",
-  "ChangedDate": "2015-07-30T15:04:38.6519179+08:00",
+  "ChangedDate": "2015-08-11T16:42:12.3382646+08:00",
   "WebId": "fa3f8f62-ac5c-4a75-a957-c0c113a57abd"
 }

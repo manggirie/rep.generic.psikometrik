@@ -3,7 +3,7 @@
   "NoRujukan": "UKBP-B-00189",
   "SoalanNo": "UKBP-B-00189",
   "TeksSoalan": "Mengajar orang lain.",
-  "SeksyenSoalan": "",
+  "SeksyenSoalan": "2",
   "PilihanJawapanCollection": {
     "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan]], domain.sph",
     "$values": [
@@ -21,15 +21,15 @@
       }
     ]
   },
-  "Trait": null,
+  "Trait": "D2",
   "NamaUjian": "Ujian Khas Biasiswa Persekutuan(UKBP)",
   "Susunan": 189.0,
-  "Kategori": null,
+  "Kategori": "2",
   "Bahagian": "B",
   "CreatedBy": "admin",
   "Id": "UKBP-B-00189",
   "CreatedDate": "2015-07-06T11:24:57.4022662+08:00",
   "ChangedBy": "admin",
-  "ChangedDate": "2015-07-06T11:24:57.4017652+08:00",
+  "ChangedDate": "2015-08-11T15:38:02.9452342+08:00",
   "WebId": "9d15ac52-e071-4353-ba26-1a0354f7e275"
 }

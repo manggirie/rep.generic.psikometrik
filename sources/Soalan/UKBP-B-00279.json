@@ -3,7 +3,7 @@
   "NoRujukan": "UKBP-B-00279",
   "SoalanNo": "UKBP-B-00279",
   "TeksSoalan": "Pengurus Gaji.",
-  "SeksyenSoalan": "",
+  "SeksyenSoalan": "2",
   "PilihanJawapanCollection": {
     "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan]], domain.sph",
     "$values": [
@@ -21,15 +21,15 @@
       }
     ]
   },
-  "Trait": null,
+  "Trait": "E3",
   "NamaUjian": "Ujian Khas Biasiswa Persekutuan(UKBP)",
   "Susunan": 279.0,
-  "Kategori": null,
+  "Kategori": "3",
   "Bahagian": "B",
   "CreatedBy": "admin",
   "Id": "UKBP-B-00279",
   "CreatedDate": "2015-07-06T11:24:58.2503646+08:00",
   "ChangedBy": "admin",
-  "ChangedDate": "2015-07-30T15:14:53.4337163+08:00",
+  "ChangedDate": "2015-08-11T16:46:29.3722089+08:00",
   "WebId": "4c7b2fc0-9b8d-4535-89af-cb168247e988"
 }

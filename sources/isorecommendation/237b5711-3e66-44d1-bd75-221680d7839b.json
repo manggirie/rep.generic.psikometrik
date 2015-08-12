@@ -1,0 +1,16 @@
+{
+  "$type": "Bespoke.epsikologi_isorecommendation.Domain.IsoRecommendation, epsikologi.IsoRecommendation",
+  "No": "ps-k-5-7",
+  "Tret": "Kebimbangan",
+  "NilaiMin": 5,
+  "NilaiMax": 7,
+  "Kategori": "Sederhana",
+  "Ciri": "Beberapa simptom kebimbangan seperti ketegangan otot, sukar tidur, berasa tertekan, sukar bercakap, memperbesarkan perkara remeh dan suka mengingati masalah yang berlaku.\nPengurusan kebimbangan dengan melakukan senaman, mengamalkan meditasi, teknik pernafasan bagi memperoleh kerehatan, mengambil makanan seimbang dan mengenal pasti pencetus kebimbangan.\n",
+  "Dimensi": "Punca Stres",
+  "CreatedBy": "urusetia1",
+  "Id": "237b5711-3e66-44d1-bd75-221680d7839b",
+  "CreatedDate": "2015-08-12T08:16:18.2237488+08:00",
+  "ChangedBy": "urusetia1",
+  "ChangedDate": "2015-08-12T08:16:18.2117484+08:00",
+  "WebId": "243a4bb6-6147-4640-a407-17d70127789e"
+}

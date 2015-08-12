@@ -3,7 +3,7 @@
   "NoRujukan": "UKBP-B-00262",
   "SoalanNo": "UKBP-B-00262",
   "TeksSoalan": "Eksekutif Jualan.",
-  "SeksyenSoalan": "",
+  "SeksyenSoalan": "2",
   "PilihanJawapanCollection": {
     "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan]], domain.sph",
     "$values": [
@@ -21,15 +21,15 @@
       }
     ]
   },
-  "Trait": null,
+  "Trait": "E3",
   "NamaUjian": "Ujian Khas Biasiswa Persekutuan(UKBP)",
   "Susunan": 262.0,
-  "Kategori": null,
+  "Kategori": "3",
   "Bahagian": "B",
   "CreatedBy": "admin",
   "Id": "UKBP-B-00262",
   "CreatedDate": "2015-07-06T11:24:58.124277+08:00",
   "ChangedBy": "admin",
-  "ChangedDate": "2015-07-30T15:02:14.4487483+08:00",
+  "ChangedDate": "2015-08-11T16:36:56.9857325+08:00",
   "WebId": "63a57e5d-f93f-4eff-931d-e869828214bf"
 }

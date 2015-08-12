@@ -3,7 +3,7 @@
   "NoRujukan": "UKBP-B-00264",
   "SoalanNo": "UKBP-B-00264",
   "TeksSoalan": "Pengurus Kompleks Membeli Belah.",
-  "SeksyenSoalan": "",
+  "SeksyenSoalan": "2",
   "PilihanJawapanCollection": {
     "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan]], domain.sph",
     "$values": [
@@ -21,15 +21,15 @@
       }
     ]
   },
-  "Trait": null,
+  "Trait": "E3",
   "NamaUjian": "Ujian Khas Biasiswa Persekutuan(UKBP)",
   "Susunan": 264.0,
-  "Kategori": null,
+  "Kategori": "3",
   "Bahagian": "B",
   "CreatedBy": "admin",
   "Id": "UKBP-B-00264",
   "CreatedDate": "2015-07-06T11:24:58.138285+08:00",
   "ChangedBy": "admin",
-  "ChangedDate": "2015-07-30T15:04:06.5264653+08:00",
+  "ChangedDate": "2015-08-11T16:41:58.9449254+08:00",
   "WebId": "d078c432-47d8-4fbb-b495-5d33fb9f3859"
 }

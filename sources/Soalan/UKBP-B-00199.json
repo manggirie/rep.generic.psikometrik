@@ -3,7 +3,7 @@
   "NoRujukan": "UKBP-B-00199",
   "SoalanNo": "UKBP-B-00199",
   "TeksSoalan": "Merancang dengan baik.",
-  "SeksyenSoalan": "",
+  "SeksyenSoalan": "2",
   "PilihanJawapanCollection": {
     "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan]], domain.sph",
     "$values": [
@@ -21,15 +21,15 @@
       }
     ]
   },
-  "Trait": null,
+  "Trait": "E2",
   "NamaUjian": "Ujian Khas Biasiswa Persekutuan(UKBP)",
   "Susunan": 199.0,
-  "Kategori": null,
+  "Kategori": "2",
   "Bahagian": "B",
   "CreatedBy": "admin",
   "Id": "UKBP-B-00199",
   "CreatedDate": "2015-07-06T11:24:57.4743166+08:00",
   "ChangedBy": "admin",
-  "ChangedDate": "2015-07-06T11:24:57.4733173+08:00",
+  "ChangedDate": "2015-08-11T15:44:35.7175075+08:00",
   "WebId": "c585cfd2-c179-4d1f-bd12-0d1d51709703"
 }

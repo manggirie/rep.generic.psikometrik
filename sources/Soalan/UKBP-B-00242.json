@@ -3,7 +3,7 @@
   "NoRujukan": "UKBP-B-00242",
   "SoalanNo": "UKBP-B-00242",
   "TeksSoalan": "Komposer.",
-  "SeksyenSoalan": "",
+  "SeksyenSoalan": "2",
   "PilihanJawapanCollection": {
     "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan]], domain.sph",
     "$values": [
@@ -21,15 +21,15 @@
       }
     ]
   },
-  "Trait": null,
+  "Trait": "C3",
   "NamaUjian": "Ujian Khas Biasiswa Persekutuan(UKBP)",
   "Susunan": 242.0,
-  "Kategori": null,
+  "Kategori": "3",
   "Bahagian": "B",
   "CreatedBy": "admin",
   "Id": "UKBP-B-00242",
   "CreatedDate": "2015-07-06T11:24:57.9521541+08:00",
   "ChangedBy": "admin",
-  "ChangedDate": "2015-07-06T11:24:57.951153+08:00",
+  "ChangedDate": "2015-08-11T16:15:32.0008028+08:00",
   "WebId": "0659ef91-e781-49cd-a3c7-ffd2d9fb1565"
 }

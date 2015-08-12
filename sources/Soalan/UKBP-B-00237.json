@@ -3,7 +3,7 @@
   "NoRujukan": "UKBP-B-00237",
   "SoalanNo": "UKBP-B-00237",
   "TeksSoalan": "Penulis buku.",
-  "SeksyenSoalan": "",
+  "SeksyenSoalan": "2",
   "PilihanJawapanCollection": {
     "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan]], domain.sph",
     "$values": [
@@ -21,15 +21,15 @@
       }
     ]
   },
-  "Trait": null,
+  "Trait": "C3",
   "NamaUjian": "Ujian Khas Biasiswa Persekutuan(UKBP)",
   "Susunan": 237.0,
-  "Kategori": null,
+  "Kategori": "3",
   "Bahagian": "B",
   "CreatedBy": "admin",
   "Id": "UKBP-B-00237",
   "CreatedDate": "2015-07-06T11:24:57.9051209+08:00",
   "ChangedBy": "admin",
-  "ChangedDate": "2015-07-06T11:24:57.9046199+08:00",
+  "ChangedDate": "2015-08-11T16:10:54.756405+08:00",
   "WebId": "c45f7e85-c9db-4bfd-8f03-d368c4007fc6"
 }

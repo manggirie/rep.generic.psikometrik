@@ -3,7 +3,7 @@
   "NoRujukan": "UKBP-B-00197",
   "SoalanNo": "UKBP-B-00197",
   "TeksSoalan": "Menjadi seorang jurujual yang baik.",
-  "SeksyenSoalan": "",
+  "SeksyenSoalan": "2",
   "PilihanJawapanCollection": {
     "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan]], domain.sph",
     "$values": [
@@ -21,15 +21,15 @@
       }
     ]
   },
-  "Trait": null,
+  "Trait": "E2",
   "NamaUjian": "Ujian Khas Biasiswa Persekutuan(UKBP)",
   "Susunan": 197.0,
-  "Kategori": null,
+  "Kategori": "2",
   "Bahagian": "B",
   "CreatedBy": "admin",
   "Id": "UKBP-B-00197",
   "CreatedDate": "2015-07-06T11:24:57.4603067+08:00",
   "ChangedBy": "admin",
-  "ChangedDate": "2015-07-29T11:52:18.8918301+08:00",
+  "ChangedDate": "2015-08-11T15:44:02.8072168+08:00",
   "WebId": "88c31ab5-ec98-4bf5-8d0c-8a71cbd8ea29"
 }

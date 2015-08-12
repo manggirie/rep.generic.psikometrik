@@ -3,7 +3,7 @@
   "NoRujukan": "UKBP-B-00094",
   "SoalanNo": "UKBP-B-00094",
   "TeksSoalan": "Memujuk atau menyakinkan orang lain.",
-  "SeksyenSoalan": null,
+  "SeksyenSoalan": "2",
   "PilihanJawapanCollection": {
     "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan]], domain.sph",
     "$values": [
@@ -21,15 +21,15 @@
       }
     ]
   },
-  "Trait": null,
+  "Trait": "E2",
   "NamaUjian": "Ujian Khas Biasiswa Persekutuan(UKBP)",
   "Susunan": 200.0,
-  "Kategori": null,
+  "Kategori": "2",
   "Bahagian": "B",
   "CreatedBy": "admin",
   "Id": "7f470d40-2011-42cc-bac9-0752989215bb",
   "CreatedDate": "2015-08-04T15:35:30.0874223+08:00",
   "ChangedBy": "admin",
-  "ChangedDate": "2015-08-04T15:35:30.0734209+08:00",
+  "ChangedDate": "2015-08-11T15:44:50.7600116+08:00",
   "WebId": "977e7784-52e6-4828-b6ca-da46e84caa1a"
 }

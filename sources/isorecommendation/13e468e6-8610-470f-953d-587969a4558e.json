@@ -1,0 +1,16 @@
+{
+  "$type": "Bespoke.epsikologi_isorecommendation.Domain.IsoRecommendation, epsikologi.IsoRecommendation",
+  "No": "ads-ts-29-40",
+  "Tret": "Tahap Stres",
+  "NilaiMin": 29,
+  "NilaiMax": 40,
+  "Kategori": "Tinggi",
+  "Ciri": "Mungkin mengalami stres yang serius dan perlu kenal pasti simptom serta punca stres agar dapat kendalikannya dengan efektif.\nPengurusan stres dengan mengubah gaya hidup, bersikap positif, menjalani sesi terapi atau kaunseling kerana kegagalan mengendalikan stres boleh menjejaskan kesejahteraan dari segi fizikal, mental dan emosi.\n",
+  "Dimensi": "Anda dan Stres",
+  "CreatedBy": "urusetia1",
+  "Id": "13e468e6-8610-470f-953d-587969a4558e",
+  "CreatedDate": "2015-08-12T08:14:36.5262332+08:00",
+  "ChangedBy": "urusetia1",
+  "ChangedDate": "2015-08-12T08:14:36.5202332+08:00",
+  "WebId": "b88baa4c-3625-4a18-8cfe-a558d63672ca"
+}

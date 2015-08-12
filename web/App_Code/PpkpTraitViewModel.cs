@@ -35,7 +35,7 @@ namespace web.sph.App_Code
                     var scr3 = m_list.Single(x => x.NilaiMin <= a3 && a3 <= x.NilaiMax && x.Tret == "A3");
                     var scr4 = m_list.Single(x => x.NilaiMin <= a4 && a4 <= x.NilaiMax && x.Tret == "A4");
 
-                    var list = new List<SkorPpkp> { scr1, scr2, scr2, scr3, scr4 };
+                    var list = new List<SkorPpkp> { scr1, scr2, scr3, scr4 };
                     return list;
                 }
             }
@@ -55,7 +55,7 @@ namespace web.sph.App_Code
                     var scr4 = m_list.Single(x => x.NilaiMin <= b4 && b4 <= x.NilaiMax && x.Tret == "B4");
                     var scr5 = m_list.Single(x => x.NilaiMin <= b5 && b5 <= x.NilaiMax && x.Tret == "B5");
 
-                    var list = new List<SkorPpkp> { scr1, scr2, scr2, scr3, scr4 , scr5};
+                    var list = new List<SkorPpkp> { scr1, scr2, scr3, scr4, scr5 };
                     return list;
                 }
             }
@@ -73,7 +73,7 @@ namespace web.sph.App_Code
                     var scr3 = m_list.Single(x => x.NilaiMin <= c3 && c3 <= x.NilaiMax && x.Tret == "C3");
                     var scr4 = m_list.Single(x => x.NilaiMin <= c4 && c4 <= x.NilaiMax && x.Tret == "C4");
 
-                    var list = new List<SkorPpkp> { scr1, scr2, scr2, scr3, scr4 };
+                    var list = new List<SkorPpkp> { scr1, scr2, scr3, scr4 };
                     return list;
                 }
             }
@@ -88,14 +88,14 @@ namespace web.sph.App_Code
                     var d5 = m_vm.Sesi.JawapanCollection.Where(x => x.Trait == "D5").Sum(x => x.Nilai);
                     var d6 = m_vm.Sesi.JawapanCollection.Where(x => x.Trait == "D6").Sum(x => x.Nilai);
 
-                    var scr1 = m_list.Single(x => x.NilaiMin <= d1 && d1 <= x.NilaiMax && x.Tret == "C1");
-                    var scr2 = m_list.Single(x => x.NilaiMin <= d2 && d2 <= x.NilaiMax && x.Tret == "C2");
-                    var scr3 = m_list.Single(x => x.NilaiMin <= d3 && d3 <= x.NilaiMax && x.Tret == "C3");
-                    var scr4 = m_list.Single(x => x.NilaiMin <= d4 && d4 <= x.NilaiMax && x.Tret == "C4");
-                    var scr5 = m_list.Single(x => x.NilaiMin <= d5 && d5 <= x.NilaiMax && x.Tret == "C5");
-                    var scr6 = m_list.Single(x => x.NilaiMin <= d6 && d6 <= x.NilaiMax && x.Tret == "C6");
+                    var scr1 = m_list.Single(x => x.NilaiMin <= d1 && d1 <= x.NilaiMax && x.Tret == "D1");
+                    var scr2 = m_list.Single(x => x.NilaiMin <= d2 && d2 <= x.NilaiMax && x.Tret == "D2");
+                    var scr3 = m_list.Single(x => x.NilaiMin <= d3 && d3 <= x.NilaiMax && x.Tret == "D3");
+                    var scr4 = m_list.Single(x => x.NilaiMin <= d4 && d4 <= x.NilaiMax && x.Tret == "D4");
+                    var scr5 = m_list.Single(x => x.NilaiMin <= d5 && d5 <= x.NilaiMax && x.Tret == "D5");
+                    var scr6 = m_list.Single(x => x.NilaiMin <= d6 && d6 <= x.NilaiMax && x.Tret == "D6");
 
-                    var list = new List<SkorPpkp> { scr1, scr2, scr2, scr3, scr4, scr5, scr6 };
+                    var list = new List<SkorPpkp> { scr1, scr2, scr3, scr4, scr5, scr6 };
                     return list;
                 }
             }
@@ -115,7 +115,7 @@ namespace web.sph.App_Code
                     var scr4 = m_list.Single(x => x.NilaiMin <= e4 && e4 <= x.NilaiMax && x.Tret == "E4");
                     var scr5 = m_list.Single(x => x.NilaiMin <= e5 && e5 <= x.NilaiMax && x.Tret == "E5");
 
-                    var list = new List<SkorPpkp> { scr1, scr2, scr2, scr3, scr4, scr5 };
+                    var list = new List<SkorPpkp> { scr1, scr2, scr3, scr4, scr5 };
                     return list;
                 }
             }
@@ -223,7 +223,7 @@ namespace web.sph.App_Code
             this.ProfilPersonaliti = new ProfilPersonalitiDimensiUmumType(this);
             this.ProfilKepimpinan = new ProfilKepimpinanType(this);
             this.KesesuaianPenempatan = new KesesuaianPenempatanType(this);
-            this.SkorKestabilanEmosi = new SkorKestabilanEmosiType(this,scores);
+            this.SkorKestabilanEmosi = new SkorKestabilanEmosiType(this, scores);
 
         }
 

@@ -3,7 +3,7 @@
   "NoRujukan": "UKBP-B-00251",
   "SoalanNo": "UKBP-B-00251",
   "TeksSoalan": "Pakar Motivasi.",
-  "SeksyenSoalan": "",
+  "SeksyenSoalan": "2",
   "PilihanJawapanCollection": {
     "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan]], domain.sph",
     "$values": [
@@ -21,15 +21,15 @@
       }
     ]
   },
-  "Trait": null,
+  "Trait": "D3",
   "NamaUjian": "Ujian Khas Biasiswa Persekutuan(UKBP)",
   "Susunan": 251.0,
-  "Kategori": null,
+  "Kategori": "3",
   "Bahagian": "B",
   "CreatedBy": "admin",
   "Id": "UKBP-B-00251",
   "CreatedDate": "2015-07-06T11:24:58.0422168+08:00",
   "ChangedBy": "admin",
-  "ChangedDate": "2015-07-29T16:19:08.0669744+08:00",
+  "ChangedDate": "2015-08-11T16:22:42.169448+08:00",
   "WebId": "dcecfbc5-1c44-4f95-ae9e-0ed36b8d564c"
 }

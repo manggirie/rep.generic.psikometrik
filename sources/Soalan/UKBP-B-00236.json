@@ -3,7 +3,7 @@
   "NoRujukan": "UKBP-B-00236",
   "SoalanNo": "UKBP-B-00236",
   "TeksSoalan": "Ahli muzik.",
-  "SeksyenSoalan": "",
+  "SeksyenSoalan": "2",
   "PilihanJawapanCollection": {
     "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan]], domain.sph",
     "$values": [
@@ -21,15 +21,15 @@
       }
     ]
   },
-  "Trait": null,
+  "Trait": "C3",
   "NamaUjian": "Ujian Khas Biasiswa Persekutuan(UKBP)",
   "Susunan": 236.0,
-  "Kategori": null,
+  "Kategori": "3",
   "Bahagian": "B",
   "CreatedBy": "admin",
   "Id": "UKBP-B-00236",
   "CreatedDate": "2015-07-06T11:24:57.8966152+08:00",
   "ChangedBy": "admin",
-  "ChangedDate": "2015-07-06T11:24:57.8961146+08:00",
+  "ChangedDate": "2015-08-11T16:15:12.0112163+08:00",
   "WebId": "3b34b17c-3166-48d4-bcbb-169232c3254f"
 }

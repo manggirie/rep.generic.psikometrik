@@ -1,0 +1,16 @@
+{
+  "$type": "Bespoke.epsikologi_isorecommendation.Domain.IsoRecommendation, epsikologi.IsoRecommendation",
+  "No": "ps-kc-0-4",
+  "Tret": "Kekecewaan",
+  "NilaiMin": 0,
+  "NilaiMax": 4,
+  "Kategori": "Rendah",
+  "Ciri": "Tahap toleransi tinggi terhadap kekecewaan, bersikap tenang, sabar dan fleksibel, berfikiran positif serta jarang mengalami sakit kepala.\nPengurusan kekecewaan dengan meluah dan memberikan reaksi yang bersesuaian serta menenangkan diri melalui relaksasi.\n",
+  "Dimensi": "Punca Stres",
+  "CreatedBy": "urusetia1",
+  "Id": "4f6329d6-96cc-49ea-b3bc-ed3de8588e66",
+  "CreatedDate": "2015-08-12T08:18:02.0437727+08:00",
+  "ChangedBy": "urusetia1",
+  "ChangedDate": "2015-08-12T08:18:01.995773+08:00",
+  "WebId": "277a8f6c-0d56-4fd2-fb57-05998e1968d2"
+}

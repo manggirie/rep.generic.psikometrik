@@ -3,7 +3,7 @@
   "NoRujukan": "UKBP-B-00252",
   "SoalanNo": "UKBP-B-00252",
   "TeksSoalan": "Pengurus Sumber Manusia.",
-  "SeksyenSoalan": "",
+  "SeksyenSoalan": "2",
   "PilihanJawapanCollection": {
     "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan]], domain.sph",
     "$values": [
@@ -21,15 +21,15 @@
       }
     ]
   },
-  "Trait": null,
+  "Trait": "D3",
   "NamaUjian": "Ujian Khas Biasiswa Persekutuan(UKBP)",
   "Susunan": 252.0,
-  "Kategori": null,
+  "Kategori": "3",
   "Bahagian": "B",
   "CreatedBy": "admin",
   "Id": "UKBP-B-00252",
   "CreatedDate": "2015-07-06T11:24:58.0492227+08:00",
   "ChangedBy": "admin",
-  "ChangedDate": "2015-07-29T16:19:28.4976954+08:00",
+  "ChangedDate": "2015-08-11T16:22:54.2643129+08:00",
   "WebId": "b9b34a27-da4d-4d5b-9853-fb7966ba03f7"
 }

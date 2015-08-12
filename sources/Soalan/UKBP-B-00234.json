@@ -3,7 +3,7 @@
   "NoRujukan": "UKBP-B-00234",
   "SoalanNo": "UKBP-B-00234",
   "TeksSoalan": "Penyelidik Bebas (Saintifik)",
-  "SeksyenSoalan": "",
+  "SeksyenSoalan": "2",
   "PilihanJawapanCollection": {
     "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan]], domain.sph",
     "$values": [
@@ -21,15 +21,15 @@
       }
     ]
   },
-  "Trait": null,
+  "Trait": "B3",
   "NamaUjian": "Ujian Khas Biasiswa Persekutuan(UKBP)",
   "Susunan": 234.0,
-  "Kategori": null,
+  "Kategori": "3",
   "Bahagian": "B",
   "CreatedBy": "admin",
   "Id": "UKBP-B-00234",
   "CreatedDate": "2015-07-06T11:24:57.8816041+08:00",
   "ChangedBy": "admin",
-  "ChangedDate": "2015-07-29T15:28:14.5561372+08:00",
+  "ChangedDate": "2015-08-11T16:02:20.704238+08:00",
   "WebId": "30998dc6-cf9d-4e99-9401-7202aa91292d"
 }
