@@ -1,0 +1,16 @@
+{
+  "$type": "Bespoke.epsikologi_isorecommendation.Domain.IsoRecommendation, epsikologi.IsoRecommendation",
+  "No": "ots-kpm-5-7",
+  "Tret": "Keperluan Pengurusan Masa",
+  "NilaiMin": 5,
+  "NilaiMax": 7,
+  "Kategori": "Sederhana",
+  "Ciri": "Pengurusan masa kurang efektif dan mungkin mengalami stres sederhana kerana berasa dibebani dengan pelbagai tugas dan cuba melakukan banyak perkara pada satu masa serta bekerja lebih masa kerana perlu menyelesaikan tugas dengan segera.\n\nPengurusan masa dengan mengutamakan perkara yang perlu dilakukan, memberi fokus dan memastikan apa yang dirancang berada di landasan yang betul dan melihat tugas sebagai satu cabaran walaupun anda kurang menyukainya.\n",
+  "Dimensi": "Orientasi Terhadap Stres",
+  "CreatedBy": "admin",
+  "Id": "e64c3324-0b08-4101-9a5a-be64fd16c821",
+  "CreatedDate": "2015-08-12T11:29:21.3965039+08:00",
+  "ChangedBy": "admin",
+  "ChangedDate": "2015-08-12T11:29:21.3174314+08:00",
+  "WebId": "fc9e3df4-7d7b-47b4-9e5e-6123175bde6d"
+}

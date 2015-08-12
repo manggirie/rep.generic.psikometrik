@@ -1,0 +1,16 @@
+{
+  "$type": "Bespoke.epsikologi_isorecommendation.Domain.IsoRecommendation, epsikologi.IsoRecommendation",
+  "No": "tbs-us-0-9",
+  "Tret": "Ukuran Stres",
+  "NilaiMin": 0,
+  "NilaiMax": 9,
+  "Kategori": "Rendah",
+  "Ciri": "Tahap stres rendah tetapi tidak bermakna tidak merasai kesan stres dan mungkin mengalami simptom stres seperti sukar memberi tumpuan atau membuat keputusan, keletihan dan mudah atau sukar tidur.\n\nPengurusan stres dengan melakukan senaman dan relaksasi, mendapatkan tidur yang cukup dan memahami mengapa anda berasa stres.\n",
+  "Dimensi": "Tindak Balas Stres",
+  "CreatedBy": "admin",
+  "Id": "979036ba-7ed2-48af-b26c-95cfecf148e8",
+  "CreatedDate": "2015-08-12T11:11:33.4663169+08:00",
+  "ChangedBy": "admin",
+  "ChangedDate": "2015-08-12T11:11:33.4252801+08:00",
+  "WebId": "a92f967d-24c6-4981-c142-f2f4c70ca468"
+}

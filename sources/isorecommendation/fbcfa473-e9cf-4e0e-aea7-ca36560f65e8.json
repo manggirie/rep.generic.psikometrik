@@ -1,0 +1,16 @@
+{
+  "$type": "Bespoke.epsikologi_isorecommendation.Domain.IsoRecommendation, epsikologi.IsoRecommendation",
+  "No": "ks-bms-0-4",
+  "Tret": "Berisiko Menghadapi Stres",
+  "NilaiMin": 0,
+  "NilaiMax": 4,
+  "Kategori": "Rendah",
+  "Ciri": "Berisiko rendah untuk mengalami stres.  Mempunyai keupayaan mengendalikan stres yang tinggi menyebabkan kurang mengalami kesan negatif stres seperti kekecewaan, kemarahan, masalah perhubungan atau 'burn out'.\n\nPengurusan stres dengan membuat perubahan tingkah laku, meluangkan masa berhubung dengan individu, mengenal pasti perkara utama yang perlu dilakukan, mempelajari cara mengendalikan emosi yang efektif, berkeyakinan tinggi dan berupaya mengawal diri serta mempunyai sifat jenaka.\n",
+  "Dimensi": "Kecenderungan Stres",
+  "CreatedBy": "admin",
+  "Id": "fbcfa473-e9cf-4e0e-aea7-ca36560f65e8",
+  "CreatedDate": "2015-08-12T11:31:16.3851823+08:00",
+  "ChangedBy": "admin",
+  "ChangedDate": "2015-08-12T11:31:16.3271293+08:00",
+  "WebId": "cf47858b-a857-4947-d878-6dcb57ceba78"
+}

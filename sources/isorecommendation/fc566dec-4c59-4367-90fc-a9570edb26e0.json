@@ -1,0 +1,16 @@
+{
+  "$type": "Bespoke.epsikologi_isorecommendation.Domain.IsoRecommendation, epsikologi.IsoRecommendation",
+  "No": "tbs-rts-4-6",
+  "Tret": "Reaksi Terhadap Stres",
+  "NilaiMin": 4,
+  "NilaiMax": 6,
+  "Kategori": "Sederhana",
+  "Ciri": "Reaksi terhadap stres sederhana, mungkin pernah mengalami peristiwa traumatik dan mempamerkan simptom stres seperti keletihan, sukar membuat keputusan, kebosanan atau perubahan dalam aktiviti harian untuk beberapa hari atau tahun bergantung pada tahap keseriusan stres yang dialami.\n\nPengurusan stres melakukan senaman, relaksasi atau meditasi, bersikap dan berfikiran positif serta mendapatkan sokongan keluarga atau rakan.\n",
+  "Dimensi": "Tindak Balas Stres",
+  "CreatedBy": "admin",
+  "Id": "fc566dec-4c59-4367-90fc-a9570edb26e0",
+  "CreatedDate": "2015-08-12T11:20:07.7783272+08:00",
+  "ChangedBy": "admin",
+  "ChangedDate": "2015-08-12T11:20:07.7623118+08:00",
+  "WebId": "30a5e29e-26a2-4c2e-cc8c-c01951a5ae6c"
+}

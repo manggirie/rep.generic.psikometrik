@@ -1,0 +1,16 @@
+{
+  "$type": "Bespoke.epsikologi_isorecommendation.Domain.IsoRecommendation, epsikologi.IsoRecommendation",
+  "No": "ots-kpm-8-10",
+  "Tret": "Keperluan Pengurusan Masa",
+  "NilaiMin": 8,
+  "NilaiMax": 10,
+  "Kategori": "Tinggi",
+  "Ciri": "Pengurusan masa tidak efektif, cenderung mengalami stres yang tinggi, sering keletihan, berasa terpaksa melakukan pelbagai tugas dan jarang meluangkan masa bersama keluarga atau rakan. \n\nPengurusan masa dengan mengetahui dan memberi fokus perkara ke arah pencapaian matlamat serta merancang masa melaksanakan tugas tepat pada masanya.\n",
+  "Dimensi": "Orientasi Terhadap Stres",
+  "CreatedBy": "admin",
+  "Id": "50e2ca2f-a60d-4811-8040-8c11f4b1f443",
+  "CreatedDate": "2015-08-12T11:30:05.6401851+08:00",
+  "ChangedBy": "admin",
+  "ChangedDate": "2015-08-12T11:30:05.6171642+08:00",
+  "WebId": "e082455c-71d9-4b82-84a0-09b161af8f49"
+}

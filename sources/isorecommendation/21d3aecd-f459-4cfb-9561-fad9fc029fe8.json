@@ -1,0 +1,16 @@
+{
+  "$type": "Bespoke.epsikologi_isorecommendation.Domain.IsoRecommendation, epsikologi.IsoRecommendation",
+  "No": "tbs-us-18-24",
+  "Tret": "Ukuran Stres",
+  "NilaiMin": 18,
+  "NilaiMax": 24,
+  "Kategori": "Tinggi",
+  "Ciri": "Tahap stres tinggi dan mungkin merasai kesan serta mempamerkan simptom stres seperti berasa kecewa dan tidak sabar, mudah tersinggung atau mengalami perubahan personaliti atau 'mood' yang ketara.\n\nPengurusan stres dengan mengenal pasti dan mengurangkan punca stres, mendapatkan bantuan daripada ahli profesional dan melihat kehidupan sebagai cabaran dan bukannya halangan.\n",
+  "Dimensi": "Tindak Balas Stres",
+  "CreatedBy": "admin",
+  "Id": "21d3aecd-f459-4cfb-9561-fad9fc029fe8",
+  "CreatedDate": "2015-08-12T11:17:24.383052+08:00",
+  "ChangedBy": "admin",
+  "ChangedDate": "2015-08-12T11:17:24.3219962+08:00",
+  "WebId": "ebff444d-1052-4746-f11b-4212b7844add"
+}
