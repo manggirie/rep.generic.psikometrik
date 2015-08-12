@@ -1,0 +1,16 @@
+{
+  "$type": "Bespoke.epsikologi_isorecommendation.Domain.IsoRecommendation, epsikologi.IsoRecommendation",
+  "No": "ps-kc-8-10",
+  "Tret": "Kekecewaan",
+  "NilaiMin": 8,
+  "NilaiMax": 10,
+  "Kategori": "Rendah",
+  "Ciri": "Tahap toleransi rendah terhadap kekecewaan dan sering mengalami simptom seperti sesak nafas, sikap memberontak, rendah diri, marah dan terikat dalam kehidupan serta sentiasa memerlukan bimbingan.\nPengurusan kekecewaan dengan mengenal pasti dan mengetahui apa yang berada dalam kawalan, mempelajari teknik menenangkan diri dan komunikasi asertif, mengubah cara berfikir, mendapatkan bantuan dan berdoa.\n",
+  "Dimensi": "Punca Stres",
+  "CreatedBy": "urusetia1",
+  "Id": "e9f3c287-3c42-47a7-babc-9331b51c2632",
+  "CreatedDate": "2015-08-12T08:34:07.7362973+08:00",
+  "ChangedBy": "urusetia1",
+  "ChangedDate": "2015-08-12T08:34:07.6904089+08:00",
+  "WebId": "87d8a193-5a3b-42d5-cdf5-1c7b065754aa"
+}

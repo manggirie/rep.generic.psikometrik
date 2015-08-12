@@ -130,7 +130,26 @@
   },
   "SortCollection": {
     "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.Sph.Domain.Sort, domain.sph]], domain.sph",
-    "$values": []
+    "$values": [
+      {
+        "$type": "Bespoke.Sph.Domain.Sort, domain.sph",
+        "Path": "Dimensi",
+        "Direction": "Asc",
+        "WebId": "08ea91fe-1977-4c19-eb4a-65c442b7fbb6"
+      },
+      {
+        "$type": "Bespoke.Sph.Domain.Sort, domain.sph",
+        "Path": "Tret",
+        "Direction": "Asc",
+        "WebId": "3935c25b-6f38-45a7-8800-0c03c4c1c06d"
+      },
+      {
+        "$type": "Bespoke.Sph.Domain.Sort, domain.sph",
+        "Path": "NilaiMin",
+        "Direction": "Asc",
+        "WebId": "a989df31-86b6-44a5-a814-de4a557a8993"
+      }
+    ]
   },
   "ConditionalFormattingCollection": {
     "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.Sph.Domain.ConditionalFormatting, domain.sph]], domain.sph",
@@ -166,6 +185,6 @@
   "Id": "c559279f-c7b0-4a1a-92c1-15a8212d62ce",
   "CreatedDate": "2015-08-10T10:05:24.5423381+08:00",
   "ChangedBy": "admin",
-  "ChangedDate": "2015-08-10T16:57:50.8300205+08:00",
+  "ChangedDate": "2015-08-12T08:35:04.6008989+08:00",
   "WebId": "2455f04b-a27a-48b4-bd69-6de5e45fd816"
 }

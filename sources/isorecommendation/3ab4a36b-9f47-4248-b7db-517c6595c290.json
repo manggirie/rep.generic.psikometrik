@@ -1,0 +1,16 @@
+{
+  "$type": "Bespoke.epsikologi_isorecommendation.Domain.IsoRecommendation, epsikologi.IsoRecommendation",
+  "No": "ps-k-0-4",
+  "Tret": "Kebimbangan",
+  "NilaiMin": 0,
+  "NilaiMax": 4,
+  "Kategori": "Rendah",
+  "Ciri": "Sedikit simptom kebimbangan seperti berdebar, senak perut, kurang sabar atau agak cenderung membayangkan perkara negatif.\nPengurusan kebimbangan dengan melakukan senaman, mengamalkan meditasi, bersikap fleksibel, meluangkan masa bersama keluarga atau rakan dan mendapatkan tidur yang cukup.\n\n",
+  "Dimensi": "Punca Stres",
+  "CreatedBy": "urusetia1",
+  "Id": "3ab4a36b-9f47-4248-b7db-517c6595c290",
+  "CreatedDate": "2015-08-12T08:15:29.4719266+08:00",
+  "ChangedBy": "urusetia1",
+  "ChangedDate": "2015-08-12T08:15:29.4654263+08:00",
+  "WebId": "2a1068c6-e267-4bc2-fdf3-ebae44d985ab"
+}

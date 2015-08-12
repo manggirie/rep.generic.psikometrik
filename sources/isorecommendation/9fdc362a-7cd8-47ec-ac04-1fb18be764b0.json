@@ -1,0 +1,16 @@
+{
+  "$type": "Bespoke.epsikologi_isorecommendation.Domain.IsoRecommendation, epsikologi.IsoRecommendation",
+  "No": "ps-bs-5-7",
+  "Tret": "Bebanan dan Stres",
+  "NilaiMin": 5,
+  "NilaiMax": 7,
+  "Kategori": "Sederhana",
+  "Ciri": "Tahap bebanan stres sederhana dan mungkin mengalami ketegangan otot, sukar tidur, agak sensitif, mudah lupa dan tergesa-gesa membuat tindakan.\nPengurusan stres dengan menghargai dan membuat perubahan dalam kehidupan, mengetahui punca dan cara mengatasi stres serta melakukan relaksasi.\n",
+  "Dimensi": "Punca Stres",
+  "CreatedBy": "urusetia1",
+  "Id": "9fdc362a-7cd8-47ec-ac04-1fb18be764b0",
+  "CreatedDate": "2015-08-12T08:36:49.1722328+08:00",
+  "ChangedBy": "urusetia1",
+  "ChangedDate": "2015-08-12T08:36:49.1409741+08:00",
+  "WebId": "195434bf-1205-4ad7-84d8-eea00e28ef98"
+}

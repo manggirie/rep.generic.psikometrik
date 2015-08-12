@@ -1,0 +1,16 @@
+{
+  "$type": "Bespoke.epsikologi_isorecommendation.Domain.IsoRecommendation, epsikologi.IsoRecommendation",
+  "No": "ps-bs-8-10",
+  "Tret": "Bebanan dan Stres",
+  "NilaiMin": 8,
+  "NilaiMax": 10,
+  "Kategori": "Tinggi",
+  "Ciri": "Tahap bebanan stres yang serius dan cenderung mengalami penurunan kualiti atau kuantiti kerja, sukar tidur, bersikap negatif dan defensif, tidak gembira, banyak membuat kesilapan serta sukar memberi tumpuan atau membuat keputusan.\nPengurusan stres dengan mencari punca stres, melakukan relaksasi, senaman atau berehat, mengimbangi antara kerja dan kehidupan peribadi serta menguruskan masa dengan efektif.\n",
+  "Dimensi": "Punca Stres",
+  "CreatedBy": "urusetia1",
+  "Id": "4c7199ce-bdc5-44df-b3a9-8940662f786c",
+  "CreatedDate": "2015-08-12T08:37:35.4680405+08:00",
+  "ChangedBy": "urusetia1",
+  "ChangedDate": "2015-08-12T08:37:35.4550402+08:00",
+  "WebId": "3b06ee3a-90d9-40a9-86d0-741833d6b634"
+}

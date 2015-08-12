@@ -408,13 +408,11 @@
           "WebId": "89f5393c-32b8-44d9-e6f5-489ca0478c71"
         },
         {
-          "$type": "Bespoke.Sph.Domain.TextBox, domain.sph",
-          "DefaultValue": null,
-          "AutoCompletionEntity": null,
-          "AutoCompletionField": null,
-          "AutoCompletionQuery": null,
+          "$type": "Bespoke.Sph.Domain.TextAreaElement, domain.sph",
+          "Rows": null,
+          "IsHtml": false,
           "IsPathIsRequired": true,
-          "TypeName": "TextBox",
+          "TypeName": "TextAreaElement",
           "FieldValidation": {
             "$type": "Bespoke.Sph.Domain.FieldValidation, domain.sph",
             "IsRequired": false,
@@ -432,11 +430,11 @@
           "Tooltip": null,
           "Path": "Ciri",
           "IsRequired": false,
-          "Size": "input-large",
-          "CssClass": "",
+          "Size": null,
+          "CssClass": null,
           "Visible": "true",
           "Enable": "true",
-          "ElementId": "9cfac657-afb8-4bc6-d48f-00071bc5543a",
+          "ElementId": "3d3bac51-966a-4f6f-afe8-ddb422934121",
           "HelpText": null,
           "UseDisplayTemplate": false,
           "ToolboxIconClass": null,
@@ -449,7 +447,7 @@
           "InputColMd": null,
           "InputColSm": null,
           "InputColXs": null,
-          "WebId": "5d1746c8-f53e-45cc-8848-26e0f809967e"
+          "WebId": "6e5c8ed1-a10d-477d-94d3-45655c39cc57"
         }
       ]
     },
@@ -504,6 +502,6 @@
   "Id": "eecd0791-ca03-4b75-9f12-bcd99eeec125",
   "CreatedDate": "2015-08-10T10:05:24.5423381+08:00",
   "ChangedBy": "admin",
-  "ChangedDate": "2015-08-10T16:52:28.4457853+08:00",
+  "ChangedDate": "2015-08-12T08:06:40.9958564+08:00",
   "WebId": "4b892cd9-868b-451c-beb2-07345e783a7c"
 }

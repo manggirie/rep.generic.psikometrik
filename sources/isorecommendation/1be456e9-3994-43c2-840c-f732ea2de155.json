@@ -1,0 +1,16 @@
+{
+  "$type": "Bespoke.epsikologi_isorecommendation.Domain.IsoRecommendation, epsikologi.IsoRecommendation",
+  "No": "ps-kc-5-7",
+  "Tret": "Kekecewaan",
+  "NilaiMin": 5,
+  "NilaiMax": 7,
+  "Kategori": "Sederhana",
+  "Ciri": "Tahap toleransi sederhana terhadap kekecewaan dan mungkin mengalami beberapa simptom seperti sesak nafas, sakit perut, berasa geram dan hampa serta mahu mencapai yang terbaik.\nPengurusan kekecewaan dengan memahami dan mengetahui apa yang berada dalam kawalan serta apa yang bukan dalam kawalan, mempelajari teknik menenangkan diri, mendapatkan bantuan dan berdoa.\n",
+  "Dimensi": "Punca Stres",
+  "CreatedBy": "urusetia1",
+  "Id": "1be456e9-3994-43c2-840c-f732ea2de155",
+  "CreatedDate": "2015-08-12T08:33:17.9515856+08:00",
+  "ChangedBy": "urusetia1",
+  "ChangedDate": "2015-08-12T08:33:17.8984173+08:00",
+  "WebId": "b861feca-7c0e-4d65-b5d2-5187b5d36c53"
+}

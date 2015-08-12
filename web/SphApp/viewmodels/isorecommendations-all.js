@@ -41,7 +41,19 @@ function(context, logger, router, chart, config, partial) {
                         }
                     }
                 },
-                "sort": []
+                "sort": [{
+                    "Dimensi": {
+                        "order": "asc"
+                    }
+                }, {
+                    "Tret": {
+                        "order": "asc"
+                    }
+                }, {
+                    "NilaiMin": {
+                        "order": "asc"
+                    }
+                }]
             });
             var edQuery = String.format("Name eq '{0}'", 'IsoRecommendation'),
                 tcs = new $.Deferred(),

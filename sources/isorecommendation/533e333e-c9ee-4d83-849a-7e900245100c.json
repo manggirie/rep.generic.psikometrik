@@ -1,0 +1,16 @@
+{
+  "$type": "Bespoke.epsikologi_isorecommendation.Domain.IsoRecommendation, epsikologi.IsoRecommendation",
+  "No": "ps-k-8-10",
+  "Tret": "Kebimbangan",
+  "NilaiMin": 8,
+  "NilaiMax": 10,
+  "Kategori": "Tinggi",
+  "Ciri": "Banyak simptom kebimbangan seperti mudah terkejut, keletihan, menangis tanpa sebab, murung, mengasingkan diri, mengalami mimpi ngeri dan sukar berfikir dengan jelas.\nSekiranya tahap kebimbangan menjejaskan kehidupan harian, pengurusan kebimbangan melalui bantuan profesional seperti pemeriksaan perubatan, rawatan psikiatri, sesi terapi atau kaunseling mungkin diperlukan.\n",
+  "Dimensi": "Punca Stres",
+  "CreatedBy": "urusetia1",
+  "Id": "533e333e-c9ee-4d83-849a-7e900245100c",
+  "CreatedDate": "2015-08-12T08:16:52.1676851+08:00",
+  "ChangedBy": "urusetia1",
+  "ChangedDate": "2015-08-12T08:16:52.1391867+08:00",
+  "WebId": "e79b642c-d932-47b8-ea4f-11fbf297e588"
+}
