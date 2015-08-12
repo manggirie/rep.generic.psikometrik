@@ -1,0 +1,16 @@
+{
+  "$type": "Bespoke.epsikologi_isorecommendation.Domain.IsoRecommendation, epsikologi.IsoRecommendation",
+  "No": "ps-kdk-8-10",
+  "Tret": "Kebosanan dan Kesunyian",
+  "NilaiMin": 8,
+  "NilaiMax": 10,
+  "Kategori": "Tinggi",
+  "Ciri": "Tahap toleransi rendah terhadap kebosanan dan kesunyian, mudah stres, cenderung berasa bosan dan resah apabila melakukan tugas rutin dan berharap menjalani kehidupan yang lebih mencabar.\n\nPengurusan kebosanan dengan membaca buku motivasi dan berasa bangga dengan tugas yang dilakukan manakala pengurusan kesunyian dengan bersikap realistik dan positif terhadap konflik serta berfikir tentang kehidupan.\n",
+  "Dimensi": "Punca Stres",
+  "CreatedBy": "admin",
+  "Id": "f9e7d0d4-7da9-431b-8518-d963f0c7c37d",
+  "CreatedDate": "2015-08-12T11:09:45.1215574+08:00",
+  "ChangedBy": "admin",
+  "ChangedDate": "2015-08-12T11:13:58.9521658+08:00",
+  "WebId": "b617a064-95cc-4988-fb1b-e214dc3a0048"
+}

@@ -1,0 +1,16 @@
+{
+  "$type": "Bespoke.epsikologi_isorecommendation.Domain.IsoRecommendation, epsikologi.IsoRecommendation",
+  "No": "ks-bms-11-14",
+  "Tret": "Berisiko Menghadapi Stres",
+  "NilaiMin": 11,
+  "NilaiMax": 14,
+  "Kategori": "Tinggi",
+  "Ciri": "Berisiko tinggi untuk mengalami stres menyebabkab terdedah kepada kemungkinan untuk menjadi 'burn out', mudah sakit, kecewa, marah dan mengalami kesan negatif lain.\n\nPengurusan stres dengan membuat perubahan tingkah laku, bersikap positif dan fleksibel kepada perubahan, menjaga kesihatan dan mempunyai kumpulan sokongan.\n",
+  "Dimensi": "Kecenderungan Stres",
+  "CreatedBy": "admin",
+  "Id": "4a081189-c659-4136-be77-62a33d694a17",
+  "CreatedDate": "2015-08-12T11:33:15.7897652+08:00",
+  "ChangedBy": "admin",
+  "ChangedDate": "2015-08-12T11:33:15.7477267+08:00",
+  "WebId": "0fc88199-9903-4d72-905f-0133b52b680b"
+}

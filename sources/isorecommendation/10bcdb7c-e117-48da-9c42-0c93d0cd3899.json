@@ -1,0 +1,16 @@
+{
+  "$type": "Bespoke.epsikologi_isorecommendation.Domain.IsoRecommendation, epsikologi.IsoRecommendation",
+  "No": "ps-kdk-5-7",
+  "Tret": "Kebosanan dan Kesunyian",
+  "NilaiMin": 5,
+  "NilaiMax": 7,
+  "Kategori": "Sederhana",
+  "Ciri": "Tahap toleransi sederhana terhadap kebosanan dan kesunyian, berasa seronok seketika dengan aktiviti harian dan berharap menjalani kehidupan yang menyeronokkan.\n\nPengurusan kebosanan dengan mengubah rutin harian dan menerima lebih tanggungjawab manakala pengurusan kesunyian dengan bersikap realistik dan positif terhadap konflik, membaca buku motivasi dan berkenalan dengan orang baru.\n",
+  "Dimensi": "Punca Stres",
+  "CreatedBy": "admin",
+  "Id": "10bcdb7c-e117-48da-9c42-0c93d0cd3899",
+  "CreatedDate": "2015-08-12T11:06:53.22331+08:00",
+  "ChangedBy": "admin",
+  "ChangedDate": "2015-08-12T11:06:53.3624361+08:00",
+  "WebId": "44daa405-ecf0-47a7-dbf2-e1acfca1f967"
+}

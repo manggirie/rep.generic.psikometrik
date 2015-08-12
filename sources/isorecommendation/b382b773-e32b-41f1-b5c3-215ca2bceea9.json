@@ -1,0 +1,16 @@
+{
+  "$type": "Bespoke.epsikologi_isorecommendation.Domain.IsoRecommendation, epsikologi.IsoRecommendation",
+  "No": "ks-bms-5-10",
+  "Tret": "Berisiko Menghadapi Stres",
+  "NilaiMin": 5,
+  "NilaiMax": 10,
+  "Kategori": "Sederhana",
+  "Ciri": "Berisiko sederhana untuk mengalami stres menyebabkan kemungkinan mengalami kesan negatif seperti kekecewaan, kemarahan dan masalah perhubungan.\n\nPengurusan stres dengan membuat perubahan tingkah laku, mempelajari mengawal persekitaran yang mencetuskan stres dan menilai tugas harian agar tidak berasa tertekan.\n",
+  "Dimensi": "Kecenderungan Stres",
+  "CreatedBy": "admin",
+  "Id": "b382b773-e32b-41f1-b5c3-215ca2bceea9",
+  "CreatedDate": "2015-08-12T11:32:12.0083585+08:00",
+  "ChangedBy": "admin",
+  "ChangedDate": "2015-08-12T11:32:11.9653191+08:00",
+  "WebId": "3f2a4720-95fc-4224-8f2a-a70df537101b"
+}

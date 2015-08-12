@@ -1,0 +1,16 @@
+{
+  "$type": "Bespoke.epsikologi_isorecommendation.Domain.IsoRecommendation, epsikologi.IsoRecommendation",
+  "No": "tbs-us-10-17",
+  "Tret": "Ukuran Stres",
+  "NilaiMin": 10,
+  "NilaiMax": 17,
+  "Kategori": "Sederhana",
+  "Ciri": "Tahap stres sederhana dan secara tidak langsung turut merasai kesan stres serta mungkin mempamerkan simptom stres seperti kurang berminat dengan aktiviti yang disukai, kurang sabar, mudah terganggu dan berasa kecewa.\n\nPengurusan stres dengan melakukan senaman atau relaksasi, berbicara dan mendapatkan sokongan daripada orang lain, menguruskan masa dan aktiviti secara efektif.\n",
+  "Dimensi": "Tindak Balas Stres",
+  "CreatedBy": "admin",
+  "Id": "bf723725-96c9-4a6c-be70-91737de07a7b",
+  "CreatedDate": "2015-08-12T11:16:33.0048383+08:00",
+  "ChangedBy": "admin",
+  "ChangedDate": "2015-08-12T11:16:32.9818174+08:00",
+  "WebId": "f2afda70-e3c5-44aa-87f6-fdb90cc2d3b5"
+}

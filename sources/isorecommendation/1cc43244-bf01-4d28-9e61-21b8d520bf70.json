@@ -1,0 +1,16 @@
+{
+  "$type": "Bespoke.epsikologi_isorecommendation.Domain.IsoRecommendation, epsikologi.IsoRecommendation",
+  "No": "ots-kpm-0-4",
+  "Tret": "Keperluan Pengurusan Masa",
+  "NilaiMin": 0,
+  "NilaiMax": 4,
+  "Kategori": "Rendah",
+  "Ciri": "Pengurusan masa efektif, kurang stres, jarang berasa tertekan, boleh memberi tumpuan dan membuat keputusan.\n\nPengurusan masa dengan membuat jangkaan realistik dan menentukan keutamaan tugas yang perlu dilakukan.\n",
+  "Dimensi": "Orientasi Terhadap Stres",
+  "CreatedBy": "admin",
+  "Id": "1cc43244-bf01-4d28-9e61-21b8d520bf70",
+  "CreatedDate": "2015-08-12T11:28:25.165334+08:00",
+  "ChangedBy": "admin",
+  "ChangedDate": "2015-08-12T11:28:25.1232967+08:00",
+  "WebId": "15567a56-fb98-4ffe-ce2f-fbf61e12fb8d"
+}

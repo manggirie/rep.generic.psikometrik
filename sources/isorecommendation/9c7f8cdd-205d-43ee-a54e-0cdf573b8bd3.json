@@ -1,0 +1,16 @@
+{
+  "$type": "Bespoke.epsikologi_isorecommendation.Domain.IsoRecommendation, epsikologi.IsoRecommendation",
+  "No": "ots-ks-17-23",
+  "Tret": "Kehidupan Seimbang",
+  "NilaiMin": 17,
+  "NilaiMax": 23,
+  "Kategori": "Tinggi",
+  "Ciri": "Kehidupan harian seimbang, kurang stres, boleh menguruskan aspek kerjaya dan peribadi dengan baik.\n\nPengurusan kehidupan harian dengan memberi fokus kepada tugas dan menentukan matlamat dengan jelas.\n",
+  "Dimensi": "Orientasi Terhadap Stres",
+  "CreatedBy": "admin",
+  "Id": "9c7f8cdd-205d-43ee-a54e-0cdf573b8bd3",
+  "CreatedDate": "2015-08-12T11:27:10.9717958+08:00",
+  "ChangedBy": "admin",
+  "ChangedDate": "2015-08-12T11:27:10.9267554+08:00",
+  "WebId": "9684ece2-f913-4730-8fe1-b179d34ff870"
+}

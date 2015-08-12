@@ -1,0 +1,16 @@
+{
+  "$type": "Bespoke.epsikologi_isorecommendation.Domain.IsoRecommendation, epsikologi.IsoRecommendation",
+  "No": "tbs-rts-7-9",
+  "Tret": "Reaksi Terhadap Stres",
+  "NilaiMin": 7,
+  "NilaiMax": 9,
+  "Kategori": "Tinggi",
+  "Ciri": "Reaksi terhadap stres tinggi, mungkin pernah mengalami peristiwa traumatik dan mempamerkan banyak simptom stres seperti sukar tidur, suka menyalahkan orang lain, kurang sabar atau mengasingkan diri untuk beberapa hari, bulan atau tahun bergantung pada tahap keseriusan stres yang dialami.\n\nPengurusan stres dengan bersikap fleksibel, mendapatkan sokongan keluarga atau rakan, mengamalkan konsep spiritual dan mendapat bantuan profesional sekiranya perlukan.\n",
+  "Dimensi": "Tindak Balas Stres",
+  "CreatedBy": "admin",
+  "Id": "59299a8e-c758-4c47-bb31-4351deacdc36",
+  "CreatedDate": "2015-08-12T11:24:12.2119668+08:00",
+  "ChangedBy": "admin",
+  "ChangedDate": "2015-08-12T11:24:12.1779358+08:00",
+  "WebId": "9f7da91d-eeec-4833-abcd-565f63b05e67"
+}

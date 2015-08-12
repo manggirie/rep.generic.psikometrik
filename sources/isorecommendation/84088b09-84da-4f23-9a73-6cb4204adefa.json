@@ -1,0 +1,16 @@
+{
+  "$type": "Bespoke.epsikologi_isorecommendation.Domain.IsoRecommendation, epsikologi.IsoRecommendation",
+  "No": "tbs-rts-0-3",
+  "Tret": "Reaksi Terhadap Stres",
+  "NilaiMin": 0,
+  "NilaiMax": 3,
+  "Kategori": "Rendah",
+  "Ciri": "Reaksi terhadap stres rendah, mungkin pernah mengalami peristiwa traumatik dan mempamerkan simptom stres seperti ketegangan otot, kurang fokus, kebimbangan atau sukar berehat.\n\nPengurusan stres dengan melakukan senaman, relaksasi atau meditasi dan pemakanan sihat.\n",
+  "Dimensi": "Tindak Balas Stres",
+  "CreatedBy": "admin",
+  "Id": "84088b09-84da-4f23-9a73-6cb4204adefa",
+  "CreatedDate": "2015-08-12T11:19:05.2527144+08:00",
+  "ChangedBy": "admin",
+  "ChangedDate": "2015-08-12T11:19:05.2106771+08:00",
+  "WebId": "bec130fb-c1ea-4f43-bfee-526554c01e7f"
+}

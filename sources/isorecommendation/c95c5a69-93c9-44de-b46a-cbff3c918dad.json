@@ -1,0 +1,16 @@
+{
+  "$type": "Bespoke.epsikologi_isorecommendation.Domain.IsoRecommendation, epsikologi.IsoRecommendation",
+  "No": "ots-ks-9-16",
+  "Tret": "Kehidupan Seimbang",
+  "NilaiMin": 9,
+  "NilaiMax": 16,
+  "Kategori": "Sederhana",
+  "Ciri": "Boleh mengimbangi kehidupan harian tetapi cenderung mengalami stres sederhana kerana kurang berjaya mempraktikkan teknik pengurusan masa yang efektif, kurang peka kepada isu semasa dan kurang berjaya mendapatkan maklumat yang diperlukan.\n\nPengurusan kehidupan harian dengan memilih perkara utama dan menentukan tempoh masa yang diperlukan, memberi fokus dan tenaga melaksana tugas serta menjadualkan perkara yang perlu dilakukan secara harian atau mingguan.\n",
+  "Dimensi": "Orientasi Terhadap Stres",
+  "CreatedBy": "admin",
+  "Id": "c95c5a69-93c9-44de-b46a-cbff3c918dad",
+  "CreatedDate": "2015-08-12T11:26:19.4416926+08:00",
+  "ChangedBy": "admin",
+  "ChangedDate": "2015-08-12T11:26:19.4086623+08:00",
+  "WebId": "91ba6c47-4092-43fd-abe3-0998d27be047"
+}

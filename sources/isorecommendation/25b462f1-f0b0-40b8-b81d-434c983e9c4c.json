@@ -1,0 +1,16 @@
+{
+  "$type": "Bespoke.epsikologi_isorecommendation.Domain.IsoRecommendation, epsikologi.IsoRecommendation",
+  "No": "ots-ks-0-8",
+  "Tret": "Kehidupan Seimbang",
+  "NilaiMin": 0,
+  "NilaiMax": 8,
+  "Kategori": "Rendah",
+  "Ciri": "Kehidupan harian kurang seimbang, cenderung mengalami stres yang tinggi dan tidak dapat mengimbangi antara kerjaya dan kehidupan peribadi, kurang sistematik dan jarang meluangkan masa bersama keluarga atau rakan.\n\nPengurusan kehidupan harian dengan menentukan matlamat hidup, memilih dan menjadualkan tugas utama yang perlu dilakukan.\n",
+  "Dimensi": "Orientasi Terhadap Stres",
+  "CreatedBy": "admin",
+  "Id": "25b462f1-f0b0-40b8-b81d-434c983e9c4c",
+  "CreatedDate": "2015-08-12T11:25:22.2825544+08:00",
+  "ChangedBy": "admin",
+  "ChangedDate": "2015-08-12T11:25:22.2645389+08:00",
+  "WebId": "caaba5c1-0b4c-4942-d122-9823cb05d281"
+}
