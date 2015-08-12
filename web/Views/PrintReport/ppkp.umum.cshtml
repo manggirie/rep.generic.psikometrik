@@ -1,0 +1,92 @@
+@model web.sph.App_Code.PpkpTraitViewModel
+@{
+    Layout = "_MasterPage.cshtml";
+}
+
+@section head
+{
+    <style type="text/css">
+        .blue-header {
+            color: blue;
+        }
+
+        h3 {
+            margin-top: 40px;
+            font-size: medium;
+            text-transform: uppercase;
+            font-weight: bold;
+        }
+    </style>
+}
+<div style="height:40px"></div>
+
+<table class="row">
+
+    <tbody>
+        <tr>
+            <td style="text-align: center">
+                <h3 style="margin-top: 0px">PROFIL PERSONALITI</h3>
+                <br />
+                <canvas id="profil-personaliti-chart" height="230" width="700" style="margin-left: auto;margin-right: auto"></canvas>
+            </td>
+        </tr>
+    </tbody>
+</table>
+
+<h3>DIMENSI EMOSI</h3>
+@Html.Partial("_ppkp.dimensi", Model.Emosi)
+
+<h3>DIMENSI PERIBADI</h3>
+@Html.Partial("_ppkp.dimensi", Model.Peribadi)
+
+<h3>DIMENSI HUBUNGAN INTERPERSONAL</h3>
+@Html.Partial("_ppkp.dimensi", Model.Interpersonal)
+
+<h3>DIMENSI PEMIKIRAN</h3>
+@Html.Partial("_ppkp.dimensi", Model.Pemikiran)
+
+<h3>DIMENSI GAYA BEKERJA</h3>
+@Html.Partial("_ppkp.dimensi", Model.GayaBekerja)
+
+
+
+<script src="~/Scripts/Chart.min.js"></script>
+<script type="text/javascript">
+    var vm = @Html.Raw(Model.ToString());
+
+
+    var personalitiData = {
+        labels: ["Emosi", "Peribadi", "Interpersonal", "Pemikiran", "Gaya Bekerja"],
+        datasets: [
+            {
+                label: "PROFIL PERSONALITI",
+                fillColor: "rgba(220,220,220,0.2)",
+                strokeColor: "blue",
+                pointColor: "blue",
+                pointStrokeColor: "#fff",
+                pointHighlightFill: "#fff",
+                pointHighlightStroke: "rgba(220,220,220,1)",
+                data: [@Model.ProfilPersonaliti.Emosi, @Model.ProfilPersonaliti.Peribadi, @Model.ProfilPersonaliti.Interpersonal, @Model.ProfilPersonaliti.Pemikiran, @Model.ProfilPersonaliti.GayaBekerja]
+            }
+        ]
+    };
+
+
+    window.onload = function() {
+
+
+        window.profilPersonalitiChart = new Chart(document.getElementById("profil-personaliti-chart").getContext("2d")).Line(personalitiData, {
+            bezierCurve: false,
+            scaleOverride: true,
+            scaleSteps: 10,
+            scaleStepWidth: 20,
+            scaleStartValue: 0
+        });
+
+        setTimeout(function() {
+            window.print();
+        }, 1000);
+    }
+
+</script>
+<div style="color: #98bde3"></div>

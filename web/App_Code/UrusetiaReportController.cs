@@ -83,13 +83,39 @@ namespace web.sph.App_Code
                 var ip = s.NamaUjian.Contains("IP") && !s.NamaUjian.Contains("IPU");
                 var ibk = s.NamaUjian.Contains("IBK") ;
                 var hlp = s.NamaUjian.Contains("HLP") ;
-                var indikator = ibk || ip || hlp ? "" : string.Format(@"<a class=""indikator-report btn btn-info"" target=""_blank"" href=""cetak-laporan/indikator/{0}/{1}""> <i class=""fa fa-print""></i> Indikator</a>", s.NamaUjian, s.Id);
+                var ppkp = s.NamaUjian.Contains("PPKP") ;
+                var indikator = ibk || ip || hlp ? "" :
+                    $@"<a class=""indikator-report btn btn-info"" target=""_blank"" href=""cetak-laporan/indikator/{
+                        s.NamaUjian}/{s.Id}""> <i class=""fa fa-print""></i> Indikator</a>";
+                if (ppkp)
+                {
+                    
+                    indikator = $@"<a class=""laporan-profile-report btn btn-info"" target=""_blank"" 
+                    href=""cetak-laporan/ppkp/profile/{s.Id}""> <i class=""fa fa-print""></i> Profil</a>
 
-                html.AppendFormat(@"
+<a class=""laporan-umum-report btn btn-info"" target=""_blank"" 
+                    href=""cetak-laporan/ppkp/umum/{s.Id}""> <i class=""fa fa-print""></i> Umum</a>
+
+<a class=""laporan-khusus-report btn btn-info"" target=""_blank"" 
+                    href=""cetak-laporan/ppkp/khusus/{s.Id}""> <i class=""fa fa-print""></i> Khusus</a>"
+                    ;
+
+                    html.AppendLine($@"
+                    <td>
+                         {indikator}
+                    </td>");
+                }
+                else
+                {
+
+                    html.AppendFormat(@"
                     <td>
                         <a class=""trait-report btn btn-info"" target=""_blank"" href=""cetak-laporan/trait/{2}/{0}""> <i class=""fa fa-print""></i> Tret</a>
                         {1}
                     </td>", s.Id, indikator, s.NamaUjian);
+                }
+               
+
                 html.AppendLine("   </tr>");
             }
 

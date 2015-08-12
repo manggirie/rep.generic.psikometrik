@@ -1,7 +1,7 @@
 @model  IEnumerable<Bespoke.epsikologi_skorppkp.Domain.SkorPpkp>
 
 
-<table class="">
+<table class="ppkp-dimensi">
     <colgroup>
         <col style="width: 180px" />
         <col style="width: 20px" />
@@ -13,8 +13,7 @@
             <tr>
                 <td style="vertical-align: top">Tret</td>
                 <td style="vertical-align: top">:</td>
-                <td style="vertical-align: top">
-                    <strong style="text-transform: uppercase">@score.NamaTret</strong>
+                <td style="vertical-align: top">@score.NamaTret
                    
                 </td>
             </tr>
@@ -23,15 +22,16 @@
                     <td style="vertical-align: top">:</td>
                     <td style="vertical-align: top">@score.Tahap</td>
                 </tr>
-                <tr>
-                    <td style="vertical-align: top">Interpretasi</td>
-                    <td style="vertical-align: top">:</td>
-                    <td style="vertical-align: top">@score.Interpretasi</td>
-                </tr>
+            <tr>
+                <td style="vertical-align: top">Interpretasi</td>
+                <td style="vertical-align: top">:</td>
+                <td style="vertical-align: top; text-align: justify">@score.Interpretasi</td>
+            </tr>
+            <tr>
+                <td colspan="3"></td>
+            </tr>
         }
 
     </tbody>
-
-
 </table>
 

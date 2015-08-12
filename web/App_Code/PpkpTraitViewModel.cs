@@ -21,6 +21,7 @@ namespace web.sph.App_Code
                 list.ForEach(x => m_list.Add(x));
             }
 
+            [JsonIgnore]
             public IEnumerable<SkorPpkp> Emosi
             {
                 get
@@ -39,6 +40,7 @@ namespace web.sph.App_Code
                     return list;
                 }
             }
+            [JsonIgnore]
             public IEnumerable<SkorPpkp> GayaBekerja
             {
                 get
@@ -59,6 +61,7 @@ namespace web.sph.App_Code
                     return list;
                 }
             }
+            [JsonIgnore]
             public IEnumerable<SkorPpkp> Pemikiran
             {
                 get
@@ -77,6 +80,7 @@ namespace web.sph.App_Code
                     return list;
                 }
             }
+            [JsonIgnore]
             public IEnumerable<SkorPpkp> Interpersonal
             {
                 get
@@ -99,6 +103,7 @@ namespace web.sph.App_Code
                     return list;
                 }
             }
+            [JsonIgnore]
             public IEnumerable<SkorPpkp> Peribadi
             {
                 get
@@ -240,9 +245,16 @@ namespace web.sph.App_Code
         [JsonIgnore]
         public PpkpRecommendation Peribadi => m_recommendationList.Single(x => x.Dimensi == "Keperibadian" && x.NilaiMin <= this.ProfilPersonaliti.Peribadi && this.ProfilPersonaliti.Peribadi <= x.NilaiMax);
 
+        [JsonIgnore]
         public ProfilPersonalitiDimensiUmumType ProfilPersonaliti { get; }
+
+        [JsonIgnore]
         public ProfilKepimpinanType ProfilKepimpinan { get; }
+
+        [JsonIgnore]
         public KesesuaianPenempatanType KesesuaianPenempatan { get; }
+
+        [JsonIgnore]
         public SkorKestabilanEmosiType SkorKestabilanEmosi { get; }
 
         public int A1 => this.Sesi.JawapanCollection.Where(a => a.Trait == "A1").Sum(a => a.Nilai);
