@@ -31,9 +31,9 @@ namespace web.sph.App_Code
         public int D => this.Sesi.JawapanCollection.Where(x => x.Trait == "D").Sum(x => x.Nilai);
 
         public IsoRecommendation AndaDanStresTahapStres
-            => m_list.Single(x => x.NilaiMin <= this.A && this.A <= x.NilaiMax && x.Dimensi == "ANDA DAN STRES:  TAHAP STRES");
+            => m_list.Single(x => x.NilaiMin <= this.A && this.A <= x.NilaiMax && x.Dimensi == "Anda dan Stres");
 
-        public IsoRecommendation PuncaStresKembimbangan
+        public IsoRecommendation PuncaStresKebimbangan
         {
             get
             {
@@ -41,7 +41,29 @@ namespace web.sph.App_Code
                 var score = this.Sesi.JawapanCollection.Where(x => x.Trait == "A" && soalans.Contains(x.SoalanNo))
                     .Sum(x => x.Nilai);
 
-                return m_list.Single(x => x.NilaiMin <= score && score <= x.NilaiMax && x.Dimensi == "ANDA DAN STRES:  TAHAP STRES");
+                return m_list.Single(x => x.NilaiMin <= score && score <= x.NilaiMax && x.Tret == "Kebimbangan");
+            }
+        }
+        public IsoRecommendation PuncaStresKekecewaan
+        {
+            get
+            {
+                var soalans = m_questions.Where(x => x.Kategori == "Kekecewaan").Select(x => x.SoalanNo).ToArray();
+                var score = this.Sesi.JawapanCollection.Where(x => x.Trait == "A" && soalans.Contains(x.SoalanNo))
+                    .Sum(x => x.Nilai);
+
+                return m_list.Single(x => x.NilaiMin <= score && score <= x.NilaiMax && x.Tret == "Kekecewaan");
+            }
+        }
+        public IsoRecommendation PuncaStresBebananDanStres
+        {
+            get
+            {
+                var soalans = m_questions.Where(x => x.Kategori == "Bebanan dan Stres").Select(x => x.SoalanNo).ToArray();
+                var score = this.Sesi.JawapanCollection.Where(x => x.Trait == "A" && soalans.Contains(x.SoalanNo))
+                    .Sum(x => x.Nilai);
+
+                return m_list.Single(x => x.NilaiMin <= score && score <= x.NilaiMax && x.Tret == "Bebanan dan Stres");
             }
         }
 

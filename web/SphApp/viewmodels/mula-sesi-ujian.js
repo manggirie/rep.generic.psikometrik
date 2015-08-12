@@ -162,6 +162,9 @@ define(["services/datacontext", objectbuilders.app, objectbuilders.config, objec
                 runTimer(sct)
                         .fail()
                         .done(function () {
+                            if (typeof ujian().SectionCollection()[index + 1] === "undefined") {
+                                return;
+                            }
                             app.showMessage("Adakah anda bersedia untuk menjawab soalan seksyen seterusnya?", "JPA ePsikometrik", ["Ya", "Tidak"])
                                   .done(function (dr) {
                                       if (dr === "Ya") {
