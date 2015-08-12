@@ -6,51 +6,99 @@
     "$values": [
       {
         "$type": "Bespoke.epsikologi_ibkrecommendation.Domain.Kerjaya, epsikologi.IbkRecommendation",
-        "Text": "-Akauntan -Juruaudit -Penganalisis Belanjawan -Penyiasat Akaun/ Pegawai Kad Kredit",
+        "Text": "Akauntan",
         "Warna": null,
         "WebId": "facab532-b4a0-49b3-ab1c-9e96676f6b7b"
       },
       {
         "$type": "Bespoke.epsikologi_ibkrecommendation.Domain.Kerjaya, epsikologi.IbkRecommendation",
-        "Text": "Pendaftar Muzium",
+        "Text": " Juruaudit",
         "Warna": null,
         "WebId": "52f37f1f-f81d-4e10-b930-41edbc96b710"
       },
       {
         "$type": "Bespoke.epsikologi_ibkrecommendation.Domain.Kerjaya, epsikologi.IbkRecommendation",
-        "Text": "-Penerbit Radio -Pegawai Penyiaran -Pengurus :- Pembaikan/ Radiofoto",
+        "Text": "Penganalisis Belanjawan ",
         "Warna": null,
         "WebId": "cefeef68-464f-4fe3-894d-4b861c17465e"
       },
       {
         "$type": "Bespoke.epsikologi_ibkrecommendation.Domain.Kerjaya, epsikologi.IbkRecommendation",
-        "Text": "-Koordinator Pengurusan Pencegahan -Pegawai:- Pentadbiran Surat/ Gaji/ Stor/ Utiliti",
+        "Text": "Penyiasat Akaun/ Pegawai Kad Kredit",
         "Warna": null,
         "WebId": "f9609899-b371-4373-a544-932d2debea52"
       },
       {
         "$type": "Bespoke.epsikologi_ibkrecommendation.Domain.Kerjaya, epsikologi.IbkRecommendation",
-        "Text": "Inspektor Fabrik",
-        "Warna": null,
-        "WebId": "a0f4469e-69c1-4f9c-a065-f9c29ecb6b0d"
-      },
-      {
-        "$type": "Bespoke.epsikologi_ibkrecommendation.Domain.Kerjaya, epsikologi.IbkRecommendation",
-        "Text": "Juruteknik Elektrik",
-        "Warna": null,
-        "WebId": "9f8998d6-c1b4-43ca-bc66-9dcb01583279"
-      },
-      {
-        "$type": "Bespoke.epsikologi_ibkrecommendation.Domain.Kerjaya, epsikologi.IbkRecommendation",
-        "Text": "-Pengumpul:- Peralatan Elektrik/ Barangan Kulit -Pembantu Direktori -Pembekal\t",
+        "Text": "Pendaftar Muzium",
         "Warna": null,
         "WebId": "12ec7a4c-883f-4f64-9f60-51b15e8891e2"
       },
       {
         "$type": "Bespoke.epsikologi_ibkrecommendation.Domain.Kerjaya, epsikologi.IbkRecommendation",
-        "Text": "Pelukis & Pewarna Kartun Anismasi",
+        "Text": "Penerbit Radio ",
         "Warna": null,
         "WebId": "86d2970f-03a5-41a9-9741-f8523ae60bd4"
+      },
+      {
+        "$type": "Bespoke.epsikologi_ibkrecommendation.Domain.Kerjaya, epsikologi.IbkRecommendation",
+        "Text": "Pegawai Penyiaran ",
+        "Warna": null,
+        "WebId": "09a2bcdf-d0d1-496c-e9e2-4794117c66f9"
+      },
+      {
+        "$type": "Bespoke.epsikologi_ibkrecommendation.Domain.Kerjaya, epsikologi.IbkRecommendation",
+        "Text": "Pengurus Pembaikan/ Radiofoto",
+        "Warna": null,
+        "WebId": "b1e8ccae-e140-4038-870b-37fbd5b2df51"
+      },
+      {
+        "$type": "Bespoke.epsikologi_ibkrecommendation.Domain.Kerjaya, epsikologi.IbkRecommendation",
+        "Text": "Koordinator Pengurusan Pencegahan ",
+        "Warna": null,
+        "WebId": "e6905926-6c66-416e-abd3-95c45ada646c"
+      },
+      {
+        "$type": "Bespoke.epsikologi_ibkrecommendation.Domain.Kerjaya, epsikologi.IbkRecommendation",
+        "Text": "Pegawai Pentadbiran Surat/ Gaji/ Stor/ Utiliti",
+        "Warna": null,
+        "WebId": "1562bcf2-40f7-4a49-c30e-db6419130cb0"
+      },
+      {
+        "$type": "Bespoke.epsikologi_ibkrecommendation.Domain.Kerjaya, epsikologi.IbkRecommendation",
+        "Text": "Inspektor Fabrik",
+        "Warna": null,
+        "WebId": "c0f5ec76-8ab2-4a7e-d83e-b303fce4635f"
+      },
+      {
+        "$type": "Bespoke.epsikologi_ibkrecommendation.Domain.Kerjaya, epsikologi.IbkRecommendation",
+        "Text": "Juruteknik Elektrik",
+        "Warna": null,
+        "WebId": "39d1bfd0-a656-485b-808d-3468e3eba6be"
+      },
+      {
+        "$type": "Bespoke.epsikologi_ibkrecommendation.Domain.Kerjaya, epsikologi.IbkRecommendation",
+        "Text": "Pengumpul Peralatan Elektrik/ Barangan Kulit",
+        "Warna": null,
+        "WebId": "9203d59b-ae41-46a2-a87f-4d773c576c8c"
+      },
+      {
+        "$type": "Bespoke.epsikologi_ibkrecommendation.Domain.Kerjaya, epsikologi.IbkRecommendation",
+        "Text": "Pembantu Direktori ",
+        "Warna": null,
+        "WebId": "735ee4a4-da7c-4e12-f0db-b35547b9cc36"
+      },
+      {
+        "$type": "Bespoke.epsikologi_ibkrecommendation.Domain.Kerjaya, epsikologi.IbkRecommendation",
+        "Text": "Pembekal\t",
+        "Warna": null,
+        "WebId": "a4b36abc-1945-4fde-c973-947302860a84"
+      },
+      {
+        "$type": "Bespoke.epsikologi_ibkrecommendation.Domain.Kerjaya, epsikologi.IbkRecommendation",
+        "Text": "Pelukis & Pewarna Kartun Animasi",
+        "Warna": null,
+        "WebId": "d2cc9002-0269-449f-aa7d-dc640176b66d"
       }
     ]
   },
@@ -92,7 +140,7 @@
   "CreatedBy": "admin",
   "Id": "TPI-TIP",
   "CreatedDate": "2015-07-31T19:35:28.0807951+08:00",
-  "ChangedBy": "admin",
-  "ChangedDate": "2015-07-31T19:35:28.0717901+08:00",
+  "ChangedBy": "urusetia1",
+  "ChangedDate": "2015-08-12T17:18:21.0553828+08:00",
   "WebId": "436b611e-252e-45c7-a195-aca4787dea4e"
 }

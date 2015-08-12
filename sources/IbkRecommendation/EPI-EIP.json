@@ -18,13 +18,13 @@
       },
       {
         "$type": "Bespoke.epsikologi_ibkrecommendation.Domain.Kerjaya, epsikologi.IbkRecommendation",
-        "Text": "-Ahli Geografi/ Geologi/ Hidrologi/ Seismologi  -Jurukur Geodatik",
+        "Text": "Ahli Geografi/ Geologi/ Hidrologi/ Seismologi  -Jurukur Geodatik",
         "Warna": null,
         "WebId": "2f94858f-af98-47f5-aac9-78617d32e377"
       },
       {
         "$type": "Bespoke.epsikologi_ibkrecommendation.Domain.Kerjaya, epsikologi.IbkRecommendation",
-        "Text": "-Pakar:- Toksik/ Racun/ Penyakit Berjangkit/ Farmakologi/ Fisiologi -Inspektor Ternakan/ Ahli Sains Ternakan Susu",
+        "Text": "Pakar:- Toksik/ Racun/ Penyakit Berjangkit/ Farmakologi/ Fisiologi -Inspektor Ternakan/ Ahli Sains Ternakan Susu",
         "Warna": null,
         "WebId": "9487ca8d-d86d-46f1-bd69-ba322a0e0067"
       },
@@ -36,13 +36,13 @@
       },
       {
         "$type": "Bespoke.epsikologi_ibkrecommendation.Domain.Kerjaya, epsikologi.IbkRecommendation",
-        "Text": "-Pentadbir Pangkalan Data -Pengaturcara: - Saintifik/ Permainan Komputer/ Kawalan Nombor/ Kejuruteraan  -Penganalisis Sistem Perisian Komputer\t",
+        "Text": "Pentadbir Pangkalan Data -Pengaturcara: - Saintifik/ Permainan Komputer/ Kawalan Nombor/ Kejuruteraan  -Penganalisis Sistem Perisian Komputer\t",
         "Warna": null,
         "WebId": "b5d2f795-72a0-4394-b5dc-e7a6f73a0a90"
       },
       {
         "$type": "Bespoke.epsikologi_ibkrecommendation.Domain.Kerjaya, epsikologi.IbkRecommendation",
-        "Text": "-Jurutera:- Penyelidikan Aeronautikal/ Bioperubatan/ Kimia/ Marin/ Pertanian/ Awam/ Elektrikal/ Nuklear/ Penyelidikan Mekanikal/ Perisian Komputer -Pakar Senjata/ Pengurusan Bahan Buangan Merbahaya/ Penjagaan Kebersihan Industri",
+        "Text": "Jurutera:- Penyelidikan Aeronautikal/ Bioperubatan/ Kimia/ Marin/ Pertanian/ Awam/ Elektrikal/ Nuklear/ Penyelidikan Mekanikal/ Perisian Komputer -Pakar Senjata/ Pengurusan Bahan Buangan Merbahaya/ Penjagaan Kebersihan Industri",
         "Warna": null,
         "WebId": "b923b79a-a892-4dda-ab9e-d73e0ebcfbb1"
       },
@@ -104,7 +104,7 @@
       },
       {
         "$type": "Bespoke.epsikologi_ibkrecommendation.Domain.BidangPengajian, epsikologi.IbkRecommendation",
-        "Text": "-Fisiologi Manusia @ Haiwan/ Biologi Sel/ Farmakologi/ Farmasikutikal (Kimia)/ Fisiologi/ Toksik/ Racun  -Pertanian/ Tumbuhan\t",
+        "Text": "Fisiologi Manusia @ Haiwan/ Biologi Sel/ Farmakologi/ Farmasikutikal (Kimia)/ Fisiologi/ Toksik/ Racun  -Pertanian/ Tumbuhan\t",
         "WebId": "83f7f6d3-d7aa-44a4-a768-339f47bc5127"
       },
       {
@@ -124,7 +124,7 @@
       },
       {
         "$type": "Bespoke.epsikologi_ibkrecommendation.Domain.BidangPengajian, epsikologi.IbkRecommendation",
-        "Text": "-Alam Sekitar -Statistik Perniagaan",
+        "Text": "Alam Sekitar -Statistik Perniagaan",
         "WebId": "8f082bf6-6855-4f8c-9ba0-81c920ed87bf"
       },
       {
@@ -134,7 +134,7 @@
       },
       {
         "$type": "Bespoke.epsikologi_ibkrecommendation.Domain.BidangPengajian, epsikologi.IbkRecommendation",
-        "Text": "-Veterinar/ Zoologi",
+        "Text": "Veterinar/ Zoologi",
         "WebId": "3c0e16ae-06b8-4fc1-aa22-3d970171d6d9"
       },
       {
@@ -157,7 +157,7 @@
   "CreatedBy": "admin",
   "Id": "EPI-EIP",
   "CreatedDate": "2015-07-31T18:45:28.6189582+08:00",
-  "ChangedBy": "admin",
-  "ChangedDate": "2015-07-31T18:45:28.6955097+08:00",
+  "ChangedBy": "urusetia1",
+  "ChangedDate": "2015-08-12T17:23:59.9662705+08:00",
   "WebId": "ddefc735-ad2d-4707-bfe6-fa73f8349c0f"
 }
