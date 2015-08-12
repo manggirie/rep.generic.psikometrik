@@ -21,7 +21,7 @@
       }
     ]
   },
-  "Trait": "E3",
+  "Trait": "F3",
   "NamaUjian": "Ujian Khas Biasiswa Persekutuan(UKBP)",
   "Susunan": 281.0,
   "Kategori": "3",
@@ -30,6 +30,6 @@
   "Id": "UKBP-B-00281",
   "CreatedDate": "2015-07-06T11:24:58.2658753+08:00",
   "ChangedBy": "admin",
-  "ChangedDate": "2015-08-11T16:46:58.6752089+08:00",
+  "ChangedDate": "2015-08-12T11:08:15.4331974+08:00",
   "WebId": "37a45f6a-1bd4-42a9-a00d-d1358b9d64d4"
 }
