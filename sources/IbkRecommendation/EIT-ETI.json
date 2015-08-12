@@ -6,33 +6,51 @@
     "$values": [
       {
         "$type": "Bespoke.epsikologi_ibkrecommendation.Domain.Kerjaya, epsikologi.IbkRecommendation",
-        "Text": "Jurutera:- Pentadbiran Lebuhraya/ Kawalan Pencemaran/ Perlindungan Kebakaran/ Radiasi/ Keselamatan Industri",
+        "Text": "Jurutera Pentadbiran Lebuhraya/ Kawalan Pencemaran/ Perlindungan Kebakaran/ Radiasi/ Keselamatan Industri",
         "Warna": null,
         "WebId": "826e7ead-162b-45f4-b4c0-1804941bdc3f"
       },
       {
         "$type": "Bespoke.epsikologi_ibkrecommendation.Domain.Kerjaya, epsikologi.IbkRecommendation",
-        "Text": "-Ketua Pemeriksa Bank -Juruaudit -Penganalisis Pelaburan \t",
+        "Text": "Ketua Pemeriksa Bank ",
         "Warna": null,
         "WebId": "4f1c4248-2ec5-4ddc-9ee6-a5dac05779a4"
       },
       {
         "$type": "Bespoke.epsikologi_ibkrecommendation.Domain.Kerjaya, epsikologi.IbkRecommendation",
-        "Text": "-Penguasa Kastam -Pegawai Pemeriksa Cap Jari",
+        "Text": "Juruaudit ",
         "Warna": null,
         "WebId": "1dc54b5d-e49a-4b2d-b730-6be6a93f6e46"
       },
       {
         "$type": "Bespoke.epsikologi_ibkrecommendation.Domain.Kerjaya, epsikologi.IbkRecommendation",
-        "Text": "Inspektor Bangunan",
+        "Text": "Penganalisis Pelaburan \t",
         "Warna": null,
         "WebId": "5c58e8de-28ba-437a-a721-c66c567713fc"
       },
       {
         "$type": "Bespoke.epsikologi_ibkrecommendation.Domain.Kerjaya, epsikologi.IbkRecommendation",
-        "Text": "Peniaga Tukaran Asing\t",
+        "Text": "Penguasa Kastam ",
         "Warna": null,
         "WebId": "7a4373c3-e745-46e4-81cb-4f9077b9eb78"
+      },
+      {
+        "$type": "Bespoke.epsikologi_ibkrecommendation.Domain.Kerjaya, epsikologi.IbkRecommendation",
+        "Text": "Pegawai Pemeriksa Cap Jari",
+        "Warna": null,
+        "WebId": "97ed90f3-96c9-42db-91c2-11fa68cefcff"
+      },
+      {
+        "$type": "Bespoke.epsikologi_ibkrecommendation.Domain.Kerjaya, epsikologi.IbkRecommendation",
+        "Text": "Inspektor Bangunan",
+        "Warna": null,
+        "WebId": "b0808231-5e2b-4add-999c-988c89afeb06"
+      },
+      {
+        "$type": "Bespoke.epsikologi_ibkrecommendation.Domain.Kerjaya, epsikologi.IbkRecommendation",
+        "Text": "Peniaga Tukaran Asing",
+        "Warna": null,
+        "WebId": "d3b25ef5-46ef-4ae4-e359-b51c986d5691"
       }
     ]
   },
@@ -46,15 +64,20 @@
       },
       {
         "$type": "Bespoke.epsikologi_ibkrecommendation.Domain.BidangPengajian, epsikologi.IbkRecommendation",
-        "Text": "-Farmasi  -Perakaunan",
+        "Text": "Farmasi  ",
         "WebId": "a04c4038-42dd-47c9-9d72-9aa38082ae45"
+      },
+      {
+        "$type": "Bespoke.epsikologi_ibkrecommendation.Domain.BidangPengajian, epsikologi.IbkRecommendation",
+        "Text": "Perakaunan",
+        "WebId": "1e97803b-b406-4197-d9cc-65695dcd0421"
       }
     ]
   },
   "CreatedBy": "admin",
   "Id": "EIT-ETI",
   "CreatedDate": "2015-07-31T18:41:01.5216727+08:00",
-  "ChangedBy": "admin",
-  "ChangedDate": "2015-07-31T18:41:01.5111659+08:00",
+  "ChangedBy": "urusetia1",
+  "ChangedDate": "2015-08-12T17:26:30.5933317+08:00",
   "WebId": "ccc1c48e-7c71-4cc0-f97a-eb9899c23de3"
 }

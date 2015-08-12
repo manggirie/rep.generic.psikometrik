@@ -6,21 +6,27 @@
     "$values": [
       {
         "$type": "Bespoke.epsikologi_ibkrecommendation.Domain.Kerjaya, epsikologi.IbkRecommendation",
-        "Text": "Chef:- Pastri/ Pencuci Mulut",
+        "Text": "Chef Pastri/ Pencuci Mulut",
         "Warna": null,
         "WebId": "ff6e284b-e723-40c8-99f4-c3e03772bafd"
       },
       {
         "$type": "Bespoke.epsikologi_ibkrecommendation.Domain.Kerjaya, epsikologi.IbkRecommendation",
-        "Text": "-Jurufoto -Pereka Fesyen",
+        "Text": "Jurufoto ",
         "Warna": null,
         "WebId": "5a97ee0f-f63d-490e-81bf-2cbd6afd9630"
       },
       {
         "$type": "Bespoke.epsikologi_ibkrecommendation.Domain.Kerjaya, epsikologi.IbkRecommendation",
-        "Text": "Juruteknik:- Pentas/ Kamera/ Kesan Optikal",
+        "Text": "Pereka Fesyen",
         "Warna": null,
         "WebId": "87cf8d67-baf6-4d27-85c4-ab996b3c3961"
+      },
+      {
+        "$type": "Bespoke.epsikologi_ibkrecommendation.Domain.Kerjaya, epsikologi.IbkRecommendation",
+        "Text": "Juruteknik Pentas/ Kamera/ Kesan Optikal",
+        "Warna": null,
+        "WebId": "0cb1de7b-5398-4dfb-f761-11b3af863a31"
       }
     ]
   },
@@ -34,20 +40,25 @@
       },
       {
         "$type": "Bespoke.epsikologi_ibkrecommendation.Domain.BidangPengajian, epsikologi.IbkRecommendation",
-        "Text": "-Seni Fotografi -Rekaan Fesyen",
+        "Text": "Seni Fotografi ",
         "WebId": "8b8c6474-5872-490f-a4b8-0156c23761f3"
       },
       {
         "$type": "Bespoke.epsikologi_ibkrecommendation.Domain.BidangPengajian, epsikologi.IbkRecommendation",
-        "Text": "Kesan Khas\t",
+        "Text": "Rekaan Fesyen",
         "WebId": "82584ab5-5a8d-42c6-b1e7-294784fb1227"
+      },
+      {
+        "$type": "Bespoke.epsikologi_ibkrecommendation.Domain.BidangPengajian, epsikologi.IbkRecommendation",
+        "Text": "Kesan Khas",
+        "WebId": "d42ce4dd-63fe-476f-f0ce-b1eb0af9de2c"
       }
     ]
   },
   "CreatedBy": "admin",
   "Id": "PKM-PMK",
   "CreatedDate": "2015-07-31T18:15:52.3323412+08:00",
-  "ChangedBy": "admin",
-  "ChangedDate": "2015-07-31T18:15:52.3693683+08:00",
+  "ChangedBy": "urusetia1",
+  "ChangedDate": "2015-08-12T17:19:21.7174484+08:00",
   "WebId": "68d5fcf3-026e-4afc-faac-f43926621838"
 }

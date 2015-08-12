@@ -6,7 +6,7 @@
     "$values": [
       {
         "$type": "Bespoke.epsikologi_ibkrecommendation.Domain.Kerjaya, epsikologi.IbkRecommendation",
-        "Text": "Ahli:- Psikologi Klinikal/ Kaunseling",
+        "Text": "Ahli Psikologi Klinikal/ Kaunseling",
         "Warna": null,
         "WebId": "9520dfc6-6473-4f21-96f3-598369e7634c"
       },
@@ -24,9 +24,15 @@
       },
       {
         "$type": "Bespoke.epsikologi_ibkrecommendation.Domain.Kerjaya, epsikologi.IbkRecommendation",
-        "Text": "-Jururawat  -Pembantu Pergigian\t",
+        "Text": "Jururawat  ",
         "Warna": null,
         "WebId": "b80ee97e-72e4-4152-9890-b9ba0d0dd9aa"
+      },
+      {
+        "$type": "Bespoke.epsikologi_ibkrecommendation.Domain.Kerjaya, epsikologi.IbkRecommendation",
+        "Text": "Pembantu Pergigian\t",
+        "Warna": null,
+        "WebId": "9def7673-386d-4651-b6d8-bcc66d15ab0e"
       }
     ]
   },
@@ -35,7 +41,7 @@
     "$values": [
       {
         "$type": "Bespoke.epsikologi_ibkrecommendation.Domain.BidangPengajian, epsikologi.IbkRecommendation",
-        "Text": "Kejururawatan: Umum/ Kesihatan Orang Dewasa @ Kanak-Kanak/ Pembedahan",
+        "Text": "Kejururawatan Umum/ Kesihatan Orang Dewasa @ Kanak-Kanak/ Pembedahan",
         "WebId": "65ba34ab-12bd-4f93-ab39-059043ea998d"
       },
       {
@@ -48,7 +54,7 @@
   "CreatedBy": "admin",
   "Id": "MEK-MKE",
   "CreatedDate": "2015-07-31T19:05:44.4497542+08:00",
-  "ChangedBy": "admin",
-  "ChangedDate": "2015-07-31T19:05:44.4322426+08:00",
+  "ChangedBy": "urusetia1",
+  "ChangedDate": "2015-08-12T17:19:48.0900854+08:00",
   "WebId": "bf4531a3-cd9b-41f1-8caa-12f0d077d4a5"
 }
