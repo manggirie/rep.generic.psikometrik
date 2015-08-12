@@ -1,88 +1,133 @@
 @model web.sph.App_Code.IbkTraitViewModel
 @{
-	Layout = "_MasterPage.cshtml";
+    Layout = "_MasterPage.cshtml";
 }
-
-<div style="height:40px"></div>
+@section head
+{
+    <style>
+        h4 {
+            font-size: medium;
+        }
+        table.table-bordered td {
+            font-size: medium;
+        }
+    </style>
+}
+<div style="height:20px"></div>
 <table class="">
-  <colgroup>
-    <col style="width:180px"/>
-    <col style="width:20px"/>
-    <col style="width:600px"/>
-  </colgroup>
-  <tr>
-    <td>Kod Kerjaya</td>
-    <td>:</td>
-    <td>@Model.KodKerjaya</td>
-  </tr>
-	<tr>
-		<td style="vertical-align:top">PILIHAN KERJAYA</td>
-		<td style="vertical-align:top">:</td>
-		<td style="text-align:justify">
-			<ol>
-			@foreach(var t in Model.IbkRecommendation.KerjayaCollection)
-			{
-				<li>@t.Text</li>
-			}
-		</ol>
-		</td>
-	</tr>
-	<tr>
-		<td style="vertical-align:top">BIDANG PENGAJIAN</td>
-		<td style="vertical-align:top">:</td>
-		<td style="text-align:justify">
-			<ol>
-			@foreach(var t in Model.IbkRecommendation.BidangPengajianCollection)
-			{
-				<li>@t.Text</li>
-			}
-		</ol>
-		</td>
-	</tr>
+    <colgroup>
+        <col style="width:180px" />
+        <col style="width:20px" />
+        <col style="width:600px" />
+    </colgroup>
+    <tr>
+        <td>Kod Kerjaya</td>
+        <td>:</td>
+        <td>@Model.KodKerjaya</td>
+    </tr>
+    <tr>
+        <td style="vertical-align:top">Pilihan Kerjaya</td>
+        <td style="vertical-align:top">:</td>
+        <td style="text-align:justify">
+            <ol>
+                @foreach (var t in Model.IbkRecommendation.KerjayaCollection.Take(3))
+                {
+                    <li>@t.Text</li>
+                }
+            </ol>
+        </td>
+    </tr>
+    <tr>
+        <td style="vertical-align:top">Bidang Pengajian</td>
+        <td style="vertical-align:top">:</td>
+        <td style="text-align:justify">
+            <ol>
+                @foreach (var t in Model.IbkRecommendation.BidangPengajianCollection.Take(3))
+                {
+                    <li>@t.Text</li>
+                }
+            </ol>
+        </td>
+    </tr>
 </table>
 
+<div style="height:0px"></div>
 
-<div style="height:40px"></div>
-<div class="kod-kerjaya">
-	<p>Berdasarkan kepada analisis ujian:</p>
-	<p>
-	(1)	Kod Kerjaya Anda	:	 </p>
-	<p>
-	(2)	Kategori Kerjaya	:	@Model.IbkKodKerjaya.KodKerjayaAnda (@Model.IbkKodKerjaya.Kod)
-	</p>
-	<p>
-		@Html.Raw(Model.IbkKodKerjaya.Text.Replace("\n\n", "</p><p>"))
-	</p>
-
-</div>
+<table >
+    <colgroup>
+        <col style="width: 180px"/>
+        <col style="width: 20px"/>
+        <col style="width: 600px"/>
+    </colgroup>
+    <tbody>
+    <tr>
+        <td style="vertical-align: top">Kategori Kerjaya</td>
+        <td style="vertical-align: top">:</td>
+        <td style="text-align: justify">@Model.IbkKodKerjaya.KodKerjayaAnda (@Model.IbkKodKerjaya.Kod)</td>
+    </tr>  <tr>
+        <td style="vertical-align: top">Interpretasi</td>
+        <td style="vertical-align: top">:</td>
+        <td style="text-align: justify">@Html.Raw(Model.IbkKodKerjaya.Text.Replace("\n\n", "</p><p>"))</td>
+    </tr>
+    </tbody>
+</table>
 <h4>Alternatif Pilihan Kerjaya:</h4>
 <table class="table table-bordered table-condensed">
-	@for(int i = 0 ; i < Model.IbkKodKerjaya.AlternatifPilihanKerjayaCollection.Count; i +=3)
-	{
+    @for (int i = 0; i < Model.IbkKodKerjaya.AlternatifPilihanKerjayaCollection.Count; i += 3)
+    {
+        var v1 = "";
+        var v2 = "";
+        var v3 = "";
+        //var length = Model.IbkKodKerjaya.AlternatifPilihanKerjayaCollection.Count;
 
-		<tr>
-			<td>@Model.IbkKodKerjaya.AlternatifPilihanKerjayaCollection[i].Text</td>
-			<td>@Model.IbkKodKerjaya.AlternatifPilihanKerjayaCollection[i + 1].Text</td>
-			<td>@Model.IbkKodKerjaya.AlternatifPilihanKerjayaCollection[i + 2].Text</td>
-		</tr>
-	}
+        try
+        {
+            v1 = Model.IbkKodKerjaya.AlternatifPilihanKerjayaCollection[i].Text;
+            v2 = Model.IbkKodKerjaya.AlternatifPilihanKerjayaCollection[i + 2].Text;
+            v3 = Model.IbkKodKerjaya.AlternatifPilihanKerjayaCollection[i + 3].Text;
+        }
+        catch (ArgumentOutOfRangeException)
+        {
+            Console.WriteLine();
+        }
+
+
+        <tr>
+            <td>@v1</td>
+            <td>@v2</td>
+            <td>@v3</td>
+        </tr>}
 </table>
 <h4>Alternatif Bidang Pengajian:</h4>
 <table class="table table-bordered table-condensed">
-	@for(int i = 0 ; i < Model.IbkKodKerjaya.AlternatifBidangPengajianCollection.Count; i +=3)
-	{
+    @for (int i = 0; i < Model.IbkKodKerjaya.AlternatifBidangPengajianCollection.Count; i += 3)
+    {
 
-		<tr>
-			<td>@Model.IbkKodKerjaya.AlternatifPilihanKerjayaCollection[i].Text</td>
-			<td>@Model.IbkKodKerjaya.AlternatifPilihanKerjayaCollection[i + 1].Text</td>
-			<td>@Model.IbkKodKerjaya.AlternatifPilihanKerjayaCollection[i + 2].Text</td>
-		</tr>
-	}
+        var v1 = "";
+        var v2 = "";
+        var v3 = "";
+
+        try
+        {
+            v1 = Model.IbkKodKerjaya.AlternatifBidangPengajianCollection[i].Text;
+            v2 = Model.IbkKodKerjaya.AlternatifBidangPengajianCollection[i + 2].Text;
+            v3 = Model.IbkKodKerjaya.AlternatifBidangPengajianCollection[i + 3].Text;
+        }
+        catch (ArgumentOutOfRangeException)
+        {
+            Console.WriteLine();
+        }
+
+        <tr>
+            <td>@v1</td>
+            <td>@v2</td>
+            <td>@v3</td>
+        </tr>}
 </table>
 
 <script type="text/javascript">
-	var ibk = @Html.Raw(Model.ToString());
-	setTimeout(function(){
-		window.print();
-	},1000);
+    var ibk = @Html.Raw(Model.ToString());
+    setTimeout(function(){
+        window.print();
+    },1000);
 </script>
