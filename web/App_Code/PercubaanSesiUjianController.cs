@@ -64,8 +64,11 @@ namespace web.sph.App_Code
                 Id = "sesi-ujian-" + User.Identity.Name,
                 Extension = ".json",
                 FileName = "",
-                Content = System.Text.Encoding.UTF8.GetBytes(sesi.ToJsonString(false))
+                Content = Encoding.UTF8.GetBytes(sesi.ToJsonString(false))
             };
+            var temp = await store.GetContentAsync(doc.Id);
+            if (null != temp)
+                await store.DeleteAsync(doc.Id);
             await store.AddAsync(doc);
 
             return Json(true);

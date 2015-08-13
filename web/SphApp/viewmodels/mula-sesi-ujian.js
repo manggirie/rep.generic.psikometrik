@@ -65,7 +65,7 @@ define(["services/datacontext", objectbuilders.app, objectbuilders.config, objec
                     size: 200,
                     includeTotal: true,
                     orderby: "Susunan",
-                    page : 1
+                    page: 1
                 };
 
             return context.loadOneAsync("SesiUjian", String.format("Id eq '{0}'", id))
@@ -220,6 +220,13 @@ define(["services/datacontext", objectbuilders.app, objectbuilders.config, objec
                         q.Nilai(a.Nilai);
                     }
                 });
+                // mark the sections that has been answered
+                for (var j = 0; j < idx; j++) {
+                    var scj = sections()[j];
+                    scj.answered(scj.questions().length);
+
+                    totalAnswered(totalAnswered() + scj.questions().length);
+                }
                 index = idx;
                 run();
 

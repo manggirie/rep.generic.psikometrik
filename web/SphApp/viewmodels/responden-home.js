@@ -60,17 +60,18 @@ define(["services/datacontext", objectbuilders.config, objectbuilders.app, objec
 
                     });
 
-                    return $.getJSON("/sesi-ujian");
-                })
-            .then(function (ut) {
+                });
+        },
+        attached = function (view) {
+
+            $.getJSON("/sesi-ujian")
+            .done(function (ut) {
                 if (ut.success) {
                     ujianTertangguh.removeAll();
                     ujianTertangguh.push(ut.sesi);
+                    $("button[data-id=" + ut.sesi.Id + "]").text("Sambung Sesi Ujian");
                 }
             });
-        },
-        attached = function () {
-
         },
         getTileClass = function (color) {
             switch (ko.unwrap(color)) {

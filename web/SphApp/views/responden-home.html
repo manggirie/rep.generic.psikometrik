@@ -5,52 +5,7 @@
 <!-- BEGIN PAGE CONTENT-->
 <div class="row">
 	<div class="col-md-6">
-		<!-- BEGIN SESI TERTANGGUH -->
-	    <div class="todo-ui" data-bind="visible: $root.ujianTertangguh().length > 0">
-	        <!-- END TODO SIDEBAR -->
-	        <!-- BEGIN TODO CONTENT -->
-	        <div class="todo-content">
-	            <div class="portlet light">
-	                <!-- PROJECT HEAD -->
-	                <div class="portlet-title">
-	                    <div class="caption">
-	                        <i class="icon-bar-chart font-green-sharp hide"></i>
-	                        <span class="caption-helper">PROGRAM:</span> &nbsp;
-	                        <span class="caption-subject font-green-sharp bold uppercase">Ujian Yang Disimpan</span>
-	                    </div>
-	                </div>
-	                <!-- end PROJECT HEAD -->
-	                <div class="portlet-body">
-	                    <div class="row">
-	                        <div class="col-md-12 col-sm-12">
-	                            <div class="scroller" style="max-height: 600px;" data-always-visible="0" data-rail-visible="0" data-handle-color="#dae3e7">
-	                                <div class="todo-tasklist" data-bind="foreach: $root.ujianTertangguh">
-	                                    <div class="todo-tasklist-item todo-tasklist-item-border-green">
-	                                        <i class="pull-left icon-pencil"></i>
-	                                        <button title="Teruskan sesi ujian anda" data-bind="click: $root.sambungSesiUjian" class="btn btn-primary pull-right">Sambung Sesi Ujian</button>
-	                                        <div class="todo-tasklist-item-title" data-bind="text: $root.getNamaUjian($data.NamaUjian)">
-	                                            Slider Redesign
-	                                        </div>
-	                                        <div class="todo-tasklist-item-text" data-bind="text:NamaProgram">
-	                                            Lorem dolor sit amet ipsum dolor sit consectetuer dolore.
-	                                        </div>
-	                                        <div class="todo-tasklist-controls pull-left">
-	                                            <span class="todo-tasklist-date"><i class="fa fa-calendar"></i>
-													<span data-bind="date: TarikhTamatProgram, tooltip: 'Tarik akhir untuk mengambil ujian anda'"></span>
-												</span>
-	                                        </div>
-	                                    </div>
-	                                </div>
-	                            </div>
-	                        </div>
-
-	                    </div>
-	                </div>
-	            </div>
-	        </div>
-	    </div>
-
-        <!-- END SESI TERTANGGUH -->
+	
 
 	    <div class="todo-ui">
 			<!-- END TODO SIDEBAR -->
@@ -73,7 +28,7 @@
 									<div class="todo-tasklist" data-bind="foreach: testList">
 										<div class="todo-tasklist-item todo-tasklist-item-border-green">
 											<i class="pull-left icon-pencil"></i>
-											<button title="Mulakan sesi ujian anda" data-bind="click: $root.mulaSesiUjian" class="btn btn-primary pull-right">Mula Sesi Ujian</button>
+											<button title="Mulakan sesi ujian anda" data-bind="click: $root.mulaSesiUjian, attr :{'data-id': Id}" class="btn btn-primary pull-right">Mula Sesi Ujian</button>
 											<div class="todo-tasklist-item-title" data-bind="text: $root.getNamaUjian($data.NamaUjian)">
 												Slider Redesign
 											</div>
