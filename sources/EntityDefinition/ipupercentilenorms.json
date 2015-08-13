@@ -38,7 +38,7 @@
           "$values": []
         },
         "Name": "RawScore",
-        "TypeName": "System.String, mscorlib",
+        "TypeName": "System.Int32, mscorlib",
         "IsNullable": false,
         "IsNotIndexed": false,
         "IsAnalyzed": false,
@@ -82,7 +82,7 @@
           "$values": []
         },
         "Name": "A",
-        "TypeName": "System.String, mscorlib",
+        "TypeName": "System.Int32, mscorlib",
         "IsNullable": false,
         "IsNotIndexed": false,
         "IsAnalyzed": false,
@@ -104,7 +104,7 @@
           "$values": []
         },
         "Name": "B",
-        "TypeName": "System.String, mscorlib",
+        "TypeName": "System.Int32, mscorlib",
         "IsNullable": false,
         "IsNotIndexed": false,
         "IsAnalyzed": false,
@@ -126,7 +126,7 @@
           "$values": []
         },
         "Name": "C",
-        "TypeName": "System.String, mscorlib",
+        "TypeName": "System.Int32, mscorlib",
         "IsNullable": false,
         "IsNotIndexed": false,
         "IsAnalyzed": false,
@@ -148,7 +148,7 @@
           "$values": []
         },
         "Name": "D",
-        "TypeName": "System.String, mscorlib",
+        "TypeName": "System.Int32, mscorlib",
         "IsNullable": false,
         "IsNotIndexed": false,
         "IsAnalyzed": false,
@@ -170,7 +170,7 @@
           "$values": []
         },
         "Name": "E",
-        "TypeName": "System.String, mscorlib",
+        "TypeName": "System.Int32, mscorlib",
         "IsNullable": false,
         "IsNotIndexed": false,
         "IsAnalyzed": false,
@@ -192,7 +192,7 @@
           "$values": []
         },
         "Name": "F",
-        "TypeName": "System.String, mscorlib",
+        "TypeName": "System.Int32, mscorlib",
         "IsNullable": false,
         "IsNotIndexed": false,
         "IsAnalyzed": false,
@@ -214,7 +214,7 @@
           "$values": []
         },
         "Name": "G",
-        "TypeName": "System.String, mscorlib",
+        "TypeName": "System.Int32, mscorlib",
         "IsNullable": false,
         "IsNotIndexed": false,
         "IsAnalyzed": false,
@@ -236,7 +236,7 @@
           "$values": []
         },
         "Name": "H",
-        "TypeName": "System.String, mscorlib",
+        "TypeName": "System.Int32, mscorlib",
         "IsNullable": false,
         "IsNotIndexed": false,
         "IsAnalyzed": false,
@@ -258,7 +258,7 @@
           "$values": []
         },
         "Name": "I",
-        "TypeName": "System.String, mscorlib",
+        "TypeName": "System.Int32, mscorlib",
         "IsNullable": false,
         "IsNotIndexed": false,
         "IsAnalyzed": false,
@@ -304,6 +304,6 @@
   "Id": "ipupercentilenorms",
   "CreatedDate": "2015-08-03T11:08:04.4063581+08:00",
   "ChangedBy": "admin",
-  "ChangedDate": "2015-08-03T11:32:32.6601805+08:00",
+  "ChangedDate": "2015-08-14T06:01:24.7196291+08:00",
   "WebId": "df60b7f7-72cc-414a-a1b7-ea477a987dc3"
 }

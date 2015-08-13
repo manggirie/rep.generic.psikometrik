@@ -36,15 +36,15 @@ namespace web.sph.App_Code
             };
 
             /* */
-            var apTask = context.LoadOneAsync<IpuPercentileNorms>(x => x.RawScore == vm.A.ToString());
-            var bpTask = context.LoadOneAsync<IpuPercentileNorms>(x => x.RawScore == vm.B.ToString());
-            var cpTask = context.LoadOneAsync<IpuPercentileNorms>(x => x.RawScore == vm.C.ToString());
-            var dpTask = context.LoadOneAsync<IpuPercentileNorms>(x => x.RawScore == vm.D.ToString());
-            var epTask = context.LoadOneAsync<IpuPercentileNorms>(x => x.RawScore == vm.E.ToString());
-            var fpTask = context.LoadOneAsync<IpuPercentileNorms>(x => x.RawScore == vm.F.ToString());
-            var gpTask = context.LoadOneAsync<IpuPercentileNorms>(x => x.RawScore == vm.G.ToString());
-            var hpTask = context.LoadOneAsync<IpuPercentileNorms>(x => x.RawScore == vm.H.ToString());
-            var ipTask = context.LoadOneAsync<IpuPercentileNorms>(x => x.RawScore == vm.I.ToString());
+            var apTask = context.LoadOneAsync<IpuPercentileNorms>(x => x.RawScore == vm.A);
+            var bpTask = context.LoadOneAsync<IpuPercentileNorms>(x => x.RawScore == vm.B);
+            var cpTask = context.LoadOneAsync<IpuPercentileNorms>(x => x.RawScore == vm.C);
+            var dpTask = context.LoadOneAsync<IpuPercentileNorms>(x => x.RawScore == vm.D);
+            var epTask = context.LoadOneAsync<IpuPercentileNorms>(x => x.RawScore == vm.E);
+            var fpTask = context.LoadOneAsync<IpuPercentileNorms>(x => x.RawScore == vm.F);
+            var gpTask = context.LoadOneAsync<IpuPercentileNorms>(x => x.RawScore == vm.G);
+            var hpTask = context.LoadOneAsync<IpuPercentileNorms>(x => x.RawScore == vm.H);
+            var ipTask = context.LoadOneAsync<IpuPercentileNorms>(x => x.RawScore == vm.I);
             await Task.WhenAll(apTask, bpTask, cpTask, epTask, fpTask, gpTask, hpTask, ipTask);
 
             var ap = await apTask;
@@ -57,15 +57,15 @@ namespace web.sph.App_Code
             var hp = await hpTask;
             var ip = await ipTask;
 
-            var a = context.LoadOneAsync<IpuRecommendation>(x => x.Tret == "A" && x.NilaiMin <= int.Parse(ap.A) && int.Parse(ap.A) <= x.NilaiMax);
-            var b = context.LoadOneAsync<IpuRecommendation>(x => x.Tret == "B" && x.NilaiMin <= int.Parse(bp.B) && int.Parse(bp.B) <= x.NilaiMax);
-            var c = context.LoadOneAsync<IpuRecommendation>(x => x.Tret == "C" && x.NilaiMin <= int.Parse(bp.C) && int.Parse(cp.C) <= x.NilaiMax);
-            var d = context.LoadOneAsync<IpuRecommendation>(x => x.Tret == "D" && x.NilaiMin <= int.Parse(dp.D) && int.Parse(dp.D) <= x.NilaiMax);
-            var e = context.LoadOneAsync<IpuRecommendation>(x => x.Tret == "E" && x.NilaiMin <= int.Parse(ep.E) && int.Parse(ep.E) <= x.NilaiMax);
-            var f = context.LoadOneAsync<IpuRecommendation>(x => x.Tret == "F" && x.NilaiMin <= int.Parse(fp.F) && int.Parse(fp.F) <= x.NilaiMax);
-            var g = context.LoadOneAsync<IpuRecommendation>(x => x.Tret == "G" && x.NilaiMin <= int.Parse(gp.G) && int.Parse(gp.G) <= x.NilaiMax);
-            var h = context.LoadOneAsync<IpuRecommendation>(x => x.Tret == "H" && x.NilaiMin <= int.Parse(hp.H) && int.Parse(hp.H) <= x.NilaiMax);
-            var i = context.LoadOneAsync<IpuRecommendation>(x => x.Tret == "I" && x.NilaiMin <= int.Parse(ip.I) && int.Parse(ip.I) <= x.NilaiMax);
+            var a = context.LoadOneAsync<IpuRecommendation>(x => x.Tret == "A" && x.NilaiMin <= ap.A && ap.A <= x.NilaiMax);
+            var b = context.LoadOneAsync<IpuRecommendation>(x => x.Tret == "B" && x.NilaiMin <= bp.B && bp.B <= x.NilaiMax);
+            var c = context.LoadOneAsync<IpuRecommendation>(x => x.Tret == "C" && x.NilaiMin <= bp.C && cp.C <= x.NilaiMax);
+            var d = context.LoadOneAsync<IpuRecommendation>(x => x.Tret == "D" && x.NilaiMin <= dp.D && dp.D <= x.NilaiMax);
+            var e = context.LoadOneAsync<IpuRecommendation>(x => x.Tret == "E" && x.NilaiMin <= ep.E && ep.E <= x.NilaiMax);
+            var f = context.LoadOneAsync<IpuRecommendation>(x => x.Tret == "F" && x.NilaiMin <= fp.F && fp.F <= x.NilaiMax);
+            var g = context.LoadOneAsync<IpuRecommendation>(x => x.Tret == "G" && x.NilaiMin <= gp.G && gp.G <= x.NilaiMax);
+            var h = context.LoadOneAsync<IpuRecommendation>(x => x.Tret == "H" && x.NilaiMin <= hp.H && hp.H <= x.NilaiMax);
+            var i = context.LoadOneAsync<IpuRecommendation>(x => x.Tret == "I" && x.NilaiMin <= ip.I && ip.I <= x.NilaiMax);
 
             vm.RecommendationA = await a;
             vm.RecommendationB = await b;
