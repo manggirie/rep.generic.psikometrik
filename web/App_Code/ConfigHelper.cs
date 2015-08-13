@@ -48,7 +48,7 @@ namespace web.sph.App_Code
             ObjectBuilder.AddCacheList<IRepository<SkorPpkp>>(new SqlRepository<SkorPpkp>());
 
             ObjectBuilder.AddCacheList<IRepository<IsoRecommendation>>(new SqlRepository<IsoRecommendation>());
-
+            
     	}
     }
 }

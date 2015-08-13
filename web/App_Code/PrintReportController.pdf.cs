@@ -13,7 +13,7 @@ namespace web.sph.App_Code
     public partial class PrintReportController
     {
 
-        public ActionResult Pdf(LaporanViewModel vm, string view, Func<string, string> htmlProcessing = null, bool isLandscape = false, int tryCount = 0)
+        public ActionResult Pdf(string view, LaporanViewModel vm, Func<string, string> htmlProcessing = null, bool isLandscape = false, int tryCount = 0)
         {
             var license = new License();
             license.SetLicense(ConfigurationManager.BaseDirectory + @"\lib\Aspose.Pdf.lic");
@@ -45,7 +45,7 @@ namespace web.sph.App_Code
                 }
                 catch (NotSupportedException e) when (e.Message.Contains("woff") && tryCount < 3)
                 {
-                    return Pdf(vm, view, htmlProcessing, isLandscape, tryCount + 1);
+                    return Pdf(view, vm, htmlProcessing, isLandscape, tryCount + 1);
                 }
                 catch (NotSupportedException e) when (e.Message.Contains("woff") && tryCount >= 3)
                 {
