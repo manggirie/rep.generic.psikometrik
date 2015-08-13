@@ -1,0 +1,85 @@
+
+
+<h1 data-i18n="UkbpRecommendation details">UkbpRecommendation details</h1>
+<div id="error-list" class="row" data-bind="visible:errors().length">
+    <!-- ko foreach : errors -->
+    <div class="col-sm-8 col-sm-offset-2 alert alert-dismissable alert-danger">
+        <button type="button" class="close" data-dismiss="alert" aria-hidden="true">&times;</button>
+        <i class="fa fa-exclamation"></i>
+        <span data-bind="text:Message"></span>
+
+    </div>
+    <div class="col-sm-2"></div>
+    <!-- /ko-->
+</div>
+<div class="row">
+    <div class="col-sm-8">
+        
+<form class="form-horizontal" data-bind="with : entity" id="ukbprecommendation-details-form">
+
+
+
+    <div data-bind="visible:true" class="form-group">
+        <label data-i18n="No" for="76ab1e33-c67d-4b97-c4a2-8ca338c9e0c9" class="col-md-4">No</label>
+        <div class="col-md-8">
+            <input  class=" form-control input-large" title=""
+                   data-bind="value: No, enable :true "
+                   
+                   
+                   
+                   id="76ab1e33-c67d-4b97-c4a2-8ca338c9e0c9" type="text" name="No" />
+        </div>
+    </div>
+
+
+    <div class="form-group" data-bind="visible:true">
+        <label data-i18n="Tret" for="5fc6630c-d636-43f4-bd2d-c5555a2e99d4" class="col-md-4">Tret</label>
+        <div class="col-md-8">
+            <select  data-bind="value: Tret, enable :true" id="5fc6630c-d636-43f4-bd2d-c5555a2e99d4" name="Tret" class=" input-large form-control">
+                    <option value="Kebolehpercayaan" data-i18n="Kebolehpercayaan">Kebolehpercayaan</option>
+                    <option value="Ketenangan" data-i18n="Ketenangan">Ketenangan</option>
+                    <option value="Keceriaan" data-i18n="Keceriaan">Keceriaan</option>
+                    <option value="Luahan Perasaan" data-i18n="Luahan Perasaan">Luahan Perasaan</option>
+                    <option value="Bersimpati" data-i18n="Bersimpati">Bersimpati</option>
+                    <option value="Berfikiran Rasional" data-i18n="Berfikiran Rasional">Berfikiran Rasional</option>
+                    <option value="Aktif Sosial" data-i18n="Aktif Sosial">Aktif Sosial</option>
+                    <option value="Bersikap Asertif" data-i18n="Bersikap Asertif">Bersikap Asertif</option>
+                    <option value="Bertoleransi" data-i18n="Bertoleransi">Bertoleransi</option>
+                    <option value="Penyimpangan Tingkah Laku" data-i18n="Penyimpangan Tingkah Laku">Penyimpangan Tingkah Laku</option>
+                    <option value="Nasionalisme" data-i18n="Nasionalisme">Nasionalisme</option>
+            </select>
+        </div>
+    </div>
+
+
+    <div class="form-group" data-bind="visible:true">
+        <label data-i18n="Skor" for="74f3d98d-56f3-46a1-98cd-3f98bd75b38e" class="col-md-4">Skor</label>
+        <div class="col-md-8">
+            <select  data-bind="value: Skor, enable :true" id="74f3d98d-56f3-46a1-98cd-3f98bd75b38e" name="Skor" class=" input-large form-control">
+                    <option value="Rendah" data-i18n="Rendah">Rendah</option>
+                    <option value="Sederhana Rendah" data-i18n="Sederhana Rendah">Sederhana Rendah</option>
+                    <option value="Sederhana Tinggi" data-i18n="Sederhana Tinggi">Sederhana Tinggi</option>
+                    <option value="Tinggi" data-i18n="Tinggi">Tinggi</option>
+            </select>
+        </div>
+    </div>
+
+
+
+    <div data-bind="visible:true" class="form-group">
+        <label data-i18n="Text" for="7c14de3a-b0f7-4cfc-d853-4300ece7b43a" class="col-md-4">Text</label>
+        <div class="col-md-8">
+            <input  class=" form-control input-large" title=""
+                   data-bind="value: Text, enable :true "
+                   
+                   
+                   
+                   id="7c14de3a-b0f7-4cfc-d853-4300ece7b43a" type="text" name="Text" />
+        </div>
+    </div>
+</form>
+    </div>
+    <div class="col-sm-4">
+        
+    </div>
+</div>
