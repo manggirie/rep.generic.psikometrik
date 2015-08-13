@@ -1,0 +1,21 @@
+{
+  "$type": "Bespoke.epsikologi_ipupercentilenorms.Domain.IpuPercentileNorms, epsikologi.IpuPercentileNorms",
+  "No": "p-10",
+  "RawScore": 10,
+  "Jantina": "Perempuan",
+  "A": 40,
+  "B": 58,
+  "C": 3,
+  "D": 1,
+  "E": 1,
+  "F": 45,
+  "G": 8,
+  "H": 64,
+  "I": 4,
+  "CreatedBy": "urusetia1",
+  "Id": "p-10",
+  "CreatedDate": "2015-08-03T12:22:37.7196447+08:00",
+  "ChangedBy": "urusetia1",
+  "ChangedDate": "2015-08-03T12:22:37.7176445+08:00",
+  "WebId": "2038b550-9e56-446c-e9f3-d5ff55610721"
+}

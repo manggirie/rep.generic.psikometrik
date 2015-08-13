@@ -1,0 +1,21 @@
+{
+  "$type": "Bespoke.epsikologi_ipupercentilenorms.Domain.IpuPercentileNorms, epsikologi.IpuPercentileNorms",
+  "No": "l-15",
+  "RawScore": 15,
+  "Jantina": "Lelaki",
+  "A": 75,
+  "B": 85,
+  "C": 10,
+  "D": 6,
+  "E": 5,
+  "F": 80,
+  "G": 12,
+  "H": 76,
+  "I": 10,
+  "CreatedBy": "urusetia1",
+  "Id": "l-15",
+  "CreatedDate": "2015-08-03T12:52:31.9050453+08:00",
+  "ChangedBy": "urusetia1",
+  "ChangedDate": "2015-08-03T12:52:31.9030451+08:00",
+  "WebId": "a1d5c611-ee25-4a60-a9a9-e1025cc57d4c"
+}
