@@ -5,4 +5,48 @@
     Layout = "_MasterPage.cshtml";
 }
 
-<h2>Laporan ISO</h2>
+@section head
+{
+    <style>
+        h4 {
+            font-size: medium;
+            font-weight: bold;
+        }
+    </style>
+}
+
+<h4>Anda dan Stres</h4>
+<table class="">
+    <colgroup>
+        <col style="width:180px" />
+        <col style="width:20px" />
+        <col style="width:600px" />
+    </colgroup>
+
+    <tr>
+        <td style="vertical-align:top">Tahap</td>
+        <td style="vertical-align:top">:</td>
+        <td style="text-align:justify">@Html.Raw(Model.AndaDanStresTahapStres.Kategori)</td>
+    </tr>
+    <tr>
+        <td style="vertical-align:top">Interpretasi</td>
+        <td style="vertical-align:top">:</td>
+        <td style="text-align:justify">@Html.Raw(Model.AndaDanStresTahapStres.Ciri)</td>
+    </tr>
+</table>
+<h4>Punca Stres</h4>
+@Html.Partial("_iso.tret", Model.PuncaStresKebimbangan)
+@Html.Partial("_iso.tret", Model.PuncaStresKekecewaan)
+@Html.Partial("_iso.tret", Model.PuncaStresBebananDanStres)
+@Html.Partial("_iso.tret", Model.PuncaStresKebosananDanKesunyian)
+<div style="page-break-after: always"></div>
+<h4>Tindak Balas Stres</h4>
+@Html.Partial("_iso.tret", Model.TindakBalasStresUkuranStres)
+@Html.Partial("_iso.tret", Model.TindakBalasStresReaksiTerhadapStres)
+
+<h4>Orientasi Terhadap Stres</h4>
+@Html.Partial("_iso.tret", Model.OrientasiTerhadapStresKehidupanSeimbang)
+@Html.Partial("_iso.tret", Model.OrientasiTerhadapStresKeperluanPengurusanMasa)
+
+<h4>Kecenderungan</h4>
+@Html.Partial("_iso.tret", Model.KecenderunganStresBerisikoMenghadapiStres)

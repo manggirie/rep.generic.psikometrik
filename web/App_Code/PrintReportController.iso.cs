@@ -1,3 +1,4 @@
+using System.Linq;
 using System.Threading.Tasks;
 using System.Web.Mvc;
 using Bespoke.epsikologi_isorecommendation.Domain;
@@ -23,7 +24,7 @@ namespace web.sph.App_Code
             var ujianTask = context.LoadOneAsync<Ujian>(x => x.Id == sesi.NamaUjian);
             var permohonanTask = context.LoadOneAsync<Permohonan>(x => x.PermohonanNo == sesi.NamaProgram);
             var recommendationTask = context.LoadAsync(context.CreateQueryable<IsoRecommendation>());
-            var soalanTask = context.LoadAsync(context.CreateQueryable<Soalan>(), 1, 120, true);
+            var soalanTask = context.LoadAsync(context.CreateQueryable<Soalan>().Where(x => x.NamaUjian == "Inventori Stres Organisasi (ISO)"), 1, 120, true);
             await Task.WhenAll(ujianTask, permohonanTask, recommendationTask, soalanTask);
 
             var rlo = await recommendationTask;
@@ -41,7 +42,7 @@ namespace web.sph.App_Code
                 Pengguna = user
             };
 
-            return View("Trait-Iso", vm);
+            return Pdf("Trait-Iso", vm);
 
         }
 
@@ -55,7 +56,7 @@ namespace web.sph.App_Code
             var ujianTask = context.LoadOneAsync<Ujian>(x => x.Id == sesi.NamaUjian);
             var permohonanTask = context.LoadOneAsync<Permohonan>(x => x.PermohonanNo == sesi.NamaProgram);
             var recommendationTask = context.LoadAsync(context.CreateQueryable<IsoRecommendation>());
-            var soalanTask = context.LoadAsync(context.CreateQueryable<Soalan>(), 1, 120, true);
+            var soalanTask = context.LoadAsync(context.CreateQueryable<Soalan>().Where(x => x.NamaUjian == "Inventori Stres Organisasi (ISO)"), 1, 120, true);
             await Task.WhenAll(ujianTask, permohonanTask, recommendationTask, soalanTask);
 
             var rlo = await recommendationTask;

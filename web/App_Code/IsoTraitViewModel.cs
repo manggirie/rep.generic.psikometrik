@@ -32,39 +32,52 @@ namespace web.sph.App_Code
 
         public IsoRecommendation AndaDanStresTahapStres
             => m_list.Single(x => x.NilaiMin <= this.A && this.A <= x.NilaiMax && x.Dimensi == "Anda dan Stres");
+        /*
+Ukuran Stres Kerja
+Life Balance
+Stress Vulnerability
+Bebanan Hidup
+Kebimbangan
+Kebosanan & Kesunyian
+Kekecewaan
+Urus Masa
+Reaksi Stres
 
-        public IsoRecommendation PuncaStresKebimbangan
+            IsoRecommendation count by Tret
+Bebanan dan Stres
+Berisiko Menghadapi Stres
+Kebimbangan
+Kehidupan Seimbang
+Kekecewaan
+Keperluan Pengurusan Masa
+Reaksi Terhadap Stres
+Tahap Stres
+Ukuran Stres
+Kebosanan dan Kesunyian
+
+
+    */
+        public IsoRecommendation PuncaStresKebimbangan => this.GetRecommendation("A", "Kebimbangan");
+        public IsoRecommendation PuncaStresKekecewaan => this.GetRecommendation("A", "Kekecewaan");
+        public IsoRecommendation PuncaStresBebananDanStres => this.GetRecommendation("A", "Bebanan Hidup", "Bebanan dan Stres");
+        public IsoRecommendation PuncaStresKebosananDanKesunyian => this.GetRecommendation("A", "Kebosanan & Kesunyian", "Kebosanan dan Kesunyian");
+
+        public IsoRecommendation TindakBalasStresUkuranStres => this.GetRecommendation("B", "Ukuran Stres Kerja", "Ukuran Stres");
+        public IsoRecommendation TindakBalasStresReaksiTerhadapStres => this.GetRecommendation("B", "Reaksi Stres", "Reaksi Terhadap Stres");
+
+        public IsoRecommendation OrientasiTerhadapStresKehidupanSeimbang => this.GetRecommendation("C", "Life Balance", "Kehidupan Seimbang");
+        public IsoRecommendation OrientasiTerhadapStresKeperluanPengurusanMasa => this.GetRecommendation("C", "Urus Masa", "Keperluan Pengurusan Masa");
+
+        public IsoRecommendation KecenderunganStresBerisikoMenghadapiStres => this.GetRecommendation("D", "Stress Vulnerability", "Berisiko Menghadapi Stres");
+
+        private IsoRecommendation GetRecommendation(string tret, string categorySoalan, string tretRecommendation = null)
         {
-            get
-            {
-                var soalans = m_questions.Where(x => x.Kategori == "Kebimbangan").Select(x => x.SoalanNo).ToArray();
-                var score = this.Sesi.JawapanCollection.Where(x => x.Trait == "A" && soalans.Contains(x.SoalanNo))
-                    .Sum(x => x.Nilai);
-
-                return m_list.Single(x => x.NilaiMin <= score && score <= x.NilaiMax && x.Tret == "Kebimbangan");
-            }
-        }
-        public IsoRecommendation PuncaStresKekecewaan
-        {
-            get
-            {
-                var soalans = m_questions.Where(x => x.Kategori == "Kekecewaan").Select(x => x.SoalanNo).ToArray();
-                var score = this.Sesi.JawapanCollection.Where(x => x.Trait == "A" && soalans.Contains(x.SoalanNo))
-                    .Sum(x => x.Nilai);
-
-                return m_list.Single(x => x.NilaiMin <= score && score <= x.NilaiMax && x.Tret == "Kekecewaan");
-            }
-        }
-        public IsoRecommendation PuncaStresBebananDanStres
-        {
-            get
-            {
-                var soalans = m_questions.Where(x => x.Kategori == "Bebanan dan Stres").Select(x => x.SoalanNo).ToArray();
-                var score = this.Sesi.JawapanCollection.Where(x => x.Trait == "A" && soalans.Contains(x.SoalanNo))
-                    .Sum(x => x.Nilai);
-
-                return m_list.Single(x => x.NilaiMin <= score && score <= x.NilaiMax && x.Tret == "Bebanan dan Stres");
-            }
+            var soalans = m_questions.Where(x => x.Kategori == categorySoalan).Select(x => x.SoalanNo).ToArray();
+            var score = this.Sesi.JawapanCollection.Where(x => x.Trait == tret && soalans.Contains(x.SoalanNo))
+                .Sum(x => x.Nilai);
+            if (string.IsNullOrWhiteSpace(tretRecommendation))
+                tretRecommendation = categorySoalan;
+            return m_list.Single(x => x.NilaiMin <= score && score <= x.NilaiMax && x.Tret == tretRecommendation);
         }
 
     }

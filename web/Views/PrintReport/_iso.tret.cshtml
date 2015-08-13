@@ -1,0 +1,25 @@
+@model Bespoke.epsikologi_isorecommendation.Domain.IsoRecommendation
+<table class="">
+    <colgroup>
+        <col style="width:180px" />
+        <col style="width:20px" />
+        <col style="width:600px" />
+    </colgroup>
+
+    <tr>
+        <td style="vertical-align:top">Tret</td>
+        <td style="vertical-align:top">:</td>
+        <td style="text-align:justify">@Model.Tret</td>
+    </tr>
+
+    <tr>
+        <td style="vertical-align:top">Tahap</td>
+        <td style="vertical-align:top">:</td>
+        <td style="text-align:justify">@Html.Raw(Model.Kategori)</td>
+    </tr>
+    <tr>
+        <td style="vertical-align:top">Interpretasi</td>
+        <td style="vertical-align:top">:</td>
+        <td style="text-align:justify">@Html.Raw(Model.Ciri)</td>
+    </tr>
+</table>
