@@ -1,0 +1,13 @@
+{
+  "$type": "Bespoke.epsikologi_ukbprecommendation.Domain.UkbpRecommendation, epsikologi.UkbpRecommendation",
+  "No": "lpn-sr",
+  "Tret": "Luahan Perasaan",
+  "Text": "Suka memendam perasaan dan mungkin mempunyai konflik interpersonal yang belum diselesaikan. ",
+  "Skor": "Sederhana Rendah",
+  "CreatedBy": "urusetia1",
+  "Id": "f5dfb5ed-837b-4384-9197-197ea5c31609",
+  "CreatedDate": "2015-08-14T09:58:49.2858216+08:00",
+  "ChangedBy": "urusetia1",
+  "ChangedDate": "2015-08-14T09:58:49.2848215+08:00",
+  "WebId": "0cced20f-98b8-439b-a68b-b007f2b97afe"
+}

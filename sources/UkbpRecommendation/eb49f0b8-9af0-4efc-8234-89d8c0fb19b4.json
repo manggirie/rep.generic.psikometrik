@@ -1,0 +1,13 @@
+{
+  "$type": "Bespoke.epsikologi_ukbprecommendation.Domain.UkbpRecommendation, epsikologi.UkbpRecommendation",
+  "No": "asf-st",
+  "Tret": "Bersikap Asertif",
+  "Text": "Bersikap asertif, berkeyakinan, berkemahiran mempengaruhi pemikiran orang lain dan sedia mempertahankan hak diri.",
+  "Skor": "Sederhana Tinggi",
+  "CreatedBy": "urusetia1",
+  "Id": "eb49f0b8-9af0-4efc-8234-89d8c0fb19b4",
+  "CreatedDate": "2015-08-14T10:05:42.8831772+08:00",
+  "ChangedBy": "urusetia1",
+  "ChangedDate": "2015-08-14T10:05:42.8821771+08:00",
+  "WebId": "d4d25ba8-f9c3-4af0-fc01-5df2d4e6ecae"
+}

@@ -1,0 +1,13 @@
+{
+  "$type": "Bespoke.epsikologi_ukbprecommendation.Domain.UkbpRecommendation, epsikologi.UkbpRecommendation",
+  "No": "aks-r",
+  "Tret": "Aktif Sosial",
+  "Text": "Bersikap sangat pasif, sangat suka menyendiri dan tidak peka terhadap persekitaran.  ",
+  "Skor": "Rendah",
+  "CreatedBy": "urusetia1",
+  "Id": "a19cba50-ce63-4ea5-a4c4-86acbebe2c24",
+  "CreatedDate": "2015-08-14T10:02:15.5864496+08:00",
+  "ChangedBy": "urusetia1",
+  "ChangedDate": "2015-08-14T10:02:15.5854495+08:00",
+  "WebId": "8be26c18-ab3f-4bc2-d111-94453fc7cba7"
+}

@@ -1,0 +1,13 @@
+{
+  "$type": "Bespoke.epsikologi_ukbprecommendation.Domain.UkbpRecommendation, epsikologi.UkbpRecommendation",
+  "No": "ktg-r",
+  "Tret": "Ketenangan",
+  "Text": "Kebimbangan yang tinggi dengan simptom seperti sangat sukar memberi tumpuan kepada apa yang berlaku di persekitaran.  ",
+  "Skor": "Rendah",
+  "CreatedBy": "urusetia1",
+  "Id": "6ffaf5df-ecd7-416c-92d2-9fadb94fe659",
+  "CreatedDate": "2015-08-14T09:55:38.8397789+08:00",
+  "ChangedBy": "urusetia1",
+  "ChangedDate": "2015-08-14T09:55:38.8377787+08:00",
+  "WebId": "cdf4960c-384c-436f-b601-3a02f9c1b376"
+}
