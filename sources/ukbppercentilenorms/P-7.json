@@ -1,0 +1,21 @@
+{
+  "$type": "Bespoke.epsikologi_ukbppercentilenorms.Domain.UkbpPercentileNorms, epsikologi.UkbpPercentileNorms",
+  "No": "P-7",
+  "RawScore": 7,
+  "Jantina": "Perempuan",
+  "A": 20,
+  "B": 42,
+  "C": 1,
+  "D": 1,
+  "E": 1,
+  "F": 20,
+  "G": 5,
+  "H": 44,
+  "I": 1,
+  "CreatedBy": "admin",
+  "Id": "P-7",
+  "CreatedDate": "2015-08-10T10:07:56.516821+08:00",
+  "ChangedBy": "admin",
+  "ChangedDate": "2015-08-10T10:07:56.5158209+08:00",
+  "WebId": "666f25c0-438f-42e8-d7e2-739970585065"
+}

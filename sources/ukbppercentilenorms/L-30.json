@@ -1,0 +1,21 @@
+{
+  "$type": "Bespoke.epsikologi_ukbppercentilenorms.Domain.UkbpPercentileNorms, epsikologi.UkbpPercentileNorms",
+  "No": "L-30",
+  "RawScore": 30,
+  "Jantina": "Lelaki",
+  "A": 99,
+  "B": 98,
+  "C": 61,
+  "D": 44,
+  "E": 48,
+  "F": 99,
+  "G": 81,
+  "H": 98,
+  "I": 73,
+  "CreatedBy": "admin",
+  "Id": "L-30",
+  "CreatedDate": "2015-08-10T11:04:13.4484804+08:00",
+  "ChangedBy": "admin",
+  "ChangedDate": "2015-08-10T11:04:13.4474803+08:00",
+  "WebId": "0c41def5-e5f8-439d-f259-58a78a92cac6"
+}
