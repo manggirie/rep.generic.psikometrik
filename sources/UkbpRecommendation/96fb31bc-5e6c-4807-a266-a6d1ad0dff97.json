@@ -1,13 +1,13 @@
 {
   "$type": "Bespoke.epsikologi_ukbprecommendation.Domain.UkbpRecommendation, epsikologi.UkbpRecommendation",
   "No": "ktg-st",
-  "Tret": "Kebolehpercayaan",
+  "Tret": "Ketenangan",
   "Text": "Ketenangan sederhana dan kurang permasalahan yang mengganggu fikiran. ",
   "Skor": "Sederhana Tinggi",
   "CreatedBy": "urusetia1",
   "Id": "96fb31bc-5e6c-4807-a266-a6d1ad0dff97",
   "CreatedDate": "2015-08-14T09:56:15.3094255+08:00",
-  "ChangedBy": "urusetia1",
-  "ChangedDate": "2015-08-14T09:56:15.3074253+08:00",
+  "ChangedBy": "admin",
+  "ChangedDate": "2015-08-14T10:59:46.7720158+08:00",
   "WebId": "f9313e7c-90a2-4c9b-f30c-fa3c4552fb41"
 }

@@ -109,12 +109,12 @@
   "CountMessage": null,
   "Entity": "UkbpRecommendation",
   "Partial": "partial/ukbprecommendations-all",
-  "Template": "Dashboard Standard",
+  "Template": null,
   "DisplayOnDashboard": true,
   "CreatedBy": "admin",
   "Id": "46899330-78c7-4089-849f-2d691d00887d",
   "CreatedDate": "2015-08-13T18:01:30.1314476+08:00",
   "ChangedBy": "admin",
-  "ChangedDate": "2015-08-13T18:27:45.372956+08:00",
+  "ChangedDate": "2015-08-14T10:43:41.153385+08:00",
   "WebId": "70dccb22-36a4-4bca-bca0-b8614e229f25"
 }
