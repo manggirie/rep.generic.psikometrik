@@ -33,7 +33,7 @@ function(context, logger, router, chart, config, partial) {
                             "bool": {
                                 "must": [{
                                     "term": {
-                                        "NamaUjian": "Inventori Sahsiah Pelajar (ISP)"
+                                        "NamaUjian": "ISP"
                                     }
                                 }
 

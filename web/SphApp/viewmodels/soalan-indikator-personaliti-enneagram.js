@@ -33,7 +33,7 @@ function(context, logger, router, chart, config, partial) {
                             "bool": {
                                 "must": [{
                                     "term": {
-                                        "NamaUjian": "Indikator Personaliti Enneagram (IPE)"
+                                        "NamaUjian": "IPE"
                                     }
                                 }
 

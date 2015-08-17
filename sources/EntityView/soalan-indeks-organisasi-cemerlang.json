@@ -10,8 +10,8 @@
         "Field": {
           "$type": "Bespoke.Sph.Domain.ConstantField, domain.sph",
           "TypeName": "System.String, mscorlib",
-          "Value": "Indeks Organisasi Cemerlang (IOC)",
-          "Name": "Indeks Organisasi Cemerlang (IOC)",
+          "Value": "IOC",
+          "Name": "IOC",
           "Note": "",
           "WebId": "7b795348-479f-44a4-ed7f-38857a21c53d"
         },
@@ -171,6 +171,6 @@
   "Id": "soalan-indeks-organisasi-cemerlang",
   "CreatedDate": "2015-06-22T11:34:46.1375517+08:00",
   "ChangedBy": "admin",
-  "ChangedDate": "2015-07-28T15:12:24.5152693+08:00",
+  "ChangedDate": "2015-08-17T09:26:45.932849+08:00",
   "WebId": "38e6ae7a-002d-4780-d67c-faea94d5b459"
 }

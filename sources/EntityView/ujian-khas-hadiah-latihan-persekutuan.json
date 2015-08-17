@@ -10,8 +10,8 @@
         "Field": {
           "$type": "Bespoke.Sph.Domain.ConstantField, domain.sph",
           "TypeName": "System.String, mscorlib",
-          "Value": "Ujian Khas Hadiah Latihan Persekutuan(HLP)",
-          "Name": "Ujian Khas Hadiah Latihan Persekutuan",
+          "Value": "HLP",
+          "Name": "HLP",
           "Note": "",
           "WebId": "7b795348-479f-44a4-ed7f-38857a21c53d"
         },

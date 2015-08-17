@@ -10,12 +10,26 @@
         "Field": {
           "$type": "Bespoke.Sph.Domain.ConstantField, domain.sph",
           "TypeName": "System.String, mscorlib",
-          "Value": "ISP",
-          "Name": "ISP",
+          "Value": "UKBP-B",
+          "Name": "UKBP-B",
           "Note": "",
           "WebId": "7b795348-479f-44a4-ed7f-38857a21c53d"
         },
         "WebId": "7f2c2a2c-17ad-4ffa-ea79-e3569cf1256d"
+      },
+      {
+        "$type": "Bespoke.Sph.Domain.Filter, domain.sph",
+        "Term": "Bahagian",
+        "Operator": "Eq",
+        "Field": {
+          "$type": "Bespoke.Sph.Domain.ConstantField, domain.sph",
+          "TypeName": "System.String, mscorlib",
+          "Value": "B",
+          "Name": "B",
+          "Note": "",
+          "WebId": "da9b146b-7e8a-4779-f19b-f8eb29c8aa58"
+        },
+        "WebId": "d605230e-b34e-44c5-a747-7cd829474c3d"
       }
     ]
   },
@@ -123,6 +137,23 @@
         "Format": "text:{0}",
         "RouteValueField": "Id",
         "WebId": "f5c6608e-12ca-42e5-9284-f7771a7a0211"
+      },
+      {
+        "$type": "Bespoke.Sph.Domain.ViewColumn, domain.sph",
+        "ConditionalFormattingCollection": {
+          "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.Sph.Domain.ConditionalFormatting, domain.sph]], domain.sph",
+          "$values": []
+        },
+        "Path": "Bahagian",
+        "Header": "Bahagian",
+        "Sort": "",
+        "IsLinkColumn": false,
+        "FormRoute": null,
+        "IconCssClass": "",
+        "IconStoreId": "",
+        "Format": "text:{0}",
+        "RouteValueField": "",
+        "WebId": "828a2921-8326-4bc9-8380-7ab531c6d519"
       }
     ]
   },
@@ -131,21 +162,15 @@
     "$values": [
       {
         "$type": "Bespoke.Sph.Domain.Sort, domain.sph",
-        "Path": "SeksyenSoalan",
+        "Path": "Bahagian",
         "Direction": "Asc",
-        "WebId": "f182cb19-0957-4d3c-e732-899b7f3c95e9"
-      },
-      {
-        "$type": "Bespoke.Sph.Domain.Sort, domain.sph",
-        "Path": "Trait",
-        "Direction": "Asc",
-        "WebId": "4c410c1d-c967-4cf6-c543-880b3944662a"
+        "WebId": "783cce93-a670-4a1c-e93f-39bfc7159360"
       },
       {
         "$type": "Bespoke.Sph.Domain.Sort, domain.sph",
         "Path": "Susunan",
         "Direction": "Asc",
-        "WebId": "b618a460-e46e-4665-9cf8-c1e037bef1ed"
+        "WebId": "1c8f5638-f12d-43b8-d8f0-ccf83c4d7ab5"
       }
     ]
   },
@@ -164,25 +189,25 @@
     "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.Sph.Domain.RouteParameter, domain.sph]], domain.sph",
     "$values": []
   },
-  "IconClass": "",
+  "IconClass": "glyphicon glyphicon-bold",
   "IconStoreId": "da2bbf75-b540-4c79-87c8-5bfccc427254",
   "EntityDefinitionId": "soalan",
-  "Name": "Inventori Sahsiah Pelajar",
-  "Route": "soalan-inventori-sahsiah-pelajar",
+  "Name": "Ujian Khas Biasiswa Persekutuan B",
+  "Route": "soalan-ujian-khas-biasiswa-persekutuan-b",
   "Note": "",
   "Query": "",
   "IsPublished": true,
   "Visibilty": "",
-  "TileColour": "borange",
+  "TileColour": "blightblue",
   "CountMessage": "",
   "Entity": "",
-  "Partial": "partial/soalan-inventori-sahsiah-pelajar",
+  "Partial": null,
   "Template": null,
   "DisplayOnDashboard": true,
   "CreatedBy": "admin",
-  "Id": "soalan-inventori-sahsiah-pelajar",
+  "Id": "soalan-soalan-ujian-khas-biasiswa-persekutuan-b",
   "CreatedDate": "2015-06-22T11:34:46.1285512+08:00",
   "ChangedBy": "admin",
-  "ChangedDate": "2015-08-17T09:27:02.4190889+08:00",
+  "ChangedDate": "2015-08-17T08:23:39.5437593+08:00",
   "WebId": "38e6ae7a-002d-4780-d67c-faea94d5b459"
 }

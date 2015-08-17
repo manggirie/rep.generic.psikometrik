@@ -9,7 +9,7 @@
 /// <reference path="../../Scripts/bootstrap.js" />
 
 
-define(["services/datacontext", "services/logger", "plugins/router", "services/chart", objectbuilders.config, "partial/soalan-indeks-bimbingan-kerjaya"],
+define(["services/datacontext", "services/logger", "plugins/router", "services/chart", objectbuilders.config, "partial/soalan-ujian-khas-biasiswa-persekutuan"],
 
 function(context, logger, router, chart, config, partial) {
 
@@ -33,7 +33,11 @@ function(context, logger, router, chart, config, partial) {
                             "bool": {
                                 "must": [{
                                     "term": {
-                                        "NamaUjian": "IBK"
+                                        "NamaUjian": "Ujian Khas Biasiswa Persekutuan(UKBP)"
+                                    }
+                                }, {
+                                    "term": {
+                                        "Bahagian": "A"
                                     }
                                 }
 
@@ -46,11 +50,11 @@ function(context, logger, router, chart, config, partial) {
                     }
                 },
                 "sort": [{
-                    "Susunan": {
+                    "Bahagian": {
                         "order": "asc"
                     }
                 }, {
-                    "SoalanNo": {
+                    "Susunan": {
                         "order": "asc"
                     }
                 }]
@@ -156,7 +160,7 @@ function(context, logger, router, chart, config, partial) {
             });
         },
         attached = function(view) {
-            chart.init("Soalan", query, chartSeriesClick, "indeks-bimbingan-kerjaya");
+            chart.init("Soalan", query, chartSeriesClick, "soalan-ujian-khas-biasiswa-persekutuan");
 
             if (typeof partial !== "undefined" && typeof partial.attached === "function") {
                 partial.attached(view);

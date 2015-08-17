@@ -10,8 +10,8 @@
         "Field": {
           "$type": "Bespoke.Sph.Domain.ConstantField, domain.sph",
           "TypeName": "System.String, mscorlib",
-          "Value": "Profil Personaliti & Kerjaya Pegawai(PPKP)",
-          "Name": "Profil Personaliti & Kerjaya Pegawai(PPKP)",
+          "Value": "PPKP",
+          "Name": "PPKP",
           "Note": "",
           "WebId": "7b795348-479f-44a4-ed7f-38857a21c53d"
         },

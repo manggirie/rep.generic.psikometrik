@@ -10,8 +10,8 @@
         "Field": {
           "$type": "Bespoke.Sph.Domain.ConstantField, domain.sph",
           "TypeName": "System.String, mscorlib",
-          "Value": "Indeks Personaliti (IP)",
-          "Name": "Indeks Personaliti (IP)",
+          "Value": "IP",
+          "Name": "IP",
           "Note": "",
           "WebId": "7b795348-479f-44a4-ed7f-38857a21c53d"
         },
