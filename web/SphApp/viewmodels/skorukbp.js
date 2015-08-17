@@ -1,41 +1,61 @@
-/// <reference path="/Scripts/jquery-2.1.1.intellisense.js" />
-/// <reference path="/Scripts/knockout-3.2.0.debug.js" />
-/// <reference path="/Scripts/knockout.mapping-latest.debug.js" />
-/// <reference path="/Scripts/require.js" />
-/// <reference path="/Scripts/underscore.js" />
-/// <reference path="/Scripts/moment.js" />
+/// <reference path="Scripts/jquery-2.1.1.intellisense.js" />
+/// <reference path="Scripts/knockout-3.2.0.debug.js" />
+/// <reference path="Scripts/knockout.mapping-latest.debug.js" />
+/// <reference path="Scripts/require.js" />
+/// <reference path="Scripts/underscore.js" />
+/// <reference path="Scripts/moment.js" />
 /// <reference path="../services/datacontext.js" />
 /// <reference path="../schemas/trigger.workflow.g.js" />
 /// <reference path="../../Scripts/bootstrap.js" />
 
 
-define(['services/datacontext', 'services/logger', 'plugins/router'],
+define(["services/datacontext", "services/logger", "plugins/router", "services/chart", objectbuilders.config],
 
-function(context, logger, router) {
+function(context, logger, router, chart, config) {
 
     var isBusy = ko.observable(false),
-        id = ko.observable([]),
-        tools = ko.observableArray([]),
-        reports = ko.observableArray([]),
-        recentItems = ko.observableArray([]),
-        charts = ko.observableArray([]),
-        views = ko.observableArray([]),
+        chartFiltered = ko.observable(false),
+        view = ko.observable(),
+        list = ko.observableArray([]),
+        map = function(v) {
+            if (typeof partial !== "undefined" && typeof partial.map === "function") {
+                return partial.map(v);
+            }
+            return v;
+        },
         entity = ko.observable(new bespoke.sph.domain.EntityDefinition()),
+        query = ko.observable(),
         activate = function() {
-            var query = String.format("Name eq '{0}'", 'SkorUkbp'),
+            query({
+                "query": {
+                    "filtered": {
+                        "filter": {
+                            "bool": {
+                                "must": [
+
+                                ],
+                                "must_not": [
+
+                                ]
+                            }
+                        }
+                    }
+                },
+                "sort": []
+            });
+            var edQuery = String.format("Name eq '{0}'", 'SkorUkbp'),
                 tcs = new $.Deferred(),
-                chartsQuery = String.format("Entity eq 'SkorUkbp' and IsDashboardItem eq 1"),
                 formsQuery = String.format("EntityDefinitionId eq 'skorukbp' and IsPublished eq 1 and IsAllowedNewItem eq 1"),
-                edTask = context.loadOneAsync("EntityDefinition", query),
-                chartsTask = context.loadAsync("EntityChart", chartsQuery),
+                viewQuery = String.format("EntityDefinitionId eq 'skorukbp'"),
+                edTask = context.loadOneAsync("EntityDefinition", edQuery),
                 formsTask = context.loadAsync("EntityForm", formsQuery),
-                reportTask = context.loadAsync("ReportDefinition", "[DataSource.EntityName] eq 'SkorUkbp'"),
-                viewsTask = $.get("/Sph/EntityView/Dashboard/SkorUkbp");
+                viewTask = context.loadOneAsync("EntityView", viewQuery);
 
 
-            $.when(edTask, formsTask, viewsTask, reportTask, chartsTask)
-                .done(function(b, formsLo, viewsLo, reportsLo, chartsLo) {
+            $.when(edTask, viewTask, formsTask)
+                .done(function(b, vw, formsLo) {
                 entity(b);
+                view(vw);
                 var formsCommands = _(formsLo.itemCollection).map(function(v) {
                     return {
                         caption: v.Name(),
@@ -46,104 +66,101 @@ function(context, logger, router) {
                         icon: v.IconClass()
                     };
                 });
-                charts(chartsLo.itemCollection);
-                reports(reportsLo.itemCollection);
-
-                var vj = _(JSON.parse(viewsLo[0])).map(function(v) {
-                    return context.toObservable(v);
-                });
-                views(vj);
-
-                // get counts
-                _(views()).each(function(v) {
-                    v.CountMessage("....");
-                    var tm = setInterval(function() {
-                        v.CountMessage(v.CountMessage() == "...." ? "..." : "....");
-                    }, 250);
-                    $.get("/Sph/EntityView/Count/" + v.Id())
-                        .done(function(c) {
-                        clearInterval(tm);
-                        v.CountMessage(c.hits.total);
-                    });
-                });
-
                 vm.toolbar.commands(formsCommands);
+
                 tcs.resolve(true);
+
             });
 
-            // TODO : get views
 
-            // TODO: get recent items
-
-            //TODO : reports
-
-            // TODO : tools
-            //http://i.imgur.com/OZ6mSFq.png
 
             return tcs.promise();
         },
-        attached = function(view) {
-            $(view).on('click', 'a.unpin-chart', function(e) {
-                e.preventDefault();
-                var chart = ko.dataFor(this),
-                    link = $(this);
-                if (!chart) {
-                    return;
+        chartSeriesClick = function(e) {
+
+            isBusy(true);
+            var q = ko.mapping.toJS(query),
+                cat = {
+                    "term": {}
+                },
+                histogram = {
+                    "range": {}
+                },
+                date_histogram = {
+                    "range": {}
+                };
+
+            if (e.aggregate === "histogram") {
+                histogram.range[e.field] = {
+                    "gte": parseFloat(e.category),
+                    "lt": (parseFloat(e.category) + e.query.aggs.category.histogram.interval)
+                };
+
+                q.query.filtered.filter.bool.must.push(histogram);
+            }
+            if (e.aggregate === "date_histogram") {
+                logger.error('Filtering by date range is not supported just yet');
+                isBusy(false);
+                return;
+                date_histogram.range[e.field] = {
+                    "gte": parseFloat(e.category),
+                    "lt": (parseFloat(e.category) + e.query.aggs.category.date_histogram.interval)
+                };
+
+                q.query.filtered.filter.bool.must.push(date_histogram);
+            }
+            if (e.aggregate === "term") {
+                if (e.category === "<Empty>") {
+                    var missing = {
+                        "missing": {
+                            "field": e.field
+                        }
+                    };
+                    q.query.filtered.filter.bool.must.push(missing);
+                } else {
+                    cat.term[e.field] = e.category;
+                    q.query.filtered.filter.bool.must.push(cat);
                 }
-                if (typeof chart.unpin === "function") {
-                    link.prop('disabled', true);
-                    chart.unpin().done(function() {
-                        charts.remove(chart);
-                    });
-                }
+            }
+
+
+
+            context.searchAsync("SkorUkbp", q)
+                .done(function(lo) {
+                list(lo.itemCollection);
+                chartFiltered(true);
+                setTimeout(function() {
+                    isBusy(false);
+                }, 500);
             });
         },
-        addForm = function() {
-
+        attached = function(view) {
+            chart.init("SkorUkbp", query, chartSeriesClick, "skorukbp-skorukbp");
         },
-        addView = function() {
-
-        },
-        recentItemsQuery = {
-            "sort": [{
-                "ChangedDate": {
-                    "order": "desc"
-                }
-            }]
-        },
-        getMetronicColor = function(color) {
-            switch (ko.unwrap(color)) {
-                case "borange":
-                    return "yellow-gold";
-                case "bviolet":
-                    return "purple";
-                case "blightblue":
-                    return "blue";
-                case "bblue":
-                    return "blue-madison";
-                case "bred":
-                    return "red";
-                case "bgreen":
-                    return "green-meadow";
-
+        clearChartFilter = function() {
+            chartFiltered(false);
+            var link = $('div.k-pager-wrap a.k-link').not('a.k-state-disabled').first();
+            link.trigger('click');
+            if (link.text() === "2") {
+                setTimeout(function() {
+                    $('div.k-pager-wrap a.k-link').not('a.k-state-disabled').first().trigger('click');
+                }, 500);
             }
-            return "blue-madison";
         };
 
     var vm = {
+        config: config,
+        view: view,
+        chart: chart,
         isBusy: isBusy,
-        getMetronicColor: getMetronicColor,
-        views: views,
-        charts: charts,
+        map: map,
         entity: entity,
         activate: activate,
         attached: attached,
-        reports: reports,
-        tools: tools,
-        recentItems: recentItems,
-        addForm: addForm,
-        addView: addView,
-        recentItemsQuery: recentItemsQuery,
+        list: list,
+        clearChartFilter: clearChartFilter,
+        chartFiltered: chartFiltered,
+        query: query,
         toolbar: {
             commands: ko.observableArray([])
         }

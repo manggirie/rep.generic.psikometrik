@@ -16,81 +16,13 @@
         "Path": "No",
         "Header": "No",
         "Sort": "",
-        "IsLinkColumn": true,
-        "FormRoute": "skorukbp-details",
-        "IconCssClass": "",
-        "IconStoreId": "",
-        "Format": "text:{0}",
-        "RouteValueField": "",
-        "WebId": "99e7a3a3-9d7a-4a90-9a76-681c00ae9c2d"
-      },
-      {
-        "$type": "Bespoke.Sph.Domain.ViewColumn, domain.sph",
-        "ConditionalFormattingCollection": {
-          "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.Sph.Domain.ConditionalFormatting, domain.sph]], domain.sph",
-          "$values": []
-        },
-        "Path": "Tret",
-        "Header": "Tret",
-        "Sort": "",
         "IsLinkColumn": false,
         "FormRoute": null,
         "IconCssClass": "",
         "IconStoreId": "",
         "Format": "text:{0}",
         "RouteValueField": "",
-        "WebId": "2aaafbdb-711c-4a26-e16f-c13bc525eb8d"
-      },
-      {
-        "$type": "Bespoke.Sph.Domain.ViewColumn, domain.sph",
-        "ConditionalFormattingCollection": {
-          "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.Sph.Domain.ConditionalFormatting, domain.sph]], domain.sph",
-          "$values": []
-        },
-        "Path": "NilaiMax",
-        "Header": "Nilai Max",
-        "Sort": "",
-        "IsLinkColumn": false,
-        "FormRoute": null,
-        "IconCssClass": "",
-        "IconStoreId": "",
-        "Format": "text:{0}",
-        "RouteValueField": "",
-        "WebId": "d25c5357-d7ee-470a-d9d8-a728e5a5dd8f"
-      },
-      {
-        "$type": "Bespoke.Sph.Domain.ViewColumn, domain.sph",
-        "ConditionalFormattingCollection": {
-          "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.Sph.Domain.ConditionalFormatting, domain.sph]], domain.sph",
-          "$values": []
-        },
-        "Path": "NilaiMin",
-        "Header": "Nilai Min",
-        "Sort": "",
-        "IsLinkColumn": false,
-        "FormRoute": null,
-        "IconCssClass": "",
-        "IconStoreId": "",
-        "Format": "text:{0}",
-        "RouteValueField": "",
-        "WebId": "74ed78a4-b04b-413c-b6b9-d5a0c14e09d6"
-      },
-      {
-        "$type": "Bespoke.Sph.Domain.ViewColumn, domain.sph",
-        "ConditionalFormattingCollection": {
-          "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.Sph.Domain.ConditionalFormatting, domain.sph]], domain.sph",
-          "$values": []
-        },
-        "Path": "Jantina",
-        "Header": "Jantina",
-        "Sort": "",
-        "IsLinkColumn": false,
-        "FormRoute": null,
-        "IconCssClass": "",
-        "IconStoreId": "",
-        "Format": "text:{0}",
-        "RouteValueField": "",
-        "WebId": "58662ce6-a3e0-4674-ff0c-0399080aed9a"
+        "WebId": "bf581790-b3cc-4542-fa5f-0dfb12064ce6"
       },
       {
         "$type": "Bespoke.Sph.Domain.ViewColumn, domain.sph",
@@ -107,7 +39,41 @@
         "IconStoreId": "",
         "Format": "text:{0}",
         "RouteValueField": "",
-        "WebId": "dc80dc1d-37bb-4d2a-94a2-08f7dce75593"
+        "WebId": "a359f3d8-8eba-4643-988d-9d937c6961af"
+      },
+      {
+        "$type": "Bespoke.Sph.Domain.ViewColumn, domain.sph",
+        "ConditionalFormattingCollection": {
+          "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.Sph.Domain.ConditionalFormatting, domain.sph]], domain.sph",
+          "$values": []
+        },
+        "Path": "Percentile",
+        "Header": "Percentile",
+        "Sort": "",
+        "IsLinkColumn": false,
+        "FormRoute": null,
+        "IconCssClass": "",
+        "IconStoreId": "",
+        "Format": "text:{0}",
+        "RouteValueField": "",
+        "WebId": "77a9f87f-9255-43ce-e02f-b6f560b5cd43"
+      },
+      {
+        "$type": "Bespoke.Sph.Domain.ViewColumn, domain.sph",
+        "ConditionalFormattingCollection": {
+          "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.Sph.Domain.ConditionalFormatting, domain.sph]], domain.sph",
+          "$values": []
+        },
+        "Path": "Jantina",
+        "Header": "Jantina",
+        "Sort": "",
+        "IsLinkColumn": false,
+        "FormRoute": null,
+        "IconCssClass": "",
+        "IconStoreId": "",
+        "Format": "text:{0}",
+        "RouteValueField": "",
+        "WebId": "15aad53a-ffb9-49ea-cd80-3d3cc127025a"
       }
     ]
   },
@@ -122,33 +88,33 @@
   "Performer": {
     "$type": "Bespoke.Sph.Domain.Performer, domain.sph",
     "UserProperty": "",
-    "Value": null,
-    "IsPublic": true,
+    "Value": "",
+    "IsPublic": false,
     "WebId": null
   },
   "RouteParameterCollection": {
     "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.Sph.Domain.RouteParameter, domain.sph]], domain.sph",
     "$values": []
   },
-  "IconClass": null,
-  "IconStoreId": null,
+  "IconClass": "",
+  "IconStoreId": "sph-img-list",
   "EntityDefinitionId": "skorukbp",
-  "Name": "All SkorUkbp",
-  "Route": "skorukbp-all",
-  "Note": null,
-  "Query": null,
-  "IsPublished": true,
-  "Visibilty": null,
+  "Name": "",
+  "Route": "",
+  "Note": "",
+  "Query": "",
+  "IsPublished": false,
+  "Visibilty": "",
   "TileColour": "bblue",
-  "CountMessage": null,
-  "Entity": "SkorUkbp",
-  "Partial": "partial/skorukbp-all",
-  "Template": "Dashboard Standard",
-  "DisplayOnDashboard": true,
+  "CountMessage": "",
+  "Entity": "",
+  "Partial": "",
+  "Template": null,
+  "DisplayOnDashboard": false,
   "CreatedBy": "admin",
-  "Id": "6db788b4-53b3-4f09-bf44-e93792572ba0",
-  "CreatedDate": "2015-08-17T09:17:16.7125306+08:00",
+  "Id": "skorukbp-",
+  "CreatedDate": "2015-08-17T11:02:28.2849552+08:00",
   "ChangedBy": "admin",
-  "ChangedDate": "2015-08-17T10:43:03.3966908+08:00",
-  "WebId": "a7335cf0-8ede-4523-84bf-3945c1bd8aa6"
+  "ChangedDate": "2015-08-17T11:02:28.2849552+08:00",
+  "WebId": "13e3cdae-7979-4dd1-ca5a-da61934a024d"
 }
