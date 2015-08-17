@@ -76,7 +76,7 @@ define(["services/datacontext", objectbuilders.app, objectbuilders.config, objec
                 })
                 .then(function (b) {
                     ujian(b);
-                    var $q = String.format("NamaUjian eq '{0}'", ko.unwrap(ujian().NamaUjian));
+                    var $q = String.format("NamaUjian eq '{0}'", ko.unwrap(ujian().Id));
                     $f = encodeURIComponent($q);
                     return context.loadAsync(soalanOption, $f);
                 })
