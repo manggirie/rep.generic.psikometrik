@@ -176,7 +176,7 @@
     "$type": "Bespoke.Sph.Domain.Performer, domain.sph",
     "UserProperty": "Roles",
     "Value": "PengurusanSoalan",
-    "IsPublic": false,
+    "IsPublic": true,
     "WebId": null
   },
   "Name": "SkorUkbp",
@@ -187,13 +187,13 @@
   "IsPublished": true,
   "IsShowOnNavigationBar": true,
   "TreatDataAsSource": true,
-  "DashboardTemplate": null,
+  "DashboardTemplate": "Dashboard Standard",
   "StoreInDatabase": null,
   "StoreInElasticsearch": null,
   "CreatedBy": "admin",
   "Id": "skorukbp",
   "CreatedDate": "2015-07-08T10:02:32.6648516+08:00",
   "ChangedBy": "admin",
-  "ChangedDate": "2015-08-17T10:03:27.8206918+08:00",
+  "ChangedDate": "2015-08-17T10:38:35.3778916+08:00",
   "WebId": "35791a4e-5c92-473a-b5a4-cbfde0e6adb3"
 }

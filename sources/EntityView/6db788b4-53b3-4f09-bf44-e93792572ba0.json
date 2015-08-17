@@ -6,7 +6,110 @@
   },
   "ViewColumnCollection": {
     "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.Sph.Domain.ViewColumn, domain.sph]], domain.sph",
-    "$values": []
+    "$values": [
+      {
+        "$type": "Bespoke.Sph.Domain.ViewColumn, domain.sph",
+        "ConditionalFormattingCollection": {
+          "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.Sph.Domain.ConditionalFormatting, domain.sph]], domain.sph",
+          "$values": []
+        },
+        "Path": "No",
+        "Header": "No",
+        "Sort": "",
+        "IsLinkColumn": true,
+        "FormRoute": "skorukbp-details",
+        "IconCssClass": "",
+        "IconStoreId": "",
+        "Format": "text:{0}",
+        "RouteValueField": "",
+        "WebId": "99e7a3a3-9d7a-4a90-9a76-681c00ae9c2d"
+      },
+      {
+        "$type": "Bespoke.Sph.Domain.ViewColumn, domain.sph",
+        "ConditionalFormattingCollection": {
+          "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.Sph.Domain.ConditionalFormatting, domain.sph]], domain.sph",
+          "$values": []
+        },
+        "Path": "Tret",
+        "Header": "Tret",
+        "Sort": "",
+        "IsLinkColumn": false,
+        "FormRoute": null,
+        "IconCssClass": "",
+        "IconStoreId": "",
+        "Format": "text:{0}",
+        "RouteValueField": "",
+        "WebId": "2aaafbdb-711c-4a26-e16f-c13bc525eb8d"
+      },
+      {
+        "$type": "Bespoke.Sph.Domain.ViewColumn, domain.sph",
+        "ConditionalFormattingCollection": {
+          "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.Sph.Domain.ConditionalFormatting, domain.sph]], domain.sph",
+          "$values": []
+        },
+        "Path": "NilaiMax",
+        "Header": "Nilai Max",
+        "Sort": "",
+        "IsLinkColumn": false,
+        "FormRoute": null,
+        "IconCssClass": "",
+        "IconStoreId": "",
+        "Format": "text:{0}",
+        "RouteValueField": "",
+        "WebId": "d25c5357-d7ee-470a-d9d8-a728e5a5dd8f"
+      },
+      {
+        "$type": "Bespoke.Sph.Domain.ViewColumn, domain.sph",
+        "ConditionalFormattingCollection": {
+          "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.Sph.Domain.ConditionalFormatting, domain.sph]], domain.sph",
+          "$values": []
+        },
+        "Path": "NilaiMin",
+        "Header": "Nilai Min",
+        "Sort": "",
+        "IsLinkColumn": false,
+        "FormRoute": null,
+        "IconCssClass": "",
+        "IconStoreId": "",
+        "Format": "text:{0}",
+        "RouteValueField": "",
+        "WebId": "74ed78a4-b04b-413c-b6b9-d5a0c14e09d6"
+      },
+      {
+        "$type": "Bespoke.Sph.Domain.ViewColumn, domain.sph",
+        "ConditionalFormattingCollection": {
+          "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.Sph.Domain.ConditionalFormatting, domain.sph]], domain.sph",
+          "$values": []
+        },
+        "Path": "Jantina",
+        "Header": "Jantina",
+        "Sort": "",
+        "IsLinkColumn": false,
+        "FormRoute": null,
+        "IconCssClass": "",
+        "IconStoreId": "",
+        "Format": "text:{0}",
+        "RouteValueField": "",
+        "WebId": "58662ce6-a3e0-4674-ff0c-0399080aed9a"
+      },
+      {
+        "$type": "Bespoke.Sph.Domain.ViewColumn, domain.sph",
+        "ConditionalFormattingCollection": {
+          "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.Sph.Domain.ConditionalFormatting, domain.sph]], domain.sph",
+          "$values": []
+        },
+        "Path": "Skor",
+        "Header": "Skor",
+        "Sort": "",
+        "IsLinkColumn": false,
+        "FormRoute": null,
+        "IconCssClass": "",
+        "IconStoreId": "",
+        "Format": "text:{0}",
+        "RouteValueField": "",
+        "WebId": "dc80dc1d-37bb-4d2a-94a2-08f7dce75593"
+      }
+    ]
   },
   "SortCollection": {
     "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.Sph.Domain.Sort, domain.sph]], domain.sph",
@@ -18,9 +121,9 @@
   },
   "Performer": {
     "$type": "Bespoke.Sph.Domain.Performer, domain.sph",
-    "UserProperty": null,
+    "UserProperty": "",
     "Value": null,
-    "IsPublic": false,
+    "IsPublic": true,
     "WebId": null
   },
   "RouteParameterCollection": {
@@ -34,18 +137,18 @@
   "Route": "skorukbp-all",
   "Note": null,
   "Query": null,
-  "IsPublished": false,
+  "IsPublished": true,
   "Visibilty": null,
-  "TileColour": null,
+  "TileColour": "bblue",
   "CountMessage": null,
   "Entity": "SkorUkbp",
-  "Partial": null,
-  "Template": null,
-  "DisplayOnDashboard": false,
+  "Partial": "partial/skorukbp-all",
+  "Template": "Dashboard Standard",
+  "DisplayOnDashboard": true,
   "CreatedBy": "admin",
   "Id": "6db788b4-53b3-4f09-bf44-e93792572ba0",
   "CreatedDate": "2015-08-17T09:17:16.7125306+08:00",
   "ChangedBy": "admin",
-  "ChangedDate": "2015-08-17T09:17:16.7125306+08:00",
+  "ChangedDate": "2015-08-17T10:43:03.3966908+08:00",
   "WebId": "a7335cf0-8ede-4523-84bf-3945c1bd8aa6"
 }
