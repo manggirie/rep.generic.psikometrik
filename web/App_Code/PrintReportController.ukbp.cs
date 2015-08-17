@@ -9,6 +9,20 @@ using Bespoke.epsikologi_ujian.Domain;
 
 namespace web.sph.App_Code
 {
+    public enum Shades
+    {
+        VeryDark,
+        Dark,
+        Light,
+        VeryLight
+    }
+    public class Td
+    {
+        public int Value { get; set; }
+        public Shades Shade { get; set; }
+        public string Tret { get; set; }
+        public string Image => $"{this.Shade}-{this.Value}";
+    }
     public partial class PrintReportController
     {
 
@@ -16,7 +30,7 @@ namespace web.sph.App_Code
         public async Task<ActionResult> IndikatorUkbp(string id)
         {
             var context = new SphDataContext();
-           
+
             var sesi = await context.LoadOneAsync<SesiUjian>(x => x.Id == id);
             var user = await context.LoadOneAsync<Pengguna>(x => x.MyKad == sesi.MyKad);
 
@@ -35,7 +49,7 @@ namespace web.sph.App_Code
             if (sesi.NamaUjian == "UKBP-A")
             {
                 sesiA = sesi;
-                sesiB = await context.LoadOneAsync<SesiUjian>(x => x.NamaUjian == "UKBP-B" && x.NamaProgram == sesi.NamaProgram &&  x.MyKad == sesi.MyKad);
+                sesiB = await context.LoadOneAsync<SesiUjian>(x => x.NamaUjian == "UKBP-B" && x.NamaProgram == sesi.NamaProgram && x.MyKad == sesi.MyKad);
             }
             else
             {
@@ -50,14 +64,14 @@ namespace web.sph.App_Code
                 Pengguna = user
             };
 
-           
+
 
 
             return View("Indikator-UKBP", vm);
 
         }
 
-        
+
 
 
     }

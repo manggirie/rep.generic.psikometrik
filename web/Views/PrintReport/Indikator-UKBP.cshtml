@@ -1,3 +1,4 @@
+@using web.sph.App_Code
 @model web.sph.App_Code.UkbpTraitViewModel
 @{
     Layout = "_MasterPage.cshtml";
@@ -32,11 +33,16 @@
     <tr>
         <td>1</td>
         <td>Kebolehpercayaan</td>
-        @for (int i = 1; i <= 15; i++)
+        
+        @for (var i = 1; i <= 15; i++)
         {
-
+            var td = Model.TdCollection.SingleOrDefault(x => x.Tret == UkbpTraitViewModel.KEBOLEHPERCAYAAN && x.Value == i);
+            if (null == td)
+            {
+                throw new Exception($"Cannot find {i}");
+            }
             <td>
-                <img alt="@i" src="/images/ukbp/kby-@(i).png" />
+                <img alt="@i" src="/images/ukbp/@(td.Image).png" id="kby-@i"/>
             </td>
         }
         <td colspan="5"></td>
@@ -44,11 +50,12 @@
     <tr>
         <td>2</td>
         <td>Nasionalisme</td>
-        @for (int i = 1; i <= 20; i++)
+        @for (var i = 1; i <= 20; i++)
         {
+            var td = Model.TdCollection.Single(x => x.Tret == UkbpTraitViewModel.NASIONALISME && x.Value == i);
 
             <td>
-                <img alt="@i" src="/images/ukbp/nas-@(i).png" />
+                <img alt="@i" src="/images/ukbp/@(td.Image).png"  id="nas-@i"/>
             </td>
         }
     </tr>
@@ -60,44 +67,49 @@
     <tr>
         <td></td>
         <td>(a) Ketenangan</td>
-        @for (int i = 5; i <= 100; i += 5)
+        @for (var i = 5; i <= 100; i += 5)
         {
+            var td = Model.TdCollection.Single(x => x.Tret == UkbpTraitViewModel.KETENANGAN && x.Value == i);
 
             <td>
-                <img alt="@i" src="/images/ukbp/Ketenangan-@(i).png" />
+                <img alt="@i" src="/images/ukbp/@(td.Image).png"  id="ktg-@i"/>
             </td>
         }
     </tr>
     <tr>
         <td></td>
         <td>(b) Keceriaan</td>
-        @for (int i = 5; i <= 100; i += 5)
+        @for (var i = 5; i <= 100; i += 5)
         {
+            var td = Model.TdCollection.Single(x => x.Tret == UkbpTraitViewModel.KECERIAAN && x.Value == i);
+
 
             <td>
-                <img alt="@i" src="/images/ukbp/Keceriaan-@(i).png" />
+                <img alt="@i" src="/images/ukbp/@(td.Image).png"  id="kcn-@i"/>
             </td>
         }
     </tr>
     <tr>
         <td></td>
         <td>(c) Luahan Perasaan</td>
-        @for (int i = 5; i <= 100; i += 5)
+        @for (var i = 5; i <= 100; i += 5)
         {
+            var td = Model.TdCollection.Single(x => x.Tret == UkbpTraitViewModel.LUAHAN_PERASAAN && x.Value == i);
 
             <td>
-                <img alt="@i" src="/images/ukbp/Luahan-Perasaan-@(i).png" />
+                <img alt="@i" src="/images/ukbp/@(td.Image).png"  id="lpn-@i"/>
             </td>
         }
     </tr>
     <tr>
         <td></td>
         <td>(d) Bersimpati</td>
-        @for (int i = 5; i <= 100; i += 5)
+        @for (var i = 5; i <= 100; i += 5)
         {
+            var td = Model.TdCollection.Single(x => x.Tret == UkbpTraitViewModel.BERSIMPATI && x.Value == i);
 
             <td>
-                <img alt="@i" src="/images/ukbp/Bersimpati-@(i).png" />
+                <img alt="@i" src="/images/ukbp/@(td.Image).png"  id="sim-@i"/>
             </td>
         }
     </tr>
@@ -111,11 +123,12 @@
     <tr>
         <td></td>
         <td>(a) Berfikiran Rasional</td>
-        @for (int i = 5; i <= 100; i += 5)
+        @for (var i = 5; i <= 100; i += 5)
         {
 
+            var td = Model.TdCollection.Single(x => x.Tret == UkbpTraitViewModel.BERFIKIRAN_RASIONAL && x.Value == i);
             <td>
-                <img alt="@i" src="/images/ukbp/Berfikiran-Rasional-@(i).png" />
+                <img alt="@i" src="/images/ukbp/@(td.Image).png"  id="ras-@i"/>
             </td>
         }
     </tr>
@@ -129,33 +142,36 @@
     <tr>
         <td></td>
         <td>(a) Aktif Sosial</td>
-        @for (int i = 5; i <= 100; i += 5)
+        @for (var i = 5; i <= 100; i += 5)
         {
 
+            var td = Model.TdCollection.Single(x => x.Tret == UkbpTraitViewModel.AKTIF_SOSIAL && x.Value == i);
             <td>
-                <img alt="@i" src="/images/ukbp/Ketenangan-@(i).png" />
+                <img alt="@i" src="/images/ukbp/@(td.Image).png"  id="aks-@i"/>
             </td>
         }
     </tr>
     <tr>
         <td></td>
         <td>(b) Bersikap Asertif</td>
-        @for (int i = 5; i <= 100; i += 5)
+        @for (var i = 5; i <= 100; i += 5)
         {
 
+            var td = Model.TdCollection.Single(x => x.Tret == UkbpTraitViewModel.BERSIKAP_ASERTIF && x.Value == i);
             <td>
-                <img alt="@i" src="/images/ukbp/Ketenangan-@(i).png" />
+                <img alt="@i" src="/images/ukbp/@(td.Image).png"  id="asf-@i"/>
             </td>
         }
     </tr>
     <tr>
         <td></td>
         <td>(c) Bertoleransi</td>
-        @for (int i = 5; i <= 100; i += 5)
+        @for (var i = 5; i <= 100; i += 5)
         {
 
+            var td = Model.TdCollection.Single(x => x.Tret == UkbpTraitViewModel.BERTOLERANSI && x.Value == i);
             <td>
-                <img alt="@i" src="/images/ukbp/Ketenangan-@(i).png" />
+                <img alt="@i" src="/images/ukbp/@(td.Image).png"  id="tol-@i"/>
             </td>
         }
     </tr>
@@ -166,11 +182,12 @@
             (d) Penyimpangan
             Tingkah Laku
         </td>
-        @for (int i = 5; i <= 100; i += 5)
+        @for (var i = 5; i <= 100; i += 5)
         {
+            var td = Model.TdCollection.Single(x => x.Tret == UkbpTraitViewModel.PENYIMPANGAN_TINGKAH_LAKU && x.Value == i);
 
             <td>
-                <img alt="@i" src="/images/ukbp/Ketenangan-@(i).png" />
+                <img alt="@i" src="/images/ukbp/@(td.Image).png"  id="ptl-@i"/>
             </td>
         }
     </tr>

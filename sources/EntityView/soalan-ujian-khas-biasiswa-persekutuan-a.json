@@ -16,6 +16,20 @@
           "WebId": "7b795348-479f-44a4-ed7f-38857a21c53d"
         },
         "WebId": "7f2c2a2c-17ad-4ffa-ea79-e3569cf1256d"
+      },
+      {
+        "$type": "Bespoke.Sph.Domain.Filter, domain.sph",
+        "Term": "Bahagian",
+        "Operator": "Eq",
+        "Field": {
+          "$type": "Bespoke.Sph.Domain.ConstantField, domain.sph",
+          "TypeName": "System.String, mscorlib",
+          "Value": "A",
+          "Name": "A",
+          "Note": "",
+          "WebId": "da9b146b-7e8a-4779-f19b-f8eb29c8aa58"
+        },
+        "WebId": "d605230e-b34e-44c5-a747-7cd829474c3d"
       }
     ]
   },
@@ -175,7 +189,7 @@
     "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.Sph.Domain.RouteParameter, domain.sph]], domain.sph",
     "$values": []
   },
-  "IconClass": "fa fa-envelope",
+  "IconClass": "",
   "IconStoreId": "da2bbf75-b540-4c79-87c8-5bfccc427254",
   "EntityDefinitionId": "soalan",
   "Name": "Ujian Khas Biasiswa Persekutuan A",
@@ -184,7 +198,7 @@
   "Query": "",
   "IsPublished": true,
   "Visibilty": "",
-  "TileColour": "bred",
+  "TileColour": "bviolet",
   "CountMessage": "",
   "Entity": "",
   "Partial": null,
@@ -194,6 +208,6 @@
   "Id": "soalan-ujian-khas-biasiswa-persekutuan-a",
   "CreatedDate": "2015-06-22T11:34:46.1285512+08:00",
   "ChangedBy": "admin",
-  "ChangedDate": "2015-08-17T09:55:37.2875191+08:00",
+  "ChangedDate": "2015-08-17T09:29:37.3409146+08:00",
   "WebId": "38e6ae7a-002d-4780-d67c-faea94d5b459"
 }

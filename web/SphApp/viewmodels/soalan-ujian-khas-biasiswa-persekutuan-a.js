@@ -35,6 +35,10 @@ function(context, logger, router, chart, config) {
                                     "term": {
                                         "NamaUjian": "UKBP-A"
                                     }
+                                }, {
+                                    "term": {
+                                        "Bahagian": "A"
+                                    }
                                 }
 
                                 ],
