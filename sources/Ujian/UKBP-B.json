@@ -25,27 +25,12 @@
   },
   "BahagianCollection": {
     "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.epsikologi_ujian.Domain.Bahagian, epsikologi.Ujian]], domain.sph",
-    "$values": [
-      {
-        "$type": "Bespoke.epsikologi_ujian.Domain.Bahagian, epsikologi.Ujian",
-        "Name": "A",
-        "DurationHour": 1,
-        "DurationMinutes": 0,
-        "WebId": "592c1908-8af9-47fa-bfb5-5fa215039e7c"
-      },
-      {
-        "$type": "Bespoke.epsikologi_ujian.Domain.Bahagian, epsikologi.Ujian",
-        "Name": "B",
-        "DurationHour": null,
-        "DurationMinutes": null,
-        "WebId": "d84f5efd-4c77-4952-82d1-6f395fcf5a0a"
-      }
-    ]
+    "$values": []
   },
   "CreatedBy": "admin",
-  "Id": "UKBP",
+  "Id": "UKBP-B",
   "CreatedDate": "2015-06-05T10:32:22.1729948+08:00",
   "ChangedBy": "admin",
-  "ChangedDate": "2015-08-04T14:28:35.821887+08:00",
+  "ChangedDate": "2015-08-17T10:04:46.6736319+08:00",
   "WebId": "03ac5f1c-50dc-4802-c914-73b27c9dd619"
 }
