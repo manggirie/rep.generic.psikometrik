@@ -1,9 +1,9 @@
 {
   "$type": "Bespoke.epsikologi_ujian.Domain.Ujian, epsikologi.Ujian",
-  "UjianNo": "UKBP",
-  "NamaUjian": "Ujian Khas Biasiswa Persekutuan(UKBP)",
-  "DurationHour": null,
-  "DurationMinutes": null,
+  "UjianNo": "UKBP-A",
+  "NamaUjian": "Ujian Khas Biasiswa Persekutuan(UKBP) A",
+  "DurationHour": 0,
+  "DurationMinutes": 20,
   "SectionCollection": {
     "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.epsikologi_ujian.Domain.Section, epsikologi.Ujian]], domain.sph",
     "$values": [
