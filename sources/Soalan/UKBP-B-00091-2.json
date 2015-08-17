@@ -1,8 +1,8 @@
 {
   "$type": "Bespoke.epsikologi_soalan.Domain.Soalan, epsikologi.Soalan",
-  "NoRujukan": "UKBP-B-00093",
-  "SoalanNo": "UKBP-B-00093",
-  "TeksSoalan": "Bekerja secara berkesan dengan orang lain berbanding menggunakan idea atau peralatan.",
+  "NoRujukan": "UKBP-B-00091",
+  "SoalanNo": "UKBP-B-00091",
+  "TeksSoalan": "Menggunakan komputer bagi mengkaji permasalahan saintifik.",
   "SeksyenSoalan": "2",
   "PilihanJawapanCollection": {
     "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan]], domain.sph",
@@ -11,25 +11,25 @@
         "$type": "Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan",
         "Teks": "Ya",
         "Nilai": 1,
-        "WebId": "efa44830-1c1b-4ffc-86d3-783be2b4062e"
+        "WebId": "f154390b-eff5-41db-aa2c-ed8dc3226f10"
       },
       {
         "$type": "Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan",
         "Teks": "Tidak",
         "Nilai": 0,
-        "WebId": "66690f5d-2685-4f68-a67d-95b15c9d8db2"
+        "WebId": "1a1eb008-79d4-48fe-a875-bc62ac962440"
       }
     ]
   },
-  "Trait": "D2",
-  "NamaUjian": "Ujian Khas Biasiswa Persekutuan(UKBP)",
-  "Susunan": 190.1,
+  "Trait": "B2",
+  "NamaUjian": "UKBP-B",
+  "Susunan": 165.0,
   "Kategori": "2",
   "Bahagian": "B",
   "CreatedBy": "admin",
-  "Id": "ec664666-6597-4390-aae5-742fe7302147",
-  "CreatedDate": "2015-08-04T15:34:15.070072+08:00",
+  "Id": "UKBP-B-00091",
+  "CreatedDate": "2015-08-04T15:12:07.1079599+08:00",
   "ChangedBy": "admin",
-  "ChangedDate": "2015-08-11T15:40:29.4818864+08:00",
-  "WebId": "91ca5a36-2428-4ce6-e338-b03a76070a4b"
+  "ChangedDate": "2015-08-11T15:27:37.8600014+08:00",
+  "WebId": "f764f403-cd18-40d0-a0a7-ed1ba1680c18"
 }

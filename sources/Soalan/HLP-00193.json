@@ -22,9 +22,10 @@
     ]
   },
   "Trait": "TL",
-  "NamaUjian": "Ujian Khas Hadiah Latihan Persekutuan(HLP)",
+  "NamaUjian": "HLP",
   "Susunan": 193.0,
   "Kategori": "Bertoleransi",
+  "Bahagian": null,
   "CreatedBy": "admin",
   "Id": "HLP-00193",
   "CreatedDate": "2015-07-06T11:24:50.7005355+08:00",

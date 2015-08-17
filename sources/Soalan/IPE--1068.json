@@ -9,9 +9,10 @@
     "$values": []
   },
   "Trait": "NA",
-  "NamaUjian": "Indikator Personaliti Enneagram (IPE)",
+  "NamaUjian": "IPE",
   "Susunan": 1.0,
   "Kategori": null,
+  "Bahagian": null,
   "CreatedBy": "admin",
   "Id": "IPE--1068",
   "CreatedDate": "2015-07-06T11:24:48.5189957+08:00",

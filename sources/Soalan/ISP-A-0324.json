@@ -9,9 +9,10 @@
     "$values": []
   },
   "Trait": "NA",
-  "NamaUjian": "Inventori Sahsiah Pelajar (ISP)",
+  "NamaUjian": "ISP",
   "Susunan": 1.0,
   "Kategori": null,
+  "Bahagian": null,
   "CreatedBy": "admin",
   "Id": "ISP-A-0324",
   "CreatedDate": "2015-07-06T11:24:42.6778734+08:00",

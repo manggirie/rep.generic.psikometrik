@@ -1,8 +1,8 @@
 {
   "$type": "Bespoke.epsikologi_soalan.Domain.Soalan, epsikologi.Soalan",
-  "NoRujukan": "UKBP-B-00091",
-  "SoalanNo": "UKBP-B-00091",
-  "TeksSoalan": "Menggunakan komputer bagi mengkaji permasalahan saintifik.",
+  "NoRujukan": "UKBP-B-00088",
+  "SoalanNo": "UKBP-B-00088",
+  "TeksSoalan": "Melakukan tugas berkaitan pengiraan dalam perniagaan atau perakaunan.",
   "SeksyenSoalan": "2",
   "PilihanJawapanCollection": {
     "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan]], domain.sph",
@@ -11,25 +11,25 @@
         "$type": "Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan",
         "Teks": "Ya",
         "Nilai": 1,
-        "WebId": "f154390b-eff5-41db-aa2c-ed8dc3226f10"
+        "WebId": "20dd4367-f8c4-48cf-a368-99a861df7002"
       },
       {
         "$type": "Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan",
         "Teks": "Tidak",
         "Nilai": 0,
-        "WebId": "1a1eb008-79d4-48fe-a875-bc62ac962440"
+        "WebId": "5c831a2f-6ed7-48dd-9f09-542316dcc893"
       }
     ]
   },
-  "Trait": "B2",
-  "NamaUjian": "Ujian Khas Biasiswa Persekutuan(UKBP)",
-  "Susunan": 165.0,
-  "Kategori": "2",
+  "Trait": "F1",
+  "NamaUjian": "UKBP-B",
+  "Susunan": 142.0,
+  "Kategori": "1",
   "Bahagian": "B",
   "CreatedBy": "admin",
-  "Id": "eb7457ee-6c49-4ce5-977a-3c1d488ed0db",
-  "CreatedDate": "2015-08-04T15:12:07.1079599+08:00",
+  "Id": "fb7cb140-1d76-45fb-8e17-ee9d1f05cd38",
+  "CreatedDate": "2015-08-04T15:09:10.9550076+08:00",
   "ChangedBy": "admin",
-  "ChangedDate": "2015-08-11T15:27:37.8600014+08:00",
-  "WebId": "f764f403-cd18-40d0-a0a7-ed1ba1680c18"
+  "ChangedDate": "2015-08-11T14:55:57.4857121+08:00",
+  "WebId": "e5220784-90ab-4600-ff7f-8f4f7ebaa983"
 }

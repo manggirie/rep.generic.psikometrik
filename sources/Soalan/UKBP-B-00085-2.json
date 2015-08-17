@@ -1,8 +1,8 @@
 {
   "$type": "Bespoke.epsikologi_soalan.Domain.Soalan, epsikologi.Soalan",
-  "NoRujukan": "UKBP-B-00090",
-  "SoalanNo": "UKBP-B-00090",
-  "TeksSoalan": "Menggunakan peralatan pertukangan seperti gergaji.",
+  "NoRujukan": "UKBP-B-00085",
+  "SoalanNo": "UKBP-B-00085",
+  "TeksSoalan": "Bermain alat muzik untuk kumpulan muzik atau orkestra.",
   "SeksyenSoalan": "2",
   "PilihanJawapanCollection": {
     "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan]], domain.sph",
@@ -11,25 +11,25 @@
         "$type": "Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan",
         "Teks": "Ya",
         "Nilai": 1,
-        "WebId": "e88d38ea-d746-45ab-b1ed-56ca17d92ebe"
+        "WebId": "bcc01e3a-7457-4766-813e-47d63ad1d9c0"
       },
       {
         "$type": "Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan",
         "Teks": "Tidak",
         "Nilai": 0,
-        "WebId": "747fc812-6d18-403f-9624-4506deda8f53"
+        "WebId": "02400558-9601-424b-87ec-30ed2c25531a"
       }
     ]
   },
-  "Trait": "A2",
-  "NamaUjian": "Ujian Khas Biasiswa Persekutuan(UKBP)",
-  "Susunan": 151.0,
-  "Kategori": "2",
+  "Trait": "C1",
+  "NamaUjian": "UKBP-B",
+  "Susunan": 113.0,
+  "Kategori": "1",
   "Bahagian": "B",
   "CreatedBy": "admin",
-  "Id": "13d4630d-3844-40f3-ae3f-5867bd049aa2",
-  "CreatedDate": "2015-08-04T15:10:44.9204851+08:00",
+  "Id": "UKBP-B-00085",
+  "CreatedDate": "2015-08-04T15:04:46.5993628+08:00",
   "ChangedBy": "admin",
-  "ChangedDate": "2015-08-11T15:21:49.4567721+08:00",
-  "WebId": "f10874e8-bbee-4020-a9fa-ae6ec2209a86"
+  "ChangedDate": "2015-08-11T14:38:31.6881428+08:00",
+  "WebId": "1339f925-955a-452f-e6a5-819ed4e95a9b"
 }

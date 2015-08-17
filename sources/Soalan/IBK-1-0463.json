@@ -22,9 +22,10 @@
     ]
   },
   "Trait": "A1",
-  "NamaUjian": "Indeks Bimbingan Kerjaya (IBK)",
+  "NamaUjian": "IBK",
   "Susunan": 7.0,
   "Kategori": null,
+  "Bahagian": null,
   "CreatedBy": "admin",
   "Id": "IBK-1-0463",
   "CreatedDate": "2015-07-06T11:24:44.0513421+08:00",
