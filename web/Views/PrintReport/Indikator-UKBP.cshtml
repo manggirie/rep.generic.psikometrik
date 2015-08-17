@@ -2,6 +2,19 @@
 @model web.sph.App_Code.UkbpTraitViewModel
 @{
     Layout = "_MasterPage.cshtml";
+    var kby = Model.Sesi.JawapanCollection.Where(x => x.Trait == "KBY").Sum(x => x.Nilai);
+    var aks = Model.Sesi.JawapanCollection.Where(x => x.Trait == "AKS").Sum(x => x.Nilai) * 100 / 40;
+    var ktg = Model.Sesi.JawapanCollection.Where(x => x.Trait == "KTG").Sum(x => x.Nilai) * 100 / 40;
+    var ptl1 = Model.Sesi.JawapanCollection.Where(x => x.Trait == "PTL1").Sum(x => x.Nilai);
+    var ptl2 = Model.Sesi.JawapanCollection.Where(x => x.Trait == "PTL2").Sum(x => x.Nilai);
+    var ras = Model.Sesi.JawapanCollection.Where(x => x.Trait == "RAS").Sum(x => x.Nilai) * 100/40;
+    var tol = Model.Sesi.JawapanCollection.Where(x => x.Trait == "TOL").Sum(x => x.Nilai) * 100 / 40;
+    var kcn = Model.Sesi.JawapanCollection.Where(x => x.Trait == "KCN").Sum(x => x.Nilai) * 100 / 40;
+    var lpn = Model.Sesi.JawapanCollection.Where(x => x.Trait == "LPN").Sum(x => x.Nilai) * 100 / 40;
+    var nas = Model.Sesi.JawapanCollection.Where(x => x.Trait == "NAS").Sum(x => x.Nilai);
+    var asf = Model.Sesi.JawapanCollection.Where(x => x.Trait == "ASF").Sum(x => x.Nilai) * 100 / 40;
+    var sim = Model.Sesi.JawapanCollection.Where(x => x.Trait == "SIM").Sum(x => x.Nilai) * 100 / 40;
+    var ptl3 = Model.Sesi.JawapanCollection.Where(x => x.Trait == "PTL3").Sum(x => x.Nilai);
 }
 
 <strong>BAHAGIAN A: PERSONALITY</strong>
@@ -33,16 +46,17 @@
     <tr>
         <td>1</td>
         <td>Kebolehpercayaan</td>
-        
+
         @for (var i = 1; i <= 15; i++)
         {
             var td = Model.TdCollection.SingleOrDefault(x => x.Tret == UkbpTraitViewModel.KEBOLEHPERCAYAAN && x.Value == i);
+            var on = kby == i ? "-on" : "";
             if (null == td)
             {
                 throw new Exception($"Cannot find {i}");
             }
             <td>
-                <img alt="@i" src="/images/ukbp/@(td.Image).png" id="kby-@i"/>
+                <img alt="@i" src="/images/ukbp/@(td.Image)@(on).png" id="kby-@i" />
             </td>
         }
         <td colspan="5"></td>
@@ -53,9 +67,10 @@
         @for (var i = 1; i <= 20; i++)
         {
             var td = Model.TdCollection.Single(x => x.Tret == UkbpTraitViewModel.NASIONALISME && x.Value == i);
+            var on = nas == i ? "-on" : "";
 
             <td>
-                <img alt="@i" src="/images/ukbp/@(td.Image).png"  id="nas-@i"/>
+                <img alt="@i" src="/images/ukbp/@(td.Image)@(on).png" id="nas-@i" />
             </td>
         }
     </tr>
@@ -70,9 +85,10 @@
         @for (var i = 5; i <= 100; i += 5)
         {
             var td = Model.TdCollection.Single(x => x.Tret == UkbpTraitViewModel.KETENANGAN && x.Value == i);
+            var on = ktg == i ? "-on" : "";
 
             <td>
-                <img alt="@i" src="/images/ukbp/@(td.Image).png"  id="ktg-@i"/>
+                <img alt="@i" src="/images/ukbp/@(td.Image)@(on).png" id="ktg-@i" />
             </td>
         }
     </tr>
@@ -82,10 +98,10 @@
         @for (var i = 5; i <= 100; i += 5)
         {
             var td = Model.TdCollection.Single(x => x.Tret == UkbpTraitViewModel.KECERIAAN && x.Value == i);
-
+            var on = kcn == i ? "-on" : "";
 
             <td>
-                <img alt="@i" src="/images/ukbp/@(td.Image).png"  id="kcn-@i"/>
+                <img alt="@i" src="/images/ukbp/@(td.Image)@(on).png" id="kcn-@i" />
             </td>
         }
     </tr>
@@ -95,9 +111,10 @@
         @for (var i = 5; i <= 100; i += 5)
         {
             var td = Model.TdCollection.Single(x => x.Tret == UkbpTraitViewModel.LUAHAN_PERASAAN && x.Value == i);
+            var on = lpn == i ? "-on" : "";
 
             <td>
-                <img alt="@i" src="/images/ukbp/@(td.Image).png"  id="lpn-@i"/>
+                <img alt="@i" src="/images/ukbp/@(td.Image)@(on).png" id="lpn-@i" />
             </td>
         }
     </tr>
@@ -107,9 +124,10 @@
         @for (var i = 5; i <= 100; i += 5)
         {
             var td = Model.TdCollection.Single(x => x.Tret == UkbpTraitViewModel.BERSIMPATI && x.Value == i);
+            var on = sim == i ? "-on" : "";
 
             <td>
-                <img alt="@i" src="/images/ukbp/@(td.Image).png"  id="sim-@i"/>
+                <img alt="@i" src="/images/ukbp/@(td.Image)@(on).png" id="sim-@i" />
             </td>
         }
     </tr>
@@ -127,8 +145,9 @@
         {
 
             var td = Model.TdCollection.Single(x => x.Tret == UkbpTraitViewModel.BERFIKIRAN_RASIONAL && x.Value == i);
+            var on = ras == i ? "-on" : "";
             <td>
-                <img alt="@i" src="/images/ukbp/@(td.Image).png"  id="ras-@i"/>
+                <img alt="@i" src="/images/ukbp/@(td.Image)@(on).png" id="ras-@i" />
             </td>
         }
     </tr>
@@ -146,8 +165,9 @@
         {
 
             var td = Model.TdCollection.Single(x => x.Tret == UkbpTraitViewModel.AKTIF_SOSIAL && x.Value == i);
+            var on = aks == i ? "-on" : "";
             <td>
-                <img alt="@i" src="/images/ukbp/@(td.Image).png"  id="aks-@i"/>
+                <img alt="@i" src="/images/ukbp/@(td.Image)@(on).png" id="aks-@i" />
             </td>
         }
     </tr>
@@ -158,8 +178,9 @@
         {
 
             var td = Model.TdCollection.Single(x => x.Tret == UkbpTraitViewModel.BERSIKAP_ASERTIF && x.Value == i);
+            var on = asf == i ? "-on" : "";
             <td>
-                <img alt="@i" src="/images/ukbp/@(td.Image).png"  id="asf-@i"/>
+                <img alt="@i" src="/images/ukbp/@(td.Image)@(on).png" id="asf-@i" />
             </td>
         }
     </tr>
@@ -170,8 +191,9 @@
         {
 
             var td = Model.TdCollection.Single(x => x.Tret == UkbpTraitViewModel.BERTOLERANSI && x.Value == i);
+            var on = tol == i ? "-on" : "";
             <td>
-                <img alt="@i" src="/images/ukbp/@(td.Image).png"  id="tol-@i"/>
+                <img alt="@i" src="/images/ukbp/@(td.Image)@(on).png" id="tol-@i" />
             </td>
         }
     </tr>
@@ -185,9 +207,10 @@
         @for (var i = 5; i <= 100; i += 5)
         {
             var td = Model.TdCollection.Single(x => x.Tret == UkbpTraitViewModel.PENYIMPANGAN_TINGKAH_LAKU && x.Value == i);
+            var on = ((ptl1 + ptl2 + ptl3 ) * 2) == i ? "-on" : "";
 
             <td>
-                <img alt="@i" src="/images/ukbp/@(td.Image).png"  id="ptl-@i"/>
+                <img alt="@i" src="/images/ukbp/@(td.Image)@(on).png" id="ptl-@i" />
             </td>
         }
     </tr>

@@ -22,9 +22,8 @@ void Main()
 
 			g.FillRectangle(td.Background, 0, 0, width, height);
 			
-			var redPen = Pens.Red;
-			redPen.Width = 2;
-			g.DrawRectangle(Pens.Red,0,0,width-1, height-2);
+			var redPen = new Pen(Color.Red, 4);
+			g.DrawRectangle(redPen,0,0,width, height);
 
 			var font = new Font("Arial", 8);
 			g.DrawString(i.ToString(), font, td.Pen, 8, 2);
