@@ -1,0 +1,178 @@
+@model web.sph.App_Code.UkbpTraitViewModel
+@{
+    Layout = "_MasterPage.cshtml";
+}
+
+<strong>BAHAGIAN A: PERSONALITY</strong>
+<table style="font-size: small">
+    <colgroup>
+        <col style="width: 20px" />
+        <col style="width: 200px" />
+        <col style="width: 30px" />
+        <col style="width: 30px" />
+        <col style="width: 30px" />
+        <col style="width: 30px" />
+        <col style="width: 30px" />
+        <col style="width: 30px" />
+        <col style="width: 30px" />
+        <col style="width: 30px" />
+        <col style="width: 30px" />
+        <col style="width: 30px" />
+        <col style="width: 30px" />
+        <col style="width: 30px" />
+        <col style="width: 30px" />
+        <col style="width: 30px" />
+        <col style="width: 30px" />
+        <col style="width: 30px" />
+        <col style="width: 30px" />
+        <col style="width: 30px" />
+        <col style="width: 30px" />
+        <col style="width: 30px" />
+    </colgroup>
+    <tr>
+        <td>1</td>
+        <td>Kebolehpercayaan</td>
+        @for (int i = 1; i <= 15; i++)
+        {
+
+            <td>
+                <img alt="@i" src="/images/ukbp/kby-@(i).png" />
+            </td>
+        }
+        <td colspan="5"></td>
+    </tr>
+    <tr>
+        <td>2</td>
+        <td>Nasionalisme</td>
+        @for (int i = 1; i <= 20; i++)
+        {
+
+            <td>
+                <img alt="@i" src="/images/ukbp/nas-@(i).png" />
+            </td>
+        }
+    </tr>
+    <tr>
+        <td>3</td>
+        <td>Pengurusan Emosi</td>
+        <td colspan="20"></td>
+    </tr>
+    <tr>
+        <td></td>
+        <td>(a) Ketenangan</td>
+        @for (int i = 5; i <= 100; i += 5)
+        {
+
+            <td>
+                <img alt="@i" src="/images/ukbp/Ketenangan-@(i).png" />
+            </td>
+        }
+    </tr>
+    <tr>
+        <td></td>
+        <td>(b) Keceriaan</td>
+        @for (int i = 5; i <= 100; i += 5)
+        {
+
+            <td>
+                <img alt="@i" src="/images/ukbp/Keceriaan-@(i).png" />
+            </td>
+        }
+    </tr>
+    <tr>
+        <td></td>
+        <td>(c) Luahan Perasaan</td>
+        @for (int i = 5; i <= 100; i += 5)
+        {
+
+            <td>
+                <img alt="@i" src="/images/ukbp/Luahan-Perasaan-@(i).png" />
+            </td>
+        }
+    </tr>
+    <tr>
+        <td></td>
+        <td>(d) Bersimpati</td>
+        @for (int i = 5; i <= 100; i += 5)
+        {
+
+            <td>
+                <img alt="@i" src="/images/ukbp/Bersimpati-@(i).png" />
+            </td>
+        }
+    </tr>
+
+
+    <tr>
+        <td>4</td>
+        <td>Pengurusan Pemikiran</td>
+        <td colspan="20"></td>
+    </tr>
+    <tr>
+        <td></td>
+        <td>(a) Berfikiran Rasional</td>
+        @for (int i = 5; i <= 100; i += 5)
+        {
+
+            <td>
+                <img alt="@i" src="/images/ukbp/Berfikiran-Rasional-@(i).png" />
+            </td>
+        }
+    </tr>
+
+
+    <tr>
+        <td>5</td>
+        <td>Pengurusan Tingkah Laku</td>
+        <td colspan="20"></td>
+    </tr>
+    <tr>
+        <td></td>
+        <td>(a) Aktif Sosial</td>
+        @for (int i = 5; i <= 100; i += 5)
+        {
+
+            <td>
+                <img alt="@i" src="/images/ukbp/Ketenangan-@(i).png" />
+            </td>
+        }
+    </tr>
+    <tr>
+        <td></td>
+        <td>(b) Bersikap Asertif</td>
+        @for (int i = 5; i <= 100; i += 5)
+        {
+
+            <td>
+                <img alt="@i" src="/images/ukbp/Ketenangan-@(i).png" />
+            </td>
+        }
+    </tr>
+    <tr>
+        <td></td>
+        <td>(c) Bertoleransi</td>
+        @for (int i = 5; i <= 100; i += 5)
+        {
+
+            <td>
+                <img alt="@i" src="/images/ukbp/Ketenangan-@(i).png" />
+            </td>
+        }
+    </tr>
+
+    <tr>
+        <td></td>
+        <td>
+            (d) Penyimpangan
+            Tingkah Laku
+        </td>
+        @for (int i = 5; i <= 100; i += 5)
+        {
+
+            <td>
+                <img alt="@i" src="/images/ukbp/Ketenangan-@(i).png" />
+            </td>
+        }
+    </tr>
+
+</table>
