@@ -22,9 +22,10 @@
     ]
   },
   "Trait": null,
-  "NamaUjian": "Ujian Khas Biasiswa Persekutuan (UKBP)",
+  "NamaUjian": "UKBP-",
   "Susunan": 3.0,
   "Kategori": null,
+  "Bahagian": null,
   "CreatedBy": "admin",
   "Id": "UKBP-B-00003",
   "CreatedDate": "2015-07-06T11:24:55.9097125+08:00",

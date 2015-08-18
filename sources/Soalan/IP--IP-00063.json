@@ -22,9 +22,10 @@
     ]
   },
   "Trait": "Skor 8",
-  "NamaUjian": "Indeks Personaliti (IP)",
+  "NamaUjian": "IP",
   "Susunan": 62.0,
   "Kategori": null,
+  "Bahagian": null,
   "CreatedBy": "admin",
   "Id": "IP--IP-00063",
   "CreatedDate": "2015-07-06T11:24:51.1463499+08:00",

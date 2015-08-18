@@ -1,0 +1,35 @@
+{
+  "$type": "Bespoke.epsikologi_soalan.Domain.Soalan, epsikologi.Soalan",
+  "NoRujukan": "UKBP-A-00283",
+  "SoalanNo": "UKBP-A-00283",
+  "TeksSoalan": "Semua jenis muzik, warna dan keindahan boleh mempengaruhi \u0018mood\u0019 saya.",
+  "SeksyenSoalan": "1",
+  "PilihanJawapanCollection": {
+    "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan]], domain.sph",
+    "$values": [
+      {
+        "$type": "Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan",
+        "Teks": "Ya",
+        "Nilai": 1,
+        "WebId": "59054110-a471-48b8-84a9-7f714adb99d5"
+      },
+      {
+        "$type": "Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan",
+        "Teks": "Tidak",
+        "Nilai": 0,
+        "WebId": "cb5c83ca-e6de-4e97-b163-259a6e498218"
+      }
+    ]
+  },
+  "Trait": "C",
+  "NamaUjian": "UKBP-B",
+  "Susunan": 3.0,
+  "Kategori": null,
+  "Bahagian": "B",
+  "CreatedBy": "admin",
+  "Id": "UKBP-A-00283",
+  "CreatedDate": "2015-08-07T15:28:21.8038561+08:00",
+  "ChangedBy": "admin",
+  "ChangedDate": "2015-08-07T15:28:21.7988556+08:00",
+  "WebId": "5223ab44-71f4-4ff6-e68a-44bc5f8599b0"
+}

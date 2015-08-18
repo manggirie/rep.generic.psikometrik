@@ -1,0 +1,35 @@
+{
+  "$type": "Bespoke.epsikologi_soalan.Domain.Soalan, epsikologi.Soalan",
+  "NoRujukan": "UKBP-B-00085",
+  "SoalanNo": "UKBP-B-00085",
+  "TeksSoalan": "Bermain alat muzik untuk kumpulan muzik atau orkestra.",
+  "SeksyenSoalan": "2",
+  "PilihanJawapanCollection": {
+    "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan]], domain.sph",
+    "$values": [
+      {
+        "$type": "Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan",
+        "Teks": "Ya",
+        "Nilai": 1,
+        "WebId": "bcc01e3a-7457-4766-813e-47d63ad1d9c0"
+      },
+      {
+        "$type": "Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan",
+        "Teks": "Tidak",
+        "Nilai": 0,
+        "WebId": "02400558-9601-424b-87ec-30ed2c25531a"
+      }
+    ]
+  },
+  "Trait": "C1",
+  "NamaUjian": "UKBP-B",
+  "Susunan": 113.0,
+  "Kategori": "1",
+  "Bahagian": "B",
+  "CreatedBy": "admin",
+  "Id": "UKBP-B-00085",
+  "CreatedDate": "2015-08-04T15:04:46.5993628+08:00",
+  "ChangedBy": "admin",
+  "ChangedDate": "2015-08-11T14:38:31.6881428+08:00",
+  "WebId": "1339f925-955a-452f-e6a5-819ed4e95a9b"
+}

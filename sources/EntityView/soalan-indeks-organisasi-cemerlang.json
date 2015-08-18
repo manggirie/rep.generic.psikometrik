@@ -10,8 +10,8 @@
         "Field": {
           "$type": "Bespoke.Sph.Domain.ConstantField, domain.sph",
           "TypeName": "System.String, mscorlib",
-          "Value": "Indeks Organisasi Cemerlang (IOC)",
-          "Name": "Indeks Organisasi Cemerlang (IOC)",
+          "Value": "IOC",
+          "Name": "IOC",
           "Note": "",
           "WebId": "7b795348-479f-44a4-ed7f-38857a21c53d"
         },
@@ -28,25 +28,25 @@
           "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.Sph.Domain.ConditionalFormatting, domain.sph]], domain.sph",
           "$values": []
         },
+        "Path": "NamaUjian",
+        "Header": "Nama Ujian",
+        "Sort": "",
+        "IsLinkColumn": false,
+        "FormRoute": null,
+        "IconCssClass": "",
+        "IconStoreId": "",
+        "Format": "text:{0}",
+        "RouteValueField": "",
+        "WebId": "17af93a0-43e1-4c67-cd12-938c19188d8f"
+      },
+      {
+        "$type": "Bespoke.Sph.Domain.ViewColumn, domain.sph",
+        "ConditionalFormattingCollection": {
+          "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.Sph.Domain.ConditionalFormatting, domain.sph]], domain.sph",
+          "$values": []
+        },
         "Path": "NoRujukan",
-        "Header": "No",
-        "Sort": "",
-        "IsLinkColumn": true,
-        "FormRoute": "soalan-detail",
-        "IconCssClass": "fa fa-external-link",
-        "IconStoreId": "",
-        "Format": "text:{0}",
-        "RouteValueField": "Id",
-        "WebId": "1516458b-6265-4247-c03a-ac0b708e189f"
-      },
-      {
-        "$type": "Bespoke.Sph.Domain.ViewColumn, domain.sph",
-        "ConditionalFormattingCollection": {
-          "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.Sph.Domain.ConditionalFormatting, domain.sph]], domain.sph",
-          "$values": []
-        },
-        "Path": "TeksSoalan",
-        "Header": "Teks",
+        "Header": "No Rujukan",
         "Sort": "",
         "IsLinkColumn": false,
         "FormRoute": null,
@@ -54,7 +54,7 @@
         "IconStoreId": "",
         "Format": "text:{0}",
         "RouteValueField": "",
-        "WebId": "836f279f-d455-4a81-af12-de28bf18c39d"
+        "WebId": "f5478869-2af6-4d67-a643-704a3e23f35a"
       },
       {
         "$type": "Bespoke.Sph.Domain.ViewColumn, domain.sph",
@@ -62,8 +62,8 @@
           "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.Sph.Domain.ConditionalFormatting, domain.sph]], domain.sph",
           "$values": []
         },
-        "Path": "SeksyenSoalan",
-        "Header": "Seksyen",
+        "Path": "SoalanNo",
+        "Header": "Soalan No",
         "Sort": "",
         "IsLinkColumn": false,
         "FormRoute": null,
@@ -71,58 +71,7 @@
         "IconStoreId": "",
         "Format": "text:{0}",
         "RouteValueField": "",
-        "WebId": "171520a5-5f64-4f5c-d102-4e377a0a4f1a"
-      },
-      {
-        "$type": "Bespoke.Sph.Domain.ViewColumn, domain.sph",
-        "ConditionalFormattingCollection": {
-          "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.Sph.Domain.ConditionalFormatting, domain.sph]], domain.sph",
-          "$values": []
-        },
-        "Path": "Susunan",
-        "Header": "Susunan",
-        "Sort": "",
-        "IsLinkColumn": false,
-        "FormRoute": null,
-        "IconCssClass": "",
-        "IconStoreId": "",
-        "Format": "text:{0}",
-        "RouteValueField": "",
-        "WebId": "a04e7592-e5c1-46ea-8fda-b87a756c6547"
-      },
-      {
-        "$type": "Bespoke.Sph.Domain.ViewColumn, domain.sph",
-        "ConditionalFormattingCollection": {
-          "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.Sph.Domain.ConditionalFormatting, domain.sph]], domain.sph",
-          "$values": []
-        },
-        "Path": "Kategori",
-        "Header": "Kategori",
-        "Sort": "",
-        "IsLinkColumn": false,
-        "FormRoute": null,
-        "IconCssClass": "",
-        "IconStoreId": "",
-        "Format": "text:{0}",
-        "RouteValueField": "",
-        "WebId": "92b46859-2552-473c-902e-8304fa646403"
-      },
-      {
-        "$type": "Bespoke.Sph.Domain.ViewColumn, domain.sph",
-        "ConditionalFormattingCollection": {
-          "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.Sph.Domain.ConditionalFormatting, domain.sph]], domain.sph",
-          "$values": []
-        },
-        "Path": "Trait",
-        "Header": "Trait",
-        "Sort": "",
-        "IsLinkColumn": false,
-        "FormRoute": null,
-        "IconCssClass": "",
-        "IconStoreId": "",
-        "Format": "text:{0}",
-        "RouteValueField": "",
-        "WebId": "32e8077d-6068-494c-b179-5814e89938f5"
+        "WebId": "f93ed571-ae0d-4656-a766-9f2ec17a4c2d"
       }
     ]
   },
@@ -171,6 +120,6 @@
   "Id": "soalan-indeks-organisasi-cemerlang",
   "CreatedDate": "2015-06-22T11:34:46.1375517+08:00",
   "ChangedBy": "admin",
-  "ChangedDate": "2015-07-28T15:12:24.5152693+08:00",
+  "ChangedDate": "2015-08-17T09:28:27.9204652+08:00",
   "WebId": "38e6ae7a-002d-4780-d67c-faea94d5b459"
 }

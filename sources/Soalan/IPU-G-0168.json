@@ -22,9 +22,10 @@
     ]
   },
   "Trait": "G",
-  "NamaUjian": "Indikator Perwatakan Unggul (IPU)",
+  "NamaUjian": "IPU",
   "Susunan": 58.0,
   "Kategori": null,
+  "Bahagian": null,
   "CreatedBy": "admin",
   "Id": "IPU-G-0168",
   "CreatedDate": "2015-07-06T11:24:41.4169829+08:00",
