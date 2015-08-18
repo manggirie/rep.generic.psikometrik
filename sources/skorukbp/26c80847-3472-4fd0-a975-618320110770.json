@@ -1,0 +1,16 @@
+{
+  "$type": "Bespoke.epsikologi_skorukbp.Domain.SkorUkbp, epsikologi.SkorUkbp",
+  "No": "tl-p-sst-35",
+  "Tret": "TL",
+  "NilaiMin": 5,
+  "NilaiMax": 5,
+  "Percentile": 35,
+  "Skor": "Skor Sederhana Tinggi",
+  "Jantina": "Perempuan",
+  "CreatedBy": "admin",
+  "Id": "26c80847-3472-4fd0-a975-618320110770",
+  "CreatedDate": "2015-08-18T12:23:20.8946046+08:00",
+  "ChangedBy": "admin",
+  "ChangedDate": "2015-08-18T12:23:20.8916043+08:00",
+  "WebId": "13990843-1887-45da-82eb-7a804fcfb77d"
+}
