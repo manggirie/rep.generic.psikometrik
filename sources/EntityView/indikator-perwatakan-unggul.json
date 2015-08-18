@@ -10,8 +10,8 @@
         "Field": {
           "$type": "Bespoke.Sph.Domain.ConstantField, domain.sph",
           "TypeName": "System.String, mscorlib",
-          "Value": "Indikator Perwatakan Unggul (IPU)",
-          "Name": "Indikator Perwatakan Unggul (IPU)",
+          "Value": "IPU",
+          "Name": "IPU",
           "Note": "",
           "WebId": "7b795348-479f-44a4-ed7f-38857a21c53d"
         },
@@ -160,6 +160,6 @@
   "Id": "indikator-perwatakan-unggul",
   "CreatedDate": "2015-06-05T10:14:02.1460365+08:00",
   "ChangedBy": "admin",
-  "ChangedDate": "2015-07-30T16:20:26.9304907+08:00",
+  "ChangedDate": "2015-08-17T09:26:00.7532735+08:00",
   "WebId": "38e6ae7a-002d-4780-d67c-faea94d5b459"
 }

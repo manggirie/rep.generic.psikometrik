@@ -84,6 +84,7 @@ namespace web.sph.App_Code
                 var ibk = s.NamaUjian.Contains("IBK") ;
                 var hlp = s.NamaUjian.Contains("HLP") ;
                 var ppkp = s.NamaUjian.Contains("PPKP") ;
+                var ukbp = s.NamaUjian.Contains("UKBP");
                 var indikator = ibk || ip || hlp ? "" :
                     $@"<a class=""indikator-report btn btn-info"" target=""_blank"" href=""cetak-laporan/indikator/{
                         s.NamaUjian}/{s.Id}""> <i class=""fa fa-print""></i> Indikator</a>";
@@ -104,6 +105,16 @@ namespace web.sph.App_Code
                     <td>
                          {indikator}
                     </td>");
+                }else if (ukbp)
+                {
+                    indikator = $@"<a class=""btn btn-info"" target=""_blank"" 
+                                href=""cetak-laporan/indikator/ukbp/{s.Id}""> <i class=""fa fa-print""></i>Indikator</a>";
+
+                    html.AppendLine($@"
+                    <td>
+                         {indikator}
+                    </td>");
+
                 }
                 else
                 {

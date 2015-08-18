@@ -22,9 +22,10 @@
     ]
   },
   "Trait": "LP",
-  "NamaUjian": "Ujian Khas Hadiah Latihan Persekutuan(HLP)",
+  "NamaUjian": "HLP",
   "Susunan": 163.0,
   "Kategori": "Luahan Perasaan",
+  "Bahagian": null,
   "CreatedBy": "admin",
   "Id": "HLP-00163",
   "CreatedDate": "2015-07-06T11:24:50.4828817+08:00",

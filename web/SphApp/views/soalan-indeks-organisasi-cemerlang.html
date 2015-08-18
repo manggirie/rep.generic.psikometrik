@@ -8,28 +8,17 @@
         <table class="table table-striped" data-bind="filter : {path:'tbody>tr'}, searchPaging :{ query: query, map : map, entity : 'Soalan', list:list}">
             <thead>
                 <tr>
-                    <th>No</th>
-                    <th>Teks</th>
-                    <th>Seksyen</th>
-                    <th>Susunan</th>
-                    <th>Kategori</th>
-                    <th>Trait</th>
+                    <th>Nama Ujian</th>
+                    <th>No Rujukan</th>
+                    <th>Soalan No</th>
                 </tr>
             </thead>
             <tbody data-bind="foreach :list">
                 <tr data-bind="">
 
-                    <td>
-                        <a data-bind="attr : {href:'#soalan-detail' + '/' + Id, title:'No' }">
-                            <i class="fa fa-external-link"></i>
-                                                        <span data-bind="text:NoRujukan"></span>
-                        </a>
-                    </td>
-                    <td data-bind="text:TeksSoalan"></td>
-                    <td data-bind="text:SeksyenSoalan"></td>
-                    <td data-bind="text:Susunan"></td>
-                    <td data-bind="text:Kategori"></td>
-                    <td data-bind="text:Trait"></td>
+                    <td data-bind="text:NamaUjian"></td>
+                    <td data-bind="text:NoRujukan"></td>
+                    <td data-bind="text:SoalanNo"></td>
 
 
                 </tr>

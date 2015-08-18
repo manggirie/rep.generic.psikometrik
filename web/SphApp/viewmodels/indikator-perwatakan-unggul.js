@@ -33,7 +33,7 @@ function(context, logger, router, chart, config) {
                             "bool": {
                                 "must": [{
                                     "term": {
-                                        "NamaUjian": "Indikator Perwatakan Unggul (IPU)"
+                                        "NamaUjian": "IPU"
                                     }
                                 }
 

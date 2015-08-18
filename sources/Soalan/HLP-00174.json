@@ -22,9 +22,10 @@
     ]
   },
   "Trait": "AF",
-  "NamaUjian": "Ujian Khas Hadiah Latihan Persekutuan(HLP)",
+  "NamaUjian": "HLP",
   "Susunan": 174.0,
   "Kategori": "Bersikap Asertif",
+  "Bahagian": null,
   "CreatedBy": "admin",
   "Id": "HLP-00174",
   "CreatedDate": "2015-07-06T11:24:50.5659407+08:00",

@@ -1,0 +1,35 @@
+{
+  "$type": "Bespoke.epsikologi_soalan.Domain.Soalan, epsikologi.Soalan",
+  "NoRujukan": "UKBP-B-00093",
+  "SoalanNo": "UKBP-B-00093",
+  "TeksSoalan": "Bekerja secara berkesan dengan orang lain berbanding menggunakan idea atau peralatan.",
+  "SeksyenSoalan": "2",
+  "PilihanJawapanCollection": {
+    "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan]], domain.sph",
+    "$values": [
+      {
+        "$type": "Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan",
+        "Teks": "Ya",
+        "Nilai": 1,
+        "WebId": "efa44830-1c1b-4ffc-86d3-783be2b4062e"
+      },
+      {
+        "$type": "Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan",
+        "Teks": "Tidak",
+        "Nilai": 0,
+        "WebId": "66690f5d-2685-4f68-a67d-95b15c9d8db2"
+      }
+    ]
+  },
+  "Trait": "D2",
+  "NamaUjian": "UKBP-B",
+  "Susunan": 190.1,
+  "Kategori": "2",
+  "Bahagian": "B",
+  "CreatedBy": "admin",
+  "Id": "UKBP-B-00093",
+  "CreatedDate": "2015-08-04T15:34:15.070072+08:00",
+  "ChangedBy": "admin",
+  "ChangedDate": "2015-08-11T15:40:29.4818864+08:00",
+  "WebId": "91ca5a36-2428-4ce6-e338-b03a76070a4b"
+}

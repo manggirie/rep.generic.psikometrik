@@ -9,9 +9,10 @@
     "$values": []
   },
   "Trait": "NA",
-  "NamaUjian": "Indeks Organisasi Cemerlang (IOC)",
+  "NamaUjian": "IOC",
   "Susunan": 1.0,
   "Kategori": null,
+  "Bahagian": null,
   "CreatedBy": "admin",
   "Id": "IOC-1-0819",
   "CreatedDate": "2015-07-06T11:24:46.771762+08:00",

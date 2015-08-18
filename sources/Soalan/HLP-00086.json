@@ -22,9 +22,10 @@
     ]
   },
   "Trait": "AS",
-  "NamaUjian": "Ujian Khas Hadiah Latihan Persekutuan(HLP)",
+  "NamaUjian": "HLP",
   "Susunan": 86.0,
   "Kategori": "Aktif Sosial",
+  "Bahagian": null,
   "CreatedBy": "admin",
   "Id": "HLP-00086",
   "CreatedDate": "2015-07-06T11:24:49.8699488+08:00",

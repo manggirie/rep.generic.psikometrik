@@ -20,6 +20,8 @@
   <Namespace>System.Net.Http</Namespace>
 </Query>
 
+const string ujian = "UKBP-B";
+
 var sesi = new Bespoke.epsikologi_sesiujian.Domain.SesiUjian
 {
 	Id = Guid.NewGuid().ToString(),
@@ -31,7 +33,7 @@ var sesi = new Bespoke.epsikologi_sesiujian.Domain.SesiUjian
 	CreatedDate = DateTime.Now,
 	TarikhMulaProgram = DateTime.Today.AddDays(-1),
 	TarikhTamatProgram = DateTime.Today.AddDays(5),
-	NamaUjian = "ISO",
+	NamaUjian = ujian,
 	NamaProgram = "BTSA UJIAN PSIKOLOGI /1/1/2015",
 	SesiNo = Guid.NewGuid().ToString(),
 	Status = "Belum Ambil",

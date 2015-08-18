@@ -1,0 +1,35 @@
+{
+  "$type": "Bespoke.epsikologi_soalan.Domain.Soalan, epsikologi.Soalan",
+  "NoRujukan": "UKBP-B-00087",
+  "SoalanNo": "UKBP-B-00087",
+  "TeksSoalan": "Menghadiri persidangan perniagaan.",
+  "SeksyenSoalan": "2",
+  "PilihanJawapanCollection": {
+    "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan]], domain.sph",
+    "$values": [
+      {
+        "$type": "Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan",
+        "Teks": "Ya",
+        "Nilai": 1,
+        "WebId": "f9a413d3-76b6-4315-bc73-6aa9713d4315"
+      },
+      {
+        "$type": "Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan",
+        "Teks": "Tidak",
+        "Nilai": 0,
+        "WebId": "3b32fddb-48a5-4d64-849d-5bd51d910ecc"
+      }
+    ]
+  },
+  "Trait": "E1",
+  "NamaUjian": "UKBP-B",
+  "Susunan": 133.0,
+  "Kategori": "1",
+  "Bahagian": "B",
+  "CreatedBy": "admin",
+  "Id": "UKBP-B-00087",
+  "CreatedDate": "2015-08-04T15:08:19.2225923+08:00",
+  "ChangedBy": "admin",
+  "ChangedDate": "2015-08-11T14:51:09.7189383+08:00",
+  "WebId": "7578eda6-8cae-4fe5-ad6a-130d5db295e6"
+}

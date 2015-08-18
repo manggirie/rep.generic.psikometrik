@@ -33,7 +33,7 @@ function(context, logger, router, chart, config, partial) {
                             "bool": {
                                 "must": [{
                                     "term": {
-                                        "NamaUjian": "Indeks Organisasi Cemerlang (IOC)"
+                                        "NamaUjian": "IOC"
                                     }
                                 }
 

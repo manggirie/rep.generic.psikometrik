@@ -1,0 +1,50 @@
+<h1>Ujian Khas Biasiswa Persekutuan B</h1>
+<div class="row">
+    <div class="col-md-8">
+        <button class="btn btn-link pull-right" data-bind="visible: chartFiltered, click: clearChartFilter">
+            <i class="fa fa-times"></i>
+            Clear chart's filter
+        </button>
+        <table class="table table-striped" data-bind="filter : {path:'tbody>tr'}, searchPaging :{ query: query, map : map, entity : 'Soalan', list:list}">
+            <thead>
+                <tr>
+                    <th>No</th>
+                    <th>Susunan</th>
+                    <th>Teks</th>
+                    <th>Seksyen</th>
+                    <th>Trait</th>
+                    <th>Modify  Susunan</th>
+                    <th>Bahagian</th>
+                </tr>
+            </thead>
+            <tbody data-bind="foreach :list">
+                <tr data-bind="">
+
+                    <td>
+                        <a data-bind="attr : {href:'#soalan-detail' + '/' + Id, title:'No' }">
+                            <i class="fa fa-external-link"></i>
+                                                        <span data-bind="text:NoRujukan"></span>
+                        </a>
+                    </td>
+                    <td data-bind="text:Susunan"></td>
+                    <td data-bind="text:TeksSoalan"></td>
+                    <td data-bind="text:SeksyenSoalan"></td>
+                    <td data-bind="text:Trait"></td>
+                    <td>
+                        <a data-bind="attr : {href:'#soalan-detail' + '/' + Id, title:'Modify  Susunan' }">
+                            <i class="glyphicon glyphicon-sort-by-order"></i>
+                                                        <span data-bind="text:Susunan"></span>
+                        </a>
+                    </td>
+                    <td data-bind="text:Bahagian"></td>
+
+
+                </tr>
+            </tbody>
+        </table>
+        <img src="/Images/spinner-md.gif" alt="loading" class="absolute-center" data-bind="visible: isBusy" />
+    </div>
+
+    <!-- ko compose : {view : '_chart.panel'}-->
+    <!-- /ko -->
+</div>

@@ -22,9 +22,10 @@
     ]
   },
   "Trait": "FR",
-  "NamaUjian": "Ujian Khas Hadiah Latihan Persekutuan(HLP)",
+  "NamaUjian": "HLP",
   "Susunan": 187.0,
   "Kategori": "Berfikiran Rasional",
+  "Bahagian": null,
   "CreatedBy": "admin",
   "Id": "HLP-00187",
   "CreatedDate": "2015-07-06T11:24:50.6645101+08:00",

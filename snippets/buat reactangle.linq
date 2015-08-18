@@ -35,10 +35,8 @@ foreach (var k in petaks.Keys)
 
 	var font = new Font("Arial", 5);
 	g.DrawString(k.ToString(), font, petaks[k].Item2, 8, 2);
-	bmp.Save($@"c:\temp\{k}.png", ImageFormat.Png);
+	bmp.Save($@"C:\project\rep.generic.psikometrik\web\images\ukbp\kby-{k}.png", ImageFormat.Png);
 	
 	g.Dispose();
 	bmp.Dispose();
 }
-
-

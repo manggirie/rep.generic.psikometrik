@@ -1,0 +1,35 @@
+{
+  "$type": "Bespoke.epsikologi_soalan.Domain.Soalan, epsikologi.Soalan",
+  "NoRujukan": "UKBP-B-00299",
+  "SoalanNo": "UKBP-B-00299",
+  "TeksSoalan": "Melakukan projek saintifik.",
+  "SeksyenSoalan": "2",
+  "PilihanJawapanCollection": {
+    "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan]], domain.sph",
+    "$values": [
+      {
+        "$type": "Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan",
+        "Teks": "Ya",
+        "Nilai": 1,
+        "WebId": "a183c148-3c3d-4473-835f-c208ef48da17"
+      },
+      {
+        "$type": "Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan",
+        "Teks": "Tidak",
+        "Nilai": 0,
+        "WebId": "f55bb5bd-f367-49c2-a4b0-ac9f97248562"
+      }
+    ]
+  },
+  "Trait": "B1",
+  "NamaUjian": "UKBP-B",
+  "Susunan": 103.0,
+  "Kategori": "1",
+  "Bahagian": "B",
+  "CreatedBy": "admin",
+  "Id": "UKBP-B-00299",
+  "CreatedDate": "2015-08-04T16:04:16.0823073+08:00",
+  "ChangedBy": "admin",
+  "ChangedDate": "2015-08-11T14:31:25.873021+08:00",
+  "WebId": "3e113182-55ec-4db5-d2ad-cc153d97cb5f"
+}
