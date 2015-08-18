@@ -163,6 +163,50 @@
               "Boost": 0,
               "DefaultValue": null,
               "WebId": "0db57ac1-a1c3-440b-f64a-d17ab9d53271"
+            },
+            {
+              "$type": "Bespoke.Sph.Domain.Member, domain.sph",
+              "FullName": null,
+              "MemberCollection": {
+                "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.Sph.Domain.Member, domain.sph]], domain.sph",
+                "$values": []
+              },
+              "FieldPermissionCollection": {
+                "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.Sph.Domain.FieldPermission, domain.sph]], domain.sph",
+                "$values": []
+              },
+              "Name": "Header",
+              "TypeName": "System.String, mscorlib",
+              "IsNullable": false,
+              "IsNotIndexed": false,
+              "IsAnalyzed": false,
+              "IsFilterable": false,
+              "IsExcludeInAll": false,
+              "Boost": 0,
+              "DefaultValue": null,
+              "WebId": "94bff1da-a147-4441-b31d-ccff36d95e87"
+            },
+            {
+              "$type": "Bespoke.Sph.Domain.Member, domain.sph",
+              "FullName": null,
+              "MemberCollection": {
+                "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.Sph.Domain.Member, domain.sph]], domain.sph",
+                "$values": []
+              },
+              "FieldPermissionCollection": {
+                "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.Sph.Domain.FieldPermission, domain.sph]], domain.sph",
+                "$values": []
+              },
+              "Name": "DisplayArahan",
+              "TypeName": "System.Boolean, mscorlib",
+              "IsNullable": false,
+              "IsNotIndexed": false,
+              "IsAnalyzed": false,
+              "IsFilterable": false,
+              "IsExcludeInAll": false,
+              "Boost": 0,
+              "DefaultValue": null,
+              "WebId": "fc79bec8-3d9c-4a95-c21d-470c178cabb5"
             }
           ]
         },
@@ -180,95 +224,6 @@
         "Boost": 0,
         "DefaultValue": null,
         "WebId": "a85e4104-5765-4285-d4f9-c4eee721430e"
-      },
-      {
-        "$type": "Bespoke.Sph.Domain.Member, domain.sph",
-        "FullName": null,
-        "MemberCollection": {
-          "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.Sph.Domain.Member, domain.sph]], domain.sph",
-          "$values": [
-            {
-              "$type": "Bespoke.Sph.Domain.Member, domain.sph",
-              "FullName": null,
-              "MemberCollection": {
-                "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.Sph.Domain.Member, domain.sph]], domain.sph",
-                "$values": []
-              },
-              "FieldPermissionCollection": {
-                "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.Sph.Domain.FieldPermission, domain.sph]], domain.sph",
-                "$values": []
-              },
-              "Name": "Name",
-              "TypeName": "System.String, mscorlib",
-              "IsNullable": false,
-              "IsNotIndexed": false,
-              "IsAnalyzed": false,
-              "IsFilterable": false,
-              "IsExcludeInAll": false,
-              "Boost": 0,
-              "DefaultValue": null,
-              "WebId": "a4b52dc2-0888-4c31-fbbc-d960df148228"
-            },
-            {
-              "$type": "Bespoke.Sph.Domain.Member, domain.sph",
-              "FullName": null,
-              "MemberCollection": {
-                "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.Sph.Domain.Member, domain.sph]], domain.sph",
-                "$values": []
-              },
-              "FieldPermissionCollection": {
-                "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.Sph.Domain.FieldPermission, domain.sph]], domain.sph",
-                "$values": []
-              },
-              "Name": "DurationHour",
-              "TypeName": "System.Int32, mscorlib",
-              "IsNullable": true,
-              "IsNotIndexed": false,
-              "IsAnalyzed": false,
-              "IsFilterable": false,
-              "IsExcludeInAll": false,
-              "Boost": 0,
-              "DefaultValue": null,
-              "WebId": "5569579d-6266-4420-963f-29dc69508f92"
-            },
-            {
-              "$type": "Bespoke.Sph.Domain.Member, domain.sph",
-              "FullName": null,
-              "MemberCollection": {
-                "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.Sph.Domain.Member, domain.sph]], domain.sph",
-                "$values": []
-              },
-              "FieldPermissionCollection": {
-                "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.Sph.Domain.FieldPermission, domain.sph]], domain.sph",
-                "$values": []
-              },
-              "Name": "DurationMinutes",
-              "TypeName": "System.Int32, mscorlib",
-              "IsNullable": true,
-              "IsNotIndexed": false,
-              "IsAnalyzed": false,
-              "IsFilterable": false,
-              "IsExcludeInAll": false,
-              "Boost": 0,
-              "DefaultValue": null,
-              "WebId": "111c4997-3d6c-442f-f063-11bb0656bb60"
-            }
-          ]
-        },
-        "FieldPermissionCollection": {
-          "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.Sph.Domain.FieldPermission, domain.sph]], domain.sph",
-          "$values": []
-        },
-        "Name": "BahagianCollection",
-        "TypeName": "System.Array, mscorlib",
-        "IsNullable": false,
-        "IsNotIndexed": false,
-        "IsAnalyzed": false,
-        "IsFilterable": false,
-        "IsExcludeInAll": false,
-        "Boost": 0,
-        "DefaultValue": null,
-        "WebId": "d5c21681-d194-4108-ae26-e186755cc7e5"
       }
     ]
   },
@@ -306,6 +261,6 @@
   "Id": "ujian",
   "CreatedDate": "2015-06-16T08:05:00.1218075+08:00",
   "ChangedBy": "admin",
-  "ChangedDate": "2015-08-04T14:27:52.1802903+08:00",
+  "ChangedDate": "2015-08-18T12:16:00.3260307+08:00",
   "WebId": "b9308a1b-cbde-4d64-8ff9-8e1a9f1ef759"
 }

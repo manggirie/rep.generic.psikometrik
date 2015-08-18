@@ -22,7 +22,8 @@ define(["services/datacontext", objectbuilders.app, objectbuilders.config, objec
                 sections.push({
                     section: ko.unwrap(v.SeksyenSoalan),
                     questions: questions,
-                    answered: ko.observable(0)
+                    answered: ko.observable(0),
+                    header : ko.observable()
                 });
             }
 
@@ -194,6 +195,18 @@ define(["services/datacontext", objectbuilders.app, objectbuilders.config, objec
                 }
             }, 1000);
 
+            // section header
+            _(ujian().SectionCollection()).each(function(v) {
+                if (!ko.unwrap(v.Header)) {
+                    return;
+                }
+                var sct = _(sections()).find(function(k) {
+                    return k.section === ko.unwrap(v.Name);
+                });
+                if (sct) {
+                    sct.header(ko.unwrap(v.Header));
+                }
+            });
 
         },
         detached = function () {

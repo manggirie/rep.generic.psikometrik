@@ -71,79 +71,8 @@
                     <th data-i18n="Nama">Nama</th>
                     <th data-i18n="Jam">Jam</th>
                     <th data-i18n="Minit">Minit</th>
-                <th></th>
-            </tr>
-        </thead>
-        <tbody data-bind="foreach :BahagianCollection">
-            <tr>
-                    <td>
-                        
-
-
-    <input  class=" form-control " title=""
-           data-bind="value: Name, visible :true, enable :true ,uniqueName:true"
-           
-           
-           type="text"
-           name="Name"
-           
-            />
-
-
-                    </td>
-                    <td>
-                        
-
-
-    <input  class=" form-control " title=""
-           data-bind="value: DurationHour, visible :true, enable :true ,uniqueName:true"
-           
-           
-           type="text"
-           name="DurationHour"
-           
-            />
-
-
-                    </td>
-                    <td>
-                        
-
-
-    <input  class=" form-control " title=""
-           data-bind="value: DurationMinutes, visible :true, enable :true ,uniqueName:true"
-           
-           
-           type="text"
-           name="DurationMinutes"
-           
-            />
-
-
-                    </td>
-                <td>
-                    <a title="remove" href="#" data-bind="click : $parent.removeChildItem.call($parent,$parent.BahagianCollection, $data)">
-                        <span class="glyphicon glyphicon-remove"></span>
-                    </a>
-                </td>
-            </tr>
-        </tbody>
-    </table>
-    <a data-i18n="Bahagian" class="btn btn-link" data-bind="click : addChildItem(BahagianCollection, bespoke.epsikologi_ujian.domain.Bahagian)">
-        <i class="fa fa-plus-circle"></i>
-        Bahagian
-    </a>
-
-</div>
-
-
-<div data-bind="visible:true">
-    <table class="table table-condensed table-striped">
-        <thead>
-            <tr>
-                    <th data-i18n="Nama">Nama</th>
-                    <th data-i18n="Jam">Jam</th>
-                    <th data-i18n="Minit">Minit</th>
+                    <th data-i18n="Header">Header</th>
+                    <th data-i18n="Arahan">Arahan</th>
                 <th></th>
             </tr>
         </thead>
@@ -191,6 +120,31 @@
            name="DurationMinutes"
            
             />
+
+
+                    </td>
+                    <td>
+                        
+
+
+    <input  class=" form-control " title=""
+           data-bind="value: Header, visible :true, enable :true ,uniqueName:true"
+           
+           
+           type="text"
+           name="Header"
+           
+            />
+
+
+                    </td>
+                    <td>
+                        
+    <label class="checkbox" data-bind="visible:true">
+        <input data-i18n="Arahan" data-bind="checked : DisplayArahan, enable :true" id="DisplayArahan" title="" type="checkbox" name="DisplayArahan" />
+        Arahan
+    </label>
+
 
 
                     </td>
