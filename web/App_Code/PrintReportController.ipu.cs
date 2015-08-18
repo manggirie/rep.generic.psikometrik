@@ -79,7 +79,8 @@ namespace web.sph.App_Code
             vm.RecommendationJ = await context.LoadOneAsync<IpuRecommendation>(x => x.Tret == "J" && x.NilaiMin <= vm.J && vm.J <= x.NilaiMax);
 
 
-            return Pdf("Trait-Ipu", vm, x => x
+            return Pdf("Trait-Ipu", vm, "~/Views/PrintReport/_MasterPage.cshtml",
+                x => x
                 .Replace($"id=\"A{vm.SkorA}\"", $"id=\"A{vm.SkorA}\" class=\"tg-6wvf\"")
                 .Replace($"id=\"B{vm.SkorB}\"", $"id=\"B{vm.SkorB}\" class=\"tg-6wvf\"")
                 .Replace($"id=\"C{vm.SkorC}\"", $"id=\"C{vm.SkorC}\" class=\"tg-6wvf\"")
@@ -152,7 +153,7 @@ namespace web.sph.App_Code
             vm.SkorJ = vm.J;
 
             var viewName = "Indikator-Ipu-" + user.Jantina;
-            return Pdf(viewName, vm, x => x
+            return Pdf(viewName, vm, "~/Views/PrintReport/_MasterPage.cshtml", x => x
                 .Replace($"id=\"A{vm.SkorA}\"", $"id=\"A{vm.SkorA}\" class=\"tg-6wvf\"")
                 .Replace($"id=\"B{vm.SkorB}\"", $"id=\"B{vm.SkorB}\" class=\"tg-6wvf\"")
                 .Replace($"id=\"C{vm.SkorC}\"", $"id=\"C{vm.SkorC}\" class=\"tg-6wvf\"")
