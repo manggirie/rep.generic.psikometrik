@@ -35,6 +35,14 @@
         td.header {
             font-weight: bold;
         }
+
+        
+        td.label {
+            padding: 10px;
+            font-size: small;
+            font-weight: bold;
+            color: #000000;
+        }
     </style>
 }
 
@@ -198,33 +206,11 @@ var headerText = header ?? trait;
     </colgroup>
     <tr>
         <td>Bidang Pengajian Yang Dipohon:</td>
-        <td></td>
-        <td>Minat:</td>
-        <td></td>
-        <td>Cadangan Pengajian:</td>
-        <td></td>
-    </tr>
-</table>
-
-
-<div style="font-size: small">
-    <p>
-        <strong>Ulasan: </strong> Dari aspek personaliti, calon mempamerkan dirinya mempunyai ciri-ciri perwatakan yang bersesuaian dengan bidang perubatan iaitu:
-        Dari aspek minat, calon mempamerkan kesesuaian minat dengan bidang pengajian yang dipohon.
-    </p>
-</div>
-<table>
-    <colgroup>
-        <col style="width: 300px"/>
-        <col style="width: 100px"/>
-        <col style="width: 100px"/>
-        <col style="width: 100px"/>
-    </colgroup>
-    <tr>
-        <td>Kesesuaian Dari Aspek Personaliti Dan Minat:</td>
-        <td>Sesuai</td>
-        <td>Kurang Sesuai</td>
-        <td>Tidak Sesuai</td>
+        <td class="label">@Model.Pengguna.Pelajar.BidangPengajian</td>
+        <td>Kod Minat 1:</td>
+        <td class="label">@Model.KodMinat1.KodKerjaya1 / @Model.KodMinat1.KodKerjaya2</td>
+        <td>Kod Minat 2:</td>
+        <td class="label">@Model.KodMinat2.KodKerjaya1 / @Model.KodMinat2.KodKerjaya2</td>
     </tr>
 </table>
 

@@ -1,4 +1,5 @@
 using System;
+using System.Collections.Generic;
 using System.Linq;
 using Bespoke.epsikologi_sesiujian.Domain;
 using Bespoke.epsikologi_skorukbp.Domain;
@@ -210,5 +211,224 @@ namespace web.sph.App_Code
                 return m_scores.Single(x => x.NilaiMin <= val && val <= x.NilaiMax && x.Tret == "AF" && x.Jantina == this.Pengguna.Jantina);
             }
         }
+        class CategoryScore
+        {
+            public CategoryScore(string cat, int val)
+            {
+                this.Name = cat;
+                this.Value = val;
+            }
+            public string Name { get; private set; }
+            public int Value { get; private set; }
+        }
+
+        public class  Kod1Type
+        {
+            public SesiUjian Sesi { get; }
+            public Kod1Type(SesiUjian sesi)
+            {
+                this.Sesi = sesi;
+            }
+            public string KodKerjaya1
+            {
+                get
+                {
+                    var results = new List<CategoryScore>
+              {
+                  new CategoryScore("P", P),
+                  new CategoryScore("E", E),
+                  new CategoryScore("K", K),
+                  new CategoryScore("M", M),
+                  new CategoryScore("I", I),
+                  new CategoryScore("T", T)
+              };
+
+                    var temp = results.OrderByDescending(s => s.Value).Select(s => s.Name).Take(3);
+                    return string.Join("", temp);
+                }
+            }
+
+            public string KodKerjaya2
+            {
+                get
+                {
+                    char[] array = this.KodKerjaya1.ToCharArray();
+                    char temp = array[1];
+                    array[1] = array[2];
+                    array[2] = temp;
+                    return new string(array);
+                }
+            }
+
+            public string KodKerjaya => this.KodKerjaya1 + "/" + this.KodKerjaya2;
+
+
+            public int P
+            {
+                get
+                {
+                    return
+                      this.Sesi.JawapanCollection.Where(a => a.Trait == "A").Sum(a => a.Nilai) ;
+                }
+            }
+            public int E
+            {
+                get
+                {
+                    return
+                      this.Sesi.JawapanCollection.Where(a => a.Trait == "B").Sum(a => a.Nilai);
+                }
+            }
+
+
+            public int K
+            {
+                get
+                {
+                    return
+                      this.Sesi.JawapanCollection.Where(a => a.Trait == "C").Sum(a => a.Nilai);
+                }
+            }
+
+            public int M
+            {
+                get
+                {
+                    return
+                      this.Sesi.JawapanCollection.Where(a => a.Trait == "D").Sum(a => a.Nilai);
+                }
+            }
+
+            public int I
+            {
+                get
+                {
+                    return
+                      this.Sesi.JawapanCollection.Where(a => a.Trait == "E").Sum(a => a.Nilai);
+                }
+            }
+
+            public int T
+            {
+                get
+                {
+                    return
+                      this.Sesi.JawapanCollection.Where(a => a.Trait == "F").Sum(a => a.Nilai);
+                }
+            }
+
+        }
+
+        public class  Kod2Type
+        {
+            public SesiUjian Sesi { get; }
+            public Kod2Type(SesiUjian sesi)
+            {
+                this.Sesi = sesi;
+            }
+            public string KodKerjaya1
+            {
+                get
+                {
+                    var results = new List<CategoryScore>
+              {
+                  new CategoryScore("P", P),
+                  new CategoryScore("E", E),
+                  new CategoryScore("K", K),
+                  new CategoryScore("M", M),
+                  new CategoryScore("I", I),
+                  new CategoryScore("T", T)
+              };
+
+                    var temp = results.OrderByDescending(s => s.Value).Select(s => s.Name).Take(3);
+                    return string.Join("", temp);
+                }
+            }
+
+            public string KodKerjaya2
+            {
+                get
+                {
+                    char[] array = this.KodKerjaya1.ToCharArray();
+                    char temp = array[1];
+                    array[1] = array[2];
+                    array[2] = temp;
+                    return new string(array);
+                }
+            }
+
+            public string KodKerjaya => this.KodKerjaya1 + "/" + this.KodKerjaya2;
+
+
+            public int P
+            {
+                get
+                {
+                    return
+                      this.Sesi.JawapanCollection.Where(a => a.Trait == "A1").Sum(a => a.Nilai) +
+                      this.Sesi.JawapanCollection.Where(a => a.Trait == "A2").Sum(a => a.Nilai) +
+                      this.Sesi.JawapanCollection.Where(a => a.Trait == "A3").Sum(a => a.Nilai);
+                }
+            }
+            public int E
+            {
+                get
+                {
+                    return
+                      this.Sesi.JawapanCollection.Where(a => a.Trait == "B1").Sum(a => a.Nilai) +
+                      this.Sesi.JawapanCollection.Where(a => a.Trait == "B2").Sum(a => a.Nilai) +
+                      this.Sesi.JawapanCollection.Where(a => a.Trait == "B3").Sum(a => a.Nilai);
+                }
+            }
+
+
+            public int K
+            {
+                get
+                {
+                    return
+                      this.Sesi.JawapanCollection.Where(a => a.Trait == "C1").Sum(a => a.Nilai) +
+                      this.Sesi.JawapanCollection.Where(a => a.Trait == "C2").Sum(a => a.Nilai) +
+                      this.Sesi.JawapanCollection.Where(a => a.Trait == "C3").Sum(a => a.Nilai);
+                }
+            }
+
+            public int M
+            {
+                get
+                {
+                    return
+                      this.Sesi.JawapanCollection.Where(a => a.Trait == "D1").Sum(a => a.Nilai) +
+                      this.Sesi.JawapanCollection.Where(a => a.Trait == "D2").Sum(a => a.Nilai) +
+                      this.Sesi.JawapanCollection.Where(a => a.Trait == "D3").Sum(a => a.Nilai);
+                }
+            }
+
+            public int I
+            {
+                get
+                {
+                    return
+                      this.Sesi.JawapanCollection.Where(a => a.Trait == "E1").Sum(a => a.Nilai) +
+                      this.Sesi.JawapanCollection.Where(a => a.Trait == "E2").Sum(a => a.Nilai) +
+                      this.Sesi.JawapanCollection.Where(a => a.Trait == "E3").Sum(a => a.Nilai);
+                }
+            }
+
+            public int T
+            {
+                get
+                {
+                    return
+                      this.Sesi.JawapanCollection.Where(a => a.Trait == "F1").Sum(a => a.Nilai) +
+                      this.Sesi.JawapanCollection.Where(a => a.Trait == "F2").Sum(a => a.Nilai) +
+                      this.Sesi.JawapanCollection.Where(a => a.Trait == "F3").Sum(a => a.Nilai);
+                }
+            }
+
+        }
+
+        public Kod1Type KodMinat1 => new Kod1Type(m_sesiB);
+        public Kod2Type KodMinat2 => new Kod2Type(this.m_sesiB);
     }
 }
