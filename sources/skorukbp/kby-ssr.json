@@ -1,0 +1,16 @@
+{
+  "$type": "Bespoke.epsikologi_skorukbp.Domain.SkorUkbp, epsikologi.SkorUkbp",
+  "No": "kby-ssr",
+  "Tret": "KBY",
+  "NilaiMin": 9,
+  "NilaiMax": 11,
+  "Percentile": null,
+  "Skor": "Sederhana Rendah",
+  "Jantina": "NA",
+  "CreatedBy": "admin",
+  "Id": "kby-ssr",
+  "CreatedDate": "2015-08-18T11:17:16.8548245+08:00",
+  "ChangedBy": "admin",
+  "ChangedDate": "2015-08-18T11:19:13.9198493+08:00",
+  "WebId": "37e950e1-3b0a-45e4-d3d2-3a13cae7d13f"
+}

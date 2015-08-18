@@ -1,0 +1,16 @@
+{
+  "$type": "Bespoke.epsikologi_skorukbp.Domain.SkorUkbp, epsikologi.SkorUkbp",
+  "No": "af-p-st-90",
+  "Tret": "AF",
+  "NilaiMin": 28,
+  "NilaiMax": 29,
+  "Percentile": 90,
+  "Skor": "Tinggi",
+  "Jantina": "Perempuan",
+  "CreatedBy": "admin",
+  "Id": "af-p-st-90",
+  "CreatedDate": "2015-08-18T11:36:06.3681803+08:00",
+  "ChangedBy": "admin",
+  "ChangedDate": "2015-08-18T11:36:06.3661801+08:00",
+  "WebId": "9725c3b1-c76b-4cf3-c4f6-d0a39ec6c66a"
+}

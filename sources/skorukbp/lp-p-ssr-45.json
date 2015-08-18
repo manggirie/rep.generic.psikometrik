@@ -1,0 +1,16 @@
+{
+  "$type": "Bespoke.epsikologi_skorukbp.Domain.SkorUkbp, epsikologi.SkorUkbp",
+  "No": "lp-p-ssr-45",
+  "Tret": "LP",
+  "NilaiMin": 31,
+  "NilaiMax": 31,
+  "Percentile": 45,
+  "Skor": "Sederhana Rendah",
+  "Jantina": "Perempuan",
+  "CreatedBy": "admin",
+  "Id": "lp-p-ssr-45",
+  "CreatedDate": "2015-08-18T09:56:58.890779+08:00",
+  "ChangedBy": "admin",
+  "ChangedDate": "2015-08-18T09:56:58.8832787+08:00",
+  "WebId": "f729e1f9-dc48-4431-e135-c5ee30b12225"
+}
