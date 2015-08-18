@@ -5,6 +5,9 @@ using Bespoke.epsikologi_pengguna.Domain;
 using Bespoke.epsikologi_permohonan.Domain;
 using Bespoke.epsikologi_sesiujian.Domain;
 using Bespoke.epsikologi_ujian.Domain;
+using Bespoke.epsikologi_skorukbp.Domain;
+using System.Linq;
+using Bespoke.epsikologi_ukbprecommendation.Domain;
 
 
 namespace web.sph.App_Code
@@ -36,8 +39,12 @@ namespace web.sph.App_Code
 
             var ujianTask = context.LoadOneAsync<Ujian>(x => x.Id == sesi.NamaUjian);
             var permohonanTask = context.LoadOneAsync<Permohonan>(x => x.PermohonanNo == sesi.NamaProgram);
-            await Task.WhenAll(ujianTask, permohonanTask);
-
+            var querySkorUkbp = context.CreateQueryable<SkorUkbp>().Where(x => x.Jantina == user.Jantina || x.Jantina == "NA");
+            var scoreTask = context.LoadAsync(querySkorUkbp, 1, 200);
+            var recommendationTask = context.LoadAsync(context.CreateQueryable<UkbpRecommendation>(), 1, 200);
+            await Task.WhenAll(ujianTask, permohonanTask, scoreTask, recommendationTask);
+            var scores = await scoreTask;
+            var recommendations = await recommendationTask;
 
 
             if (null == sesi)
@@ -57,12 +64,13 @@ namespace web.sph.App_Code
                 sesiA = await context.LoadOneAsync<SesiUjian>(x => x.NamaUjian == "UKBP-A" && x.NamaProgram == sesi.NamaProgram && x.MyKad == sesi.MyKad);
             }
 
-            var vm = new UkbpTraitViewModel(sesiA, sesiB)
+            var vm = new UkbpTraitViewModel(sesiA, sesiB, scores.ItemCollection.ToArray(), recommendations.ItemCollection.ToArray())
             {
                 Permohonan = await permohonanTask,
                 Ujian = await ujianTask,
                 Pengguna = user
             };
+            
 
 
 
