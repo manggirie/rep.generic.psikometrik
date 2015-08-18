@@ -1,47 +1,83 @@
-<Query Kind="Statements">
+<Query Kind="Program">
   <Reference>&lt;RuntimeDirectory&gt;\System.Drawing.dll</Reference>
   <Namespace>System.Drawing</Namespace>
   <Namespace>System.Drawing.Imaging</Namespace>
 </Query>
 
-var petaks = new Dictionary<int, Tuple<Brush,Brush>>();
-
-petaks.Add(1, new Tuple<Brush,Brush>(Brushes.Green, Brushes.White));
-petaks.Add(2, new Tuple<Brush,Brush>(Brushes.Green, Brushes.White));
-petaks.Add(3, new Tuple<Brush,Brush>(Brushes.Green, Brushes.White));
-petaks.Add(4, new Tuple<Brush,Brush>(Brushes.Green, Brushes.White));
-petaks.Add(5, new Tuple<Brush,Brush>(Brushes.Green, Brushes.White));
-petaks.Add(6, new Tuple<Brush,Brush>(Brushes.Green, Brushes.White));
-petaks.Add(7, new Tuple<Brush,Brush>(Brushes.Green, Brushes.White));
-petaks.Add(8, new Tuple<Brush,Brush>(Brushes.LightGreen, Brushes.Black));
-petaks.Add(9, new Tuple<Brush,Brush>(Brushes.LightGreen, Brushes.Black));
-petaks.Add(10, new Tuple<Brush,Brush>(Brushes.LightGreen, Brushes.Black));
-petaks.Add(11, new Tuple<Brush,Brush>(Brushes.LightGreen, Brushes.Black));
-petaks.Add(12, new Tuple<Brush,Brush>(Brushes.LightGreen, Brushes.Black));
-petaks.Add(13, new Tuple<Brush,Brush>(Brushes.LightYellow, Brushes.Black));
-petaks.Add(14, new Tuple<Brush, Brush>(Brushes.LightYellow, Brushes.Black));
-petaks.Add(15, new Tuple<Brush, Brush>(Brushes.LightYellow, Brushes.Black));
-petaks.Add(16, new Tuple<Brush, Brush>(Brushes.LightYellow, Brushes.Black));
-petaks.Add(17, new Tuple<Brush, Brush>(Brushes.White, Brushes.Black));
-petaks.Add(18, new Tuple<Brush, Brush>(Brushes.White, Brushes.Black));
-petaks.Add(19, new Tuple<Brush, Brush>(Brushes.White, Brushes.Black));
-petaks.Add(20, new Tuple<Brush, Brush>(Brushes.White, Brushes.Black));
-
-var width = 30;
-var height = 20;
-
-
-foreach (var k in petaks.Keys)
+void Main()
 {
-	var bmp = new Bitmap(width, height);
-	var g = Graphics.FromImage(bmp);
-
-	g.FillRectangle(petaks[k].Item1, 0, 0, width, height);
-
-	var font = new Font("Arial", 5);
-	g.DrawString((k * 5).ToString(), font, petaks[k].Item2, 8, 2);
-	bmp.Save($@"C:\project\rep.generic.psikometrik\web\images\ukbp\Berfikiran-Rasional-{k * 5}.png", ImageFormat.Png);
 	
-	g.Dispose();
-	bmp.Dispose();
+	
+	var width = 30;
+	var height = 20;
+	
+	for (int i = 1; i <= 100; i++)
+	{
+		var shades = new Shades[] {Shades.VeryDark, Shades.Dark, Shades.Light, Shades.VeryLight};
+		foreach (var sh in shades)
+		{
+			var td = new Td(i, sh);
+			var bmp = new Bitmap(width, height);
+			var g = Graphics.FromImage(bmp);
+
+			g.FillRectangle(td.Background, 0, 0, width, height);
+			
+			var redPen = Pens.Red;
+			redPen.Width = 2;
+			g.DrawRectangle(Pens.Red,0,0,width-1, height-2);
+
+			var font = new Font("Arial", 8);
+			g.DrawString(i.ToString(), font, td.Pen, 8, 2);
+			bmp.Save($@"C:\project\rep.generic.psikometrik\web\images\ukbp\{sh}-{i}-on.png", ImageFormat.Png);
+
+			g.Dispose();
+			bmp.Dispose();
+
+		}
+	}
+}
+
+// Define other methods and classes here
+
+public enum Shades
+{
+	VeryDark,
+	Dark,
+	Light,
+	VeryLight
+}
+
+
+public class Td
+{
+	public int Value { get;  }
+	public Shades Shade { get; }
+	public Brush Background { get; }
+	public Brush Pen { get; }
+
+	public Td(int value, Shades shade)
+	{
+		this.Value = value;
+		this.Shade = shade;
+		switch (shade)
+		{
+			case Shades.VeryDark:
+				Background = Brushes.DarkBlue;
+				Pen = Brushes.White;
+				break;
+			case Shades.Dark:
+				Background = Brushes.Blue;
+				Pen = Brushes.White;
+				break;
+			case Shades.Light:
+				Background = Brushes.LightBlue;
+				Pen = Brushes.Black;
+				break;
+			case Shades.VeryLight:
+				Background = Brushes.White;
+				Pen = Brushes.Black;
+				break;
+		}
+	}
+
 }

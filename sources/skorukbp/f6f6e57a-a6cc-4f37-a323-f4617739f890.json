@@ -1,0 +1,16 @@
+{
+  "$type": "Bespoke.epsikologi_skorukbp.Domain.SkorUkbp, epsikologi.SkorUkbp",
+  "No": "as-p-sr-5",
+  "Tret": "AS",
+  "NilaiMin": 0,
+  "NilaiMax": 12,
+  "Percentile": 5,
+  "Skor": "Skor Rendah",
+  "Jantina": "Perempuan",
+  "CreatedBy": "admin",
+  "Id": "f6f6e57a-a6cc-4f37-a323-f4617739f890",
+  "CreatedDate": "2015-08-18T09:00:51.1064687+08:00",
+  "ChangedBy": "admin",
+  "ChangedDate": "2015-08-18T09:00:51.1044687+08:00",
+  "WebId": "c03b331f-1fcc-4d98-e3ac-a816b76f046a"
+}

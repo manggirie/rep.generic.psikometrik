@@ -33,7 +33,7 @@ function(context, logger, router, chart, config, partial) {
                             "bool": {
                                 "must": [{
                                     "term": {
-                                        "NamaUjian": "Ujian Khas Hadiah Latihan Persekutuan(HLP)"
+                                        "NamaUjian": "HLP"
                                     }
                                 }
 
