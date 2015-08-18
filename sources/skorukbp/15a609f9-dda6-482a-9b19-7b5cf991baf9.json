@@ -2,7 +2,7 @@
   "$type": "Bespoke.epsikologi_skorukbp.Domain.SkorUkbp, epsikologi.SkorUkbp",
   "No": "kby-st",
   "Tret": "KBY",
-  "NilaiMin": 1,
+  "NilaiMin": 0,
   "NilaiMax": 5,
   "Percentile": null,
   "Skor": "Skor Tinggi",
@@ -10,7 +10,7 @@
   "CreatedBy": "admin",
   "Id": "15a609f9-dda6-482a-9b19-7b5cf991baf9",
   "CreatedDate": "2015-08-18T11:18:06.1117497+08:00",
-  "ChangedBy": "admin",
-  "ChangedDate": "2015-08-18T11:18:06.0877473+08:00",
+  "ChangedBy": "urusetia1",
+  "ChangedDate": "2015-08-18T14:49:50.7910181+08:00",
   "WebId": "53c85426-a3ab-4470-b087-0a207b47ef13"
 }
