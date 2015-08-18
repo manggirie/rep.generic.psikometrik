@@ -252,7 +252,6 @@ define(["services/datacontext", objectbuilders.app, objectbuilders.config, objec
             permohonan: permohonan,
             activate: activate,
             attached: attached,
-            bahagianDuration: bahagianDuration,
             sectionDuration: sectionDuration
         };
 
