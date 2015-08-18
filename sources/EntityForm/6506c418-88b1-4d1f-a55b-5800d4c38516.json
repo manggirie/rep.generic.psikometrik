@@ -107,6 +107,12 @@
                 "Caption": "NE",
                 "Value": "NE",
                 "WebId": "6086e397-f4a5-4ee7-9fb9-750d2f6c3efa"
+              },
+              {
+                "$type": "Bespoke.Sph.Domain.ComboBoxItem, domain.sph",
+                "Caption": "TL",
+                "Value": "TL",
+                "WebId": "7f30269a-6e2e-459b-9c48-3486977677f8"
               }
             ]
           },
@@ -486,6 +492,6 @@
   "Id": "6506c418-88b1-4d1f-a55b-5800d4c38516",
   "CreatedDate": "2015-08-17T09:17:16.7125306+08:00",
   "ChangedBy": "admin",
-  "ChangedDate": "2015-08-17T10:26:24.4828141+08:00",
+  "ChangedDate": "2015-08-18T11:40:34.201961+08:00",
   "WebId": "8da5757a-90fe-402d-b60d-97d438070e84"
 }
