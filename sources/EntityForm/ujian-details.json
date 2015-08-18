@@ -381,6 +381,52 @@
                   "WebId": "93a23f89-472a-4c1c-c6b0-19fdf67938d2"
                 },
                 "WebId": "311b699a-d392-4350-b4f7-766c339b3ca8"
+              },
+              {
+                "$type": "Bespoke.Sph.Domain.ListViewColumn, domain.sph",
+                "Label": "Arahan",
+                "Path": "DisplayArahan",
+                "Input": {
+                  "$type": "Bespoke.Sph.Domain.CheckBox, domain.sph",
+                  "IsPathIsRequired": true,
+                  "TypeName": "CheckBox",
+                  "FieldValidation": {
+                    "$type": "Bespoke.Sph.Domain.FieldValidation, domain.sph",
+                    "IsRequired": false,
+                    "Pattern": "",
+                    "Mode": "",
+                    "Message": "",
+                    "Min": null,
+                    "Max": null,
+                    "MinLength": null,
+                    "MaxLength": null,
+                    "WebId": null
+                  },
+                  "Name": "",
+                  "Label": "Arahan",
+                  "Tooltip": "",
+                  "Path": "DisplayArahan",
+                  "IsRequired": false,
+                  "Size": "",
+                  "CssClass": "",
+                  "Visible": "",
+                  "Enable": "",
+                  "ElementId": "",
+                  "HelpText": "",
+                  "UseDisplayTemplate": false,
+                  "ToolboxIconClass": "",
+                  "IsUniqueName": false,
+                  "LabelColLg": null,
+                  "LabelColMd": null,
+                  "LabelColSm": null,
+                  "LabelColXs": null,
+                  "InputColLg": null,
+                  "InputColMd": null,
+                  "InputColSm": null,
+                  "InputColXs": null,
+                  "WebId": "856492cf-656f-481b-fcee-087f11f9c0c7"
+                },
+                "WebId": "6b724ded-7f0f-43b7-e7e4-b8a7afbcb91d"
               }
             ]
           },
@@ -475,6 +521,6 @@
   "Id": "ujian-details",
   "CreatedDate": "2015-06-16T08:05:00.1233093+08:00",
   "ChangedBy": "admin",
-  "ChangedDate": "2015-08-18T11:47:14.5736185+08:00",
+  "ChangedDate": "2015-08-18T12:15:47.1273568+08:00",
   "WebId": "c150aa37-0799-411a-85f5-63fe8e287a65"
 }

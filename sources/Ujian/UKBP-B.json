@@ -12,6 +12,8 @@
         "Name": "1",
         "DurationHour": 0,
         "DurationMinutes": 30,
+        "Header": null,
+        "DisplayArahan": false,
         "WebId": "925ee0e5-9e87-4b25-b658-90cd4f2de168"
       },
       {
@@ -19,18 +21,16 @@
         "Name": "2",
         "DurationHour": 0,
         "DurationMinutes": 50,
+        "Header": null,
+        "DisplayArahan": true,
         "WebId": "0fa438db-d862-4331-be7d-ff18298b3991"
       }
     ]
-  },
-  "BahagianCollection": {
-    "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.epsikologi_ujian.Domain.Bahagian, epsikologi.Ujian]], domain.sph",
-    "$values": []
   },
   "CreatedBy": "admin",
   "Id": "UKBP-B",
   "CreatedDate": "2015-06-05T10:32:22.1729948+08:00",
   "ChangedBy": "admin",
-  "ChangedDate": "2015-08-17T10:04:46.6736319+08:00",
+  "ChangedDate": "2015-08-18T12:17:45.6528517+08:00",
   "WebId": "03ac5f1c-50dc-4802-c914-73b27c9dd619"
 }
