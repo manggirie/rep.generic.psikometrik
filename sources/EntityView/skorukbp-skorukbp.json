@@ -64,6 +64,23 @@
           "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.Sph.Domain.ConditionalFormatting, domain.sph]], domain.sph",
           "$values": []
         },
+        "Path": "Jantina",
+        "Header": "Jantina",
+        "Sort": "",
+        "IsLinkColumn": false,
+        "FormRoute": null,
+        "IconCssClass": "",
+        "IconStoreId": "",
+        "Format": "text:{0}",
+        "RouteValueField": "",
+        "WebId": "fa112bd9-eda3-4776-d15d-d259ad82e426"
+      },
+      {
+        "$type": "Bespoke.Sph.Domain.ViewColumn, domain.sph",
+        "ConditionalFormattingCollection": {
+          "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.Sph.Domain.ConditionalFormatting, domain.sph]], domain.sph",
+          "$values": []
+        },
         "Path": "NilaiMin",
         "Header": "Nilai Min",
         "Sort": "",
@@ -132,6 +149,6 @@
   "Id": "skorukbp-skorukbp",
   "CreatedDate": "2015-08-17T11:04:07.7448432+08:00",
   "ChangedBy": "admin",
-  "ChangedDate": "2015-08-17T11:06:17.6138118+08:00",
+  "ChangedDate": "2015-08-18T11:54:16.0112143+08:00",
   "WebId": "539395aa-4fe7-4c40-f52d-e9d68de91338"
 }
