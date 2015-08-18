@@ -95,7 +95,7 @@ namespace web.sph.App_Code
         }
 
         public ObjectCollection<Td> TdCollection { get; } = new ObjectCollection<Td>();
-        public UkbpRecommendation RecommendationKBY => m_recommendations.Single(x => x.Tret == KEBOLEHPERCAYAAN && x.Skor == this.KBY.Skor.Replace("Skor ",""));
+        public UkbpRecommendation RecommendationKBY => m_recommendations.Single(x => x.Tret == KEBOLEHPERCAYAAN && x.Skor == this.KBY.Skor.Replace("Skor ", ""));
         public UkbpRecommendation RecommendationASF => m_recommendations.Single(x => x.Tret == BERSIKAP_ASERTIF && x.Skor == this.ASF.Skor.Replace("Skor ", ""));
         public UkbpRecommendation RecommendationNAS => m_recommendations.Single(x => x.Tret == NASIONALISME && x.Skor == this.NAS.Skor.Replace("Skor ", ""));
         public UkbpRecommendation RecommendationAKS => m_recommendations.Single(x => x.Tret == AKTIF_SOSIAL && x.Skor == this.AKS.Skor.Replace("Skor ", ""));
@@ -113,6 +113,8 @@ namespace web.sph.App_Code
             get
             {
                 var val = m_sesiA.JawapanCollection.Where(x => x.Trait == "NAS").Sum(x => x.Nilai);
+                if (val == 0)
+                    val = 1;
                 return m_scores.Single(x => x.NilaiMin <= val && val <= x.NilaiMax && x.Tret == "NE");
             }
         }
@@ -127,8 +129,8 @@ namespace web.sph.App_Code
                 var ptl3 = m_sesiA.JawapanCollection.Where(x => x.Trait == "PTL3").Sum(x => x.Nilai);
                 var val = ptl1 + ptl2 + ptl3;
                 Console.WriteLine(val);
-                return m_scores.OrderBy(x => Guid.NewGuid()).First(x =>x.Tret == "PTL");
-               // return m_scores.Single(x => x.NilaiMin <= val && val <= x.NilaiMax && x.Tret == "PTL");
+                return m_scores.OrderBy(x => Guid.NewGuid()).First(x => x.Tret == "PTL");
+                // return m_scores.Single(x => x.NilaiMin <= val && val <= x.NilaiMax && x.Tret == "PTL");
             }
         }
 
@@ -181,6 +183,8 @@ namespace web.sph.App_Code
             get
             {
                 var val = m_sesiA.JawapanCollection.Where(x => x.Trait == "KBY").Sum(x => x.Nilai);
+                if (val == 0)
+                    val = 1;
                 return m_scores.Single(x => x.NilaiMin <= val && val <= x.NilaiMax && x.Tret == "KBY" && x.Jantina == "NA");
             }
         }
@@ -222,7 +226,7 @@ namespace web.sph.App_Code
             public int Value { get; private set; }
         }
 
-        public class  Kod1Type
+        public class Kod1Type
         {
             public SesiUjian Sesi { get; }
             public Kod1Type(SesiUjian sesi)
@@ -268,7 +272,7 @@ namespace web.sph.App_Code
                 get
                 {
                     return
-                      this.Sesi.JawapanCollection.Where(a => a.Trait == "A").Sum(a => a.Nilai) ;
+                      this.Sesi.JawapanCollection.Where(a => a.Trait == "A").Sum(a => a.Nilai);
                 }
             }
             public int E
@@ -319,7 +323,7 @@ namespace web.sph.App_Code
 
         }
 
-        public class  Kod2Type
+        public class Kod2Type
         {
             public SesiUjian Sesi { get; }
             public Kod2Type(SesiUjian sesi)

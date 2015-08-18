@@ -3,13 +3,13 @@
 @model web.sph.App_Code.UkbpTraitViewModel
 @{
     Layout = "_MasterPage.NoHeader.cshtml";
-   
+
 }
 @section head
 {
     <style type="text/css">
         table {
-            font-size: 8px;
+            font-size: 10px;
         }
 
             table.table-bordered2 td, th {
@@ -30,16 +30,17 @@
 
         h1 {
             font-size: small;
+            font-weight: bold;
+            text-align: center;
         }
 
         td.header {
             font-weight: bold;
         }
 
-        
+
         td.label {
-            padding: 10px;
-            font-size: small;
+            font-size: 10px;
             font-weight: bold;
             color: #000000;
         }
@@ -57,13 +58,13 @@ var headerText = header ?? trait;
         @if (!string.IsNullOrEmpty(no))
         {
 
-            <td class="header">@no</td>
-            <td class="header">@headerText</td>
+        <td class="header">@no</td>
+        <td class="header">@headerText</td>
         }
         else
         {
-            <td></td>
-            <td>@headerText</td>
+        <td></td>
+        <td>@headerText</td>
         }
 
         @for (var i = start; i <= max; i += step)
@@ -75,23 +76,21 @@ var headerText = header ?? trait;
             {
                 throw new Exception($"Cannot find {i}");
             }
-            <td>
-                <img alt="@i" src="/images/ukbp/@(td.Image)@(on).png" id="kby-@i" />
-            </td>
+        <td>
+            <img alt="@i" src="/images/ukbp/@(td.Image)@(on).png" id="kby-@i" />
+        </td>
         }
 
 
         @if (column > 0)
         {
-            <td colspan="@column"></td>
+        <td colspan="@column"></td>
         }
     </tr>
 
 }
 
-
-
-<h1>    LAPORAN UJIAN KHAS BIASISWA PERSEKUTUAN JABATAN PERKHIDMATAN AWAM</h1>
+<h1>LAPORAN UJIAN KHAS BIASISWA PERSEKUTUAN JABATAN PERKHIDMATAN AWAM</h1>
 <table>
     <colgroup>
         <col style="width: 17%" />
@@ -102,16 +101,16 @@ var headerText = header ?? trait;
         <col style="width: 17%" />
     </colgroup>
     <tr>
-        <td>Nama Calon :</td>
+        <td class="header">Nama Calon :</td>
+        <td>@Model.Pengguna.Nama</td>
+        <td class="header">No. Kad Pengenalan :</td>
+        <td>@Model.Pengguna.MyKad</td>
         <td></td>
-        <td>No. Kad Pengenalan :</td>
-        <td></td>
-        <td>Pusat Temuduga :</td>
         <td></td>
     </tr>
 </table>
-
-<strong>BAHAGIAN A: PERSONALITI</strong>
+<div style="height: 10px"></div>
+<strong style="font-size: 10px">BAHAGIAN A: PERSONALITI</strong>
 <table id="bahagian-a">
     <colgroup>
         <col style="width: 20px" />
@@ -194,26 +193,37 @@ var headerText = header ?? trait;
     </tr>
 </table>
 
-<strong>BAHAGIAN B: MINAT</strong>
-<table style="width: 100%">
+<strong style="font-size: 10px">BAHAGIAN B: MINAT</strong>
+<table>
     <colgroup>
-        <col style="width: 18%"/>
-        <col style="width: 16%"/>
-        <col style="width: 18%"/>
-        <col style="width: 16%"/>
-        <col style="width: 18%"/>
-        <col style="width: 16%"/>
+        <col style="width: 140px" />
+        <col style="width: 200px" />
+        <col style="width: 100px" />
+        <col style="width: 60px" />
+        <col style="width: 100px" />
+        <col style="width: 60px" />
     </colgroup>
     <tr>
         <td>Bidang Pengajian Yang Dipohon:</td>
-        <td class="label">@Model.Pengguna.Pelajar.BidangPengajian</td>
-        <td>Kod Minat 1:</td>
-        <td class="label">@Model.KodMinat1.KodKerjaya1 / @Model.KodMinat1.KodKerjaya2</td>
-        <td>Kod Minat 2:</td>
-        <td class="label">@Model.KodMinat2.KodKerjaya1 / @Model.KodMinat2.KodKerjaya2</td>
+        <td style="text-align: left;border: 1px solid #343434;padding: 5px">@Model.Pengguna.Pelajar.BidangPengajian</td>
+        <td style="text-align: right">Kod Minat 1:</td>
+        <td style="text-align: left; border: 1px solid #343434;padding: 5px">
+
+            @Model.KodMinat1.KodKerjaya1
+            <br />
+            @Model.KodMinat1.KodKerjaya2
+        </td>
+        <td style="text-align: right">Kod Minat 2:</td>
+        <td style="text-align: left;border: 1px solid #343434;padding: 5px">
+
+            @Model.KodMinat2.KodKerjaya1
+            <br/>
+            @Model.KodMinat2.KodKerjaya2
+          
+        </td>
     </tr>
 </table>
-
+<div style="height: 10px"></div>
 
 <table style="border-collapse: collapse; border: 0.5px solid #000000; width: 100%" class="table-bordered2">
     <colgroup>
