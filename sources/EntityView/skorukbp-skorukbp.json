@@ -1,0 +1,137 @@
+{
+  "$type": "Bespoke.Sph.Domain.EntityView, domain.sph",
+  "FilterCollection": {
+    "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.Sph.Domain.Filter, domain.sph]], domain.sph",
+    "$values": []
+  },
+  "ViewColumnCollection": {
+    "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.Sph.Domain.ViewColumn, domain.sph]], domain.sph",
+    "$values": [
+      {
+        "$type": "Bespoke.Sph.Domain.ViewColumn, domain.sph",
+        "ConditionalFormattingCollection": {
+          "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.Sph.Domain.ConditionalFormatting, domain.sph]], domain.sph",
+          "$values": []
+        },
+        "Path": "No",
+        "Header": "No",
+        "Sort": "",
+        "IsLinkColumn": true,
+        "FormRoute": "skorukbp-details",
+        "IconCssClass": "",
+        "IconStoreId": "",
+        "Format": "text:{0}",
+        "RouteValueField": "",
+        "WebId": "3c9c9b78-6a8c-49eb-b295-dea4f14808c6"
+      },
+      {
+        "$type": "Bespoke.Sph.Domain.ViewColumn, domain.sph",
+        "ConditionalFormattingCollection": {
+          "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.Sph.Domain.ConditionalFormatting, domain.sph]], domain.sph",
+          "$values": []
+        },
+        "Path": "Percentile",
+        "Header": "Percentile",
+        "Sort": "",
+        "IsLinkColumn": false,
+        "FormRoute": null,
+        "IconCssClass": "",
+        "IconStoreId": "",
+        "Format": "text:{0}",
+        "RouteValueField": "",
+        "WebId": "0bd09d30-967d-4103-ed98-cf66ad06c554"
+      },
+      {
+        "$type": "Bespoke.Sph.Domain.ViewColumn, domain.sph",
+        "ConditionalFormattingCollection": {
+          "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.Sph.Domain.ConditionalFormatting, domain.sph]], domain.sph",
+          "$values": []
+        },
+        "Path": "Skor",
+        "Header": "Skor",
+        "Sort": "",
+        "IsLinkColumn": false,
+        "FormRoute": null,
+        "IconCssClass": "",
+        "IconStoreId": "",
+        "Format": "text:{0}",
+        "RouteValueField": "",
+        "WebId": "37c8d2ac-9c86-4e07-eaaa-4e1a55a7eb57"
+      },
+      {
+        "$type": "Bespoke.Sph.Domain.ViewColumn, domain.sph",
+        "ConditionalFormattingCollection": {
+          "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.Sph.Domain.ConditionalFormatting, domain.sph]], domain.sph",
+          "$values": []
+        },
+        "Path": "NilaiMin",
+        "Header": "Nilai Min",
+        "Sort": "",
+        "IsLinkColumn": false,
+        "FormRoute": null,
+        "IconCssClass": "",
+        "IconStoreId": "",
+        "Format": "text:{0}",
+        "RouteValueField": "",
+        "WebId": "c5b0a18b-fb41-4b0d-b7c0-bce91d97e65f"
+      },
+      {
+        "$type": "Bespoke.Sph.Domain.ViewColumn, domain.sph",
+        "ConditionalFormattingCollection": {
+          "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.Sph.Domain.ConditionalFormatting, domain.sph]], domain.sph",
+          "$values": []
+        },
+        "Path": "NilaiMax",
+        "Header": "Nilai Max",
+        "Sort": "",
+        "IsLinkColumn": false,
+        "FormRoute": null,
+        "IconCssClass": "",
+        "IconStoreId": "",
+        "Format": "text:{0}",
+        "RouteValueField": "",
+        "WebId": "ea99752b-029c-4f20-91de-95f982aab32f"
+      }
+    ]
+  },
+  "SortCollection": {
+    "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.Sph.Domain.Sort, domain.sph]], domain.sph",
+    "$values": []
+  },
+  "ConditionalFormattingCollection": {
+    "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.Sph.Domain.ConditionalFormatting, domain.sph]], domain.sph",
+    "$values": []
+  },
+  "Performer": {
+    "$type": "Bespoke.Sph.Domain.Performer, domain.sph",
+    "UserProperty": "",
+    "Value": "",
+    "IsPublic": true,
+    "WebId": null
+  },
+  "RouteParameterCollection": {
+    "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.Sph.Domain.RouteParameter, domain.sph]], domain.sph",
+    "$values": []
+  },
+  "IconClass": "",
+  "IconStoreId": "sph-img-list",
+  "EntityDefinitionId": "skorukbp",
+  "Name": "SkorUkbp",
+  "Route": "skorukbp",
+  "Note": "",
+  "Query": "",
+  "IsPublished": true,
+  "Visibilty": "",
+  "TileColour": "bblue",
+  "CountMessage": "",
+  "Entity": "",
+  "Partial": "",
+  "Template": null,
+  "DisplayOnDashboard": false,
+  "CreatedBy": "admin",
+  "Id": "skorukbp-skorukbp",
+  "CreatedDate": "2015-08-17T11:04:07.7448432+08:00",
+  "ChangedBy": "admin",
+  "ChangedDate": "2015-08-17T11:06:17.6138118+08:00",
+  "WebId": "539395aa-4fe7-4c40-f52d-e9d68de91338"
+}

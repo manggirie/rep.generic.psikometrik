@@ -1,0 +1,40 @@
+<h1>SkorUkbp</h1>
+<div class="row">
+    <div class="col-md-8">
+        <button class="btn btn-link pull-right" data-bind="visible: chartFiltered, click: clearChartFilter">
+            <i class="fa fa-times"></i>
+            Clear chart's filter
+        </button>
+        <table class="table table-striped" data-bind="filter : {path:'tbody>tr'}, searchPaging :{ query: query, map : map, entity : 'SkorUkbp', list:list}">
+            <thead>
+                <tr>
+                    <th>No</th>
+                    <th>Percentile</th>
+                    <th>Skor</th>
+                    <th>Nilai Min</th>
+                    <th>Nilai Max</th>
+                </tr>
+            </thead>
+            <tbody data-bind="foreach :list">
+                <tr data-bind="">
+
+                    <td>
+                        <a data-bind="attr : {href:'#skorukbp-details' + '/' + Id, title:'No' }">
+                                                        <span data-bind="text:No"></span>
+                        </a>
+                    </td>
+                    <td data-bind="text:Percentile"></td>
+                    <td data-bind="text:Skor"></td>
+                    <td data-bind="text:NilaiMin"></td>
+                    <td data-bind="text:NilaiMax"></td>
+
+
+                </tr>
+            </tbody>
+        </table>
+        <img src="/Images/spinner-md.gif" alt="loading" class="absolute-center" data-bind="visible: isBusy" />
+    </div>
+
+    <!-- ko compose : {view : '_chart.panel'}-->
+    <!-- /ko -->
+</div>
