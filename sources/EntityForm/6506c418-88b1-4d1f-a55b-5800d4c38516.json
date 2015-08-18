@@ -107,6 +107,18 @@
                 "Caption": "NE",
                 "Value": "NE",
                 "WebId": "6086e397-f4a5-4ee7-9fb9-750d2f6c3efa"
+              },
+              {
+                "$type": "Bespoke.Sph.Domain.ComboBoxItem, domain.sph",
+                "Caption": "KBY",
+                "Value": "KBY",
+                "WebId": "c5f69b02-a959-45d7-af77-61c89ce583bc"
+              },
+              {
+                "$type": "Bespoke.Sph.Domain.ComboBoxItem, domain.sph",
+                "Caption": "TL",
+                "Value": "TL",
+                "WebId": "254a2c1f-412e-4486-fd5d-4ba8990856dd"
               }
             ]
           },
@@ -492,6 +504,6 @@
   "Id": "6506c418-88b1-4d1f-a55b-5800d4c38516",
   "CreatedDate": "2015-08-17T09:17:16.7125306+08:00",
   "ChangedBy": "admin",
-  "ChangedDate": "2015-08-18T10:57:17.7758627+08:00",
+  "ChangedDate": "2015-08-18T11:41:43.6836568+08:00",
   "WebId": "8da5757a-90fe-402d-b60d-97d438070e84"
 }

@@ -1,0 +1,16 @@
+{
+  "$type": "Bespoke.epsikologi_isorecommendation.Domain.IsoRecommendation, epsikologi.IsoRecommendation",
+  "No": "ps-kdk-0-4",
+  "Tret": "Kebosanan dan Kesunyian",
+  "NilaiMin": 0,
+  "NilaiMax": 4,
+  "Kategori": "Rendah",
+  "Ciri": "Tahap toleransi tinggi terhadap kebosanan dan kesunyian, bersikap positif dan tenang serta berminat melakukan tugas rutin walaupun kurang mencabar.\n\nPengurusan kebosanan dengan mengubah rutin harian dan berasa bangga dengan tugas yang dilakukan manakala pengurusan kesunyian dengan bersikap realistik dan positif terhadap konflik serta mengambil berat terhadap orang lain.\n",
+  "Dimensi": "Punca Stres",
+  "CreatedBy": "urusetia3",
+  "Id": "342bd870-725d-4caf-8cbe-4cd186fdb8e9",
+  "CreatedDate": "2015-08-12T10:29:37.4692694+08:00",
+  "ChangedBy": "urusetia3",
+  "ChangedDate": "2015-08-12T10:29:37.4682693+08:00",
+  "WebId": "297ef442-c220-41a9-84dd-fb8e847e549d"
+}
