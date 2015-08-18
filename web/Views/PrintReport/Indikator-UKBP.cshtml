@@ -1,26 +1,15 @@
+@using Bespoke.epsikologi_skorukbp.Domain
 @using web.sph.App_Code
 @model web.sph.App_Code.UkbpTraitViewModel
 @{
     Layout = "_MasterPage.NoHeader.cshtml";
-    var kby = Model.Sesi.JawapanCollection.Where(x => x.Trait == "KBY").Sum(x => x.Nilai);
-    var aks = Model.Sesi.JawapanCollection.Where(x => x.Trait == "AKS").Sum(x => x.Nilai) * 100 / 40;
-    var ktg = Model.Sesi.JawapanCollection.Where(x => x.Trait == "KTG").Sum(x => x.Nilai) * 100 / 40;
-    var ptl1 = Model.Sesi.JawapanCollection.Where(x => x.Trait == "PTL1").Sum(x => x.Nilai);
-    var ptl2 = Model.Sesi.JawapanCollection.Where(x => x.Trait == "PTL2").Sum(x => x.Nilai);
-    var ras = Model.Sesi.JawapanCollection.Where(x => x.Trait == "RAS").Sum(x => x.Nilai) * 100 / 40;
-    var tol = Model.Sesi.JawapanCollection.Where(x => x.Trait == "TOL").Sum(x => x.Nilai) * 100 / 40;
-    var kcn = Model.Sesi.JawapanCollection.Where(x => x.Trait == "KCN").Sum(x => x.Nilai) * 100 / 40;
-    var lpn = Model.Sesi.JawapanCollection.Where(x => x.Trait == "LPN").Sum(x => x.Nilai) * 100 / 40;
-    var nas = Model.Sesi.JawapanCollection.Where(x => x.Trait == "NAS").Sum(x => x.Nilai);
-    var asf = Model.Sesi.JawapanCollection.Where(x => x.Trait == "ASF").Sum(x => x.Nilai) * 100 / 40;
-    var sim = Model.Sesi.JawapanCollection.Where(x => x.Trait == "SIM").Sum(x => x.Nilai) * 100 / 40;
-    var ptl3 = Model.Sesi.JawapanCollection.Where(x => x.Trait == "PTL3").Sum(x => x.Nilai);
+   
 }
 @section head
 {
     <style type="text/css">
         table {
-            font-size: small;
+            font-size: 8px;
         }
 
             table.table-bordered2 td, th {
@@ -31,6 +20,12 @@
             table.table-bordered2 th {
                 text-align: center;
                 background-color: lightskyblue;
+            }
+
+            table#bahagian-a {
+                border-spacing: 5px;
+                border-collapse: separate;
+                width: 100%;
             }
 
         h1 {
@@ -46,7 +41,7 @@
 
 
 
-@helper DisplayRow(int start, int max, int step, string trait, string no, int value, string header = null)
+@helper DisplayRow(int start, int max, int step, string trait, string no, SkorUkbp skor, string header = null)
 {
 var column = 20;
 var headerText = header ?? trait;
@@ -67,7 +62,7 @@ var headerText = header ?? trait;
         {
             column--;
             var td = Model.TdCollection.SingleOrDefault(x => x.Tret == trait && x.Value == i);
-            var on = value == i ? "-on" : "";
+            var on = skor.Percentile == i ? "-on" : "";
             if (null == td)
             {
                 throw new Exception($"Cannot find {i}");
@@ -109,7 +104,7 @@ var headerText = header ?? trait;
 </table>
 
 <strong>BAHAGIAN A: PERSONALITI</strong>
-<table>
+<table id="bahagian-a">
     <colgroup>
         <col style="width: 20px" />
         <col style="width: 200px" />
@@ -134,8 +129,8 @@ var headerText = header ?? trait;
         <col style="width: 30px" />
         <col style="width: 30px" />
     </colgroup>
-    @DisplayRow(1, 15, 1, UkbpTraitViewModel.KEBOLEHPERCAYAAN, "1", kby)
-    @DisplayRow(1, 20, 1, UkbpTraitViewModel.NASIONALISME, "2", nas)
+    @DisplayRow(1, 15, 1, UkbpTraitViewModel.KEBOLEHPERCAYAAN, "1", Model.KBY)
+    @DisplayRow(1, 20, 1, UkbpTraitViewModel.NASIONALISME, "2", Model.NAS)
 
 
     <tr>
@@ -144,10 +139,10 @@ var headerText = header ?? trait;
         <td colspan="20"></td>
     </tr>
 
-    @DisplayRow(5, 100, 5, UkbpTraitViewModel.KETENANGAN, "", ktg, "(a) Ketenangan")
-    @DisplayRow(5, 100, 5, UkbpTraitViewModel.KECERIAAN, "", kcn, "(b) Keceriaan")
-    @DisplayRow(5, 100, 5, UkbpTraitViewModel.LUAHAN_PERASAAN, "", lpn, "(c) Luahan Perasaan")
-    @DisplayRow(5, 100, 5, UkbpTraitViewModel.BERSIMPATI, "", sim, "(d) Bersimpati")
+    @DisplayRow(5, 100, 5, UkbpTraitViewModel.KETENANGAN, "", Model.KTG, "(a) Ketenangan")
+    @DisplayRow(5, 100, 5, UkbpTraitViewModel.KECERIAAN, "", Model.KCN, "(b) Keceriaan")
+    @DisplayRow(5, 100, 5, UkbpTraitViewModel.LUAHAN_PERASAAN, "", Model.LPN, "(c) Luahan Perasaan")
+    @DisplayRow(5, 100, 5, UkbpTraitViewModel.BERSIMPATI, "", Model.SIM, "(d) Bersimpati")
 
 
 
@@ -156,17 +151,17 @@ var headerText = header ?? trait;
         <td class="header">Pengurusan Pemikiran</td>
         <td colspan="20"></td>
     </tr>
-    @DisplayRow(5, 100, 5, UkbpTraitViewModel.BERFIKIRAN_RASIONAL, "", ras, "(a) Berfikiran Rasional")
+    @DisplayRow(5, 100, 5, UkbpTraitViewModel.BERFIKIRAN_RASIONAL, "", Model.RAS, "(a) Berfikiran Rasional")
 
     <tr>
         <td class="header">5</td>
         <td class="header">Pengurusan Tingkah Laku</td>
         <td colspan="20"></td>
     </tr>
-    @DisplayRow(5, 100, 5, UkbpTraitViewModel.AKTIF_SOSIAL, "", aks, "(a) Aktif Sosial")
-    @DisplayRow(5, 100, 5, UkbpTraitViewModel.BERSIKAP_ASERTIF, "", asf, "(b) Bersikap Asertif")
-    @DisplayRow(5, 100, 5, UkbpTraitViewModel.BERTOLERANSI, "", tol, "(c) Bertoleransi")
-    @DisplayRow(5, 100, 5, UkbpTraitViewModel.PENYIMPANGAN_TINGKAH_LAKU, "", ((ptl1 + ptl2 + ptl3) * 2), "(d) Penyimpangan Tingkah Laku")
+    @DisplayRow(5, 100, 5, UkbpTraitViewModel.AKTIF_SOSIAL, "", Model.AKS, "(a) Aktif Sosial")
+    @DisplayRow(5, 100, 5, UkbpTraitViewModel.BERSIKAP_ASERTIF, "", Model.ASF, "(b) Bersikap Asertif")
+    @DisplayRow(5, 100, 5, UkbpTraitViewModel.BERTOLERANSI, "", Model.TOL, "(c) Bertoleransi")
+    @DisplayRow(5, 100, 5, UkbpTraitViewModel.PENYIMPANGAN_TINGKAH_LAKU, "", Model.PTL, "(d) Penyimpangan Tingkah Laku")
 
 </table>
 
@@ -178,10 +173,10 @@ var headerText = header ?? trait;
         <col style="width: 100px" />
     </colgroup>
     <tr>
-        <td><img alt="Rendah" src="~/images/ukbp/VeryLight-1.png" /></td>
-        <td><img alt="Rendah" src="~/images/ukbp/Light-1.png" /></td>
-        <td><img alt="Rendah" src="~/images/ukbp/Dark-1.png" /></td>
-        <td><img alt="Rendah" src="~/images/ukbp/VeryDark-1.png" /></td>
+        <td><img alt="Rendah" src="~/images/ukbp/VeryLight-0.png" /></td>
+        <td><img alt="Rendah" src="~/images/ukbp/Light-0.png" /></td>
+        <td><img alt="Rendah" src="~/images/ukbp/Dark-0.png" /></td>
+        <td><img alt="Rendah" src="~/images/ukbp/VeryDark-0.png" /></td>
     </tr>
     <tr>
         <td style="vertical-align: top">Rendah</td>
@@ -202,12 +197,13 @@ var headerText = header ?? trait;
         Dari aspek minat, calon mempamerkan kesesuaian minat dengan bidang pengajian yang dipohon.
     </p>
 </div>
-<table><colgroup>
-    <col style="width: 300px" />
-    <col style="width: 100px" />
-    <col style="width: 100px" />
-    <col style="width: 100px" />
-</colgroup>
+<table>
+    <colgroup>
+        <col style="width: 300px" />
+        <col style="width: 100px" />
+        <col style="width: 100px" />
+        <col style="width: 100px" />
+    </colgroup>
     <tr>
         <td>Kesesuaian Dari Aspek Personaliti Dan Minat:</td>
         <td>Sesuai</td>
@@ -230,57 +226,57 @@ var headerText = header ?? trait;
     </thead>
     <tr>
         <td>Kebolehpercayaan</td>
-        <td></td>
-        <td></td>
+        <td>@Model.KBY.Skor</td>
+        <td>@Model.RecommendationKBY.Text</td>
     </tr>
     <tr>
         <td>Ketenangan</td>
-        <td></td>
-        <td></td>
+        <td>@Model.KTG</td>
+        <td>@Model.RecommendationKTG.Text</td>
     </tr>
     <tr>
         <td>Keceriaan</td>
-        <td></td>
-        <td></td>
+        <td>@Model.KCN</td>
+        <td>@Model.RecommendationKCN.Text</td>
     </tr>
     <tr>
         <td>Luahan Perasaan</td>
-        <td></td>
-        <td></td>
+        <td>@Model.LPN</td>
+        <td>@Model.RecommendationLPN.Text</td>
     </tr>
     <tr>
         <td>Bersimpati</td>
-        <td></td>
-        <td></td>
+        <td>@Model.SIM</td>
+        <td>@Model.RecommendationSIM.Text</td>
     </tr>
     <tr>
         <td>Berfikiran Rasional</td>
-        <td></td>
-        <td></td>
+        <td>@Model.RAS</td>
+        <td>@Model.RecommendationRAS.Text</td>
     </tr>
     <tr>
         <td>Aktif Sosial</td>
-        <td></td>
-        <td></td>
+        <td>@Model.AKS</td>
+        <td>@Model.RecommendationAKS.Text</td>
     </tr>
     <tr>
         <td>Bersikap Asertif</td>
-        <td></td>
-        <td></td>
+        <td>@Model.ASF</td>
+        <td>@Model.RecommendationASF.Text</td>
     </tr>
     <tr>
         <td>Bertoleransi</td>
-        <td></td>
-        <td></td>
+        <td>@Model.TOL</td>
+        <td>@Model.RecommendationTOL.Text</td>
     </tr>
     <tr>
         <td>Penyimpangan Tingkah Laku</td>
-        <td></td>
-        <td></td>
+        <td>@Model.PTL</td>
+        <td>@Model.RecommendationPTL.Text</td>
     </tr>
     <tr>
         <td>Nasionalisme</td>
-        <td></td>
-        <td></td>
+        <td>@Model.NAS</td>
+        <td>@Model.RecommendationNAS.Text</td>
     </tr>
 </table>
