@@ -115,7 +115,7 @@ namespace web.sph.App_Code
                 var val = m_sesiA.JawapanCollection.Where(x => x.Trait == "NAS").Sum(x => x.Nilai);
                 if (val == 0)
                     val = 1;
-                return m_scores.Single(x => x.NilaiMin <= val && val <= x.NilaiMax && x.Tret == "NE");
+                return m_scores.Single(x => val.IsBetween(x.NilaiMin, x.NilaiMax) && x.Tret == "NE");
             }
         }
 
@@ -130,7 +130,7 @@ namespace web.sph.App_Code
                 var val = ptl1 + ptl2 + ptl3;
                 Console.WriteLine(val);
                 return m_scores.OrderBy(x => Guid.NewGuid()).First(x => x.Tret == "PTL");
-                // return m_scores.Single(x => x.NilaiMin <= val && val <= x.NilaiMax && x.Tret == "PTL");
+                // return m_scores.Single(x => val.IsBetween(x.NilaiMin, x.NilaiMax) && x.Tret == "PTL");
             }
         }
 
@@ -139,7 +139,7 @@ namespace web.sph.App_Code
             get
             {
                 var val = m_sesiA.JawapanCollection.Where(x => x.Trait == "LPN").Sum(x => x.Nilai);
-                return m_scores.Single(x => x.NilaiMin <= val && val <= x.NilaiMax && x.Tret == "LP" && x.Jantina == this.Pengguna.Jantina);
+                return m_scores.Single(x => val.IsBetween(x.NilaiMin, x.NilaiMax) && x.Tret == "LP" && x.Jantina == this.Pengguna.Jantina);
             }
         }
         public SkorUkbp KCN
@@ -147,7 +147,7 @@ namespace web.sph.App_Code
             get
             {
                 var val = m_sesiA.JawapanCollection.Where(x => x.Trait == "KCN").Sum(x => x.Nilai);
-                return m_scores.Single(x => x.NilaiMin <= val && val <= x.NilaiMax && x.Tret == "KC" && x.Jantina == this.Pengguna.Jantina);
+                return m_scores.Single(x => val.IsBetween(x.NilaiMin, x.NilaiMax) && x.Tret == "KC" && x.Jantina == this.Pengguna.Jantina);
             }
         }
         public SkorUkbp TOL
@@ -155,7 +155,7 @@ namespace web.sph.App_Code
             get
             {
                 var val = m_sesiA.JawapanCollection.Where(x => x.Trait == "TOL").Sum(x => x.Nilai);
-                return m_scores.Single(x => x.NilaiMin <= val && val <= x.NilaiMax && x.Tret == "TL" && x.Jantina == this.Pengguna.Jantina);
+                return m_scores.Single(x => val.IsBetween(x.NilaiMin, x.NilaiMax) && x.Tret == "TL" && x.Jantina == this.Pengguna.Jantina);
             }
         }
 
@@ -164,7 +164,7 @@ namespace web.sph.App_Code
             get
             {
                 var val = m_sesiA.JawapanCollection.Where(x => x.Trait == "RAS").Sum(x => x.Nilai);
-                return m_scores.Single(x => x.NilaiMin <= val && val <= x.NilaiMax && x.Tret == "BR" && x.Jantina == this.Pengguna.Jantina);
+                return m_scores.Single(x => val.IsBetween(x.NilaiMin, x.NilaiMax) && x.Tret == "BR" && x.Jantina == this.Pengguna.Jantina);
             }
         }
 
@@ -174,7 +174,7 @@ namespace web.sph.App_Code
             get
             {
                 var val = m_sesiA.JawapanCollection.Where(x => x.Trait == "AKS").Sum(x => x.Nilai);
-                return m_scores.Single(x => x.NilaiMin <= val && val <= x.NilaiMax && x.Tret == "AS" && x.Jantina == this.Pengguna.Jantina);
+                return m_scores.Single(x => val.IsBetween(x.NilaiMin, x.NilaiMax) && x.Tret == "AS" && x.Jantina == this.Pengguna.Jantina);
             }
         }
 
@@ -185,7 +185,7 @@ namespace web.sph.App_Code
                 var val = m_sesiA.JawapanCollection.Where(x => x.Trait == "KBY").Sum(x => x.Nilai);
                 if (val == 0)
                     val = 1;
-                return m_scores.Single(x => x.NilaiMin <= val && val <= x.NilaiMax && x.Tret == "KBY" && x.Jantina == "NA");
+                return m_scores.Single(x => val.IsBetween(x.NilaiMin, x.NilaiMax) && x.Tret == "KBY" && x.Jantina == "NA");
             }
         }
 
@@ -203,7 +203,7 @@ namespace web.sph.App_Code
             get
             {
                 var val = m_sesiA.JawapanCollection.Where(x => x.Trait == "SIM").Sum(x => x.Nilai);
-                return m_scores.Single(x => x.NilaiMin <= val && val <= x.NilaiMax && x.Tret == "BS" && x.Jantina == this.Pengguna.Jantina);
+                return m_scores.Single(x => val.IsBetween(x.NilaiMin, x.NilaiMax) && x.Tret == "BS" && x.Jantina == this.Pengguna.Jantina);
             }
         }
 
@@ -212,7 +212,7 @@ namespace web.sph.App_Code
             get
             {
                 var val = m_sesiA.JawapanCollection.Where(x => x.Trait == "ASF").Sum(x => x.Nilai);
-                return m_scores.Single(x => x.NilaiMin <= val && val <= x.NilaiMax && x.Tret == "AF" && x.Jantina == this.Pengguna.Jantina);
+                return m_scores.Single(x => val.IsBetween(x.NilaiMin, x.NilaiMax) && x.Tret == "AF" && x.Jantina == this.Pengguna.Jantina);
             }
         }
         class CategoryScore
