@@ -173,6 +173,12 @@
                 "Caption": "Perempuan",
                 "Value": "Perempuan",
                 "WebId": "af4d4b6a-1544-4204-c476-b14f0a65b69b"
+              },
+              {
+                "$type": "Bespoke.Sph.Domain.ComboBoxItem, domain.sph",
+                "Caption": "Lelaki & Perempuan",
+                "Value": "Lelaki & Perempuan",
+                "WebId": "52798663-81d3-4234-bbdd-4cc501c02db6"
               }
             ]
           },
@@ -486,6 +492,6 @@
   "Id": "6506c418-88b1-4d1f-a55b-5800d4c38516",
   "CreatedDate": "2015-08-17T09:17:16.7125306+08:00",
   "ChangedBy": "admin",
-  "ChangedDate": "2015-08-17T10:26:24.4828141+08:00",
+  "ChangedDate": "2015-08-18T10:29:24.8640909+08:00",
   "WebId": "8da5757a-90fe-402d-b60d-97d438070e84"
 }
