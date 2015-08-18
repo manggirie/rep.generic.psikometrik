@@ -1,0 +1,16 @@
+{
+  "$type": "Bespoke.epsikologi_skorukbp.Domain.SkorUkbp, epsikologi.SkorUkbp",
+  "No": "bs-l-sst-70",
+  "Tret": "BS",
+  "NilaiMin": 33,
+  "NilaiMax": 33,
+  "Percentile": 70,
+  "Skor": "Skor Sederhana Tinggi",
+  "Jantina": "Lelaki",
+  "CreatedBy": "admin",
+  "Id": "507b947b-711d-48bc-a479-bb3a6ddac950",
+  "CreatedDate": "2015-08-18T09:13:13.6564277+08:00",
+  "ChangedBy": "admin",
+  "ChangedDate": "2015-08-18T09:13:13.6243973+08:00",
+  "WebId": "8368bb08-5918-48e1-841b-2a13e44b75f5"
+}
