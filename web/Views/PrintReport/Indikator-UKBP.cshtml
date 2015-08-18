@@ -1,13 +1,13 @@
 @using web.sph.App_Code
 @model web.sph.App_Code.UkbpTraitViewModel
 @{
-    Layout = "_MasterPage.cshtml";
+    Layout = "_MasterPage.NoHeader.cshtml";
     var kby = Model.Sesi.JawapanCollection.Where(x => x.Trait == "KBY").Sum(x => x.Nilai);
     var aks = Model.Sesi.JawapanCollection.Where(x => x.Trait == "AKS").Sum(x => x.Nilai) * 100 / 40;
     var ktg = Model.Sesi.JawapanCollection.Where(x => x.Trait == "KTG").Sum(x => x.Nilai) * 100 / 40;
     var ptl1 = Model.Sesi.JawapanCollection.Where(x => x.Trait == "PTL1").Sum(x => x.Nilai);
     var ptl2 = Model.Sesi.JawapanCollection.Where(x => x.Trait == "PTL2").Sum(x => x.Nilai);
-    var ras = Model.Sesi.JawapanCollection.Where(x => x.Trait == "RAS").Sum(x => x.Nilai) * 100/40;
+    var ras = Model.Sesi.JawapanCollection.Where(x => x.Trait == "RAS").Sum(x => x.Nilai) * 100 / 40;
     var tol = Model.Sesi.JawapanCollection.Where(x => x.Trait == "TOL").Sum(x => x.Nilai) * 100 / 40;
     var kcn = Model.Sesi.JawapanCollection.Where(x => x.Trait == "KCN").Sum(x => x.Nilai) * 100 / 40;
     var lpn = Model.Sesi.JawapanCollection.Where(x => x.Trait == "LPN").Sum(x => x.Nilai) * 100 / 40;
@@ -16,9 +16,100 @@
     var sim = Model.Sesi.JawapanCollection.Where(x => x.Trait == "SIM").Sum(x => x.Nilai) * 100 / 40;
     var ptl3 = Model.Sesi.JawapanCollection.Where(x => x.Trait == "PTL3").Sum(x => x.Nilai);
 }
+@section head
+{
+    <style type="text/css">
+        table {
+            font-size: small;
+        }
 
-<strong>BAHAGIAN A: PERSONALITY</strong>
-<table style="font-size: small">
+            table.table-bordered2 td, th {
+                border: 1px solid #000000;
+                padding: 2px;
+            }
+
+            table.table-bordered2 th {
+                text-align: center;
+                background-color: lightskyblue;
+            }
+
+        h1 {
+            font-size: small;
+        }
+
+        td.header {
+            font-weight: bold;
+        }
+    </style>
+}
+
+
+
+
+@helper DisplayRow(int start, int max, int step, string trait, string no, int value, string header = null)
+{
+var column = 20;
+var headerText = header ?? trait;
+    <tr>
+        @if (!string.IsNullOrEmpty(no))
+        {
+
+            <td class="header">@no</td>
+            <td class="header">@headerText</td>
+        }
+        else
+        {
+            <td></td>
+            <td>@headerText</td>
+        }
+
+        @for (var i = start; i <= max; i += step)
+        {
+            column--;
+            var td = Model.TdCollection.SingleOrDefault(x => x.Tret == trait && x.Value == i);
+            var on = value == i ? "-on" : "";
+            if (null == td)
+            {
+                throw new Exception($"Cannot find {i}");
+            }
+            <td>
+                <img alt="@i" src="/images/ukbp/@(td.Image)@(on).png" id="kby-@i" />
+            </td>
+        }
+
+
+        @if (column > 0)
+        {
+            <td colspan="@column"></td>
+        }
+    </tr>
+
+}
+
+
+
+<h1>    LAPORAN UJIAN KHAS BIASISWA PERSEKUTUAN JABATAN PERKHIDMATAN AWAM</h1>
+<table>
+    <colgroup>
+        <col style="width: 17%" />
+        <col style="width: 17%" />
+        <col style="width: 17%" />
+        <col style="width: 17%" />
+        <col style="width: 17%" />
+        <col style="width: 17%" />
+    </colgroup>
+    <tr>
+        <td>Nama Calon :</td>
+        <td></td>
+        <td>No. Kad Pengenalan :</td>
+        <td></td>
+        <td>Pusat Temuduga :</td>
+        <td></td>
+    </tr>
+</table>
+
+<strong>BAHAGIAN A: PERSONALITI</strong>
+<table>
     <colgroup>
         <col style="width: 20px" />
         <col style="width: 200px" />
@@ -43,176 +134,153 @@
         <col style="width: 30px" />
         <col style="width: 30px" />
     </colgroup>
+    @DisplayRow(1, 15, 1, UkbpTraitViewModel.KEBOLEHPERCAYAAN, "1", kby)
+    @DisplayRow(1, 20, 1, UkbpTraitViewModel.NASIONALISME, "2", nas)
+
+
     <tr>
-        <td>1</td>
+        <td class="header">3</td>
+        <td class="header">Pengurusan Emosi</td>
+        <td colspan="20"></td>
+    </tr>
+
+    @DisplayRow(5, 100, 5, UkbpTraitViewModel.KETENANGAN, "", ktg, "(a) Ketenangan")
+    @DisplayRow(5, 100, 5, UkbpTraitViewModel.KECERIAAN, "", kcn, "(b) Keceriaan")
+    @DisplayRow(5, 100, 5, UkbpTraitViewModel.LUAHAN_PERASAAN, "", lpn, "(c) Luahan Perasaan")
+    @DisplayRow(5, 100, 5, UkbpTraitViewModel.BERSIMPATI, "", sim, "(d) Bersimpati")
+
+
+
+    <tr>
+        <td class="header">4</td>
+        <td class="header">Pengurusan Pemikiran</td>
+        <td colspan="20"></td>
+    </tr>
+    @DisplayRow(5, 100, 5, UkbpTraitViewModel.BERFIKIRAN_RASIONAL, "", ras, "(a) Berfikiran Rasional")
+
+    <tr>
+        <td class="header">5</td>
+        <td class="header">Pengurusan Tingkah Laku</td>
+        <td colspan="20"></td>
+    </tr>
+    @DisplayRow(5, 100, 5, UkbpTraitViewModel.AKTIF_SOSIAL, "", aks, "(a) Aktif Sosial")
+    @DisplayRow(5, 100, 5, UkbpTraitViewModel.BERSIKAP_ASERTIF, "", asf, "(b) Bersikap Asertif")
+    @DisplayRow(5, 100, 5, UkbpTraitViewModel.BERTOLERANSI, "", tol, "(c) Bertoleransi")
+    @DisplayRow(5, 100, 5, UkbpTraitViewModel.PENYIMPANGAN_TINGKAH_LAKU, "", ((ptl1 + ptl2 + ptl3) * 2), "(d) Penyimpangan Tingkah Laku")
+
+</table>
+
+<table>
+    <colgroup>
+        <col style="width: 100px" />
+        <col style="width: 100px" />
+        <col style="width: 100px" />
+        <col style="width: 100px" />
+    </colgroup>
+    <tr>
+        <td><img alt="Rendah" src="~/images/ukbp/VeryLight-1.png" /></td>
+        <td><img alt="Rendah" src="~/images/ukbp/Light-1.png" /></td>
+        <td><img alt="Rendah" src="~/images/ukbp/Dark-1.png" /></td>
+        <td><img alt="Rendah" src="~/images/ukbp/VeryDark-1.png" /></td>
+    </tr>
+    <tr>
+        <td style="vertical-align: top">Rendah</td>
+        <td>Sederhana Rendah</td>
+        <td>Sederhana Tinggi</td>
+        <td style="vertical-align: top">Tinggi</td>
+    </tr>
+</table>
+
+<table>
+    <tr>
+        <td>Bidang Pengajian Yang Dipohon:</td>
+    </tr>
+</table>
+<div>
+    <p>
+        <strong>Ulasan: </strong> Dari aspek personaliti, calon mempamerkan dirinya mempunyai ciri-ciri perwatakan yang bersesuaian dengan bidang perubatan iaitu:
+        Dari aspek minat, calon mempamerkan kesesuaian minat dengan bidang pengajian yang dipohon.
+    </p>
+</div>
+<table><colgroup>
+    <col style="width: 300px" />
+    <col style="width: 100px" />
+    <col style="width: 100px" />
+    <col style="width: 100px" />
+</colgroup>
+    <tr>
+        <td>Kesesuaian Dari Aspek Personaliti Dan Minat:</td>
+        <td>Sesuai</td>
+        <td>Kurang Sesuai</td>
+        <td>Tidak Sesuai</td>
+    </tr>
+</table>
+<table style="border-collapse: collapse; border: 1px solid #000000; width: 100%" class="table-bordered2">
+    <colgroup>
+        <col style="width: 200px" />
+        <col style="width: 200px" />
+        <col style="width: 800px" />
+    </colgroup>
+    <thead>
+        <tr>
+            <th>Tret</th>
+            <th>Tahap</th>
+            <th>Ulasan</th>
+        </tr>
+    </thead>
+    <tr>
         <td>Kebolehpercayaan</td>
-
-        @for (var i = 1; i <= 15; i++)
-        {
-            var td = Model.TdCollection.SingleOrDefault(x => x.Tret == UkbpTraitViewModel.KEBOLEHPERCAYAAN && x.Value == i);
-            var on = kby == i ? "-on" : "";
-            if (null == td)
-            {
-                throw new Exception($"Cannot find {i}");
-            }
-            <td>
-                <img alt="@i" src="/images/ukbp/@(td.Image)@(on).png" id="kby-@i" />
-            </td>
-        }
-        <td colspan="5"></td>
+        <td></td>
+        <td></td>
     </tr>
     <tr>
-        <td>2</td>
+        <td>Ketenangan</td>
+        <td></td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>Keceriaan</td>
+        <td></td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>Luahan Perasaan</td>
+        <td></td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>Bersimpati</td>
+        <td></td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>Berfikiran Rasional</td>
+        <td></td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>Aktif Sosial</td>
+        <td></td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>Bersikap Asertif</td>
+        <td></td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>Bertoleransi</td>
+        <td></td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>Penyimpangan Tingkah Laku</td>
+        <td></td>
+        <td></td>
+    </tr>
+    <tr>
         <td>Nasionalisme</td>
-        @for (var i = 1; i <= 20; i++)
-        {
-            var td = Model.TdCollection.Single(x => x.Tret == UkbpTraitViewModel.NASIONALISME && x.Value == i);
-            var on = nas == i ? "-on" : "";
-
-            <td>
-                <img alt="@i" src="/images/ukbp/@(td.Image)@(on).png" id="nas-@i" />
-            </td>
-        }
-    </tr>
-    <tr>
-        <td>3</td>
-        <td>Pengurusan Emosi</td>
-        <td colspan="20"></td>
-    </tr>
-    <tr>
         <td></td>
-        <td>(a) Ketenangan</td>
-        @for (var i = 5; i <= 100; i += 5)
-        {
-            var td = Model.TdCollection.Single(x => x.Tret == UkbpTraitViewModel.KETENANGAN && x.Value == i);
-            var on = ktg == i ? "-on" : "";
-
-            <td>
-                <img alt="@i" src="/images/ukbp/@(td.Image)@(on).png" id="ktg-@i" />
-            </td>
-        }
-    </tr>
-    <tr>
         <td></td>
-        <td>(b) Keceriaan</td>
-        @for (var i = 5; i <= 100; i += 5)
-        {
-            var td = Model.TdCollection.Single(x => x.Tret == UkbpTraitViewModel.KECERIAAN && x.Value == i);
-            var on = kcn == i ? "-on" : "";
-
-            <td>
-                <img alt="@i" src="/images/ukbp/@(td.Image)@(on).png" id="kcn-@i" />
-            </td>
-        }
     </tr>
-    <tr>
-        <td></td>
-        <td>(c) Luahan Perasaan</td>
-        @for (var i = 5; i <= 100; i += 5)
-        {
-            var td = Model.TdCollection.Single(x => x.Tret == UkbpTraitViewModel.LUAHAN_PERASAAN && x.Value == i);
-            var on = lpn == i ? "-on" : "";
-
-            <td>
-                <img alt="@i" src="/images/ukbp/@(td.Image)@(on).png" id="lpn-@i" />
-            </td>
-        }
-    </tr>
-    <tr>
-        <td></td>
-        <td>(d) Bersimpati</td>
-        @for (var i = 5; i <= 100; i += 5)
-        {
-            var td = Model.TdCollection.Single(x => x.Tret == UkbpTraitViewModel.BERSIMPATI && x.Value == i);
-            var on = sim == i ? "-on" : "";
-
-            <td>
-                <img alt="@i" src="/images/ukbp/@(td.Image)@(on).png" id="sim-@i" />
-            </td>
-        }
-    </tr>
-
-
-    <tr>
-        <td>4</td>
-        <td>Pengurusan Pemikiran</td>
-        <td colspan="20"></td>
-    </tr>
-    <tr>
-        <td></td>
-        <td>(a) Berfikiran Rasional</td>
-        @for (var i = 5; i <= 100; i += 5)
-        {
-
-            var td = Model.TdCollection.Single(x => x.Tret == UkbpTraitViewModel.BERFIKIRAN_RASIONAL && x.Value == i);
-            var on = ras == i ? "-on" : "";
-            <td>
-                <img alt="@i" src="/images/ukbp/@(td.Image)@(on).png" id="ras-@i" />
-            </td>
-        }
-    </tr>
-
-
-    <tr>
-        <td>5</td>
-        <td>Pengurusan Tingkah Laku</td>
-        <td colspan="20"></td>
-    </tr>
-    <tr>
-        <td></td>
-        <td>(a) Aktif Sosial</td>
-        @for (var i = 5; i <= 100; i += 5)
-        {
-
-            var td = Model.TdCollection.Single(x => x.Tret == UkbpTraitViewModel.AKTIF_SOSIAL && x.Value == i);
-            var on = aks == i ? "-on" : "";
-            <td>
-                <img alt="@i" src="/images/ukbp/@(td.Image)@(on).png" id="aks-@i" />
-            </td>
-        }
-    </tr>
-    <tr>
-        <td></td>
-        <td>(b) Bersikap Asertif</td>
-        @for (var i = 5; i <= 100; i += 5)
-        {
-
-            var td = Model.TdCollection.Single(x => x.Tret == UkbpTraitViewModel.BERSIKAP_ASERTIF && x.Value == i);
-            var on = asf == i ? "-on" : "";
-            <td>
-                <img alt="@i" src="/images/ukbp/@(td.Image)@(on).png" id="asf-@i" />
-            </td>
-        }
-    </tr>
-    <tr>
-        <td></td>
-        <td>(c) Bertoleransi</td>
-        @for (var i = 5; i <= 100; i += 5)
-        {
-
-            var td = Model.TdCollection.Single(x => x.Tret == UkbpTraitViewModel.BERTOLERANSI && x.Value == i);
-            var on = tol == i ? "-on" : "";
-            <td>
-                <img alt="@i" src="/images/ukbp/@(td.Image)@(on).png" id="tol-@i" />
-            </td>
-        }
-    </tr>
-
-    <tr>
-        <td></td>
-        <td>
-            (d) Penyimpangan
-            Tingkah Laku
-        </td>
-        @for (var i = 5; i <= 100; i += 5)
-        {
-            var td = Model.TdCollection.Single(x => x.Tret == UkbpTraitViewModel.PENYIMPANGAN_TINGKAH_LAKU && x.Value == i);
-            var on = ((ptl1 + ptl2 + ptl3 ) * 2) == i ? "-on" : "";
-
-            <td>
-                <img alt="@i" src="/images/ukbp/@(td.Image)@(on).png" id="ptl-@i" />
-            </td>
-        }
-    </tr>
-
 </table>
