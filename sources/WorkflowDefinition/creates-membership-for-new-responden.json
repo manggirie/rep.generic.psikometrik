@@ -55,7 +55,7 @@
         "$type": "Bespoke.Sph.Domain.NotificationActivity, domain.sph",
         "From": "admin@@sph.my",
         "Subject": "Pendaftaran Pengguna Sistem Ujian Psikometrik",
-        "Body": "Assalamualaikum dan Salam Sejahtera,\n\nYBhg. Tan Sri/Dato' Seri/Datuk/Dato\u0019/Datin/Dr./Tuan/Puan,\n\nSukacita dimaklumkan bahawa YBhg. Tan Sri/Dato' Seri/Datuk/Dato\u0019/Datin/Dr./Tuan/Puan telah didaftarkan sebagai pengguna Sistem Ujian Psikometrik. Butiran log masuk yang didaftarkan adalah seperti berikut:\n\n          ID pengguna       : @Model.Pengguna.MyKad\n          Kata laluan         : @Raw(Model.Password)\n          Alamat pelayar    : http://psikometrik.jpa.gov.my\n\n2.    YBhg. Tan Sri/Dato' Seri/Datuk/Dato\u0019/Datin/Dr./Tuan/Puan perlu menukar kata laluan pada pertama kali log masuk ke dalam Sistem.\n\n3.    Atas perhatian dan kerjasama YBhg. Tan Sri/Dato' Seri/Datuk/Dato\u0019/Datin/Dr./Tuan/Puan dalam perkara ini didahului dengan ucapan ribuan terima kasih.\n\nSekian.\n\n\"PENERAJU TRANSFORMASI PERKHIDMATAN AWAM\"\n\nUrus Setia \nSistem Ujian Psikometrik \n\nhttp://psikometrik.jpa.gov.my\n\n(Emel makluman ini dijana secara automatik oleh Sistem Ujian Psikometrik)",
+        "Body": "Assalamualaikum dan Salam Sejahtera,\n\nYBhg. Tan Sri/Dato' Seri/Datuk/Dato'/Datin/Dr./Tuan/Puan,\n\nSukacita dimaklumkan bahawa YBhg. Tan Sri/Dato' Seri/Datuk/Dato'/Datin/Dr./Tuan/Puan telah didaftarkan sebagai pengguna Sistem Ujian Psikometrik. Butiran log masuk yang didaftarkan adalah seperti berikut:\n\n          ID pengguna        : @Model.Pengguna.MyKad\n          Kata laluan           : @Raw(Model.Password)\n          Alamat pelayar    : http://psikometrik.jpa.gov.my\n\n2.    YBhg. Tan Sri/Dato' Seri/Datuk/Dato'/Datin/Dr./Tuan/Puan perlu menukar kata laluan pada pertama kali log masuk ke dalam Sistem.\n\n3.    Atas perhatian dan kerjasama YBhg. Tan Sri/Dato' Seri/Datuk/Dato'/Datin/Dr./Tuan/Puan dalam perkara ini didahului dengan ucapan ribuan terima kasih.\n\nSekian.\n\n\"PENERAJU TRANSFORMASI PERKHIDMATAN AWAM\"\n\nUrus Setia \nSistem Ujian Psikometrik \n\nhttp://psikometrik.jpa.gov.my\n\n(Emel makluman ini dijana secara automatik oleh Sistem Ujian Psikometrik)",
         "To": "@Model.Pengguna.Emel",
         "UserName": null,
         "Cc": null,
@@ -270,8 +270,8 @@
       {
         "$type": "Bespoke.Sph.Domain.NotificationActivity, domain.sph",
         "From": "admin@@sph.my",
-        "Subject": "JPA ePsikometrik account has been created",
-        "Body": "Salam sejahtera,\n\nYour account has been created you can reach the application at \n@ViewBag.BaseUrl\n\nUser name :  @Model.Pengguna.MyKad\nPassword :  @Raw(Model.Password)\n\nYou will have to change your password upon first time signing in.\n\nThis is a computer generated email.\n        ",
+        "Subject": "Pendaftaran Pengguna Sistem Ujian Psikometrik",
+        "Body": "Assalamualaikum dan Salam Sejahtera,\n\nYBhg. Tan Sri/Dato' Seri/Datuk/Dato'/Datin/Dr./Tuan/Puan,\n\nSukacita dimaklumkan bahawa YBhg. Tan Sri/Dato' Seri/Datuk/Dato'/Datin/Dr./Tuan/Puan telah didaftarkan sebagai pengguna Sistem Ujian Psikometrik. Butiran log masuk yang didaftarkan adalah seperti berikut:\n\n          ID pengguna        : @Model.Pengguna.MyKad\n          Kata laluan           : @Raw(Model.Password)\n          Alamat pelayar    : http://psikometrik.jpa.gov.my\n\n2.    YBhg. Tan Sri/Dato' Seri/Datuk/Dato'/Datin/Dr./Tuan/Puan perlu menukar kata laluan pada pertama kali log masuk ke dalam Sistem.\n\n3.    Atas perhatian dan kerjasama YBhg. Tan Sri/Dato' Seri/Datuk/Dato'/Datin/Dr./Tuan/Puan dalam perkara ini didahului dengan ucapan ribuan terima kasih.\n\nSekian.\n\n\"PENERAJU TRANSFORMASI PERKHIDMATAN AWAM\"\n\nUrus Setia \nSistem Ujian Psikometrik \n\nhttp://psikometrik.jpa.gov.my\n\n(Emel makluman ini dijana secara automatik oleh Sistem Ujian Psikometrik)",
         "To": "@Model.Pengguna.Emel2",
         "UserName": null,
         "Cc": null,
@@ -454,6 +454,6 @@
   "Id": "creates-membership-for-new-responden",
   "CreatedDate": "2015-06-16T08:05:10.6327134+08:00",
   "ChangedBy": "admin",
-  "ChangedDate": "2015-08-19T11:05:36.5541328+08:00",
+  "ChangedDate": "2015-08-19T11:49:30.0199652+08:00",
   "WebId": "79cadf36-6a53-4c66-d9fc-3f21a5b318ff"
 }
