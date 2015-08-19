@@ -426,7 +426,18 @@
 </table>
 <script src="~/Scripts/jquery-2.1.3.min.js"></script>
 <script type="text/javascript">
-    $(function () {
+    var vm = @Html.Raw(Model.ToString());
+    $(function(){
+        $("#A" + vm.SkorA).addClass("tg-6wvf");
+        $("#B" + vm.SkorB).addClass("tg-6wvf");
+        $("#C" + vm.SkorC).addClass("tg-6wvf");
+        $("#D" + vm.SkorD).addClass("tg-6wvf");
+        $("#E" + vm.SkorE).addClass("tg-6wvf");
+        $("#F" + vm.SkorF).addClass("tg-6wvf");
+        $("#G" + vm.SkorG).addClass("tg-6wvf");
+        $("#H" + vm.SkorH).addClass("tg-6wvf");
+        $("#I" + vm.SkorI).addClass("tg-6wvf");
+        $("#J" + vm.SkorJ).addClass("tg-6wvf");
 
         window.print();
     });
