@@ -68,7 +68,22 @@ define(["services/datacontext", objectbuilders.app],
                 if (sct.Name() === "2" && ujian().UjianNo() === "UKBP-B") {
                     $.get("/arahan/ukbp-b.section-2.html")
                     .done(function (html) {
-                        app.showMessage(html, "JPA ePsikometrik", ["OK"]);
+                        app.showMessage(html, "JPA ePsikometrik", ["OK"]).done(function () {
+                            $("div.soalan-panel").each(function() {
+                                var soalan = ko.dataFor(this);
+                                if (ko.unwrap(soalan.SoalanNo) === "UKBP-B-00091") {
+                                    $(this).before("<br/><strong>Sekiranya diberi peluang, saya ingin ...</strong>");
+                                }
+                                if (ko.unwrap(soalan.SoalanNo) === "UKBP-B-00090") {
+                                    $(this).before("<br/><strong>Saya boleh ...</strong>");
+                                }
+                                if (ko.unwrap(soalan.SoalanNo) === "UKBP-B-00211") {
+                                    $(this).before("<br/><strong>Saya meminati kerjaya sebagai seorang  ...</strong>");
+                                }
+                            });
+
+                        });
+
                     });
                 }
                 runTimer(sct)
