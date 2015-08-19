@@ -1,0 +1,16 @@
+{
+  "$type": "Bespoke.epsikologi_skorukbp.Domain.SkorUkbp, epsikologi.SkorUkbp",
+  "No": "ne-sr-30",
+  "Tret": "NE",
+  "NilaiMin": 6,
+  "NilaiMax": 6,
+  "Percentile": 30,
+  "Skor": "Rendah",
+  "Jantina": "NA",
+  "CreatedBy": "admin",
+  "Id": "ne-sr-30",
+  "CreatedDate": "2015-08-18T11:53:01.939516+08:00",
+  "ChangedBy": "admin",
+  "ChangedDate": "2015-08-18T11:53:01.9385159+08:00",
+  "WebId": "45ef9208-0a9a-4353-8487-753e02c88649"
+}

@@ -82,10 +82,11 @@ namespace web.sph.App_Code
                 }
                 var ip = s.NamaUjian.Contains("IP") && !s.NamaUjian.Contains("IPU");
                 var ibk = s.NamaUjian.Contains("IBK") ;
+                var iso = s.NamaUjian.Contains("ISO") ;
                 var hlp = s.NamaUjian.Contains("HLP") ;
                 var ppkp = s.NamaUjian.Contains("PPKP") ;
                 var ukbp = s.NamaUjian.Contains("UKBP");
-                var indikator = ibk || ip || hlp ? "" :
+                var indikator = ibk || ip || hlp || iso ? "" :
                     $@"<a class=""indikator-report btn btn-info"" target=""_blank"" href=""cetak-laporan/indikator/{
                         s.NamaUjian}/{s.Id}""> <i class=""fa fa-print""></i> Indikator</a>";
                 if (ppkp)

@@ -1,0 +1,16 @@
+{
+  "$type": "Bespoke.epsikologi_skorukbp.Domain.SkorUkbp, epsikologi.SkorUkbp",
+  "No": "kc-p-sst-35",
+  "Tret": "KC",
+  "NilaiMin": 5,
+  "NilaiMax": 5,
+  "Percentile": 35,
+  "Skor": "Sederhana Tinggi",
+  "Jantina": "Perempuan",
+  "CreatedBy": "admin",
+  "Id": "kc-p-sst-35",
+  "CreatedDate": "2015-08-17T15:11:03.39987+08:00",
+  "ChangedBy": "admin",
+  "ChangedDate": "2015-08-17T15:11:03.3888689+08:00",
+  "WebId": "ba4c07b4-d0a6-4468-ae86-206a1241f987"
+}

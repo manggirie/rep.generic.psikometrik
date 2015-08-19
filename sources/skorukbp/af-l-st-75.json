@@ -1,0 +1,16 @@
+{
+  "$type": "Bespoke.epsikologi_skorukbp.Domain.SkorUkbp, epsikologi.SkorUkbp",
+  "No": "af-l-st-75",
+  "Tret": "AF",
+  "NilaiMin": 29,
+  "NilaiMax": 29,
+  "Percentile": 75,
+  "Skor": "Tinggi",
+  "Jantina": "Lelaki",
+  "CreatedBy": "admin",
+  "Id": "af-l-st-75",
+  "CreatedDate": "2015-08-18T11:23:15.9661478+08:00",
+  "ChangedBy": "admin",
+  "ChangedDate": "2015-08-18T11:23:15.9641476+08:00",
+  "WebId": "57aa982b-935c-4ffc-dd0b-e232b0768a08"
+}

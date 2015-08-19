@@ -1,0 +1,16 @@
+{
+  "$type": "Bespoke.epsikologi_skorukbp.Domain.SkorUkbp, epsikologi.SkorUkbp",
+  "No": "as-p-ssr-35",
+  "Tret": "AS",
+  "NilaiMin": 24,
+  "NilaiMax": 24,
+  "Percentile": 35,
+  "Skor": "Sederhana Rendah",
+  "Jantina": "Perempuan",
+  "CreatedBy": "admin",
+  "Id": "as-p-ssr-35",
+  "CreatedDate": "2015-08-18T09:04:11.2563701+08:00",
+  "ChangedBy": "admin",
+  "ChangedDate": "2015-08-18T09:04:11.1963581+08:00",
+  "WebId": "08e2f3b2-67c5-49f4-d3bf-433a9e4be0fe"
+}

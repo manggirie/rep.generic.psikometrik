@@ -13,13 +13,13 @@ namespace web.sph.App_Code
     public partial class PrintReportController
     {
 
-        public ActionResult Pdf(string view, LaporanViewModel vm, Func<string, string> htmlProcessing = null, bool isLandscape = false, int tryCount = 0)
+        public ActionResult Pdf(string view, LaporanViewModel vm, string masterPage = "~/Views/PrintReport/_MasterPage.cshtml", Func<string, string> htmlProcessing = null, bool isLandscape = false, int tryCount = 0)
         {
             var license = new License();
             license.SetLicense(ConfigurationManager.BaseDirectory + @"\lib\Aspose.Pdf.lic");
             license.Embedded = true;
 
-            var html = RenderViewToString(this, view, vm);
+            var html = RenderViewToString(this, view, vm, masterPage);
             if (htmlProcessing != null) html = htmlProcessing(html);
 
             using (var stream = new MemoryStream(Encoding.UTF8.GetBytes(html)))
@@ -45,7 +45,7 @@ namespace web.sph.App_Code
                 }
                 catch (NotSupportedException e) when (e.Message.Contains("woff") && tryCount < 3)
                 {
-                    return Pdf(view, vm, htmlProcessing, isLandscape, tryCount + 1);
+                    return Pdf(view, vm, masterPage, htmlProcessing, isLandscape, tryCount + 1);
                 }
                 catch (NotSupportedException e) when (e.Message.Contains("woff") && tryCount >= 3)
                 {
@@ -71,12 +71,12 @@ namespace web.sph.App_Code
             }
         }
 
-        public static string RenderViewToString(Controller controller, string viewName, object model)
+        public static string RenderViewToString(Controller controller, string viewName, object model,string masterPage)
         {
             controller.ViewData.Model = model;
             using (var sw = new StringWriter())
             {
-                var viewResult = ViewEngines.Engines.FindView(controller.ControllerContext, viewName, "~/Views/PrintReport/_MasterPage.cshtml");
+                var viewResult = ViewEngines.Engines.FindView(controller.ControllerContext, viewName, masterPage);
                 var viewContext = new ViewContext(controller.ControllerContext, viewResult.View, controller.ViewData, controller.TempData, sw);
                 viewResult.View.Render(viewContext, sw);
 

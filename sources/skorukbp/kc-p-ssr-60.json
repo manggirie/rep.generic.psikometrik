@@ -1,0 +1,16 @@
+{
+  "$type": "Bespoke.epsikologi_skorukbp.Domain.SkorUkbp, epsikologi.SkorUkbp",
+  "No": "kc-p-ssr-60",
+  "Tret": "KC",
+  "NilaiMin": 10,
+  "NilaiMax": 10,
+  "Percentile": 60,
+  "Skor": "Sederhana Rendah",
+  "Jantina": "Perempuan",
+  "CreatedBy": "admin",
+  "Id": "kc-p-ssr-60",
+  "CreatedDate": "2015-08-17T15:08:11.1079709+08:00",
+  "ChangedBy": "admin",
+  "ChangedDate": "2015-08-17T15:08:11.1049706+08:00",
+  "WebId": "e455c4eb-b50f-40fb-cc2a-a0d709618ef0"
+}

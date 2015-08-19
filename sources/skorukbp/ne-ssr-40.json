@@ -1,0 +1,16 @@
+{
+  "$type": "Bespoke.epsikologi_skorukbp.Domain.SkorUkbp, epsikologi.SkorUkbp",
+  "No": "ne-ssr-40",
+  "Tret": "NE",
+  "NilaiMin": 8,
+  "NilaiMax": 8,
+  "Percentile": 40,
+  "Skor": "Sederhana Rendah",
+  "Jantina": "NA",
+  "CreatedBy": "admin",
+  "Id": "ne-ssr-40",
+  "CreatedDate": "2015-08-18T11:56:25.9945715+08:00",
+  "ChangedBy": "admin",
+  "ChangedDate": "2015-08-18T11:56:25.9675688+08:00",
+  "WebId": "6952ac8f-3752-4bcb-9730-0aac73e2b0fd"
+}

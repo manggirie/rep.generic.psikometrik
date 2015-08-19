@@ -11,6 +11,9 @@
         }
     </style>
 }
+@section Peringatan{
+    @Html.Partial("_peringatan.ppkp")
+}
 <div style="height:40px"></div>
 
 <table class="row">
@@ -22,7 +25,7 @@
         <tr>
             <td style="text-align: center">
                 <strong>PROFIL PERSONALITI</strong>
-                <br/>
+                <br />
                 <canvas id="profil-personaliti-chart" height="200" width="400"></canvas>
             </td>
             <td style="vertical-align:top">
@@ -63,7 +66,7 @@
         <tr>
             <td style="text-align: center">
                 <strong>PROFIL KEPIMPINAN</strong>
-                <br/>
+                <br />
                 <canvas id="profil-kempipinan-chart" height="400" width="400"></canvas>
             </td>
             <td>
@@ -72,30 +75,29 @@
                     <p>
                         <strong>@Model.Emosi.Tret</strong>
                         <br />
-                        <style="text-align:justify">@Model.Emosi.Kepimpinan
+                    <p style="text-align:justify">@Model.Emosi.Kepimpinan</p>
                     </p>
                     <p>
                         <strong>@Model.Peribadi.Tret</strong>
                         <br />
-                        <style="text-align:justify">@Model.Peribadi.Kepimpinan
+                    <p style="text-align: justify">@Model.Peribadi.Kepimpinan</p>
                     </p>
 
                     <p>
                         <strong> @Model.Interpersonal.Tret</strong>
                         <br />
-                        <style="text-align:justify">@Model.Interpersonal.Kepimpinan
+                    <p style="text-align:justify">@Model.Interpersonal.Kepimpinan</p>
                     </p>
                     <p>
                         <strong> @Model.Pemikiran.Tret</strong>
 
                         <br />
-                        <style="text-align:justify">@Model.Pemikiran.Kepimpinan
+                    <p style="text-align:justify">@Model.Pemikiran.Kepimpinan</p>
                     </p>
                     <p>
                         <strong> @Model.GayaBekerja.Tret</strong>
-
                         <br />
-                        <style="text-align:justify">@Model.GayaBekerja.Kepimpinan
+                    <p style="text-align:justify">@Model.GayaBekerja.Kepimpinan</p>
                     </p>
                 </div>
             </td>
@@ -106,7 +108,7 @@
                 <div style="border: 1px solid #000000; padding-top: 10px; margin-top: 40px">
 
                     <strong>KESESUAIAN PENEMPATAN</strong>
-                    <br/>
+                    <br />
                     <canvas id="kesesuaian-penempatan-chart" height="280" width="950"></canvas>
                 </div>
             </td>
@@ -187,10 +189,10 @@
         });
 
         kesesuaianPenempatanChart.datasets[0].bars[0].fillColor = "red";
-        kesesuaianPenempatanChart.datasets[0].bars[1].fillColor = "greenyellow"; 
-        kesesuaianPenempatanChart.datasets[0].bars[2].fillColor = "#98bde3"; 
-        kesesuaianPenempatanChart.datasets[0].bars[3].fillColor = "#719bf0"; 
-        kesesuaianPenempatanChart.datasets[0].bars[4].fillColor = "#3bae63"; 
+        kesesuaianPenempatanChart.datasets[0].bars[1].fillColor = "greenyellow";
+        kesesuaianPenempatanChart.datasets[0].bars[2].fillColor = "#98bde3";
+        kesesuaianPenempatanChart.datasets[0].bars[3].fillColor = "#719bf0";
+        kesesuaianPenempatanChart.datasets[0].bars[4].fillColor = "#3bae63";
         kesesuaianPenempatanChart.update();
 
 

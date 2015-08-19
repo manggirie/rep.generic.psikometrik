@@ -1,0 +1,16 @@
+{
+  "$type": "Bespoke.epsikologi_skorukbp.Domain.SkorUkbp, epsikologi.SkorUkbp",
+  "No": "ptl-sr-45",
+  "Tret": "PTL",
+  "NilaiMin": 9,
+  "NilaiMax": 9,
+  "Percentile": 45,
+  "Skor": "Rendah",
+  "Jantina": "NA",
+  "CreatedBy": "admin",
+  "Id": "ptl-sr-45",
+  "CreatedDate": "2015-08-18T11:29:48.6974597+08:00",
+  "ChangedBy": "admin",
+  "ChangedDate": "2015-08-18T11:29:48.6974597+08:00",
+  "WebId": "46b860f3-e35e-462a-e191-65f15bf07617"
+}

@@ -79,7 +79,8 @@ namespace web.sph.App_Code
             vm.RecommendationJ = await context.LoadOneAsync<IpuRecommendation>(x => x.Tret == "J" && x.NilaiMin <= vm.J && vm.J <= x.NilaiMax);
 
 
-            return Pdf("Trait-Ipu", vm, x => x
+            return Pdf("Trait-Ipu", vm, "~/Views/PrintReport/_MasterPage.cshtml",
+                x => x
                 .Replace($"id=\"A{vm.SkorA}\"", $"id=\"A{vm.SkorA}\" class=\"tg-6wvf\"")
                 .Replace($"id=\"B{vm.SkorB}\"", $"id=\"B{vm.SkorB}\" class=\"tg-6wvf\"")
                 .Replace($"id=\"C{vm.SkorC}\"", $"id=\"C{vm.SkorC}\" class=\"tg-6wvf\"")
@@ -152,17 +153,18 @@ namespace web.sph.App_Code
             vm.SkorJ = vm.J;
 
             var viewName = "Indikator-Ipu-" + user.Jantina;
-            return Pdf(viewName, vm, x => x
-                .Replace($"id=\"A{vm.SkorA}\"", $"id=\"A{vm.SkorA}\" class=\"tg-6wvf\"")
-                .Replace($"id=\"B{vm.SkorB}\"", $"id=\"B{vm.SkorB}\" class=\"tg-6wvf\"")
-                .Replace($"id=\"C{vm.SkorC}\"", $"id=\"C{vm.SkorC}\" class=\"tg-6wvf\"")
-                .Replace($"id=\"D{vm.SkorD}\"", $"id=\"D{vm.SkorD}\" class=\"tg-6wvf\"")
-                .Replace($"id=\"E{vm.SkorE}\"", $"id=\"E{vm.SkorE}\" class=\"tg-6wvf\"")
-                .Replace($"id=\"F{vm.SkorF}\"", $"id=\"F{vm.SkorF}\" class=\"tg-6wvf\"")
-                .Replace($"id=\"G{vm.SkorG}\"", $"id=\"G{vm.SkorG}\" class=\"tg-6wvf\"")
-                .Replace($"id=\"H{vm.SkorH}\"", $"id=\"H{vm.SkorH}\" class=\"tg-6wvf\"")
-                .Replace($"id=\"I{vm.SkorI}\"", $"id=\"I{vm.SkorI}\" class=\"tg-6wvf\"")
-                .Replace($"id=\"J{vm.SkorJ}\"", $"id=\"J{vm.SkorJ}\" class=\"tg-6wvf\""));
+            //return Pdf(viewName, vm, "~/Views/PrintReport/_MasterPage.cshtml", x => x
+            //    .Replace($"id=\"A{vm.SkorA}\"", $"id=\"A{vm.SkorA}\" class=\"tg-6wvf\"")
+            //    .Replace($"id=\"B{vm.SkorB}\"", $"id=\"B{vm.SkorB}\" class=\"tg-6wvf\"")
+            //    .Replace($"id=\"C{vm.SkorC}\"", $"id=\"C{vm.SkorC}\" class=\"tg-6wvf\"")
+            //    .Replace($"id=\"D{vm.SkorD}\"", $"id=\"D{vm.SkorD}\" class=\"tg-6wvf\"")
+            //    .Replace($"id=\"E{vm.SkorE}\"", $"id=\"E{vm.SkorE}\" class=\"tg-6wvf\"")
+            //    .Replace($"id=\"F{vm.SkorF}\"", $"id=\"F{vm.SkorF}\" class=\"tg-6wvf\"")
+            //    .Replace($"id=\"G{vm.SkorG}\"", $"id=\"G{vm.SkorG}\" class=\"tg-6wvf\"")
+            //    .Replace($"id=\"H{vm.SkorH}\"", $"id=\"H{vm.SkorH}\" class=\"tg-6wvf\"")
+            //    .Replace($"id=\"I{vm.SkorI}\"", $"id=\"I{vm.SkorI}\" class=\"tg-6wvf\"")
+            //    .Replace($"id=\"J{vm.SkorJ}\"", $"id=\"J{vm.SkorJ}\" class=\"tg-6wvf\""));
+            return View(viewName, vm);
         }
 
 
