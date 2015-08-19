@@ -95,17 +95,17 @@ namespace web.sph.App_Code
         }
 
         public ObjectCollection<Td> TdCollection { get; } = new ObjectCollection<Td>();
-        public UkbpRecommendation RecommendationKBY => m_recommendations.Single(x => x.Tret == KEBOLEHPERCAYAAN && x.Skor == this.KBY.Skor.Replace("Skor ", ""));
-        public UkbpRecommendation RecommendationASF => m_recommendations.Single(x => x.Tret == BERSIKAP_ASERTIF && x.Skor == this.ASF.Skor.Replace("Skor ", ""));
-        public UkbpRecommendation RecommendationNAS => m_recommendations.Single(x => x.Tret == NASIONALISME && x.Skor == this.NAS.Skor.Replace("Skor ", ""));
-        public UkbpRecommendation RecommendationAKS => m_recommendations.Single(x => x.Tret == AKTIF_SOSIAL && x.Skor == this.AKS.Skor.Replace("Skor ", ""));
-        public UkbpRecommendation RecommendationPTL => m_recommendations.Single(x => x.Tret == PENYIMPANGAN_TINGKAH_LAKU && x.Skor == this.PTL.Skor.Replace("Skor ", ""));
-        public UkbpRecommendation RecommendationRAS => m_recommendations.Single(x => x.Tret == BERFIKIRAN_RASIONAL && x.Skor == this.RAS.Skor.Replace("Skor ", ""));
-        public UkbpRecommendation RecommendationSIM => m_recommendations.Single(x => x.Tret == BERSIMPATI && x.Skor == this.SIM.Skor.Replace("Skor ", ""));
-        public UkbpRecommendation RecommendationKCN => m_recommendations.Single(x => x.Tret == KECERIAAN && x.Skor == this.KCN.Skor.Replace("Skor ", ""));
-        public UkbpRecommendation RecommendationKTG => m_recommendations.Single(x => x.Tret == KETENANGAN && x.Skor == this.KTG.Skor.Replace("Skor ", ""));
-        public UkbpRecommendation RecommendationTOL => m_recommendations.Single(x => x.Tret == BERTOLERANSI && x.Skor == this.TOL.Skor.Replace("Skor ", ""));
-        public UkbpRecommendation RecommendationLPN => m_recommendations.Single(x => x.Tret == LUAHAN_PERASAAN && x.Skor == this.LPN.Skor.Replace("Skor ", ""));
+        public UkbpRecommendation RecommendationKBY => m_recommendations.Single(x => x.Tret == KEBOLEHPERCAYAAN && x.Skor == this.KBY.Skor);
+        public UkbpRecommendation RecommendationASF => m_recommendations.Single(x => x.Tret == BERSIKAP_ASERTIF && x.Skor == this.ASF.Skor);
+        public UkbpRecommendation RecommendationNAS => m_recommendations.Single(x => x.Tret == NASIONALISME && x.Skor == this.NAS.Skor);
+        public UkbpRecommendation RecommendationAKS => m_recommendations.Single(x => x.Tret == AKTIF_SOSIAL && x.Skor == this.AKS.Skor);
+        public UkbpRecommendation RecommendationPTL => m_recommendations.Single(x => x.Tret == PENYIMPANGAN_TINGKAH_LAKU && x.Skor == this.PTL.Skor);
+        public UkbpRecommendation RecommendationRAS => m_recommendations.Single(x => x.Tret == BERFIKIRAN_RASIONAL && x.Skor == this.RAS.Skor);
+        public UkbpRecommendation RecommendationSIM => m_recommendations.Single(x => x.Tret == BERSIMPATI && x.Skor == this.SIM.Skor);
+        public UkbpRecommendation RecommendationKCN => m_recommendations.Single(x => x.Tret == KECERIAAN && x.Skor == this.KCN.Skor);
+        public UkbpRecommendation RecommendationKTG => m_recommendations.Single(x => x.Tret == KETENANGAN && x.Skor == this.KTG.Skor);
+        public UkbpRecommendation RecommendationTOL => m_recommendations.Single(x => x.Tret == BERTOLERANSI && x.Skor == this.TOL.Skor);
+        public UkbpRecommendation RecommendationLPN => m_recommendations.Single(x => x.Tret == LUAHAN_PERASAAN && x.Skor == this.LPN.Skor);
 
 
         public SkorUkbp NAS

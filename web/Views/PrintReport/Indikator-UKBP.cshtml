@@ -286,7 +286,19 @@ var headerText = header ?? trait;
     <tr>
         <td>Penyimpangan Tingkah Laku</td>
         <td>@Model.PTL.Skor</td>
-        <td>@Model.RecommendationPTL.Text</td>
+        <td>
+            @{
+                try
+                {
+                    @:Model.RecommendationPTL.Text
+                }
+                catch (InvalidOperationException)
+                {
+  
+                    @:Model.RecommendationPTL.Text;
+                }
+            }
+        </td>
     </tr>
     <tr>
         <td>Nasionalisme</td>
