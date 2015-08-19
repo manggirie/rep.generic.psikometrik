@@ -22,11 +22,11 @@ void Main()
 
 			g.FillRectangle(td.Background, 0, 0, width, height);
 			
-			var redPen = new Pen(Color.Red, 4);
-			g.DrawRectangle(redPen,0,0,width, height);
+			var redPen = new Pen(Color.Red, 5);
+			g.DrawRectangle(redPen,0,0,width-1, height-1);
 
-			var font = new Font("Arial", 8);
-			g.DrawString(i.ToString(), font, td.Pen, 8, 2);
+			var font = new Font("Arial", 3.5f);
+			g.DrawString(i.ToString(), font, td.Pen, 8, 4);
 			bmp.Save($@"C:\project\rep.generic.psikometrik\web\images\ukbp\{sh}-{i}-on.png", ImageFormat.Png);
 
 			g.Dispose();
