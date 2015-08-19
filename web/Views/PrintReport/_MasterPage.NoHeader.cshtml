@@ -6,7 +6,7 @@
         div.peringatan {
             page-break-after: always;
         }
-    </style> 
+    </style>
     <style>
         div.peringatan {
             page-break-after: always;
@@ -15,8 +15,19 @@
     @RenderSection("head", false)
 </head>
 <body>
+    @if (IsSectionDefined("Peringatan"))
+    {
+        <div>
+            @RenderSection("Peringatan")
+        </div>
+    }
+    else
+    {
+        <div>
 
-    @Html.Partial("_peringatan.ip")
+            @Html.Partial("_peringatan.ip")
+        </div>
+    }
     @RenderBody()
 </body>
 </html>
