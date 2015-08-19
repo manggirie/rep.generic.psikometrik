@@ -2,16 +2,16 @@ define(["services/datacontext", objectbuilders.app],
     function (context, app) {
 
         var activate = function (options) {
-                var currentSection = options.currentSection || {},
-                    sesiUjian = options.sesiUjian,
-                    interval = options.interval,
-                    ujian = options.ujian,
-                    timer = options.timer,
-                    sections = options.sections,
-                    questionsCount = options.questionsCount,
-                    totalAnswered = options.totalAnswered;
+            var currentSection = options.currentSection || {},
+                sesiUjian = options.sesiUjian,
+                interval = options.interval,
+                ujian = options.ujian,
+                timer = options.timer,
+                sections = options.sections,
+                questionsCount = options.questionsCount,
+                totalAnswered = options.totalAnswered;
 
-                var runTimer = function (v) {
+            var runTimer = function (v) {
                 if (interval) {
                     clearInterval(interval);
                 }
@@ -61,8 +61,15 @@ define(["services/datacontext", objectbuilders.app],
             var index = 0;
             var run = function () {
                 var sct = ujian().SectionCollection()[index];
-                if (typeof sct === "undefined") {
+                if (typeof sct === "undefined" || !sct) {
                     return;
+                }
+
+                if (sct.Name() === "2" && ujian().UjianNo() === "UKBP-B") {
+                    $.get("/arahan/ukbp-b.section-2.html")
+                    .done(function (html) {
+                        app.showMessage(html, "JPA ePsikometrik", ["OK"]);
+                    });
                 }
                 runTimer(sct)
                         .fail()
@@ -141,7 +148,7 @@ define(["services/datacontext", objectbuilders.app],
         },
         attached = function (view) {
 
-            };
+        };
 
         var vm = {
             activate: activate,
