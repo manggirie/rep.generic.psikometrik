@@ -2,7 +2,7 @@
   "$type": "Bespoke.epsikologi_skoripu.Domain.SkorIPU, epsikologi.SkorIPU",
   "No": "f-p-sr-100",
   "Tret": "F",
-  "NilaiMin": 23,
+  "NilaiMin": 28,
   "NilaiMax": 40,
   "Percentile": 100,
   "Skor": "Skor Rendah",
@@ -10,7 +10,7 @@
   "CreatedBy": "Pentadbir1",
   "Id": "f-p-sr-100",
   "CreatedDate": "2015-08-04T09:52:39.118156+08:00",
-  "ChangedBy": "Pentadbir1",
-  "ChangedDate": "2015-08-04T09:52:39.1021413+08:00",
+  "ChangedBy": "admin",
+  "ChangedDate": "2015-08-20T15:01:22.1255338+08:00",
   "WebId": "4aca4624-7945-4271-9dbe-9c64625e7e69"
 }

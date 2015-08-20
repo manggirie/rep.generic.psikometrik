@@ -103,7 +103,11 @@
 
 
                 toolbar : {
-                                                                                                        
+                                                        removeCommand :remove,
+                    canExecuteRemoveCommand : ko.computed(function(){
+                        return entity().Id();
+                    }),
+                                                                
                     saveCommand : save,
                     
                     commands : ko.observableArray([])
