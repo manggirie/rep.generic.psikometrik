@@ -1,9 +1,9 @@
 @using Humanizer
-<!-- BEGIN HEADER -->
+ @*BEGIN HEADER*@ 
 <div class="page-header md-shadow-z-1-i navbar navbar-fixed-top">
-	<!-- BEGIN HEADER INNER -->
+	 @*BEGIN HEADER INNER*@ 
 	<div class="page-header-inner">
-		<!-- BEGIN LOGO -->
+		 @*BEGIN LOGO*@ 
 		<div class="page-logo">
 			<a href="#">
 			<img src="/images/sph_32x32.png" alt="logo" class="logo-default"/>
@@ -11,15 +11,15 @@
 			<div class="menu-toggler sidebar-toggler hide">
 			</div>
 		</div>
-		<!-- END LOGO -->
-		<!-- BEGIN RESPONSIVE MENU TOGGLER -->
+		@* END LOGO  *@
+		@* BEGIN RESPONSIVE MENU TOGGLER  *@
 		<a href="javascript:;" class="menu-toggler responsive-toggler" data-toggle="collapse" data-target=".navbar-collapse">
 		</a>
-		<!-- END RESPONSIVE MENU TOGGLER -->
+		@* END RESPONSIVE MENU TOGGLER  *@
 		<div class="pull-left">
 		<a href="@Model.StartModule" style="font-size:24px;color:white;">SISTEM UJIAN PSIKOMETRIK</a>
 		</div>
-		<!-- BEGIN TOP NAVIGATION MENU -->
+		@* BEGIN TOP NAVIGATION MENU  *@
 		<div class="top-menu">
 			<ul class="nav navbar-nav pull-right">
 
@@ -27,11 +27,11 @@
 				@if (Model.Designation.IsMessageVisible)
 				{
 					@Html.Partial("_messagesHeader")
-					<!-- END INBOX DROPDOWN -->
+					@* END INBOX DROPDOWN  *@
 				}
 
-				<!-- BEGIN USER LOGIN DROPDOWN -->
-				<!-- DOC: Apply "dropdown-dark" class after below "dropdown-extended" to change the dropdown styte -->
+				@* BEGIN USER LOGIN DROPDOWN  *@
+				@* DOC: Apply "dropdown-dark" class after below "dropdown-extended" to change the dropdown styte  *@
 				<li class="dropdown dropdown-user">
 					<a href="javascript:;" class="dropdown-toggle" data-toggle="dropdown" data-hover="dropdown" data-close-others="true">
 					<i class="icon-user"></i>
@@ -52,21 +52,21 @@
 						</li>
 					</ul>
 				</li>
-				<!-- END USER LOGIN DROPDOWN -->
-				<!-- BEGIN QUICK SIDEBAR TOGGLER -->
-				<!-- DOC: Apply "dropdown-dark" class after below "dropdown-extended" to change the dropdown styte -->
+				@* END USER LOGIN DROPDOWN  *@
+				@* BEGIN QUICK SIDEBAR TOGGLER  *@
+				@* DOC: Apply "dropdown-dark" class after below "dropdown-extended" to change the dropdown styte  *@
 				<li class="dropdown dropdown-quick-sidebar-toggler">
 					<a href="javascript:;" class="dropdown-toggle">
 					<i class="icon-logout"></i>
 					</a>
 				</li>
-				<!-- END QUICK SIDEBAR TOGGLER -->
+				@* END QUICK SIDEBAR TOGGLER  *@
 			</ul>
 		</div>
-		<!-- END TOP NAVIGATION MENU -->
+		@* END TOP NAVIGATION MENU  *@
 	</div>
-	<!-- END HEADER INNER -->
+	@* END HEADER INNER  *@
 </div>
-<!-- END HEADER -->
+@* END HEADER  *@
 <div class="clearfix">
 </div>
