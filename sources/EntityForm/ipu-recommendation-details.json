@@ -457,7 +457,7 @@
   "IsEmailAvailable": false,
   "IsPrintAvailable": false,
   "IsAuditTrailAvailable": false,
-  "IsRemoveAvailable": false,
+  "IsRemoveAvailable": true,
   "IsImportAvailable": false,
   "IsExportAvailable": false,
   "Operation": "save",
@@ -469,6 +469,6 @@
   "Id": "ipu-recommendation-details",
   "CreatedDate": "2015-07-30T09:34:12.2706791+08:00",
   "ChangedBy": "admin",
-  "ChangedDate": "2015-07-31T08:32:55.7584194+08:00",
+  "ChangedDate": "2015-08-20T11:42:23.9108317+08:00",
   "WebId": "b550eec0-f577-4275-9bbc-8ce5e179d3f2"
 }
