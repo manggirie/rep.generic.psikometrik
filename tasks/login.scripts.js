@@ -8,12 +8,13 @@ var sourcemaps = require("gulp-sourcemaps"),
 
 
 /*
-    <script type="text/javascript" src="/assets/global/plugins/select2/select2.min.js"></script>
+    <script type="text/javascript" src=""></script>
 "./web/assets/global/plugins/jquery-migrate.min.js",
 
 */
 var sources = [
 "./web/scripts/jquery-2.1.3.min.js",
+"./web/assets/global/plugins/select2/select2.min.js",
 "./web/scripts/bootstrap.min.js",
 "./web/assets/global/plugins/jquery.blockui.min.js",
 "./web/assets/global/plugins/uniform/jquery.uniform.min.js",
