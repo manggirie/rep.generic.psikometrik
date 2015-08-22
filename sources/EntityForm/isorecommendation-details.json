@@ -34,7 +34,7 @@
           "CssClass": "",
           "Visible": "true",
           "Enable": "true",
-          "ElementId": "456da133-2d44-4180-d7a7-6b06f434e580",
+          "ElementId": "9a4bc109-ef7f-4687-f59e-311659da678a",
           "HelpText": null,
           "UseDisplayTemplate": false,
           "ToolboxIconClass": null,
@@ -47,7 +47,7 @@
           "InputColMd": null,
           "InputColSm": null,
           "InputColXs": null,
-          "WebId": "5cedef3f-5b90-4a47-d97b-418e38c1b06d"
+          "WebId": "6ec726d2-68a9-4012-e21a-9e17ef93b2a3"
         },
         {
           "$type": "Bespoke.Sph.Domain.ComboBox, domain.sph",
@@ -56,69 +56,147 @@
             "$values": [
               {
                 "$type": "Bespoke.Sph.Domain.ComboBoxItem, domain.sph",
-                "Caption": "KT",
-                "Value": "KT",
-                "WebId": "cbdbee77-c6a5-4f72-aa01-5b222c452247"
+                "Caption": "Anda dan Stres",
+                "Value": "Anda dan Stres",
+                "WebId": "34218635-d4ca-429a-cf63-c3949acf6091"
               },
               {
                 "$type": "Bespoke.Sph.Domain.ComboBoxItem, domain.sph",
-                "Caption": "KC",
-                "Value": "KC",
-                "WebId": "37842053-9572-4dda-9b68-2aa88557650f"
+                "Caption": "Punca Stres",
+                "Value": "Punca Stres",
+                "WebId": "20d4f5ec-e3e6-43aa-bdb0-fa5f3ab3b608"
               },
               {
                 "$type": "Bespoke.Sph.Domain.ComboBoxItem, domain.sph",
-                "Caption": "AS",
-                "Value": "AS",
-                "WebId": "5c9039ad-0197-45b5-a3a2-837d7d9e83f5"
+                "Caption": "Tindak Balas Stres",
+                "Value": "Tindak Balas Stres",
+                "WebId": "c930954b-f812-4418-fe56-c7a654449cde"
               },
               {
                 "$type": "Bespoke.Sph.Domain.ComboBoxItem, domain.sph",
-                "Caption": "LP",
-                "Value": "LP",
-                "WebId": "70daeb31-794e-4edb-fa00-149440f5848f"
+                "Caption": "Orientasi Terhadap Stres",
+                "Value": "Orientasi Terhadap Stres",
+                "WebId": "7b350589-e03b-4ee5-f032-2d2e71e6f06c"
               },
               {
                 "$type": "Bespoke.Sph.Domain.ComboBoxItem, domain.sph",
-                "Caption": "BS",
-                "Value": "BS",
-                "WebId": "1dac63c9-4796-4c0d-c60f-4e3abbb68ceb"
+                "Caption": "Kecenderungan Stres",
+                "Value": "Kecenderungan Stres",
+                "WebId": "abbfa59f-580c-45f2-ce7f-fa15909d37e3"
+              }
+            ]
+          },
+          "ComboBoxLookup": {
+            "$type": "Bespoke.Sph.Domain.ComboBoxLookup, domain.sph",
+            "Entity": null,
+            "ValuePath": null,
+            "DisplayPath": null,
+            "Query": null,
+            "IsComputedQuery": false,
+            "WebId": null
+          },
+          "IsPathIsRequired": true,
+          "TypeName": "ComboBox",
+          "FieldValidation": {
+            "$type": "Bespoke.Sph.Domain.FieldValidation, domain.sph",
+            "IsRequired": false,
+            "Pattern": null,
+            "Mode": "",
+            "Message": null,
+            "Min": null,
+            "Max": null,
+            "MinLength": null,
+            "MaxLength": null,
+            "WebId": null
+          },
+          "Name": null,
+          "Label": "Dimensi",
+          "Tooltip": null,
+          "Path": "Dimensi",
+          "IsRequired": false,
+          "Size": "input-large",
+          "CssClass": "",
+          "Visible": "true",
+          "Enable": "true",
+          "ElementId": "0e2b53a4-aa35-4ee6-d50d-abe2ba60e2eb",
+          "HelpText": null,
+          "UseDisplayTemplate": false,
+          "ToolboxIconClass": null,
+          "IsUniqueName": false,
+          "LabelColLg": null,
+          "LabelColMd": null,
+          "LabelColSm": null,
+          "LabelColXs": null,
+          "InputColLg": null,
+          "InputColMd": null,
+          "InputColSm": null,
+          "InputColXs": null,
+          "WebId": "26c1dfc8-4645-49cc-b554-7492c13fc241"
+        },
+        {
+          "$type": "Bespoke.Sph.Domain.ComboBox, domain.sph",
+          "ComboBoxItemCollection": {
+            "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.Sph.Domain.ComboBoxItem, domain.sph]], domain.sph",
+            "$values": [
+              {
+                "$type": "Bespoke.Sph.Domain.ComboBoxItem, domain.sph",
+                "Caption": "Kebimbangan",
+                "Value": "Kebimbangan",
+                "WebId": "d4d704d4-a917-4aad-fee6-dfeaf115e2aa"
               },
               {
                 "$type": "Bespoke.Sph.Domain.ComboBoxItem, domain.sph",
-                "Caption": "BR",
-                "Value": "BR",
-                "WebId": "f3f9b9c0-564c-4a49-e3bb-373ee49b78bb"
+                "Caption": "Kekecewaan",
+                "Value": "Kekecewaan",
+                "WebId": "8e80617f-e4ed-41b2-a531-6b6a865e2fb8"
               },
               {
                 "$type": "Bespoke.Sph.Domain.ComboBoxItem, domain.sph",
-                "Caption": "AF",
-                "Value": "AF",
-                "WebId": "a7f8c9c2-4698-453e-b7a8-a551a5b1f77b"
+                "Caption": "Bebanan dan Stres",
+                "Value": "Bebanan dan Stres",
+                "WebId": "baf35145-ff31-432f-87d2-e223f60ce7d1"
               },
               {
                 "$type": "Bespoke.Sph.Domain.ComboBoxItem, domain.sph",
-                "Caption": "PTL",
-                "Value": "PTL",
-                "WebId": "39dcbc4e-98f1-42ca-d4db-b263b67d007e"
+                "Caption": "Kebosanan dan Kesunyian",
+                "Value": "Kebosanan dan Kesunyian",
+                "WebId": "09b06ca1-56f1-4ed2-90a7-3377a146e9a8"
               },
               {
                 "$type": "Bespoke.Sph.Domain.ComboBoxItem, domain.sph",
-                "Caption": "NE",
-                "Value": "NE",
-                "WebId": "6086e397-f4a5-4ee7-9fb9-750d2f6c3efa"
+                "Caption": "Ukuran Stres",
+                "Value": "Ukuran Stres",
+                "WebId": "419bb0b0-028f-459e-fa46-6951fb56d431"
               },
               {
                 "$type": "Bespoke.Sph.Domain.ComboBoxItem, domain.sph",
-                "Caption": "KBY",
-                "Value": "KBY",
-                "WebId": "c5f69b02-a959-45d7-af77-61c89ce583bc"
+                "Caption": "Reaksi Terhadap Stres",
+                "Value": "Reaksi Terhadap Stres",
+                "WebId": "b7c17fb2-6af5-409d-e30d-12ec22014666"
               },
               {
                 "$type": "Bespoke.Sph.Domain.ComboBoxItem, domain.sph",
-                "Caption": "TL",
-                "Value": "TL",
-                "WebId": "254a2c1f-412e-4486-fd5d-4ba8990856dd"
+                "Caption": "Kehidupan Seimbang",
+                "Value": "Kehidupan Seimbang",
+                "WebId": "17bd185b-6192-4bdc-f08f-658cb9792ed3"
+              },
+              {
+                "$type": "Bespoke.Sph.Domain.ComboBoxItem, domain.sph",
+                "Caption": "Keperluan Pengurusan Masa",
+                "Value": "Keperluan Pengurusan Masa",
+                "WebId": "7d4c5632-5bc2-423f-f4cd-bec84f676d90"
+              },
+              {
+                "$type": "Bespoke.Sph.Domain.ComboBoxItem, domain.sph",
+                "Caption": "Berisiko Menghadapi Stres",
+                "Value": "Berisiko Menghadapi Stres",
+                "WebId": "3dcfea36-52d8-4b18-915b-0e9e82fa592a"
+              },
+              {
+                "$type": "Bespoke.Sph.Domain.ComboBoxItem, domain.sph",
+                "Caption": "Tahap Stres",
+                "Value": "Tahap Stres",
+                "WebId": "83debe0a-c973-43e2-b2c2-524d9541f689"
               }
             ]
           },
@@ -154,7 +232,7 @@
           "CssClass": "",
           "Visible": "true",
           "Enable": "true",
-          "ElementId": "ba8c0f38-94e4-4f73-cbf1-45e7de33dc6b",
+          "ElementId": "6a83e449-d54c-4ecf-dd9f-9a272adaae9a",
           "HelpText": null,
           "UseDisplayTemplate": false,
           "ToolboxIconClass": null,
@@ -167,79 +245,7 @@
           "InputColMd": null,
           "InputColSm": null,
           "InputColXs": null,
-          "WebId": "fdc324c6-7b31-454b-c434-d30a473a8067"
-        },
-        {
-          "$type": "Bespoke.Sph.Domain.ComboBox, domain.sph",
-          "ComboBoxItemCollection": {
-            "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.Sph.Domain.ComboBoxItem, domain.sph]], domain.sph",
-            "$values": [
-              {
-                "$type": "Bespoke.Sph.Domain.ComboBoxItem, domain.sph",
-                "Caption": "Lelaki",
-                "Value": "Lelaki",
-                "WebId": "d7bbb376-1c3c-4350-a8f4-cad28773fc15"
-              },
-              {
-                "$type": "Bespoke.Sph.Domain.ComboBoxItem, domain.sph",
-                "Caption": "Perempuan",
-                "Value": "Perempuan",
-                "WebId": "af4d4b6a-1544-4204-c476-b14f0a65b69b"
-              },
-              {
-                "$type": "Bespoke.Sph.Domain.ComboBoxItem, domain.sph",
-                "Caption": "NA",
-                "Value": "NA",
-                "WebId": "52798663-81d3-4234-bbdd-4cc501c02db6"
-              }
-            ]
-          },
-          "ComboBoxLookup": {
-            "$type": "Bespoke.Sph.Domain.ComboBoxLookup, domain.sph",
-            "Entity": null,
-            "ValuePath": null,
-            "DisplayPath": null,
-            "Query": null,
-            "IsComputedQuery": false,
-            "WebId": null
-          },
-          "IsPathIsRequired": true,
-          "TypeName": "ComboBox",
-          "FieldValidation": {
-            "$type": "Bespoke.Sph.Domain.FieldValidation, domain.sph",
-            "IsRequired": false,
-            "Pattern": null,
-            "Mode": "",
-            "Message": null,
-            "Min": null,
-            "Max": null,
-            "MinLength": null,
-            "MaxLength": null,
-            "WebId": null
-          },
-          "Name": null,
-          "Label": "Jantina",
-          "Tooltip": null,
-          "Path": "Jantina",
-          "IsRequired": false,
-          "Size": "input-large",
-          "CssClass": "",
-          "Visible": "true",
-          "Enable": "true",
-          "ElementId": "6443fabf-ef9c-4144-f831-af345118b0e0",
-          "HelpText": null,
-          "UseDisplayTemplate": false,
-          "ToolboxIconClass": null,
-          "IsUniqueName": false,
-          "LabelColLg": null,
-          "LabelColMd": null,
-          "LabelColSm": null,
-          "LabelColXs": null,
-          "InputColLg": null,
-          "InputColMd": null,
-          "InputColSm": null,
-          "InputColXs": null,
-          "WebId": "2f2cbe8a-b7c6-4436-fa42-ffac43192185"
+          "WebId": "030db44e-9643-4ac9-e8e6-46ceac154d70"
         },
         {
           "$type": "Bespoke.Sph.Domain.TextBox, domain.sph",
@@ -270,7 +276,7 @@
           "CssClass": "",
           "Visible": "true",
           "Enable": "true",
-          "ElementId": "90060d03-923d-462a-de56-86454e5c0101",
+          "ElementId": "677d3454-bdc6-4063-88a7-e3f4a956ce29",
           "HelpText": null,
           "UseDisplayTemplate": false,
           "ToolboxIconClass": null,
@@ -283,7 +289,7 @@
           "InputColMd": null,
           "InputColSm": null,
           "InputColXs": null,
-          "WebId": "e41cfeab-493e-451e-ffba-ebbc23627d0a"
+          "WebId": "cb9f8e1d-a032-41c9-b8ed-aa8c703175d4"
         },
         {
           "$type": "Bespoke.Sph.Domain.TextBox, domain.sph",
@@ -314,7 +320,7 @@
           "CssClass": "",
           "Visible": "true",
           "Enable": "true",
-          "ElementId": "e40a34e3-41fd-4bc1-cb7f-1c058486e8df",
+          "ElementId": "cd005d2a-caf1-4fb2-801a-fd39770435ef",
           "HelpText": null,
           "UseDisplayTemplate": false,
           "ToolboxIconClass": null,
@@ -327,51 +333,7 @@
           "InputColMd": null,
           "InputColSm": null,
           "InputColXs": null,
-          "WebId": "a5229737-2b45-424a-e31d-0127cd375243"
-        },
-        {
-          "$type": "Bespoke.Sph.Domain.TextBox, domain.sph",
-          "DefaultValue": null,
-          "AutoCompletionEntity": null,
-          "AutoCompletionField": null,
-          "AutoCompletionQuery": null,
-          "IsPathIsRequired": true,
-          "TypeName": "TextBox",
-          "FieldValidation": {
-            "$type": "Bespoke.Sph.Domain.FieldValidation, domain.sph",
-            "IsRequired": false,
-            "Pattern": null,
-            "Mode": "",
-            "Message": null,
-            "Min": null,
-            "Max": null,
-            "MinLength": null,
-            "MaxLength": null,
-            "WebId": null
-          },
-          "Name": null,
-          "Label": "Percentile",
-          "Tooltip": null,
-          "Path": "Percentile",
-          "IsRequired": false,
-          "Size": "input-large",
-          "CssClass": "",
-          "Visible": "true",
-          "Enable": "true",
-          "ElementId": "5af098a4-c9c6-49d3-a12f-31f58c4048e6",
-          "HelpText": null,
-          "UseDisplayTemplate": false,
-          "ToolboxIconClass": null,
-          "IsUniqueName": false,
-          "LabelColLg": null,
-          "LabelColMd": null,
-          "LabelColSm": null,
-          "LabelColXs": null,
-          "InputColLg": null,
-          "InputColMd": null,
-          "InputColSm": null,
-          "InputColXs": null,
-          "WebId": "6b4034df-444f-4c62-abf5-80ff9b1b1c97"
+          "WebId": "40d269e7-f858-4472-c944-2025d6f32fe2"
         },
         {
           "$type": "Bespoke.Sph.Domain.ComboBox, domain.sph",
@@ -380,27 +342,21 @@
             "$values": [
               {
                 "$type": "Bespoke.Sph.Domain.ComboBoxItem, domain.sph",
-                "Caption": "Skor Rendah",
-                "Value": "Skor Rendah",
-                "WebId": "79869c3c-61bc-4a93-abc3-c1f1d62f5a84"
+                "Caption": "Tinggi",
+                "Value": "Tinggi",
+                "WebId": "6367189f-3067-4e27-c0f2-022615610098"
               },
               {
                 "$type": "Bespoke.Sph.Domain.ComboBoxItem, domain.sph",
-                "Caption": "Skor Sederhana Rendah",
-                "Value": "Skor Sederhana Rendah",
-                "WebId": "7453fc7d-93fd-4d49-d92e-633267baefd6"
+                "Caption": "Sederhana",
+                "Value": "Sederhana",
+                "WebId": "75a9afac-d78e-4fc1-9a77-5dfc38529239"
               },
               {
                 "$type": "Bespoke.Sph.Domain.ComboBoxItem, domain.sph",
-                "Caption": "Skor Sederhana Tinggi",
-                "Value": "Skor Sederhana Tinggi",
-                "WebId": "e9b63ed1-1dc1-405f-fcb0-0dc08f1991e0"
-              },
-              {
-                "$type": "Bespoke.Sph.Domain.ComboBoxItem, domain.sph",
-                "Caption": "Skor Tinggi",
-                "Value": "Skor Tinggi",
-                "WebId": "a4808e03-3dd9-4742-8a46-34a6da1e01c0"
+                "Caption": "Rendah",
+                "Value": "Rendah",
+                "WebId": "0a7ae288-b5ba-459e-cdaa-6384d697516e"
               }
             ]
           },
@@ -428,15 +384,15 @@
             "WebId": null
           },
           "Name": null,
-          "Label": "Skor",
+          "Label": "Kategori",
           "Tooltip": null,
-          "Path": "Skor",
+          "Path": "Kategori",
           "IsRequired": false,
           "Size": "input-large",
           "CssClass": "",
           "Visible": "true",
           "Enable": "true",
-          "ElementId": "6b510af5-dd7f-4bc1-8c8c-367d0e8d8d94",
+          "ElementId": "13a61bf4-e78a-41ef-d2e6-322cca4a516e",
           "HelpText": null,
           "UseDisplayTemplate": false,
           "ToolboxIconClass": null,
@@ -449,7 +405,49 @@
           "InputColMd": null,
           "InputColSm": null,
           "InputColXs": null,
-          "WebId": "409c77a3-8597-4b0f-bd8d-ea2413ee67f5"
+          "WebId": "89f5393c-32b8-44d9-e6f5-489ca0478c71"
+        },
+        {
+          "$type": "Bespoke.Sph.Domain.TextAreaElement, domain.sph",
+          "Rows": null,
+          "IsHtml": false,
+          "IsPathIsRequired": true,
+          "TypeName": "TextAreaElement",
+          "FieldValidation": {
+            "$type": "Bespoke.Sph.Domain.FieldValidation, domain.sph",
+            "IsRequired": false,
+            "Pattern": null,
+            "Mode": "",
+            "Message": null,
+            "Min": null,
+            "Max": null,
+            "MinLength": null,
+            "MaxLength": null,
+            "WebId": null
+          },
+          "Name": null,
+          "Label": "Ciri",
+          "Tooltip": null,
+          "Path": "Ciri",
+          "IsRequired": false,
+          "Size": null,
+          "CssClass": null,
+          "Visible": "true",
+          "Enable": "true",
+          "ElementId": "3d3bac51-966a-4f6f-afe8-ddb422934121",
+          "HelpText": null,
+          "UseDisplayTemplate": false,
+          "ToolboxIconClass": null,
+          "IsUniqueName": false,
+          "LabelColLg": null,
+          "LabelColMd": null,
+          "LabelColSm": null,
+          "LabelColXs": null,
+          "InputColLg": null,
+          "InputColMd": null,
+          "InputColSm": null,
+          "InputColXs": null,
+          "WebId": "6e5c8ed1-a10d-477d-94d3-45655c39cc57"
         }
       ]
     },
@@ -479,12 +477,12 @@
     "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.Sph.Domain.FormLayout, domain.sph]], domain.sph",
     "$values": []
   },
-  "EntityDefinitionId": "skorukbp",
-  "Name": "SkorUkbp details",
-  "Route": "skorukbp-details",
+  "EntityDefinitionId": "isorecommendation",
+  "Name": "IsoRecommendation details",
+  "Route": "isorecommendation-details",
   "Note": null,
   "IsAllowedNewItem": true,
-  "IconClass": null,
+  "IconClass": "fa fa-plus",
   "IconStoreId": null,
   "IsPublished": true,
   "IsDefault": true,
@@ -492,18 +490,18 @@
   "IsEmailAvailable": false,
   "IsPrintAvailable": false,
   "IsAuditTrailAvailable": false,
-  "IsRemoveAvailable": true,
+  "IsRemoveAvailable": false,
   "IsImportAvailable": false,
   "IsExportAvailable": false,
   "Operation": "save",
-  "Entity": "SkorUkbp",
-  "Partial": "partial/skorukbp-details",
+  "Entity": "IsoRecommendation",
+  "Partial": "partial/isorecommendation-details",
   "Caption": null,
   "Layout": " ",
   "CreatedBy": "admin",
-  "Id": "6506c418-88b1-4d1f-a55b-5800d4c38516",
-  "CreatedDate": "2015-08-17T09:17:16.7125306+08:00",
+  "Id": "isorecommendation-details",
+  "CreatedDate": "2015-08-10T10:05:24.5423381+08:00",
   "ChangedBy": "admin",
-  "ChangedDate": "2015-08-18T11:41:43.6836568+08:00",
-  "WebId": "8da5757a-90fe-402d-b60d-97d438070e84"
+  "ChangedDate": "2015-08-12T08:06:40.9958564+08:00",
+  "WebId": "4b892cd9-868b-451c-beb2-07345e783a7c"
 }

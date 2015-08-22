@@ -17,29 +17,12 @@
         "Header": "No",
         "Sort": "",
         "IsLinkColumn": true,
-        "FormRoute": "isorecommendation-details",
+        "FormRoute": "ppkprecommendation-details",
         "IconCssClass": "",
         "IconStoreId": "",
         "Format": "text:{0}",
-        "RouteValueField": "",
-        "WebId": "c43e32df-bec3-4336-a52b-a84f55e3b3c9"
-      },
-      {
-        "$type": "Bespoke.Sph.Domain.ViewColumn, domain.sph",
-        "ConditionalFormattingCollection": {
-          "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.Sph.Domain.ConditionalFormatting, domain.sph]], domain.sph",
-          "$values": []
-        },
-        "Path": "Dimensi",
-        "Header": "Dimensi",
-        "Sort": "",
-        "IsLinkColumn": false,
-        "FormRoute": null,
-        "IconCssClass": "",
-        "IconStoreId": "",
-        "Format": "text:{0}",
-        "RouteValueField": "",
-        "WebId": "f54e5d41-3ab3-4006-ca11-f4e2618d5af4"
+        "RouteValueField": "Id",
+        "WebId": "b5331833-ff8e-48d5-941d-8006afe82556"
       },
       {
         "$type": "Bespoke.Sph.Domain.ViewColumn, domain.sph",
@@ -56,7 +39,7 @@
         "IconStoreId": "",
         "Format": "text:{0}",
         "RouteValueField": "",
-        "WebId": "427ddecf-d20d-45ec-947b-d5c3b0da955a"
+        "WebId": "321e81f0-b2a7-4c7e-f33f-f353b1d56823"
       },
       {
         "$type": "Bespoke.Sph.Domain.ViewColumn, domain.sph",
@@ -73,7 +56,7 @@
         "IconStoreId": "",
         "Format": "text:{0}",
         "RouteValueField": "",
-        "WebId": "e0f14b0e-90a3-4ed9-c3b5-e342cc50b549"
+        "WebId": "f8c1277f-cf6b-475f-a06e-271649fedef4"
       },
       {
         "$type": "Bespoke.Sph.Domain.ViewColumn, domain.sph",
@@ -90,7 +73,7 @@
         "IconStoreId": "",
         "Format": "text:{0}",
         "RouteValueField": "",
-        "WebId": "502e4aa6-961c-4391-8f8e-5060b7081fdc"
+        "WebId": "e55263cd-6118-4213-e0e3-b5764a3748e8"
       },
       {
         "$type": "Bespoke.Sph.Domain.ViewColumn, domain.sph",
@@ -98,8 +81,8 @@
           "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.Sph.Domain.ConditionalFormatting, domain.sph]], domain.sph",
           "$values": []
         },
-        "Path": "Kategori",
-        "Header": "Kategori",
+        "Path": "Dimensi",
+        "Header": "Dimensi",
         "Sort": "",
         "IsLinkColumn": false,
         "FormRoute": null,
@@ -107,49 +90,13 @@
         "IconStoreId": "",
         "Format": "text:{0}",
         "RouteValueField": "",
-        "WebId": "05623eb1-fe96-434a-9a54-ee5662892145"
-      },
-      {
-        "$type": "Bespoke.Sph.Domain.ViewColumn, domain.sph",
-        "ConditionalFormattingCollection": {
-          "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.Sph.Domain.ConditionalFormatting, domain.sph]], domain.sph",
-          "$values": []
-        },
-        "Path": "Ciri",
-        "Header": "Ciri",
-        "Sort": "",
-        "IsLinkColumn": false,
-        "FormRoute": null,
-        "IconCssClass": "",
-        "IconStoreId": "",
-        "Format": "text:{0}",
-        "RouteValueField": "",
-        "WebId": "48b0999b-79a6-4f51-a62c-71eb880a4a69"
+        "WebId": "d9670d8f-12d8-4d33-82a1-fc05ce79dfa6"
       }
     ]
   },
   "SortCollection": {
     "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.Sph.Domain.Sort, domain.sph]], domain.sph",
-    "$values": [
-      {
-        "$type": "Bespoke.Sph.Domain.Sort, domain.sph",
-        "Path": "Dimensi",
-        "Direction": "Asc",
-        "WebId": "08ea91fe-1977-4c19-eb4a-65c442b7fbb6"
-      },
-      {
-        "$type": "Bespoke.Sph.Domain.Sort, domain.sph",
-        "Path": "Tret",
-        "Direction": "Asc",
-        "WebId": "3935c25b-6f38-45a7-8800-0c03c4c1c06d"
-      },
-      {
-        "$type": "Bespoke.Sph.Domain.Sort, domain.sph",
-        "Path": "NilaiMin",
-        "Direction": "Asc",
-        "WebId": "a989df31-86b6-44a5-a814-de4a557a8993"
-      }
-    ]
+    "$values": []
   },
   "ConditionalFormattingCollection": {
     "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.Sph.Domain.ConditionalFormatting, domain.sph]], domain.sph",
@@ -157,7 +104,7 @@
   },
   "Performer": {
     "$type": "Bespoke.Sph.Domain.Performer, domain.sph",
-    "UserProperty": "Roles",
+    "UserProperty": "",
     "Value": null,
     "IsPublic": true,
     "WebId": null
@@ -168,23 +115,23 @@
   },
   "IconClass": null,
   "IconStoreId": null,
-  "EntityDefinitionId": "isorecommendation",
-  "Name": "All IsoRecommendations",
-  "Route": "isorecommendations-all",
+  "EntityDefinitionId": "ppkprecommendation",
+  "Name": "All PpkpRecommendations",
+  "Route": "ppkp-recommendations-all",
   "Note": null,
   "Query": null,
   "IsPublished": true,
   "Visibilty": null,
-  "TileColour": "bblue",
+  "TileColour": "bgreen",
   "CountMessage": null,
-  "Entity": "IsoRecommendation",
-  "Partial": "partial/isorecommendations-all",
-  "Template": null,
+  "Entity": "PpkpRecommendation",
+  "Partial": null,
+  "Template": "View without chart",
   "DisplayOnDashboard": true,
   "CreatedBy": "admin",
-  "Id": "c559279f-c7b0-4a1a-92c1-15a8212d62ce",
-  "CreatedDate": "2015-08-10T10:05:24.5423381+08:00",
+  "Id": "ppkp-recommendations-all",
+  "CreatedDate": "2015-08-03T16:19:36.5803933+08:00",
   "ChangedBy": "admin",
-  "ChangedDate": "2015-08-12T08:35:04.6008989+08:00",
-  "WebId": "2455f04b-a27a-48b4-bd69-6de5e45fd816"
+  "ChangedDate": "2015-08-04T11:15:48.5489414+08:00",
+  "WebId": "85786411-9e80-4ce7-a418-2f5f0b779d72"
 }
