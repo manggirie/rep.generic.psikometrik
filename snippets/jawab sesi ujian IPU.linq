@@ -17,7 +17,7 @@
 </Query>
 
 var list = SesiUjians.Where (su => su.Status == "Belum Ambil" && su.NamaUjian == "IPU");
-var questions = Soalans.Where (s => s.NamaUjian == "Indikator Perwatakan Unggul (IPU)").Select (s => s.Json.DeserializeFromJson<Bespoke.epsikologi_soalan.Domain.Soalan>()).ToList();
+var questions = Soalans.Where (s => s.NamaUjian == "IPU").Select (s => s.Json.DeserializeFromJson<Bespoke.epsikologi_soalan.Domain.Soalan>()).ToList();
 Console.WriteLine (questions.Count);
 
 var random = new Random(0);

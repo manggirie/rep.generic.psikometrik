@@ -1,10 +1,9 @@
 <Query Kind="Statements">
   <Connection>
-    <ID>1057a62e-59d6-42f4-92fe-c1bdad65fdf2</ID>
+    <ID>42586aa0-3dee-4da7-83d7-54d6b1bd2079</ID>
     <Persist>true</Persist>
     <Server>(localdb)\Projects</Server>
     <Database>epsikologi</Database>
-    <ShowServer>true</ShowServer>
   </Connection>
   <Reference Relative="..\web\bin\domain.sph.dll">C:\project\rep.generic.psikometrik\web\bin\domain.sph.dll</Reference>
   <Reference Relative="..\web\bin\epsikologi.PendaftaranProgram.dll">C:\project\rep.generic.psikometrik\web\bin\epsikologi.PendaftaranProgram.dll</Reference>
@@ -20,7 +19,7 @@
   <Namespace>System.Net.Http</Namespace>
 </Query>
 
-const string ujian = "UKBP-B";
+const string ujian = "IPU";
 
 var sesi = new Bespoke.epsikologi_sesiujian.Domain.SesiUjian
 {
