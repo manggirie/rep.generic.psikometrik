@@ -1,9 +1,19 @@
+using System;
+using System.IO;
+using System.Linq;
+using System.Text;
 using System.Web.Mvc;
 using Bespoke.Sph.Domain;
 using System.Threading.Tasks;
+using System.Web;
 using Bespoke.epsikologi_ipurecommendation.Domain;
 using Bespoke.epsikologi_skoripu.Domain;
 using Bespoke.epsikologi_ipupercentilenorms.Domain;
+using Bespoke.epsikologi_permohonan.Domain;
+using Bespoke.epsikologi_sesiujian.Domain;
+using Bespoke.epsikologi_soalan.Domain;
+using Bespoke.epsikologi_ujian.Domain;
+using OfficeOpenXml;
 
 
 namespace web.sph.App_Code
@@ -120,15 +130,15 @@ namespace web.sph.App_Code
             };
 
             /* */
-            var apTask = context.LoadOneAsync<SkorIPU>(x => x.NilaiMin <= vm.A && vm.A <= x.NilaiMax);
-            var bpTask = context.LoadOneAsync<SkorIPU>(x => x.NilaiMin <= vm.B && vm.B <= x.NilaiMax);
-            var cpTask = context.LoadOneAsync<SkorIPU>(x => x.NilaiMin <= vm.C && vm.D <= x.NilaiMax);
-            var dpTask = context.LoadOneAsync<SkorIPU>(x => x.NilaiMin <= vm.D && vm.D <= x.NilaiMax);
-            var epTask = context.LoadOneAsync<SkorIPU>(x => x.NilaiMin <= vm.E && vm.E <= x.NilaiMax);
-            var fpTask = context.LoadOneAsync<SkorIPU>(x => x.NilaiMin <= vm.F && vm.F <= x.NilaiMax);
-            var gpTask = context.LoadOneAsync<SkorIPU>(x => x.NilaiMin <= vm.G && vm.G <= x.NilaiMax);
-            var hpTask = context.LoadOneAsync<SkorIPU>(x => x.NilaiMin <= vm.H && vm.H <= x.NilaiMax);
-            var ipTask = context.LoadOneAsync<SkorIPU>(x => x.NilaiMin <= vm.I && vm.I <= x.NilaiMax);
+            var apTask = context.LoadOneAsync<SkorIPU>(x => vm.A.IsBetween(x.NilaiMin, x.NilaiMax, true, true));
+            var bpTask = context.LoadOneAsync<SkorIPU>(x => vm.B.IsBetween(x.NilaiMin, x.NilaiMax, true, true));
+            var cpTask = context.LoadOneAsync<SkorIPU>(x => vm.C.IsBetween(x.NilaiMin, x.NilaiMax, true, true));
+            var dpTask = context.LoadOneAsync<SkorIPU>(x => vm.D.IsBetween(x.NilaiMin, x.NilaiMax, true, true));
+            var epTask = context.LoadOneAsync<SkorIPU>(x => vm.E.IsBetween(x.NilaiMin, x.NilaiMax, true, true));
+            var fpTask = context.LoadOneAsync<SkorIPU>(x => vm.F.IsBetween(x.NilaiMin, x.NilaiMax, true, true));
+            var gpTask = context.LoadOneAsync<SkorIPU>(x => vm.G.IsBetween(x.NilaiMin, x.NilaiMax, true, true));
+            var hpTask = context.LoadOneAsync<SkorIPU>(x => vm.H.IsBetween(x.NilaiMin, x.NilaiMax, true, true));
+            var ipTask = context.LoadOneAsync<SkorIPU>(x => vm.I.IsBetween(x.NilaiMin, x.NilaiMax, true, true));
             await Task.WhenAll(apTask, bpTask, cpTask, epTask, fpTask, gpTask, hpTask, ipTask);
 
             var ap = await apTask;
@@ -165,6 +175,80 @@ namespace web.sph.App_Code
             //    .Replace($"id=\"I{vm.SkorI}\"", $"id=\"I{vm.SkorI}\" class=\"tg-6wvf\"")
             //    .Replace($"id=\"J{vm.SkorJ}\"", $"id=\"J{vm.SkorJ}\" class=\"tg-6wvf\""));
             return View(viewName, vm);
+        }
+
+        [Route("xls/ipu/{id}")]
+        public async Task<ActionResult> ExportIpuToExcel(string id)
+        {
+
+            var temp = Path.GetTempFileName() + ".xlsx";
+            System.IO.File.Copy(Server.MapPath("~/App_Data/template/laporan-ipu.xlsx"), temp, true);
+
+
+            var file = new FileInfo(temp);
+            var excel = new ExcelPackage(file);
+            var ws = excel.Workbook.Worksheets["IPU"];
+
+            var context = new SphDataContext();
+            var program = await context.GetScalarAsync<SesiUjian, string>(x => x.Id == id, x => x.NamaProgram);
+
+            var query = context.CreateQueryable<SesiUjian>()
+                .Where(s => s.NamaProgram == program)
+                .Where(s => s.NamaUjian == "IPU")
+                .Where(s => s.Status == "Diambil");
+            var sesiLo = await context.LoadAsync(query, 1, 200, true);
+            var sesi = sesiLo.ItemCollection;
+
+            while (sesiLo.HasNextPage)
+            {
+                sesiLo = await context.LoadAsync(query, sesiLo.CurrentPage + 1, 200, true);
+                sesi.AddRange(sesiLo.ItemCollection);
+            }
+
+            var soalanQuery = context.CreateQueryable<Soalan>()
+                                .Where(s => s.NamaUjian == "IPU");
+            var soalanLo = await context.LoadAsync(soalanQuery, 1, 200, true);
+            var soalans = soalanLo.ItemCollection;
+            while (soalanLo.HasNextPage)
+            {
+                soalanLo = await context.LoadAsync(soalanQuery, soalanLo.CurrentPage + 1, 200, true);
+                soalans.AddRange(soalanLo.ItemCollection);
+            }
+
+            var traits = soalans.Select(s => s.Trait).Distinct().OrderBy(s => s).ToArray();
+
+            var row = 2;
+            foreach (var s in sesi)
+            {
+                row++;
+                ws.InsertRow(row, 1, row);
+                ws.Cells[row, 1].Value = s.NamaPengguna;
+                ws.Cells[row, 2].Value = $"{s.TarikhUjian:dd/MM/yyyy HH:mm}";
+                var column = 1;
+                foreach (var t in traits)
+                {
+                    column += 2;
+                    var t1 = t;
+                    var score = s.JawapanCollection.Where(a => a.Trait == t1).Sum(a => a.Nilai);
+                    ws.Cells[row, column].Value = score;
+                    if (t1 == "J")
+                    {
+                        ws.Cells[row, column + 1].Value = score;
+                    }
+                    else
+                    {
+                        var lookup = await context.LoadOneAsync<SkorIPU>(x => score.IsBetween(x.NilaiMin, x.NilaiMax, true, true));
+                        ws.Cells[row, column + 1].Value = lookup.Percentile;
+                    }
+                }
+
+            }
+
+
+            excel.Save();
+            excel.Dispose();
+
+            return File(temp, MimeMapping.GetMimeMapping(".xlsx"), "Laporan Markah dan Percentile IPU.xlsx");
         }
 
 
