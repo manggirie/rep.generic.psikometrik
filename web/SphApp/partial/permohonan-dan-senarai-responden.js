@@ -51,20 +51,26 @@ define(["services/datacontext", objectbuilders.app, objectbuilders.config, objec
             if (ko.unwrap(pm.isISP)) {
                 ujian = "ISP";
             }
-            if (ko.unwrap(pm.isPTD)) {
-                ujian = "PTD";
+            if (ko.unwrap(pm.isPPKP)) {
+                ujian = "PPKP";
             }
 
             return context.loadOneAsync("Permohonan", "Id eq '" + ko.unwrap(pendaftaran.PermohonanId) + "'")
                 .then(function (pm) {
                     // TODO : what it has more than 1 Ujian
                     var query = String.format("Status eq 'Diambil' and TarikhUjian ge DateTime'{0}' and MyKad eq '{1}' and NamaUjian eq '{2}'", sixMonthsAgo, pendaftaran.MyKad(), ujian);
-                    return context.getCountAsync("SesiUjian", query, "Id")
+                    return context.getCountAsync("SesiUjian", query, "Id");
                 })
                 .then(function (count) {
                     if (count > 0) {
-                        logger.error(String.format("{0} sudah menduduki ujian {1} dan perlu menunngu 6 bulan", pendaftaran.MyKad(), ujian), ko.toJS(pendaftaran));
-                        return Task.fromResult("Sudah daftar");
+                        var message = String.format("{0} sudah menduduki ujian {1} dan perlu menunngu 6 bulan", pendaftaran.MyKad(), ujian);
+                        logger.error(message, ko.toJS(pendaftaran));
+                        var tcs = new $.Deferred();
+                        app.showMessage(message, "Sistem Ujian Psikologi", ["OK"])
+                            .done(function() {
+                                tcs.resolve("Sudah daftar");
+                            });
+                        return tcs.promise();
                     }
                     return context.post(data, "/PendaftaranProgram/TambahResponden");
                 })
