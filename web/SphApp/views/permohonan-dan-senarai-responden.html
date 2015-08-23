@@ -14,80 +14,80 @@
 </div>
 <div class="row">
     <div class="col-sm-8">
-        
-<form class="form-horizontal" data-bind="with : entity" id="permohonan-dan-senarai-responden-form">
-<h2 data-i18n="Maklumat Program" data-bind="visible:true">Maklumat Program</h2>
 
-    <div class="form-group" data-bind="visible:true">
-        <label class="col-md-4">Nama Program</label>
-        <span class="col-md-8" data-bind="text: NamaProgram"></span>
-    </div>
-    <div class="form-group" data-bind="visible:true">
-        <label class="col-md-4">Bil Responden</label>
-        <span class="col-md-8" data-bind="text: BilRespondan"></span>
-    </div>
-    <div class="form-group" data-bind="visible:true">
-        <label class="col-md-4">Bil Program</label>
-        <span class="col-md-8" data-bind="text: BilProgram"></span>
-    </div>
-    <div class="form-group" data-bind="visible:true">
-        <label class="col-md-4">Siri Program</label>
-        <span class="col-md-8" data-bind="text: SiriProgram"></span>
-    </div>
-    <div class="form-group" data-bind="visible:true">
-        <label class="col-md-4">Tahun Program</label>
-        <span class="col-md-8" data-bind="text: TahunProgram"></span>
-    </div>
-<div class="form-group" data-bind="visible:true">
-    <label class="col-md-4">Tarikh Mula</label>
-    <span class="col-md-8" data-bind="date: TarikhMula"></span>
-</div><div class="form-group" data-bind="visible:true">
-    <label class="col-md-4">Tarikh Tamat</label>
-    <span class="col-md-8" data-bind="date: TarikhTamat"></span>
-</div>
-<div data-bind="visible:isUKBP" class="form-group">
-	<label data-i18n="Muat Naik Pelajar" for="1edd0ae8-2cce-4b2d-ea1e-4a0c98f1281c" class="col-md-4">Muat Naik Pelajar</label>
-	<div class="col-md-8">
-		<input  class=" form-control " title=""
-			   data-bind="kendoUpload : $root.partial.filePelajar"
-			   id="1edd0ae8-2cce-4b2d-ea1e-4a0c98f1281c" type="file" name="files" />
-	</div>
-</div>
-<button data-bind="click : $root.partial.addResponden" class="btn btn-link">
-<i class="fa fa-plus"></i>
-Pemilihan Responden
-    
-</button>
+        <form class="form-horizontal" data-bind="with : entity" id="permohonan-dan-senarai-responden-form">
+            <h2 data-i18n="Maklumat Program" data-bind="visible:true">Maklumat Program</h2>
 
-<div class="form-group">
-    <h3 data-i18n="Senarai Responden">Senarai Responden</h3>
-    <table class="table table-condensed table-striped" data-bind="serverPaging :{ query: 'PermohonanId eq \'' + ko.unwrap(Id) + '\'', entity : 'PendaftaranProgram', list: $root.partial.senaraiPendaftaran}" style="opacity: 1;">
-        <thead>
-            <tr>
-                    <th data-i18n="Responden">Responden</th>
-                    <th data-i18n="MyKad">MyKad</th>
-                    <th data-i18n="MyKad">Email Peringatan</th>
-            </tr>
-        </thead>
-        <tbody data-bind="foreach: $root.partial.senaraiPendaftaran">
-            <tr>
-                <td data-bind="text:NamaPengguna">Nama</td>
-                <td data-bind="text:MyKad">890909-09-0909</td>
-                <td>
-                    <button class="btn btn-info" title="Emel peringatan kepada responden" data-bind="command: $root.partial.sendReminderEmail($data)">
-                        <i class="fa fa-envelope"></i>
-                        Emel Peringatan
-                    </button>
-                </td>
-            </tr>
-        </tbody>
-    </table>
-        
-</div>
+            <div class="form-group" data-bind="visible:true">
+                <label class="col-md-4">Nama Program</label>
+                <span class="col-md-8" data-bind="text: NamaProgram"></span>
+            </div>
+            <div class="form-group" data-bind="visible:true">
+                <label class="col-md-4">Bil Responden</label>
+                <span class="col-md-8" data-bind="text: BilRespondan"></span>
+            </div>
+            <div class="form-group" data-bind="visible:true">
+                <label class="col-md-4">Bil Program</label>
+                <span class="col-md-8" data-bind="text: BilProgram"></span>
+            </div>
+            <div class="form-group" data-bind="visible:true">
+                <label class="col-md-4">Siri Program</label>
+                <span class="col-md-8" data-bind="text: SiriProgram"></span>
+            </div>
+            <div class="form-group" data-bind="visible:true">
+                <label class="col-md-4">Tahun Program</label>
+                <span class="col-md-8" data-bind="text: TahunProgram"></span>
+            </div>
+            <div class="form-group" data-bind="visible:true">
+                <label class="col-md-4">Tarikh Mula</label>
+                <span class="col-md-8" data-bind="date: TarikhMula"></span>
+            </div><div class="form-group" data-bind="visible:true">
+                <label class="col-md-4">Tarikh Tamat</label>
+                <span class="col-md-8" data-bind="date: TarikhTamat"></span>
+            </div>
+            <div data-bind="visible:ko.unwrap(isUKBP) || ko.unwrap(isUKHLP)" class="form-group">
+                <label data-i18n="Muat Naik Pelajar" for="1edd0ae8-2cce-4b2d-ea1e-4a0c98f1281c" class="col-md-4">Muat Naik Pelajar</label>
+                <div class="col-md-8">
+                    <input class=" form-control " title=""
+                           data-bind="kendoUpload : $root.partial.filePelajar, visible :ko.unwrap(isUKBP) || ko.unwrap(isUKHLP)"
+                           id="1edd0ae8-2cce-4b2d-ea1e-4a0c98f1281c" type="file" name="files" />
+                </div>
+            </div>
+            <button data-bind="click : $root.partial.addResponden" class="btn btn-link">
+                <i class="fa fa-plus"></i>
+                Pemilihan Responden
 
-</form>
+            </button>
+
+            <div class="form-group">
+                <h3 data-i18n="Senarai Responden">Senarai Responden</h3>
+                <table class="table table-condensed table-striped" data-bind="serverPaging :{ query: 'PermohonanId eq \'' + ko.unwrap(Id) + '\'', entity : 'PendaftaranProgram', list: $root.partial.senaraiPendaftaran}" style="opacity: 1;">
+                    <thead>
+                        <tr>
+                            <th data-i18n="Responden">Responden</th>
+                            <th data-i18n="MyKad">MyKad</th>
+                            <th data-i18n="MyKad">Email Peringatan</th>
+                        </tr>
+                    </thead>
+                    <tbody data-bind="foreach: $root.partial.senaraiPendaftaran">
+                        <tr>
+                            <td data-bind="text:NamaPengguna">Nama</td>
+                            <td data-bind="text:MyKad">890909-09-0909</td>
+                            <td>
+                                <button class="btn btn-info" title="Emel peringatan kepada responden" data-bind="command: $root.partial.sendReminderEmail($data)">
+                                    <i class="fa fa-envelope"></i>
+                                    Emel Peringatan
+                                </button>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+
+            </div>
+
+        </form>
     </div>
     <div class="col-sm-4">
-        
+
     </div>
 </div>

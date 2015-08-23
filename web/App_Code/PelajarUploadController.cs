@@ -31,7 +31,7 @@ namespace web.sph.App_Code
         [Route("process-file")]
         public async Task<ActionResult> ProcessFile(string id, string permohonanId)
         {
-            if (string.IsNullOrEmpty(id)) return Json(new {success  =false, messge = "Store Id is not provided for the excel file"});
+            if (string.IsNullOrEmpty(id)) return Json(new { success = false, messge = "Store Id is not provided for the excel file" });
             var context = new SphDataContext();
             var store = ObjectBuilder.GetObject<IBinaryStore>();
             var doc = await store.GetContentAsync(id);
@@ -41,6 +41,8 @@ namespace web.sph.App_Code
             var file = new FileInfo(temp);
             var excel = new ExcelPackage(file);
             var ws = excel.Workbook.Worksheets["Pelajar"];
+            if(null == ws)
+                throw new ArgumentException("Cannot open Worksheet Pelajar in " + doc.FileName );
 
 
             var permohonan = await context.LoadOneAsync<Permohonan>(x => x.Id == permohonanId);
@@ -56,7 +58,7 @@ namespace web.sph.App_Code
                 {
                     Id = mykad,
                     Nama = name,
-                    MyKad =mykad,
+                    MyKad = mykad,
                     Jantina = ws.Cells["C" + row].GetValue<string>(),
                     Warganegara = ws.Cells["D" + row].GetValue<string>(),
                     KumpulanUmur = ws.Cells["E" + row].GetValue<string>(),

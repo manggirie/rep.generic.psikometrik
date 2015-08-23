@@ -369,7 +369,7 @@
           "IsRequired": false,
           "Size": null,
           "CssClass": null,
-          "Visible": "isUKBP",
+          "Visible": "ko.unwrap(isUKBP) || ko.unwrap(isUKHLP)",
           "Enable": "true",
           "ElementId": "1edd0ae8-2cce-4b2d-ea1e-4a0c98f1281c",
           "HelpText": null,
@@ -480,6 +480,6 @@
   "Id": "add-responden",
   "CreatedDate": "2015-06-05T10:45:40.0235058+08:00",
   "ChangedBy": "admin",
-  "ChangedDate": "2015-07-29T10:26:33.7025629+08:00",
+  "ChangedDate": "2015-08-24T06:59:52.5627973+08:00",
   "WebId": "aec8d777-8974-4a8a-b824-140ee0796560"
 }

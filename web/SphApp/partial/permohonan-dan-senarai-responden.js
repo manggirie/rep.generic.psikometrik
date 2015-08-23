@@ -67,7 +67,7 @@ define(["services/datacontext", objectbuilders.app, objectbuilders.config, objec
                         logger.error(message, ko.toJS(pendaftaran));
                         var tcs = new $.Deferred();
                         app.showMessage(message, "Sistem Ujian Psikologi", ["OK"])
-                            .done(function() {
+                            .done(function () {
                                 tcs.resolve("Sudah daftar");
                             });
                         return tcs.promise();
@@ -139,13 +139,17 @@ define(["services/datacontext", objectbuilders.app, objectbuilders.config, objec
     // process the list of students
     filePelajar.subscribe(function (w) {
         context.post(JSON.stringify({ id: w, permohonanId: ko.unwrap(permohonan().Id) }), "/pelajar/process-file")
-        .done(function (r) {
-            if (r.success) {
-                _(r.list).each(function (v) {
-                    senaraiPendaftaran.push(v);
-                });
-            }
-        });
+            .fail(function (error) {
+                var exc = /.*?<title>(.*?)<\/title>.*?/g.exec(error.responseText)[1];
+                app.showMessage("Fail yang anda muat naik tidak dapat di process <br/>" + exc, config.applicationFullName, ["OK"]);
+            })
+            .done(function (r) {
+                if (r.success) {
+                    _(r.list).each(function (v) {
+                        senaraiPendaftaran.push(v);
+                    });
+                }
+            });
     });
 
     return {
