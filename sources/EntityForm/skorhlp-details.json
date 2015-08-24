@@ -374,26 +374,26 @@
             "$values": [
               {
                 "$type": "Bespoke.Sph.Domain.ComboBoxItem, domain.sph",
-                "Caption": "Skor Rendah",
-                "Value": "Skor Rendah",
+                "Caption": "Rendah",
+                "Value": "Rendah",
                 "WebId": "9e4fffd3-8b8c-4a4c-c4cb-94129635d5dc"
               },
               {
                 "$type": "Bespoke.Sph.Domain.ComboBoxItem, domain.sph",
-                "Caption": "Skor Sederhana Rendah",
-                "Value": "Skor Sederhana Rendah",
+                "Caption": "Sederhana Rendah",
+                "Value": "Sederhana Rendah",
                 "WebId": "99e06763-edbb-4b7f-f614-2d5e27b7881a"
               },
               {
                 "$type": "Bespoke.Sph.Domain.ComboBoxItem, domain.sph",
-                "Caption": "Skor Sederhana Tinggi",
-                "Value": "Skor Sederhana Tinggi",
+                "Caption": "Sederhana Tinggi",
+                "Value": "Sederhana Tinggi",
                 "WebId": "8f36d4b5-788b-47c4-e523-f3a5e8e0058a"
               },
               {
                 "$type": "Bespoke.Sph.Domain.ComboBoxItem, domain.sph",
-                "Caption": "Skor Tinggi",
-                "Value": "Skor Tinggi",
+                "Caption": "Tinggi",
+                "Value": "Tinggi",
                 "WebId": "ecaf357e-091c-4b92-e7eb-61d7b77105fd"
               }
             ]
@@ -498,6 +498,6 @@
   "Id": "skorhlp-details",
   "CreatedDate": "2015-07-08T10:02:32.6648516+08:00",
   "ChangedBy": "admin",
-  "ChangedDate": "2015-07-29T12:26:48.4920365+08:00",
+  "ChangedDate": "2015-08-24T09:14:55.1302158+08:00",
   "WebId": "91face5f-e827-49e8-8968-fbc3b043b564"
 }
