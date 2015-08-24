@@ -1,6 +1,6 @@
 {
   "$type": "Bespoke.epsikologi_ppkprecommendation.Domain.PpkpRecommendation, epsikologi.PpkpRecommendation",
-  "No": "CB-151-240",
+  "No": "KP-151-240",
   "Tret": "Asertif",
   "NilaiMin": 151,
   "NilaiMax": 240,
@@ -12,7 +12,7 @@
   "CreatedBy": "admin",
   "Id": "d310c733-4532-419e-b475-059b9e7d826a",
   "CreatedDate": "2015-08-03T18:51:37.2703711+08:00",
-  "ChangedBy": "urusetia1",
-  "ChangedDate": "2015-08-07T15:27:58.3883895+08:00",
+  "ChangedBy": "admin",
+  "ChangedDate": "2015-08-24T15:32:42.0694873+08:00",
   "WebId": "54f34352-185f-455a-e0dc-efd7d23acde6"
 }

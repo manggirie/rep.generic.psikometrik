@@ -1,6 +1,6 @@
 {
   "$type": "Bespoke.epsikologi_ppkprecommendation.Domain.PpkpRecommendation, epsikologi.PpkpRecommendation",
-  "No": "KP-101-125",
+  "No": "CB-101-125",
   "Tret": "Keseimbangan",
   "NilaiMin": 101,
   "NilaiMax": 125,
@@ -12,7 +12,7 @@
   "CreatedBy": "admin",
   "Id": "57b316a0-af34-4f07-b428-d1df4ed3d446",
   "CreatedDate": "2015-08-03T18:28:24.0430623+08:00",
-  "ChangedBy": "urusetia1",
-  "ChangedDate": "2015-08-10T09:59:24.5216266+08:00",
+  "ChangedBy": "admin",
+  "ChangedDate": "2015-08-24T15:21:53.2862235+08:00",
   "WebId": "daf427a8-7e60-4be9-d8af-43d25ca6a683"
 }

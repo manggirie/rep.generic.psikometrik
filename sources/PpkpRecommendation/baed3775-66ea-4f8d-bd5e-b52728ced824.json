@@ -1,6 +1,6 @@
 {
   "$type": "Bespoke.epsikologi_ppkprecommendation.Domain.PpkpRecommendation, epsikologi.PpkpRecommendation",
-  "No": "CP-0-120",
+  "No": "HI-0-120",
   "Tret": "Introvert",
   "NilaiMin": 0,
   "NilaiMax": 120,
@@ -12,7 +12,7 @@
   "CreatedBy": "admin",
   "Id": "baed3775-66ea-4f8d-bd5e-b52728ced824",
   "CreatedDate": "2015-08-03T18:47:26.8423308+08:00",
-  "ChangedBy": "urusetia1",
-  "ChangedDate": "2015-08-10T09:57:01.2272986+08:00",
+  "ChangedBy": "admin",
+  "ChangedDate": "2015-08-24T15:26:47.5852414+08:00",
   "WebId": "2721a672-9667-4f3a-801c-622881b96172"
 }

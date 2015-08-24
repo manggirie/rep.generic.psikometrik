@@ -1,6 +1,6 @@
 {
   "$type": "Bespoke.epsikologi_ppkprecommendation.Domain.PpkpRecommendation, epsikologi.PpkpRecommendation",
-  "No": "KP-126-200",
+  "No": "CB-126-200",
   "Tret": "Fokus",
   "NilaiMin": 126,
   "NilaiMax": 200,
@@ -12,7 +12,7 @@
   "CreatedBy": "admin",
   "Id": "2fd58348-b2b6-46fd-8caf-503dd3340b8d",
   "CreatedDate": "2015-08-03T18:29:13.0429618+08:00",
-  "ChangedBy": "urusetia1",
-  "ChangedDate": "2015-08-10T09:57:28.4560212+08:00",
+  "ChangedBy": "admin",
+  "ChangedDate": "2015-08-24T15:17:11.8097835+08:00",
   "WebId": "7428ca38-32c1-4da4-b611-d4c07548a2e1"
 }
