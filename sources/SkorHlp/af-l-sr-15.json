@@ -2,8 +2,8 @@
   "$type": "Bespoke.epsikologi_skorhlp.Domain.SkorHlp, epsikologi.SkorHlp",
   "No": "af-l-sr-15",
   "Tret": "AF",
-  "NilaiMin": 17,
-  "NilaiMax": 18,
+  "NilaiMin": 14,
+  "NilaiMax": 15,
   "Percentile": 15,
   "Skor": "Rendah",
   "Jantina": "Lelaki",
@@ -11,6 +11,6 @@
   "Id": "af-l-sr-15",
   "CreatedDate": "2015-07-09T11:16:14.4175308+08:00",
   "ChangedBy": "admin",
-  "ChangedDate": "2015-08-04T11:10:25.5406438+08:00",
+  "ChangedDate": "2015-08-24T11:35:29.3617853+08:00",
   "WebId": "a40c6538-dddc-4bd3-bf60-8578cd3ac2fd"
 }
