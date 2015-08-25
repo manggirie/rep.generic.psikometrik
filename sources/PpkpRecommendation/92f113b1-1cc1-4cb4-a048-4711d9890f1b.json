@@ -1,6 +1,6 @@
 {
   "$type": "Bespoke.epsikologi_ppkprecommendation.Domain.PpkpRecommendation, epsikologi.PpkpRecommendation",
-  "No": "CB-0-120",
+  "No": "KP-0-120",
   "Tret": "Submisif",
   "NilaiMin": 0,
   "NilaiMax": 120,
@@ -12,7 +12,7 @@
   "CreatedBy": "admin",
   "Id": "92f113b1-1cc1-4cb4-a048-4711d9890f1b",
   "CreatedDate": "2015-08-03T18:50:02.2188669+08:00",
-  "ChangedBy": "urusetia1",
-  "ChangedDate": "2015-08-10T09:56:48.5690329+08:00",
+  "ChangedBy": "admin",
+  "ChangedDate": "2015-08-24T15:31:26.5706566+08:00",
   "WebId": "b570fc0e-3dad-46e1-822e-5ecb85f61e3d"
 }

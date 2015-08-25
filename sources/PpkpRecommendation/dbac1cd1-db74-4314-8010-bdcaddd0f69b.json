@@ -1,6 +1,6 @@
 {
   "$type": "Bespoke.epsikologi_ppkprecommendation.Domain.PpkpRecommendation, epsikologi.PpkpRecommendation",
-  "No": "HI-101-160",
+  "No": "CP-101-160",
   "Tret": "Strategis",
   "NilaiMin": 101,
   "NilaiMax": 160,
@@ -12,7 +12,7 @@
   "CreatedBy": "admin",
   "Id": "dbac1cd1-db74-4314-8010-bdcaddd0f69b",
   "CreatedDate": "2015-08-03T18:32:36.7693324+08:00",
-  "ChangedBy": "urusetia1",
-  "ChangedDate": "2015-08-10T09:58:34.1885938+08:00",
+  "ChangedBy": "admin",
+  "ChangedDate": "2015-08-24T15:26:03.4522036+08:00",
   "WebId": "3a9f3c9b-477e-4544-e9bc-865b9b5b3777"
 }

@@ -1,6 +1,6 @@
 {
   "$type": "Bespoke.epsikologi_ppkprecommendation.Domain.PpkpRecommendation, epsikologi.PpkpRecommendation",
-  "No": "KP-0-100",
+  "No": "CB-0-100",
   "Tret": "Spontan",
   "NilaiMin": 0,
   "NilaiMax": 100,
@@ -12,7 +12,7 @@
   "CreatedBy": "admin",
   "Id": "c9490cf8-eba4-4462-8336-e42e8ed77635",
   "CreatedDate": "2015-08-03T18:27:30.8207406+08:00",
-  "ChangedBy": "urusetia1",
-  "ChangedDate": "2015-08-07T15:23:55.4158369+08:00",
+  "ChangedBy": "admin",
+  "ChangedDate": "2015-08-24T15:20:05.2794882+08:00",
   "WebId": "adeb7523-b04a-48d7-e01a-368e8ad26abd"
 }

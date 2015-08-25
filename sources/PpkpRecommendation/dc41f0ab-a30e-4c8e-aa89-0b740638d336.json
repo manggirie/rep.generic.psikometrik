@@ -1,6 +1,6 @@
 {
   "$type": "Bespoke.epsikologi_ppkprecommendation.Domain.PpkpRecommendation, epsikologi.PpkpRecommendation",
-  "No": "CB-121-150",
+  "No": "KP-121-150",
   "Tret": "Perundingan",
   "NilaiMin": 121,
   "NilaiMax": 150,
@@ -12,7 +12,7 @@
   "CreatedBy": "admin",
   "Id": "dc41f0ab-a30e-4c8e-aa89-0b740638d336",
   "CreatedDate": "2015-08-03T18:50:52.5559001+08:00",
-  "ChangedBy": "urusetia1",
-  "ChangedDate": "2015-08-07T15:24:12.1586171+08:00",
+  "ChangedBy": "admin",
+  "ChangedDate": "2015-08-24T15:32:02.3823562+08:00",
   "WebId": "0ba74a61-a152-4484-f5cb-fa6623cef865"
 }

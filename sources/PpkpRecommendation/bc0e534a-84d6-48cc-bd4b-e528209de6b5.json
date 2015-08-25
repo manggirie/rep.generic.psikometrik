@@ -1,6 +1,6 @@
 {
   "$type": "Bespoke.epsikologi_ppkprecommendation.Domain.PpkpRecommendation, epsikologi.PpkpRecommendation",
-  "No": "CP-121-150",
+  "No": "HI-121-150",
   "Tret": "Ambivert",
   "NilaiMin": 121,
   "NilaiMax": 150,
@@ -12,7 +12,7 @@
   "CreatedBy": "admin",
   "Id": "bc0e534a-84d6-48cc-bd4b-e528209de6b5",
   "CreatedDate": "2015-08-03T18:48:16.6553116+08:00",
-  "ChangedBy": "urusetia1",
-  "ChangedDate": "2015-08-10T09:57:47.7219476+08:00",
+  "ChangedBy": "admin",
+  "ChangedDate": "2015-08-24T15:27:29.4645881+08:00",
   "WebId": "f3248e45-3ff5-485d-d376-12759426fce8"
 }

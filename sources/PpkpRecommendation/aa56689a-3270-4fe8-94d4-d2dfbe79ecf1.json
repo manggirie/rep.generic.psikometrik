@@ -1,6 +1,6 @@
 {
   "$type": "Bespoke.epsikologi_ppkprecommendation.Domain.PpkpRecommendation, epsikologi.PpkpRecommendation",
-  "No": "CP-151-240",
+  "No": "HI-151-240",
   "Tret": "Ekstrovert",
   "NilaiMin": 151,
   "NilaiMax": 240,
@@ -12,7 +12,7 @@
   "CreatedBy": "admin",
   "Id": "aa56689a-3270-4fe8-94d4-d2dfbe79ecf1",
   "CreatedDate": "2015-08-03T18:49:02.2778734+08:00",
-  "ChangedBy": "urusetia1",
-  "ChangedDate": "2015-08-10T10:00:24.9396678+08:00",
+  "ChangedBy": "admin",
+  "ChangedDate": "2015-08-24T15:28:42.6366276+08:00",
   "WebId": "996e8c0a-0393-40d9-b656-438956b5f9f0"
 }
