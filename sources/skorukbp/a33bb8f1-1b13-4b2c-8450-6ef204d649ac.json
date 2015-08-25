@@ -1,0 +1,16 @@
+{
+  "$type": "Bespoke.epsikologi_skorukbp.Domain.SkorUkbp, epsikologi.SkorUkbp",
+  "No": "ptl-p-ssr-55",
+  "Tret": "PTL",
+  "NilaiMin": 23,
+  "NilaiMax": 25,
+  "Percentile": 55,
+  "Skor": "Skor Sederhana Rendah",
+  "Jantina": "Perempuan",
+  "CreatedBy": "urusetia1",
+  "Id": "a33bb8f1-1b13-4b2c-8450-6ef204d649ac",
+  "CreatedDate": "2015-08-25T18:17:12.6966149+08:00",
+  "ChangedBy": "urusetia1",
+  "ChangedDate": "2015-08-25T18:17:12.6956148+08:00",
+  "WebId": "e405c588-ba76-4db0-d6af-27f64a50019c"
+}
