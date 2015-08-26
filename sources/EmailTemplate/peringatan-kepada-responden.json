@@ -4,12 +4,12 @@
   "Name": "Peringatan kepada responden",
   "Note": "",
   "SubjectTemplate": "PERINGATAN : Pendaftaran Bagi Program Sistem Ujian Psikometrik",
-  "BodyTemplate": "Assalamualaikum dan Salam Sejahtera,\n\nYBhg. Tan Sri/Dato' Seri/Datuk/Dato'/Datin/Dr./Tuan/Puan,\n\nSukacita dimaklumkan bahawa YBhg. Tan Sri/Dato' Seri/Datuk/Dato'/Datin/Dr./Tuan/Puan telah didaftarkan dalam program seperti dalam butiran berikut:  \n\n          Nama program    : @Model.Pendaftaran.NoPermohonan\n          Tempoh masa     : @Model.Permohonan.TarikhMula hingga @Model.Permohonan.TarikhTamat\n\n2.    YBhg. Tan Sri/Dato' Seri/Datuk/Dato'/Datin/Dr./Tuan/Puan dipohon untuk menjawab sesi ujian yang telah didaftarkan dalam tempoh masa program tersebut berlangsung.\n\n3.    Atas perhatian dan kerjasama YBhg. Tan Sri/Dato' Seri/Datuk/Dato'/Datin/Dr./Tuan/Puan dalam perkara ini didahului dengan ucapan ribuan terima kasih.\n\nSekian.\n\n\"PENERAJU TRANSFORMASI PERKHIDMATAN AWAM\"\n\nUrus Setia\nSistem Ujian Psikometrik \n\nhttp://psikometrik.jpa.gov.my\n\n(Emel makluman ini dijana secara automatik oleh Sistem Ujian Psikometrik)",
+  "BodyTemplate": "Assalamualaikum dan Salam Sejahtera,\n\nYBhg. Tan Sri/Dato' Seri/Datuk/Dato'/Datin/Dr./Tuan/Puan,\n\nSukacita dimaklumkan bahawa YBhg. Tan Sri/Dato' Seri/Datuk/Dato'/Datin/Dr./Tuan/Puan telah didaftarkan dalam program seperti dalam butiran berikut:  \n\n          Nama program    : @Model.NamaProgram Bil @Model.BilProgram Siri @Model.SiriProgram @Model.TahunProgram\n          Tempoh masa     : @Model.TarikhMula hingga @Model.TarikhTamat\n\n2.    YBhg. Tan Sri/Dato' Seri/Datuk/Dato'/Datin/Dr./Tuan/Puan dipohon untuk menjawab sesi ujian yang telah didaftarkan dalam tempoh masa program tersebut berlangsung.\n\n3.    Atas perhatian dan kerjasama YBhg. Tan Sri/Dato' Seri/Datuk/Dato'/Datin/Dr./Tuan/Puan dalam perkara ini didahului dengan ucapan ribuan terima kasih.\n\nSekian.\n\n\"PENERAJU TRANSFORMASI PERKHIDMATAN AWAM\"\n\nUrus Setia\nSistem Ujian Psikometrik \n\nhttp://psikometrik.jpa.gov.my\n\n(Emel makluman ini dijana secara automatik oleh Sistem Ujian Psikometrik)",
   "IsPublished": true,
   "CreatedBy": "admin",
   "Id": "peringatan-kepada-responden",
   "CreatedDate": "2015-01-01T00:00:00",
   "ChangedBy": "admin",
-  "ChangedDate": "2015-08-20T10:35:27.7146623+08:00",
+  "ChangedDate": "2015-08-26T11:39:03.7947694+08:00",
   "WebId": "18978e9e-2599-4aa5-e65d-1835c5f588a7"
 }

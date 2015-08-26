@@ -16,20 +16,6 @@
           "WebId": "7b795348-479f-44a4-ed7f-38857a21c53d"
         },
         "WebId": "7f2c2a2c-17ad-4ffa-ea79-e3569cf1256d"
-      },
-      {
-        "$type": "Bespoke.Sph.Domain.Filter, domain.sph",
-        "Term": "Bahagian",
-        "Operator": "Eq",
-        "Field": {
-          "$type": "Bespoke.Sph.Domain.ConstantField, domain.sph",
-          "TypeName": "System.String, mscorlib",
-          "Value": "B",
-          "Name": "B",
-          "Note": "",
-          "WebId": "da9b146b-7e8a-4779-f19b-f8eb29c8aa58"
-        },
-        "WebId": "d605230e-b34e-44c5-a747-7cd829474c3d"
       }
     ]
   },
@@ -208,6 +194,6 @@
   "Id": "soalan-soalan-ujian-khas-biasiswa-persekutuan-b",
   "CreatedDate": "2015-06-22T11:34:46.1285512+08:00",
   "ChangedBy": "admin",
-  "ChangedDate": "2015-08-17T09:30:01.2773756+08:00",
+  "ChangedDate": "2015-08-26T11:15:08.2891958+08:00",
   "WebId": "38e6ae7a-002d-4780-d67c-faea94d5b459"
 }

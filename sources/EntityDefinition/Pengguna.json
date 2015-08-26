@@ -339,28 +339,6 @@
         "FullName": null,
         "MemberCollection": {
           "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.Sph.Domain.Member, domain.sph]], domain.sph",
-          "$values": []
-        },
-        "FieldPermissionCollection": {
-          "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.Sph.Domain.FieldPermission, domain.sph]], domain.sph",
-          "$values": []
-        },
-        "Name": "Saraan",
-        "TypeName": "System.String, mscorlib",
-        "IsNullable": true,
-        "IsNotIndexed": false,
-        "IsAnalyzed": false,
-        "IsFilterable": false,
-        "IsExcludeInAll": false,
-        "Boost": 0,
-        "DefaultValue": null,
-        "WebId": "e9fe1692-5e53-4ae2-d37a-9b076117975f"
-      },
-      {
-        "$type": "Bespoke.Sph.Domain.Member, domain.sph",
-        "FullName": null,
-        "MemberCollection": {
-          "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.Sph.Domain.Member, domain.sph]], domain.sph",
           "$values": [
             {
               "$type": "Bespoke.Sph.Domain.Member, domain.sph",
@@ -1037,6 +1015,6 @@
   "Id": "pengguna",
   "CreatedDate": "2015-06-16T08:04:09.5200889+08:00",
   "ChangedBy": "admin",
-  "ChangedDate": "2015-08-03T15:03:03.2382884+08:00",
+  "ChangedDate": "2015-08-26T10:35:38.7570047+08:00",
   "WebId": "01c666ac-ab68-4416-9d69-a716a003c902"
 }

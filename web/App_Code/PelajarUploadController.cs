@@ -107,6 +107,7 @@ namespace web.sph.App_Code
                 hasRow = !string.IsNullOrEmpty(name) && !string.IsNullOrEmpty(mykad);
             }
 
+            // TODO : verify the user name and email for each record
 
 
             return Json(new { success = true, list = senaraiDaftar, status = "OK" });
