@@ -217,9 +217,9 @@ var headerText = header ?? trait;
         <td style="text-align: left;border: 1px solid #343434;padding: 5px">
 
             @Model.KodMinat2.KodKerjaya1
-            <br/>
+            <br />
             @Model.KodMinat2.KodKerjaya2
-          
+
         </td>
     </tr>
 </table>
@@ -290,12 +290,15 @@ var headerText = header ?? trait;
             @{
                 try
                 {
-                    @:Model.RecommendationPTL.Text
+                    <text>
+                    @Model.RecommendationPTL.Text
+                    </text>
                 }
                 catch (InvalidOperationException)
                 {
-  
-                    @:Model.RecommendationPTL.Text;
+                    <text>
+                        @Model.RecommendationPTL.Text
+                    </text>
                 }
             }
         </td>
