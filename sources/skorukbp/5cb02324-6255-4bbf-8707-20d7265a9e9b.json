@@ -1,0 +1,16 @@
+{
+  "$type": "Bespoke.epsikologi_skorukbp.Domain.SkorUkbp, epsikologi.SkorUkbp",
+  "No": "ptl-l-sr-40",
+  "Tret": "PTL",
+  "NilaiMin": 15,
+  "NilaiMax": 17,
+  "Percentile": 40,
+  "Skor": "Skor Rendah",
+  "Jantina": "Lelaki",
+  "CreatedBy": "urusetia1",
+  "Id": "5cb02324-6255-4bbf-8707-20d7265a9e9b",
+  "CreatedDate": "2015-08-25T16:50:45.2139185+08:00",
+  "ChangedBy": "urusetia1",
+  "ChangedDate": "2015-08-25T16:50:45.2129184+08:00",
+  "WebId": "837649ad-c2bf-4482-d7d3-6b43406deb89"
+}
