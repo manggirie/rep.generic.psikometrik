@@ -22,7 +22,7 @@
             "WebId": null
           },
           "Name": null,
-          "Label": "Malumat Peribadi",
+          "Label": "Maklumat Peribadi",
           "Tooltip": null,
           "Path": null,
           "IsRequired": false,
@@ -1412,6 +1412,6 @@
   "Id": "pengguna-details",
   "CreatedDate": "2015-06-16T08:04:09.5330981+08:00",
   "ChangedBy": "admin",
-  "ChangedDate": "2015-08-26T10:35:21.0927713+08:00",
+  "ChangedDate": "2015-08-26T13:54:04.2933215+08:00",
   "WebId": "4e32950c-7d95-4b44-983c-3c3e67811ded"
 }

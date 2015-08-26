@@ -63,7 +63,7 @@
           "$values": []
         },
         "Path": "TarikhTamat",
-        "Header": "Tarikh Tama",
+        "Header": "Tarikh Tamat",
         "Sort": "",
         "IsLinkColumn": false,
         "FormRoute": null,
@@ -181,6 +181,6 @@
   "Id": "permohonan-permohonan-urusetia-lulus",
   "CreatedDate": "2015-06-05T10:45:40.0585082+08:00",
   "ChangedBy": "admin",
-  "ChangedDate": "2015-07-13T13:49:25.9647347+08:00",
+  "ChangedDate": "2015-08-26T12:58:46.8995763+08:00",
   "WebId": "0264f91b-ffce-46cc-d40a-e6d3cadb6fac"
 }
