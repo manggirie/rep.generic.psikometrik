@@ -66,7 +66,7 @@
             "WebId": null
           },
           "Name": null,
-          "Label": "Nama",
+          "Label": "* Nama",
           "Tooltip": null,
           "Path": "Nama",
           "IsRequired": false,
@@ -110,7 +110,7 @@
             "WebId": null
           },
           "Name": null,
-          "Label": "My Kad",
+          "Label": "* My Kad",
           "Tooltip": null,
           "Path": "MyKad",
           "IsRequired": false,
@@ -132,6 +132,50 @@
           "InputColSm": null,
           "InputColXs": null,
           "WebId": "353fd823-9784-4273-b2aa-85f6511bb935"
+        },
+        {
+          "$type": "Bespoke.Sph.Domain.TextBox, domain.sph",
+          "DefaultValue": null,
+          "AutoCompletionEntity": null,
+          "AutoCompletionField": null,
+          "AutoCompletionQuery": null,
+          "IsPathIsRequired": true,
+          "TypeName": "TextBox",
+          "FieldValidation": {
+            "$type": "Bespoke.Sph.Domain.FieldValidation, domain.sph",
+            "IsRequired": false,
+            "Pattern": null,
+            "Mode": "",
+            "Message": null,
+            "Min": null,
+            "Max": null,
+            "MinLength": null,
+            "MaxLength": null,
+            "WebId": null
+          },
+          "Name": null,
+          "Label": "* Jantina",
+          "Tooltip": null,
+          "Path": "Jantina",
+          "IsRequired": false,
+          "Size": "input-large",
+          "CssClass": "",
+          "Visible": "true",
+          "Enable": "true",
+          "ElementId": "cc0c30a6-0bea-4b1e-e3c5-c2910f10a694",
+          "HelpText": null,
+          "UseDisplayTemplate": false,
+          "ToolboxIconClass": null,
+          "IsUniqueName": false,
+          "LabelColLg": null,
+          "LabelColMd": null,
+          "LabelColSm": null,
+          "LabelColXs": null,
+          "InputColLg": null,
+          "InputColMd": null,
+          "InputColSm": null,
+          "InputColXs": null,
+          "WebId": "b9800c15-1efe-47a4-d21a-0de2642f0855"
         },
         {
           "$type": "Bespoke.Sph.Domain.ComboBox, domain.sph",
@@ -306,382 +350,6 @@
           "InputColSm": null,
           "InputColXs": null,
           "WebId": "a03aa816-47aa-45a5-9558-0f777ca5667b"
-        },
-        {
-          "$type": "Bespoke.Sph.Domain.TextBox, domain.sph",
-          "DefaultValue": null,
-          "AutoCompletionEntity": null,
-          "AutoCompletionField": null,
-          "AutoCompletionQuery": null,
-          "IsPathIsRequired": true,
-          "TypeName": "TextBox",
-          "FieldValidation": {
-            "$type": "Bespoke.Sph.Domain.FieldValidation, domain.sph",
-            "IsRequired": false,
-            "Pattern": null,
-            "Mode": "",
-            "Message": null,
-            "Min": null,
-            "Max": null,
-            "MinLength": null,
-            "MaxLength": null,
-            "WebId": null
-          },
-          "Name": null,
-          "Label": "Alamat1",
-          "Tooltip": null,
-          "Path": "Alamat.Alamat1",
-          "IsRequired": false,
-          "Size": "input-large",
-          "CssClass": "",
-          "Visible": "true",
-          "Enable": "true",
-          "ElementId": "cc0c30a6-0bea-4b1e-e3c5-c2910f10a694",
-          "HelpText": null,
-          "UseDisplayTemplate": false,
-          "ToolboxIconClass": null,
-          "IsUniqueName": false,
-          "LabelColLg": null,
-          "LabelColMd": null,
-          "LabelColSm": null,
-          "LabelColXs": null,
-          "InputColLg": null,
-          "InputColMd": null,
-          "InputColSm": null,
-          "InputColXs": null,
-          "WebId": "b9800c15-1efe-47a4-d21a-0de2642f0855"
-        },
-        {
-          "$type": "Bespoke.Sph.Domain.TextBox, domain.sph",
-          "DefaultValue": null,
-          "AutoCompletionEntity": null,
-          "AutoCompletionField": null,
-          "AutoCompletionQuery": null,
-          "IsPathIsRequired": true,
-          "TypeName": "TextBox",
-          "FieldValidation": {
-            "$type": "Bespoke.Sph.Domain.FieldValidation, domain.sph",
-            "IsRequired": false,
-            "Pattern": null,
-            "Mode": "",
-            "Message": null,
-            "Min": null,
-            "Max": null,
-            "MinLength": null,
-            "MaxLength": null,
-            "WebId": null
-          },
-          "Name": null,
-          "Label": "Alamat2",
-          "Tooltip": null,
-          "Path": "Alamat.Alamat2",
-          "IsRequired": false,
-          "Size": "input-large",
-          "CssClass": "",
-          "Visible": "true",
-          "Enable": "true",
-          "ElementId": "720adb38-748d-4a3e-b2da-ca05f21aeb13",
-          "HelpText": null,
-          "UseDisplayTemplate": false,
-          "ToolboxIconClass": null,
-          "IsUniqueName": false,
-          "LabelColLg": null,
-          "LabelColMd": null,
-          "LabelColSm": null,
-          "LabelColXs": null,
-          "InputColLg": null,
-          "InputColMd": null,
-          "InputColSm": null,
-          "InputColXs": null,
-          "WebId": "75a65752-314b-4cff-b7c1-7862b14a0ed6"
-        },
-        {
-          "$type": "Bespoke.Sph.Domain.TextBox, domain.sph",
-          "DefaultValue": null,
-          "AutoCompletionEntity": null,
-          "AutoCompletionField": null,
-          "AutoCompletionQuery": null,
-          "IsPathIsRequired": true,
-          "TypeName": "TextBox",
-          "FieldValidation": {
-            "$type": "Bespoke.Sph.Domain.FieldValidation, domain.sph",
-            "IsRequired": false,
-            "Pattern": null,
-            "Mode": "",
-            "Message": null,
-            "Min": null,
-            "Max": null,
-            "MinLength": null,
-            "MaxLength": null,
-            "WebId": null
-          },
-          "Name": null,
-          "Label": "Alamat3",
-          "Tooltip": null,
-          "Path": "Alamat.Alamat3",
-          "IsRequired": false,
-          "Size": "input-large",
-          "CssClass": "",
-          "Visible": "true",
-          "Enable": "true",
-          "ElementId": "0799c120-2758-4eff-8e66-e57fbe8a0ef7",
-          "HelpText": null,
-          "UseDisplayTemplate": false,
-          "ToolboxIconClass": null,
-          "IsUniqueName": false,
-          "LabelColLg": null,
-          "LabelColMd": null,
-          "LabelColSm": null,
-          "LabelColXs": null,
-          "InputColLg": null,
-          "InputColMd": null,
-          "InputColSm": null,
-          "InputColXs": null,
-          "WebId": "382f4d8d-4c1b-4a32-df2b-f3551c73f0a3"
-        },
-        {
-          "$type": "Bespoke.Sph.Domain.TextBox, domain.sph",
-          "DefaultValue": null,
-          "AutoCompletionEntity": null,
-          "AutoCompletionField": null,
-          "AutoCompletionQuery": null,
-          "IsPathIsRequired": true,
-          "TypeName": "TextBox",
-          "FieldValidation": {
-            "$type": "Bespoke.Sph.Domain.FieldValidation, domain.sph",
-            "IsRequired": false,
-            "Pattern": null,
-            "Mode": "",
-            "Message": null,
-            "Min": null,
-            "Max": null,
-            "MinLength": null,
-            "MaxLength": null,
-            "WebId": null
-          },
-          "Name": null,
-          "Label": "Poskod",
-          "Tooltip": null,
-          "Path": "Alamat.Poskod",
-          "IsRequired": false,
-          "Size": "input-large",
-          "CssClass": "",
-          "Visible": "true",
-          "Enable": "true",
-          "ElementId": "34659ad3-b20c-48ce-c798-022042442183",
-          "HelpText": null,
-          "UseDisplayTemplate": false,
-          "ToolboxIconClass": null,
-          "IsUniqueName": false,
-          "LabelColLg": null,
-          "LabelColMd": null,
-          "LabelColSm": null,
-          "LabelColXs": null,
-          "InputColLg": null,
-          "InputColMd": null,
-          "InputColSm": null,
-          "InputColXs": null,
-          "WebId": "82ca46b3-0c8b-4a9c-e3ac-b8d83dcd5a44"
-        },
-        {
-          "$type": "Bespoke.Sph.Domain.TextBox, domain.sph",
-          "DefaultValue": null,
-          "AutoCompletionEntity": null,
-          "AutoCompletionField": null,
-          "AutoCompletionQuery": null,
-          "IsPathIsRequired": true,
-          "TypeName": "TextBox",
-          "FieldValidation": {
-            "$type": "Bespoke.Sph.Domain.FieldValidation, domain.sph",
-            "IsRequired": false,
-            "Pattern": null,
-            "Mode": "",
-            "Message": null,
-            "Min": null,
-            "Max": null,
-            "MinLength": null,
-            "MaxLength": null,
-            "WebId": null
-          },
-          "Name": null,
-          "Label": "Bandar",
-          "Tooltip": null,
-          "Path": "Alamat.Bandar",
-          "IsRequired": false,
-          "Size": "input-large",
-          "CssClass": "",
-          "Visible": "true",
-          "Enable": "true",
-          "ElementId": "6ed7c98b-fc28-4de1-f113-1e0b01d26181",
-          "HelpText": null,
-          "UseDisplayTemplate": false,
-          "ToolboxIconClass": null,
-          "IsUniqueName": false,
-          "LabelColLg": null,
-          "LabelColMd": null,
-          "LabelColSm": null,
-          "LabelColXs": null,
-          "InputColLg": null,
-          "InputColMd": null,
-          "InputColSm": null,
-          "InputColXs": null,
-          "WebId": "2a0180bb-be8b-462c-9ea4-33d21bd6630f"
-        },
-        {
-          "$type": "Bespoke.Sph.Domain.ComboBox, domain.sph",
-          "ComboBoxItemCollection": {
-            "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.Sph.Domain.ComboBoxItem, domain.sph]], domain.sph",
-            "$values": [
-              {
-                "$type": "Bespoke.Sph.Domain.ComboBoxItem, domain.sph",
-                "Caption": "[Sila Pilih]",
-                "Value": "",
-                "WebId": "x4"
-              },
-              {
-                "$type": "Bespoke.Sph.Domain.ComboBoxItem, domain.sph",
-                "Caption": "Johor",
-                "Value": "Johor",
-                "WebId": "05ca2aab-5e16-4f4d-c77f-08bd2d8a3b05"
-              },
-              {
-                "$type": "Bespoke.Sph.Domain.ComboBoxItem, domain.sph",
-                "Caption": "Kedah",
-                "Value": "Kedah",
-                "WebId": "29371e17-73fa-4a3f-e33d-dd65ba8de2c0"
-              },
-              {
-                "$type": "Bespoke.Sph.Domain.ComboBoxItem, domain.sph",
-                "Caption": "Kelantan",
-                "Value": "Kelantan",
-                "WebId": "431a11fc-fc54-4dd3-85c8-7edba9179aa5"
-              },
-              {
-                "$type": "Bespoke.Sph.Domain.ComboBoxItem, domain.sph",
-                "Caption": "Melaka",
-                "Value": "Melaka",
-                "WebId": "1f710191-94df-4f68-c6bf-9b6e74b04932"
-              },
-              {
-                "$type": "Bespoke.Sph.Domain.ComboBoxItem, domain.sph",
-                "Caption": "Negeri Sembilan",
-                "Value": "Negeri Sembilan",
-                "WebId": "98554982-3b20-498d-80b0-582925a998e7"
-              },
-              {
-                "$type": "Bespoke.Sph.Domain.ComboBoxItem, domain.sph",
-                "Caption": "Pahang",
-                "Value": "Pahang",
-                "WebId": "929c25c1-de4e-4a0d-da28-7688e6803a4d"
-              },
-              {
-                "$type": "Bespoke.Sph.Domain.ComboBoxItem, domain.sph",
-                "Caption": "Perak",
-                "Value": "Perak",
-                "WebId": "ccf12fb3-794e-4106-c3da-bb8e43461442"
-              },
-              {
-                "$type": "Bespoke.Sph.Domain.ComboBoxItem, domain.sph",
-                "Caption": "Perlis",
-                "Value": "Perlis",
-                "WebId": "b0459e65-b892-4ce1-fcd9-a6a64a76cc11"
-              },
-              {
-                "$type": "Bespoke.Sph.Domain.ComboBoxItem, domain.sph",
-                "Caption": "Pulau Pinang",
-                "Value": "Pulau Pinang",
-                "WebId": "ba236325-3d3a-48ae-b202-0fa57be76bbe"
-              },
-              {
-                "$type": "Bespoke.Sph.Domain.ComboBoxItem, domain.sph",
-                "Caption": "Sabah",
-                "Value": "Sabah",
-                "WebId": "e45e3683-f7fc-440f-e891-669ece208af8"
-              },
-              {
-                "$type": "Bespoke.Sph.Domain.ComboBoxItem, domain.sph",
-                "Caption": "Sarawak",
-                "Value": "Sarawak",
-                "WebId": "dc955c95-3cc2-4fd1-f5ed-49e72e94a9dc"
-              },
-              {
-                "$type": "Bespoke.Sph.Domain.ComboBoxItem, domain.sph",
-                "Caption": "Selangor",
-                "Value": "Selangor",
-                "WebId": "245fba11-e8a6-4968-8d75-9e73ecce5c8f"
-              },
-              {
-                "$type": "Bespoke.Sph.Domain.ComboBoxItem, domain.sph",
-                "Caption": "Terengganu",
-                "Value": "Terengganu",
-                "WebId": "38eeb9d0-bfe6-44ab-b4c6-67f06d0d8a1d"
-              },
-              {
-                "$type": "Bespoke.Sph.Domain.ComboBoxItem, domain.sph",
-                "Caption": "W.P. Kuala Lumpur",
-                "Value": "W.P. Kuala Lumpur",
-                "WebId": "b2ec8d08-7c5e-4b24-b5b5-464707f6a175"
-              },
-              {
-                "$type": "Bespoke.Sph.Domain.ComboBoxItem, domain.sph",
-                "Caption": "W.P. Labuan",
-                "Value": "W.P. Labuan",
-                "WebId": "0835d154-fdb1-4750-d689-d669a26e91b7"
-              },
-              {
-                "$type": "Bespoke.Sph.Domain.ComboBoxItem, domain.sph",
-                "Caption": "W.P Putrajaya",
-                "Value": "W.P Putrajaya",
-                "WebId": "a760110a-4ae4-40b1-8184-898c96ea3d70"
-              }
-            ]
-          },
-          "ComboBoxLookup": {
-            "$type": "Bespoke.Sph.Domain.ComboBoxLookup, domain.sph",
-            "Entity": null,
-            "ValuePath": null,
-            "DisplayPath": null,
-            "Query": null,
-            "IsComputedQuery": false,
-            "WebId": null
-          },
-          "IsPathIsRequired": true,
-          "TypeName": "ComboBox",
-          "FieldValidation": {
-            "$type": "Bespoke.Sph.Domain.FieldValidation, domain.sph",
-            "IsRequired": false,
-            "Pattern": null,
-            "Mode": "",
-            "Message": null,
-            "Min": null,
-            "Max": null,
-            "MinLength": null,
-            "MaxLength": null,
-            "WebId": null
-          },
-          "Name": null,
-          "Label": "Negeri",
-          "Tooltip": null,
-          "Path": "Alamat.Negeri",
-          "IsRequired": false,
-          "Size": "input-large",
-          "CssClass": "",
-          "Visible": "true",
-          "Enable": "true",
-          "ElementId": "ff82c167-32a3-4cc4-a477-5e34b6086fba",
-          "HelpText": null,
-          "UseDisplayTemplate": false,
-          "ToolboxIconClass": null,
-          "IsUniqueName": false,
-          "LabelColLg": null,
-          "LabelColMd": null,
-          "LabelColSm": null,
-          "LabelColXs": null,
-          "InputColLg": null,
-          "InputColMd": null,
-          "InputColSm": null,
-          "InputColXs": null,
-          "WebId": "38c75b4d-449a-46ea-9295-329e4060cbac"
         },
         {
           "$type": "Bespoke.Sph.Domain.SectionFormElement, domain.sph",
@@ -1179,116 +847,128 @@
               {
                 "$type": "Bespoke.Sph.Domain.ComboBoxItem, domain.sph",
                 "Caption": "[Sila Pilih]",
-                "Value": "",
+                "Value": "[Sila Pilih]",
                 "WebId": "x4"
               },
               {
                 "$type": "Bespoke.Sph.Domain.ComboBoxItem, domain.sph",
-                "Caption": "1-17",
-                "Value": "1-17",
-                "WebId": "f6a32559-095a-4825-921e-0134ecf01898"
-              },
-              {
-                "$type": "Bespoke.Sph.Domain.ComboBoxItem, domain.sph",
-                "Caption": "22-38",
-                "Value": "22-38",
-                "WebId": "506bb743-d1d5-4be1-985a-dc50816fd310"
-              },
-              {
-                "$type": "Bespoke.Sph.Domain.ComboBoxItem, domain.sph",
-                "Caption": "41-48",
-                "Value": "41-48",
-                "WebId": "c1a52f8d-4b71-4f93-8af4-df26df162034"
-              },
-              {
-                "$type": "Bespoke.Sph.Domain.ComboBoxItem, domain.sph",
-                "Caption": "52-54",
-                "Value": "52-54",
-                "WebId": "d1566f6c-26fc-47f4-e508-3bc1a65ffc86"
-              },
-              {
-                "$type": "Bespoke.Sph.Domain.ComboBoxItem, domain.sph",
-                "Caption": "JUSA",
-                "Value": "JUSA",
-                "WebId": "4a7a53cc-cae4-40da-b2c9-769d7d249e95"
-              }
-            ]
-          },
-          "ComboBoxLookup": {
-            "$type": "Bespoke.Sph.Domain.ComboBoxLookup, domain.sph",
-            "Entity": null,
-            "ValuePath": null,
-            "DisplayPath": null,
-            "Query": null,
-            "IsComputedQuery": false,
-            "WebId": null
-          },
-          "IsPathIsRequired": true,
-          "TypeName": "ComboBox",
-          "FieldValidation": {
-            "$type": "Bespoke.Sph.Domain.FieldValidation, domain.sph",
-            "IsRequired": false,
-            "Pattern": null,
-            "Mode": "",
-            "Message": null,
-            "Min": null,
-            "Max": null,
-            "MinLength": null,
-            "MaxLength": null,
-            "WebId": null
-          },
-          "Name": null,
-          "Label": "Gred",
-          "Tooltip": null,
-          "Path": "Gred",
-          "IsRequired": false,
-          "Size": "input-large",
-          "CssClass": "",
-          "Visible": "ko.unwrap(Pekerjaan) !== 'Pelajar'",
-          "Enable": "true",
-          "ElementId": "47b57d27-1b24-4502-aa6c-f3b2b141a868",
-          "HelpText": null,
-          "UseDisplayTemplate": false,
-          "ToolboxIconClass": null,
-          "IsUniqueName": false,
-          "LabelColLg": null,
-          "LabelColMd": null,
-          "LabelColSm": null,
-          "LabelColXs": null,
-          "InputColLg": null,
-          "InputColMd": null,
-          "InputColSm": null,
-          "InputColXs": null,
-          "WebId": "93905cf9-02da-44bd-f57f-6bae77132623"
-        },
-        {
-          "$type": "Bespoke.Sph.Domain.ComboBox, domain.sph",
-          "ComboBoxItemCollection": {
-            "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.Sph.Domain.ComboBoxItem, domain.sph]], domain.sph",
-            "$values": [
-              {
-                "$type": "Bespoke.Sph.Domain.ComboBoxItem, domain.sph",
-                "Caption": "[Sila Pilih]",
-                "Value": "",
-                "WebId": "x4"
-              },
-              {
-                "$type": "Bespoke.Sph.Domain.ComboBoxItem, domain.sph",
-                "Caption": "Sistem Saraan Baru",
-                "Value": "SSB",
+                "Caption": "A",
+                "Value": "A",
                 "WebId": "de3b8ea9-da13-419e-e2e5-f5a3eba29e6e"
               },
               {
                 "$type": "Bespoke.Sph.Domain.ComboBoxItem, domain.sph",
-                "Caption": "Sistem Saraan Malaysia",
-                "Value": "SSM",
+                "Caption": "B",
+                "Value": "B",
                 "WebId": "d3a7c60c-69da-45e1-b4f8-3533b85eccb7"
               },
               {
                 "$type": "Bespoke.Sph.Domain.ComboBoxItem, domain.sph",
-                "Caption": "Jawatankuasa Kabinet",
-                "Value": "JK Kabinet",
+                "Caption": "C",
+                "Value": "C",
                 "WebId": "e45a3cda-dc21-40c8-8223-1200494f7794"
+              },
+              {
+                "$type": "Bespoke.Sph.Domain.ComboBoxItem, domain.sph",
+                "Caption": "D",
+                "Value": "D",
+                "WebId": "5553caf3-8101-40a2-f25f-2522afaaa39b"
+              },
+              {
+                "$type": "Bespoke.Sph.Domain.ComboBoxItem, domain.sph",
+                "Caption": "E",
+                "Value": "E",
+                "WebId": "1f9bc29a-347a-4517-d233-78fbb4daf90f"
+              },
+              {
+                "$type": "Bespoke.Sph.Domain.ComboBoxItem, domain.sph",
+                "Caption": "F",
+                "Value": "F",
+                "WebId": "05f4b8d9-17e7-4c70-dafb-5034cd88fc83"
+              },
+              {
+                "$type": "Bespoke.Sph.Domain.ComboBoxItem, domain.sph",
+                "Caption": "G",
+                "Value": "G",
+                "WebId": "8c3fcf85-d53c-45c9-ba26-1e9909688dfb"
+              },
+              {
+                "$type": "Bespoke.Sph.Domain.ComboBoxItem, domain.sph",
+                "Caption": "H",
+                "Value": "H",
+                "WebId": "81c4a107-f8e9-49de-94cc-35cb01efb56c"
+              },
+              {
+                "$type": "Bespoke.Sph.Domain.ComboBoxItem, domain.sph",
+                "Caption": "J",
+                "Value": "J",
+                "WebId": "e043a703-96c5-4922-bcb8-b2e98d6e7d75"
+              },
+              {
+                "$type": "Bespoke.Sph.Domain.ComboBoxItem, domain.sph",
+                "Caption": "K",
+                "Value": "K",
+                "WebId": "bc614a55-504b-42ca-d29c-7b11567e2daa"
+              },
+              {
+                "$type": "Bespoke.Sph.Domain.ComboBoxItem, domain.sph",
+                "Caption": "L",
+                "Value": "L",
+                "WebId": "44bfd10e-ede4-4dac-ee5c-7ab4b4a5ea50"
+              },
+              {
+                "$type": "Bespoke.Sph.Domain.ComboBoxItem, domain.sph",
+                "Caption": "M",
+                "Value": "M",
+                "WebId": "72aa149a-9068-463a-a03a-0ecde823efc5"
+              },
+              {
+                "$type": "Bespoke.Sph.Domain.ComboBoxItem, domain.sph",
+                "Caption": "N",
+                "Value": "N",
+                "WebId": "a3c77f2a-b4e5-4504-ecfb-a3d989eae413"
+              },
+              {
+                "$type": "Bespoke.Sph.Domain.ComboBoxItem, domain.sph",
+                "Caption": "P",
+                "Value": "P",
+                "WebId": "c41ed0df-2d40-4845-b398-f2896dac0491"
+              },
+              {
+                "$type": "Bespoke.Sph.Domain.ComboBoxItem, domain.sph",
+                "Caption": "Q",
+                "Value": "Q",
+                "WebId": "edbe87e4-692a-4b9a-e6d0-f18c64032236"
+              },
+              {
+                "$type": "Bespoke.Sph.Domain.ComboBoxItem, domain.sph",
+                "Caption": "S",
+                "Value": "S",
+                "WebId": "6d05a49c-2caa-4fe2-d2c6-a5baf496b0d2"
+              },
+              {
+                "$type": "Bespoke.Sph.Domain.ComboBoxItem, domain.sph",
+                "Caption": "U",
+                "Value": "U",
+                "WebId": "7c1af2c4-a01d-43da-db4d-91aa44d501ca"
+              },
+              {
+                "$type": "Bespoke.Sph.Domain.ComboBoxItem, domain.sph",
+                "Caption": "W",
+                "Value": "W",
+                "WebId": "f605066b-7887-4f5c-8f76-ac9d3fa6f810"
+              },
+              {
+                "$type": "Bespoke.Sph.Domain.ComboBoxItem, domain.sph",
+                "Caption": "Y",
+                "Value": "Y",
+                "WebId": "7681edcf-b2f4-4a64-de35-7784348a140d"
+              },
+              {
+                "$type": "Bespoke.Sph.Domain.ComboBoxItem, domain.sph",
+                "Caption": "Z",
+                "Value": "Z",
+                "WebId": "73db50f8-8c58-41a9-e854-5502470d71fb"
               }
             ]
           },
@@ -1316,7 +996,7 @@
             "WebId": null
           },
           "Name": null,
-          "Label": "Skim",
+          "Label": "* Skim Perkhidmatan",
           "Tooltip": null,
           "Path": "Skim",
           "IsRequired": false,
@@ -1338,6 +1018,174 @@
           "InputColSm": null,
           "InputColXs": null,
           "WebId": "7683282e-d272-4785-9ec9-395bb921df00"
+        },
+        {
+          "$type": "Bespoke.Sph.Domain.ComboBox, domain.sph",
+          "ComboBoxItemCollection": {
+            "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.Sph.Domain.ComboBoxItem, domain.sph]], domain.sph",
+            "$values": [
+              {
+                "$type": "Bespoke.Sph.Domain.ComboBoxItem, domain.sph",
+                "Caption": "[Sila Pilih]",
+                "Value": "[Sila Pilih]",
+                "WebId": "x4"
+              },
+              {
+                "$type": "Bespoke.Sph.Domain.ComboBoxItem, domain.sph",
+                "Caption": "1",
+                "Value": "1",
+                "WebId": "f6a32559-095a-4825-921e-0134ecf01898"
+              },
+              {
+                "$type": "Bespoke.Sph.Domain.ComboBoxItem, domain.sph",
+                "Caption": "4",
+                "Value": "4",
+                "WebId": "506bb743-d1d5-4be1-985a-dc50816fd310"
+              },
+              {
+                "$type": "Bespoke.Sph.Domain.ComboBoxItem, domain.sph",
+                "Caption": "11",
+                "Value": "11",
+                "WebId": "c1a52f8d-4b71-4f93-8af4-df26df162034"
+              },
+              {
+                "$type": "Bespoke.Sph.Domain.ComboBoxItem, domain.sph",
+                "Caption": "14",
+                "Value": "14",
+                "WebId": "d1566f6c-26fc-47f4-e508-3bc1a65ffc86"
+              },
+              {
+                "$type": "Bespoke.Sph.Domain.ComboBoxItem, domain.sph",
+                "Caption": "17",
+                "Value": "17",
+                "WebId": "4a7a53cc-cae4-40da-b2c9-769d7d249e95"
+              },
+              {
+                "$type": "Bespoke.Sph.Domain.ComboBoxItem, domain.sph",
+                "Caption": "22",
+                "Value": "22",
+                "WebId": "ba9d4758-c299-4f10-8e5b-5551b02aa0ce"
+              },
+              {
+                "$type": "Bespoke.Sph.Domain.ComboBoxItem, domain.sph",
+                "Caption": "26",
+                "Value": "26",
+                "WebId": "f3d27964-d4e5-4a25-f19f-fee89120480f"
+              },
+              {
+                "$type": "Bespoke.Sph.Domain.ComboBoxItem, domain.sph",
+                "Caption": "27",
+                "Value": "27",
+                "WebId": "04dbde3c-1f7c-4ee4-d2b0-2b3f664ac445"
+              },
+              {
+                "$type": "Bespoke.Sph.Domain.ComboBoxItem, domain.sph",
+                "Caption": "29",
+                "Value": "29",
+                "WebId": "4107c192-b4c4-44a4-8bb9-723ab4c1874d"
+              },
+              {
+                "$type": "Bespoke.Sph.Domain.ComboBoxItem, domain.sph",
+                "Caption": "32",
+                "Value": "32",
+                "WebId": "b18b95e0-da44-46e7-84c0-d8013a669be2"
+              },
+              {
+                "$type": "Bespoke.Sph.Domain.ComboBoxItem, domain.sph",
+                "Caption": "36",
+                "Value": "36",
+                "WebId": "09678568-dc8b-452f-ff8c-86e73d24e8cc"
+              },
+              {
+                "$type": "Bespoke.Sph.Domain.ComboBoxItem, domain.sph",
+                "Caption": "38",
+                "Value": "38",
+                "WebId": "791ebbb9-c65f-4515-9e44-5a47f9238ab2"
+              },
+              {
+                "$type": "Bespoke.Sph.Domain.ComboBoxItem, domain.sph",
+                "Caption": "41",
+                "Value": "41",
+                "WebId": "7445f9e3-86df-427c-bcee-d1cc99d20b99"
+              },
+              {
+                "$type": "Bespoke.Sph.Domain.ComboBoxItem, domain.sph",
+                "Caption": "44",
+                "Value": "44",
+                "WebId": "eef64e53-d354-452f-ff93-66207ae14236"
+              },
+              {
+                "$type": "Bespoke.Sph.Domain.ComboBoxItem, domain.sph",
+                "Caption": "48",
+                "Value": "48",
+                "WebId": "a6af50ab-e004-48cf-f666-e0588c9342e8"
+              },
+              {
+                "$type": "Bespoke.Sph.Domain.ComboBoxItem, domain.sph",
+                "Caption": "52",
+                "Value": "52",
+                "WebId": "f849c949-aceb-439a-800c-3f249ff3c912"
+              },
+              {
+                "$type": "Bespoke.Sph.Domain.ComboBoxItem, domain.sph",
+                "Caption": "54",
+                "Value": "54",
+                "WebId": "e9ea5a72-14a8-4b96-d2e4-b9e8ab194a43"
+              },
+              {
+                "$type": "Bespoke.Sph.Domain.ComboBoxItem, domain.sph",
+                "Caption": "JUSA",
+                "Value": "JUSA",
+                "WebId": "e6b13cf6-5318-4593-8121-033a965d82ef"
+              }
+            ]
+          },
+          "ComboBoxLookup": {
+            "$type": "Bespoke.Sph.Domain.ComboBoxLookup, domain.sph",
+            "Entity": null,
+            "ValuePath": null,
+            "DisplayPath": null,
+            "Query": null,
+            "IsComputedQuery": false,
+            "WebId": null
+          },
+          "IsPathIsRequired": true,
+          "TypeName": "ComboBox",
+          "FieldValidation": {
+            "$type": "Bespoke.Sph.Domain.FieldValidation, domain.sph",
+            "IsRequired": false,
+            "Pattern": null,
+            "Mode": "",
+            "Message": null,
+            "Min": null,
+            "Max": null,
+            "MinLength": null,
+            "MaxLength": null,
+            "WebId": null
+          },
+          "Name": null,
+          "Label": "* Gred",
+          "Tooltip": null,
+          "Path": "Gred",
+          "IsRequired": false,
+          "Size": "input-large",
+          "CssClass": "",
+          "Visible": "ko.unwrap(Pekerjaan) !== 'Pelajar'",
+          "Enable": "true",
+          "ElementId": "47b57d27-1b24-4502-aa6c-f3b2b141a868",
+          "HelpText": null,
+          "UseDisplayTemplate": false,
+          "ToolboxIconClass": null,
+          "IsUniqueName": false,
+          "LabelColLg": null,
+          "LabelColMd": null,
+          "LabelColSm": null,
+          "LabelColXs": null,
+          "InputColLg": null,
+          "InputColMd": null,
+          "InputColSm": null,
+          "InputColXs": null,
+          "WebId": "93905cf9-02da-44bd-f57f-6bae77132623"
         },
         {
           "$type": "Bespoke.Sph.Domain.SectionFormElement, domain.sph",
@@ -1400,7 +1248,7 @@
             "WebId": null
           },
           "Name": null,
-          "Label": "Emel",
+          "Label": "* Emel",
           "Tooltip": null,
           "Path": "Emel",
           "IsRequired": false,
@@ -1488,16 +1336,16 @@
             "WebId": null
           },
           "Name": null,
-          "Label": "Fax",
-          "Tooltip": null,
-          "Path": "Fax",
+          "Label": "Telefon",
+          "Tooltip": "e.g. 012-1234567 atau 01-2345678",
+          "Path": "Telefon",
           "IsRequired": false,
           "Size": "input-large",
           "CssClass": "",
           "Visible": "true",
           "Enable": "true",
           "ElementId": "5abf2ddc-22f2-42e9-c43e-68516ee1cf45",
-          "HelpText": null,
+          "HelpText": "e.g. 012-1234567 atau 01-2345678",
           "UseDisplayTemplate": false,
           "ToolboxIconClass": null,
           "IsUniqueName": false,
@@ -1564,6 +1412,6 @@
   "Id": "pengguna-details",
   "CreatedDate": "2015-06-16T08:04:09.5330981+08:00",
   "ChangedBy": "admin",
-  "ChangedDate": "2015-07-29T13:19:30.6801155+08:00",
+  "ChangedDate": "2015-08-26T10:35:21.0927713+08:00",
   "WebId": "4e32950c-7d95-4b44-983c-3c3e67811ded"
 }
