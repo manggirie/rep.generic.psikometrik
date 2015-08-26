@@ -52,7 +52,9 @@ namespace web.sph.App_Code
             var row = 2;
             var name = ws.Cells["A" + row].GetValue<string>();
             var mykad = ws.Cells["B" + row].GetValue<string>();
-            while (!string.IsNullOrEmpty(name) && !string.IsNullOrEmpty(mykad))
+            var hasRow = !string.IsNullOrEmpty(name) && !string.IsNullOrEmpty(mykad);
+
+            while (hasRow)
             {
                 var student = new Pengguna
                 {
@@ -60,16 +62,16 @@ namespace web.sph.App_Code
                     Nama = name,
                     MyKad = mykad,
                     Jantina = ws.Cells["C" + row].GetValue<string>(),
-                    Warganegara = ws.Cells["D" + row].GetValue<string>(),
-                    KumpulanUmur = ws.Cells["E" + row].GetValue<string>(),
-                    Emel = ws.Cells["F" + row].GetValue<string>(),
-                    Emel2 = ws.Cells["G" + row].GetValue<string>(),
+                    Warganegara = "Malaysia",
+                    KumpulanUmur = "NA",
+                    Emel = ws.Cells["G" + row].GetValue<string>(),
+                    Emel2 = null,
                     Pelajar = new Pelajar
                     {
-                        Minat = ws.Cells["H" + row].GetValue<string>(),
-                        BidangPengajian = ws.Cells["I" + row].GetValue<string>(),
-                        LuarNegara = ws.Cells["J" + row].GetValue<string>() == "Ya",
-                        TahapPendidikan = ws.Cells["K" + row].GetValue<string>()
+                        Minat = null,
+                        BidangPengajian = ws.Cells["D" + row].GetValue<string>(),
+                        LuarNegara = ws.Cells["F" + row].GetValue<string>() == "Luar Negara",
+                        TahapPendidikan = ws.Cells["E" + row].GetValue<string>()
 
                     }
                 };
@@ -102,6 +104,7 @@ namespace web.sph.App_Code
                 row++;
                 name = ws.Cells["A" + row].GetValue<string>();
                 mykad = ws.Cells["B" + row].GetValue<string>();
+                hasRow = !string.IsNullOrEmpty(name) && !string.IsNullOrEmpty(mykad);
             }
 
 
