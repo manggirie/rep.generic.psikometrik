@@ -1,42 +1,45 @@
 <form class="form-horizontal">
-  <div class="form-group">
-      <label for="siri-program" class="col-lg-2 control-label">MyKad</label>
-      <div class="col-lg-6">
-        <input type="text" data-bind="value: mykad"
-              required
-              required
-              placeholder="MyKad responden"
-              class="form-control" id="siri-program"/>
-      </div>
-      <button class="btn btn-info">
-        <i class="icon-eyeglasses"></i>
-      </button>
-  </div>
+    <div class="form-group">
+        <label for="siri-program" class="col-lg-2 control-label">MyKad</label>
+        <div class="col-lg-6">
+            <input type="text" data-bind="value: mykad"
+                   required
+                   required
+                   placeholder="MyKad responden"
+                   class="form-control" id="siri-program" />
+        </div>
+        <button class="btn btn-info">
+            <i class="icon-eyeglasses"></i>
+        </button>
+    </div>
 </form>
 <table class="table table-striped">
-  <thead>
-      <tr>
-        <th>Status</th>
-        <th>Tarikh</th>
-        <th>Modul</th>
-        <th>Program</th>
-        <th></th>
-      </tr>
-  </thead>
-  <tbody data-bind="foreach: results">
-    <tr>
-      <td data-bind="text:Status"></td>
-      <td data-bind="date:TarikhUjian"></td>
-      <td data-bind="text:NamaProgram"></td>
-      <td data-bind="text:NamaUjian"></td>
-      <td>
-        <a class="btn btn-default" target="_blank" data-bind="attr: {href : 'cetak-laporan/trait/'+ ko.unwrap(NamaUjian) +'/' + ko.unwrap(Id)}">Trait</a>
-        <!-- ko ifnot : ko.unwrap(NamaUjian) === 'HLP' ||  ko.unwrap(NamaUjian) === 'IBK'||  ko.unwrap(NamaUjian) === 'IP' -->
-        <a class="btn btn-default" target="_blank" data-bind="attr: {href : 'cetak-laporan/trait/'+ ko.unwrap(NamaUjian) +'/' + ko.unwrap(Id)}">Indikator</a>
-      
-        <!-- /ko -->          
-          
-      </td>
-    </tr>
-  </tbody>
+    <thead>
+        <tr>
+            <th>Status</th>
+            <th>Tarikh</th>
+            <th>Modul</th>
+            <th>Program</th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody data-bind="foreach: results">
+        <tr>
+            <td data-bind="text:Status"></td>
+            <td data-bind="date:TarikhUjian"></td>
+            <td data-bind="text:NamaProgram"></td>
+            <td data-bind="text:NamaUjian"></td>
+            <td>
+                <!-- ko if : traitButton -->
+                    <a class="btn btn-default" href="javascript:;" target="_blank" data-bind="attr: {href : 'cetak-laporan/trait/'+ ko.unwrap(NamaUjian) +'/' + ko.unwrap(Id)}">Trait</a>
+                <!-- /ko -->
+                
+                <!-- ko if : indikatorButton -->
+                    <a class="btn btn-default" href="javascript:;" target="_blank" data-bind="attr: {href : 'cetak-laporan/indikator/'+ ko.unwrap(NamaUjian) +'/' + ko.unwrap(Id)}">Indikator</a>
+
+                <!-- /ko -->
+
+            </td>
+        </tr>
+    </tbody>
 </table>
