@@ -50,7 +50,7 @@
 
 
 
-@helper DisplayRow(int start, int max, int step, string trait, string no, SkorUkbp skor, string header = null)
+@helper DisplayRow(int start, int max, int step, string trait, string no, SkorUkbp skor, string header = null, string useRawScore = null)
 {
 var column = 20;
 var headerText = header ?? trait;
@@ -58,13 +58,13 @@ var headerText = header ?? trait;
         @if (!string.IsNullOrEmpty(no))
         {
 
-        <td class="header">@no</td>
-        <td class="header">@headerText</td>
+            <td class="header">@no</td>
+            <td class="header">@headerText</td>
         }
         else
         {
-        <td></td>
-        <td>@headerText</td>
+            <td></td>
+            <td>@headerText</td>
         }
 
         @for (var i = start; i <= max; i += step)
@@ -76,15 +76,21 @@ var headerText = header ?? trait;
             {
                 throw new Exception($"Cannot find {i}");
             }
-        <td>
-            <img alt="@i" src="/images/ukbp/@(td.Image)@(on).png" id="kby-@i" />
-        </td>
+            if (!string.IsNullOrWhiteSpace(useRawScore))
+            {
+                var raw = Model.Sesi.JawapanCollection.Where(x => x.Trait == useRawScore).Sum(x => x.Nilai);
+                raw = raw == 0 ? 1 : raw;
+                on = i == raw ? "-on" : "";
+            }
+            <td>
+                <img alt="@i" src="/images/ukbp/@(td.Image)@(on).png" id="kby-@i" />
+            </td>
         }
 
 
         @if (column > 0)
         {
-        <td colspan="@column"></td>
+            <td colspan="@column"></td>
         }
     </tr>
 
@@ -136,8 +142,8 @@ var headerText = header ?? trait;
         <col style="width: 30px" />
         <col style="width: 30px" />
     </colgroup>
-    @DisplayRow(1, 15, 1, UkbpTraitViewModel.KEBOLEHPERCAYAAN, "1", Model.KBY)
-    @DisplayRow(1, 20, 1, UkbpTraitViewModel.NASIONALISME, "2", Model.NAS)
+    @DisplayRow(1, 15, 1, UkbpTraitViewModel.KEBOLEHPERCAYAAN, "1", Model.KBY, null, "KBY")
+    @DisplayRow(1, 20, 1, UkbpTraitViewModel.NASIONALISME, "2", Model.NAS, null, "NAS")
 
 
     <tr>
@@ -291,7 +297,7 @@ var headerText = header ?? trait;
                 try
                 {
                     <text>
-                    @Model.RecommendationPTL.Text
+                        @Model.RecommendationPTL.Text
                     </text>
                 }
                 catch (InvalidOperationException)
