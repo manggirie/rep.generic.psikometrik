@@ -167,7 +167,7 @@ namespace web.sph.App_Code
             foreach (var t in traits)
             {
                 html.AppendLine("           <th>" + t + "</th>");
-                html.AppendLine("           <th>Perc</th>");
+                html.AppendLine("           <th>%</th>");
             }
 
             html.AppendLine("           <th>Cetakan Individu</th>");
@@ -244,6 +244,8 @@ namespace web.sph.App_Code
 
             html.AppendLine("</tbody>");
             html.AppendLine("</table>");
+
+            html.AppendLine("<div><em>Nota: % = Percentile</em></di>");
 
             return html.ToString();
         }
