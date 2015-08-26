@@ -91,7 +91,7 @@
           "$values": []
         },
         "Path": "TarikhTamat",
-        "Header": "Tarikh Tama",
+        "Header": "Tarikh Tamat",
         "Sort": "",
         "IsLinkColumn": false,
         "FormRoute": null,
