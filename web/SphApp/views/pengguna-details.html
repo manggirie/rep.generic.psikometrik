@@ -123,31 +123,15 @@
         </div>
     </div>
 
+
     <div class="form-group" data-bind="visible:ko.unwrap(Pekerjaan) === &#39;Pelajar&#39;">
-        <div class="col-md-offset-4 col-md-8">
-            <div class="checkbox">
-                <label class="checkbox">
-                    <input data-bind="checked : Pelajar().LuarNegara, enable :true" id="Pelajar().LuarNegara" type="checkbox"
-                           name="Pelajar.LuarNegara"/>
-                    <span data-i18n=" Luar Negara"> Luar Negara</span>
-                    
-                </label>
-            </div>
-        </div>
-    </div>
-
-
-
-
-    <div data-bind="visible:ko.unwrap(Pekerjaan) === &#39;Pelajar&#39;" class="form-group">
-        <label data-i18n="Minat" for="c2fa2d20-2baf-4dc9-f4c0-e1f897e97292" class="col-md-4">Minat</label>
+        <label data-i18n="Tempat Pengajian" for="7dcc8a48-db5c-412b-81ea-006428a9c41c" class="col-md-4">Tempat Pengajian</label>
         <div class="col-md-8">
-            <input  class=" form-control " title=""
-                   data-bind="value: Pelajar().Minat, enable :true "
-                   
-                   
-                   
-                   id="c2fa2d20-2baf-4dc9-f4c0-e1f897e97292" type="text" name="Pelajar.Minat" />
+            <select  data-bind="value: Pelajar().Tempat, enable :true" id="7dcc8a48-db5c-412b-81ea-006428a9c41c" name="Pelajar.Tempat" class="required  form-control">
+                    <option value="" data-i18n="[Sila Pilih]">[Sila Pilih]</option>
+                    <option value="Dalam Negara" data-i18n="Dalam Negara">Dalam Negara</option>
+                    <option value="Luar Negara" data-i18n="Luar Negara">Luar Negara</option>
+            </select>
         </div>
     </div>
 

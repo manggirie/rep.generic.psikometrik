@@ -566,12 +566,44 @@
           "WebId": "5df9153d-6970-44e7-cb28-fabba4b948f2"
         },
         {
-          "$type": "Bespoke.Sph.Domain.CheckBox, domain.sph",
+          "$type": "Bespoke.Sph.Domain.ComboBox, domain.sph",
+          "ComboBoxItemCollection": {
+            "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.Sph.Domain.ComboBoxItem, domain.sph]], domain.sph",
+            "$values": [
+              {
+                "$type": "Bespoke.Sph.Domain.ComboBoxItem, domain.sph",
+                "Caption": "[Sila Pilih]",
+                "Value": "",
+                "WebId": "38d51034-fc8d-454c-d9c1-1e78503b5440"
+              },
+              {
+                "$type": "Bespoke.Sph.Domain.ComboBoxItem, domain.sph",
+                "Caption": "Dalam Negara",
+                "Value": "Dalam Negara",
+                "WebId": "620a6072-c6d1-4494-a705-38bc3e24e346"
+              },
+              {
+                "$type": "Bespoke.Sph.Domain.ComboBoxItem, domain.sph",
+                "Caption": "Luar Negara",
+                "Value": "Luar Negara",
+                "WebId": "43fcdf4c-7a62-4032-96d0-cc6b17e9e8f0"
+              }
+            ]
+          },
+          "ComboBoxLookup": {
+            "$type": "Bespoke.Sph.Domain.ComboBoxLookup, domain.sph",
+            "Entity": null,
+            "ValuePath": "",
+            "DisplayPath": "",
+            "Query": null,
+            "IsComputedQuery": false,
+            "WebId": null
+          },
           "IsPathIsRequired": true,
-          "TypeName": "CheckBox",
+          "TypeName": "ComboBox",
           "FieldValidation": {
             "$type": "Bespoke.Sph.Domain.FieldValidation, domain.sph",
-            "IsRequired": false,
+            "IsRequired": true,
             "Pattern": null,
             "Mode": "",
             "Message": null,
@@ -582,15 +614,15 @@
             "WebId": null
           },
           "Name": null,
-          "Label": " Luar Negara",
+          "Label": "Tempat Pengajian",
           "Tooltip": null,
-          "Path": "Pelajar.LuarNegara",
+          "Path": "Pelajar.Tempat",
           "IsRequired": false,
           "Size": null,
-          "CssClass": null,
+          "CssClass": "required",
           "Visible": "ko.unwrap(Pekerjaan) === 'Pelajar'",
           "Enable": "true",
-          "ElementId": "ba8d2473-9be0-48cb-ed17-7f298426c2ee",
+          "ElementId": "7dcc8a48-db5c-412b-81ea-006428a9c41c",
           "HelpText": null,
           "UseDisplayTemplate": false,
           "ToolboxIconClass": null,
@@ -603,51 +635,7 @@
           "InputColMd": null,
           "InputColSm": null,
           "InputColXs": null,
-          "WebId": "a6890661-dd96-4838-a1f6-d2c74739ef50"
-        },
-        {
-          "$type": "Bespoke.Sph.Domain.TextBox, domain.sph",
-          "DefaultValue": null,
-          "AutoCompletionEntity": null,
-          "AutoCompletionField": null,
-          "AutoCompletionQuery": null,
-          "IsPathIsRequired": true,
-          "TypeName": "TextBox",
-          "FieldValidation": {
-            "$type": "Bespoke.Sph.Domain.FieldValidation, domain.sph",
-            "IsRequired": false,
-            "Pattern": null,
-            "Mode": "",
-            "Message": null,
-            "Min": null,
-            "Max": null,
-            "MinLength": null,
-            "MaxLength": null,
-            "WebId": null
-          },
-          "Name": null,
-          "Label": "Minat",
-          "Tooltip": null,
-          "Path": "Pelajar.Minat",
-          "IsRequired": false,
-          "Size": null,
-          "CssClass": null,
-          "Visible": "ko.unwrap(Pekerjaan) === 'Pelajar'",
-          "Enable": "true",
-          "ElementId": "c2fa2d20-2baf-4dc9-f4c0-e1f897e97292",
-          "HelpText": null,
-          "UseDisplayTemplate": false,
-          "ToolboxIconClass": null,
-          "IsUniqueName": false,
-          "LabelColLg": null,
-          "LabelColMd": null,
-          "LabelColSm": null,
-          "LabelColXs": null,
-          "InputColLg": null,
-          "InputColMd": null,
-          "InputColSm": null,
-          "InputColXs": null,
-          "WebId": "ed626755-4853-41cd-c8d4-7347b3d948d3"
+          "WebId": "628f9458-7194-4413-f278-505c92a44aa4"
         },
         {
           "$type": "Bespoke.Sph.Domain.TextBox, domain.sph",
@@ -1440,6 +1428,6 @@
   "Id": "pengguna-details",
   "CreatedDate": "2015-06-16T08:04:09.5330981+08:00",
   "ChangedBy": "admin",
-  "ChangedDate": "2015-08-27T10:50:14.934968+08:00",
+  "ChangedDate": "2015-08-27T11:59:26.1478808+08:00",
   "WebId": "4e32950c-7d95-4b44-983c-3c3e67811ded"
 }
