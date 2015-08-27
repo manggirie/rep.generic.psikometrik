@@ -60,7 +60,7 @@
 </form>
 @* END LOGIN FORM *@
 @* BEGIN FORGOT PASSWORD FORM *@
-<form class="forget-form" action="index.html" method="post">
+<form class="forget-form" id="forget-password-form" method="post">
     <h3>Lupa kata laluan ?</h3>
     <p>
         Masukan email anda untuk reset kata laluan.
@@ -68,14 +68,14 @@
     <div class="form-group">
         <div class="input-icon">
             <i class="fa fa-envelope"></i>
-            <input class="form-control placeholder-no-fix" type="text" autocomplete="off" placeholder="Emel" name="email" />
+            <input id="forget-password-email" class="form-control placeholder-no-fix" type="text" autocomplete="off" placeholder="Emel" name="email" />
         </div>
     </div>
     <div class="form-actions">
         <button type="button" id="back-btn" class="btn">
             <i class="m-icon-swapleft"></i> Kembali
         </button>
-        <button type="submit" class="btn blue pull-right">
+        <button type="submit" id="forgot-password-submit" class="btn blue pull-right">
             Hantar <i class="m-icon-swapright m-icon-white"></i>
         </button>
     </div>
@@ -89,8 +89,6 @@
         jQuery(document).ready(function () {
 
 
-            var retUrl = getParameterByName("ReturnUrl") + window.location.hash;
-            $('input[name=ReturnUrl]').val(retUrl);
 
             function getParameterByName(name) {
                 name = name.replace(/[\[]/, "\\\[").replace(/[\]]/, "\\\]");
@@ -98,6 +96,37 @@
                     results = regex.exec(location.search);
                 return results == null ? "" : decodeURIComponent(results[1].replace(/\+/g, " "));
             }
+            var retUrl = getParameterByName("ReturnUrl") + window.location.hash;
+            $('input[name=ReturnUrl]').val(retUrl);
+
+
+
+            $('#forget-password-form').submit(function (e) {
+                e.preventDefault();
+
+                var button = $("#forgot-password-submit"),
+                    email = $('#forget-password-email').val();
+                if (!email) {
+                    return;
+                }
+                button.prop("disabled", true);
+                $("#progress").show();
+                $.ajax({
+                    type: "POST",
+                    data: JSON.stringify({ email: email }),
+                    url: "/jpa-account/forgot-password",
+                    contentType: "application/json; charset=utf-8",
+                    dataType: "json",
+                    error: function (a, b, c) {
+                        console.log(c);
+                    },
+                    success: function () {
+                        button.prop("disabled", false);
+                        $("#progress").hide();
+                        window.location = "/";
+                    }
+                });
+            });
 
         });
     </script>
