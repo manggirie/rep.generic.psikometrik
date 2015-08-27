@@ -3,7 +3,7 @@
   "No": "C4-26-33",
   "Dimensi": "Cara Gaya Pemikiran",
   "Tret": "C4",
-  "NamaTret": "Kesediaan Berubah",
+  "NamaTret": "Ketelitian",
   "NilaiMin": 26,
   "NilaiMax": 33,
   "Tahap": "Tinggi",
@@ -11,7 +11,7 @@
   "CreatedBy": "urusetia3",
   "Id": "23bd6cc9-6eb6-40b8-87ff-6d682e6b8652",
   "CreatedDate": "2015-08-11T14:34:24.5125725+08:00",
-  "ChangedBy": "urusetia3",
-  "ChangedDate": "2015-08-11T14:34:24.5105725+08:00",
+  "ChangedBy": "admin",
+  "ChangedDate": "2015-08-26T11:48:24.5004767+08:00",
   "WebId": "5c847410-09e1-41c9-c470-a903398bfa06"
 }

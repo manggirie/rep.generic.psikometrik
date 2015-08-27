@@ -5,7 +5,7 @@ define([], function(){
 
         },
         attached  = function(view){
-        
+            $("select.required").attr("required","");
         };
 
     return {

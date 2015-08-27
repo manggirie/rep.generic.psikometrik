@@ -1,8 +1,47 @@
 define([objectbuilders.app, "services/datacontext", objectbuilders.config], function(app, context, config){
-    var activate = function(list){
-
+    var map = function(v){
+            if(v.NamaUjian === "UKBP-A"){
+                v.NamaUjian = "UKBP";
+            }
+            if(v.NamaUjian === "UKBP-B"){
+                v.NamaUjian = "UKBP";
+            }
+            return v;
+        },
+        activate = function(list){
+            
+            var items = list(),
+                mapping = false;
+            list.subscribe(function(changes) {
+              
+                if(mapping){
+                    return;
+                }  
+                
+                
+                
+                items = list();
+                mapping = true;
+                
+                var baskets = [],
+                    filterdItems = [];
+                
+                setTimeout(function(){
+                    
+                    _(items).each(function(v){
+                        var key = v.NamaUjian + v.NamaProgram + v.MyKad;
+                        if(baskets.indexOf(key) === -1){
+                            baskets.push(key);
+                            filterdItems.push(v);
+                        }
+                    });
+                    list(filterdItems);
+                    mapping = false;
+                },250);
+                
+            }, null, "arrayChange");
+            
             return true;
-
 
         },
         sendReminderEmail = function(sesi, permohonanId){
@@ -41,7 +80,8 @@ define([objectbuilders.app, "services/datacontext", objectbuilders.config], func
 
     return {
         activate : activate,
-        attached : attached
+        attached : attached,
+        map : map
     };
 
 });

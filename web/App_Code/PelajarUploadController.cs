@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.IO;
 using System.Threading.Tasks;
 using System.Web.Mvc;
+using System.Web.Security;
 using Bespoke.epsikologi_pendaftaranprogram.Domain;
 using Bespoke.epsikologi_pengguna.Domain;
 using Bespoke.epsikologi_permohonan.Domain;
@@ -41,8 +42,8 @@ namespace web.sph.App_Code
             var file = new FileInfo(temp);
             var excel = new ExcelPackage(file);
             var ws = excel.Workbook.Worksheets["Pelajar"];
-            if(null == ws)
-                throw new ArgumentException("Cannot open Worksheet Pelajar in " + doc.FileName );
+            if (null == ws)
+                throw new ArgumentException("Cannot open Worksheet Pelajar in " + doc.FileName);
 
 
             var permohonan = await context.LoadOneAsync<Permohonan>(x => x.Id == permohonanId);
@@ -53,6 +54,8 @@ namespace web.sph.App_Code
             var name = ws.Cells["A" + row].GetValue<string>();
             var mykad = ws.Cells["B" + row].GetValue<string>();
             var hasRow = !string.IsNullOrEmpty(name) && !string.IsNullOrEmpty(mykad);
+
+            var duplicateEmails = new List<string>();
 
             while (hasRow)
             {
@@ -77,6 +80,16 @@ namespace web.sph.App_Code
                 };
 
                 var exist = await context.GetAnyAsync<Pengguna>(x => x.MyKad == student.MyKad);
+                if (!exist)
+                {
+                    var email = Membership.FindUsersByEmail(student.Emel);
+                    if (email.Count > 0)
+                    {
+                        duplicateEmails.Add(student.Emel);
+                        continue;
+                    }
+                }
+
                 var did = Guid.NewGuid().ToString();
                 var daftar = new PendaftaranProgram
                 {
@@ -110,7 +123,7 @@ namespace web.sph.App_Code
             // TODO : verify the user name and email for each record
 
 
-            return Json(new { success = true, list = senaraiDaftar, status = "OK" });
+            return Json(new { success = true, list = senaraiDaftar, duplicateEmails, status = "OK" });
         }
 
     }
