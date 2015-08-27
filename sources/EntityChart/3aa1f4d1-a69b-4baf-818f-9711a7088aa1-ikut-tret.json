@@ -13,13 +13,13 @@
   "Aggregate": "term",
   "Field": "Tret",
   "DateInterval": "year",
-  "IsDashboardItem": true,
+  "IsDashboardItem": false,
   "DasboardItemPosition": 0,
   "HistogramInterval": null,
   "CreatedBy": "admin",
   "Id": "3aa1f4d1-a69b-4baf-818f-9711a7088aa1-ikut-tret",
   "CreatedDate": "2015-07-09T07:20:32.7705762+08:00",
   "ChangedBy": "admin",
-  "ChangedDate": "2015-07-09T07:20:32.7705762+08:00",
+  "ChangedDate": "2015-08-26T14:06:20.6390078+08:00",
   "WebId": "50c26efb-8e73-4eec-e775-122e38dc9880"
 }
