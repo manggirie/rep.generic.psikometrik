@@ -9,30 +9,33 @@
   <Reference Relative="..\web\bin\Newtonsoft.Json.dll">C:\project\rep.generic.psikometrik\web\bin\Newtonsoft.Json.dll</Reference>
 </Query>
 
-var user = new Bespoke.Sph.Domain.UserProfile {
-UserName = "admin",
-Department = "",
-Designation = "developers",
-FullName = "admin",
-Email = "admin@jpa.gov.my",
-Id = "admin",
-IsLockedOut = false,
-HasChangedDefaultPassword = true,
-StartModule = "dev.home",
-Telephone = ""};
+var user = new Bespoke.Sph.Domain.UserProfile
+{
+	UserName = "admin",
+	Department = "",
+	Designation = "developers",
+	FullName = "admin",
+	Email = "admin@jpa.gov.my",
+	Id = "admin",
+	IsLockedOut = false,
+	HasChangedDefaultPassword = true,
+	StartModule = "dev.home",
+	Telephone = ""
+};
 
-var up = new UserProfile {
-Json = Bespoke.Sph.Domain.JsonSerializerService.ToJsonString(user, true),
-Id = "admin",
-ChangedBy = "admin",
-ChangedDate =DateTime.Today,
-CreatedBy= "admin",
-CreatedDate = DateTime.Today,
-Department = user.Department,
-Designation = user.Designation,
-Email = "admin@jpa.gov.my",
-FullName = user.FullName,
-UserName = user.UserName
+var up = new UserProfile
+{
+	Json = Bespoke.Sph.Domain.JsonSerializerService.ToJsonString(user, true),
+	Id = "admin",
+	ChangedBy = "admin",
+	ChangedDate = DateTime.Today,
+	CreatedBy = "admin",
+	CreatedDate = DateTime.Today,
+	Department = user.Department,
+	Designation = user.Designation,
+	Email = "admin@jpa.gov.my",
+	FullName = user.FullName,
+	UserName = user.UserName
 };
 UserProfiles.InsertOnSubmit(up);
 SubmitChanges();
