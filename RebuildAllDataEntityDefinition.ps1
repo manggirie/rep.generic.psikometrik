@@ -19,10 +19,10 @@ $xml.SelectSingleNode('//system.webServer/rewrite/rules/rule[@name="entity.api"]
 $xml.Save("$root\web\web.config")
 
 
-Write-Host "Removing all users except developers and administrators only"
-curl -Method Delete -Uri "http://psikometrik/jpa-admin/all-users"
+#Write-Host "Removing all users except developers and administrators only"
+#curl -Method Delete -Uri "http://psikometrik/jpa-admin/all-users"
 
-Import-Module .\utils\sqlcmd.dll
+#Import-Module .\utils\sqlcmd.dll
 
 $files = ls -Filter *.json -Path "$root\sources\EntityDefinition"
 foreach($t in $files){
@@ -31,9 +31,9 @@ foreach($t in $files){
     #Write-Host $json
     if($json.ToString().Contains("`"TreatDataAsSource`": true,") -eq $false)
     {
-        Write-Host "TRUNCATE TABLE $name ...."
+        #Write-Host "TRUNCATE TABLE $name ...."
        
-        Invoke-SqlCmdRx -TrustedConnection -Server "PSIKOMETRIK" -Database "epsikologi" -CommandQuery "TRUNCATE TABLE [epsikologi].[$name]"
+        #Invoke-SqlCmdRx -TrustedConnection -Server "PSIKOMETRIK" -Database "epsikologi" -CommandQuery "TRUNCATE TABLE [epsikologi].[$name]"
 
         Write-Host "Compiling $name"
         .\tools\sph.builder.exe /q "$root\sources\EntityDefinition\$t"
