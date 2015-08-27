@@ -48,7 +48,8 @@ define(["services/datacontext", objectbuilders.config, objectbuilders.app], func
 
         },
         attached  = function(view){
-
+            
+            $("select.required").attr("required", "");
         };
 
     return {

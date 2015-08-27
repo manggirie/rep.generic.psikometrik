@@ -53,7 +53,7 @@
     <div class="form-group" data-bind="visible:true">
         <label data-i18n="* Jantina" for="d89b9774-d8d1-4420-8caf-f22e0fef1fbb" class="col-md-4">* Jantina</label>
         <div class="col-md-8">
-            <select  data-bind="value: Jantina, enable :true" id="d89b9774-d8d1-4420-8caf-f22e0fef1fbb" name="Jantina" class=" input-large form-control">
+            <select  data-bind="value: Jantina, enable :true" id="d89b9774-d8d1-4420-8caf-f22e0fef1fbb" name="Jantina" class="required input-large form-control">
                     <option value="" data-i18n="[Sila Pilih]">[Sila Pilih]</option>
                     <option value="Lelaki" data-i18n="Lelaki">Lelaki</option>
                     <option value="Perempuan" data-i18n="Perempuan">Perempuan</option>
@@ -124,9 +124,9 @@
 
 
     <div class="form-group" data-bind="visible:true">
-        <label data-i18n="Pekerjaan" for="543e8baf-484f-4cdd-c2aa-85c4cefbdb13" class="col-md-4">Pekerjaan</label>
+        <label data-i18n="Pekerjaan" for="pengguna-pekerjaan" class="col-md-4">Pekerjaan</label>
         <div class="col-md-8">
-            <select  data-bind="value: Pekerjaan, enable :true" id="543e8baf-484f-4cdd-c2aa-85c4cefbdb13" name="Pekerjaan" class=" input-large form-control">
+            <select  data-bind="value: Pekerjaan, enable :true" id="pengguna-pekerjaan" name="Pekerjaan" class="required input-large form-control">
                     <option value="" data-i18n="[Sila Pilih]">[Sila Pilih]</option>
                     <option value="Kerajaan" data-i18n="Kerajaan">Kerajaan</option>
                     <option value="Swasta" data-i18n="Swasta">Swasta</option>
@@ -142,7 +142,7 @@
 
 
     <div data-bind="visible:ko.unwrap(Pekerjaan) === &#39;Pelajar&#39;" class="form-group">
-        <label data-i18n="Pelajar  Tahap Pendidikan" for="c6cb5b90-a13a-43c5-c971-f896c99854fe" class="col-md-4">Pelajar  Tahap Pendidikan</label>
+        <label data-i18n="Tahap Pengajian" for="c6cb5b90-a13a-43c5-c971-f896c99854fe" class="col-md-4">Tahap Pengajian</label>
         <div class="col-md-8">
             <input  class=" form-control " title=""
                    data-bind="value: Pelajar().TahapPendidikan, enable :true "
@@ -153,53 +153,38 @@
         </div>
     </div>
 
-    <div class="form-group" data-bind="visible:ko.unwrap(Pekerjaan) === &#39;Pelajar&#39;">
-        <div class="col-md-offset-4 col-md-8">
-            <div class="checkbox">
-                <label class="checkbox">
-                    <input data-bind="checked : Pelajar().LuarNegara, enable :true" id="Pelajar().LuarNegara" type="checkbox"
-                           name="Pelajar.LuarNegara"/>
-                    <span data-i18n=" Luar Negara"> Luar Negara</span>
-                    
-                </label>
-            </div>
-        </div>
-    </div>
-
-
-
-
-    <div data-bind="visible:ko.unwrap(Pekerjaan) === &#39;Pelajar&#39;" class="form-group">
-        <label data-i18n="Minat" for="c2fa2d20-2baf-4dc9-f4c0-e1f897e97292" class="col-md-4">Minat</label>
-        <div class="col-md-8">
-            <input  class=" form-control " title=""
-                   data-bind="value: Pelajar().Minat, enable :true "
-                   
-                   
-                   
-                   id="c2fa2d20-2baf-4dc9-f4c0-e1f897e97292" type="text" name="Pelajar.Minat" />
-        </div>
-    </div>
-
 
 
     <div data-bind="visible:ko.unwrap(Pekerjaan) === &#39;Pelajar&#39;" class="form-group">
         <label data-i18n="Bidang Pengajian" for="f977812f-48d5-4d25-c09b-368a392fccad" class="col-md-4">Bidang Pengajian</label>
         <div class="col-md-8">
-            <input  class=" form-control input-large" title=""
+            <input required class=" form-control input-large" title=""
                    data-bind="value: Pelajar().BidangPengajian, enable :true "
                    
                    
-                   
+                    data-rule-required="true" 
+
                    id="f977812f-48d5-4d25-c09b-368a392fccad" type="text" name="Pelajar.BidangPengajian" />
         </div>
     </div>
 
 
-    <div class="form-group" data-bind="visible:ko.unwrap(Pekerjaan) !== &#39;Pelajar&#39;">
+    <div class="form-group" data-bind="visible:ko.unwrap(Pekerjaan) === &#39;Pelajar&#39;">
+        <label data-i18n="Tempat Pengajian" for="pengguna-pelajar-tempat" class="col-md-4">Tempat Pengajian</label>
+        <div class="col-md-8">
+            <select  data-bind="value: Pelajar().Tempat, enable :true" id="pengguna-pelajar-tempat" name="Pelajar.Tempat" class="required  form-control">
+                    <option value="" data-i18n="[Sila Pilih]">[Sila Pilih]</option>
+                    <option value="Dalam Negara" data-i18n="Dalam Negara">Dalam Negara</option>
+                    <option value="Luar Negara" data-i18n="Luar Negara">Luar Negara</option>
+            </select>
+        </div>
+    </div>
+
+
+    <div class="form-group" data-bind="visible:ko.unwrap(Pekerjaan) === &#39;Kerajaan&#39;">
         <label data-i18n="Kumpulan Agensi" for="119ac31f-e09c-43cc-b3c7-91ce4cccaf9c" class="col-md-4">Kumpulan Agensi</label>
         <div class="col-md-8">
-            <select  data-bind="value: JenisPerkhidmatan, enable :$root.partial.isPenyelaras() === false" id="119ac31f-e09c-43cc-b3c7-91ce4cccaf9c" name="JenisPerkhidmatan" class=" input-large form-control">
+            <select  data-bind="value: JenisPerkhidmatan, enable :$root.partial.isPenyelaras() === false" id="119ac31f-e09c-43cc-b3c7-91ce4cccaf9c" name="JenisPerkhidmatan" class="required input-large form-control">
                     <option value="" data-i18n="[Sila Pilih]">[Sila Pilih]</option>
                     <option value="BBP" data-i18n="Badan Berkanun Persekutuan">Badan Berkanun Persekutuan</option>
                     <option value="BBN" data-i18n="Badan Berkanun Negeri">Badan Berkanun Negeri</option>
@@ -212,10 +197,10 @@
     </div>
 
 
-    <div class="form-group" data-bind="visible:ko.unwrap(Pekerjaan) !== &#39;Pelajar&#39;">
+    <div class="form-group" data-bind="visible:ko.unwrap(Pekerjaan) === &#39;Kerajaan&#39;">
         <label data-i18n="Kumpulan Jawatan" for="136182e1-66a5-4fa8-bba1-e6080deb3fb3" class="col-md-4">Kumpulan Jawatan</label>
         <div class="col-md-8">
-            <select  data-bind="value: KumpulanJawatan, enable :true" id="136182e1-66a5-4fa8-bba1-e6080deb3fb3" name="KumpulanJawatan" class=" input-large form-control">
+            <select  data-bind="value: KumpulanJawatan, enable :true" id="136182e1-66a5-4fa8-bba1-e6080deb3fb3" name="KumpulanJawatan" class="required input-large form-control">
                     <option value="" data-i18n="[Sila Pilih]">[Sila Pilih]</option>
                     <option value="Pengurusan Tertinggi" data-i18n="Pengurusan Tertinggi">Pengurusan Tertinggi</option>
                     <option value="Pengurusan Profesional" data-i18n="Pengurusan Profesional">Pengurusan Profesional</option>
@@ -226,26 +211,26 @@
     </div>
 
 
-    <div class="form-group" data-bind="visible:ko.unwrap(Pekerjaan) !== &#39;Pelajar&#39;">
+    <div class="form-group" data-bind="visible:ko.unwrap(Pekerjaan) === &#39;Kerajaan&#39;">
         <label data-i18n="Kementerian" for="d264e6ce-01ee-4920-c901-4970e75ef248" class="col-md-4">Kementerian</label>
         <div class="col-md-8">
-            <select  data-bind=" visible :ko.unwrap(Pekerjaan) !== 'Pelajar',  enable :$root.partial.isPenyelaras() === false, comboBoxLookupOptions : { value: NamaKementerian, entity : 'Kementerian', valuePath : 'NamaKementerian', displayPath: 'NamaKementerian', query :ko.computed(function(){ return 'KumpulanAgensi eq \'' + JenisPerkhidmatan() + '\'';})}" id="d264e6ce-01ee-4920-c901-4970e75ef248" name="NamaKementerian" class=" input-large form-control">
+            <select  data-bind=" visible :ko.unwrap(Pekerjaan) === 'Kerajaan',  enable :$root.partial.isPenyelaras() === false, comboBoxLookupOptions : { value: NamaKementerian, entity : 'Kementerian', valuePath : 'NamaKementerian', displayPath: 'NamaKementerian', query :ko.computed(function(){ return 'KumpulanAgensi eq \'' + JenisPerkhidmatan() + '\'';})}" id="d264e6ce-01ee-4920-c901-4970e75ef248" name="NamaKementerian" class="required input-large form-control">
             </select>
         </div>
     </div>
 
 
-    <div class="form-group" data-bind="visible:ko.unwrap(Pekerjaan) !== &#39;Pelajar&#39;">
+    <div class="form-group" data-bind="visible:ko.unwrap(Pekerjaan) === &#39;Kerajaan&#39;">
         <label data-i18n="Jabatan" for="566600d0-3ed3-4dfc-f481-f4efe6e69308" class="col-md-4">Jabatan</label>
         <div class="col-md-8">
-            <select  data-bind=" visible :ko.unwrap(Pekerjaan) !== 'Pelajar',  enable :$root.partial.isPenyelaras() === false, comboBoxLookupOptions : { value: NamaJabatan, entity : 'Jabatan', valuePath : 'NamaJabatan', displayPath: 'NamaJabatan', query :ko.computed(function(){ return 'Kementerian eq \'' + NamaKementerian() + '\'';})}" id="566600d0-3ed3-4dfc-f481-f4efe6e69308" name="NamaJabatan" class=" input-large form-control">
+            <select  data-bind=" visible :ko.unwrap(Pekerjaan) === 'Kerajaan',  enable :$root.partial.isPenyelaras() === false, comboBoxLookupOptions : { value: NamaJabatan, entity : 'Jabatan', valuePath : 'NamaJabatan', displayPath: 'NamaJabatan', query :ko.computed(function(){ return 'Kementerian eq \'' + NamaKementerian() + '\'';})}" id="566600d0-3ed3-4dfc-f481-f4efe6e69308" name="NamaJabatan" class=" input-large form-control">
             </select>
         </div>
     </div>
 
 
 
-    <div data-bind="visible:ko.unwrap(Pekerjaan) !== &#39;Pelajar&#39;" class="form-group">
+    <div data-bind="visible:ko.unwrap(Pekerjaan) === &#39;Kerajaan&#39;" class="form-group">
         <label data-i18n="Bahagian/Seksyen" for="4a411589-c825-4272-8410-6efb9118876e" class="col-md-4">Bahagian/Seksyen</label>
         <div class="col-md-8">
             <input  class=" form-control " title=""
@@ -258,11 +243,11 @@
     </div>
 
 
-    <div class="form-group" data-bind="visible:true">
-        <label data-i18n="* Skim Perkhidmatan" for="d2b0b2e8-ad87-415a-cc98-1724a9effc9a" class="col-md-4">* Skim Perkhidmatan</label>
+    <div class="form-group" data-bind="visible:ko.unwrap(Pekerjaan) === &#39;Kerajaan&#39;">
+        <label data-i18n="* Skim Perkhidmatan" for="pengguna-skim" class="col-md-4">* Skim Perkhidmatan</label>
         <div class="col-md-8">
-            <select  data-bind="value: Skim, enable :true" id="d2b0b2e8-ad87-415a-cc98-1724a9effc9a" name="Skim" class=" input-large form-control">
-                    <option value="[Sila Pilih]" data-i18n="[Sila Pilih]">[Sila Pilih]</option>
+            <select  data-bind="value: Skim, enable :true" id="pengguna-skim" name="Skim" class="required input-large form-control">
+                    <option value="" data-i18n="[Sila Pilih]">[Sila Pilih]</option>
                     <option value="A" data-i18n="A">A</option>
                     <option value="B" data-i18n="B">B</option>
                     <option value="C" data-i18n="C">C</option>
@@ -288,11 +273,11 @@
     </div>
 
 
-    <div class="form-group" data-bind="visible:ko.unwrap(Pekerjaan) !== &#39;Pelajar&#39;">
-        <label data-i18n="* Gred" for="47b57d27-1b24-4502-aa6c-f3b2b141a868" class="col-md-4">* Gred</label>
+    <div class="form-group" data-bind="visible:ko.unwrap(Pekerjaan) === &#39;Kerajaan&#39;">
+        <label data-i18n="* Gred" for="pengguna-gred" class="col-md-4">* Gred</label>
         <div class="col-md-8">
-            <select  data-bind="value: Gred, enable :true" id="47b57d27-1b24-4502-aa6c-f3b2b141a868" name="Gred" class=" input-large form-control">
-                    <option value="[Sila Pilih]" data-i18n="[Sila Pilih]">[Sila Pilih]</option>
+            <select  data-bind="value: Gred, enable :true" id="pengguna-gred" name="Gred" class="required input-large form-control">
+                    <option value="" data-i18n="[Sila Pilih]">[Sila Pilih]</option>
                     <option value="1" data-i18n="1">1</option>
                     <option value="4" data-i18n="4">4</option>
                     <option value="11" data-i18n="11">11</option>

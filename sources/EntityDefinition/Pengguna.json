@@ -704,28 +704,6 @@
                 "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.Sph.Domain.FieldPermission, domain.sph]], domain.sph",
                 "$values": []
               },
-              "Name": "Minat",
-              "TypeName": "System.String, mscorlib",
-              "IsNullable": true,
-              "IsNotIndexed": false,
-              "IsAnalyzed": false,
-              "IsFilterable": false,
-              "IsExcludeInAll": false,
-              "Boost": 2,
-              "DefaultValue": null,
-              "WebId": "27a62f67-d6c7-445a-851c-f5184cb82e72"
-            },
-            {
-              "$type": "Bespoke.Sph.Domain.Member, domain.sph",
-              "FullName": null,
-              "MemberCollection": {
-                "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.Sph.Domain.Member, domain.sph]], domain.sph",
-                "$values": []
-              },
-              "FieldPermissionCollection": {
-                "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.Sph.Domain.FieldPermission, domain.sph]], domain.sph",
-                "$values": []
-              },
               "Name": "BidangPengajian",
               "TypeName": "System.String, mscorlib",
               "IsNullable": true,
@@ -748,16 +726,16 @@
                 "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.Sph.Domain.FieldPermission, domain.sph]], domain.sph",
                 "$values": []
               },
-              "Name": "LuarNegara",
-              "TypeName": "System.Boolean, mscorlib",
+              "Name": "TahapPendidikan",
+              "TypeName": "System.String, mscorlib",
               "IsNullable": false,
               "IsNotIndexed": false,
               "IsAnalyzed": false,
               "IsFilterable": false,
               "IsExcludeInAll": false,
-              "Boost": 9,
+              "Boost": 0,
               "DefaultValue": null,
-              "WebId": "c1a342c8-bb6a-484b-a4db-45909942019d"
+              "WebId": "7ebab55d-44e6-48e0-d721-31421ab0413e"
             },
             {
               "$type": "Bespoke.Sph.Domain.Member, domain.sph",
@@ -770,16 +748,16 @@
                 "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.Sph.Domain.FieldPermission, domain.sph]], domain.sph",
                 "$values": []
               },
-              "Name": "TahapPendidikan",
+              "Name": "Tempat",
               "TypeName": "System.String, mscorlib",
               "IsNullable": false,
               "IsNotIndexed": false,
               "IsAnalyzed": false,
               "IsFilterable": false,
               "IsExcludeInAll": false,
-              "Boost": 0,
+              "Boost": 1,
               "DefaultValue": null,
-              "WebId": "7ebab55d-44e6-48e0-d721-31421ab0413e"
+              "WebId": "7237255b-777a-441f-ddfa-d3a7de8c99ae"
             }
           ]
         },
@@ -1015,6 +993,6 @@
   "Id": "pengguna",
   "CreatedDate": "2015-06-16T08:04:09.5200889+08:00",
   "ChangedBy": "admin",
-  "ChangedDate": "2015-08-26T10:35:38.7570047+08:00",
+  "ChangedDate": "2015-08-27T11:50:59.0612816+08:00",
   "WebId": "01c666ac-ab68-4416-9d69-a716a003c902"
 }

@@ -1,16 +1,14 @@
-define([], function(){
-    var activate = function(entity){
-                 return true;
-
-
+define([], function () {
+    var activate = function (entity) {
+            return true;
         },
-        attached  = function(view){
-            $("select.required").attr("required","");
+        attached = function (view) {
+            $("select.required").attr("required", "");
         };
 
     return {
-        activate : activate,
-        attached : attached
+        activate: activate,
+        attached: attached
     };
 
 });

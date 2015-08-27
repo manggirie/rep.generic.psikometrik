@@ -71,9 +71,8 @@ namespace web.sph.App_Code
                     Emel2 = null,
                     Pelajar = new Pelajar
                     {
-                        Minat = null,
                         BidangPengajian = ws.Cells["D" + row].GetValue<string>(),
-                        LuarNegara = ws.Cells["F" + row].GetValue<string>() == "Luar Negara",
+                        Tempat = ws.Cells["F" + row].GetValue<string>(),
                         TahapPendidikan = ws.Cells["E" + row].GetValue<string>()
 
                     }
