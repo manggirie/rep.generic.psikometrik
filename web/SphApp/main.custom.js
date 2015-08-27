@@ -7432,17 +7432,17 @@ define('services/jsonimportexport', [],
 /// <reference path="../schemas/form.designer.g.js" />
 /// <reference path="../../Scripts/bootstrap.js" />
 
-
 define('services/validation', [],
     function () {
 
         var m_form, m_template,
-            validationOptions = ko.observable,
+            validationOptions = ko.observable(),
+            validator = ko.observable(),
             init = function (form, template) {
                 m_form = form;
                 m_template = template;
 
-                var validation = { debug: true, rules: {}, messages: {} };
+                var validation = { debug: true, ignore: ":not(:visible)", rules: {}, messages: {} };
                 _(template.FormDesign().FormElementCollection()).each(function (f) {
                     var path = f.Path(),
                         v = ko.unwrap(f.FieldValidation);
@@ -7465,10 +7465,10 @@ define('services/validation', [],
                         validation.rules[path].minlength = v.MinLength();
                     }
                     if (v.Max()) {
-                        validation.rules[path].max= v.Max();
+                        validation.rules[path].max = v.Max();
                     }
                     if (v.Min()) {
-                        validation.rules[path].min= v.Min();
+                        validation.rules[path].min = v.Min();
                     }
                     if (v.Mode()) {
                         validation.rules[path][v.Mode()] = true;
@@ -7478,7 +7478,7 @@ define('services/validation', [],
                     //#1812
                     if (typeof f.ListViewColumnCollection === "function") {
                         var cols = ko.unwrap(f.ListViewColumnCollection);
-                        _(cols).each(function(c) {
+                        _(cols).each(function (c) {
                             console.log(typeof ko.unwrap(c.Input));
                         });
                     }
@@ -7486,20 +7486,21 @@ define('services/validation', [],
 
                 });
                 validationOptions(validation);
-                m_form.validate(validation);
+                var vdt = m_form.validate(validation);
+                validator(vdt);
             };
 
         var vm = {
             init: init,
             valid: function () {
 
-                if (typeof m_form[0].checkValidity === "function") {
-                    return m_form.valid() && m_form[0].checkValidity();
-                }
 
-                return m_form.valid();
+                var result = m_form.valid();
+                console.log("validation result :", result);
+                return validator().errorList.length === 0;
             },
-            validationOptions: validationOptions
+            validationOptions: validationOptions,
+            validator: validator
         };
 
         return vm;
