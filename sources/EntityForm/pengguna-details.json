@@ -134,16 +134,44 @@
           "WebId": "353fd823-9784-4273-b2aa-85f6511bb935"
         },
         {
-          "$type": "Bespoke.Sph.Domain.TextBox, domain.sph",
-          "DefaultValue": null,
-          "AutoCompletionEntity": null,
-          "AutoCompletionField": null,
-          "AutoCompletionQuery": null,
+          "$type": "Bespoke.Sph.Domain.ComboBox, domain.sph",
+          "ComboBoxItemCollection": {
+            "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.Sph.Domain.ComboBoxItem, domain.sph]], domain.sph",
+            "$values": [
+              {
+                "$type": "Bespoke.Sph.Domain.ComboBoxItem, domain.sph",
+                "Caption": "[Sila Pilih]",
+                "Value": "",
+                "WebId": "ca8159c0-5bf0-4313-ea23-7eb08c265138"
+              },
+              {
+                "$type": "Bespoke.Sph.Domain.ComboBoxItem, domain.sph",
+                "Caption": "Lelaki",
+                "Value": "Lelaki",
+                "WebId": "09e645b4-62ff-4d8f-92d5-82afe4e72af6"
+              },
+              {
+                "$type": "Bespoke.Sph.Domain.ComboBoxItem, domain.sph",
+                "Caption": "Perempuan",
+                "Value": "Perempuan",
+                "WebId": "63a9b9d2-98af-4720-d2d8-534decff9fa9"
+              }
+            ]
+          },
+          "ComboBoxLookup": {
+            "$type": "Bespoke.Sph.Domain.ComboBoxLookup, domain.sph",
+            "Entity": null,
+            "ValuePath": "",
+            "DisplayPath": "",
+            "Query": null,
+            "IsComputedQuery": false,
+            "WebId": null
+          },
           "IsPathIsRequired": true,
-          "TypeName": "TextBox",
+          "TypeName": "ComboBox",
           "FieldValidation": {
             "$type": "Bespoke.Sph.Domain.FieldValidation, domain.sph",
-            "IsRequired": false,
+            "IsRequired": true,
             "Pattern": null,
             "Mode": "",
             "Message": null,
@@ -158,11 +186,11 @@
           "Tooltip": null,
           "Path": "Jantina",
           "IsRequired": false,
-          "Size": "input-large",
-          "CssClass": "",
+          "Size": null,
+          "CssClass": "required",
           "Visible": "true",
           "Enable": "true",
-          "ElementId": "cc0c30a6-0bea-4b1e-e3c5-c2910f10a694",
+          "ElementId": "6326bd79-25df-4215-aa75-1f3d98ec07d5",
           "HelpText": null,
           "UseDisplayTemplate": false,
           "ToolboxIconClass": null,
@@ -175,7 +203,7 @@
           "InputColMd": null,
           "InputColSm": null,
           "InputColXs": null,
-          "WebId": "b9800c15-1efe-47a4-d21a-0de2642f0855"
+          "WebId": "b756ea1d-4997-4520-eb05-b401db19bb41"
         },
         {
           "$type": "Bespoke.Sph.Domain.ComboBox, domain.sph",
@@ -847,7 +875,7 @@
               {
                 "$type": "Bespoke.Sph.Domain.ComboBoxItem, domain.sph",
                 "Caption": "[Sila Pilih]",
-                "Value": "[Sila Pilih]",
+                "Value": "",
                 "WebId": "x4"
               },
               {
@@ -985,7 +1013,7 @@
           "TypeName": "ComboBox",
           "FieldValidation": {
             "$type": "Bespoke.Sph.Domain.FieldValidation, domain.sph",
-            "IsRequired": false,
+            "IsRequired": true,
             "Pattern": null,
             "Mode": "",
             "Message": null,
@@ -1001,7 +1029,7 @@
           "Path": "Skim",
           "IsRequired": false,
           "Size": "input-large",
-          "CssClass": "",
+          "CssClass": "required",
           "Visible": "ko.unwrap(Pekerjaan) !== 'Pelajar'",
           "Enable": "true",
           "ElementId": "dea60c85-93f9-4f63-9904-821d607e5c0d",
@@ -1027,7 +1055,7 @@
               {
                 "$type": "Bespoke.Sph.Domain.ComboBoxItem, domain.sph",
                 "Caption": "[Sila Pilih]",
-                "Value": "[Sila Pilih]",
+                "Value": "",
                 "WebId": "x4"
               },
               {
@@ -1153,7 +1181,7 @@
           "TypeName": "ComboBox",
           "FieldValidation": {
             "$type": "Bespoke.Sph.Domain.FieldValidation, domain.sph",
-            "IsRequired": false,
+            "IsRequired": true,
             "Pattern": null,
             "Mode": "",
             "Message": null,
@@ -1169,7 +1197,7 @@
           "Path": "Gred",
           "IsRequired": false,
           "Size": "input-large",
-          "CssClass": "",
+          "CssClass": "required",
           "Visible": "ko.unwrap(Pekerjaan) !== 'Pelajar'",
           "Enable": "true",
           "ElementId": "47b57d27-1b24-4502-aa6c-f3b2b141a868",
@@ -1405,13 +1433,13 @@
   "IsExportAvailable": false,
   "Operation": "KemaskiniOlehUrusetia",
   "Entity": "Pengguna",
-  "Partial": null,
+  "Partial": "partial/pengguna-details",
   "Caption": null,
   "Layout": " ",
   "CreatedBy": "admin",
   "Id": "pengguna-details",
   "CreatedDate": "2015-06-16T08:04:09.5330981+08:00",
   "ChangedBy": "admin",
-  "ChangedDate": "2015-08-26T13:54:04.2933215+08:00",
+  "ChangedDate": "2015-08-27T09:01:11.4427376+08:00",
   "WebId": "4e32950c-7d95-4b44-983c-3c3e67811ded"
 }
