@@ -13,13 +13,13 @@
   "Aggregate": "term",
   "Field": "Skor",
   "DateInterval": "year",
-  "IsDashboardItem": true,
+  "IsDashboardItem": false,
   "DasboardItemPosition": 0,
   "HistogramInterval": null,
   "CreatedBy": "admin",
   "Id": "3aa1f4d1-a69b-4baf-818f-9711a7088aa1-ikut-skor",
   "CreatedDate": "2015-07-09T07:20:55.3068759+08:00",
   "ChangedBy": "admin",
-  "ChangedDate": "2015-07-09T07:20:55.3068759+08:00",
+  "ChangedDate": "2015-08-26T14:06:16.3585798+08:00",
   "WebId": "70c4f05b-1815-44cb-8d78-876fcfa08efd"
 }
