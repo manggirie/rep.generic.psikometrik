@@ -6,7 +6,7 @@
     <div class="col-lg-8 col-md-8 col-sm-12 col-xs-12">
         <!-- ko foreach : sections -->
         <div data-bind="attr {'id':'section-' + + section}, visible : typeof $root.currentSection() === 'undefined' || $root.currentSection() === section">
-            <h4 data-bind="text: 'Seksyen : ' + section, attr :{'id' : section}"></h4>
+            <h4 data-bind="text: 'Seksyen : ' + section, attr :{'id' : section}, visible :ko.unwrap(section)"></h4>
             <span class="" data-bind="text: 'Jumlah Soalan ' + questions().length"></span>
             <br/>
             <strong data-bind="text:header"></strong>
@@ -51,12 +51,10 @@
         <ul id="nav" class="nav hidden-xs hidden-sm" data-spy="affix">
             <!-- ko foreach : sections -->
 
-            <li>
+            <li data-bind="visible: ko.unwrap(section)">
                 <a data-bind="click : $root.goToSection,attr :{'title' : 'Pergi ke seksyen '+ section }" href="#mula-sesi-ujian" title="Pergi ke seksyen">
-
                     <i class="fa fa-arrow-circle-right"></i>
                     <span data-bind="text: 'Seksyen ' + ko.unwrap(section) + '  (' + ko.unwrap(answered) + '/' + ko.unwrap(questions).length + ')', attr :{'href' : '#'+ section }"></span>
-
                 </a>
             </li>
 
