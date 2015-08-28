@@ -3,7 +3,7 @@
   "NoRujukan": "IP-00109",
   "SoalanNo": "IP-00109",
   "TeksSoalan": "Adakah anda lebih cenderung menjadi seorang yang &",
-  "SeksyenSoalan": "",
+  "SeksyenSoalan": null,
   "PilihanJawapanCollection": {
     "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan]], domain.sph",
     "$values": [
