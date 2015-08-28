@@ -75,7 +75,8 @@ namespace web.sph.App_Code
                         Tempat = ws.Cells["F" + row].GetValue<string>(),
                         TahapPendidikan = ws.Cells["E" + row].GetValue<string>()
 
-                    }
+                    },
+                    IsResponden = true
                 };
 
                 var exist = await context.GetAnyAsync<Pengguna>(x => x.MyKad == student.MyKad);
