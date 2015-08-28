@@ -2,12 +2,12 @@
   "$type": "Bespoke.epsikologi_hlprecomendation.Domain.HlpRecomendation, epsikologi.HlpRecomendation",
   "No": "kt-sr",
   "Tret": "KT",
-  "Text": "Kebimbangan sederhana dengan simptom seperti sukar memberi tumpuan kepada apa yang berlaku di persekitaran",
-  "Skor": "Rendah",
+  "Text": "Kebimbangan yang tinggi  dengan simptom seperti sangat sukar memberi tumpuan kepada apa yang berlaku di persekitaran",
+  "Skor": "Skor Rendah",
   "CreatedBy": "urusetia1",
   "Id": "kt-sr",
   "CreatedDate": "2015-07-08T12:30:14.3066766+08:00",
-  "ChangedBy": "urusetia",
-  "ChangedDate": "2015-07-09T07:09:50.3075106+08:00",
+  "ChangedBy": "admin",
+  "ChangedDate": "2015-08-27T15:33:42.5328121+08:00",
   "WebId": "ea73ac08-fdec-4ba6-c538-6e9b2edc9529"
 }

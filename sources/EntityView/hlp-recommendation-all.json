@@ -89,7 +89,7 @@
     "$type": "Bespoke.Sph.Domain.Performer, domain.sph",
     "UserProperty": "Roles",
     "Value": "PengurusanSoalan",
-    "IsPublic": false,
+    "IsPublic": true,
     "WebId": null
   },
   "RouteParameterCollection": {
@@ -109,12 +109,12 @@
   "CountMessage": null,
   "Entity": "HlpRecomendation",
   "Partial": null,
-  "Template": null,
-  "DisplayOnDashboard": false,
+  "Template": "View without chart",
+  "DisplayOnDashboard": true,
   "CreatedBy": "admin",
   "Id": "hlp-recommendation-all",
   "CreatedDate": "2015-07-08T10:06:07.2962632+08:00",
   "ChangedBy": "admin",
-  "ChangedDate": "2015-07-12T08:20:34.3004167+08:00",
+  "ChangedDate": "2015-08-28T12:28:15.8955349+08:00",
   "WebId": "5eecf119-d0e6-4d9c-9a97-0a70e0dd9581"
 }
