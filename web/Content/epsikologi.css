@@ -27900,6 +27900,14 @@ span.twitter-typeahead{
 
 span.k-datepicker {
     width: 200px;
+    padding: 0px;
+}
+
+span.k-picker-wrap.k-state-default {
+    height: 32px;
+}
+span.k-picker-wrap.k-state-default > input {
+    height: 30px;
 }
 /*!
  * Durandal 2.1.0 Copyright (c) 2012 Blue Spire Consulting, Inc. All Rights Reserved.
