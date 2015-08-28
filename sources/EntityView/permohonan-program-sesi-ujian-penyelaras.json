@@ -45,7 +45,7 @@
         "Header": "Program",
         "Sort": "",
         "IsLinkColumn": true,
-        "FormRoute": "permohonan-penyelaras",
+        "FormRoute": "permohonan-penyelaras-readonly",
         "IconCssClass": "",
         "IconStoreId": "",
         "Format": "text:{0}",
@@ -194,6 +194,6 @@
   "Id": "permohonan-program-sesi-ujian-penyelaras",
   "CreatedDate": "2015-06-05T10:45:40.0585082+08:00",
   "ChangedBy": "admin",
-  "ChangedDate": "2015-08-26T11:31:08.9727496+08:00",
+  "ChangedDate": "2015-08-28T08:10:12.1588986+08:00",
   "WebId": "0264f91b-ffce-46cc-d40a-e6d3cadb6fac"
 }
