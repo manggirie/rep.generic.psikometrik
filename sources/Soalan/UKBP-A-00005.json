@@ -24,7 +24,7 @@
   "Trait": "RAS",
   "NamaUjian": "UKBP-A",
   "Susunan": 5.0,
-  "Kategori": "",
+  "Kategori": null,
   "Bahagian": "A",
   "CreatedBy": "admin",
   "Id": "UKBP-A-00005",
