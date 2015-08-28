@@ -253,3 +253,8 @@ span.twitter-typeahead > input.tt-hint{
 span.twitter-typeahead{
   width: 477px; padding-top: 3px; padding-left: 5px; display: inline-block; position: relative; direction: ltr;
 }
+
+
+span.k-datepicker {
+    width: 200px;
+}

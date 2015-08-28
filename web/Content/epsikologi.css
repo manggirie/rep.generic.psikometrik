@@ -27897,6 +27897,10 @@ span.twitter-typeahead{
   width: 477px; padding-top: 3px; padding-left: 5px; display: inline-block; position: relative; direction: ltr;
 }
 
+
+span.k-datepicker {
+    width: 200px;
+}
 /*!
  * Durandal 2.1.0 Copyright (c) 2012 Blue Spire Consulting, Inc. All Rights Reserved.
  * Available via the MIT license.
