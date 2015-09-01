@@ -1,396 +1,279 @@
 @model web.sph.App_Code.HlpTraitViewModel
+
+@using Bespoke.epsikologi_skorhlp.Domain
+@using web.sph.App_Code
 @{
-    Layout = null;
+    Layout = "_MasterPage.NoHeader.cshtml";
+
 }
-<!DOCTYPE html>
-<html>
-<head>
-    <title>Laporan untuk @Model.Sesi.NamaPengguna</title>
-    <!--link rel="stylesheet" type="text/css" href="/content/external/bootstrap.min.css"-->
-
-    <!--link href="/assets/global/plugins/bootstrap/css/bootstrap.min.css" rel="stylesheet" type="text/css"/-->
+@section head
+{
     <style type="text/css">
-    .tg  {border-collapse:collapse;border-spacing:0;}
-    .tg td{font-family:Arial, sans-serif;font-size:10px;padding:4px 1px;;overflow:hidden;word-break:normal;}
-    .tg th{font-family:Arial, sans-serif;font-size:10px;font-weight:normal;padding:4px 1px;;overflow:hidden;word-break:normal;}
-    .tg .tg-qgab{font-weight:bold;font-size:10px;font-family:Arial, sans-serif; !important;;background-color:#c0c0c0;color:#000000; border-color:#000; border-style:solid}
-    .tg .tg-8rqm{font-weight:bold;font-size:10px;font-family:Arial, sans-serif; !important;;background-color:#1D1D1D;color:#ffffff;text-align:center; border-style:solid; border-color:#000}
-    .tg .tg-vfu4{font-weight:bold;font-size:10px;font-family:Arial, sans-serif; !important;;background-color:#1D1D1D;color:#ffffff; border-style:solid; border-color: #000}
-    .tg .tg-0raj{font-weight:bold;font-size:10px;font-family:Arial, sans-serif; !important;;background-color:#656565;color:#ffffff;text-align:center; border-style:solid; border-color:#000}
-    .tg .tg-cjnz{font-weight:bold;font-size:10px;font-family:Arial, sans-serif; !important;;background-color:#c0c0c0; border-style:solid; border-color:#000}
-    .tg .tg-wp0l{font-weight:bold;font-size:10px;font-family:Arial, sans-serif; !important;;text-align:center; border-style:solid; border-color:#000}
-    .tg .tg-ezxl{font-weight:bold;font-size:10px;font-family:Arial, sans-serif; !important;;background-color:#656565;color:#ffffff; border-style:solid; border-color:#000}
-    .tg .tg-p0h7{font-weight:bold;font-size:10px;font-family:Arial, sans-serif; !important;;background-color:#c0c0c0;color:#333333;text-align:center; border-style:solid; border-color:#000}
-    .tg .tg-or6l{font-weight:bold;font-size:10px;font-family:Arial, sans-serif; !important; border-style:solid; border-color:#000}
-    .tg .tg-l5nx{font-weight:bold;font-size:10px;font-family:Arial, sans-serif; !important;;background-color:#c0c0c0;color:#333333; border-style:solid; border-color:#000}
-    .tg .tg-w82q{font-family:Arial, sans-serif; !important;}
-    .tg .tg-031e{ border-bottom:none; border-top:none; border-left:none; border-right:none}
-    .tr  {border-collapse:collapse;border-spacing:0;}
-    .tr td{font-family:Arial, sans-serif;font-size:7px;padding:4px 1px;;overflow:hidden;word-break:normal;}
-    .tr th{font-family:Arial, sans-serif;font-size:7px;font-weight:normal;padding:4px 1px;;overflow:hidden;word-break:normal;}
-    .tr .tr-1to1{background-color:#c0c0c0;color:#c0c0c0; border-style:solid; border-color:#000}
-    .tr .tr-4mn7{background-color:#ffffff;color:#000; border-style:solid; border-color:#000}
-    .tr .tr-2g0z{background-color:#656565;color:#656565; border-style:solid; border-color:#000}
-    .tr .tr-0onx{background-color:#1D1D1D;color:#1D1D1D; border-style:solid; border-color:#000}
-    .tr .tr-01nx{border-style:none }
+        table {
+            font-size: 10px;
+        }
 
-    .tq  {border-collapse:collapse;border-spacing:0;border-color:#ccc;}
-    .tq td{font-family:Arial, sans-serif;font-size:10px;padding:4px 1px;overflow:hidden;word-break:normal;border-color:#ccc;color:#333;background-color:#fff;}
-    .tq th{font-family:Arial, sans-serif;font-size:10px;font-weight:normal;padding:4px 1px;;overflow:hidden;word-break:normal;border-color:#ccc;color:#333;background-color:#f0f0f0;}
-    .tq.tq-j19f{font-weight:bold;background-color:#c0c0c0;color:#000000;text-align:center}
+            table.table-bordered2 td, th {
+                border: 1px solid #000000;
+                padding: 2px;
+            }
 
+            table.table-bordered2 th {
+                text-align: center;
+                background-color: lightskyblue;
+            }
+
+            table#bahagian-a {
+                border-spacing: 5px;
+                border-collapse: separate;
+                width: 100%;
+            }
+
+        h1 {
+            font-size: small;
+            font-weight: bold;
+            text-align: center;
+        }
+
+        td.header {
+            font-weight: bold;
+        }
+
+
+        td.label {
+            font-size: 10px;
+            font-weight: bold;
+            color: #000000;
+        }
     </style>
-</head>
-<body>
+}
 
-<table class="tg" align="Center" ><tr><td align="center" class="tg-031e"><strong>LAPORAN UJIAN KHAS HADIAH LATIHAN PERSEKUTUAN</strong> </td></tr>
-<tr><td align="center" class="tg-031e"><strong> JABATAN PERKHIDMATAN AWAM</strong> </td></tr></table>
-<table class="tg" align="left"  ><tr><td class="tg-031e"><strong>Nama Pegawai:</strong> </td><td>@Model.Pengguna.Nama</td>
-<td></td>
-<td></td><td></td><td></td><td></td><td></td><td></td><td class="tg-031e"><strong>No. Kad Pengenalan:</strong> </td><td>@Model.Pengguna.MyKad</td><td></td></tr>
+
+
+
+@helper DisplayRow(int start, int max, int step, string trait, string no, SkorHlp skor, string header = null, string useRawScore = null)
+{
+var column = 20;
+var headerText = header ?? trait;
+    <tr>
+        @if (!string.IsNullOrEmpty(no))
+        {
+
+        <td class="header">@no</td>
+        <td class="header">@headerText</td>
+        }
+        else
+        {
+        <td></td>
+        <td>@headerText</td>
+        }
+
+        @for (var i = start; i <= max; i += step)
+        {
+            column--;
+            var td = Model.TdCollection.SingleOrDefault(x => x.Tret == trait && x.Value == i);
+            var on = skor.Percentile == i ? "-on" : "";
+            if (null == td)
+            {
+                throw new Exception($"Cannot find {i}");
+            }
+            if (!string.IsNullOrWhiteSpace(useRawScore))
+            {
+                var raw = Model.Sesi.JawapanCollection.Where(x => x.Trait == useRawScore).Sum(x => x.Nilai);
+                raw = raw == 0 ? 1 : raw;
+                on = i == raw ? "-on" : "";
+            }
+        <td>
+            <img alt="@i" src="/images/Hlp/@(td.Image)@(on).png" id="kby-@i" />
+        </td>
+        }
+
+
+        @if (column > 0)
+        {
+        <td colspan="@column"></td>
+        }
+    </tr>
+
+}
+
+<h1 style="margin-top: 0px">LAPORAN UJIAN KHAS HADIAH LATIHAN PERSEKUTUAN JABATAN PERKHIDMATAN AWAM</h1>
+<table>
+    <colgroup>
+        <col style="width: 17%" />
+        <col style="width: 17%" />
+        <col style="width: 17%" />
+        <col style="width: 17%" />
+        <col style="width: 17%" />
+        <col style="width: 17%" />
+    </colgroup>
+    <tr>
+        <td class="header">Nama Calon :</td>
+        <td>@Model.Pengguna.Nama</td>
+        <td class="header">No. Kad Pengenalan :</td>
+        <td>@Model.Pengguna.MyKad</td>
+        <td></td>
+        <td></td>
+    </tr>
+</table>
+<div style="height: 10px"></div>
+<table id="bahagian-a">
+    <colgroup>
+        <col style="width: 20px" />
+        <col style="width: 200px" />
+        <col style="width: 30px" />
+        <col style="width: 30px" />
+        <col style="width: 30px" />
+        <col style="width: 30px" />
+        <col style="width: 30px" />
+        <col style="width: 30px" />
+        <col style="width: 30px" />
+        <col style="width: 30px" />
+        <col style="width: 30px" />
+        <col style="width: 30px" />
+        <col style="width: 30px" />
+        <col style="width: 30px" />
+        <col style="width: 30px" />
+        <col style="width: 30px" />
+        <col style="width: 30px" />
+        <col style="width: 30px" />
+        <col style="width: 30px" />
+        <col style="width: 30px" />
+        <col style="width: 30px" />
+        <col style="width: 30px" />
+    </colgroup>
+    @DisplayRow(1, 15, 1, HlpTraitViewModel.KEBOLEHPERCAYAAN, "1", Model.KBY, null, "KB")
+
+
+
+    <tr>
+        <td class="header">2</td>
+        <td class="header">Pengurusan Pemikiran</td>
+        <td colspan="20"></td>
+    </tr>
+    @DisplayRow(5, 100, 5, HlpTraitViewModel.BERFIKIRAN_RASIONAL, "", Model.RAS, "(a) Berfikiran Rasional")
+
+
+    <tr>
+        <td class="header">3</td>
+        <td class="header">Pengurusan Emosi</td>
+        <td colspan="20"></td>
+    </tr>
+
+    @DisplayRow(5, 100, 5, HlpTraitViewModel.KETENANGAN, "", Model.KTG, "(a) Ketenangan")
+    @DisplayRow(5, 100, 5, HlpTraitViewModel.KECERIAAN, "", Model.KCN, "(b) Keceriaan")
+    @DisplayRow(5, 100, 5, HlpTraitViewModel.LUAHAN_PERASAAN, "", Model.LPN, "(c) Luahan Perasaan")
+    @DisplayRow(5, 100, 5, HlpTraitViewModel.BERSIMPATI, "", Model.SIM, "(d) Bersimpati")
+
+
+
+
+    <tr>
+        <td class="header">4</td>
+        <td class="header">Pengurusan Tingkah Laku</td>
+        <td colspan="20"></td>
+    </tr>
+    @DisplayRow(5, 100, 5, HlpTraitViewModel.AKTIF_SOSIAL, "", Model.AKS, "(a) Aktif Sosial")
+    @DisplayRow(5, 100, 5, HlpTraitViewModel.BERSIKAP_ASERTIF, "", Model.ASF, "(b) Bersikap Asertif")
+    @DisplayRow(5, 100, 5, HlpTraitViewModel.BERTOLERANSI, "", Model.TOL, "(c) Bertoleransi")
+    @DisplayRow(5, 100, 5, HlpTraitViewModel.DAYA_TAHAN, "", Model.DTY, "(d) Daya Tahan")
 
 </table>
-<table  border=1" bordercolor="#FFFFFF" align="left" class="tg table tabel-bordered">
-  <tr align="center" >
-    <td width="200" colspan="2" class="tg-031e"><div align="left"><strong>1.Kebolehpercayaan</strong></div></td>
-    <td width="30" class="tg-8rqm" id="KB1">1</td>
-    <td width="30" class="tg-8rqm" id="KB2">2</td>
-    <td width="30" class="tg-8rqm" id="KB3">3</td>
-    <td width="30" class="tg-8rqm" id="KB4">4</td>
-    <td width="30" class="tg-8rqm" id="KB5">5</td>
-    <td width="30" class="tg-0raj" id="KB6">6</td>
-    <td width="30" class="tg-0raj" id="KB7">7</td>
-    <td width="30" class="tg-0raj" id="KB8">8</td>
-    <td width="30" class="tg-p0h7" id="KB9">9</td>
-    <td width="30" class="tg-p0h7" id="KB10">10</td>
-    <td width="30" class="tg-p0h7" id="KB11">11</td>
-    <td width="30" class="tg-wp0l" id="KB12">12</td>
-    <td width="30" class="tg-wp0l" id="KB13">13</td>
-    <td width="30" class="tg-wp0l" id="KB14">14</td>
-    <td width="30" class="tg-wp0l" id="KB15">15</td>
-    <td  ></td>
-  </tr>
-  <tr align="center">
-    <td colspan="22" class="tg-031e"><div align="left"><strong>2.Pengurusan Pemikiran</strong></div></td>
-  </tr>
- 
-  <tr align="center">
-    <td width="200" colspan="2" class="tg-031e"> <div align="left">(a) Berfikiran Rasional</div></td>
-    <td width="30" id="FR5" class="tg-8rqm">5</td>
-    <td width="30" id="FR10" class="tg-8rqm">10</td>
-    <td width="30"  id="FR15" class="tg-8rqm">15</td>
-    <td width="30"  id="FR20" class="tg-8rqm">20</td>
-    <td width="30"  id="FR25" class="tg-8rqm">25</td>
-    <td width="30"  id="FR30" class="tg-8rqm">30</td>
-    <td width="30"  id="FR35" class="tg-8rqm">35</td>
-    <td width="30"  id="FR40" class="tg-0raj">40</td>
-    <td width="30"  id="FR45" class="tg-0raj">45</td>
-    <td width="30"  id="FR50" class="tg-0raj">50</td>
-    <td width="30"  id="FR55" class="tg-0raj">55</td>
-    <td width="30"  id="FR60" class="tg-0raj">60</td>
-    <td width="30"  id="FR65" class="tg-p0h7">65</td>
-    <td width="30"  id="FR70" class="tg-p0h7">70</td>
-    <td width="30"  id="FR75" class="tg-p0h7">75</td>
-    <td width="30" class="tg-p0h7" id="FR80">80</td>
-    <td width="30" class="tg-wp0l" id="FR85">85</td>
-    <td width="30" class="tg-wp0l" id="FR90">90</td>
-    <td width="30" class="tg-wp0l" id="FR95">95</td>
-    <td   id="FR100" width="30"class="tg-wp0l">100</td>
-  </tr>
-  <tr align="center">
-    <td colspan="22" class="tg-031e"><div align="left"><strong>3.Pengurusan Emosi</strong></div></td>
-  </tr>
-  <tr align="center">
-    <td width="200" colspan="2" class="tg-031e"><div align="left">(a)Ketenangan</div></td>
-    <td  width="30" id="KT5" class="tg-vfu4">5</td>
-    <td width="30"  id="KT10" class="tg-vfu4">10</td>
-    <td width="30"  id="KT15" class="tg-vfu4">15</td>
-    <td width="30"  id="KT20" class="tg-vfu4">20</td>
-    <td width="30"  id="KT25" class="tg-vfu4">25</td>
-    <td width="30"  id="KT30" class="tg-vfu4">30</td>
-    <td width="30"  id="KT35" class="tg-ezxl">35</td>
-    <td width="30"  id="KT40" class="tg-ezxl">40</td>
-    <td width="30"  id="KT45" class="tg-ezxl">45</td>
-    <td width="30"  id="KT50" class="tg-ezxl">50</td>
-    <td width="30"  id="KT55" class="tg-cjnz">55</td>
-    <td width="30"  id="KT60" class="tg-cjnz">60</td>
-    <td width="30"  id="KT65" class="tg-cjnz">65</td>
-    <td width="30"  id="KT70" class="tg-cjnz">70</td>
-    <td width="30"  id="KT75" class="tg-cjnz">75</td>
-    <td width="30"  id="KT80" class="tg-cjnz">80</td>
-    <td width="30"  id="KT85" class="tg-cjnz">85</td>
-    <td width="30"  id="KT90" class="tg-or6l">90</td>
-    <td width="30"  id="KT95" class="tg-or6l">95</td>
-    <td id="KT100"width="30" class="tg-or6l">100</td>
 
-  </tr>
-  <tr align="center">
-    <td width="200" colspan="2" class="tg-031e">
-      <div align="left">
-        (b)Keceriaan
-    </div></td>
-    <td  width="30" id="KC5" class="tg-vfu4">5</td>
-    <td  width="30" id="KC10" class="tg-vfu4">10</td>
-    <td  width="30" id="KC15" class="tg-vfu4">15</td>
-    <td  width="30" id="KC20" class="tg-vfu4">20</td>
-    <td  width="30" id="KC25" class="tg-ezxl">25</td>
-    <td  width="30" id="KC30" class="tg-ezxl">30</td>
-    <td  width="30" id="KC35" class="tg-ezxl">35</td>
-    <td  width="30" id="KC40" class="tg-ezxl">40</td>
-    <td  width="30" id="KC45" class="tg-ezxl">45</td>
-    <td  width="30" id="KC50" class="tg-l5nx">50</td>
-    <td  width="30" id="KC55" class="tg-l5nx">55</td>
-    <td  width="30" id="KC60" class="tg-l5nx">60</td>
-    <td  width="30" id="KC65" class="tg-l5nx">65</td>
-    <td  width="30" id="KC70" class="tg-l5nx">70</td>
-    <td  width="30" id="KC75" class="tg-l5nx">75</td>
-    <td  width="30" id="KC80" class="tg-l5nx">80</td>
-    <td  width="30" id="KC85" class="tg-or6l">85</td>
-    <td  width="30" id="KC90" class="tg-or6l">90</td>
-    <td  width="30" id="KC95" class="tg-or6l">95</td>
-    <td id="KC100"width="30" class="tg-or6l">100</td>
-  </tr>
-  <tr align="center">
-    <td width="200" colspan="2" class="tg-031e"><div align="left">(c)Luahan  Perasaan</div></td>
-    <td  width="30" id="LP5" class="tg-or6l">5</td>
-    <td  width="30" id="LP10" class="tg-or6l">10</td>
-    <td  width="30" id="LP15" class="tg-or6l">15</td>
-    <td  width="30" id="LP20" class="tg-or6l">20</td>
-    <td  width="30" id="LP25" class="tg-qgab">25</td>
-    <td  width="30" id="LP30" class="tg-qgab">30</td>
-    <td  width="30" id="LP35" class="tg-qgab">35</td>
-    <td  width="30" id="LP40" class="tg-qgab">40</td>
-    <td  width="30" id="LP45" class="tg-qgab">45</td>
-    <td  width="30" id="LP50" class="tg-qgab">50</td>
-    <td  width="30" id="LP55" class="tg-ezxl">55</td>
-    <td  width="30" id="LP60" class="tg-ezxl">60</td>
-    <td  width="30" id="LP65" class="tg-ezxl">65</td>
-    <td  width="30" id="LP70" class="tg-ezxl">70</td>
-    <td  width="30" id="LP75" class="tg-ezxl">75</td>
-    <td  width="30" id="LP80" class="tg-vfu4">80</td>
-    <td  width="30" id="LP85" class="tg-vfu4">85</td>
-    <td  width="30" id="LP90" class="tg-vfu4">90</td>
-    <td  width="30" id="LP95" class="tg-vfu4">95</td>
-    <td id="LP100"  width="30" class="tg-vfu4">100</td>
-  </tr>
-  <tr align="center">
-    <td width="200" colspan="2" class="tg-031e"><div align="left">(d)Bersimpati</div></td>
-    <td  width="30" id="SM5" class="tg-or6l">5</td>
-    <td  width="30" id="SM10" class="tg-or6l">10</td>
-    <td width="30"  id="SM15" class="tg-or6l">15</td>
-    <td  width="30" id="SM20" class="tg-or6l">20</td>
-    <td  width="30" id="SM25" class="tg-qgab">25</td>
-    <td  width="30" id="SM30" class="tg-qgab">30</td>
-    <td  width="30" id="SM35" class="tg-qgab">35</td>
-    <td  width="30" id="SM40" class="tg-qgab">40</td>
-    <td  width="30" id="SM45" class="tg-qgab">45</td>
-    <td  width="30" id="SM50" class="tg-qgab">50</td>
-    <td  width="30" id="SM55" class="tg-ezxl">55</td>
-    <td  width="30" id="SM60" class="tg-ezxl">60</td>
-    <td  width="30" id="SM65" class="tg-ezxl">65</td>
-    <td  width="30" id="SM70" class="tg-ezxl">70</td>
-    <td  width="30" id="SM75" class="tg-ezxl">75</td>
-    <td  width="30" id="SM80" class="tg-vfu4">80</td>
-    <td  width="30" id="SM85" class="tg-vfu4">85</td>
-    <td  width="30" id="SM90" class="tg-vfu4">90</td>
-    <td width="30"  id="SM95" class="tg-vfu4">95</td>
-    <td id="SM100"  width="30" class="tg-vfu4">100</td>
-  </tr>
-  <tr>
-    <td colspan="22" class="tg-031e"><strong>4.Pengurusan Tingkah Laku</strong></td>
-  </tr>
-  <tr align="center">
-    <td width="200" colspan="2" class="tg-031e"><div align="left">    (a) Aktif Sosial</div></td>
-    <td width="30"  id="AS5" class="tg-or6l">5</td>
-    <td  width="30" id="AS10" class="tg-or6l">10</td>
-    <td  width="30" id="AS15" class="tg-or6l">15</td>
-
-    <td width="30"  id="AS20" class="tg-qgab">20</td>
-    <td  width="30" id="AS25" class="tg-qgab">25</td>
-    <td  width="30" id="AS30" class="tg-qgab">30</td>
-    <td  width="30" id="AS35" class="tg-qgab">35</td>
-    <td  width="30" id="AS40" class="tg-ezxl">40</td>
-    <td  width="30" id="AS45" class="tg-ezxl">45</td>
-    <td  width="30" id="AS50" class="tg-ezxl">50</td>
-    <td width="30"  id="AS55" class="tg-ezxl">55</td>
-    <td  width="30" id="AS60" class="tg-ezxl">60</td>
-    <td  width="30" id="AS65" class="tg-ezxl">65</td>
-    <td width="30"  id="AS70" class="tg-vfu4">70</td>
-    <td  width="30" id="AS75" class="tg-vfu4">75</td>
-    <td  width="30" id="AS80" class="tg-vfu4">80</td>
-    <td  width="30" id="AS85" class="tg-vfu4">85</td>
-    <td  width="30" id="AS90" class="tg-vfu4">90</td>
-    <td  width="30" id="AS95" class="tg-vfu4">95</td>
-    <td id="AS100" width="30"class="tg-vfu4">100</td>
-  </tr>
-  <tr align="center">
-    <td width="200" colspan="2" class="tg-031e"><div align="left">(b)              Bersikap Asertif</div></td>
-    <td  width="30" id="AF5" class="tg-or6l">5</td>
-    <td  width="30" id="AF10" class="tg-or6l">10</td>
-    <td  width="30" id="AF15" class="tg-or6l">15</td>
-    <td  width="30" id="AF20" class="tg-qgab">20</td>
-    <td  width="30" id="AF25" class="tg-qgab">25</td>
-    <td  width="30" id="AF30" class="tg-qgab">30</td>
-    <td  width="30" id="AF35" class="tg-qgab">35</td>
-    <td  width="30" id="AF40" class="tg-ezxl">40</td>
-    <td  width="30" id="AF45" class="tg-ezxl">45</td>
-    <td  width="30" id="AF50" class="tg-ezxl">50</td>
-    <td  width="30" id="AF55" class="tg-ezxl">55</td>
-    <td  width="30" id="AF60" class="tg-vfu4">60</td>
-    <td  width="30" id="AF65" class="tg-vfu4">65</td>
-    <td  width="30" id="AF70" class="tg-vfu4">70</td>
-    <td  width="30" id="AF75" class="tg-vfu4">75</td>
-    <td  width="30" id="AF80" class="tg-vfu4">80</td>
-    <td  width="30" id="AF85" class="tg-vfu4">85</td>
-    <td  width="30" id="AF90" class="tg-vfu4">90</td>
-    <td  width="30" id="AF95" class="tg-vfu4">95</td>
-    <td id="AF100" width="30"class="tg-vfu4">100</td>
-  </tr>
-  <tr align="center">
-    <td width="200" colspan="2" class="tg-031e"><div align="left">(c)
-    Bertoleransi</div></td>
-    <td  width="30" id="TL5" class="tg-vfu4">5</td>
-    <td  width="30" id="TL10" class="tg-vfu4">10</td>
-    <td width="30"  id="TL15" class="tg-vfu4">15</td>
-    <td  width="30" id="TL20" class="tg-vfu4">20</td>
-    <td  width="30" id="TL25" class="tg-vfu4">25</td>
-    <td  width="30" id="TL30" class="tg-ezxl">30</td>
-    <td  width="30" id="TL35" class="tg-ezxl">35</td>
-    <td  width="30" id="TL40" class="tg-ezxl">40</td>
-    <td  width="30" id="TL45" class="tg-ezxl">45</td>
-    <td  width="30" id="TL50" class="tg-ezxl">50</td>
-    <td  width="30" id="TL55" class="tg-cjnz">55</td>
-    <td  width="30" id="TL60" class="tg-cjnz">60</td>
-    <td  width="30" id="TL65" class="tg-cjnz">65</td>
-    <td  width="30" id="TL70" class="tg-cjnz">70</td>
-    <td  width="30" id="TL75" class="tg-cjnz">75</td>
-    <td  width="30" id="TL80" class="tg-or6l">80</td>
-    <td  width="30" id="TL85" class="tg-or6l">85</td>
-    <td  width="30" id="TL90" class="tg-or6l">90</td>
-    <td  width="30" id="TL95" class="tg-or6l">95</td>
-    <td id="TL100" width="30"class="tg-or6l">100</td>
-  </tr>
- <tr align="center">
-    <td width="200" colspan="2" class="tg-031e"><div align="left">(d) Daya Tahan</div></td>
-    <td  width="30" id="DT5"  class="tg-or6l">5</td>
-    <td  width="30" id="DT10" class="tg-or6l">10</td>
-    <td  width="30" id="DT15" class="tg-or6l">15</td>
-    <td  width="30" id="DT20" class="tg-or6l">20</td>
-    <td  width="30" id="DT25" class="tg-or6l">25</td>
-    <td  width="30" id="DT30" class="tg-or6l">30</td>
-    <td  width="30" id="DT35" class="tg-or6l">35</td>
-    <td  width="30" id="DT40" class="tg-or6l">40</td>
-    <td  width="30" id="DT45" class="tg-or6l">45</td>
-    <td  width="30" id="DT50" class="tg-or6l">50</td>
-    <td  width="30" id="DT55" class="tg-cjnz">55</td>
-    <td width="30"  id="DT60" class="tg-cjnz">60</td>
-    <td  width="30" id="DT65" class="tg-cjnz">65</td>
-    <td  width="30" id="DT70" class="tg-ezxl">70</td>
-    <td  width="30" id="DT75" class="tg-ezxl">75</td>
-    <td  width="30" id="DT80" class="tg-ezxl">80</td>
-    <td  width="30" id="DT85" class="tg-vfu4">85</td>
-    <td width="30"id="DT90" class="tg-vfu4">90</td>
-    <td width="30"id="DT95" class="tg-vfu4">95</td>
-    <td id="DT100"width="30" class="tg-vfu4">100</td>
-  </tr>
- 
-<tr align="center">
-    <td class="tg-031e"><div align="left"><strong></strong></div></td>
-  </tr>
+<table>
+    <colgroup>
+        <col style="width: 100px" />
+        <col style="width: 100px" />
+        <col style="width: 100px" />
+        <col style="width: 100px" />
+    </colgroup>
+    <tr>
+        <td style="text-align: center"><img alt="Rendah" src="~/images/Hlp/VeryLight-0.png" /></td>
+        <td style="text-align: center"><img alt="Rendah" src="~/images/Hlp/Light-0.png" /></td>
+        <td style="text-align: center"><img alt="Rendah" src="~/images/Hlp/Dark-0.png" /></td>
+        <td style="text-align: center"><img alt="Rendah" src="~/images/Hlp/VeryDark-0.png" /></td>
+    </tr>
+    <tr>
+        <td style="vertical-align: top;text-align: center" class="border">Rendah</td>
+        <td style="text-align: center" class="bordered">Sederhana Rendah</td>
+        <td style="text-align: center">Sederhana Tinggi</td>
+        <td style="text-align: center;vertical-align: top">Tinggi</td>
+    </tr>
 </table>
 
-<table  border="1" bordercolor="#FFFFFF" align="center" class="tr">
-  <tr>
-    <td     width="50" class="tr-4mn7">&nbsp;</td>
-    <td     width="50" class="tr-1to1">&nbsp;</td>
-    <td     width="50" class="tr-2g0z">&nbsp;</td>
-    <td     width="50" class="tr-0onx">&nbsp;</td>
-  </tr>
-  <tr>
-    <td class="tr-4mn7"><div align="center">Rendah</div></td>
-    <td class="tr-4mn7"><div align="center">Sederhana<br>Rendah</div></td>
-    <td class="tr-4mn7"><div align="center">Sederhana <br>Tinggi</div></td>
-    <td class="tr-4mn7"><div align="center">Tinggi</div></td>
-    <td class="tr-01nx"><div align="center"></div></td>
-  </tr>
-  <tr><td class="tr-01nx"><div align="center"></div></td></tr>
- 
-  
+
+
+<div style="height: 10px"></div>
+
+<table style="border-collapse: collapse; border: 0.5px solid #000000; width: 100%" class="table-bordered2">
+    <colgroup>
+        <col style="width: 18%" />
+        <col style="width: 12%" />
+        <col style="width: 70%" />
+    </colgroup>
+    <thead>
+        <tr>
+            <th>Tret</th>
+            <th>Tahap</th>
+            <th>Ulasan</th>
+        </tr>
+    </thead>
+    <tr>
+        <td>Kebolehpercayaan</td>
+        <td>@Model.KBY.Skor</td>
+        <td>@Model.RecommendationKBY.Text</td>
+    </tr>
+    <tr>
+        <td>Ketenangan</td>
+        <td>@Model.KTG.Skor</td>
+        <td>@Model.RecommendationKTG.Text</td>
+    </tr>
+    <tr>
+        <td>Keceriaan</td>
+        <td>@Model.KCN.Skor</td>
+        <td>@Model.RecommendationKCN.Text</td>
+    </tr>
+    <tr>
+        <td>Luahan Perasaan</td>
+        <td>@Model.LPN.Skor</td>
+        <td>@Model.RecommendationLPN.Text</td>
+    </tr>
+    <tr>
+        <td>Bersimpati</td>
+        <td>@Model.SIM.Skor</td>
+        <td>@Model.RecommendationSIM.Text</td>
+    </tr>
+    <tr>
+        <td>Berfikiran Rasional</td>
+        <td>@Model.RAS.Skor</td>
+        <td>@Model.RecommendationRAS.Text</td>
+    </tr>
+    <tr>
+        <td>Aktif Sosial</td>
+        <td>@Model.AKS.Skor</td>
+        <td>@Model.RecommendationAKS.Text</td>
+    </tr>
+    <tr>
+        <td>Bersikap Asertif</td>
+        <td>@Model.ASF.Skor</td>
+        <td>@Model.RecommendationASF.Text</td>
+    </tr>
+    <tr>
+        <td>Bertoleransi</td>
+        <td>@Model.TOL.Skor</td>
+        <td>@Model.RecommendationTOL.Text</td>
+    </tr>
+
+
+    <tr>
+        <td>Daya Tahan</td>
+        <td>@Model.DTY.Skor</td>
+        <td>@Model.RecommendationDT.Text</td>
+    </tr>
 </table>
 
-<table border="1" align="left"  class="tg">
-    <tr>
-      <td width="128" class="tg-031R"><strong>Tret</strong></td>
-      <td width="158" class="tg-031R"><strong>Tahap</strong></td>
-      <td width="698" class="tg-031R"><strong>Ulasan</strong></td>
-    </tr>
-    <tr>
-      <td class="tg-031R">Kebolehpercayaan</td>
-      <td class="tg-031R">@Model.KB.Skor</td>
-      <td class="tg-031R">@Model.KB.Recommendation</td>
-    </tr>
-    <tr>
-      <td class="tg-031R">Berfikiran Rasional</td>
-      <td class="tg-031R">@Model.FR.Skor</td>
-      <td class="tg-031R">@Model.FR.Recommendation</td>
-    </tr>
-    <tr>
-      <td class="tg-031R">Ketenangan</td>
-      <td class="tg-031R">@Model.KT.Skor</td>
-      <td class="tg-031R">@Model.KT.Recommendation</td>
-    </tr>
-    <tr>
-      <td class="tg-031R">Keceriaan</td>
-      <td class="tg-031R">@Model.KC.Skor</td>
-      <td class="tg-031R">@Model.KC.Recommendation</td>
-    </tr>
-    <tr>
-      <td class="tg-031R">Luahan Perasaan</td>
-      <td class="tg-031R">@Model.LP.Skor</td>
-      <td class="tg-031R">@Model.LP.Recommendation</td>
-    </tr>
-    <tr>
-      <td class="tg-031R">Bersimpati</td>
-      <td class="tg-031R">@Model.SM.Skor</td>
-      <td class="tg-031R">@Model.SM.Recommendation</td>
-    </tr>
-    <tr>
-      <td class="tg-031R">Aktif Sosial</td>
-      <td class="tg-031R">@Model.AS.Skor</td>
-      <td class="tg-031R">@Model.AS.Recommendation</td>
-    </tr>
-    <tr>
-      <td class="tg-031R">Bersikap Asertif</td>
-      <td class="tg-031R">@Model.AF.Skor</td>
-      <td class="tg-031R">@Model.AF.Recommendation</td>
-    </tr>
-    <tr>
-      <td class="tg-031R">Bertoleransi</td>
-      <td class="tg-031R">@Model.TL.Skor</td>
-      <td class="tg-031R">@Model.TL.Recommendation</td>
-    </tr>
-  </table>
-</table>
-</body>
-</html>
 
 <script type="text/javascript">
-    var vm = @Html.Raw(Model.ToString());
-    window.onload = function() {
 
-            document.getElementById("KB" + vm.KB.Point).setAttribute("style", "border:3px solid red");
-            document.getElementById("FR" + vm.FR.Percentile).setAttribute("style", "border:3px solid red");
-            document.getElementById("KT" + vm.KT.Percentile).setAttribute("style", "border:3px solid red");
-            document.getElementById("KC" + vm.KC.Percentile).setAttribute("style", "border:3px solid red");
-            document.getElementById("LP" + vm.LP.Percentile).setAttribute("style", "border:3px solid red");
-            document.getElementById("SM" + vm.SM.Percentile).setAttribute("style", "border:3px solid red");
-            document.getElementById("AS" + vm.AS.Percentile).setAttribute("style", "border:3px solid red");
-            document.getElementById("AF" + vm.AF.Percentile).setAttribute("style", "border:3px solid red");
-            document.getElementById("TL" + vm.TL.Percentile).setAttribute("style", "border:3px solid red");
-            document.getElementById("DT" + vm.DT.Percentile).setAttribute("style", "border:3px solid red");
-};
-
+	window.print();
 </script>
-
-</body>
-</html>
