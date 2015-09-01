@@ -1,170 +1,168 @@
 <h3 class="page-title">
-	Profil
-	<small data-bind="text: userProfile().FullName">reports & statistics</small>
+    Profil
+    <small data-bind="text: userProfile().FullName">reports & statistics</small>
 </h3>
 <div class="row">
     <form class="form-horizontal" data-bind="with: userProfile">
         <div class="form-group">
             <label for="FullName" class="col-lg-2">Nama Penuh</label>
-            <div class="col-lg-9">
+            <div class="col-lg-6">
                 <input class="form-control" data-bind="value: FullName" id="FullName" type="text" name="FullName" />
             </div>
         </div>
         <div class="form-group">
             <label for="MyKad" class="col-lg-2">My Kad</label>
-            <div class="col-lg-9">
-                <input class="form-control" data-bind="value: UserName" readonly="readonly"  type="text" />
+            <div class="col-lg-6">
+                <input id="MyKad" class="form-control" data-bind="value: UserName" readonly="readonly" type="text" />
             </div>
         </div>
-				<!-- ko with : $root.pengguna -->
-        <div class="form-group" >
+        <!-- ko with : $root.pengguna -->
+        <div class="form-group">
             <label for="Jantina" class="col-lg-2">Jantina</label>
-            <div class="col-lg-9">
-							<select  data-bind="value: Jantina, enable :true" id="d89b9774-d8d1-4420-8caf-f22e0fef1fbb" name="Jantina" class="required input-large form-control">
-	                    <option value="" data-i18n="[Sila Pilih]">[Sila Pilih]</option>
-	                    <option value="Lelaki" data-i18n="Lelaki">Lelaki</option>
-	                    <option value="Perempuan" data-i18n="Perempuan">Perempuan</option>
-	            </select>
+            <div class="col-lg-6">
+                <select id="Jantina" data-bind="value: Jantina, enable :true"  name="Jantina" class="required input-large form-control">
+                    <option value="" data-i18n="[Sila Pilih]">[Sila Pilih]</option>
+                    <option value="Lelaki" data-i18n="Lelaki">Lelaki</option>
+                    <option value="Perempuan" data-i18n="Perempuan">Perempuan</option>
+                </select>
             </div>
         </div>
-
-
-        <div class="form-group" >
-            <label class="col-lg-2">Kumpulan Umur</label>
-            <div class="col-lg-9">
-							<select  data-bind="value: KumpulanUmur, enable :true" id="92661272-212a-4262-91fe-d466cfbad4ed" name="KumpulanUmur" class=" input-large form-control">
-	                    <option value="" data-i18n="[Sila Pilih]">[Sila Pilih]</option>
-	                    <option value="&lt; 20" data-i18n="Kurang 20 Tahun">Kurang 20 Tahun</option>
-	                    <option value="20 - 29" data-i18n="20 - 29">20 - 29</option>
-	                    <option value="30 - 39" data-i18n="30 - 39">30 - 39</option>
-	                    <option value="40 - 49" data-i18n="40 - 49">40 - 49</option>
-	                    <option value="&gt; 50" data-i18n="Lebih 50 Tahun">Lebih 50 Tahun</option>
-	            </select>
-            </div>
-        </div>
-
-        <div class="form-group" >
-            <label class="col-lg-2">Status Perkahwinan</label>
-            <div class="col-lg-9">
-							<select  data-bind="value: StatusPerkahwinan, enable :true" id="f503e61e-ec70-4106-8d07-1afe70dcf17c" name="StatusPerkahwinan" class=" input-large form-control">
-	                    <option value="" data-i18n="[Sila Pilih]">[Sila Pilih]</option>
-	                    <option value="Bujang" data-i18n="Bujang">Bujang</option>
-	                    <option value="Kahwin" data-i18n="Kahwin">Kahwin</option>
-	                    <option value="Ibu Tunggal" data-i18n="Ibu Tunggal">Ibu Tunggal</option>
-	                    <option value="Bapa Tunggal" data-i18n="Bapa Tunggal">Bapa Tunggal</option>
-	            </select>
-            </div>
-        </div>
-
-        <div class="form-group" >
-            <label class="col-lg-2">Pekerjaan</label>
-            <div class="col-lg-9">
-								<select  data-bind="value: Pekerjaan, enable :true" id="pengguna-pekerjaan" name="Pekerjaan" class="required input-large form-control">
-						                    <option value="" data-i18n="[Sila Pilih]">[Sila Pilih]</option>
-						                    <option value="Kerajaan" data-i18n="Kerajaan">Kerajaan</option>
-						                    <option value="Pesara Kerajaan" data-i18n="Pesara Kerajaan">Pesara Kerajaan</option>
-						                    <option value="Pesara Swasta" data-i18n="Pesara Swasta">Pesara Swasta</option>
-						                    <option value="Bekerja Sendiri" data-i18n="Bekerja Sendiri">Bekerja Sendiri</option>
-						                    <option value="Pelajar" data-i18n="Pelajar">Pelajar</option>
-						                    <option value="Swasta" data-i18n="Swasta">Swasta</option>
-						                    <option value="Tiada Maklumat" data-i18n="Tiada Maklumat">Tiada Maklumat</option>
-						    </select>
-            </div>
-        </div>
-
-        <div class="form-group" data-bind=" visible :ko.unwrap(Pekerjaan) === 'Kerajaan'" >
-            <label class="col-lg-2">Nama Kementerian</label>
-            <div class="col-lg-9">
-							<select  data-bind="comboBoxLookupOptions : { value: NamaKementerian, entity : 'Kementerian', valuePath : 'NamaKementerian', displayPath: 'NamaKementerian', query :ko.computed(function(){ return 'KumpulanAgensi eq \'' + JenisPerkhidmatan() + '\'';})}" id="d264e6ce-01ee-4920-c901-4970e75ef248" name="NamaKementerian" class="required input-large form-control">
-							</select>
-            </div>
-        </div>
-
-        <div class="form-group" data-bind=" visible :ko.unwrap(Pekerjaan) === 'Kerajaan'" >
-            <label class="col-lg-2">Nama Jabatan</label>
-            <div class="col-lg-9">
-								<select  data-bind="comboBoxLookupOptions : { value: NamaJabatan, entity : 'Jabatan', valuePath : 'NamaJabatan', displayPath: 'NamaJabatan', query :ko.computed(function(){ return 'Kementerian eq \'' + NamaKementerian() + '\'';})}" id="566600d0-3ed3-4dfc-f481-f4efe6e69308" name="NamaJabatan" class=" input-large form-control">
-		            </select>
-            </div>
-        </div>
-
-				<div class="form-group" data-bind="visible:ko.unwrap(Pekerjaan) === 'Kerajaan'">
-		        <label data-i18n="* Skim Perkhidmatan" for="pengguna-skim" class="col-lg-2">* Skim Perkhidmatan</label>
-		        <div class="col-lg-9">
-		            <select  data-bind="value: Skim, enable :true" id="pengguna-skim" name="Skim" class="required input-large form-control">
-		                    <option value="" data-i18n="[Sila Pilih]">[Sila Pilih]</option>
-		                    <option value="A" data-i18n="A">A</option>
-		                    <option value="B" data-i18n="B">B</option>
-		                    <option value="C" data-i18n="C">C</option>
-		                    <option value="D" data-i18n="D">D</option>
-		                    <option value="E" data-i18n="E">E</option>
-		                    <option value="F" data-i18n="F">F</option>
-		                    <option value="G" data-i18n="G">G</option>
-		                    <option value="H" data-i18n="H">H</option>
-		                    <option value="J" data-i18n="J">J</option>
-		                    <option value="K" data-i18n="K">K</option>
-		                    <option value="L" data-i18n="L">L</option>
-		                    <option value="M" data-i18n="M">M</option>
-		                    <option value="N" data-i18n="N">N</option>
-		                    <option value="P" data-i18n="P">P</option>
-		                    <option value="Q" data-i18n="Q">Q</option>
-		                    <option value="S" data-i18n="S">S</option>
-		                    <option value="U" data-i18n="U">U</option>
-		                    <option value="W" data-i18n="W">W</option>
-		                    <option value="Y" data-i18n="Y">Y</option>
-		                    <option value="Z" data-i18n="Z">Z</option>
-		            </select>
-		        </div>
-		    </div>
-
-
-		    <div class="form-group" data-bind="visible:ko.unwrap(Pekerjaan) === 'Kerajaan'">
-		        <label data-i18n="* Gred" for="pengguna-gred" class="col-lg-2">* Gred</label>
-		        <div class="col-lg-9">
-		            <select  data-bind="value: Gred, enable :true" id="pengguna-gred" name="Gred" class="required input-large form-control">
-		                    <option value="" data-i18n="[Sila Pilih]">[Sila Pilih]</option>
-		                    <option value="1" data-i18n="1">1</option>
-		                    <option value="4" data-i18n="4">4</option>
-		                    <option value="11" data-i18n="11">11</option>
-		                    <option value="14" data-i18n="14">14</option>
-		                    <option value="17" data-i18n="17">17</option>
-		                    <option value="22" data-i18n="22">22</option>
-		                    <option value="26" data-i18n="26">26</option>
-		                    <option value="27" data-i18n="27">27</option>
-		                    <option value="29" data-i18n="29">29</option>
-		                    <option value="32" data-i18n="32">32</option>
-		                    <option value="36" data-i18n="36">36</option>
-		                    <option value="38" data-i18n="38">38</option>
-		                    <option value="41" data-i18n="41">41</option>
-		                    <option value="44" data-i18n="44">44</option>
-		                    <option value="48" data-i18n="48">48</option>
-		                    <option value="52" data-i18n="52">52</option>
-		                    <option value="54" data-i18n="54">54</option>
-		                    <option value="JUSA" data-i18n="JUSA">JUSA</option>
-		            </select>
-		        </div>
-		    </div>
 
 
         <div class="form-group">
-            <label  class="col-lg-2">Emel2</label>
-            <div class="col-lg-9">
+            <label class="col-lg-2" for="KumpulanUmur">Kumpulan Umur</label>
+            <div class="col-lg-6">
+                <select data-bind="value: KumpulanUmur, enable :true" id="KumpulanUmur" name="KumpulanUmur" class=" input-large form-control">
+                    <option value="" data-i18n="[Sila Pilih]">[Sila Pilih]</option>
+                    <option value="&lt; 20" data-i18n="Kurang 20 Tahun">Kurang 20 Tahun</option>
+                    <option value="20 - 29" data-i18n="20 - 29">20 - 29</option>
+                    <option value="30 - 39" data-i18n="30 - 39">30 - 39</option>
+                    <option value="40 - 49" data-i18n="40 - 49">40 - 49</option>
+                    <option value="&gt; 50" data-i18n="Lebih 50 Tahun">Lebih 50 Tahun</option>
+                </select>
+            </div>
+        </div>
+
+        <div class="form-group">
+            <label class="col-lg-2">Status Perkahwinan</label>
+            <div class="col-lg-6">
+                <select data-bind="value: StatusPerkahwinan, enable :true" id="f503e61e-ec70-4106-8d07-1afe70dcf17c" name="StatusPerkahwinan" class=" input-large form-control">
+                    <option value="" data-i18n="[Sila Pilih]">[Sila Pilih]</option>
+                    <option value="Bujang" data-i18n="Bujang">Bujang</option>
+                    <option value="Kahwin" data-i18n="Kahwin">Kahwin</option>
+                    <option value="Ibu Tunggal" data-i18n="Ibu Tunggal">Ibu Tunggal</option>
+                    <option value="Bapa Tunggal" data-i18n="Bapa Tunggal">Bapa Tunggal</option>
+                </select>
+            </div>
+        </div>
+
+        <div class="form-group">
+            <label class="col-lg-2">Pekerjaan</label>
+            <div class="col-lg-6">
+                <select data-bind="value: Pekerjaan, enable :true" id="pengguna-pekerjaan" name="Pekerjaan" class="required input-large form-control">
+                    <option value="" data-i18n="[Sila Pilih]">[Sila Pilih]</option>
+                    <option value="Kerajaan" data-i18n="Kerajaan">Kerajaan</option>
+                    <option value="Pesara Kerajaan" data-i18n="Pesara Kerajaan">Pesara Kerajaan</option>
+                    <option value="Pesara Swasta" data-i18n="Pesara Swasta">Pesara Swasta</option>
+                    <option value="Bekerja Sendiri" data-i18n="Bekerja Sendiri">Bekerja Sendiri</option>
+                    <option value="Pelajar" data-i18n="Pelajar">Pelajar</option>
+                    <option value="Swasta" data-i18n="Swasta">Swasta</option>
+                    <option value="Tiada Maklumat" data-i18n="Tiada Maklumat">Tiada Maklumat</option>
+                </select>
+            </div>
+        </div>
+
+        <div class="form-group" data-bind=" visible :ko.unwrap(Pekerjaan) === 'Kerajaan'">
+            <label class="col-lg-2">Nama Kementerian</label>
+            <div class="col-lg-6">
+                <select data-bind="comboBoxLookupOptions : { value: NamaKementerian, entity : 'Kementerian', valuePath : 'NamaKementerian', displayPath: 'NamaKementerian', query :ko.computed(function(){ return 'KumpulanAgensi eq \'' + JenisPerkhidmatan() + '\'';})}" id="d264e6ce-01ee-4920-c901-4970e75ef248" name="NamaKementerian" class="required input-large form-control"></select>
+            </div>
+        </div>
+
+        <div class="form-group" data-bind=" visible :ko.unwrap(Pekerjaan) === 'Kerajaan'">
+            <label class="col-lg-2">Nama Jabatan</label>
+            <div class="col-lg-6">
+                <select data-bind="comboBoxLookupOptions : { value: NamaJabatan, entity : 'Jabatan', valuePath : 'NamaJabatan', displayPath: 'NamaJabatan', query :ko.computed(function(){ return 'Kementerian eq \'' + NamaKementerian() + '\'';})}" id="566600d0-3ed3-4dfc-f481-f4efe6e69308" name="NamaJabatan" class=" input-large form-control"></select>
+            </div>
+        </div>
+
+        <div class="form-group" data-bind="visible:ko.unwrap(Pekerjaan) === 'Kerajaan'">
+            <label data-i18n="* Skim Perkhidmatan" for="pengguna-skim" class="col-lg-2">* Skim Perkhidmatan</label>
+            <div class="col-lg-6">
+                <select data-bind="value: Skim, enable :true" id="pengguna-skim" name="Skim" class="required input-large form-control">
+                    <option value="" data-i18n="[Sila Pilih]">[Sila Pilih]</option>
+                    <option value="A" data-i18n="A">A</option>
+                    <option value="B" data-i18n="B">B</option>
+                    <option value="C" data-i18n="C">C</option>
+                    <option value="D" data-i18n="D">D</option>
+                    <option value="E" data-i18n="E">E</option>
+                    <option value="F" data-i18n="F">F</option>
+                    <option value="G" data-i18n="G">G</option>
+                    <option value="H" data-i18n="H">H</option>
+                    <option value="J" data-i18n="J">J</option>
+                    <option value="K" data-i18n="K">K</option>
+                    <option value="L" data-i18n="L">L</option>
+                    <option value="M" data-i18n="M">M</option>
+                    <option value="N" data-i18n="N">N</option>
+                    <option value="P" data-i18n="P">P</option>
+                    <option value="Q" data-i18n="Q">Q</option>
+                    <option value="S" data-i18n="S">S</option>
+                    <option value="U" data-i18n="U">U</option>
+                    <option value="W" data-i18n="W">W</option>
+                    <option value="Y" data-i18n="Y">Y</option>
+                    <option value="Z" data-i18n="Z">Z</option>
+                </select>
+            </div>
+        </div>
+
+
+        <div class="form-group" data-bind="visible:ko.unwrap(Pekerjaan) === 'Kerajaan'">
+            <label data-i18n="* Gred" for="pengguna-gred" class="col-lg-2">* Gred</label>
+            <div class="col-lg-6">
+                <select data-bind="value: Gred, enable :true" id="pengguna-gred" name="Gred" class="required input-large form-control">
+                    <option value="" data-i18n="[Sila Pilih]">[Sila Pilih]</option>
+                    <option value="1" data-i18n="1">1</option>
+                    <option value="4" data-i18n="4">4</option>
+                    <option value="11" data-i18n="11">11</option>
+                    <option value="14" data-i18n="14">14</option>
+                    <option value="17" data-i18n="17">17</option>
+                    <option value="22" data-i18n="22">22</option>
+                    <option value="26" data-i18n="26">26</option>
+                    <option value="27" data-i18n="27">27</option>
+                    <option value="29" data-i18n="29">29</option>
+                    <option value="32" data-i18n="32">32</option>
+                    <option value="36" data-i18n="36">36</option>
+                    <option value="38" data-i18n="38">38</option>
+                    <option value="41" data-i18n="41">41</option>
+                    <option value="44" data-i18n="44">44</option>
+                    <option value="48" data-i18n="48">48</option>
+                    <option value="52" data-i18n="52">52</option>
+                    <option value="54" data-i18n="54">54</option>
+                    <option value="JUSA" data-i18n="JUSA">JUSA</option>
+                </select>
+            </div>
+        </div>
+
+
+        <div class="form-group">
+            <label class="col-lg-2">Emel2</label>
+            <div class="col-lg-6">
                 <input class="form-control" data-bind="value: Emel2" type="email" />
             </div>
         </div>
 
-				<!-- /ko -->
+        <!-- /ko -->
 
         <div class="form-group">
             <label for="email-field" class="col-lg-2">Emel</label>
-            <div class="col-lg-9">
+            <div class="col-lg-6">
                 <input class="form-control" data-bind="value: Email" id="email-field" type="email" name="email" />
             </div>
         </div>
 
         <div class="form-group">
             <label for="Telephone" class="col-lg-2">Telefon </label>
-            <div class="col-lg-9">
+            <div class="col-lg-6">
                 <input class="form-control" data-bind="value: Telephone" id="Telephone" type="text" name="Telephone" />
             </div>
         </div>
