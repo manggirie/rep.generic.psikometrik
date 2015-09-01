@@ -1,7 +1,6 @@
-/// <reference path="/Scripts/jquery-2.1.1.intellisense.js" />
+/// <reference path="/Scripts/jquery-2.1.3.js" />
 /// <reference path="/Scripts/knockout-3.2.0.debug.js" />
 /// <reference path="/Scripts/knockout.mapping-latest.debug.js" />
-/// <reference path="/Scripts/require.js" />
 /// <reference path="/Scripts/underscore.js" />
 /// <reference path="/Scripts/moment.js" />
 /// <reference path="../services/datacontext.js" />
@@ -9,62 +8,17 @@
 /// <reference path="../../Scripts/bootstrap.js" />
 
 
-define(['services/datacontext', 'services/logger', 'plugins/router', "services/config"],
+define(["services/datacontext", "services/logger", "plugins/router", "services/config"],
   function(context, logger, router, config) {
 
     var isBusy = ko.observable(false),
-      id = ko.observable([]),
       tools = ko.observableArray([]),
-      reports = ko.observableArray([]),
-      recentItems = ko.observableArray([]),
       charts = ko.observableArray([]),
       views = ko.observableArray([]),
       entity = ko.observable(new bespoke.sph.domain.EntityDefinition()),
-      today = moment().format("YYYY-MM-DDTHH:mm:ss.SSS"),
-      query = {
-              "query": {
-                "filtered": {
-                  "filter": {
-                    "bool": {
-                      "must": [
-                        {
-                          "term": {
-                            "StatusPermohonan": "LULUS"
-                          }
-                        },
-                        {
-                          "term": {
-                            "Penyelaras": config.userName
-                          }
-                        },
-                        {
-                            "range": {
-                                "TarikhTamat": {
-                                   "from": today
-                                }
-                             }
-                        },
-                        {
-                             "range": {
-                                "TarikhMula": {
-                                   "to": today
-                                }
-                             }
-                        }
-                      ],
-                      "must_not": []
-                    }
-                  }
-                }
-              },
-              "sort": []
-            },
-            permohonanLulusList = ko.observableArray(),
       activate = function() {
-        var query = String.format("Name eq '{0}'", 'Pengguna'),
-          chartsQuery = String.format("Entity eq 'Pengguna' and IsDashboardItem eq 1 and CreatedBy eq ''{0}''", config.userName),
-          formsQuery = String.format("EntityDefinitionId eq 'pengguna' and IsPublished eq 1 and IsAllowedNewItem eq 1"),
-          edTask = context.loadOneAsync("EntityDefinition", query),
+          var q = "Name eq 'Pengguna'",
+          edTask = context.loadOneAsync("EntityDefinition", q),
           viewsTask = $.get("/Sph/EntityView/Dashboard/pengguna"),
           permohonanViewsTask = $.get("/Sph/EntityView/Dashboard/permohonan");
 
@@ -97,7 +51,7 @@ define(['services/datacontext', 'services/logger', 'plugins/router', "services/c
             _(views()).each(function(v) {
               v.CountMessage("....");
               var tm = setInterval(function() {
-                v.CountMessage(v.CountMessage() == "...." ? "..." : "....");
+                v.CountMessage(v.CountMessage() === "...." ? "..." : "....");
               }, 250);
               $.get("/Sph/EntityView/Count/" + v.Id())
                 .done(function(c) {
@@ -108,7 +62,7 @@ define(['services/datacontext', 'services/logger', 'plugins/router', "services/c
           });
       },
       attached = function(view) {
-        $(view).on('click', 'a.hover-drop', function(e) {
+        $(view).on("click", "a.hover-drop", function(e) {
           e.preventDefault();
           var chart = ko.dataFor(this),
             link = $(this);
@@ -116,25 +70,12 @@ define(['services/datacontext', 'services/logger', 'plugins/router', "services/c
             return;
           }
           if (typeof chart.unpin === "function") {
-            link.prop('disabled', true);
+            link.prop("disabled", true);
             chart.unpin().done(function() {
               charts.remove(chart);
             });
           }
         });
-      },
-      addForm = function() {
-
-      },
-      addView = function() {
-
-      },
-      recentItemsQuery = {
-        "sort": [{
-          "ChangedDate": {
-            "order": "desc"
-          }
-        }]
       },
 
       getTileClass = function(color){
@@ -149,21 +90,14 @@ define(['services/datacontext', 'services/logger', 'plugins/router', "services/c
       };
 
     var vm = {
-      query: query,
       getTileClass : getTileClass,
-      permohonanLulusList: permohonanLulusList,
       isBusy: isBusy,
       views: views,
       charts: charts,
       entity: entity,
       activate: activate,
       attached: attached,
-      reports: reports,
       tools: tools,
-      recentItems: recentItems,
-      addForm: addForm,
-      addView: addView,
-      recentItemsQuery: recentItemsQuery,
       toolbar: {
         commands: ko.observableArray([{
           command : function(){
