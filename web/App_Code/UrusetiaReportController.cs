@@ -27,6 +27,12 @@ namespace web.sph.App_Code
                 var html2 = await IpuTraitViewModel.GenerateLaporanTable(model);
                 return Content(html2, "text/html", Encoding.UTF8);
             }
+            if (model.Ujian.Contains("UKBP"))
+            {
+                var html2 = await UkbpTraitViewModel.GenerateLaporanTable(model);
+                return Content(html2, "text/html", Encoding.UTF8);
+            }
+
             var context = new SphDataContext();
             var no = $"{model.Program}/{model.Bil}/{model.Siri}/{model.Tahun}";
             var ujian = await context.LoadOneAsync<Ujian>(x => x.UjianNo == model.Ujian || x.NamaUjian == model.Ujian);
