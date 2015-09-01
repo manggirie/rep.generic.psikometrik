@@ -24,8 +24,8 @@ const string ujian = "IPU";
 var sesi = new Bespoke.epsikologi_sesiujian.Domain.SesiUjian
 {
 	Id = Guid.NewGuid().ToString(),
-	NamaPengguna = "CikguGerik2",
-	MyKad = "CikguGerik2",
+	NamaPengguna = "cikgu-ukm-001",
+	MyKad = "cikgu-ukm-001",
 	ChangedBy = "admin",
 	ChangedDate = DateTime.Now,
 	CreatedBy = "admin",

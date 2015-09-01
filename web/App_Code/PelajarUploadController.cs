@@ -110,7 +110,7 @@ namespace web.sph.App_Code
                     if (!exist)
                         session.Attach(student);
                     session.Attach(daftar);
-                    await session.SubmitChanges("import-pelajar");
+                    await session.SubmitChanges("TambahResponden");
                 }
 
                 //increment
