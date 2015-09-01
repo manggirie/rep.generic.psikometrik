@@ -54,47 +54,6 @@ namespace web.sph.App_Code
         }
 
 
-
-        private void AddDarkToLight(int start, int step1, int step2, int step3, int max, int step, string tret)
-        {
-            for (int i = start; i < step1; i += step)
-            {
-                this.TdCollection.Add(new Td { Value = i, Shade = Shades.VeryDark, Tret = tret });
-            }
-            for (int i = step1; i < step2; i += step)
-            {
-                this.TdCollection.Add(new Td { Value = i, Shade = Shades.Dark, Tret = tret });
-            }
-            for (int i = step2; i < step3; i += step)
-            {
-                this.TdCollection.Add(new Td { Value = i, Shade = Shades.Light, Tret = tret });
-            }
-            for (int i = step3; i <= max; i += step)
-            {
-                this.TdCollection.Add(new Td { Value = i, Shade = Shades.VeryLight, Tret = tret });
-            }
-        }
-        private void AddLightToDark(int start, int step1, int step2, int step3, int max, int step, string tret)
-        {
-            for (int i = start; i < step1; i += step)
-            {
-                this.TdCollection.Add(new Td { Value = i, Shade = Shades.VeryLight, Tret = tret });
-            }
-            for (int i = step1; i < step2; i += step)
-            {
-                this.TdCollection.Add(new Td { Value = i, Shade = Shades.Light, Tret = tret });
-            }
-            for (int i = step2; i < step3; i += step)
-            {
-                this.TdCollection.Add(new Td { Value = i, Shade = Shades.Dark, Tret = tret });
-            }
-            for (int i = step3; i <= max; i += step)
-            {
-                this.TdCollection.Add(new Td { Value = i, Shade = Shades.VeryDark, Tret = tret });
-            }
-        }
-
-        public ObjectCollection<Td> TdCollection { get; } = new ObjectCollection<Td>();
         public UkbpRecommendation RecommendationKBY => m_recommendations.Single(x => x.Tret == KEBOLEHPERCAYAAN && x.Skor == this.KBY.Skor);
         public UkbpRecommendation RecommendationASF => m_recommendations.Single(x => x.Tret == BERSIKAP_ASERTIF && x.Skor == this.ASF.Skor);
         public UkbpRecommendation RecommendationNAS => m_recommendations.Single(x => x.Tret == NASIONALISME && x.Skor == this.NAS.Skor);
