@@ -18,7 +18,9 @@ namespace web.sph.App_Code
             var sesi = await context.LoadOneAsync<SesiUjian>(x => x.Id == id);
             var user = await context.LoadOneAsync<Pengguna>(x => x.MyKad == sesi.MyKad);
             var ujianTask = context.LoadOneAsync<Bespoke.epsikologi_ujian.Domain.Ujian>(x => x.Id == sesi.NamaUjian);
-            var permohonanTask = context.LoadOneAsync<Bespoke.epsikologi_permohonan.Domain.Permohonan>(x => x.PermohonanNo == sesi.NamaProgram);
+            var permohonanTask =
+                context.LoadOneAsync<Bespoke.epsikologi_permohonan.Domain.Permohonan>(
+                    x => x.PermohonanNo == sesi.NamaProgram);
             await Task.WhenAll(ujianTask, permohonanTask);
 
             var query = context.CreateQueryable<SkorHlp>();
@@ -43,21 +45,22 @@ namespace web.sph.App_Code
             };
 
             var viewName = "Trait-Hlp-" + user.Jantina;
-            const string STYLE = "border:3px solid red";
-            return Pdf(viewName, vm, "~/Views/PrintReport/_MasterPage.NoHeader.cshtml",
-            x => x
-                .Replace($"id=\"KB{vm.KB.Point}\"", $"id=\"KB{vm.KB.Point}\"      style=\"{STYLE}\"")
-                .Replace($"id=\"FR{vm.FR.Percentile}\"", $"id=\"FR{vm.FR.Percentile}\" style=\"{STYLE}\"")
-                .Replace($"id=\"KT{vm.KT.Percentile}\"", $"id=\"KT{vm.KT.Percentile}\" style=\"{STYLE}\"")
-                .Replace($"id=\"KC{vm.KC.Percentile}\"", $"id=\"KC{vm.KC.Percentile}\" style=\"{STYLE}\"")
-                .Replace($"id=\"LP{vm.LP.Percentile}\"", $"id=\"LP{vm.LP.Percentile}\" style=\"{STYLE}\"")
-                .Replace($"id=\"SM{vm.SM.Percentile}\"", $"id=\"SM{vm.SM.Percentile}\" style=\"{STYLE}\"")
-                .Replace($"id=\"AS{vm.AS.Percentile}\"", $"id=\"AS{vm.AS.Percentile}\" style=\"{STYLE}\"")
-                .Replace($"id=\"AF{vm.AF.Percentile}\"", $"id=\"AF{vm.AF.Percentile}\" style=\"{STYLE}\"")
-                .Replace($"id=\"TL{vm.TL.Percentile}\"", $"id=\"TL{vm.TL.Percentile}\" style=\"{STYLE}\"")
-                .Replace($"id=\"DT{vm.DT.Percentile}\"", $"id=\"DT{vm.DT.Percentile}\" style=\"{STYLE}\""), true);
-        }
+            //   const string STYLE = "border:3px solid red";
+            //    return Pdf(viewName, vm, "~/Views/PrintReport/_MasterPage.NoHeader.cshtml",
+            //    x => x
+            //        .Replace($"id=\"KB{vm.KB.Point}\"", $"id=\"KB{vm.KB.Point}\"      style=\"{STYLE}\"")
+            //        .Replace($"id=\"FR{vm.FR.Percentile}\"", $"id=\"FR{vm.FR.Percentile}\" style=\"{STYLE}\"")
+            //        .Replace($"id=\"KT{vm.KT.Percentile}\"", $"id=\"KT{vm.KT.Percentile}\" style=\"{STYLE}\"")
+            //        .Replace($"id=\"KC{vm.KC.Percentile}\"", $"id=\"KC{vm.KC.Percentile}\" style=\"{STYLE}\"")
+            //        .Replace($"id=\"LP{vm.LP.Percentile}\"", $"id=\"LP{vm.LP.Percentile}\" style=\"{STYLE}\"")
+            //        .Replace($"id=\"SM{vm.SM.Percentile}\"", $"id=\"SM{vm.SM.Percentile}\" style=\"{STYLE}\"")
+            //        .Replace($"id=\"AS{vm.AS.Percentile}\"", $"id=\"AS{vm.AS.Percentile}\" style=\"{STYLE}\"")
+            //        .Replace($"id=\"AF{vm.AF.Percentile}\"", $"id=\"AF{vm.AF.Percentile}\" style=\"{STYLE}\"")
+            //        .Replace($"id=\"TL{vm.TL.Percentile}\"", $"id=\"TL{vm.TL.Percentile}\" style=\"{STYLE}\"")
+            //        .Replace($"id=\"DT{vm.DT.Percentile}\"", $"id=\"DT{vm.DT.Percentile}\" style=\"{STYLE}\""), true);
 
+            return View(viewName, vm);
+        }
 
 
     }

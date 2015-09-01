@@ -994,13 +994,13 @@
   "IsExportAvailable": false,
   "Operation": "UrusetiaProcessPermohonanDariPenyelaras",
   "Entity": "permohonan",
-  "Partial": null,
+  "Partial": "partial/permohonan-urusetia",
   "Caption": "Kelulusan Permohonan oleh Urusetia",
-  "Layout": null,
+  "Layout": " ",
   "CreatedBy": "admin",
   "Id": "permohonan-urusetia",
   "CreatedDate": "2015-06-16T08:04:20.3588975+08:00",
   "ChangedBy": "admin",
-  "ChangedDate": "2015-07-13T12:35:29.3896818+08:00",
+  "ChangedDate": "2015-09-01T09:27:31.6142227+08:00",
   "WebId": "d56af63c-c52e-401b-83b5-bfecea2c53d1"
 }

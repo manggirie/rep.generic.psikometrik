@@ -1,8 +1,13 @@
 using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+using Bespoke.epsikologi_pengguna.Domain;
 using Bespoke.epsikologi_sesiujian.Domain;
 using Bespoke.epsikologi_skorukbp.Domain;
+using Bespoke.epsikologi_soalan.Domain;
+using Bespoke.epsikologi_ujian.Domain;
 using Bespoke.epsikologi_ukbprecommendation.Domain;
 using Bespoke.Sph.Domain;
 // ReSharper disable InconsistentNaming
@@ -54,47 +59,6 @@ namespace web.sph.App_Code
         }
 
 
-
-        private void AddDarkToLight(int start, int step1, int step2, int step3, int max, int step, string tret)
-        {
-            for (int i = start; i < step1; i += step)
-            {
-                this.TdCollection.Add(new Td { Value = i, Shade = Shades.VeryDark, Tret = tret });
-            }
-            for (int i = step1; i < step2; i += step)
-            {
-                this.TdCollection.Add(new Td { Value = i, Shade = Shades.Dark, Tret = tret });
-            }
-            for (int i = step2; i < step3; i += step)
-            {
-                this.TdCollection.Add(new Td { Value = i, Shade = Shades.Light, Tret = tret });
-            }
-            for (int i = step3; i <= max; i += step)
-            {
-                this.TdCollection.Add(new Td { Value = i, Shade = Shades.VeryLight, Tret = tret });
-            }
-        }
-        private void AddLightToDark(int start, int step1, int step2, int step3, int max, int step, string tret)
-        {
-            for (int i = start; i < step1; i += step)
-            {
-                this.TdCollection.Add(new Td { Value = i, Shade = Shades.VeryLight, Tret = tret });
-            }
-            for (int i = step1; i < step2; i += step)
-            {
-                this.TdCollection.Add(new Td { Value = i, Shade = Shades.Light, Tret = tret });
-            }
-            for (int i = step2; i < step3; i += step)
-            {
-                this.TdCollection.Add(new Td { Value = i, Shade = Shades.Dark, Tret = tret });
-            }
-            for (int i = step3; i <= max; i += step)
-            {
-                this.TdCollection.Add(new Td { Value = i, Shade = Shades.VeryDark, Tret = tret });
-            }
-        }
-
-        public ObjectCollection<Td> TdCollection { get; } = new ObjectCollection<Td>();
         public UkbpRecommendation RecommendationKBY => m_recommendations.Single(x => x.Tret == KEBOLEHPERCAYAAN && x.Skor == this.KBY.Skor);
         public UkbpRecommendation RecommendationASF => m_recommendations.Single(x => x.Tret == BERSIKAP_ASERTIF && x.Skor == this.ASF.Skor);
         public UkbpRecommendation RecommendationNAS => m_recommendations.Single(x => x.Tret == NASIONALISME && x.Skor == this.NAS.Skor);
@@ -434,5 +398,192 @@ namespace web.sph.App_Code
 
         public Kod1Type KodMinat1 => new Kod1Type(m_sesiB);
         public Kod2Type KodMinat2 => new Kod2Type(this.m_sesiB);
+
+
+        public static async Task<string> GenerateLaporanTable(ProgramReportModel model)
+        {
+            var context = new SphDataContext();
+            var no = $"{model.Program}/{model.Bil}/{model.Siri}/{model.Tahun}";
+            var ujian = await context.LoadOneAsync<Ujian>(x => x.Id == "UKBP-A");
+
+            var query = context.CreateQueryable<SesiUjian>()
+                .Where(s => s.NamaProgram == no)
+                .Where(s => s.NamaUjian == model.Ujian)
+                .Where(s => s.Status == "Diambil");
+            var sesiLo = await context.LoadAsync(query, 1, 200, true);
+            var sesi = sesiLo.ItemCollection;
+
+            while (sesiLo.HasNextPage)
+            {
+                sesiLo = await context.LoadAsync(query, sesiLo.CurrentPage + 1, 200, true);
+                sesi.AddRange(sesiLo.ItemCollection);
+            }
+
+            var soalanQuery = context.CreateQueryable<Soalan>()
+                                .Where(s => s.NamaUjian == ujian.UjianNo || s.NamaUjian == ujian.NamaUjian);
+            var soalanLo = await context.LoadAsync(soalanQuery, 1, 200, true);
+            var soalans = soalanLo.ItemCollection;
+            while (soalanLo.HasNextPage)
+            {
+                soalanLo = await context.LoadAsync(soalanQuery, soalanLo.CurrentPage + 1, 200, true);
+                soalans.AddRange(soalanLo.ItemCollection);
+            }
+
+            var traits = soalans.Select(s => s.Trait).Distinct().OrderBy(s => s).ToArray();
+
+            var html = new StringBuilder();
+
+            html.AppendLine("<table class=\"table table-striped table-bordered\">");
+            html.AppendLine("   <thead>");
+            html.AppendLine("       <tr>");
+            html.AppendLine("           <th>Nama</th>");
+            html.AppendLine("           <th>Tarikh</th>");
+            foreach (var t in traits)
+            {
+                html.AppendLine("           <th>" + t + "</th>");
+                var t1 = t;
+                if (t1 == "KBY" || t1 == "NAS" || t1 == "PTL1" || t1 == "PTL2" || t1 == "PTL3")
+                {
+                    continue;
+                }
+                html.AppendLine("           <th>%</th>");
+            }
+
+            html.AppendLine("           <th>Cetakan Individu</th>");
+            html.AppendLine("       </tr>");
+            html.AppendLine("   </thead>");
+            html.AppendLine("   <tbody>");
+            foreach (var s in sesi)
+            {
+                html.AppendLine("   <tr>");
+                html.AppendLine("   <td>" + s.NamaPengguna + "</td>");
+                html.AppendFormat("   <td>{0:dd/MM/yyyy HH:mm}</td>", s.TarikhUjian);
+
+                var responden = await context.LoadOneAsync<Pengguna>(x => x.MyKad == s.MyKad);
+
+                foreach (var t in traits)
+                {
+                    var t1 = t;
+                    var t2 = t;
+                    switch (t1)
+                    {
+                        case "AKS": t2 = "AS"; break;
+                        case "ASF": t2 = "AF"; break;
+                        case "KBY": t2 = "KBY"; break;
+                        case "KCN": t2 = "KC"; break;
+                        case "KTG": t2 = "KT"; break;
+                        case "LPN": t2 = "LP"; break;
+                        case "NAS": t2 = "NE"; break;
+                        case "RAS": t2 = "BR"; break;
+                        case "SIM": t2 = "BS"; break;
+                        case "TOL": t2 = "TL"; break;
+                    }
+                    var score = s.JawapanCollection.Where(a => a.Trait == t1).Sum(a => a.Nilai);
+                    html.AppendLine("           <td>" + score + "</td>");
+                    if (t1 == "KBY" || t1 == "NAS" || t1 == "PTL1" || t1 == "PTL2" || t1 == "PTL3")
+                    {
+                        continue;
+                    }
+
+                    var lookup = await context.LoadOneAsync<SkorUkbp>(x => score.IsBetween(x.NilaiMin, x.NilaiMax, true, true) && x.Tret == t2 && x.Jantina == responden.Jantina);
+                    html.AppendLine(null == lookup
+                        ? $"           <td>{score} : {t1} : {responden.Jantina}</td>"
+                        : $"           <td>{lookup.Percentile}</td>");
+
+                }
+
+                var button = $@"
+                    <td>
+                        <a class=""trait-report btn btn-info"" target=""_blank"" href=""cetak-laporan/indikator/ukbp/{s.Id}""> <i class=""fa fa-print""></i> Indikator</a>
+                    </td>";
+                html.AppendLine(button);
+
+
+                html.AppendLine("   </tr>");
+            }
+
+
+            // sum
+            html.AppendLine("   <tr>");
+            html.AppendLine("   <td>Jumlah Markah</td>");
+            html.AppendLine("   <td></td>");
+            foreach (var t in traits)
+            {
+                var t1 = t;
+                var score = sesi.SelectMany(x => x.JawapanCollection).Where(a => a.Trait == t1).Sum(a => a.Nilai);
+                html.AppendLine("           <td colspan=\"2\">" + score + "</td>");
+            }
+            html.AppendLine("   <td></td>");
+            html.AppendLine("   </tr>");
+
+            // average
+            html.AppendLine("   <tr>");
+            html.AppendLine("   <td>Purata Markah</td>");
+            html.AppendLine("   <td></td>");
+            foreach (var t in traits)
+            {
+                var t1 = t;
+                if (sesi.Count > 0)
+                {
+
+                    var avg = sesi.SelectMany(x => x.JawapanCollection).Where(a => a.Trait == t1).Sum(a => a.Nilai) / sesi.Count;
+                    html.AppendLine("           <td colspan=\"2\">" + avg + "</td>");
+                }
+                else
+                {
+                    html.AppendLine("           <td> NA</td>");
+                }
+            }
+            html.AppendLine("   <td></td>");
+            html.AppendLine("   </tr>");
+
+            html.AppendLine("</tbody>");
+            html.AppendLine("</table>");
+
+            html.AppendLine("<div><em>Nota: % = Percentile</em></di>");
+            html.AppendLine("<div style=\"height:40px\"></div>");
+            html.AppendLine("<table><thead>");
+            html.AppendLine("       <tr>");
+            html.AppendLine("           <th>Trait dari soalan</th>");
+            html.AppendLine("           <th>Trait dari percentile norms</th>");
+            html.AppendLine("       </tr>");
+            html.AppendLine("   </thead>");
+            html.AppendLine("   <tbody>");
+            html.AppendLine("       <tr>");
+            html.AppendLine("           <td>KTG</td>");
+            html.AppendLine("           <td>A, NERVOUSE</td>");
+            html.AppendLine("       </tr>");
+            html.AppendLine("       <tr>");
+            html.AppendLine("           <td>KCN</td>");
+            html.AppendLine("           <td>B, DEPRESSIVE</td>");
+            html.AppendLine("       </tr>");
+            html.AppendLine("       <tr>");
+            html.AppendLine("           <td>AKS</td>");
+            html.AppendLine("           <td>C, AKTIF SOCIAL</td>");
+            html.AppendLine("       </tr>");
+            html.AppendLine("       <tr>");
+            html.AppendLine("           <td>LPN</td>");
+            html.AppendLine("           <td>D, EXPRESSIVE-RESPONSIVE</td>");
+            html.AppendLine("       </tr>");
+            html.AppendLine("       <tr>");
+            html.AppendLine("           <td>SIM</td>");
+            html.AppendLine("           <td>E, SIMPATHETIC</td>");
+            html.AppendLine("       </tr>");
+            html.AppendLine("       <tr>");
+            html.AppendLine("           <td>RAS</td>");
+            html.AppendLine("           <td>F, SUBJECTIVE</td>");
+            html.AppendLine("       </tr>");
+            html.AppendLine("       <tr>");
+            html.AppendLine("           <td>ASF</td>");
+            html.AppendLine("           <td>G,DOMINANT</td>");
+            html.AppendLine("       </tr>");
+            html.AppendLine("       <tr>");
+            html.AppendLine("           <td>TOL</td>");
+            html.AppendLine("           <td>H, HOSTILE</td>");
+            html.AppendLine("       </tr>");
+            html.AppendLine("   </tbody>");
+            html.AppendLine("</table>");
+            return html.ToString();
+        }
     }
 }
