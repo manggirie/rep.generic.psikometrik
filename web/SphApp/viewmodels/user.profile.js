@@ -1,5 +1,5 @@
-define([objectbuilders.datacontext, objectbuilders.config],
-  function(context, config) {
+define([objectbuilders.datacontext, objectbuilders.config, objectbuilders.app],
+  function(context, config, app) {
     var isBusy = ko.observable(false),
       userName = ko.observable(config.userName),
       pengguna = ko.observable(),
@@ -44,6 +44,10 @@ define([objectbuilders.datacontext, objectbuilders.config],
       },
       saveAsync = function() {
         var json = ko.toJSON(userProfile);
+        pengguna().Telefon(ko.unwrap(userProfile.Telephone));
+        pengguna().Emel(ko.unwrap(userProfile.Email));
+        pengguna().Nama(ko.unwrap(userProfile.FullName));
+
         return context.post(ko.toJSON(pengguna), "/Pengguna/Save")
           .then(function(){
 
@@ -51,6 +55,7 @@ define([objectbuilders.datacontext, objectbuilders.config],
           })
           .then(function(){
             console.log("saved");
+            app.showMessage("Maklumat Profil anda sudah berjaya disimpan", "Sistem Ujian Psikometrik", ["OK"]);
           });
       };
 

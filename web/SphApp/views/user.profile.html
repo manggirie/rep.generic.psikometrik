@@ -72,17 +72,19 @@
             </div>
         </div>
 
-        <div class="form-group" >
+        <div class="form-group" data-bind=" visible :ko.unwrap(Pekerjaan) === 'Kerajaan'" >
             <label class="col-lg-2">Nama Kementerian</label>
             <div class="col-lg-9">
-                <input class="form-control" data-bind="value: NamaKementerian" readonly="readonly" type="text" />
+							<select  data-bind="comboBoxLookupOptions : { value: NamaKementerian, entity : 'Kementerian', valuePath : 'NamaKementerian', displayPath: 'NamaKementerian', query :ko.computed(function(){ return 'KumpulanAgensi eq \'' + JenisPerkhidmatan() + '\'';})}" id="d264e6ce-01ee-4920-c901-4970e75ef248" name="NamaKementerian" class="required input-large form-control">
+							</select>
             </div>
         </div>
 
-        <div class="form-group">
+        <div class="form-group" data-bind=" visible :ko.unwrap(Pekerjaan) === 'Kerajaan'" >
             <label class="col-lg-2">Nama Jabatan</label>
             <div class="col-lg-9">
-                <input class="form-control" data-bind="value: NamaJabatan" readonly="readonly" type="text" />
+								<select  data-bind="comboBoxLookupOptions : { value: NamaJabatan, entity : 'Jabatan', valuePath : 'NamaJabatan', displayPath: 'NamaJabatan', query :ko.computed(function(){ return 'Kementerian eq \'' + NamaKementerian() + '\'';})}" id="566600d0-3ed3-4dfc-f481-f4efe6e69308" name="NamaJabatan" class=" input-large form-control">
+		            </select>
             </div>
         </div>
 
