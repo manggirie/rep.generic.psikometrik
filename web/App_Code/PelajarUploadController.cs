@@ -86,7 +86,6 @@ namespace web.sph.App_Code
                     if (email.Count > 0)
                     {
                         duplicateEmails.Add(student.Emel);
-                        continue;
                     }
                 }
 
