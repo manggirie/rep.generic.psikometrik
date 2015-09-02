@@ -7452,10 +7452,9 @@ define('services/validation', [],
                     if (v.Mode() === "digit") {
                         v.Mode("digits");
                     }
-
                     validation.rules[path] = { required: v.IsRequired() };
-                    if (v.Message()) {
-                        validation.messages[path] = v.Message();
+                    if (v.IsRequired()) {
+                        validation.messages[path] = v.Message() || "Sila betulkan medan ini";
                     }
 
                     if (v.MaxLength()) {

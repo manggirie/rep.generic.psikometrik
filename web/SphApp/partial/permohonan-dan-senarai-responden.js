@@ -148,6 +148,16 @@ define(["services/datacontext", objectbuilders.app, objectbuilders.config, objec
                     _(r.list).each(function (v) {
                         senaraiPendaftaran.push(v);
                     });
+
+                    var duplicateEmails = "<ul>";
+                    _(r.duplicateEmails).each(function (v) {
+                        duplicateEmails += "<li>"+ v + "</li>";
+                    });
+                    duplicateEmails += "</ul>";
+
+                    if (r.duplicateEmails.length > 0) {
+                        app.showMessage("Fail yang anda muat naik terdapat data yang sudah didaftar sebelum ini <br/>" + duplicateEmails, config.applicationFullName, ["OK"]);
+                    }
                 }
             });
     });

@@ -100,9 +100,9 @@
           "FieldValidation": {
             "$type": "Bespoke.Sph.Domain.FieldValidation, domain.sph",
             "IsRequired": true,
-            "Pattern": null,
+            "Pattern": "[0-9]{12}",
             "Mode": "",
-            "Message": null,
+            "Message": "Sila masukan MyKad dalam format 12 digit e.g. 123456789012",
             "Min": null,
             "Max": null,
             "MinLength": null,
@@ -1704,6 +1704,6 @@
   "Id": "tambah-pengguna",
   "CreatedDate": "2015-06-16T08:04:09.5205895+08:00",
   "ChangedBy": "admin",
-  "ChangedDate": "2015-08-27T11:55:47.5005902+08:00",
+  "ChangedDate": "2015-09-01T16:44:40.8166416+08:00",
   "WebId": "4e32950c-7d95-4b44-983c-3c3e67811ded"
 }

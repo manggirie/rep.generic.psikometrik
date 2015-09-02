@@ -5,5 +5,12 @@
     "useViewModel": true,
     "jsDiff": null,
     "htmlDiff": null
+  },
+  {
+    "name": "_program.semasa",
+    "originalName": null,
+    "useViewModel": true,
+    "jsDiff": null,
+    "htmlDiff": null
   }
 ]

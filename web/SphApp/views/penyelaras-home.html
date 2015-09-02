@@ -34,50 +34,10 @@
 </div>
 <div class="row">
 	<div class="col-md-8 col-sm-8">
-		<!-- BEGIN PORTLET-->
-		<div class="portlet light ">
-			<div class="portlet-title">
-				<div class="caption">
-					<i class="icon-bar-chart font-green-sharp hide"></i>
-					<span class="caption-subject font-green-sharp bold uppercase">Program Semasa</span>
-					<span class="caption-helper">..</span>
-				</div>
+	
+        <!--ko compose: {model: 'viewmodels/_program.semasa'} -->
+        <!--/ko-->
 
-			</div>
-			<div class="portlet-body">
-
-        <table class="table table-striped" data-bind="filter : {path:'tbody>tr'}, searchPaging :{ query: query,  entity : 'Permohonan', list:permohonanLulusList}">
-            <thead>
-                <tr>
-                    <th>#</th>
-                    <th>Nama Program</th>
-                    <th>Mula</th>
-                    <th>Tamat</th>
-                    <th>Papar Responden</th>
-                </tr>
-            </thead>
-            <tbody data-bind="foreach :permohonanLulusList">
-                <tr data-bind="">
-
-                    <td data-bind="text:$index() + 1"></td>
-                    <td data-bind="text:PermohonanNo"></td>
-                    <td data-bind="date:TarikhMula"></td>
-                    <td data-bind="date:TarikhTamat"></td>
-                    <td>
-                        <a data-bind="attr : {href:'#permohonan-dan-senarai-responden' + '/' + Id, title:'Papar Responden' }">
-													<i class="fa fa-users"></i>
-                                                        <span data-bind="text:'Senarai Responden'"></span>
-                        </a>
-                    </td>
-
-
-                </tr>
-            </tbody>
-        </table>
-
-			</div>
-		</div>
-		<!-- END PORTLET-->
 	</div>
 	<div class="col-md-6 col-sm-6">
 		<!-- BEGIN PORTLET-->
