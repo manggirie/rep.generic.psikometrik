@@ -5,7 +5,11 @@ define([objectbuilders.config], function(config){
             return true;
         },
         attached  = function(view){
-        
+             var tarikhMulaPicker = $("#tarikhMulaPicker").data("kendoDatePicker"),
+                    tarikhTamatPicker = $("#tarikhTamatPicker").data("kendoDatePicker");
+                tarikhMulaPicker.min(new Date());
+                tarikhTamatPicker.min(new Date());
+                
         };
 
     return {
