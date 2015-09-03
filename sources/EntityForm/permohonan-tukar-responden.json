@@ -346,7 +346,7 @@
           "IsRequired": false,
           "Size": "input-large",
           "CssClass": "",
-          "Visible": "StatusPermohonan() === 'BARU'",
+          "Visible": "true",
           "Enable": "true",
           "ElementId": "89a6473f-6944-4d91-ba80-49d0f20ad2e5",
           "HelpText": null,
@@ -671,11 +671,11 @@
   "Entity": "permohonan",
   "Partial": "partial/permohonan-tukar-responden",
   "Caption": "Permohonan Program oleh Penyelaras",
-  "Layout": null,
+  "Layout": " ",
   "CreatedBy": "admin",
   "Id": "permohonan-tukar-responden",
   "CreatedDate": "2015-06-05T10:45:40.0425071+08:00",
   "ChangedBy": "admin",
-  "ChangedDate": "2015-07-24T09:42:22.3931815+08:00",
+  "ChangedDate": "2015-09-04T06:24:51.4086878+08:00",
   "WebId": "d56af63c-c52e-401b-83b5-bfecea2c53d1"
 }
