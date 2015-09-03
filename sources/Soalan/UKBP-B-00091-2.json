@@ -1,7 +1,7 @@
 {
   "$type": "Bespoke.epsikologi_soalan.Domain.Soalan, epsikologi.Soalan",
-  "NoRujukan": "UKBP-B-00091",
-  "SoalanNo": "UKBP-B-00091",
+  "NoRujukan": "UKBP-B-00091-2",
+  "SoalanNo": "UKBP-B-00091-2",
   "TeksSoalan": "Menggunakan komputer bagi mengkaji permasalahan saintifik.",
   "SeksyenSoalan": "2",
   "PilihanJawapanCollection": {
@@ -27,9 +27,9 @@
   "Kategori": "2",
   "Bahagian": "B",
   "CreatedBy": "admin",
-  "Id": "UKBP-B-00091",
+  "Id": "UKBP-B-00091-2",
   "CreatedDate": "2015-08-04T15:12:07.1079599+08:00",
-  "ChangedBy": "admin",
-  "ChangedDate": "2015-08-11T15:27:37.8600014+08:00",
+  "ChangedBy": "urusetia1",
+  "ChangedDate": "2015-09-04T07:03:30.6633478+08:00",
   "WebId": "f764f403-cd18-40d0-a0a7-ed1ba1680c18"
 }

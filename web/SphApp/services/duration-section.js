@@ -69,17 +69,36 @@ define(["services/datacontext", objectbuilders.app],
                     $.get("/arahan/ukbp-b.section-2.html")
                     .done(function (html) {
                         app.showMessage(html, "JPA ePsikometrik", ["OK"]).done(function () {
+                            var setUkbpHeader = function(){
+
+                                var a = $("div.soalan-panel.kategori-1:visible").length,
+                                  b = $("div.soalan-panel.kategori-2:visible").length,
+                                  c = $("div.soalan-panel.kategori-3:visible").length;
+
+                                if(1 <= a) $("strong#arahan-kategori-1").show();
+                                if(1 <= b) $("strong#arahan-kategori-2").show();
+                                if(1 <= c) $("strong#arahan-kategori-3").show();
+
+                                if(0 === a) $("strong#arahan-kategori-1").hide();
+                                if(0 === b) $("strong#arahan-kategori-2").hide();
+                                if(0 === c) $("strong#arahan-kategori-3").hide();
+
+                            };
+                            $("#hide-asnwered-checkbox").on("click", setUkbpHeader);
                             $("div.soalan-panel").each(function() {
                                 var soalan = ko.dataFor(this);
+                                $(this).addClass("kategori-" + ko.unwrap(soalan.Kategori));
                                 if (ko.unwrap(soalan.SoalanNo) === "UKBP-B-00091") {
-                                    $(this).before("<br/><strong>Sekiranya diberi peluang, saya ingin ...</strong>");
+                                    $(this).before("<strong id=\"arahan-kategori-1\">Sekiranya diberi peluang, saya ingin ...</strong>");
                                 }
                                 if (ko.unwrap(soalan.SoalanNo) === "UKBP-B-00090") {
-                                    $(this).before("<br/><strong>Saya boleh ...</strong>");
+                                    $(this).before("<strong id=\"arahan-kategori-2\">Saya boleh ...</strong>");
                                 }
                                 if (ko.unwrap(soalan.SoalanNo) === "UKBP-B-00211") {
-                                    $(this).before("<br/><strong>Saya meminati kerjaya sebagai seorang  ...</strong>");
+                                    $(this).before("<strong id=\"arahan-kategori-3\">Saya meminati kerjaya sebagai seorang  ...</strong>");
                                 }
+                            }).on("click", "input[type=radio]", function(){
+                              setTimeout(setUkbpHeader,500);
                             });
 
                         });
