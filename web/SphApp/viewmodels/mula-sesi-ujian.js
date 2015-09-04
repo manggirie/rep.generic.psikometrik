@@ -34,6 +34,7 @@ define(["services/datacontext", objectbuilders.app, objectbuilders.config, objec
                     "SoalanNo": ko.unwrap(v.SoalanNo),
                     "Trait": ko.unwrap(v.Trait),
                     "Text": ko.unwrap(v.TeksSoalan),
+                    "Kategori": ko.unwrap(v.Kategori),
                     "Nilai": ko.observable(),
                     "PilihanJawapanCollection": v.PilihanJawapanCollection
                 };

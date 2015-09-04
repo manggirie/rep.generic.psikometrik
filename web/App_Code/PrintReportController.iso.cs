@@ -42,7 +42,7 @@ namespace web.sph.App_Code
                 Pengguna = user
             };
 
-            return Pdf("Trait-Iso", vm);
+            return View("Trait-Iso", vm);
 
         }
 
