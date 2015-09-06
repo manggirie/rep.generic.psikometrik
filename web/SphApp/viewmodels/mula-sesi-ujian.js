@@ -67,7 +67,7 @@ define(["services/datacontext", objectbuilders.app, objectbuilders.config, objec
                         entity: "Soalan",
                         size: 200,
                         includeTotal: true,
-                        orderby: "Susunan",
+                        orderby: "SeksyenSoalan,Susunan",
                         page: 1
                     };
 
@@ -102,7 +102,7 @@ define(["services/datacontext", objectbuilders.app, objectbuilders.config, objec
                         _(questions).each(function (v) {
                             sesiUjian().JawapanCollection.push(v);
                         });
-                        // TODO: assume it's only 400 max, well not for UKBP which is more than 500 questions
+                        // TODO: assume it's only 400 max
                     });
 
 

@@ -83,12 +83,12 @@
         },
         "Name": "SeksyenSoalan",
         "TypeName": "System.String, mscorlib",
-        "IsNullable": false,
+        "IsNullable": true,
         "IsNotIndexed": false,
         "IsAnalyzed": false,
-        "IsFilterable": false,
+        "IsFilterable": true,
         "IsExcludeInAll": false,
-        "Boost": 0,
+        "Boost": 2,
         "DefaultValue": null,
         "WebId": "798c70fe-ceb9-45a9-96a6-63a49a9ed027"
       },
@@ -305,6 +305,6 @@
   "Id": "soalan",
   "CreatedDate": "2015-06-05T10:14:02.0720325+08:00",
   "ChangedBy": "admin",
-  "ChangedDate": "2015-08-04T12:07:29.4140772+08:00",
+  "ChangedDate": "2015-09-07T07:37:01.0039828+08:00",
   "WebId": "43a6da47-6845-493e-dfbf-8e17ebe6ff37"
 }
