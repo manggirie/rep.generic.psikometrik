@@ -1,19 +1,27 @@
-define([objectbuilders.datacontext, objectbuilders.config], function(context, config){
+define([objectbuilders.datacontext, objectbuilders.config], function (context, config) {
     var namaJabatan = ko.observable(),
-        activate = function(list){
-            
-            return context.getScalarAsync("Pengguna", "MyKad eq '" + config.userName + "'", "NamaJabatan")
-            .done(namaJabatan);
+        namaKementerian = ko.observable(),
+        activate = function (list) {
+
+            return context.getTuplesAsync("Pengguna", "MyKad eq '" + config.userName + "'", "NamaJabatan", "NamaKementerian")
+                .done(function (lo) {
+                    var x = lo[0];
+                    config.namaJabatan = x.Item1;
+                    config.namaKementerian = x.Item2;
+                    namaJabatan(x.Item1);
+                    namaKementerian(x.Item2);
+                });
 
         },
-        attached  = function(view){
-        
+        attached = function () {
+
         };
 
     return {
-        namaJabatan : namaJabatan,
-        activate : activate,
-        attached : attached
+        namaJabatan: namaJabatan,
+        namaKementerian: namaKementerian,
+        activate: activate,
+        attached: attached
     };
 
 });
