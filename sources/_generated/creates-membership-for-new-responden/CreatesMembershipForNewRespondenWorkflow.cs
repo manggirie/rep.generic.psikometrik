@@ -68,7 +68,6 @@ namespace Bespoke.Sph.Workflows_CreatesMembershipForNewResponden_0
 
             var result = new ActivityExecutionResult { Status = ActivityExecutionStatus.Success };
             var item = this;
-            this.Password = System.Web.Security.Membership.GeneratePassword(6, 0);
 
             var context = new SphDataContext();
             var designation = await context.LoadOneAsync<Designation>(d => d.Name == "Responden");
@@ -91,6 +90,8 @@ namespace Bespoke.Sph.Workflows_CreatesMembershipForNewResponden_0
 
             if (null == exist)
             {
+                this.Password = System.Web.Security.Membership.GeneratePassword(6, 0);
+
                 System.Web.Security.Membership.CreateUser(profile.UserName, this.Password, profile.Email);
                 System.Web.Security.Roles.AddUserToRoles(profile.UserName, roles);
 
