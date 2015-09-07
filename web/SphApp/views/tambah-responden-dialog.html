@@ -28,16 +28,16 @@
 
 					</form>
 				</div>
-				<div class="row" style="padding-left:5px;padding-right:5px;">
-                	<div style="height:300px; max-height: 400px;overflow-y: scroll">               
-                    	<table class="table table-condensed table-striped" data-bind="visible: results().length > 0">
-                        <thead id="thead">
+                <div class="row" style="padding-left: 5px; padding-right: 5px;">
+                    <div style="height: 300px; max-height: 400px; overflow-y: scroll">
+                        <table class="table table-condensed table-striped" data-bind="visible: results().length > 0">
+                            <thead id="thead">
                             <tr>
                                 <th>Nama</th>
                                 <th>MyKad</th>
                             </tr>
-                        </thead>
-                        <tbody id="tbody" data-bind="foreach:results" >
+                            </thead>
+                            <tbody id="tbody" data-bind="foreach:results">
                             <tr>
                                 <td>
                                     <label>
@@ -49,10 +49,16 @@
                                 </td>
                                 <td data-bind="text: MyKad"></td>
                             </tr>
-                        </tbody>
-                    </table>
-                	</div>
-				</div>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+                <div class="row" data-bind="visible:lebihBilangan">
+                    <div class="alert alert-danger alert-dismissible" role="alert" style="margin-left: 10px; margin-right: 10px">
+                        <button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                        Responden <strong>tidak boleh melebihi</strong> bilangan yang telah didaftar
+                    </div>
+                </div>
 
             </div>
             <div class="modal-footer">

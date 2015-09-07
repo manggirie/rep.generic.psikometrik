@@ -15,11 +15,6 @@ define(["plugins/dialog", "services/datacontext", "services/config"],
                                     "must": [
                                       {
                                           "term": {
-                                              "NamaJabatan": config.namaJabatan
-                                          }
-                                      },
-                                      {
-                                          "term": {
                                               "NamaKementerian": config.namaKementerian
                                           }
                                       }
@@ -31,6 +26,13 @@ define(["plugins/dialog", "services/datacontext", "services/config"],
                     "from": 0,
                     "size": 20
                 };
+                if (config.namaJabatan) {
+                    if (config.namaJabatan) {
+                        query.query.filtered.filter.bool.must.push({
+                            term: { "NamaJabatan": config.namaJabatan }
+                        });
+                    }
+                }
 
                 if (ko.unwrap(searchText)) {
                     query.query = {
@@ -39,6 +41,24 @@ define(["plugins/dialog", "services/datacontext", "services/config"],
                             "query": ko.unwrap(searchText)
                         }
                     };
+                    query.filter = {
+                        "bool": {
+                            "must": [
+                                {
+                                    "term": {
+                                        "NamaKementerian": config.namaKementerian
+                                    }
+                                }
+                            ]
+                        }
+                    };
+                    if (config.namaJabatan) {
+                        if (config.namaJabatan) {
+                            query.filter.bool.must.push({
+                                term: { "NamaJabatan": config.namaJabatan }
+                            });
+                        }
+                    }
                 }
 
                 return context.searchAsync({ entity: "Pengguna" }, query)
@@ -90,15 +110,20 @@ define(["plugins/dialog", "services/datacontext", "services/config"],
             },
             cancelClick = function () {
                 dialog.close(this, "Cancel");
-            };
+            },
+            canExecuteSave = ko.computed(function () {
+                return selectedRespondens().length > 0 && selectedRespondens().length <= maxCount();
+            }),
+            lebihBilangan = ko.computed(function () {
+                return selectedRespondens().length > maxCount();
+            });
 
         var vm = {
             selectedRespondens: selectedRespondens,
             senaraiPendaftaran: senaraiPendaftaran,
             maxCount: maxCount,
-            canExecuteSave: ko.computed(function () {
-                return selectedRespondens().length > 0 && selectedRespondens().length <= maxCount();
-            }),
+            canExecuteSave: canExecuteSave,
+            lebihBilangan: lebihBilangan,
             searchText: searchText,
             searchAsync: searchAsync,
             results: results,
