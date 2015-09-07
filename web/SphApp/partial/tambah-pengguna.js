@@ -53,17 +53,17 @@ define(["services/datacontext", objectbuilders.config, objectbuilders.app], func
 
             $("select.required").attr("required", "");
         },
-        canExecuteSaveCommand = ko.computed(function () {
+        canExecuteSaveCommand = function () {
             if (! pengguna()) return false;
             return pengguna().IsPenyelaras() || pengguna().IsResponden();
-        });
+        };
 
     return {
         isPenyelaras: isPenyelaras,
+        canExecuteSaveCommand: canExecuteSaveCommand,
         penyelaras: penyelaras,
         activate: activate,
-        attached: attached,
-        canExecuteSaveCommand: canExecuteSaveCommand
+        attached: attached
     };
 
 });

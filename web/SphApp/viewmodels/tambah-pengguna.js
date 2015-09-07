@@ -220,7 +220,12 @@ define([objectbuilders.datacontext, objectbuilders.logger, objectbuilders.router
             kemaskiniOlehPenyelaras: kemaskiniOlehPenyelaras,
             toolbar: {
                 saveCommand: tarikhKemaskiniNow,
-                canExecuteSaveCommand : partial.canExecuteSaveCommand,
+                canExecuteSaveCommand : ko.computed(function(){
+                        if(typeof partial.canExecuteSaveCommand === "function"){
+                            return partial.canExecuteSaveCommand();
+                        }
+                        return true;
+                    }),
                 commands: ko.observableArray([])
             }
         };
