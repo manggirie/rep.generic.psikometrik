@@ -22,13 +22,6 @@ define(["services/datacontext", "services/logger", "plugins/router", "services/c
                                    "from": today
                                 }
                              }
-                        },
-                        {
-                             "range": {
-                                "TarikhMula": {
-                                   "to": today
-                                }
-                             }
                         }
                       ],
                       "must_not": []
