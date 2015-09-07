@@ -1,10 +1,16 @@
-Write-Host "This script will delete all your data, Type [Yes] to continue"
+Param(
+       [string]$DatabaseServer = '(localdb)\Projects',
+       [string]$ElasticsearchHost = 'localhost',
+       [int]$ElasticsearchPort = 9200
+     )
+ Write-Host "This script will delete ALL your data, type [Yes] to continue" -ForegroundColor Yellow -BackgroundColor Red
 $continue = Read-Host
 if($continue -ne "Yes"){
     exit
     return
 }
 
+$es = $ElasticsearchHost + ":" + $ElasticsearchPort
 $root = "C:\project\rep.generic.psikometrik\"
 $sw = [System.Diagnostics.Stopwatch]::StartNew();
 
@@ -18,10 +24,6 @@ $xml.SelectSingleNode('//system.webServer/rewrite/rules/rule[@name="entity.api"]
 
 $xml.Save("$root\web\web.config")
 
-
-#Write-Host "Removing all users except developers and administrators only"
-#curl -Method Delete -Uri "http://psikometrik/jpa-admin/all-users"
-
 #Import-Module .\utils\sqlcmd.dll
 
 $files = ls -Filter *.json -Path "$root\sources\EntityDefinition"
@@ -31,9 +33,11 @@ foreach($t in $files){
     #Write-Host $json
     if($json.ToString().Contains("`"TreatDataAsSource`": true,") -eq $false)
     {
-        #Write-Host "TRUNCATE TABLE $name ...."
-       
-        #Invoke-SqlCmdRx -TrustedConnection -Server "PSIKOMETRIK" -Database "epsikologi" -CommandQuery "TRUNCATE TABLE [epsikologi].[$name]"
+        Write-Host "TRUNCATE TABLE $name ...."
+        Invoke-SqlCmdRx -TrustedConnection -Server $DatabaseServer -Database "epsikologi" -CommandQuery "TRUNCATE TABLE [epsikologi].[$name]"
+
+        $lowered = $name.ToLowerInvariant()
+        curl -Method Delete -Uri "http://$es/epsikologi/$lowered/_query" -Body '{"query": {"match_all": {}}}'
 
         Write-Host "Compiling $name"
         .\tools\sph.builder.exe /q "$root\sources\EntityDefinition\$t"
@@ -43,6 +47,19 @@ foreach($t in $files){
     }
  
 }
+
+
+$systems = @("audittrail","binarystore","message","organization","page","reportdelivery","tracker","userprofile","watcher","workflow");
+foreach($name in $systems){
+ 
+        Write-Host "TRUNCATE TABLE $name ...."
+        Invoke-SqlCmdRx -TrustedConnection -Server $DatabaseServer -Database "epsikologi" -CommandQuery "TRUNCATE TABLE [sph].[$name]"
+
+
+        curl -Method Delete -Uri "http://$es/epsikologi_sys/$name/_query" -Body '{"query": {"match_all": {}}}'    
+ 
+}
+
 $sw.Stop();
 
 
