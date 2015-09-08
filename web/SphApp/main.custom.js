@@ -7289,10 +7289,10 @@ function (logger, system, ko2) {
     function getAggregateAsync(aggregate, entity, query, field) {
         var url = "/aggregate/" + aggregate;
         url += "/?filter=";
-        url += query;
+        url += encodeURIComponent(query);
         url += "&column=";
-        url += field;
-        url += "&table=" + entity;
+        url += encodeURIComponent(field);
+        url += "&table=" + encodeURIComponent(entity);
 
 
         var tcs = new $.Deferred();
