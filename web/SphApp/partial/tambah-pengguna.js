@@ -13,8 +13,18 @@ define(["services/datacontext", objectbuilders.config, objectbuilders.app], func
                       });
 
                 }else{
-                    
-                    // get data from HRMIS, and map to pengguna
+                    var param = JSON.stringify({icno : ic});
+                    context.post(param,"hrmis/GetUserDetailsByIcNo").done(function(result){
+                        if(result.data)
+                        {
+                            pengguna().Nama(result.data.Nama);
+                        pengguna().Emel(result.data.Emel);
+                         pengguna().StatusPerkahwinan(result.data.StatusPerkahwinan);
+                        pengguna().Telefon(result.data.Telefon);
+                        pengguna().Jantina(result.data.Jantina);
+                        }
+                        
+                    });
                 }
             });
 

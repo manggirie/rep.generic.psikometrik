@@ -33,6 +33,9 @@
     <Reference Include="domain.sph">
       <HintPath>..\..\web\bin\domain.sph.dll</HintPath>
     </Reference>
+    <Reference Include="epsikologi.Pengguna">
+      <HintPath>..\..\web\bin\epsikologi.Pengguna.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Configuration" />
     <Reference Include="System.Core" />
@@ -44,6 +47,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="HrmisAdapter.cs" />
     <Compile Include="OdataSqlTranslator.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="SqlPagingTranslator.cs" />
@@ -53,7 +57,22 @@
   <ItemGroup>
     <None Include="tblPRCOBiodata.schema.json" />
   </ItemGroup>
+  <ItemGroup>
+    <OutputFile Include="$(OutputPath)*.*">
+      <Visible>false</Visible>
+    </OutputFile>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <Target Name="CopyOutputDirClientAndWeb">
+    <Copy SourceFiles="@(OutputFile)" DestinationFolder="$(SolutionDir)\web\bin\" />
+    <!--<Copy SourceFiles="@(OutputFile)" DestinationFolder="$(SolutionDir)\subscribers\" />-->
+    <!--<Copy SourceFiles="@(OutputFile)" DestinationFolder="$(SolutionDir)\schedulers\" />-->
+  </Target>
+  <PropertyGroup>
+    <BuildDependsOn>
+      $(BuildDependsOn);CopyOutputDirClientAndWeb
+    </BuildDependsOn>
+  </PropertyGroup>
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.
   <Target Name="BeforeBuild">
