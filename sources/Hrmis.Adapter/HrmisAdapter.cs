@@ -31,6 +31,7 @@ namespace Hrmis.Adapter
                         pengguna.Telefon = reader["COHPhoneNoRasmi"].ReadNullableString();
                         pengguna.Jantina = reader["Gender"].ReadNullableString();
                         pengguna.Bahagian = reader["ServGrpTitle"].ReadNullableString();
+                        pengguna.Gred = reader["salgrd"].ReadNullableString();
                         return pengguna;
                     }
 

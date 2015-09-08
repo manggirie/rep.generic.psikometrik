@@ -22,6 +22,7 @@ define(["services/datacontext", objectbuilders.config, objectbuilders.app], func
                          pengguna().StatusPerkahwinan(result.data.StatusPerkahwinan);
                         pengguna().Telefon(result.data.Telefon);
                         pengguna().Jantina(result.data.Jantina);
+                        pengguna().Gred(result.data.Gred);
                         }
                         
                     });
