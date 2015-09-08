@@ -61,6 +61,9 @@ define(["plugins/dialog", "services/datacontext", "services/config"],
                     }
                 }
 
+                if (config.profile.Designation === "Urusetia") {
+                    delete query.filter;
+                }
                 return context.searchAsync({ entity: "Pengguna" }, query)
                     .done(function (lo) {
                         var list = _(lo.itemCollection).filter(function (v) {
@@ -82,17 +85,9 @@ define(["plugins/dialog", "services/datacontext", "services/config"],
 
                 if (config.profile.Designation === "Urusetia") {
 
-
-                    return context.getTuplesAsync("Pengguna", "MyKad eq '" + config.userName + "'", "NamaJabatan", "NamaKementerian")
-                        .done(function (lo) {
-                            var x = lo[0];
-                            config.namaJabatan = x.Item1;
-                            config.namaKementerian = x.Item2;
-
                             searchText("*");
                             return searchAsync();
-                        });
-
+                     
                 }
                 return context.getScalarAsync("Pengguna", "MyKad eq '" + config.userName + "'", "NamaKementerian")
                     .then(function (ministry) {
