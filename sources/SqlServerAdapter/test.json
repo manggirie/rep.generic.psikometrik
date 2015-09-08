@@ -1,0 +1,67 @@
+{
+  "$type": "Bespoke.Sph.Integrations.Adapters.SqlServerAdapter, sqlserver.adapter",
+  "OdataTranslator": "OdataSqlTranslator",
+  "Server": "ketupat",
+  "TrustedConnection": false,
+  "UserId": "hrmis",
+  "Password": "ghm171209isr",
+  "Database": "DBHRMISLIVE",
+  "ConnectionString": "Server=ketupat;Database=DBHRMISLIVE;User Id=hrmis;Password=ghm171209isr;",
+  "OperationDefinitionCollection": {
+    "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.Sph.Domain.Api.OperationDefinition, domain.sph]], domain.sph",
+    "$values": []
+  },
+  "Tables": {
+    "$type": "Bespoke.Sph.Domain.Api.AdapterTable[], domain.sph",
+    "$values": [
+      {
+        "$type": "Bespoke.Sph.Domain.Api.AdapterTable, domain.sph",
+        "Name": "tblPRCOBiodata",
+        "ChildRelationCollection": {
+          "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.Sph.Domain.Api.TableRelation, domain.sph]], domain.sph",
+          "$values": [
+            {
+              "$type": "Bespoke.Sph.Domain.Api.TableRelation, domain.sph",
+              "Table": "tblPRIC",
+              "Constraint": "FK_TBLIC_BIODATAIC_TBLCOBIO",
+              "Column": "COBiodataID",
+              "ForeignColumn": "COBiodataID"
+            },
+            {
+              "$type": "Bespoke.Sph.Domain.Api.TableRelation, domain.sph",
+              "Table": "tblPRAddr",
+              "Constraint": "FK_TBLADDR_BIODATAAD_TBLCOBIO",
+              "Column": "COBiodataID",
+              "ForeignColumn": "COBiodataID"
+            },
+            {
+              "$type": "Bespoke.Sph.Domain.Api.TableRelation, domain.sph",
+              "Table": "tblRSCO",
+              "Constraint": "FK_TBLCO_BIODATACO_TBLCOBIO",
+              "Column": "COBiodataID",
+              "ForeignColumn": "COBiodataID"
+            }
+          ]
+        },
+        "ParentCollection": {
+          "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.Sph.Domain.Api.TableRelation, domain.sph]], domain.sph",
+          "$values": []
+        }
+      }
+    ]
+  },
+  "Schema": "dbo",
+  "CodeNamespace": "epsikologi.Adapters.dbo.TEST",
+  "TableDefinitionCollection": {
+    "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.Sph.Domain.Api.TableDefinition, domain.sph]], domain.sph",
+    "$values": []
+  },
+  "Name": "TEST",
+  "Description": null,
+  "CreatedBy": "admin",
+  "Id": "test",
+  "CreatedDate": "2015-09-08T10:44:33.7976945+08:00",
+  "ChangedBy": "admin",
+  "ChangedDate": "2015-09-08T10:44:33.7976945+08:00",
+  "WebId": "78451757-e0a8-44f5-a2b0-9ee39847d4d3"
+}
