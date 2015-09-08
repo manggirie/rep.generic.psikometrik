@@ -12,6 +12,9 @@ define(["services/datacontext", objectbuilders.config, objectbuilders.app], func
 
                       });
 
+                }else{
+                    
+                    // get data from HRMIS, and map to pengguna
                 }
             });
 
