@@ -1,12 +1,24 @@
 {
-  "$type": "Bespoke.Sph.Domain.EntityDefinition, domain.sph",
-  "CodeNamespace": "Bespoke.epsikologi_permohonan.Domain",
+  "$type": "Bespoke.Sph.Domain.Api.TableDefinition, domain.sph",
+  "ActionCodeGenerators": null,
+  "Name": "tblPRCOBiodata",
+  "CodeNamespace": "epsikologi.Adapters.dbo.TEST",
+  "WebId": null,
+  "Schema": "dbo",
+  "ParentTableCollection": {
+    "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.Sph.Domain.Api.TableDefinition, domain.sph]], domain.sph",
+    "$values": []
+  },
+  "ChildTableCollection": {
+    "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.Sph.Domain.Api.TableDefinition, domain.sph]], domain.sph",
+    "$values": []
+  },
   "MemberCollection": {
     "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.Sph.Domain.Member, domain.sph]], domain.sph",
     "$values": [
       {
         "$type": "Bespoke.Sph.Domain.Member, domain.sph",
-        "FullName": "CatatanProgram",
+        "FullName": null,
         "MemberCollection": {
           "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.Sph.Domain.Member, domain.sph]], domain.sph",
           "$values": []
@@ -15,7 +27,51 @@
           "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.Sph.Domain.FieldPermission, domain.sph]], domain.sph",
           "$values": []
         },
-        "Name": "CatatanProgram",
+        "Name": "COBumiStatus",
+        "TypeName": "System.Boolean, mscorlib",
+        "IsNullable": true,
+        "IsNotIndexed": false,
+        "IsAnalyzed": false,
+        "IsFilterable": true,
+        "IsExcludeInAll": false,
+        "Boost": 0,
+        "DefaultValue": null,
+        "WebId": null
+      },
+      {
+        "$type": "Bespoke.Sph.Domain.Member, domain.sph",
+        "FullName": null,
+        "MemberCollection": {
+          "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.Sph.Domain.Member, domain.sph]], domain.sph",
+          "$values": []
+        },
+        "FieldPermissionCollection": {
+          "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.Sph.Domain.FieldPermission, domain.sph]], domain.sph",
+          "$values": []
+        },
+        "Name": "EmailNotifyInd",
+        "TypeName": "System.Boolean, mscorlib",
+        "IsNullable": true,
+        "IsNotIndexed": false,
+        "IsAnalyzed": false,
+        "IsFilterable": true,
+        "IsExcludeInAll": false,
+        "Boost": 0,
+        "DefaultValue": null,
+        "WebId": null
+      },
+      {
+        "$type": "Bespoke.Sph.Domain.Member, domain.sph",
+        "FullName": null,
+        "MemberCollection": {
+          "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.Sph.Domain.Member, domain.sph]], domain.sph",
+          "$values": []
+        },
+        "FieldPermissionCollection": {
+          "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.Sph.Domain.FieldPermission, domain.sph]], domain.sph",
+          "$values": []
+        },
+        "Name": "ReligionCd",
         "TypeName": "System.String, mscorlib",
         "IsNullable": true,
         "IsNotIndexed": false,
@@ -24,7 +80,7 @@
         "IsExcludeInAll": false,
         "Boost": 0,
         "DefaultValue": null,
-        "WebId": "59008096-4af1-4868-a3ab-f9ac02d92d53"
+        "WebId": null
       },
       {
         "$type": "Bespoke.Sph.Domain.Member, domain.sph",
@@ -37,82 +93,16 @@
           "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.Sph.Domain.FieldPermission, domain.sph]], domain.sph",
           "$values": []
         },
-        "Name": "BilRespondan",
-        "TypeName": "System.Int32, mscorlib",
-        "IsNullable": false,
-        "IsNotIndexed": false,
-        "IsAnalyzed": false,
-        "IsFilterable": false,
-        "IsExcludeInAll": false,
-        "Boost": 0,
-        "DefaultValue": null,
-        "WebId": "4fd7cc0d-7b2e-4c8f-d1c3-2a708468d02a"
-      },
-      {
-        "$type": "Bespoke.Sph.Domain.Member, domain.sph",
-        "FullName": null,
-        "MemberCollection": {
-          "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.Sph.Domain.Member, domain.sph]], domain.sph",
-          "$values": []
-        },
-        "FieldPermissionCollection": {
-          "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.Sph.Domain.FieldPermission, domain.sph]], domain.sph",
-          "$values": []
-        },
-        "Name": "BilProgram",
-        "TypeName": "System.Int32, mscorlib",
-        "IsNullable": true,
-        "IsNotIndexed": false,
-        "IsAnalyzed": false,
-        "IsFilterable": false,
-        "IsExcludeInAll": false,
-        "Boost": 0,
-        "DefaultValue": null,
-        "WebId": "a9923f0d-f34e-4dfe-9465-f38a045dadaa"
-      },
-      {
-        "$type": "Bespoke.Sph.Domain.Member, domain.sph",
-        "FullName": null,
-        "MemberCollection": {
-          "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.Sph.Domain.Member, domain.sph]], domain.sph",
-          "$values": []
-        },
-        "FieldPermissionCollection": {
-          "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.Sph.Domain.FieldPermission, domain.sph]], domain.sph",
-          "$values": []
-        },
-        "Name": "SiriProgram",
-        "TypeName": "System.Int32, mscorlib",
-        "IsNullable": true,
-        "IsNotIndexed": false,
-        "IsAnalyzed": false,
-        "IsFilterable": false,
-        "IsExcludeInAll": false,
-        "Boost": 0,
-        "DefaultValue": null,
-        "WebId": "23b84dc9-4127-49d2-aad3-1d967a298ab3"
-      },
-      {
-        "$type": "Bespoke.Sph.Domain.Member, domain.sph",
-        "FullName": null,
-        "MemberCollection": {
-          "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.Sph.Domain.Member, domain.sph]], domain.sph",
-          "$values": []
-        },
-        "FieldPermissionCollection": {
-          "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.Sph.Domain.FieldPermission, domain.sph]], domain.sph",
-          "$values": []
-        },
-        "Name": "TahunProgram",
+        "Name": "RaceCd",
         "TypeName": "System.String, mscorlib",
         "IsNullable": true,
         "IsNotIndexed": false,
         "IsAnalyzed": false,
-        "IsFilterable": false,
+        "IsFilterable": true,
         "IsExcludeInAll": false,
         "Boost": 0,
         "DefaultValue": null,
-        "WebId": "aba13051-74c6-4bcc-c629-47dbf7d86b4d"
+        "WebId": null
       },
       {
         "$type": "Bespoke.Sph.Domain.Member, domain.sph",
@@ -125,16 +115,16 @@
           "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.Sph.Domain.FieldPermission, domain.sph]], domain.sph",
           "$values": []
         },
-        "Name": "NamaProgram",
+        "Name": "EthnicCd",
         "TypeName": "System.String, mscorlib",
         "IsNullable": true,
         "IsNotIndexed": false,
         "IsAnalyzed": false,
-        "IsFilterable": false,
+        "IsFilterable": true,
         "IsExcludeInAll": false,
         "Boost": 0,
         "DefaultValue": null,
-        "WebId": "b363fd2d-4234-487f-988a-48e4934b5661"
+        "WebId": null
       },
       {
         "$type": "Bespoke.Sph.Domain.Member, domain.sph",
@@ -147,20 +137,20 @@
           "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.Sph.Domain.FieldPermission, domain.sph]], domain.sph",
           "$values": []
         },
-        "Name": "MaklumatUjian",
+        "Name": "ArmyPoliceCd",
         "TypeName": "System.String, mscorlib",
-        "IsNullable": false,
+        "IsNullable": true,
         "IsNotIndexed": false,
         "IsAnalyzed": false,
-        "IsFilterable": false,
+        "IsFilterable": true,
         "IsExcludeInAll": false,
         "Boost": 0,
         "DefaultValue": null,
-        "WebId": "8e7b125a-cbc4-48ab-a0e4-cdf7d35cb405"
+        "WebId": null
       },
       {
         "$type": "Bespoke.Sph.Domain.Member, domain.sph",
-        "FullName": "TarikhMula",
+        "FullName": null,
         "MemberCollection": {
           "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.Sph.Domain.Member, domain.sph]], domain.sph",
           "$values": []
@@ -169,20 +159,306 @@
           "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.Sph.Domain.FieldPermission, domain.sph]], domain.sph",
           "$values": []
         },
-        "Name": "TarikhMula",
+        "Name": "BloodTypeCd",
+        "TypeName": "System.String, mscorlib",
+        "IsNullable": true,
+        "IsNotIndexed": false,
+        "IsAnalyzed": false,
+        "IsFilterable": true,
+        "IsExcludeInAll": false,
+        "Boost": 0,
+        "DefaultValue": null,
+        "WebId": null
+      },
+      {
+        "$type": "Bespoke.Sph.Domain.Member, domain.sph",
+        "FullName": null,
+        "MemberCollection": {
+          "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.Sph.Domain.Member, domain.sph]], domain.sph",
+          "$values": []
+        },
+        "FieldPermissionCollection": {
+          "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.Sph.Domain.FieldPermission, domain.sph]], domain.sph",
+          "$values": []
+        },
+        "Name": "MrtlStatusCd",
+        "TypeName": "System.String, mscorlib",
+        "IsNullable": true,
+        "IsNotIndexed": false,
+        "IsAnalyzed": false,
+        "IsFilterable": true,
+        "IsExcludeInAll": false,
+        "Boost": 0,
+        "DefaultValue": null,
+        "WebId": null
+      },
+      {
+        "$type": "Bespoke.Sph.Domain.Member, domain.sph",
+        "FullName": null,
+        "MemberCollection": {
+          "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.Sph.Domain.Member, domain.sph]], domain.sph",
+          "$values": []
+        },
+        "FieldPermissionCollection": {
+          "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.Sph.Domain.FieldPermission, domain.sph]], domain.sph",
+          "$values": []
+        },
+        "Name": "NatStatusCd",
+        "TypeName": "System.String, mscorlib",
+        "IsNullable": true,
+        "IsNotIndexed": false,
+        "IsAnalyzed": false,
+        "IsFilterable": true,
+        "IsExcludeInAll": false,
+        "Boost": 0,
+        "DefaultValue": null,
+        "WebId": null
+      },
+      {
+        "$type": "Bespoke.Sph.Domain.Member, domain.sph",
+        "FullName": null,
+        "MemberCollection": {
+          "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.Sph.Domain.Member, domain.sph]], domain.sph",
+          "$values": []
+        },
+        "FieldPermissionCollection": {
+          "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.Sph.Domain.FieldPermission, domain.sph]], domain.sph",
+          "$values": []
+        },
+        "Name": "COHPhoneStatus",
+        "TypeName": "System.String, mscorlib",
+        "IsNullable": true,
+        "IsNotIndexed": false,
+        "IsAnalyzed": false,
+        "IsFilterable": true,
+        "IsExcludeInAll": false,
+        "Boost": 0,
+        "DefaultValue": null,
+        "WebId": null
+      },
+      {
+        "$type": "Bespoke.Sph.Domain.Member, domain.sph",
+        "FullName": null,
+        "MemberCollection": {
+          "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.Sph.Domain.Member, domain.sph]], domain.sph",
+          "$values": []
+        },
+        "FieldPermissionCollection": {
+          "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.Sph.Domain.FieldPermission, domain.sph]], domain.sph",
+          "$values": []
+        },
+        "Name": "COUpdtInd",
+        "TypeName": "System.String, mscorlib",
+        "IsNullable": true,
+        "IsNotIndexed": false,
+        "IsAnalyzed": false,
+        "IsFilterable": true,
+        "IsExcludeInAll": false,
+        "Boost": 0,
+        "DefaultValue": null,
+        "WebId": null
+      },
+      {
+        "$type": "Bespoke.Sph.Domain.Member, domain.sph",
+        "FullName": null,
+        "MemberCollection": {
+          "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.Sph.Domain.Member, domain.sph]], domain.sph",
+          "$values": []
+        },
+        "FieldPermissionCollection": {
+          "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.Sph.Domain.FieldPermission, domain.sph]], domain.sph",
+          "$values": []
+        },
+        "Name": "EIICd",
+        "TypeName": "System.String, mscorlib",
+        "IsNullable": true,
+        "IsNotIndexed": false,
+        "IsAnalyzed": false,
+        "IsFilterable": true,
+        "IsExcludeInAll": false,
+        "Boost": 0,
+        "DefaultValue": null,
+        "WebId": null
+      },
+      {
+        "$type": "Bespoke.Sph.Domain.Member, domain.sph",
+        "FullName": null,
+        "MemberCollection": {
+          "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.Sph.Domain.Member, domain.sph]], domain.sph",
+          "$values": []
+        },
+        "FieldPermissionCollection": {
+          "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.Sph.Domain.FieldPermission, domain.sph]], domain.sph",
+          "$values": []
+        },
+        "Name": "COOrigTrtry",
+        "TypeName": "System.String, mscorlib",
+        "IsNullable": true,
+        "IsNotIndexed": false,
+        "IsAnalyzed": false,
+        "IsFilterable": true,
+        "IsExcludeInAll": false,
+        "Boost": 0,
+        "DefaultValue": null,
+        "WebId": null
+      },
+      {
+        "$type": "Bespoke.Sph.Domain.Member, domain.sph",
+        "FullName": null,
+        "MemberCollection": {
+          "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.Sph.Domain.Member, domain.sph]], domain.sph",
+          "$values": []
+        },
+        "FieldPermissionCollection": {
+          "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.Sph.Domain.FieldPermission, domain.sph]], domain.sph",
+          "$values": []
+        },
+        "Name": "TitleCd",
+        "TypeName": "System.String, mscorlib",
+        "IsNullable": true,
+        "IsNotIndexed": false,
+        "IsAnalyzed": false,
+        "IsFilterable": true,
+        "IsExcludeInAll": false,
+        "Boost": 0,
+        "DefaultValue": null,
+        "WebId": null
+      },
+      {
+        "$type": "Bespoke.Sph.Domain.Member, domain.sph",
+        "FullName": null,
+        "MemberCollection": {
+          "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.Sph.Domain.Member, domain.sph]], domain.sph",
+          "$values": []
+        },
+        "FieldPermissionCollection": {
+          "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.Sph.Domain.FieldPermission, domain.sph]], domain.sph",
+          "$values": []
+        },
+        "Name": "HighestEduLevelCd",
+        "TypeName": "System.String, mscorlib",
+        "IsNullable": true,
+        "IsNotIndexed": false,
+        "IsAnalyzed": false,
+        "IsFilterable": true,
+        "IsExcludeInAll": false,
+        "Boost": 0,
+        "DefaultValue": null,
+        "WebId": null
+      },
+      {
+        "$type": "Bespoke.Sph.Domain.Member, domain.sph",
+        "FullName": null,
+        "MemberCollection": {
+          "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.Sph.Domain.Member, domain.sph]], domain.sph",
+          "$values": []
+        },
+        "FieldPermissionCollection": {
+          "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.Sph.Domain.FieldPermission, domain.sph]], domain.sph",
+          "$values": []
+        },
+        "Name": "GenderCd",
+        "TypeName": "System.String, mscorlib",
+        "IsNullable": true,
+        "IsNotIndexed": false,
+        "IsAnalyzed": false,
+        "IsFilterable": true,
+        "IsExcludeInAll": false,
+        "Boost": 0,
+        "DefaultValue": null,
+        "WebId": null
+      },
+      {
+        "$type": "Bespoke.Sph.Domain.Member, domain.sph",
+        "FullName": null,
+        "MemberCollection": {
+          "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.Sph.Domain.Member, domain.sph]], domain.sph",
+          "$values": []
+        },
+        "FieldPermissionCollection": {
+          "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.Sph.Domain.FieldPermission, domain.sph]], domain.sph",
+          "$values": []
+        },
+        "Name": "COBirthPlaceCd",
+        "TypeName": "System.String, mscorlib",
+        "IsNullable": true,
+        "IsNotIndexed": false,
+        "IsAnalyzed": false,
+        "IsFilterable": true,
+        "IsExcludeInAll": false,
+        "Boost": 0,
+        "DefaultValue": null,
+        "WebId": null
+      },
+      {
+        "$type": "Bespoke.Sph.Domain.Member, domain.sph",
+        "FullName": null,
+        "MemberCollection": {
+          "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.Sph.Domain.Member, domain.sph]], domain.sph",
+          "$values": []
+        },
+        "FieldPermissionCollection": {
+          "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.Sph.Domain.FieldPermission, domain.sph]], domain.sph",
+          "$values": []
+        },
+        "Name": "COBirthCountryCd",
+        "TypeName": "System.String, mscorlib",
+        "IsNullable": true,
+        "IsNotIndexed": false,
+        "IsAnalyzed": false,
+        "IsFilterable": true,
+        "IsExcludeInAll": false,
+        "Boost": 0,
+        "DefaultValue": null,
+        "WebId": null
+      },
+      {
+        "$type": "Bespoke.Sph.Domain.Member, domain.sph",
+        "FullName": null,
+        "MemberCollection": {
+          "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.Sph.Domain.Member, domain.sph]], domain.sph",
+          "$values": []
+        },
+        "FieldPermissionCollection": {
+          "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.Sph.Domain.FieldPermission, domain.sph]], domain.sph",
+          "$values": []
+        },
+        "Name": "NatCd",
+        "TypeName": "System.String, mscorlib",
+        "IsNullable": true,
+        "IsNotIndexed": false,
+        "IsAnalyzed": false,
+        "IsFilterable": true,
+        "IsExcludeInAll": false,
+        "Boost": 0,
+        "DefaultValue": null,
+        "WebId": null
+      },
+      {
+        "$type": "Bespoke.Sph.Domain.Member, domain.sph",
+        "FullName": null,
+        "MemberCollection": {
+          "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.Sph.Domain.Member, domain.sph]], domain.sph",
+          "$values": []
+        },
+        "FieldPermissionCollection": {
+          "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.Sph.Domain.FieldPermission, domain.sph]], domain.sph",
+          "$values": []
+        },
+        "Name": "COBirthDt",
         "TypeName": "System.DateTime, mscorlib",
-        "IsNullable": false,
+        "IsNullable": true,
         "IsNotIndexed": false,
         "IsAnalyzed": false,
         "IsFilterable": true,
         "IsExcludeInAll": false,
         "Boost": 0,
         "DefaultValue": null,
-        "WebId": "7a03e594-4d5e-4fd4-f5e7-b17c2f8424e0"
+        "WebId": null
       },
       {
         "$type": "Bespoke.Sph.Domain.Member, domain.sph",
-        "FullName": "TarikhTamat",
+        "FullName": null,
         "MemberCollection": {
           "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.Sph.Domain.Member, domain.sph]], domain.sph",
           "$values": []
@@ -191,16 +467,16 @@
           "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.Sph.Domain.FieldPermission, domain.sph]], domain.sph",
           "$values": []
         },
-        "Name": "TarikhTamat",
+        "Name": "COLastUpdtDt",
         "TypeName": "System.DateTime, mscorlib",
-        "IsNullable": false,
+        "IsNullable": true,
         "IsNotIndexed": false,
         "IsAnalyzed": false,
         "IsFilterable": true,
         "IsExcludeInAll": false,
         "Boost": 0,
         "DefaultValue": null,
-        "WebId": "5ca551e6-3b3b-4947-99af-4b3bca7f7ded"
+        "WebId": null
       },
       {
         "$type": "Bespoke.Sph.Domain.Member, domain.sph",
@@ -213,192 +489,16 @@
           "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.Sph.Domain.FieldPermission, domain.sph]], domain.sph",
           "$values": []
         },
-        "Name": "TujuanProgram",
-        "TypeName": "System.String, mscorlib",
-        "IsNullable": false,
-        "IsNotIndexed": false,
-        "IsAnalyzed": false,
-        "IsFilterable": false,
-        "IsExcludeInAll": false,
-        "Boost": 0,
-        "DefaultValue": null,
-        "WebId": "d8a87ec6-7845-4560-f0e0-025fcd96cf27"
-      },
-      {
-        "$type": "Bespoke.Sph.Domain.Member, domain.sph",
-        "FullName": "isIBK",
-        "MemberCollection": {
-          "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.Sph.Domain.Member, domain.sph]], domain.sph",
-          "$values": []
-        },
-        "FieldPermissionCollection": {
-          "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.Sph.Domain.FieldPermission, domain.sph]], domain.sph",
-          "$values": []
-        },
-        "Name": "isIBK",
-        "TypeName": "System.Boolean, mscorlib",
-        "IsNullable": false,
+        "Name": "COPhoto",
+        "TypeName": "System.Byte[], mscorlib",
+        "IsNullable": true,
         "IsNotIndexed": false,
         "IsAnalyzed": false,
         "IsFilterable": true,
         "IsExcludeInAll": false,
         "Boost": 0,
         "DefaultValue": null,
-        "WebId": "d978eb57-387a-4fbe-a665-ca69ea7c3dc3"
-      },
-      {
-        "$type": "Bespoke.Sph.Domain.Member, domain.sph",
-        "FullName": "isISO",
-        "MemberCollection": {
-          "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.Sph.Domain.Member, domain.sph]], domain.sph",
-          "$values": []
-        },
-        "FieldPermissionCollection": {
-          "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.Sph.Domain.FieldPermission, domain.sph]], domain.sph",
-          "$values": []
-        },
-        "Name": "isISO",
-        "TypeName": "System.Boolean, mscorlib",
-        "IsNullable": false,
-        "IsNotIndexed": false,
-        "IsAnalyzed": false,
-        "IsFilterable": true,
-        "IsExcludeInAll": false,
-        "Boost": 0,
-        "DefaultValue": null,
-        "WebId": "e1947c95-8341-4b75-dab9-1903f6cfb94b"
-      },
-      {
-        "$type": "Bespoke.Sph.Domain.Member, domain.sph",
-        "FullName": "isIP",
-        "MemberCollection": {
-          "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.Sph.Domain.Member, domain.sph]], domain.sph",
-          "$values": []
-        },
-        "FieldPermissionCollection": {
-          "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.Sph.Domain.FieldPermission, domain.sph]], domain.sph",
-          "$values": []
-        },
-        "Name": "isIP",
-        "TypeName": "System.Boolean, mscorlib",
-        "IsNullable": false,
-        "IsNotIndexed": false,
-        "IsAnalyzed": false,
-        "IsFilterable": true,
-        "IsExcludeInAll": false,
-        "Boost": 0,
-        "DefaultValue": null,
-        "WebId": "08a5baa6-8c1c-499f-98c2-51cf49c7cf3a"
-      },
-      {
-        "$type": "Bespoke.Sph.Domain.Member, domain.sph",
-        "FullName": "isIPU",
-        "MemberCollection": {
-          "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.Sph.Domain.Member, domain.sph]], domain.sph",
-          "$values": []
-        },
-        "FieldPermissionCollection": {
-          "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.Sph.Domain.FieldPermission, domain.sph]], domain.sph",
-          "$values": []
-        },
-        "Name": "isIPU",
-        "TypeName": "System.Boolean, mscorlib",
-        "IsNullable": false,
-        "IsNotIndexed": false,
-        "IsAnalyzed": false,
-        "IsFilterable": true,
-        "IsExcludeInAll": false,
-        "Boost": 0,
-        "DefaultValue": null,
-        "WebId": "91b56402-9a77-4c70-c58a-1a8adce419ad"
-      },
-      {
-        "$type": "Bespoke.Sph.Domain.Member, domain.sph",
-        "FullName": "isUKHLP",
-        "MemberCollection": {
-          "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.Sph.Domain.Member, domain.sph]], domain.sph",
-          "$values": []
-        },
-        "FieldPermissionCollection": {
-          "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.Sph.Domain.FieldPermission, domain.sph]], domain.sph",
-          "$values": []
-        },
-        "Name": "isUKHLP",
-        "TypeName": "System.Boolean, mscorlib",
-        "IsNullable": false,
-        "IsNotIndexed": false,
-        "IsAnalyzed": false,
-        "IsFilterable": true,
-        "IsExcludeInAll": false,
-        "Boost": 0,
-        "DefaultValue": null,
-        "WebId": "be2316fd-ab53-4606-9bb9-6d10cf9ddac8"
-      },
-      {
-        "$type": "Bespoke.Sph.Domain.Member, domain.sph",
-        "FullName": "isUKBP",
-        "MemberCollection": {
-          "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.Sph.Domain.Member, domain.sph]], domain.sph",
-          "$values": []
-        },
-        "FieldPermissionCollection": {
-          "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.Sph.Domain.FieldPermission, domain.sph]], domain.sph",
-          "$values": []
-        },
-        "Name": "isUKBP",
-        "TypeName": "System.Boolean, mscorlib",
-        "IsNullable": false,
-        "IsNotIndexed": false,
-        "IsAnalyzed": false,
-        "IsFilterable": true,
-        "IsExcludeInAll": false,
-        "Boost": 0,
-        "DefaultValue": null,
-        "WebId": "b6f218c7-f2e2-4968-e8a5-3a91c100f576"
-      },
-      {
-        "$type": "Bespoke.Sph.Domain.Member, domain.sph",
-        "FullName": "isPPKP",
-        "MemberCollection": {
-          "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.Sph.Domain.Member, domain.sph]], domain.sph",
-          "$values": []
-        },
-        "FieldPermissionCollection": {
-          "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.Sph.Domain.FieldPermission, domain.sph]], domain.sph",
-          "$values": []
-        },
-        "Name": "isPPKP",
-        "TypeName": "System.Boolean, mscorlib",
-        "IsNullable": false,
-        "IsNotIndexed": false,
-        "IsAnalyzed": false,
-        "IsFilterable": true,
-        "IsExcludeInAll": false,
-        "Boost": 0,
-        "DefaultValue": null,
-        "WebId": "5d086088-7fab-4b5f-8be1-64f996a592d8"
-      },
-      {
-        "$type": "Bespoke.Sph.Domain.Member, domain.sph",
-        "FullName": "JenisPermohonan",
-        "MemberCollection": {
-          "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.Sph.Domain.Member, domain.sph]], domain.sph",
-          "$values": []
-        },
-        "FieldPermissionCollection": {
-          "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.Sph.Domain.FieldPermission, domain.sph]], domain.sph",
-          "$values": []
-        },
-        "Name": "JenisPermohonan",
-        "TypeName": "System.String, mscorlib",
-        "IsNullable": false,
-        "IsNotIndexed": false,
-        "IsAnalyzed": false,
-        "IsFilterable": true,
-        "IsExcludeInAll": false,
-        "Boost": 0,
-        "DefaultValue": null,
-        "WebId": "d46ecfdd-639d-4f92-ad48-2139cef37f0c"
+        "WebId": null
       },
       {
         "$type": "Bespoke.Sph.Domain.Member, domain.sph",
@@ -411,16 +511,16 @@
           "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.Sph.Domain.FieldPermission, domain.sph]], domain.sph",
           "$values": []
         },
-        "Name": "StatusPermohonan",
-        "TypeName": "System.String, mscorlib",
-        "IsNullable": true,
+        "Name": "COBiodataID",
+        "TypeName": "System.Int32, mscorlib",
+        "IsNullable": false,
         "IsNotIndexed": false,
         "IsAnalyzed": false,
-        "IsFilterable": false,
+        "IsFilterable": true,
         "IsExcludeInAll": false,
         "Boost": 0,
         "DefaultValue": null,
-        "WebId": "8a3f7293-5e79-4907-9cc7-330069ae6c9c"
+        "WebId": null
       },
       {
         "$type": "Bespoke.Sph.Domain.Member, domain.sph",
@@ -433,104 +533,16 @@
           "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.Sph.Domain.FieldPermission, domain.sph]], domain.sph",
           "$values": []
         },
-        "Name": "Responden",
-        "TypeName": "System.String, mscorlib",
-        "IsNullable": false,
-        "IsNotIndexed": false,
-        "IsAnalyzed": false,
-        "IsFilterable": false,
-        "IsExcludeInAll": false,
-        "Boost": 0,
-        "DefaultValue": null,
-        "WebId": "6eb42115-a2cb-4406-f75c-d8522ff4f53e"
-      },
-      {
-        "$type": "Bespoke.Sph.Domain.Member, domain.sph",
-        "FullName": "PermohonanNo",
-        "MemberCollection": {
-          "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.Sph.Domain.Member, domain.sph]], domain.sph",
-          "$values": []
-        },
-        "FieldPermissionCollection": {
-          "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.Sph.Domain.FieldPermission, domain.sph]], domain.sph",
-          "$values": []
-        },
-        "Name": "PermohonanNo",
-        "TypeName": "System.String, mscorlib",
-        "IsNullable": false,
+        "Name": "COID",
+        "TypeName": "System.Int32, mscorlib",
+        "IsNullable": true,
         "IsNotIndexed": false,
         "IsAnalyzed": false,
         "IsFilterable": true,
         "IsExcludeInAll": false,
         "Boost": 0,
         "DefaultValue": null,
-        "WebId": "68f52612-1dd2-4562-d3bb-dbe071aa81c0"
-      },
-      {
-        "$type": "Bespoke.Sph.Domain.Member, domain.sph",
-        "FullName": "NamaJabatan",
-        "MemberCollection": {
-          "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.Sph.Domain.Member, domain.sph]], domain.sph",
-          "$values": []
-        },
-        "FieldPermissionCollection": {
-          "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.Sph.Domain.FieldPermission, domain.sph]], domain.sph",
-          "$values": []
-        },
-        "Name": "NamaJabatan",
-        "TypeName": "System.String, mscorlib",
-        "IsNullable": true,
-        "IsNotIndexed": false,
-        "IsAnalyzed": false,
-        "IsFilterable": true,
-        "IsExcludeInAll": false,
-        "Boost": 2,
-        "DefaultValue": null,
-        "WebId": "f0004027-2dd2-4a6b-e932-6c4ef3967829"
-      },
-      {
-        "$type": "Bespoke.Sph.Domain.Member, domain.sph",
-        "FullName": "NamaKementerian",
-        "MemberCollection": {
-          "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.Sph.Domain.Member, domain.sph]], domain.sph",
-          "$values": []
-        },
-        "FieldPermissionCollection": {
-          "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.Sph.Domain.FieldPermission, domain.sph]], domain.sph",
-          "$values": []
-        },
-        "Name": "NamaKementerian",
-        "TypeName": "System.String, mscorlib",
-        "IsNullable": true,
-        "IsNotIndexed": false,
-        "IsAnalyzed": false,
-        "IsFilterable": true,
-        "IsExcludeInAll": false,
-        "Boost": 2,
-        "DefaultValue": null,
-        "WebId": "39ff34c2-b601-4612-f6cd-edcd59cd1acd"
-      },
-      {
-        "$type": "Bespoke.Sph.Domain.Member, domain.sph",
-        "FullName": "Penyelaras",
-        "MemberCollection": {
-          "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.Sph.Domain.Member, domain.sph]], domain.sph",
-          "$values": []
-        },
-        "FieldPermissionCollection": {
-          "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.Sph.Domain.FieldPermission, domain.sph]], domain.sph",
-          "$values": []
-        },
-        "Name": "Penyelaras",
-        "TypeName": "System.String, mscorlib",
-        "IsNullable": true,
-        "IsNotIndexed": false,
-        "IsAnalyzed": false,
-        "IsFilterable": true,
-        "IsExcludeInAll": false,
-        "Boost": 3,
-        "DefaultValue": null,
-        "WebId": "b3f4d5b1-a9cf-484d-9caa-8d5bbbf07cf9"
+        "WebId": null
       },
       {
         "$type": "Bespoke.Sph.Domain.Member, domain.sph",
@@ -543,190 +555,199 @@
           "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.Sph.Domain.FieldPermission, domain.sph]], domain.sph",
           "$values": []
         },
-        "Name": "Bahagian",
+        "Name": "CONm",
         "TypeName": "System.String, mscorlib",
         "IsNullable": true,
         "IsNotIndexed": false,
         "IsAnalyzed": false,
-        "IsFilterable": false,
+        "IsFilterable": true,
         "IsExcludeInAll": false,
-        "Boost": 2,
+        "Boost": 0,
         "DefaultValue": null,
-        "WebId": "0690b2f5-bcd7-41c8-f5ae-cfe1ad0bce9a"
+        "WebId": null
+      },
+      {
+        "$type": "Bespoke.Sph.Domain.Member, domain.sph",
+        "FullName": null,
+        "MemberCollection": {
+          "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.Sph.Domain.Member, domain.sph]], domain.sph",
+          "$values": []
+        },
+        "FieldPermissionCollection": {
+          "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.Sph.Domain.FieldPermission, domain.sph]], domain.sph",
+          "$values": []
+        },
+        "Name": "COEmail",
+        "TypeName": "System.String, mscorlib",
+        "IsNullable": true,
+        "IsNotIndexed": false,
+        "IsAnalyzed": false,
+        "IsFilterable": true,
+        "IsExcludeInAll": false,
+        "Boost": 0,
+        "DefaultValue": null,
+        "WebId": null
+      },
+      {
+        "$type": "Bespoke.Sph.Domain.Member, domain.sph",
+        "FullName": null,
+        "MemberCollection": {
+          "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.Sph.Domain.Member, domain.sph]], domain.sph",
+          "$values": []
+        },
+        "FieldPermissionCollection": {
+          "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.Sph.Domain.FieldPermission, domain.sph]], domain.sph",
+          "$values": []
+        },
+        "Name": "COOldID",
+        "TypeName": "System.String, mscorlib",
+        "IsNullable": true,
+        "IsNotIndexed": false,
+        "IsAnalyzed": false,
+        "IsFilterable": true,
+        "IsExcludeInAll": false,
+        "Boost": 0,
+        "DefaultValue": null,
+        "WebId": null
+      },
+      {
+        "$type": "Bespoke.Sph.Domain.Member, domain.sph",
+        "FullName": null,
+        "MemberCollection": {
+          "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.Sph.Domain.Member, domain.sph]], domain.sph",
+          "$values": []
+        },
+        "FieldPermissionCollection": {
+          "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.Sph.Domain.FieldPermission, domain.sph]], domain.sph",
+          "$values": []
+        },
+        "Name": "COBirthCertNo",
+        "TypeName": "System.String, mscorlib",
+        "IsNullable": true,
+        "IsNotIndexed": false,
+        "IsAnalyzed": false,
+        "IsFilterable": true,
+        "IsExcludeInAll": false,
+        "Boost": 0,
+        "DefaultValue": null,
+        "WebId": null
+      },
+      {
+        "$type": "Bespoke.Sph.Domain.Member, domain.sph",
+        "FullName": null,
+        "MemberCollection": {
+          "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.Sph.Domain.Member, domain.sph]], domain.sph",
+          "$values": []
+        },
+        "FieldPermissionCollection": {
+          "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.Sph.Domain.FieldPermission, domain.sph]], domain.sph",
+          "$values": []
+        },
+        "Name": "COHPhoneNo",
+        "TypeName": "System.String, mscorlib",
+        "IsNullable": true,
+        "IsNotIndexed": false,
+        "IsAnalyzed": false,
+        "IsFilterable": true,
+        "IsExcludeInAll": false,
+        "Boost": 0,
+        "DefaultValue": null,
+        "WebId": null
+      },
+      {
+        "$type": "Bespoke.Sph.Domain.Member, domain.sph",
+        "FullName": null,
+        "MemberCollection": {
+          "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.Sph.Domain.Member, domain.sph]], domain.sph",
+          "$values": []
+        },
+        "FieldPermissionCollection": {
+          "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.Sph.Domain.FieldPermission, domain.sph]], domain.sph",
+          "$values": []
+        },
+        "Name": "COOffTelNo",
+        "TypeName": "System.String, mscorlib",
+        "IsNullable": true,
+        "IsNotIndexed": false,
+        "IsAnalyzed": false,
+        "IsFilterable": true,
+        "IsExcludeInAll": false,
+        "Boost": 0,
+        "DefaultValue": null,
+        "WebId": null
+      },
+      {
+        "$type": "Bespoke.Sph.Domain.Member, domain.sph",
+        "FullName": null,
+        "MemberCollection": {
+          "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.Sph.Domain.Member, domain.sph]], domain.sph",
+          "$values": []
+        },
+        "FieldPermissionCollection": {
+          "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.Sph.Domain.FieldPermission, domain.sph]], domain.sph",
+          "$values": []
+        },
+        "Name": "COOffTelNoExtn",
+        "TypeName": "System.String, mscorlib",
+        "IsNullable": true,
+        "IsNotIndexed": false,
+        "IsAnalyzed": false,
+        "IsFilterable": true,
+        "IsExcludeInAll": false,
+        "Boost": 0,
+        "DefaultValue": null,
+        "WebId": null
+      },
+      {
+        "$type": "Bespoke.Sph.Domain.Member, domain.sph",
+        "FullName": null,
+        "MemberCollection": {
+          "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.Sph.Domain.Member, domain.sph]], domain.sph",
+          "$values": []
+        },
+        "FieldPermissionCollection": {
+          "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.Sph.Domain.FieldPermission, domain.sph]], domain.sph",
+          "$values": []
+        },
+        "Name": "APCrtdBy",
+        "TypeName": "System.String, mscorlib",
+        "IsNullable": true,
+        "IsNotIndexed": false,
+        "IsAnalyzed": false,
+        "IsFilterable": true,
+        "IsExcludeInAll": false,
+        "Boost": 0,
+        "DefaultValue": null,
+        "WebId": null
       }
     ]
   },
-  "BusinessRuleCollection": {
-    "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.Sph.Domain.BusinessRule, domain.sph]], domain.sph",
-    "$values": []
-  },
-  "EntityOperationCollection": {
-    "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.Sph.Domain.EntityOperation, domain.sph]], domain.sph",
-    "$values": [
-      {
-        "$type": "Bespoke.Sph.Domain.EntityOperation, domain.sph",
-        "EntityPermissionCollection": {
-          "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.Sph.Domain.EntityPermission, domain.sph]], domain.sph",
-          "$values": []
-        },
-        "Rules": {
-          "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[System.String, mscorlib]], domain.sph",
-          "$values": []
-        },
-        "Permissions": {
-          "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[System.String, mscorlib]], domain.sph",
-          "$values": [
-            "PengurusanPermohonanJabatan"
-          ]
-        },
-        "SetterActionChildCollection": {
-          "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.Sph.Domain.SetterActionChild, domain.sph]], domain.sph",
-          "$values": [
-            {
-              "$type": "Bespoke.Sph.Domain.SetterActionChild, domain.sph",
-              "Path": "StatusPermohonan",
-              "Field": {
-                "$type": "Bespoke.Sph.Domain.ConstantField, domain.sph",
-                "TypeName": "System.String, mscorlib",
-                "Value": "BARU",
-                "Name": "BARU",
-                "Note": "",
-                "WebId": "df155fcc-5065-4aa6-f08d-54ef252e90b1"
-              },
-              "WebId": "761529c5-1594-4677-ed18-e2ccc4a70f03"
-            },
-            {
-              "$type": "Bespoke.Sph.Domain.SetterActionChild, domain.sph",
-              "Path": "PermohonanNo",
-              "Field": {
-                "$type": "Bespoke.Sph.Domain.FunctionField, domain.sph",
-                "CodeNamespace": "ffb10eff67",
-                "Script": "return string.Format(\"{0}/{1}/{2}/{3}\", item.NamaProgram, item.BilProgram, item.SiriProgram, item.TahunProgram);",
-                "Name": "Nama Program + Siri + Bil + Tahun",
-                "Note": "",
-                "WebId": "b10eff67-e6ff-4867-98f5-592ac5ca65a8"
-              },
-              "WebId": "842b2a2e-d7d0-4a44-ccc3-7ee32204b772"
-            },
-            {
-              "$type": "Bespoke.Sph.Domain.SetterActionChild, domain.sph",
-              "Path": "TarikhTamat",
-              "Field": {
-                "$type": "Bespoke.Sph.Domain.FunctionField, domain.sph",
-                "CodeNamespace": "ffeaa59aa7",
-                "Script": "item.TarikhTamat.Date.AddHours(23).AddMinutes(50)",
-                "Name": "Tambah jam",
-                "Note": "",
-                "WebId": "eaa59aa7-e5ff-4850-a8ec-7c4dc31ab6df"
-              },
-              "WebId": "f2cf42ff-fdb3-415c-a677-d7cb54515b48"
-            }
-          ]
-        },
-        "Name": "PermohonanDariPenyelaras",
-        "SuccessMessage": "Permohonan Berjaya Dihantar",
-        "ShowSuccessMessage": true,
-        "NavigateSuccessUrl": "#penyelaras-home",
-        "SuccessCommand": "",
-        "WebId": "bbf6a1ee-6bd9-4414-9d17-c6edf9959661"
-      },
-      {
-        "$type": "Bespoke.Sph.Domain.EntityOperation, domain.sph",
-        "EntityPermissionCollection": {
-          "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.Sph.Domain.EntityPermission, domain.sph]], domain.sph",
-          "$values": []
-        },
-        "Rules": {
-          "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[System.String, mscorlib]], domain.sph",
-          "$values": []
-        },
-        "Permissions": {
-          "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[System.String, mscorlib]], domain.sph",
-          "$values": [
-            "PengurusanPermohonan"
-          ]
-        },
-        "SetterActionChildCollection": {
-          "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.Sph.Domain.SetterActionChild, domain.sph]], domain.sph",
-          "$values": [
-            {
-              "$type": "Bespoke.Sph.Domain.SetterActionChild, domain.sph",
-              "Path": "PermohonanNo",
-              "Field": {
-                "$type": "Bespoke.Sph.Domain.FunctionField, domain.sph",
-                "CodeNamespace": "ffa2bd79ae",
-                "Script": "return string.Format(\"{0}/{1}/{2}/{3}\", item.NamaProgram, item.BilProgram, item.SiriProgram, item.TahunProgram);",
-                "Name": "Nama + Siri + Bil + Tahun",
-                "Note": "",
-                "WebId": "a2bd79ae-1bce-4eee-e87e-10cbcdee3542"
-              },
-              "WebId": "4a3ffe52-23b7-4528-cc5f-b81857b9db7c"
-            }
-          ]
-        },
-        "Name": "UrusetiaProcessPermohonanDariPenyelaras",
-        "SuccessMessage": "Permohonan program sudah dikemaskini",
-        "ShowSuccessMessage": true,
-        "NavigateSuccessUrl": "#permohonan-baru-urusetia",
-        "SuccessCommand": "",
-        "WebId": "e1557128-3b90-4bf5-d4ba-c975479f0e73"
-      },
-      {
-        "$type": "Bespoke.Sph.Domain.EntityOperation, domain.sph",
-        "EntityPermissionCollection": {
-          "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.Sph.Domain.EntityPermission, domain.sph]], domain.sph",
-          "$values": []
-        },
-        "Rules": {
-          "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[System.String, mscorlib]], domain.sph",
-          "$values": []
-        },
-        "Permissions": {
-          "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[System.String, mscorlib]], domain.sph",
-          "$values": [
-            "PengurusanPermohonanJabatan",
-            "PengurusanPermohonan"
-          ]
-        },
-        "SetterActionChildCollection": {
-          "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.Sph.Domain.SetterActionChild, domain.sph]], domain.sph",
-          "$values": []
-        },
-        "Name": "TukarResponden",
-        "SuccessMessage": "Rekod anda sudah berjaya di simpan",
-        "ShowSuccessMessage": true,
-        "NavigateSuccessUrl": "#permohonan-penyelaras-lulus",
-        "SuccessCommand": "",
-        "WebId": "7dfbd405-5242-439e-c059-bd941a513ffb"
-      }
-    ]
-  },
-  "AuthorizedRoleCollection": {
-    "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[System.String, mscorlib]], domain.sph",
-    "$values": []
-  },
-  "Performer": {
-    "$type": "Bespoke.Sph.Domain.Performer, domain.sph",
-    "UserProperty": "Roles",
-    "Value": "PengurusanPermohonan",
-    "IsPublic": false,
+  "PrimaryKey": {
+    "$type": "Bespoke.Sph.Domain.Member, domain.sph",
+    "FullName": null,
+    "MemberCollection": {
+      "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.Sph.Domain.Member, domain.sph]], domain.sph",
+      "$values": []
+    },
+    "FieldPermissionCollection": {
+      "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.Sph.Domain.FieldPermission, domain.sph]], domain.sph",
+      "$values": []
+    },
+    "Name": "COBiodataID",
+    "TypeName": "System.Int32, mscorlib",
+    "IsNullable": false,
+    "IsNotIndexed": false,
+    "IsAnalyzed": false,
+    "IsFilterable": true,
+    "IsExcludeInAll": false,
+    "Boost": 0,
+    "DefaultValue": null,
     "WebId": null
   },
-  "Name": "Permohonan",
-  "Plural": "Permohonan Program",
-  "IconStoreId": "8d875fdf-1ebf-417a-997c-8a8b005051ef",
-  "IconClass": "fa fa-share-square-o",
-  "RecordName": "PermohonanNo",
-  "IsPublished": true,
-  "IsShowOnNavigationBar": true,
-  "TreatDataAsSource": false,
-  "DashboardTemplate": "Dashboard Standard",
-  "StoreInDatabase": null,
-  "StoreInElasticsearch": null,
-  "CreatedBy": "admin",
-  "Id": "permohonan",
-  "CreatedDate": "2015-06-05T10:45:39.9585024+08:00",
-  "ChangedBy": "admin",
-  "ChangedDate": "2015-09-08T08:31:25.0655535+08:00",
-  "WebId": "5aff113b-31e8-4f89-b7eb-d089e79bd899"
+  "PrimaryKeyCollection": {
+    "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[System.String, mscorlib]], domain.sph",
+    "$values": [
+      "COBiodataID"
+    ]
+  }
 }

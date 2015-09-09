@@ -18,15 +18,8 @@ define(["services/datacontext", "services/logger", "plugins/router", "services/c
                         },
                         {
                             "range": {
-                                "TarikhTamat": {
-                                   "from": today
-                                }
-                             }
-                        },
-                        {
-                            "range": {
                                 "TarikhMula": {
-                                   "to": today
+                                   "from": today
                                 }
                              }
                         }
@@ -40,13 +33,13 @@ define(["services/datacontext", "services/logger", "plugins/router", "services/c
             },
       permohonanLulusList = ko.observableArray(),
       activate = function(entity){
-            
+
             return true;
 
 
         },
         attached  = function(view){
-        
+
         };
 
     return {

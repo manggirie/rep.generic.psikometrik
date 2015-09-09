@@ -12,6 +12,20 @@ define(["services/datacontext", objectbuilders.config, objectbuilders.app], func
 
                       });
 
+                }else{
+                    var param = JSON.stringify({icno : ic});
+                    context.post(param,"hrmis/GetUserDetailsByIcNo").done(function(result){
+                        if(result.data)
+                        {
+                            pengguna().Nama(result.data.Nama);
+                        pengguna().Emel(result.data.Emel);
+                         pengguna().StatusPerkahwinan(result.data.StatusPerkahwinan);
+                        pengguna().Telefon(result.data.Telefon);
+                        pengguna().Jantina(result.data.Jantina);
+                        pengguna().Gred(result.data.Gred);
+                        }
+                        
+                    });
                 }
             });
 

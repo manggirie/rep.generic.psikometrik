@@ -1,5 +1,5 @@
-define(["services/datacontext", objectbuilders.app, objectbuilders.config, objectbuilders.router, "services/duration-section", "services/duration-bahagian"],
-    function (context, app, config, router, sectionDuration, bahagianDuration) {
+define(["services/datacontext", objectbuilders.app, objectbuilders.config, objectbuilders.router, "services/duration-section"],
+    function (context, app, config, router, sectionDuration) {
         var sesiUjian = ko.observable(),
             ujian = ko.observable(),
             pendaftaran = ko.observable(),
@@ -19,12 +19,19 @@ define(["services/datacontext", objectbuilders.app, objectbuilders.config, objec
                 if (section) {
                     questions = section.questions;
                 } else {
-                    sections.push({
+
+                    var seksyen = {
                         section: ko.unwrap(v.SeksyenSoalan),
                         questions: questions,
                         answered: ko.observable(0),
                         header: ko.observable()
+                    };
+                    seksyen.visible = ko.computed(function () {
+                        var all = ko.unwrap(seksyen.answered) >= ko.unwrap(seksyen.questions).length;
+                        if (all && ko.unwrap(hideAnswered)) return false;
+                        return typeof currentSection() === "undefined" || currentSection() === ko.unwrap(seksyen.section);
                     });
+                    sections.push(seksyen);
                 }
 
                 var answer = {
