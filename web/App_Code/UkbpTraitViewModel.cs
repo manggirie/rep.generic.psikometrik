@@ -541,48 +541,8 @@ namespace web.sph.App_Code
             html.AppendLine("</table>");
 
             html.AppendLine("<div><em>Nota: % = Percentile</em></di>");
-            html.AppendLine("<div style=\"height:40px\"></div>");
-            html.AppendLine("<table><thead>");
-            html.AppendLine("       <tr>");
-            html.AppendLine("           <th>Trait dari soalan</th>");
-            html.AppendLine("           <th>Trait dari percentile norms</th>");
-            html.AppendLine("       </tr>");
-            html.AppendLine("   </thead>");
-            html.AppendLine("   <tbody>");
-            html.AppendLine("       <tr>");
-            html.AppendLine("           <td>KTG</td>");
-            html.AppendLine("           <td>A, NERVOUSE</td>");
-            html.AppendLine("       </tr>");
-            html.AppendLine("       <tr>");
-            html.AppendLine("           <td>KCN</td>");
-            html.AppendLine("           <td>B, DEPRESSIVE</td>");
-            html.AppendLine("       </tr>");
-            html.AppendLine("       <tr>");
-            html.AppendLine("           <td>AKS</td>");
-            html.AppendLine("           <td>C, AKTIF SOCIAL</td>");
-            html.AppendLine("       </tr>");
-            html.AppendLine("       <tr>");
-            html.AppendLine("           <td>LPN</td>");
-            html.AppendLine("           <td>D, EXPRESSIVE-RESPONSIVE</td>");
-            html.AppendLine("       </tr>");
-            html.AppendLine("       <tr>");
-            html.AppendLine("           <td>SIM</td>");
-            html.AppendLine("           <td>E, SIMPATHETIC</td>");
-            html.AppendLine("       </tr>");
-            html.AppendLine("       <tr>");
-            html.AppendLine("           <td>RAS</td>");
-            html.AppendLine("           <td>F, SUBJECTIVE</td>");
-            html.AppendLine("       </tr>");
-            html.AppendLine("       <tr>");
-            html.AppendLine("           <td>ASF</td>");
-            html.AppendLine("           <td>G,DOMINANT</td>");
-            html.AppendLine("       </tr>");
-            html.AppendLine("       <tr>");
-            html.AppendLine("           <td>TOL</td>");
-            html.AppendLine("           <td>H, HOSTILE</td>");
-            html.AppendLine("       </tr>");
-            html.AppendLine("   </tbody>");
-            html.AppendLine("</table>");
+          
+
             return html.ToString();
         }
     }
