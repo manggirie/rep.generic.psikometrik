@@ -24,22 +24,13 @@ Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "web", "web\", "{06BAB0C7-03
 		SlnRelativePath = "web\"
 	EndProjectSection
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Hrmis.Adapter", "sources\Hrmis.Adapter\Hrmis.Adapter.csproj", "{3D0947D1-E8EC-4651-ACD6-3123F21BD0D5}"
-EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
-		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{06BAB0C7-0303-4119-8ECA-7B8A10BFB698}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{06BAB0C7-0303-4119-8ECA-7B8A10BFB698}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{06BAB0C7-0303-4119-8ECA-7B8A10BFB698}.Release|Any CPU.ActiveCfg = Debug|Any CPU
-		{06BAB0C7-0303-4119-8ECA-7B8A10BFB698}.Release|Any CPU.Build.0 = Debug|Any CPU
-		{3D0947D1-E8EC-4651-ACD6-3123F21BD0D5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{3D0947D1-E8EC-4651-ACD6-3123F21BD0D5}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{3D0947D1-E8EC-4651-ACD6-3123F21BD0D5}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{3D0947D1-E8EC-4651-ACD6-3123F21BD0D5}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
