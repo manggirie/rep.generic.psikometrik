@@ -12,20 +12,45 @@ define(["services/datacontext", objectbuilders.config, objectbuilders.app], func
 
                       });
 
-                }else{
-                    var param = JSON.stringify({icno : ic});
-                    context.post(param,"hrmis/GetUserDetailsByIcNo").done(function(result){
-                        if(result.data)
-                        {
+                } else {
+                    var param = JSON.stringify({ icno: ic });
+                    context.post(param, "hrmis/GetUserDetailsByIcNo").done(function (result) {
+                        if (result.data) {
                             pengguna().Nama(result.data.Nama);
-                        pengguna().Emel(result.data.Emel);
-                         pengguna().StatusPerkahwinan(result.data.StatusPerkahwinan);
-                        pengguna().Telefon(result.data.Telefon);
-                        pengguna().Jantina(result.data.Jantina);
-                        pengguna().Gred(result.data.Gred);
+                            pengguna().Emel(result.data.Emel);
+                            pengguna().StatusPerkahwinan(result.data.StatusPerkahwinan);
+                            pengguna().Telefon(result.data.Telefon);
+                            pengguna().Jantina(result.data.Jantina);
+                            pengguna().Gred(result.data.Gred);
                         }
-                        
+
                     });
+                }
+            });
+
+        },
+        checkEmail = function (email) {
+            console.log(email);
+            var query = {
+                "filter": {
+                    "or": [
+                       {
+                           "term": {
+                               "Emel": email
+                           }
+                       },
+                       {
+                           "term": {
+                               "Emel2": email
+                           }
+                       }
+                    ]
+                }
+            }
+            context.searchAsync("Pengguna",query)
+            .done(function (result) {
+                if (result.rows > 0) {
+                    app.showMessage("Pengguna dengan emel " + email + " sudah wujud", "Sistem Ujian Psikometrik", ["OK"]);
                 }
             });
 
@@ -34,6 +59,8 @@ define(["services/datacontext", objectbuilders.config, objectbuilders.app], func
             pengguna(entity);
             if (ko.unwrap(entity.Id) === "0") {
                 entity.MyKad.subscribe(checkMyKad);
+                entity.Emel.subscribe(checkEmail);
+                entity.Emel2.subscribe(checkEmail);
             }
 
             return context.loadOneAsync("Pengguna", String.format("MyKad eq '{0}'", config.userName))
@@ -64,11 +91,10 @@ define(["services/datacontext", objectbuilders.config, objectbuilders.app], func
 
         },
         attached = function (view) {
-
             $("select.required").attr("required", "");
         },
         canExecuteSaveCommand = function () {
-            if (! pengguna()) return false;
+            if (!pengguna()) return false;
             return pengguna().IsPenyelaras() || pengguna().IsResponden();
         };
 
