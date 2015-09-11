@@ -18,7 +18,8 @@ namespace web.sph.App_Code
         {
             var vm = await GetIpTraitViewModelAsync(id);
             const string VIEW_NAME = "Trait-IP";
-            return Pdf(VIEW_NAME, vm);
+            // TODO : PDF
+            return View(VIEW_NAME, vm);
 
         }
         
