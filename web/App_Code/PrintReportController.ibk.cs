@@ -45,7 +45,7 @@ namespace web.sph.App_Code
 
 
             var viewName = "Trait-Ibk";
-            return Pdf(viewName, vm);
+            return View(viewName, vm);
         }
 
 

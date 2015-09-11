@@ -9,6 +9,7 @@ using System.Web;
 using Bespoke.epsikologi_ipurecommendation.Domain;
 using Bespoke.epsikologi_skoripu.Domain;
 using Bespoke.epsikologi_ipupercentilenorms.Domain;
+using Bespoke.epsikologi_pengguna.Domain;
 using Bespoke.epsikologi_permohonan.Domain;
 using Bespoke.epsikologi_sesiujian.Domain;
 using Bespoke.epsikologi_soalan.Domain;
@@ -25,11 +26,11 @@ namespace web.sph.App_Code
         public async Task<ActionResult> PrintSesiUjianTraitIpu(string id)
         {
             var context = new SphDataContext();
-            var sesi = await context.LoadOneAsync<Bespoke.epsikologi_sesiujian.Domain.SesiUjian>(x => x.Id == id);
-            var user = await context.LoadOneAsync<Bespoke.epsikologi_pengguna.Domain.Pengguna>(x => x.MyKad == sesi.MyKad);
+            var sesi = await context.LoadOneAsync<SesiUjian>(x => x.Id == id);
+            var user = await context.LoadOneAsync<Pengguna>(x => x.MyKad == sesi.MyKad);
 
-            var ujianTask = context.LoadOneAsync<Bespoke.epsikologi_ujian.Domain.Ujian>(x => x.Id == sesi.NamaUjian);
-            var permohonanTask = context.LoadOneAsync<Bespoke.epsikologi_permohonan.Domain.Permohonan>(x => x.PermohonanNo == sesi.NamaProgram);
+            var ujianTask = context.LoadOneAsync<Ujian>(x => x.Id == sesi.NamaUjian);
+            var permohonanTask = context.LoadOneAsync<Permohonan>(x => x.PermohonanNo == sesi.NamaProgram);
             await Task.WhenAll(ujianTask, permohonanTask);
 
 
@@ -89,6 +90,8 @@ namespace web.sph.App_Code
             vm.RecommendationJ = await context.LoadOneAsync<IpuRecommendation>(x => x.Tret == "J" && x.NilaiMin <= vm.J && vm.J <= x.NilaiMax);
 
 
+            return View("Trait-Ipu", vm);
+            /*
             return Pdf("Trait-Ipu", vm, "~/Views/PrintReport/_MasterPage.cshtml",
                 x => x
                 .Replace($"id=\"A{vm.SkorA}\"", $"id=\"A{vm.SkorA}\" class=\"tg-6wvf\"")
@@ -102,6 +105,7 @@ namespace web.sph.App_Code
                 .Replace($"id=\"I{vm.SkorI}\"", $"id=\"I{vm.SkorI}\" class=\"tg-6wvf\"")
                 .Replace($"id=\"J{vm.SkorJ}\"", $"id=\"J{vm.SkorJ}\" class=\"tg-6wvf\""));
 
+            */
         }
 
 
@@ -109,11 +113,11 @@ namespace web.sph.App_Code
         public async Task<ActionResult> PrintSesiUjianIndikatorIpu(string id)
         {
             var context = new SphDataContext();
-            var sesi = await context.LoadOneAsync<Bespoke.epsikologi_sesiujian.Domain.SesiUjian>(x => x.Id == id);
-            var user = await context.LoadOneAsync<Bespoke.epsikologi_pengguna.Domain.Pengguna>(x => x.MyKad == sesi.MyKad);
+            var sesi = await context.LoadOneAsync<SesiUjian>(x => x.Id == id);
+            var user = await context.LoadOneAsync<Pengguna>(x => x.MyKad == sesi.MyKad);
 
-            var ujianTask = context.LoadOneAsync<Bespoke.epsikologi_ujian.Domain.Ujian>(x => x.Id == sesi.NamaUjian);
-            var permohonanTask = context.LoadOneAsync<Bespoke.epsikologi_permohonan.Domain.Permohonan>(x => x.PermohonanNo == sesi.NamaProgram);
+            var ujianTask = context.LoadOneAsync<Ujian>(x => x.Id == sesi.NamaUjian);
+            var permohonanTask = context.LoadOneAsync<Permohonan>(x => x.PermohonanNo == sesi.NamaProgram);
             await Task.WhenAll(ujianTask, permohonanTask);
 
 
