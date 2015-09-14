@@ -13,7 +13,9 @@ namespace Hrmis.Adapter
     {
         public async Task<Pengguna> GetUserDetailsByIcNo(string icno)
         {
-            var sql = @"SELECT * FROM VCO WHERE ICNO = @IcNo";
+            var sql = @"SELECT  v.Race,v.Religion,v.MrtlStatus,v.ServGrpTitle,v.salgrd,b.COHPhoneNoRasmi,b.COEmail,b.CONm,v.Gender FROM VCO v 
+                        inner join tblprcobiodata b on v.coid = b.coid
+                        WHERE v.ICNO = @IcNo";
 
             using (var conn = new SqlConnection(this.ConnectionString))
             using (var cmd = new SqlCommand(sql,conn))
