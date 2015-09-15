@@ -142,7 +142,7 @@
     </div>
 
 
-    <div class="form-group" data-bind="visible:true">
+    <div class="form-group" data-bind="visible:ko.unwrap(Pekerjaan) === &#39;Pelajar&#39;">
         <label data-i18n="Tahap Pengajian" for="adf6cb29-b636-48d4-de1c-9899a58ce007" class="col-md-4">Tahap Pengajian</label>
         <div class="col-md-8">
             <select  data-bind="value: Pelajar().TahapPendidikan, enable :true" id="adf6cb29-b636-48d4-de1c-9899a58ce007" name="Pelajar.TahapPendidikan" class=" input-large form-control">

@@ -668,7 +668,7 @@
           "IsRequired": false,
           "Size": "input-large",
           "CssClass": "",
-          "Visible": "true",
+          "Visible": "ko.unwrap(Pekerjaan) === 'Pelajar'",
           "Enable": "true",
           "ElementId": "adf6cb29-b636-48d4-de1c-9899a58ce007",
           "HelpText": null,
@@ -2021,7 +2021,7 @@
   "CreatedBy": "admin",
   "Id": "tambah-pengguna",
   "CreatedDate": "2015-06-16T08:04:09.5205895+08:00",
-  "ChangedBy": "Admin",
-  "ChangedDate": "2015-09-15T13:59:58.8327046+08:00",
+  "ChangedBy": "admin",
+  "ChangedDate": "2015-09-15T14:39:57.6547046+08:00",
   "WebId": "4e32950c-7d95-4b44-983c-3c3e67811ded"
 }

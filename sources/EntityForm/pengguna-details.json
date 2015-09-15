@@ -504,7 +504,7 @@
           "IsRequired": false,
           "Size": "input-large",
           "CssClass": "",
-          "Visible": "true",
+          "Visible": "ko.unwrap(Pekerjaan) === 'Pelajar'",
           "Enable": "true",
           "ElementId": "2427a3e3-5ff3-4d8c-a090-5049e7634613",
           "HelpText": null,
@@ -1702,6 +1702,6 @@
   "Id": "pengguna-details",
   "CreatedDate": "2015-06-16T08:04:09.5330981+08:00",
   "ChangedBy": "admin",
-  "ChangedDate": "2015-09-15T13:26:02.9587046+08:00",
+  "ChangedDate": "2015-09-15T14:41:57.0447046+08:00",
   "WebId": "4e32950c-7d95-4b44-983c-3c3e67811ded"
 }

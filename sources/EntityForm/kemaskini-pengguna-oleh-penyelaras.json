@@ -1334,7 +1334,7 @@
           "IsRequired": false,
           "Size": "input-large",
           "CssClass": "",
-          "Visible": "true",
+          "Visible": "ko.unwrap(Pekerjaan) === 'Pelajar'",
           "Enable": "true",
           "ElementId": "01d863a8-6db6-4e9e-ef56-a9c6a76bc34f",
           "HelpText": null,
@@ -1685,7 +1685,7 @@
   "CreatedBy": "admin",
   "Id": "kemaskini-pengguna-oleh-penyelaras",
   "CreatedDate": "2015-06-16T08:04:09.5330981+08:00",
-  "ChangedBy": "Admin",
-  "ChangedDate": "2015-09-15T14:02:31.4077046+08:00",
+  "ChangedBy": "admin",
+  "ChangedDate": "2015-09-15T14:53:20.0917046+08:00",
   "WebId": "4e32950c-7d95-4b44-983c-3c3e67811ded"
 }
