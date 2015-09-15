@@ -66,50 +66,6 @@
             "WebId": null
           },
           "Name": null,
-          "Label": "* Nama",
-          "Tooltip": null,
-          "Path": "Nama",
-          "IsRequired": false,
-          "Size": "input-large",
-          "CssClass": "",
-          "Visible": "true",
-          "Enable": "true",
-          "ElementId": "fe3ab0be-a563-496a-8455-b9844518bbf7",
-          "HelpText": null,
-          "UseDisplayTemplate": false,
-          "ToolboxIconClass": null,
-          "IsUniqueName": false,
-          "LabelColLg": null,
-          "LabelColMd": null,
-          "LabelColSm": null,
-          "LabelColXs": null,
-          "InputColLg": null,
-          "InputColMd": null,
-          "InputColSm": null,
-          "InputColXs": null,
-          "WebId": "4d3e7b31-ab5b-462c-b3c1-f838b85cbd9f"
-        },
-        {
-          "$type": "Bespoke.Sph.Domain.TextBox, domain.sph",
-          "DefaultValue": null,
-          "AutoCompletionEntity": null,
-          "AutoCompletionField": null,
-          "AutoCompletionQuery": null,
-          "IsPathIsRequired": true,
-          "TypeName": "TextBox",
-          "FieldValidation": {
-            "$type": "Bespoke.Sph.Domain.FieldValidation, domain.sph",
-            "IsRequired": true,
-            "Pattern": null,
-            "Mode": "",
-            "Message": null,
-            "Min": null,
-            "Max": null,
-            "MinLength": null,
-            "MaxLength": null,
-            "WebId": null
-          },
-          "Name": null,
           "Label": "* My Kad",
           "Tooltip": null,
           "Path": "MyKad",
@@ -134,26 +90,64 @@
           "WebId": "353fd823-9784-4273-b2aa-85f6511bb935"
         },
         {
+          "$type": "Bespoke.Sph.Domain.TextBox, domain.sph",
+          "DefaultValue": null,
+          "AutoCompletionEntity": null,
+          "AutoCompletionField": null,
+          "AutoCompletionQuery": null,
+          "IsPathIsRequired": true,
+          "TypeName": "TextBox",
+          "FieldValidation": {
+            "$type": "Bespoke.Sph.Domain.FieldValidation, domain.sph",
+            "IsRequired": true,
+            "Pattern": null,
+            "Mode": "",
+            "Message": null,
+            "Min": null,
+            "Max": null,
+            "MinLength": null,
+            "MaxLength": null,
+            "WebId": null
+          },
+          "Name": null,
+          "Label": "* Nama",
+          "Tooltip": null,
+          "Path": "Nama",
+          "IsRequired": false,
+          "Size": "input-large",
+          "CssClass": "",
+          "Visible": "true",
+          "Enable": "true",
+          "ElementId": "fe3ab0be-a563-496a-8455-b9844518bbf7",
+          "HelpText": null,
+          "UseDisplayTemplate": false,
+          "ToolboxIconClass": null,
+          "IsUniqueName": false,
+          "LabelColLg": null,
+          "LabelColMd": null,
+          "LabelColSm": null,
+          "LabelColXs": null,
+          "InputColLg": null,
+          "InputColMd": null,
+          "InputColSm": null,
+          "InputColXs": null,
+          "WebId": "4d3e7b31-ab5b-462c-b3c1-f838b85cbd9f"
+        },
+        {
           "$type": "Bespoke.Sph.Domain.ComboBox, domain.sph",
           "ComboBoxItemCollection": {
             "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.Sph.Domain.ComboBoxItem, domain.sph]], domain.sph",
             "$values": [
               {
                 "$type": "Bespoke.Sph.Domain.ComboBoxItem, domain.sph",
-                "Caption": "[Sila Pilih]",
-                "Value": "",
-                "WebId": "13262120-55c0-48d1-dafb-a8d8b690fbbd"
-              },
-              {
-                "$type": "Bespoke.Sph.Domain.ComboBoxItem, domain.sph",
                 "Caption": "Lelaki",
-                "Value": "Lelaki",
+                "Value": "L",
                 "WebId": "939ac089-6c19-4595-cc00-a6072c074912"
               },
               {
                 "$type": "Bespoke.Sph.Domain.ComboBoxItem, domain.sph",
                 "Caption": "Perempuan",
-                "Value": "Perempuan",
+                "Value": "P",
                 "WebId": "727dd887-d4f3-43eb-ad02-dcb11366ebec"
               }
             ]
@@ -206,53 +200,13 @@
           "WebId": "5da3eb45-0f68-4176-9b8d-8fe6251328df"
         },
         {
-          "$type": "Bespoke.Sph.Domain.ComboBox, domain.sph",
-          "ComboBoxItemCollection": {
-            "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.Sph.Domain.ComboBoxItem, domain.sph]], domain.sph",
-            "$values": [
-              {
-                "$type": "Bespoke.Sph.Domain.ComboBoxItem, domain.sph",
-                "Caption": "Kurang 20 Tahun",
-                "Value": "< 20",
-                "WebId": "cb535547-6027-4e71-dd8e-82b6ef7ce094"
-              },
-              {
-                "$type": "Bespoke.Sph.Domain.ComboBoxItem, domain.sph",
-                "Caption": "20 - 29",
-                "Value": "20 - 29",
-                "WebId": "2ad8f407-ae2e-418e-f896-36de406283b6"
-              },
-              {
-                "$type": "Bespoke.Sph.Domain.ComboBoxItem, domain.sph",
-                "Caption": "30 - 39",
-                "Value": "30 - 39",
-                "WebId": "1130ce77-7610-4c59-f73d-ac1785a5993c"
-              },
-              {
-                "$type": "Bespoke.Sph.Domain.ComboBoxItem, domain.sph",
-                "Caption": "40 - 49",
-                "Value": "40 - 49",
-                "WebId": "d5862c31-5276-4351-c451-6a0e8f877f4e"
-              },
-              {
-                "$type": "Bespoke.Sph.Domain.ComboBoxItem, domain.sph",
-                "Caption": "Lebih 50 Tahun",
-                "Value": "> 50",
-                "WebId": "1f840226-13e2-45e8-8e7d-2678b2c51153"
-              }
-            ]
-          },
-          "ComboBoxLookup": {
-            "$type": "Bespoke.Sph.Domain.ComboBoxLookup, domain.sph",
-            "Entity": null,
-            "ValuePath": null,
-            "DisplayPath": null,
-            "Query": null,
-            "IsComputedQuery": false,
-            "WebId": null
-          },
+          "$type": "Bespoke.Sph.Domain.TextBox, domain.sph",
+          "DefaultValue": null,
+          "AutoCompletionEntity": null,
+          "AutoCompletionField": null,
+          "AutoCompletionQuery": null,
           "IsPathIsRequired": true,
-          "TypeName": "ComboBox",
+          "TypeName": "TextBox",
           "FieldValidation": {
             "$type": "Bespoke.Sph.Domain.FieldValidation, domain.sph",
             "IsRequired": false,
@@ -266,15 +220,15 @@
             "WebId": null
           },
           "Name": null,
-          "Label": "Kumpulan Umur",
+          "Label": "Umur",
           "Tooltip": null,
-          "Path": "KumpulanUmur",
+          "Path": "Umur",
           "IsRequired": false,
           "Size": "input-large",
           "CssClass": "",
           "Visible": "true",
           "Enable": "true",
-          "ElementId": "92661272-212a-4262-91fe-d466cfbad4ed",
+          "ElementId": "eec4b669-6d6b-4ee2-c85f-16307d93dea8",
           "HelpText": null,
           "UseDisplayTemplate": false,
           "ToolboxIconClass": null,
@@ -287,7 +241,7 @@
           "InputColMd": null,
           "InputColSm": null,
           "InputColXs": null,
-          "WebId": "b22d8ba3-188f-482d-a659-4c8f046ee151"
+          "WebId": "83b1223b-603b-47f5-f574-5757c8cbd53f"
         },
         {
           "$type": "Bespoke.Sph.Domain.ComboBox, domain.sph",
@@ -296,27 +250,39 @@
             "$values": [
               {
                 "$type": "Bespoke.Sph.Domain.ComboBoxItem, domain.sph",
-                "Caption": "Bujang",
-                "Value": "Bujang",
-                "WebId": "a7a915dd-850a-41be-91df-b457f6f0139e"
-              },
-              {
-                "$type": "Bespoke.Sph.Domain.ComboBoxItem, domain.sph",
-                "Caption": "Kahwin",
-                "Value": "Kahwin",
+                "Caption": "Belum Berkahwin",
+                "Value": "Belum Berkahwin",
                 "WebId": "7b3779fa-c647-4801-86a3-77b63d76d23d"
               },
               {
                 "$type": "Bespoke.Sph.Domain.ComboBoxItem, domain.sph",
-                "Caption": "Ibu Tunggal",
-                "Value": "Ibu Tunggal",
+                "Caption": "Berkahwin",
+                "Value": "Berkahwin",
                 "WebId": "19dd63f0-e65e-4b3d-a9e4-346f276872b0"
               },
               {
                 "$type": "Bespoke.Sph.Domain.ComboBoxItem, domain.sph",
-                "Caption": "Bapa Tunggal",
-                "Value": "Bapa Tunggal",
+                "Caption": "Balu",
+                "Value": "Balu",
                 "WebId": "5e11fa9b-c795-44c6-e32b-8fdeb2a137ac"
+              },
+              {
+                "$type": "Bespoke.Sph.Domain.ComboBoxItem, domain.sph",
+                "Caption": "Janda",
+                "Value": "Janda",
+                "WebId": "c74e382e-52f1-49ff-ec7c-6325b8d3b3aa"
+              },
+              {
+                "$type": "Bespoke.Sph.Domain.ComboBoxItem, domain.sph",
+                "Caption": "Duda",
+                "Value": "Duda",
+                "WebId": "9b2fce99-e378-4b36-a591-6b3e3a8e44d2"
+              },
+              {
+                "$type": "Bespoke.Sph.Domain.ComboBoxItem, domain.sph",
+                "Caption": "Tiada Maklumat",
+                "Value": "Tiada Maklumat",
+                "WebId": "490d8f17-d257-4761-c39f-8a316ddc3995"
               }
             ]
           },
@@ -416,43 +382,43 @@
                 "$type": "Bespoke.Sph.Domain.ComboBoxItem, domain.sph",
                 "Caption": "Kerajaan",
                 "Value": "Kerajaan",
-                "WebId": "afe87c5a-1670-42a7-f8ec-18ba49af6503"
+                "WebId": "6d967781-fb6c-49cc-f51d-203bf9a8a93d"
               },
               {
                 "$type": "Bespoke.Sph.Domain.ComboBoxItem, domain.sph",
                 "Caption": "Swasta",
                 "Value": "Swasta",
-                "WebId": "6d967781-fb6c-49cc-f51d-203bf9a8a93d"
+                "WebId": "06914c65-08ce-4c1c-b991-5a9af08c1e34"
               },
               {
                 "$type": "Bespoke.Sph.Domain.ComboBoxItem, domain.sph",
                 "Caption": "Pesara Kerajaan",
                 "Value": "Pesara Kerajaan",
-                "WebId": "06914c65-08ce-4c1c-b991-5a9af08c1e34"
+                "WebId": "cbb17bb0-a9eb-46b3-b062-fa53f7c41e00"
               },
               {
                 "$type": "Bespoke.Sph.Domain.ComboBoxItem, domain.sph",
                 "Caption": "Pesara Swasta",
                 "Value": "Pesara Swasta",
-                "WebId": "cbb17bb0-a9eb-46b3-b062-fa53f7c41e00"
+                "WebId": "3bb8aedd-7dd0-4610-d479-926dab13bfec"
               },
               {
                 "$type": "Bespoke.Sph.Domain.ComboBoxItem, domain.sph",
                 "Caption": "Bekerja Sendiri",
                 "Value": "Bekerja Sendiri",
-                "WebId": "3bb8aedd-7dd0-4610-d479-926dab13bfec"
+                "WebId": "ce8a31af-46aa-4ca6-b0a8-e4d8c03d964a"
               },
               {
                 "$type": "Bespoke.Sph.Domain.ComboBoxItem, domain.sph",
                 "Caption": "Pelajar",
                 "Value": "Pelajar",
-                "WebId": "ce8a31af-46aa-4ca6-b0a8-e4d8c03d964a"
+                "WebId": "611f7a99-9b7e-4b60-ffd9-78322b509188"
               },
               {
                 "$type": "Bespoke.Sph.Domain.ComboBoxItem, domain.sph",
                 "Caption": "Tiada Maklumat",
                 "Value": "Tiada Maklumat",
-                "WebId": "611f7a99-9b7e-4b60-ffd9-78322b509188"
+                "WebId": "688bca4a-5c48-4c4c-fddf-58198575da38"
               }
             ]
           },
@@ -512,31 +478,31 @@
                 "$type": "Bespoke.Sph.Domain.ComboBoxItem, domain.sph",
                 "Caption": "Badan Berkanun Persekutuan",
                 "Value": "BBP",
-                "WebId": "f6214733-c581-40e4-c022-975a4b397496"
+                "WebId": "55e2fc37-a8be-49af-bf11-60d6f31b9ca3"
               },
               {
                 "$type": "Bespoke.Sph.Domain.ComboBoxItem, domain.sph",
                 "Caption": "Badan Berkanun Negeri",
                 "Value": "BBN",
-                "WebId": "55e2fc37-a8be-49af-bf11-60d6f31b9ca3"
+                "WebId": "d393f975-8059-44a9-ed22-243c5f3d1596"
               },
               {
                 "$type": "Bespoke.Sph.Domain.ComboBoxItem, domain.sph",
                 "Caption": "Perkhidmatan Awam Persekutuan",
                 "Value": "PAP",
-                "WebId": "d393f975-8059-44a9-ed22-243c5f3d1596"
+                "WebId": "e3ce8485-976e-44f1-8da8-a34e201d6bd2"
               },
               {
                 "$type": "Bespoke.Sph.Domain.ComboBoxItem, domain.sph",
                 "Caption": "Perkhidmatan Awam Negeri",
                 "Value": "PAN",
-                "WebId": "e3ce8485-976e-44f1-8da8-a34e201d6bd2"
+                "WebId": "7180ea4f-24ae-4e8f-975d-4a0aa61fafa1"
               },
               {
                 "$type": "Bespoke.Sph.Domain.ComboBoxItem, domain.sph",
                 "Caption": "Pihak Berkuasa Tempatan",
                 "Value": "PBT",
-                "WebId": "7180ea4f-24ae-4e8f-975d-4a0aa61fafa1"
+                "WebId": "7b8c360c-3d3b-4e78-e100-f3266c1328ef"
               }
             ]
           },
@@ -594,27 +560,39 @@
             "$values": [
               {
                 "$type": "Bespoke.Sph.Domain.ComboBoxItem, domain.sph",
-                "Caption": "Pengurusan Tertinggi",
-                "Value": "Pengurusan Tertinggi",
-                "WebId": "7a7a6894-7384-4b77-be23-a034bacec3ac"
-              },
-              {
-                "$type": "Bespoke.Sph.Domain.ComboBoxItem, domain.sph",
-                "Caption": "Pengurusan Profesional",
-                "Value": "Pengurusan Profesional",
+                "Caption": "Kumpulan JKK-D",
+                "Value": "Kumpulan JKK-D",
                 "WebId": "b32a3cdd-0a30-49ed-e17c-8c3c2cac8b77"
               },
               {
                 "$type": "Bespoke.Sph.Domain.ComboBoxItem, domain.sph",
-                "Caption": "Perlaksana",
-                "Value": "Perlaksana",
+                "Caption": "Kumpulan Pengurusan Tertinggi",
+                "Value": "Kumpulan Pengurusan Tertinggi",
                 "WebId": "e4c58ab8-860f-4151-f9f5-51cf94088d15"
               },
               {
                 "$type": "Bespoke.Sph.Domain.ComboBoxItem, domain.sph",
-                "Caption": "Bersepadu",
-                "Value": "Bersepadu",
+                "Caption": "Kumpulan Pengurusan dan Profesional",
+                "Value": "Kumpulan Pengurusan dan Profesional",
                 "WebId": "4e119ef5-e409-48f1-d176-4511436aa48e"
+              },
+              {
+                "$type": "Bespoke.Sph.Domain.ComboBoxItem, domain.sph",
+                "Caption": "Kumpulan Skim Perkhidmatan Bersepadu",
+                "Value": "Kumpulan Skim Perkhidmatan Bersepadu",
+                "WebId": "dde14f86-325d-4356-d394-cd4fdac35b76"
+              },
+              {
+                "$type": "Bespoke.Sph.Domain.ComboBoxItem, domain.sph",
+                "Caption": "Kumpulan Sokongan",
+                "Value": "Kumpulan Sokongan",
+                "WebId": "4f43c69d-a790-4c78-bb79-c0eee7eafc80"
+              },
+              {
+                "$type": "Bespoke.Sph.Domain.ComboBoxItem, domain.sph",
+                "Caption": "Tiada Kumpulan Perkhidmatan",
+                "Value": "Tiada Kumpulan Perkhidmatan",
+                "WebId": "e21dcce8-b47e-47c7-a949-39d306f5604d"
               }
             ]
           },
@@ -672,12 +650,6 @@
             "$values": [
               {
                 "$type": "Bespoke.Sph.Domain.ComboBoxItem, domain.sph",
-                "Caption": "[Sila Pilih]",
-                "Value": "",
-                "WebId": "de3b8ea9-da13-419e-e2e5-f5a3eba29e6e"
-              },
-              {
-                "$type": "Bespoke.Sph.Domain.ComboBoxItem, domain.sph",
                 "Caption": "A",
                 "Value": "A",
                 "WebId": "d3a7c60c-69da-45e1-b4f8-3533b85eccb7"
@@ -696,50 +668,50 @@
               },
               {
                 "$type": "Bespoke.Sph.Domain.ComboBoxItem, domain.sph",
-                "Caption": "D",
-                "Value": "D",
+                "Caption": "DD",
+                "Value": "DD",
                 "WebId": "1a7fed7e-6f91-48c3-d8d5-23f527d72ed0"
               },
               {
                 "$type": "Bespoke.Sph.Domain.ComboBoxItem, domain.sph",
-                "Caption": "E",
-                "Value": "E",
+                "Caption": "DG",
+                "Value": "DG",
                 "WebId": "b3fbcd93-912d-485e-cc01-bd7111521c3b"
               },
               {
                 "$type": "Bespoke.Sph.Domain.ComboBoxItem, domain.sph",
-                "Caption": "F",
-                "Value": "F",
+                "Caption": "DGA",
+                "Value": "DGA",
                 "WebId": "b3799d22-cf4e-4c1a-eecb-5647479557fd"
               },
               {
                 "$type": "Bespoke.Sph.Domain.ComboBoxItem, domain.sph",
-                "Caption": "G",
-                "Value": "G",
+                "Caption": "DH",
+                "Value": "DH",
                 "WebId": "806c149a-8d5b-4346-ed3d-353cdde4fc18"
               },
               {
                 "$type": "Bespoke.Sph.Domain.ComboBoxItem, domain.sph",
-                "Caption": "H",
-                "Value": "H",
+                "Caption": "DM",
+                "Value": "DM",
                 "WebId": "b57bbe4d-4fa3-4ddc-eab2-af12e9e14447"
               },
               {
                 "$type": "Bespoke.Sph.Domain.ComboBoxItem, domain.sph",
-                "Caption": "J",
-                "Value": "J",
+                "Caption": "DS",
+                "Value": "DS",
                 "WebId": "3160da27-b871-4772-f760-5b827b299500"
               },
               {
                 "$type": "Bespoke.Sph.Domain.ComboBoxItem, domain.sph",
-                "Caption": "K",
-                "Value": "K",
+                "Caption": "DU",
+                "Value": "DU",
                 "WebId": "c0813619-3a5c-4a3d-91ea-14bbac49598c"
               },
               {
                 "$type": "Bespoke.Sph.Domain.ComboBoxItem, domain.sph",
-                "Caption": "L",
-                "Value": "L",
+                "Caption": "DUG",
+                "Value": "DUG",
                 "WebId": "fce6a271-e810-455c-a9dc-6c2aa46f0545"
               },
               {
@@ -750,51 +722,165 @@
               },
               {
                 "$type": "Bespoke.Sph.Domain.ComboBoxItem, domain.sph",
+                "Caption": "E",
+                "Value": "E",
+                "WebId": "56264b87-3544-429f-a1bf-e5f8b4abe5a8"
+              },
+              {
+                "$type": "Bespoke.Sph.Domain.ComboBoxItem, domain.sph",
+                "Caption": "F",
+                "Value": "F",
+                "WebId": "795c25f7-1cf9-42e5-b85d-14474474dcd2"
+              },
+              {
+                "$type": "Bespoke.Sph.Domain.ComboBoxItem, domain.sph",
+                "Caption": "FT",
+                "Value": "FT",
+                "WebId": "b6f9f2a9-a841-406e-86cd-618924f7dfc0"
+              },
+              {
+                "$type": "Bespoke.Sph.Domain.ComboBoxItem, domain.sph",
+                "Caption": "G",
+                "Value": "G",
+                "WebId": "7afc5443-76c2-4699-eb5c-2e517ba58344"
+              },
+              {
+                "$type": "Bespoke.Sph.Domain.ComboBoxItem, domain.sph",
+                "Caption": "J",
+                "Value": "J",
+                "WebId": "f860637c-1934-44d0-e654-cc27de50dda6"
+              },
+              {
+                "$type": "Bespoke.Sph.Domain.ComboBoxItem, domain.sph",
+                "Caption": "KB",
+                "Value": "KB",
+                "WebId": "1d9cfab7-a634-43da-ddaa-403119070913"
+              },
+              {
+                "$type": "Bespoke.Sph.Domain.ComboBoxItem, domain.sph",
+                "Caption": "KJ",
+                "Value": "KJ",
+                "WebId": "ed87acb4-0e19-4d6b-d3af-31103ba8cf16"
+              },
+              {
+                "$type": "Bespoke.Sph.Domain.ComboBoxItem, domain.sph",
+                "Caption": "KP",
+                "Value": "KP",
+                "WebId": "11231380-4184-4dfe-9ac3-82c417fdd923"
+              },
+              {
+                "$type": "Bespoke.Sph.Domain.ComboBoxItem, domain.sph",
+                "Caption": "KR",
+                "Value": "KR",
+                "WebId": "2b73649c-13a0-44a0-a58a-8651382ac27c"
+              },
+              {
+                "$type": "Bespoke.Sph.Domain.ComboBoxItem, domain.sph",
+                "Caption": "KX",
+                "Value": "KX",
+                "WebId": "b1763d29-5667-4341-a676-8c437b779d40"
+              },
+              {
+                "$type": "Bespoke.Sph.Domain.ComboBoxItem, domain.sph",
+                "Caption": "L",
+                "Value": "L",
+                "WebId": "43765517-e449-40dc-c2b3-3005818e8968"
+              },
+              {
+                "$type": "Bespoke.Sph.Domain.ComboBoxItem, domain.sph",
+                "Caption": "LS",
+                "Value": "LS",
+                "WebId": "7361022f-03f1-4b43-a3ca-9ad0b2026355"
+              },
+              {
+                "$type": "Bespoke.Sph.Domain.ComboBoxItem, domain.sph",
+                "Caption": "M",
+                "Value": "M",
+                "WebId": "b0a27c4a-69c3-45e6-9e27-a75e499a084e"
+              },
+              {
+                "$type": "Bespoke.Sph.Domain.ComboBoxItem, domain.sph",
                 "Caption": "N",
                 "Value": "N",
-                "WebId": "56264b87-3544-429f-a1bf-e5f8b4abe5a8"
+                "WebId": "b59bbec6-c38a-4efd-859a-44f4ada18f6c"
+              },
+              {
+                "$type": "Bespoke.Sph.Domain.ComboBoxItem, domain.sph",
+                "Caption": "NP",
+                "Value": "NP",
+                "WebId": "dfe663ad-bfda-429c-9127-5535ea69fbe8"
+              },
+              {
+                "$type": "Bespoke.Sph.Domain.ComboBoxItem, domain.sph",
+                "Caption": "NT",
+                "Value": "NT",
+                "WebId": "436fd83f-64e3-4346-fffd-80ec30fa61cc"
               },
               {
                 "$type": "Bespoke.Sph.Domain.ComboBoxItem, domain.sph",
                 "Caption": "P",
                 "Value": "P",
-                "WebId": "795c25f7-1cf9-42e5-b85d-14474474dcd2"
+                "WebId": "bbcd6c48-c097-4027-e1e5-a40899cd0a42"
               },
               {
                 "$type": "Bespoke.Sph.Domain.ComboBoxItem, domain.sph",
                 "Caption": "Q",
                 "Value": "Q",
-                "WebId": "b6f9f2a9-a841-406e-86cd-618924f7dfc0"
+                "WebId": "cbc50119-35a1-4a4b-eb7a-8be02c8a67a8"
+              },
+              {
+                "$type": "Bespoke.Sph.Domain.ComboBoxItem, domain.sph",
+                "Caption": "R",
+                "Value": "R",
+                "WebId": "b660e5fd-5161-40a1-d647-72bc6be6b6c0"
               },
               {
                 "$type": "Bespoke.Sph.Domain.ComboBoxItem, domain.sph",
                 "Caption": "S",
                 "Value": "S",
-                "WebId": "7afc5443-76c2-4699-eb5c-2e517ba58344"
+                "WebId": "45eac474-a530-46c6-8a0e-887c76c68803"
               },
               {
                 "$type": "Bespoke.Sph.Domain.ComboBoxItem, domain.sph",
                 "Caption": "U",
                 "Value": "U",
-                "WebId": "f860637c-1934-44d0-e654-cc27de50dda6"
+                "WebId": "b133df9d-d043-4aae-f6e8-b6a0834f6475"
               },
               {
                 "$type": "Bespoke.Sph.Domain.ComboBoxItem, domain.sph",
                 "Caption": "W",
                 "Value": "W",
-                "WebId": "1d9cfab7-a634-43da-ddaa-403119070913"
+                "WebId": "50358e7b-3e8a-4a5c-8aa4-0fccf9e4af7e"
+              },
+              {
+                "$type": "Bespoke.Sph.Domain.ComboBoxItem, domain.sph",
+                "Caption": "X",
+                "Value": "X",
+                "WebId": "3dd1b81c-3242-4c18-cd4e-36eab01f85c5"
+              },
+              {
+                "$type": "Bespoke.Sph.Domain.ComboBoxItem, domain.sph",
+                "Caption": "XX",
+                "Value": "XX",
+                "WebId": "24435eef-4fd9-4117-b519-14e72144c998"
               },
               {
                 "$type": "Bespoke.Sph.Domain.ComboBoxItem, domain.sph",
                 "Caption": "Y",
                 "Value": "Y",
-                "WebId": "ed87acb4-0e19-4d6b-d3af-31103ba8cf16"
+                "WebId": "3e7a0a6a-ba78-4a26-ca3f-55aeb95e9fcd"
+              },
+              {
+                "$type": "Bespoke.Sph.Domain.ComboBoxItem, domain.sph",
+                "Caption": "YA",
+                "Value": "YA",
+                "WebId": "72bf57d4-e681-4f76-9550-9c2046e0207d"
               },
               {
                 "$type": "Bespoke.Sph.Domain.ComboBoxItem, domain.sph",
                 "Caption": "Z",
                 "Value": "Z",
-                "WebId": "11231380-4184-4dfe-9ac3-82c417fdd923"
+                "WebId": "638c59fd-2733-4f5e-94b4-9796a6d8552e"
               }
             ]
           },
@@ -852,111 +938,297 @@
             "$values": [
               {
                 "$type": "Bespoke.Sph.Domain.ComboBoxItem, domain.sph",
-                "Caption": "[Sila Pilih]",
-                "Value": "",
-                "WebId": "f6a32559-095a-4825-921e-0134ecf01898"
-              },
-              {
-                "$type": "Bespoke.Sph.Domain.ComboBoxItem, domain.sph",
                 "Caption": "1",
                 "Value": "1",
                 "WebId": "506bb743-d1d5-4be1-985a-dc50816fd310"
               },
               {
                 "$type": "Bespoke.Sph.Domain.ComboBoxItem, domain.sph",
+                "Caption": "2",
+                "Value": "2",
+                "WebId": "c1a52f8d-4b71-4f93-8af4-df26df162034"
+              },
+              {
+                "$type": "Bespoke.Sph.Domain.ComboBoxItem, domain.sph",
+                "Caption": "3",
+                "Value": "3",
+                "WebId": "d1566f6c-26fc-47f4-e508-3bc1a65ffc86"
+              },
+              {
+                "$type": "Bespoke.Sph.Domain.ComboBoxItem, domain.sph",
                 "Caption": "4",
                 "Value": "4",
-                "WebId": "c1a52f8d-4b71-4f93-8af4-df26df162034"
+                "WebId": "4a7a53cc-cae4-40da-b2c9-769d7d249e95"
+              },
+              {
+                "$type": "Bespoke.Sph.Domain.ComboBoxItem, domain.sph",
+                "Caption": "5",
+                "Value": "5",
+                "WebId": "299b0148-37d8-41df-beac-4bbb132a15d4"
+              },
+              {
+                "$type": "Bespoke.Sph.Domain.ComboBoxItem, domain.sph",
+                "Caption": "6",
+                "Value": "6",
+                "WebId": "dfac20c1-adb3-4f85-9b78-10399f0eca49"
+              },
+              {
+                "$type": "Bespoke.Sph.Domain.ComboBoxItem, domain.sph",
+                "Caption": "7",
+                "Value": "7",
+                "WebId": "8ca3ce57-ad52-47ee-90d9-cc4856b779a0"
+              },
+              {
+                "$type": "Bespoke.Sph.Domain.ComboBoxItem, domain.sph",
+                "Caption": "8",
+                "Value": "8",
+                "WebId": "98777860-dd74-44ed-de29-c32833a9eca4"
+              },
+              {
+                "$type": "Bespoke.Sph.Domain.ComboBoxItem, domain.sph",
+                "Caption": "9",
+                "Value": "9",
+                "WebId": "91f5e0d4-2ea3-459e-c1fa-68906add79e2"
+              },
+              {
+                "$type": "Bespoke.Sph.Domain.ComboBoxItem, domain.sph",
+                "Caption": "10",
+                "Value": "10",
+                "WebId": "0e056211-32eb-48f9-9805-6fe8d5494cc3"
               },
               {
                 "$type": "Bespoke.Sph.Domain.ComboBoxItem, domain.sph",
                 "Caption": "11",
                 "Value": "11",
-                "WebId": "d1566f6c-26fc-47f4-e508-3bc1a65ffc86"
+                "WebId": "f180fcb5-a9bf-4e8a-f294-75e34647b2ab"
+              },
+              {
+                "$type": "Bespoke.Sph.Domain.ComboBoxItem, domain.sph",
+                "Caption": "12",
+                "Value": "12",
+                "WebId": "7f2b886b-7f44-4e1c-a22a-145bec1d349d"
+              },
+              {
+                "$type": "Bespoke.Sph.Domain.ComboBoxItem, domain.sph",
+                "Caption": "13",
+                "Value": "13",
+                "WebId": "54c695d0-11ce-41ba-fa18-318ffbf35e95"
               },
               {
                 "$type": "Bespoke.Sph.Domain.ComboBoxItem, domain.sph",
                 "Caption": "14",
                 "Value": "14",
-                "WebId": "4a7a53cc-cae4-40da-b2c9-769d7d249e95"
+                "WebId": "96a36866-d551-4782-ba20-7d38d2119b8d"
+              },
+              {
+                "$type": "Bespoke.Sph.Domain.ComboBoxItem, domain.sph",
+                "Caption": "15",
+                "Value": "15",
+                "WebId": "b1ca22c2-be87-475d-8195-d8d224edeb2e"
+              },
+              {
+                "$type": "Bespoke.Sph.Domain.ComboBoxItem, domain.sph",
+                "Caption": "16",
+                "Value": "16",
+                "WebId": "fab03dd7-a22b-49a7-8cce-5c5743777ddb"
               },
               {
                 "$type": "Bespoke.Sph.Domain.ComboBoxItem, domain.sph",
                 "Caption": "17",
                 "Value": "17",
-                "WebId": "299b0148-37d8-41df-beac-4bbb132a15d4"
+                "WebId": "6e17db86-35d2-4d4d-b6de-3ca71ada7273"
+              },
+              {
+                "$type": "Bespoke.Sph.Domain.ComboBoxItem, domain.sph",
+                "Caption": "18",
+                "Value": "18",
+                "WebId": "8d1f84eb-e1cf-41c9-a541-b4f054579c89"
+              },
+              {
+                "$type": "Bespoke.Sph.Domain.ComboBoxItem, domain.sph",
+                "Caption": "19",
+                "Value": "19",
+                "WebId": "74b4d059-25b4-4d5a-aebe-87b32c4bd71e"
+              },
+              {
+                "$type": "Bespoke.Sph.Domain.ComboBoxItem, domain.sph",
+                "Caption": "20",
+                "Value": "20",
+                "WebId": "a24f8123-bd7f-44d2-87db-0f3d2bef845e"
+              },
+              {
+                "$type": "Bespoke.Sph.Domain.ComboBoxItem, domain.sph",
+                "Caption": "21",
+                "Value": "21",
+                "WebId": "c53eca3f-9a57-4607-ec00-502d0d75fbc1"
               },
               {
                 "$type": "Bespoke.Sph.Domain.ComboBoxItem, domain.sph",
                 "Caption": "22",
                 "Value": "22",
-                "WebId": "dfac20c1-adb3-4f85-9b78-10399f0eca49"
+                "WebId": "3ab8f2d5-3f0a-408f-e290-c13440061ecd"
+              },
+              {
+                "$type": "Bespoke.Sph.Domain.ComboBoxItem, domain.sph",
+                "Caption": "24",
+                "Value": "24",
+                "WebId": "a0c196ac-4681-4972-89d6-6cb8eba8b70e"
+              },
+              {
+                "$type": "Bespoke.Sph.Domain.ComboBoxItem, domain.sph",
+                "Caption": "25",
+                "Value": "25",
+                "WebId": "d7d80460-3eb7-4306-c40e-8469da20b6fb"
               },
               {
                 "$type": "Bespoke.Sph.Domain.ComboBoxItem, domain.sph",
                 "Caption": "26",
                 "Value": "26",
-                "WebId": "8ca3ce57-ad52-47ee-90d9-cc4856b779a0"
+                "WebId": "5c355cfa-dfcf-477b-f455-6a18ff0f3193"
               },
               {
                 "$type": "Bespoke.Sph.Domain.ComboBoxItem, domain.sph",
                 "Caption": "27",
                 "Value": "27",
-                "WebId": "98777860-dd74-44ed-de29-c32833a9eca4"
+                "WebId": "d946502e-6d27-4f11-e0ef-5a5aab11b0f2"
+              },
+              {
+                "$type": "Bespoke.Sph.Domain.ComboBoxItem, domain.sph",
+                "Caption": "28",
+                "Value": "28",
+                "WebId": "2e125e49-6797-4795-9427-e865dd292a01"
               },
               {
                 "$type": "Bespoke.Sph.Domain.ComboBoxItem, domain.sph",
                 "Caption": "29",
                 "Value": "29",
-                "WebId": "91f5e0d4-2ea3-459e-c1fa-68906add79e2"
+                "WebId": "3c5d738d-7999-48cd-f09e-42330c7ac8fc"
+              },
+              {
+                "$type": "Bespoke.Sph.Domain.ComboBoxItem, domain.sph",
+                "Caption": "30",
+                "Value": "30",
+                "WebId": "7900a0b7-deb1-433b-dc27-59a2c22b2473"
+              },
+              {
+                "$type": "Bespoke.Sph.Domain.ComboBoxItem, domain.sph",
+                "Caption": "31",
+                "Value": "31",
+                "WebId": "fb7f3fb2-3ed5-4911-d912-0835cd721722"
               },
               {
                 "$type": "Bespoke.Sph.Domain.ComboBoxItem, domain.sph",
                 "Caption": "32",
                 "Value": "32",
-                "WebId": "0e056211-32eb-48f9-9805-6fe8d5494cc3"
+                "WebId": "64ce1a56-262f-4b6a-8548-00627709515b"
+              },
+              {
+                "$type": "Bespoke.Sph.Domain.ComboBoxItem, domain.sph",
+                "Caption": "34",
+                "Value": "34",
+                "WebId": "6f2419fd-7c93-4a34-bef1-e48b901e2c16"
+              },
+              {
+                "$type": "Bespoke.Sph.Domain.ComboBoxItem, domain.sph",
+                "Caption": "35",
+                "Value": "35",
+                "WebId": "60f3adb8-fb7f-4d70-9096-2105abb7a2aa"
+              },
+              {
+                "$type": "Bespoke.Sph.Domain.ComboBoxItem, domain.sph",
+                "Caption": "36",
+                "Value": "36",
+                "WebId": "3f83db7a-c42b-43c8-eced-c29d9a840bf7"
+              },
+              {
+                "$type": "Bespoke.Sph.Domain.ComboBoxItem, domain.sph",
+                "Caption": "37",
+                "Value": "37",
+                "WebId": "0618f61f-6012-49e0-d85d-f31f6073c1f3"
               },
               {
                 "$type": "Bespoke.Sph.Domain.ComboBoxItem, domain.sph",
                 "Caption": "38",
                 "Value": "38",
-                "WebId": "f180fcb5-a9bf-4e8a-f294-75e34647b2ab"
+                "WebId": "68696e70-0c18-4ecd-ff95-6a7b34f7f02a"
+              },
+              {
+                "$type": "Bespoke.Sph.Domain.ComboBoxItem, domain.sph",
+                "Caption": "40",
+                "Value": "40",
+                "WebId": "f3929b77-7ccc-42de-ade4-0d5acecc0a53"
               },
               {
                 "$type": "Bespoke.Sph.Domain.ComboBoxItem, domain.sph",
                 "Caption": "41",
                 "Value": "41",
-                "WebId": "7f2b886b-7f44-4e1c-a22a-145bec1d349d"
+                "WebId": "101b9b5f-e23f-4629-834b-7b1b3b1d55b0"
+              },
+              {
+                "$type": "Bespoke.Sph.Domain.ComboBoxItem, domain.sph",
+                "Caption": "42",
+                "Value": "42",
+                "WebId": "bc3f31de-05a5-475e-8338-9acf76b5434c"
+              },
+              {
+                "$type": "Bespoke.Sph.Domain.ComboBoxItem, domain.sph",
+                "Caption": "43",
+                "Value": "43",
+                "WebId": "da161288-187a-4234-f59e-0c621afaad9b"
               },
               {
                 "$type": "Bespoke.Sph.Domain.ComboBoxItem, domain.sph",
                 "Caption": "44",
                 "Value": "44",
-                "WebId": "54c695d0-11ce-41ba-fa18-318ffbf35e95"
+                "WebId": "3c3d60e0-8911-4220-c036-a33af2154f6f"
+              },
+              {
+                "$type": "Bespoke.Sph.Domain.ComboBoxItem, domain.sph",
+                "Caption": "45",
+                "Value": "45",
+                "WebId": "ebbeade2-5551-426f-a97f-06f8e09351c1"
+              },
+              {
+                "$type": "Bespoke.Sph.Domain.ComboBoxItem, domain.sph",
+                "Caption": "46",
+                "Value": "46",
+                "WebId": "3c34bf6b-4360-4ab2-9ba5-ddd57af682b5"
+              },
+              {
+                "$type": "Bespoke.Sph.Domain.ComboBoxItem, domain.sph",
+                "Caption": "47",
+                "Value": "47",
+                "WebId": "eb9dfa9b-fe01-4f55-c85b-3c056d8dc07c"
               },
               {
                 "$type": "Bespoke.Sph.Domain.ComboBoxItem, domain.sph",
                 "Caption": "48",
                 "Value": "48",
-                "WebId": "96a36866-d551-4782-ba20-7d38d2119b8d"
+                "WebId": "104fb316-42b1-4544-b425-f2f5fdcdefeb"
+              },
+              {
+                "$type": "Bespoke.Sph.Domain.ComboBoxItem, domain.sph",
+                "Caption": "51",
+                "Value": "51",
+                "WebId": "a55f9e31-2c58-42f4-c616-16981338b055"
               },
               {
                 "$type": "Bespoke.Sph.Domain.ComboBoxItem, domain.sph",
                 "Caption": "52",
                 "Value": "52",
-                "WebId": "b1ca22c2-be87-475d-8195-d8d224edeb2e"
+                "WebId": "0d1a34de-3cea-4db4-c645-3b7f700692e6"
+              },
+              {
+                "$type": "Bespoke.Sph.Domain.ComboBoxItem, domain.sph",
+                "Caption": "53",
+                "Value": "53",
+                "WebId": "90c6e060-c90c-4df1-f012-9334b0963816"
               },
               {
                 "$type": "Bespoke.Sph.Domain.ComboBoxItem, domain.sph",
                 "Caption": "54",
                 "Value": "54",
-                "WebId": "fab03dd7-a22b-49a7-8cce-5c5743777ddb"
-              },
-              {
-                "$type": "Bespoke.Sph.Domain.ComboBoxItem, domain.sph",
-                "Caption": "JUSA",
-                "Value": "JUSA",
-                "WebId": "6e17db86-35d2-4d4d-b6de-3ca71ada7273"
+                "WebId": "a6bd49d0-698b-493f-aefe-d0b34751cfbe"
               }
             ]
           },
@@ -1008,13 +1280,41 @@
           "WebId": "93905cf9-02da-44bd-f57f-6bae77132623"
         },
         {
-          "$type": "Bespoke.Sph.Domain.TextBox, domain.sph",
-          "DefaultValue": null,
-          "AutoCompletionEntity": null,
-          "AutoCompletionField": null,
-          "AutoCompletionQuery": null,
+          "$type": "Bespoke.Sph.Domain.ComboBox, domain.sph",
+          "ComboBoxItemCollection": {
+            "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.Sph.Domain.ComboBoxItem, domain.sph]], domain.sph",
+            "$values": [
+              {
+                "$type": "Bespoke.Sph.Domain.ComboBoxItem, domain.sph",
+                "Caption": "Ijazah Sarjana Muda",
+                "Value": "Ijazah Sarjana Muda",
+                "WebId": "a958303e-27be-4f5e-e554-45988310e346"
+              },
+              {
+                "$type": "Bespoke.Sph.Domain.ComboBoxItem, domain.sph",
+                "Caption": "Ijazah Sarjana",
+                "Value": "Ijazah Sarjana",
+                "WebId": "19085170-1456-4d80-f8ea-b2ed5efddd16"
+              },
+              {
+                "$type": "Bespoke.Sph.Domain.ComboBoxItem, domain.sph",
+                "Caption": "PHD",
+                "Value": "PHD",
+                "WebId": "3c0a4959-7fd2-48af-f19e-5e127b38e053"
+              }
+            ]
+          },
+          "ComboBoxLookup": {
+            "$type": "Bespoke.Sph.Domain.ComboBoxLookup, domain.sph",
+            "Entity": null,
+            "ValuePath": null,
+            "DisplayPath": null,
+            "Query": null,
+            "IsComputedQuery": false,
+            "WebId": null
+          },
           "IsPathIsRequired": true,
-          "TypeName": "TextBox",
+          "TypeName": "ComboBox",
           "FieldValidation": {
             "$type": "Bespoke.Sph.Domain.FieldValidation, domain.sph",
             "IsRequired": false,
@@ -1032,11 +1332,11 @@
           "Tooltip": null,
           "Path": "Pelajar.TahapPendidikan",
           "IsRequired": false,
-          "Size": null,
-          "CssClass": null,
-          "Visible": "ko.unwrap(Pekerjaan) === 'Pelajar'",
+          "Size": "input-large",
+          "CssClass": "",
+          "Visible": "true",
           "Enable": "true",
-          "ElementId": "1d39d16d-e758-4243-8f5c-b30a38668547",
+          "ElementId": "01d863a8-6db6-4e9e-ef56-a9c6a76bc34f",
           "HelpText": null,
           "UseDisplayTemplate": false,
           "ToolboxIconClass": null,
@@ -1049,7 +1349,7 @@
           "InputColMd": null,
           "InputColSm": null,
           "InputColXs": null,
-          "WebId": "d6c3b820-450e-4640-e534-fb85f7b6c6bc"
+          "WebId": "9d9365ba-151c-48c0-a113-807cf0180b6a"
         },
         {
           "$type": "Bespoke.Sph.Domain.TextBox, domain.sph",
@@ -1100,12 +1400,6 @@
           "ComboBoxItemCollection": {
             "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.Sph.Domain.ComboBoxItem, domain.sph]], domain.sph",
             "$values": [
-              {
-                "$type": "Bespoke.Sph.Domain.ComboBoxItem, domain.sph",
-                "Caption": "[Sila Pilih]",
-                "Value": "",
-                "WebId": "c1d680b6-aa13-49f5-bd0e-fb5505b7b1bd"
-              },
               {
                 "$type": "Bespoke.Sph.Domain.ComboBoxItem, domain.sph",
                 "Caption": "Dalam Negara",
@@ -1391,7 +1685,7 @@
   "CreatedBy": "admin",
   "Id": "kemaskini-pengguna-oleh-penyelaras",
   "CreatedDate": "2015-06-16T08:04:09.5330981+08:00",
-  "ChangedBy": "admin",
-  "ChangedDate": "2015-08-27T12:10:17.5670698+08:00",
+  "ChangedBy": "Admin",
+  "ChangedDate": "2015-09-15T14:02:31.4077046+08:00",
   "WebId": "4e32950c-7d95-4b44-983c-3c3e67811ded"
 }

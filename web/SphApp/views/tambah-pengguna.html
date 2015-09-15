@@ -22,21 +22,6 @@
 
 
     <div data-bind="visible:true" class="form-group">
-        <label data-i18n="* Nama" for="fe3ab0be-a563-496a-8455-b9844518bbf7" class="col-md-4">* Nama</label>
-        <div class="col-md-8">
-            <input required class=" form-control input-large" title=""
-                   data-bind="value: Nama, enable :true "
-                   
-                   
-                    data-rule-required="true" 
-
-                   id="fe3ab0be-a563-496a-8455-b9844518bbf7" type="text" name="Nama" />
-        </div>
-    </div>
-
-
-
-    <div data-bind="visible:true" class="form-group">
         <label data-i18n="* My Kad" for="5fd9072c-4bb0-4ce4-a217-8d1ffabb15ed" class="col-md-4">* My Kad</label>
         <div class="col-md-8">
             <input required class=" form-control input-large" title=""
@@ -51,29 +36,43 @@
     </div>
 
 
-    <div class="form-group" data-bind="visible:true">
-        <label data-i18n="* Jantina" for="d89b9774-d8d1-4420-8caf-f22e0fef1fbb" class="col-md-4">* Jantina</label>
+
+    <div data-bind="visible:true" class="form-group">
+        <label data-i18n="* Nama" for="fe3ab0be-a563-496a-8455-b9844518bbf7" class="col-md-4">* Nama</label>
         <div class="col-md-8">
-            <select  data-bind="value: Jantina, enable :true" id="d89b9774-d8d1-4420-8caf-f22e0fef1fbb" name="Jantina" class="required input-large form-control">
-                    <option value="" data-i18n="[Sila Pilih]">[Sila Pilih]</option>
-                    <option value="Lelaki" data-i18n="Lelaki">Lelaki</option>
-                    <option value="Perempuan" data-i18n="Perempuan">Perempuan</option>
-            </select>
+            <input required class=" form-control input-large" title=""
+                   data-bind="value: Nama, enable :true "
+                   
+                   
+                    data-rule-required="true" 
+
+                   id="fe3ab0be-a563-496a-8455-b9844518bbf7" type="text" name="Nama" />
         </div>
     </div>
 
 
     <div class="form-group" data-bind="visible:true">
-        <label data-i18n="Kumpulan Umur" for="92661272-212a-4262-91fe-d466cfbad4ed" class="col-md-4">Kumpulan Umur</label>
+        <label data-i18n="* Jantina" for="d89b9774-d8d1-4420-8caf-f22e0fef1fbb" class="col-md-4">* Jantina</label>
         <div class="col-md-8">
-            <select  data-bind="value: KumpulanUmur, enable :true" id="92661272-212a-4262-91fe-d466cfbad4ed" name="KumpulanUmur" class=" input-large form-control">
+            <select  data-bind="value: Jantina, enable :true" id="d89b9774-d8d1-4420-8caf-f22e0fef1fbb" name="Jantina" class="required input-large form-control">
                     <option value="" data-i18n="[Sila Pilih]">[Sila Pilih]</option>
-                    <option value="&lt; 20" data-i18n="Kurang 20 Tahun">Kurang 20 Tahun</option>
-                    <option value="20 - 29" data-i18n="20 - 29">20 - 29</option>
-                    <option value="30 - 39" data-i18n="30 - 39">30 - 39</option>
-                    <option value="40 - 49" data-i18n="40 - 49">40 - 49</option>
-                    <option value="&gt; 50" data-i18n="Lebih 50 Tahun">Lebih 50 Tahun</option>
+                    <option value="L" data-i18n="Lelaki ">Lelaki </option>
+                    <option value="P" data-i18n="Perempuan">Perempuan</option>
             </select>
+        </div>
+    </div>
+
+
+
+    <div data-bind="visible:true" class="form-group">
+        <label data-i18n="Umur" for="4a95c78f-29f9-47d8-ac6c-bb60cbc1bb89" class="col-md-4">Umur</label>
+        <div class="col-md-8">
+            <input  class=" form-control input-large" title=""
+                   data-bind="value: Umur, enable :true "
+                   
+                   
+                   
+                   id="4a95c78f-29f9-47d8-ac6c-bb60cbc1bb89" type="text" name="Umur" />
         </div>
     </div>
 
@@ -83,10 +82,12 @@
         <div class="col-md-8">
             <select  data-bind="value: StatusPerkahwinan, enable :true" id="f503e61e-ec70-4106-8d07-1afe70dcf17c" name="StatusPerkahwinan" class=" input-large form-control">
                     <option value="" data-i18n="[Sila Pilih]">[Sila Pilih]</option>
-                    <option value="Bujang" data-i18n="Bujang">Bujang</option>
+                    <option value="Belum Berkahwin" data-i18n="Belum Berkahwin">Belum Berkahwin</option>
                     <option value="Berkahwin" data-i18n="Berkahwin">Berkahwin</option>
-                    <option value="Ibu Tunggal" data-i18n="Ibu Tunggal">Ibu Tunggal</option>
-                    <option value="Bapa Tunggal" data-i18n="Bapa Tunggal">Bapa Tunggal</option>
+                    <option value="Balu" data-i18n="Balu">Balu</option>
+                    <option value="Janda" data-i18n="Janda">Janda</option>
+                    <option value="Duda" data-i18n="Duda">Duda</option>
+                    <option value="Tiada Maklumat" data-i18n="Tiada Maklumat">Tiada Maklumat</option>
             </select>
         </div>
     </div>
@@ -141,16 +142,15 @@
     </div>
 
 
-
-    <div data-bind="visible:ko.unwrap(Pekerjaan) === &#39;Pelajar&#39;" class="form-group">
-        <label data-i18n="Tahap Pengajian" for="c6cb5b90-a13a-43c5-c971-f896c99854fe" class="col-md-4">Tahap Pengajian</label>
+    <div class="form-group" data-bind="visible:true">
+        <label data-i18n="Tahap Pengajian" for="adf6cb29-b636-48d4-de1c-9899a58ce007" class="col-md-4">Tahap Pengajian</label>
         <div class="col-md-8">
-            <input  class=" form-control " title=""
-                   data-bind="value: Pelajar().TahapPendidikan, enable :true "
-                   
-                   
-                   
-                   id="c6cb5b90-a13a-43c5-c971-f896c99854fe" type="text" name="Pelajar.TahapPendidikan" />
+            <select  data-bind="value: Pelajar().TahapPendidikan, enable :true" id="adf6cb29-b636-48d4-de1c-9899a58ce007" name="Pelajar.TahapPendidikan" class=" input-large form-control">
+                    <option value="" data-i18n="[Sila Pilih]">[Sila Pilih]</option>
+                    <option value="Ijazah Sarjana Muda" data-i18n="Ijazah Sarjana Muda">Ijazah Sarjana Muda</option>
+                    <option value="Ijazah Sarjana" data-i18n="Ijazah Sarjana">Ijazah Sarjana</option>
+                    <option value="PHD" data-i18n="PHD">PHD</option>
+            </select>
         </div>
     </div>
 
@@ -203,10 +203,12 @@
         <div class="col-md-8">
             <select  data-bind="value: KumpulanJawatan, enable :true" id="136182e1-66a5-4fa8-bba1-e6080deb3fb3" name="KumpulanJawatan" class="required input-large form-control">
                     <option value="" data-i18n="[Sila Pilih]">[Sila Pilih]</option>
-                    <option value="Pengurusan Tertinggi" data-i18n="Pengurusan Tertinggi">Pengurusan Tertinggi</option>
-                    <option value="Pengurusan Profesional" data-i18n="Pengurusan Profesional">Pengurusan Profesional</option>
-                    <option value="Perlaksana" data-i18n="Perlaksana">Perlaksana</option>
-                    <option value="Bersepadu" data-i18n="Bersepadu">Bersepadu</option>
+                    <option value="Kumpulan JKK-D" data-i18n="Kumpulan JKK-D">Kumpulan JKK-D</option>
+                    <option value="Kumpulan Pengurusan Tertinggi" data-i18n="Kumpulan Pengurusan Tertinggi">Kumpulan Pengurusan Tertinggi</option>
+                    <option value="Kumpulan Pengurusan dan Profesional" data-i18n="Kumpulan Pengurusan dan Profesional">Kumpulan Pengurusan dan Profesional</option>
+                    <option value="Kumpulan Skim Perkhidmatan Bersepadu" data-i18n="Kumpulan Skim Perkhidmatan Bersepadu">Kumpulan Skim Perkhidmatan Bersepadu</option>
+                    <option value="Kumpulan Sokongan" data-i18n="Kumpulan Sokongan">Kumpulan Sokongan</option>
+                    <option value="Tiada Kumpulan Perkhidmatan" data-i18n="Tiada Kumpulan Perkhidmatan">Tiada Kumpulan Perkhidmatan</option>
             </select>
         </div>
     </div>
@@ -252,22 +254,40 @@
                     <option value="A" data-i18n="A">A</option>
                     <option value="B" data-i18n="B">B</option>
                     <option value="C" data-i18n="C">C</option>
-                    <option value="D" data-i18n="D">D</option>
+                    <option value="DD" data-i18n="DD">DD</option>
+                    <option value="DG" data-i18n="DG">DG</option>
+                    <option value="DGA" data-i18n="DGA">DGA</option>
+                    <option value="DH" data-i18n="DH">DH</option>
+                    <option value="DM" data-i18n="DM">DM</option>
+                    <option value="DS" data-i18n="DS">DS</option>
+                    <option value="DU" data-i18n="DU">DU</option>
+                    <option value="DUG" data-i18n="DUG">DUG</option>
                     <option value="E" data-i18n="E">E</option>
                     <option value="F" data-i18n="F">F</option>
+                    <option value="FT" data-i18n="FT">FT</option>
                     <option value="G" data-i18n="G">G</option>
-                    <option value="H" data-i18n="H">H</option>
                     <option value="J" data-i18n="J">J</option>
-                    <option value="K" data-i18n="K">K</option>
+                    <option value="KB" data-i18n="KB">KB</option>
+                    <option value="KJ" data-i18n="KJ">KJ</option>
+                    <option value="KP" data-i18n="KP">KP</option>
+                    <option value="KR" data-i18n="KR">KR</option>
+                    <option value="KX" data-i18n="KX">KX</option>
                     <option value="L" data-i18n="L">L</option>
+                    <option value="LS" data-i18n="LS">LS</option>
                     <option value="M" data-i18n="M">M</option>
                     <option value="N" data-i18n="N">N</option>
+                    <option value="NP" data-i18n="NP">NP</option>
+                    <option value="NT" data-i18n="NT">NT</option>
                     <option value="P" data-i18n="P">P</option>
                     <option value="Q" data-i18n="Q">Q</option>
+                    <option value="R" data-i18n="R">R</option>
                     <option value="S" data-i18n="S">S</option>
                     <option value="U" data-i18n="U">U</option>
                     <option value="W" data-i18n="W">W</option>
+                    <option value="X" data-i18n="X">X</option>
+                    <option value="XX" data-i18n="XX">XX</option>
                     <option value="Y" data-i18n="Y">Y</option>
+                    <option value="YA" data-i18n="YA">YA</option>
                     <option value="Z" data-i18n="Z">Z</option>
             </select>
         </div>
@@ -280,23 +300,56 @@
             <select  data-bind="value: Gred, enable :true" id="pengguna-gred" name="Gred" class="required input-large form-control">
                     <option value="" data-i18n="[Sila Pilih]">[Sila Pilih]</option>
                     <option value="1" data-i18n="1">1</option>
+                    <option value="2" data-i18n="2">2</option>
+                    <option value="3" data-i18n="3">3</option>
                     <option value="4" data-i18n="4">4</option>
+                    <option value="5" data-i18n="5">5</option>
+                    <option value="6" data-i18n="6">6</option>
+                    <option value="7" data-i18n="7">7</option>
+                    <option value="8" data-i18n="8">8</option>
+                    <option value="9" data-i18n="9">9</option>
+                    <option value="10" data-i18n="10">10</option>
                     <option value="11" data-i18n="11">11</option>
+                    <option value="12" data-i18n="12">12</option>
+                    <option value="13" data-i18n="13">13</option>
                     <option value="14" data-i18n="14">14</option>
+                    <option value="15" data-i18n="15">15</option>
+                    <option value="16" data-i18n="16">16</option>
                     <option value="17" data-i18n="17">17</option>
+                    <option value="18" data-i18n="18">18</option>
+                    <option value="19" data-i18n="19">19</option>
+                    <option value="20" data-i18n="20">20</option>
+                    <option value="21" data-i18n="21">21</option>
                     <option value="22" data-i18n="22">22</option>
+                    <option value="24" data-i18n="24">24</option>
+                    <option value="25" data-i18n="25">25</option>
                     <option value="26" data-i18n="26">26</option>
                     <option value="27" data-i18n="27">27</option>
+                    <option value="28" data-i18n="28">28</option>
                     <option value="29" data-i18n="29">29</option>
+                    <option value="30" data-i18n="30">30</option>
+                    <option value="31" data-i18n="31">31</option>
                     <option value="32" data-i18n="32">32</option>
+                    <option value="34" data-i18n="34">34</option>
+                    <option value="35" data-i18n="35">35</option>
                     <option value="36" data-i18n="36">36</option>
+                    <option value="37" data-i18n="37">37</option>
                     <option value="38" data-i18n="38">38</option>
+                    <option value="40" data-i18n="40">40</option>
                     <option value="41" data-i18n="41">41</option>
+                    <option value="42" data-i18n="42">42</option>
+                    <option value="43" data-i18n="43">43</option>
                     <option value="44" data-i18n="44">44</option>
+                    <option value="45" data-i18n="45">45</option>
+                    <option value="46" data-i18n="46">46</option>
+                    <option value="47" data-i18n="47">47</option>
                     <option value="48" data-i18n="48">48</option>
+                    <option value="51" data-i18n="51">51</option>
                     <option value="52" data-i18n="52">52</option>
+                    <option value="53" data-i18n="53">53</option>
                     <option value="54" data-i18n="54">54</option>
                     <option value="JUSA" data-i18n="JUSA">JUSA</option>
+                    <option value="Turus" data-i18n="Turus">Turus</option>
             </select>
         </div>
     </div>

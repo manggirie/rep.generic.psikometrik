@@ -323,10 +323,10 @@
           "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.Sph.Domain.FieldPermission, domain.sph]], domain.sph",
           "$values": []
         },
-        "Name": "KumpulanUmur",
-        "TypeName": "System.String, mscorlib",
+        "Name": "Umur",
+        "TypeName": "System.Int32, mscorlib",
         "IsNullable": false,
-        "IsNotIndexed": false,
+        "IsNotIndexed": true,
         "IsAnalyzed": false,
         "IsFilterable": false,
         "IsExcludeInAll": false,
@@ -993,6 +993,6 @@
   "Id": "pengguna",
   "CreatedDate": "2015-06-16T08:04:09.5200889+08:00",
   "ChangedBy": "admin",
-  "ChangedDate": "2015-08-27T11:50:59.0612816+08:00",
+  "ChangedDate": "2015-09-15T10:44:49.8928203+08:00",
   "WebId": "01c666ac-ab68-4416-9d69-a716a003c902"
 }
