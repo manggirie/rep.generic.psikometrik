@@ -38,7 +38,7 @@ namespace Hrmis.Adapter
                         pengguna.KumpulanJawatan = reader["ServGrpTitle"].ReadNullableString();
                         pengguna.NamaJabatan = reader["AgcyOffclBUTitle"].ReadNullableString();
                         pengguna.Skim = reader["ServClassCd"].ReadNullableString();
-                        pengguna.Gred = reader["SalGrdNum"].ReadNullableString();
+                        pengguna.Gred = reader["SalGrdNum"].ReadNullable<int>().ReadNullableString();
                         return pengguna;
                     }
 
