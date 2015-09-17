@@ -13,7 +13,8 @@ namespace Hrmis.Adapter
     {
         public async Task<Pengguna> GetUserDetailsByIcNo(string icno)
         {
-            var sql ="SELECT  v.CONm, v.GenderCd, v.Age, v.MrtlStatus, v.AgcyGrpCd, v.AgcyOffclBUTitle, v.ServGrpTitle, v.ServClassCd, v.SalGrdNum, b.COEmail, b.COHPhoneNo " +
+            var sql ="SELECT  v.CONm, v.GenderCd, v.Age, v.MrtlStatus, v.AgcyGrpCd, v.AgcyOffclBUTitle, " +
+                     "v.ServGrpTitle, v.ServClassCd, v.SalGrdNum, b.COEmail, b.COHPhoneNo " +
                       "FROM tblvCOTmpNEW v inner join tblprcobiodata b on v.coid = b.coid " +
                       "where v.ICNo =  @IcNo";
            
@@ -28,7 +29,7 @@ namespace Hrmis.Adapter
                     {
                         var pengguna = new Pengguna();
                         pengguna.Nama = reader["CONm"].ReadNullableString();
-                        pengguna.Umur = (int)reader["Age"];
+                        pengguna.Umur = Convert.ToInt32(reader["Age"]); //(int)reader["Age"].ToString();
                         pengguna.Emel = reader["COEmail"].ReadNullableString();
                         pengguna.StatusPerkahwinan = reader["MrtlStatus"].ReadNullableString();
                         pengguna.Telefon = reader["COHPhoneNo"].ReadNullableString();
