@@ -28,7 +28,7 @@ namespace Hrmis.Adapter
                     {
                         var pengguna = new Pengguna();
                         pengguna.Nama = reader["CONm"].ReadNullableString();
-                        pengguna.Umur = int.Parse(reader["Age"].ToString());
+                        pengguna.Umur = (int)reader["Age"];
                         pengguna.Emel = reader["COEmail"].ReadNullableString();
                         pengguna.StatusPerkahwinan = reader["MrtlStatus"].ReadNullableString();
                         pengguna.Telefon = reader["COHPhoneNo"].ReadNullableString();
