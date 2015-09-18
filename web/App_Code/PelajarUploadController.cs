@@ -66,7 +66,7 @@ namespace web.sph.App_Code
                     MyKad = mykad,
                     Jantina = ws.Cells["C" + row].GetValue<string>(),
                     Warganegara = "Malaysia",
-                    KumpulanUmur = "NA",
+                    Umur = 0,
                     Emel = ws.Cells["G" + row].GetValue<string>(),
                     Emel2 = null,
                     Pelajar = new Pelajar
