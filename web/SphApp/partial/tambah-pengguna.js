@@ -18,6 +18,8 @@ define(["services/datacontext", objectbuilders.config, objectbuilders.app], func
                     var param = JSON.stringify({ icno: ic });
                     context.post(param, "hrmis/GetUserDetailsByIcNo").done(function (result) {
                         if (result.data) {
+                            
+                            pengguna().Pekerjaan('Kerajaan');
                             pengguna().Nama(result.data.Nama);
                             pengguna().Emel(result.data.Emel);
                             pengguna().StatusPerkahwinan(result.data.StatusPerkahwinan);

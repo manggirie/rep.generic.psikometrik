@@ -1,5 +1,5 @@
-/// <reference path="/Scripts/jquery-2.1.3.js" />
-/// <reference path="/Scripts/knockout-3.2.0.debug.js" />
+/// <reference path="Scripts/jquery-2.1.1.intellisense.js" />
+/// <reference path="Scripts/knockout-3.2.0.debug.js" />
 /// <reference path="Scripts/knockout.mapping-latest.debug.js" />
 /// <reference path="Scripts/require.js" />
 /// <reference path="Scripts/underscore.js" />
@@ -11,13 +11,13 @@
 
 define(["services/datacontext", "services/logger", "plugins/router", "services/chart", objectbuilders.config, "partial/responden-dari-jabatan"],
 
-function (context, logger, router, chart, config, partial) {
+function(context, logger, router, chart, config, partial) {
 
     var isBusy = ko.observable(false),
         chartFiltered = ko.observable(false),
         view = ko.observable(),
         list = ko.observableArray([]),
-        map = function (v) {
+        map = function(v) {
             if (typeof partial !== "undefined" && typeof partial.map === "function") {
                 return partial.map(v);
             }
@@ -25,84 +25,75 @@ function (context, logger, router, chart, config, partial) {
         },
         entity = ko.observable(new bespoke.sph.domain.EntityDefinition()),
         query = ko.observable(),
-        activate = function () {
-            var tcs = new $.Deferred(),
-                q = {
-                    "query": {
-                        "filtered": {
-                            "filter": {
-                                "bool": {
-                                    "must": [
-                                    ]
+        activate = function() {
+            query({
+                "query": {
+                    "filtered": {
+                        "filter": {
+                            "bool": {
+                                "must": [{
+                                    "term": {
+                                        "NamaJabatan": ko.unwrap(config.namaJabatan)
+                                    }
                                 }
-                            }
-                        }
-                    },
-                    "sort": [
-                        {
-                            "ChangedDate": {
-                                "order": "desc"
-                            }
-                        }
-                    ]
-                };
 
-            partial.activate().done(function () {
-                q.query.filtered.filter.bool.must.push({
-                    term: { "NamaKementerian": config.namaKementerian }
+                                ],
+                                "must_not": [
+
+                                ]
+                            }
+                        }
+                    }
+                },
+                "sort": [{
+                    "ChangedDate": {
+                        "order": "desc"
+                    }
+                }]
+            });
+            var edQuery = String.format("Name eq '{0}'", 'Pengguna'),
+                tcs = new $.Deferred(),
+                formsQuery = String.format("EntityDefinitionId eq 'pengguna' and IsPublished eq 1 and IsAllowedNewItem eq 1"),
+                viewQuery = String.format("EntityDefinitionId eq 'pengguna'"),
+                edTask = context.loadOneAsync("EntityDefinition", edQuery),
+                formsTask = context.loadAsync("EntityForm", formsQuery),
+                viewTask = context.loadOneAsync("EntityView", viewQuery);
+
+
+            $.when(edTask, viewTask, formsTask)
+                .done(function(b, vw, formsLo) {
+                entity(b);
+                view(vw);
+                var formsCommands = _(formsLo.itemCollection).map(function(v) {
+                    return {
+                        caption: v.Name(),
+                        command: function() {
+                            window.location = '#' + v.Route() + '/0';
+                            return Task.fromResult(0);
+                        },
+                        icon: v.IconClass()
+                    };
                 });
+                vm.toolbar.commands(formsCommands);
 
-                if (config.namaJabatan) {
-                    q.query.filtered.filter.bool.must.push({
-                        term: { "NamaJabatan": config.namaJabatan }
-                    });
+
+                if (typeof partial !== "undefined" && typeof partial.activate === "function") {
+                    var pt = partial.activate(list);
+                    if (typeof pt.done === "function") {
+                        pt.done(tcs.resolve);
+                    } else {
+                        tcs.resolve(true);
+                    }
                 }
-                query(q);
-                var edQuery = String.format("Name eq '{0}'", "Pengguna"),
-                    formsQuery = String.format("EntityDefinitionId eq 'pengguna' and IsPublished eq 1 and IsAllowedNewItem eq 1"),
-                    viewQuery = String.format("EntityDefinitionId eq 'pengguna'"),
-                    edTask = context.loadOneAsync("EntityDefinition", edQuery),
-                    formsTask = context.loadAsync("EntityForm", formsQuery),
-                    viewTask = context.loadOneAsync("EntityView", viewQuery);
-
-
-                $.when(edTask, viewTask, formsTask)
-                    .done(function (b, vw, formsLo) {
-                        entity(b);
-                        view(vw);
-                        var formsCommands = _(formsLo.itemCollection).map(function (v) {
-                            return {
-                                caption: v.Name(),
-                                command: function () {
-                                    window.location = "#" + v.Route() + "/0";
-                                    return Task.fromResult(0);
-                                },
-                                icon: v.IconClass()
-                            };
-                        });
-                        vm.toolbar.commands(formsCommands);
-
-
-                        if (typeof partial !== "undefined" && typeof partial.activate === "function") {
-                            var pt = partial.activate(list);
-                            if (typeof pt.done === "function") {
-                                pt.done(tcs.resolve);
-                            } else {
-                                tcs.resolve(true);
-                            }
-                        }
-
-
-                    });
-
-
 
 
             });
 
+
+
             return tcs.promise();
         },
-        chartSeriesClick = function (e) {
+        chartSeriesClick = function(e) {
 
             isBusy(true);
             var q = ko.mapping.toJS(query),
@@ -125,7 +116,7 @@ function (context, logger, router, chart, config, partial) {
                 q.query.filtered.filter.bool.must.push(histogram);
             }
             if (e.aggregate === "date_histogram") {
-                logger.error("Filtering by date range is not supported just yet");
+                logger.error('Filtering by date range is not supported just yet');
                 isBusy(false);
                 return;
                 date_histogram.range[e.field] = {
@@ -152,15 +143,15 @@ function (context, logger, router, chart, config, partial) {
 
 
             context.searchAsync("Pengguna", q)
-                .done(function (lo) {
-                    list(lo.itemCollection);
-                    chartFiltered(true);
-                    setTimeout(function () {
-                        isBusy(false);
-                    }, 500);
-                });
+                .done(function(lo) {
+                list(lo.itemCollection);
+                chartFiltered(true);
+                setTimeout(function() {
+                    isBusy(false);
+                }, 500);
+            });
         },
-        attached = function (view) {
+        attached = function(view) {
             chart.init("Pengguna", query, chartSeriesClick, "pengguna-responden-dari-jabatan");
 
             if (typeof partial !== "undefined" && typeof partial.attached === "function") {
@@ -168,13 +159,13 @@ function (context, logger, router, chart, config, partial) {
             }
 
         },
-        clearChartFilter = function () {
+        clearChartFilter = function() {
             chartFiltered(false);
-            var link = $("div.k-pager-wrap a.k-link").not("a.k-state-disabled").first();
-            link.trigger("click");
+            var link = $('div.k-pager-wrap a.k-link').not('a.k-state-disabled').first();
+            link.trigger('click');
             if (link.text() === "2") {
-                setTimeout(function () {
-                    $("div.k-pager-wrap a.k-link").not("a.k-state-disabled").first().trigger("click");
+                setTimeout(function() {
+                    $('div.k-pager-wrap a.k-link').not('a.k-state-disabled').first().trigger('click');
                 }, 500);
             }
         };
