@@ -1,0 +1,53 @@
+{
+  "$type": "Bespoke.epsikologi_soalan.Domain.Soalan, epsikologi.Soalan",
+  "NoRujukan": "8i2K-11",
+  "SoalanNo": "8i2K-11",
+  "TeksSoalan": "Saya tidak suka mengikuti aktiviti keagamaan",
+  "SeksyenSoalan": null,
+  "PilihanJawapanCollection": {
+    "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan]], domain.sph",
+    "$values": [
+      {
+        "$type": "Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan",
+        "Teks": "Sangat tidak setuju",
+        "Nilai": 5,
+        "WebId": "519b7c6d-3711-44c2-9798-2b7bdfbe576d"
+      },
+      {
+        "$type": "Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan",
+        "Teks": "Tidak setuju",
+        "Nilai": 4,
+        "WebId": "16d98840-9df9-4f50-b5f1-4967619fa124"
+      },
+      {
+        "$type": "Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan",
+        "Teks": "Kadang-kadang",
+        "Nilai": 3,
+        "WebId": "21b1cc6e-e683-4075-bc2f-481f8a61d74c"
+      },
+      {
+        "$type": "Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan",
+        "Teks": "Setuju",
+        "Nilai": 2,
+        "WebId": "354cc6d8-d4e7-4841-825d-b6860a543aef"
+      },
+      {
+        "$type": "Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan",
+        "Teks": "Sangat setuju",
+        "Nilai": 1,
+        "WebId": "8ee1f3e5-072c-42aa-b7a4-73346288c2fd"
+      }
+    ]
+  },
+  "Trait": "Spiritual",
+  "NamaUjian": "fa32fa72-22f2-458e-8159-c4285c9173dd",
+  "Susunan": 11.0,
+  "Kategori": null,
+  "Bahagian": null,
+  "CreatedBy": "admin",
+  "Id": "1f11503b-2e2f-4ce8-9860-c7caa264b54e",
+  "CreatedDate": "2015-09-21T16:13:52.8034302+08:00",
+  "ChangedBy": "admin",
+  "ChangedDate": "2015-09-21T16:13:52.8024301+08:00",
+  "WebId": "df1b6986-6922-4d67-b531-7f3a280f4758"
+}
