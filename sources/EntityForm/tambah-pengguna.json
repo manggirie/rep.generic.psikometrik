@@ -117,7 +117,7 @@
           "Size": "input-large",
           "CssClass": "",
           "Visible": "true",
-          "Enable": "false",
+          "Enable": "true",
           "ElementId": "fe3ab0be-a563-496a-8455-b9844518bbf7",
           "HelpText": null,
           "UseDisplayTemplate": false,
@@ -189,7 +189,7 @@
           "Size": "input-large",
           "CssClass": "required",
           "Visible": "true",
-          "Enable": "false",
+          "Enable": "true",
           "ElementId": "d89b9774-d8d1-4420-8caf-f22e0fef1fbb",
           "HelpText": null,
           "UseDisplayTemplate": false,
@@ -233,7 +233,7 @@
           "Size": "input-large",
           "CssClass": "",
           "Visible": "true",
-          "Enable": "false",
+          "Enable": "true",
           "ElementId": "4a95c78f-29f9-47d8-ac6c-bb60cbc1bb89",
           "HelpText": null,
           "UseDisplayTemplate": false,
@@ -329,7 +329,7 @@
           "Size": "input-large",
           "CssClass": "",
           "Visible": "true",
-          "Enable": "false",
+          "Enable": "true",
           "ElementId": "f503e61e-ec70-4106-8d07-1afe70dcf17c",
           "HelpText": null,
           "UseDisplayTemplate": false,
@@ -591,7 +591,7 @@
           "Size": "input-large",
           "CssClass": "required",
           "Visible": "true",
-          "Enable": "false",
+          "Enable": "true",
           "ElementId": "pengguna-pekerjaan",
           "HelpText": null,
           "UseDisplayTemplate": false,
@@ -978,7 +978,7 @@
           "Size": null,
           "CssClass": null,
           "Visible": "ko.unwrap(Pekerjaan) === 'Kerajaan'",
-          "Enable": "false",
+          "Enable": "true",
           "ElementId": "4a411589-c825-4272-8410-6efb9118876e",
           "HelpText": null,
           "UseDisplayTemplate": false,
@@ -1007,39 +1007,63 @@
               },
               {
                 "$type": "Bespoke.Sph.Domain.ComboBoxItem, domain.sph",
-                "Caption": "Kumpulan JKK-D",
-                "Value": "Kumpulan JKK-D",
+                "Caption": "Anggota Pentadbiran",
+                "Value": "Anggota Pentadbiran",
                 "WebId": "7a7a6894-7384-4b77-be23-a034bacec3ac"
               },
               {
                 "$type": "Bespoke.Sph.Domain.ComboBoxItem, domain.sph",
-                "Caption": "Kumpulan Pengurusan Tertinggi",
-                "Value": "Kumpulan Pengurusan Tertinggi",
+                "Caption": "Kumpulan JKK-A",
+                "Value": "Kumpulan JKK-A",
                 "WebId": "b32a3cdd-0a30-49ed-e17c-8c3c2cac8b77"
+              },
+              {
+                "$type": "Bespoke.Sph.Domain.ComboBoxItem, domain.sph",
+                "Caption": "Kumpulan JKK-C",
+                "Value": "Kumpulan JKK-C",
+                "WebId": "e4c58ab8-860f-4151-f9f5-51cf94088d15"
+              },
+              {
+                "$type": "Bespoke.Sph.Domain.ComboBoxItem, domain.sph",
+                "Caption": "Kumpulan JKK-D",
+                "Value": "Kumpulan JKK-D",
+                "WebId": "4e119ef5-e409-48f1-d176-4511436aa48e"
+              },
+              {
+                "$type": "Bespoke.Sph.Domain.ComboBoxItem, domain.sph",
+                "Caption": "Kumpulan Pelaksana",
+                "Value": "Kumpulan Pelaksana",
+                "WebId": "1cc85ef8-0669-4853-f90e-7ac80f0600e4"
               },
               {
                 "$type": "Bespoke.Sph.Domain.ComboBoxItem, domain.sph",
                 "Caption": "Kumpulan Pengurusan dan Profesional",
                 "Value": "Kumpulan Pengurusan dan Profesional",
-                "WebId": "e4c58ab8-860f-4151-f9f5-51cf94088d15"
+                "WebId": "483e56c2-2793-4bd8-acfe-5fbdb1e624b7"
+              },
+              {
+                "$type": "Bespoke.Sph.Domain.ComboBoxItem, domain.sph",
+                "Caption": "Kumpulan Pengurusan Tertinggi",
+                "Value": "Kumpulan Pengurusan Tertinggi",
+                "WebId": "60185b53-43da-4ca1-dd90-1be3b9aa111c"
               },
               {
                 "$type": "Bespoke.Sph.Domain.ComboBoxItem, domain.sph",
                 "Caption": "Kumpulan Skim Perkhidmatan Bersepadu",
                 "Value": "Kumpulan Skim Perkhidmatan Bersepadu",
-                "WebId": "4e119ef5-e409-48f1-d176-4511436aa48e"
+                "WebId": "d3040e0b-a15c-4135-86fa-fab8273b5755"
               },
               {
                 "$type": "Bespoke.Sph.Domain.ComboBoxItem, domain.sph",
                 "Caption": "Kumpulan Sokongan",
                 "Value": "Kumpulan Sokongan",
-                "WebId": "1cc85ef8-0669-4853-f90e-7ac80f0600e4"
+                "WebId": "e6e331cb-beb8-42bf-e690-fd5944b8881f"
               },
               {
                 "$type": "Bespoke.Sph.Domain.ComboBoxItem, domain.sph",
                 "Caption": "Tiada Kumpulan Perkhidmatan",
                 "Value": "Tiada Kumpulan Perkhidmatan",
-                "WebId": "483e56c2-2793-4bd8-acfe-5fbdb1e624b7"
+                "WebId": "3d256bf4-29a0-48b3-d5db-d0353e11fdde"
               }
             ]
           },
@@ -1074,7 +1098,7 @@
           "Size": "input-large",
           "CssClass": "required",
           "Visible": "ko.unwrap(Pekerjaan) === 'Kerajaan'",
-          "Enable": "false",
+          "Enable": "true",
           "ElementId": "136182e1-66a5-4fa8-bba1-e6080deb3fb3",
           "HelpText": null,
           "UseDisplayTemplate": false,
@@ -1118,7 +1142,7 @@
           "Size": "input-large",
           "CssClass": "",
           "Visible": "ko.unwrap(Pekerjaan) === 'Kerajaan'",
-          "Enable": "false",
+          "Enable": "true",
           "ElementId": "5fa43eda-a4b2-4797-80a4-bdfeba53f0b4",
           "HelpText": null,
           "UseDisplayTemplate": false,
@@ -1202,7 +1226,7 @@
           "Size": "input-large",
           "CssClass": "",
           "Visible": "true",
-          "Enable": "false",
+          "Enable": "true",
           "ElementId": "8ec42aeb-5ab2-46f0-c6b5-9c832f9344ca",
           "HelpText": null,
           "UseDisplayTemplate": false,
@@ -1273,7 +1297,7 @@
           "FieldValidation": {
             "$type": "Bespoke.Sph.Domain.FieldValidation, domain.sph",
             "IsRequired": false,
-            "Pattern": "[0-9]{2,3}-[0-9]{6,10}",
+            "Pattern": "",
             "Mode": "",
             "Message": null,
             "Min": null,
@@ -1284,15 +1308,15 @@
           },
           "Name": null,
           "Label": "Telefon",
-          "Tooltip": "e.g. 012-1234567 atau 01-2345678",
+          "Tooltip": "",
           "Path": "Telefon",
           "IsRequired": false,
           "Size": null,
           "CssClass": null,
           "Visible": "true",
-          "Enable": "false",
+          "Enable": "true",
           "ElementId": "32851057-3645-4011-dde6-1c4bba2a746c",
-          "HelpText": "e.g. 012-1234567 atau 01-2345678",
+          "HelpText": "",
           "UseDisplayTemplate": false,
           "ToolboxIconClass": null,
           "IsUniqueName": false,
@@ -1359,6 +1383,6 @@
   "Id": "tambah-pengguna",
   "CreatedDate": "2015-06-16T08:04:09.5205895+08:00",
   "ChangedBy": "admin",
-  "ChangedDate": "2015-09-18T20:44:00.4572677+08:00",
+  "ChangedDate": "2015-09-21T12:11:24.7594743+08:00",
   "WebId": "4e32950c-7d95-4b44-983c-3c3e67811ded"
 }
