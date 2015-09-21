@@ -500,7 +500,7 @@
   "Name": "Ujian details",
   "Route": "ujian-details",
   "Note": null,
-  "IsAllowedNewItem": false,
+  "IsAllowedNewItem": true,
   "IconClass": "glyphicon glyphicon-new-window",
   "IconStoreId": null,
   "IsPublished": true,
@@ -521,6 +521,6 @@
   "Id": "ujian-details",
   "CreatedDate": "2015-06-16T08:05:00.1233093+08:00",
   "ChangedBy": "admin",
-  "ChangedDate": "2015-08-18T12:15:47.1273568+08:00",
+  "ChangedDate": "2015-09-21T10:25:09.4254743+08:00",
   "WebId": "c150aa37-0799-411a-85f5-63fe8e287a65"
 }
