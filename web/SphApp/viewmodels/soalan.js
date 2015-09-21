@@ -123,7 +123,7 @@ function(context, logger, router) {
                     return "blue-madison";
                 case "bred":
                     return "red";
-                case "bgeen":
+                case "bgreen":
                     return "green-meadow";
 
             }

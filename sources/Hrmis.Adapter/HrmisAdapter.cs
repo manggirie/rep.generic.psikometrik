@@ -13,9 +13,9 @@ namespace Hrmis.Adapter
     {
         public async Task<Pengguna> GetUserDetailsByIcNo(string icno)
         {
-            var sql ="SELECT  v.CONm, v.GenderCd, v.Age, v.MrtlStatus, v.AgcyGrpCd, v.AgcyOffclBUTitle, " +
-                     "v.ServGrpTitle, v.ServClassCd, v.SalGrdNum, b.COEmail, b.COHPhoneNo " +
-                      "FROM tblvCOTmpNEW v inner join tblprcobiodata b on v.coid = b.coid " +
+            var sql = "SELECT  v.CONm, v.GenderCd, v.Age, v.MrtlStatus, v.AgcyGrpCd, v.AgcyOffclBUTitle, v.BUTree, v.ServGrpTitle, " +
+                      "v.SalGrdActl, b.COEmail, b.COHPhoneNo " +
+                       "FROM vco v inner join tblprcobiodata b on v.coid = b.coid " +
                       "where v.ICNo =  @IcNo";
            
             using (var conn = new SqlConnection(this.ConnectionString))
@@ -29,16 +29,16 @@ namespace Hrmis.Adapter
                     {
                         var pengguna = new Pengguna();
                         pengguna.Nama = reader["CONm"].ReadNullableString();
-                        pengguna.Umur = Convert.ToInt32(reader["Age"]); //(int)reader["Age"].ToString();
-                        pengguna.Emel = reader["COEmail"].ReadNullableString();
+                        pengguna.Umur = Convert.ToInt32(reader["Age"]);  
+                        pengguna.Emel = reader["COEmail"].ReadNullableString();
                         pengguna.StatusPerkahwinan = reader["MrtlStatus"].ReadNullableString();
                         pengguna.Telefon = reader["COHPhoneNo"].ReadNullableString();
                         pengguna.Jantina = reader["GenderCd"].ReadNullableString();
                         pengguna.JenisPerkhidmatan = reader["AgcyGrpCd"].ReadNullableString();
                         pengguna.KumpulanJawatan = reader["ServGrpTitle"].ReadNullableString();
                         pengguna.NamaJabatan = reader["AgcyOffclBUTitle"].ReadNullableString();
-                        pengguna.Skim = reader["ServClassCd"].ReadNullableString();
-                        pengguna.Gred = reader["SalGrdNum"].ReadNullable<int>().ToString();
+                        pengguna.Bahagian = reader["BUTree"].ReadNullableString();
+                        pengguna.Skim = reader["SalGrdActl"].ReadNullableString();
                         return pengguna;
                     }
 
