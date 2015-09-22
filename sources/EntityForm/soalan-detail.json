@@ -598,7 +598,7 @@
   "IsEmailAvailable": false,
   "IsPrintAvailable": false,
   "IsAuditTrailAvailable": false,
-  "IsRemoveAvailable": false,
+  "IsRemoveAvailable": true,
   "IsImportAvailable": false,
   "IsExportAvailable": false,
   "Operation": "save",
@@ -610,6 +610,6 @@
   "Id": "soalan-detail",
   "CreatedDate": "2015-06-05T10:14:02.1130359+08:00",
   "ChangedBy": "admin",
-  "ChangedDate": "2015-09-21T10:24:17.4944743+08:00",
+  "ChangedDate": "2015-09-21T15:55:48.9480555+08:00",
   "WebId": "22b3c10e-350c-49e9-d8b2-dbf9611bd7e9"
 }
