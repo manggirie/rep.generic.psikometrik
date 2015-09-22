@@ -1,0 +1,53 @@
+{
+  "$type": "Bespoke.epsikologi_soalan.Domain.Soalan, epsikologi.Soalan",
+  "NoRujukan": "8i2K-26",
+  "SoalanNo": "8i2K-26",
+  "TeksSoalan": "Saya sering merasa tidak puas hati tanpa sebab",
+  "SeksyenSoalan": null,
+  "PilihanJawapanCollection": {
+    "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan]], domain.sph",
+    "$values": [
+      {
+        "$type": "Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan",
+        "Teks": "Sangat tidak setuju",
+        "Nilai": 5,
+        "WebId": "b7d4f915-8225-498b-a285-d4804365e234"
+      },
+      {
+        "$type": "Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan",
+        "Teks": "Tidak setuju",
+        "Nilai": 4,
+        "WebId": "9a63590b-7910-47e9-b4ae-e26be6ff93c2"
+      },
+      {
+        "$type": "Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan",
+        "Teks": "Kadang-kadang",
+        "Nilai": 3,
+        "WebId": "c3d8f6d0-f7b5-447f-b3c3-705a1f835ca8"
+      },
+      {
+        "$type": "Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan",
+        "Teks": "Setuju",
+        "Nilai": 2,
+        "WebId": "3fae8280-3019-4e95-acad-e9bd5673385d"
+      },
+      {
+        "$type": "Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan",
+        "Teks": "Sangat setuju",
+        "Nilai": 1,
+        "WebId": "e83b4802-d7a7-46be-89b2-2d050184ca32"
+      }
+    ]
+  },
+  "Trait": "Emosi",
+  "NamaUjian": "fa32fa72-22f2-458e-8159-c4285c9173dd",
+  "Susunan": 26.0,
+  "Kategori": null,
+  "Bahagian": null,
+  "CreatedBy": "admin",
+  "Id": "c54b22c4-ed30-4d64-b163-14b236390710",
+  "CreatedDate": "2015-09-22T10:56:47.5304224+08:00",
+  "ChangedBy": "admin",
+  "ChangedDate": "2015-09-22T10:56:47.5214224+08:00",
+  "WebId": "66429d6e-3360-4c5d-ece9-3cae98a7ff82"
+}
