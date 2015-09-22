@@ -1,0 +1,53 @@
+{
+  "$type": "Bespoke.epsikologi_soalan.Domain.Soalan, epsikologi.Soalan",
+  "NoRujukan": "8i2K-29",
+  "SoalanNo": "8i2K-29",
+  "TeksSoalan": "Saya berjogging 3 kali seminggu",
+  "SeksyenSoalan": null,
+  "PilihanJawapanCollection": {
+    "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan]], domain.sph",
+    "$values": [
+      {
+        "$type": "Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan",
+        "Teks": "Sangat tidak setuju",
+        "Nilai": 1,
+        "WebId": "047a3f5b-3b8c-4fd1-be9a-7b7ff958a778"
+      },
+      {
+        "$type": "Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan",
+        "Teks": "Tidak setuju",
+        "Nilai": 2,
+        "WebId": "3352eea1-fd51-4ef7-af76-27f28c2ccc53"
+      },
+      {
+        "$type": "Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan",
+        "Teks": "Kadang-kadang",
+        "Nilai": 3,
+        "WebId": "7df897f8-12b6-402a-ae6b-5bf84cbf315c"
+      },
+      {
+        "$type": "Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan",
+        "Teks": "Setuju",
+        "Nilai": 4,
+        "WebId": "5d12f526-13e5-4280-acb9-497fc73f4450"
+      },
+      {
+        "$type": "Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan",
+        "Teks": "Sangat setuju",
+        "Nilai": 5,
+        "WebId": "b1a176d3-7a5e-4d0c-bc42-5e88651ddf6b"
+      }
+    ]
+  },
+  "Trait": "Fizikal",
+  "NamaUjian": "fa32fa72-22f2-458e-8159-c4285c9173dd",
+  "Susunan": 29.0,
+  "Kategori": null,
+  "Bahagian": null,
+  "CreatedBy": "admin",
+  "Id": "173eacda-e648-4629-a295-e0b5baeb6dd5",
+  "CreatedDate": "2015-09-22T11:32:39.8674224+08:00",
+  "ChangedBy": "admin",
+  "ChangedDate": "2015-09-22T11:32:39.8664224+08:00",
+  "WebId": "e73db53d-bd8d-47b5-b47a-bb61540be5ec"
+}

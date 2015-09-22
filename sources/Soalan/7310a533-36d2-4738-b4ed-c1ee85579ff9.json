@@ -1,0 +1,53 @@
+{
+  "$type": "Bespoke.epsikologi_soalan.Domain.Soalan, epsikologi.Soalan",
+  "NoRujukan": "8i2K-25",
+  "SoalanNo": "8i2K-25",
+  "TeksSoalan": "Saya suka bertanya sesuatu yang di luar dari kebiasaan",
+  "SeksyenSoalan": null,
+  "PilihanJawapanCollection": {
+    "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan]], domain.sph",
+    "$values": [
+      {
+        "$type": "Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan",
+        "Teks": "Sangat tidak setuju",
+        "Nilai": 1,
+        "WebId": "e47cbe71-8c0a-4feb-934d-99f4106413df"
+      },
+      {
+        "$type": "Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan",
+        "Teks": "Tidak setuju",
+        "Nilai": 2,
+        "WebId": "2767ba96-2c2f-4049-8ac5-34bc71c7851c"
+      },
+      {
+        "$type": "Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan",
+        "Teks": "Kadang-kadang",
+        "Nilai": 3,
+        "WebId": "56b03b8a-54b5-4450-9028-6b4eddbf3d18"
+      },
+      {
+        "$type": "Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan",
+        "Teks": "Setuju",
+        "Nilai": 4,
+        "WebId": "91daab40-7b73-4ad3-a147-5df20d82f67f"
+      },
+      {
+        "$type": "Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan",
+        "Teks": "Sangat setuju",
+        "Nilai": 5,
+        "WebId": "e9cde80b-1f05-4627-9ae8-95742d35319c"
+      }
+    ]
+  },
+  "Trait": "Minda",
+  "NamaUjian": "fa32fa72-22f2-458e-8159-c4285c9173dd",
+  "Susunan": 25.0,
+  "Kategori": null,
+  "Bahagian": null,
+  "CreatedBy": "admin",
+  "Id": "7310a533-36d2-4738-b4ed-c1ee85579ff9",
+  "CreatedDate": "2015-09-22T10:21:52.4424224+08:00",
+  "ChangedBy": "admin",
+  "ChangedDate": "2015-09-22T10:21:52.4334224+08:00",
+  "WebId": "a9247961-a9d8-45d3-c558-73ff57fca8cb"
+}

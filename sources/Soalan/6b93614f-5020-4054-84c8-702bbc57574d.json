@@ -1,0 +1,53 @@
+{
+  "$type": "Bespoke.epsikologi_soalan.Domain.Soalan, epsikologi.Soalan",
+  "NoRujukan": "8i2K-28",
+  "SoalanNo": "8i2K-28",
+  "TeksSoalan": "Saya suka mengambil berat sekiranya rakan menghadapi kesukaran",
+  "SeksyenSoalan": null,
+  "PilihanJawapanCollection": {
+    "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan]], domain.sph",
+    "$values": [
+      {
+        "$type": "Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan",
+        "Teks": "Sangat tidak setuju",
+        "Nilai": 1,
+        "WebId": "a15769ba-1f79-44a1-a4e9-013612db20cb"
+      },
+      {
+        "$type": "Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan",
+        "Teks": "Tidak setuju",
+        "Nilai": 2,
+        "WebId": "ff3f1748-3a06-45bc-9283-8ca87c9ecd40"
+      },
+      {
+        "$type": "Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan",
+        "Teks": "Kadang-kadang",
+        "Nilai": 3,
+        "WebId": "ab6429ee-2a4b-422b-87b5-aa108fdb50b8"
+      },
+      {
+        "$type": "Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan",
+        "Teks": "Setuju",
+        "Nilai": 4,
+        "WebId": "ac2ee3f8-e387-44bf-a3af-26013e7de5df"
+      },
+      {
+        "$type": "Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan",
+        "Teks": "Sangat setuju",
+        "Nilai": 5,
+        "WebId": "02ee5abd-7676-48c4-ba69-22cbdfffe5c3"
+      }
+    ]
+  },
+  "Trait": "Sosial",
+  "NamaUjian": "fa32fa72-22f2-458e-8159-c4285c9173dd",
+  "Susunan": 28.0,
+  "Kategori": null,
+  "Bahagian": null,
+  "CreatedBy": "admin",
+  "Id": "6b93614f-5020-4054-84c8-702bbc57574d",
+  "CreatedDate": "2015-09-22T11:28:56.3354224+08:00",
+  "ChangedBy": "admin",
+  "ChangedDate": "2015-09-22T11:28:56.3254224+08:00",
+  "WebId": "7465189a-b073-4cd5-e8f1-82fdb91a46b1"
+}

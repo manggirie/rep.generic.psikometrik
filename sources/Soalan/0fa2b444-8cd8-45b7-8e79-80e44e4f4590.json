@@ -1,8 +1,8 @@
 {
   "$type": "Bespoke.epsikologi_soalan.Domain.Soalan, epsikologi.Soalan",
-  "NoRujukan": "8i2K-05",
-  "SoalanNo": "8i2K-05",
-  "TeksSoalan": "Saya bersenam mengikut rutin yang tetap",
+  "NoRujukan": "8i2K-24",
+  "SoalanNo": "8i2K-24",
+  "TeksSoalan": "Penyelia  memberi dorongan dan sokongan kepada saya",
   "SeksyenSoalan": null,
   "PilihanJawapanCollection": {
     "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan]], domain.sph",
@@ -11,43 +11,43 @@
         "$type": "Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan",
         "Teks": "Sangat tidak setuju",
         "Nilai": 1,
-        "WebId": "e1bbb87b-e3c3-42e3-a6e8-17c2f200659c"
+        "WebId": "c4e713b1-7596-462f-bfbe-69f62bfca9ad"
       },
       {
         "$type": "Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan",
         "Teks": "Tidak setuju",
         "Nilai": 2,
-        "WebId": "d4fcacff-7ef7-4460-8097-d5b1a4e134b9"
+        "WebId": "c57d5b66-73a0-431d-9682-5f2860b030cb"
       },
       {
         "$type": "Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan",
         "Teks": "Kadang-kadang",
         "Nilai": 3,
-        "WebId": "78582a0b-ebf0-4232-8456-c7afefa827f7"
+        "WebId": "b69817ef-1264-48f7-a614-07115585ab85"
       },
       {
         "$type": "Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan",
         "Teks": "Setuju",
         "Nilai": 4,
-        "WebId": "f5347525-7434-4b25-8d22-81052c88a242"
+        "WebId": "b300ddc4-981d-4d55-8e3c-b9384b0bbdd3"
       },
       {
         "$type": "Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan",
         "Teks": "Sangat setuju",
         "Nilai": 5,
-        "WebId": "8694dc4e-fd1c-4f8c-9872-0426953ea003"
+        "WebId": "776d3870-dd7a-40a9-aefe-14c57931bd86"
       }
     ]
   },
-  "Trait": "Fizikal",
+  "Trait": "Perkerjaan",
   "NamaUjian": "fa32fa72-22f2-458e-8159-c4285c9173dd",
-  "Susunan": 5.0,
+  "Susunan": 24.0,
   "Kategori": null,
   "Bahagian": null,
   "CreatedBy": "admin",
-  "Id": "1535b70e-a491-4e40-9545-47ae8ebcb6a7",
-  "CreatedDate": "2015-09-21T15:43:09.3381021+08:00",
+  "Id": "0fa2b444-8cd8-45b7-8e79-80e44e4f4590",
+  "CreatedDate": "2015-09-22T10:04:53.7924224+08:00",
   "ChangedBy": "admin",
-  "ChangedDate": "2015-09-21T15:43:09.337102+08:00",
-  "WebId": "7ae9bfd1-60b6-4e0f-9e36-a3c3bccca304"
+  "ChangedDate": "2015-09-22T10:04:53.7814224+08:00",
+  "WebId": "eb63924a-c35f-40cd-bb80-c8d1f26e3050"
 }
