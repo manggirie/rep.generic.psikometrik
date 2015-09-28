@@ -19,7 +19,7 @@
   "Name": "Penyelaras",
   "Description": "Penyelaras Responden untuk Jabatan",
   "IsActive": false,
-  "StartModule": "responden-home",
+  "StartModule": "penyelaras-home",
   "EnforceStartModule": true,
   "IsSearchVisible": false,
   "IsMessageVisible": true,
@@ -31,6 +31,6 @@
   "Id": "penyelaras",
   "CreatedDate": "2015-06-26T07:47:21.1158608+08:00",
   "ChangedBy": "admin",
-  "ChangedDate": "2015-07-27T08:01:25.9485796+08:00",
+  "ChangedDate": "2015-09-29T07:49:24.3966869+08:00",
   "WebId": "0009e784-16b2-49a6-9f13-e9ecf18c5454"
 }
