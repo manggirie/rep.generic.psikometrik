@@ -1,0 +1,53 @@
+{
+  "$type": "Bespoke.epsikologi_soalan.Domain.Soalan, epsikologi.Soalan",
+  "NoRujukan": "8i2K-52",
+  "SoalanNo": "8i2K-52",
+  "TeksSoalan": "Saya sentiasa berusaha agar tidak mempunyai sebarang konflik dengan rakan sekerja",
+  "SeksyenSoalan": null,
+  "PilihanJawapanCollection": {
+    "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan]], domain.sph",
+    "$values": [
+      {
+        "$type": "Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan",
+        "Teks": "Sangat tidak setuju",
+        "Nilai": 1,
+        "WebId": "689e1a70-6cca-4c1c-b936-a1b8b95cc160"
+      },
+      {
+        "$type": "Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan",
+        "Teks": "Tidak setuju",
+        "Nilai": 2,
+        "WebId": "81ed63a8-43f4-48b0-aeb5-aae7b281fa87"
+      },
+      {
+        "$type": "Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan",
+        "Teks": "Kadang-kadang",
+        "Nilai": 3,
+        "WebId": "c84ed924-f6cb-4b2d-ab39-94cddb0beef0"
+      },
+      {
+        "$type": "Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan",
+        "Teks": "Setuju",
+        "Nilai": 4,
+        "WebId": "82337797-b023-47d3-9a88-55c978d13500"
+      },
+      {
+        "$type": "Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan",
+        "Teks": "Sangat setuju",
+        "Nilai": 5,
+        "WebId": "da4873e1-d69e-4865-bdfe-ce650e5b9232"
+      }
+    ]
+  },
+  "Trait": "Sosial",
+  "NamaUjian": "fa32fa72-22f2-458e-8159-c4285c9173dd",
+  "Susunan": 52.0,
+  "Kategori": null,
+  "Bahagian": null,
+  "CreatedBy": "admin",
+  "Id": "91fd1467-2f2f-4c94-9492-2b5805119982",
+  "CreatedDate": "2015-09-28T10:53:11.1950047+08:00",
+  "ChangedBy": "admin",
+  "ChangedDate": "2015-09-28T10:54:24.8873732+08:00",
+  "WebId": "9235c9f3-e9c7-4c2a-c580-ffcd3eec4e71"
+}

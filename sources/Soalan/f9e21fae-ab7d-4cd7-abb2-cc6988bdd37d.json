@@ -1,0 +1,53 @@
+{
+  "$type": "Bespoke.epsikologi_soalan.Domain.Soalan, epsikologi.Soalan",
+  "NoRujukan": "8i2K-50",
+  "SoalanNo": "8i2K-50",
+  "TeksSoalan": "Saya tidak akan mencuba lagi apabila gagal dalam melaksanakan tugasan",
+  "SeksyenSoalan": null,
+  "PilihanJawapanCollection": {
+    "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan]], domain.sph",
+    "$values": [
+      {
+        "$type": "Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan",
+        "Teks": "Sangat tidak setuju",
+        "Nilai": 5,
+        "WebId": "38902b47-e008-462c-90ed-3f31f2de2769"
+      },
+      {
+        "$type": "Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan",
+        "Teks": "Tidak setuju",
+        "Nilai": 4,
+        "WebId": "28e2e49c-9b1e-496b-a1c5-9ad2b3bd8f67"
+      },
+      {
+        "$type": "Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan",
+        "Teks": "Kadang-kadang",
+        "Nilai": 3,
+        "WebId": "38c4ccb4-5ef3-43e3-889b-529027dd45b1"
+      },
+      {
+        "$type": "Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan",
+        "Teks": "Setuju",
+        "Nilai": 2,
+        "WebId": "58aa1ba4-0362-4a45-9825-52e65c4d77da"
+      },
+      {
+        "$type": "Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan",
+        "Teks": "Sangat setuju",
+        "Nilai": 1,
+        "WebId": "f23db77f-2025-4d22-8065-a749faf370e3"
+      }
+    ]
+  },
+  "Trait": "Emosi",
+  "NamaUjian": "fa32fa72-22f2-458e-8159-c4285c9173dd",
+  "Susunan": 50.0,
+  "Kategori": null,
+  "Bahagian": null,
+  "CreatedBy": "admin",
+  "Id": "f9e21fae-ab7d-4cd7-abb2-cc6988bdd37d",
+  "CreatedDate": "2015-09-28T10:35:39.0648022+08:00",
+  "ChangedBy": "admin",
+  "ChangedDate": "2015-09-28T10:35:39.0648022+08:00",
+  "WebId": "bb07a66b-7a8c-472d-884c-63dc3c163dd2"
+}

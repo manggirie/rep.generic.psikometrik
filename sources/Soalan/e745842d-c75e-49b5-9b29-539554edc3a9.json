@@ -1,0 +1,53 @@
+{
+  "$type": "Bespoke.epsikologi_soalan.Domain.Soalan, epsikologi.Soalan",
+  "NoRujukan": "8i2K-35",
+  "SoalanNo": "8i2K-35",
+  "TeksSoalan": "Saya pernah mengetik kad perakam waktu rakan saya",
+  "SeksyenSoalan": null,
+  "PilihanJawapanCollection": {
+    "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan]], domain.sph",
+    "$values": [
+      {
+        "$type": "Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan",
+        "Teks": "Sangat tidak setuju",
+        "Nilai": 5,
+        "WebId": "0dae5cf0-e5bf-4bcb-9696-839244031e0b"
+      },
+      {
+        "$type": "Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan",
+        "Teks": "Tidak setuju",
+        "Nilai": 4,
+        "WebId": "5b8dca5e-105a-4649-a446-82435ebca5cf"
+      },
+      {
+        "$type": "Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan",
+        "Teks": "Kadang-kadang",
+        "Nilai": 3,
+        "WebId": "d8d03c52-2129-403b-ae77-b0110bf4a438"
+      },
+      {
+        "$type": "Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan",
+        "Teks": "Setuju",
+        "Nilai": 2,
+        "WebId": "ca3af99f-06c2-47f0-92c8-8771b27b97f8"
+      },
+      {
+        "$type": "Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan",
+        "Teks": "Sangat setuju",
+        "Nilai": 1,
+        "WebId": "74bc78e1-afc8-4a3c-804a-65f7f56a35d8"
+      }
+    ]
+  },
+  "Trait": "Spiritual",
+  "NamaUjian": "fa32fa72-22f2-458e-8159-c4285c9173dd",
+  "Susunan": 35.0,
+  "Kategori": null,
+  "Bahagian": null,
+  "CreatedBy": "admin",
+  "Id": "e745842d-c75e-49b5-9b29-539554edc3a9",
+  "CreatedDate": "2015-09-23T09:18:00.406161+08:00",
+  "ChangedBy": "admin",
+  "ChangedDate": "2015-09-23T09:18:00.4051609+08:00",
+  "WebId": "3ae8ef85-8032-4883-d136-0ed6da050840"
+}

@@ -1,0 +1,53 @@
+{
+  "$type": "Bespoke.epsikologi_soalan.Domain.Soalan, epsikologi.Soalan",
+  "NoRujukan": "8i2K-45",
+  "SoalanNo": "8i2K-45",
+  "TeksSoalan": "Saya berimaginasi perkara-perkara yang menarik untuk relaksasi",
+  "SeksyenSoalan": null,
+  "PilihanJawapanCollection": {
+    "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan]], domain.sph",
+    "$values": [
+      {
+        "$type": "Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan",
+        "Teks": "Sangat tidak setuju",
+        "Nilai": 1,
+        "WebId": "31b5acb0-b16d-4b9c-ab3d-c3dc2ffe4d2b"
+      },
+      {
+        "$type": "Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan",
+        "Teks": "Tidak setuju",
+        "Nilai": 2,
+        "WebId": "a0771be1-0ff6-404b-927a-289b1e64da32"
+      },
+      {
+        "$type": "Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan",
+        "Teks": "Kadang-kadang",
+        "Nilai": 3,
+        "WebId": "5a2f058c-6529-49bd-89c2-80a8f4039072"
+      },
+      {
+        "$type": "Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan",
+        "Teks": "Setuju",
+        "Nilai": 4,
+        "WebId": "61223511-06ec-4c64-90c9-ae5b74a5ef03"
+      },
+      {
+        "$type": "Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan",
+        "Teks": "Sangat setuju",
+        "Nilai": 5,
+        "WebId": "a15d954c-2628-4b8c-a3aa-f4434527ae8a"
+      }
+    ]
+  },
+  "Trait": "Fizikal",
+  "NamaUjian": "fa32fa72-22f2-458e-8159-c4285c9173dd",
+  "Susunan": 45.0,
+  "Kategori": null,
+  "Bahagian": null,
+  "CreatedBy": "admin",
+  "Id": "f5a59461-cd9c-4f4c-9952-271430736472",
+  "CreatedDate": "2015-09-23T16:43:02.541366+08:00",
+  "ChangedBy": "admin",
+  "ChangedDate": "2015-09-23T16:43:02.540366+08:00",
+  "WebId": "5c1e3e99-2cfd-4c6a-eda1-1377ab6ea8a4"
+}

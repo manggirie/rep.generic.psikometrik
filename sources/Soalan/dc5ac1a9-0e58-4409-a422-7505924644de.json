@@ -1,0 +1,53 @@
+{
+  "$type": "Bespoke.epsikologi_soalan.Domain.Soalan, epsikologi.Soalan",
+  "NoRujukan": "8i2K-48",
+  "SoalanNo": "8i2K-48",
+  "TeksSoalan": "Saya seorang yang berdisiplin",
+  "SeksyenSoalan": null,
+  "PilihanJawapanCollection": {
+    "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan]], domain.sph",
+    "$values": [
+      {
+        "$type": "Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan",
+        "Teks": "Sangat tidak setuju",
+        "Nilai": 1,
+        "WebId": "5415a82f-9263-4c24-8d0c-8531f046d22b"
+      },
+      {
+        "$type": "Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan",
+        "Teks": "Tidak setuju",
+        "Nilai": 2,
+        "WebId": "f449225e-6f2e-4288-8045-225ae888a9e2"
+      },
+      {
+        "$type": "Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan",
+        "Teks": "Kadang-kadang",
+        "Nilai": 3,
+        "WebId": "3178a09f-d787-4cbc-8fc3-931f409ccbdc"
+      },
+      {
+        "$type": "Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan",
+        "Teks": "Setuju",
+        "Nilai": 4,
+        "WebId": "cbd816a8-7ca1-4e7e-9f29-b51632f92c22"
+      },
+      {
+        "$type": "Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan",
+        "Teks": "Sangat setuju",
+        "Nilai": 5,
+        "WebId": "faf7fde3-e12e-4549-9d9a-86a0967ed559"
+      }
+    ]
+  },
+  "Trait": "Pekerjaan",
+  "NamaUjian": "fa32fa72-22f2-458e-8159-c4285c9173dd",
+  "Susunan": 48.0,
+  "Kategori": null,
+  "Bahagian": null,
+  "CreatedBy": "admin",
+  "Id": "dc5ac1a9-0e58-4409-a422-7505924644de",
+  "CreatedDate": "2015-09-23T16:56:57.919366+08:00",
+  "ChangedBy": "admin",
+  "ChangedDate": "2015-09-23T16:56:57.918366+08:00",
+  "WebId": "23d24329-e599-4a2a-b79d-c9d73f1c5453"
+}

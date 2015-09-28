@@ -1,0 +1,53 @@
+{
+  "$type": "Bespoke.epsikologi_soalan.Domain.Soalan, epsikologi.Soalan",
+  "NoRujukan": "8i2K-43",
+  "SoalanNo": "8i2K-43",
+  "TeksSoalan": "Saya mengamalkan ajaran agama",
+  "SeksyenSoalan": null,
+  "PilihanJawapanCollection": {
+    "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan]], domain.sph",
+    "$values": [
+      {
+        "$type": "Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan",
+        "Teks": "Sangat tidak setuju",
+        "Nilai": 1,
+        "WebId": "420397f6-1e79-4677-a36d-b00c0c46a20b"
+      },
+      {
+        "$type": "Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan",
+        "Teks": "Tidak setuju",
+        "Nilai": 2,
+        "WebId": "56fbeb1a-5fbf-46cb-92bb-3cb6f70fd7ec"
+      },
+      {
+        "$type": "Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan",
+        "Teks": "Kadang-kadang",
+        "Nilai": 3,
+        "WebId": "53478923-247d-49cb-bbb4-3ef81ec34d56"
+      },
+      {
+        "$type": "Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan",
+        "Teks": "Setuju",
+        "Nilai": 4,
+        "WebId": "3f2c7447-23c5-4bd0-9f8a-e9d48442e23e"
+      },
+      {
+        "$type": "Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan",
+        "Teks": "Sangat setuju",
+        "Nilai": 5,
+        "WebId": "96128794-4ad4-4cc0-aee4-ce56c9be8223"
+      }
+    ]
+  },
+  "Trait": "Spiritual",
+  "NamaUjian": "fa32fa72-22f2-458e-8159-c4285c9173dd",
+  "Susunan": 43.0,
+  "Kategori": null,
+  "Bahagian": null,
+  "CreatedBy": "admin",
+  "Id": "7fb06d79-6dbb-467e-b14a-eb9603ee3f9a",
+  "CreatedDate": "2015-09-23T16:25:27.046366+08:00",
+  "ChangedBy": "admin",
+  "ChangedDate": "2015-09-23T16:25:27.044366+08:00",
+  "WebId": "3ebf82bd-9c74-4b72-cea5-6382bb5146cd"
+}

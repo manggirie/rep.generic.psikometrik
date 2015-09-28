@@ -1,0 +1,53 @@
+{
+  "$type": "Bespoke.epsikologi_soalan.Domain.Soalan, epsikologi.Soalan",
+  "NoRujukan": "8i2K-37",
+  "SoalanNo": "8i2K-37",
+  "TeksSoalan": "Saya bersukan bersama keluarga",
+  "SeksyenSoalan": null,
+  "PilihanJawapanCollection": {
+    "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan]], domain.sph",
+    "$values": [
+      {
+        "$type": "Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan",
+        "Teks": "Sangat tidak setuju",
+        "Nilai": 1,
+        "WebId": "1605d1e1-a5d9-4e24-b195-fa7081eb9dda"
+      },
+      {
+        "$type": "Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan",
+        "Teks": "Tidak setuju",
+        "Nilai": 2,
+        "WebId": "845d5fde-4875-47d9-b9cc-3eb72e864754"
+      },
+      {
+        "$type": "Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan",
+        "Teks": "Kadang-kadang",
+        "Nilai": 3,
+        "WebId": "302a7dcd-3629-4d35-9dca-2a7a0146da7e"
+      },
+      {
+        "$type": "Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan",
+        "Teks": "Setuju",
+        "Nilai": 4,
+        "WebId": "7e72e5bf-86e9-404d-a264-c8f7c19d2a25"
+      },
+      {
+        "$type": "Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan",
+        "Teks": "Sangat setuju",
+        "Nilai": 5,
+        "WebId": "9cf212b7-6153-479d-9610-988147014041"
+      }
+    ]
+  },
+  "Trait": "Fizikal",
+  "NamaUjian": "fa32fa72-22f2-458e-8159-c4285c9173dd",
+  "Susunan": 37.0,
+  "Kategori": null,
+  "Bahagian": null,
+  "CreatedBy": "admin",
+  "Id": "0229d244-baf2-44b5-b00e-6b21195dbd01",
+  "CreatedDate": "2015-09-23T09:27:16.5577706+08:00",
+  "ChangedBy": "admin",
+  "ChangedDate": "2015-09-23T09:27:16.5487697+08:00",
+  "WebId": "3820f9c8-e89f-4592-f5da-d3b07d6b4a08"
+}
