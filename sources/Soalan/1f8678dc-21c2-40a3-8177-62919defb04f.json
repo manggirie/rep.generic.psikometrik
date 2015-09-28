@@ -1,0 +1,53 @@
+{
+  "$type": "Bespoke.epsikologi_soalan.Domain.Soalan, epsikologi.Soalan",
+  "NoRujukan": "8i2K-31",
+  "SoalanNo": "8i2K-31",
+  "TeksSoalan": "Organisasi saya menggalakkan penanaman pokok di sekitar bangunan",
+  "SeksyenSoalan": null,
+  "PilihanJawapanCollection": {
+    "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan]], domain.sph",
+    "$values": [
+      {
+        "$type": "Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan",
+        "Teks": "Sangat tidak setuju",
+        "Nilai": 1,
+        "WebId": "540ee6ad-a0d1-4c01-8257-07574339f6b1"
+      },
+      {
+        "$type": "Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan",
+        "Teks": "Tidak setuju",
+        "Nilai": 2,
+        "WebId": "b9cac0c2-5ab0-4386-956d-a9a123d37275"
+      },
+      {
+        "$type": "Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan",
+        "Teks": "Kadang-kadang",
+        "Nilai": 3,
+        "WebId": "2ccef04d-8395-4176-a059-b7c66c50bb25"
+      },
+      {
+        "$type": "Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan",
+        "Teks": "Setuju",
+        "Nilai": 4,
+        "WebId": "33c7db59-4cd3-4543-8d0d-a3c15203f34a"
+      },
+      {
+        "$type": "Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan",
+        "Teks": "Sangat setuju",
+        "Nilai": 5,
+        "WebId": "9b972a8a-f47c-42cb-a40e-a89a5c9e124f"
+      }
+    ]
+  },
+  "Trait": "Persekitaran",
+  "NamaUjian": "fa32fa72-22f2-458e-8159-c4285c9173dd",
+  "Susunan": 31.0,
+  "Kategori": null,
+  "Bahagian": null,
+  "CreatedBy": "admin",
+  "Id": "1f8678dc-21c2-40a3-8177-62919defb04f",
+  "CreatedDate": "2015-09-22T15:55:03.2954224+08:00",
+  "ChangedBy": "admin",
+  "ChangedDate": "2015-09-22T15:55:03.2864224+08:00",
+  "WebId": "f093288d-5a6f-4cbe-e596-74e7a985b579"
+}

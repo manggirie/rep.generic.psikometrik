@@ -1,0 +1,53 @@
+{
+  "$type": "Bespoke.epsikologi_soalan.Domain.Soalan, epsikologi.Soalan",
+  "NoRujukan": "8i2K-34",
+  "SoalanNo": "8i2K-34",
+  "TeksSoalan": "Saya bukan seorang yang periang",
+  "SeksyenSoalan": null,
+  "PilihanJawapanCollection": {
+    "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan]], domain.sph",
+    "$values": [
+      {
+        "$type": "Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan",
+        "Teks": "Sangat tidak setuju",
+        "Nilai": 5,
+        "WebId": "82e1d4c2-d121-413f-bcc7-44673d461ec7"
+      },
+      {
+        "$type": "Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan",
+        "Teks": "Tidak setuju",
+        "Nilai": 4,
+        "WebId": "a3677605-53cc-40ae-b516-be3f9c9eb8f5"
+      },
+      {
+        "$type": "Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan",
+        "Teks": "Kadang-kadang",
+        "Nilai": 3,
+        "WebId": "620241aa-3852-4e7d-9f54-6bd2d9d37d51"
+      },
+      {
+        "$type": "Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan",
+        "Teks": "Setuju",
+        "Nilai": 2,
+        "WebId": "c7d7dda0-0856-4dd0-8b80-0b83b799ef5b"
+      },
+      {
+        "$type": "Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan",
+        "Teks": "Sangat setuju",
+        "Nilai": 1,
+        "WebId": "48a2d3ab-bcd6-4556-a41f-9c0b172ba6f8"
+      }
+    ]
+  },
+  "Trait": "Emosi",
+  "NamaUjian": "fa32fa72-22f2-458e-8159-c4285c9173dd",
+  "Susunan": 34.0,
+  "Kategori": null,
+  "Bahagian": null,
+  "CreatedBy": "admin",
+  "Id": "71f4e832-f334-4120-844b-88117795cf79",
+  "CreatedDate": "2015-09-23T09:15:16.2427463+08:00",
+  "ChangedBy": "admin",
+  "ChangedDate": "2015-09-23T09:15:16.2417462+08:00",
+  "WebId": "80304f6a-7333-4e1e-f856-4f8292a802cc"
+}
