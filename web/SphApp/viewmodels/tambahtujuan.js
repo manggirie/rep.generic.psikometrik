@@ -72,7 +72,7 @@
                         .then(function(result) {
                             tcs.resolve(result);
                             entity().Id(result.id);
-                            app.showMessage("Your permohonan has been successfully saved", "epsikologi", ["ok"]);
+                            app.showMessage("Permohonan berjaya dihantar", "epsikologi", ["ok"]);
 
                         });
                     

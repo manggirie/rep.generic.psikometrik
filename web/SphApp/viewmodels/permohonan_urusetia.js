@@ -128,7 +128,7 @@
                         .then(function(result) {
                             tcs.resolve(result);
                             entity().Id(result.id);
-                            app.showMessage("Your Permohonan has been successfully saved", "JPA Sistem Ujian e-Psikometrik", ["ok"]);
+                            app.showMessage("Permohonan berjaya dihantar", "JPA Sistem Ujian e-Psikometrik", ["ok"]);
 
                         });
                     
