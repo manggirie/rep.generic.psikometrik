@@ -62,7 +62,9 @@ define(["plugins/dialog", "services/datacontext", "services/config"],
                 }
 
                 if (config.profile.Designation === "Urusetia") {
-                    delete query.filter;
+                    query.filter.bool.must = [{
+                        term: { "IsResponden": true}
+                    }];
                 }
                 return context.searchAsync({ entity: "Pengguna" }, query)
                     .done(function (lo) {
@@ -85,9 +87,9 @@ define(["plugins/dialog", "services/datacontext", "services/config"],
 
                 if (config.profile.Designation === "Urusetia") {
 
-                            searchText("*");
-                            return searchAsync();
-                     
+                    searchText("*");
+                    return searchAsync();
+
                 }
                 return context.getScalarAsync("Pengguna", "MyKad eq '" + config.userName + "'", "NamaKementerian")
                     .then(function (ministry) {
