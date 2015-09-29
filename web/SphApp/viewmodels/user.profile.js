@@ -50,9 +50,9 @@ define([objectbuilders.datacontext, objectbuilders.config, objectbuilders.app],
                     app.showMessage("Maklumat Profil anda sudah berjaya disimpan", "Sistem Ujian Psikometrik", ["OK"]);
                 });
             }
-            pengguna().Telefon(ko.unwrap(userProfile.Telephone));
-            pengguna().Emel(ko.unwrap(userProfile.Email));
-            pengguna().Nama(ko.unwrap(userProfile.FullName));
+            pengguna().Telefon(ko.unwrap(userProfile().Telephone));
+            pengguna().Emel(ko.unwrap(userProfile().Email));
+            pengguna().Nama(ko.unwrap(userProfile().FullName));
 
             return context.post(ko.toJSON(pengguna), "/Pengguna/Save")
               .then(function () {
