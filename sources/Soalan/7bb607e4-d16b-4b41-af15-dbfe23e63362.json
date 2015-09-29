@@ -1,0 +1,53 @@
+{
+  "$type": "Bespoke.epsikologi_soalan.Domain.Soalan, epsikologi.Soalan",
+  "NoRujukan": "8i2K-67",
+  "SoalanNo": "8i2K-67",
+  "TeksSoalan": "Saya berhemah apabila berbual dengan individu lain",
+  "SeksyenSoalan": null,
+  "PilihanJawapanCollection": {
+    "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan]], domain.sph",
+    "$values": [
+      {
+        "$type": "Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan",
+        "Teks": "Sangat tidak setuju",
+        "Nilai": 1,
+        "WebId": "eabbc0e5-839e-4445-a91e-dd272391b358"
+      },
+      {
+        "$type": "Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan",
+        "Teks": "Tidak setuju",
+        "Nilai": 2,
+        "WebId": "8e4235c9-f0f2-4e63-9b4d-0d160001b26e"
+      },
+      {
+        "$type": "Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan",
+        "Teks": "Kadang-kadang",
+        "Nilai": 3,
+        "WebId": "1c6b4dbd-e1a0-4d4c-a663-713df7aaffff"
+      },
+      {
+        "$type": "Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan",
+        "Teks": "Setuju",
+        "Nilai": 4,
+        "WebId": "665f4663-c022-4829-aa79-f3b7accf540f"
+      },
+      {
+        "$type": "Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan",
+        "Teks": "Sangat setuju",
+        "Nilai": 5,
+        "WebId": "9806768b-a4fd-47ae-bc8d-b7872fdc52da"
+      }
+    ]
+  },
+  "Trait": "Sosial",
+  "NamaUjian": "fa32fa72-22f2-458e-8159-c4285c9173dd",
+  "Susunan": 67.0,
+  "Kategori": null,
+  "Bahagian": null,
+  "CreatedBy": "admin",
+  "Id": "7bb607e4-d16b-4b41-af15-dbfe23e63362",
+  "CreatedDate": "2015-09-29T10:15:17.7301088+08:00",
+  "ChangedBy": "admin",
+  "ChangedDate": "2015-09-29T10:15:17.7211088+08:00",
+  "WebId": "dc03e04b-bea6-43e5-b86d-b1f0b8af63e0"
+}

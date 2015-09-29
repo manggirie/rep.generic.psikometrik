@@ -1,0 +1,53 @@
+{
+  "$type": "Bespoke.epsikologi_soalan.Domain.Soalan, epsikologi.Soalan",
+  "NoRujukan": "8i2K-78",
+  "SoalanNo": "8i2K-78",
+  "TeksSoalan": "Saya menimba ilmu untuk terus maju",
+  "SeksyenSoalan": null,
+  "PilihanJawapanCollection": {
+    "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan]], domain.sph",
+    "$values": [
+      {
+        "$type": "Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan",
+        "Teks": "Sangat tidak setuju",
+        "Nilai": 1,
+        "WebId": "b6190105-40e2-4796-b2f5-0b80d6dc7e38"
+      },
+      {
+        "$type": "Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan",
+        "Teks": "Tidak setuju",
+        "Nilai": 2,
+        "WebId": "ecad1e6c-c0a9-4427-8fed-667abd3aef71"
+      },
+      {
+        "$type": "Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan",
+        "Teks": "Kadang-kadang",
+        "Nilai": 3,
+        "WebId": "dbaacc25-9d25-4a63-b357-0c764578a9df"
+      },
+      {
+        "$type": "Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan",
+        "Teks": "Setuju",
+        "Nilai": 4,
+        "WebId": "240d7ebf-778c-4a93-8935-d65b4ae3dfe1"
+      },
+      {
+        "$type": "Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan",
+        "Teks": "Sangat setuju",
+        "Nilai": 5,
+        "WebId": "aaa039d8-eed2-41e7-ac27-4b4a74a73aa2"
+      }
+    ]
+  },
+  "Trait": "Minda",
+  "NamaUjian": "fa32fa72-22f2-458e-8159-c4285c9173dd",
+  "Susunan": 78.0,
+  "Kategori": null,
+  "Bahagian": null,
+  "CreatedBy": "admin",
+  "Id": "d0a12bf5-a7af-47d0-88e6-44ec55716412",
+  "CreatedDate": "2015-09-29T15:51:14.5348289+08:00",
+  "ChangedBy": "admin",
+  "ChangedDate": "2015-09-29T15:51:14.5338288+08:00",
+  "WebId": "3905758a-c0af-4c26-c90a-3c6b11ae9283"
+}

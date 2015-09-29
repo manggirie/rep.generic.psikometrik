@@ -1,0 +1,53 @@
+{
+  "$type": "Bespoke.epsikologi_soalan.Domain.Soalan, epsikologi.Soalan",
+  "NoRujukan": "8i2K-72",
+  "SoalanNo": "8i2K-72",
+  "TeksSoalan": "Saya seorang yang mudah tersinggung",
+  "SeksyenSoalan": null,
+  "PilihanJawapanCollection": {
+    "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan]], domain.sph",
+    "$values": [
+      {
+        "$type": "Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan",
+        "Teks": "Sangat tidak setuju",
+        "Nilai": 5,
+        "WebId": "816ab4bb-f548-41e0-a82c-ffda8181725b"
+      },
+      {
+        "$type": "Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan",
+        "Teks": "Tidak setuju",
+        "Nilai": 4,
+        "WebId": "def0c6a5-b312-4635-a257-8b95909a2dd2"
+      },
+      {
+        "$type": "Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan",
+        "Teks": "Kadang-kadang",
+        "Nilai": 3,
+        "WebId": "ec1f26a8-83b3-42be-a357-df64fc118d9e"
+      },
+      {
+        "$type": "Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan",
+        "Teks": "Setuju",
+        "Nilai": 2,
+        "WebId": "1a9059b0-1fff-4ec6-8ed2-0a0cac1ee3e9"
+      },
+      {
+        "$type": "Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan",
+        "Teks": "Sangat setuju",
+        "Nilai": 1,
+        "WebId": "e11b69ae-f3bd-4370-b44d-aa083e0f5c84"
+      }
+    ]
+  },
+  "Trait": "Emosi",
+  "NamaUjian": "fa32fa72-22f2-458e-8159-c4285c9173dd",
+  "Susunan": 72.0,
+  "Kategori": null,
+  "Bahagian": null,
+  "CreatedBy": "admin",
+  "Id": "ece6bb0f-ea86-4d15-955f-68170923285f",
+  "CreatedDate": "2015-09-29T15:41:17.6881502+08:00",
+  "ChangedBy": "admin",
+  "ChangedDate": "2015-09-29T15:41:17.6871501+08:00",
+  "WebId": "6a29e4f9-87e5-4e82-d3c1-162ef8548582"
+}

@@ -1,0 +1,53 @@
+{
+  "$type": "Bespoke.epsikologi_soalan.Domain.Soalan, epsikologi.Soalan",
+  "NoRujukan": "8i2K-71",
+  "SoalanNo": "8i2K-71",
+  "TeksSoalan": "Saya mengikuti kursus untuk meningkatkan kemahiran kerja",
+  "SeksyenSoalan": null,
+  "PilihanJawapanCollection": {
+    "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan]], domain.sph",
+    "$values": [
+      {
+        "$type": "Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan",
+        "Teks": "Sangat tidak setuju",
+        "Nilai": 1,
+        "WebId": "7c917d81-70de-4d67-a8f1-0791bbf11941"
+      },
+      {
+        "$type": "Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan",
+        "Teks": "Tidak setuju",
+        "Nilai": 2,
+        "WebId": "224c27cc-5dd6-4d0b-bbce-91eaedc0812d"
+      },
+      {
+        "$type": "Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan",
+        "Teks": "Kadang-kadang",
+        "Nilai": 3,
+        "WebId": "b200fb04-f59b-414d-99cb-2a3532f805c7"
+      },
+      {
+        "$type": "Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan",
+        "Teks": "Setuju",
+        "Nilai": 4,
+        "WebId": "3876f0b9-3b27-4f8d-82d8-e7ceb997ac92"
+      },
+      {
+        "$type": "Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan",
+        "Teks": "Sangat setuju",
+        "Nilai": 5,
+        "WebId": "7351eadf-a98e-4a68-b8b5-ca105fa5ce0b"
+      }
+    ]
+  },
+  "Trait": "Minda",
+  "NamaUjian": "fa32fa72-22f2-458e-8159-c4285c9173dd",
+  "Susunan": 71.0,
+  "Kategori": null,
+  "Bahagian": null,
+  "CreatedBy": "admin",
+  "Id": "92225c30-0fde-4d23-84c1-f0f2270f292f",
+  "CreatedDate": "2015-09-29T15:39:57.9921814+08:00",
+  "ChangedBy": "admin",
+  "ChangedDate": "2015-09-29T15:39:57.9911813+08:00",
+  "WebId": "72e88947-6c69-4e73-b81e-1101f652df9b"
+}
