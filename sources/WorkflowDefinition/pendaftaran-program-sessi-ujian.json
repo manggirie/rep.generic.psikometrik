@@ -13,7 +13,6 @@
         "Cc": null,
         "Bcc": null,
         "IsHtmlEmail": false,
-        "IsMessageSuppressed": false,
         "IsAsync": false,
         "ExecutedCode": null,
         "ExecutingCode": null,
@@ -40,8 +39,7 @@
               "AttributeCollection": {
                 "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[System.String, mscorlib]], domain.sph",
                 "$values": []
-              },
-              "IsPartial": false
+              }
             },
             {
               "$type": "Bespoke.Sph.Domain.Codes.Method, domain.sph",
@@ -62,8 +60,7 @@
               "AttributeCollection": {
                 "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[System.String, mscorlib]], domain.sph",
                 "$values": []
-              },
-              "IsPartial": false
+              }
             },
             {
               "$type": "Bespoke.Sph.Domain.Codes.Method, domain.sph",
@@ -84,8 +81,7 @@
               "AttributeCollection": {
                 "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[System.String, mscorlib]], domain.sph",
                 "$values": []
-              },
-              "IsPartial": false
+              }
             },
             {
               "$type": "Bespoke.Sph.Domain.Codes.Method, domain.sph",
@@ -106,8 +102,7 @@
               "AttributeCollection": {
                 "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[System.String, mscorlib]], domain.sph",
                 "$values": []
-              },
-              "IsPartial": false
+              }
             }
           ]
         },
@@ -174,7 +169,7 @@
       },
       {
         "$type": "Bespoke.Sph.Domain.ExpressionActivity, domain.sph",
-        "Expression": "var context = new SphDataContext();\r\nthis.Permohonan = await context.LoadOneAsync<Bespoke.epsikologi_permohonan.Domain.Permohonan>(x => x.PermohonanNo == this.Pendaftaran.NoPermohonan);\r\nvar ujian = new System.Collections.Generic.List<string>();\r\n\r\nif(this.Permohonan.isIBK)\r\n    ujian.Add(\"IBK\");\r\nif(this.Permohonan.isISO)\r\n    ujian.Add(\"ISO\");\r\nif(this.Permohonan.isIP)\r\n    ujian.Add(\"IP\");\r\nif(this.Permohonan.isIPU)\r\n    ujian.Add(\"IPU\");\r\nif(this.Permohonan.isUKHLP)\r\n    ujian.Add(\"HLP\");\r\nif(this.Permohonan.isUKBP)\r\n{\r\n    ujian.Add(\"UKBP-B\");\r\n    ujian.Add(\"UKBP-A\");\r\n}\r\nif(this.Permohonan.isPPKP)\r\n    ujian.Add(\"PPKP\");\r\n\r\nthis.UjianList = string.Join(\";\", ujian.ToArray());",
+        "Expression": "var context = new SphDataContext();\r\nthis.Permohonan = await context.LoadOneAsync<Bespoke.epsikologi_permohonan.Domain.Permohonan>(x => x.PermohonanNo == this.Pendaftaran.NoPermohonan);\r\nvar ujian = new System.Collections.Generic.List<string>();\r\n\r\nif(this.Permohonan.isIBK)\r\n    ujian.Add(\"IBK\");\r\nif(this.Permohonan.isISO)\r\n    ujian.Add(\"ISO\");\r\nif(this.Permohonan.isIP)\r\n    ujian.Add(\"IP\");\r\nif(this.Permohonan.isIPU)\r\n    ujian.Add(\"IPU\");\r\nif(this.Permohonan.isUKHLP)\r\n    ujian.Add(\"HLP\");\r\nif(this.Permohonan.isUKBP)\r\n{\r\n    ujian.Add(\"UKBP-B\");\r\n    ujian.Add(\"UKBP-A\");\r\n}\r\nif(this.Permohonan.isPPKP)\r\n    ujian.Add(\"PPKP\");\r\n\r\nthis.UjianList = string.Join(\";\", ujian.Distinct().ToArray());",
         "IsAsync": false,
         "ExecutedCode": null,
         "ExecutingCode": null,
@@ -303,8 +298,7 @@
               "AttributeCollection": {
                 "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[System.String, mscorlib]], domain.sph",
                 "$values": []
-              },
-              "IsPartial": false
+              }
             }
           ]
         },
@@ -482,8 +476,7 @@
               "AttributeCollection": {
                 "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[System.String, mscorlib]], domain.sph",
                 "$values": []
-              },
-              "IsPartial": false
+              }
             }
           ]
         },
@@ -510,7 +503,6 @@
         "Cc": null,
         "Bcc": null,
         "IsHtmlEmail": false,
-        "IsMessageSuppressed": false,
         "IsAsync": false,
         "ExecutedCode": null,
         "ExecutingCode": null,
@@ -537,8 +529,7 @@
               "AttributeCollection": {
                 "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[System.String, mscorlib]], domain.sph",
                 "$values": []
-              },
-              "IsPartial": false
+              }
             },
             {
               "$type": "Bespoke.Sph.Domain.Codes.Method, domain.sph",
@@ -559,8 +550,7 @@
               "AttributeCollection": {
                 "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[System.String, mscorlib]], domain.sph",
                 "$values": []
-              },
-              "IsPartial": false
+              }
             },
             {
               "$type": "Bespoke.Sph.Domain.Codes.Method, domain.sph",
@@ -581,8 +571,7 @@
               "AttributeCollection": {
                 "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[System.String, mscorlib]], domain.sph",
                 "$values": []
-              },
-              "IsPartial": false
+              }
             },
             {
               "$type": "Bespoke.Sph.Domain.Codes.Method, domain.sph",
@@ -603,8 +592,7 @@
               "AttributeCollection": {
                 "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[System.String, mscorlib]], domain.sph",
                 "$values": []
-              },
-              "IsPartial": false
+              }
             }
           ]
         },
@@ -766,6 +754,6 @@
   "Id": "pendaftaran-program-sessi-ujian",
   "CreatedDate": "2015-06-09T19:15:58.6767026+08:00",
   "ChangedBy": "admin",
-  "ChangedDate": "2015-09-29T08:25:07.8800581+08:00",
+  "ChangedDate": "2015-09-30T11:22:54.3074303+08:00",
   "WebId": "365215bb-b0f3-45b4-8790-786d57be4c3c"
 }
