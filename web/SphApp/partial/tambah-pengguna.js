@@ -18,7 +18,7 @@ define(["services/datacontext", objectbuilders.config, objectbuilders.app], func
                     var param = JSON.stringify({ icno: ic });
                     context.post(param, "hrmis/GetUserDetailsByIcNo").done(function (result) {
                         if (result.data) {
-                            
+                            pengguna().fillManually(false);
                             pengguna().Pekerjaan('Kerajaan');
                             pengguna().Nama(result.data.Nama);
                             pengguna().Emel(result.data.Emel);
@@ -31,6 +31,9 @@ define(["services/datacontext", objectbuilders.config, objectbuilders.app], func
                             pengguna().NamaJabatan(result.data.NamaJabatan);
                             pengguna().Skim(result.data.Skim);
                             pengguna().Bahagian(result.data.Bahagian);
+                        }else{
+                            
+                            pengguna().fillManually(true);
                         }
 
                     });
@@ -65,6 +68,8 @@ define(["services/datacontext", objectbuilders.config, objectbuilders.app], func
 
         },
         activate = function (entity) {
+            entity.fillManually = ko.observable(true);
+            
             pengguna(entity);
             if (ko.unwrap(entity.Id) === "0") {
                 entity.MyKad.subscribe(checkMyKad);

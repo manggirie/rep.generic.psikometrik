@@ -41,7 +41,7 @@
         <label data-i18n="* Nama" for="fe3ab0be-a563-496a-8455-b9844518bbf7" class="col-md-4">* Nama</label>
         <div class="col-md-8">
             <input required class=" form-control input-large" title=""
-                   data-bind="value: Nama, enable :true "
+                   data-bind="value: Nama, enable :fillManually "
                    
                    
                     data-rule-required="true" 
@@ -54,7 +54,7 @@
     <div class="form-group" data-bind="visible:true">
         <label data-i18n="* Jantina" for="d89b9774-d8d1-4420-8caf-f22e0fef1fbb" class="col-md-4">* Jantina</label>
         <div class="col-md-8">
-            <select  data-bind="value: Jantina, enable :true" id="d89b9774-d8d1-4420-8caf-f22e0fef1fbb" name="Jantina" class="required input-large form-control">
+            <select  data-bind="value: Jantina, enable :fillManually" id="d89b9774-d8d1-4420-8caf-f22e0fef1fbb" name="Jantina" class="required input-large form-control">
                     <option value="" data-i18n="[Sila Pilih]">[Sila Pilih]</option>
                     <option value="L" data-i18n="Lelaki ">Lelaki </option>
                     <option value="P" data-i18n="Perempuan">Perempuan</option>
@@ -68,7 +68,7 @@
         <label data-i18n="Umur" for="4a95c78f-29f9-47d8-ac6c-bb60cbc1bb89" class="col-md-4">Umur</label>
         <div class="col-md-8">
             <input  class=" form-control input-large" title=""
-                   data-bind="value: Umur, enable :true "
+                   data-bind="value: Umur, enable :fillManually "
                    
                    
                    
@@ -80,7 +80,7 @@
     <div class="form-group" data-bind="visible:true">
         <label data-i18n="Status Perkahwinan" for="f503e61e-ec70-4106-8d07-1afe70dcf17c" class="col-md-4">Status Perkahwinan</label>
         <div class="col-md-8">
-            <select  data-bind="value: StatusPerkahwinan, enable :true" id="f503e61e-ec70-4106-8d07-1afe70dcf17c" name="StatusPerkahwinan" class=" input-large form-control">
+            <select  data-bind="value: StatusPerkahwinan, enable :fillManually" id="f503e61e-ec70-4106-8d07-1afe70dcf17c" name="StatusPerkahwinan" class=" input-large form-control">
                     <option value="" data-i18n="[Sila Pilih]">[Sila Pilih]</option>
                     <option value="Belum Berkahwin" data-i18n="Belum Berkahwin">Belum Berkahwin</option>
                     <option value="Berkahwin" data-i18n="Berkahwin">Berkahwin</option>
@@ -128,7 +128,7 @@
     <div class="form-group" data-bind="visible:true">
         <label data-i18n="Pekerjaan" for="pengguna-pekerjaan" class="col-md-4">Pekerjaan</label>
         <div class="col-md-8">
-            <select  data-bind="value: Pekerjaan, enable :true" id="pengguna-pekerjaan" name="Pekerjaan" class="required input-large form-control">
+            <select  data-bind="value: Pekerjaan, enable :fillManually" id="pengguna-pekerjaan" name="Pekerjaan" class="required input-large form-control">
                     <option value="" data-i18n="[Sila Pilih]">[Sila Pilih]</option>
                     <option value="Kerajaan" data-i18n="Kerajaan">Kerajaan</option>
                     <option value="Swasta" data-i18n="Swasta">Swasta</option>
@@ -185,7 +185,7 @@
     <div class="form-group" data-bind="visible:ko.unwrap(Pekerjaan) === &#39;Kerajaan&#39;">
         <label data-i18n="Kumpulan Agensi" for="119ac31f-e09c-43cc-b3c7-91ce4cccaf9c" class="col-md-4">Kumpulan Agensi</label>
         <div class="col-md-8">
-            <select  data-bind="value: JenisPerkhidmatan, enable :$root.partial.isPenyelaras() === false" id="119ac31f-e09c-43cc-b3c7-91ce4cccaf9c" name="JenisPerkhidmatan" class="required input-large form-control">
+            <select  data-bind="value: JenisPerkhidmatan, enable :$root.partial.isPenyelaras() === false && fillManually()" id="119ac31f-e09c-43cc-b3c7-91ce4cccaf9c" name="JenisPerkhidmatan" class="required input-large form-control">
                     <option value="" data-i18n="[Sila Pilih]">[Sila Pilih]</option>
                     <option value="BBP" data-i18n="Badan Berkanun Persekutuan">Badan Berkanun Persekutuan</option>
                     <option value="BBN" data-i18n="Badan Berkanun Negeri">Badan Berkanun Negeri</option>
@@ -201,7 +201,7 @@
     <div class="form-group" data-bind="visible:ko.unwrap(Pekerjaan) === &#39;Kerajaan&#39;">
         <label data-i18n="Tempat Bertugas" for="566600d0-3ed3-4dfc-f481-f4efe6e69308" class="col-md-4">Tempat Bertugas</label>
         <div class="col-md-8">
-            <select  data-bind=" visible :ko.unwrap(Pekerjaan) === 'Kerajaan',  enable :$root.partial.isPenyelaras() === false, comboBoxLookupOptions : { value: NamaJabatan, entity : 'Jabatan', valuePath : 'NamaJabatan', displayPath: 'NamaJabatan', query :'Id ne \'0\''}" id="566600d0-3ed3-4dfc-f481-f4efe6e69308" name="NamaJabatan" class=" input-large form-control">
+            <select  data-bind=" visible :ko.unwrap(Pekerjaan) === 'Kerajaan',  enable :$root.partial.isPenyelaras() === false && fillManually(), comboBoxLookupOptions : { value: NamaJabatan, entity : 'Jabatan', valuePath : 'NamaJabatan', displayPath: 'NamaJabatan', query :'Id ne \'0\''}" id="566600d0-3ed3-4dfc-f481-f4efe6e69308" name="NamaJabatan" class=" input-large form-control">
             </select>
         </div>
     </div>
@@ -212,7 +212,7 @@
         <label data-i18n="Bahagian/Seksyen" for="4a411589-c825-4272-8410-6efb9118876e" class="col-md-4">Bahagian/Seksyen</label>
         <div class="col-md-8">
             <input  class=" form-control " title=""
-                   data-bind="value: Bahagian, enable :true "
+                   data-bind="value: Bahagian, enable :fillManually "
                    
                    
                    
@@ -224,7 +224,7 @@
     <div class="form-group" data-bind="visible:ko.unwrap(Pekerjaan) === &#39;Kerajaan&#39;">
         <label data-i18n="Kumpulan Jawatan" for="136182e1-66a5-4fa8-bba1-e6080deb3fb3" class="col-md-4">Kumpulan Jawatan</label>
         <div class="col-md-8">
-            <select  data-bind="value: KumpulanJawatan, enable :true" id="136182e1-66a5-4fa8-bba1-e6080deb3fb3" name="KumpulanJawatan" class="required input-large form-control">
+            <select  data-bind="value: KumpulanJawatan, enable :fillManually" id="136182e1-66a5-4fa8-bba1-e6080deb3fb3" name="KumpulanJawatan" class="required input-large form-control">
                     <option value="" data-i18n="[Sila Pilih]">[Sila Pilih]</option>
                     <option value="Anggota Pentadbiran" data-i18n="Anggota Pentadbiran">Anggota Pentadbiran</option>
                     <option value="Kumpulan JKK-A" data-i18n="Kumpulan JKK-A">Kumpulan JKK-A</option>
@@ -246,7 +246,7 @@
         <label data-i18n="Skim dan Gred Perkhidmatan " for="5fa43eda-a4b2-4797-80a4-bdfeba53f0b4" class="col-md-4">Skim dan Gred Perkhidmatan </label>
         <div class="col-md-8">
             <input  class=" form-control input-large" title=""
-                   data-bind="value: Skim, enable :true "
+                   data-bind="value: Skim, enable :fillManually "
                    
                    
                    
@@ -262,7 +262,7 @@
         <label data-i18n="* Emel" for="8ec42aeb-5ab2-46f0-c6b5-9c832f9344ca" class="col-md-4">* Emel</label>
         <div class="col-md-8">
             <input required class=" form-control input-large" title=""
-                   data-bind="value: Emel, enable :true "
+                   data-bind="value: Emel, enable :fillManually "
                    
                    
                     data-rule-email="true"  data-rule-required="true" 
@@ -291,7 +291,7 @@
         <label data-i18n="Telefon" for="32851057-3645-4011-dde6-1c4bba2a746c" class="col-md-4">Telefon</label>
         <div class="col-md-8">
             <input  class=" form-control " title=""
-                   data-bind="value: Telefon, enable :true "
+                   data-bind="value: Telefon, enable :fillManually "
                    
                    
                    
