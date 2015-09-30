@@ -13,7 +13,7 @@ using OfficeOpenXml;
 namespace web.sph.App_Code
 {
     [RoutePrefix("pelajar")]
-    [Authorize(Roles = "PengurusanPenggunaJabatan, developers")]
+    [Authorize(Roles = "PengurusanPenggunaJabatan, PengurusanPengguna, developers")]
     public class PelajarUploadController : Controller
     {
         public PelajarUploadController()
