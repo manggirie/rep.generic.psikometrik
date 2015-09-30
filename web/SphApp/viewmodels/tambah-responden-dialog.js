@@ -12,13 +12,7 @@ define(["plugins/dialog", "services/datacontext", "services/config"],
                         "filtered": {
                             "filter": {
                                 "bool": {
-                                    "must": [
-                                      {
-                                          "term": {
-                                              "NamaKementerian": config.namaKementerian
-                                          }
-                                      }
-                                    ]
+                                    "must": []
                                 }
                             }
                         }
@@ -43,13 +37,7 @@ define(["plugins/dialog", "services/datacontext", "services/config"],
                     };
                     query.filter = {
                         "bool": {
-                            "must": [
-                                {
-                                    "term": {
-                                        "NamaKementerian": config.namaKementerian
-                                    }
-                                }
-                            ]
+                            "must": []
                         }
                     };
                     if (config.namaJabatan) {
