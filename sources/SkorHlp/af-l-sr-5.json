@@ -2,7 +2,7 @@
   "$type": "Bespoke.epsikologi_skorhlp.Domain.SkorHlp, epsikologi.SkorHlp",
   "No": "af-l-sr-5",
   "Tret": "AF",
-  "NilaiMin": 11,
+  "NilaiMin": 0,
   "NilaiMax": 11,
   "Percentile": 5,
   "Skor": "Rendah",
@@ -10,7 +10,7 @@
   "CreatedBy": "admin",
   "Id": "af-l-sr-5",
   "CreatedDate": "2015-07-09T11:23:10.0078702+08:00",
-  "ChangedBy": "admin",
-  "ChangedDate": "2015-08-24T11:33:34.3039443+08:00",
+  "ChangedBy": "bpps",
+  "ChangedDate": "2015-09-30T13:50:00.3000583+08:00",
   "WebId": "095ff4b2-2cf7-4da4-beb6-27a62e2e9fc6"
 }
