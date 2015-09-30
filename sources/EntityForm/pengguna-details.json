@@ -147,13 +147,13 @@
               {
                 "$type": "Bespoke.Sph.Domain.ComboBoxItem, domain.sph",
                 "Caption": "Lelaki",
-                "Value": "L",
+                "Value": "Lelaki",
                 "WebId": "09e645b4-62ff-4d8f-92d5-82afe4e72af6"
               },
               {
                 "$type": "Bespoke.Sph.Domain.ComboBoxItem, domain.sph",
                 "Caption": "Perempuan",
-                "Value": "P",
+                "Value": "Perempuan",
                 "WebId": "63a9b9d2-98af-4720-d2d8-534decff9fa9"
               }
             ]
@@ -1092,6 +1092,6 @@
   "Id": "pengguna-details",
   "CreatedDate": "2015-06-16T08:04:09.5330981+08:00",
   "ChangedBy": "admin",
-  "ChangedDate": "2015-09-18T20:51:02.7034881+08:00",
+  "ChangedDate": "2015-09-30T14:17:48.2859224+08:00",
   "WebId": "4e32950c-7d95-4b44-983c-3c3e67811ded"
 }
