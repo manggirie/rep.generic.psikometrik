@@ -14,7 +14,7 @@ define(["services/datacontext"], function(context){
                     var sesi = [];
                     _(lo.itemCollection).each(function (v) {
                         var ujian = ko.unwrap(v.NamaUjian),
-                            indikator = !(ujian === "HLP" || ujian === "IBK" || ujian === "IP"),
+                            indikator = !(ujian === "HLP" || ujian === "IBK" || ujian === "IP" || ujian === "ISO"),
                             trait = !(ujian === "UKBP-A" || ujian === "UKBP-B"|| ujian === "UKBP");
                         v.traitButton = ko.observable(trait);
                         v.indikatorButton = ko.observable(indikator);
