@@ -1,4 +1,4 @@
-/// <reference path="/Scripts/jquery-2.1.1.intellisense.js" />
+/// <reference path="/Scripts/jquery-2.1.3.js" />
 /// <reference path="/Scripts/knockout-3.2.0.debug.js" />
 /// <reference path="/Scripts/knockout.mapping-latest.debug.js" />
 /// <reference path="/Scripts/require.js" />

@@ -1,5 +1,5 @@
-define(["services/datacontext", objectbuilders.app],
-    function (context, app) {
+define(["services/datacontext", objectbuilders.app, objectbuilders.router],
+    function (context, app, router) {
 
         var activate = function (options) {
             var currentSection = options.currentSection || {},
