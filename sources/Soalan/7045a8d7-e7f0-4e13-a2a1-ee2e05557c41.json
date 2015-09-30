@@ -1,0 +1,53 @@
+{
+  "$type": "Bespoke.epsikologi_soalan.Domain.Soalan, epsikologi.Soalan",
+  "NoRujukan": "8i2K-87",
+  "SoalanNo": "8i2K-87",
+  "TeksSoalan": "Saya mudah memahami perubahan emosi orang lain",
+  "SeksyenSoalan": null,
+  "PilihanJawapanCollection": {
+    "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan]], domain.sph",
+    "$values": [
+      {
+        "$type": "Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan",
+        "Teks": "Sangat tidak setuju",
+        "Nilai": 1,
+        "WebId": "b5524de1-494c-494b-b3a4-a860f7eeda52"
+      },
+      {
+        "$type": "Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan",
+        "Teks": "Tidak setuju",
+        "Nilai": 2,
+        "WebId": "53333032-b058-45a1-9dc6-6ba16cf727e4"
+      },
+      {
+        "$type": "Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan",
+        "Teks": "Kadang-kadang",
+        "Nilai": 3,
+        "WebId": "b9de3f3a-a5c1-4181-bdd6-57b692751cff"
+      },
+      {
+        "$type": "Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan",
+        "Teks": "Setuju",
+        "Nilai": 4,
+        "WebId": "11c36df8-a1bd-44fd-a1b3-b4e7856509cc"
+      },
+      {
+        "$type": "Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan",
+        "Teks": "Sangat setuju",
+        "Nilai": 5,
+        "WebId": "4691202d-279f-49a6-bbb2-c31b21b75ea8"
+      }
+    ]
+  },
+  "Trait": "Sosial",
+  "NamaUjian": "fa32fa72-22f2-458e-8159-c4285c9173dd",
+  "Susunan": 87.0,
+  "Kategori": null,
+  "Bahagian": null,
+  "CreatedBy": "admin",
+  "Id": "7045a8d7-e7f0-4e13-a2a1-ee2e05557c41",
+  "CreatedDate": "2015-09-30T09:02:12.2080583+08:00",
+  "ChangedBy": "admin",
+  "ChangedDate": "2015-09-30T09:02:12.2070583+08:00",
+  "WebId": "522d97e2-d4d4-43b1-9998-a869dbe95cdc"
+}

@@ -1,0 +1,53 @@
+{
+  "$type": "Bespoke.epsikologi_soalan.Domain.Soalan, epsikologi.Soalan",
+  "NoRujukan": "8i2K-89",
+  "SoalanNo": "8i2K-89",
+  "TeksSoalan": "Budaya percambahan fikiran diamalkan dalam organisasi saya",
+  "SeksyenSoalan": null,
+  "PilihanJawapanCollection": {
+    "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan]], domain.sph",
+    "$values": [
+      {
+        "$type": "Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan",
+        "Teks": "Sangat tidak setuju",
+        "Nilai": 1,
+        "WebId": "897b4304-dd8b-4f9c-bce8-96ceb4484fb6"
+      },
+      {
+        "$type": "Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan",
+        "Teks": "Tidak setuju",
+        "Nilai": 2,
+        "WebId": "6feef43b-b5a3-4cb6-8fb5-68cc9e3b6b0b"
+      },
+      {
+        "$type": "Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan",
+        "Teks": "Kadang-kadang",
+        "Nilai": 3,
+        "WebId": "16df9e6c-709c-477c-b585-2c588419e762"
+      },
+      {
+        "$type": "Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan",
+        "Teks": "Setuju",
+        "Nilai": 4,
+        "WebId": "b8abc524-e5c8-4ca2-95c0-01a73918f019"
+      },
+      {
+        "$type": "Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan",
+        "Teks": "Sangat setuju",
+        "Nilai": 5,
+        "WebId": "1789c552-d81a-4d74-9972-386177a3d3a7"
+      }
+    ]
+  },
+  "Trait": "Pekerjaan",
+  "NamaUjian": "fa32fa72-22f2-458e-8159-c4285c9173dd",
+  "Susunan": 89.0,
+  "Kategori": null,
+  "Bahagian": null,
+  "CreatedBy": "admin",
+  "Id": "2da72626-e94d-4e6d-968f-b0776c0b4c41",
+  "CreatedDate": "2015-09-30T09:12:25.1770583+08:00",
+  "ChangedBy": "admin",
+  "ChangedDate": "2015-09-30T09:12:25.1760583+08:00",
+  "WebId": "dcaa44c0-bec8-46ad-bbe2-1397e4d62b7f"
+}

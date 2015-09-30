@@ -1,0 +1,53 @@
+{
+  "$type": "Bespoke.epsikologi_soalan.Domain.Soalan, epsikologi.Soalan",
+  "NoRujukan": "8i2K-86",
+  "SoalanNo": "8i2K-86",
+  "TeksSoalan": "Saya bekerja bersungguh-sungguh untuk menyelesaikan tugas yang diamanahkan",
+  "SeksyenSoalan": null,
+  "PilihanJawapanCollection": {
+    "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan]], domain.sph",
+    "$values": [
+      {
+        "$type": "Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan",
+        "Teks": "Sangat tidak setuju",
+        "Nilai": 1,
+        "WebId": "223727ed-79c3-488b-801c-59802c2ae90a"
+      },
+      {
+        "$type": "Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan",
+        "Teks": "Tidak setuju",
+        "Nilai": 2,
+        "WebId": "483d5441-b25a-472e-8534-9cb15ff34b9f"
+      },
+      {
+        "$type": "Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan",
+        "Teks": "Kadang-kadang",
+        "Nilai": 3,
+        "WebId": "af157426-26fb-4127-a335-48d481399d7e"
+      },
+      {
+        "$type": "Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan",
+        "Teks": "Setuju",
+        "Nilai": 4,
+        "WebId": "8c0704b1-5652-48f3-9c8d-69ba6812a9b0"
+      },
+      {
+        "$type": "Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan",
+        "Teks": "Sangat setuju",
+        "Nilai": 5,
+        "WebId": "adb5e96d-7a7b-4a52-a75a-3cf448a14f44"
+      }
+    ]
+  },
+  "Trait": "Spiritual",
+  "NamaUjian": "fa32fa72-22f2-458e-8159-c4285c9173dd",
+  "Susunan": 86.0,
+  "Kategori": null,
+  "Bahagian": null,
+  "CreatedBy": "admin",
+  "Id": "9ebb19d9-95ee-47d3-b478-756ffcb5c09d",
+  "CreatedDate": "2015-09-30T08:59:40.7610583+08:00",
+  "ChangedBy": "admin",
+  "ChangedDate": "2015-09-30T08:59:40.7610583+08:00",
+  "WebId": "d5692227-3a3b-4fa8-deac-aa8184eb83b0"
+}

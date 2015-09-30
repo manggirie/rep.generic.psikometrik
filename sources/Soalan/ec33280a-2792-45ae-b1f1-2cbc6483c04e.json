@@ -1,0 +1,53 @@
+{
+  "$type": "Bespoke.epsikologi_soalan.Domain.Soalan, epsikologi.Soalan",
+  "NoRujukan": "8i2K-96",
+  "SoalanNo": "8i2K-96",
+  "TeksSoalan": "Saya menetapkan sasaran  kerja tahunan yang mampu  dicapai",
+  "SeksyenSoalan": null,
+  "PilihanJawapanCollection": {
+    "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan]], domain.sph",
+    "$values": [
+      {
+        "$type": "Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan",
+        "Teks": "Sangat tidak setuju",
+        "Nilai": 1,
+        "WebId": "d81b4772-cfae-4ee7-bff6-ef79820417a0"
+      },
+      {
+        "$type": "Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan",
+        "Teks": "Tidak setuju",
+        "Nilai": 2,
+        "WebId": "8ca47367-37ef-4228-9197-08f68c0c3f0c"
+      },
+      {
+        "$type": "Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan",
+        "Teks": "Kadang-kadang",
+        "Nilai": 3,
+        "WebId": "cace4d18-d329-4e05-bd89-ca9315f04bbc"
+      },
+      {
+        "$type": "Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan",
+        "Teks": "Setuju",
+        "Nilai": 4,
+        "WebId": "a9422301-5f71-429a-895d-046a94d8b491"
+      },
+      {
+        "$type": "Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan",
+        "Teks": "Sangat setuju",
+        "Nilai": 5,
+        "WebId": "fffbfcd7-82ff-4441-9f7f-7a26418dcf41"
+      }
+    ]
+  },
+  "Trait": "Emosi",
+  "NamaUjian": "fa32fa72-22f2-458e-8159-c4285c9173dd",
+  "Susunan": 96.0,
+  "Kategori": null,
+  "Bahagian": null,
+  "CreatedBy": "admin",
+  "Id": "ec33280a-2792-45ae-b1f1-2cbc6483c04e",
+  "CreatedDate": "2015-09-30T10:11:50.1960583+08:00",
+  "ChangedBy": "admin",
+  "ChangedDate": "2015-09-30T10:11:50.1950583+08:00",
+  "WebId": "c0d1b89d-5ff9-4a61-8e04-383641555167"
+}
