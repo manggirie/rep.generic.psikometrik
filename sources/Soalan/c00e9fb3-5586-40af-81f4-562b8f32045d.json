@@ -1,0 +1,53 @@
+{
+  "$type": "Bespoke.epsikologi_soalan.Domain.Soalan, epsikologi.Soalan",
+  "NoRujukan": "8i2K-73",
+  "SoalanNo": "8i2K-73",
+  "TeksSoalan": "Saya percaya kehidupan akan bahagia sekiranya saya mengikut  garis panduan agama",
+  "SeksyenSoalan": null,
+  "PilihanJawapanCollection": {
+    "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan]], domain.sph",
+    "$values": [
+      {
+        "$type": "Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan",
+        "Teks": "Sangat tidak setuju",
+        "Nilai": 1,
+        "WebId": "51008452-ede4-42d6-a691-3f8cf5c6e272"
+      },
+      {
+        "$type": "Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan",
+        "Teks": "Tidak setuju",
+        "Nilai": 2,
+        "WebId": "5b353c6c-4897-43e6-bfd2-7867a4702fc2"
+      },
+      {
+        "$type": "Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan",
+        "Teks": "Kadang-kadang",
+        "Nilai": 3,
+        "WebId": "2c8b911a-1e1b-4c0e-9d79-53fc886040d9"
+      },
+      {
+        "$type": "Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan",
+        "Teks": "Setuju",
+        "Nilai": 4,
+        "WebId": "333d765a-8133-4ec9-a978-183e715b0311"
+      },
+      {
+        "$type": "Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan",
+        "Teks": "Sangat setuju",
+        "Nilai": 5,
+        "WebId": "c1b3edb1-c450-4291-9e6a-8138574b9f65"
+      }
+    ]
+  },
+  "Trait": "Spiritual",
+  "NamaUjian": "fa32fa72-22f2-458e-8159-c4285c9173dd",
+  "Susunan": 73.0,
+  "Kategori": null,
+  "Bahagian": null,
+  "CreatedBy": "admin",
+  "Id": "c00e9fb3-5586-40af-81f4-562b8f32045d",
+  "CreatedDate": "2015-09-29T15:42:50.7234528+08:00",
+  "ChangedBy": "admin",
+  "ChangedDate": "2015-09-29T15:42:50.7224527+08:00",
+  "WebId": "abff7413-2a79-4a57-8b05-c67fd3f0113d"
+}
