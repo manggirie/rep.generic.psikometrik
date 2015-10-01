@@ -1,12 +1,46 @@
 define([], function () {
-    var activate = function (list) {
+    var map = function (v) {
+        if (v.NamaUjian === "UKBP-A") {
+            v.NamaUjian = "UKBP";
+        }
+        if (v.NamaUjian === "UKBP-B") {
+            v.NamaUjian = "UKBP";
+        }
+        return v;
+    }, activate = function (list) {
+        var items = list(),
+            mapping = false;
 
-        var tcs = new $.Deferred();
-        setTimeout(function () {
-            tcs.resolve(true);
-        }, 500);
+        list.subscribe(function (changes) {
 
-        return tcs.promise();
+            if (mapping) {
+                return;
+            }
+
+
+
+            items = list();
+            mapping = true;
+
+            var baskets = [],
+                filterdItems = [];
+
+            setTimeout(function () {
+
+                _(items).each(function (v) {
+                    var key = v.NamaUjian + v.NamaProgram + v.MyKad;
+                    if (baskets.indexOf(key) === -1) {
+                        baskets.push(key);
+                        filterdItems.push(v);
+                    }
+                });
+                list(filterdItems);
+                mapping = false;
+            }, 250);
+
+        }, null, "arrayChange");
+
+        return true;
 
 
     },
@@ -35,6 +69,7 @@ define([], function () {
 
     return {
         activate: activate,
+        map: map,
         attached: attached
     };
 
