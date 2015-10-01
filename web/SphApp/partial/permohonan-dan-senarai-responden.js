@@ -158,6 +158,11 @@ define(["services/datacontext", objectbuilders.app, objectbuilders.config, objec
                     if (r.duplicateEmails.length > 0) {
                         app.showMessage("Fail yang anda muat naik terdapat data yang sudah didaftar sebelum ini <br/>" + duplicateEmails, config.applicationFullName, ["OK"]);
                     }
+                    
+                    if (r.warning) {
+                        app.showMessage(r.warning, config.applicationFullName, ["OK"]);
+                    }
+                    
                 }
             });
     });
