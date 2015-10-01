@@ -57,6 +57,7 @@ define([], function () {
                     case "PPKP":
                         url = "/cetak-laporan/ppkp/profile/" + data.Id;
                         break;
+                    case "UKBP":
                     case "UKBP-A":
                     case "UKBP-B":
                         url = "/cetak-laporan/indikator/ukbp/" + data.Id;
