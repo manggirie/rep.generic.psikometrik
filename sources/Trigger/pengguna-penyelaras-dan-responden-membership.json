@@ -40,8 +40,8 @@
         },
         "Right": {
           "$type": "Bespoke.Sph.Domain.ConstantField, domain.sph",
-          "TypeName": "System.String, mscorlib",
-          "Value": "true",
+          "TypeName": "System.Boolean, mscorlib",
+          "Value": true,
           "Name": "true",
           "Note": "",
           "WebId": "9f96ae09-fab2-4434-e921-2710dabdbfed"
@@ -63,8 +63,8 @@
         },
         "Right": {
           "$type": "Bespoke.Sph.Domain.ConstantField, domain.sph",
-          "TypeName": "System.String, mscorlib",
-          "Value": "false",
+          "TypeName": "System.Boolean, mscorlib",
+          "Value": false,
           "Name": "false",
           "Note": "",
           "WebId": "3a6b7ce5-09ff-46ae-ded8-9ca2b13322a8"
@@ -79,7 +79,7 @@
     "$values": [
       {
         "$type": "Bespoke.Sph.Domain.StartWorkflowAction, domain.sph",
-        "WorkflowDefinitionId": "creates-membership-for-new-penyelaras",
+        "WorkflowDefinitionId": "creates-new-penyelaras-responden",
         "Name": "",
         "Version": 0,
         "WorkflowTriggerMapCollection": {
@@ -100,7 +100,7 @@
             }
           ]
         },
-        "Title": "Creates membership for new Penyelaras",
+        "Title": "Creates membership for new Penyelaras dan responden",
         "IsActive": true,
         "TriggerId": "",
         "Note": "",
@@ -132,6 +132,6 @@
   "Id": "pengguna-penyelaras-dan-responden-membership",
   "CreatedDate": "2015-06-16T08:04:09.5366008+08:00",
   "ChangedBy": "admin",
-  "ChangedDate": "2015-07-11T09:50:42.6056303+08:00",
+  "ChangedDate": "2015-10-01T08:54:33.6867259+08:00",
   "WebId": "ae419759-6ae0-4c6e-ea9c-c7de9fd59a95"
 }

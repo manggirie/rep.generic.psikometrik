@@ -40,8 +40,8 @@
         },
         "Right": {
           "$type": "Bespoke.Sph.Domain.ConstantField, domain.sph",
-          "TypeName": "System.String, mscorlib",
-          "Value": "false",
+          "TypeName": "System.Boolean, mscorlib",
+          "Value": false,
           "Name": "false",
           "Note": "",
           "WebId": "6d13f2bf-a2ac-4b09-9664-78dedb8439dd"
@@ -63,8 +63,8 @@
         },
         "Right": {
           "$type": "Bespoke.Sph.Domain.ConstantField, domain.sph",
-          "TypeName": "System.String, mscorlib",
-          "Value": "false",
+          "TypeName": "System.Boolean, mscorlib",
+          "Value": false,
           "Name": "false",
           "Note": "",
           "WebId": "e44d7738-2fbb-4163-9959-d37058de8b1c"
@@ -132,6 +132,6 @@
   "Id": "pengguna-responden-profile-and-membership-",
   "CreatedDate": "2015-06-16T08:04:09.5366008+08:00",
   "ChangedBy": "admin",
-  "ChangedDate": "2015-07-11T09:47:09.0093077+08:00",
+  "ChangedDate": "2015-10-01T08:30:01.9391878+08:00",
   "WebId": "ae419759-6ae0-4c6e-ea9c-c7de9fd59a95"
 }
