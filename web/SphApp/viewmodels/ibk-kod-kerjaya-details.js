@@ -68,7 +68,7 @@
                     return context.post(data, "/IbkKodKerjaya/Save")
                         .then(function(result) {
                             entity().Id(result.id);
-                            app.showMessage("Your IbkKodKerjaya has been successfully saved", "JPA Sistem Ujian e-Psikometrik", ["OK"]);
+                            app.showMessage("IbkKodKerjaya berjaya dihantar", "JPA Sistem Ujian e-Psikometrik", ["OK"]);
 
                         });
                     

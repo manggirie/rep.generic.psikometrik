@@ -143,7 +143,7 @@
                         .then(function(result) {
                             tcs.resolve(result);
                             entity().Id(result.id);
-                            app.showMessage("Your Pengguna has been successfully saved", "epsikologi", ["ok"]);
+                            app.showMessage("Pengguna berjaya dihantar", "epsikologi", ["ok"]);
 
                         });
                     

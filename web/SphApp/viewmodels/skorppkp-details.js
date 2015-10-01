@@ -68,7 +68,7 @@
                     return context.post(data, "/SkorPpkp/Save")
                         .then(function(result) {
                             entity().Id(result.id);
-                            app.showMessage("Your SkorPpkp has been successfully saved", "JPA Sistem Ujian e-Psikometrik", ["OK"]);
+                            app.showMessage("SkorPpkp berjaya dihantar", "JPA Sistem Ujian e-Psikometrik", ["OK"]);
 
                         });
                     

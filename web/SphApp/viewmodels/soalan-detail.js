@@ -68,7 +68,7 @@
                     return context.post(data, "/Soalan/Save")
                         .then(function(result) {
                             entity().Id(result.id);
-                            app.showMessage("Your Soalan has been successfully saved", "JPA Sistem Ujian e-Psikometrik", ["OK"]);
+                            app.showMessage("Soalan berjaya dihantar", "JPA Sistem Ujian e-Psikometrik", ["OK"]);
 
                         });
                     

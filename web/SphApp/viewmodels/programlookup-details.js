@@ -72,7 +72,7 @@
                         .then(function(result) {
                             tcs.resolve(result);
                             entity().Id(result.id);
-                            app.showMessage("Your ProgramLookup has been successfully saved", "JPA Sistem Ujian e-Psikometrik", ["ok"]);
+                            app.showMessage("ProgramLookup berjaya dihantar", "JPA Sistem Ujian e-Psikometrik", ["ok"]);
 
                         });
                     
