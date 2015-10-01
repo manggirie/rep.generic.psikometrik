@@ -24,7 +24,11 @@ define(["services/datacontext", objectbuilders.config, objectbuilders.app], func
                             pengguna().Emel(result.data.Emel);
                             pengguna().StatusPerkahwinan(result.data.StatusPerkahwinan);
                             pengguna().Telefon(result.data.Telefon);
-                            pengguna().Jantina(result.data.Jantina === "L" ? "Lelaki" : "Perempuan");
+                            if (result.data.Jantina === "L" || result.data.Jantina === "P") {
+                                pengguna().Jantina(result.data.Jantina === "L" ? "Lelaki" : "Perempuan");
+                            } else {
+                                pengguna().Jantina(result.data.Jantina);
+                            }
                             pengguna().Umur(result.data.Umur);
                             pengguna().JenisPerkhidmatan(result.data.JenisPerkhidmatan);
                             pengguna().KumpulanJawatan(result.data.KumpulanJawatan);
