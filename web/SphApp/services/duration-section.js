@@ -1,19 +1,23 @@
 define(["services/datacontext", objectbuilders.app, objectbuilders.router],
     function (context, app, router) {
 
-        var activate = function (options) {
+        var interval = null,
+            activate = function (options) {
             var currentSection = options.currentSection || {},
                 sesiUjian = options.sesiUjian,
-                interval = options.interval,
                 ujian = options.ujian,
                 timer = options.timer,
                 sections = options.sections,
                 questionsCount = options.questionsCount,
                 totalAnswered = options.totalAnswered;
 
+
+                interval = options.interval;
+
             var runTimer = function (v) {
                 if (interval) {
                     clearInterval(interval);
+                    interval = null;
                 }
 
                 var hours = ko.unwrap(v.DurationHour),
@@ -181,10 +185,14 @@ define(["services/datacontext", objectbuilders.app, objectbuilders.router],
 
         },
         attached = function (view) {
-
-        };
+        },
+            deactivate = function() {
+                clearInterval(interval);
+                interval = null;
+            };
 
         var vm = {
+            deactivate: deactivate,
             activate: activate,
             attached: attached
         };

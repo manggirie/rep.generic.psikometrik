@@ -65,6 +65,10 @@ define(["services/datacontext", objectbuilders.app, objectbuilders.config, objec
             },
             activate = function (id) {
 
+                if (interval) {
+                    clearInterval(interval);
+                }
+                interval = null;
                 sections.removeAll();
                 totalAnswered(0);
                 questionsCount(0);
@@ -113,6 +117,12 @@ define(["services/datacontext", objectbuilders.app, objectbuilders.config, objec
                     });
 
 
+            },
+            deactivate = function() {
+                clearInterval(interval);
+                interval = null;
+                console.log("ccccccccccccccccccccccccccc");
+                sectionDuration.deactivate();
             },
             durationForSection = function () {
                 sectionDuration.activate({
@@ -259,6 +269,7 @@ define(["services/datacontext", objectbuilders.app, objectbuilders.config, objec
             pendaftaran: pendaftaran,
             permohonan: permohonan,
             activate: activate,
+            deactivate: deactivate,
             attached: attached,
             sectionDuration: sectionDuration
         };
