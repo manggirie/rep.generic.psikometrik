@@ -56,6 +56,7 @@ namespace web.sph.App_Code
             var hasRow = !string.IsNullOrEmpty(name) && !string.IsNullOrEmpty(mykad);
 
             var duplicateEmails = new List<string>();
+            string warning = "";
 
             while (hasRow)
             {
@@ -79,8 +80,8 @@ namespace web.sph.App_Code
                     IsResponden = true
                 };
 
-                var exist = await context.GetAnyAsync<Pengguna>(x => x.MyKad == student.MyKad);
-                if (!exist)
+                var emailExist = await context.GetAnyAsync<Pengguna>(x => x.MyKad == student.MyKad);
+                if (!emailExist)
                 {
                     var email = Membership.FindUsersByEmail(student.Emel);
                     if (email.Count > 0)
@@ -103,13 +104,20 @@ namespace web.sph.App_Code
                     WebId = did
 
                 };
-                senaraiDaftar.Add(daftar);
+
+                var daftarExist = await context.GetAnyAsync<PendaftaranProgram>(x => x.MyKad == student.MyKad && x.NoPermohonan == permohonan.PermohonanNo);
+                if (!daftarExist)
+                {
+                    senaraiDaftar.Add(daftar);
+                }
                 using (var session = context.OpenSession())
                 {
-                    if (!exist)
+                    if (!emailExist)
                         session.Attach(student);
-                    session.Attach(daftar);
-                    await session.SubmitChanges("TambahResponden");
+                    if (!daftarExist)
+                        session.Attach(daftar);
+                    if (!daftarExist || !emailExist)
+                        await session.SubmitChanges("TambahResponden");
                 }
 
                 //increment
@@ -117,12 +125,18 @@ namespace web.sph.App_Code
                 name = ws.Cells["A" + row].GetValue<string>();
                 mykad = ws.Cells["B" + row].GetValue<string>();
                 hasRow = !string.IsNullOrEmpty(name) && !string.IsNullOrEmpty(mykad);
+
+                if (row + 1 > permohonan.BilRespondan)
+                {
+                    warning = $"Fail Excel ini mengandungi lebih dari bilangan responden yang dibernarkan : {permohonan.BilRespondan}";
+                    break;
+                }
             }
 
             // TODO : verify the user name and email for each record
 
 
-            return Json(new { success = true, list = senaraiDaftar, duplicateEmails, status = "OK" });
+            return Json(new { success = true, warning, list = senaraiDaftar, duplicateEmails, status = "OK" });
         }
 
     }

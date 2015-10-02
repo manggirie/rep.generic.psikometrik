@@ -5,6 +5,7 @@ using Bespoke.epsikologi_iprecommendation.Domain;
 using Bespoke.epsikologi_ipupercentilenorms.Domain;
 using Bespoke.epsikologi_ipurecommendation.Domain;
 using Bespoke.epsikologi_isorecommendation.Domain;
+using Bespoke.epsikologi_pendaftaranprogram.Domain;
 using Bespoke.epsikologi_pengguna.Domain;
 using Bespoke.epsikologi_percubaansesi.Domain;
 using Bespoke.epsikologi_permohonan.Domain;
@@ -33,6 +34,7 @@ namespace web.sph.App_Code
             ObjectBuilder.AddCacheList<IRepository<Soalan>>(new SqlRepository<Soalan>());
             ObjectBuilder.AddCacheList<IRepository<PercubaanSesi>>(new SqlRepository<PercubaanSesi>());
             ObjectBuilder.AddCacheList<IRepository<Pengguna>>(new SqlRepository<Pengguna>());
+            ObjectBuilder.AddCacheList<IRepository<PendaftaranProgram>>(new SqlRepository<PendaftaranProgram>());
 
             ObjectBuilder.AddCacheList<IRepository<SkorHlp>>(new SqlRepository<SkorHlp>());
             ObjectBuilder.AddCacheList<IRepository<HlpRecomendation>>(new SqlRepository<HlpRecomendation>());
