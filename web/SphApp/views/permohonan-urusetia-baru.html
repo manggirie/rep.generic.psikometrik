@@ -199,17 +199,17 @@
     </div>
 
 
-
-    <div data-bind="visible:true" class="form-group">
-        <label data-i18n="Tujuan Program" for="78c51edb-b268-440c-a875-b8e42e32c39c" class="col-md-4">Tujuan Program</label>
+    <div class="form-group" data-bind="visible:true">
+        <label data-i18n="Tujuan Program" for="323169d8-8b9f-4a60-8b5f-5c75a4f71c63" class="col-md-4">Tujuan Program</label>
         <div class="col-md-8">
-            <input required class=" form-control " title=""
-                   data-bind="value: TujuanProgram, enable :true "
-                   
-                   
-                    data-rule-required="true" 
-
-                   id="78c51edb-b268-440c-a875-b8e42e32c39c" type="text" name="TujuanProgram" />
+            <select  data-bind="value: TujuanProgram, enable :true" id="323169d8-8b9f-4a60-8b5f-5c75a4f71c63" name="TujuanProgram" class=" input-large form-control">
+                    <option value="Kaunseling" data-i18n="Kaunseling">Kaunseling</option>
+                    <option value="Pembangunan Profil Responden" data-i18n="Pembangunan Profil Responden">Pembangunan Profil Responden</option>
+                    <option value="Kenaikan Pangkat" data-i18n="Kenaikan Pangkat">Kenaikan Pangkat</option>
+                    <option value="Penempatan" data-i18n="Penempatan">Penempatan</option>
+                    <option value="Temuduga" data-i18n="Temuduga">Temuduga</option>
+                    <option value="Pembangunan Potensi" data-i18n="Pembangunan Potensi">Pembangunan Potensi</option>
+            </select>
         </div>
     </div>
 

@@ -722,16 +722,62 @@
           "WebId": "0f935012-d7b3-465b-e7ac-def5f8a2d302"
         },
         {
-          "$type": "Bespoke.Sph.Domain.TextBox, domain.sph",
-          "DefaultValue": null,
-          "AutoCompletionEntity": null,
-          "AutoCompletionField": null,
-          "AutoCompletionQuery": null,
+          "$type": "Bespoke.Sph.Domain.ComboBox, domain.sph",
+          "ComboBoxItemCollection": {
+            "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.Sph.Domain.ComboBoxItem, domain.sph]], domain.sph",
+            "$values": [
+              {
+                "$type": "Bespoke.Sph.Domain.ComboBoxItem, domain.sph",
+                "Caption": "Kaunseling",
+                "Value": "Kaunseling",
+                "WebId": "3b20b85a-8cb1-42cb-da29-b9fa20d24c9a"
+              },
+              {
+                "$type": "Bespoke.Sph.Domain.ComboBoxItem, domain.sph",
+                "Caption": "Pembangunan Profil Responden",
+                "Value": "Pembangunan Profil Responden",
+                "WebId": "a33b844d-7271-41c7-da4f-d09a73febccd"
+              },
+              {
+                "$type": "Bespoke.Sph.Domain.ComboBoxItem, domain.sph",
+                "Caption": "Kenaikan Pangkat",
+                "Value": "Kenaikan Pangkat",
+                "WebId": "69c806ea-6858-47f9-feff-7a939eaadc77"
+              },
+              {
+                "$type": "Bespoke.Sph.Domain.ComboBoxItem, domain.sph",
+                "Caption": "Penempatan",
+                "Value": "Penempatan",
+                "WebId": "ce793f9e-8086-44e1-a75e-59dcd9262e99"
+              },
+              {
+                "$type": "Bespoke.Sph.Domain.ComboBoxItem, domain.sph",
+                "Caption": "Temuduga",
+                "Value": "Temuduga",
+                "WebId": "eb516e11-e118-4d93-b967-50f4410e5860"
+              },
+              {
+                "$type": "Bespoke.Sph.Domain.ComboBoxItem, domain.sph",
+                "Caption": "Pembangunan Potensi",
+                "Value": "Pembangunan Potensi",
+                "WebId": "00f81c7e-ad71-4c37-c245-38f592b06407"
+              }
+            ]
+          },
+          "ComboBoxLookup": {
+            "$type": "Bespoke.Sph.Domain.ComboBoxLookup, domain.sph",
+            "Entity": null,
+            "ValuePath": null,
+            "DisplayPath": null,
+            "Query": null,
+            "IsComputedQuery": false,
+            "WebId": null
+          },
           "IsPathIsRequired": true,
-          "TypeName": "TextBox",
+          "TypeName": "ComboBox",
           "FieldValidation": {
             "$type": "Bespoke.Sph.Domain.FieldValidation, domain.sph",
-            "IsRequired": true,
+            "IsRequired": false,
             "Pattern": null,
             "Mode": "",
             "Message": null,
@@ -746,11 +792,11 @@
           "Tooltip": null,
           "Path": "TujuanProgram",
           "IsRequired": false,
-          "Size": null,
-          "CssClass": null,
+          "Size": "input-large",
+          "CssClass": "",
           "Visible": "true",
           "Enable": "true",
-          "ElementId": "78c51edb-b268-440c-a875-b8e42e32c39c",
+          "ElementId": "323169d8-8b9f-4a60-8b5f-5c75a4f71c63",
           "HelpText": null,
           "UseDisplayTemplate": false,
           "ToolboxIconClass": null,
@@ -763,7 +809,7 @@
           "InputColMd": null,
           "InputColSm": null,
           "InputColXs": null,
-          "WebId": "10b56511-7e32-460c-823f-4ce9e8cc3cd5"
+          "WebId": "ddebbb36-494c-482f-f98c-a6f6c5bcc54a"
         },
         {
           "$type": "Bespoke.Sph.Domain.ComboBox, domain.sph",
@@ -1097,6 +1143,6 @@
   "Id": "permohonan-urusetia-baru",
   "CreatedDate": "2015-06-16T08:04:20.3588975+08:00",
   "ChangedBy": "admin",
-  "ChangedDate": "2015-09-03T09:01:39.4370694+08:00",
+  "ChangedDate": "2015-10-02T08:52:50.9711226+08:00",
   "WebId": "d56af63c-c52e-401b-83b5-bfecea2c53d1"
 }
