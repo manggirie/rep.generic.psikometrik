@@ -158,7 +158,7 @@ namespace web.sph.App_Code
             get
             {
                 var ktg = m_sesiA.JawapanCollection.Where(x => x.Trait == "KTG").Sum(x => x.Nilai);
-                return m_scores.Single(x => x.NilaiMin <= ktg && ktg <= x.NilaiMax && x.Tret == "KT" && x.Jantina == this.Pengguna.Jantina);
+                return m_scores.Single(x => ktg.IsBetween(x.NilaiMin, x.NilaiMax) && x.Tret == "KT" && x.Jantina == this.Pengguna.Jantina);
             }
         }
 
