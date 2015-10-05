@@ -4,12 +4,11 @@
         <div class="col-lg-6">
             <input type="text" data-bind="value: mykad"
                    required
-                   required
                    placeholder="MyKad responden"
                    class="form-control" id="siri-program" />
         </div>
         <button class="btn btn-info">
-            <i class="icon-eyeglasses"></i>
+            <i class="icon-magnifier"></i>
         </button>
     </div>
 </form>
@@ -31,7 +30,7 @@
             <td data-bind="text:NamaUjian"></td>
             <td>
                 <!-- ko if : traitButton -->
-                    <a class="btn btn-default" href="javascript:;" target="_blank" data-bind="attr: {href : 'cetak-laporan/trait/'+ ko.unwrap(NamaUjian) +'/' + ko.unwrap(Id)}">Trait</a>
+                    <a class="btn btn-default" href="javascript:;" target="_blank" data-bind="attr: {href : 'cetak-laporan/trait/'+ ko.unwrap(NamaUjian) +'/' + ko.unwrap(Id)}">Tret</a>
                 <!-- /ko -->
                 
                 <!-- ko if : indikatorButton -->
