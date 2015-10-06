@@ -98,10 +98,11 @@ var headerText = header ?? trait;
 }
 
 <h1 style="margin-top: 0px">LAPORAN UJIAN KHAS HADIAH LATIHAN PERSEKUTUAN JABATAN PERKHIDMATAN AWAM</h1>
-<table>
+<table >
     <colgroup>
+        <col style="width: 12%" />
         <col style="width: 17%" />
-        <col style="width: 17%" />
+        <col style="width: 5%" />
         <col style="width: 17%" />
         <col style="width: 17%" />
         <col style="width: 17%" />
@@ -110,6 +111,7 @@ var headerText = header ?? trait;
     <tr>
         <td class="header">Nama Calon :</td>
         <td>@Model.Pengguna.Nama</td>
+        <td></td>
         <td class="header">No. Kad Pengenalan :</td>
         <td>@Model.Pengguna.MyKad</td>
         <td></td>
@@ -274,5 +276,5 @@ var headerText = header ?? trait;
 
 <script type="text/javascript">
 
-	window.print();
+    window.print();
 </script>
