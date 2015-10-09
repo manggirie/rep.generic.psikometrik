@@ -23,7 +23,7 @@ define([objectbuilders.config], function (config) {
                 tarikhTamatPicker.min(new Date());
 
                 tarikhMulaPicker.enable(permohonan().StatusPermohonan() === "BARU");
-                tarikhTamatPicker.enable(permohonan().StatusPermohonan() === "BARU");
+                tarikhTamatPicker.enable(permohonan().StatusPermohonan() === "BARU" || config.roles.indexOf("PengurusanPermohonan") > -1);
 
                 saveTrigger(true);// fire this to re-eval
 
