@@ -398,7 +398,7 @@
             "WebId": null
           },
           "Name": null,
-          "Label": "Indeks Perwatakan Unggul (IPU)",
+          "Label": "Indikator Perwatakan Unggul (IPU)",
           "Tooltip": null,
           "Path": "isIPU",
           "IsRequired": false,
@@ -742,25 +742,16 @@
           "WebId": "fdf0b90e-a34f-41f4-b22d-dd22d27eec83"
         },
         {
-          "$type": "Bespoke.Sph.Domain.ComboBox, domain.sph",
-          "ComboBoxItemCollection": {
-            "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.Sph.Domain.ComboBoxItem, domain.sph]], domain.sph",
-            "$values": []
-          },
-          "ComboBoxLookup": {
-            "$type": "Bespoke.Sph.Domain.ComboBoxLookup, domain.sph",
-            "Entity": "ProgramLookup",
-            "ValuePath": "NamaProgram",
-            "DisplayPath": "NamaProgram",
-            "Query": null,
-            "IsComputedQuery": false,
-            "WebId": null
-          },
+          "$type": "Bespoke.Sph.Domain.TextBox, domain.sph",
+          "DefaultValue": null,
+          "AutoCompletionEntity": null,
+          "AutoCompletionField": null,
+          "AutoCompletionQuery": null,
           "IsPathIsRequired": true,
-          "TypeName": "ComboBox",
+          "TypeName": "TextBox",
           "FieldValidation": {
             "$type": "Bespoke.Sph.Domain.FieldValidation, domain.sph",
-            "IsRequired": true,
+            "IsRequired": false,
             "Pattern": null,
             "Mode": "",
             "Message": null,
@@ -775,11 +766,11 @@
           "Tooltip": null,
           "Path": "NamaProgram",
           "IsRequired": false,
-          "Size": null,
-          "CssClass": null,
+          "Size": "input-large",
+          "CssClass": "",
           "Visible": "true",
           "Enable": "true",
-          "ElementId": "ac05d2ee-56d3-4af7-9e13-afc52ac48066",
+          "ElementId": "84d686bc-5ce0-4838-85c7-01b13a9a1c05",
           "HelpText": null,
           "UseDisplayTemplate": false,
           "ToolboxIconClass": null,
@@ -792,7 +783,7 @@
           "InputColMd": null,
           "InputColSm": null,
           "InputColXs": null,
-          "WebId": "5e65361f-ec86-43bc-acdd-2327f09343ac"
+          "WebId": "e1ae655f-a021-436a-b78f-126ce92b721d"
         },
         {
           "$type": "Bespoke.Sph.Domain.TextBox, domain.sph",
@@ -1001,6 +992,6 @@
   "Id": "permohonan-urusetia",
   "CreatedDate": "2015-06-16T08:04:20.3588975+08:00",
   "ChangedBy": "admin",
-  "ChangedDate": "2015-09-01T09:27:31.6142227+08:00",
+  "ChangedDate": "2015-10-08T15:59:44.3546894+08:00",
   "WebId": "d56af63c-c52e-401b-83b5-bfecea2c53d1"
 }

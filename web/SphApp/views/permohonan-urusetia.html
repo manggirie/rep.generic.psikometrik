@@ -97,7 +97,7 @@
                 <label class="checkbox">
                     <input data-bind="checked : isIPU, enable :true" id="isIPU" type="checkbox"
                            name="isIPU"/>
-                    <span data-i18n="Indeks Perwatakan Unggul (IPU)">Indeks Perwatakan Unggul (IPU)</span>
+                    <span data-i18n="Indikator Perwatakan Unggul (IPU)">Indikator Perwatakan Unggul (IPU)</span>
                     
                 </label>
             </div>
@@ -203,11 +203,16 @@
     </div>
 
 
-    <div class="form-group" data-bind="visible:true">
-        <label data-i18n="Nama Program" for="ac05d2ee-56d3-4af7-9e13-afc52ac48066" class="col-md-4">Nama Program</label>
+
+    <div data-bind="visible:true" class="form-group">
+        <label data-i18n="Nama Program" for="84d686bc-5ce0-4838-85c7-01b13a9a1c05" class="col-md-4">Nama Program</label>
         <div class="col-md-8">
-            <select  data-bind=" visible :true,  enable :true, comboBoxLookupOptions : { value: NamaProgram, entity : 'ProgramLookup', valuePath : 'NamaProgram', displayPath: 'NamaProgram', query :'Id ne \'0\''}" id="ac05d2ee-56d3-4af7-9e13-afc52ac48066" name="NamaProgram" class="  form-control">
-            </select>
+            <input  class=" form-control input-large" title=""
+                   data-bind="value: NamaProgram, enable :true "
+                   
+                   
+                   
+                   id="84d686bc-5ce0-4838-85c7-01b13a9a1c05" type="text" name="NamaProgram" />
         </div>
     </div>
 
