@@ -33,6 +33,12 @@
                 "Caption": "Pelajar (Individu)",
                 "Value": "Pelajar (Individu)",
                 "WebId": "dacdcc42-aaf0-4157-ac42-1b6e64967260"
+              },
+              {
+                "$type": "Bespoke.Sph.Domain.ComboBoxItem, domain.sph",
+                "Caption": "Ahli Keluarga Penjawat Awam (Isteri/Suami/Anak)",
+                "Value": "Ahli Keluarga Penjawat Awam (Isteri/Suami/Anak)",
+                "WebId": "5672dbe2-66ea-49e8-eb28-58ed08574440"
               }
             ]
           },
@@ -494,7 +500,7 @@
             "WebId": null
           },
           "Name": null,
-          "Label": "Indeks Perwatakan Unggul (IPU)",
+          "Label": "Indikator Perwatakan Unggul (IPU)",
           "Tooltip": null,
           "Path": "isIPU",
           "IsRequired": false,
@@ -1142,7 +1148,7 @@
   "CreatedBy": "admin",
   "Id": "permohonan-urusetia-baru",
   "CreatedDate": "2015-06-16T08:04:20.3588975+08:00",
-  "ChangedBy": "admin",
-  "ChangedDate": "2015-10-02T08:52:50.9711226+08:00",
+  "ChangedBy": "urusetia1",
+  "ChangedDate": "2015-10-05T15:35:35.7063565+08:00",
   "WebId": "d56af63c-c52e-401b-83b5-bfecea2c53d1"
 }

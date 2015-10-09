@@ -66,7 +66,7 @@
             "WebId": null
           },
           "Name": null,
-          "Label": "* My Kad",
+          "Label": "* MyKad",
           "Tooltip": null,
           "Path": "MyKad",
           "IsRequired": false,
@@ -1383,6 +1383,6 @@
   "Id": "tambah-pengguna",
   "CreatedDate": "2015-06-16T08:04:09.5205895+08:00",
   "ChangedBy": "admin",
-  "ChangedDate": "2015-09-30T14:18:11.541287+08:00",
+  "ChangedDate": "2015-10-06T09:07:41.6213286+08:00",
   "WebId": "4e32950c-7d95-4b44-983c-3c3e67811ded"
 }

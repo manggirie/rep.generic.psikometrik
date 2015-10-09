@@ -7,7 +7,7 @@
         "$type": "Bespoke.Sph.Domain.NotificationActivity, domain.sph",
         "From": "admin@@sph.my",
         "Subject": "PERINGATAN : Pendaftaran Bagi Program Sistem Ujian Psikometrik",
-        "Body": "Assalamualaikum dan Salam Sejahtera,\n\nYBhg. Tan Sri/Dato' Seri/Datuk/Dato'/Datin/Dr./Tuan/Puan,\n\nSukacita dimaklumkan bahawa YBhg. Tan Sri/Dato' Seri/Datuk/Dato'/Datin/Dr./Tuan/Puan telah didaftarkan dalam program seperti dalam butiran berikut:  \n\n          Nama program    : @Raw(Model.Pendaftaran.NoPermohonan)\n          Tempoh masa     : @Model.Permohonan.TarikhMula.ToString(\"dd/MM/yyyy\") hingga @Model.Permohonan.TarikhTamat.ToString(\"dd/MM/yyyy\")\n\n2.    YBhg. Tan Sri/Dato' Seri/Datuk/Dato'/Datin/Dr./Tuan/Puan dipohon untuk menjawab sesi ujian yang telah didaftarkan dalam tempoh masa program tersebut berlangsung.\n\n3.    Atas perhatian dan kerjasama YBhg. Tan Sri/Dato' Seri/Datuk/Dato'/Datin/Dr./Tuan/Puan dalam perkara ini didahului dengan ucapan ribuan terima kasih.\n\nSekian.\n\n\"PENERAJU TRANSFORMASI PERKHIDMATAN AWAM\"\n\nUrus Setia\nSistem Ujian Psikometrik \n\nhttp://psikometrik.jpa.gov.my\n\n(Emel makluman ini dijana secara automatik oleh Sistem Ujian Psikometrik)",
+        "Body": "Assalamualaikum dan Salam Sejahtera,\n\nYBhg. Tan Sri/Dato' Seri/Datuk/Dato'/Datin/Dr./Tuan/Puan,\n\nSukacita dimaklumkan bahawa YBhg. Tan Sri/Dato' Seri/Datuk/Dato'/Datin/Dr./Tuan/Puan telah didaftarkan dalam program seperti dalam butiran berikut:  \n\n          Nama program    : @Raw(Model.Pendaftaran.NoPermohonan)\n          Tempoh masa     : @Model.Permohonan.TarikhMula.ToString(\"dd/MM/yyyy\") hingga @Model.Permohonan.TarikhTamat.ToString(\"dd/MM/yyyy\")\n\n2.    YBhg. Tan Sri/Dato' Seri/Datuk/Dato'/Datin/Dr./Tuan/Puan dipohon untuk menjawab sesi ujian yang telah didaftarkan dalam tempoh masa program tersebut berlangsung.\n\n3.    Atas perhatian dan kerjasama YBhg. Tan Sri/Dato' Seri/Datuk/Dato'/Datin/Dr./Tuan/Puan dalam perkara ini didahului dengan ucapan ribuan terima kasih.\n\nSekian.\n\n\"BERKHIDMAT UNTUK NEGARA\"\n\nUrus Setia\nSistem Ujian Psikometrik \n\nhttp://psikometrik.jpa.gov.my\n\n(Emel makluman ini dijana secara automatik oleh Sistem Ujian Psikometrik)",
         "To": "@Model.Responden.Emel",
         "UserName": null,
         "Cc": null,
@@ -497,7 +497,7 @@
         "$type": "Bespoke.Sph.Domain.NotificationActivity, domain.sph",
         "From": "admin@@sph.my",
         "Subject": "PERINGATAN : Pendaftaran Bagi Program Sistem Ujian Psikometrik",
-        "Body": "Assalamualaikum dan Salam Sejahtera,\n\nYBhg. Tan Sri/Dato' Seri/Datuk/Dato'/Datin/Dr./Tuan/Puan,\n\nSukacita dimaklumkan bahawa YBhg. Tan Sri/Dato' Seri/Datuk/Dato'/Datin/Dr./Tuan/Puan telah didaftarkan dalam program seperti dalam butiran berikut:  \n\n          Nama program    : @Raw(Model.Pendaftaran.NoPermohonan)\n          Tempoh masa     : @Model.Permohonan.TarikhMula.ToString(\"dd/MM/yyyy\") hingga @Model.Permohonan.TarikhTamat.ToString(\"dd/MM/yyyy\")\n\n2.    YBhg. Tan Sri/Dato' Seri/Datuk/Dato'/Datin/Dr./Tuan/Puan dipohon untuk menjawab sesi ujian yang telah didaftarkan dalam tempoh masa program tersebut berlangsung.\n\n3.    Atas perhatian dan kerjasama YBhg. Tan Sri/Dato' Seri/Datuk/Dato'/Datin/Dr./Tuan/Puan dalam perkara ini didahului dengan ucapan ribuan terima kasih.\n\nSekian.\n\n\"PENERAJU TRANSFORMASI PERKHIDMATAN AWAM\"\n\nUrus Setia\nSistem Ujian Psikometrik \n\nhttp://psikometrik.jpa.gov.my\n\n(Emel makluman ini dijana secara automatik oleh Sistem Ujian Psikometrik)",
+        "Body": "Assalamualaikum dan Salam Sejahtera,\n\nYBhg. Tan Sri/Dato' Seri/Datuk/Dato'/Datin/Dr./Tuan/Puan,\n\nSukacita dimaklumkan bahawa YBhg. Tan Sri/Dato' Seri/Datuk/Dato'/Datin/Dr./Tuan/Puan telah didaftarkan dalam program seperti dalam butiran berikut:  \n\n          Nama program    : @Raw(Model.Pendaftaran.NoPermohonan)\n          Tempoh masa     : @Model.Permohonan.TarikhMula.ToString(\"dd/MM/yyyy\") hingga @Model.Permohonan.TarikhTamat.ToString(\"dd/MM/yyyy\")\n\n2.    YBhg. Tan Sri/Dato' Seri/Datuk/Dato'/Datin/Dr./Tuan/Puan dipohon untuk menjawab sesi ujian yang telah didaftarkan dalam tempoh masa program tersebut berlangsung.\n\n3.    Atas perhatian dan kerjasama YBhg. Tan Sri/Dato' Seri/Datuk/Dato'/Datin/Dr./Tuan/Puan dalam perkara ini didahului dengan ucapan ribuan terima kasih.\n\nSekian.\n\n\"BERKHIDMAT UNTUK NEGARA\"\n\nUrus Setia\nSistem Ujian Psikometrik \n\nhttp://psikometrik.jpa.gov.my\n\n(Emel makluman ini dijana secara automatik oleh Sistem Ujian Psikometrik)",
         "To": "@Model.Responden.Emel2",
         "UserName": null,
         "Cc": null,
@@ -754,6 +754,6 @@
   "Id": "pendaftaran-program-sessi-ujian",
   "CreatedDate": "2015-06-09T19:15:58.6767026+08:00",
   "ChangedBy": "admin",
-  "ChangedDate": "2015-09-30T11:22:54.3074303+08:00",
+  "ChangedDate": "2015-10-05T15:54:32.4940239+08:00",
   "WebId": "365215bb-b0f3-45b4-8790-786d57be4c3c"
 }

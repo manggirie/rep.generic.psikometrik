@@ -66,7 +66,7 @@
             "WebId": null
           },
           "Name": null,
-          "Label": "* My Kad",
+          "Label": "* MyKad",
           "Tooltip": null,
           "Path": "MyKad",
           "IsRequired": false,
@@ -1050,6 +1050,6 @@
   "Id": "kemaskini-pengguna-oleh-penyelaras",
   "CreatedDate": "2015-06-16T08:04:09.5330981+08:00",
   "ChangedBy": "admin",
-  "ChangedDate": "2015-09-30T14:18:38.53553+08:00",
+  "ChangedDate": "2015-10-06T09:20:04.2415832+08:00",
   "WebId": "4e32950c-7d95-4b44-983c-3c3e67811ded"
 }

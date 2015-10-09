@@ -84,7 +84,7 @@
                 <label class="checkbox">
                     <input data-bind="checked : isIPU, enable :StatusPermohonan() === 'BARU'" id="isIPU" type="checkbox"
                            name="isIPU"/>
-                    <span data-i18n="Indeks Perwatakan Unggul (IPU) ">Indeks Perwatakan Unggul (IPU) </span>
+                    <span data-i18n="Indikator Perwatakan Unggul (IPU) ">Indikator Perwatakan Unggul (IPU) </span>
                     
                 </label>
             </div>
@@ -175,6 +175,20 @@
                     <option value="Temuduga" data-i18n="Temuduga">Temuduga</option>
                     <option value="Pembangunan Potensi" data-i18n="Pembangunan Potensi">Pembangunan Potensi</option>
             </select>
+        </div>
+    </div>
+
+
+
+    <div data-bind="visible:true" class="form-group">
+        <label data-i18n="Nama Program" for="e0c92c33-6620-4eb7-beb7-678560dce926" class="col-md-4">Nama Program</label>
+        <div class="col-md-8">
+            <input  class=" form-control input-large" title=""
+                   data-bind="value: NamaProgram, enable :true "
+                   
+                   
+                   
+                   id="e0c92c33-6620-4eb7-beb7-678560dce926" type="text" name="NamaProgram" />
         </div>
     </div>
 </form>

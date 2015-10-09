@@ -398,7 +398,7 @@
             "WebId": null
           },
           "Name": null,
-          "Label": "Indeks Perwatakan Unggul (IPU)",
+          "Label": "Indikator Perwatakan Unggul (IPU)",
           "Tooltip": null,
           "Path": "isIPU",
           "IsRequired": false,
@@ -996,11 +996,11 @@
   "Entity": "permohonan",
   "Partial": null,
   "Caption": "Permohonan oleh Urusetia",
-  "Layout": null,
+  "Layout": " ",
   "CreatedBy": "admin",
   "Id": "permohonan-urusetia-readonly",
   "CreatedDate": "2015-06-16T08:04:20.3588975+08:00",
   "ChangedBy": "admin",
-  "ChangedDate": "2015-07-14T07:30:59.6564974+08:00",
+  "ChangedDate": "2015-10-08T14:50:45.1787006+08:00",
   "WebId": "d56af63c-c52e-401b-83b5-bfecea2c53d1"
 }
