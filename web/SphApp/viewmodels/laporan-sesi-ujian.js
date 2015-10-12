@@ -40,7 +40,7 @@ define(["services/datacontext", "services/logger", "plugins/router", objectbuild
             .then(function (list) {
                 ujianOptions(list);
                 ujianOptions.push("UKBP");
-                return context.getListAsync("ProgramLookup", "Id ne '0'", "NamaProgram");
+                return context.getListAsync("Permohonan", "Id ne '0'", "NamaProgram");
             })
             .then(function (list) {
                 programOptions(list);
