@@ -16,12 +16,6 @@ define(["services/datacontext", "services/logger", "plugins/router", objectbuild
                             }, {
                                 "range": {
                                     "TarikhTamat": {
-                                        "from": moment().format("YYYY-MM-DDTHH:mm:ss")
-                                    }
-                                }
-                            }, {
-                                "range": {
-                                    "TarikhMula": {
                                         "to": moment().format("YYYY-MM-DDTHH:mm:ss")
                                     }
                                 }
