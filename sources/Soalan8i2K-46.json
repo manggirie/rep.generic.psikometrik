@@ -1,0 +1,53 @@
+{
+  "$type": "Bespoke.epsikologi_soalan.Domain.Soalan, epsikologi.Soalan",
+  "NoRujukan": "8i2K-46",
+  "SoalanNo": "8i2K-46",
+  "TeksSoalan": "Saya menghabiskan sepenuhnya pendapatan yang saya perolehi setiap bulan",
+  "SeksyenSoalan": null,
+  "PilihanJawapanCollection": {
+    "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan]], domain.sph",
+    "$values": [
+      {
+        "$type": "Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan",
+        "Teks": "Sangat tidak setuju",
+        "Nilai": 5,
+        "WebId": "9d798e23-ca4a-4c22-ae0a-15d8ce606bf2"
+      },
+      {
+        "$type": "Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan",
+        "Teks": "Tidak setuju",
+        "Nilai": 4,
+        "WebId": "ef44ca24-63a2-41a2-aa57-a578041ec329"
+      },
+      {
+        "$type": "Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan",
+        "Teks": "Kadang-kadang",
+        "Nilai": 3,
+        "WebId": "08e4cfac-f8ac-46b8-bfb8-247932ae24aa"
+      },
+      {
+        "$type": "Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan",
+        "Teks": "Setuju",
+        "Nilai": 2,
+        "WebId": "cc036b0a-18b8-406a-98e2-a40ed3ee8bae"
+      },
+      {
+        "$type": "Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan",
+        "Teks": "Sangat setuju",
+        "Nilai": 1,
+        "WebId": "6f943112-7c68-4a91-b70f-029a64b961e8"
+      }
+    ]
+  },
+  "Trait": "Kewangan",
+  "NamaUjian": "8i2k",
+  "Susunan": 46.0,
+  "Kategori": null,
+  "Bahagian": null,
+  "CreatedBy": "admin",
+  "Id": "8i2K-46",
+  "CreatedDate": "2015-09-23T16:47:51.086366+08:00",
+  "ChangedBy": "admin",
+  "ChangedDate": "2015-09-23T16:47:51.077366+08:00",
+  "WebId": "f70e4b83-67ba-4419-a2e0-ef8859f955f1"
+}

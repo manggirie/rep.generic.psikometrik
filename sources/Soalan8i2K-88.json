@@ -1,0 +1,53 @@
+{
+  "$type": "Bespoke.epsikologi_soalan.Domain.Soalan, epsikologi.Soalan",
+  "NoRujukan": "8i2K-88",
+  "SoalanNo": "8i2K-88",
+  "TeksSoalan": "Saya merancang perbelanjaan bagi mendapatkan barangan yang saya inginkan",
+  "SeksyenSoalan": null,
+  "PilihanJawapanCollection": {
+    "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan]], domain.sph",
+    "$values": [
+      {
+        "$type": "Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan",
+        "Teks": "Sangat tidak setuju",
+        "Nilai": 1,
+        "WebId": "3e22c42e-e53a-49a8-8f80-df54fe6e6da9"
+      },
+      {
+        "$type": "Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan",
+        "Teks": "Tidak setuju",
+        "Nilai": 2,
+        "WebId": "ad4f07d4-d2be-4020-ab59-a265e5bbcba7"
+      },
+      {
+        "$type": "Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan",
+        "Teks": "Kadang-kadang",
+        "Nilai": 3,
+        "WebId": "57c2cffd-143f-41da-b322-a5d97651b3ea"
+      },
+      {
+        "$type": "Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan",
+        "Teks": "Setuju",
+        "Nilai": 4,
+        "WebId": "ac7f19f6-0c65-4c44-a72e-2c14ed9b2154"
+      },
+      {
+        "$type": "Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan",
+        "Teks": "Sangat setuju",
+        "Nilai": 5,
+        "WebId": "14251953-8349-4c10-a260-bc92428b3c9d"
+      }
+    ]
+  },
+  "Trait": "Kewangan",
+  "NamaUjian": "8i2k",
+  "Susunan": 88.0,
+  "Kategori": null,
+  "Bahagian": null,
+  "CreatedBy": "admin",
+  "Id": "8i2K-88",
+  "CreatedDate": "2015-09-30T09:10:05.5180583+08:00",
+  "ChangedBy": "admin",
+  "ChangedDate": "2015-09-30T09:10:05.5080583+08:00",
+  "WebId": "1a45414b-bb00-4efe-9a98-0bdeaba2cf9b"
+}

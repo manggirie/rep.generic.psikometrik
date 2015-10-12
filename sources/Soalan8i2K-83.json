@@ -1,0 +1,53 @@
+{
+  "$type": "Bespoke.epsikologi_soalan.Domain.Soalan, epsikologi.Soalan",
+  "NoRujukan": "8i2K-83",
+  "SoalanNo": "8i2K-83",
+  "TeksSoalan": "Keterlibatan saya dalam membuat keputusan di tempat kerja",
+  "SeksyenSoalan": null,
+  "PilihanJawapanCollection": {
+    "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan]], domain.sph",
+    "$values": [
+      {
+        "$type": "Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan",
+        "Teks": "Sangat tidak setuju",
+        "Nilai": 1,
+        "WebId": "b8c6401c-3eba-4fee-a1c1-3d2c2e42b0c6"
+      },
+      {
+        "$type": "Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan",
+        "Teks": "Tidak setuju",
+        "Nilai": 2,
+        "WebId": "aa0f291b-3940-4898-9c53-f70561ab3928"
+      },
+      {
+        "$type": "Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan",
+        "Teks": "Kadang-kadang",
+        "Nilai": 3,
+        "WebId": "c956e54b-4719-408b-9c8d-e07c9be4433f"
+      },
+      {
+        "$type": "Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan",
+        "Teks": "Setuju",
+        "Nilai": 4,
+        "WebId": "b849f6e5-f709-4821-a372-87110a6d3125"
+      },
+      {
+        "$type": "Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan",
+        "Teks": "Sangat setuju",
+        "Nilai": 5,
+        "WebId": "479468e1-7406-4e8f-a9df-270ec086cfbd"
+      }
+    ]
+  },
+  "Trait": "Pekerjaan",
+  "NamaUjian": "8i2k",
+  "Susunan": 83.0,
+  "Kategori": null,
+  "Bahagian": null,
+  "CreatedBy": "admin",
+  "Id": "8i2K-83",
+  "CreatedDate": "2015-09-30T08:52:30.5080583+08:00",
+  "ChangedBy": "admin",
+  "ChangedDate": "2015-09-30T08:52:30.4970583+08:00",
+  "WebId": "2fe677ba-f153-42d5-8da6-7a33a4f28adc"
+}

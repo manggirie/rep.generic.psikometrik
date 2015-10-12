@@ -1,0 +1,53 @@
+{
+  "$type": "Bespoke.epsikologi_soalan.Domain.Soalan, epsikologi.Soalan",
+  "NoRujukan": "8i2K-62",
+  "SoalanNo": "8i2K-62",
+  "TeksSoalan": "Saya terlibat dalam aktiviti  pemuliharaan alam sekitar",
+  "SeksyenSoalan": null,
+  "PilihanJawapanCollection": {
+    "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan]], domain.sph",
+    "$values": [
+      {
+        "$type": "Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan",
+        "Teks": "Sangat tidak setuju",
+        "Nilai": 1,
+        "WebId": "13060822-ebe6-44cd-9b5f-74ce343f0065"
+      },
+      {
+        "$type": "Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan",
+        "Teks": "Tidak setuju",
+        "Nilai": 2,
+        "WebId": "2053bd4f-d89f-4c61-a8f0-12525b7c270e"
+      },
+      {
+        "$type": "Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan",
+        "Teks": "Kadang-kadang",
+        "Nilai": 3,
+        "WebId": "45986e89-4697-4c7a-bfbc-bbbc57127a98"
+      },
+      {
+        "$type": "Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan",
+        "Teks": "Setuju",
+        "Nilai": 4,
+        "WebId": "a117f9a9-a02a-45c0-a5b2-653302082b9c"
+      },
+      {
+        "$type": "Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan",
+        "Teks": "Sangat setuju",
+        "Nilai": 5,
+        "WebId": "0e188b22-2beb-4aaa-9877-0553871958fd"
+      }
+    ]
+  },
+  "Trait": "Persekitaran",
+  "NamaUjian": "8i2k",
+  "Susunan": 62.0,
+  "Kategori": null,
+  "Bahagian": null,
+  "CreatedBy": "admin",
+  "Id": "8i2K-62",
+  "CreatedDate": "2015-09-28T16:46:08.3605095+08:00",
+  "ChangedBy": "admin",
+  "ChangedDate": "2015-09-28T16:46:08.3595094+08:00",
+  "WebId": "68b657aa-5523-4af8-9574-ac81b5d80baa"
+}

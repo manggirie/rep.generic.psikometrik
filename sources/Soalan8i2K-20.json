@@ -1,0 +1,53 @@
+{
+  "$type": "Bespoke.epsikologi_soalan.Domain.Soalan, epsikologi.Soalan",
+  "NoRujukan": "8i2K-20",
+  "SoalanNo": "8i2K-20",
+  "TeksSoalan": "Saya menerima kritikan tentang diri saya",
+  "SeksyenSoalan": null,
+  "PilihanJawapanCollection": {
+    "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan]], domain.sph",
+    "$values": [
+      {
+        "$type": "Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan",
+        "Teks": "Sangat tidak setuju",
+        "Nilai": 1,
+        "WebId": "a0b39d18-96f1-4d7b-8cb5-edbdb613485f"
+      },
+      {
+        "$type": "Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan",
+        "Teks": "Tidak setuju",
+        "Nilai": 2,
+        "WebId": "dcc34609-3ee3-4a12-89f3-3f5118b10717"
+      },
+      {
+        "$type": "Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan",
+        "Teks": "Kadang-kadang",
+        "Nilai": 3,
+        "WebId": "e80faa74-f8aa-4b9e-85d0-764adc27fe45"
+      },
+      {
+        "$type": "Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan",
+        "Teks": "Setuju",
+        "Nilai": 4,
+        "WebId": "2812910c-658d-4929-a3e2-943a36a1a703"
+      },
+      {
+        "$type": "Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan",
+        "Teks": "Sangat setuju",
+        "Nilai": 5,
+        "WebId": "afb5436e-f447-4636-9a6a-45f62500379b"
+      }
+    ]
+  },
+  "Trait": "Sosial",
+  "NamaUjian": "8i2k",
+  "Susunan": 20.0,
+  "Kategori": null,
+  "Bahagian": null,
+  "CreatedBy": "admin",
+  "Id": "8i2K-20",
+  "CreatedDate": "2015-09-22T09:14:51.8144224+08:00",
+  "ChangedBy": "admin",
+  "ChangedDate": "2015-09-22T09:14:51.8134224+08:00",
+  "WebId": "9cadb2e4-9e8a-4300-a969-960f754b573f"
+}

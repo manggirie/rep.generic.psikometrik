@@ -1,0 +1,53 @@
+{
+  "$type": "Bespoke.epsikologi_soalan.Domain.Soalan, epsikologi.Soalan",
+  "NoRujukan": "8i2K-55",
+  "SoalanNo": "8i2K-55",
+  "TeksSoalan": "Saya menonton dokumentari berkaitan alam sekitar",
+  "SeksyenSoalan": null,
+  "PilihanJawapanCollection": {
+    "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan]], domain.sph",
+    "$values": [
+      {
+        "$type": "Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan",
+        "Teks": "Sangat tidak setuju",
+        "Nilai": 1,
+        "WebId": "44d93b95-33ad-4170-87bf-612f7b54cb0a"
+      },
+      {
+        "$type": "Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan",
+        "Teks": "Tidak setuju",
+        "Nilai": 2,
+        "WebId": "e1e8ce85-24db-45ae-b37b-3406aeb31b7c"
+      },
+      {
+        "$type": "Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan",
+        "Teks": "Kadang-kadang",
+        "Nilai": 3,
+        "WebId": "1725b9e6-169e-43c2-818e-1564dc58058d"
+      },
+      {
+        "$type": "Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan",
+        "Teks": "Setuju",
+        "Nilai": 4,
+        "WebId": "3afeedac-5aea-46c3-9f0e-52ace129da51"
+      },
+      {
+        "$type": "Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan",
+        "Teks": "Sangat setuju",
+        "Nilai": 5,
+        "WebId": "2e1c60a5-f308-4b08-9c13-f5027a5e6554"
+      }
+    ]
+  },
+  "Trait": "Persekitaran",
+  "NamaUjian": "8i2k",
+  "Susunan": 55.0,
+  "Kategori": null,
+  "Bahagian": null,
+  "CreatedBy": "admin",
+  "Id": "8i2K-55",
+  "CreatedDate": "2015-09-28T11:23:02.6281301+08:00",
+  "ChangedBy": "admin",
+  "ChangedDate": "2015-09-28T11:23:02.6191292+08:00",
+  "WebId": "adb8a053-09bf-4538-f6da-5433126e1767"
+}

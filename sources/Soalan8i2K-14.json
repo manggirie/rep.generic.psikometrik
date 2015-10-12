@@ -1,0 +1,53 @@
+{
+  "$type": "Bespoke.epsikologi_soalan.Domain.Soalan, epsikologi.Soalan",
+  "NoRujukan": "8i2K-14",
+  "SoalanNo": "8i2K-14",
+  "TeksSoalan": "Saya membeli insuran untuk perlindungan diri",
+  "SeksyenSoalan": null,
+  "PilihanJawapanCollection": {
+    "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan]], domain.sph",
+    "$values": [
+      {
+        "$type": "Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan",
+        "Teks": "Sangat tidak setuju",
+        "Nilai": 1,
+        "WebId": "5c245347-2024-47fa-9bfc-ebbe103c88a3"
+      },
+      {
+        "$type": "Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan",
+        "Teks": "Tidak setuju",
+        "Nilai": 2,
+        "WebId": "a734a89d-f906-4986-be63-45a22ba8d084"
+      },
+      {
+        "$type": "Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan",
+        "Teks": "Kadang-kadang",
+        "Nilai": 3,
+        "WebId": "56233648-e7d4-4048-afc8-3b71f9f4f176"
+      },
+      {
+        "$type": "Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan",
+        "Teks": "Setuju",
+        "Nilai": 4,
+        "WebId": "fc29f722-b7a2-41f1-be07-16426532b269"
+      },
+      {
+        "$type": "Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan",
+        "Teks": "Sangat setuju",
+        "Nilai": 5,
+        "WebId": "fa15e80a-dc31-4a1f-95f8-2c5d51786ba1"
+      }
+    ]
+  },
+  "Trait": "Kewangan",
+  "NamaUjian": "8i2k",
+  "Susunan": 14.0,
+  "Kategori": null,
+  "Bahagian": null,
+  "CreatedBy": "admin",
+  "Id": "8i2K-14",
+  "CreatedDate": "2015-09-21T16:27:31.7053122+08:00",
+  "ChangedBy": "admin",
+  "ChangedDate": "2015-09-21T16:27:31.7043121+08:00",
+  "WebId": "109f3382-61ac-4761-b0ea-4f0c1424e703"
+}

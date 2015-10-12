@@ -1,0 +1,53 @@
+{
+  "$type": "Bespoke.epsikologi_soalan.Domain.Soalan, epsikologi.Soalan",
+  "NoRujukan": "8i2K-59",
+  "SoalanNo": "8i2K-59",
+  "TeksSoalan": "Saya bersyukur dengan apa yang ada dalam kehidupan",
+  "SeksyenSoalan": null,
+  "PilihanJawapanCollection": {
+    "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan]], domain.sph",
+    "$values": [
+      {
+        "$type": "Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan",
+        "Teks": "Sangat tidak setuju",
+        "Nilai": 1,
+        "WebId": "654b9010-c49e-47bf-a9e9-bd246d695ede"
+      },
+      {
+        "$type": "Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan",
+        "Teks": "Tidak setuju",
+        "Nilai": 2,
+        "WebId": "f14354ed-562b-434f-9b44-67fa608a9de7"
+      },
+      {
+        "$type": "Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan",
+        "Teks": "Kadang-kadang",
+        "Nilai": 3,
+        "WebId": "1f4aa5ab-1f67-44cf-8405-870d8da897fe"
+      },
+      {
+        "$type": "Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan",
+        "Teks": "Setuju",
+        "Nilai": 4,
+        "WebId": "1b430ea0-e9a3-43b5-8514-d95d8a45e1b2"
+      },
+      {
+        "$type": "Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan",
+        "Teks": "Sangat setuju",
+        "Nilai": 5,
+        "WebId": "7fdb7249-f323-44ef-95ab-510252d8a06a"
+      }
+    ]
+  },
+  "Trait": "Spiritual",
+  "NamaUjian": "8i2k",
+  "Susunan": 59.0,
+  "Kategori": null,
+  "Bahagian": null,
+  "CreatedBy": "admin",
+  "Id": "8i2K-59",
+  "CreatedDate": "2015-09-28T16:25:26.9273786+08:00",
+  "ChangedBy": "admin",
+  "ChangedDate": "2015-09-28T16:25:26.9263785+08:00",
+  "WebId": "4aac034b-7fa9-4875-d99e-a9e71f4e07e3"
+}

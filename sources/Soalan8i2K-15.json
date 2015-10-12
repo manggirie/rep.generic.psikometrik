@@ -1,0 +1,53 @@
+{
+  "$type": "Bespoke.epsikologi_soalan.Domain.Soalan, epsikologi.Soalan",
+  "NoRujukan": "8i2K-15",
+  "SoalanNo": "8i2K-15",
+  "TeksSoalan": "Organisasi saya mengamalkan penjimatan air",
+  "SeksyenSoalan": null,
+  "PilihanJawapanCollection": {
+    "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan]], domain.sph",
+    "$values": [
+      {
+        "$type": "Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan",
+        "Teks": "Sangat tidak setuju",
+        "Nilai": 1,
+        "WebId": "38aa70f2-3ec3-4412-a2dd-88426f4a7f8c"
+      },
+      {
+        "$type": "Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan",
+        "Teks": "Tidak setuju",
+        "Nilai": 2,
+        "WebId": "3a0720bf-2cce-40a3-933a-91b97f5adc85"
+      },
+      {
+        "$type": "Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan",
+        "Teks": "Kadang-kadang",
+        "Nilai": 3,
+        "WebId": "115e6f8b-0b14-4026-a277-b0afa4d7934b"
+      },
+      {
+        "$type": "Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan",
+        "Teks": "Setuju",
+        "Nilai": 4,
+        "WebId": "4e336e0f-3883-461a-9efa-2976d15b4ef6"
+      },
+      {
+        "$type": "Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan",
+        "Teks": "Sangat setuju",
+        "Nilai": 5,
+        "WebId": "b35ff509-bb9c-4f5d-9fdf-4c9ad041c46d"
+      }
+    ]
+  },
+  "Trait": "Persekitaran",
+  "NamaUjian": "8i2k",
+  "Susunan": 15.0,
+  "Kategori": null,
+  "Bahagian": null,
+  "CreatedBy": "admin",
+  "Id": "8i2K-15",
+  "CreatedDate": "2015-09-21T16:29:14.5655972+08:00",
+  "ChangedBy": "admin",
+  "ChangedDate": "2015-09-21T16:29:14.5645971+08:00",
+  "WebId": "470725c7-2ab9-427f-8904-c21759b21751"
+}

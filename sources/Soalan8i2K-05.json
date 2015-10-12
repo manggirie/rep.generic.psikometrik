@@ -1,0 +1,53 @@
+{
+  "$type": "Bespoke.epsikologi_soalan.Domain.Soalan, epsikologi.Soalan",
+  "NoRujukan": "8i2K-05",
+  "SoalanNo": "8i2K-05",
+  "TeksSoalan": "Saya bersenam mengikut rutin yang tetap",
+  "SeksyenSoalan": null,
+  "PilihanJawapanCollection": {
+    "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan]], domain.sph",
+    "$values": [
+      {
+        "$type": "Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan",
+        "Teks": "Sangat tidak setuju",
+        "Nilai": 1,
+        "WebId": "35c2054e-97d5-4944-8478-4b6da8ba544e"
+      },
+      {
+        "$type": "Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan",
+        "Teks": "Tidak setuju",
+        "Nilai": 2,
+        "WebId": "b52fab99-73b3-4983-a354-2b3cb7d1f4eb"
+      },
+      {
+        "$type": "Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan",
+        "Teks": "Kadang-kadang",
+        "Nilai": 3,
+        "WebId": "209d3315-294d-45c3-88a5-c7cfba8b5a76"
+      },
+      {
+        "$type": "Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan",
+        "Teks": "Sangat setuju",
+        "Nilai": 4,
+        "WebId": "4592219f-dc62-4a88-999e-b88a355d34a3"
+      },
+      {
+        "$type": "Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan",
+        "Teks": "Setuju",
+        "Nilai": 5,
+        "WebId": "063a9a10-a73c-4469-8c28-957f1fd52e0a"
+      }
+    ]
+  },
+  "Trait": "Fizikal",
+  "NamaUjian": "8i2k",
+  "Susunan": 5.0,
+  "Kategori": null,
+  "Bahagian": null,
+  "CreatedBy": "admin",
+  "Id": "8i2K-05",
+  "CreatedDate": "2015-09-21T15:21:12.4114226+08:00",
+  "ChangedBy": "admin",
+  "ChangedDate": "2015-09-21T15:21:12.4024217+08:00",
+  "WebId": "31a11099-7acc-4bbe-9a1c-670dedfebe33"
+}

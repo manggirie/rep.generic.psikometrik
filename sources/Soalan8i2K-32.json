@@ -1,0 +1,53 @@
+{
+  "$type": "Bespoke.epsikologi_soalan.Domain.Soalan, epsikologi.Soalan",
+  "NoRujukan": "8i2K-32",
+  "SoalanNo": "8i2K-32",
+  "TeksSoalan": "Saya mematuhi peraturan jabatan",
+  "SeksyenSoalan": null,
+  "PilihanJawapanCollection": {
+    "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan]], domain.sph",
+    "$values": [
+      {
+        "$type": "Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan",
+        "Teks": "Sangat tidak setuju",
+        "Nilai": 1,
+        "WebId": "2e3ea6a3-a832-438e-ad73-e899e7f3e641"
+      },
+      {
+        "$type": "Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan",
+        "Teks": "Tidak setuju",
+        "Nilai": 2,
+        "WebId": "0daf8f67-016c-4426-870a-3fe9e88bee64"
+      },
+      {
+        "$type": "Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan",
+        "Teks": "Kadang-kadang",
+        "Nilai": 3,
+        "WebId": "1b20a418-9756-4520-b227-68af4c059ddb"
+      },
+      {
+        "$type": "Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan",
+        "Teks": "Setuju",
+        "Nilai": 4,
+        "WebId": "c5972b0d-9a53-47bb-be69-c56c57a38d73"
+      },
+      {
+        "$type": "Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan",
+        "Teks": "Sangat setuju",
+        "Nilai": 5,
+        "WebId": "803707fc-d4f1-4845-83ad-c204bc965706"
+      }
+    ]
+  },
+  "Trait": "Pekerjaan",
+  "NamaUjian": "8i2k",
+  "Susunan": 32.0,
+  "Kategori": null,
+  "Bahagian": null,
+  "CreatedBy": "admin",
+  "Id": "8i2K-32",
+  "CreatedDate": "2015-09-22T15:56:44.3854224+08:00",
+  "ChangedBy": "admin",
+  "ChangedDate": "2015-09-22T15:56:44.3844224+08:00",
+  "WebId": "eec1dbac-4235-4d39-db41-7bf3b64c721e"
+}

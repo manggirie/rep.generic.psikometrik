@@ -1,0 +1,53 @@
+{
+  "$type": "Bespoke.epsikologi_soalan.Domain.Soalan, epsikologi.Soalan",
+  "NoRujukan": "8i2K-84",
+  "SoalanNo": "8i2K-84",
+  "TeksSoalan": "Saya mempelajari sesuatu kemahiran baru yang saya tidak mahir",
+  "SeksyenSoalan": null,
+  "PilihanJawapanCollection": {
+    "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan]], domain.sph",
+    "$values": [
+      {
+        "$type": "Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan",
+        "Teks": "Sangat tidak setuju",
+        "Nilai": 1,
+        "WebId": "bde69fed-60bb-41ff-bdf1-6acd30e4c6a3"
+      },
+      {
+        "$type": "Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan",
+        "Teks": "Tidak setuju",
+        "Nilai": 2,
+        "WebId": "a37342ca-1e89-44b2-9f46-f222f3b230c5"
+      },
+      {
+        "$type": "Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan",
+        "Teks": "Kadang-kadang",
+        "Nilai": 3,
+        "WebId": "bd24a264-e8ce-4c13-af42-bbf8c86c1b35"
+      },
+      {
+        "$type": "Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan",
+        "Teks": "Setuju",
+        "Nilai": 4,
+        "WebId": "eac25742-56de-451e-9ac8-68ad8ac2cfc7"
+      },
+      {
+        "$type": "Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan",
+        "Teks": "Sangat setuju",
+        "Nilai": 5,
+        "WebId": "bcf7b91b-8176-4782-95f8-b98933c608e6"
+      }
+    ]
+  },
+  "Trait": "Minda",
+  "NamaUjian": "8i2k",
+  "Susunan": 84.0,
+  "Kategori": null,
+  "Bahagian": null,
+  "CreatedBy": "admin",
+  "Id": "8i2K-84",
+  "CreatedDate": "2015-09-30T08:54:52.2760583+08:00",
+  "ChangedBy": "admin",
+  "ChangedDate": "2015-09-30T08:54:52.2750583+08:00",
+  "WebId": "58cf3630-76b3-4fc4-a707-2ffaf6f8d6b3"
+}

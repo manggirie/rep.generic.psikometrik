@@ -1,0 +1,53 @@
+{
+  "$type": "Bespoke.epsikologi_soalan.Domain.Soalan, epsikologi.Soalan",
+  "NoRujukan": "8i2K-94",
+  "SoalanNo": "8i2K-94",
+  "TeksSoalan": "Saya sentiasa berusaha menyelesaikan kerja mengikut masa yang ditetapkan",
+  "SeksyenSoalan": null,
+  "PilihanJawapanCollection": {
+    "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan]], domain.sph",
+    "$values": [
+      {
+        "$type": "Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan",
+        "Teks": "Sangat tidak setuju",
+        "Nilai": 1,
+        "WebId": "bee98c75-42b5-4b70-8e0e-9352a9b522e1"
+      },
+      {
+        "$type": "Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan",
+        "Teks": "Tidak setuju",
+        "Nilai": 2,
+        "WebId": "b01889e8-a2a6-4c6b-880e-b916f26214dc"
+      },
+      {
+        "$type": "Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan",
+        "Teks": "Kadang-kadang",
+        "Nilai": 3,
+        "WebId": "091053ee-0655-439b-af11-711345ec495d"
+      },
+      {
+        "$type": "Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan",
+        "Teks": "Setuju",
+        "Nilai": 4,
+        "WebId": "543489fa-e41c-4811-ac5f-67d11181f91d"
+      },
+      {
+        "$type": "Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan",
+        "Teks": "Sangat setuju",
+        "Nilai": 5,
+        "WebId": "fed0fd96-06ee-4064-a78c-21696dda7139"
+      }
+    ]
+  },
+  "Trait": "Emosi",
+  "NamaUjian": "8i2k",
+  "Susunan": 94.0,
+  "Kategori": null,
+  "Bahagian": null,
+  "CreatedBy": "admin",
+  "Id": "8i2K-94",
+  "CreatedDate": "2015-09-30T10:07:14.1410583+08:00",
+  "ChangedBy": "admin",
+  "ChangedDate": "2015-09-30T10:07:14.1400583+08:00",
+  "WebId": "c038752d-fa9a-4c7a-9ad2-e0569b3110f8"
+}
