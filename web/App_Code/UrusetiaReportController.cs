@@ -82,7 +82,7 @@ namespace web.sph.App_Code
             {
                 html.AppendLine("   <tr>");
                 html.AppendLine("   <td>" + s.NamaPengguna + "</td>");
-                html.AppendFormat("   <td>{0:dd/MM/yyyy HH:mm}</td>", s.TarikhUjian);
+                html.AppendFormat("   <td>{0:dd/MM/yyyy}</td>", s.TarikhUjian);
                 foreach (var t in traits)
                 {
                     var t1 = t;
