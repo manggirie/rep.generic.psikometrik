@@ -16,6 +16,20 @@
           "WebId": "0b0484dc-626c-446b-86f6-5f50a270de22"
         },
         "WebId": "09192903-3519-4f9b-9a8f-29990bfdb27c"
+      },
+      {
+        "$type": "Bespoke.Sph.Domain.Filter, domain.sph",
+        "Term": "TarikhTamat",
+        "Operator": "Ge",
+        "Field": {
+          "$type": "Bespoke.Sph.Domain.FunctionField, domain.sph",
+          "CodeNamespace": "ffbd9e9a4f",
+          "Script": "DateTime.Today",
+          "Name": "Today",
+          "Note": "",
+          "WebId": "bd9e9a4f-ccd5-42b7-a4c2-7badd55c4388"
+        },
+        "WebId": "49c5aa76-83b3-40f7-9709-521143de0003"
       }
     ]
   },
@@ -181,6 +195,6 @@
   "Id": "permohonan-permohonan-urusetia-lulus",
   "CreatedDate": "2015-06-05T10:45:40.0585082+08:00",
   "ChangedBy": "admin",
-  "ChangedDate": "2015-09-08T12:21:17.8069834+08:00",
+  "ChangedDate": "2015-10-13T10:40:48.8408405+08:00",
   "WebId": "0264f91b-ffce-46cc-d40a-e6d3cadb6fac"
 }

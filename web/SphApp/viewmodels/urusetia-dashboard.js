@@ -2,6 +2,32 @@ define(["services/datacontext", "services/logger", "plugins/router", objectbuild
     var permohonanBaruCount = ko.observable("Please wait...."),
         soalanChart = ko.observable(),
         ujianBelumAmbil = ko.observable(),
+        ujianBelumAmbilQuery = {
+            "query": {
+                "filtered": {
+                    "filter": {
+                        "bool": {
+                            "must": [{
+                                "term": {
+                                    "StatusPermohonan": "LULUS"
+                                }
+                            }, {
+                                "range": {
+                                    "TarikhTamat": {
+                                        "from": moment().format("YYYY-MM-DDTHH:mm:ss")
+                                    }
+                                }
+                            }
+
+                            ],
+                            "must_not": [
+
+                            ]
+                        }
+                    }
+                }
+            }
+        },
         programSemasa = ko.observable(),
         respondenCount = ko.observable(),
         programSemasaQuery = {
@@ -42,8 +68,9 @@ define(["services/datacontext", "services/logger", "plugins/router", objectbuild
               permohonanBaruCount(result.hits.total);
             });
             //
-            context.getCountAsync("SesiUjian","Status eq 'Belum Ambil'").done(function(result){
-              ujianBelumAmbil(result);
+            context.searchAsync("Permohonan",ujianBelumAmbilQuery).done(function(result) {
+                console.log("ujianBelumAmbil", result);
+                ujianBelumAmbil(result.rows);
             });
             //
             context.getCountAsync("Pengguna","IsResponden eq 1").done(respondenCount);
