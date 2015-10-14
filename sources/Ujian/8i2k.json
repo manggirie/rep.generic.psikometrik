@@ -1,0 +1,17 @@
+{
+  "$type": "Bespoke.epsikologi_ujian.Domain.Ujian, epsikologi.Ujian",
+  "UjianNo": "8-i2K",
+  "NamaUjian": "Indeks Kesejahteraan Kendiri (8-i2K)",
+  "DurationHour": null,
+  "DurationMinutes": null,
+  "SectionCollection": {
+    "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.epsikologi_ujian.Domain.Section, epsikologi.Ujian]], domain.sph",
+    "$values": []
+  },
+  "CreatedBy": "admin",
+  "Id": "8i2k",
+  "CreatedDate": "2015-09-21T10:54:09.0934743+08:00",
+  "ChangedBy": "admin",
+  "ChangedDate": "2015-09-21T10:54:59.4184743+08:00",
+  "WebId": "61d4c1da-1e6a-46f2-a6c0-c14b3430199b"
+}

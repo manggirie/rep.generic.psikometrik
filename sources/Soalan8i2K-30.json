@@ -1,0 +1,53 @@
+{
+  "$type": "Bespoke.epsikologi_soalan.Domain.Soalan, epsikologi.Soalan",
+  "NoRujukan": "8i2K-30",
+  "SoalanNo": "8i2K-30",
+  "TeksSoalan": "Saya mampu membeli insuran mengikut keperluan",
+  "SeksyenSoalan": null,
+  "PilihanJawapanCollection": {
+    "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan]], domain.sph",
+    "$values": [
+      {
+        "$type": "Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan",
+        "Teks": "Sangat tidak setuju",
+        "Nilai": 1,
+        "WebId": "9791c038-4f00-4b85-8b73-51df75ae9777"
+      },
+      {
+        "$type": "Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan",
+        "Teks": "Tidak setuju",
+        "Nilai": 2,
+        "WebId": "450eae17-2cf6-46f9-bc77-09b94c8c5eeb"
+      },
+      {
+        "$type": "Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan",
+        "Teks": "Kadang-kadang",
+        "Nilai": 3,
+        "WebId": "1f752236-0746-43e9-97eb-d8114eb9a742"
+      },
+      {
+        "$type": "Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan",
+        "Teks": "Setuju",
+        "Nilai": 4,
+        "WebId": "cb52a4ba-fb2f-4e22-bc3b-c1a059ca7c82"
+      },
+      {
+        "$type": "Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan",
+        "Teks": "Sangat setuju",
+        "Nilai": 5,
+        "WebId": "b69e11ca-a7a0-46db-a818-691527379909"
+      }
+    ]
+  },
+  "Trait": "Kewangan",
+  "NamaUjian": "8i2k",
+  "Susunan": 30.0,
+  "Kategori": null,
+  "Bahagian": null,
+  "CreatedBy": "admin",
+  "Id": "8i2K-30",
+  "CreatedDate": "2015-09-22T15:29:36.7174224+08:00",
+  "ChangedBy": "admin",
+  "ChangedDate": "2015-09-22T15:29:36.7164224+08:00",
+  "WebId": "a7775494-4413-4221-844e-86857bfc42ea"
+}

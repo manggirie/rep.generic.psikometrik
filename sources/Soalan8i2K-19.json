@@ -1,0 +1,53 @@
+{
+  "$type": "Bespoke.epsikologi_soalan.Domain.Soalan, epsikologi.Soalan",
+  "NoRujukan": "8i2K-19",
+  "SoalanNo": "8i2K-19",
+  "TeksSoalan": "Saya tidak rasa bersalah apabila melakukan kesalahan",
+  "SeksyenSoalan": null,
+  "PilihanJawapanCollection": {
+    "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan]], domain.sph",
+    "$values": [
+      {
+        "$type": "Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan",
+        "Teks": "Sangat tidak setuju",
+        "Nilai": 5,
+        "WebId": "dff0a076-019e-422d-b81c-26f168ebce50"
+      },
+      {
+        "$type": "Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan",
+        "Teks": "Tidak setuju",
+        "Nilai": 4,
+        "WebId": "d7b3e443-649b-4334-9e3b-d09d67492cac"
+      },
+      {
+        "$type": "Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan",
+        "Teks": "Kadang-kadang",
+        "Nilai": 3,
+        "WebId": "8d03036d-d629-4bc2-b76a-24d582e50fe1"
+      },
+      {
+        "$type": "Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan",
+        "Teks": "Setuju",
+        "Nilai": 2,
+        "WebId": "24a187b8-6e77-4467-9e27-2ed0337c5ca4"
+      },
+      {
+        "$type": "Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan",
+        "Teks": "Sangat setuju",
+        "Nilai": 1,
+        "WebId": "6e525688-1093-4521-b293-81fac83da78c"
+      }
+    ]
+  },
+  "Trait": "Spiritual",
+  "NamaUjian": "8i2k",
+  "Susunan": 19.0,
+  "Kategori": null,
+  "Bahagian": null,
+  "CreatedBy": "admin",
+  "Id": "8i2K-19",
+  "CreatedDate": "2015-09-22T09:13:19.4224224+08:00",
+  "ChangedBy": "admin",
+  "ChangedDate": "2015-09-22T09:13:19.4124224+08:00",
+  "WebId": "66525c0e-9f1a-47fb-da5b-bbdf77722d06"
+}

@@ -63,7 +63,7 @@ define(["services/datacontext", objectbuilders.app, objectbuilders.config, objec
                 })
                 .then(function (count) {
                     if (count > 0) {
-                        var message = String.format("{0} sudah menduduki ujian {1} dan perlu menunngu 6 bulan", pendaftaran.MyKad(), ujian);
+                        var message = String.format("{0} sudah menduduki ujian {1} dan perlu menunggu 6 bulan", pendaftaran.MyKad(), ujian);
                         logger.error(message, ko.toJS(pendaftaran));
                         var tcs = new $.Deferred();
                         app.showMessage(message, "Sistem Ujian Psikologi", ["OK"])

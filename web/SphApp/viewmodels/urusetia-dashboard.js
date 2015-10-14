@@ -2,9 +2,7 @@ define(["services/datacontext", "services/logger", "plugins/router", objectbuild
     var permohonanBaruCount = ko.observable("Please wait...."),
         soalanChart = ko.observable(),
         ujianBelumAmbil = ko.observable(),
-        programSemasa = ko.observable(),
-        respondenCount = ko.observable(),
-        programSemasaQuery = {
+        ujianBelumAmbilQuery = {
             "query": {
                 "filtered": {
                     "filter": {
@@ -19,9 +17,31 @@ define(["services/datacontext", "services/logger", "plugins/router", objectbuild
                                         "from": moment().format("YYYY-MM-DDTHH:mm:ss")
                                     }
                                 }
+                            }
+
+                            ],
+                            "must_not": [
+
+                            ]
+                        }
+                    }
+                }
+            }
+        },
+        programSemasa = ko.observable(),
+        respondenCount = ko.observable(),
+        programSemasaQuery = {
+            "query": {
+                "filtered": {
+                    "filter": {
+                        "bool": {
+                            "must": [{
+                                "term": {
+                                    "StatusPermohonan": "LULUS"
+                                }
                             }, {
                                 "range": {
-                                    "TarikhMula": {
+                                    "TarikhTamat": {
                                         "to": moment().format("YYYY-MM-DDTHH:mm:ss")
                                     }
                                 }
@@ -48,8 +68,9 @@ define(["services/datacontext", "services/logger", "plugins/router", objectbuild
               permohonanBaruCount(result.hits.total);
             });
             //
-            context.getCountAsync("SesiUjian","Status eq 'Belum Ambil'").done(function(result){
-              ujianBelumAmbil(result);
+            context.searchAsync("Permohonan",ujianBelumAmbilQuery).done(function(result) {
+                console.log("ujianBelumAmbil", result);
+                ujianBelumAmbil(result.rows);
             });
             //
             context.getCountAsync("Pengguna","IsResponden eq 1").done(respondenCount);

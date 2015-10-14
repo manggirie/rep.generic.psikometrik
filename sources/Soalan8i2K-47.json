@@ -1,0 +1,53 @@
+{
+  "$type": "Bespoke.epsikologi_soalan.Domain.Soalan, epsikologi.Soalan",
+  "NoRujukan": "8i2K-47",
+  "SoalanNo": "8i2K-47",
+  "TeksSoalan": "Saya prihatin dengan isu semasa berkaitan dengan alam sekitar",
+  "SeksyenSoalan": null,
+  "PilihanJawapanCollection": {
+    "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan]], domain.sph",
+    "$values": [
+      {
+        "$type": "Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan",
+        "Teks": "Sangat tidak setuju",
+        "Nilai": 1,
+        "WebId": "da7f6dfa-b81d-49ba-bc41-f9d0086d92ec"
+      },
+      {
+        "$type": "Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan",
+        "Teks": "Tidak setuju",
+        "Nilai": 2,
+        "WebId": "e195e67a-4ef5-4d05-9cfa-d48952dce5e8"
+      },
+      {
+        "$type": "Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan",
+        "Teks": "Kadang-kadang",
+        "Nilai": 3,
+        "WebId": "03785412-00d2-4d24-a887-fa249a03a3dd"
+      },
+      {
+        "$type": "Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan",
+        "Teks": "Setuju",
+        "Nilai": 4,
+        "WebId": "f273c977-6983-4e60-a149-3a4456398f98"
+      },
+      {
+        "$type": "Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan",
+        "Teks": "Sangat setuju",
+        "Nilai": 5,
+        "WebId": "346826e5-3476-4722-9cb5-c0fe9409cf2c"
+      }
+    ]
+  },
+  "Trait": "Persekitaran",
+  "NamaUjian": "8i2k",
+  "Susunan": 47.0,
+  "Kategori": null,
+  "Bahagian": null,
+  "CreatedBy": "admin",
+  "Id": "8i2K-47",
+  "CreatedDate": "2015-09-23T16:52:05.343366+08:00",
+  "ChangedBy": "admin",
+  "ChangedDate": "2015-09-23T16:52:05.342366+08:00",
+  "WebId": "560ec97a-5f3f-4f7f-ac63-fbf7fc7ac825"
+}

@@ -128,7 +128,7 @@ namespace web.sph.App_Code
 
                 if (row + 1 > permohonan.BilRespondan)
                 {
-                    warning = $"Fail Excel ini mengandungi lebih dari bilangan responden yang dibernarkan : {permohonan.BilRespondan}";
+                    warning = $"Fail Excel ini mengandungi lebih dari bilangan responden yang dibenarkan : {permohonan.BilRespondan}";
                     break;
                 }
             }

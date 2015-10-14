@@ -1,0 +1,53 @@
+{
+  "$type": "Bespoke.epsikologi_soalan.Domain.Soalan, epsikologi.Soalan",
+  "NoRujukan": "8i2K-93",
+  "SoalanNo": "8i2K-93",
+  "TeksSoalan": "Saya terpaksa melakukan tugas-tugas di luar keupayaan",
+  "SeksyenSoalan": null,
+  "PilihanJawapanCollection": {
+    "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan]], domain.sph",
+    "$values": [
+      {
+        "$type": "Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan",
+        "Teks": "Sangat tidak setuju",
+        "Nilai": 5,
+        "WebId": "89811a86-9ccc-47e3-a595-3eade8316cb6"
+      },
+      {
+        "$type": "Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan",
+        "Teks": "Tidak setuju",
+        "Nilai": 4,
+        "WebId": "63fb6abc-9f02-47ab-aa5b-9d229970182f"
+      },
+      {
+        "$type": "Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan",
+        "Teks": "Kadang-kadang",
+        "Nilai": 3,
+        "WebId": "a04db90d-f48e-4186-82ab-59aad4833421"
+      },
+      {
+        "$type": "Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan",
+        "Teks": "Setuju",
+        "Nilai": 2,
+        "WebId": "2586a9ad-1f14-4200-81c4-8532a9288bf9"
+      },
+      {
+        "$type": "Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan",
+        "Teks": "Sangat setuju",
+        "Nilai": 1,
+        "WebId": "26adc7e1-731a-4a51-a5cc-14e0ba9b563b"
+      }
+    ]
+  },
+  "Trait": "Pekerjaan",
+  "NamaUjian": "8i2k",
+  "Susunan": 93.0,
+  "Kategori": null,
+  "Bahagian": null,
+  "CreatedBy": "admin",
+  "Id": "8i2K-93",
+  "CreatedDate": "2015-09-30T10:05:33.1200583+08:00",
+  "ChangedBy": "admin",
+  "ChangedDate": "2015-09-30T10:05:33.1100583+08:00",
+  "WebId": "6fb36095-ebe6-41ce-83a0-8a9c9e306e88"
+}

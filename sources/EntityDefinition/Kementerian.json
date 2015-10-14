@@ -136,7 +136,7 @@
     "WebId": null
   },
   "Name": "Kementerian",
-  "Plural": "Kementerians",
+  "Plural": "Senarai Kementerian ",
   "IconStoreId": "1789fe3a-bde4-4bd2-b451-5f02d204368e",
   "IconClass": "fa fa-building-o",
   "RecordName": "KementerianNo",
@@ -149,7 +149,7 @@
   "CreatedBy": "admin",
   "Id": "kementerian",
   "CreatedDate": "2015-07-12T08:50:09.6060508+08:00",
-  "ChangedBy": "admin",
-  "ChangedDate": "2015-07-12T08:50:09.6060508+08:00",
+  "ChangedBy": "urusetia1",
+  "ChangedDate": "2015-10-05T15:23:36.1174048+08:00",
   "WebId": "c435379d-cced-4e3e-de46-46f27663e00f"
 }

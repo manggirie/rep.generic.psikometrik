@@ -1,0 +1,53 @@
+{
+  "$type": "Bespoke.epsikologi_soalan.Domain.Soalan, epsikologi.Soalan",
+  "NoRujukan": "8i2K-91",
+  "SoalanNo": "8i2K-91",
+  "TeksSoalan": "Saya menghargai pujian yang diberikan oleh orang lain",
+  "SeksyenSoalan": null,
+  "PilihanJawapanCollection": {
+    "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan]], domain.sph",
+    "$values": [
+      {
+        "$type": "Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan",
+        "Teks": "Sangat tidak setuju",
+        "Nilai": 1,
+        "WebId": "461f900a-4a53-4ca5-86ee-f6cb42b7103c"
+      },
+      {
+        "$type": "Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan",
+        "Teks": "Tidak setuju",
+        "Nilai": 2,
+        "WebId": "0c0a987e-831f-4c18-b3ef-dd7329707bde"
+      },
+      {
+        "$type": "Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan",
+        "Teks": "Kadang-kadang",
+        "Nilai": 3,
+        "WebId": "879d68f9-4268-41ed-997d-d571b5fd29c8"
+      },
+      {
+        "$type": "Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan",
+        "Teks": "Setuju",
+        "Nilai": 4,
+        "WebId": "279e5c48-42a0-4d38-8ab1-207b8ce1847e"
+      },
+      {
+        "$type": "Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan",
+        "Teks": "Sangat setuju",
+        "Nilai": 5,
+        "WebId": "44fe698f-406d-4696-8da6-e2b6d6ea9c08"
+      }
+    ]
+  },
+  "Trait": "Sosial",
+  "NamaUjian": "8i2k",
+  "Susunan": 91.0,
+  "Kategori": null,
+  "Bahagian": null,
+  "CreatedBy": "admin",
+  "Id": "8i2K-91",
+  "CreatedDate": "2015-09-30T09:50:52.7780583+08:00",
+  "ChangedBy": "admin",
+  "ChangedDate": "2015-09-30T09:50:52.7690583+08:00",
+  "WebId": "fdca2af8-8b41-455f-c549-fbc26854dc3a"
+}

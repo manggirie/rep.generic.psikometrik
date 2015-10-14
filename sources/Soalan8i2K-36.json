@@ -1,0 +1,53 @@
+{
+  "$type": "Bespoke.epsikologi_soalan.Domain.Soalan, epsikologi.Soalan",
+  "NoRujukan": "8i2K-36",
+  "SoalanNo": "8i2K-36",
+  "TeksSoalan": "Saya boleh bekerja dalam kumpulan dengan semua orang",
+  "SeksyenSoalan": null,
+  "PilihanJawapanCollection": {
+    "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan]], domain.sph",
+    "$values": [
+      {
+        "$type": "Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan",
+        "Teks": "Sangat tidak setuju",
+        "Nilai": 1,
+        "WebId": "983882f1-fcc6-4640-897e-ded1d7631969"
+      },
+      {
+        "$type": "Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan",
+        "Teks": "Tidak setuju",
+        "Nilai": 2,
+        "WebId": "8bf3a917-77c5-4725-9580-92c8901fa783"
+      },
+      {
+        "$type": "Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan",
+        "Teks": "Kadang-kadang",
+        "Nilai": 3,
+        "WebId": "c8796845-fbf2-4797-a128-6c879fcb36e5"
+      },
+      {
+        "$type": "Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan",
+        "Teks": "Setuju",
+        "Nilai": 4,
+        "WebId": "4d4a4ccc-2703-478d-8806-1a69e2f4efcb"
+      },
+      {
+        "$type": "Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan",
+        "Teks": "Sangat setuju",
+        "Nilai": 5,
+        "WebId": "f8e91fb5-952d-4bc6-89ce-51cbfca0deb5"
+      }
+    ]
+  },
+  "Trait": "Sosial",
+  "NamaUjian": "8i2k",
+  "Susunan": 36.0,
+  "Kategori": null,
+  "Bahagian": null,
+  "CreatedBy": "admin",
+  "Id": "8i2K-36",
+  "CreatedDate": "2015-09-23T09:21:03.8485034+08:00",
+  "ChangedBy": "admin",
+  "ChangedDate": "2015-09-23T09:21:03.8475033+08:00",
+  "WebId": "6a225cef-31ff-42fd-d926-d1b4929f9240"
+}

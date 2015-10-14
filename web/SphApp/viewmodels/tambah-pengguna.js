@@ -33,7 +33,7 @@
                         form(f);
                         watching(w);
                         i18n = n[0];
-
+                            
                             if(typeof partial.activate === "function"){
                                 var pt = partial.activate(entity());
                                 if(typeof pt.done === "function"){
@@ -42,8 +42,8 @@
                                     tcs.resolve(true);
                                 }
                             }
-
-
+                            
+                        
                     });
 
                     return tcs.promise();
@@ -63,7 +63,7 @@
                                  entity().Id(result.id);
                                  errors.removeAll();
 
-
+                                 
                              } else {
                                  errors.removeAll();
                                  _(result.rules).each(function(v){
@@ -88,12 +88,12 @@
                                  entity().Id(result.id);
                                  errors.removeAll();
 
-
+                                  
                                     app.showMessage("Rekod berjaya didaftarkan", "JPA Sistem Ujian e-Psikometrik", ["OK"])
 	                                    .done(function () {
                                             window.location= config.roles.indexOf("PengurusanPenggunaJabatan") > -1 ?  "#responden-dari-jabatan" : "#pengguna-all";
 	                                    });
-
+                                 
                              } else {
                                  errors.removeAll();
                                  _(result.rules).each(function(v){
@@ -118,12 +118,12 @@
                                  entity().Id(result.id);
                                  errors.removeAll();
 
-
+                                  
                                     app.showMessage("Rekod berjaya disimpan", "JPA Sistem Ujian e-Psikometrik", ["OK"])
 	                                    .done(function () {
                                             window.location='#responden'
 	                                    });
-
+                                 
                              } else {
                                  errors.removeAll();
                                  _(result.rules).each(function(v){
@@ -148,12 +148,12 @@
                                  entity().Id(result.id);
                                  errors.removeAll();
 
-
+                                  
                                     app.showMessage("Rekod berjaya disimpan", "JPA Sistem Ujian e-Psikometrik", ["OK"])
 	                                    .done(function () {
                                             window.location='#responden-dari-jabatan'
 	                                    });
-
+                                 
                              } else {
                                  errors.removeAll();
                                  _(result.rules).each(function(v){
@@ -168,12 +168,12 @@
                     validation.init($('#tambah-pengguna-form'), form());
 
 
-
+                        
                     if(typeof partial.attached === "function"){
                         partial.attached(view);
                     }
 
-
+                    
 
                 },
                 compositionComplete = function() {
@@ -193,15 +193,15 @@
 
                     var data = ko.mapping.toJSON(entity);
 
-
+                        
 
                     return context.post(data, "/Pengguna/Save")
                         .then(function(result) {
                             entity().Id(result.id);
-                            app.showMessage("Pengguna berjaya dihantar", "JPA Sistem Ujian e-Psikometrik", ["OK"]);
+                            app.showMessage("Your Pengguna has been successfully saved", "JPA Sistem Ujian e-Psikometrik", ["OK"]);
 
                         });
-
+                    
 
                 },
                 remove = function() {
@@ -222,9 +222,9 @@
                 };
 
             var vm = {
-
+                            
                             partial : partial,
-
+                            
                                     activate: activate,
                 config: config,
                 attached: attached,
@@ -240,15 +240,9 @@
 
 
                 toolbar : {
-
+                                                                                                        
                     saveCommand : tarikhKemaskiniNow,
-                    canExecuteSaveCommand: ko.computed(function() {
-                      if (typeof partial.canExecuteSaveCommand === "function") {
-                        return partial.canExecuteSaveCommand();
-                      }
-                      return true;
-                    }),
-
+                    
                     commands : ko.observableArray([])
                 }
             };

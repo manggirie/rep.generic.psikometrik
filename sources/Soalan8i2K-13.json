@@ -1,0 +1,53 @@
+{
+  "$type": "Bespoke.epsikologi_soalan.Domain.Soalan, epsikologi.Soalan",
+  "NoRujukan": "8i2K-13",
+  "SoalanNo": "8i2K-13",
+  "TeksSoalan": "Saya mengikuti kelas senaman seperti aerobik",
+  "SeksyenSoalan": null,
+  "PilihanJawapanCollection": {
+    "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan]], domain.sph",
+    "$values": [
+      {
+        "$type": "Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan",
+        "Teks": "Sangat tidak setuju",
+        "Nilai": 1,
+        "WebId": "029f011a-f4b0-4a35-81d1-3ec103708599"
+      },
+      {
+        "$type": "Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan",
+        "Teks": "Tidak setuju",
+        "Nilai": 2,
+        "WebId": "ad00a8fe-a71a-433d-ad54-d1de6433ba09"
+      },
+      {
+        "$type": "Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan",
+        "Teks": "Kadang-kadang",
+        "Nilai": 3,
+        "WebId": "9aa0d168-b085-4b51-9126-49b7d4062c80"
+      },
+      {
+        "$type": "Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan",
+        "Teks": "Setuju",
+        "Nilai": 4,
+        "WebId": "3cdf44b1-4d06-4e3d-b44d-c11fc0cb63ac"
+      },
+      {
+        "$type": "Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan",
+        "Teks": "Sangat setuju",
+        "Nilai": 5,
+        "WebId": "e3f22a86-c2c3-4daf-bf79-907996cdb9af"
+      }
+    ]
+  },
+  "Trait": "Fizikal",
+  "NamaUjian": "8i2k",
+  "Susunan": 13.0,
+  "Kategori": null,
+  "Bahagian": null,
+  "CreatedBy": "admin",
+  "Id": "8i2K-13",
+  "CreatedDate": "2015-09-21T16:24:13.5264963+08:00",
+  "ChangedBy": "admin",
+  "ChangedDate": "2015-09-21T16:24:13.5254962+08:00",
+  "WebId": "222428d2-9746-4892-ca6c-a5235f936985"
+}

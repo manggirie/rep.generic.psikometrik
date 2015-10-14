@@ -1,0 +1,53 @@
+{
+  "$type": "Bespoke.epsikologi_soalan.Domain.Soalan, epsikologi.Soalan",
+  "NoRujukan": "8i2K-08",
+  "SoalanNo": "8i2K-08",
+  "TeksSoalan": "Penyelia prihatin  terhadap perkara yang berlaku kepada saya",
+  "SeksyenSoalan": null,
+  "PilihanJawapanCollection": {
+    "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan]], domain.sph",
+    "$values": [
+      {
+        "$type": "Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan",
+        "Teks": "Sangat tidak setuju",
+        "Nilai": 1,
+        "WebId": "9b96bbda-283b-47df-abb8-a45269081f52"
+      },
+      {
+        "$type": "Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan",
+        "Teks": "Tidak setuju",
+        "Nilai": 2,
+        "WebId": "7a82adef-d67e-4e9b-9e6d-724e2d9408a1"
+      },
+      {
+        "$type": "Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan",
+        "Teks": "Kadang-kadang",
+        "Nilai": 3,
+        "WebId": "0463f4b3-a503-4011-83aa-64cadebf14f9"
+      },
+      {
+        "$type": "Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan",
+        "Teks": "Setuju",
+        "Nilai": 4,
+        "WebId": "b30da36e-a937-418f-a5f6-63d3dc5ddc19"
+      },
+      {
+        "$type": "Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan",
+        "Teks": "Sangat setuju",
+        "Nilai": 5,
+        "WebId": "43007c68-32ef-4c0e-b309-5476ce02669e"
+      }
+    ]
+  },
+  "Trait": "Pekerjaan",
+  "NamaUjian": "8i2k",
+  "Susunan": 8.0,
+  "Kategori": null,
+  "Bahagian": null,
+  "CreatedBy": "admin",
+  "Id": "8i2K-08",
+  "CreatedDate": "2015-09-21T16:06:46.2877829+08:00",
+  "ChangedBy": "admin",
+  "ChangedDate": "2015-09-21T16:06:46.2867828+08:00",
+  "WebId": "f3c4d55e-3f8b-4df4-ba87-5bf9cc5f5ca0"
+}

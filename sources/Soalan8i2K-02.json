@@ -1,0 +1,53 @@
+{
+  "$type": "Bespoke.epsikologi_soalan.Domain.Soalan, epsikologi.Soalan",
+  "NoRujukan": "8i2K-02",
+  "SoalanNo": "8i2K-02",
+  "TeksSoalan": "Saya sukar mengenali emosi saya",
+  "SeksyenSoalan": null,
+  "PilihanJawapanCollection": {
+    "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan]], domain.sph",
+    "$values": [
+      {
+        "$type": "Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan",
+        "Teks": "Sangat tidak setuju ",
+        "Nilai": 5,
+        "WebId": "6de0093b-8ef3-4012-a9a8-9b66f5dbe846"
+      },
+      {
+        "$type": "Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan",
+        "Teks": "Tidak setuju",
+        "Nilai": 4,
+        "WebId": "6e3d1216-b24c-4018-b8a3-9be48385e6b3"
+      },
+      {
+        "$type": "Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan",
+        "Teks": "Kadang-kadang",
+        "Nilai": 3,
+        "WebId": "7640161a-1698-44b7-8536-c975296813e7"
+      },
+      {
+        "$type": "Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan",
+        "Teks": "Setuju",
+        "Nilai": 2,
+        "WebId": "0d21947d-eada-409d-b167-98208a23709c"
+      },
+      {
+        "$type": "Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan",
+        "Teks": "Sangat Setuju",
+        "Nilai": 1,
+        "WebId": "8f47dbc0-48d8-4caf-819c-98e2b839df72"
+      }
+    ]
+  },
+  "Trait": "Emosi",
+  "NamaUjian": "8i2k",
+  "Susunan": 2.0,
+  "Kategori": null,
+  "Bahagian": null,
+  "CreatedBy": "admin",
+  "Id": "8i2K-02",
+  "CreatedDate": "2015-09-21T15:02:07.540947+08:00",
+  "ChangedBy": "admin",
+  "ChangedDate": "2015-09-21T15:02:07.5319461+08:00",
+  "WebId": "85549228-ffca-4633-8382-0d235d6dbc34"
+}

@@ -35,6 +35,12 @@ function(context, logger, router, chart, config, partial) {
                                     "term": {
                                         "StatusPermohonan": "LULUS"
                                     }
+                                }, {
+                                    "range": {
+                                        "TarikhTamat": {
+                                            "from": "2015-10-13T00:00:00.0000000"
+                                        }
+                                    }
                                 }
 
                                 ],

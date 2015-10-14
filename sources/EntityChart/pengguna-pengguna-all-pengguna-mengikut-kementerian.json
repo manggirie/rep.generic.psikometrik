@@ -13,13 +13,13 @@
   "Aggregate": "term",
   "Field": "NamaKementerian",
   "DateInterval": "year",
-  "IsDashboardItem": true,
+  "IsDashboardItem": false,
   "DasboardItemPosition": 0,
   "HistogramInterval": null,
   "CreatedBy": "urusetia",
   "Id": "pengguna-pengguna-all-pengguna-mengikut-kementerian",
   "CreatedDate": "2015-07-11T07:45:15.7383928+08:00",
-  "ChangedBy": "urusetia",
-  "ChangedDate": "2015-07-11T07:45:15.7383928+08:00",
+  "ChangedBy": "bpm",
+  "ChangedDate": "2015-09-29T19:27:36.4678924+08:00",
   "WebId": "ec6c82d9-c780-47b3-e5b7-c1fc1709cc63"
 }
