@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Threading.Tasks;
 using System.Web.Mvc;
 
 namespace web.sph.App_Code
@@ -18,6 +19,12 @@ namespace web.sph.App_Code
             {
                 new Exception("another exception", new InvalidOperationException("Inner exception")), 
             });
+        }
+        [Route("slow")]
+        public async Task<ActionResult> Slow()
+        {
+            await Task.Delay(5000);
+            return Content("OK");
         }
     }
 }
