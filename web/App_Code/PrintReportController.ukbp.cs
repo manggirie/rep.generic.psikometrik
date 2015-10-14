@@ -70,10 +70,6 @@ namespace web.sph.App_Code
                 Ujian = await ujianTask,
                 Pengguna = user
             };
-            
-
-
-
 
             return View("Indikator-UKBP", vm);
 
