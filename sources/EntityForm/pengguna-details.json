@@ -284,7 +284,7 @@
           "IsRequired": false,
           "Size": "input-large",
           "CssClass": "",
-          "Visible": "true",
+          "Visible": "Pekerjaan() !== 'Pelajar'",
           "Enable": "false",
           "ElementId": "f503e61e-ec70-4106-8d07-1afe70dcf17c",
           "HelpText": null,
@@ -850,7 +850,7 @@
           "IsRequired": false,
           "Size": "input-large",
           "CssClass": "",
-          "Visible": "true",
+          "Visible": "Pekerjaan() !== 'Pelajar'",
           "Enable": "false",
           "ElementId": "7414654c-5703-4389-fa7d-d2500b39d8e0",
           "HelpText": null,
@@ -1092,6 +1092,6 @@
   "Id": "pengguna-details",
   "CreatedDate": "2015-06-16T08:04:09.5330981+08:00",
   "ChangedBy": "admin",
-  "ChangedDate": "2015-10-06T09:19:13.7015297+08:00",
+  "ChangedDate": "2015-10-16T07:54:26.8903849+08:00",
   "WebId": "4e32950c-7d95-4b44-983c-3c3e67811ded"
 }
