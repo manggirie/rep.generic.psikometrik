@@ -37,6 +37,12 @@
                     <a class="btn btn-default" href="javascript:;" target="_blank" data-bind="attr: {href : 'cetak-laporan/indikator/'+ ko.unwrap(NamaUjian) +'/' + ko.unwrap(Id)}">Indikator</a>
 
                 <!-- /ko -->
+                <!-- ko if : ko.unwrap(NamaUjian) === "PPKP" -->
+                    <a class="btn btn-default" href="javascript:;" target="_blank" data-bind="attr: {href : 'cetak-laporan/ppkp/profile/'+ ko.unwrap(Id)}">Profil</a>
+                    <a class="btn btn-default" href="javascript:;" target="_blank" data-bind="attr: {href : 'cetak-laporan/ppkp/umum/'+ ko.unwrap(Id)}">Umum</a>
+                    <a class="btn btn-default" href="javascript:;" target="_blank" data-bind="attr: {href : 'cetak-laporan/ppkp/khusus/' + ko.unwrap(Id)}">Khusus</a>
+
+                <!-- /ko -->
 
             </td>
         </tr>

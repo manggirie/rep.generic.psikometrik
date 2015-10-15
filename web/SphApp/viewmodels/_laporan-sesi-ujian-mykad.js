@@ -14,19 +14,20 @@ define(["services/datacontext"], function(context){
                     var sesi = [];
                     _(lo.itemCollection).each(function (v) {
                         var ujian = ko.unwrap(v.NamaUjian),
-                            indikator = !(ujian === "HLP" || ujian === "IBK" || ujian === "IP" || ujian === "ISO"),
-                            trait = !(ujian === "UKBP-A" || ujian === "UKBP-B"|| ujian === "UKBP");
+                            indikator = !(ujian === "HLP" || ujian === "IBK" || ujian === "IP" || ujian === "ISO"|| ujian === "PPKP"),
+                            trait = !(ujian === "UKBP-A" || ujian === "UKBP-B" || ujian === "UKBP"|| ujian === "PPKP"),
+                            ukbp =ujian === "UKBP-A" || ujian === "UKBP-B";
                         v.traitButton = ko.observable(trait);
                         v.indikatorButton = ko.observable(indikator);
-                        if (ujian === "UKBP-A" || ujian === "UKBP-B") {
 
-                        } else {
+                        if (!ukbp) {
                             sesi.push(v);
                         }
                         if (ujian === "UKBP-A") {
                             v.NamaUjian("UKBP");
                             sesi.push(v);
                         }
+
                     });
                   results(sesi);
                 });
