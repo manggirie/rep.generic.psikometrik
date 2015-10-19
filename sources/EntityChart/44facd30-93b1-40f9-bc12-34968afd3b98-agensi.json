@@ -13,13 +13,13 @@
   "Aggregate": "term",
   "Field": "KumpulanAgensi",
   "DateInterval": "year",
-  "IsDashboardItem": true,
+  "IsDashboardItem": false,
   "DasboardItemPosition": 0,
   "HistogramInterval": null,
   "CreatedBy": "admin",
   "Id": "44facd30-93b1-40f9-bc12-34968afd3b98-agensi",
   "CreatedDate": "2015-06-28T06:54:18.524505+08:00",
-  "ChangedBy": "admin",
-  "ChangedDate": "2015-06-28T06:54:18.5215052+08:00",
+  "ChangedBy": "bpm",
+  "ChangedDate": "2015-09-29T19:28:05.3097763+08:00",
   "WebId": "9e06ee75-dccb-4371-c48c-2b56420c767e"
 }
