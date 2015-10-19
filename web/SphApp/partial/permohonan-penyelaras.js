@@ -9,10 +9,21 @@ define([objectbuilders.config], function(config){
                     entity.StatusPermohonan("BARU");
                 }
                 
+                ko.extenders.uppercase = function(target, option) {
+                target.subscribe(function(newValue) {
+                target(newValue.toUpperCase());
+                });
+                return target;
+                };
+
+                entity.NamaProgram.extend({ uppercase: true });
+
                 return true;
     
     
             },
+            
+            
             attached  = function(view){
                 var tarikhMulaPicker = $("#tarikhMulaPicker").data("kendoDatePicker"),
                     tarikhTamatPicker = $("#tarikhTamatPicker").data("kendoDatePicker");
@@ -21,6 +32,8 @@ define([objectbuilders.config], function(config){
                 
                 tarikhMulaPicker.enable(permohonan().StatusPermohonan() === 'BARU');
                 tarikhTamatPicker.enable(permohonan().StatusPermohonan() === 'BARU');
+                
+                $("NamaProgram").css("text-transform","capitalize");
             };
 
     return {
