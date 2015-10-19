@@ -26,6 +26,7 @@
                     <option value="Penjawat Awam(Individu)" data-i18n="Penjawat Awam(Individu)">Penjawat Awam(Individu)</option>
                     <option value="Penjawat Swasta (Individu)" data-i18n="Penjawat Swasta (Individu)">Penjawat Swasta (Individu)</option>
                     <option value="Pelajar (Individu)" data-i18n="Pelajar (Individu)">Pelajar (Individu)</option>
+                    <option value="Ahli Keluarga Penjawat Awam" data-i18n="Ahli Keluarga Penjawat Awam">Ahli Keluarga Penjawat Awam</option>
             </select>
         </div>
     </div>
@@ -189,6 +190,45 @@
                    
                    
                    id="e0c92c33-6620-4eb7-beb7-678560dce926" type="text" name="NamaProgram" />
+        </div>
+    </div>
+
+
+
+    <div data-bind="visible:true" class="form-group">
+        <label data-i18n="Bilangan" for="93a63d14-b86d-461c-f047-2d4352cffc77" class="col-md-4">Bilangan</label>
+        <div class="col-md-8">
+            <input  class=" form-control input-large" title=""
+                   data-bind="value: BilProgram, enable :true "
+                   
+                   
+                   
+                   id="93a63d14-b86d-461c-f047-2d4352cffc77" type="text" name="BilProgram" />
+        </div>
+    </div>
+
+
+
+    <div data-bind="visible:true" class="form-group">
+        <label data-i18n="Siri" for="0527b3c8-7feb-4093-d265-cf1a40dc15e2" class="col-md-4">Siri</label>
+        <div class="col-md-8">
+            <input  class=" form-control input-large" title=""
+                   data-bind="value: SiriProgram, enable :true "
+                   
+                   
+                   
+                   id="0527b3c8-7feb-4093-d265-cf1a40dc15e2" type="text" name="SiriProgram" />
+        </div>
+    </div>
+
+
+    <div class="form-group" data-bind="visible:true">
+        <label data-i18n="Tahun" for="2c0ee247-26af-4980-9835-fe7af8fdb05d" class="col-md-4">Tahun</label>
+        <div class="col-md-8">
+            <select  data-bind="value: TahunProgram, enable :true" id="2c0ee247-26af-4980-9835-fe7af8fdb05d" name="TahunProgram" class=" input-large form-control">
+                    <option value="2015" data-i18n="2015">2015</option>
+                    <option value="2016" data-i18n="2016">2016</option>
+            </select>
         </div>
     </div>
 </form>

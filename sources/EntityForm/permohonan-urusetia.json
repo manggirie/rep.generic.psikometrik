@@ -795,9 +795,9 @@
           "TypeName": "TextBox",
           "FieldValidation": {
             "$type": "Bespoke.Sph.Domain.FieldValidation, domain.sph",
-            "IsRequired": true,
+            "IsRequired": false,
             "Pattern": null,
-            "Mode": "number",
+            "Mode": "",
             "Message": null,
             "Min": null,
             "Max": null,
@@ -814,7 +814,7 @@
           "CssClass": "",
           "Visible": "true",
           "Enable": "true",
-          "ElementId": "a81677e6-0ff6-4a48-abd7-063e8f9ff7b0",
+          "ElementId": "2a47a581-f20a-4e32-deb9-744a98c53ffd",
           "HelpText": null,
           "UseDisplayTemplate": false,
           "ToolboxIconClass": null,
@@ -827,7 +827,7 @@
           "InputColMd": null,
           "InputColSm": null,
           "InputColXs": null,
-          "WebId": "a650540c-d4f1-4da4-e1be-607d36718700"
+          "WebId": "ea1590ae-cfa2-4e05-bf5b-ec3954fa1551"
         },
         {
           "$type": "Bespoke.Sph.Domain.TextBox, domain.sph",
@@ -839,9 +839,9 @@
           "TypeName": "TextBox",
           "FieldValidation": {
             "$type": "Bespoke.Sph.Domain.FieldValidation, domain.sph",
-            "IsRequired": true,
+            "IsRequired": false,
             "Pattern": null,
-            "Mode": "number",
+            "Mode": "",
             "Message": null,
             "Min": null,
             "Max": null,
@@ -858,7 +858,7 @@
           "CssClass": "",
           "Visible": "true",
           "Enable": "true",
-          "ElementId": "72d3ca79-c0a9-4a04-8721-4a52f7b4605a",
+          "ElementId": "8442e5db-759a-4b60-cbab-b40c659c48d9",
           "HelpText": null,
           "UseDisplayTemplate": false,
           "ToolboxIconClass": null,
@@ -871,43 +871,21 @@
           "InputColMd": null,
           "InputColSm": null,
           "InputColXs": null,
-          "WebId": "428ee38a-be6f-438a-ff10-3c37da9bd92f"
+          "WebId": "8ea0e63c-baae-45e9-a6b5-c177730282e4"
         },
         {
-          "$type": "Bespoke.Sph.Domain.ComboBox, domain.sph",
-          "ComboBoxItemCollection": {
-            "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.Sph.Domain.ComboBoxItem, domain.sph]], domain.sph",
-            "$values": [
-              {
-                "$type": "Bespoke.Sph.Domain.ComboBoxItem, domain.sph",
-                "Caption": "2015",
-                "Value": "2015",
-                "WebId": "426c91ee-0e4e-4684-c9b9-3c8406aa57b7"
-              },
-              {
-                "$type": "Bespoke.Sph.Domain.ComboBoxItem, domain.sph",
-                "Caption": "2016",
-                "Value": "2016",
-                "WebId": "4e177ebc-6c79-4cef-f3c0-1638595c0ed4"
-              }
-            ]
-          },
-          "ComboBoxLookup": {
-            "$type": "Bespoke.Sph.Domain.ComboBoxLookup, domain.sph",
-            "Entity": null,
-            "ValuePath": null,
-            "DisplayPath": null,
-            "Query": null,
-            "IsComputedQuery": false,
-            "WebId": null
-          },
+          "$type": "Bespoke.Sph.Domain.TextBox, domain.sph",
+          "DefaultValue": null,
+          "AutoCompletionEntity": null,
+          "AutoCompletionField": null,
+          "AutoCompletionQuery": null,
           "IsPathIsRequired": true,
-          "TypeName": "ComboBox",
+          "TypeName": "TextBox",
           "FieldValidation": {
             "$type": "Bespoke.Sph.Domain.FieldValidation, domain.sph",
-            "IsRequired": true,
+            "IsRequired": false,
             "Pattern": null,
-            "Mode": "number",
+            "Mode": "",
             "Message": null,
             "Min": null,
             "Max": null,
@@ -924,7 +902,7 @@
           "CssClass": "",
           "Visible": "true",
           "Enable": "true",
-          "ElementId": "22ba3055-42ad-4361-af1d-119b53fd4a51",
+          "ElementId": "ada4fc64-3c60-4d6f-81b9-72112ba3819a",
           "HelpText": null,
           "UseDisplayTemplate": false,
           "ToolboxIconClass": null,
@@ -937,7 +915,7 @@
           "InputColMd": null,
           "InputColSm": null,
           "InputColXs": null,
-          "WebId": "86281d31-0181-4d1e-ffc1-546412449ae7"
+          "WebId": "d5b14eb9-5a45-4fbc-a1c9-f7044ff7832b"
         }
       ]
     },
@@ -992,6 +970,6 @@
   "Id": "permohonan-urusetia",
   "CreatedDate": "2015-06-16T08:04:20.3588975+08:00",
   "ChangedBy": "admin",
-  "ChangedDate": "2015-10-08T15:59:44.3546894+08:00",
+  "ChangedDate": "2015-10-19T12:16:21.2547426+08:00",
   "WebId": "d56af63c-c52e-401b-83b5-bfecea2c53d1"
 }
