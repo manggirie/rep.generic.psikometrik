@@ -890,25 +890,16 @@
           "WebId": "fdf0b90e-a34f-41f4-b22d-dd22d27eec83"
         },
         {
-          "$type": "Bespoke.Sph.Domain.ComboBox, domain.sph",
-          "ComboBoxItemCollection": {
-            "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.Sph.Domain.ComboBoxItem, domain.sph]], domain.sph",
-            "$values": []
-          },
-          "ComboBoxLookup": {
-            "$type": "Bespoke.Sph.Domain.ComboBoxLookup, domain.sph",
-            "Entity": "ProgramLookup",
-            "ValuePath": "NamaProgram",
-            "DisplayPath": "NamaProgram",
-            "Query": null,
-            "IsComputedQuery": false,
-            "WebId": null
-          },
+          "$type": "Bespoke.Sph.Domain.TextBox, domain.sph",
+          "DefaultValue": null,
+          "AutoCompletionEntity": null,
+          "AutoCompletionField": null,
+          "AutoCompletionQuery": null,
           "IsPathIsRequired": true,
-          "TypeName": "ComboBox",
+          "TypeName": "TextBox",
           "FieldValidation": {
             "$type": "Bespoke.Sph.Domain.FieldValidation, domain.sph",
-            "IsRequired": true,
+            "IsRequired": false,
             "Pattern": null,
             "Mode": "",
             "Message": null,
@@ -923,11 +914,11 @@
           "Tooltip": null,
           "Path": "NamaProgram",
           "IsRequired": false,
-          "Size": null,
-          "CssClass": null,
+          "Size": "input-large",
+          "CssClass": "",
           "Visible": "true",
           "Enable": "true",
-          "ElementId": "ac05d2ee-56d3-4af7-9e13-afc52ac48066",
+          "ElementId": "9148970a-b6ce-4da8-feb7-06b13b1b7bc3",
           "HelpText": null,
           "UseDisplayTemplate": false,
           "ToolboxIconClass": null,
@@ -940,7 +931,7 @@
           "InputColMd": null,
           "InputColSm": null,
           "InputColXs": null,
-          "WebId": "5e65361f-ec86-43bc-acdd-2327f09343ac"
+          "WebId": "e0e02eed-461a-480b-da88-f6343048bd47"
         },
         {
           "$type": "Bespoke.Sph.Domain.TextBox, domain.sph",
@@ -1148,7 +1139,7 @@
   "CreatedBy": "admin",
   "Id": "permohonan-urusetia-baru",
   "CreatedDate": "2015-06-16T08:04:20.3588975+08:00",
-  "ChangedBy": "urusetia1",
-  "ChangedDate": "2015-10-05T15:35:35.7063565+08:00",
+  "ChangedBy": "admin",
+  "ChangedDate": "2015-10-13T09:28:08.019802+08:00",
   "WebId": "d56af63c-c52e-401b-83b5-bfecea2c53d1"
 }
