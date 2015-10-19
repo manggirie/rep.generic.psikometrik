@@ -347,7 +347,7 @@
           "Size": "input-large",
           "CssClass": "",
           "Visible": "true",
-          "Enable": "true",
+          "Enable": "StatusPermohonan() === 'BARU'",
           "ElementId": "89a6473f-6944-4d91-ba80-49d0f20ad2e5",
           "HelpText": null,
           "UseDisplayTemplate": false,
@@ -676,6 +676,6 @@
   "Id": "permohonan-tukar-responden",
   "CreatedDate": "2015-06-05T10:45:40.0425071+08:00",
   "ChangedBy": "admin",
-  "ChangedDate": "2015-10-08T14:53:00.2907006+08:00",
+  "ChangedDate": "2015-10-19T11:25:57.0333366+08:00",
   "WebId": "d56af63c-c52e-401b-83b5-bfecea2c53d1"
 }
