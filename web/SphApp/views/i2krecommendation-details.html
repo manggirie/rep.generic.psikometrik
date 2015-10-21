@@ -1,0 +1,122 @@
+
+
+<h1 data-i18n="I2kRecommendation details">I2kRecommendation details</h1>
+<div id="error-list" class="row" data-bind="visible:errors().length">
+    <!-- ko foreach : errors -->
+    <div class="col-sm-8 col-sm-offset-2 alert alert-dismissable alert-danger">
+        <button type="button" class="close" data-dismiss="alert" aria-hidden="true">&times;</button>
+        <i class="fa fa-exclamation"></i>
+        <span data-bind="text:Message"></span>
+
+    </div>
+    <div class="col-sm-2"></div>
+    <!-- /ko-->
+</div>
+<div class="row">
+    <div class="col-sm-8">
+        
+<form class="form-horizontal" data-bind="with : entity" id="i2krecommendation-details-form">
+
+
+
+    <div data-bind="visible:true" class="form-group">
+        <label data-i18n="No" for="18da7668-aabe-4ff1-8b01-5ed7a5b66e49" class="col-md-4">No</label>
+        <div class="col-md-8">
+            <input  class=" form-control input-large" title=""
+                   data-bind="value: No, enable :true "
+                   
+                   
+                   
+                   id="18da7668-aabe-4ff1-8b01-5ed7a5b66e49" type="text" name="No" />
+        </div>
+    </div>
+
+
+
+    <div data-bind="visible:true" class="form-group">
+        <label data-i18n="Bahagian" for="c888907e-12f5-4649-b376-b3b1e853f307" class="col-md-4">Bahagian</label>
+        <div class="col-md-8">
+            <input  class=" form-control input-large" title=""
+                   data-bind="value: Bahagian, enable :true "
+                   
+                   
+                   
+                   id="c888907e-12f5-4649-b376-b3b1e853f307" type="text" name="Bahagian" />
+        </div>
+    </div>
+
+
+    <div class="form-group" data-bind="visible:true">
+        <label data-i18n="Tret" for="400d8212-5903-4305-ef69-794ff008f34c" class="col-md-4">Tret</label>
+        <div class="col-md-8">
+            <select  data-bind="value: Tret, enable :true" id="400d8212-5903-4305-ef69-794ff008f34c" name="Tret" class=" input-large form-control">
+                    <option value="Minda" data-i18n="Minda">Minda</option>
+                    <option value="Emosi" data-i18n="Emosi">Emosi</option>
+                    <option value="Spiritual" data-i18n="Spiritual">Spiritual</option>
+                    <option value="Sosial" data-i18n="Sosial">Sosial</option>
+                    <option value="Fizikal" data-i18n="Fizikal">Fizikal</option>
+                    <option value="Kewangan" data-i18n="Kewangan">Kewangan</option>
+                    <option value="Persekitaran" data-i18n="Persekitaran">Persekitaran</option>
+                    <option value="Pekerjaan" data-i18n="Pekerjaan">Pekerjaan</option>
+            </select>
+        </div>
+    </div>
+
+
+    <div class="form-group" data-bind="visible:true">
+        <label data-i18n="Tahap" for="1956be64-65df-47ce-bc86-c1c3b0d72331" class="col-md-4">Tahap</label>
+        <div class="col-md-8">
+            <select  data-bind="value: Tahap, enable :true" id="1956be64-65df-47ce-bc86-c1c3b0d72331" name="Tahap" class=" input-large form-control">
+                    <option value="Tinggi" data-i18n="Tinggi">Tinggi</option>
+                    <option value="Rendah" data-i18n="Rendah">Rendah</option>
+            </select>
+        </div>
+    </div>
+
+
+
+    <div data-bind="visible:true" class="form-group">
+        <label data-i18n="Nilai Min" for="d1827890-f59c-469c-9dbf-6e51cd3fbc0b" class="col-md-4">Nilai Min</label>
+        <div class="col-md-8">
+            <input  class=" form-control input-large" title=""
+                   data-bind="value: NilaiMin, enable :true "
+                   
+                   
+                   
+                   id="d1827890-f59c-469c-9dbf-6e51cd3fbc0b" type="text" name="NilaiMin" />
+        </div>
+    </div>
+
+
+
+    <div data-bind="visible:true" class="form-group">
+        <label data-i18n="Nilai Max" for="65bf660c-441a-49e6-80c1-e772938f824f" class="col-md-4">Nilai Max</label>
+        <div class="col-md-8">
+            <input  class=" form-control input-large" title=""
+                   data-bind="value: NilaiMax, enable :true "
+                   
+                   
+                   
+                   id="65bf660c-441a-49e6-80c1-e772938f824f" type="text" name="NilaiMax" />
+        </div>
+    </div>
+
+
+
+    <div data-bind="visible:true" class="form-group">
+        <label data-i18n="Interpretasi" for="3d0ed070-3a5e-44a6-bc20-be757ad785aa" class="col-md-4">Interpretasi</label>
+        <div class="col-md-8">
+            <input  class=" form-control input-large" title=""
+                   data-bind="value: Interpretasi, enable :true "
+                   
+                   
+                   
+                   id="3d0ed070-3a5e-44a6-bc20-be757ad785aa" type="text" name="Interpretasi" />
+        </div>
+    </div>
+</form>
+    </div>
+    <div class="col-sm-4">
+        
+    </div>
+</div>
