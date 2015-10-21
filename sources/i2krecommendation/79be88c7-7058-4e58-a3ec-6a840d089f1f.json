@@ -1,0 +1,16 @@
+{
+  "$type": "Bespoke.epsikologi_i2krecommendation.Domain.I2kRecommendation, epsikologi.I2kRecommendation",
+  "No": "M-0-43",
+  "Tret": "Minda",
+  "NilaiMin": 0,
+  "NilaiMax": 43,
+  "Bahagian": "1",
+  "Tahap": "Rendah",
+  "Interpretasi": "Anda perlu meningkatkan kesejahteraan dalam aspek minda.  Anda perlu meningkatkan kemahiran dalam pembuatan keputusan, menjadi lebih kreatif dan inovatif serta meningkatkan daya ingatan dan ilmu pengetahuan.  Kemahiran membuat keputusan dapat ditingkatkan dengan mendapatkan maklumat lanjut terlebih dahulu sebelum sesuatu keputusan dibuat.  Anda perlu berani mencuba, mencabar pemikiran, berfikir di luar kotak dan berfikir secara analitikal dalam membuat perubahan mahupun merekacipta bagi meningkatkan daya kreativiti dan inovasi. Anda juga disarankan untuk membuat catatan, mengulang-ulang maklumat, membuat tugasan lanjut dan membuat latihan bagi meningkatkan daya ingatan.  Kesejahteraan minda juga boleh ditingkatkan dengan menghadiri kursus, seminar, melakukan pembacaan ilmiah, penerokaan ilmu baharu melalui pelbagai sumber serta latihan menyelesaikan masalah secara konsisten.",
+  "CreatedBy": "admin",
+  "Id": "79be88c7-7058-4e58-a3ec-6a840d089f1f",
+  "CreatedDate": "2015-10-21T16:50:11.0321808+08:00",
+  "ChangedBy": "admin",
+  "ChangedDate": "2015-10-21T16:50:11.0311807+08:00",
+  "WebId": "8bde0cdc-bc71-4d54-92b1-53408bcf0520"
+}

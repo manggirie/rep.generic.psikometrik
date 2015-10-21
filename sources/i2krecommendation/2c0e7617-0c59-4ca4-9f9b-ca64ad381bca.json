@@ -1,0 +1,16 @@
+{
+  "$type": "Bespoke.epsikologi_i2krecommendation.Domain.I2kRecommendation, epsikologi.I2kRecommendation",
+  "No": "E-0-42",
+  "Tret": "Emosi",
+  "NilaiMin": 0,
+  "NilaiMax": 42,
+  "Bahagian": "2",
+  "Tahap": "Rendah",
+  "Interpretasi": "Anda perlu meningkatkan kesejahteraan dalam aspek emosi.  Anda perlu meningkatkan kemahiran mengurus emosi dan mengenali emosi sendiri mahupun orang lain.  Anda juga disarankan untuk meningkatkan daya tindak dalam mengawal emosi negatif agar dapat menjalankan aktiviti seharian dengan baik sekiranya emosi anda terganggu.  Anda juga digalakkan supaya lebih bermotivasi, bersemangat, bersedia menerima cabaran dan mampu melaksanakan tugas dalam tempoh dan kualiti yang ditetapkan.  Kesejahteraan emosi juga boleh ditingkatkan melalui mendekatkan diri dengan aktiviti keagamaan, berkongsi masalah dengan rakan yang dipercayai dan mendapatkan sokongan emosi daripada orang terdekat. Selain itu, kesejahteraan emosi juga boleh ditingkatkan dengan menghadiri kursus/seminar dan mendapatkan perkhidmatan kaunseling individu/kelompok.",
+  "CreatedBy": "admin",
+  "Id": "2c0e7617-0c59-4ca4-9f9b-ca64ad381bca",
+  "CreatedDate": "2015-10-21T16:52:38.558932+08:00",
+  "ChangedBy": "admin",
+  "ChangedDate": "2015-10-21T16:56:48.8319568+08:00",
+  "WebId": "d0dc2bc4-138f-4d94-acdd-18c5674afad2"
+}

@@ -1,0 +1,16 @@
+{
+  "$type": "Bespoke.epsikologi_i2krecommendation.Domain.I2kRecommendation, epsikologi.I2kRecommendation",
+  "No": "S-39-60",
+  "Tret": "Spiritual",
+  "NilaiMin": 39,
+  "NilaiMax": 60,
+  "Bahagian": "3",
+  "Tahap": "Tinggi",
+  "Interpretasi": "Anda mempunyai tahap spiritual yang sejahtera.  Anda seorang yang mempunyai tahap kepercayaan yang tingg, bersyukur dan mengamalkan nilai-nilai murni dalam kehidupan anda.  Anda digambarkan sebagai seorang yang cenderung melibatkan diri dengan aktiviti kerohanian/keagamaan, bersyukur dan berpuas hati dengan rezeki yang diperoleh serta berintegriti dalam melaksanakan tugas yang diamanahkan.",
+  "CreatedBy": "admin",
+  "Id": "633d2bbf-b6cb-4d8a-9149-a5f66421ea40",
+  "CreatedDate": "2015-10-21T16:54:03.0193772+08:00",
+  "ChangedBy": "admin",
+  "ChangedDate": "2015-10-21T16:54:03.017377+08:00",
+  "WebId": "6572fa96-9c3c-4164-b98f-87c47844827e"
+}
