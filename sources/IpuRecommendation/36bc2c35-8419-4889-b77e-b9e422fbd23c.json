@@ -1,8 +1,8 @@
 {
   "$type": "Bespoke.epsikologi_ipurecommendation.Domain.IpuRecommendation, epsikologi.IpuRecommendation",
-  "No": "G-96-100",
+  "No": "G-56-100",
   "Tret": "G",
-  "NilaiMin": 96,
+  "NilaiMin": 56,
   "NilaiMax": 100,
   "Skala": "Asertif",
   "Tahap": "Tinggi",
@@ -32,7 +32,7 @@
   "CreatedBy": "admin",
   "Id": "36bc2c35-8419-4889-b77e-b9e422fbd23c",
   "CreatedDate": "2015-07-31T18:58:52.4195806+08:00",
-  "ChangedBy": "admin",
-  "ChangedDate": "2015-07-31T18:58:52.4175804+08:00",
+  "ChangedBy": "bpps",
+  "ChangedDate": "2015-10-21T12:07:31.3538643+08:00",
   "WebId": "054ce3f5-0bd4-4eab-f749-81eb81ef6e84"
 }
