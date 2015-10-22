@@ -29,7 +29,7 @@
       },
       {
         "$type": "Bespoke.Sph.Domain.NotificationActivity, domain.sph",
-        "From": "admin@@sph.my",
+        "From": "psikometrik.bpm@@jpa.gov.my",
         "Subject": "Permohonan @Model.Permohonan.PermohonanNo sudah diluluskan",
         "Body": "Salam Sejahtera @Model.Penyelaras.Nama\n\nPermohonan @Model.Permohonan.PermohonanNo sudah diluluskan\n\n\n\nSekian Terima Kasih",
         "To": "@Model.Penyelaras.Emel",
