@@ -1,0 +1,16 @@
+{
+  "$type": "Bespoke.epsikologi_i2krecommendation.Domain.I2kRecommendation, epsikologi.I2kRecommendation",
+  "No": "SO-0-50",
+  "Tret": "Sosial",
+  "NilaiMin": 0,
+  "NilaiMax": 50,
+  "Bahagian": "4",
+  "Tahap": "Rendah",
+  "Interpretasi": "Anda perlu meningkatkan kesejahteraan dalam aspek sosial. Anda disarankan agar meningkatkan kemahiran komunikasi interpersonal dan membina hubungan positif bersama orang sekeliling anda.  Anda juga boleh meningkatkan kemahiran ini dengan bersikap terbuka, optimistik, bersangka baik dan empati, melibatkan diri dengan aktiviti kemasyarakatan seperti gotong royong, kenduri, majlis keramaian dan sebagainya.  Kesejahteraan sosial dan kemahiran komunikasi interpersonal juga boleh ditingkatkan dengan mengikuti kursus/seminar atau program pembinaan pasukan.",
+  "CreatedBy": "admin",
+  "Id": "6fdd8795-910a-4335-94e1-b9bfba021904",
+  "CreatedDate": "2015-10-23T09:35:21.9913653+08:00",
+  "ChangedBy": "admin",
+  "ChangedDate": "2015-10-23T09:35:21.9903653+08:00",
+  "WebId": "0089a8c4-0d6d-4ad8-a783-6f6bcfb2bb04"
+}

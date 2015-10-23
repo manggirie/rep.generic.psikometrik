@@ -1,0 +1,16 @@
+{
+  "$type": "Bespoke.epsikologi_i2krecommendation.Domain.I2kRecommendation, epsikologi.I2kRecommendation",
+  "No": "FI-0-16",
+  "Tret": "Fizikal",
+  "NilaiMin": 0,
+  "NilaiMax": 16,
+  "Bahagian": "5",
+  "Tahap": "Rendah",
+  "Interpretasi": "Anda perlu meningkatkan kesejahteraan dalam aspek fizikal.  Anda digalakkan untuk meluangkan masa bersenam dan beriadah.  Pada masa yang sama, anda juga boleh melakukan aktiviti relaksasi, memanjakan diri di pusat kecantikan dan kesihatan, mendengar muzik, menyanyi serta bermeditasi.",
+  "CreatedBy": "admin",
+  "Id": "b744f6e0-b29e-4644-be05-bf9219104405",
+  "CreatedDate": "2015-10-23T09:37:07.2653653+08:00",
+  "ChangedBy": "admin",
+  "ChangedDate": "2015-10-23T09:37:07.2643653+08:00",
+  "WebId": "62b1c1b6-8e2b-4b78-cd21-9d355b21e130"
+}

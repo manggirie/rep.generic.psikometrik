@@ -1,6 +1,6 @@
 {
   "$type": "Bespoke.epsikologi_i2krecommendation.Domain.I2kRecommendation, epsikologi.I2kRecommendation",
-  "No": "M-44-60",
+  "No": "MI-44-60",
   "Tret": "Minda",
   "NilaiMin": 44,
   "NilaiMax": 60,
@@ -11,6 +11,6 @@
   "Id": "f44aba3f-15f9-41a8-8a5d-570d6f5081a8",
   "CreatedDate": "2015-10-21T16:28:22.4843391+08:00",
   "ChangedBy": "admin",
-  "ChangedDate": "2015-10-21T16:45:45.9136716+08:00",
+  "ChangedDate": "2015-10-23T09:31:50.2113653+08:00",
   "WebId": "4e148f6b-b02a-46cc-c386-564400fd1e63"
 }

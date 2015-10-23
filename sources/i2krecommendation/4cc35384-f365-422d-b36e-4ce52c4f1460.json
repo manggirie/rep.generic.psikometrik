@@ -1,0 +1,16 @@
+{
+  "$type": "Bespoke.epsikologi_i2krecommendation.Domain.I2kRecommendation, epsikologi.I2kRecommendation",
+  "No": "PEK-0-52",
+  "Tret": "Pekerjaan",
+  "NilaiMin": 0,
+  "NilaiMax": 52,
+  "Bahagian": "8",
+  "Tahap": "Rendah",
+  "Interpretasi": "Anda perlu meningkatkan kesejahteraan dalam aspek pekerjaan.  Ini bermaksud anda perlu meningkatkan hubungan interpersonal dengan ketua.  Anda juga disarankan untuk meningkatkan akauntabiliti, kompetensi, melibatkan diri dengan organisasi dan mengurus beban kerja agar bersesuaian dengan tugas dan peranan anda.  Kesejahteraan pekerjaan juga dapat ditingkatkan dengan meningkatkan kemahiran dalam menyesuaikan diri dengan gaya kepimpinan ketua/penyelia serta sentiasa memperbaiki diri dari semasa ke semasa.  Anda juga disarankan untuk meningkatkan kepekaan dan patuh kepada peraturan organisasi serta mendapatkan latihan yang bersesuaian untuk meningkatkan tahap kecekapan dalam melaksanakan tugas.  Di samping itu, penglibatan secara aktif dalam memberikan pandangan dan idea terhadap pembangunan organisasi serta menguruskan tugas yang diamanahkan dengan baik akan dapat meningkatkan tahap kesejahteraan pekerjaan anda.",
+  "CreatedBy": "admin",
+  "Id": "4cc35384-f365-422d-b36e-4ce52c4f1460",
+  "CreatedDate": "2015-10-23T10:02:43.6573278+08:00",
+  "ChangedBy": "admin",
+  "ChangedDate": "2015-10-23T10:02:43.6563263+08:00",
+  "WebId": "738958c7-26da-414f-e526-830cf85c4501"
+}

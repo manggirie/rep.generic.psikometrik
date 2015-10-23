@@ -1,6 +1,6 @@
 {
   "$type": "Bespoke.epsikologi_i2krecommendation.Domain.I2kRecommendation, epsikologi.I2kRecommendation",
-  "No": "S-0-38",
+  "No": "SP-0-38",
   "Tret": "Spiritual",
   "NilaiMin": 0,
   "NilaiMax": 38,
@@ -11,6 +11,6 @@
   "Id": "04381f2a-1ae1-416e-b673-04eb9313f9fc",
   "CreatedDate": "2015-10-21T16:58:15.6706398+08:00",
   "ChangedBy": "admin",
-  "ChangedDate": "2015-10-21T16:58:15.6696397+08:00",
+  "ChangedDate": "2015-10-23T09:32:04.2983653+08:00",
   "WebId": "dd40c635-7d08-484f-fdc8-7493ff658ab3"
 }

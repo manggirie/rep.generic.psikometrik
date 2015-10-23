@@ -1,0 +1,16 @@
+{
+  "$type": "Bespoke.epsikologi_i2krecommendation.Domain.I2kRecommendation, epsikologi.I2kRecommendation",
+  "No": "KE-0-35",
+  "Tret": "Kewangan",
+  "NilaiMin": 0,
+  "NilaiMax": 35,
+  "Bahagian": "6",
+  "Tahap": "Rendah",
+  "Interpretasi": "Anda perlu meningkatkan kesejahteraan dalam aspek kewangan.  Anda disarankan membuat perancangan pelan kewangan secara bertulis bagi menjamin masa depan anda dan keluarga.  Anda juga disyorkan untuk mengamalkan perbelanjaan berhemah dan mengikut kemampuan serta digalakkan membuat simpanan.  Perancangan kewangan yang baik dapat dilaksanakan dengan mengurus pendapatan serta perbelanjaan secara konsisten dan teratur.",
+  "CreatedBy": "admin",
+  "Id": "b5e9cee2-aaef-4619-8a0a-5c002492bff2",
+  "CreatedDate": "2015-10-23T09:59:33.1998853+08:00",
+  "ChangedBy": "admin",
+  "ChangedDate": "2015-10-23T09:59:33.1988813+08:00",
+  "WebId": "0b0f1c12-935e-4d82-9c2e-5614cda554aa"
+}

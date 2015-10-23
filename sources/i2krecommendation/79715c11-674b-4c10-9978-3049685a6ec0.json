@@ -1,0 +1,16 @@
+{
+  "$type": "Bespoke.epsikologi_i2krecommendation.Domain.I2kRecommendation, epsikologi.I2kRecommendation",
+  "No": "FI-17-35",
+  "Tret": "Fizikal",
+  "NilaiMin": 17,
+  "NilaiMax": 35,
+  "Bahagian": "5",
+  "Tahap": "Tinggi",
+  "Interpretasi": "Anda mempunyai aspek fizikal yang sejahtera.  Anda mementingkan aspek kesihatan dari sudut senaman, bersukan dan aktiviti relaksasi.",
+  "CreatedBy": "admin",
+  "Id": "79715c11-674b-4c10-9978-3049685a6ec0",
+  "CreatedDate": "2015-10-23T09:36:25.1443653+08:00",
+  "ChangedBy": "admin",
+  "ChangedDate": "2015-10-23T09:36:25.1433653+08:00",
+  "WebId": "bdfe59e6-0a11-49e3-d63e-4bf7332103d6"
+}

@@ -1,0 +1,16 @@
+{
+  "$type": "Bespoke.epsikologi_i2krecommendation.Domain.I2kRecommendation, epsikologi.I2kRecommendation",
+  "No": "PE-0-31",
+  "Tret": "Persekitaran",
+  "NilaiMin": 0,
+  "NilaiMax": 31,
+  "Bahagian": "7",
+  "Tahap": "Rendah",
+  "Interpretasi": "Anda perlu meningkatkan kesejahteraan dalam aspek persekitaran tempat kerja.  Anda perlu meningkatkan sensitiviti dalam amalan sistem persekitaran berkualiti yang dianjurkan oleh organisasi dan melibatkan diri dalam aktiviti pemeliharaan/pemuliharaan alam sekitar.  Kesejahteraan persekitaran juga boleh ditingkatkan melalui amalan kempen kitar semula, penanaman pokok, penjimatan elektrik dan air serta menyumbangkan tenaga dalam kempen-kempen pemeliharan/pemuliharaan alam sekitar.",
+  "CreatedBy": "admin",
+  "Id": "00fe2e97-28b7-4e4f-b68d-fb825501d346",
+  "CreatedDate": "2015-10-23T10:01:04.2968213+08:00",
+  "ChangedBy": "admin",
+  "ChangedDate": "2015-10-23T10:01:04.2958173+08:00",
+  "WebId": "3fd45f2e-0d56-497c-82c8-91d4672068f9"
+}

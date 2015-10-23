@@ -1,0 +1,16 @@
+{
+  "$type": "Bespoke.epsikologi_i2krecommendation.Domain.I2kRecommendation, epsikologi.I2kRecommendation",
+  "No": "SO-51-65",
+  "Tret": "Sosial",
+  "NilaiMin": 51,
+  "NilaiMax": 65,
+  "Bahagian": "4",
+  "Tahap": "Tinggi",
+  "Interpretasi": "Anda mempunyai hubungan sosial yang sejahtera.  Anda  seorang yang boleh menerima teguran dan kritikan dengan hati terbuka, mempunyai hubungan interpersonal yang baik dan ringan tulang dalam memberikan bantuan.  Selain itu, anda juga peka dalam mengesan perubahan emosi orang lain, berhemah dalam berkomunikasi dan cenderung mengelakkan konflik.",
+  "CreatedBy": "admin",
+  "Id": "237239ed-e25a-4e5d-b8ee-6fe5c609b435",
+  "CreatedDate": "2015-10-23T09:34:02.6883653+08:00",
+  "ChangedBy": "admin",
+  "ChangedDate": "2015-10-23T09:34:02.6873653+08:00",
+  "WebId": "d2e5ef49-4615-4808-c7bb-00365ef206b8"
+}

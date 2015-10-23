@@ -1,0 +1,16 @@
+{
+  "$type": "Bespoke.epsikologi_i2krecommendation.Domain.I2kRecommendation, epsikologi.I2kRecommendation",
+  "No": "KE-36-65",
+  "Tret": "Kewangan",
+  "NilaiMin": 36,
+  "NilaiMax": 65,
+  "Bahagian": "6",
+  "Tahap": "Tinggi",
+  "Interpretasi": "Anda mempunyai aspek kewangan yang sejahtera.  Anda mempunyai pelan kewangan yang bertulis, berbelanja mengikut kemampuan dan mempunyai perancangan kewangan yang baik.  Anda juga digambarkan sebagai seorang yang boleh mengurus pendapatan, merancang perbelanjaan, berbelanja mengikut kemampuan dan keutamaan serta mempunyai simpanan.",
+  "CreatedBy": "admin",
+  "Id": "75708f37-d00c-4f9a-83f1-4874fa733a02",
+  "CreatedDate": "2015-10-23T09:58:52.4043533+08:00",
+  "ChangedBy": "admin",
+  "ChangedDate": "2015-10-23T09:58:52.3993333+08:00",
+  "WebId": "e9c725b9-7d84-4e80-b91d-74550ecab95f"
+}

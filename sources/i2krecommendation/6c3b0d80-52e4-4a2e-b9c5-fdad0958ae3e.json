@@ -1,0 +1,16 @@
+{
+  "$type": "Bespoke.epsikologi_i2krecommendation.Domain.I2kRecommendation, epsikologi.I2kRecommendation",
+  "No": "PE-32-50",
+  "Tret": "Persekitaran",
+  "NilaiMin": 32,
+  "NilaiMax": 50,
+  "Bahagian": "7",
+  "Tahap": "Tinggi",
+  "Interpretasi": "Anda mempunyai aspek persekitaran tempat kerja yang sejahtera.  Organisasi anda mengamalkan sistem persekitaran berkualiti dan anda terlibat dalam aktiviti pemeliharaan/ pemuliharaan alam sekitar.  Anda juga peka kepada aktiviti yang dianjurkan oleh organisasi dalam kempen kesedaran alam sekitar, penjimatan air dan elektrik.  Di samping itu, anda prihatin dengan isu semasa alam sekitar dan melibatkan diri dalam usaha pemeliharaan/ pemuliharaan alam sekitar.",
+  "CreatedBy": "admin",
+  "Id": "6c3b0d80-52e4-4a2e-b9c5-fdad0958ae3e",
+  "CreatedDate": "2015-10-23T10:00:25.5906133+08:00",
+  "ChangedBy": "admin",
+  "ChangedDate": "2015-10-23T10:00:25.5896093+08:00",
+  "WebId": "a9b3aefe-a0e3-4767-e8d9-e0f70362544b"
+}

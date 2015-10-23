@@ -1,6 +1,6 @@
 {
   "$type": "Bespoke.epsikologi_i2krecommendation.Domain.I2kRecommendation, epsikologi.I2kRecommendation",
-  "No": "E-43-75",
+  "No": "EM-43-75",
   "Tret": "Emosi",
   "NilaiMin": 43,
   "NilaiMax": 75,
@@ -11,6 +11,6 @@
   "Id": "83923b3c-3094-4c1f-a561-e2418c706629",
   "CreatedDate": "2015-10-21T16:51:54.5405306+08:00",
   "ChangedBy": "admin",
-  "ChangedDate": "2015-10-21T16:55:00.413116+08:00",
+  "ChangedDate": "2015-10-23T09:32:30.1763653+08:00",
   "WebId": "f8a3d43f-c476-4933-91ac-a9eff0787a9a"
 }

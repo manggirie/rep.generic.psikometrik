@@ -1,0 +1,16 @@
+{
+  "$type": "Bespoke.epsikologi_i2krecommendation.Domain.I2kRecommendation, epsikologi.I2kRecommendation",
+  "No": "PEK-53-75",
+  "Tret": "Pekerjaan",
+  "NilaiMin": 53,
+  "NilaiMax": 75,
+  "Bahagian": "8",
+  "Tahap": "Tinggi",
+  "Interpretasi": "Anda mempunyai aspek pekerjaan yang sejahtera.  Ketua/penyelia anda adalah seorang yang prihatin, membantu anda menangani konflik serta memberi dorongan dan sokongan kepada anda.  Anda juga digambarkan sebagai seorang yang kompeten, berdisiplin, patuh kepada peraturan, positif dan komited serta mempunyai beban kerja yang seiring dengan tuntutan tugas dan peranan.",
+  "CreatedBy": "admin",
+  "Id": "15200591-8523-48d6-b364-78f825ee7498",
+  "CreatedDate": "2015-10-23T10:02:13.0785283+08:00",
+  "ChangedBy": "admin",
+  "ChangedDate": "2015-10-23T10:02:13.0775268+08:00",
+  "WebId": "a2cfbf11-4943-40f4-fa5e-a5223c74a022"
+}
