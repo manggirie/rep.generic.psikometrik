@@ -1,4 +1,27 @@
 define(["services/datacontext", objectbuilders.config, objectbuilders.app], function (context, config, app) {
+
+    function parseMyKadDate(str) {
+        var y = str.substr(0, 2),
+            m = str.substr(2, 2) - 1,
+            d = str.substr(4, 2);
+
+        // adjust year
+        var thisYear = new Date().getFullYear().toString();
+        y = (Number(y) <= Number(thisYear.substr(2, 2))) ? "20" + y : "19" + y;
+
+        // gnerate D.O.B
+        var D = new Date(y, m, d);
+
+        var today = new Date();
+        return (D.getFullYear() == y && D.getMonth() == m && D.getDate() == d) ? D : today;
+    }
+
+    function calculateAge(birthday) {
+        var ageDifMs = Date.now() - birthday.getTime();
+        var ageDate = new Date(ageDifMs);
+        return Math.abs(ageDate.getUTCFullYear() - 1970);
+    }
+
     var isPenyelaras = ko.observable(false),
         pengguna = ko.observable(),
         penyelaras = ko.observable(),
@@ -38,6 +61,7 @@ define(["services/datacontext", objectbuilders.config, objectbuilders.app], func
                         }else{
                             
                             pengguna().fillManually(true);
+                            pengguna().Umur(calculateAge(parseMyKadDate(ic)));
                         }
 
                     });
