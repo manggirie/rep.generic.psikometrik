@@ -13,13 +13,18 @@ define(["services/datacontext", objectbuilders.config, objectbuilders.app], func
         var D = new Date(y, m, d);
 
         var today = new Date();
-        return (D.getFullYear() == y && D.getMonth() == m && D.getDate() == d) ? D : today;
+        return (D.getFullYear() == y && D.getMonth() == m && D.getDate() == d) ? D : str;
     }
 
     function calculateAge(birthday) {
-        var ageDifMs = Date.now() - birthday.getTime();
-        var ageDate = new Date(ageDifMs);
-        return Math.abs(ageDate.getUTCFullYear() - 1970);
+        if (typeof birthday === "object") {
+            var ageDifMs = Date.now() - birthday.getTime();
+            var ageDate = new Date(ageDifMs);
+            return Math.abs(ageDate.getUTCFullYear() - 1970);
+        } else {
+            app.showMessage("Gagal mendapatkan umur dari 6 digit pertama MyKad " + birthday, "Sistem Ujian Psikometrik", ["OK"]);
+            return 0;
+        }
     }
 
     var isPenyelaras = ko.observable(false),
