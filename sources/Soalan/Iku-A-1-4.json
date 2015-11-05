@@ -1,8 +1,8 @@
 {
   "$type": "Bespoke.epsikologi_soalan.Domain.Soalan, epsikologi.Soalan",
-  "NoRujukan": "Iku-A-1-5",
-  "SoalanNo": "Iku-A-1-5",
-  "TeksSoalan": "Saya memberi tindak balas yang sesuai apabila berhadapan dengan krisis.",
+  "NoRujukan": "Iku-A-1-4",
+  "SoalanNo": "Iku-A-1-4",
+  "TeksSoalan": "Saya mudah menukar rancangan apabila berhadapan dengan situasi baru.",
   "SeksyenSoalan": "1",
   "PilihanJawapanCollection": {
     "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan]], domain.sph",
@@ -11,43 +11,43 @@
         "$type": "Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan",
         "Teks": "Sangat tidak setuju",
         "Nilai": 1,
-        "WebId": "35276a61-ab63-4e21-aadb-8e3ac59efb50"
+        "WebId": "1eb8943b-ad11-48f3-92b3-4be44f499dd3"
       },
       {
         "$type": "Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan",
         "Teks": "Tidak setuju",
         "Nilai": 2,
-        "WebId": "5f46b39e-7509-4ddb-81d7-efe06ed71aa4"
+        "WebId": "a3afd07d-9ba3-41ca-b08f-b96b33a9212b"
       },
       {
         "$type": "Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan",
         "Teks": "Neutral",
         "Nilai": 3,
-        "WebId": "a521badd-a11f-4276-a48b-5693bd93db69"
+        "WebId": "833fd615-6146-46dc-bc56-b43d7e7b4e3e"
       },
       {
         "$type": "Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan",
         "Teks": "Setuju",
         "Nilai": 4,
-        "WebId": "b8db0fe5-08e7-4de8-a23a-047b4a9818a9"
+        "WebId": "09b5cb7a-b7a9-406a-8941-fecd79070259"
       },
       {
         "$type": "Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan",
         "Teks": "Sangat setuju",
         "Nilai": 5,
-        "WebId": "89259ae7-78b3-4f9e-833c-784b3444be75"
+        "WebId": "71523fef-bf4f-4743-bc96-e1e68e87ff1d"
       }
     ]
   },
   "Trait": "Pengendalian Krisis",
-  "NamaUjian": "099ba25a-6f3d-4508-bacb-a0052fc0158a",
-  "Susunan": 5.0,
+  "NamaUjian": "IKU",
+  "Susunan": 4.0,
   "Kategori": null,
   "Bahagian": "A",
   "CreatedBy": "admin",
-  "Id": "bfb946a3-127f-481e-a253-4e9ac03f16d6",
-  "CreatedDate": "2015-11-05T10:04:11.5969042+08:00",
+  "Id": "Iku-A-1-4",
+  "CreatedDate": "2015-11-05T10:02:14.3911848+08:00",
   "ChangedBy": "admin",
-  "ChangedDate": "2015-11-05T10:19:47.0604412+08:00",
-  "WebId": "87132309-4585-4cd6-ac81-6918420a8717"
+  "ChangedDate": "2015-11-05T10:02:14.3861843+08:00",
+  "WebId": "249fd279-28ab-4080-b74e-519e92edc476"
 }

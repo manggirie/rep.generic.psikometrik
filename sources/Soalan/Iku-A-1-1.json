@@ -1,53 +1,53 @@
 {
   "$type": "Bespoke.epsikologi_soalan.Domain.Soalan, epsikologi.Soalan",
-  "NoRujukan": "Iku-A-1-2",
-  "SoalanNo": "Iku-A-1-2",
-  "TeksSoalan": "Saya segera mengambil tindakan yang berkesan untuk menyelesaikan masalah.",
+  "NoRujukan": "Iku-A-1-1",
+  "SoalanNo": "Iku-A-1-1",
+  "TeksSoalan": "Saya terus fokus kepada keadaan untuk bertindak balas dengan cepat.",
   "SeksyenSoalan": "1",
   "PilihanJawapanCollection": {
     "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan]], domain.sph",
     "$values": [
       {
         "$type": "Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan",
-        "Teks": "Sangat tidak setuju",
+        "Teks": "Sangat Tidak Setuju ",
         "Nilai": 1,
-        "WebId": "b56bfa50-0b27-4586-b3b5-2b232d721748"
+        "WebId": "21524d61-c64b-4b77-91c5-4179e725116f"
       },
       {
         "$type": "Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan",
-        "Teks": "Tidak setuju",
+        "Teks": "Tidak Setuju",
         "Nilai": 2,
-        "WebId": "3b068aba-28b4-4ddd-9f40-94d9eb14db11"
+        "WebId": "e60dfa48-40fe-4830-818f-9e165219bdc2"
       },
       {
         "$type": "Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan",
         "Teks": "Neutral",
         "Nilai": 3,
-        "WebId": "c928aeed-cd69-42c1-87b4-2e4ef2af1225"
+        "WebId": "06422a3c-fd16-484b-99bc-ab64b8d596a1"
       },
       {
         "$type": "Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan",
-        "Teks": "Setuju",
+        "Teks": "Setuju ",
         "Nilai": 4,
-        "WebId": "de6b29a2-7c08-4bb4-a60d-cfc4f8422b0d"
+        "WebId": "b3879c49-19e2-43b7-bb1f-e7e24bbb489a"
       },
       {
         "$type": "Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan",
-        "Teks": "Sangat setuju",
+        "Teks": "Sangat Setuju ",
         "Nilai": 5,
-        "WebId": "080cfe29-87e7-45bf-9542-866165be51e1"
+        "WebId": "e59a194a-1270-46c1-81aa-dca7cd9a325a"
       }
     ]
   },
   "Trait": "Pengendalian Krisis",
-  "NamaUjian": "099ba25a-6f3d-4508-bacb-a0052fc0158a",
-  "Susunan": 2.0,
+  "NamaUjian": "IKU",
+  "Susunan": 1.0,
   "Kategori": null,
   "Bahagian": "A",
   "CreatedBy": "admin",
-  "Id": "c072d381-4d01-4e02-a770-f9d9997225ba",
-  "CreatedDate": "2015-11-05T09:56:06.9134407+08:00",
+  "Id": "Iku-A-1-1",
+  "CreatedDate": "2015-11-04T09:35:36.6377564+08:00",
   "ChangedBy": "admin",
-  "ChangedDate": "2015-11-05T09:56:06.9054399+08:00",
-  "WebId": "3669dda3-aca2-4227-ccc0-df643b6d4a5b"
+  "ChangedDate": "2015-11-04T10:32:44.8345418+08:00",
+  "WebId": "36f01b45-5b3f-4ec9-8ec9-9b8285c231d9"
 }

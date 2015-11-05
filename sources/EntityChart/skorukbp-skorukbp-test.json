@@ -1,0 +1,25 @@
+{
+  "$type": "Bespoke.Sph.Domain.EntityChart, domain.sph",
+  "SeriesCollection": {
+    "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.Sph.Domain.Series, domain.sph]], domain.sph",
+    "$values": []
+  },
+  "EntityDefinitionId": "skorukbp",
+  "Entity": "SkorUkbp",
+  "Name": "test",
+  "Type": "pie",
+  "EntityViewId": "skorukbp-skorukbp",
+  "Query": "{\"query\":{\"filtered\":{\"filter\":{\"bool\":{\"must\":[],\"must_not\":[]}}}},\"sort\":[],\"aggs\":{\"category\":{\"date_histogram\":{\"field\":\"CreatedDate\",\"interval\":\"week\",\"format\":\"w yyyy\"}}},\"from\":0,\"size\":20}",
+  "Aggregate": "date_histogram",
+  "Field": "CreatedDate",
+  "DateInterval": "week",
+  "IsDashboardItem": true,
+  "DasboardItemPosition": 0,
+  "HistogramInterval": 5,
+  "CreatedBy": "WINMAC-15",
+  "Id": "skorukbp-skorukbp-test",
+  "CreatedDate": "2015-10-05T21:07:03.8146117+08:00",
+  "ChangedBy": "WINMAC-15",
+  "ChangedDate": "2015-10-05T21:07:03.8146117+08:00",
+  "WebId": "26e83456-569f-42b5-fbc3-e36a4f3fd3dd"
+}
