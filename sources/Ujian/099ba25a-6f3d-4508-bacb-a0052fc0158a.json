@@ -1,0 +1,17 @@
+{
+  "$type": "Bespoke.epsikologi_ujian.Domain.Ujian, epsikologi.Ujian",
+  "UjianNo": "IKU",
+  "NamaUjian": "Instrumen Kepimpinan Unggul (IKU)",
+  "DurationHour": null,
+  "DurationMinutes": null,
+  "SectionCollection": {
+    "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.epsikologi_ujian.Domain.Section, epsikologi.Ujian]], domain.sph",
+    "$values": []
+  },
+  "CreatedBy": "admin",
+  "Id": "099ba25a-6f3d-4508-bacb-a0052fc0158a",
+  "CreatedDate": "2015-11-04T09:32:09.1980145+08:00",
+  "ChangedBy": "admin",
+  "ChangedDate": "2015-11-04T09:32:09.1590106+08:00",
+  "WebId": "a87ae595-72b8-4719-8d19-3a04d1082460"
+}

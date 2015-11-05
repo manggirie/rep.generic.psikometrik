@@ -1,0 +1,53 @@
+{
+  "$type": "Bespoke.epsikologi_soalan.Domain.Soalan, epsikologi.Soalan",
+  "NoRujukan": "Iku-A-1-8",
+  "SoalanNo": "Iku-A-1-8",
+  "TeksSoalan": "Saya mengambil inisiatif untuk menguruskan krisis.",
+  "SeksyenSoalan": "1",
+  "PilihanJawapanCollection": {
+    "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan]], domain.sph",
+    "$values": [
+      {
+        "$type": "Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan",
+        "Teks": "Sangat tidak setuju",
+        "Nilai": 1,
+        "WebId": "aeaf0e97-19ee-49fe-87ab-fc292b39b1cd"
+      },
+      {
+        "$type": "Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan",
+        "Teks": "Tidak setuju",
+        "Nilai": 2,
+        "WebId": "ca64a0ff-ae3e-467b-8433-a4d717c60ce5"
+      },
+      {
+        "$type": "Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan",
+        "Teks": "Neutral",
+        "Nilai": 3,
+        "WebId": "4384dfd1-1b63-4dcb-a347-4be99c165c5a"
+      },
+      {
+        "$type": "Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan",
+        "Teks": "Setuju",
+        "Nilai": 4,
+        "WebId": "6a696256-ee1b-4d76-a8cc-a70d2b31c91b"
+      },
+      {
+        "$type": "Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan",
+        "Teks": "Sangat setuju",
+        "Nilai": 5,
+        "WebId": "74a9174a-0c56-47b7-b44b-f93fa50a3faf"
+      }
+    ]
+  },
+  "Trait": "Pengendalian Krisis",
+  "NamaUjian": "099ba25a-6f3d-4508-bacb-a0052fc0158a",
+  "Susunan": 8.0,
+  "Kategori": null,
+  "Bahagian": "A",
+  "CreatedBy": "admin",
+  "Id": "a45c0421-e20b-4e14-9754-f670e296c349",
+  "CreatedDate": "2015-11-05T10:24:02.4079734+08:00",
+  "ChangedBy": "admin",
+  "ChangedDate": "2015-11-05T10:24:02.4069733+08:00",
+  "WebId": "575587a9-3d5b-4061-837e-ae4ca843bfd7"
+}

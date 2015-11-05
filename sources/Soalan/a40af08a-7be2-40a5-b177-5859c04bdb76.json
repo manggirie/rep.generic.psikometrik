@@ -1,0 +1,53 @@
+{
+  "$type": "Bespoke.epsikologi_soalan.Domain.Soalan, epsikologi.Soalan",
+  "NoRujukan": "Iku-A-1-4",
+  "SoalanNo": "Iku-A-1-4",
+  "TeksSoalan": "Saya mudah menukar rancangan apabila berhadapan dengan situasi baru.",
+  "SeksyenSoalan": "1",
+  "PilihanJawapanCollection": {
+    "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan]], domain.sph",
+    "$values": [
+      {
+        "$type": "Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan",
+        "Teks": "Sangat tidak setuju",
+        "Nilai": 1,
+        "WebId": "1eb8943b-ad11-48f3-92b3-4be44f499dd3"
+      },
+      {
+        "$type": "Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan",
+        "Teks": "Tidak setuju",
+        "Nilai": 2,
+        "WebId": "a3afd07d-9ba3-41ca-b08f-b96b33a9212b"
+      },
+      {
+        "$type": "Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan",
+        "Teks": "Neutral",
+        "Nilai": 3,
+        "WebId": "833fd615-6146-46dc-bc56-b43d7e7b4e3e"
+      },
+      {
+        "$type": "Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan",
+        "Teks": "Setuju",
+        "Nilai": 4,
+        "WebId": "09b5cb7a-b7a9-406a-8941-fecd79070259"
+      },
+      {
+        "$type": "Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan",
+        "Teks": "Sangat setuju",
+        "Nilai": 5,
+        "WebId": "71523fef-bf4f-4743-bc96-e1e68e87ff1d"
+      }
+    ]
+  },
+  "Trait": "Pengendalian Krisis",
+  "NamaUjian": "099ba25a-6f3d-4508-bacb-a0052fc0158a",
+  "Susunan": 4.0,
+  "Kategori": null,
+  "Bahagian": "A",
+  "CreatedBy": "admin",
+  "Id": "a40af08a-7be2-40a5-b177-5859c04bdb76",
+  "CreatedDate": "2015-11-05T10:02:14.3911848+08:00",
+  "ChangedBy": "admin",
+  "ChangedDate": "2015-11-05T10:02:14.3861843+08:00",
+  "WebId": "249fd279-28ab-4080-b74e-519e92edc476"
+}

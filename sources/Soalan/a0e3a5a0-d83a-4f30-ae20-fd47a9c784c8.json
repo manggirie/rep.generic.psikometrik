@@ -1,0 +1,53 @@
+{
+  "$type": "Bespoke.epsikologi_soalan.Domain.Soalan, epsikologi.Soalan",
+  "NoRujukan": "Iku-A-1-1",
+  "SoalanNo": "Iku-A-1-1",
+  "TeksSoalan": "Saya terus fokus kepada keadaan untuk bertindak balas dengan cepat.",
+  "SeksyenSoalan": "1",
+  "PilihanJawapanCollection": {
+    "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan]], domain.sph",
+    "$values": [
+      {
+        "$type": "Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan",
+        "Teks": "Sangat Tidak Setuju ",
+        "Nilai": 1,
+        "WebId": "21524d61-c64b-4b77-91c5-4179e725116f"
+      },
+      {
+        "$type": "Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan",
+        "Teks": "Tidak Setuju",
+        "Nilai": 2,
+        "WebId": "e60dfa48-40fe-4830-818f-9e165219bdc2"
+      },
+      {
+        "$type": "Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan",
+        "Teks": "Neutral",
+        "Nilai": 3,
+        "WebId": "06422a3c-fd16-484b-99bc-ab64b8d596a1"
+      },
+      {
+        "$type": "Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan",
+        "Teks": "Setuju ",
+        "Nilai": 4,
+        "WebId": "b3879c49-19e2-43b7-bb1f-e7e24bbb489a"
+      },
+      {
+        "$type": "Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan",
+        "Teks": "Sangat Setuju ",
+        "Nilai": 5,
+        "WebId": "e59a194a-1270-46c1-81aa-dca7cd9a325a"
+      }
+    ]
+  },
+  "Trait": "Pengendalian Krisis",
+  "NamaUjian": "099ba25a-6f3d-4508-bacb-a0052fc0158a",
+  "Susunan": 1.0,
+  "Kategori": null,
+  "Bahagian": "A",
+  "CreatedBy": "admin",
+  "Id": "a0e3a5a0-d83a-4f30-ae20-fd47a9c784c8",
+  "CreatedDate": "2015-11-04T09:35:36.6377564+08:00",
+  "ChangedBy": "admin",
+  "ChangedDate": "2015-11-04T10:32:44.8345418+08:00",
+  "WebId": "36f01b45-5b3f-4ec9-8ec9-9b8285c231d9"
+}

@@ -1,0 +1,53 @@
+{
+  "$type": "Bespoke.epsikologi_soalan.Domain.Soalan, epsikologi.Soalan",
+  "NoRujukan": "Iku-A-1-6",
+  "SoalanNo": "Iku-A-1-6",
+  "TeksSoalan": "Saya mampu menganalisis pilihan dan kesannya dengan cepat semasa menangani situasi berisiko.",
+  "SeksyenSoalan": "1",
+  "PilihanJawapanCollection": {
+    "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan]], domain.sph",
+    "$values": [
+      {
+        "$type": "Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan",
+        "Teks": "Sangat tidak setuju",
+        "Nilai": 0,
+        "WebId": "0c131c47-a974-4581-a56f-48f66a142e82"
+      },
+      {
+        "$type": "Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan",
+        "Teks": "Tidak setuju",
+        "Nilai": 0,
+        "WebId": "842e1590-db56-437c-a3f8-24a00706824e"
+      },
+      {
+        "$type": "Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan",
+        "Teks": "Neutral",
+        "Nilai": 0,
+        "WebId": "d1f34fd3-2f0f-449b-a83b-3cc100105e39"
+      },
+      {
+        "$type": "Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan",
+        "Teks": "Setuju",
+        "Nilai": 0,
+        "WebId": "53363e99-e479-468b-8454-f1cb5a262396"
+      },
+      {
+        "$type": "Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan",
+        "Teks": "Sangat setuju",
+        "Nilai": 0,
+        "WebId": "38e8ee51-322e-4847-9545-0c99a2124b89"
+      }
+    ]
+  },
+  "Trait": "Pengendalian Krisis",
+  "NamaUjian": "099ba25a-6f3d-4508-bacb-a0052fc0158a",
+  "Susunan": 6.0,
+  "Kategori": null,
+  "Bahagian": "A",
+  "CreatedBy": "admin",
+  "Id": "9ec90aaf-b0bd-4949-8bc2-669fa56b0a13",
+  "CreatedDate": "2015-11-05T10:05:52.5629998+08:00",
+  "ChangedBy": "admin",
+  "ChangedDate": "2015-11-05T10:05:52.5619997+08:00",
+  "WebId": "08ebc691-731a-4e1b-a5b8-061ffd0e2979"
+}

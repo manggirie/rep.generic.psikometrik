@@ -1,0 +1,53 @@
+{
+  "$type": "Bespoke.epsikologi_soalan.Domain.Soalan, epsikologi.Soalan",
+  "NoRujukan": "Iku-A-1-7",
+  "SoalanNo": "Iku-A-1-7",
+  "TeksSoalan": "Saya mampu mengawal emosi dan berfikir secara objektif walaupun dalam keadaan cemas.",
+  "SeksyenSoalan": "1",
+  "PilihanJawapanCollection": {
+    "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan]], domain.sph",
+    "$values": [
+      {
+        "$type": "Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan",
+        "Teks": "Sangat tidak setuju",
+        "Nilai": 1,
+        "WebId": "cd684951-e97c-4d76-b268-f23179af8104"
+      },
+      {
+        "$type": "Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan",
+        "Teks": "Tidak setuju",
+        "Nilai": 2,
+        "WebId": "768e9f84-33f7-4b10-9334-3c8e9064857f"
+      },
+      {
+        "$type": "Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan",
+        "Teks": "Neutral",
+        "Nilai": 3,
+        "WebId": "1c12f64c-3fbd-4fe5-b52b-535afb895e23"
+      },
+      {
+        "$type": "Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan",
+        "Teks": "Setuju",
+        "Nilai": 4,
+        "WebId": "ac3e1003-a9c6-4515-bc04-33e3d650ec36"
+      },
+      {
+        "$type": "Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan",
+        "Teks": "Sangat setuju",
+        "Nilai": 5,
+        "WebId": "e340003e-943a-44ed-94e7-dcd119760bd1"
+      }
+    ]
+  },
+  "Trait": "Pengendalian Krisis",
+  "NamaUjian": "099ba25a-6f3d-4508-bacb-a0052fc0158a",
+  "Susunan": 7.0,
+  "Kategori": null,
+  "Bahagian": "A",
+  "CreatedBy": "admin",
+  "Id": "850ceeae-d5dd-4149-bb8c-e0553c52740c",
+  "CreatedDate": "2015-11-05T10:22:17.8815218+08:00",
+  "ChangedBy": "admin",
+  "ChangedDate": "2015-11-05T10:22:17.8795216+08:00",
+  "WebId": "387603fe-15b7-4739-f998-5f8856ff1502"
+}
