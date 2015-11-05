@@ -163,11 +163,11 @@
   "Entity": "",
   "Partial": "partial/soalandetail",
   "Template": null,
-  "DisplayOnDashboard": true,
+  "DisplayOnDashboard": false,
   "CreatedBy": "admin",
   "Id": "soalandetail",
   "CreatedDate": "2015-06-05T10:14:02.1460365+08:00",
   "ChangedBy": "admin",
-  "ChangedDate": "2015-11-04T10:29:15.4936098+08:00",
+  "ChangedDate": "2015-11-05T10:59:19.6716786+08:00",
   "WebId": "d14e40d2-7c0d-48db-dbaf-246c57839c8e"
 }
