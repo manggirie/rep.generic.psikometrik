@@ -126,7 +126,7 @@ namespace web.sph.App_Code
                 mykad = ws.Cells["B" + row].GetValue<string>();
                 hasRow = !string.IsNullOrEmpty(name) && !string.IsNullOrEmpty(mykad);
 
-                if (row - 1 > permohonan.BilRespondan)
+                if (row - 2 > permohonan.BilRespondan)
                 {
                     warning = $"Fail Excel ini mengandungi lebih dari bilangan responden yang dibenarkan : {permohonan.BilRespondan}";
                     break;
