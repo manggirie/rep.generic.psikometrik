@@ -62,7 +62,7 @@
     </div>
 
 
-    <div class="form-group" data-bind="visible:Pekerjaan() !== 'Pelajar'">
+    <div class="form-group" data-bind="visible:ko.unwrap(Pekerjaan) === &#39;Kerajaan&#39;">
         <label data-i18n="Status Perkahwinan" for="f503e61e-ec70-4106-8d07-1afe70dcf17c" class="col-md-4">Status Perkahwinan</label>
         <div class="col-md-8">
             <select  data-bind="value: StatusPerkahwinan, enable :false" id="f503e61e-ec70-4106-8d07-1afe70dcf17c" name="StatusPerkahwinan" class=" input-large form-control">
@@ -97,7 +97,7 @@
     </div>
 
 
-    <div class="form-group" data-bind="visible:ko.unwrap(Pekerjaan) === 'Pelajar'">
+    <div class="form-group" data-bind="visible:ko.unwrap(Pekerjaan) === &#39;Pelajar&#39;">
         <label data-i18n="Tahap Pengajian" for="2427a3e3-5ff3-4d8c-a090-5049e7634613" class="col-md-4">Tahap Pengajian</label>
         <div class="col-md-8">
             <select  data-bind="value: Pelajar().TahapPendidikan, enable :true" id="2427a3e3-5ff3-4d8c-a090-5049e7634613" name="Pelajar.TahapPendidikan" class=" input-large form-control">
@@ -110,7 +110,7 @@
     </div>
 
 
-    <div class="form-group" data-bind="visible:ko.unwrap(Pekerjaan) === 'Pelajar'">
+    <div class="form-group" data-bind="visible:ko.unwrap(Pekerjaan) === &#39;Pelajar&#39;">
         <label data-i18n="Tempat Pengajian" for="7dcc8a48-db5c-412b-81ea-006428a9c41c" class="col-md-4">Tempat Pengajian</label>
         <div class="col-md-8">
             <select  data-bind="value: Pelajar().Tempat, enable :true" id="7dcc8a48-db5c-412b-81ea-006428a9c41c" name="Pelajar.Tempat" class="required  form-control">
@@ -123,7 +123,7 @@
 
 
 
-    <div data-bind="visible:ko.unwrap(Pekerjaan) === 'Pelajar'" class="form-group">
+    <div data-bind="visible:ko.unwrap(Pekerjaan) === &#39;Pelajar&#39;" class="form-group">
         <label data-i18n="Bidang Pengajian" for="f977812f-48d5-4d25-c09b-368a392fccad" class="col-md-4">Bidang Pengajian</label>
         <div class="col-md-8">
             <input  class=" form-control input-large" title=""
@@ -136,7 +136,7 @@
     </div>
 
 
-    <div class="form-group" data-bind="visible:ko.unwrap(Pekerjaan) === 'Kerajaan'">
+    <div class="form-group" data-bind="visible:ko.unwrap(Pekerjaan) === &#39;Kerajaan&#39;">
         <label data-i18n="Kumpulan Agensi" for="119ac31f-e09c-43cc-b3c7-91ce4cccaf9c" class="col-md-4">Kumpulan Agensi</label>
         <div class="col-md-8">
             <select  data-bind="value: JenisPerkhidmatan, enable :false" id="119ac31f-e09c-43cc-b3c7-91ce4cccaf9c" name="JenisPerkhidmatan" class=" input-large form-control">
@@ -151,7 +151,7 @@
     </div>
 
 
-    <div class="form-group" data-bind="visible:ko.unwrap(Pekerjaan) === 'Kerajaan'">
+    <div class="form-group" data-bind="visible:ko.unwrap(Pekerjaan) === &#39;Kerajaan&#39;">
         <label data-i18n="Kumpulan Jawatan" for="136182e1-66a5-4fa8-bba1-e6080deb3fb3" class="col-md-4">Kumpulan Jawatan</label>
         <div class="col-md-8">
             <select  data-bind="value: KumpulanJawatan, enable :false" id="136182e1-66a5-4fa8-bba1-e6080deb3fb3" name="KumpulanJawatan" class=" input-large form-control">
@@ -168,7 +168,7 @@
 
 
 
-    <div data-bind="visible:Pekerjaan() !== 'Pelajar'" class="form-group">
+    <div data-bind="visible:ko.unwrap(Pekerjaan) === &#39;Kerajaan&#39;" class="form-group">
         <label data-i18n="Skim dan Gred Perkhidmatan" for="7414654c-5703-4389-fa7d-d2500b39d8e0" class="col-md-4">Skim dan Gred Perkhidmatan</label>
         <div class="col-md-8">
             <input  class=" form-control input-large" title=""
