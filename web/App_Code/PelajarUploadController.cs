@@ -106,6 +106,18 @@ namespace web.sph.App_Code
 
                 };
 
+                //increment
+                row++;
+                name = ws.Cells["A" + row].GetValue<string>();
+                mykad = ws.Cells["B" + row].GetValue<string>();
+                hasRow = !string.IsNullOrEmpty(name) && !string.IsNullOrEmpty(mykad);
+
+                if (row - 2 > permohonan.BilRespondan)
+                {
+                    warning = $"Fail Excel ini mengandungi lebih dari bilangan responden yang dibenarkan : {permohonan.BilRespondan}";
+                    break;
+                }
+
                 var daftarExist = await context.GetAnyAsync<PendaftaranProgram>(x => x.MyKad == student.MyKad && x.NoPermohonan == permohonan.PermohonanNo);
                 if (!daftarExist)
                 {
@@ -119,18 +131,6 @@ namespace web.sph.App_Code
                         session.Attach(daftar);
                     if (!daftarExist || !emailExist)
                         await session.SubmitChanges("TambahResponden");
-                }
-
-                //increment
-                row++;
-                name = ws.Cells["A" + row].GetValue<string>();
-                mykad = ws.Cells["B" + row].GetValue<string>();
-                hasRow = !string.IsNullOrEmpty(name) && !string.IsNullOrEmpty(mykad);
-
-                if (row - 2 > permohonan.BilRespondan)
-                {
-                    warning = $"Fail Excel ini mengandungi lebih dari bilangan responden yang dibenarkan : {permohonan.BilRespondan}";
-                    break;
                 }
             }
 
