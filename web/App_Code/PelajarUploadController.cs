@@ -70,6 +70,7 @@ namespace web.sph.App_Code
                     Umur = 0,
                     Emel = ws.Cells["G" + row].GetValue<string>(),
                     Emel2 = null,
+                    Pekerjaan = "Pelajar",
                     Pelajar = new Pelajar
                     {
                         BidangPengajian = ws.Cells["D" + row].GetValue<string>(),
