@@ -1,9 +1,9 @@
 {
   "$type": "Bespoke.epsikologi_soalan.Domain.Soalan, epsikologi.Soalan",
-  "NoRujukan": "Iku-A-1-6",
-  "SoalanNo": "Iku-A-1-6",
-  "TeksSoalan": "Saya mampu menganalisis pilihan dan kesannya dengan cepat semasa menangani situasi berisiko.",
-  "SeksyenSoalan": "1",
+  "NoRujukan": "Iku-A-2-2",
+  "SoalanNo": "Iku-A-2-2",
+  "TeksSoalan": "Saya tenang apabila berhadapan dengan beban atau jadual kerja yang padat",
+  "SeksyenSoalan": "2",
   "PilihanJawapanCollection": {
     "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan]], domain.sph",
     "$values": [
@@ -11,43 +11,43 @@
         "$type": "Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan",
         "Teks": "Sangat tidak setuju",
         "Nilai": 1,
-        "WebId": "0c131c47-a974-4581-a56f-48f66a142e82"
+        "WebId": "f42b2ad5-04fd-4baf-b7f6-3376473eb353"
       },
       {
         "$type": "Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan",
         "Teks": "Tidak setuju",
         "Nilai": 2,
-        "WebId": "842e1590-db56-437c-a3f8-24a00706824e"
+        "WebId": "7f7dcdb1-308f-4336-86cf-05d6e48530e9"
       },
       {
         "$type": "Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan",
         "Teks": "Neutral",
         "Nilai": 3,
-        "WebId": "d1f34fd3-2f0f-449b-a83b-3cc100105e39"
+        "WebId": "3bb7696e-792b-42de-8259-a3f4bf70c521"
       },
       {
         "$type": "Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan",
         "Teks": "Setuju",
         "Nilai": 4,
-        "WebId": "53363e99-e479-468b-8454-f1cb5a262396"
+        "WebId": "94edf389-95b9-4f5e-b058-d1395257c2fd"
       },
       {
         "$type": "Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan",
         "Teks": "Sangat setuju",
         "Nilai": 5,
-        "WebId": "38e8ee51-322e-4847-9545-0c99a2124b89"
+        "WebId": "f3e66aab-c72d-4b2c-abbe-22aa2164c7ad"
       }
     ]
   },
-  "Trait": "Pengendalian Krisis",
+  "Trait": "Pengendalian Tekanan Kerja",
   "NamaUjian": "IKU",
-  "Susunan": 6.0,
+  "Susunan": 10.0,
   "Kategori": null,
   "Bahagian": "A",
   "CreatedBy": "admin",
-  "Id": "9ec90aaf-b0bd-4949-8bc2-669fa56b0a13",
-  "CreatedDate": "2015-11-05T10:05:52.5629998+08:00",
+  "Id": "8feb1c2e-78b1-4359-af17-b06848e99133",
+  "CreatedDate": "2015-11-13T15:12:26.2143883+08:00",
   "ChangedBy": "admin",
-  "ChangedDate": "2015-11-13T15:13:39.5077169+08:00",
-  "WebId": "08ebc691-731a-4e1b-a5b8-061ffd0e2979"
+  "ChangedDate": "2015-11-13T15:12:26.2063875+08:00",
+  "WebId": "a64ce692-497b-4ad6-a7e8-4a62f178ae35"
 }
