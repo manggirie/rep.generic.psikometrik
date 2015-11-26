@@ -11,24 +11,8 @@ foreach (var f in Directory.GetFiles(@"C:\project\rep.generic.psikometrik\source
 {
 
 	var q = f.DeserializeFromJsonFile<Soalan>();
-	if(q.NamaUjian != "Indeks Personaliti (IP)")continue;
-	//Console.WriteLine (q.SoalanNo);
-	var options = q.PilihanJawapanCollection.Count;
-	if(options != 2)
-	{
-		Console.WriteLine (q);
-	}
-	if(!q.PilihanJawapanCollection[0].Teks.StartsWith("a)"))
-	{
-		Console.WriteLine (q);
-	}
-	
-	if(!q.PilihanJawapanCollection[1].Teks.StartsWith("b)"))
-	{
-		Console.WriteLine (q);
-	}
-	
-	count++;
+	if (q.NamaUjian != "8i2k") continue;
+	File.Move(f, $@"C:\project\rep.generic.psikometrik\sources\Soalan\{q.Id}.json");
 	
 }
 Console.WriteLine (count);
