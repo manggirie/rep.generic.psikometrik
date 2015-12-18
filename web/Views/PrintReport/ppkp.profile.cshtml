@@ -117,6 +117,7 @@
 </table>
 
 <script src="~/Scripts/Chart.min.js"></script>
+<script src="~/Scripts/Chart.HorizontalBar.js"></script>
 <script type="text/javascript">
     var vm = @Html.Raw(Model.ToString());
 
@@ -181,7 +182,7 @@
         });
         var kpc = document.getElementById("kesesuaian-penempatan-chart").getContext("2d");
 
-        window.kesesuaianPenempatanChart = new Chart(kpc).Bar(kesesuaianPenempatanData, {
+        window.kesesuaianPenempatanChart = new Chart(kpc).HorizontalBar(kesesuaianPenempatanData, {
             scaleOverride: true,
             scaleSteps: 5,
             scaleStepWidth: 1,
