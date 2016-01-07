@@ -553,6 +553,28 @@
         "Boost": 2,
         "DefaultValue": null,
         "WebId": "0690b2f5-bcd7-41c8-f5ae-cfe1ad0bce9a"
+      },
+      {
+        "$type": "Bespoke.Sph.Domain.Member, domain.sph",
+        "FullName": null,
+        "MemberCollection": {
+          "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.Sph.Domain.Member, domain.sph]], domain.sph",
+          "$values": []
+        },
+        "FieldPermissionCollection": {
+          "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.Sph.Domain.FieldPermission, domain.sph]], domain.sph",
+          "$values": []
+        },
+        "Name": "KodProgram",
+        "TypeName": "System.String, mscorlib",
+        "IsNullable": true,
+        "IsNotIndexed": false,
+        "IsAnalyzed": false,
+        "IsFilterable": true,
+        "IsExcludeInAll": false,
+        "Boost": 5,
+        "DefaultValue": null,
+        "WebId": "c6fd0efb-d611-4619-8709-4aa95bccfb17"
       }
     ]
   },
@@ -727,6 +749,6 @@
   "Id": "permohonan",
   "CreatedDate": "2015-06-05T10:45:39.9585024+08:00",
   "ChangedBy": "admin",
-  "ChangedDate": "2015-10-13T10:30:29.663929+08:00",
+  "ChangedDate": "2016-01-07T12:45:53.2850546+08:00",
   "WebId": "5aff113b-31e8-4f89-b7eb-d089e79bd899"
 }

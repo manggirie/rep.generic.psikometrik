@@ -1,8 +1,21 @@
-define([objectbuilders.config, "partial/permohonan-urusetia"], function(config, formPartial){
+define([objectbuilders.config, "partial/permohonan-urusetia", objectbuilders.datacontext], function(config, formPartial, context){
     var activate = function(entity){
+        
+          
             entity.Penyelaras(config.userName);
             entity.StatusPermohonan("LULUS");
-            return formPartial.activate(entity);
+            
+            return context.getCountAsync("Permohonan", "", "Id")
+                .then(function(count){
+                    var no = (count + 1).toString();
+                    while(no.length < 5){
+                        no = "0" + no;
+                    }
+                    entity.KodProgram(moment().format("YYYY") +"-" + no)
+                    return formPartial.activate(entity);
+                })
+                
+            
         },
         attached  = function(view){
              var tarikhMulaPicker = $("#tarikhMulaPicker").data("kendoDatePicker"),
