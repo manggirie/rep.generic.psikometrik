@@ -6,19 +6,19 @@
     "$values": [
       {
         "$type": "Bespoke.epsikologi_ibkrecommendation.Domain.Kerjaya, epsikologi.IbkRecommendation",
-        "Text": "-Pengarah Statistik -Pengurus Analisis Rekod",
+        "Text": "Pengarah Statistik - Pengurus Analisis Rekod",
         "Warna": null,
         "WebId": "675d56a0-7fe4-4ea9-be99-d381d132c9a4"
       },
       {
         "$type": "Bespoke.epsikologi_ibkrecommendation.Domain.Kerjaya, epsikologi.IbkRecommendation",
-        "Text": "-Perunding Komunikasi",
+        "Text": "Perunding Komunikasi",
         "Warna": null,
         "WebId": "ec1bc929-4ec7-4bea-8c81-6985694a4bfc"
       },
       {
         "$type": "Bespoke.epsikologi_ibkrecommendation.Domain.Kerjaya, epsikologi.IbkRecommendation",
-        "Text": "-Agen Paten  -Penyelia Vendor Kualiti -Penyiasat Serangga & Penyakit",
+        "Text": "Agen Paten  -Penyelia Vendor Kualiti -Penyiasat Serangga & Penyakit",
         "Warna": null,
         "WebId": "c987c2f3-9964-4f7e-b3a1-5cb975a02c89"
       }
