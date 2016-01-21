@@ -13,13 +13,13 @@
   "Aggregate": "term",
   "Field": "AgensiKumpulan",
   "DateInterval": "year",
-  "IsDashboardItem": true,
+  "IsDashboardItem": false,
   "DasboardItemPosition": 0,
   "HistogramInterval": null,
   "CreatedBy": "urusetia1",
   "Id": "jabatans-all-jabatan-agensi-kumpulan",
   "CreatedDate": "2015-08-07T19:21:32.3609608+08:00",
-  "ChangedBy": "urusetia1",
-  "ChangedDate": "2015-08-07T19:21:32.3609608+08:00",
+  "ChangedBy": "bpps",
+  "ChangedDate": "2015-12-11T16:02:28.9627436+08:00",
   "WebId": "aa0079da-4d52-4124-8f70-3d150197801c"
 }

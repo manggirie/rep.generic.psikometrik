@@ -1,8 +1,8 @@
 <Query Kind="Statements">
   <Connection>
-    <ID>42586aa0-3dee-4da7-83d7-54d6b1bd2079</ID>
+    <ID>a6e3d18e-20db-4104-b9ab-aaa1dc7caa1b</ID>
     <Persist>true</Persist>
-    <Server>(localdb)\Projects</Server>
+    <Server>localhost</Server>
     <Database>epsikologi</Database>
   </Connection>
 </Query>

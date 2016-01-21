@@ -2,21 +2,16 @@
   "$type": "Bespoke.epsikologi_ujian.Domain.Ujian, epsikologi.Ujian",
   "UjianNo": "ISP",
   "NamaUjian": "Inventori Sahsiah Pelajar (ISP)",
-  "DurationHour": 0,
-  "DurationMinutes": 5,
+  "DurationHour": 1,
+  "DurationMinutes": 30,
   "SectionCollection": {
     "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.epsikologi_ujian.Domain.Section, epsikologi.Ujian]], domain.sph",
     "$values": []
   },
-  "BahagianCollection": {
-    "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.epsikologi_ujian.Domain.Bahagian, epsikologi.Ujian]], domain.sph",
-    "$values": []
-  },
-  "Arahan": null,
   "CreatedBy": "admin",
   "Id": "ISP",
   "CreatedDate": "2015-07-08T08:56:44.3920693+08:00",
   "ChangedBy": "admin",
-  "ChangedDate": "2015-07-08T08:56:44.3820689+08:00",
+  "ChangedDate": "2016-01-14T11:22:45.7812564+08:00",
   "WebId": "8329b8a5-12e4-4fdc-a526-33146aa5a65f"
 }

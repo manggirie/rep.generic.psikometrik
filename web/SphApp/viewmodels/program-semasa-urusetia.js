@@ -4,7 +4,6 @@
 /// <reference path="Scripts/require.js" />
 /// <reference path="Scripts/underscore.js" />
 /// <reference path="Scripts/moment.js" />
-/// <reference path="/Scripts/knockout-3.2.0.debug.js" />
 /// <reference path="../services/datacontext.js" />
 /// <reference path="../schemas/trigger.workflow.g.js" />
 /// <reference path="../../Scripts/bootstrap.js" />
@@ -39,13 +38,13 @@ function(context, logger, router, chart, config, partial) {
                                 }, {
                                     "range": {
                                         "TarikhTamat": {
-                                            "from": moment().format("YYYY-MM-DDTHH:mm:ss")
+                                            "from": "2016-01-14T00:00:00.0000000"
                                         }
                                     }
                                 }, {
                                     "range": {
                                         "TarikhMula": {
-                                            "to": moment().format("YYYY-MM-DDTHH:mm:ss")
+                                            "to": "2016-01-14T00:00:00.0000000"
                                         }
                                     }
                                 }

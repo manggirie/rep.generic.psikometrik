@@ -3,20 +3,15 @@
   "UjianNo": "IPU",
   "NamaUjian": "Indikator Perwatakan Unggul (IPU)",
   "DurationHour": 1,
-  "DurationMinutes": 15,
+  "DurationMinutes": 30,
   "SectionCollection": {
     "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.epsikologi_ujian.Domain.Section, epsikologi.Ujian]], domain.sph",
     "$values": []
   },
-  "BahagianCollection": {
-    "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.epsikologi_ujian.Domain.Bahagian, epsikologi.Ujian]], domain.sph",
-    "$values": []
-  },
-  "Arahan": null,
   "CreatedBy": "admin",
   "Id": "IPU",
   "CreatedDate": "2015-06-05T10:32:22.156994+08:00",
   "ChangedBy": "admin",
-  "ChangedDate": "2015-07-08T08:54:41.9860081+08:00",
+  "ChangedDate": "2016-01-14T11:21:35.2892564+08:00",
   "WebId": "88f35dc0-54b7-47c3-971f-459d111410a5"
 }

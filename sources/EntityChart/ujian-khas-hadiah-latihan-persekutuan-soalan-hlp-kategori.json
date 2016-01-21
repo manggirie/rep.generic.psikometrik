@@ -13,13 +13,13 @@
   "Aggregate": "term",
   "Field": "Kategori",
   "DateInterval": "year",
-  "IsDashboardItem": true,
+  "IsDashboardItem": false,
   "DasboardItemPosition": 0,
   "HistogramInterval": null,
   "CreatedBy": "urusetia1",
   "Id": "ujian-khas-hadiah-latihan-persekutuan-soalan-hlp-kategori",
   "CreatedDate": "2015-07-12T08:41:06.5196386+08:00",
-  "ChangedBy": "urusetia1",
-  "ChangedDate": "2015-07-12T08:41:06.5196386+08:00",
+  "ChangedBy": "bpm",
+  "ChangedDate": "2015-10-29T15:10:10.0577295+08:00",
   "WebId": "7f281b65-cb3b-4f13-a67a-c4ed63b754bc"
 }

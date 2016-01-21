@@ -17,44 +17,49 @@
     @Html.Partial("_peringatan.ibk")
 }
 <div style="height:20px"></div>
-<table class="">
+
+<table class="table table-bordered table-condensed" align="center" style="70%">
+
     <colgroup>
-        <col style="width:180px" />
-        <col style="width:20px" />
-        <col style="width:600px" />
+        <col style="width: 300px"/>
+        <col style="width: 300px"/>
     </colgroup>
+
     <tr>
-        <td>Kod Kerjaya</td>
-        <td>:</td>
+        <td>Kod Kerjaya</td> 
         <td>@Model.KodKerjaya</td>
     </tr>
+    
     <tr>
-        <td style="vertical-align:top">Pilihan Kerjaya</td>
-        <td style="vertical-align:top">:</td>
-        <td style="text-align:justify">
-            <ol>
+        <th>Pilihan Kerjaya</th>
+        <th>Bidang Pengajian</th>    
+    </tr>
+    
+    <tr>
+        <td>
+            <ul>
                 @foreach (var t in Model.IbkRecommendation.KerjayaCollection.Take(3))
                 {
                     <li>@t.Text</li>
                 }
-            </ol>
+            </ul>
         </td>
-    </tr>
-    <tr>
-        <td style="vertical-align:top">Bidang Pengajian</td>
-        <td style="vertical-align:top">:</td>
-        <td style="text-align:justify">
-            <ol>
+        
+        <td>
+            <ul>
                 @foreach (var t in Model.IbkRecommendation.BidangPengajianCollection.Take(3))
                 {
                     <li>@t.Text</li>
                 }
-            </ol>
+            </ul>
         </td>
+       
+
     </tr>
+
 </table>
 
-<div style="height:0px"></div>
+<div style="height:20px"></div>
 
 <table >
     <colgroup>
@@ -66,7 +71,7 @@
     <tr>
         <td style="vertical-align: top">Kategori Kerjaya</td>
         <td style="vertical-align: top">:</td>
-        <td style="text-align: justify">@Model.IbkKodKerjaya.KodKerjayaAnda (@Model.IbkKodKerjaya.Kod)</td>
+        <td style="text-align: justify"><b>@Model.IbkKodKerjaya.KodKerjayaAnda (@Model.IbkKodKerjaya.Kod)</b></td>
     </tr>  <tr>
         <td style="vertical-align: top">Interpretasi</td>
         <td style="vertical-align: top">:</td>
@@ -74,8 +79,12 @@
     </tr>
     </tbody>
 </table>
+
+<p style="page-break-after:always;"></p>
+
+
 <h4>Alternatif Pilihan Kerjaya:</h4>
-<table class="table table-bordered table-condensed" style="page-break-after: always;">
+<table class="table table-bordered table-condensed">
     @for (int i = 0; i < Model.IbkKodKerjaya.AlternatifPilihanKerjayaCollection.Count; i += 3)
     {
         var v1 = "";
@@ -101,6 +110,7 @@
             <td>@v3</td>
         </tr>}
 </table>
+
 <h4>Alternatif Bidang Pengajian:</h4>
 <table class="table table-bordered table-condensed">
     @for (int i = 0; i < Model.IbkKodKerjaya.AlternatifBidangPengajianCollection.Count; i += 3)
@@ -127,6 +137,8 @@
             <td>@v3</td>
         </tr>}
 </table>
+
+
 
 <script type="text/javascript">
     var ibk = @Html.Raw(Model.ToString());

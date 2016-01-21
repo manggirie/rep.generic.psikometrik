@@ -2,21 +2,16 @@
   "$type": "Bespoke.epsikologi_ujian.Domain.Ujian, epsikologi.Ujian",
   "UjianNo": "IPE",
   "NamaUjian": "Indikator Personaliti Enneagram (IPE)",
-  "DurationHour": 0,
-  "DurationMinutes": 5,
+  "DurationHour": 1,
+  "DurationMinutes": 30,
   "SectionCollection": {
     "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.epsikologi_ujian.Domain.Section, epsikologi.Ujian]], domain.sph",
     "$values": []
   },
-  "BahagianCollection": {
-    "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.epsikologi_ujian.Domain.Bahagian, epsikologi.Ujian]], domain.sph",
-    "$values": []
-  },
-  "Arahan": null,
   "CreatedBy": "admin",
   "Id": "IPE",
   "CreatedDate": "2015-07-08T08:55:19.2791591+08:00",
   "ChangedBy": "admin",
-  "ChangedDate": "2015-07-08T08:55:19.2621585+08:00",
+  "ChangedDate": "2016-01-14T11:20:40.2072564+08:00",
   "WebId": "1d81e75f-cd3c-4182-b73b-2afc5e733556"
 }

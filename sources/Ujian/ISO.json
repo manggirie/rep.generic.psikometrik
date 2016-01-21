@@ -2,21 +2,16 @@
   "$type": "Bespoke.epsikologi_ujian.Domain.Ujian, epsikologi.Ujian",
   "UjianNo": "ISO",
   "NamaUjian": "Inventori Stres Organisasi (ISO)",
-  "DurationHour": 0,
-  "DurationMinutes": 1,
+  "DurationHour": 1,
+  "DurationMinutes": 30,
   "SectionCollection": {
     "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.epsikologi_ujian.Domain.Section, epsikologi.Ujian]], domain.sph",
     "$values": []
   },
-  "BahagianCollection": {
-    "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.epsikologi_ujian.Domain.Bahagian, epsikologi.Ujian]], domain.sph",
-    "$values": []
-  },
-  "Arahan": null,
   "CreatedBy": "admin",
   "Id": "ISO",
   "CreatedDate": "2015-06-05T10:32:22.3530053+08:00",
   "ChangedBy": "admin",
-  "ChangedDate": "2015-07-08T08:55:36.1111306+08:00",
+  "ChangedDate": "2016-01-14T11:22:10.2022564+08:00",
   "WebId": "4c750dcd-8ee9-4f6d-b75b-805fe5147d78"
 }

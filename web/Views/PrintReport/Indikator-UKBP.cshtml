@@ -177,8 +177,8 @@ var headerText = header ?? trait;
     @DisplayRow(5, 100, 5, UkbpTraitViewModel.PENYIMPANGAN_TINGKAH_LAKU, "", Model.PTL, "(d) Penyimpangan Tingkah Laku")
 
 </table>
-
-<table>
+<div style="height: 20px"></div>
+<table align="center">
     <colgroup>
         <col style="width: 100px" />
         <col style="width: 100px" />
@@ -199,6 +199,7 @@ var headerText = header ?? trait;
     </tr>
 </table>
 
+<div style="height: 30px"></div>
 <strong style="font-size: 10px">BAHAGIAN B: MINAT</strong>
 <table>
     <colgroup>
@@ -213,20 +214,20 @@ var headerText = header ?? trait;
         <td>Bidang Pengajian Yang Dipohon:</td>
         <td style="text-align: left;border: 1px solid #343434;padding: 5px">@Model.Pengguna.Pelajar.BidangPengajian</td>
         <td style="text-align: right">Kod Minat 1:</td>
-        <td style="text-align: left; border: 1px solid #343434;padding: 5px">
+        <td style="text-align: left; border: 1px solid #343434;padding: 5px"><center>
 
             @Model.KodMinat1.KodKerjaya1
             <br />
             @Model.KodMinat1.KodKerjaya2
-        </td>
+        </center></td>
         <td style="text-align: right">Kod Minat 2:</td>
-        <td style="text-align: left;border: 1px solid #343434;padding: 5px">
+        <td style="text-align: left;border: 1px solid #343434;padding: 5px"><center>
 
             @Model.KodMinat2.KodKerjaya1
             <br />
             @Model.KodMinat2.KodKerjaya2
 
-        </td>
+        </center></td>
     </tr>
 </table>
 <div style="height: 10px"></div>

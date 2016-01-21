@@ -126,7 +126,7 @@
                                   
                                     app.showMessage("Rekod anda sudah berjaya di simpan", "JPA Sistem Ujian e-Psikometrik", ["OK"])
 	                                    .done(function () {
-                                            window.location='#permohonan-penyelaras-lulus'
+                                            window.location= config.profile.Designation === "Urusetia" ? "#urusetia-dashboard" : "#permohonan-penyelaras-lulus";
 	                                    });
                                  
                              } else {
@@ -173,7 +173,7 @@
                     return context.post(data, "/Permohonan/Save")
                         .then(function(result) {
                             entity().Id(result.id);
-                            app.showMessage("Permohonan berjaya dihantar", "JPA Sistem Ujian e-Psikometrik", ["OK"]);
+                            app.showMessage("Your Permohonan has been successfully saved", "JPA Sistem Ujian e-Psikometrik", ["OK"]);
 
                         });
                     

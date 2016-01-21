@@ -2,8 +2,8 @@
   "$type": "Bespoke.epsikologi_ujian.Domain.Ujian, epsikologi.Ujian",
   "UjianNo": "UKBP-B",
   "NamaUjian": "Ujian Khas Biasiswa Persekutuan(UKBP) B",
-  "DurationHour": null,
-  "DurationMinutes": null,
+  "DurationHour": 1,
+  "DurationMinutes": 30,
   "SectionCollection": {
     "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.epsikologi_ujian.Domain.Section, epsikologi.Ujian]], domain.sph",
     "$values": [
@@ -20,7 +20,7 @@
         "$type": "Bespoke.epsikologi_ujian.Domain.Section, epsikologi.Ujian",
         "Name": "2",
         "DurationHour": 0,
-        "DurationMinutes": 50,
+        "DurationMinutes": 60,
         "Header": null,
         "DisplayArahan": true,
         "WebId": "0fa438db-d862-4331-be7d-ff18298b3991"
@@ -31,6 +31,6 @@
   "Id": "UKBP-B",
   "CreatedDate": "2015-06-05T10:32:22.1729948+08:00",
   "ChangedBy": "admin",
-  "ChangedDate": "2015-08-18T12:17:45.6528517+08:00",
+  "ChangedDate": "2016-01-14T11:27:50.5482564+08:00",
   "WebId": "03ac5f1c-50dc-4802-c914-73b27c9dd619"
 }

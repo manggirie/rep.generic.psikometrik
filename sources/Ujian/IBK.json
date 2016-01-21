@@ -2,8 +2,8 @@
   "$type": "Bespoke.epsikologi_ujian.Domain.Ujian, epsikologi.Ujian",
   "UjianNo": "IBK",
   "NamaUjian": "Indeks Bimbingan Kerjaya (IBK)",
-  "DurationHour": 0,
-  "DurationMinutes": 45,
+  "DurationHour": 1,
+  "DurationMinutes": 30,
   "SectionCollection": {
     "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.epsikologi_ujian.Domain.Section, epsikologi.Ujian]], domain.sph",
     "$values": [
@@ -12,7 +12,8 @@
         "Name": "1",
         "DurationHour": null,
         "DurationMinutes": null,
-        "Header": "Sekiranya diberi peluang, saya ingin …",
+        "Header": "Sekiranya diberi peluang, saya ingin &",
+        "DisplayArahan": false,
         "WebId": "3ec9081b-d082-4ce4-9557-4b96e593e26b"
       },
       {
@@ -20,7 +21,8 @@
         "Name": "2",
         "DurationHour": null,
         "DurationMinutes": null,
-        "Header": "Saya boleh …",
+        "Header": "Saya boleh &",
+        "DisplayArahan": false,
         "WebId": "5eb536cb-4726-4901-dff9-ecb116d3a18f"
       },
       {
@@ -28,7 +30,8 @@
         "Name": "3",
         "DurationHour": null,
         "DurationMinutes": null,
-        "Header": "Saya meminati kerjaya sebagai seorang …",
+        "Header": "Saya meminati kerjaya sebagai seorang &",
+        "DisplayArahan": false,
         "WebId": "3af1642d-8f93-4e3b-b0f7-04a63ae99c1b"
       }
     ]
@@ -36,7 +39,7 @@
   "CreatedBy": "admin",
   "Id": "IBK",
   "CreatedDate": "2015-06-05T10:32:22.195997+08:00",
-  "ChangedBy": "urusetia1",
-  "ChangedDate": "2015-08-18T11:51:24.07157+08:00",
+  "ChangedBy": "admin",
+  "ChangedDate": "2016-01-14T11:16:28.0342564+08:00",
   "WebId": "c015d963-b74d-491b-c175-8b51866eab08"
 }

@@ -11,7 +11,7 @@
         "$type": "Bespoke.epsikologi_ujian.Domain.Section, epsikologi.Ujian",
         "Name": "A",
         "DurationHour": 0,
-        "DurationMinutes": 25,
+        "DurationMinutes": 20,
         "Header": null,
         "DisplayArahan": false,
         "WebId": "29d2e788-21b5-4d44-980c-b686cad5bd0f"
@@ -29,7 +29,7 @@
         "$type": "Bespoke.epsikologi_ujian.Domain.Section, epsikologi.Ujian",
         "Name": "C",
         "DurationHour": 0,
-        "DurationMinutes": 25,
+        "DurationMinutes": 20,
         "Header": null,
         "DisplayArahan": false,
         "WebId": "a707b3a8-58d9-4d27-9530-de781d9153d5"
@@ -38,7 +38,7 @@
         "$type": "Bespoke.epsikologi_ujian.Domain.Section, epsikologi.Ujian",
         "Name": "D",
         "DurationHour": 0,
-        "DurationMinutes": 20,
+        "DurationMinutes": 15,
         "Header": null,
         "DisplayArahan": false,
         "WebId": "30e86ace-ee26-481a-a5b9-682fa603c7bf"
@@ -57,7 +57,7 @@
   "CreatedBy": "admin",
   "Id": "PPKP",
   "CreatedDate": "2015-07-08T08:57:04.8212473+08:00",
-  "ChangedBy": "bpps",
-  "ChangedDate": "2015-09-30T12:19:01.2750583+08:00",
+  "ChangedBy": "admin",
+  "ChangedDate": "2016-01-14T11:25:42.0512564+08:00",
   "WebId": "0b3f3cf3-c551-4edd-9cc3-182c20dba8a1"
 }

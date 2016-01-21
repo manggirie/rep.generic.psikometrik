@@ -9,9 +9,9 @@
 /// <reference path="../../Scripts/bootstrap.js" />
 
 
-define(["services/datacontext", "services/logger", "plugins/router", "services/chart", objectbuilders.config, "partial/soalan-indeks-bimbingan-kerjaya"],
+define(["services/datacontext", "services/logger", "plugins/router", "services/chart", objectbuilders.config],
 
-function(context, logger, router, chart, config, partial) {
+function(context, logger, router, chart, config) {
 
     var isBusy = ko.observable(false),
         chartFiltered = ko.observable(false),
@@ -33,7 +33,7 @@ function(context, logger, router, chart, config, partial) {
                             "bool": {
                                 "must": [{
                                     "term": {
-                                        "NamaUjian": "Instrumen Kepimpinan Unggul (IKU)"
+                                        "NamaUjian": "IKU"
                                     }
                                 }
 
@@ -46,11 +46,11 @@ function(context, logger, router, chart, config, partial) {
                     }
                 },
                 "sort": [{
-                    "Susunan": {
+                    "NoRujukan": {
                         "order": "asc"
                     }
                 }, {
-                    "SoalanNo": {
+                    "SeksyenSoalan": {
                         "order": "asc"
                     }
                 }]
@@ -80,16 +80,7 @@ function(context, logger, router, chart, config, partial) {
                 });
                 vm.toolbar.commands(formsCommands);
 
-
-                if (typeof partial !== "undefined" && typeof partial.activate === "function") {
-                    var pt = partial.activate(list);
-                    if (typeof pt.done === "function") {
-                        pt.done(tcs.resolve);
-                    } else {
-                        tcs.resolve(true);
-                    }
-                }
-
+                tcs.resolve(true);
 
             });
 
@@ -156,12 +147,7 @@ function(context, logger, router, chart, config, partial) {
             });
         },
         attached = function(view) {
-            chart.init("Soalan", query, chartSeriesClick, "soalan-instrumen-kepimpinan-unggul");
-
-            if (typeof partial !== "undefined" && typeof partial.attached === "function") {
-                partial.attached(view);
-            }
-
+            chart.init("Soalan", query, chartSeriesClick, "soalan-indikator-kepimpinan-unggul");
         },
         clearChartFilter = function() {
             chartFiltered(false);

@@ -13,13 +13,13 @@
   "Aggregate": "term",
   "Field": "NamaUjian",
   "DateInterval": "year",
-  "IsDashboardItem": false,
+  "IsDashboardItem": true,
   "DasboardItemPosition": 0,
-  "HistogramInterval": null,
+  "HistogramInterval": 0,
   "CreatedBy": "urusetia1",
   "Id": "sesiujians-all-bar-ujian-modul",
   "CreatedDate": "2015-07-10T12:22:14.917303+08:00",
-  "ChangedBy": "urusetia1",
-  "ChangedDate": "2015-07-10T12:22:14.917303+08:00",
+  "ChangedBy": "bpps",
+  "ChangedDate": "2015-12-16T16:50:36.1094915+08:00",
   "WebId": "6413a4d1-5e55-4f37-91dc-71c8bfde7dc6"
 }

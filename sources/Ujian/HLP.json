@@ -2,21 +2,16 @@
   "$type": "Bespoke.epsikologi_ujian.Domain.Ujian, epsikologi.Ujian",
   "UjianNo": "HLP",
   "NamaUjian": "Ujian Khas Hadiah Latihan Persekutuan(HLP)",
-  "DurationHour": 0,
-  "DurationMinutes": 2,
+  "DurationHour": 1,
+  "DurationMinutes": 30,
   "SectionCollection": {
     "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.epsikologi_ujian.Domain.Section, epsikologi.Ujian]], domain.sph",
     "$values": []
   },
-  "BahagianCollection": {
-    "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.epsikologi_ujian.Domain.Bahagian, epsikologi.Ujian]], domain.sph",
-    "$values": []
-  },
-  "Arahan": null,
   "CreatedBy": "admin",
   "Id": "HLP",
   "CreatedDate": "2015-06-05T10:32:22.107007+08:00",
   "ChangedBy": "admin",
-  "ChangedDate": "2015-07-08T08:57:36.5890806+08:00",
+  "ChangedDate": "2016-01-14T11:15:30.8242564+08:00",
   "WebId": "c032811e-8617-475c-d77d-7633f0bf8883"
 }

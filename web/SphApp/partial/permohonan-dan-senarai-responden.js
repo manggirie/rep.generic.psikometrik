@@ -95,6 +95,7 @@ define(["services/datacontext", objectbuilders.app, objectbuilders.config, objec
                             var registrations = _(dialog.selectedRespondens()).map(function (v) {
                                 var r = new bespoke.epsikologi_pendaftaranprogram.domain.PendaftaranProgram(v);
                                 r.NamaProgram(ko.unwrap(permohonan().NamaProgram));
+                                //r.KodProgram(ko.unwrap(permohonan().KodProgram));
                                 r.NoPermohonan(ko.unwrap(permohonan().PermohonanNo));
                                 r.PermohonanId(ko.unwrap(permohonan().Id));
                                 r.NamaPengguna(v.Nama);
