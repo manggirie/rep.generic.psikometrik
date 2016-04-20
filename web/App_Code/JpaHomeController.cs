@@ -12,9 +12,8 @@ namespace web.sph.App_Code
          public UserProfile Profile { get; set; }
          public string StartModule { get; set; }
          public int TotalMessageCount { get; set; }
-         private readonly ObjectCollection<Message> m_itemCollection = new ObjectCollection<Message>();
 
-         public ObjectCollection<Message> Messages => m_itemCollection;
+          public ObjectCollection<Message> Messages { get; } = new ObjectCollection<Message>();
      }
 
 

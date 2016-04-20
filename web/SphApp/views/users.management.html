@@ -33,7 +33,7 @@
                     <tbody data-bind="foreach: profiles">
                     <tr>
                         <td>
-                            <input type="checkbox" class="select-users"/>
+                            <input type="checkbox" class="select-user"/>
                         </td>
                         <td>
                             <a data-toggle="modal" href="#user-details-modal" data-bind="click: $root.editCommand">
@@ -57,6 +57,7 @@
                     <i class="fa fa-bin"></i>
                     Remove selected users
                 </button>
+                <br/>
                 <a href="#" class="btn btn-link" data-bind="click : add">
                     <i class="fa fa-plus-circle"></i>
                     Add a user

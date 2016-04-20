@@ -99,6 +99,21 @@ define([objectbuilders.datacontext, "viewmodels/_users.designation", "viewmodels
                 });
             return tcs.promise();
         },
+        save = function () {
+            var data = ko.mapping.toJSON({ profile: profile });
+            isBusy(true);
+
+            return context.post(data, "/sph/Admin/AddUser")
+                .then(function (result) {
+                    isBusy(false);
+                    var existing = _(profiles()).find(function (v) { return ko.unwrap(v.UserName) === ko.unwrap(result.UserName); });
+                    if (existing) {
+                        profiles.replace(existing, result);
+                    } else {
+                        profiles.push(result);
+                    }
+                });
+        },
         add = function () {
             profile(new bespoke.sph.domain.Profile());
             profile().IsNew(true);
@@ -110,7 +125,7 @@ define([objectbuilders.datacontext, "viewmodels/_users.designation", "viewmodels
                     dialog.profile(ko.unwrap(profile));
                     app2.showDialog(dialog).done(function(result) {
                         if (result === "OK") {
-                            
+                            save(dialog.profile());
                         }
                     });
                 });
@@ -131,21 +146,6 @@ define([objectbuilders.datacontext, "viewmodels/_users.designation", "viewmodels
             var c1 = ko.mapping.fromJSON(ko.mapping.toJSON(user));
             var clone = c1;
             profile(clone);
-        },
-        save = function () {
-            var data = ko.mapping.toJSON({ profile: profile });
-            isBusy(true);
-
-            return context.post(data, "/sph/Admin/AddUser")
-                .then(function (result) {
-                    isBusy(false);
-                    var existing = _(profiles()).find(function (v) { return ko.unwrap(v.UserName) === ko.unwrap(result.UserName); });
-                    if (existing) {
-                        profiles.replace(existing, result);
-                    } else {
-                        profiles.push(result);
-                    }
-                });
         },
         resetPassword = function (user) {
             password1("");
