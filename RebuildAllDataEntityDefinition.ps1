@@ -34,7 +34,7 @@ foreach($t in $files){
     if($json.ToString().Contains("`"TreatDataAsSource`": true,") -eq $false)
     {
         Write-Host "TRUNCATE TABLE $name ...."
-        Invoke-SqlCmdRx -TrustedConnection -Server $DatabaseServer -Database "epsikologi" -CommandQuery "TRUNCATE TABLE [epsikologi].[$name]"
+        Invoke-SqlCmd -TrustedConnection -Server $DatabaseServer -Database "epsikologi" -CommandQuery "TRUNCATE TABLE [epsikologi].[$name]"
 
         $lowered = $name.ToLowerInvariant()
         curl -Method Delete -Uri "http://$es/epsikologi/$lowered/_query" -Body '{"query": {"match_all": {}}}'
@@ -53,7 +53,7 @@ $systems = @("audittrail","binarystore","message","organization","page","reportd
 foreach($name in $systems){
  
         Write-Host "TRUNCATE TABLE $name ...."
-        Invoke-SqlCmdRx -TrustedConnection -Server $DatabaseServer -Database "epsikologi" -CommandQuery "TRUNCATE TABLE [sph].[$name]"
+        Invoke-SqlCmd -TrustedConnection -Server $DatabaseServer -Database "epsikologi" -CommandQuery "TRUNCATE TABLE [sph].[$name]"
 
 
         curl -Method Delete -Uri "http://$es/epsikologi_sys/$name/_query" -Body '{"query": {"match_all": {}}}'    
