@@ -39,7 +39,7 @@
   "IsAllowedNewItem": true,
   "IconClass": null,
   "IconStoreId": null,
-  "IsPublished": false,
+  "IsPublished": true,
   "IsDefault": true,
   "IsWatchAvailable": false,
   "IsEmailAvailable": false,
@@ -52,11 +52,11 @@
   "Entity": "SesiUjian",
   "Partial": null,
   "Caption": "Senarai Sessi Ujian",
-  "Layout": null,
+  "Layout": " ",
   "CreatedBy": "admin",
   "Id": "4b749e78-0c65-4db3-a22c-c074f3b68508",
   "CreatedDate": "2015-05-26T15:13:57.0250715+08:00",
   "ChangedBy": "admin",
-  "ChangedDate": "2015-06-09T19:21:57.3603223+08:00",
+  "ChangedDate": "2016-04-26T01:51:02.3501407+08:00",
   "WebId": "19096fe4-1f21-4e3d-8e93-bd4412449d89"
 }

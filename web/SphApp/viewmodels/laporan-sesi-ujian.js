@@ -78,6 +78,26 @@ define(["services/datacontext", "services/logger", "plugins/router", objectbuild
               }
           });
 
+      },
+      generateExcel = function () {
+          var json = ko.toJSON({
+              siri: siri,
+              tahun: tahun,
+              bil: bil,
+              ujian: namaUjian,
+              program: namaProgram
+          });
+
+          return $.ajax({
+              type: "POST",
+              data: json,
+              url: "cetak-laporan/xls/sesiujian/",
+              contentType: "application/json; charset=utf-8",
+              success: function (result) {
+                  window.open("cetak-laporan/xls/" + result.path);
+              }
+          });
+
       };
 
     return {
@@ -91,7 +111,8 @@ define(["services/datacontext", "services/logger", "plugins/router", objectbuild
         tahunOptions: tahunOptions,
         activate: activate,
         attached: attached,
-        generateLaporan: generateLaporan
+        generateLaporan: generateLaporan,
+        generateExcel: generateExcel
     };
 
 });

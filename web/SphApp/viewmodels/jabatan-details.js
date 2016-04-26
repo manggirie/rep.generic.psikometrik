@@ -68,7 +68,7 @@
                     return context.post(data, "/Jabatan/Save")
                         .then(function(result) {
                             entity().Id(result.id);
-                            app.showMessage("Jabatan berjaya dihantar", "JPA Sistem Ujian e-Psikometrik", ["OK"]);
+                            app.showMessage("Your Jabatan has been successfully saved", "JPA Sistem Ujian e-Psikometrik", ["OK"]);
 
                         });
                     
@@ -103,7 +103,11 @@
 
 
                 toolbar : {
-                                                                                                        
+                                                        removeCommand :remove,
+                    canExecuteRemoveCommand : ko.computed(function(){
+                        return entity().Id();
+                    }),
+                                                                
                     saveCommand : save,
                     
                     commands : ko.observableArray([])

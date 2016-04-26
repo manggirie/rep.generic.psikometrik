@@ -1080,7 +1080,7 @@
   "IsEmailAvailable": false,
   "IsPrintAvailable": false,
   "IsAuditTrailAvailable": true,
-  "IsRemoveAvailable": false,
+  "IsRemoveAvailable": true,
   "IsImportAvailable": false,
   "IsExportAvailable": false,
   "Operation": "KemaskiniOlehUrusetia",
@@ -1092,6 +1092,6 @@
   "Id": "pengguna-details",
   "CreatedDate": "2015-06-16T08:04:09.5330981+08:00",
   "ChangedBy": "admin",
-  "ChangedDate": "2016-01-18T11:39:32.0031399+08:00",
+  "ChangedDate": "2016-04-26T01:50:08.9020471+08:00",
   "WebId": "4e32950c-7d95-4b44-983c-3c3e67811ded"
 }

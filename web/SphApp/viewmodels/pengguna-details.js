@@ -240,7 +240,11 @@
 
 
                 toolbar : {
-                                                                                                        
+                                                        removeCommand :remove,
+                    canExecuteRemoveCommand : ko.computed(function(){
+                        return entity().Id();
+                    }),
+                                                                
                     saveCommand : kemaskiniOlehUrusetia,
                     
                     commands : ko.observableArray([])
