@@ -1,3 +1,6 @@
+using System;
+using System.IO;
+using System.Web;
 using System.Web.Mvc;
 
 namespace web.sph.App_Code
@@ -11,7 +14,12 @@ namespace web.sph.App_Code
             ConfigHelper.RegisterDependencies();
         }
 
-
+        [Route("xls/{id}")]
+        public FilePathResult GetExcelFile(string id)
+        {
+            var path = Path.Combine(Path.GetTempPath(), id);
+            return File(path, MimeMapping.GetMimeMapping(id), $"Senarai Responden {DateTime.Now:yyyy MMMM dd-HHmm}.xlsx");
+        }
 
     }
 }
