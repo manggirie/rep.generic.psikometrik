@@ -22,7 +22,7 @@ namespace web.sph.App_Code
     public partial class PrintReportController
     {
 
-     
+
         [Route("xls/sesiujian")]
         public async Task<ActionResult> ExportSesiUjianByYearToExcel(ProgramReportModel model)
         {
@@ -43,8 +43,9 @@ namespace web.sph.App_Code
             //var program = await context.GetScalarAsync<SesiUjian, string>(x => x.TarikhUjian.Value.Year == year, x => x.NamaProgram);
 
             var query = context.CreateQueryable<SesiUjian>()
-                .Where(s => s.NamaProgram == model.Program)
-                .Where(s => s.Status == "Diambil");
+                .Where(s => s.NamaProgram == model.Program + "/" + model.Siri + "/" + model.Bil + "/" + model.Tahun)
+                .Where(s => s.Status == "Diambil")
+                .Where(s => s.NamaUjian == model.Ujian);
             var sesiLo = await context.LoadAsync(query, 1, 200, true);
             var sesi = sesiLo.ItemCollection;
 
@@ -55,32 +56,33 @@ namespace web.sph.App_Code
             }
 
             var soalanQuery = context.CreateQueryable<Soalan>()
-                                   .Where(s => s.NamaUjian == "IPU");
+                                   .Where(s => s.NamaUjian ==model.Ujian);
             var soalanLo = await context.LoadAsync(soalanQuery, 1, 200, true);
-            var soalans = soalanLo.ItemCollection.OrderBy(s=>s.Susunan);
-
-            //var nilaiJawapan = sesi.Select(s => s.JawapanCollection).OrderBy(s => s).ToArray();
+            var soalans = soalanLo.ItemCollection.OrderBy(s => s.Susunan);
+            
             var column1 = 4;
             foreach (var soalan in soalans)
             {
                 column1++;
-                ws.Cells[2,column1].Value = "Q"+ soalan.Susunan;
+                ws.Cells[2, column1].Value = "Q" + soalan.Susunan;
             }
-            var row = 5;
+            var row = 2;
             foreach (var s in sesi)
             {
                 row++;
                 ws.InsertRow(row, 1, row);
                 ws.Cells[row, 1].Value = s.NamaPengguna;
-                ws.Cells[row, 2].Value = $"{s.TarikhUjian:dd/MM/yyyy HH:mm}";
-                var column = 1;
+                ws.Cells[row, 2].Value = model.Ujian;
+                ws.Cells[row, 3].Value = s.MyKad;
+                ws.Cells[row, 4].Value = $"{s.TarikhUjian:dd/MM/yyyy HH:mm}";
+                var column = 4;
                 foreach (var t in soalans)
                 {
-                    column += 2;
-                    var t1 = t;
-                    var score = s.JawapanCollection.FirstOrDefault(j=>j.SoalanNo == t.SoalanNo).Nilai;
+                    column += 1;
+                    var jawapan = s.JawapanCollection.FirstOrDefault(j => j.SoalanNo == t.SoalanNo);
+                    var score = jawapan != null ? jawapan.Nilai : 0;
                     ws.Cells[row, column].Value = score;
-                  
+
                 }
 
             }
