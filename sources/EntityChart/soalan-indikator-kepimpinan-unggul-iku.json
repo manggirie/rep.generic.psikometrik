@@ -1,0 +1,25 @@
+{
+  "$type": "Bespoke.Sph.Domain.EntityChart, domain.sph",
+  "SeriesCollection": {
+    "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.Sph.Domain.Series, domain.sph]], domain.sph",
+    "$values": []
+  },
+  "EntityDefinitionId": "soalan",
+  "Entity": "Soalan",
+  "Name": "IKU",
+  "Type": "pie",
+  "EntityViewId": "soalan-indikator-kepimpinan-unggul",
+  "Query": "{\"query\":{\"filtered\":{\"filter\":{\"bool\":{\"must\":[{\"term\":{\"NamaUjian\":\"IKU\"}}],\"must_not\":[]}}}},\"sort\":[{\"NoRujukan\":{\"order\":\"asc\"}},{\"SeksyenSoalan\":{\"order\":\"asc\"}}],\"aggs\":{\"category\":{\"terms\":{\"field\":\"Trait\",\"size\":0}}},\"from\":0,\"size\":20}",
+  "Aggregate": "term",
+  "Field": "Trait",
+  "DateInterval": "year",
+  "IsDashboardItem": false,
+  "DasboardItemPosition": 0,
+  "HistogramInterval": null,
+  "CreatedBy": "admin",
+  "Id": "soalan-indikator-kepimpinan-unggul-iku",
+  "CreatedDate": "2016-03-07T10:59:08.086813+08:00",
+  "ChangedBy": "admin",
+  "ChangedDate": "2016-03-07T10:59:08.086813+08:00",
+  "WebId": "5a84bb94-2e33-4613-83b2-93eff8260628"
+}
