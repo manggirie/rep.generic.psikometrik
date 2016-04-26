@@ -6,7 +6,7 @@
   "UserId": null,
   "Password": null,
   "Database": "SUPAT",
-  "ConnectionString": "Data Source=(localdb)\\Projects;Initial Catalog=SUPAT;Integrated Security=True;MultipleActiveResultSets=True",
+  "ConnectionString": "Server=10.21.154.183;Database=DBHRMISSTG;User Id=psikometric;Password=p$ikometric;",
   "OperationDefinitionCollection": {
     "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.Sph.Domain.Api.OperationDefinition, domain.sph]], domain.sph",
     "$values": []

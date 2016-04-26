@@ -1,0 +1,25 @@
+{
+  "$type": "Bespoke.Sph.Domain.EntityChart, domain.sph",
+  "SeriesCollection": {
+    "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.Sph.Domain.Series, domain.sph]], domain.sph",
+    "$values": []
+  },
+  "EntityDefinitionId": "permohonan",
+  "Entity": "Permohonan",
+  "Name": "Program Ikut Minggu",
+  "Type": "pie",
+  "EntityViewId": "permohonan-permohonan-telah-selesai-usrusetia",
+  "Query": "{\"query\":{\"filtered\":{\"filter\":{\"bool\":{\"must\":[{\"term\":{\"StatusPermohonan\":\"LULUS\"}},{\"range\":{\"TarikhTamat\":{\"to\":\"2016-01-14T00:00:00.0000000\"}}}],\"must_not\":[]}}}},\"sort\":[],\"aggs\":{\"category\":{\"date_histogram\":{\"field\":\"TarikhMula\",\"interval\":\"week\",\"format\":\"w yyyy\"}}},\"from\":0,\"size\":20}",
+  "Aggregate": "date_histogram",
+  "Field": "TarikhMula",
+  "DateInterval": "week",
+  "IsDashboardItem": true,
+  "DasboardItemPosition": 0,
+  "HistogramInterval": null,
+  "CreatedBy": "bpps",
+  "Id": "permohonan-permohonan-telah-selesai-usrusetia-program-ikut-minggu",
+  "CreatedDate": "2016-01-14T16:35:04.7292564+08:00",
+  "ChangedBy": "bpps",
+  "ChangedDate": "2016-01-14T16:35:04.7292564+08:00",
+  "WebId": "56589074-6ad2-4792-8d4a-2a2680e937ae"
+}
