@@ -1,0 +1,88 @@
+﻿
+<section class="view-model-modal" id="user-dialog">
+    <div class="modal-dialog">
+        <div class="modal-content">
+
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" data-bind="click : cancelClick">&times;</button>
+                <h3>User Profile</h3>
+            </div>
+            <div class="modal-body" data-bind="with: profile">
+
+                <form class="form-horizontal" id="user-dialog-form">
+
+                    <div class="form-group">
+                        <label for="input-username" class="col-lg-3">UserName </label>
+                        <div class="col-lg-7">
+                            <input class="form-control" required data-bind="value: UserName, readonly:!IsNew()" id="input-username" type="text" name="UserName" />
+                            <div data-bind="visible: IsNew()">
+                                <span class="help-block alert alert-danger" data-bind="text: $root.userNameValidationStatus, visible: $root.userNameValidationStatus() "></span>
+                            </div>
+                        </div>
+                        <div class="col-lg-2 col-md-2">
+                            <div data-bind="visible: IsNew()">
+                                <i class="fa fa-spinner fa-2x" data-bind="visible: $root.isBusyValidatingUserName"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="form-group" data-bind="visible: IsNew()">
+                        <label for="Password" class="col-lg-3">Password </label>
+                        <div class="col-lg-6">
+                            <input class="form-control" required data-bind="value: Password" id="Password" type="password" name="Password" />
+                        </div>
+                        <div class="col-lg-2 col-md-2">
+                            <i class="fa fa-exclamation error" data-bind="visible: $root.passwordValidationStatus() === false, tooltip: 'password is invalid'"></i>
+                        </div>
+                    </div>
+                    <div class="form-group" data-bind="visible: IsNew()">
+                        <label for="ConfirmPassword" class="col-lg-3">Confirm Password </label>
+                        <div class="col-lg-6">
+                            <input class="form-control" required data-bind="value: ConfirmPassword" id="ConfirmPassword" type="password" name="ConfirmPassword" />
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="FullName" class="col-lg-3">Full Name </label>
+                        <div class="col-lg-6">
+                            <input class="form-control" required data-bind="value: FullName" id="FullName" type="text" name="FullName" />
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label for="Email" class="col-lg-3">Email </label>
+                        <div class="col-lg-6">
+                            <input class="form-control" required data-bind="value: Email" id="Email" type="email" name="Email" />
+                            <div data-bind="visible: IsNew()">
+                                <i class="fa fa-spinner icon-spin fa-2x" data-bind="visible: $root.isBusyValidatingEmail"></i>
+                                <span class="help-block alert alert-danger" data-bind="text: $root.emailValidationStatus, visible: $root.emailValidationStatus() "></span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="form-group" data-bind="with: $parent.departmentOptions">
+                        <label for="department" class="col-lg-3">Department </label>
+                        <div class="col-lg-6">
+                            <select class="form-control" id="department" name="department" data-bind="options: $data, optionsText: 'Name', optionsValue: 'Name', value: $parent.Department, optionsCaption: '[Please Select]'"></select>
+                        </div>
+                    </div>
+                    <div class="form-group" data-bind="with: $parent.designationOptions">
+                        <label for="designation" class="col-lg-3">Designation </label>
+                        <div class="col-lg-6">
+                            <select class="form-control" required id="designation" name="designation" data-bind="options: $data, value: $parent.Designation, optionsCaption: '[Please Select]'"></select>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label for="Telephone" class="col-lg-3">Telephone </label>
+                        <div class="col-lg-6">
+                            <input class="form-control" data-bind="value: Telephone" id="Telephone" type="text" name="Telephone" />
+                        </div>
+                    </div>
+
+
+                </form>
+            </div>
+            <div class="modal-footer">
+                <input form="user-dialog-form" data-dismiss="modal" type="submit" class="btn btn-default" value="OK" data-bind="click: okClick" />
+                <a href="#" class="btn btn-default" data-dismiss="modal" data-bind="click : cancelClick">Cancel</a>
+            </div>
+        </div>
+    </div>
+</section>

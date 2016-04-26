@@ -46,3 +46,4 @@ node_modules/
 desktop.ini
 CopyAdaptersFromSph.bat
 sources/Hrmis.Adapter/obj/
+*.suo
