@@ -48,7 +48,7 @@
                         <td data-bind="text: Designation"></td>
                         <td data-bind="text: Email"></td>
                         <td>
-                            <a data-toggle="modal" href="#user-change-password" data-bind="click: $root.resetPasswordCommand">Reset</a>
+                            <a data-toggle="modal" data-target="#user.resetpassword.dialog" href="#" data-bind="click: $root.resetPasswordCommand">Reset</a>
                         </td>
                     </tr>
                     </tbody>
@@ -62,7 +62,7 @@
                     <i class="fa fa-plus-circle"></i>
                     Add a user
                 </a>
-            </div>
+            </div> 
         </div>
         <div id="designation-tab" class="tab-pane ">
             <div>
@@ -83,7 +83,4 @@
         <input type="file" name="files" id="import-security-setting-file-input" data-bind="kendoUpload : importedSecuritySettingStoreId" />
     </div>
 </div>
-<!--ko compose:'_user.add.html' -->
-<!--/ko-->
-<!--ko compose:'_user.change.password.html' -->
-<!--/ko-->
+

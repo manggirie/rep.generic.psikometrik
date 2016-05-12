@@ -3,7 +3,7 @@ define([objectbuilders.datacontext, "viewmodels/_users.designation", "viewmodels
     var isBusy = ko.observable(false),
         roles = ["administrators", "AmbilUjian", "developers", "JanaLaporan", "PengurusanLookup", "PengurusanPengguna", "PengurusanPenggunaJabatan", "PengurusanPermohonan", "PengurusanPermohonanJabatan", "PengurusanSesiUjian", "PengurusanSoalan"],
         printprofile = ko.observable(new bespoke.sph.domain.Profile()),
-        profile = ko.observable(new bespoke.sph.domain.Profile()),
+        userprofile = ko.observable(new bespoke.sph.domain.Profile()),
         profiles = ko.observableArray(),
         departmentOptions = ko.observableArray(),
         designationOptions = ko.observableArray(),
@@ -48,8 +48,7 @@ define([objectbuilders.datacontext, "viewmodels/_users.designation", "viewmodels
                      departmentOptions(departments);
                  }
                  var list = _(p.itemCollection).map(map);
-                 profiles(list);
-
+                 profiles(list); 
                  tcs.resolve(true);
              });
             return tcs.promise();
@@ -100,29 +99,31 @@ define([objectbuilders.datacontext, "viewmodels/_users.designation", "viewmodels
             return tcs.promise();
         },
         save = function () {
-            var data = ko.mapping.toJSON({ profile: profile });
+            var data = ko.mapping.toJSON({ profile: userprofile });
             isBusy(true);
 
             return context.post(data, "/sph/Admin/AddUser")
                 .then(function (result) {
                     isBusy(false);
-                    var existing = _(profiles()).find(function (v) { return ko.unwrap(v.UserName) === ko.unwrap(result.UserName); });
+                    var existing = _(profiles()).find(function (v) { 
+                        return ko.unwrap(v.UserName) === ko.unwrap(result.profile.UserName); 
+                    });
                     if (existing) {
-                        profiles.replace(existing, result);
+                        profiles.replace(existing, result.profile);
                     } else {
                         profiles.push(result);
                     }
                 });
         },
         add = function () {
-            profile(new bespoke.sph.domain.Profile());
-            profile().IsNew(true);
-            profile().UserName("");
-            profile().Email.subscribe(emailChanged);
-            profile().UserName.subscribe(userNameChaged);
+            userprofile(new bespoke.sph.domain.Profile());
+            userprofile().IsNew(true);
+            userprofile().UserName("");
+            userprofile().Email.subscribe(emailChanged);
+            userprofile().UserName.subscribe(userNameChaged);
             require(["viewmodels/user.dialog", "durandal/app"],
                 function (dialog, app2) {
-                    dialog.profile(ko.unwrap(profile));
+                    dialog.profile(ko.unwrap(userprofile));
                     app2.showDialog(dialog).done(function(result) {
                         if (result === "OK") {
                             save(dialog.profile());
@@ -145,14 +146,40 @@ define([objectbuilders.datacontext, "viewmodels/_users.designation", "viewmodels
             editedProfile(user);
             var c1 = ko.mapping.fromJSON(ko.mapping.toJSON(user));
             var clone = c1;
-            profile(clone);
+            userprofile(clone);
+             require(["viewmodels/user.dialog", "durandal/app"],
+                function (dialog, app2) {
+                    dialog.profile(ko.unwrap(userprofile));
+                    app2.showDialog(dialog).done(function(result) {
+                        if (result === "OK") {
+                            save(dialog.profile());
+                        }
+                    });
+                });
+
+
+            $("#user.resetpassword.dialog").modal();
         },
         resetPassword = function (user) {
             password1("");
             password2("");
             var c1 = ko.mapping.fromJSON(ko.mapping.toJSON(user));
             var clone = c1;
-            profile(clone);
+            userprofile(clone); 
+             require(["viewmodels/user.reset.password.dialog", "durandal/app"],
+                function (dialog, app2) {
+                    dialog.profile(ko.unwrap(userprofile));
+                    app2.showDialog(dialog).done(function(result) {
+                        if (result === "OK") {
+                            password1(dialog.password1());
+                            password2(dialog.password2());
+                            savePassword();
+                        }
+                    });
+                });
+
+
+            $("#user.resetpassword.dialog").modal();
         },
         savePassword = function () {
             if (!password1() && !password2()) {
@@ -163,7 +190,7 @@ define([objectbuilders.datacontext, "viewmodels/_users.designation", "viewmodels
                 return Task.fromResult(false);
             }
 
-            var data = ko.mapping.toJSON({ userName: profile().UserName(), password: password1 });
+            var data = ko.mapping.toJSON({ userName: userprofile().UserName(), password: ko.unwrap(password1) });
             isBusy(true);
 
             return context.post(data, "/sph/Admin/ResetPassword")
@@ -201,7 +228,7 @@ define([objectbuilders.datacontext, "viewmodels/_users.designation", "viewmodels
         isBusyValidatingUserName: isBusyValidatingUserName,
         isBusyValidatingEmail: isBusyValidatingEmail,
         profiles: profiles,
-        profile: profile,
+        userprofile: userprofile,
         printprofile: printprofile,
         designationOptions: designationOptions,
         departmentOptions: departmentOptions,
