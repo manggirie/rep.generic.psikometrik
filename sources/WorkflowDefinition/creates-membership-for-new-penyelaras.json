@@ -53,7 +53,7 @@
       },
       {
         "$type": "Bespoke.Sph.Domain.NotificationActivity, domain.sph",
-        "From": "psikometrik.bpm@@jpa.gov.my",
+        "From": "jpa@@psikometrik.gov.my",
         "Subject": "Pendaftaran Pengguna Sistem Ujian Psikometrik",
         "Body": "Assalamualaikum dan Salam Sejahtera,\n\nYBhg. Tan Sri/Dato' Seri/Datuk/Dato'/Datin/Dr./Tuan/Puan,\n\nSukacita dimaklumkan bahawa YBhg. Tan Sri/Dato' Seri/Datuk/Dato'/Datin/Dr./Tuan/Puan telah didaftarkan sebagai pengguna Sistem Ujian Psikometrik. Butiran log masuk yang didaftarkan adalah seperti berikut:\n\n          ID pengguna        : @Model.Pengguna.MyKad\n          Kata laluan           : @Raw(Model.Password)\n          Alamat pelayar    : http://psikometrikstg.jpa.gov.my\n\n2.    YBhg. Tan Sri/Dato' Seri/Datuk/Dato'/Datin/Dr./Tuan/Puan perlu menukar kata laluan pada pertama kali log masuk ke dalam Sistem.\n\n3.    Atas perhatian dan kerjasama YBhg. Tan Sri/Dato' Seri/Datuk/Dato'/Datin/Dr./Tuan/Puan dalam perkara ini didahului dengan ucapan ribuan terima kasih.\n\nSekian.\n\n\"BERKHIDMAT UNTUK NEGARA\"\n\nUrus Setia \nSistem Ujian Psikometrik \n\nhttp://psikometrikstg.jpa.gov.my\n\n(Emel makluman ini dijana secara automatik oleh Sistem Ujian Psikometrik)",
         "To": "@Model.Pengguna.Emel",
@@ -169,7 +169,7 @@
       },
       {
         "$type": "Bespoke.Sph.Domain.NotificationActivity, domain.sph",
-        "From": "psikometrik.bpm@@jpa.gov.my",
+        "From": "jpa@@psikometrik.gov.my",
         "Subject": "Pendaftaran Pengguna Sistem Ujian Psikometrik",
         "Body": "Assalamualaikum dan Salam Sejahtera,\n\nYBhg. Tan Sri/Dato' Seri/Datuk/Dato'/Datin/Dr./Tuan/Puan,\n\nSukacita dimaklumkan bahawa YBhg. Tan Sri/Dato' Seri/Datuk/Dato'/Datin/Dr./Tuan/Puan telah didaftarkan sebagai pengguna Sistem Ujian Psikometrik. Butiran log masuk yang didaftarkan adalah seperti berikut:\n\n          ID pengguna        : @Model.Pengguna.MyKad\n          Kata laluan           : @Raw(Model.Password)\n          Alamat pelayar    : http://psikometrikstg.jpa.gov.my\n\n2.    YBhg. Tan Sri/Dato' Seri/Datuk/Dato'/Datin/Dr./Tuan/Puan perlu menukar kata laluan pada pertama kali log masuk ke dalam Sistem.\n\n3.    Atas perhatian dan kerjasama YBhg. Tan Sri/Dato' Seri/Datuk/Dato'/Datin/Dr./Tuan/Puan dalam perkara ini didahului dengan ucapan ribuan terima kasih.\n\nSekian.\n\n\"BERKHIDMAT UNTUK NEGARA\"\n\nUrus Setia \nSistem Ujian Psikometrik \n\nhttp://psikometrikstg.jpa.gov.my\n\n(Emel makluman ini dijana secara automatik oleh Sistem Ujian Psikometrik)",
         "To": "@Model.Pengguna.Emel2",
