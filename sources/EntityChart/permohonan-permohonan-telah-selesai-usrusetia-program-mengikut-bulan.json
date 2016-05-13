@@ -13,13 +13,13 @@
   "Aggregate": "date_histogram",
   "Field": "TarikhMula",
   "DateInterval": "month",
-  "IsDashboardItem": false,
+  "IsDashboardItem": true,
   "DasboardItemPosition": 0,
   "HistogramInterval": null,
   "CreatedBy": "bpps",
   "Id": "permohonan-permohonan-telah-selesai-usrusetia-program-mengikut-bulan",
   "CreatedDate": "2016-01-14T16:30:35.8382564+08:00",
-  "ChangedBy": "bpps",
-  "ChangedDate": "2016-01-14T16:30:35.8382564+08:00",
+  "ChangedBy": "bpm",
+  "ChangedDate": "2016-05-11T14:31:52.2173001+08:00",
   "WebId": "910c3082-2758-4ae8-8a9d-fa4e10a1f68c"
 }

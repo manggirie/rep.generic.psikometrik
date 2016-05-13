@@ -127,10 +127,10 @@
           "$values": []
         },
         "Path": "sudahAmbil",
-        "Header": "Sudah Ambil",
+        "Header": "Bil Ujian Sudah Diambil",
         "Sort": "",
         "IsLinkColumn": false,
-        "FormRoute": "sesi-ujian-diambil-by-program",
+        "FormRoute": null,
         "IconCssClass": "",
         "IconStoreId": "",
         "Format": "text:{0}",
@@ -144,10 +144,10 @@
           "$values": []
         },
         "Path": "belumAmbil",
-        "Header": "Belum Ambil",
+        "Header": "Bil Ujian Belum Diambil",
         "Sort": "",
         "IsLinkColumn": true,
-        "FormRoute": "sesi-ujian-jabatan-program",
+        "FormRoute": null,
         "IconCssClass": "fa fa-list-ul",
         "IconStoreId": "",
         "Format": "text:{0}",
@@ -178,7 +178,7 @@
   "IconClass": "",
   "IconStoreId": "sph-img-list",
   "EntityDefinitionId": "permohonan",
-  "Name": "Status Responden Menjawab Ujian",
+  "Name": "Senarai Program Keseluruhan",
   "Route": "program-sesi-ujian-penyelaras",
   "Note": "Untuk Penyelaras Jabatan",
   "Query": "",
@@ -194,6 +194,6 @@
   "Id": "permohonan-program-sesi-ujian-penyelaras",
   "CreatedDate": "2015-06-05T10:45:40.0585082+08:00",
   "ChangedBy": "admin",
-  "ChangedDate": "2015-08-28T08:10:12.1588986+08:00",
+  "ChangedDate": "2016-05-13T12:18:43.0328089+08:00",
   "WebId": "0264f91b-ffce-46cc-d40a-e6d3cadb6fac"
 }
