@@ -157,8 +157,6 @@ define([objectbuilders.datacontext, "viewmodels/_users.designation", "viewmodels
                     });
                 });
 
-
-            $("#user.resetpassword.dialog").modal();
         },
         resetPassword = function (user) {
             password1("");
