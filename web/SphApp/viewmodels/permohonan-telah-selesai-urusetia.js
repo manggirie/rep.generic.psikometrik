@@ -38,7 +38,7 @@ function(context, logger, router, chart, config, partial) {
                                 }, {
                                     "range": {
                                         "TarikhTamat": {
-                                            "to": "2016-01-14T00:00:00.0000000"
+                                            "to": "2016-05-16T00:00:00.0000000"
                                         }
                                     }
                                 }
