@@ -12,6 +12,15 @@
 
             </div>
         </div>
+          <div class="form-group">
+            <label for="nama-program" class="col-lg-2 control-label">Nama Program</label>
+            <!--<div class="col-lg-6">-->
+            <!--    <input type="text" style="width:500px" data-bind="value: namaProgram, autocomplete: { entity : 'Permohonan', field : 'NamaProgram'}" required class="form-control" id="nama-program" />-->
+            <!--</div>-->
+              <div class="col-lg-6">
+                <select data-bind="value: namaProgram, options: programOptions,optionsText:'NamaProgram',optionsValue:'NoKod', optionsCaption: '[Sila Pilih Program]'" required class="form-control" id="nama-program"></select>
+            </div>
+        </div>
         <div class="form-group">
             <label for="nama-ujian" class="col-lg-2 control-label">Nama Ujian</label>
             <div class="col-lg-6">
@@ -19,32 +28,27 @@
             </div>
         </div>
 
-        <div class="form-group">
-            <label for="nama-program" class="col-lg-2 control-label">Nama Program</label>
-            <div class="col-lg-6">
-                <input type="text" style="width:500px" data-bind="value: namaProgram, autocomplete: { entity : 'Permohonan', field : 'NamaProgram'}" required class="form-control" id="nama-program" />
-            </div>
-        </div>
+      
 
-        <div class="form-group">
-            <label for="bil-program" class="col-lg-2 control-label">Bil Program</label>
-            <div class="col-lg-6">
-                <input type="text" data-bind="value: bil"
-                       required pattern="[0-9]{1,4}"
-                       placeholder="Bil program"
-                       class="form-control" id="bil-program" />
-            </div>
-        </div>
+        <!--<div class="form-group">-->
+        <!--    <label for="bil-program" class="col-lg-2 control-label">Bil Program</label>-->
+        <!--    <div class="col-lg-6">-->
+        <!--        <input type="text" data-bind="value: bil"-->
+        <!--               required pattern="[0-9]{1,4}"-->
+        <!--               placeholder="Bil program"-->
+        <!--               class="form-control" id="bil-program" />-->
+        <!--    </div>-->
+        <!--</div>-->
 
-        <div class="form-group">
-            <label for="siri-program" class="col-lg-2 control-label">Siri Program</label>
-            <div class="col-lg-6">
-                <input type="text" data-bind="value: siri"
-                       required pattern="[0-9]{1,4}"
-                       placeholder="No siri program"
-                       class="form-control" id="siri-program" />
-            </div>
-        </div>
+        <!--<div class="form-group">-->
+        <!--    <label for="siri-program" class="col-lg-2 control-label">Siri Program</label>-->
+        <!--    <div class="col-lg-6">-->
+        <!--        <input type="text" data-bind="value: siri"-->
+        <!--               required pattern="[0-9]{1,4}"-->
+        <!--               placeholder="No siri program"-->
+        <!--               class="form-control" id="siri-program" />-->
+        <!--    </div>-->
+        <!--</div>-->
 
 
         <div class="form-group">
