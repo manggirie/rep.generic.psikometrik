@@ -41,8 +41,8 @@
           "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.Sph.Domain.ConditionalFormatting, domain.sph]], domain.sph",
           "$values": []
         },
-        "Path": "MyKad",
-        "Header": "My Kad",
+        "Path": "$index()+1",
+        "Header": "Bil",
         "Sort": "",
         "IsLinkColumn": false,
         "FormRoute": null,
@@ -50,7 +50,7 @@
         "IconStoreId": "",
         "Format": "text:{0}",
         "RouteValueField": "",
-        "WebId": "ae9cc5bd-5aaa-451b-d5ca-7fc8c6779d5c"
+        "WebId": "d5d0153c-cbfd-4896-839c-8da87f760edd"
       },
       {
         "$type": "Bespoke.Sph.Domain.ViewColumn, domain.sph",
@@ -75,6 +75,40 @@
           "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.Sph.Domain.ConditionalFormatting, domain.sph]], domain.sph",
           "$values": []
         },
+        "Path": "MyKad",
+        "Header": "My Kad",
+        "Sort": "",
+        "IsLinkColumn": false,
+        "FormRoute": null,
+        "IconCssClass": "",
+        "IconStoreId": "",
+        "Format": "text:{0}",
+        "RouteValueField": "",
+        "WebId": "ae9cc5bd-5aaa-451b-d5ca-7fc8c6779d5c"
+      },
+      {
+        "$type": "Bespoke.Sph.Domain.ViewColumn, domain.sph",
+        "ConditionalFormattingCollection": {
+          "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.Sph.Domain.ConditionalFormatting, domain.sph]], domain.sph",
+          "$values": []
+        },
+        "Path": "Jantina",
+        "Header": "Jantina",
+        "Sort": "",
+        "IsLinkColumn": false,
+        "FormRoute": null,
+        "IconCssClass": "",
+        "IconStoreId": "",
+        "Format": "text:{0}",
+        "RouteValueField": "",
+        "WebId": "7af0796e-9430-41be-e29e-ccad9ee2d421"
+      },
+      {
+        "$type": "Bespoke.Sph.Domain.ViewColumn, domain.sph",
+        "ConditionalFormattingCollection": {
+          "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.Sph.Domain.ConditionalFormatting, domain.sph]], domain.sph",
+          "$values": []
+        },
         "Path": "NamaUjian",
         "Header": "Nama Ujian",
         "Sort": "",
@@ -92,25 +126,8 @@
           "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.Sph.Domain.ConditionalFormatting, domain.sph]], domain.sph",
           "$values": []
         },
-        "Path": "TarikhUjian",
-        "Header": "Tarikh Ujian",
-        "Sort": "",
-        "IsLinkColumn": false,
-        "FormRoute": null,
-        "IconCssClass": "",
-        "IconStoreId": "",
-        "Format": "date:{0}",
-        "RouteValueField": "",
-        "WebId": "a210282e-5818-4eec-d694-850fff3e6f1e"
-      },
-      {
-        "$type": "Bespoke.Sph.Domain.ViewColumn, domain.sph",
-        "ConditionalFormattingCollection": {
-          "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.Sph.Domain.ConditionalFormatting, domain.sph]], domain.sph",
-          "$values": []
-        },
         "Path": "Status",
-        "Header": "Status",
+        "Header": "Status Jawab",
         "Sort": "",
         "IsLinkColumn": false,
         "FormRoute": null,
@@ -119,6 +136,23 @@
         "Format": "text:{0}",
         "RouteValueField": "",
         "WebId": "802858de-3607-4404-dc2a-beb754d22872"
+      },
+      {
+        "$type": "Bespoke.Sph.Domain.ViewColumn, domain.sph",
+        "ConditionalFormattingCollection": {
+          "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.Sph.Domain.ConditionalFormatting, domain.sph]], domain.sph",
+          "$values": []
+        },
+        "Path": "TarikhUjian",
+        "Header": "Tarikh Jawab",
+        "Sort": "",
+        "IsLinkColumn": false,
+        "FormRoute": null,
+        "IconCssClass": "",
+        "IconStoreId": "",
+        "Format": "date:{0}",
+        "RouteValueField": "",
+        "WebId": "a210282e-5818-4eec-d694-850fff3e6f1e"
       },
       {
         "$type": "Bespoke.Sph.Domain.ViewColumn, domain.sph",
@@ -208,6 +242,6 @@
   "Id": "sesiujian-sesi-ujian-diambil-by-program",
   "CreatedDate": "2015-07-09T13:27:25.9079649+08:00",
   "ChangedBy": "admin",
-  "ChangedDate": "2015-07-13T13:49:06.5261616+08:00",
+  "ChangedDate": "2016-05-16T11:12:15.6975572+08:00",
   "WebId": "2af01962-ff9f-440f-d516-d578ff3ef69c"
 }

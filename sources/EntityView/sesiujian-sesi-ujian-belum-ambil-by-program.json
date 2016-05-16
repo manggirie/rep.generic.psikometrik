@@ -41,6 +41,23 @@
           "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.Sph.Domain.ConditionalFormatting, domain.sph]], domain.sph",
           "$values": []
         },
+        "Path": "$index()+1",
+        "Header": "Bil",
+        "Sort": "",
+        "IsLinkColumn": false,
+        "FormRoute": null,
+        "IconCssClass": "",
+        "IconStoreId": "",
+        "Format": "text:{0}",
+        "RouteValueField": "",
+        "WebId": "9360f69a-ecf1-447e-d240-667f0394b84d"
+      },
+      {
+        "$type": "Bespoke.Sph.Domain.ViewColumn, domain.sph",
+        "ConditionalFormattingCollection": {
+          "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.Sph.Domain.ConditionalFormatting, domain.sph]], domain.sph",
+          "$values": []
+        },
         "Path": "MyKad",
         "Header": "My Kad",
         "Sort": "",
@@ -75,8 +92,8 @@
           "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.Sph.Domain.ConditionalFormatting, domain.sph]], domain.sph",
           "$values": []
         },
-        "Path": "NamaUjian",
-        "Header": "Nama Ujian",
+        "Path": "Jantina",
+        "Header": "Jantina",
         "Sort": "",
         "IsLinkColumn": false,
         "FormRoute": null,
@@ -84,7 +101,7 @@
         "IconStoreId": "",
         "Format": "text:{0}",
         "RouteValueField": "",
-        "WebId": "6f03039d-181d-4cbb-9430-adfe76accce0"
+        "WebId": "5a8f9e7a-cb7f-4d45-df15-abe7eca1cb91"
       },
       {
         "$type": "Bespoke.Sph.Domain.ViewColumn, domain.sph",
@@ -102,6 +119,23 @@
         "Format": "text:{0}",
         "RouteValueField": "",
         "WebId": "802858de-3607-4404-dc2a-beb754d22872"
+      },
+      {
+        "$type": "Bespoke.Sph.Domain.ViewColumn, domain.sph",
+        "ConditionalFormattingCollection": {
+          "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.Sph.Domain.ConditionalFormatting, domain.sph]], domain.sph",
+          "$values": []
+        },
+        "Path": "NamaUjian",
+        "Header": "Nama Ujian",
+        "Sort": "",
+        "IsLinkColumn": false,
+        "FormRoute": null,
+        "IconCssClass": "",
+        "IconStoreId": "",
+        "Format": "text:{0}",
+        "RouteValueField": "",
+        "WebId": "6f03039d-181d-4cbb-9430-adfe76accce0"
       },
       {
         "$type": "Bespoke.Sph.Domain.ViewColumn, domain.sph",
@@ -174,6 +208,6 @@
   "Id": "sesiujian-sesi-ujian-belum-ambil-by-program",
   "CreatedDate": "2015-07-09T13:27:25.9079649+08:00",
   "ChangedBy": "admin",
-  "ChangedDate": "2015-07-13T13:58:20.4887445+08:00",
+  "ChangedDate": "2016-05-16T11:14:20.6208137+08:00",
   "WebId": "2af01962-ff9f-440f-d516-d578ff3ef69c"
 }

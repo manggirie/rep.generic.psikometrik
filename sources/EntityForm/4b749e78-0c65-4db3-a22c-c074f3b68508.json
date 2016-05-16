@@ -36,7 +36,7 @@
   "Name": "SesiUjian details",
   "Route": "sesiujian-details",
   "Note": null,
-  "IsAllowedNewItem": true,
+  "IsAllowedNewItem": false,
   "IconClass": null,
   "IconStoreId": null,
   "IsPublished": true,
@@ -57,6 +57,6 @@
   "Id": "4b749e78-0c65-4db3-a22c-c074f3b68508",
   "CreatedDate": "2015-05-26T15:13:57.0250715+08:00",
   "ChangedBy": "admin",
-  "ChangedDate": "2016-04-26T01:51:02.3501407+08:00",
+  "ChangedDate": "2016-05-16T11:39:02.2904695+08:00",
   "WebId": "19096fe4-1f21-4e3d-8e93-bd4412449d89"
 }
