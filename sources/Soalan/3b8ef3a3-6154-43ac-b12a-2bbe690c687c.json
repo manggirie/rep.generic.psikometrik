@@ -1,0 +1,53 @@
+{
+  "$type": "Bespoke.epsikologi_soalan.Domain.Soalan, epsikologi.Soalan",
+  "NoRujukan": "Iku-B-35",
+  "SoalanNo": "Iku-B-35",
+  "TeksSoalan": "Individu perlu bijak memanipulasi situasi agar boleh menjejaskan kemajuan kerja pesaing yang pernah menyakitinya. ",
+  "SeksyenSoalan": null,
+  "PilihanJawapanCollection": {
+    "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan]], domain.sph",
+    "$values": [
+      {
+        "$type": "Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan",
+        "Teks": "Sangat Tidak Setuju",
+        "Nilai": 1,
+        "WebId": "390c9c49-c554-483e-b393-418f5f567e34"
+      },
+      {
+        "$type": "Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan",
+        "Teks": "Tidak Setuju",
+        "Nilai": 2,
+        "WebId": "538be9f5-d93b-44ba-8531-0052a92f7b31"
+      },
+      {
+        "$type": "Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan",
+        "Teks": "Neutral",
+        "Nilai": 3,
+        "WebId": "f6109598-893d-4e85-9f21-7f27b60511f3"
+      },
+      {
+        "$type": "Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan",
+        "Teks": "Setuju",
+        "Nilai": 4,
+        "WebId": "231630ae-eb41-4ddc-a560-af048e99327b"
+      },
+      {
+        "$type": "Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan",
+        "Teks": "Sangat Setuju",
+        "Nilai": 5,
+        "WebId": "a597d746-33ce-4a71-9711-42baffa248d0"
+      }
+    ]
+  },
+  "Trait": "Integriti",
+  "NamaUjian": "IKU",
+  "Susunan": 35.0,
+  "Kategori": "Integriti",
+  "Bahagian": "B",
+  "CreatedBy": "admin",
+  "Id": "3b8ef3a3-6154-43ac-b12a-2bbe690c687c",
+  "CreatedDate": "2016-03-30T09:55:33.4227758+08:00",
+  "ChangedBy": "admin",
+  "ChangedDate": "2016-03-30T09:55:33.4137749+08:00",
+  "WebId": "c06f0708-721a-4f6a-bb31-77a7ed0be3ca"
+}

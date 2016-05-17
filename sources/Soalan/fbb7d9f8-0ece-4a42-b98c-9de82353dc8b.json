@@ -1,0 +1,53 @@
+{
+  "$type": "Bespoke.epsikologi_soalan.Domain.Soalan, epsikologi.Soalan",
+  "NoRujukan": "Iku-A-5-7",
+  "SoalanNo": "Iku-A-5-7",
+  "TeksSoalan": "Saya menawarkan diri untuk mengikuti kursus yang ditawarkan oleh organisasi.",
+  "SeksyenSoalan": "5",
+  "PilihanJawapanCollection": {
+    "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan]], domain.sph",
+    "$values": [
+      {
+        "$type": "Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan",
+        "Teks": "Sangat Tidak Setuju",
+        "Nilai": 1,
+        "WebId": "2b8a8555-fec1-437c-a068-6ea55c815c10"
+      },
+      {
+        "$type": "Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan",
+        "Teks": "Tidak Setuju",
+        "Nilai": 2,
+        "WebId": "9021ea1a-71d6-41c7-adc1-f6f2706b5b64"
+      },
+      {
+        "$type": "Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan",
+        "Teks": "Neutral",
+        "Nilai": 3,
+        "WebId": "6d4e6f38-a3b0-4a36-bf96-30cf7dd9db45"
+      },
+      {
+        "$type": "Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan",
+        "Teks": "Setuju",
+        "Nilai": 4,
+        "WebId": "013bafa0-1691-4437-ad65-c7056ed9aec5"
+      },
+      {
+        "$type": "Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan",
+        "Teks": "Sangat Setuju",
+        "Nilai": 5,
+        "WebId": "0919bb9d-b87d-45ed-89d3-1242a942f715"
+      }
+    ]
+  },
+  "Trait": "Pembelajaran Berterusan",
+  "NamaUjian": "IKU",
+  "Susunan": 41.0,
+  "Kategori": "Pembelajaran Berterusan",
+  "Bahagian": "A",
+  "CreatedBy": "admin",
+  "Id": "fbb7d9f8-0ece-4a42-b98c-9de82353dc8b",
+  "CreatedDate": "2016-03-02T16:17:11.1138419+08:00",
+  "ChangedBy": "admin",
+  "ChangedDate": "2016-03-02T16:17:11.1128418+08:00",
+  "WebId": "75a7f680-4f1e-4e20-d352-f1231d64d455"
+}

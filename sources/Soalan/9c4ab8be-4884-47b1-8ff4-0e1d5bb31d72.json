@@ -1,0 +1,53 @@
+{
+  "$type": "Bespoke.epsikologi_soalan.Domain.Soalan, epsikologi.Soalan",
+  "NoRujukan": "Iku-B-27",
+  "SoalanNo": "Iku-B-27",
+  "TeksSoalan": "Individu berhak mencetuskan masalah kepada mereka yang tidak sehaluan pendapat. ",
+  "SeksyenSoalan": null,
+  "PilihanJawapanCollection": {
+    "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan]], domain.sph",
+    "$values": [
+      {
+        "$type": "Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan",
+        "Teks": "Sangat Tidak Setuju",
+        "Nilai": 1,
+        "WebId": "8b886fbc-3bcc-41b7-ab56-325762584225"
+      },
+      {
+        "$type": "Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan",
+        "Teks": "Tidak Setuju",
+        "Nilai": 2,
+        "WebId": "6e3b9dec-9618-4001-979d-ac07c3ebaabb"
+      },
+      {
+        "$type": "Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan",
+        "Teks": "Neutral",
+        "Nilai": 3,
+        "WebId": "b8076961-dca8-4967-9844-268d96d69669"
+      },
+      {
+        "$type": "Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan",
+        "Teks": "Setuju",
+        "Nilai": 4,
+        "WebId": "70115d55-bf1b-4adb-9407-8e2a68c363be"
+      },
+      {
+        "$type": "Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan",
+        "Teks": "Sangat Setuju",
+        "Nilai": 5,
+        "WebId": "1a250038-6a46-4ed8-954f-d25b9655849e"
+      }
+    ]
+  },
+  "Trait": "Integriti",
+  "NamaUjian": "IKU",
+  "Susunan": 27.0,
+  "Kategori": "Integriti",
+  "Bahagian": "B",
+  "CreatedBy": "admin",
+  "Id": "9c4ab8be-4884-47b1-8ff4-0e1d5bb31d72",
+  "CreatedDate": "2016-03-22T16:13:11.1664106+08:00",
+  "ChangedBy": "admin",
+  "ChangedDate": "2016-03-22T16:13:11.1654105+08:00",
+  "WebId": "dec0b715-a955-4609-8c3d-2273cfd2c764"
+}

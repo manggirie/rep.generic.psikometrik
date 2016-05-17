@@ -1,0 +1,53 @@
+{
+  "$type": "Bespoke.epsikologi_soalan.Domain.Soalan, epsikologi.Soalan",
+  "NoRujukan": "Iku-B-30",
+  "SoalanNo": "Iku-B-30",
+  "TeksSoalan": "Individu tidak seharusnya melupakan perkara buruk yang pernah dilakukan terhadap dirinya.  ",
+  "SeksyenSoalan": null,
+  "PilihanJawapanCollection": {
+    "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan]], domain.sph",
+    "$values": [
+      {
+        "$type": "Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan",
+        "Teks": "Sangat Tidak Setuju",
+        "Nilai": 1,
+        "WebId": "a75e4eec-a7ac-45bd-b444-31ae55608fc6"
+      },
+      {
+        "$type": "Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan",
+        "Teks": "Tidak Setuju",
+        "Nilai": 2,
+        "WebId": "0b13550a-2d83-4210-bb7b-f4bf0b048d82"
+      },
+      {
+        "$type": "Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan",
+        "Teks": "Neutral",
+        "Nilai": 3,
+        "WebId": "1f6e30cc-4c78-4271-b034-7ff953c1db28"
+      },
+      {
+        "$type": "Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan",
+        "Teks": "Setuju",
+        "Nilai": 4,
+        "WebId": "2027c66d-ce44-4cbb-9e57-98443fbf05f5"
+      },
+      {
+        "$type": "Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan",
+        "Teks": "Sangat Setuju",
+        "Nilai": 5,
+        "WebId": "a1f78da3-912f-4c6b-bc6b-7dc769188696"
+      }
+    ]
+  },
+  "Trait": "Integriti",
+  "NamaUjian": "IKU",
+  "Susunan": 30.0,
+  "Kategori": "Integriti",
+  "Bahagian": "B",
+  "CreatedBy": "admin",
+  "Id": "d211213b-c73c-4a6c-a5d5-9bb6fd7a1577",
+  "CreatedDate": "2016-03-22T16:18:49.4372343+08:00",
+  "ChangedBy": "admin",
+  "ChangedDate": "2016-03-22T16:18:49.4362342+08:00",
+  "WebId": "332adc94-5540-423f-c333-5648f3f29bf4"
+}

@@ -1,0 +1,53 @@
+{
+  "$type": "Bespoke.epsikologi_soalan.Domain.Soalan, epsikologi.Soalan",
+  "NoRujukan": "Iku-A-8-5",
+  "SoalanNo": "Iku-A-8-5",
+  "TeksSoalan": "Secara fizikal, saya membuat persiapan diri untuk berhadapan dengan situasi kerja yang mencabar. ",
+  "SeksyenSoalan": "8",
+  "PilihanJawapanCollection": {
+    "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan]], domain.sph",
+    "$values": [
+      {
+        "$type": "Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan",
+        "Teks": "Sangat Tidak Setuju",
+        "Nilai": 1,
+        "WebId": "19dc1f77-242e-4aef-8997-381723c24ae8"
+      },
+      {
+        "$type": "Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan",
+        "Teks": "Tidak Setuju",
+        "Nilai": 2,
+        "WebId": "35baea4c-a60d-451a-a67a-468d8530e95a"
+      },
+      {
+        "$type": "Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan",
+        "Teks": "Neutral",
+        "Nilai": 3,
+        "WebId": "a5059313-1c09-4269-b529-babaa5fa085f"
+      },
+      {
+        "$type": "Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan",
+        "Teks": "Setuju",
+        "Nilai": 4,
+        "WebId": "85ab822a-b3fa-497f-b53d-d6942d0c8f79"
+      },
+      {
+        "$type": "Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan",
+        "Teks": "Sangat Setuju",
+        "Nilai": 5,
+        "WebId": "d3c92b60-da57-4403-9654-005e185e66c3"
+      }
+    ]
+  },
+  "Trait": "Adaptasi Fizikal",
+  "NamaUjian": "IKU",
+  "Susunan": 64.0,
+  "Kategori": "Adaptasi Fizikal",
+  "Bahagian": "A",
+  "CreatedBy": "admin",
+  "Id": "11e03f3b-50df-412e-8c3c-c9dbf283e24e",
+  "CreatedDate": "2016-03-09T09:53:30.293536+08:00",
+  "ChangedBy": "admin",
+  "ChangedDate": "2016-03-09T09:53:30.2875354+08:00",
+  "WebId": "a04583d2-7f10-4ae0-e32b-c82add05e1ab"
+}

@@ -1,0 +1,53 @@
+{
+  "$type": "Bespoke.epsikologi_soalan.Domain.Soalan, epsikologi.Soalan",
+  "NoRujukan": "Iku-B-32",
+  "SoalanNo": "Iku-B-32",
+  "TeksSoalan": "Individu tidak perlu berkongsi maklumat atau maklum balas dengan pesaing  mereka dalam kemajuan kerjaya.  ",
+  "SeksyenSoalan": null,
+  "PilihanJawapanCollection": {
+    "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan]], domain.sph",
+    "$values": [
+      {
+        "$type": "Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan",
+        "Teks": "Sangat Tidak Setuju",
+        "Nilai": 1,
+        "WebId": "54f9c7cc-aabc-49a4-b31d-c91e6c3972c3"
+      },
+      {
+        "$type": "Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan",
+        "Teks": "Tidak Setuju",
+        "Nilai": 2,
+        "WebId": "d41d7b4b-95a2-4b09-80fa-8d18359f9705"
+      },
+      {
+        "$type": "Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan",
+        "Teks": "Neutral",
+        "Nilai": 3,
+        "WebId": "2a403054-22e4-4bad-9422-67e68a89d168"
+      },
+      {
+        "$type": "Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan",
+        "Teks": "Setuju",
+        "Nilai": 4,
+        "WebId": "b220ac33-ca31-4aa6-8324-d86113a07c35"
+      },
+      {
+        "$type": "Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan",
+        "Teks": "Sangat Setuju",
+        "Nilai": 5,
+        "WebId": "bd9ff581-ec69-43df-96f4-00d199092fe4"
+      }
+    ]
+  },
+  "Trait": "Integriti",
+  "NamaUjian": "IKU",
+  "Susunan": 32.0,
+  "Kategori": "Integriti",
+  "Bahagian": "B",
+  "CreatedBy": "admin",
+  "Id": "8119ff92-ab12-4a1c-b80a-fa2d26f2e2ce",
+  "CreatedDate": "2016-03-22T16:22:57.8650746+08:00",
+  "ChangedBy": "admin",
+  "ChangedDate": "2016-03-22T16:22:57.8640745+08:00",
+  "WebId": "d29d5b6d-efc8-4ec1-ad52-4edd87929327"
+}

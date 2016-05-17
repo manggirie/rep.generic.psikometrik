@@ -1,0 +1,53 @@
+{
+  "$type": "Bespoke.epsikologi_soalan.Domain.Soalan, epsikologi.Soalan",
+  "NoRujukan": "Iku-B-7",
+  "SoalanNo": "Iku-B-7",
+  "TeksSoalan": "Individu perlu berani berterus terang dalam memberi pendapat berhubung isu sensitif walaupun bertentangan dengan pendapat orang ramai. ",
+  "SeksyenSoalan": null,
+  "PilihanJawapanCollection": {
+    "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan]], domain.sph",
+    "$values": [
+      {
+        "$type": "Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan",
+        "Teks": "Sangat Tidak Setuju",
+        "Nilai": 1,
+        "WebId": "f63d44a3-b80c-4be3-b6cb-92bdfe580fb9"
+      },
+      {
+        "$type": "Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan",
+        "Teks": "Tidak Setuju",
+        "Nilai": 2,
+        "WebId": "ad1a1da5-1d98-4b26-8dfa-f25eae7fecfe"
+      },
+      {
+        "$type": "Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan",
+        "Teks": "Neutral",
+        "Nilai": 3,
+        "WebId": "e8bacc27-9bfa-47f2-96a1-d5ad844a33d2"
+      },
+      {
+        "$type": "Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan",
+        "Teks": "Setuju",
+        "Nilai": 4,
+        "WebId": "137c2c6d-d725-40e2-adff-075cd3a11352"
+      },
+      {
+        "$type": "Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan",
+        "Teks": "Sangat Setuju",
+        "Nilai": 5,
+        "WebId": "3cbc8cdc-96a8-44a8-a351-01192b26956b"
+      }
+    ]
+  },
+  "Trait": "Integriti",
+  "NamaUjian": "IKU",
+  "Susunan": 7.0,
+  "Kategori": "Integriti",
+  "Bahagian": "B",
+  "CreatedBy": "admin",
+  "Id": "5a6b128e-d3ff-4616-a6d6-fe55d284a3da",
+  "CreatedDate": "2016-03-09T16:48:40.9767078+08:00",
+  "ChangedBy": "admin",
+  "ChangedDate": "2016-03-09T16:48:40.9717078+08:00",
+  "WebId": "e06c779e-dd5e-43d7-f32c-c57ee19b8f1c"
+}

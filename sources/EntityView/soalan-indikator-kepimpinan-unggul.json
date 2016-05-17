@@ -5,30 +5,17 @@
     "$values": [
       {
         "$type": "Bespoke.Sph.Domain.Filter, domain.sph",
-        "Term": "NamaProgram",
-        "Operator": "Eq",
-        "Field": {
-          "$type": "Bespoke.Sph.Domain.JavascriptExpressionField, domain.sph",
-          "Expression": "program",
-          "Name": "program",
-          "Note": "",
-          "WebId": "1b6d1906-056a-4560-9029-207e79e1e9e8"
-        },
-        "WebId": "b9996987-b697-41a8-b14e-e7d06359946a"
-      },
-      {
-        "$type": "Bespoke.Sph.Domain.Filter, domain.sph",
-        "Term": "Status",
+        "Term": "NamaUjian",
         "Operator": "Eq",
         "Field": {
           "$type": "Bespoke.Sph.Domain.ConstantField, domain.sph",
           "TypeName": "System.String, mscorlib",
-          "Value": "Belum Ambil",
-          "Name": "Belum Ambil",
+          "Value": "IKU",
+          "Name": "IKU",
           "Note": "",
-          "WebId": "98a04083-7026-432f-b132-1f496bfcf270"
+          "WebId": "7b795348-479f-44a4-ed7f-38857a21c53d"
         },
-        "WebId": "a648a805-e565-4a10-f642-0cf8f9ac2498"
+        "WebId": "7f2c2a2c-17ad-4ffa-ea79-e3569cf1256d"
       }
     ]
   },
@@ -41,16 +28,16 @@
           "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.Sph.Domain.ConditionalFormatting, domain.sph]], domain.sph",
           "$values": []
         },
-        "Path": "MyKad",
-        "Header": "My Kad",
+        "Path": "NoRujukan",
+        "Header": "No",
         "Sort": "",
-        "IsLinkColumn": false,
-        "FormRoute": null,
-        "IconCssClass": "",
+        "IsLinkColumn": true,
+        "FormRoute": "soalan-detail",
+        "IconCssClass": "fa fa-external-link",
         "IconStoreId": "",
         "Format": "text:{0}",
-        "RouteValueField": "",
-        "WebId": "ae9cc5bd-5aaa-451b-d5ca-7fc8c6779d5c"
+        "RouteValueField": "Id",
+        "WebId": "1516458b-6265-4247-c03a-ac0b708e189f"
       },
       {
         "$type": "Bespoke.Sph.Domain.ViewColumn, domain.sph",
@@ -58,8 +45,8 @@
           "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.Sph.Domain.ConditionalFormatting, domain.sph]], domain.sph",
           "$values": []
         },
-        "Path": "NamaPengguna",
-        "Header": "Nama Pengguna",
+        "Path": "TeksSoalan",
+        "Header": "Teks",
         "Sort": "",
         "IsLinkColumn": false,
         "FormRoute": null,
@@ -67,7 +54,7 @@
         "IconStoreId": "",
         "Format": "text:{0}",
         "RouteValueField": "",
-        "WebId": "97970628-675c-4e1f-b900-8459f32fc5ca"
+        "WebId": "836f279f-d455-4a81-af12-de28bf18c39d"
       },
       {
         "$type": "Bespoke.Sph.Domain.ViewColumn, domain.sph",
@@ -75,8 +62,8 @@
           "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.Sph.Domain.ConditionalFormatting, domain.sph]], domain.sph",
           "$values": []
         },
-        "Path": "NamaUjian",
-        "Header": "Nama Ujian",
+        "Path": "SeksyenSoalan",
+        "Header": "Seksyen",
         "Sort": "",
         "IsLinkColumn": false,
         "FormRoute": null,
@@ -84,7 +71,7 @@
         "IconStoreId": "",
         "Format": "text:{0}",
         "RouteValueField": "",
-        "WebId": "6f03039d-181d-4cbb-9430-adfe76accce0"
+        "WebId": "171520a5-5f64-4f5c-d102-4e377a0a4f1a"
       },
       {
         "$type": "Bespoke.Sph.Domain.ViewColumn, domain.sph",
@@ -92,8 +79,8 @@
           "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.Sph.Domain.ConditionalFormatting, domain.sph]], domain.sph",
           "$values": []
         },
-        "Path": "Status",
-        "Header": "Status",
+        "Path": "Susunan",
+        "Header": "Susunan",
         "Sort": "",
         "IsLinkColumn": false,
         "FormRoute": null,
@@ -101,7 +88,7 @@
         "IconStoreId": "",
         "Format": "text:{0}",
         "RouteValueField": "",
-        "WebId": "802858de-3607-4404-dc2a-beb754d22872"
+        "WebId": "a04e7592-e5c1-46ea-8fda-b87a756c6547"
       },
       {
         "$type": "Bespoke.Sph.Domain.ViewColumn, domain.sph",
@@ -109,8 +96,8 @@
           "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.Sph.Domain.ConditionalFormatting, domain.sph]], domain.sph",
           "$values": []
         },
-        "Path": "NamaProgram",
-        "Header": "Nama Program",
+        "Path": "Trait",
+        "Header": "Trait",
         "Sort": "",
         "IsLinkColumn": false,
         "FormRoute": null,
@@ -118,7 +105,7 @@
         "IconStoreId": "",
         "Format": "text:{0}",
         "RouteValueField": "",
-        "WebId": "535b01a0-4d9e-4a27-a49a-18e81e99a159"
+        "WebId": "32e8077d-6068-494c-b179-5814e89938f5"
       }
     ]
   },
@@ -127,9 +114,15 @@
     "$values": [
       {
         "$type": "Bespoke.Sph.Domain.Sort, domain.sph",
-        "Path": "TarikhUjian",
-        "Direction": "Desc",
-        "WebId": "171037d7-d6e3-449f-f1d1-a805248b1b89"
+        "Path": "NoRujukan",
+        "Direction": "Asc",
+        "WebId": "064ece54-7052-4376-e5a6-d4660d731c2e"
+      },
+      {
+        "$type": "Bespoke.Sph.Domain.Sort, domain.sph",
+        "Path": "SeksyenSoalan",
+        "Direction": "Asc",
+        "WebId": "e372e640-4201-4159-bd7f-a487e8b3f681"
       }
     ]
   },
@@ -139,41 +132,34 @@
   },
   "Performer": {
     "$type": "Bespoke.Sph.Domain.Performer, domain.sph",
-    "UserProperty": "Roles",
-    "Value": "JanaLaporan",
-    "IsPublic": false,
+    "UserProperty": "",
+    "Value": "",
+    "IsPublic": true,
     "WebId": null
   },
   "RouteParameterCollection": {
     "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.Sph.Domain.RouteParameter, domain.sph]], domain.sph",
-    "$values": [
-      {
-        "$type": "Bespoke.Sph.Domain.RouteParameter, domain.sph",
-        "Name": "program",
-        "Type": "string",
-        "WebId": "330e536f-01d8-46a9-8d4b-0bc1ed017bab"
-      }
-    ]
+    "$values": []
   },
-  "IconClass": "fa fa-bell-o",
-  "IconStoreId": "sph-img-list",
-  "EntityDefinitionId": "sesiujian",
-  "Name": "Sesi Ujian Belum Diambil Mengikut Program",
-  "Route": "sesi-ujian-belum-ambil-by-program",
-  "Note": "Mengikut Program",
+  "IconClass": "fa fa-briefcase",
+  "IconStoreId": "da2bbf75-b540-4c79-87c8-5bfccc427254",
+  "EntityDefinitionId": "soalan",
+  "Name": "Instrumen Kepimpinan Unggul",
+  "Route": "instrumen-kepimpinan-unggul",
+  "Note": "",
   "Query": "",
   "IsPublished": true,
   "Visibilty": "",
-  "TileColour": "bgreen",
+  "TileColour": "bred",
   "CountMessage": "",
   "Entity": "",
-  "Partial": "partial/sesi-ujian-belum-ambil-by-program",
+  "Partial": "",
   "Template": null,
   "DisplayOnDashboard": true,
   "CreatedBy": "admin",
-  "Id": "sesiujian-sesi-ujian-belum-ambil-by-program",
-  "CreatedDate": "2015-07-09T13:27:25.9079649+08:00",
+  "Id": "soalan-indikator-kepimpinan-unggul",
+  "CreatedDate": "2015-06-05T10:14:02.1460365+08:00",
   "ChangedBy": "admin",
-  "ChangedDate": "2016-05-13T13:07:49.6123486+08:00",
-  "WebId": "2af01962-ff9f-440f-d516-d578ff3ef69c"
+  "ChangedDate": "2015-12-18T11:01:51.4144751+08:00",
+  "WebId": "38e6ae7a-002d-4780-d67c-faea94d5b459"
 }

@@ -1,0 +1,53 @@
+{
+  "$type": "Bespoke.epsikologi_soalan.Domain.Soalan, epsikologi.Soalan",
+  "NoRujukan": "Iku-A-6-1",
+  "SoalanNo": "Iku-A-6-1",
+  "TeksSoalan": "Saya mengubah cara bekerja berdasarkan maklum balas dan cadangan orang lain.",
+  "SeksyenSoalan": "6",
+  "PilihanJawapanCollection": {
+    "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan]], domain.sph",
+    "$values": [
+      {
+        "$type": "Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan",
+        "Teks": "Sangat Tidak Setuju",
+        "Nilai": 1,
+        "WebId": "ee8d0d56-3359-450c-82d4-4462bc29f6be"
+      },
+      {
+        "$type": "Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan",
+        "Teks": "Tidak Setuju",
+        "Nilai": 2,
+        "WebId": "485414b8-855e-46cb-bca8-ea1e2e7a9778"
+      },
+      {
+        "$type": "Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan",
+        "Teks": "Neutral",
+        "Nilai": 3,
+        "WebId": "77597b7d-b43c-4bcb-869a-5e62662a8ec4"
+      },
+      {
+        "$type": "Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan",
+        "Teks": "Setuju",
+        "Nilai": 4,
+        "WebId": "9481c9a7-3935-4be3-8e3d-ca003e969cf2"
+      },
+      {
+        "$type": "Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan",
+        "Teks": "Sangat Setuju",
+        "Nilai": 5,
+        "WebId": "87ca9b26-c08f-4ab2-9b67-b4b823eb728f"
+      }
+    ]
+  },
+  "Trait": "Kemahiran Interpersonal",
+  "NamaUjian": "IKU",
+  "Susunan": 44.0,
+  "Kategori": "Kemahiran Interpersonal",
+  "Bahagian": "A",
+  "CreatedBy": "admin",
+  "Id": "24c59a1b-dbc4-4ee2-a2d6-809f8fe04976",
+  "CreatedDate": "2016-03-07T10:16:10.796813+08:00",
+  "ChangedBy": "admin",
+  "ChangedDate": "2016-03-07T10:16:10.789813+08:00",
+  "WebId": "a30e17b4-f4b9-4f71-9cea-d35047e52218"
+}

@@ -1,0 +1,53 @@
+{
+  "$type": "Bespoke.epsikologi_soalan.Domain.Soalan, epsikologi.Soalan",
+  "NoRujukan": "Iku-A-8-2",
+  "SoalanNo": "Iku-A-8-2",
+  "TeksSoalan": "Saya boleh bekerja dengan baik walaupun dalam suasana yang tidak selesa.",
+  "SeksyenSoalan": "8",
+  "PilihanJawapanCollection": {
+    "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan]], domain.sph",
+    "$values": [
+      {
+        "$type": "Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan",
+        "Teks": "Sangat Tidak Setuju",
+        "Nilai": 1,
+        "WebId": "3b7ac919-e7bb-49d6-a49c-f9f90d38d6f9"
+      },
+      {
+        "$type": "Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan",
+        "Teks": "Tidak Setuju",
+        "Nilai": 2,
+        "WebId": "0a043603-8b39-4eb0-b702-fa389e5053da"
+      },
+      {
+        "$type": "Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan",
+        "Teks": "Neutral",
+        "Nilai": 3,
+        "WebId": "ba5ca218-39e6-4e37-8006-bdd9b2ee8228"
+      },
+      {
+        "$type": "Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan",
+        "Teks": "Setuju",
+        "Nilai": 4,
+        "WebId": "9b623882-33a5-49e4-ade2-6e3d7861d9de"
+      },
+      {
+        "$type": "Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan",
+        "Teks": "Sangat Setuju",
+        "Nilai": 5,
+        "WebId": "98a5b973-90ce-4f6a-858f-3b144ca5baee"
+      }
+    ]
+  },
+  "Trait": "Adaptasi Fizikal",
+  "NamaUjian": "IKU",
+  "Susunan": 61.0,
+  "Kategori": "Adaptasi Fizikal",
+  "Bahagian": "A",
+  "CreatedBy": "admin",
+  "Id": "4d870633-691d-4654-9727-2f99ea070a4f",
+  "CreatedDate": "2016-03-09T09:45:58.9824094+08:00",
+  "ChangedBy": "admin",
+  "ChangedDate": "2016-03-09T09:45:59.0124124+08:00",
+  "WebId": "50dcbe58-b096-47f4-a528-5ac242d41ad0"
+}

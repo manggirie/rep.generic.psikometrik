@@ -1,0 +1,53 @@
+{
+  "$type": "Bespoke.epsikologi_soalan.Domain.Soalan, epsikologi.Soalan",
+  "NoRujukan": "Iku-B-1",
+  "SoalanNo": "Iku-B-1",
+  "TeksSoalan": "Penting untuk menjelaskan kesilapan yang telah dilakukan dengan segera dan tidak mengulanginya.",
+  "SeksyenSoalan": "",
+  "PilihanJawapanCollection": {
+    "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan]], domain.sph",
+    "$values": [
+      {
+        "$type": "Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan",
+        "Teks": "Sangat Tidak Setuju",
+        "Nilai": 1,
+        "WebId": "2009c922-8cc2-44cb-82c8-b05b14497792"
+      },
+      {
+        "$type": "Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan",
+        "Teks": "Tidak Setuju",
+        "Nilai": 2,
+        "WebId": "721d9c64-eef6-4aff-aebd-ed400f03d54d"
+      },
+      {
+        "$type": "Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan",
+        "Teks": "Neutral",
+        "Nilai": 3,
+        "WebId": "33e56c20-a992-4fe6-af86-06b8004a3e25"
+      },
+      {
+        "$type": "Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan",
+        "Teks": "Setuju",
+        "Nilai": 4,
+        "WebId": "e0adc5b0-4c0b-4cc6-a2e1-692c84b5be97"
+      },
+      {
+        "$type": "Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan",
+        "Teks": "Sangat Setuju",
+        "Nilai": 5,
+        "WebId": "561dcd22-dc5e-402d-b98c-b10f42269323"
+      }
+    ]
+  },
+  "Trait": "Integriti",
+  "NamaUjian": "IKU",
+  "Susunan": 1.0,
+  "Kategori": "Integriti",
+  "Bahagian": "B",
+  "CreatedBy": "admin",
+  "Id": "dfb51ff8-21f7-41cd-8fa8-41c55423df7e",
+  "CreatedDate": "2016-03-09T10:14:52.5477486+08:00",
+  "ChangedBy": "admin",
+  "ChangedDate": "2016-03-09T10:14:52.541748+08:00",
+  "WebId": "869e17f6-cac2-48a9-a34f-55e9d8df6794"
+}

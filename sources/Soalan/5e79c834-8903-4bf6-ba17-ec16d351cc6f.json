@@ -1,0 +1,53 @@
+{
+  "$type": "Bespoke.epsikologi_soalan.Domain.Soalan, epsikologi.Soalan",
+  "NoRujukan": "Iku-B-25",
+  "SoalanNo": "Iku-B-25",
+  "TeksSoalan": "Tidak mengapa melindungi kesalahan orang lain kerana mereka juga akan berbuat perkara yang sama. ",
+  "SeksyenSoalan": null,
+  "PilihanJawapanCollection": {
+    "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan]], domain.sph",
+    "$values": [
+      {
+        "$type": "Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan",
+        "Teks": "Sangat Tidak Setuju",
+        "Nilai": 1,
+        "WebId": "be941b54-fe9a-442a-b9fd-48a9f4fd09e9"
+      },
+      {
+        "$type": "Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan",
+        "Teks": "Tidak Setuju",
+        "Nilai": 2,
+        "WebId": "de06fb54-d55b-4240-9066-1d02f86dee85"
+      },
+      {
+        "$type": "Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan",
+        "Teks": "Neutral",
+        "Nilai": 3,
+        "WebId": "eeee7ba7-72a5-49f4-a2fa-b7f6c49bf671"
+      },
+      {
+        "$type": "Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan",
+        "Teks": "Setuju",
+        "Nilai": 4,
+        "WebId": "3f467b32-b7ac-4606-8c19-097f3dfaf56d"
+      },
+      {
+        "$type": "Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan",
+        "Teks": "Sangat Setuju",
+        "Nilai": 5,
+        "WebId": "140c0768-78b9-4498-b3ce-eddb5944c410"
+      }
+    ]
+  },
+  "Trait": "Integriti",
+  "NamaUjian": "IKU",
+  "Susunan": 25.0,
+  "Kategori": "Integriti",
+  "Bahagian": "B",
+  "CreatedBy": "admin",
+  "Id": "5e79c834-8903-4bf6-ba17-ec16d351cc6f",
+  "CreatedDate": "2016-03-18T16:46:49.3032799+08:00",
+  "ChangedBy": "admin",
+  "ChangedDate": "2016-03-18T16:46:49.3022799+08:00",
+  "WebId": "fd5e7319-3519-4ea4-c231-c892bcee35fb"
+}

@@ -1,0 +1,53 @@
+{
+  "$type": "Bespoke.epsikologi_soalan.Domain.Soalan, epsikologi.Soalan",
+  "NoRujukan": "Iku-A-8-4",
+  "SoalanNo": "Iku-A-8-4",
+  "TeksSoalan": "Saya bersedia melakukan tugasan yang memerlukan keupayaan fizikal walaupun di luar bidang tugas.",
+  "SeksyenSoalan": "8",
+  "PilihanJawapanCollection": {
+    "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan]], domain.sph",
+    "$values": [
+      {
+        "$type": "Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan",
+        "Teks": "Sangat Tidak Setuju",
+        "Nilai": 1,
+        "WebId": "73788f11-088d-4cca-9282-877ab2a59648"
+      },
+      {
+        "$type": "Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan",
+        "Teks": "Tidak Setuju",
+        "Nilai": 2,
+        "WebId": "6eee45e6-0edc-4316-880e-580511b2ce84"
+      },
+      {
+        "$type": "Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan",
+        "Teks": "Neutral",
+        "Nilai": 3,
+        "WebId": "a81ba547-efe7-49c4-bd63-e27e21fec834"
+      },
+      {
+        "$type": "Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan",
+        "Teks": "Setuju",
+        "Nilai": 4,
+        "WebId": "26d6fb13-6932-48a8-a925-47fead0591d0"
+      },
+      {
+        "$type": "Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan",
+        "Teks": "Sangat Setuju",
+        "Nilai": 5,
+        "WebId": "d6b86f61-fb90-4b66-b4b8-b60838f64572"
+      }
+    ]
+  },
+  "Trait": "Adaptasi Fizikal",
+  "NamaUjian": "IKU",
+  "Susunan": 63.0,
+  "Kategori": "Adaptasi Fizikal",
+  "Bahagian": "A",
+  "CreatedBy": "admin",
+  "Id": "a077f806-f133-493f-aa0c-087b437823d3",
+  "CreatedDate": "2016-03-09T09:49:50.131522+08:00",
+  "ChangedBy": "admin",
+  "ChangedDate": "2016-03-09T09:49:50.1305219+08:00",
+  "WebId": "534dd64f-06ac-4741-cc6d-fc072a12f432"
+}

@@ -1,0 +1,53 @@
+{
+  "$type": "Bespoke.epsikologi_soalan.Domain.Soalan, epsikologi.Soalan",
+  "NoRujukan": "Iku-B-18",
+  "SoalanNo": "Iku-B-18",
+  "TeksSoalan": "Individu perlu mendedahkan kesilapan yang dilakukan oleh orang lain secara terbuka demi kepentingan jabatan. ",
+  "SeksyenSoalan": null,
+  "PilihanJawapanCollection": {
+    "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan]], domain.sph",
+    "$values": [
+      {
+        "$type": "Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan",
+        "Teks": "Sangat Tidak Setuju",
+        "Nilai": 1,
+        "WebId": "017d0bd3-701e-4f38-aa6d-af360612fe78"
+      },
+      {
+        "$type": "Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan",
+        "Teks": "Tidak Setuju",
+        "Nilai": 2,
+        "WebId": "dcec96ab-0aa6-4893-84f7-d5b281f04a74"
+      },
+      {
+        "$type": "Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan",
+        "Teks": "Neutral",
+        "Nilai": 3,
+        "WebId": "7c23143f-60f4-461b-a526-374585d5aa76"
+      },
+      {
+        "$type": "Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan",
+        "Teks": "Setuju",
+        "Nilai": 4,
+        "WebId": "8d2c4671-6a58-4e2b-979c-f204e0efe99e"
+      },
+      {
+        "$type": "Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan",
+        "Teks": "Sangat Setuju",
+        "Nilai": 5,
+        "WebId": "2471ae6e-fbd3-4b58-84d8-88c9c63e2337"
+      }
+    ]
+  },
+  "Trait": "Integriti",
+  "NamaUjian": "IKU",
+  "Susunan": 18.0,
+  "Kategori": "Integriti",
+  "Bahagian": "B",
+  "CreatedBy": "admin",
+  "Id": "6776d471-aead-469e-8281-7c172133db63",
+  "CreatedDate": "2016-03-10T11:34:07.2278347+08:00",
+  "ChangedBy": "admin",
+  "ChangedDate": "2016-03-10T11:34:07.2268346+08:00",
+  "WebId": "ff682f9c-8783-4a41-fc67-6125208ccbc7"
+}

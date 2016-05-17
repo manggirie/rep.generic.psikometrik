@@ -1,0 +1,53 @@
+{
+  "$type": "Bespoke.epsikologi_soalan.Domain.Soalan, epsikologi.Soalan",
+  "NoRujukan": "Iku-A-5-4",
+  "SoalanNo": "Iku-A-5-4",
+  "TeksSoalan": "Saya tidak bergantung kepada organisasi dalam usaha meningkatkan kemahiran diri.",
+  "SeksyenSoalan": "5",
+  "PilihanJawapanCollection": {
+    "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan]], domain.sph",
+    "$values": [
+      {
+        "$type": "Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan",
+        "Teks": "Sangat Tidak Setuju",
+        "Nilai": 1,
+        "WebId": "941c60d1-9d6c-4abb-b526-6db3d14ccfc6"
+      },
+      {
+        "$type": "Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan",
+        "Teks": "Tidak Setuju",
+        "Nilai": 2,
+        "WebId": "b70ebc35-2014-4eb1-8b54-521554343353"
+      },
+      {
+        "$type": "Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan",
+        "Teks": "Neutral",
+        "Nilai": 3,
+        "WebId": "65f7447a-0c5a-4b97-b4f8-191b3d709243"
+      },
+      {
+        "$type": "Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan",
+        "Teks": "Setuju",
+        "Nilai": 4,
+        "WebId": "b37e8b26-6a50-4d26-9e04-ec083c7b2903"
+      },
+      {
+        "$type": "Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan",
+        "Teks": "Sangat Setuju",
+        "Nilai": 5,
+        "WebId": "f816442b-fe87-4abf-971b-3eb2150a1eb3"
+      }
+    ]
+  },
+  "Trait": "Pembelajaran Berterusan",
+  "NamaUjian": "IKU",
+  "Susunan": 38.0,
+  "Kategori": "Pembelajaran Berterusan",
+  "Bahagian": "A",
+  "CreatedBy": "admin",
+  "Id": "abf1beca-bbee-40e3-a73d-c89aa69f4dc5",
+  "CreatedDate": "2016-03-02T16:04:43.4570837+08:00",
+  "ChangedBy": "admin",
+  "ChangedDate": "2016-03-02T16:04:43.4560836+08:00",
+  "WebId": "81457bb6-fcbc-4197-b429-fb6503a681e4"
+}

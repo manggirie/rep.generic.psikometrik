@@ -1,0 +1,53 @@
+{
+  "$type": "Bespoke.epsikologi_soalan.Domain.Soalan, epsikologi.Soalan",
+  "NoRujukan": "Iku-B-12",
+  "SoalanNo": "Iku-B-12",
+  "TeksSoalan": "Ada kalanya individu perlu menipu dalam sesuatu pertandingan untuk menang. ",
+  "SeksyenSoalan": null,
+  "PilihanJawapanCollection": {
+    "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan]], domain.sph",
+    "$values": [
+      {
+        "$type": "Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan",
+        "Teks": "Sangat Tidak Setuju",
+        "Nilai": 1,
+        "WebId": "8c6604dc-3572-4599-b299-4b3849050d96"
+      },
+      {
+        "$type": "Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan",
+        "Teks": " Tidak Setuju",
+        "Nilai": 2,
+        "WebId": "97813597-969e-4464-bdbd-a16152c2d3fd"
+      },
+      {
+        "$type": "Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan",
+        "Teks": "Neutral",
+        "Nilai": 3,
+        "WebId": "f7c34aab-9296-4892-9323-e2be2b585973"
+      },
+      {
+        "$type": "Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan",
+        "Teks": "Setuju",
+        "Nilai": 4,
+        "WebId": "bab76fed-1001-45ca-891e-c6c275a9950f"
+      },
+      {
+        "$type": "Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan",
+        "Teks": "Sangat Setuju",
+        "Nilai": 5,
+        "WebId": "88a5d69f-e0a4-4b2c-b6c2-6966884a282b"
+      }
+    ]
+  },
+  "Trait": "Integriti",
+  "NamaUjian": "IKU",
+  "Susunan": 12.0,
+  "Kategori": "Integriti",
+  "Bahagian": "B",
+  "CreatedBy": "admin",
+  "Id": "01ea5424-38b3-41ba-98a9-bdf5d6049efb",
+  "CreatedDate": "2016-03-10T10:21:29.2890844+08:00",
+  "ChangedBy": "admin",
+  "ChangedDate": "2016-03-10T10:21:29.3170872+08:00",
+  "WebId": "e9231583-41b6-4705-f863-6fff18ab1491"
+}

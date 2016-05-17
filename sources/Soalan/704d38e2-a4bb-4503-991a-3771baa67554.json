@@ -1,0 +1,53 @@
+{
+  "$type": "Bespoke.epsikologi_soalan.Domain.Soalan, epsikologi.Soalan",
+  "NoRujukan": "Iku-A-2-6",
+  "SoalanNo": "Iku-A-2-6",
+  "TeksSoalan": "Saya tidak memberi reaksi berlebihan apabila berhadapan dengan situasi tidak dijangka.",
+  "SeksyenSoalan": "2",
+  "PilihanJawapanCollection": {
+    "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan]], domain.sph",
+    "$values": [
+      {
+        "$type": "Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan",
+        "Teks": "Sangat Tidak Setuju ",
+        "Nilai": 1,
+        "WebId": "c41f4324-7ae5-44d3-bef4-d1b85dc886f0"
+      },
+      {
+        "$type": "Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan",
+        "Teks": "Tidak Setuju",
+        "Nilai": 2,
+        "WebId": "c2dfb9d3-302c-4820-b6d5-fdf350e495bb"
+      },
+      {
+        "$type": "Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan",
+        "Teks": "Neutral",
+        "Nilai": 3,
+        "WebId": "6a209b9d-14a9-429a-9c5e-5097b0371723"
+      },
+      {
+        "$type": "Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan",
+        "Teks": "Setuju ",
+        "Nilai": 4,
+        "WebId": "88890ea5-1ac8-4915-982b-27e54b724317"
+      },
+      {
+        "$type": "Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan",
+        "Teks": "Sangat Setuju",
+        "Nilai": 5,
+        "WebId": "33c7bab6-8ab9-4eb6-bde6-4a1daf41e11f"
+      }
+    ]
+  },
+  "Trait": "Pengendalian Tekanan Kerja",
+  "NamaUjian": "IKU",
+  "Susunan": 14.0,
+  "Kategori": null,
+  "Bahagian": "A",
+  "CreatedBy": "bpps",
+  "Id": "704d38e2-a4bb-4503-991a-3771baa67554",
+  "CreatedDate": "2016-01-07T09:32:16.645672+08:00",
+  "ChangedBy": "bpps",
+  "ChangedDate": "2016-01-07T09:32:16.6436718+08:00",
+  "WebId": "182172e1-80b3-41ec-cdcc-3b973fc4fc17"
+}

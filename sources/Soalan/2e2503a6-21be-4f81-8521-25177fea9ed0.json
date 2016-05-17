@@ -1,0 +1,53 @@
+{
+  "$type": "Bespoke.epsikologi_soalan.Domain.Soalan, epsikologi.Soalan",
+  "NoRujukan": "Iku-B-36",
+  "SoalanNo": "Iku-B-36",
+  "TeksSoalan": "Apabila membuat keputusan, individu perlu memihak kepada mereka yang menyokongnya.  ",
+  "SeksyenSoalan": null,
+  "PilihanJawapanCollection": {
+    "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan]], domain.sph",
+    "$values": [
+      {
+        "$type": "Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan",
+        "Teks": "Sangat Tidak Setuju",
+        "Nilai": 1,
+        "WebId": "9bc732bb-630b-4fa7-a52e-762e64ccc01f"
+      },
+      {
+        "$type": "Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan",
+        "Teks": "Tidak Setuju",
+        "Nilai": 2,
+        "WebId": "dbd64479-259e-4e98-b99b-35e664565062"
+      },
+      {
+        "$type": "Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan",
+        "Teks": "Neutral",
+        "Nilai": 3,
+        "WebId": "e21639cc-0f0d-4ee0-b434-30ad023688fa"
+      },
+      {
+        "$type": "Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan",
+        "Teks": "Setuju",
+        "Nilai": 4,
+        "WebId": "0171cbef-78eb-40bb-bd23-0588a0683e18"
+      },
+      {
+        "$type": "Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan",
+        "Teks": "Sangat Setuju",
+        "Nilai": 5,
+        "WebId": "f3828781-a59d-4b32-912d-458711bdd997"
+      }
+    ]
+  },
+  "Trait": "Integriti",
+  "NamaUjian": "IKU",
+  "Susunan": 36.0,
+  "Kategori": "Integriti",
+  "Bahagian": "B",
+  "CreatedBy": "admin",
+  "Id": "2e2503a6-21be-4f81-8521-25177fea9ed0",
+  "CreatedDate": "2016-03-30T09:57:56.3000621+08:00",
+  "ChangedBy": "admin",
+  "ChangedDate": "2016-03-30T09:57:56.299062+08:00",
+  "WebId": "ca2ed661-3ea4-4b95-a46e-b47c846a098f"
+}

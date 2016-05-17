@@ -1,0 +1,53 @@
+{
+  "$type": "Bespoke.epsikologi_soalan.Domain.Soalan, epsikologi.Soalan",
+  "NoRujukan": "Iku-B-17",
+  "SoalanNo": "Iku-B-17",
+  "TeksSoalan": "Tidak mengapa memanipulasi pegawai di bawah seliaan bagi mencapai matlamat jabatan. ",
+  "SeksyenSoalan": null,
+  "PilihanJawapanCollection": {
+    "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan]], domain.sph",
+    "$values": [
+      {
+        "$type": "Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan",
+        "Teks": "Sangat Tidak Setuju",
+        "Nilai": 1,
+        "WebId": "5d178aac-3a27-4588-9709-d5ff22f461bd"
+      },
+      {
+        "$type": "Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan",
+        "Teks": "Tidak Setuju",
+        "Nilai": 2,
+        "WebId": "2f543011-3825-413e-8b1e-a07a06f81f42"
+      },
+      {
+        "$type": "Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan",
+        "Teks": "Neutral",
+        "Nilai": 3,
+        "WebId": "bc8ea482-1d02-4187-aba1-3214a909b3d3"
+      },
+      {
+        "$type": "Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan",
+        "Teks": "Setuju",
+        "Nilai": 4,
+        "WebId": "6bb6e955-9b3f-4ef6-a7a0-6d3c8c2e5b83"
+      },
+      {
+        "$type": "Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan",
+        "Teks": "Sangat Setuju",
+        "Nilai": 5,
+        "WebId": "0104678b-9596-46a4-b162-7dc642300bfd"
+      }
+    ]
+  },
+  "Trait": "Integriti",
+  "NamaUjian": "IKU",
+  "Susunan": 17.0,
+  "Kategori": "Integriti",
+  "Bahagian": "B",
+  "CreatedBy": "admin",
+  "Id": "e9b0cc15-704e-4801-ae2a-709b6d55c71e",
+  "CreatedDate": "2016-03-10T11:32:18.7229853+08:00",
+  "ChangedBy": "admin",
+  "ChangedDate": "2016-03-10T11:32:18.7169847+08:00",
+  "WebId": "70427095-1fa3-4eab-8550-a7496d261389"
+}

@@ -1,0 +1,53 @@
+{
+  "$type": "Bespoke.epsikologi_soalan.Domain.Soalan, epsikologi.Soalan",
+  "NoRujukan": "Iku-A-4-1",
+  "SoalanNo": "Iku-A-4-1",
+  "TeksSoalan": "Saya boleh menyesuaikan matlamat, perancangan, tindakan atau keutamaan dengan perubahan yang berlaku.",
+  "SeksyenSoalan": "4",
+  "PilihanJawapanCollection": {
+    "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan]], domain.sph",
+    "$values": [
+      {
+        "$type": "Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan",
+        "Teks": "Sangat Tidak Setuju",
+        "Nilai": 1,
+        "WebId": "19c1ee39-09c2-459d-9945-4dfa9d39b4de"
+      },
+      {
+        "$type": "Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan",
+        "Teks": "Tidak Setuju",
+        "Nilai": 2,
+        "WebId": "475eb1ad-e9e6-46b8-b3c8-d1b29a967dbf"
+      },
+      {
+        "$type": "Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan",
+        "Teks": "Neutral",
+        "Nilai": 3,
+        "WebId": "af5a3938-ffe0-4814-a160-29e6a5c754ea"
+      },
+      {
+        "$type": "Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan",
+        "Teks": "Setuju",
+        "Nilai": 4,
+        "WebId": "bde4d72e-3659-4f3b-96a1-7c9a125d6379"
+      },
+      {
+        "$type": "Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan",
+        "Teks": "Sangat Setuju",
+        "Nilai": 5,
+        "WebId": "35678dfd-577e-4565-beb1-61f48553ea6a"
+      }
+    ]
+  },
+  "Trait": "Situasi Di Luar Jangka",
+  "NamaUjian": "IKU",
+  "Susunan": 24.0,
+  "Kategori": "Situasi Di Luar Jangka",
+  "Bahagian": "A",
+  "CreatedBy": "admin",
+  "Id": "2efbd801-46bd-4e5f-ad0f-d35ecd688340",
+  "CreatedDate": "2016-03-02T11:29:03.1182152+08:00",
+  "ChangedBy": "admin",
+  "ChangedDate": "2016-03-02T11:29:03.1122146+08:00",
+  "WebId": "5e03d47c-a381-45bb-c767-6d375731f24f"
+}

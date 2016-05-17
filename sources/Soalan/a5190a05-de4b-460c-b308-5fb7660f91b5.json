@@ -1,0 +1,53 @@
+{
+  "$type": "Bespoke.epsikologi_soalan.Domain.Soalan, epsikologi.Soalan",
+  "NoRujukan": "Iku-A-4-6",
+  "SoalanNo": "Iku-A-4-6",
+  "TeksSoalan": "Saya berupaya bertindak walaupun dengan maklumat yang terhad.",
+  "SeksyenSoalan": "4",
+  "PilihanJawapanCollection": {
+    "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan]], domain.sph",
+    "$values": [
+      {
+        "$type": "Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan",
+        "Teks": "Sangat Tidak Setuju",
+        "Nilai": 1,
+        "WebId": "a6ccc9ca-26fb-4905-b890-d06e8bd6e516"
+      },
+      {
+        "$type": "Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan",
+        "Teks": "Tidak Setuju",
+        "Nilai": 2,
+        "WebId": "16de5273-7f1d-425f-b674-776228f73096"
+      },
+      {
+        "$type": "Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan",
+        "Teks": "Neutral",
+        "Nilai": 3,
+        "WebId": "40a76606-c7ea-4a64-8f3a-8920a80cb38e"
+      },
+      {
+        "$type": "Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan",
+        "Teks": "Setuju",
+        "Nilai": 4,
+        "WebId": "8ab6ab2f-2b2a-4b4f-b51e-3e759bcad10c"
+      },
+      {
+        "$type": "Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan",
+        "Teks": "Sangat Setuju",
+        "Nilai": 5,
+        "WebId": "029ea23e-4208-4b59-863b-cb554198d360"
+      }
+    ]
+  },
+  "Trait": "Situasi Di Luar Jangka",
+  "NamaUjian": "IKU",
+  "Susunan": 29.0,
+  "Kategori": "Situasi Di Luar Jangka",
+  "Bahagian": "A",
+  "CreatedBy": "admin",
+  "Id": "a5190a05-de4b-460c-b308-5fb7660f91b5",
+  "CreatedDate": "2016-03-02T14:49:03.2181052+08:00",
+  "ChangedBy": "admin",
+  "ChangedDate": "2016-03-02T14:49:03.2121046+08:00",
+  "WebId": "180c7c27-37ba-4029-e12e-351de0454f13"
+}

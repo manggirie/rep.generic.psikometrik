@@ -1,0 +1,53 @@
+{
+  "$type": "Bespoke.epsikologi_soalan.Domain.Soalan, epsikologi.Soalan",
+  "NoRujukan": "Iku-B-15",
+  "SoalanNo": "Iku-B-15",
+  "TeksSoalan": "Individu perlu menguruskan ahli keluarga yang  sakit terlebih dahulu, walaupun terdapat tugasan penting di pejabat. ",
+  "SeksyenSoalan": null,
+  "PilihanJawapanCollection": {
+    "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan]], domain.sph",
+    "$values": [
+      {
+        "$type": "Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan",
+        "Teks": "Sangat Tidak Setuju",
+        "Nilai": 1,
+        "WebId": "8455928d-433f-40cb-b069-bb5c60e3eda0"
+      },
+      {
+        "$type": "Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan",
+        "Teks": "Tidak Setuju",
+        "Nilai": 2,
+        "WebId": "3ff58720-e7d6-4c23-add8-d9dd61fcef5b"
+      },
+      {
+        "$type": "Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan",
+        "Teks": "Neutral",
+        "Nilai": 3,
+        "WebId": "0fbcc0b8-3596-4538-9923-cb0eb1c5d538"
+      },
+      {
+        "$type": "Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan",
+        "Teks": "Setuju",
+        "Nilai": 4,
+        "WebId": "e72445b3-d231-495c-92d9-fdac2d297696"
+      },
+      {
+        "$type": "Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan",
+        "Teks": "Sangat Setuju",
+        "Nilai": 5,
+        "WebId": "370df9c5-3ceb-417e-a08d-a31290d8cd55"
+      }
+    ]
+  },
+  "Trait": "Integriti",
+  "NamaUjian": "IKU",
+  "Susunan": 15.0,
+  "Kategori": "Integriti",
+  "Bahagian": "B",
+  "CreatedBy": "admin",
+  "Id": "79a0c7c8-de53-4f7f-841c-f967677503fb",
+  "CreatedDate": "2016-03-10T10:30:14.237574+08:00",
+  "ChangedBy": "admin",
+  "ChangedDate": "2016-03-10T10:30:14.267577+08:00",
+  "WebId": "55fb8d4a-35b1-47dc-9512-ea658b0e5cfe"
+}

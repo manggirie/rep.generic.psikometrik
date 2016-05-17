@@ -1,0 +1,53 @@
+{
+  "$type": "Bespoke.epsikologi_soalan.Domain.Soalan, epsikologi.Soalan",
+  "NoRujukan": "Iku-B-33",
+  "SoalanNo": "Iku-B-33",
+  "TeksSoalan": "Bergosip untuk memburukkan individu yang kurang disenangi bukanlah menjadi satu kesalahan.",
+  "SeksyenSoalan": null,
+  "PilihanJawapanCollection": {
+    "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan]], domain.sph",
+    "$values": [
+      {
+        "$type": "Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan",
+        "Teks": "Sangat Tidak Setuju",
+        "Nilai": 1,
+        "WebId": "17e2aa9e-7f77-4d5a-81c2-05a61c2eae64"
+      },
+      {
+        "$type": "Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan",
+        "Teks": "Tidak Setuju",
+        "Nilai": 2,
+        "WebId": "add79ba6-b1f6-4b24-b515-a2e2908d1c57"
+      },
+      {
+        "$type": "Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan",
+        "Teks": "Neutral",
+        "Nilai": 3,
+        "WebId": "bd6c45d9-6b66-4319-a748-7562ab8636ff"
+      },
+      {
+        "$type": "Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan",
+        "Teks": "Setuju",
+        "Nilai": 4,
+        "WebId": "b43d01b6-1b27-40c7-88c4-c4a1064d1724"
+      },
+      {
+        "$type": "Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan",
+        "Teks": "Sangat Setuju",
+        "Nilai": 5,
+        "WebId": "bbd29205-c149-44da-9fa9-4460bc557e3b"
+      }
+    ]
+  },
+  "Trait": "Integriti",
+  "NamaUjian": "IKU",
+  "Susunan": 33.0,
+  "Kategori": "Integriti",
+  "Bahagian": "B",
+  "CreatedBy": "admin",
+  "Id": "76fa9520-57e6-4177-8522-59eda7133f10",
+  "CreatedDate": "2016-03-22T16:24:49.0461916+08:00",
+  "ChangedBy": "admin",
+  "ChangedDate": "2016-03-22T16:24:49.0451915+08:00",
+  "WebId": "a754c74f-fc6b-4dea-b9c7-4c92023f3805"
+}

@@ -1,0 +1,53 @@
+{
+  "$type": "Bespoke.epsikologi_soalan.Domain.Soalan, epsikologi.Soalan",
+  "NoRujukan": "Iku-A-8-3",
+  "SoalanNo": "Iku-A-8-3",
+  "TeksSoalan": "Saya boleh bekerja lebih masa walaupun selepas melalui jadual kerja yang padat. ",
+  "SeksyenSoalan": "8",
+  "PilihanJawapanCollection": {
+    "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan]], domain.sph",
+    "$values": [
+      {
+        "$type": "Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan",
+        "Teks": "Sangat Tidak Setuju",
+        "Nilai": 1,
+        "WebId": "bb32e9d6-e4f8-47b1-9632-cfee3c50ad47"
+      },
+      {
+        "$type": "Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan",
+        "Teks": "Tidak Setuju",
+        "Nilai": 2,
+        "WebId": "3996504f-7a14-42f3-bef9-d8c2eec9cc59"
+      },
+      {
+        "$type": "Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan",
+        "Teks": "Neutral",
+        "Nilai": 3,
+        "WebId": "2317b022-6be7-455c-97bc-770730075dff"
+      },
+      {
+        "$type": "Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan",
+        "Teks": "Setuju",
+        "Nilai": 4,
+        "WebId": "14766abd-eccf-400f-8ec3-41252ccb37f3"
+      },
+      {
+        "$type": "Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan",
+        "Teks": "Sangat Setuju",
+        "Nilai": 5,
+        "WebId": "616b8e50-1042-4827-936b-b44619f7055e"
+      }
+    ]
+  },
+  "Trait": "Adaptasi Fizikal",
+  "NamaUjian": "IKU",
+  "Susunan": 62.0,
+  "Kategori": "Adaptasi Fizikal",
+  "Bahagian": "A",
+  "CreatedBy": "admin",
+  "Id": "2d5fd43b-e81b-4efc-a280-8519e17c0df9",
+  "CreatedDate": "2016-03-09T09:48:03.3058405+08:00",
+  "ChangedBy": "admin",
+  "ChangedDate": "2016-03-09T09:48:03.3348434+08:00",
+  "WebId": "0db0c129-e56b-4c02-e588-91025d71b428"
+}

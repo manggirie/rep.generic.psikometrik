@@ -1,0 +1,53 @@
+{
+  "$type": "Bespoke.epsikologi_soalan.Domain.Soalan, epsikologi.Soalan",
+  "NoRujukan": "Iku-B-5",
+  "SoalanNo": "Iku-B-5",
+  "TeksSoalan": "Setiap tugasan perlu dilaksanakan walaupun adakalanya mengakibatkan ketidakpatuhan kepada peraturan. ",
+  "SeksyenSoalan": null,
+  "PilihanJawapanCollection": {
+    "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan]], domain.sph",
+    "$values": [
+      {
+        "$type": "Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan",
+        "Teks": "Sangat Tidak Setuju",
+        "Nilai": 1,
+        "WebId": "266d497e-8edf-4610-8e60-e6a62f83465a"
+      },
+      {
+        "$type": "Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan",
+        "Teks": "Tidak Setuju",
+        "Nilai": 2,
+        "WebId": "f48aff87-b48f-43e9-97b1-8f85ac5387b5"
+      },
+      {
+        "$type": "Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan",
+        "Teks": "Neutral",
+        "Nilai": 3,
+        "WebId": "4592e07c-6595-47fc-944c-7f69d2531b1c"
+      },
+      {
+        "$type": "Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan",
+        "Teks": "Setuju",
+        "Nilai": 4,
+        "WebId": "75811419-ffae-4691-bada-c7b0ee641373"
+      },
+      {
+        "$type": "Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan",
+        "Teks": "Sangat Setuju",
+        "Nilai": 5,
+        "WebId": "21b84326-504b-4bbf-9794-5768a9ce23a1"
+      }
+    ]
+  },
+  "Trait": "Integriti",
+  "NamaUjian": "IKU",
+  "Susunan": 5.0,
+  "Kategori": "Integriti",
+  "Bahagian": "B",
+  "CreatedBy": "admin",
+  "Id": "5be109a0-fa21-42c9-a080-f64168501a0f",
+  "CreatedDate": "2016-03-09T16:42:31.6707078+08:00",
+  "ChangedBy": "admin",
+  "ChangedDate": "2016-03-09T16:42:31.6697078+08:00",
+  "WebId": "6c585a14-1d91-4057-cb43-39265cdd56b3"
+}

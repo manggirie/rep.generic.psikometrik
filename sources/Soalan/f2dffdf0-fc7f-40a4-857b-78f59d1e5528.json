@@ -1,0 +1,53 @@
+{
+  "$type": "Bespoke.epsikologi_soalan.Domain.Soalan, epsikologi.Soalan",
+  "NoRujukan": "Iku-B-19",
+  "SoalanNo": "Iku-B-19",
+  "TeksSoalan": "Tidak mengapa menyindir mereka yang melakukan kesilapan. ",
+  "SeksyenSoalan": null,
+  "PilihanJawapanCollection": {
+    "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan]], domain.sph",
+    "$values": [
+      {
+        "$type": "Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan",
+        "Teks": "Sangat Tidak Setuju",
+        "Nilai": 1,
+        "WebId": "48f4c189-5c2e-43c2-ad13-fd230d14518b"
+      },
+      {
+        "$type": "Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan",
+        "Teks": "Tidak Setuju",
+        "Nilai": 2,
+        "WebId": "4c29b370-ddd5-4e9a-9f89-fc6eab0bff4f"
+      },
+      {
+        "$type": "Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan",
+        "Teks": "Neutral",
+        "Nilai": 3,
+        "WebId": "049d954c-fddb-4d5c-b5dd-cbcb75d49987"
+      },
+      {
+        "$type": "Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan",
+        "Teks": "Setuju",
+        "Nilai": 4,
+        "WebId": "22b3b7a6-b76a-477d-b988-474219a56faf"
+      },
+      {
+        "$type": "Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan",
+        "Teks": "Sangat Setuju",
+        "Nilai": 5,
+        "WebId": "b4de3a40-620b-4ef5-9d43-5aaf10011d2c"
+      }
+    ]
+  },
+  "Trait": "Integriti",
+  "NamaUjian": "IKU",
+  "Susunan": 19.0,
+  "Kategori": "Integriti",
+  "Bahagian": "B",
+  "CreatedBy": "admin",
+  "Id": "f2dffdf0-fc7f-40a4-857b-78f59d1e5528",
+  "CreatedDate": "2016-03-10T11:36:06.7907898+08:00",
+  "ChangedBy": "admin",
+  "ChangedDate": "2016-03-10T11:36:06.7887896+08:00",
+  "WebId": "583674c4-d900-41a0-bd94-b555d2f68ddb"
+}

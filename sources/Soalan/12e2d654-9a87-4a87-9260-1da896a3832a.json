@@ -1,0 +1,53 @@
+{
+  "$type": "Bespoke.epsikologi_soalan.Domain.Soalan, epsikologi.Soalan",
+  "NoRujukan": "Iku-A-6-5",
+  "SoalanNo": "Iku-A-6-5",
+  "TeksSoalan": "Saya bersikap terbuka dan menerima teguran sama ada positif atau negatif.",
+  "SeksyenSoalan": "6",
+  "PilihanJawapanCollection": {
+    "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan]], domain.sph",
+    "$values": [
+      {
+        "$type": "Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan",
+        "Teks": "Sangat Tidak Setuju",
+        "Nilai": 1,
+        "WebId": "c4066309-c374-4f91-8e11-05c062ec87c9"
+      },
+      {
+        "$type": "Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan",
+        "Teks": "Tidak Setuju",
+        "Nilai": 2,
+        "WebId": "a7c944ba-db92-4c28-abc5-8c2a81fc72ea"
+      },
+      {
+        "$type": "Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan",
+        "Teks": "Neutral",
+        "Nilai": 3,
+        "WebId": "3917d7f6-98b7-4908-91fa-1851fc894eb2"
+      },
+      {
+        "$type": "Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan",
+        "Teks": "Setuju",
+        "Nilai": 4,
+        "WebId": "804eeb96-373e-4c0c-a0cc-d34bbd959802"
+      },
+      {
+        "$type": "Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan",
+        "Teks": "Sangat Setuju",
+        "Nilai": 5,
+        "WebId": "342edd37-572a-451f-b2aa-79ef71239f0f"
+      }
+    ]
+  },
+  "Trait": "Kemahiran Interpersonal",
+  "NamaUjian": "IKU",
+  "Susunan": 48.0,
+  "Kategori": "Kemahiran Interpersonal",
+  "Bahagian": "A",
+  "CreatedBy": "admin",
+  "Id": "12e2d654-9a87-4a87-9260-1da896a3832a",
+  "CreatedDate": "2016-03-07T11:15:40.224813+08:00",
+  "ChangedBy": "admin",
+  "ChangedDate": "2016-03-07T11:15:40.223813+08:00",
+  "WebId": "564edb45-89ec-4211-8422-585d26988615"
+}

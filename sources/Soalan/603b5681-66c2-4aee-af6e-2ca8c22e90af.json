@@ -1,0 +1,53 @@
+{
+  "$type": "Bespoke.epsikologi_soalan.Domain.Soalan, epsikologi.Soalan",
+  "NoRujukan": "Iku-A-4-4",
+  "SoalanNo": "Iku-A-4-4",
+  "TeksSoalan": "Saya boleh menyesuaikan diri dalam situasi yang tidak jelas.",
+  "SeksyenSoalan": "4",
+  "PilihanJawapanCollection": {
+    "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan]], domain.sph",
+    "$values": [
+      {
+        "$type": "Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan",
+        "Teks": "Sangat Tidak Setuju",
+        "Nilai": 1,
+        "WebId": "08da1789-44af-4207-a2d4-ae9211fa1841"
+      },
+      {
+        "$type": "Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan",
+        "Teks": "Tidak Setuju",
+        "Nilai": 2,
+        "WebId": "b0d9e6cb-a70f-4710-b946-9ca3655f2c7b"
+      },
+      {
+        "$type": "Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan",
+        "Teks": "Neutral",
+        "Nilai": 3,
+        "WebId": "a8785505-6e39-4f1b-8a40-73eec6807a30"
+      },
+      {
+        "$type": "Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan",
+        "Teks": "Setuju",
+        "Nilai": 4,
+        "WebId": "af10898b-f078-490c-91f0-4dc8bab7a802"
+      },
+      {
+        "$type": "Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan",
+        "Teks": "Sangat Setuju",
+        "Nilai": 5,
+        "WebId": "f5c8b4fa-36e3-4f61-b70c-d6a363abdb9c"
+      }
+    ]
+  },
+  "Trait": "Situasi Di Luar Jangka",
+  "NamaUjian": "IKU",
+  "Susunan": 27.0,
+  "Kategori": "Situasi Di Luar Jangka",
+  "Bahagian": "A",
+  "CreatedBy": "admin",
+  "Id": "603b5681-66c2-4aee-af6e-2ca8c22e90af",
+  "CreatedDate": "2016-03-02T11:47:25.5774501+08:00",
+  "ChangedBy": "admin",
+  "ChangedDate": "2016-03-02T11:47:25.57645+08:00",
+  "WebId": "792a9846-b560-4046-da29-ca6a068e7f9f"
+}

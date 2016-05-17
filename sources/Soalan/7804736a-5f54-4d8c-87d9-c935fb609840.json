@@ -1,0 +1,53 @@
+{
+  "$type": "Bespoke.epsikologi_soalan.Domain.Soalan, epsikologi.Soalan",
+  "NoRujukan": "Iku-A-5-2",
+  "SoalanNo": "Iku-A-5-2",
+  "TeksSoalan": "Saya sentiasa mencari peluang (latihan atau pementoran) yang dapat membantu meningkatkan prestasi kerja. ",
+  "SeksyenSoalan": "5",
+  "PilihanJawapanCollection": {
+    "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan]], domain.sph",
+    "$values": [
+      {
+        "$type": "Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan",
+        "Teks": "Sangat Tidak Setuju",
+        "Nilai": 1,
+        "WebId": "76e9a921-6538-470e-b276-fea36fa6264e"
+      },
+      {
+        "$type": "Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan",
+        "Teks": "Tidak Setuju",
+        "Nilai": 2,
+        "WebId": "552341d3-b813-4e69-88bf-e3d09c285961"
+      },
+      {
+        "$type": "Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan",
+        "Teks": "Neutral",
+        "Nilai": 3,
+        "WebId": "43344d70-b734-4883-8795-95b368a02b89"
+      },
+      {
+        "$type": "Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan",
+        "Teks": "Setuju",
+        "Nilai": 4,
+        "WebId": "6d4e6f18-5435-4cf4-b94c-e7a6a8298d61"
+      },
+      {
+        "$type": "Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan",
+        "Teks": "Sangat Setuju",
+        "Nilai": 5,
+        "WebId": "b80778d4-ec40-4e39-abbf-0cd5a02579ee"
+      }
+    ]
+  },
+  "Trait": "Pembelajaran Berterusan",
+  "NamaUjian": "IKU",
+  "Susunan": 36.0,
+  "Kategori": "Pembelajaran Berterusan",
+  "Bahagian": "A",
+  "CreatedBy": "admin",
+  "Id": "7804736a-5f54-4d8c-87d9-c935fb609840",
+  "CreatedDate": "2016-03-02T15:56:06.7004132+08:00",
+  "ChangedBy": "admin",
+  "ChangedDate": "2016-03-02T15:56:06.6994131+08:00",
+  "WebId": "306a5f9d-9f88-499b-c836-a13f101ab99e"
+}

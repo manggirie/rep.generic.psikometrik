@@ -1,0 +1,53 @@
+{
+  "$type": "Bespoke.epsikologi_soalan.Domain.Soalan, epsikologi.Soalan",
+  "NoRujukan": "Iku-B-16",
+  "SoalanNo": "Iku-B-16",
+  "TeksSoalan": "Individu perlu melakukan apa sahaja untuk kemajuan kerjaya walaupun terpaksa melanggar peraturan.  ",
+  "SeksyenSoalan": null,
+  "PilihanJawapanCollection": {
+    "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan]], domain.sph",
+    "$values": [
+      {
+        "$type": "Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan",
+        "Teks": " Sangat Tidak Setuju",
+        "Nilai": 1,
+        "WebId": "cd4303aa-93cf-4536-b66c-b8387f14b608"
+      },
+      {
+        "$type": "Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan",
+        "Teks": "Tidak Setuju",
+        "Nilai": 2,
+        "WebId": "57924d9c-9747-45f3-b4c0-3656f39d0110"
+      },
+      {
+        "$type": "Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan",
+        "Teks": "Neutral",
+        "Nilai": 3,
+        "WebId": "209520b5-d6c2-435a-81f1-7b1ccce50da0"
+      },
+      {
+        "$type": "Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan",
+        "Teks": "Setuju",
+        "Nilai": 4,
+        "WebId": "5696b0b2-95ab-4d74-889f-09e261fce5e3"
+      },
+      {
+        "$type": "Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan",
+        "Teks": "Sangat Setuju",
+        "Nilai": 5,
+        "WebId": "f88cda56-4ce0-4ad7-8eca-f1bfd4ff2c67"
+      }
+    ]
+  },
+  "Trait": "Integriti",
+  "NamaUjian": "IKU",
+  "Susunan": 16.0,
+  "Kategori": "Integriti",
+  "Bahagian": "B",
+  "CreatedBy": "admin",
+  "Id": "506ea0d9-52c5-4fab-850b-91249cc6d198",
+  "CreatedDate": "2016-03-10T10:48:22.6414035+08:00",
+  "ChangedBy": "admin",
+  "ChangedDate": "2016-03-10T10:48:22.6714065+08:00",
+  "WebId": "a6ed0b93-a2a1-42cb-f221-95a72fa2d8d0"
+}

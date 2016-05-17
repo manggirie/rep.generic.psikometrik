@@ -1,0 +1,53 @@
+{
+  "$type": "Bespoke.epsikologi_soalan.Domain.Soalan, epsikologi.Soalan",
+  "NoRujukan": "Iku-B-29",
+  "SoalanNo": "Iku-B-29",
+  "TeksSoalan": "Adakalanya individu terpaksa menjadi seorang yang hipokrit.",
+  "SeksyenSoalan": null,
+  "PilihanJawapanCollection": {
+    "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan]], domain.sph",
+    "$values": [
+      {
+        "$type": "Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan",
+        "Teks": "Sangat Tidak Setuju",
+        "Nilai": 1,
+        "WebId": "671bc59e-69b5-49e8-9e5e-48bf27e248ae"
+      },
+      {
+        "$type": "Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan",
+        "Teks": "Tidak Setuju",
+        "Nilai": 2,
+        "WebId": "6d0e44cb-ad23-449a-b459-6d9b4052905d"
+      },
+      {
+        "$type": "Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan",
+        "Teks": "Neutral",
+        "Nilai": 3,
+        "WebId": "5ace3bda-4a00-42cb-9a22-4052b50108fb"
+      },
+      {
+        "$type": "Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan",
+        "Teks": "Setuju",
+        "Nilai": 4,
+        "WebId": "dff0fddf-ee24-4acf-bc64-d750dde591e0"
+      },
+      {
+        "$type": "Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan",
+        "Teks": "Sangat Setuju",
+        "Nilai": 5,
+        "WebId": "7c2e430e-7320-4789-96e3-5c11811cf9a4"
+      }
+    ]
+  },
+  "Trait": "Integriti",
+  "NamaUjian": "IKU",
+  "Susunan": 29.0,
+  "Kategori": "Integriti",
+  "Bahagian": null,
+  "CreatedBy": "admin",
+  "Id": "df9edb1c-46ae-409d-9c5a-9cc7ba29ec36",
+  "CreatedDate": "2016-03-22T16:17:08.3391255+08:00",
+  "ChangedBy": "admin",
+  "ChangedDate": "2016-03-22T16:17:08.3381254+08:00",
+  "WebId": "40e845d4-5896-4480-ae50-1f19bcdd33d5"
+}

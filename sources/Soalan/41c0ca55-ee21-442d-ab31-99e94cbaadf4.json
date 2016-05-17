@@ -1,0 +1,53 @@
+{
+  "$type": "Bespoke.epsikologi_soalan.Domain.Soalan, epsikologi.Soalan",
+  "NoRujukan": "Iku-A-3-4",
+  "SoalanNo": "Iku-A-3-4",
+  "TeksSoalan": "Saya berupaya menganalisis dan menghasilkan idea baru secara inovatif dalam menangani sesuatu perkara yang rumit.",
+  "SeksyenSoalan": "3",
+  "PilihanJawapanCollection": {
+    "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan]], domain.sph",
+    "$values": [
+      {
+        "$type": "Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan",
+        "Teks": "Sangat Tidak Setuju",
+        "Nilai": 1,
+        "WebId": "e0254f67-6f25-4ec3-941b-b414a1e6ab51"
+      },
+      {
+        "$type": "Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan",
+        "Teks": "Tidak Setuju",
+        "Nilai": 2,
+        "WebId": "97b3e144-11b4-4211-bcdc-6de9b7d69d9d"
+      },
+      {
+        "$type": "Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan",
+        "Teks": "Neutral",
+        "Nilai": 3,
+        "WebId": "68e112ab-7955-4306-9971-877e8fa58797"
+      },
+      {
+        "$type": "Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan",
+        "Teks": "Setuju",
+        "Nilai": 4,
+        "WebId": "32106a2e-ad7a-46db-9043-f9a9e4f7e41e"
+      },
+      {
+        "$type": "Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan",
+        "Teks": "Sangat Setuju",
+        "Nilai": 5,
+        "WebId": "69c903fb-44c4-47f4-8592-8b120d9d2a35"
+      }
+    ]
+  },
+  "Trait": "Penyelesaian Masalah Dengan Kretif",
+  "NamaUjian": "IKU",
+  "Susunan": 20.0,
+  "Kategori": "Penyelesaian Masalah Dengan Kretif",
+  "Bahagian": "A",
+  "CreatedBy": "admin",
+  "Id": "41c0ca55-ee21-442d-ab31-99e94cbaadf4",
+  "CreatedDate": "2016-03-02T09:51:06.5736195+08:00",
+  "ChangedBy": "admin",
+  "ChangedDate": "2016-03-02T09:51:06.6036225+08:00",
+  "WebId": "0229bf0d-432c-406d-bd74-b0edb9eb8950"
+}

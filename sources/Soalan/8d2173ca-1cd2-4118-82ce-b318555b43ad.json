@@ -1,0 +1,53 @@
+{
+  "$type": "Bespoke.epsikologi_soalan.Domain.Soalan, epsikologi.Soalan",
+  "NoRujukan": "Iku-B-37",
+  "SoalanNo": "Iku-B-37",
+  "TeksSoalan": "Tidak menjadi kesalahan menggunakan barangan pejabat untuk keperluan peribadi.",
+  "SeksyenSoalan": null,
+  "PilihanJawapanCollection": {
+    "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan]], domain.sph",
+    "$values": [
+      {
+        "$type": "Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan",
+        "Teks": "Sangat Tidak Setuju",
+        "Nilai": 1,
+        "WebId": "132b6570-be8a-48a2-92ba-0093d8c4a339"
+      },
+      {
+        "$type": "Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan",
+        "Teks": "Tidak Setuju",
+        "Nilai": 2,
+        "WebId": "2253c677-2c1e-4519-890b-6b07c5dcdc44"
+      },
+      {
+        "$type": "Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan",
+        "Teks": "Neutral",
+        "Nilai": 3,
+        "WebId": "abb62672-cc4a-4f42-9e66-feca7999bfb2"
+      },
+      {
+        "$type": "Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan",
+        "Teks": "Setuju",
+        "Nilai": 4,
+        "WebId": "ad32e67a-19c4-4e39-a23b-6ad4f0c6b6b6"
+      },
+      {
+        "$type": "Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan",
+        "Teks": "Sangat Setuju",
+        "Nilai": 5,
+        "WebId": "c5b1c4e1-320c-49a9-a198-5c317c68c9fb"
+      }
+    ]
+  },
+  "Trait": "Integriti",
+  "NamaUjian": "IKU",
+  "Susunan": 37.0,
+  "Kategori": "Integriti",
+  "Bahagian": "B",
+  "CreatedBy": "admin",
+  "Id": "8d2173ca-1cd2-4118-82ce-b318555b43ad",
+  "CreatedDate": "2016-03-30T10:07:42.2026465+08:00",
+  "ChangedBy": "admin",
+  "ChangedDate": "2016-03-30T10:07:42.1966459+08:00",
+  "WebId": "ee8a500a-1996-4aeb-b18a-6faca5599d40"
+}

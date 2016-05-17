@@ -1,0 +1,53 @@
+{
+  "$type": "Bespoke.epsikologi_soalan.Domain.Soalan, epsikologi.Soalan",
+  "NoRujukan": "Iku-A-6-2",
+  "SoalanNo": "Iku-A-6-2",
+  "TeksSoalan": "Saya membina hubungan positif kerana ianya membantu dalam menjalankan tugas dengan lebih baik.",
+  "SeksyenSoalan": "6",
+  "PilihanJawapanCollection": {
+    "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan]], domain.sph",
+    "$values": [
+      {
+        "$type": "Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan",
+        "Teks": "Sangat Tidak Setuju",
+        "Nilai": 1,
+        "WebId": "8c1ff436-2019-4672-9b5a-dc4a668c7149"
+      },
+      {
+        "$type": "Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan",
+        "Teks": "Tidak Setuju",
+        "Nilai": 2,
+        "WebId": "5f9aaae3-0112-45d3-9adb-b4526b414ee9"
+      },
+      {
+        "$type": "Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan",
+        "Teks": "Neutral",
+        "Nilai": 3,
+        "WebId": "80807587-6562-493d-98f1-5bb1759ebfe0"
+      },
+      {
+        "$type": "Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan",
+        "Teks": "Setuju",
+        "Nilai": 4,
+        "WebId": "a46698ee-1907-4da5-ab6a-12d4a6bb37a1"
+      },
+      {
+        "$type": "Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan",
+        "Teks": "Sangat Setuju",
+        "Nilai": 5,
+        "WebId": "e1d2340f-bc61-4c01-94b4-983a27a1ebc5"
+      }
+    ]
+  },
+  "Trait": "Kemahiran Interpersonal",
+  "NamaUjian": "IKU",
+  "Susunan": 45.0,
+  "Kategori": "Kemahiran Interpersonal",
+  "Bahagian": "A",
+  "CreatedBy": "admin",
+  "Id": "12b400b6-38f5-4f4c-a088-9542df0e3bb8",
+  "CreatedDate": "2016-03-07T10:53:47.048813+08:00",
+  "ChangedBy": "admin",
+  "ChangedDate": "2016-03-07T10:53:47.042813+08:00",
+  "WebId": "6cb15a8b-4b7c-45a4-b052-98537aee4a6d"
+}

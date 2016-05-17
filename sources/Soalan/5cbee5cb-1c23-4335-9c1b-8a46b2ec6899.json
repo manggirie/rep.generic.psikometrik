@@ -1,0 +1,53 @@
+{
+  "$type": "Bespoke.epsikologi_soalan.Domain.Soalan, epsikologi.Soalan",
+  "NoRujukan": "Iku-A-3-3",
+  "SoalanNo": "Iku-A-3-3",
+  "TeksSoalan": "Saya berusaha menangani masalah yang berlaku dengan mencari penyelesaian inovatif.",
+  "SeksyenSoalan": "3",
+  "PilihanJawapanCollection": {
+    "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan]], domain.sph",
+    "$values": [
+      {
+        "$type": "Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan",
+        "Teks": "Sangat Tidak Setuju",
+        "Nilai": 1,
+        "WebId": "89b403a0-e9ed-4a69-83f5-a77297d04746"
+      },
+      {
+        "$type": "Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan",
+        "Teks": "Tidak Setuju",
+        "Nilai": 2,
+        "WebId": "5ef3655c-167d-482a-bcca-9b9031217bed"
+      },
+      {
+        "$type": "Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan",
+        "Teks": "Neutral",
+        "Nilai": 3,
+        "WebId": "5b51b544-7749-40fc-9fb4-bb0413f6db51"
+      },
+      {
+        "$type": "Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan",
+        "Teks": "Setuju",
+        "Nilai": 4,
+        "WebId": "77147224-d5d9-4766-91a3-aabee673549c"
+      },
+      {
+        "$type": "Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan",
+        "Teks": "Sangat Setuju",
+        "Nilai": 5,
+        "WebId": "a2e66abd-3688-44d9-aba7-cecc81d2ac7c"
+      }
+    ]
+  },
+  "Trait": "Penyelesaian Masalah Dengan Kretif",
+  "NamaUjian": "IKU",
+  "Susunan": 19.0,
+  "Kategori": "Penyelesaian Masalah Dengan Kretif",
+  "Bahagian": "A",
+  "CreatedBy": "admin",
+  "Id": "5cbee5cb-1c23-4335-9c1b-8a46b2ec6899",
+  "CreatedDate": "2016-03-02T09:47:42.9002542+08:00",
+  "ChangedBy": "admin",
+  "ChangedDate": "2016-03-02T09:47:42.8952537+08:00",
+  "WebId": "7ea58dd7-4985-41db-8e8d-fd74dfb5f844"
+}

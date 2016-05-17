@@ -1,0 +1,53 @@
+{
+  "$type": "Bespoke.epsikologi_soalan.Domain.Soalan, epsikologi.Soalan",
+  "NoRujukan": "Iku-A-4-7",
+  "SoalanNo": "Iku-A-4-7",
+  "TeksSoalan": "Saya tidak terjejas walaupun berhadapan dengan suasana yang mengelirukan.",
+  "SeksyenSoalan": "4",
+  "PilihanJawapanCollection": {
+    "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan]], domain.sph",
+    "$values": [
+      {
+        "$type": "Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan",
+        "Teks": "Sangat Tidak Setuju",
+        "Nilai": 1,
+        "WebId": "d660da9f-b29f-46c7-81e9-2023d3d2c361"
+      },
+      {
+        "$type": "Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan",
+        "Teks": "Tidak Setuju",
+        "Nilai": 2,
+        "WebId": "d84c1943-abc8-4b85-a8ee-fcc4a79c9319"
+      },
+      {
+        "$type": "Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan",
+        "Teks": "Neutral",
+        "Nilai": 3,
+        "WebId": "58dcf14a-09ac-4e7c-a08c-b0de4150172f"
+      },
+      {
+        "$type": "Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan",
+        "Teks": "Setuju",
+        "Nilai": 4,
+        "WebId": "9bf07074-3b8e-44ee-81fb-0233c31cf3ff"
+      },
+      {
+        "$type": "Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan",
+        "Teks": "Sangat Setuju",
+        "Nilai": 5,
+        "WebId": "fdd72f18-81cd-41c0-af7c-e720186a45b0"
+      }
+    ]
+  },
+  "Trait": "Situasi Di Luar Jangka",
+  "NamaUjian": "IKU",
+  "Susunan": 30.0,
+  "Kategori": "Situasi Di Luar Jangka",
+  "Bahagian": "A",
+  "CreatedBy": "admin",
+  "Id": "e78c325d-4212-40d3-b74d-9d94bb94ee3d",
+  "CreatedDate": "2016-03-02T14:51:58.6026419+08:00",
+  "ChangedBy": "admin",
+  "ChangedDate": "2016-03-02T14:51:58.6016418+08:00",
+  "WebId": "6607db3e-9a9e-4027-f1c2-7fa74ea72ca2"
+}

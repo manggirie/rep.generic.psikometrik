@@ -1,0 +1,53 @@
+{
+  "$type": "Bespoke.epsikologi_soalan.Domain.Soalan, epsikologi.Soalan",
+  "NoRujukan": "Iku-A-2-7",
+  "SoalanNo": "Iku-A-2-7",
+  "TeksSoalan": "Ketenangan yang saya pamerkan mampu mempengaruhi individu lain.",
+  "SeksyenSoalan": "2",
+  "PilihanJawapanCollection": {
+    "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan]], domain.sph",
+    "$values": [
+      {
+        "$type": "Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan",
+        "Teks": "Sangat Tidak Setuju ",
+        "Nilai": 1,
+        "WebId": "b3731ef9-1fa5-4493-83c3-021aec33d318"
+      },
+      {
+        "$type": "Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan",
+        "Teks": "Tidak Setuju",
+        "Nilai": 2,
+        "WebId": "84691600-fb44-428b-b70e-3bb57fafbc80"
+      },
+      {
+        "$type": "Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan",
+        "Teks": "Neutral",
+        "Nilai": 3,
+        "WebId": "535adcd2-1723-4c99-9742-0428a18020ae"
+      },
+      {
+        "$type": "Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan",
+        "Teks": "Setuju ",
+        "Nilai": 4,
+        "WebId": "ad3bbfd8-7665-49aa-89ad-f2f8e7e1073e"
+      },
+      {
+        "$type": "Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan",
+        "Teks": "Sangat Setuju",
+        "Nilai": 5,
+        "WebId": "6a9ab83a-f409-4f7e-9666-673fbd70371e"
+      }
+    ]
+  },
+  "Trait": "Pengendalian Tekanan Kerja",
+  "NamaUjian": "IKU",
+  "Susunan": 15.0,
+  "Kategori": "Pengendalian Tekanan Kerja",
+  "Bahagian": "A",
+  "CreatedBy": "admin",
+  "Id": "176ed941-537c-4bd8-9702-73d678a5c556",
+  "CreatedDate": "2016-03-01T10:28:22.8105488+08:00",
+  "ChangedBy": "admin",
+  "ChangedDate": "2016-03-01T10:31:02.6035265+08:00",
+  "WebId": "0fceb5ff-7448-4da2-a2ec-fee3eda0af1f"
+}

@@ -1,0 +1,53 @@
+{
+  "$type": "Bespoke.epsikologi_soalan.Domain.Soalan, epsikologi.Soalan",
+  "NoRujukan": "Iku-A-7-5",
+  "SoalanNo": "Iku-A-7-5",
+  "TeksSoalan": "Saya menyesuaikan pendekatan dan tindakan bagi mengekalkan hubungan baik dengan rakan sekerja dan organisasi.",
+  "SeksyenSoalan": "7",
+  "PilihanJawapanCollection": {
+    "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan]], domain.sph",
+    "$values": [
+      {
+        "$type": "Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan",
+        "Teks": "Sangat Tidak Setuju",
+        "Nilai": 1,
+        "WebId": "f9e5230f-45c6-4e80-b727-5183d4f26503"
+      },
+      {
+        "$type": "Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan",
+        "Teks": "Tidak Setuju",
+        "Nilai": 2,
+        "WebId": "344842a4-6e38-4463-8e25-3b21fd5bc8ab"
+      },
+      {
+        "$type": "Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan",
+        "Teks": "Neutral",
+        "Nilai": 3,
+        "WebId": "7434b30c-86b9-42cf-b99c-d9548f69ee03"
+      },
+      {
+        "$type": "Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan",
+        "Teks": "Setuju",
+        "Nilai": 4,
+        "WebId": "e4d7fde8-4134-4d87-853d-309fe0d52173"
+      },
+      {
+        "$type": "Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan",
+        "Teks": "Sangat Setuju",
+        "Nilai": 5,
+        "WebId": "6bda5498-3b1d-4fb1-9c8c-7c67b262dded"
+      }
+    ]
+  },
+  "Trait": "Adaptasi Budaya",
+  "NamaUjian": "IKU",
+  "Susunan": 57.0,
+  "Kategori": "Adaptasi Budaya",
+  "Bahagian": "A",
+  "CreatedBy": "admin",
+  "Id": "4878404f-bcf9-48a1-b8ac-dba9f84a2e00",
+  "CreatedDate": "2016-03-08T15:20:01.0037566+08:00",
+  "ChangedBy": "admin",
+  "ChangedDate": "2016-03-08T15:20:01.0027566+08:00",
+  "WebId": "b387c53d-ac82-49be-d130-047aeb45a655"
+}

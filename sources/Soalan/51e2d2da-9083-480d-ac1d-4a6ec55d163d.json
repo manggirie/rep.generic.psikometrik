@@ -1,0 +1,53 @@
+{
+  "$type": "Bespoke.epsikologi_soalan.Domain.Soalan, epsikologi.Soalan",
+  "NoRujukan": "Iku-A-2-8",
+  "SoalanNo": "Iku-A-2-8",
+  "TeksSoalan": "Saya tidak terburu-buru dalam situasi yang memerlukan saya membuat banyak keputusan.",
+  "SeksyenSoalan": "2",
+  "PilihanJawapanCollection": {
+    "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan]], domain.sph",
+    "$values": [
+      {
+        "$type": "Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan",
+        "Teks": "Sangat Tidak Setuju",
+        "Nilai": 1,
+        "WebId": "b979565e-b4a0-4ae0-8953-d1b150f79f6b"
+      },
+      {
+        "$type": "Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan",
+        "Teks": "Tidak Setuju",
+        "Nilai": 2,
+        "WebId": "764a9eb6-256d-416d-8464-0c1802890a5b"
+      },
+      {
+        "$type": "Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan",
+        "Teks": "Neutral",
+        "Nilai": 3,
+        "WebId": "9786c990-2800-4427-984d-10b3e61474bb"
+      },
+      {
+        "$type": "Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan",
+        "Teks": "Setuju",
+        "Nilai": 4,
+        "WebId": "fed84835-6001-407b-a25b-ba185e1b881d"
+      },
+      {
+        "$type": "Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan",
+        "Teks": "Sangat Setuju",
+        "Nilai": 5,
+        "WebId": "578eed99-3f31-451b-a476-ade710eb772f"
+      }
+    ]
+  },
+  "Trait": "Pengendalian Tekanan Kerja",
+  "NamaUjian": "IKU",
+  "Susunan": 16.0,
+  "Kategori": "Pengendalian Tekanan Kerja",
+  "Bahagian": "A",
+  "CreatedBy": "admin",
+  "Id": "51e2d2da-9083-480d-ac1d-4a6ec55d163d",
+  "CreatedDate": "2016-03-02T09:16:35.3745203+08:00",
+  "ChangedBy": "admin",
+  "ChangedDate": "2016-03-02T09:26:01.3511123+08:00",
+  "WebId": "020a12e8-a3f5-4e2f-dce6-1eddd6812916"
+}

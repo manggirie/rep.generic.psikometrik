@@ -1,0 +1,53 @@
+{
+  "$type": "Bespoke.epsikologi_soalan.Domain.Soalan, epsikologi.Soalan",
+  "NoRujukan": "Iku-A-5-8",
+  "SoalanNo": "Iku-A-5-8",
+  "TeksSoalan": "Saya cepat dan mudah mempelajari kaedah baru dalam melaksanakan tugasan.",
+  "SeksyenSoalan": "5",
+  "PilihanJawapanCollection": {
+    "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan]], domain.sph",
+    "$values": [
+      {
+        "$type": "Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan",
+        "Teks": "Sangat Tidak Setuju",
+        "Nilai": 1,
+        "WebId": "5a376d04-1ceb-4266-bd02-26d152c78324"
+      },
+      {
+        "$type": "Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan",
+        "Teks": "Tidak Setuju",
+        "Nilai": 2,
+        "WebId": "c448c47d-70d3-4350-b12e-7735fd5ae9ba"
+      },
+      {
+        "$type": "Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan",
+        "Teks": "Neutral",
+        "Nilai": 3,
+        "WebId": "6cf137ab-f547-48c0-8de8-0698d3b4284d"
+      },
+      {
+        "$type": "Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan",
+        "Teks": "Setuju",
+        "Nilai": 4,
+        "WebId": "5601757a-7699-4dbe-a7fc-94f6f7ed135d"
+      },
+      {
+        "$type": "Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan",
+        "Teks": "Sangat Setuju",
+        "Nilai": 5,
+        "WebId": "c4f5e807-e12b-4cbe-838f-e1fd1d3e052d"
+      }
+    ]
+  },
+  "Trait": "Pembelajaran Berterusan",
+  "NamaUjian": "IKU",
+  "Susunan": 42.0,
+  "Kategori": "Pembelajaran Berterusan",
+  "Bahagian": "A",
+  "CreatedBy": "admin",
+  "Id": "55e92f0d-8da7-4a24-89a3-e104c3af3b13",
+  "CreatedDate": "2016-03-02T16:21:57.9275204+08:00",
+  "ChangedBy": "admin",
+  "ChangedDate": "2016-03-02T16:21:57.9585235+08:00",
+  "WebId": "0b959503-4ec1-4619-d00b-963477099ecd"
+}

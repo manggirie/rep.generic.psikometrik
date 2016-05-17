@@ -1,0 +1,53 @@
+{
+  "$type": "Bespoke.epsikologi_soalan.Domain.Soalan, epsikologi.Soalan",
+  "NoRujukan": "Iku-A-5-9",
+  "SoalanNo": "Iku-A-5-9",
+  "TeksSoalan": "Saya berusaha memperbaiki kelemahan diri.",
+  "SeksyenSoalan": "5",
+  "PilihanJawapanCollection": {
+    "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan]], domain.sph",
+    "$values": [
+      {
+        "$type": "Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan",
+        "Teks": "Sangat Tidak Setuju",
+        "Nilai": 1,
+        "WebId": "4ed7f02d-3348-4ae4-8aff-6c72508c1fc1"
+      },
+      {
+        "$type": "Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan",
+        "Teks": "Tidak Setuju",
+        "Nilai": 2,
+        "WebId": "ff8d567f-ee72-4722-9516-2e6d2e07900e"
+      },
+      {
+        "$type": "Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan",
+        "Teks": "Neutral",
+        "Nilai": 3,
+        "WebId": "0b95c0fd-0e4b-433c-85b2-e4f51dca7395"
+      },
+      {
+        "$type": "Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan",
+        "Teks": "Setuju",
+        "Nilai": 4,
+        "WebId": "6e2990ce-4dde-4626-b8e0-e01ca6e76a89"
+      },
+      {
+        "$type": "Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan",
+        "Teks": "Sangat Setuju",
+        "Nilai": 5,
+        "WebId": "b26de175-ef6a-40a0-ab27-37506e79fd4a"
+      }
+    ]
+  },
+  "Trait": "Pembelajaran Berterusan",
+  "NamaUjian": "IKU",
+  "Susunan": 43.0,
+  "Kategori": "Pembelajaran Berterusan",
+  "Bahagian": "A",
+  "CreatedBy": "admin",
+  "Id": "a1a5c723-db04-4fef-9625-fc3348a97c04",
+  "CreatedDate": "2016-03-02T16:25:33.8391094+08:00",
+  "ChangedBy": "admin",
+  "ChangedDate": "2016-03-02T16:25:33.8381093+08:00",
+  "WebId": "0950b09b-9a61-4493-ed1b-3497c7779e38"
+}

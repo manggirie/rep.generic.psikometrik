@@ -1,0 +1,53 @@
+{
+  "$type": "Bespoke.epsikologi_soalan.Domain.Soalan, epsikologi.Soalan",
+  "NoRujukan": "Iku-A-8-6",
+  "SoalanNo": "Iku-A-8-6",
+  "TeksSoalan": "Saya bersedia mengambil risiko untuk melakukan tugas-tugas yang berbahaya.",
+  "SeksyenSoalan": "8",
+  "PilihanJawapanCollection": {
+    "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan]], domain.sph",
+    "$values": [
+      {
+        "$type": "Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan",
+        "Teks": "Sangat Tidak Setuju",
+        "Nilai": 1,
+        "WebId": "d6bec774-b9fa-4825-aa45-360d11feb906"
+      },
+      {
+        "$type": "Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan",
+        "Teks": "Tidak Setuju",
+        "Nilai": 2,
+        "WebId": "9b190c54-d145-42f5-88cb-cb9bbb6f39de"
+      },
+      {
+        "$type": "Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan",
+        "Teks": "Neutral",
+        "Nilai": 3,
+        "WebId": "328ed8f6-285f-4233-9b66-12cab99e2f44"
+      },
+      {
+        "$type": "Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan",
+        "Teks": "Setuju",
+        "Nilai": 4,
+        "WebId": "0390b60f-7221-486e-9af9-9b873c9f0c23"
+      },
+      {
+        "$type": "Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan",
+        "Teks": "Sangat Setuju",
+        "Nilai": 5,
+        "WebId": "c4edb2ba-3ced-4f99-a01c-3d5d9ebe51ff"
+      }
+    ]
+  },
+  "Trait": "Adaptasi Fizikal",
+  "NamaUjian": "IKU",
+  "Susunan": 65.0,
+  "Kategori": "Adaptasi Fizikal",
+  "Bahagian": "A",
+  "CreatedBy": "admin",
+  "Id": "5dce49b2-96c0-44a1-b84c-755ce7c57d74",
+  "CreatedDate": "2016-03-09T09:55:27.435249+08:00",
+  "ChangedBy": "admin",
+  "ChangedDate": "2016-03-09T09:55:27.4642519+08:00",
+  "WebId": "e8c0d7c7-e40c-4db8-b6cb-0d379f5756d7"
+}

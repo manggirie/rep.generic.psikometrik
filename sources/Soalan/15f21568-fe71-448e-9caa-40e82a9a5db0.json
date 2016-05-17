@@ -1,0 +1,53 @@
+{
+  "$type": "Bespoke.epsikologi_soalan.Domain.Soalan, epsikologi.Soalan",
+  "NoRujukan": "Iku-B-14",
+  "SoalanNo": "Iku-B-14",
+  "TeksSoalan": "Individu perlu mengotakan janji yang dibuat walaupun  berhadapan dengan kesukaran.",
+  "SeksyenSoalan": null,
+  "PilihanJawapanCollection": {
+    "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan]], domain.sph",
+    "$values": [
+      {
+        "$type": "Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan",
+        "Teks": "Sangat Tidak Setuju",
+        "Nilai": 1,
+        "WebId": "976c6000-19e9-4590-a80b-99d4036c3d81"
+      },
+      {
+        "$type": "Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan",
+        "Teks": "Tidak Setuju",
+        "Nilai": 2,
+        "WebId": "5ada5cb1-0335-4688-8242-3e1ee663fe07"
+      },
+      {
+        "$type": "Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan",
+        "Teks": "Neutral",
+        "Nilai": 3,
+        "WebId": "58b57b75-c0b3-4a4d-9244-b77cc01054f7"
+      },
+      {
+        "$type": "Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan",
+        "Teks": "Setuju",
+        "Nilai": 4,
+        "WebId": "9efd9cd7-3fd9-41e5-86e2-719a77888f8b"
+      },
+      {
+        "$type": "Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan",
+        "Teks": "Sangat Setuju",
+        "Nilai": 5,
+        "WebId": "abffd24f-316a-4590-a56d-a29910b6378b"
+      }
+    ]
+  },
+  "Trait": "Integriti",
+  "NamaUjian": "IKU",
+  "Susunan": 14.0,
+  "Kategori": "Integriti",
+  "Bahagian": "B",
+  "CreatedBy": "admin",
+  "Id": "15f21568-fe71-448e-9caa-40e82a9a5db0",
+  "CreatedDate": "2016-03-10T10:25:47.6589188+08:00",
+  "ChangedBy": "admin",
+  "ChangedDate": "2016-03-10T10:25:47.6889218+08:00",
+  "WebId": "d49e45b7-606c-450a-e2a7-a22824481601"
+}

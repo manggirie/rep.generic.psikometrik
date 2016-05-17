@@ -1,0 +1,53 @@
+{
+  "$type": "Bespoke.epsikologi_soalan.Domain.Soalan, epsikologi.Soalan",
+  "NoRujukan": "Iku-B-24",
+  "SoalanNo": "Iku-B-24",
+  "TeksSoalan": "Tidak mengapa mengabaikan dasar dan peraturan bagi mencapai matlamat jabatan. ",
+  "SeksyenSoalan": null,
+  "PilihanJawapanCollection": {
+    "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan]], domain.sph",
+    "$values": [
+      {
+        "$type": "Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan",
+        "Teks": "Sangat Tidak Setuju",
+        "Nilai": 1,
+        "WebId": "031d1920-b46f-47bd-ad6a-ea78232af3bb"
+      },
+      {
+        "$type": "Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan",
+        "Teks": "Tidak Setuju",
+        "Nilai": 2,
+        "WebId": "6d12d735-b5d5-4ae2-a952-b4ec35dd6736"
+      },
+      {
+        "$type": "Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan",
+        "Teks": "Neutral",
+        "Nilai": 3,
+        "WebId": "f76dad8f-b6b9-4130-98a1-71b1c89917d9"
+      },
+      {
+        "$type": "Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan",
+        "Teks": "Setuju",
+        "Nilai": 4,
+        "WebId": "cd8c09a9-0ebc-4dc0-9ad5-6ef999f35235"
+      },
+      {
+        "$type": "Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan",
+        "Teks": "Sangat Setuju",
+        "Nilai": 5,
+        "WebId": "8e8c4c24-c290-46b1-ad9c-dd15e8443450"
+      }
+    ]
+  },
+  "Trait": "Integriti",
+  "NamaUjian": "IKU",
+  "Susunan": 24.0,
+  "Kategori": "Integriti",
+  "Bahagian": "B",
+  "CreatedBy": "admin",
+  "Id": "9b053a9f-dbcc-4cb3-a905-fd1ca433477b",
+  "CreatedDate": "2016-03-18T16:44:40.8502799+08:00",
+  "ChangedBy": "admin",
+  "ChangedDate": "2016-03-18T16:44:40.8792799+08:00",
+  "WebId": "3c64e12f-b9e3-4cc8-c93a-96e748193684"
+}

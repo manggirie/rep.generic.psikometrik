@@ -1,0 +1,53 @@
+{
+  "$type": "Bespoke.epsikologi_soalan.Domain.Soalan, epsikologi.Soalan",
+  "NoRujukan": "Iku-A-3-6",
+  "SoalanNo": "Iku-A-3-6",
+  "TeksSoalan": "Saya menjadi rujukan rakan sekerja apabila mereka menghadapi masalah mencari penyelesaian baru.",
+  "SeksyenSoalan": "3",
+  "PilihanJawapanCollection": {
+    "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan]], domain.sph",
+    "$values": [
+      {
+        "$type": "Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan",
+        "Teks": "Sangat Tidak Setuju",
+        "Nilai": 1,
+        "WebId": "ad8edbf2-4134-4551-8448-f3c383bc7534"
+      },
+      {
+        "$type": "Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan",
+        "Teks": "Tidak Setuju",
+        "Nilai": 2,
+        "WebId": "d676be82-af5f-4b3f-a90f-9b1077779122"
+      },
+      {
+        "$type": "Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan",
+        "Teks": "Neutral",
+        "Nilai": 3,
+        "WebId": "45f34528-3adb-47ae-a78b-41c7f6926ef1"
+      },
+      {
+        "$type": "Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan",
+        "Teks": "Setuju",
+        "Nilai": 4,
+        "WebId": "050b3f8c-d857-4a0f-880a-82d3a1b4f2c9"
+      },
+      {
+        "$type": "Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan",
+        "Teks": "Sangat Setuju",
+        "Nilai": 5,
+        "WebId": "b73d75be-ffcb-499c-92fd-e430f619f553"
+      }
+    ]
+  },
+  "Trait": "Penyelesaian Masalah Dengan Kretif",
+  "NamaUjian": "IKU",
+  "Susunan": 22.0,
+  "Kategori": "Penyelesaian Masalah Dengan Kretif",
+  "Bahagian": "A",
+  "CreatedBy": "admin",
+  "Id": "68d6fb53-10dd-4a44-8cda-90c0494e30cb",
+  "CreatedDate": "2016-03-02T10:36:44.4203768+08:00",
+  "ChangedBy": "admin",
+  "ChangedDate": "2016-03-02T10:36:44.4193767+08:00",
+  "WebId": "61eb5fa3-c0cc-411b-d841-83816cef6535"
+}

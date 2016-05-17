@@ -1,0 +1,53 @@
+{
+  "$type": "Bespoke.epsikologi_soalan.Domain.Soalan, epsikologi.Soalan",
+  "NoRujukan": "Iku-A-7-7",
+  "SoalanNo": "Iku-A-7-7",
+  "TeksSoalan": "Saya tidak ada masalah dalam memahami cara orang lain bekerja. ",
+  "SeksyenSoalan": "7",
+  "PilihanJawapanCollection": {
+    "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan]], domain.sph",
+    "$values": [
+      {
+        "$type": "Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan",
+        "Teks": "Sangat Tidak Setuju",
+        "Nilai": 1,
+        "WebId": "657413f6-1cb5-4f53-d464-de35f0007f47"
+      },
+      {
+        "$type": "Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan",
+        "Teks": "Tidak Setuju",
+        "Nilai": 2,
+        "WebId": "cb6adadf-0355-4411-cd09-74858281591a"
+      },
+      {
+        "$type": "Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan",
+        "Teks": "Neutral",
+        "Nilai": 3,
+        "WebId": "d15032bc-99e4-4b95-baa2-198b9536b6d8"
+      },
+      {
+        "$type": "Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan",
+        "Teks": "Setuju",
+        "Nilai": 4,
+        "WebId": "47a0473c-1b49-4fe9-b447-7dd78fcc47e8"
+      },
+      {
+        "$type": "Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan",
+        "Teks": "Sangat Setuju",
+        "Nilai": 5,
+        "WebId": "88581622-3bf6-4a2d-d8d9-2d4d05921c57"
+      }
+    ]
+  },
+  "Trait": "Adaptasi Budaya",
+  "NamaUjian": "IKU",
+  "Susunan": 59.0,
+  "Kategori": "Adaptasi Budaya",
+  "Bahagian": "A",
+  "CreatedBy": "admin",
+  "Id": "05294d25-0d79-4395-a337-cf99284a8c62",
+  "CreatedDate": "2016-03-08T15:23:23.8697566+08:00",
+  "ChangedBy": "admin",
+  "ChangedDate": "2016-03-09T09:39:45.9781127+08:00",
+  "WebId": "9c4958a2-8e06-4fbb-d733-062038d2517e"
+}

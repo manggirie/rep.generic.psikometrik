@@ -1,0 +1,53 @@
+{
+  "$type": "Bespoke.epsikologi_soalan.Domain.Soalan, epsikologi.Soalan",
+  "NoRujukan": "Iku-A-4-3",
+  "SoalanNo": "Iku-A-4-3",
+  "TeksSoalan": "Saya berupaya fokus dalam melakukan sesuatu tanpa dipengaruhi oleh situasi yang tidak menentu.  ",
+  "SeksyenSoalan": "4",
+  "PilihanJawapanCollection": {
+    "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan]], domain.sph",
+    "$values": [
+      {
+        "$type": "Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan",
+        "Teks": "Sangat Tidak Setuju",
+        "Nilai": 1,
+        "WebId": "c247a165-d115-45c3-80fd-138a261bb11c"
+      },
+      {
+        "$type": "Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan",
+        "Teks": "Tidak Setuju",
+        "Nilai": 2,
+        "WebId": "e0b4708f-5a65-432c-8da8-54f35aa09b17"
+      },
+      {
+        "$type": "Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan",
+        "Teks": "Neutral",
+        "Nilai": 3,
+        "WebId": "341f4373-d4b6-4e05-b6df-524bf764c47c"
+      },
+      {
+        "$type": "Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan",
+        "Teks": "Setuju",
+        "Nilai": 4,
+        "WebId": "030c4f9c-8004-4700-84aa-9ba7ea4d8bde"
+      },
+      {
+        "$type": "Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan",
+        "Teks": "Sangat Setuju",
+        "Nilai": 5,
+        "WebId": "3db79ecd-392c-4540-afa9-22492029e811"
+      }
+    ]
+  },
+  "Trait": "Situasi Di Luar Jangka",
+  "NamaUjian": "IKU",
+  "Susunan": 26.0,
+  "Kategori": "Situasi Di Luar Jangka",
+  "Bahagian": "A",
+  "CreatedBy": "admin",
+  "Id": "568e6c87-d9f8-4cab-a9dd-0f643059f7fe",
+  "CreatedDate": "2016-03-02T11:44:03.6372581+08:00",
+  "ChangedBy": "admin",
+  "ChangedDate": "2016-03-02T11:44:03.7182662+08:00",
+  "WebId": "aa2aa343-4af7-4b1b-ae14-3a79face3dbf"
+}

@@ -1,0 +1,53 @@
+{
+  "$type": "Bespoke.epsikologi_soalan.Domain.Soalan, epsikologi.Soalan",
+  "NoRujukan": "Iku-A-5-5",
+  "SoalanNo": "Iku-A-5-5",
+  "TeksSoalan": "Saya menghadiri latihan walaupun melebihi jumlah yang telah ditetapkan oleh organisasi.",
+  "SeksyenSoalan": "5",
+  "PilihanJawapanCollection": {
+    "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan]], domain.sph",
+    "$values": [
+      {
+        "$type": "Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan",
+        "Teks": "Sangat Tidak Setuju",
+        "Nilai": 1,
+        "WebId": "d7cf78b4-7efb-47ed-bbfb-4c247444c973"
+      },
+      {
+        "$type": "Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan",
+        "Teks": "Tidak Setuju",
+        "Nilai": 2,
+        "WebId": "8f2f42d9-e368-4801-af6b-2197671d8a69"
+      },
+      {
+        "$type": "Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan",
+        "Teks": "Neutral",
+        "Nilai": 3,
+        "WebId": "85215e86-a80f-46ea-8639-4602be551c44"
+      },
+      {
+        "$type": "Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan",
+        "Teks": "Setuju",
+        "Nilai": 4,
+        "WebId": "24d53524-726f-4705-99e3-e97143b35249"
+      },
+      {
+        "$type": "Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan",
+        "Teks": "Sangat Setuju",
+        "Nilai": 5,
+        "WebId": "a8c2234f-3b98-446c-a249-f2b1034fef6e"
+      }
+    ]
+  },
+  "Trait": "Pembelajaran Berterusan",
+  "NamaUjian": "IKU",
+  "Susunan": 39.0,
+  "Kategori": "Pembelajaran Berterusan",
+  "Bahagian": "A",
+  "CreatedBy": "admin",
+  "Id": "8f8bea1c-3a6e-4a61-a2bb-53dcdc6999dd",
+  "CreatedDate": "2016-03-02T16:10:20.5947941+08:00",
+  "ChangedBy": "admin",
+  "ChangedDate": "2016-03-02T16:10:20.5897936+08:00",
+  "WebId": "56364408-3b03-4f34-d9b2-281f61d96fcb"
+}

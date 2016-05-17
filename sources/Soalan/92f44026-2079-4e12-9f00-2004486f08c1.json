@@ -1,0 +1,53 @@
+{
+  "$type": "Bespoke.epsikologi_soalan.Domain.Soalan, epsikologi.Soalan",
+  "NoRujukan": "Iku-A-6-3",
+  "SoalanNo": "Iku-A-6-3",
+  "TeksSoalan": "Saya seorang yang fleksibel dan berfikiran terbuka apabila berinteraksi dengan orang lain.",
+  "SeksyenSoalan": "6",
+  "PilihanJawapanCollection": {
+    "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan]], domain.sph",
+    "$values": [
+      {
+        "$type": "Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan",
+        "Teks": "Sangat Tidak Setuju",
+        "Nilai": 1,
+        "WebId": "1d437f90-fb37-48a1-a625-10819b66d331"
+      },
+      {
+        "$type": "Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan",
+        "Teks": "Tidak Setuju",
+        "Nilai": 2,
+        "WebId": "7362368b-8311-44c3-acc8-e7a0f727752e"
+      },
+      {
+        "$type": "Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan",
+        "Teks": "Neutral",
+        "Nilai": 3,
+        "WebId": "60dba9fa-0b01-4d65-833c-a63a6fb8aa41"
+      },
+      {
+        "$type": "Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan",
+        "Teks": "Setuju",
+        "Nilai": 4,
+        "WebId": "21a421eb-b2ec-4821-be15-ddcf08360e6e"
+      },
+      {
+        "$type": "Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan",
+        "Teks": "Sangat Setuju",
+        "Nilai": 5,
+        "WebId": "8c6e71f0-7e99-4663-8ccf-636eab76a852"
+      }
+    ]
+  },
+  "Trait": "Kemahiran Interpersonal",
+  "NamaUjian": "IKU",
+  "Susunan": 46.0,
+  "Kategori": "Kemahiran Interpersonal",
+  "Bahagian": "A",
+  "CreatedBy": "admin",
+  "Id": "92f44026-2079-4e12-9f00-2004486f08c1",
+  "CreatedDate": "2016-03-07T10:56:39.308813+08:00",
+  "ChangedBy": "admin",
+  "ChangedDate": "2016-03-07T10:56:39.307813+08:00",
+  "WebId": "27c09420-90e0-4e04-f50d-5044eeff56a6"
+}

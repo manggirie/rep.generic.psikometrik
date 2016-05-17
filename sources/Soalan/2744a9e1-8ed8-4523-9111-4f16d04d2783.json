@@ -1,0 +1,53 @@
+{
+  "$type": "Bespoke.epsikologi_soalan.Domain.Soalan, epsikologi.Soalan",
+  "NoRujukan": "Iku-B-38",
+  "SoalanNo": "Iku-B-38",
+  "TeksSoalan": "Tidak mengapa mengubahsuai maklumat untuk keperluan peribadi.",
+  "SeksyenSoalan": null,
+  "PilihanJawapanCollection": {
+    "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan]], domain.sph",
+    "$values": [
+      {
+        "$type": "Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan",
+        "Teks": "Sangat Tidak Setuju",
+        "Nilai": 1,
+        "WebId": "4c39a27d-c6cc-476e-b882-07e4d32a813a"
+      },
+      {
+        "$type": "Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan",
+        "Teks": "Tidak Setuju",
+        "Nilai": 2,
+        "WebId": "53a5a170-9d89-44d4-8310-5c9cfdc1596b"
+      },
+      {
+        "$type": "Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan",
+        "Teks": "Neutral",
+        "Nilai": 3,
+        "WebId": "08380435-2d04-49a7-b78c-8eae13c3d5af"
+      },
+      {
+        "$type": "Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan",
+        "Teks": "Setuju",
+        "Nilai": 4,
+        "WebId": "77fd7265-6135-4f3b-bc94-288892460def"
+      },
+      {
+        "$type": "Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan",
+        "Teks": "Sangat Setuju",
+        "Nilai": 5,
+        "WebId": "63193d95-cc01-46ce-bdf0-8fd5c3a8c943"
+      }
+    ]
+  },
+  "Trait": "Integriti",
+  "NamaUjian": "IKU",
+  "Susunan": 38.0,
+  "Kategori": "Integriti",
+  "Bahagian": "B",
+  "CreatedBy": "admin",
+  "Id": "2744a9e1-8ed8-4523-9111-4f16d04d2783",
+  "CreatedDate": "2016-03-30T10:37:46.9421024+08:00",
+  "ChangedBy": "admin",
+  "ChangedDate": "2016-03-30T10:37:46.9351017+08:00",
+  "WebId": "233754f4-0a72-4f8a-da1a-2cb1f04e2c46"
+}

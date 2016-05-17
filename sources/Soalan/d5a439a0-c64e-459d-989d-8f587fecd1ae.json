@@ -1,0 +1,53 @@
+{
+  "$type": "Bespoke.epsikologi_soalan.Domain.Soalan, epsikologi.Soalan",
+  "NoRujukan": "Iku-B-23",
+  "SoalanNo": "Iku-B-23",
+  "TeksSoalan": "Individu hanya perlu melakukan tugasan yang berimpak tinggi. ",
+  "SeksyenSoalan": null,
+  "PilihanJawapanCollection": {
+    "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan]], domain.sph",
+    "$values": [
+      {
+        "$type": "Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan",
+        "Teks": "Sangat Tidak Setuju",
+        "Nilai": 1,
+        "WebId": "15cb8d37-9712-4299-a570-5838e7c48cf1"
+      },
+      {
+        "$type": "Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan",
+        "Teks": "Tidak Setuju",
+        "Nilai": 2,
+        "WebId": "073badb5-a1b9-4255-9ecd-9374e4ed7e4a"
+      },
+      {
+        "$type": "Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan",
+        "Teks": "Neutral",
+        "Nilai": 3,
+        "WebId": "10f3863f-a3ff-4061-8b0f-f77dbabeedc6"
+      },
+      {
+        "$type": "Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan",
+        "Teks": "Setuju",
+        "Nilai": 4,
+        "WebId": "19995fa9-1ec9-471e-9c52-be2461fd365e"
+      },
+      {
+        "$type": "Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan",
+        "Teks": "Sangat Setuju",
+        "Nilai": 5,
+        "WebId": "7931dced-5e3d-4fe0-991e-cdd8419b0446"
+      }
+    ]
+  },
+  "Trait": "Integriti",
+  "NamaUjian": "IKU",
+  "Susunan": 23.0,
+  "Kategori": "Integriti",
+  "Bahagian": "B",
+  "CreatedBy": "admin",
+  "Id": "d5a439a0-c64e-459d-989d-8f587fecd1ae",
+  "CreatedDate": "2016-03-18T16:38:29.2752799+08:00",
+  "ChangedBy": "admin",
+  "ChangedDate": "2016-03-18T16:38:29.2742799+08:00",
+  "WebId": "6b11a041-f619-45e7-93be-1ffebf1cb1f2"
+}

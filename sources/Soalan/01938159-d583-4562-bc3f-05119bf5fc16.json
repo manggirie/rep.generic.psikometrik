@@ -1,0 +1,53 @@
+{
+  "$type": "Bespoke.epsikologi_soalan.Domain.Soalan, epsikologi.Soalan",
+  "NoRujukan": "Iku-A-7-6",
+  "SoalanNo": "Iku-A-7-6",
+  "TeksSoalan": "Saya menerima dan menghormati kepelbagaian serta keunikan individu lain.",
+  "SeksyenSoalan": "7",
+  "PilihanJawapanCollection": {
+    "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan]], domain.sph",
+    "$values": [
+      {
+        "$type": "Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan",
+        "Teks": "Sangat Tidak Setuju",
+        "Nilai": 1,
+        "WebId": "d5f8ef2e-42c8-4ee9-a2be-939aac639094"
+      },
+      {
+        "$type": "Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan",
+        "Teks": "Tidak Setuju",
+        "Nilai": 2,
+        "WebId": "81bf6e74-a382-42da-97c7-97b6184d1ca7"
+      },
+      {
+        "$type": "Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan",
+        "Teks": "Neutral",
+        "Nilai": 3,
+        "WebId": "f7abe85d-6b1c-472f-a328-557733adf5a7"
+      },
+      {
+        "$type": "Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan",
+        "Teks": "Setuju",
+        "Nilai": 4,
+        "WebId": "12d9e858-853e-4856-bfeb-5d8912e11b81"
+      },
+      {
+        "$type": "Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan",
+        "Teks": "Sangat Setuju",
+        "Nilai": 5,
+        "WebId": "b64fbe6d-5444-455b-a813-4a94126b3773"
+      }
+    ]
+  },
+  "Trait": "Adaptasi Budaya",
+  "NamaUjian": "IKU",
+  "Susunan": 58.0,
+  "Kategori": "Adaptasi Budaya",
+  "Bahagian": "A",
+  "CreatedBy": "admin",
+  "Id": "01938159-d583-4562-bc3f-05119bf5fc16",
+  "CreatedDate": "2016-03-08T15:22:11.4317566+08:00",
+  "ChangedBy": "admin",
+  "ChangedDate": "2016-03-08T15:22:11.4307566+08:00",
+  "WebId": "eb1bbd9a-4988-4d42-9e16-302d3181dbcc"
+}

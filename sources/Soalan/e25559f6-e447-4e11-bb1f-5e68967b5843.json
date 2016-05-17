@@ -1,0 +1,53 @@
+{
+  "$type": "Bespoke.epsikologi_soalan.Domain.Soalan, epsikologi.Soalan",
+  "NoRujukan": "Iku-B-4",
+  "SoalanNo": "Iku-B-4",
+  "TeksSoalan": "Isu-isu sensitif jabatan boleh disebar luas di media sosial sebagai makluman kepada rakan-rakan. ",
+  "SeksyenSoalan": null,
+  "PilihanJawapanCollection": {
+    "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan]], domain.sph",
+    "$values": [
+      {
+        "$type": "Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan",
+        "Teks": "Sangat Tidak Setuju",
+        "Nilai": 1,
+        "WebId": "b1214c94-e5f7-44d6-9427-deb1244832e4"
+      },
+      {
+        "$type": "Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan",
+        "Teks": "Tidak Setuju",
+        "Nilai": 2,
+        "WebId": "058946ef-d7fa-469d-8b1e-7ce50e6eb859"
+      },
+      {
+        "$type": "Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan",
+        "Teks": "Neutral",
+        "Nilai": 3,
+        "WebId": "b6efa460-f74c-4f39-9409-c7414f359746"
+      },
+      {
+        "$type": "Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan",
+        "Teks": "Setuju",
+        "Nilai": 4,
+        "WebId": "5e81c577-aae6-4ee9-8609-cf9b4173f6a3"
+      },
+      {
+        "$type": "Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan",
+        "Teks": "Sangat Setuju",
+        "Nilai": 5,
+        "WebId": "43b05091-9e16-4432-8817-6a1d5d4f466d"
+      }
+    ]
+  },
+  "Trait": "Integriti",
+  "NamaUjian": "IKU",
+  "Susunan": 4.0,
+  "Kategori": "Integriti",
+  "Bahagian": "B",
+  "CreatedBy": "admin",
+  "Id": "e25559f6-e447-4e11-bb1f-5e68967b5843",
+  "CreatedDate": "2016-03-09T16:40:42.9557078+08:00",
+  "ChangedBy": "admin",
+  "ChangedDate": "2016-03-09T16:40:42.9877078+08:00",
+  "WebId": "99c98090-e132-46c9-f593-007f24ab782b"
+}

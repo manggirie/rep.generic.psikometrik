@@ -1,0 +1,53 @@
+{
+  "$type": "Bespoke.epsikologi_soalan.Domain.Soalan, epsikologi.Soalan",
+  "NoRujukan": "Iku-B-39",
+  "SoalanNo": "Iku-B-39",
+  "TeksSoalan": "Tidak mengapa menyebar luas khabar angin untuk melindungi orang yang disayangi. ",
+  "SeksyenSoalan": null,
+  "PilihanJawapanCollection": {
+    "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan]], domain.sph",
+    "$values": [
+      {
+        "$type": "Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan",
+        "Teks": "Sangat Tidak Setuju",
+        "Nilai": 1,
+        "WebId": "f5ec7602-3e99-417f-aec2-dd2e534ced22"
+      },
+      {
+        "$type": "Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan",
+        "Teks": "Tidak Setuju",
+        "Nilai": 2,
+        "WebId": "74864ce4-3dda-4b39-a700-9886eee59619"
+      },
+      {
+        "$type": "Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan",
+        "Teks": "Neutral",
+        "Nilai": 3,
+        "WebId": "6d18ec3d-a9a4-4070-8007-df8501da887e"
+      },
+      {
+        "$type": "Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan",
+        "Teks": "Setuju",
+        "Nilai": 4,
+        "WebId": "5153ade1-f12e-4259-9461-06a0f3e787dc"
+      },
+      {
+        "$type": "Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan",
+        "Teks": "Sangat Setuju",
+        "Nilai": 5,
+        "WebId": "2801d80c-d436-4d58-a10f-ce72c1d78cce"
+      }
+    ]
+  },
+  "Trait": "Integriti",
+  "NamaUjian": "IKU",
+  "Susunan": 39.0,
+  "Kategori": "Integriti",
+  "Bahagian": "B",
+  "CreatedBy": "admin",
+  "Id": "36cb6d5b-ba69-4872-a817-688f476a4862",
+  "CreatedDate": "2016-03-30T10:42:07.7051761+08:00",
+  "ChangedBy": "admin",
+  "ChangedDate": "2016-03-30T10:42:07.7031759+08:00",
+  "WebId": "bd7eefd6-b7bd-44f8-866b-695dff5261fd"
+}

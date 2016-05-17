@@ -1,0 +1,53 @@
+{
+  "$type": "Bespoke.epsikologi_soalan.Domain.Soalan, epsikologi.Soalan",
+  "NoRujukan": "Iku-A-7-1",
+  "SoalanNo": "Iku-A-7-1",
+  "TeksSoalan": "Saya berusaha mempelajari dan memahami budaya, nilai serta kehendak orang lain.",
+  "SeksyenSoalan": "7",
+  "PilihanJawapanCollection": {
+    "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan]], domain.sph",
+    "$values": [
+      {
+        "$type": "Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan",
+        "Teks": "Sangat Tidak Setuju",
+        "Nilai": 1,
+        "WebId": "46e677c3-523a-405b-8b07-2dd9b9758f20"
+      },
+      {
+        "$type": "Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan",
+        "Teks": "Tidak Setuju",
+        "Nilai": 2,
+        "WebId": "534f78c7-5768-4957-8581-cab0d9ffbbb0"
+      },
+      {
+        "$type": "Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan",
+        "Teks": "Neutral",
+        "Nilai": 3,
+        "WebId": "f3e90313-0793-4773-88c1-5336d4e0d27f"
+      },
+      {
+        "$type": "Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan",
+        "Teks": "Setuju",
+        "Nilai": 4,
+        "WebId": "f52a7937-f2b6-4e7b-8aca-385ff3e1e738"
+      },
+      {
+        "$type": "Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan",
+        "Teks": "Sangat Setuju",
+        "Nilai": 5,
+        "WebId": "f4b4638e-059e-486c-89ed-a70a0a654564"
+      }
+    ]
+  },
+  "Trait": "Adaptasi Budaya",
+  "NamaUjian": "IKU",
+  "Susunan": 53.0,
+  "Kategori": "Adaptasi Budaya",
+  "Bahagian": "A",
+  "CreatedBy": "admin",
+  "Id": "eff0be51-edd2-4c6d-b000-ece2bb8a8660",
+  "CreatedDate": "2016-03-08T10:19:30.3977566+08:00",
+  "ChangedBy": "admin",
+  "ChangedDate": "2016-03-08T10:19:30.3927566+08:00",
+  "WebId": "063c4cc1-40b9-4b3c-a069-5fe7be23b991"
+}

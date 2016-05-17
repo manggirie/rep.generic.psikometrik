@@ -1,0 +1,53 @@
+{
+  "$type": "Bespoke.epsikologi_soalan.Domain.Soalan, epsikologi.Soalan",
+  "NoRujukan": "Iku-A-6-4",
+  "SoalanNo": "Iku-A-6-4",
+  "TeksSoalan": "Saya mempertimbangkan pandangan orang lain dan menerimanya jika bersesuaian.",
+  "SeksyenSoalan": "6",
+  "PilihanJawapanCollection": {
+    "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan]], domain.sph",
+    "$values": [
+      {
+        "$type": "Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan",
+        "Teks": "Sangat Tidak Setuju",
+        "Nilai": 1,
+        "WebId": "c9da415f-2a07-455e-8d29-44653011ec06"
+      },
+      {
+        "$type": "Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan",
+        "Teks": "Tidak Setuju",
+        "Nilai": 2,
+        "WebId": "c975f29c-22b6-4972-b0ba-a0075b45984a"
+      },
+      {
+        "$type": "Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan",
+        "Teks": "Neutral",
+        "Nilai": 3,
+        "WebId": "c341dbca-3e86-44e6-a561-6d025c48efa8"
+      },
+      {
+        "$type": "Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan",
+        "Teks": "Setuju",
+        "Nilai": 4,
+        "WebId": "e4d0df36-6c3a-4285-bacf-a32c879092ea"
+      },
+      {
+        "$type": "Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan",
+        "Teks": "Sangat Setuju",
+        "Nilai": 5,
+        "WebId": "04a12ee1-7f8b-4993-a381-f49aee90195f"
+      }
+    ]
+  },
+  "Trait": "Kemahiran Interpersonal",
+  "NamaUjian": "IKU",
+  "Susunan": 47.0,
+  "Kategori": "Kemahiran Interpersonal",
+  "Bahagian": "A",
+  "CreatedBy": "admin",
+  "Id": "366c1556-614d-47ea-ab40-c62dd0004e94",
+  "CreatedDate": "2016-03-07T11:12:13.482813+08:00",
+  "ChangedBy": "admin",
+  "ChangedDate": "2016-03-07T11:12:13.476813+08:00",
+  "WebId": "5a1740eb-bf40-4662-ac45-0d34cd80b527"
+}

@@ -1,0 +1,53 @@
+{
+  "$type": "Bespoke.epsikologi_soalan.Domain.Soalan, epsikologi.Soalan",
+  "NoRujukan": "Iku-A-5-3",
+  "SoalanNo": "Iku-A-5-3",
+  "TeksSoalan": "Saya bersemangat untuk mempelajari pendekatan dan teknologi baru dalam melaksanakan kerja.",
+  "SeksyenSoalan": "5",
+  "PilihanJawapanCollection": {
+    "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan]], domain.sph",
+    "$values": [
+      {
+        "$type": "Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan",
+        "Teks": "Sangat Tidak Setuju",
+        "Nilai": 1,
+        "WebId": "7588f9a0-ba33-44f7-aa9e-5b82f8b2ffa2"
+      },
+      {
+        "$type": "Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan",
+        "Teks": "Tidak Setuju",
+        "Nilai": 2,
+        "WebId": "9deb7ad7-a145-4e8e-a07e-68b57f37529a"
+      },
+      {
+        "$type": "Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan",
+        "Teks": "Neutral",
+        "Nilai": 3,
+        "WebId": "10e6c6e8-10b0-42eb-a201-236bac5cfd4d"
+      },
+      {
+        "$type": "Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan",
+        "Teks": "Setuju",
+        "Nilai": 4,
+        "WebId": "0ad5c29b-2ee8-4ac1-9a99-129e68b5d871"
+      },
+      {
+        "$type": "Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan",
+        "Teks": "Sangat Setuju",
+        "Nilai": 5,
+        "WebId": "2bbbfb3c-9bef-4612-a506-30b59360e098"
+      }
+    ]
+  },
+  "Trait": "Pembelajaran Berterusan",
+  "NamaUjian": "IKU",
+  "Susunan": 37.0,
+  "Kategori": "Pembelajaran Berterusan",
+  "Bahagian": "A",
+  "CreatedBy": "admin",
+  "Id": "e2178c88-8007-4726-9a62-6a782c510335",
+  "CreatedDate": "2016-03-02T15:59:39.8547265+08:00",
+  "ChangedBy": "admin",
+  "ChangedDate": "2016-03-02T15:59:39.8537264+08:00",
+  "WebId": "2ee01e44-6fe1-4581-9e36-8b30e2e08dda"
+}

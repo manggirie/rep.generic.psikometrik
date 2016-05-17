@@ -1,0 +1,53 @@
+{
+  "$type": "Bespoke.epsikologi_soalan.Domain.Soalan, epsikologi.Soalan",
+  "NoRujukan": "Iku-A-4-10",
+  "SoalanNo": "Iku-A-4-10",
+  "TeksSoalan": "Keupayaan saya tidak terjejas dalam menghadapi situasi yang diluar jangka. ",
+  "SeksyenSoalan": "4",
+  "PilihanJawapanCollection": {
+    "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan]], domain.sph",
+    "$values": [
+      {
+        "$type": "Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan",
+        "Teks": "Sangat Tidak Setuju",
+        "Nilai": 1,
+        "WebId": "c8fd108b-2122-45ee-b49b-0b97e728f329"
+      },
+      {
+        "$type": "Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan",
+        "Teks": "Tidak Setuju",
+        "Nilai": 2,
+        "WebId": "513f9751-8b65-46d3-a1fb-2c2b097b1142"
+      },
+      {
+        "$type": "Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan",
+        "Teks": "Neutral",
+        "Nilai": 3,
+        "WebId": "3863d6ec-04c2-4f75-9bb4-c57343c2d89d"
+      },
+      {
+        "$type": "Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan",
+        "Teks": "Setuju",
+        "Nilai": 4,
+        "WebId": "10ef3702-d6e8-4778-8c84-d959ce809c0e"
+      },
+      {
+        "$type": "Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan",
+        "Teks": "Sangat Setuju",
+        "Nilai": 5,
+        "WebId": "4a5e7c2f-4002-4f1b-b5ed-24d77de5e027"
+      }
+    ]
+  },
+  "Trait": "Situasi Di Luar Jangka",
+  "NamaUjian": "IKU",
+  "Susunan": 33.0,
+  "Kategori": "Situasi Di Luar Jangka",
+  "Bahagian": "A",
+  "CreatedBy": "admin",
+  "Id": "a520d102-963a-4fb1-893f-a102110d8d2c",
+  "CreatedDate": "2016-03-02T15:39:05.6033137+08:00",
+  "ChangedBy": "admin",
+  "ChangedDate": "2016-03-02T15:39:05.5973131+08:00",
+  "WebId": "bbae73c0-5b39-42f3-e372-d89fc67401ea"
+}

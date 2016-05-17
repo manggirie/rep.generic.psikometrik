@@ -1,0 +1,53 @@
+{
+  "$type": "Bespoke.epsikologi_soalan.Domain.Soalan, epsikologi.Soalan",
+  "NoRujukan": "Iku-A-4-9",
+  "SoalanNo": "Iku-A-4-9",
+  "TeksSoalan": "Saya boleh bertindak secara efektif walaupun maklumat tidak mencukupi.",
+  "SeksyenSoalan": "4",
+  "PilihanJawapanCollection": {
+    "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan]], domain.sph",
+    "$values": [
+      {
+        "$type": "Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan",
+        "Teks": "Sangat Tidak Setuju",
+        "Nilai": 1,
+        "WebId": "92af0e43-f91b-40ab-83ae-3acdb7eba982"
+      },
+      {
+        "$type": "Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan",
+        "Teks": "Tidak Setuju",
+        "Nilai": 2,
+        "WebId": "7de66aff-858d-473f-bcfd-9a5b4b36f673"
+      },
+      {
+        "$type": "Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan",
+        "Teks": "Neutral",
+        "Nilai": 3,
+        "WebId": "08f5c1a2-35b4-477c-a4d5-bc820dc115cf"
+      },
+      {
+        "$type": "Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan",
+        "Teks": "Setuju",
+        "Nilai": 4,
+        "WebId": "c5b506bd-baf3-4514-b593-7fe0be62ba75"
+      },
+      {
+        "$type": "Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan",
+        "Teks": "Sangat Setuju",
+        "Nilai": 5,
+        "WebId": "228cd4a3-93b5-49ee-b737-15bfadd4861c"
+      }
+    ]
+  },
+  "Trait": "Situasi Di Luar Jangka",
+  "NamaUjian": "IKU",
+  "Susunan": 32.0,
+  "Kategori": "Situasi Di Luar Jangka",
+  "Bahagian": "A",
+  "CreatedBy": "admin",
+  "Id": "6d0010ea-288b-474d-acd6-d0bb45ae669c",
+  "CreatedDate": "2016-03-02T14:57:58.4376218+08:00",
+  "ChangedBy": "admin",
+  "ChangedDate": "2016-03-02T14:57:58.4366217+08:00",
+  "WebId": "bf1168b8-73a3-4a11-bc58-9e10ca30c18c"
+}

@@ -1,0 +1,53 @@
+{
+  "$type": "Bespoke.epsikologi_soalan.Domain.Soalan, epsikologi.Soalan",
+  "NoRujukan": "Iku-B-26",
+  "SoalanNo": "Iku-B-26",
+  "TeksSoalan": "Tidak mengapa menyalahkan orang lain di atas kesilapan yang kita dilakukan.  ",
+  "SeksyenSoalan": null,
+  "PilihanJawapanCollection": {
+    "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan]], domain.sph",
+    "$values": [
+      {
+        "$type": "Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan",
+        "Teks": "Sangat Tidak Setuju",
+        "Nilai": 1,
+        "WebId": "4db88fbb-b510-4153-b0b7-66b54f1745c1"
+      },
+      {
+        "$type": "Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan",
+        "Teks": "Tidak Setuju",
+        "Nilai": 2,
+        "WebId": "7cca5fc2-0937-4145-9f93-d341e7ca2322"
+      },
+      {
+        "$type": "Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan",
+        "Teks": "Neutral",
+        "Nilai": 3,
+        "WebId": "e3b798d5-b922-4bbe-adb0-6124a68310b7"
+      },
+      {
+        "$type": "Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan",
+        "Teks": "Setuju",
+        "Nilai": 4,
+        "WebId": "68589330-002b-4583-a906-76a67aa55154"
+      },
+      {
+        "$type": "Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan",
+        "Teks": "Sangat Setuju",
+        "Nilai": 5,
+        "WebId": "b8efd15f-adf4-4b91-8323-b998d9c5b74d"
+      }
+    ]
+  },
+  "Trait": "Integriti",
+  "NamaUjian": "IKU",
+  "Susunan": 26.0,
+  "Kategori": "Integriti",
+  "Bahagian": "B",
+  "CreatedBy": "admin",
+  "Id": "876bb133-ff99-43c6-92b2-306e034161f4",
+  "CreatedDate": "2016-03-22T16:11:31.2474197+08:00",
+  "ChangedBy": "admin",
+  "ChangedDate": "2016-03-22T16:11:31.2414191+08:00",
+  "WebId": "510a6940-2257-44f8-a42c-c97c02f35e71"
+}

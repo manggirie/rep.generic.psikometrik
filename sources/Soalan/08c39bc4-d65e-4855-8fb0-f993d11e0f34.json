@@ -1,0 +1,53 @@
+{
+  "$type": "Bespoke.epsikologi_soalan.Domain.Soalan, epsikologi.Soalan",
+  "NoRujukan": "Iku-B-2",
+  "SoalanNo": "Iku-B-2",
+  "TeksSoalan": "Individu tidak seharusnya menerima tugasan yang tidak mampu dilakukan walaupun menjejaskan reputasi diri. ",
+  "SeksyenSoalan": null,
+  "PilihanJawapanCollection": {
+    "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan]], domain.sph",
+    "$values": [
+      {
+        "$type": "Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan",
+        "Teks": "Sangat Tidak Setuju",
+        "Nilai": 1,
+        "WebId": "701c1a02-84eb-4fd2-9ba1-1767ee0f8f16"
+      },
+      {
+        "$type": "Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan",
+        "Teks": "Tidak Setuju",
+        "Nilai": 2,
+        "WebId": "d6cbd708-762d-4c1e-b060-dc3b7b5f007c"
+      },
+      {
+        "$type": "Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan",
+        "Teks": "Neutral",
+        "Nilai": 3,
+        "WebId": "0e37870a-1c64-4a8f-b212-1c3481f73285"
+      },
+      {
+        "$type": "Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan",
+        "Teks": "Setuju",
+        "Nilai": 4,
+        "WebId": "cf89f25d-9146-465c-bc6f-9a1ef6c3aaf6"
+      },
+      {
+        "$type": "Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan",
+        "Teks": "Sangat Setuju",
+        "Nilai": 5,
+        "WebId": "1479c6df-1752-407b-87b7-0b61621ce068"
+      }
+    ]
+  },
+  "Trait": "Integriti",
+  "NamaUjian": "IKU",
+  "Susunan": 2.0,
+  "Kategori": "Integriti",
+  "Bahagian": "B",
+  "CreatedBy": "admin",
+  "Id": "08c39bc4-d65e-4855-8fb0-f993d11e0f34",
+  "CreatedDate": "2016-03-09T16:35:39.3817078+08:00",
+  "ChangedBy": "admin",
+  "ChangedDate": "2016-03-09T16:35:39.4127078+08:00",
+  "WebId": "a80de943-46d7-413b-b35c-721f4c4849a3"
+}

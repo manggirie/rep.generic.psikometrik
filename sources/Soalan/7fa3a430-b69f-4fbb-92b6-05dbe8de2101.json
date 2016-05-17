@@ -1,0 +1,53 @@
+{
+  "$type": "Bespoke.epsikologi_soalan.Domain.Soalan, epsikologi.Soalan",
+  "NoRujukan": "Iku-B-20",
+  "SoalanNo": "Iku-B-20",
+  "TeksSoalan": "Tidak wajar menyebarkan maklumat sulit walaupun ianya merupakan isu semasa yang hangat diperkatakan.",
+  "SeksyenSoalan": null,
+  "PilihanJawapanCollection": {
+    "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan]], domain.sph",
+    "$values": [
+      {
+        "$type": "Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan",
+        "Teks": "Sangat Tidak Setuju",
+        "Nilai": 1,
+        "WebId": "358edaab-9a79-4bd4-bbb0-7d9539150f2a"
+      },
+      {
+        "$type": "Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan",
+        "Teks": "Tidak Setuju",
+        "Nilai": 2,
+        "WebId": "686c0cd3-c29b-44f4-a16e-5d97f229004d"
+      },
+      {
+        "$type": "Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan",
+        "Teks": "Neutral",
+        "Nilai": 3,
+        "WebId": "eaebc46a-d35a-4261-af88-6be4a43d9c7d"
+      },
+      {
+        "$type": "Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan",
+        "Teks": "Setuju",
+        "Nilai": 4,
+        "WebId": "0fb5839e-15a7-401c-96e6-d0ee6decc031"
+      },
+      {
+        "$type": "Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan",
+        "Teks": "Sangat Setuju",
+        "Nilai": 5,
+        "WebId": "cd73227a-563c-4892-85f5-abbfec869bbf"
+      }
+    ]
+  },
+  "Trait": "Integriti",
+  "NamaUjian": "IKU",
+  "Susunan": 20.0,
+  "Kategori": "Integriti",
+  "Bahagian": "B",
+  "CreatedBy": "admin",
+  "Id": "7fa3a430-b69f-4fbb-92b6-05dbe8de2101",
+  "CreatedDate": "2016-03-10T11:42:24.2745344+08:00",
+  "ChangedBy": "admin",
+  "ChangedDate": "2016-03-10T11:42:24.3035373+08:00",
+  "WebId": "9abb757e-541b-41c5-c9a5-30ff88c3937a"
+}

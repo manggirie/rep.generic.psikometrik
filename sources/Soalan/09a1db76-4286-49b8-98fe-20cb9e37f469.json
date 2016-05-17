@@ -1,0 +1,53 @@
+{
+  "$type": "Bespoke.epsikologi_soalan.Domain.Soalan, epsikologi.Soalan",
+  "NoRujukan": "Iku-A-5-6",
+  "SoalanNo": "Iku-A-5-6",
+  "TeksSoalan": "Saya mempunyai inisiatif untuk memastikan tahap pengetahuan dan kemahiran seiring dengan perkembangan terkini.",
+  "SeksyenSoalan": "5",
+  "PilihanJawapanCollection": {
+    "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan]], domain.sph",
+    "$values": [
+      {
+        "$type": "Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan",
+        "Teks": "Sangat Tidak Setuju",
+        "Nilai": 1,
+        "WebId": "58572f67-d41d-468d-949d-e9658f5c3cfe"
+      },
+      {
+        "$type": "Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan",
+        "Teks": "Tidak Setuju",
+        "Nilai": 2,
+        "WebId": "10ac727f-8d90-43c1-9b4f-eea9fbd61260"
+      },
+      {
+        "$type": "Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan",
+        "Teks": "Neutral",
+        "Nilai": 3,
+        "WebId": "5b45852a-0f27-4731-b40a-14887fd10d35"
+      },
+      {
+        "$type": "Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan",
+        "Teks": "Setuju",
+        "Nilai": 4,
+        "WebId": "234a8181-9b50-42f6-83fa-c6dff5c8a392"
+      },
+      {
+        "$type": "Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan",
+        "Teks": "Sangat Setuju",
+        "Nilai": 5,
+        "WebId": "b8907917-138b-4e94-9791-6dc778670367"
+      }
+    ]
+  },
+  "Trait": "Pembelajaran Berterusan",
+  "NamaUjian": "IKU",
+  "Susunan": 40.0,
+  "Kategori": "Pembelajaran Berterusan",
+  "Bahagian": "A",
+  "CreatedBy": "admin",
+  "Id": "09a1db76-4286-49b8-98fe-20cb9e37f469",
+  "CreatedDate": "2016-03-02T16:14:20.5127835+08:00",
+  "ChangedBy": "admin",
+  "ChangedDate": "2016-03-02T16:14:20.5117834+08:00",
+  "WebId": "a4046dfe-9e06-47e1-dc8e-83a1e2433b33"
+}

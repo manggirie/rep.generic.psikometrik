@@ -1,0 +1,53 @@
+{
+  "$type": "Bespoke.epsikologi_soalan.Domain.Soalan, epsikologi.Soalan",
+  "NoRujukan": "Iku-A-3-7",
+  "SoalanNo": "Iku-A-3-7",
+  "TeksSoalan": "Saya tidak teragak-agak untuk mencadangkan idea yang berbeza walaupun bertentangan dengan pandangan umum.",
+  "SeksyenSoalan": "3",
+  "PilihanJawapanCollection": {
+    "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan]], domain.sph",
+    "$values": [
+      {
+        "$type": "Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan",
+        "Teks": "Sangat Tidak Setuju",
+        "Nilai": 1,
+        "WebId": "54bfb502-b599-44d2-835c-b787cf53eb07"
+      },
+      {
+        "$type": "Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan",
+        "Teks": "Tidak Setuju",
+        "Nilai": 2,
+        "WebId": "6b09330d-9b0c-40a9-88f4-d3bb539a26f9"
+      },
+      {
+        "$type": "Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan",
+        "Teks": "Neutral",
+        "Nilai": 3,
+        "WebId": "644bbec3-12f2-4e63-960b-9865c0bd80b6"
+      },
+      {
+        "$type": "Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan",
+        "Teks": "Setuju",
+        "Nilai": 4,
+        "WebId": "78e0d174-0f90-4e59-ab43-dbaf648900fe"
+      },
+      {
+        "$type": "Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan",
+        "Teks": "Sangat Setuju",
+        "Nilai": 5,
+        "WebId": "7bebf855-5f47-4f51-b9a3-155d13d92884"
+      }
+    ]
+  },
+  "Trait": "Penyelesaian Masalah Dengan Kretif",
+  "NamaUjian": "IKU",
+  "Susunan": 23.0,
+  "Kategori": "Penyelesaian Masalah Dengan Kretif",
+  "Bahagian": "A",
+  "CreatedBy": "admin",
+  "Id": "208670e3-2ba3-4cd0-b817-49cf161bf9d6",
+  "CreatedDate": "2016-03-02T11:17:17.315642+08:00",
+  "ChangedBy": "admin",
+  "ChangedDate": "2016-03-02T11:17:17.3106415+08:00",
+  "WebId": "089d39c4-9e7d-46a5-d0a7-2baee5f9e2a8"
+}

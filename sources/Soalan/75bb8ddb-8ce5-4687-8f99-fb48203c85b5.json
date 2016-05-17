@@ -1,0 +1,53 @@
+{
+  "$type": "Bespoke.epsikologi_soalan.Domain.Soalan, epsikologi.Soalan",
+  "NoRujukan": "Iku-B-8",
+  "SoalanNo": "Iku-B-8",
+  "TeksSoalan": "Dalam menjalankan tugas, adakalanya individu  terpaksa mengabaikan peraturan bagi memastikan matlamat jabatan tercapai. ",
+  "SeksyenSoalan": null,
+  "PilihanJawapanCollection": {
+    "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan]], domain.sph",
+    "$values": [
+      {
+        "$type": "Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan",
+        "Teks": "Sangat Tidak Setuju",
+        "Nilai": 1,
+        "WebId": "a5c29909-52c0-40ef-8f1d-025bd2286e73"
+      },
+      {
+        "$type": "Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan",
+        "Teks": "Tidak Setuju",
+        "Nilai": 2,
+        "WebId": "0b12d37c-6c0c-46c6-b694-66275675fab9"
+      },
+      {
+        "$type": "Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan",
+        "Teks": "Neutral",
+        "Nilai": 3,
+        "WebId": "2578eee1-6b4f-4185-8a53-6cb25d75d03d"
+      },
+      {
+        "$type": "Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan",
+        "Teks": "Setuju",
+        "Nilai": 4,
+        "WebId": "e05ba837-5a61-48b9-9312-68af98e7c417"
+      },
+      {
+        "$type": "Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan",
+        "Teks": "Sangat Setuju",
+        "Nilai": 5,
+        "WebId": "b87771cc-aa63-4590-a760-0e543c0df070"
+      }
+    ]
+  },
+  "Trait": "Integriti",
+  "NamaUjian": "IKU",
+  "Susunan": 8.0,
+  "Kategori": "Integriti",
+  "Bahagian": "B",
+  "CreatedBy": "admin",
+  "Id": "75bb8ddb-8ce5-4687-8f99-fb48203c85b5",
+  "CreatedDate": "2016-03-09T16:50:50.5387078+08:00",
+  "ChangedBy": "admin",
+  "ChangedDate": "2016-03-09T16:50:50.5377078+08:00",
+  "WebId": "4a298c5c-3023-478a-8d36-edca56ed60df"
+}

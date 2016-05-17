@@ -1,0 +1,53 @@
+{
+  "$type": "Bespoke.epsikologi_soalan.Domain.Soalan, epsikologi.Soalan",
+  "NoRujukan": "Iku-A-6-8",
+  "SoalanNo": "Iku-A-6-8",
+  "TeksSoalan": "Saya dapat melakukan tugasan dengan baik kerana memahami gaya kerja rakan sepejabat. ",
+  "SeksyenSoalan": "6",
+  "PilihanJawapanCollection": {
+    "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan]], domain.sph",
+    "$values": [
+      {
+        "$type": "Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan",
+        "Teks": "Sangat Tidak Setuju",
+        "Nilai": 1,
+        "WebId": "7010841d-2dcb-4a44-8a9d-4743e7fa984e"
+      },
+      {
+        "$type": "Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan",
+        "Teks": "Tidak Setuju",
+        "Nilai": 2,
+        "WebId": "3eb686c6-bca3-49b9-85bd-a14f9c2cf3bc"
+      },
+      {
+        "$type": "Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan",
+        "Teks": "Neutral",
+        "Nilai": 3,
+        "WebId": "80127a51-089f-4751-b0f4-ecbcbb736b60"
+      },
+      {
+        "$type": "Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan",
+        "Teks": "Setuju",
+        "Nilai": 4,
+        "WebId": "b6d8a1c3-c0e4-49ab-ae6d-7741e7a652c7"
+      },
+      {
+        "$type": "Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan",
+        "Teks": "Sangat Setuju",
+        "Nilai": 5,
+        "WebId": "172132a9-cc87-42e2-ad45-2e92869b2ae7"
+      }
+    ]
+  },
+  "Trait": "Kemahiran Interpersonal",
+  "NamaUjian": "IKU",
+  "Susunan": 51.0,
+  "Kategori": "Kemahiran Interpersonal",
+  "Bahagian": "A",
+  "CreatedBy": "admin",
+  "Id": "70f767cf-3659-40aa-81bc-9de3c0d14174",
+  "CreatedDate": "2016-03-08T10:14:52.3727566+08:00",
+  "ChangedBy": "admin",
+  "ChangedDate": "2016-03-08T10:14:52.3677566+08:00",
+  "WebId": "5b38cef0-4d2f-4623-d59f-ffa2e28d878f"
+}

@@ -1,0 +1,53 @@
+{
+  "$type": "Bespoke.epsikologi_soalan.Domain.Soalan, epsikologi.Soalan",
+  "NoRujukan": "Iku-A-4-2",
+  "SoalanNo": "Iku-A-4-2",
+  "TeksSoalan": "Saya berupaya berhadapan dengan situasi dinamik tanpa dipengaruhi.",
+  "SeksyenSoalan": "4",
+  "PilihanJawapanCollection": {
+    "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan]], domain.sph",
+    "$values": [
+      {
+        "$type": "Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan",
+        "Teks": "Sangat Tidak Setuju",
+        "Nilai": 1,
+        "WebId": "a0fe7d0c-a335-4d0c-8c06-a5e6b91b8269"
+      },
+      {
+        "$type": "Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan",
+        "Teks": "Tidak Setuju",
+        "Nilai": 2,
+        "WebId": "23d297ab-8aaa-4c70-b5d5-dcf62f99385d"
+      },
+      {
+        "$type": "Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan",
+        "Teks": "Neutral",
+        "Nilai": 3,
+        "WebId": "32befa51-57d5-4efe-8aa2-e5a9b89798c6"
+      },
+      {
+        "$type": "Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan",
+        "Teks": "Setuju",
+        "Nilai": 4,
+        "WebId": "4c2b8c59-1f0f-41cb-8e2f-196256e5fda6"
+      },
+      {
+        "$type": "Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan",
+        "Teks": "Sangat Setuju",
+        "Nilai": 5,
+        "WebId": "a7684f92-beaa-4532-95c1-0cd84e4fb272"
+      }
+    ]
+  },
+  "Trait": "Situasi Di Luar Jangka",
+  "NamaUjian": "IKU",
+  "Susunan": 25.0,
+  "Kategori": "Situasi Di Luar Jangka",
+  "Bahagian": "A",
+  "CreatedBy": "admin",
+  "Id": "52896ba1-ad65-4947-9979-715f2984bc37",
+  "CreatedDate": "2016-03-02T11:32:32.3511364+08:00",
+  "ChangedBy": "admin",
+  "ChangedDate": "2016-03-02T11:32:32.3501363+08:00",
+  "WebId": "916273cd-5319-4640-9d82-75235ccd6a29"
+}

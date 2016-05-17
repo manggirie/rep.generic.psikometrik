@@ -1,0 +1,53 @@
+{
+  "$type": "Bespoke.epsikologi_soalan.Domain.Soalan, epsikologi.Soalan",
+  "NoRujukan": "Iku-A-3-5",
+  "SoalanNo": "Iku-A-3-5",
+  "TeksSoalan": "Saya meneliti secara terperinci sesuatu permasalahan daripada pelbagai perspektif dalam mencari penyelesaian baru.",
+  "SeksyenSoalan": "3",
+  "PilihanJawapanCollection": {
+    "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan]], domain.sph",
+    "$values": [
+      {
+        "$type": "Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan",
+        "Teks": "Sangat Tidak Setuju",
+        "Nilai": 1,
+        "WebId": "8baca076-fc0b-4785-a156-b77343d59361"
+      },
+      {
+        "$type": "Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan",
+        "Teks": "Tidak Setuju",
+        "Nilai": 2,
+        "WebId": "bf4ead68-9181-44ff-a81c-f52ddd5c5247"
+      },
+      {
+        "$type": "Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan",
+        "Teks": "Neutral",
+        "Nilai": 3,
+        "WebId": "11fb2028-f9f2-4f9d-b5f5-a1682927ccb3"
+      },
+      {
+        "$type": "Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan",
+        "Teks": "Setuju",
+        "Nilai": 4,
+        "WebId": "6dffd53a-a0b7-41f6-b586-814b3727da23"
+      },
+      {
+        "$type": "Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan",
+        "Teks": "Sangat Setuju",
+        "Nilai": 5,
+        "WebId": "adfc0636-785a-4dd0-ad5f-10027de669e4"
+      }
+    ]
+  },
+  "Trait": "Penyelesaian Masalah Dengan Kretif",
+  "NamaUjian": "IKU",
+  "Susunan": 21.0,
+  "Kategori": "Penyelesaian Masalah Dengan Kretif",
+  "Bahagian": "A",
+  "CreatedBy": "admin",
+  "Id": "cf9cb15c-25d8-4980-b807-a49cf0170570",
+  "CreatedDate": "2016-03-02T09:58:28.552813+08:00",
+  "ChangedBy": "admin",
+  "ChangedDate": "2016-03-02T09:58:28.5468124+08:00",
+  "WebId": "d280d430-3ea4-40c4-ca5b-e75a72b2ea17"
+}

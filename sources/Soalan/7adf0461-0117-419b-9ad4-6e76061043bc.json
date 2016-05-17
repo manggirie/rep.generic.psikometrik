@@ -1,0 +1,53 @@
+{
+  "$type": "Bespoke.epsikologi_soalan.Domain.Soalan, epsikologi.Soalan",
+  "NoRujukan": "Iku-A-6-6",
+  "SoalanNo": "Iku-A-6-6",
+  "TeksSoalan": "Saya boleh bekerja dengan baik dan membentuk hubungan berkesan dengan sesiapa sahaja.",
+  "SeksyenSoalan": "6",
+  "PilihanJawapanCollection": {
+    "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan]], domain.sph",
+    "$values": [
+      {
+        "$type": "Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan",
+        "Teks": "Sangat Tidak Setuju",
+        "Nilai": 1,
+        "WebId": "079b23cd-45bf-4515-b615-9d213d55cc84"
+      },
+      {
+        "$type": "Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan",
+        "Teks": "Tidak Setuju",
+        "Nilai": 2,
+        "WebId": "fb3a0781-ffd5-4b70-a765-d843c7c0839c"
+      },
+      {
+        "$type": "Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan",
+        "Teks": "Neutral",
+        "Nilai": 3,
+        "WebId": "5f4cff32-1d68-43eb-b374-c3e1a8438643"
+      },
+      {
+        "$type": "Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan",
+        "Teks": "Setuju",
+        "Nilai": 4,
+        "WebId": "1a77f0ab-8c4c-4372-96de-407864b13bf0"
+      },
+      {
+        "$type": "Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan",
+        "Teks": "Sangat Setuju",
+        "Nilai": 5,
+        "WebId": "4819d4a3-b520-4ef8-af0d-22ae62994c56"
+      }
+    ]
+  },
+  "Trait": "Kemahiran Interpersonal",
+  "NamaUjian": "IKU",
+  "Susunan": 49.0,
+  "Kategori": "Kemahiran Interpersonal",
+  "Bahagian": "A",
+  "CreatedBy": "admin",
+  "Id": "7adf0461-0117-419b-9ad4-6e76061043bc",
+  "CreatedDate": "2016-03-08T10:03:48.8957566+08:00",
+  "ChangedBy": "admin",
+  "ChangedDate": "2016-03-08T10:03:48.8897566+08:00",
+  "WebId": "28b60375-c0f5-4470-fa71-4078221902a7"
+}

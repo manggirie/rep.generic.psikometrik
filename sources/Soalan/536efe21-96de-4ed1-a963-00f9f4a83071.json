@@ -1,0 +1,53 @@
+{
+  "$type": "Bespoke.epsikologi_soalan.Domain.Soalan, epsikologi.Soalan",
+  "NoRujukan": "Iku-A-7-4",
+  "SoalanNo": "Iku-A-7-4",
+  "TeksSoalan": "Saya sedia menyesuaikan tingkah laku untuk memenuhi kehendak organisasi.",
+  "SeksyenSoalan": "7",
+  "PilihanJawapanCollection": {
+    "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan]], domain.sph",
+    "$values": [
+      {
+        "$type": "Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan",
+        "Teks": "Sangat Tidak Setuju",
+        "Nilai": 1,
+        "WebId": "0257eed4-d502-48fa-acb9-9bb25a3535b4"
+      },
+      {
+        "$type": "Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan",
+        "Teks": "Tidak Setuju",
+        "Nilai": 2,
+        "WebId": "0ee21e2b-86db-4f62-abf9-5d5564a9937d"
+      },
+      {
+        "$type": "Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan",
+        "Teks": "Neutral",
+        "Nilai": 3,
+        "WebId": "8af1871b-d6b7-4ed2-a94b-7b255d1dbf92"
+      },
+      {
+        "$type": "Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan",
+        "Teks": "Setuju",
+        "Nilai": 4,
+        "WebId": "ea0f362d-fa49-47fc-84ac-29dcdfa9c83d"
+      },
+      {
+        "$type": "Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan",
+        "Teks": "Sangat Setuju",
+        "Nilai": 5,
+        "WebId": "91e3970b-54c3-47df-b396-c0c7777f9893"
+      }
+    ]
+  },
+  "Trait": "Adaptasi Budaya",
+  "NamaUjian": "IKU",
+  "Susunan": 56.0,
+  "Kategori": "Adaptasi Budaya",
+  "Bahagian": "A",
+  "CreatedBy": "admin",
+  "Id": "536efe21-96de-4ed1-a963-00f9f4a83071",
+  "CreatedDate": "2016-03-08T15:15:41.7347566+08:00",
+  "ChangedBy": "admin",
+  "ChangedDate": "2016-03-08T15:15:41.7337566+08:00",
+  "WebId": "55753944-7466-4f9d-85b7-7f0f017bade9"
+}

@@ -1,0 +1,53 @@
+{
+  "$type": "Bespoke.epsikologi_soalan.Domain.Soalan, epsikologi.Soalan",
+  "NoRujukan": "Iku-A-7-3",
+  "SoalanNo": "Iku-A-7-3",
+  "TeksSoalan": "Saya bersedia mengubah tingkah laku atau penampilan yang bersesuaian sebagai tanda hormat terhadap nilai dan budaya orang lain.",
+  "SeksyenSoalan": "7",
+  "PilihanJawapanCollection": {
+    "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan]], domain.sph",
+    "$values": [
+      {
+        "$type": "Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan",
+        "Teks": "Sangat Tidak Setuju",
+        "Nilai": 1,
+        "WebId": "72bac342-0cb7-4703-bd9d-933672e6a54d"
+      },
+      {
+        "$type": "Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan",
+        "Teks": "Tidak Setuju",
+        "Nilai": 2,
+        "WebId": "dc7b74b6-b2ac-4f33-9257-774e5e80c700"
+      },
+      {
+        "$type": "Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan",
+        "Teks": "Neutral",
+        "Nilai": 3,
+        "WebId": "8a77e4b3-bb10-492e-ae33-69f5c148af3f"
+      },
+      {
+        "$type": "Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan",
+        "Teks": "Setuju",
+        "Nilai": 4,
+        "WebId": "01b3456f-5d19-4412-8e56-9a5aa99ceb66"
+      },
+      {
+        "$type": "Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan",
+        "Teks": "Sangat Setuju",
+        "Nilai": 5,
+        "WebId": "5668fb73-f268-4cb8-b06d-caf63af0df66"
+      }
+    ]
+  },
+  "Trait": "Adaptasi Budaya",
+  "NamaUjian": "IKU",
+  "Susunan": 55.0,
+  "Kategori": "Adaptasi Budaya",
+  "Bahagian": "A",
+  "CreatedBy": "admin",
+  "Id": "00259ce1-dd64-4322-91b8-b5270f5c326b",
+  "CreatedDate": "2016-03-08T15:13:48.9657566+08:00",
+  "ChangedBy": "admin",
+  "ChangedDate": "2016-03-08T15:17:24.5817566+08:00",
+  "WebId": "693e68cc-a29e-4b1d-b19e-8e6d7997d1c3"
+}

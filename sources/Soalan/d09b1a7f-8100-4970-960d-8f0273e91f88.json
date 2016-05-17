@@ -1,0 +1,53 @@
+{
+  "$type": "Bespoke.epsikologi_soalan.Domain.Soalan, epsikologi.Soalan",
+  "NoRujukan": "Iku-A-6-9",
+  "SoalanNo": "Iku-A-6-9",
+  "TeksSoalan": "Saya mempelajari cara baru dalam melakukan kerja supaya boleh bekerjasama dengan orang lain.",
+  "SeksyenSoalan": "6",
+  "PilihanJawapanCollection": {
+    "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan]], domain.sph",
+    "$values": [
+      {
+        "$type": "Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan",
+        "Teks": "Sangat Tidak Setuju",
+        "Nilai": 1,
+        "WebId": "3eaad427-705a-44a3-b096-74816d748a25"
+      },
+      {
+        "$type": "Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan",
+        "Teks": "Tidak Setuju",
+        "Nilai": 2,
+        "WebId": "2b0abbd8-33d1-4b4e-bf92-e097d451687d"
+      },
+      {
+        "$type": "Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan",
+        "Teks": "Neutral",
+        "Nilai": 3,
+        "WebId": "ffab5038-3584-4268-9738-a6b257993fa2"
+      },
+      {
+        "$type": "Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan",
+        "Teks": "Setuju",
+        "Nilai": 4,
+        "WebId": "d40f011f-895c-4ca1-b399-2e35e7811c8d"
+      },
+      {
+        "$type": "Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan",
+        "Teks": "Sangat Setuju",
+        "Nilai": 5,
+        "WebId": "eb08484c-1f7e-4f42-ad46-dc34ba84cec4"
+      }
+    ]
+  },
+  "Trait": "Kemahiran Interpersonal",
+  "NamaUjian": "IKU",
+  "Susunan": 52.0,
+  "Kategori": "Kemahiran Interpersonal",
+  "Bahagian": "A",
+  "CreatedBy": "admin",
+  "Id": "d09b1a7f-8100-4970-960d-8f0273e91f88",
+  "CreatedDate": "2016-03-08T10:12:21.6397566+08:00",
+  "ChangedBy": "admin",
+  "ChangedDate": "2016-03-08T10:12:21.6687566+08:00",
+  "WebId": "54e5a235-cb90-4fc4-8df5-48ae6bc3cc01"
+}

@@ -1,0 +1,53 @@
+{
+  "$type": "Bespoke.epsikologi_soalan.Domain.Soalan, epsikologi.Soalan",
+  "NoRujukan": "Iku-B-11",
+  "SoalanNo": "Iku-B-11",
+  "TeksSoalan": "Seorang ketua perlu menyampaikan maklumat kepada pegawai di bawah seliaan selaras dengan undang-undang dan peraturan.",
+  "SeksyenSoalan": null,
+  "PilihanJawapanCollection": {
+    "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan]], domain.sph",
+    "$values": [
+      {
+        "$type": "Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan",
+        "Teks": "Sangat Tidak Setuju",
+        "Nilai": 1,
+        "WebId": "90c798ee-91f7-4812-9edd-197d6d95be82"
+      },
+      {
+        "$type": "Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan",
+        "Teks": "Tidak Setuju",
+        "Nilai": 2,
+        "WebId": "daabde4b-8ba0-4a3c-8ded-6bf0f2370baa"
+      },
+      {
+        "$type": "Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan",
+        "Teks": "Neutral",
+        "Nilai": 3,
+        "WebId": "63266bd7-ab89-4371-a612-3fda05ab73f4"
+      },
+      {
+        "$type": "Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan",
+        "Teks": "Setuju",
+        "Nilai": 4,
+        "WebId": "89f7be2b-bbab-454b-8c46-562fe6a81399"
+      },
+      {
+        "$type": "Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan",
+        "Teks": "Sangat Setuju",
+        "Nilai": 5,
+        "WebId": "163d0c98-ca52-4bea-bf09-176ba4a73abd"
+      }
+    ]
+  },
+  "Trait": "Integriti",
+  "NamaUjian": "IKU",
+  "Susunan": 11.0,
+  "Kategori": "Integriti",
+  "Bahagian": "B",
+  "CreatedBy": "admin",
+  "Id": "c2d84751-6a61-4bfc-923e-9cf0d380c126",
+  "CreatedDate": "2016-03-10T10:15:37.8829473+08:00",
+  "ChangedBy": "admin",
+  "ChangedDate": "2016-03-10T10:15:37.8769467+08:00",
+  "WebId": "5521c188-3752-4ae9-b866-1706f578fe6c"
+}

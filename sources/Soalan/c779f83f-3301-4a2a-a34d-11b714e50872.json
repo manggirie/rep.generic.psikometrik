@@ -1,0 +1,53 @@
+{
+  "$type": "Bespoke.epsikologi_soalan.Domain.Soalan, epsikologi.Soalan",
+  "NoRujukan": "Iku-A-7-2",
+  "SoalanNo": "Iku-A-7-2",
+  "TeksSoalan": "Saya boleh menyesuaikan diri dengan kepelbagaian amalan nilai dan budaya.",
+  "SeksyenSoalan": "7",
+  "PilihanJawapanCollection": {
+    "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan]], domain.sph",
+    "$values": [
+      {
+        "$type": "Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan",
+        "Teks": "Sangat Tidak Setuju",
+        "Nilai": 1,
+        "WebId": "e798df1f-a26e-473a-b826-c08b47784c9b"
+      },
+      {
+        "$type": "Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan",
+        "Teks": "Tidak Setuju",
+        "Nilai": 2,
+        "WebId": "2c437363-33ca-4034-b27e-7bd31ba67fb4"
+      },
+      {
+        "$type": "Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan",
+        "Teks": "Neutral",
+        "Nilai": 3,
+        "WebId": "2d8fd878-07ba-4f1f-b9ea-58296e2e6171"
+      },
+      {
+        "$type": "Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan",
+        "Teks": "Setuju",
+        "Nilai": 4,
+        "WebId": "7171e298-e2cd-4b90-8fc0-5dd2bfc68b95"
+      },
+      {
+        "$type": "Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan",
+        "Teks": "Sangat Setuju",
+        "Nilai": 5,
+        "WebId": "d577e4df-87b4-411f-aa8d-67f305fde5f8"
+      }
+    ]
+  },
+  "Trait": "Adaptasi Budaya",
+  "NamaUjian": "IKU",
+  "Susunan": 54.0,
+  "Kategori": "Adaptasi Budaya",
+  "Bahagian": "A",
+  "CreatedBy": "admin",
+  "Id": "c779f83f-3301-4a2a-a34d-11b714e50872",
+  "CreatedDate": "2016-03-08T10:21:34.6377566+08:00",
+  "ChangedBy": "admin",
+  "ChangedDate": "2016-03-08T15:33:57.7697566+08:00",
+  "WebId": "ae3ba53a-2d88-4925-9be1-1ab9f6dac77b"
+}

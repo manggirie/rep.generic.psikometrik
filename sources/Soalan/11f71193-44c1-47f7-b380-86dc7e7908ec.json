@@ -1,0 +1,53 @@
+{
+  "$type": "Bespoke.epsikologi_soalan.Domain.Soalan, epsikologi.Soalan",
+  "NoRujukan": "Iku-B-28",
+  "SoalanNo": "Iku-B-28",
+  "TeksSoalan": "Tidak menjadi kesalahan memutar belitkan apa yang dikatakan oleh orang lain. ",
+  "SeksyenSoalan": null,
+  "PilihanJawapanCollection": {
+    "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan]], domain.sph",
+    "$values": [
+      {
+        "$type": "Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan",
+        "Teks": "Sangat Tidak Setuju",
+        "Nilai": 1,
+        "WebId": "5477d07a-bdf7-4472-978d-8c6fe41b2cb2"
+      },
+      {
+        "$type": "Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan",
+        "Teks": "Tidak Setuju",
+        "Nilai": 2,
+        "WebId": "1ea736a3-5be4-4d7b-850a-45910ef69bae"
+      },
+      {
+        "$type": "Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan",
+        "Teks": "Neutral",
+        "Nilai": 3,
+        "WebId": "f13138cb-5998-473a-af6b-b05f50712a1e"
+      },
+      {
+        "$type": "Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan",
+        "Teks": "Setuju",
+        "Nilai": 4,
+        "WebId": "a76a0764-89cc-4ae1-be07-b44fcb423da8"
+      },
+      {
+        "$type": "Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan",
+        "Teks": "Sangat Setuju",
+        "Nilai": 5,
+        "WebId": "cdc3db72-fc40-4fbe-b454-9baf79de1292"
+      }
+    ]
+  },
+  "Trait": "Integriti",
+  "NamaUjian": "IKU",
+  "Susunan": 28.0,
+  "Kategori": "Integriti",
+  "Bahagian": null,
+  "CreatedBy": "admin",
+  "Id": "11f71193-44c1-47f7-b380-86dc7e7908ec",
+  "CreatedDate": "2016-03-22T16:15:30.7353661+08:00",
+  "ChangedBy": "admin",
+  "ChangedDate": "2016-03-22T16:15:30.734366+08:00",
+  "WebId": "d8db8a18-ee0f-4e73-bee6-3fcfccee099e"
+}

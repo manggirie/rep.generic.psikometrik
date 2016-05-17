@@ -46,7 +46,7 @@ define(["services/datacontext", "services/logger", "plugins/router", "services/c
               var pvw =  context.toObservable(v);
               views.push(pvw);
             });
-
+      
             // get counts
             _(views()).each(function(v) {
               v.CountMessage("....");
@@ -59,6 +59,8 @@ define(["services/datacontext", "services/logger", "plugins/router", "services/c
                   v.CountMessage(c.hits.total);
                 });
             });
+            
+            
           });
       },
       attached = function(view) {

@@ -1,0 +1,53 @@
+{
+  "$type": "Bespoke.epsikologi_soalan.Domain.Soalan, epsikologi.Soalan",
+  "NoRujukan": "Iku-A-8-1",
+  "SoalanNo": "Iku-A-8-1",
+  "TeksSoalan": "Saya boleh menyesuaikan diri apabila bekerja dengan prasarana yang serba kekurangan.",
+  "SeksyenSoalan": "8",
+  "PilihanJawapanCollection": {
+    "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan]], domain.sph",
+    "$values": [
+      {
+        "$type": "Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan",
+        "Teks": "Sangat Tidak Setuju",
+        "Nilai": 1,
+        "WebId": "eb6c3116-7c03-48e6-9659-b9ec96675b3d"
+      },
+      {
+        "$type": "Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan",
+        "Teks": "Tidak Setuju",
+        "Nilai": 2,
+        "WebId": "5e2e4fe3-9b7e-40e0-bb12-e4e4c7eb6f3d"
+      },
+      {
+        "$type": "Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan",
+        "Teks": "Neutral",
+        "Nilai": 3,
+        "WebId": "e1d4edf8-cae1-4da6-af91-d17d1004ec29"
+      },
+      {
+        "$type": "Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan",
+        "Teks": "Setuju",
+        "Nilai": 4,
+        "WebId": "51e0c227-523a-4b1e-9c59-5f75a79ee20d"
+      },
+      {
+        "$type": "Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan",
+        "Teks": "Sangat Setuju",
+        "Nilai": 5,
+        "WebId": "f79b4a58-ed0b-453d-a227-cd92949438b3"
+      }
+    ]
+  },
+  "Trait": "Adaptasi Fizikal",
+  "NamaUjian": "IKU",
+  "Susunan": 60.0,
+  "Kategori": "Adaptasi Fizikal",
+  "Bahagian": "A",
+  "CreatedBy": "admin",
+  "Id": "a1f696d4-2f4e-40be-8964-2e7f3a9b48b8",
+  "CreatedDate": "2016-03-09T09:38:57.7952949+08:00",
+  "ChangedBy": "admin",
+  "ChangedDate": "2016-03-09T09:38:57.7942948+08:00",
+  "WebId": "f2cdfa66-c308-469a-b575-45be28eac961"
+}

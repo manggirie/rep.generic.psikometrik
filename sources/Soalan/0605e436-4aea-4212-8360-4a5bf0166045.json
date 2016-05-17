@@ -1,0 +1,53 @@
+{
+  "$type": "Bespoke.epsikologi_soalan.Domain.Soalan, epsikologi.Soalan",
+  "NoRujukan": "Iku-B-40",
+  "SoalanNo": "Iku-B-40",
+  "TeksSoalan": "Tidak menjadi kesalahan untuk berbohong bagi melindungi rakan daripada masalah. ",
+  "SeksyenSoalan": null,
+  "PilihanJawapanCollection": {
+    "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan]], domain.sph",
+    "$values": [
+      {
+        "$type": "Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan",
+        "Teks": "Sangat Tidak Setuju",
+        "Nilai": 1,
+        "WebId": "91e61cd7-bbc8-4841-aea3-ff11816582ac"
+      },
+      {
+        "$type": "Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan",
+        "Teks": "Tidak Setuju",
+        "Nilai": 2,
+        "WebId": "285108e6-f323-4f57-988b-aecf446f706b"
+      },
+      {
+        "$type": "Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan",
+        "Teks": "Neutral",
+        "Nilai": 3,
+        "WebId": "20733695-b760-499e-929f-8047c9ffb151"
+      },
+      {
+        "$type": "Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan",
+        "Teks": "Setuju",
+        "Nilai": 4,
+        "WebId": "706022be-de93-4f41-8bfe-d4aeebbbc1b9"
+      },
+      {
+        "$type": "Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan",
+        "Teks": "Sangat Setuju",
+        "Nilai": 5,
+        "WebId": "ab28bb3c-03bb-46e4-a39d-ba64e3051e8f"
+      }
+    ]
+  },
+  "Trait": "Integriti",
+  "NamaUjian": "IKU",
+  "Susunan": 40.0,
+  "Kategori": "Integriti",
+  "Bahagian": "B",
+  "CreatedBy": "admin",
+  "Id": "0605e436-4aea-4212-8360-4a5bf0166045",
+  "CreatedDate": "2016-03-30T10:46:15.5609592+08:00",
+  "ChangedBy": "admin",
+  "ChangedDate": "2016-03-30T10:46:15.5919623+08:00",
+  "WebId": "5556d243-00af-4565-8c34-50f9a7226e6a"
+}

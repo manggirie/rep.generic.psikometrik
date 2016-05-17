@@ -1,0 +1,53 @@
+{
+  "$type": "Bespoke.epsikologi_soalan.Domain.Soalan, epsikologi.Soalan",
+  "NoRujukan": "Iku-A-5-1",
+  "SoalanNo": "Iku-A-5-1",
+  "TeksSoalan": "Saya mengambil bahagian dalam pelbagai aktiviti yang boleh membantu mempersiapkan diri bagi menghadapi perubahan.",
+  "SeksyenSoalan": "5",
+  "PilihanJawapanCollection": {
+    "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan]], domain.sph",
+    "$values": [
+      {
+        "$type": "Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan",
+        "Teks": "Sangat Tidak Setuju",
+        "Nilai": 1,
+        "WebId": "7e6db648-6a9d-4412-b89d-3c7ebbde6196"
+      },
+      {
+        "$type": "Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan",
+        "Teks": "Tidak Setuju",
+        "Nilai": 2,
+        "WebId": "3943ecc8-9ccc-4750-8be3-ffccd0d68733"
+      },
+      {
+        "$type": "Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan",
+        "Teks": "Neutral",
+        "Nilai": 3,
+        "WebId": "022f8208-8777-495d-af40-a5e4d2dbb3c4"
+      },
+      {
+        "$type": "Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan",
+        "Teks": "Setuju",
+        "Nilai": 4,
+        "WebId": "20f31da0-a485-4130-b0f7-1a4eb86c4d79"
+      },
+      {
+        "$type": "Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan",
+        "Teks": "Sangat Setuju",
+        "Nilai": 5,
+        "WebId": "4e5b141b-230a-4731-93d5-2058de8db83b"
+      }
+    ]
+  },
+  "Trait": "Pembelajaran Berterusan",
+  "NamaUjian": "IKU",
+  "Susunan": 35.0,
+  "Kategori": "Pembelajaran Berterusan",
+  "Bahagian": "A",
+  "CreatedBy": "admin",
+  "Id": "f1eb667d-cd01-4638-a3e7-c5812b82f8a3",
+  "CreatedDate": "2016-03-02T15:52:19.2986753+08:00",
+  "ChangedBy": "admin",
+  "ChangedDate": "2016-03-02T15:52:19.2926747+08:00",
+  "WebId": "f1a32873-b743-449f-cfc4-c721fb81dab5"
+}

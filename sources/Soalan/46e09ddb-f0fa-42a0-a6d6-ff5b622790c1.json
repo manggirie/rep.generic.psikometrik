@@ -1,0 +1,53 @@
+{
+  "$type": "Bespoke.epsikologi_soalan.Domain.Soalan, epsikologi.Soalan",
+  "NoRujukan": "Iku-B-22",
+  "SoalanNo": "Iku-B-22",
+  "TeksSoalan": "Individu perlu berterus terang sekiranya tidak mampu melakukan tugasan yang diberikan walaupun mendatangkan implikasi negatif.",
+  "SeksyenSoalan": null,
+  "PilihanJawapanCollection": {
+    "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan]], domain.sph",
+    "$values": [
+      {
+        "$type": "Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan",
+        "Teks": "Sangat Tidak Setuju",
+        "Nilai": 1,
+        "WebId": "3563fa1e-14d2-44d5-ba31-dc9a5528ee86"
+      },
+      {
+        "$type": "Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan",
+        "Teks": "Tidak Setuju",
+        "Nilai": 2,
+        "WebId": "1f92f89c-0b43-474a-8186-aa6ad9972262"
+      },
+      {
+        "$type": "Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan",
+        "Teks": "Neutral",
+        "Nilai": 3,
+        "WebId": "a6d74120-13a7-4146-b0aa-e66ff6a35974"
+      },
+      {
+        "$type": "Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan",
+        "Teks": "Setuju",
+        "Nilai": 4,
+        "WebId": "c288f7e7-59d2-4ce1-adaf-05b4088e4793"
+      },
+      {
+        "$type": "Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan",
+        "Teks": "Sangat Setuju",
+        "Nilai": 5,
+        "WebId": "041a7264-5919-499f-a315-5836b9bfc075"
+      }
+    ]
+  },
+  "Trait": "Integriti",
+  "NamaUjian": "IKU",
+  "Susunan": 22.0,
+  "Kategori": "Integriti",
+  "Bahagian": "B",
+  "CreatedBy": "admin",
+  "Id": "46e09ddb-f0fa-42a0-a6d6-ff5b622790c1",
+  "CreatedDate": "2016-03-18T16:36:19.7172799+08:00",
+  "ChangedBy": "admin",
+  "ChangedDate": "2016-03-18T16:36:19.7122799+08:00",
+  "WebId": "479eb113-57ab-460f-97ef-ee1d5b63b9fa"
+}

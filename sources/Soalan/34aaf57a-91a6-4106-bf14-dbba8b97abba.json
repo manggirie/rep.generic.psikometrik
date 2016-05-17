@@ -1,0 +1,53 @@
+{
+  "$type": "Bespoke.epsikologi_soalan.Domain.Soalan, epsikologi.Soalan",
+  "NoRujukan": "Iku-B-34",
+  "SoalanNo": "Iku-B-34",
+  "TeksSoalan": "Individu perlu berkata benar walaupun akan menyinggung perasaan orang lain. ",
+  "SeksyenSoalan": null,
+  "PilihanJawapanCollection": {
+    "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan]], domain.sph",
+    "$values": [
+      {
+        "$type": "Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan",
+        "Teks": "Sangat Tidak Setuju",
+        "Nilai": 1,
+        "WebId": "adb52ead-a367-464e-a13d-9f3ea992b150"
+      },
+      {
+        "$type": "Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan",
+        "Teks": "Tidak Setuju",
+        "Nilai": 2,
+        "WebId": "bec90dea-a796-44aa-bb53-d757cca43f62"
+      },
+      {
+        "$type": "Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan",
+        "Teks": "Neutral",
+        "Nilai": 3,
+        "WebId": "0bd64310-9a10-4720-bf84-860fec4c536d"
+      },
+      {
+        "$type": "Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan",
+        "Teks": "Setuju",
+        "Nilai": 4,
+        "WebId": "4a1ac84d-d43b-4a54-a815-a9bb52af8dbf"
+      },
+      {
+        "$type": "Bespoke.epsikologi_soalan.Domain.PilihanJawapan, epsikologi.Soalan",
+        "Teks": "Sangat Setuju",
+        "Nilai": 5,
+        "WebId": "cf1d7eb3-1edc-4e25-87e5-0016e745ed7f"
+      }
+    ]
+  },
+  "Trait": "Integriti",
+  "NamaUjian": "IKU",
+  "Susunan": 34.0,
+  "Kategori": "Integriti",
+  "Bahagian": "B",
+  "CreatedBy": "admin",
+  "Id": "34aaf57a-91a6-4106-bf14-dbba8b97abba",
+  "CreatedDate": "2016-03-22T16:26:30.4133273+08:00",
+  "ChangedBy": "admin",
+  "ChangedDate": "2016-03-22T16:26:30.4123272+08:00",
+  "WebId": "349f9bee-1b2c-4590-9140-9d5c87f62a63"
+}
