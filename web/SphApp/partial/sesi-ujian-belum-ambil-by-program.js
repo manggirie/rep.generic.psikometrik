@@ -12,11 +12,16 @@ define([], function(){
         },
         attached  = function(view){
         
+        },
+        map =function(item){
+            item.Jantina = "Lelaki";
+            return item;
         };
 
     return {
         activate : activate,
-        attached : attached
+        attached : attached,
+        map:map
     };
 
 });

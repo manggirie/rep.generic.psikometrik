@@ -14,8 +14,8 @@
                     <th>Tarikh Tamat</th>
                     <th>Bil. Responden</th>
                     <th>Senarai Ujian</th>
-                    <th>Sudah Ambil</th>
-                    <th>Belum Ambil</th>
+                    <th>Bil Ujian Sudah Ambil</th>
+                    <th>Bil Ujian Belum Ambil</th>
                 </tr>
             </thead>
             <tbody data-bind="foreach :list">
@@ -32,7 +32,7 @@
                     <td data-bind="text:BilRespondan"></td>
                     <td data-bind="text:senaraiUjian"></td>
                     <td>
-                        <a data-bind="attr : {href:'#sesi-ujian-diambil-by-program' + '/' + encodeURIComponent(PermohonanNo), title:'Sudah Ambil' }">
+                        <a data-bind="attr : {href:'#sesi-ujian-diambil-by-program' + '/' + encodeURIComponent(PermohonanNo), title:'Bil Ujian Sudah Ambil' }">
                             <i class="fa fa-list"></i>
                                                         <span data-bind="text:sudahAmbil"></span>
                         </a>

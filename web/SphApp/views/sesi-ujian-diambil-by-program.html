@@ -8,11 +8,13 @@
         <table class="table table-striped" data-bind="filter : {path:'tbody>tr'}, searchPaging :{ query: query, map : map, entity : 'SesiUjian', list:list}">
             <thead>
                 <tr>
-                    <th>My Kad</th>
+                    <th>Bil</th>
                     <th>Nama Pengguna</th>
+                    <th>My Kad</th>
+                    <th>Jantina</th>
                     <th>Nama Ujian</th>
-                    <th>Tarikh Ujian</th>
-                    <th>Status</th>
+                    <th>Status Jawab</th>
+                    <th>Tarikh Jawab</th>
                     <th>Nama Program</th>
                     <th>Laporan  Individu</th>
                 </tr>
@@ -20,11 +22,13 @@
             <tbody data-bind="foreach :list">
                 <tr data-bind="">
 
-                    <td data-bind="text:MyKad"></td>
+                    <td data-bind="text:$index()+1"></td>
                     <td data-bind="text:NamaPengguna"></td>
+                    <td data-bind="text:MyKad"></td>
+                    <td data-bind="text:Jantina"></td>
                     <td data-bind="text:NamaUjian"></td>
-                    <td data-bind="date:TarikhUjian"></td>
                     <td data-bind="text:Status"></td>
+                    <td data-bind="date:TarikhUjian"></td>
                     <td data-bind="text:NamaProgram"></td>
                     <td>
                         <a data-bind="attr : {href:'#sesiujian-details' + '/' + Id, title:'Laporan  Individu' }">

@@ -43,7 +43,7 @@ namespace web.sph.App_Code
             //var program = await context.GetScalarAsync<SesiUjian, string>(x => x.TarikhUjian.Value.Year == year, x => x.NamaProgram);
 
             var query = context.CreateQueryable<SesiUjian>()
-                .Where(s => s.NamaProgram == model.Program + "/" + model.Siri + "/" + model.Bil + "/" + model.Tahun)
+                .Where(s => s.NamaProgram == model.Program)
                 .Where(s => s.Status == "Diambil")
                 .Where(s => s.NamaUjian == model.Ujian);
             var sesiLo = await context.LoadAsync(query, 1, 200, true);

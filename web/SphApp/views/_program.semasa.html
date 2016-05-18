@@ -3,7 +3,7 @@
     <div class="portlet-title">
         <div class="caption">
             <i class="icon-bar-chart font-green-sharp hide"></i>
-            <span class="caption-subject font-green-sharp bold uppercase">Program Semasa Anjuran Penyelaras</span>
+            <span class="caption-subject font-green-sharp bold uppercase">Program Semasa</span>
             <span class="caption-helper">..</span>
         </div>
 
@@ -14,6 +14,7 @@
             <thead>
                 <tr>
                     <th>#</th>
+                    <th>Agensi</th>
                     <th>Nama Program</th>
                     <th>Kod Program</th>
                     <th>Mula</th>
@@ -25,6 +26,7 @@
                 <tr data-bind="">
 
                     <td data-bind="text:$index() + 1"></td>
+                    <td data-bind="text:NamaJabatan"></td>
                     <td data-bind="text:PermohonanNo"></td>
                     <td data-bind="text:KodProgram"></td>
                     <td data-bind="date:TarikhMula"></td>

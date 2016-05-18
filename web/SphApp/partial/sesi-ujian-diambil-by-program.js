@@ -6,6 +6,7 @@ define([], function () {
         if (v.NamaUjian === "UKBP-B") {
             v.NamaUjian = "UKBP";
         }
+        v.Jantina = "L";
         return v;
     }, activate = function (list) {
         var items = list(),
