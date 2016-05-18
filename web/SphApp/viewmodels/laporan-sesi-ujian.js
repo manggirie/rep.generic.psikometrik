@@ -45,6 +45,7 @@ define(["services/datacontext", "services/logger", "plugins/router", objectbuild
             .then(function (lo) {
                var items = _(lo.itemCollection).map(function(v){
                   v.NoKod = v.NamaProgram() +"/"+v.BilProgram()+"/"+v.SiriProgram()+"/"+v.TahunProgram();
+                  v.Keterangan = v.KodProgram() +"  "+v.NamaProgram();
                   return v;
                 });
                 programOptions(items);
