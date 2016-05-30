@@ -1,0 +1,25 @@
+{
+  "$type": "Bespoke.Sph.Domain.EntityChart, domain.sph",
+  "SeriesCollection": {
+    "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.Sph.Domain.Series, domain.sph]], domain.sph",
+    "$values": []
+  },
+  "EntityDefinitionId": "pengguna",
+  "Entity": "Pengguna",
+  "Name": "Responden Mengikut Tahun",
+  "Type": "line",
+  "EntityViewId": "pengguna-responden-dari-jabatan",
+  "Query": "{\"query\":{\"filtered\":{\"filter\":{\"bool\":{\"must\":[{\"term\":{\"NamaJabatan\":\"JABATAN PERKHIDMATAN AWAM MALAYSIA\"}}],\"must_not\":[]}}}},\"sort\":[{\"ChangedDate\":{\"order\":\"desc\"}}],\"aggs\":{\"category\":{\"date_histogram\":{\"field\":\"CreatedDate\",\"interval\":\"year\",\"format\":\"yyyy\"}}},\"from\":0,\"size\":20}",
+  "Aggregate": "date_histogram",
+  "Field": "CreatedDate",
+  "DateInterval": "year",
+  "IsDashboardItem": false,
+  "DasboardItemPosition": 0,
+  "HistogramInterval": 0,
+  "CreatedBy": "780730085342",
+  "Id": "pengguna-responden-dari-jabatan-responden-mengikut-tahun",
+  "CreatedDate": "2016-05-19T11:09:00.4159482+08:00",
+  "ChangedBy": "780730085342",
+  "ChangedDate": "2016-05-19T11:15:05.480451+08:00",
+  "WebId": "dac38652-fa49-47a5-ef88-704dff56d75a"
+}

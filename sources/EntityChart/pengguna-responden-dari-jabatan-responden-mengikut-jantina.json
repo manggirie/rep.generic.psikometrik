@@ -1,0 +1,25 @@
+{
+  "$type": "Bespoke.Sph.Domain.EntityChart, domain.sph",
+  "SeriesCollection": {
+    "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.Sph.Domain.Series, domain.sph]], domain.sph",
+    "$values": []
+  },
+  "EntityDefinitionId": "pengguna",
+  "Entity": "Pengguna",
+  "Name": "Responden Mengikut Jantina",
+  "Type": "bar",
+  "EntityViewId": "pengguna-responden-dari-jabatan",
+  "Query": "{\"query\":{\"filtered\":{\"filter\":{\"bool\":{\"must\":[{\"term\":{\"NamaJabatan\":\"JABATAN PERKHIDMATAN AWAM MALAYSIA\"}}],\"must_not\":[]}}}},\"sort\":[{\"ChangedDate\":{\"order\":\"desc\"}}],\"aggs\":{\"category\":{\"terms\":{\"field\":\"Jantina\",\"size\":0}}},\"from\":0,\"size\":20}",
+  "Aggregate": "term",
+  "Field": "Jantina",
+  "DateInterval": "year",
+  "IsDashboardItem": true,
+  "DasboardItemPosition": 0,
+  "HistogramInterval": 0,
+  "CreatedBy": "780730085342",
+  "Id": "pengguna-responden-dari-jabatan-responden-mengikut-jantina",
+  "CreatedDate": "2016-05-19T11:07:35.7184793+08:00",
+  "ChangedBy": "780730085342",
+  "ChangedDate": "2016-05-19T11:07:35.7184793+08:00",
+  "WebId": "addd3bc7-b9bc-4154-cb78-3870937f1b48"
+}

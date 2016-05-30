@@ -1,0 +1,25 @@
+{
+  "$type": "Bespoke.Sph.Domain.EntityChart, domain.sph",
+  "SeriesCollection": {
+    "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.Sph.Domain.Series, domain.sph]], domain.sph",
+    "$values": []
+  },
+  "EntityDefinitionId": "pengguna",
+  "Entity": "Pengguna",
+  "Name": "Bilangan Responden mengikut Skim",
+  "Type": "donut",
+  "EntityViewId": "pengguna-responden-dari-jabatan",
+  "Query": "{\"query\":{\"filtered\":{\"filter\":{\"bool\":{\"must\":[{\"term\":{\"NamaJabatan\":\"JABATAN PERKHIDMATAN AWAM MALAYSIA\"}}],\"must_not\":[]}}}},\"sort\":[{\"ChangedDate\":{\"order\":\"desc\"}}],\"aggs\":{\"category\":{\"terms\":{\"field\":\"Skim\",\"size\":0}}},\"from\":0,\"size\":20}",
+  "Aggregate": "term",
+  "Field": "Skim",
+  "DateInterval": "year",
+  "IsDashboardItem": true,
+  "DasboardItemPosition": 0,
+  "HistogramInterval": null,
+  "CreatedBy": "780730085342",
+  "Id": "pengguna-responden-dari-jabatan-bilangan-responden-mengikut-skim",
+  "CreatedDate": "2016-05-19T11:05:42.0481134+08:00",
+  "ChangedBy": "780730085342",
+  "ChangedDate": "2016-05-19T11:16:44.9443964+08:00",
+  "WebId": "0cab77b8-f318-42d4-c5b7-88b4a372246d"
+}
