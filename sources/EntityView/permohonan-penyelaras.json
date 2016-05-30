@@ -28,6 +28,23 @@
           "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.Sph.Domain.ConditionalFormatting, domain.sph]], domain.sph",
           "$values": []
         },
+        "Path": "NamaJabatan",
+        "Header": "Agensi",
+        "Sort": "",
+        "IsLinkColumn": false,
+        "FormRoute": null,
+        "IconCssClass": "",
+        "IconStoreId": "",
+        "Format": "text:{0}",
+        "RouteValueField": "",
+        "WebId": "81c70b1a-92ad-44df-8320-88e2a25aa8c9"
+      },
+      {
+        "$type": "Bespoke.Sph.Domain.ViewColumn, domain.sph",
+        "ConditionalFormattingCollection": {
+          "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.Sph.Domain.ConditionalFormatting, domain.sph]], domain.sph",
+          "$values": []
+        },
         "Path": "JenisPermohonan",
         "Header": "Jenis",
         "Sort": "",
@@ -128,7 +145,14 @@
   },
   "SortCollection": {
     "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.Sph.Domain.Sort, domain.sph]], domain.sph",
-    "$values": []
+    "$values": [
+      {
+        "$type": "Bespoke.Sph.Domain.Sort, domain.sph",
+        "Path": "TarikhMula",
+        "Direction": "Desc",
+        "WebId": "3ef3cb42-5c98-46e3-a960-2e876d3e278f"
+      }
+    ]
   },
   "ConditionalFormattingCollection": {
     "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.Sph.Domain.ConditionalFormatting, domain.sph]], domain.sph",
@@ -164,6 +188,6 @@
   "Id": "permohonan-penyelaras",
   "CreatedDate": "2015-06-05T10:45:40.0595083+08:00",
   "ChangedBy": "admin",
-  "ChangedDate": "2016-01-14T09:43:44.9858055+08:00",
+  "ChangedDate": "2016-05-30T18:15:49.6506315+08:00",
   "WebId": "0264f91b-ffce-46cc-d40a-e6d3cadb6fac"
 }

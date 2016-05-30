@@ -38,7 +38,7 @@ function(context, logger, router, chart, config, partial) {
                                 }, {
                                     "range": {
                                         "TarikhTamat": {
-                                            "to": "2016-05-16T00:00:00.0000000"
+                                            "to": "2016-05-30T00:00:00.0000000"
                                         }
                                     }
                                 }
@@ -51,11 +51,15 @@ function(context, logger, router, chart, config, partial) {
                         }
                     }
                 },
-                "sort": []
+                "sort": [{
+                    "TarikhMula": {
+                        "order": "desc"
+                    }
+                }]
             });
             var edQuery = String.format("Name eq '{0}'", 'Permohonan'),
                 tcs = new $.Deferred(),
-                formsQuery = String.format("EntityDefinitionId eq 'permohonan' and IsPublished eq 1 and IsAllowedNewItem eq 1"),
+                formsQuery = String.format("EntityDefinitionId eq 'permohonan' and IsPublished eq true and IsAllowedNewItem eq true"),
                 viewQuery = String.format("EntityDefinitionId eq 'permohonan'"),
                 edTask = context.loadOneAsync("EntityDefinition", edQuery),
                 formsTask = context.loadAsync("EntityForm", formsQuery),

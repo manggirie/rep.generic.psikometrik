@@ -8,6 +8,7 @@
         <table class="table table-striped" data-bind="filter : {path:'tbody>tr'}, searchPaging :{ query: query, map : map, entity : 'Permohonan', list:list}">
             <thead>
                 <tr>
+                    <th>Agensi</th>
                     <th>Program</th>
                     <th>Kod Program</th>
                     <th>Tarikh Mula</th>
@@ -21,6 +22,7 @@
             <tbody data-bind="foreach :list">
                 <tr data-bind="">
 
+                    <td data-bind="text:NamaJabatan"></td>
                     <td>
                         <a data-bind="attr : {href:'#permohonan-tukar-responden' + '/' + Id, title:'Program' }">
                                                         <span data-bind="text:PermohonanNo"></span>

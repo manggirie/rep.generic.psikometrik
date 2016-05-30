@@ -193,7 +193,14 @@
   },
   "SortCollection": {
     "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.Sph.Domain.Sort, domain.sph]], domain.sph",
-    "$values": []
+    "$values": [
+      {
+        "$type": "Bespoke.Sph.Domain.Sort, domain.sph",
+        "Path": "TarikhMula",
+        "Direction": "Desc",
+        "WebId": "fc73ea4d-0ccf-49ac-ce7f-f49166b627be"
+      }
+    ]
   },
   "ConditionalFormattingCollection": {
     "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.Sph.Domain.ConditionalFormatting, domain.sph]], domain.sph",
@@ -229,6 +236,6 @@
   "Id": "permohonan-permohonan-telah-selesai-usrusetia",
   "CreatedDate": "2015-06-05T10:45:40.0585082+08:00",
   "ChangedBy": "admin",
-  "ChangedDate": "2016-05-16T11:34:42.7353776+08:00",
+  "ChangedDate": "2016-05-30T18:10:42.7373317+08:00",
   "WebId": "0264f91b-ffce-46cc-d40a-e6d3cadb6fac"
 }

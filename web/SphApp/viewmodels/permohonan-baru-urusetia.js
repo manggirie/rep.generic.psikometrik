@@ -45,7 +45,11 @@ function(context, logger, router, chart, config, partial) {
                         }
                     }
                 },
-                "sort": []
+                "sort": [{
+                    "TarikhMula": {
+                        "order": "desc"
+                    }
+                }]
             });
             var edQuery = String.format("Name eq '{0}'", 'Permohonan'),
                 tcs = new $.Deferred(),

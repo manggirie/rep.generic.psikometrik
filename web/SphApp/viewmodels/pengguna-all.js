@@ -41,11 +41,15 @@ function(context, logger, router, chart, config, partial) {
                         }
                     }
                 },
-                "sort": []
+                "sort": [{
+                    "Agensi": {
+                        "order": "asc"
+                    }
+                }]
             });
             var edQuery = String.format("Name eq '{0}'", 'Pengguna'),
                 tcs = new $.Deferred(),
-                formsQuery = String.format("EntityDefinitionId eq 'pengguna' and IsPublished eq 1 and IsAllowedNewItem eq 1"),
+                formsQuery = String.format("EntityDefinitionId eq 'pengguna' and IsPublished eq true and IsAllowedNewItem eq true"),
                 viewQuery = String.format("EntityDefinitionId eq 'pengguna'"),
                 edTask = context.loadOneAsync("EntityDefinition", edQuery),
                 formsTask = context.loadAsync("EntityForm", formsQuery),
