@@ -47,7 +47,7 @@
           "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.Sph.Domain.ConditionalFormatting, domain.sph]], domain.sph",
           "$values": []
         },
-        "Path": "Agensi",
+        "Path": "NamaJabatan",
         "Header": "Agensi",
         "Sort": "",
         "IsLinkColumn": false,
@@ -56,7 +56,7 @@
         "IconStoreId": "",
         "Format": "text:{0}",
         "RouteValueField": "",
-        "WebId": "5041e4c8-0779-4e2d-b598-aec55116afe2"
+        "WebId": "61a0fc48-81f2-4564-f5df-196aa929b19a"
       },
       {
         "$type": "Bespoke.Sph.Domain.ViewColumn, domain.sph",
@@ -156,6 +156,6 @@
   "Id": "pengguna-pengguna-all",
   "CreatedDate": "2015-06-16T08:04:09.5345994+08:00",
   "ChangedBy": "admin",
-  "ChangedDate": "2016-05-30T18:27:53.9369194+08:00",
+  "ChangedDate": "2016-05-30T18:56:21.1757239+08:00",
   "WebId": "7bc3651c-5ad2-4db7-802b-5a4de7c7b561"
 }
