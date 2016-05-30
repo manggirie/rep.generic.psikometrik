@@ -312,12 +312,12 @@
   "Operation": "save",
   "Entity": "",
   "Partial": "",
-  "Caption": "Maklumat Percubaan Ses Ujian",
+  "Caption": "Maklumat Percubaan Sesi Ujian",
   "Layout": null,
   "CreatedBy": "admin",
   "Id": "percubaan-sesi-ujian",
   "CreatedDate": "2015-06-28T16:21:18.7617839+08:00",
   "ChangedBy": "admin",
-  "ChangedDate": "2015-06-28T16:25:09.4263608+08:00",
+  "ChangedDate": "2016-05-30T22:48:13.2981944+08:00",
   "WebId": "fb39ac10-c7d1-4114-f7bb-b7f1df5df5f9"
 }
