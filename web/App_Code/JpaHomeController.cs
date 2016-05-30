@@ -50,5 +50,12 @@ namespace web.sph.App_Code
 
             return View("Default", vm);
         }
+
+        [AllowAnonymous]
+        [Route("penafian")]
+        public ActionResult Penafian()
+        {
+            return View();
+        }
     }
 }
