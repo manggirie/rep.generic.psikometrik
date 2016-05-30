@@ -42,7 +42,11 @@ function(context, logger, router, chart, config, partial) {
                     }
                 },
                 "sort": [{
-                    "Agensi": {
+                    "NamaJabatan": {
+                        "order": "asc"
+                    }
+                }, {
+                    "Nama": {
                         "order": "asc"
                     }
                 }]

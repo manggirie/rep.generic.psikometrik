@@ -116,9 +116,15 @@
     "$values": [
       {
         "$type": "Bespoke.Sph.Domain.Sort, domain.sph",
-        "Path": "Agensi",
+        "Path": "NamaJabatan",
         "Direction": "Asc",
-        "WebId": "3ccd3e4a-1e74-4dbc-84e9-3195be53456b"
+        "WebId": "c1822173-b54f-4404-f8ab-4cf7457314bd"
+      },
+      {
+        "$type": "Bespoke.Sph.Domain.Sort, domain.sph",
+        "Path": "Nama",
+        "Direction": "Asc",
+        "WebId": "e15dcd78-7931-47f0-8a5f-1bae79f01067"
       }
     ]
   },
@@ -156,6 +162,6 @@
   "Id": "pengguna-pengguna-all",
   "CreatedDate": "2015-06-16T08:04:09.5345994+08:00",
   "ChangedBy": "admin",
-  "ChangedDate": "2016-05-30T18:56:21.1757239+08:00",
+  "ChangedDate": "2016-05-30T22:40:29.3232614+08:00",
   "WebId": "7bc3651c-5ad2-4db7-802b-5a4de7c7b561"
 }
