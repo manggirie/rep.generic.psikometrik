@@ -1,5 +1,5 @@
 ﻿RESTORE FILELISTONLY
-FROM DISK = 'c:\temp\epsikologi.bak'
+FROM DISK = 'D:\temp\epsikologi_310516'
 GO
 
 
@@ -10,9 +10,9 @@ ROLLBACK IMMEDIATE
 
 ----Restore Database
 RESTORE DATABASE epsikologi
-FROM DISK = 'c:\temp\epsikologi.bak'
-WITH MOVE 'epsikologi' TO 'C:\temp\epsikologi.mdf',
-MOVE 'epsikologi_log' TO 'C:\temp\epsikologi_log.ldf'
+FROM DISK = 'D:\temp\epsikologi_310516'
+WITH MOVE 'epsikologi' TO 'd:\temp\epsikologi.mdf',
+MOVE 'epsikologi_log' TO 'd:\temp\epsikologi_log.ldf'
 
 /*If there is no error in statement before database will be in multiuser
 mode.

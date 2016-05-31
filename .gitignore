@@ -47,3 +47,5 @@ desktop.ini
 CopyAdaptersFromSph.bat
 sources/Hrmis.Adapter/obj/
 *.suo
+/rabbitmq_base.old
+/rabbitmq_server.old

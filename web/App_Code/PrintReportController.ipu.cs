@@ -1,7 +1,5 @@
-using System;
 using System.IO;
 using System.Linq;
-using System.Text;
 using System.Web.Mvc;
 using Bespoke.Sph.Domain;
 using System.Threading.Tasks;
@@ -15,7 +13,6 @@ using Bespoke.epsikologi_sesiujian.Domain;
 using Bespoke.epsikologi_soalan.Domain;
 using Bespoke.epsikologi_ujian.Domain;
 using OfficeOpenXml;
-
 
 namespace web.sph.App_Code
 {
@@ -91,21 +88,6 @@ namespace web.sph.App_Code
 
 
             return View("Trait-Ipu", vm);
-            /*
-            return Pdf("Trait-Ipu", vm, "~/Views/PrintReport/_MasterPage.cshtml",
-                x => x
-                .Replace($"id=\"A{vm.SkorA}\"", $"id=\"A{vm.SkorA}\" class=\"tg-6wvf\"")
-                .Replace($"id=\"B{vm.SkorB}\"", $"id=\"B{vm.SkorB}\" class=\"tg-6wvf\"")
-                .Replace($"id=\"C{vm.SkorC}\"", $"id=\"C{vm.SkorC}\" class=\"tg-6wvf\"")
-                .Replace($"id=\"D{vm.SkorD}\"", $"id=\"D{vm.SkorD}\" class=\"tg-6wvf\"")
-                .Replace($"id=\"E{vm.SkorE}\"", $"id=\"E{vm.SkorE}\" class=\"tg-6wvf\"")
-                .Replace($"id=\"F{vm.SkorF}\"", $"id=\"F{vm.SkorF}\" class=\"tg-6wvf\"")
-                .Replace($"id=\"G{vm.SkorG}\"", $"id=\"G{vm.SkorG}\" class=\"tg-6wvf\"")
-                .Replace($"id=\"H{vm.SkorH}\"", $"id=\"H{vm.SkorH}\" class=\"tg-6wvf\"")
-                .Replace($"id=\"I{vm.SkorI}\"", $"id=\"I{vm.SkorI}\" class=\"tg-6wvf\"")
-                .Replace($"id=\"J{vm.SkorJ}\"", $"id=\"J{vm.SkorJ}\" class=\"tg-6wvf\""));
-
-            */
         }
 
 
@@ -134,15 +116,15 @@ namespace web.sph.App_Code
             };
 
             /* */
-            var apTask = context.LoadOneAsync<SkorIPU>(x => vm.A.IsBetween(x.NilaiMin, x.NilaiMax, true, true));
-            var bpTask = context.LoadOneAsync<SkorIPU>(x => vm.B.IsBetween(x.NilaiMin, x.NilaiMax, true, true));
-            var cpTask = context.LoadOneAsync<SkorIPU>(x => vm.C.IsBetween(x.NilaiMin, x.NilaiMax, true, true));
-            var dpTask = context.LoadOneAsync<SkorIPU>(x => vm.D.IsBetween(x.NilaiMin, x.NilaiMax, true, true));
-            var epTask = context.LoadOneAsync<SkorIPU>(x => vm.E.IsBetween(x.NilaiMin, x.NilaiMax, true, true));
-            var fpTask = context.LoadOneAsync<SkorIPU>(x => vm.F.IsBetween(x.NilaiMin, x.NilaiMax, true, true));
-            var gpTask = context.LoadOneAsync<SkorIPU>(x => vm.G.IsBetween(x.NilaiMin, x.NilaiMax, true, true));
-            var hpTask = context.LoadOneAsync<SkorIPU>(x => vm.H.IsBetween(x.NilaiMin, x.NilaiMax, true, true));
-            var ipTask = context.LoadOneAsync<SkorIPU>(x => vm.I.IsBetween(x.NilaiMin, x.NilaiMax, true, true));
+            var apTask = context.LoadOneAsync<SkorIPU>(x => vm.A.IsBetween(x.NilaiMin, x.NilaiMax, true, true) && x.Jantina == user.Jantina && x.Tret == "A");
+            var bpTask = context.LoadOneAsync<SkorIPU>(x => vm.B.IsBetween(x.NilaiMin, x.NilaiMax, true, true) && x.Jantina == user.Jantina && x.Tret == "B");
+            var cpTask = context.LoadOneAsync<SkorIPU>(x => vm.C.IsBetween(x.NilaiMin, x.NilaiMax, true, true) && x.Jantina == user.Jantina && x.Tret == "C");
+            var dpTask = context.LoadOneAsync<SkorIPU>(x => vm.D.IsBetween(x.NilaiMin, x.NilaiMax, true, true) && x.Jantina == user.Jantina && x.Tret == "D");
+            var epTask = context.LoadOneAsync<SkorIPU>(x => vm.E.IsBetween(x.NilaiMin, x.NilaiMax, true, true) && x.Jantina == user.Jantina && x.Tret == "E");
+            var fpTask = context.LoadOneAsync<SkorIPU>(x => vm.F.IsBetween(x.NilaiMin, x.NilaiMax, true, true) && x.Jantina == user.Jantina && x.Tret == "F");
+            var gpTask = context.LoadOneAsync<SkorIPU>(x => vm.G.IsBetween(x.NilaiMin, x.NilaiMax, true, true) && x.Jantina == user.Jantina && x.Tret == "G");
+            var hpTask = context.LoadOneAsync<SkorIPU>(x => vm.H.IsBetween(x.NilaiMin, x.NilaiMax, true, true) && x.Jantina == user.Jantina && x.Tret == "H");
+            var ipTask = context.LoadOneAsync<SkorIPU>(x => vm.I.IsBetween(x.NilaiMin, x.NilaiMax, true, true) && x.Jantina == user.Jantina && x.Tret == "I");
             await Task.WhenAll(apTask, bpTask, cpTask, epTask, fpTask, gpTask, hpTask, ipTask);
 
             var ap = await apTask;
@@ -167,17 +149,6 @@ namespace web.sph.App_Code
             vm.SkorJ = vm.J;
 
             var viewName = "Indikator-Ipu-" + user.Jantina;
-            //return Pdf(viewName, vm, "~/Views/PrintReport/_MasterPage.cshtml", x => x
-            //    .Replace($"id=\"A{vm.SkorA}\"", $"id=\"A{vm.SkorA}\" class=\"tg-6wvf\"")
-            //    .Replace($"id=\"B{vm.SkorB}\"", $"id=\"B{vm.SkorB}\" class=\"tg-6wvf\"")
-            //    .Replace($"id=\"C{vm.SkorC}\"", $"id=\"C{vm.SkorC}\" class=\"tg-6wvf\"")
-            //    .Replace($"id=\"D{vm.SkorD}\"", $"id=\"D{vm.SkorD}\" class=\"tg-6wvf\"")
-            //    .Replace($"id=\"E{vm.SkorE}\"", $"id=\"E{vm.SkorE}\" class=\"tg-6wvf\"")
-            //    .Replace($"id=\"F{vm.SkorF}\"", $"id=\"F{vm.SkorF}\" class=\"tg-6wvf\"")
-            //    .Replace($"id=\"G{vm.SkorG}\"", $"id=\"G{vm.SkorG}\" class=\"tg-6wvf\"")
-            //    .Replace($"id=\"H{vm.SkorH}\"", $"id=\"H{vm.SkorH}\" class=\"tg-6wvf\"")
-            //    .Replace($"id=\"I{vm.SkorI}\"", $"id=\"I{vm.SkorI}\" class=\"tg-6wvf\"")
-            //    .Replace($"id=\"J{vm.SkorJ}\"", $"id=\"J{vm.SkorJ}\" class=\"tg-6wvf\""));
             return View(viewName, vm);
         }
 
