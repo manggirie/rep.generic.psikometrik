@@ -153,6 +153,11 @@ namespace web.sph.App_Code
         [Route("forgot-password")]
         public async Task<ActionResult> ForgotPassword(string email)
         {
+            var username = Membership.GetUserNameByEmail(email);
+            if (string.IsNullOrWhiteSpace(username))
+            {
+                return Json(new { sucess = false, status = "Cannot find any user with email  " + email });
+            }
             var setting = new Setting { UserName = email, Key = "ForgotPassword", Value = DateTime.Now.ToString("s"), Id = Strings.GenerateId() };
             var context = new SphDataContext();
             using (var session = context.OpenSession())
@@ -235,7 +240,7 @@ Emel ini di jana oleh komputer.",
 
 
             var ok = AdminController.CheckPasswordComplexity(Membership.Provider, model.Password);
-            if(!ok)
+            if (!ok)
                 return Json(new { success = false, status = "PASSWORD_COMPLEXITY", message = "Kata laluan anda tidak mengikut kesesuaian yang ditetapkan" });
 
             var temp = user.ResetPassword();
