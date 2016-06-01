@@ -1,0 +1,25 @@
+{
+  "$type": "Bespoke.Sph.Domain.EntityChart, domain.sph",
+  "SeriesCollection": {
+    "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.Sph.Domain.Series, domain.sph]], domain.sph",
+    "$values": []
+  },
+  "EntityDefinitionId": "pengguna",
+  "Entity": "Pengguna",
+  "Name": "Responden Mengikut Bulan",
+  "Type": "column",
+  "EntityViewId": "pengguna-pengguna-all",
+  "Query": "{\"query\":{\"filtered\":{\"filter\":{\"bool\":{\"must\":[],\"must_not\":[]}}}},\"sort\":[{\"NamaJabatan\":{\"order\":\"asc\"}},{\"Nama\":{\"order\":\"asc\"}}],\"aggs\":{\"category\":{\"date_histogram\":{\"field\":\"CreatedDate\",\"interval\":\"month\",\"format\":\"MMM yyyy\"}}},\"from\":0,\"size\":20}",
+  "Aggregate": "date_histogram",
+  "Field": "CreatedDate",
+  "DateInterval": "month",
+  "IsDashboardItem": true,
+  "DasboardItemPosition": 0,
+  "HistogramInterval": 0,
+  "CreatedBy": "bpm",
+  "Id": "pengguna-pengguna-all-responden-mengikut-bulan",
+  "CreatedDate": "2016-06-01T22:04:24.1682226+08:00",
+  "ChangedBy": "bpm",
+  "ChangedDate": "2016-06-01T22:05:06.3467383+08:00",
+  "WebId": "c9542d0f-0794-485c-d365-99c5c417c8ab"
+}
