@@ -195,7 +195,7 @@
   "IconClass": "",
   "IconStoreId": "sph-img-list",
   "EntityDefinitionId": "permohonan",
-  "Name": "Senarai Program Keseluruhan",
+  "Name": "Senarai Perincian Program",
   "Route": "program-sesi-ujian-penyelaras",
   "Note": "Untuk Penyelaras Jabatan",
   "Query": "",
@@ -211,6 +211,6 @@
   "Id": "permohonan-program-sesi-ujian-penyelaras",
   "CreatedDate": "2015-06-05T10:45:40.0585082+08:00",
   "ChangedBy": "admin",
-  "ChangedDate": "2016-05-13T13:39:36.5261238+08:00",
+  "ChangedDate": "2016-06-01T15:50:54.122975+08:00",
   "WebId": "0264f91b-ffce-46cc-d40a-e6d3cadb6fac"
 }
