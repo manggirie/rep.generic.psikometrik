@@ -57,5 +57,12 @@ namespace web.sph.App_Code
         {
             return View();
         }
+
+        [AllowAnonymous]
+        [Route("manual-pengguna")]
+        public ActionResult ManualPengguna()
+        {
+            return View();
+        }
     }
 }
