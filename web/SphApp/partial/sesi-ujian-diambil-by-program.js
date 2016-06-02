@@ -1,4 +1,4 @@
-define([], function () {
+define(["services/datacontext"], function (context) {
     var map = function (v) {
         if (v.NamaUjian === "UKBP-A") {
             v.NamaUjian = "UKBP";
@@ -6,7 +6,11 @@ define([], function () {
         if (v.NamaUjian === "UKBP-B") {
             v.NamaUjian = "UKBP";
         }
-        v.Jantina = "L";
+        v.Jantina = ko.observable("...");
+        context.getScalarAsync("Pengguna", "MyKad eq '" + v.MyKad + "'", "Jantina")
+            .done(function (jantina) {
+                v.Jantina(jantina);
+            });
         return v;
     }, activate = function (list) {
         var items = list(),
