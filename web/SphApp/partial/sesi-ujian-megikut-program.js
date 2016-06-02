@@ -1,4 +1,4 @@
-define([], function(){
+define(["services/datacontext"], function (context) {
     var activate = function(entity){
             
             var tcs = new $.Deferred();
@@ -11,8 +11,11 @@ define([], function(){
 
         },
         map = function(item){
-            item.Jantina = "L";
-            
+            item.Jantina = ko.observable("...");
+            context.getScalarAsync("Pengguna", "MyKad eq '" + item.MyKad + "'", "Jantina")
+                .done(function (jantina) {
+                    item.Jantina(jantina);
+                });
             return item;
         },
         attached  = function(view){
