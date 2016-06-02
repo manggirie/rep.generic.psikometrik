@@ -14,7 +14,11 @@ define([], function(){
         
         },
         map =function(item){
-            item.Jantina = "Lelaki";
+            item.Jantina = ko.observable("...");
+            context.getScalarAsync("Pengguna", "MyKad eq '" + item.MyKad + "'", "Jantina")
+                .done(function (jantina) {
+                    item.Jantina(jantina);
+                });
             return item;
         };
 
