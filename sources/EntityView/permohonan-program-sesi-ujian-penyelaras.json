@@ -165,7 +165,7 @@
         "Sort": "",
         "IsLinkColumn": true,
         "FormRoute": "sesi-ujian-megikut-program",
-        "IconCssClass": "",
+        "IconCssClass": "fa fa-list-ul",
         "IconStoreId": "",
         "Format": "text:{0}",
         "RouteValueField": "encodeURIComponent(PermohonanNo)",
@@ -211,6 +211,6 @@
   "Id": "permohonan-program-sesi-ujian-penyelaras",
   "CreatedDate": "2015-06-05T10:45:40.0585082+08:00",
   "ChangedBy": "admin",
-  "ChangedDate": "2016-06-02T15:00:56.5267447+08:00",
+  "ChangedDate": "2016-06-02T15:25:09.6422239+08:00",
   "WebId": "0264f91b-ffce-46cc-d40a-e6d3cadb6fac"
 }
