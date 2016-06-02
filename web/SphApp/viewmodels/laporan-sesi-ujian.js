@@ -40,12 +40,12 @@ define(["services/datacontext", "services/logger", "plugins/router", objectbuild
             .then(function (list) {
                 ujianOptions(list);
                 ujianOptions.push("UKBP");
-                return context.loadAsync("Permohonan", "Id ne '0'", "NamaProgram");
+                return context.loadAsync({ entity: "Permohonan", size: 100}, "Id ne '0'", "NamaProgram");
             })
             .then(function (lo) {
                var items = _(lo.itemCollection).map(function(v){
                   v.NoKod = v.NamaProgram() +"/"+v.BilProgram()+"/"+v.SiriProgram()+"/"+v.TahunProgram();
-                  v.Keterangan = v.KodProgram() +"  "+v.NamaProgram();
+                  v.Keterangan = v.KodProgram() + "  " + v.NoKod;
                   return v;
                 });
                 programOptions(items);
