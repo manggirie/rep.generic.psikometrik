@@ -133,7 +133,7 @@ namespace web.sph.App_Code
             var ujian = await context.LoadOneAsync<Ujian>(x => x.Id == "IPU");
 
             var query = context.CreateQueryable<SesiUjian>()
-                .Where(s => s.NamaProgram == no)
+                .Where(s => s.NamaProgram == model.Program)
                 .Where(s => s.NamaUjian == model.Ujian)
                 .Where(s => s.Status == "Diambil");
             var sesiLo = await context.LoadAsync(query, 1, 200, true);
