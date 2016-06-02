@@ -1,4 +1,4 @@
-define([], function(){
+define(["services/datacontext"], function (context) {
     var activate = function(list){
             
             var tcs = new $.Deferred();
