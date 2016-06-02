@@ -20,8 +20,10 @@ define(["services/datacontext"], function(context){
             p.senaraiUjian = ujian;
             p.sudahAmbil = ko.observable(".....");
             p.belumAmbil = ko.observable(".....");
+            p.bilRespondanMengikutProgram = ko.observable(".....");
             context.getCountAsync("SesiUjian", "NamaProgram eq '" + p.PermohonanNo + "' and Status eq 'Diambil'").done(p.sudahAmbil);
             context.getCountAsync("SesiUjian", "NamaProgram eq '" + p.PermohonanNo + "' and Status eq 'Belum Ambil'").done(p.belumAmbil);
+            context.getCountAsync("SesiUjian", "NamaProgram eq '" + p.PermohonanNo + "'").done(p.bilRespondanMengikutProgram);
             return p;
         };
     return {
