@@ -59,8 +59,8 @@ namespace web.sph.App_Code
         }
 
         [AllowAnonymous]
-        [Route("manual-pengguna")]
-        public ActionResult ManualPengguna()
+        [Route("muat-turun")]
+        public ActionResult MuatTurun()
         {
             return View();
         }
