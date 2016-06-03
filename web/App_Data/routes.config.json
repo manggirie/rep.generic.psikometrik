@@ -96,5 +96,19 @@
     "showWhenLoggedIn": false,
     "isAdminPage": false,
     "startPageRoute": null
+  },
+  {
+    "role": "administrators",
+    "groupName": null,
+    "route": "email-sandbox",
+    "moduleId": "viewmodels/email-sandbox",
+    "title": "Email Sandbox",
+    "nav": true,
+    "icon": "fa fa-envelope-o",
+    "caption": "Email Sandbox",
+    "settings": null,
+    "showWhenLoggedIn": false,
+    "isAdminPage": false,
+    "startPageRoute": null
   }
 ]
