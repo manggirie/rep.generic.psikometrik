@@ -64,7 +64,7 @@
         "Sort": "",
         "IsLinkColumn": true,
         "FormRoute": "permohonan-tukar-responden",
-        "IconCssClass": "",
+        "IconCssClass": "fa fa-edit",
         "IconStoreId": "",
         "Format": "text:{0}",
         "RouteValueField": "Id",
@@ -236,6 +236,6 @@
   "Id": "permohonan-permohonan-urusetia-lulus",
   "CreatedDate": "2015-06-05T10:45:40.0585082+08:00",
   "ChangedBy": "admin",
-  "ChangedDate": "2016-05-30T18:16:34.9881054+08:00",
+  "ChangedDate": "2016-06-10T08:25:10.143099+08:00",
   "WebId": "0264f91b-ffce-46cc-d40a-e6d3cadb6fac"
 }
