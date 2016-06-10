@@ -37,7 +37,7 @@ namespace web.sph.App_Code
 
             var file = new FileInfo(temp);
             var excel = new ExcelPackage(file);
-            var ws = excel.Workbook.Worksheets["IPU"];
+            var ws = excel.Workbook.Worksheets[model.Ujian];
 
             var context = new SphDataContext();
             //var program = await context.GetScalarAsync<SesiUjian, string>(x => x.TarikhUjian.Value.Year == year, x => x.NamaProgram);
@@ -59,7 +59,14 @@ namespace web.sph.App_Code
                                    .Where(s => s.NamaUjian ==model.Ujian);
             var soalanLo = await context.LoadAsync(soalanQuery, 1, 200, true);
             var soalans = soalanLo.ItemCollection.OrderBy(s => s.Susunan);
-            
+
+            ws.Cells[1, 1].Value = "Laporan Sesi Ujian "
+                + model.Ujian
+                + " bagi Program  "
+                + model.Program
+                + " tahun "
+                + model.Tahun.ToString();
+
             var column1 = 4;
             foreach (var soalan in soalans)
             {
