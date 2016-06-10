@@ -64,7 +64,7 @@
                                  errors.removeAll();
 
                                   
-                                    app.showMessage("Permohonan Berjaya Dihantar", "JPA Sistem Ujian e-Psikometrik", ["OK"])
+                                 app.showMessage("Permohonan Berjaya Dihantar", "JPA Sistem Ujian e-Psikometrik", ["OK"])
 	                                    .done(function () {
                                             window.location='#penyelaras-home'
 	                                    });
@@ -216,6 +216,14 @@
                 toolbar : {
                                                                                                         
                     saveCommand : permohonanDariPenyelaras,
+                                                
+                    canExecuteSaveCommand : ko.computed(function(){
+                        if(typeof partial.canExecuteSaveCommand === "function"){
+                            return partial.canExecuteSaveCommand();
+                        }
+                        return true;
+                    }),
+                        
                     
                     commands : ko.observableArray([])
                 }

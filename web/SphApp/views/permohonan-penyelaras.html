@@ -158,7 +158,7 @@
                    data-bind="value: BilRespondan, enable :moment() <= moment(ko.unwrap(TarikhTamat)) "
                    
                    
-                   
+                    data-rule-number="true" 
                    id="01ecd570-9ebf-4767-8d9c-f0c98f2c279e" type="text" name="BilRespondan" />
         </div>
     </div>
@@ -198,11 +198,12 @@
     <div data-bind="visible:true" class="form-group">
         <label data-i18n="Nama Program" for="e0c92c33-6620-4eb7-beb7-678560dce926" class="col-md-4">Nama Program</label>
         <div class="col-md-8">
-            <input  class=" form-control input-large" title=""
+            <input required class=" form-control input-large" title=""
                    data-bind="value: NamaProgram, enable :true "
                    
                    
-                   
+                    data-rule-required="true" 
+
                    id="e0c92c33-6620-4eb7-beb7-678560dce926" type="text" name="NamaProgram" />
         </div>
     </div>
@@ -216,7 +217,7 @@
                    data-bind="value: BilProgram, enable :true "
                    
                    
-                   
+                    data-rule-number="true" 
                    id="93a63d14-b86d-461c-f047-2d4352cffc77" type="text" name="BilProgram" />
         </div>
     </div>
@@ -230,7 +231,7 @@
                    data-bind="value: SiriProgram, enable :true "
                    
                    
-                   
+                    data-rule-number="true" 
                    id="0527b3c8-7feb-4093-d265-cf1a40dc15e2" type="text" name="SiriProgram" />
         </div>
     </div>

@@ -695,7 +695,7 @@
             "$type": "Bespoke.Sph.Domain.FieldValidation, domain.sph",
             "IsRequired": false,
             "Pattern": null,
-            "Mode": "",
+            "Mode": "number",
             "Message": null,
             "Min": null,
             "Max": null,
@@ -943,7 +943,7 @@
           "TypeName": "TextBox",
           "FieldValidation": {
             "$type": "Bespoke.Sph.Domain.FieldValidation, domain.sph",
-            "IsRequired": false,
+            "IsRequired": true,
             "Pattern": null,
             "Mode": "",
             "Message": null,
@@ -1184,6 +1184,6 @@
   "Id": "permohonan-urusetia-baru",
   "CreatedDate": "2015-06-16T08:04:20.3588975+08:00",
   "ChangedBy": "admin",
-  "ChangedDate": "2016-05-30T23:22:19.9614313+08:00",
+  "ChangedDate": "2016-06-10T11:51:51.3204667+08:00",
   "WebId": "d56af63c-c52e-401b-83b5-bfecea2c53d1"
 }

@@ -194,7 +194,7 @@
                    data-bind="value: BilRespondan, enable :true "
                    
                    
-                   
+                    data-rule-number="true" 
                    id="01ecd570-9ebf-4767-8d9c-f0c98f2c279e" type="text" name="BilRespondan" />
         </div>
     </div>
@@ -245,11 +245,12 @@
     <div data-bind="visible:true" class="form-group">
         <label data-i18n="Nama Program" for="9148970a-b6ce-4da8-feb7-06b13b1b7bc3" class="col-md-4">Nama Program</label>
         <div class="col-md-8">
-            <input  class=" form-control input-large" title=""
+            <input required class=" form-control input-large" title=""
                    data-bind="value: NamaProgram, enable :true "
                    
                    
-                   
+                    data-rule-required="true" 
+
                    id="9148970a-b6ce-4da8-feb7-06b13b1b7bc3" type="text" name="NamaProgram" />
         </div>
     </div>
