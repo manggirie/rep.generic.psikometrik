@@ -89,7 +89,7 @@
                                  errors.removeAll();
 
                                   
-                                    app.showMessage("Rekod berjaya didaftarkan", "JPA Sistem Ujian e-Psikometrik", ["OK"])
+                                 app.showMessage("Rekod berjaya didaftarkan", "JPA Sistem Ujian e-Psikometrik", ["OK"])
 	                                    .done(function () {
                                             window.location= config.roles.indexOf("PengurusanPenggunaJabatan") > -1 ?  "#responden-dari-jabatan" : "#pengguna-all";
 	                                    });
@@ -119,7 +119,7 @@
                                  errors.removeAll();
 
                                   
-                                    app.showMessage("Rekod berjaya disimpan", "JPA Sistem Ujian e-Psikometrik", ["OK"])
+                                 app.showMessage("Rekod berjaya disimpan", "JPA Sistem Ujian e-Psikometrik", ["OK"])
 	                                    .done(function () {
                                             window.location='#responden'
 	                                    });
@@ -149,7 +149,7 @@
                                  errors.removeAll();
 
                                   
-                                    app.showMessage("Rekod berjaya disimpan", "JPA Sistem Ujian e-Psikometrik", ["OK"])
+                                 app.showMessage("Rekod berjaya disimpan", "JPA Sistem Ujian e-Psikometrik", ["OK"])
 	                                    .done(function () {
                                             window.location='#responden-dari-jabatan'
 	                                    });
@@ -241,13 +241,15 @@
 
                 toolbar : {
                                                                                                         
-                    saveCommand: tarikhKemaskiniNow,
-                    canExecuteSaveCommand: ko.computed(function () {
-                        if (typeof partial.canExecuteSaveCommand === "function") {
+                    saveCommand : tarikhKemaskiniNow,
+                                                
+                    canExecuteSaveCommand : ko.computed(function(){
+                        if(typeof partial.canExecuteSaveCommand === "function"){
                             return partial.canExecuteSaveCommand();
                         }
                         return true;
                     }),
+                        
                     
                     commands : ko.observableArray([])
                 }

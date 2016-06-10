@@ -171,7 +171,7 @@
           "TypeName": "ComboBox",
           "FieldValidation": {
             "$type": "Bespoke.Sph.Domain.FieldValidation, domain.sph",
-            "IsRequired": false,
+            "IsRequired": true,
             "Pattern": null,
             "Mode": "",
             "Message": null,
@@ -1383,6 +1383,6 @@
   "Id": "tambah-pengguna",
   "CreatedDate": "2015-06-16T08:04:09.5205895+08:00",
   "ChangedBy": "admin",
-  "ChangedDate": "2015-10-06T09:07:41.6213286+08:00",
+  "ChangedDate": "2016-06-10T13:23:21.6004518+08:00",
   "WebId": "4e32950c-7d95-4b44-983c-3c3e67811ded"
 }

@@ -142,7 +142,7 @@
     </div>
 
 
-    <div class="form-group" data-bind="visible:ko.unwrap(Pekerjaan) === &#39;Pelajar&#39;">
+    <div class="form-group" data-bind="visible:ko.unwrap(Pekerjaan) === 'Pelajar'">
         <label data-i18n="Tahap Pengajian" for="adf6cb29-b636-48d4-de1c-9899a58ce007" class="col-md-4">Tahap Pengajian</label>
         <div class="col-md-8">
             <select  data-bind="value: Pelajar().TahapPendidikan, enable :true" id="adf6cb29-b636-48d4-de1c-9899a58ce007" name="Pelajar.TahapPendidikan" class=" input-large form-control">
@@ -156,7 +156,7 @@
 
 
 
-    <div data-bind="visible:ko.unwrap(Pekerjaan) === &#39;Pelajar&#39;" class="form-group">
+    <div data-bind="visible:ko.unwrap(Pekerjaan) === 'Pelajar'" class="form-group">
         <label data-i18n="Bidang Pengajian" for="f977812f-48d5-4d25-c09b-368a392fccad" class="col-md-4">Bidang Pengajian</label>
         <div class="col-md-8">
             <input required class=" form-control input-large" title=""
@@ -170,7 +170,7 @@
     </div>
 
 
-    <div class="form-group" data-bind="visible:ko.unwrap(Pekerjaan) === &#39;Pelajar&#39;">
+    <div class="form-group" data-bind="visible:ko.unwrap(Pekerjaan) === 'Pelajar'">
         <label data-i18n="Tempat Pengajian" for="pengguna-pelajar-tempat" class="col-md-4">Tempat Pengajian</label>
         <div class="col-md-8">
             <select  data-bind="value: Pelajar().Tempat, enable :true" id="pengguna-pelajar-tempat" name="Pelajar.Tempat" class="required  form-control">
@@ -182,7 +182,7 @@
     </div>
 
 
-    <div class="form-group" data-bind="visible:ko.unwrap(Pekerjaan) === &#39;Kerajaan&#39;">
+    <div class="form-group" data-bind="visible:ko.unwrap(Pekerjaan) === 'Kerajaan'">
         <label data-i18n="Kumpulan Agensi" for="119ac31f-e09c-43cc-b3c7-91ce4cccaf9c" class="col-md-4">Kumpulan Agensi</label>
         <div class="col-md-8">
             <select  data-bind="value: JenisPerkhidmatan, enable :$root.partial.isPenyelaras() === false && fillManually()" id="119ac31f-e09c-43cc-b3c7-91ce4cccaf9c" name="JenisPerkhidmatan" class="required input-large form-control">
@@ -198,7 +198,7 @@
     </div>
 
 
-    <div class="form-group" data-bind="visible:ko.unwrap(Pekerjaan) === &#39;Kerajaan&#39;">
+    <div class="form-group" data-bind="visible:ko.unwrap(Pekerjaan) === 'Kerajaan'">
         <label data-i18n="Tempat Bertugas" for="566600d0-3ed3-4dfc-f481-f4efe6e69308" class="col-md-4">Tempat Bertugas</label>
         <div class="col-md-8">
             <select  data-bind=" visible :ko.unwrap(Pekerjaan) === 'Kerajaan',  enable :$root.partial.isPenyelaras() === false && fillManually(), comboBoxLookupOptions : { value: NamaJabatan, entity : 'Jabatan', valuePath : 'NamaJabatan', displayPath: 'NamaJabatan', query :'Id ne \'0\''}" id="566600d0-3ed3-4dfc-f481-f4efe6e69308" name="NamaJabatan" class=" input-large form-control">
@@ -208,7 +208,7 @@
 
 
 
-    <div data-bind="visible:ko.unwrap(Pekerjaan) === &#39;Kerajaan&#39;" class="form-group">
+    <div data-bind="visible:ko.unwrap(Pekerjaan) === 'Kerajaan'" class="form-group">
         <label data-i18n="Bahagian/Seksyen" for="4a411589-c825-4272-8410-6efb9118876e" class="col-md-4">Bahagian/Seksyen</label>
         <div class="col-md-8">
             <input  class=" form-control " title=""
@@ -221,7 +221,7 @@
     </div>
 
 
-    <div class="form-group" data-bind="visible:ko.unwrap(Pekerjaan) === &#39;Kerajaan&#39;">
+    <div class="form-group" data-bind="visible:ko.unwrap(Pekerjaan) === 'Kerajaan'">
         <label data-i18n="Kumpulan Jawatan" for="136182e1-66a5-4fa8-bba1-e6080deb3fb3" class="col-md-4">Kumpulan Jawatan</label>
         <div class="col-md-8">
             <select  data-bind="value: KumpulanJawatan, enable :fillManually" id="136182e1-66a5-4fa8-bba1-e6080deb3fb3" name="KumpulanJawatan" class="required input-large form-control">
@@ -242,7 +242,7 @@
 
 
 
-    <div data-bind="visible:ko.unwrap(Pekerjaan) === &#39;Kerajaan&#39;" class="form-group">
+    <div data-bind="visible:ko.unwrap(Pekerjaan) === 'Kerajaan'" class="form-group">
         <label data-i18n="Skim dan Gred Perkhidmatan " for="5fa43eda-a4b2-4797-80a4-bdfeba53f0b4" class="col-md-4">Skim dan Gred Perkhidmatan </label>
         <div class="col-md-8">
             <input  class=" form-control input-large" title=""
