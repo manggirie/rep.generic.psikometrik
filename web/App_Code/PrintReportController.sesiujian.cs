@@ -71,7 +71,7 @@ namespace web.sph.App_Code
             foreach (var soalan in soalans)
             {
                 column1++;
-                var noSeksyen = String.IsNullOrEmpty(soalan.SeksyenSoalan) ? "S" + soalan.SeksyenSoalan : "";
+                var noSeksyen = !String.IsNullOrEmpty(soalan.SeksyenSoalan) ? "S" + soalan.SeksyenSoalan : "";
                 var noSoalan = "Q" + Convert.ToInt32(soalan.Susunan);
                 ws.Cells[2, column1].Value = noSeksyen + noSoalan;
             }
