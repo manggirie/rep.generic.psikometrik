@@ -46,18 +46,18 @@ namespace web.sph.App_Code
                 .Where(s => s.NamaProgram == model.Program)
                 .Where(s => s.Status == "Diambil")
                 .Where(s => s.NamaUjian == model.Ujian);
-            var sesiLo = await context.LoadAsync(query, 1, 200, true);
+            var sesiLo = await context.LoadAsync(query, 1, 300, true);
             var sesi = sesiLo.ItemCollection;
 
             while (sesiLo.HasNextPage)
             {
-                sesiLo = await context.LoadAsync(query, sesiLo.CurrentPage + 1, 200, true);
+                sesiLo = await context.LoadAsync(query, sesiLo.CurrentPage + 1, 300, true);
                 sesi.AddRange(sesiLo.ItemCollection);
             }
 
             var soalanQuery = context.CreateQueryable<Soalan>()
                                    .Where(s => s.NamaUjian == model.Ujian);
-            var soalanLo = await context.LoadAsync(soalanQuery, 1, 200, true);
+            var soalanLo = await context.LoadAsync(soalanQuery, 1, 300, true);
             var soalans = soalanLo.ItemCollection.OrderBy(s => s.Susunan);
 
             ws.Cells[1, 1].Value = "Laporan Sesi Ujian "
@@ -71,8 +71,8 @@ namespace web.sph.App_Code
             foreach (var soalan in soalans)
             {
                 column1++;
+                var noSeksyen = String.IsNullOrEmpty(soalan.SeksyenSoalan) ? "S" + soalan.SeksyenSoalan : "";
                 var noSoalan = "Q" + Convert.ToInt32(soalan.Susunan);
-                var noSeksyen = soalan.SeksyenSoalan != null ? "S" + soalan.SeksyenSoalan : "";
                 ws.Cells[2, column1].Value = noSeksyen + noSoalan;
             }
             var row = 2;
