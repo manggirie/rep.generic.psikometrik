@@ -56,7 +56,7 @@ namespace web.sph.App_Code
             }
 
             var soalanQuery = context.CreateQueryable<Soalan>()
-                                   .Where(s => s.NamaUjian ==model.Ujian);
+                                   .Where(s => s.NamaUjian == model.Ujian);
             var soalanLo = await context.LoadAsync(soalanQuery, 1, 200, true);
             var soalans = soalanLo.ItemCollection.OrderBy(s => s.Susunan);
 
@@ -71,7 +71,9 @@ namespace web.sph.App_Code
             foreach (var soalan in soalans)
             {
                 column1++;
-                ws.Cells[2, column1].Value = "Q" + soalan.Susunan;
+                var noSoalan = "Q" + Convert.ToInt32(soalan.Susunan);
+                var noSeksyen = soalan.SeksyenSoalan != null ? "S" + soalan.SeksyenSoalan : "";
+                ws.Cells[2, column1].Value = noSeksyen + noSoalan;
             }
             var row = 2;
             foreach (var s in sesi)
