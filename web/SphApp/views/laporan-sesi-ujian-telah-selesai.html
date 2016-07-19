@@ -1,0 +1,48 @@
+<h1>Laporan Sesi Ujian Telah Selesai</h1>
+<div class="row">
+    <div class="col-md-8">
+        <button class="btn btn-link pull-right" data-bind="visible: chartFiltered, click: clearChartFilter">
+            <i class="fa fa-times"></i>
+            Clear chart's filter
+        </button>
+        <table class="table table-striped" data-bind="filter : {path:'tbody>tr'}, searchPaging :{ query: query, map : map, entity : 'Permohonan', list:list}">
+            <thead>
+                <tr>
+                    <th>Agensi</th>
+                    <th>Kod Program</th>
+                    <th>Program</th>
+                    <th>Tarikh Mula</th>
+                    <th>Tarikh Tamat</th>
+                    <th>Bil. Responden</th>
+                    <th>Senarai Ujian</th>
+                    <th>Jana  Laporan</th>
+                </tr>
+            </thead>
+            <tbody data-bind="foreach :list">
+                <tr data-bind="">
+
+                    <td data-bind="text:NamaJabatan"></td>
+                    <td data-bind="text:KodProgram"></td>
+                    <td data-bind="text:PermohonanNo"></td>
+                    <td data-bind="date:TarikhMula"></td>
+                    <td data-bind="date:TarikhTamat"></td>
+                    <td data-bind="text:BilRespondan"></td>
+                    <td data-bind="text:senaraiUjian"></td>
+                    <td>
+                        <a data-bind="attr : {href:'#laporan-maklumat-program' + '/' + Id, title:'Jana  Laporan' }">
+                            <i class="fa fa-print"></i>
+                                                        <img src="/sph/image/store/c870fd77-6651-4af9-8002-4154573b1bfb" alt="Jana  Laporan" />
+                            <span data-bind="text:Jana Laporan"></span>
+                        </a>
+                    </td>
+
+
+                </tr>
+            </tbody>
+        </table>
+        <img src="/Images/spinner-md.gif" alt="loading" class="absolute-center" data-bind="visible: isBusy" />
+    </div>
+
+    <!-- ko compose : {view : '_chart.panel'}-->
+    <!-- /ko -->
+</div>
