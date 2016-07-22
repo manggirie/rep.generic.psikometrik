@@ -49,3 +49,7 @@ sources/Hrmis.Adapter/obj/
 *.suo
 /rabbitmq_base.old
 /rabbitmq_server.old
+db/
+enabled_plugins
+rabbitmq_server.old1/
+log/

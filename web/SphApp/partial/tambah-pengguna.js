@@ -29,6 +29,7 @@ define(["services/datacontext", objectbuilders.config, objectbuilders.app], func
 
     var isPenyelaras = ko.observable(false),
         pengguna = ko.observable(),
+        duplicateEmail = ko.observable(true),
         penyelaras = ko.observable(),
         checkMyKad = function (ic) {
             console.log(ic);
@@ -91,18 +92,17 @@ define(["services/datacontext", objectbuilders.config, objectbuilders.app], func
                        }
                     ]
                 }
-            };
+            },
+            emailTask = $.getJSON("/jpa-management/users/email/" + email),
+            penggunaTask = context.searchAsync("Pengguna",query);
 
-            $.getJSON("/jpa-management/users/email/" + email, function(x){
-
-                if (x.exist) {
-                    app.showMessage("Pengguna dengan emel " + email + " sudah wujud", "Sistem Ujian Psikometrik", ["OK"]);
+            $.when(penggunaTask, emailTask)
+              .done(function(sr, x){
+                if(_.isArray(x)){
+                  x = x[0];
                 }
-            });
-
-            context.searchAsync("Pengguna",query)
-              .done(function(sr){
-                if (sr.rows) {
+                duplicateEmail(sr.rows > 0 || x.exist);
+                if (ko.unwrap(duplicateEmail)) {
                     app.showMessage("Pengguna dengan emel " + email + " sudah wujud", "Sistem Ujian Psikometrik", ["OK"]);
                 }
               });
@@ -150,6 +150,7 @@ define(["services/datacontext", objectbuilders.config, objectbuilders.app], func
             $("select.required").attr("required", "");
         },
         canExecuteSaveCommand = function () {
+            if(ko.unwrap(duplicateEmail))return false;
             if (!pengguna()) return false;
             return pengguna().IsPenyelaras() || pengguna().IsResponden();
         };
