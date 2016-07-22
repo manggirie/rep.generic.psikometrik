@@ -683,6 +683,19 @@
                 "WebId": "a2bd79ae-1bce-4eee-e87e-10cbcdee3542"
               },
               "WebId": "4a3ffe52-23b7-4528-cc5f-b81857b9db7c"
+            },
+            {
+              "$type": "Bespoke.Sph.Domain.SetterActionChild, domain.sph",
+              "Path": "KodProgram",
+              "Field": {
+                "$type": "Bespoke.Sph.Domain.FunctionField, domain.sph",
+                "CodeNamespace": "fff5285be1",
+                "Script": "var context = new SphDataContext();\r\nvar count = context.GetCountAsync<Bespoke.epsikologi_permohonan.Domain.Permohonan>(x => x.StatusPermohonan == \"LULUS\").Result;\r\nreturn string.Format(\"{0:yyyy}-{1:00000}\", System.DateTime.Today, count);",
+                "Name": "Assign Kod Program",
+                "Note": "",
+                "WebId": "f5285be1-b85c-4a65-ee17-612c84513bf9"
+              },
+              "WebId": "320dbc96-dca1-424e-e1ee-7c043506a003"
             }
           ]
         },
