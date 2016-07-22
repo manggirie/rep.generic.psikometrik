@@ -3,11 +3,24 @@ using System.Web.Mvc;
 using System.Web.Security;
 using Bespoke.Sph.Domain;
 
-[Authorize(Roles = "administartors,developers")]
 [RoutePrefix("jpa-management")]
 public class JpaManagementController : Controller
 {
 
+    [Authorize]
+    [HttpGet]
+    [Route("users/email/{email}")]
+    public ActionResult CheckEmailExist(string email)
+    {
+        var member = Membership.GetUserNameByEmail(email);
+        if (null != member)
+        {
+            return Json(new {exist = true}, JsonRequestBehavior.AllowGet);
+        }
+        return Json(new { exist = false }, JsonRequestBehavior.AllowGet);
+    }
+
+    [Authorize(Roles = "administartors,developers")]
     [HttpDelete]
     [Route("users/{user}")]
     public async Task<ActionResult> RemoveUser(string user)

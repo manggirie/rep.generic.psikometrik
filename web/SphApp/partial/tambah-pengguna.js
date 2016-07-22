@@ -41,7 +41,7 @@ define(["services/datacontext", objectbuilders.config, objectbuilders.app], func
                       });
 
                 }
-                else 
+                else
                 {
                     var param = JSON.stringify({ icno: ic });
                     context.post(param, "hrmis/GetUserDetailsByIcNo").done(function (result) {
@@ -64,7 +64,7 @@ define(["services/datacontext", objectbuilders.config, objectbuilders.app], func
                             pengguna().Skim(result.data.Skim);
                             pengguna().Bahagian(result.data.Bahagian);
                         }else{
-                            
+
                             pengguna().fillManually(true);
                             pengguna().Umur(calculateAge(parseMyKadDate(ic)));
                         }
@@ -91,18 +91,27 @@ define(["services/datacontext", objectbuilders.config, objectbuilders.app], func
                        }
                     ]
                 }
-            }
-            context.searchAsync("Pengguna",query)
-            .done(function (result) {
-                if (result.rows > 0) {
+            };
+
+            $.getJSON("/jpa-management/users/email/" + email, function(x){
+
+                if (x.exist) {
                     app.showMessage("Pengguna dengan emel " + email + " sudah wujud", "Sistem Ujian Psikometrik", ["OK"]);
                 }
             });
 
+            context.searchAsync("Pengguna",query)
+              .done(function(sr){
+                if (sr.rows) {
+                    app.showMessage("Pengguna dengan emel " + email + " sudah wujud", "Sistem Ujian Psikometrik", ["OK"]);
+                }
+              });
+
+
         },
         activate = function (entity) {
             entity.fillManually = ko.observable(true);
-            
+
             pengguna(entity);
             if (ko.unwrap(entity.Id) === "0") {
                 entity.MyKad.subscribe(checkMyKad);
