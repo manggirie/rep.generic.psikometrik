@@ -29,6 +29,7 @@ define(["services/datacontext", objectbuilders.config, objectbuilders.app], func
 
     var isPenyelaras = ko.observable(false),
         pengguna = ko.observable(),
+        duplicateEmail = ko.observable(true),
         penyelaras = ko.observable(),
         checkMyKad = function (ic) {
             console.log(ic);
@@ -41,7 +42,7 @@ define(["services/datacontext", objectbuilders.config, objectbuilders.app], func
                       });
 
                 }
-                else 
+                else
                 {
                     var param = JSON.stringify({ icno: ic });
                     context.post(param, "hrmis/GetUserDetailsByIcNo").done(function (result) {
@@ -64,7 +65,7 @@ define(["services/datacontext", objectbuilders.config, objectbuilders.app], func
                             pengguna().Skim(result.data.Skim);
                             pengguna().Bahagian(result.data.Bahagian);
                         }else{
-                            
+
                             pengguna().fillManually(true);
                             pengguna().Umur(calculateAge(parseMyKadDate(ic)));
                         }
@@ -91,18 +92,26 @@ define(["services/datacontext", objectbuilders.config, objectbuilders.app], func
                        }
                     ]
                 }
-            }
-            context.searchAsync("Pengguna",query)
-            .done(function (result) {
-                if (result.rows > 0) {
+            },
+            emailTask = $.getJSON("/jpa-management/users/email/" + email),
+            penggunaTask = context.searchAsync("Pengguna",query);
+
+            $.when(penggunaTask, emailTask)
+              .done(function(sr, x){
+                if(_.isArray(x)){
+                  x = x[0];
+                }
+                duplicateEmail(sr.rows > 0 || x.exist);
+                if (ko.unwrap(duplicateEmail)) {
                     app.showMessage("Pengguna dengan emel " + email + " sudah wujud", "Sistem Ujian Psikometrik", ["OK"]);
                 }
-            });
+              });
+
 
         },
         activate = function (entity) {
             entity.fillManually = ko.observable(true);
-            
+
             pengguna(entity);
             if (ko.unwrap(entity.Id) === "0") {
                 entity.MyKad.subscribe(checkMyKad);
@@ -141,6 +150,7 @@ define(["services/datacontext", objectbuilders.config, objectbuilders.app], func
             $("select.required").attr("required", "");
         },
         canExecuteSaveCommand = function () {
+            if(ko.unwrap(duplicateEmail))return false;
             if (!pengguna()) return false;
             return pengguna().IsPenyelaras() || pengguna().IsResponden();
         };
