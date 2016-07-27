@@ -85,10 +85,13 @@ namespace Bespoke.Sph.Workflows_CreatesMembershipForNewResponden_0
                 Language = "en-US"
 
             };
-            var exist = System.Web.Security.Membership.GetUser(profile.UserName);
             Console.WriteLine("done mapping user profile");
 
-            if (null == exist)
+            var exist = System.Web.Security.Membership.GetUser(profile.UserName);
+            var existUserByEmail = System.Web.Security.Membership.GetUserNameByEmail(profile.Email);
+
+
+            if ((null == exist) || (null == existUserByEmail))
             {
                 this.Password = System.Web.Security.Membership.GeneratePassword(6, 0);
 

@@ -116,7 +116,6 @@ define(["services/datacontext", objectbuilders.config, objectbuilders.app], func
             if (ko.unwrap(entity.Id) === "0") {
                 entity.MyKad.subscribe(checkMyKad);
                 entity.Emel.subscribe(checkEmail);
-                entity.Emel2.subscribe(checkEmail);
             }
 
             return context.loadOneAsync("Pengguna", String.format("MyKad eq '{0}'", config.userName))
