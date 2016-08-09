@@ -4,7 +4,7 @@
   "Tret": "H",
   "NilaiMin": 51,
   "NilaiMax": 75,
-  "Skala": "Perselisihan Faham",
+  "Skala": "Persengketaan",
   "Tahap": "Sederhana ",
   "RecommendationCollection": {
     "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.epsikologi_ipurecommendation.Domain.Recommendation, epsikologi.IpuRecommendation]], domain.sph",
@@ -33,6 +33,6 @@
   "Id": "c72d45bf-db9a-4fb0-838a-1c89ba879de4",
   "CreatedDate": "2015-07-31T19:00:03.670705+08:00",
   "ChangedBy": "admin",
-  "ChangedDate": "2015-07-31T19:00:03.6697049+08:00",
+  "ChangedDate": "2016-08-04T09:49:17.7151749+08:00",
   "WebId": "a19ce1b5-b5f2-4e23-a10a-d6c0a03eef82"
 }

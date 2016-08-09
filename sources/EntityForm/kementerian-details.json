@@ -127,6 +127,12 @@
                 "Caption": "Pihak Berkuasa Tempatan",
                 "Value": "PBT",
                 "WebId": "272f9024-bac7-49cf-ae0e-145637b50b3a"
+              },
+              {
+                "$type": "Bespoke.Sph.Domain.ComboBoxItem, domain.sph",
+                "Caption": "Lain lain",
+                "Value": "DLL",
+                "WebId": "66dd6f0b-05ca-4a53-88fb-c21ce0b14519"
               }
             ]
           },
@@ -274,6 +280,6 @@
   "Id": "kementerian-details",
   "CreatedDate": "2015-05-29T10:28:58.9987994+08:00",
   "ChangedBy": "admin",
-  "ChangedDate": "2016-04-26T01:50:34.4409848+08:00",
+  "ChangedDate": "2016-08-02T15:40:51.0092342+08:00",
   "WebId": "fa17309f-ca1b-4424-99a8-7df4375a4f6a"
 }
