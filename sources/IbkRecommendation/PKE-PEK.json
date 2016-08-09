@@ -1,0 +1,31 @@
+{
+  "$type": "Bespoke.epsikologi_ibkrecommendation.Domain.IbkRecommendation, epsikologi.IbkRecommendation",
+  "Kod": "PKE/PEK",
+  "KerjayaCollection": {
+    "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.epsikologi_ibkrecommendation.Domain.Kerjaya, epsikologi.IbkRecommendation]], domain.sph",
+    "$values": [
+      {
+        "$type": "Bespoke.epsikologi_ibkrecommendation.Domain.Kerjaya, epsikologi.IbkRecommendation",
+        "Text": "sila rujuk pilihan kerjaya",
+        "Warna": null,
+        "WebId": "8a2750e3-6eda-4b0f-951d-476672f0f7d9"
+      }
+    ]
+  },
+  "BidangPengajianCollection": {
+    "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.epsikologi_ibkrecommendation.Domain.BidangPengajian, epsikologi.IbkRecommendation]], domain.sph",
+    "$values": [
+      {
+        "$type": "Bespoke.epsikologi_ibkrecommendation.Domain.BidangPengajian, epsikologi.IbkRecommendation",
+        "Text": "sila rujuk pilihan bidang pengajian",
+        "WebId": "fac448b9-9763-4e87-87eb-c7928f55e7b3"
+      }
+    ]
+  },
+  "CreatedBy": "admin",
+  "Id": "PKE-PEK",
+  "CreatedDate": "2016-08-09T16:47:15.5051596+08:00",
+  "ChangedBy": "admin",
+  "ChangedDate": "2016-08-09T16:55:44.6620702+08:00",
+  "WebId": "33ab8640-6a22-486f-c4b2-ce14603622f5"
+}

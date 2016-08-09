@@ -4,6 +4,7 @@ using System.Threading.Tasks;
 using Bespoke.epsikologi_ipurecommendation.Domain;
 using Bespoke.epsikologi_sesiujian.Domain;
 using Bespoke.epsikologi_skoripu.Domain;
+using Bespoke.epsikologi_pengguna.Domain;
 using Bespoke.epsikologi_soalan.Domain;
 using Bespoke.epsikologi_ujian.Domain;
 using Bespoke.Sph.Domain;
@@ -131,6 +132,7 @@ namespace web.sph.App_Code
             var context = new SphDataContext();
             var no = $"{model.Program}/{model.Bil}/{model.Siri}/{model.Tahun}";
             var ujian = await context.LoadOneAsync<Ujian>(x => x.Id == "IPU");
+          
 
             var query = context.CreateQueryable<SesiUjian>()
                 .Where(s => s.NamaProgram == model.Program)
@@ -176,6 +178,7 @@ namespace web.sph.App_Code
             html.AppendLine("   <tbody>");
             foreach (var s in sesi)
             {
+              var user = await context.LoadOneAsync<Pengguna>(x => x.MyKad == s.MyKad);
                 html.AppendLine("   <tr>");
                 html.AppendLine("   <td>" + s.NamaPengguna + "</td>");
                 html.AppendFormat("   <td>{0:dd/MM/yyyy HH:mm}</td>", s.TarikhUjian);
@@ -190,7 +193,7 @@ namespace web.sph.App_Code
                     }
                     else
                     {
-                        var lookup = await context.LoadOneAsync<SkorIPU>(x => score.IsBetween(x.NilaiMin, x.NilaiMax, true, true));
+                        var lookup = await context.LoadOneAsync<SkorIPU>(x => score.IsBetween(x.NilaiMin, x.NilaiMax, true, true) && x.Jantina == user.Jantina && x.Tret == t1);
                         html.AppendLine($"           <td>{lookup.Percentile}</td>");
                     }
                 }

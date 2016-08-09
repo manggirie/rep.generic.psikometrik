@@ -1,0 +1,31 @@
+{
+  "$type": "Bespoke.epsikologi_ibkrecommendation.Domain.IbkRecommendation, epsikologi.IbkRecommendation",
+  "Kod": "EKT/ETK",
+  "KerjayaCollection": {
+    "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.epsikologi_ibkrecommendation.Domain.Kerjaya, epsikologi.IbkRecommendation]], domain.sph",
+    "$values": [
+      {
+        "$type": "Bespoke.epsikologi_ibkrecommendation.Domain.Kerjaya, epsikologi.IbkRecommendation",
+        "Text": "tes",
+        "Warna": null,
+        "WebId": "472e2710-cd2a-4c90-80fb-482f997c5c09"
+      }
+    ]
+  },
+  "BidangPengajianCollection": {
+    "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.epsikologi_ibkrecommendation.Domain.BidangPengajian, epsikologi.IbkRecommendation]], domain.sph",
+    "$values": [
+      {
+        "$type": "Bespoke.epsikologi_ibkrecommendation.Domain.BidangPengajian, epsikologi.IbkRecommendation",
+        "Text": "rr",
+        "WebId": "3565258b-1885-4f67-af6f-a286059a0cd2"
+      }
+    ]
+  },
+  "CreatedBy": "admin",
+  "Id": "EKT-ETK",
+  "CreatedDate": "2016-08-09T17:04:39.6415628+08:00",
+  "ChangedBy": "admin",
+  "ChangedDate": "2016-08-09T17:04:39.6345621+08:00",
+  "WebId": "9311de1a-bc6f-458c-c2d4-a6adea370694"
+}

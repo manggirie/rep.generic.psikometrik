@@ -215,6 +215,12 @@
                 "Caption": "Pihak Berkuasa Tempatan",
                 "Value": "PBT",
                 "WebId": "a76b2c5a-cf6b-4d0d-c3e7-63f74620d63e"
+              },
+              {
+                "$type": "Bespoke.Sph.Domain.ComboBoxItem, domain.sph",
+                "Caption": "Lain lain",
+                "Value": "DLL",
+                "WebId": "b0affaf6-f3fa-4579-89af-e5f86172b385"
               }
             ]
           },
@@ -318,6 +324,6 @@
   "Id": "jabatan-details",
   "CreatedDate": "2015-06-05T10:37:17.7103426+08:00",
   "ChangedBy": "admin",
-  "ChangedDate": "2016-04-26T01:50:45.4135328+08:00",
+  "ChangedDate": "2016-08-02T15:35:39.416078+08:00",
   "WebId": "90586e6b-e311-48bb-8ea6-30408e969399"
 }
