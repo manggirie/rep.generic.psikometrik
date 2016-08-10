@@ -195,6 +195,7 @@ namespace web.sph.App_Code
             var row = 2;
             foreach (var s in sesi)
             {
+                var user = await context.LoadOneAsync<Pengguna>(x => x.MyKad == s.MyKad);
                 row++;
                 ws.InsertRow(row, 1, row);
                 ws.Cells[row, 1].Value = s.NamaPengguna;
@@ -212,7 +213,8 @@ namespace web.sph.App_Code
                     }
                     else
                     {
-                        var lookup = await context.LoadOneAsync<SkorIPU>(x => score.IsBetween(x.NilaiMin, x.NilaiMax, true, true));
+                        /*var lookup = await context.LoadOneAsync<SkorIPU>(x => score.IsBetween(x.NilaiMin, x.NilaiMax, true, true));*/
+                         var lookup = await context.LoadOneAsync<SkorIPU>(x => score.IsBetween(x.NilaiMin, x.NilaiMax, true, true) && x.Jantina == user.Jantina && x.Tret == t1);
                         ws.Cells[row, column + 1].Value = lookup.Percentile;
                     }
                 }
