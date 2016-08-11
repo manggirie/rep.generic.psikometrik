@@ -37,28 +37,34 @@
                         <br />
                         @Model.Emosi.InterpretasiRingkas
                     </p>
+					
+					<p>
+                        <strong>Cara Gaya Kerja : @Model.GayaBekerja.Tret</strong>
+                        <br />
+                        @Model.GayaBekerja.InterpretasiRingkas
+                    </p>
+					
+					<p>
+                        <strong>Cara Gaya Pemikiran : @Model.Pemikiran.Tret</strong>
+
+                        <br />
+                        @Model.Pemikiran.InterpretasiRingkas
+                    </p>
+					
+					<p>
+                        <strong>Hubungan Interpersonal: @Model.Interpersonal.Tret</strong>
+                        <br />
+                        @Model.Interpersonal.InterpretasiRingkas
+                    </p>
+					
                     <p>
                         <strong>Keperibadian: @Model.Peribadi.Tret</strong>
                         <br />
                         @Model.Peribadi.InterpretasiRingkas
                     </p>
-
-                    <p>
-                        <strong>Hubungan Interpersonal: @Model.Interpersonal.Tret</strong>
-                        <br />
-                        @Model.Interpersonal.InterpretasiRingkas
-                    </p>
-                    <p>
-                        <strong>Gaya Cara Pemikiran : @Model.Pemikiran.Tret</strong>
-
-                        <br />
-                        @Model.Pemikiran.InterpretasiRingkas
-                    </p>
-                    <p>
-                        <strong>Gaya Cara Kerja : @Model.GayaBekerja.Tret</strong>
-                        <br />
-                        @Model.GayaBekerja.InterpretasiRingkas
-                    </p>
+                  
+                    
+                    
                 </div>
             </td>
         </tr>
@@ -77,28 +83,35 @@
                         <br />
                     <p style="text-align:justify">@Model.Emosi.Kepimpinan</p>
                     </p>
+					
+					<p>
+                        <strong> @Model.GayaBekerja.Tret</strong>
+                        <br />
+                    <p style="text-align:justify">@Model.GayaBekerja.Kepimpinan</p>
+                    </p>
+					
+					 <p>
+                        <strong> @Model.Pemikiran.Tret</strong>
+
+                        <br />
+                    <p style="text-align:justify">@Model.Pemikiran.Kepimpinan</p>
+                    </p>
+					
+					 <p>
+                        <strong> @Model.Interpersonal.Tret</strong>
+                        <br />
+                    <p style="text-align:justify">@Model.Interpersonal.Kepimpinan</p>
+                    </p>
+					
                     <p>
                         <strong>@Model.Peribadi.Tret</strong>
                         <br />
                     <p style="text-align: justify">@Model.Peribadi.Kepimpinan</p>
                     </p>
 
-                    <p>
-                        <strong> @Model.Interpersonal.Tret</strong>
-                        <br />
-                    <p style="text-align:justify">@Model.Interpersonal.Kepimpinan</p>
-                    </p>
-                    <p>
-                        <strong> @Model.Pemikiran.Tret</strong>
-
-                        <br />
-                    <p style="text-align:justify">@Model.Pemikiran.Kepimpinan</p>
-                    </p>
-                    <p>
-                        <strong> @Model.GayaBekerja.Tret</strong>
-                        <br />
-                    <p style="text-align:justify">@Model.GayaBekerja.Kepimpinan</p>
-                    </p>
+                   
+                   
+                    
                 </div>
             </td>
         </tr>
@@ -139,7 +152,7 @@
     };
 
     var kepimpinanData = {
-        labels: ["BERDAYA TAHAN", "ASERTIF", "EKSTROVERT", "STRATEGIS", "FOKUS"],
+        labels: ["BERDAYA TAHAN", "FOKUS", "STRATEGI", "EKSTROVERT", "ASERTIF"],
         datasets: [
             {
                 label: "PROFIL KEMPIPINAN",
@@ -149,7 +162,7 @@
                 pointStrokeColor: "#fff",
                 pointHighlightFill: "rgba(255, 65, 116, 1)",
                 pointHighlightStroke: "rgba(220,220,220,1)",
-                data: [@Model.ProfilKepimpinan.BerdayaTahan, @Model.ProfilKepimpinan.Asertif, @Model.ProfilKepimpinan.Ekstrovert, @Model.ProfilKepimpinan.Strategis, @Model.ProfilKepimpinan.Fokus]
+                data: [@Model.ProfilKepimpinan.BerdayaTahan, @Model.ProfilKepimpinan.Fokus, @Model.ProfilKepimpinan.Strategis, @Model.ProfilKepimpinan.Ekstrovert, @Model.ProfilKepimpinan.Asertif]
             }
         ]
     };
@@ -173,7 +186,7 @@
             bezierCurve: false
         });
         window.profilKepimpinanChart = new Chart(document.getElementById("profil-kempipinan-chart").getContext("2d")).Radar(kepimpinanData, {
-            datasetFill: false,
+            datasetFill: true,
             scaleShowLabels: true,
             scaleOverride: true,
             scaleSteps: 5,
@@ -191,9 +204,9 @@
 
         kesesuaianPenempatanChart.datasets[0].bars[0].fillColor = "red";
         kesesuaianPenempatanChart.datasets[0].bars[1].fillColor = "greenyellow";
-        kesesuaianPenempatanChart.datasets[0].bars[2].fillColor = "#98bde3";
-        kesesuaianPenempatanChart.datasets[0].bars[3].fillColor = "#719bf0";
-        kesesuaianPenempatanChart.datasets[0].bars[4].fillColor = "#3bae63";
+        kesesuaianPenempatanChart.datasets[0].bars[2].fillColor = "Blue";
+        kesesuaianPenempatanChart.datasets[0].bars[3].fillColor = "Yellow";
+        kesesuaianPenempatanChart.datasets[0].bars[4].fillColor = "Cyan";
         kesesuaianPenempatanChart.update();
 
 
