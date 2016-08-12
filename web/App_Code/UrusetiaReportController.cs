@@ -61,6 +61,8 @@ namespace web.sph.App_Code
             }
 
             var traits = soalans.Select(s => s.Trait).Distinct().OrderBy(s => s).ToArray();
+			
+            var ppkp = model.Ujian == "PPKP";
 
             var html = new StringBuilder();
 
@@ -69,10 +71,21 @@ namespace web.sph.App_Code
             html.AppendLine("       <tr>");
             html.AppendLine("           <th>Nama</th>");
             html.AppendLine("           <th>Tarikh</th>");
-            foreach (var t in traits)
-            {
-                html.AppendLine("           <th>" + t + "</th>");
-            }
+			if( ppkp){
+				var namaTraits = new []{"A", "B", "C", "D", "E"};
+				foreach (var t in namaTraits)
+				{
+					html.AppendLine("           <th>" + t + "</th>");
+				}
+				
+			}
+				
+				foreach (var t in traits)
+				{
+					html.AppendLine("           <th>" + t + "</th>");
+				}
+				
+			
 
             html.AppendLine("           <th>Cetakan Individu</th>");
             html.AppendLine("       </tr>");
@@ -83,17 +96,32 @@ namespace web.sph.App_Code
                 html.AppendLine("   <tr>");
                 html.AppendLine("   <td>" + s.NamaPengguna + "</td>");
                 html.AppendFormat("   <td>{0:dd/MM/yyyy}</td>", s.TarikhUjian);
-                foreach (var t in traits)
-                {
-                    var t1 = t;
-                    var score = s.JawapanCollection.Where(a => a.Trait == t1).Sum(a => a.Nilai);
-                    html.AppendLine("           <td>" + score + "</td>");
-                }
+				
+				if( ppkp){
+					
+						var namaTraits = new []{"A", "B", "C", "D", "E"};
+						foreach (var t in namaTraits)
+						{
+							
+							var t1 = t;
+							var score = s.JawapanCollection.Where(a => a.Trait.StartsWith(t1)).Sum(a => a.Nilai);
+							html.AppendLine("           <td>" + score + "</td>");
+						}
+				
+				}
+					
+					foreach (var t in traits)
+					{
+						var t1 = t;
+						var score = s.JawapanCollection.Where(a => a.Trait == t1).Sum(a => a.Nilai);
+						html.AppendLine("           <td>" + score + "</td>");
+					}
+					
+				
                 var ip = s.NamaUjian.Contains("IP") && !s.NamaUjian.Contains("IPU");
                 var ibk = s.NamaUjian.Contains("IBK");
                 var iso = s.NamaUjian.Contains("ISO");
                 var hlp = s.NamaUjian.Contains("HLP");
-                var ppkp = s.NamaUjian.Contains("PPKP");
                 var ukbp = s.NamaUjian.Contains("UKBP");
                 var indikator = ibk || ip || hlp || iso ? "" :
                     $@"<a class=""indikator-report btn btn-info"" target=""_blank"" href=""cetak-laporan/indikator/{
@@ -146,6 +174,18 @@ namespace web.sph.App_Code
             html.AppendLine("   <tr>");
             html.AppendLine("   <td>Jumlah Markah</td>");
             html.AppendLine("   <td></td>");
+			if( ppkp){
+				
+					var namaTraits = new []{"A", "B", "C", "D", "E"};
+					foreach (var t in namaTraits)
+					{
+						
+						var t1 = t;
+						var score = sesi.SelectMany(x => x.JawapanCollection).Where(a => a.Trait.StartsWith(t1)).Sum(a => a.Nilai);
+						html.AppendLine("           <td>" + score + "</td>");
+					}
+			
+			}
             foreach (var t in traits)
             {
                 var t1 = t;
@@ -159,6 +199,29 @@ namespace web.sph.App_Code
             html.AppendLine("   <tr>");
             html.AppendLine("   <td>Purata Markah</td>");
             html.AppendLine("   <td></td>");
+			
+			
+			if( ppkp){
+				
+				var namaTraits = new []{"A", "B", "C", "D", "E"};
+					foreach (var t in namaTraits)
+					{
+						var t1 = t;
+						if (sesi.Count > 0)
+						{
+
+							var avg = sesi.SelectMany(x => x.JawapanCollection).Where(a => a.Trait.StartsWith(t1)).Sum(a => a.Nilai) / sesi.Count;
+							html.AppendLine("           <td>" + avg + "</td>");
+						}
+						else
+						{
+							html.AppendLine("           <td> NA</td>");
+						}
+					}
+					
+			
+			}
+			
             foreach (var t in traits)
             {
                 var t1 = t;

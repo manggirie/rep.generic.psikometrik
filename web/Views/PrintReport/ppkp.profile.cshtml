@@ -136,7 +136,7 @@
 
 
     var personalitiData = {
-        labels: ["Emosi", "Peribadi", "Interpersonal", "Pemikiran", "Gaya Bekerja"],
+        labels: ["Emosi", "Gaya Bekerja", "Pemikiran", "Interpersonal","Peribadi"],
         datasets: [
             {
                 label: "PROFIL PERSONALITI",
@@ -146,7 +146,7 @@
                 pointStrokeColor: "#fff",
                 pointHighlightFill: "#fff",
                 pointHighlightStroke: "rgba(220,220,220,1)",
-                data: [@Model.ProfilPersonaliti.Emosi, @Model.ProfilPersonaliti.Peribadi, @Model.ProfilPersonaliti.Interpersonal, @Model.ProfilPersonaliti.Pemikiran, @Model.ProfilPersonaliti.GayaBekerja]
+                data: [@Model.ProfilPersonaliti.Emosi, @Model.ProfilPersonaliti.GayaBekerja, @Model.ProfilPersonaliti.Pemikiran, @Model.ProfilPersonaliti.Interpersonal, @Model.ProfilPersonaliti.Peribadi]
             }
         ]
     };
@@ -196,6 +196,7 @@
         var kpc = document.getElementById("kesesuaian-penempatan-chart").getContext("2d");
 
         window.kesesuaianPenempatanChart = new Chart(kpc).HorizontalBar(kesesuaianPenempatanData, {
+		
             scaleOverride: true,
             scaleSteps: 5,
             scaleStepWidth: 1,
@@ -203,7 +204,7 @@
         });
 
         kesesuaianPenempatanChart.datasets[0].bars[0].fillColor = "red";
-        kesesuaianPenempatanChart.datasets[0].bars[1].fillColor = "greenyellow";
+        kesesuaianPenempatanChart.datasets[0].bars[1].fillColor = "green";
         kesesuaianPenempatanChart.datasets[0].bars[2].fillColor = "Blue";
         kesesuaianPenempatanChart.datasets[0].bars[3].fillColor = "Yellow";
         kesesuaianPenempatanChart.datasets[0].bars[4].fillColor = "Cyan";
