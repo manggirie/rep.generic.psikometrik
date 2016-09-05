@@ -149,11 +149,11 @@ namespace web.sph.App_Code
                 m_vm = vm;
             }
 
-            public int BerdayaTahan => System.Convert.ToInt32( ((m_vm.A1 + m_vm.A2 + m_vm.A3 + m_vm.A4) * 5 / (50 * 4d)));
-            public int Fokus => System.Convert.ToInt32(((m_vm.B1 + m_vm.B2 + m_vm.B3 + m_vm.B4 + m_vm.B5) * 5 / (50 * 4d)));
+            public int BerdayaTahan => System.Convert.ToInt32( System.Math.Ceiling(((m_vm.A1 + m_vm.A2 + m_vm.A3 + m_vm.A4) * 5 / (50 * 4d))));
+            public int Fokus => System.Convert.ToInt32(System.Math.Ceiling(((m_vm.B1 + m_vm.B2 + m_vm.B3 + m_vm.B4 + m_vm.B5) * 5 / (50 * 4d))));
             public int Strategis => System.Convert.ToInt32(((m_vm.C1 + m_vm.C2 + m_vm.C3 + m_vm.C4)* 5 / (40 * 4d))) ;
-            public int Ekstrovert  => System.Convert.ToInt32(((m_vm.D1 + m_vm.D2 + m_vm.D3 + m_vm.D4 + m_vm.D5 + m_vm.D6) * 5 / (60 * 4d)));
-            public int Asertif  => System.Convert.ToInt32(((m_vm.E1 + m_vm.E2 + m_vm.E3 + m_vm.E4 + m_vm.E5) * 5 / (50 * 4d)));
+            public int Ekstrovert  => System.Convert.ToInt32(System.Math.Ceiling(((m_vm.D1 + m_vm.D2 + m_vm.D3 + m_vm.D4 + m_vm.D5 + m_vm.D6) * 5 / (60 * 4d))));
+            public int Asertif  => System.Convert.ToInt32(System.Math.Ceiling(((m_vm.E1 + m_vm.E2 + m_vm.E3 + m_vm.E4 + m_vm.E5) * 5 / (60 * 4d))));
 
         }
         public class KesesuaianPenempatanType

@@ -11,21 +11,7 @@
         @foreach (var score in Model)
         {
             <tr>
-                <td style="vertical-align: top">Tret</td>
-                <td style="vertical-align: top">:</td>
-                <td style="vertical-align: top">@score.NamaTret
-                   
-                </td>
-            </tr>
-                <tr>
-                    <td style="vertical-align: top">Tahap</td>
-                    <td style="vertical-align: top">:</td>
-                    <td style="vertical-align: top">@score.Tahap</td>
-                </tr>
-            <tr>
-                <td style="vertical-align: top">Interpretasi</td>
-                <td style="vertical-align: top">:</td>
-                <td style="vertical-align: top; text-align: justify">@score.Interpretasi</td>
+                <td style="vertical-align: top"><b>@score.NamaTret ; @score.Tahap - </b>@score.Interpretasi</td>
             </tr>
             <tr>
                 <td colspan="3"></td>

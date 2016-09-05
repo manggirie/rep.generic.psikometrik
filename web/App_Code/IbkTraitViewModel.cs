@@ -28,7 +28,7 @@ namespace web.sph.App_Code
         
         [JsonIgnore]
         public IbkKodKerjaya IbkKodKerjaya { get; set; }
-        [JsonIgnore]
+		[JsonIgnore]
         public IbkRecommendation IbkRecommendation { get; set; }
 
         public string KodKerjaya1
@@ -73,6 +73,8 @@ namespace web.sph.App_Code
                   this.Sesi.JawapanCollection.Where(a => a.Trait == "A1").Sum(a => a.Nilai) +
                   this.Sesi.JawapanCollection.Where(a => a.Trait == "A2").Sum(a => a.Nilai) +
                   this.Sesi.JawapanCollection.Where(a => a.Trait == "A3").Sum(a => a.Nilai);
+				  
+				  
             }
         }
         public int E
@@ -85,7 +87,6 @@ namespace web.sph.App_Code
                   this.Sesi.JawapanCollection.Where(a => a.Trait == "B3").Sum(a => a.Nilai);
             }
         }
-
 
         public int K
         {

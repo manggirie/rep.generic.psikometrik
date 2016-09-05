@@ -1,0 +1,191 @@
+@model web.sph.App_Code.PpkpTraitViewModel
+@{
+    Layout = "_MasterPage.cshtml";
+}
+
+@section head
+{
+    <style type="text/css">
+        .blue-header {
+            color: blue;
+        }
+
+        h3 {
+            margin-top: 40px;
+            font-size: medium;
+            text-transform: uppercase;
+            font-weight: bold;
+        }
+        table.ppkp-dimensi {
+            margin-top: 20px;
+        }
+    </style>
+    <style media="print">
+        table.ppkp-dimensi {
+            page-break-after: always;
+        }
+    </style>
+}
+@section Peringatan{
+    @Html.Partial("_peringatan.ppkp")
+}
+
+
+<h3>DIMENSI EMOSI</h3>
+<table border= "1">
+<tr><td><canvas id="dimensi-emosi-chart" width="450" height="200" style="margin-left: auto; margin-right: auto"></canvas></td><td>@Html.Partial("_ppkp.dimensi.skor", Model.SkorKestabilanEmosi.Emosi)</td></tr>
+<tr><td><canvas id="dimensi-cara-gaya-bekerja-chart" width="450" height="200" style="margin-left: auto; margin-right: auto"></canvas></td><td>@Html.Partial("_ppkp.dimensi.skor", Model.SkorKestabilanEmosi.GayaBekerja)</td></tr>
+<tr><td><canvas id="dimensi-cara-gaya-pemikiran-chart" width="450" height="200" style="margin-left: auto; margin-right: auto"></canvas></td><td>@Html.Partial("_ppkp.dimensi.skor", Model.SkorKestabilanEmosi.Pemikiran)</td></tr>
+<tr><td><canvas id="dimensi-hubungan-interpesonal-chart" width="450" height="200" style="margin-left: auto; margin-right: auto"></canvas></td><td>@Html.Partial("_ppkp.dimensi.skor", Model.SkorKestabilanEmosi.Interpersonal)</td></tr>
+<tr><td><canvas id="dimensi-peribadi-chart"width="450" height="200" style="margin-left: auto; margin-right: auto"></canvas></td><td>@Html.Partial("_ppkp.dimensi.skor", Model.SkorKestabilanEmosi.Peribadi)</td></tr>
+</table>
+
+
+<script src="~/Scripts/Chart.min.js"></script>
+<script src="~/Scripts/Chart.HorizontalBar.js"></script>
+<script type="text/javascript">
+    var vm = @Html.Raw(Model.ToString());
+
+
+
+    var dimensiEmosiData = {
+        labels: ["KETENANGAN", "KESABARAN", "KECERIAAN", "KETAHANAN DIRI"],
+        datasets: [
+            {
+                label: "KESTABILAN EMOSI",
+                fillColor: "#ff6666",
+                //fillColor: "rgba(220,220,220,0.2)",				
+                strokeColor: "red",
+                pointColor: "ref",
+                pointStrokeColor: "#fff",
+                pointHighlightFill: "#88ff4d",
+                pointHighlightStroke: "rgba(220,220,220,1)",
+                data: [
+                    @Model.Sesi.JawapanCollection.Where(x => x.Trait == "A1").Sum(x => x.Nilai),
+                    @Model.Sesi.JawapanCollection.Where(x => x.Trait == "A2").Sum(x => x.Nilai),
+                    @Model.Sesi.JawapanCollection.Where(x => x.Trait == "A3").Sum(x => x.Nilai),
+                    @Model.Sesi.JawapanCollection.Where(x => x.Trait == "A4").Sum(x => x.Nilai)]
+            }
+        ]
+    },
+    dimensiGayaBekerjaData = {
+        labels: ["KESEMPURNAAN", "SISTEMATIK", "PENCAPAIAN DIUTAMAKAN", "DISIPLIN DIRI", "PERTIMBANGAN DIRI"],
+        datasets: [
+            {
+                label: "CARA GAYA BEKERJA",
+                fillColor: "#70db70",
+                //fillColor: "rgba(220,220,220,0.2)",				
+                strokeColor: "red",
+                pointColor: "ref",
+                pointStrokeColor: "#fff",
+                pointHighlightFill: "#88ff4d",
+                pointHighlightStroke: "rgba(220,220,220,1)",
+                data: [
+                    @Model.Sesi.JawapanCollection.Where(x => x.Trait == "B1").Sum(x => x.Nilai),
+                    @Model.Sesi.JawapanCollection.Where(x => x.Trait == "B2").Sum(x => x.Nilai),
+                    @Model.Sesi.JawapanCollection.Where(x => x.Trait == "B3").Sum(x => x.Nilai),
+                    @Model.Sesi.JawapanCollection.Where(x => x.Trait == "B4").Sum(x => x.Nilai),
+                    @Model.Sesi.JawapanCollection.Where(x => x.Trait == "B5").Sum(x => x.Nilai)]
+            }
+        ]
+    },
+    dimensiPemikiranData = {
+        labels: ["KREATIVITI", "KEABSTRAKAN IDEAS:BERMINDA TERBUKA", "KESEDIAAN BERUBAH", "KETELITIAN"],
+        datasets: [
+            {
+                label: "CARA GAYA PEMIKIRAN",
+                fillColor: "#a64dff",
+                strokeColor: "blue",
+                pointColor: "blue",
+                pointStrokeColor: "#fff",
+                pointHighlightFill: "#fff",
+                pointHighlightStroke: "rgba(220,220,220,1)",
+                data: [
+                    @Model.Sesi.JawapanCollection.Where(x => x.Trait == "C1").Sum(x => x.Nilai),
+                    @Model.Sesi.JawapanCollection.Where(x => x.Trait == "C2").Sum(x => x.Nilai),
+                    @Model.Sesi.JawapanCollection.Where(x => x.Trait == "C3").Sum(x => x.Nilai),
+                    @Model.Sesi.JawapanCollection.Where(x => x.Trait == "C4").Sum(x => x.Nilai)]
+            }
+        ]
+    },
+    dimensiHubunganInterpersonalData = {
+        labels: ["MUDAH MESRA","AKTIF SOSIAL","AKTIVITI HARIAN:AKTIF BERTENAGA","KEPIMPINAN","KEPERCAYAAN","KETELUSAN"],
+        datasets: [
+            {
+                label: "HUBUNGAN INTERPERSONAL",
+                fillColor: "#4d94ff",
+                strokeColor: "blue",
+                pointColor: "blue",
+                pointStrokeColor: "#fff",
+                pointHighlightFill: "#fff",
+                pointHighlightStroke: "rgba(220,220,220,1)",
+                data: [
+                    @Model.Sesi.JawapanCollection.Where(x => x.Trait == "D1").Sum(x => x.Nilai),
+                    @Model.Sesi.JawapanCollection.Where(x => x.Trait == "D2").Sum(x => x.Nilai),
+                    @Model.Sesi.JawapanCollection.Where(x => x.Trait == "D3").Sum(x => x.Nilai),
+                    @Model.Sesi.JawapanCollection.Where(x => x.Trait == "D4").Sum(x => x.Nilai),
+                    @Model.Sesi.JawapanCollection.Where(x => x.Trait == "D5").Sum(x => x.Nilai),
+                    @Model.Sesi.JawapanCollection.Where(x => x.Trait == "D6").Sum(x => x.Nilai)]
+            }
+        ]
+    },
+    dimensiPeribadiData = {
+        labels: ["KESEDIAAN MEMBANTU","KEPERSETUJUAN","KESEDERHANAAN","BERSIKAP DOMINAN","KESEDARAN KENDIRI"],
+        datasets: [
+            {
+                label: "KEPERIBADIAN",
+                fillColor: "#ff944d",
+                strokeColor: "blue",
+                pointColor: "blue",
+                pointStrokeColor: "#fff",
+                pointHighlightFill: "#fff",
+                pointHighlightStroke: "rgba(220,220,220,1)",
+                data: [
+                    @Model.Sesi.JawapanCollection.Where(x => x.Trait == "E1").Sum(x => x.Nilai),
+                    @Model.Sesi.JawapanCollection.Where(x => x.Trait == "E2").Sum(x => x.Nilai),
+                    @Model.Sesi.JawapanCollection.Where(x => x.Trait == "E3").Sum(x => x.Nilai),
+                    @Model.Sesi.JawapanCollection.Where(x => x.Trait == "E4").Sum(x => x.Nilai),
+                    @Model.Sesi.JawapanCollection.Where(x => x.Trait == "E5").Sum(x => x.Nilai)]
+            }
+        ]
+    };
+
+
+    window.onload = function() {
+
+        var option = {           
+            scaleOverride: true,
+            scaleSteps: 8,
+            scaleStepWidth: 5,
+            scaleStartValue: 0
+        };
+        var option80 = {           
+            scaleOverride: true,
+            scaleSteps: 16,
+            scaleStepWidth: 5,
+            scaleStartValue: 0
+        };
+		
+		
+		 
+
+        window.dimensiEmosiChart = new Chart(document.getElementById("dimensi-emosi-chart").getContext("2d")).HorizontalBar(dimensiEmosiData, option80);
+        window.dimensiGayaBekerjaChart = new Chart(document.getElementById("dimensi-cara-gaya-bekerja-chart").getContext("2d")).HorizontalBar(dimensiGayaBekerjaData,option);
+        window.dimensiPemikiranChart = new Chart(document.getElementById("dimensi-cara-gaya-pemikiran-chart").getContext("2d")).HorizontalBar(dimensiPemikiranData,option);
+        window.dimensiHubunganInterpersonalChart = new Chart(document.getElementById("dimensi-hubungan-interpesonal-chart").getContext("2d")).HorizontalBar(dimensiHubunganInterpersonalData,option);
+        window.dimensiPeribadiChart = new Chart(document.getElementById("dimensi-peribadi-chart").getContext("2d")).HorizontalBar(dimensiPeribadiData,option80);
+
+
+        //dimensiGayaBekerjaChart.datasets[0].bars[1].fillColor = "greenyellow";
+        //dimensiGayaBekerjaChart.datasets[0].bars[2].fillColor = "#98bde3";
+        //dimensiGayaBekerjaChart.datasets[0].bars[3].fillColor = "#98bde3";
+        //dimensiGayaBekerjaChart.update();
+
+        setTimeout(function() {
+
+            window.print();
+        }, 1000);
+    }
+
+</script>
+<div style="color: #98bde3"></div>

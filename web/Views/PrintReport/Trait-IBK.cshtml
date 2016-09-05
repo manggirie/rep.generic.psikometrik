@@ -17,25 +17,104 @@
 @section Peringatan{
     @Html.Partial("_peringatan.ibk")
 }
+
+
+
 <div style="height:20px"></div>
 
-<table class="table table-bordered table-condensed" align="center" style="70%">
+<style>
+
+#grad1 {
+	border-radius: 25px;
+    border: 0px solid #73AD21;
+    
+    background:    #FFBFBF; /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(    #FCF2F2,#FFBFBF ); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(    #FCF2F2,#FFBFBF); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(   #FCF2F2, #FFBFBF); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(    #FCF2F2,#FFBFBF ); /* Standard syntax (must be last) */
+	
+}
+#grad2 {
+	border-radius: 25px;
+    border: 0px solid #73AD21;
+    height: 150px;
+    background: #b3ffb3; /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient( #F2FAF2,#b3ffb3 ); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient( #F2FAF2,#b3ffb3); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(#F2FAF2, #b3ffb3); /* For Firefox 3.6 to 15 */
+    background: linear-gradient( #F2FAF2,#b3ffb3 ); /* Standard syntax (must be last) */
+}
+#grad3 {
+	border-radius: 25px;
+    border: 0px solid #73AD21;
+    height: 150px;
+    background: #EBCCEB; /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient( #FAF2FA , #EBCCEB); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient( #FAF2FA, #EBCCEB); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient( #FAF2FA, #EBCCEB); /* For Firefox 3.6 to 15 */
+    background: linear-gradient( #FAF2FA , #EBCCEB); /* Standard syntax (must be last) */
+}
+#grad4 {
+	border-radius: 25px;
+    border: 0px solid #73AD21;
+    height:150px;
+     background:  #CCE6FF; /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient( #F0F7FF ,  #CCE6FF); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient( #F0F7FF,  #CCE6FF); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient( #F0F7FF,  #CCE6FF); /* For Firefox 3.6 to 15 */
+    background: linear-gradient( #F0F7FF ,  #CCE6FF); /* Standard syntax (must be last) */
+}
+#grad5 {
+	border-radius: 10px;
+    border: 0px solid #73AD21;
+    height: 50px;
+    background: #FFCC99; /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient( #FFF0E0 , #FFCC99); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient( #FFF0E0, #FFCC99); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient( #FFF0E0, #FFCC99); /* For Firefox 3.6 to 15 */
+    background: linear-gradient( #FFF0E0 , #FFCC99); /* Standard syntax (must be last) */
+}
+
+
+</style>
+<table class="table table-bordered table-condensed" align="center" id=grad1>
+  
+    <tr >
+        <th>MINAT KERJAYA</th>
+        <th>KOD KERJAYA</th>    
+    </tr>
+      <tr>
+        <td>@Model.IbkKodKerjaya.KodKerjayaAnda</td> 
+        <td>@Model.KodKerjaya</td>
+    </tr>
+	<tr></tr>
+</table>
+<table   class="table table-bordered table-condensed" align="center" style="70%">
+
+
+
+<h4>Graf:Minat Utama</h4>
+<tr align="center"><td><b>SKOR PIAWAI & TAHAP MINAT</b></td></tr>
+<tr>
+<td valign="top" ><b></b><br><canvas id="dimensi-minat-chart" width="600" height="250" ></canvas></td>
+
+</tr>
+
+</table>
+<table  align="center" style="70%" id=grad4>
 
     <colgroup>
         <col style="width: 300px"/>
         <col style="width: 300px"/>
     </colgroup>
 
-    <tr>
-        <td>Kod Kerjaya</td> 
-        <td>@Model.KodKerjaya</td>
-    </tr>
-    
+      
     <tr>
         <th>Pilihan Kerjaya</th>
         <th>Bidang Pengajian</th>    
     </tr>
-    
+
     <tr>
         <td>
             <ul>
@@ -61,32 +140,40 @@
 </table>
 
 <div style="height:20px"></div>
+<p style="page-break-after:always;"></p>
 
-<table >
+
+<table id=grad5>
+  	<tr>      <td style="vertical-align: middle">Kategori Kerjaya:<b>@Model.IbkKodKerjaya.KodKerjayaAnda (@Model.IbkKodKerjaya.Kod)</b></td>
+</table>
+<br>
+<table class="table table-bordered table-condensed" align="center" style="70%" id=grad3>
     <colgroup>
-        <col style="width: 180px"/>
-        <col style="width: 20px"/>
-        <col style="width: 600px"/>
+      
+        <col style="width: 800px"/>
     </colgroup>
     <tbody>
-    <tr>
-        <td style="vertical-align: top">Kategori Kerjaya</td>
-        <td style="vertical-align: top">:</td>
-        <td style="text-align: justify"><b>@Model.IbkKodKerjaya.KodKerjayaAnda (@Model.IbkKodKerjaya.Kod)</b></td>
-    </tr>  <tr>
-        <td style="vertical-align: top">Interpretasi</td>
-        <td style="vertical-align: top">:</td>
+
+  
+	<tr><td><b>Penerangan:</b></td></tr>
+	<tr>
+
         <td style="text-align: justify">@Html.Raw(Model.IbkKodKerjaya.Text.Replace("\n\n", "</p><p>"))</td>
     </tr>
     </tbody>
 </table>
 
-<p style="page-break-after:always;"></p>
+<table class="table table-bordered table-condensed" align="center" style="70%" id=grad4>
+     
+		<tr>
+			<td align="center"><b>Alternatif Pilihan Kerjaya</b></td>
+			<td></td>
+			<td align="center"><b>Alternatif Bidang Pengajian</b></td>
+		</tr>
 
-
-<h4>Alternatif Pilihan Kerjaya:</h4>
-<table class="table table-bordered table-condensed">
-    @for (int i = 0; i < Model.IbkKodKerjaya.AlternatifPilihanKerjayaCollection.Count; i += 3)
+        <tr>
+		<td>
+		@for (int i = 0; i < Model.IbkKodKerjaya.AlternatifPilihanKerjayaCollection.Count; i++)
     {
         var v1 = "";
         var v2 = "";
@@ -96,54 +183,90 @@
         try
         {
             v1 = Model.IbkKodKerjaya.AlternatifPilihanKerjayaCollection[i].Text;
-            v2 = Model.IbkKodKerjaya.AlternatifPilihanKerjayaCollection[i + 2].Text;
-            v3 = Model.IbkKodKerjaya.AlternatifPilihanKerjayaCollection[i + 3].Text;
+            //v2 = Model.IbkKodKerjaya.AlternatifPilihanKerjayaCollection[i + 2].Text;
+            //v3 = Model.IbkKodKerjaya.AlternatifPilihanKerjayaCollection[i + 3].Text;
         }
         catch (ArgumentOutOfRangeException)
         {
             Console.WriteLine();
         }
-
-
-        <tr>
-            <td>@v1</td>
-            <td>@v2</td>
-            <td>@v3</td>
-        </tr>}
-</table>
-
-<h4>Alternatif Bidang Pengajian:</h4>
-<table class="table table-bordered table-condensed">
-    @for (int i = 0; i < Model.IbkKodKerjaya.AlternatifBidangPengajianCollection.Count; i += 3)
+           <li>@v1</li>}
+			</td>
+			
+          <td>&nbsp;&nbsp</td>
+		  
+		  <td>
+		  @for (int i = 0; i < Model.IbkKodKerjaya.AlternatifBidangPengajianCollection.Count; i++)
     {
 
-        var v1 = "";
-        var v2 = "";
-        var v3 = "";
+        var y1 = "";
+        //var y2 = "";
+        //var y3 = "";
 
         try
         {
-            v1 = Model.IbkKodKerjaya.AlternatifBidangPengajianCollection[i].Text;
-            v2 = Model.IbkKodKerjaya.AlternatifBidangPengajianCollection[i + 2].Text;
-            v3 = Model.IbkKodKerjaya.AlternatifBidangPengajianCollection[i + 3].Text;
+            y1 = Model.IbkKodKerjaya.AlternatifBidangPengajianCollection[i].Text;
+           // y2 = Model.IbkKodKerjaya.AlternatifBidangPengajianCollection[i + 2].Text;
+           // y3 = Model.IbkKodKerjaya.AlternatifBidangPengajianCollection[i + 3].Text;
         }
         catch (ArgumentOutOfRangeException)
         {
             Console.WriteLine();
         }
-
-        <tr>
-            <td>@v1</td>
-            <td>@v2</td>
-            <td>@v3</td>
-        </tr>}
+		 <li>@y1</li>}
+		 </td>
+        </tr>
 </table>
 
 
-
+<script src="~/Scripts/Chart.min.js"></script>
+<script src="~/Scripts/Chart.HorizontalBar.js"></script>
 <script type="text/javascript">
     var ibk = @Html.Raw(Model.ToString());
-    setTimeout(function(){
-        window.print();
-    },1000);
+	
+    var dimensiMinatUtama = {
+        labels: ["EKPLORASI(E)","INOVATIF(I)","MUDAH MESRA(M)", "KREATIF(K)","TRADISI(T)","PRAKTIKAL(P)"],
+        datasets: [
+            {
+                labels: "SKOR PIAWAI DAN TAHAP MINAT",
+                fillColor: "  #FFBFBF",
+                strokeColor: "red",
+                pointColor: "ref",
+                pointStrokeColor: "#fff",
+                pointHighlightFill: "#88ff4d",
+                pointHighlightStroke: "rgba(220,220,220,1)",
+                data: [
+                    
+                    @Model.Sesi.JawapanCollection.Where(x => x.Trait == "F1").Sum(x => x.Nilai)+@Model.Sesi.JawapanCollection.Where(x => x.Trait == "F2").Sum(x => x.Nilai)+@Model.Sesi.JawapanCollection.Where(x => x.Trait == "F3").Sum(x => x.Nilai),
+					
+					@Model.Sesi.JawapanCollection.Where(x => x.Trait == "E1").Sum(x => x.Nilai)+@Model.Sesi.JawapanCollection.Where(x => x.Trait == "E2").Sum(x => x.Nilai)+@Model.Sesi.JawapanCollection.Where(x => x.Trait == "E3").Sum(x => x.Nilai),
+					 
+					@Model.Sesi.JawapanCollection.Where(x => x.Trait == "D1").Sum(x => x.Nilai)+@Model.Sesi.JawapanCollection.Where(x => x.Trait == "D2").Sum(x => x.Nilai)+@Model.Sesi.JawapanCollection.Where(x => x.Trait == "D3").Sum(x => x.Nilai),
+					  
+					@Model.Sesi.JawapanCollection.Where(x => x.Trait == "C1").Sum(x => x.Nilai)+@Model.Sesi.JawapanCollection.Where(x => x.Trait == "C2").Sum(x => x.Nilai)+@Model.Sesi.JawapanCollection.Where(x => x.Trait == "C3").Sum(x => x.Nilai),
+					   
+					@Model.Sesi.JawapanCollection.Where(x => x.Trait == "B1").Sum(x => x.Nilai)+@Model.Sesi.JawapanCollection.Where(x => x.Trait == "B2").Sum(x => x.Nilai)+@Model.Sesi.JawapanCollection.Where(x => x.Trait == "B3").Sum(x => x.Nilai),
+						
+					@Model.Sesi.JawapanCollection.Where(x => x.Trait == "A1").Sum(x => x.Nilai)+@Model.Sesi.JawapanCollection.Where(x => x.Trait == "A2").Sum(x => x.Nilai)+@Model.Sesi.JawapanCollection.Where(x => x.Trait == "A3").Sum(x => x.Nilai)]
+            }
+        ]
+    };
+	  window.onload = function() {
+
+      
+        var option80 = {           
+            scaleOverride: true,
+            scaleSteps: 7,
+            scaleStepWidth: 10,
+            scaleStartValue: 0
+        };
+		
+	 window.dimensiMinatChart = new Chart(document.getElementById("dimensi-minat-chart").getContext("2d")).HorizontalBar(dimensiMinatUtama, option80);
+ 
+        setTimeout(function() {
+
+            window.print();
+        }, 1000);
+    }
 </script>
+<div style="color: #98bde3"></div>

@@ -63,6 +63,7 @@ namespace web.sph.App_Code
             var traits = soalans.Select(s => s.Trait).Distinct().OrderBy(s => s).ToArray();
 			
             var ppkp = model.Ujian == "PPKP";
+			var ibk = model.Ujian == "IBK";
 
             var html = new StringBuilder();
 
@@ -78,6 +79,15 @@ namespace web.sph.App_Code
 					html.AppendLine("           <th>" + t + "</th>");
 				}
 				
+			}
+			
+			if ( ibk){
+				
+				var namaTraits = new []{"A", "B", "C", "D", "E","F"};
+				foreach (var t in namaTraits)
+				{
+					html.AppendLine("           <th>" + t + "</th>");
+				}
 			}
 				
 				foreach (var t in traits)
@@ -109,6 +119,21 @@ namespace web.sph.App_Code
 						}
 				
 				}
+				
+					if( ibk){
+					
+						var namaTraits = new []{"A", "B", "C", "D", "E","F"};
+						foreach (var t in namaTraits)
+						{
+							
+							var t1 = t;
+							var score = s.JawapanCollection.Where(a => a.Trait.StartsWith(t1)).Sum(a => a.Nilai);
+							html.AppendLine("           <td>" + score + "</td>");
+						}
+				
+				}
+					
+				
 					
 					foreach (var t in traits)
 					{
@@ -119,7 +144,7 @@ namespace web.sph.App_Code
 					
 				
                 var ip = s.NamaUjian.Contains("IP") && !s.NamaUjian.Contains("IPU");
-                var ibk = s.NamaUjian.Contains("IBK");
+                //var ibk = s.NamaUjian.Contains("IBK");
                 var iso = s.NamaUjian.Contains("ISO");
                 var hlp = s.NamaUjian.Contains("HLP");
                 var ukbp = s.NamaUjian.Contains("UKBP");
@@ -186,6 +211,21 @@ namespace web.sph.App_Code
 					}
 			
 			}
+			
+				if( ibk){
+				
+					var namaTraits = new []{"A", "B", "C", "D", "E","F"};
+					foreach (var t in namaTraits)
+					{
+						
+						var t1 = t;
+						var score = sesi.SelectMany(x => x.JawapanCollection).Where(a => a.Trait.StartsWith(t1)).Sum(a => a.Nilai);
+						html.AppendLine("           <td>" + score + "</td>");
+					}
+			
+			}
+			
+			
             foreach (var t in traits)
             {
                 var t1 = t;
@@ -204,6 +244,27 @@ namespace web.sph.App_Code
 			if( ppkp){
 				
 				var namaTraits = new []{"A", "B", "C", "D", "E"};
+					foreach (var t in namaTraits)
+					{
+						var t1 = t;
+						if (sesi.Count > 0)
+						{
+
+							var avg = sesi.SelectMany(x => x.JawapanCollection).Where(a => a.Trait.StartsWith(t1)).Sum(a => a.Nilai) / sesi.Count;
+							html.AppendLine("           <td>" + avg + "</td>");
+						}
+						else
+						{
+							html.AppendLine("           <td> NA</td>");
+						}
+					}
+					
+			
+			}
+			
+				if( ibk){
+				
+				var namaTraits = new []{"A", "B", "C", "D", "E","F"};
 					foreach (var t in namaTraits)
 					{
 						var t1 = t;

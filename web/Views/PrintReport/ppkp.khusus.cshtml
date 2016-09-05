@@ -11,44 +11,124 @@
         }
 
         h3 {
-            margin-top: 40px;
+            margin-top: 30px;
             font-size: medium;
             text-transform: uppercase;
             font-weight: bold;
         }
         table.ppkp-dimensi {
-            margin-top: 20px;
+            margin-top: 10px;
         }
     </style>
     <style media="print">
         table.ppkp-dimensi {
-            page-break-after: always;
+            page-break-after: false;
         }
     </style>
 }
 @section Peringatan{
     @Html.Partial("_peringatan.ppkp")
+} 
+<br>
+<style>
+
+#grad1 {
+	border-radius: 25px;
+    border: 0px solid #73AD21;
+    height: 150px;
+    background:    #FFBFBF; /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(    #FCF2F2,#FFBFBF ); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(    #FCF2F2,#FFBFBF); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(   #FCF2F2, #FFBFBF); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(    #FCF2F2,#FFBFBF ); /* Standard syntax (must be last) */
+	
+	
+
+}
+#grad2 {
+	border-radius: 25px;
+    border: 0px solid #73AD21;
+    height: 150px;
+    background: #b3ffb3; /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient( #F2FAF2,#b3ffb3 ); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient( #F2FAF2,#b3ffb3); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(#F2FAF2, #b3ffb3); /* For Firefox 3.6 to 15 */
+    background: linear-gradient( #F2FAF2,#b3ffb3 ); /* Standard syntax (must be last) */
+}
+#grad3 {
+	border-radius: 25px;
+    border: 0px solid #73AD21;
+    heighthttp://www.w3schools.com/colors/colors_rgb.asp: 150px;
+    background: #EBCCEB; /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient( #FAF2FA , #EBCCEB); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient( #FAF2FA, #EBCCEB); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient( #FAF2FA, #EBCCEB); /* For Firefox 3.6 to 15 */
+    background: linear-gradient( #FAF2FA , #EBCCEB); /* Standard syntax (must be last) */
+}
+#grad4 {
+	border-radius: 25px;
+    border: 0px solid #73AD21;
+    height: 150px;
+     background:  #CCE6FF; /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient( #F0F7FF ,  #CCE6FF); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient( #F0F7FF,  #CCE6FF); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient( #F0F7FF,  #CCE6FF); /* For Firefox 3.6 to 15 */
+    background: linear-gradient( #F0F7FF ,  #CCE6FF); /* Standard syntax (must be last) */
+}
+#grad5 {
+	border-radius: 25px;
+    border: 0px solid #73AD21;
+    height: 150px;
+    background: #FFCC99; /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient( #FFF0E0 , #FFCC99); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient( #FFF0E0, #FFCC99); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient( #FFF0E0, #FFCC99); /* For Firefox 3.6 to 15 */
+    background: linear-gradient( #FFF0E0 , #FFCC99); /* Standard syntax (must be last) */
 }
 
 
-<h3>DIMENSI EMOSI</h3>
-<canvas id="dimensi-emosi-chart" width="450" height="200" style="margin-left: auto; margin-right: auto"></canvas>@Html.Partial("_ppkp.dimensi.skor", Model.SkorKestabilanEmosi.Emosi)
+</style>
 
-<h3>DIMENSI CARA GAYA BEKERJA</h3>
-<canvas id="dimensi-cara-gaya-bekerja-chart" width="430" height="200" style="margin-left: auto; margin-right: auto"></canvas>
-@Html.Partial("_ppkp.dimensi.skor", Model.SkorKestabilanEmosi.GayaBekerja)
 
-<h3>DIMENSI CARA GAYA PEMIKIRAN</h3>
-<canvas id="dimensi-cara-gaya-pemikiran-chart" width="430" height="200" style="margin-left: auto; margin-right: auto"></canvas>
-@Html.Partial("_ppkp.dimensi.skor", Model.SkorKestabilanEmosi.Pemikiran)
 
-<h3>DIMENSI HUBUNGAN INTERPERSONAL</h3>
-<canvas id="dimensi-hubungan-interpesonal-chart" width="430" height="200" style="margin-left: auto; margin-right: auto"></canvas>
-@Html.Partial("_ppkp.dimensi.skor", Model.SkorKestabilanEmosi.Interpersonal)
+<table  border="0">
 
-<h3>DIMENSI HUBUNGAN PERIBADI</h3>
-<canvas id="dimensi-peribadi-chart" width="450" height="200" style="margin-left: auto; margin-right: auto"></canvas>
-@Html.Partial("_ppkp.dimensi.skor", Model.SkorKestabilanEmosi.Peribadi)
+
+<tr>
+<td valign="top" ><b>DIMENSI EMOSI</b><br><canvas id="dimensi-emosi-chart" width="300" height="150" ></canvas></td>
+<td>&nbsp</td>
+<td valign="top" id="grad1">@Html.Partial("_ppkp.dimensi.skor", Model.SkorKestabilanEmosi.Emosi)</td>
+</tr>
+<tr><td>&nbsp</td></tr>
+
+<tr>
+<td valign="top"><b>DIMENSI CARA GAYA BEKERJA</b><br><canvas id="dimensi-cara-gaya-bekerja-chart" width="300" height="150" ></canvas></td>
+<td></td>
+<td valign="top" id="grad2">@Html.Partial("_ppkp.dimensi.skor", Model.SkorKestabilanEmosi.GayaBekerja)</td>
+</tr>
+<tr><td>&nbsp</td></tr>
+
+<tr>
+<td valign="top"><b>DIMENSI CARA GAYA PEMIKIRAN</b><br><canvas id="dimensi-cara-gaya-pemikiran-chart" width="300" height="150" ></canvas></td>
+<td></td>
+<td valign="top" id="grad3" >@Html.Partial("_ppkp.dimensi.skor", Model.SkorKestabilanEmosi.Pemikiran)</td>
+</tr>
+<tr><td>&nbsp</td></tr>
+
+<tr>
+<td valign="top"><b>DIMENSI HUBUNGAN INTERPERSONAL</b><br><canvas id="dimensi-hubungan-interpesonal-chart" width="300" height="150" ></canvas></td>
+<td></td>
+<td valign="top" id="grad4">@Html.Partial("_ppkp.dimensi.skor", Model.SkorKestabilanEmosi.Interpersonal)</td>
+</tr>
+<tr><td>&nbsp</td></tr>
+
+<tr>
+<td valign="top"><b>DIMENSI HUBUNGAN PERIBADI</b><br><canvas id="dimensi-peribadi-chart" width="300" height="150" ></canvas></td>
+<td></td>
+<td valign="top" id="grad5">@Html.Partial("_ppkp.dimensi.skor", Model.SkorKestabilanEmosi.Peribadi)</td>
+</tr>
+
+</table>
 
 <script src="~/Scripts/Chart.min.js"></script>
 <script src="~/Scripts/Chart.HorizontalBar.js"></script>
@@ -58,11 +138,11 @@
 
 
     var dimensiEmosiData = {
-        labels: ["KETENANGAN", "KESABARAN", "KECERIAAN", "KETAHANAN DIRI"],
+        labels: ["KETAHANAN DIRI","KECERIAAN", "KESABARAN", "KETENANGAN"],
         datasets: [
             {
                 label: "KESTABILAN EMOSI",
-                fillColor: "#ff6666",
+                fillColor: "  #FFBFBF",
                 //fillColor: "rgba(220,220,220,0.2)",				
                 strokeColor: "red",
                 pointColor: "ref",
@@ -70,19 +150,21 @@
                 pointHighlightFill: "#88ff4d",
                 pointHighlightStroke: "rgba(220,220,220,1)",
                 data: [
-                    @Model.Sesi.JawapanCollection.Where(x => x.Trait == "A1").Sum(x => x.Nilai),
-                    @Model.Sesi.JawapanCollection.Where(x => x.Trait == "A2").Sum(x => x.Nilai),
-                    @Model.Sesi.JawapanCollection.Where(x => x.Trait == "A3").Sum(x => x.Nilai),
-                    @Model.Sesi.JawapanCollection.Where(x => x.Trait == "A4").Sum(x => x.Nilai)]
+                    
+                    @Model.Sesi.JawapanCollection.Where(x => x.Trait == "A4").Sum(x => x.Nilai),
+					@Model.Sesi.JawapanCollection.Where(x => x.Trait == "A3").Sum(x => x.Nilai),
+					@Model.Sesi.JawapanCollection.Where(x => x.Trait == "A2").Sum(x => x.Nilai),
+					@Model.Sesi.JawapanCollection.Where(x => x.Trait == "A1").Sum(x => x.Nilai)]
             }
         ]
     },
     dimensiGayaBekerjaData = {
-        labels: ["KESEMPURNAAN", "SISTEMATIK", "PENCAPAIAN DIUTAMAKAN", "DISIPLIN DIRI", "PERTIMBANGAN DIRI"],
+        labels: ["PERTIMBANGAN DIRI", "DISIPLIN DIRI","PENCAPAIAN","SISTEMATIK","KESEMPURNAAN"],
         datasets: [
             {
+				
                 label: "CARA GAYA BEKERJA",
-                fillColor: "#70db70",
+                fillColor: "#b3ffb3",
                 //fillColor: "rgba(220,220,220,0.2)",				
                 strokeColor: "green",
                 pointColor: "ref",
@@ -90,71 +172,75 @@
                 pointHighlightFill: "#88ff4d",
                 pointHighlightStroke: "rgba(220,220,220,1)",
                 data: [
-                    @Model.Sesi.JawapanCollection.Where(x => x.Trait == "B1").Sum(x => x.Nilai),
-                    @Model.Sesi.JawapanCollection.Where(x => x.Trait == "B2").Sum(x => x.Nilai),
-                    @Model.Sesi.JawapanCollection.Where(x => x.Trait == "B3").Sum(x => x.Nilai),
-                    @Model.Sesi.JawapanCollection.Where(x => x.Trait == "B4").Sum(x => x.Nilai),
-                    @Model.Sesi.JawapanCollection.Where(x => x.Trait == "B5").Sum(x => x.Nilai)]
+				@Model.Sesi.JawapanCollection.Where(x => x.Trait == "B5").Sum(x => x.Nilai),
+				@Model.Sesi.JawapanCollection.Where(x => x.Trait == "B4").Sum(x => x.Nilai),
+				@Model.Sesi.JawapanCollection.Where(x => x.Trait == "B3").Sum(x => x.Nilai),
+				@Model.Sesi.JawapanCollection.Where(x => x.Trait == "B2").Sum(x => x.Nilai),
+                @Model.Sesi.JawapanCollection.Where(x => x.Trait == "B1").Sum(x => x.Nilai)
+                    
+                   
+                    
+                    ]
             }
         ]
     },
     dimensiPemikiranData = {
-        labels: ["KREATIVITI", "KEABSTRAKAN IDEAS:BERMINDA TERBUKA", "KESEDIAAN BERUBAH", "KETELITIAN"],
+        labels: ["KETELITIAN","KESEDIAAN BERUBAH","BERMINDA TERBUKA","KREATIVITI"],
         datasets: [
             {
                 label: "CARA GAYA PEMIKIRAN",
-                fillColor: "#a64dff",
+                fillColor: "#EBCCEB",
                 strokeColor: "purple",
                 pointColor: "blue",
                 pointStrokeColor: "#fff",
                 pointHighlightFill: "#fff",
                 pointHighlightStroke: "rgba(220,220,220,1)",
                 data: [
-                    @Model.Sesi.JawapanCollection.Where(x => x.Trait == "C1").Sum(x => x.Nilai),
-                    @Model.Sesi.JawapanCollection.Where(x => x.Trait == "C2").Sum(x => x.Nilai),
+                    @Model.Sesi.JawapanCollection.Where(x => x.Trait == "C4").Sum(x => x.Nilai),
                     @Model.Sesi.JawapanCollection.Where(x => x.Trait == "C3").Sum(x => x.Nilai),
-                    @Model.Sesi.JawapanCollection.Where(x => x.Trait == "C4").Sum(x => x.Nilai)]
+                    @Model.Sesi.JawapanCollection.Where(x => x.Trait == "C2").Sum(x => x.Nilai),
+                    @Model.Sesi.JawapanCollection.Where(x => x.Trait == "C1").Sum(x => x.Nilai)]
             }
         ]
     },
     dimensiHubunganInterpersonalData = {
-        labels: ["MUDAH MESRA","AKTIF SOSIAL","AKTIVITI HARIAN:AKTIF BERTENAGA","KEPIMPINAN","KEPERCAYAAN","KETELUSAN"],
+        labels: ["KETELUSAN","KEPERCAYAAN","KEPIMPINAN","AKTIF BERTENAGA","AKTIF SOSIAL","MUDAH MESRA"],
         datasets: [
             {
                 label: "HUBUNGAN INTERPERSONAL",
-                fillColor: "#4d94ff",
+                fillColor: " #CCE6FF",
                 strokeColor: "blue",
                 pointColor: "blue",
                 pointStrokeColor: "#fff",
                 pointHighlightFill: "#fff",
                 pointHighlightStroke: "rgba(220,220,220,1)",
                 data: [
-                    @Model.Sesi.JawapanCollection.Where(x => x.Trait == "D1").Sum(x => x.Nilai),
-                    @Model.Sesi.JawapanCollection.Where(x => x.Trait == "D2").Sum(x => x.Nilai),
-                    @Model.Sesi.JawapanCollection.Where(x => x.Trait == "D3").Sum(x => x.Nilai),
-                    @Model.Sesi.JawapanCollection.Where(x => x.Trait == "D4").Sum(x => x.Nilai),
+                    @Model.Sesi.JawapanCollection.Where(x => x.Trait == "D6").Sum(x => x.Nilai),
                     @Model.Sesi.JawapanCollection.Where(x => x.Trait == "D5").Sum(x => x.Nilai),
-                    @Model.Sesi.JawapanCollection.Where(x => x.Trait == "D6").Sum(x => x.Nilai)]
+                    @Model.Sesi.JawapanCollection.Where(x => x.Trait == "D4").Sum(x => x.Nilai),
+                    @Model.Sesi.JawapanCollection.Where(x => x.Trait == "D3").Sum(x => x.Nilai),
+                    @Model.Sesi.JawapanCollection.Where(x => x.Trait == "D2").Sum(x => x.Nilai),
+                    @Model.Sesi.JawapanCollection.Where(x => x.Trait == "D1").Sum(x => x.Nilai)]
             }
         ]
     },
     dimensiPeribadiData = {
-        labels: ["KESEDIAAN MEMBANTU","KEPERSETUJUAN","KESEDERHANAAN","BERSIKAP DOMINAN","KESEDARAN KENDIRI"],
+        labels: ["KESEDARAN KENDIRI","BERSIKAP DOMINAN","KESEDERHANAAN","KEPERSETUJUAN","KESEDIAAN MEMBANTU"],
         datasets: [
             {
                 label: "KEPERIBADIAN",
-                fillColor: "#ff944d",
+                fillColor: "#FFCC99",
                 strokeColor: "orange",
                 pointColor: "blue",
                 pointStrokeColor: "#fff",
                 pointHighlightFill: "#fff",
                 pointHighlightStroke: "rgba(220,220,220,1)",
                 data: [
-                    @Model.Sesi.JawapanCollection.Where(x => x.Trait == "E1").Sum(x => x.Nilai),
-                    @Model.Sesi.JawapanCollection.Where(x => x.Trait == "E2").Sum(x => x.Nilai),
-                    @Model.Sesi.JawapanCollection.Where(x => x.Trait == "E3").Sum(x => x.Nilai),
+                    @Model.Sesi.JawapanCollection.Where(x => x.Trait == "E5").Sum(x => x.Nilai),
                     @Model.Sesi.JawapanCollection.Where(x => x.Trait == "E4").Sum(x => x.Nilai),
-                    @Model.Sesi.JawapanCollection.Where(x => x.Trait == "E5").Sum(x => x.Nilai)]
+                    @Model.Sesi.JawapanCollection.Where(x => x.Trait == "E3").Sum(x => x.Nilai),
+                    @Model.Sesi.JawapanCollection.Where(x => x.Trait == "E2").Sum(x => x.Nilai),
+                    @Model.Sesi.JawapanCollection.Where(x => x.Trait == "E1").Sum(x => x.Nilai)]
             }
         ]
     };
@@ -164,14 +250,14 @@
 
         var option = {           
             scaleOverride: true,
-            scaleSteps: 8,
-            scaleStepWidth: 5,
+            scaleSteps: 3,
+            scaleStepWidth: 20,
             scaleStartValue: 0
         };
         var option80 = {           
             scaleOverride: true,
-            scaleSteps: 16,
-            scaleStepWidth: 5,
+            scaleSteps: 3,
+            scaleStepWidth: 20,
             scaleStartValue: 0
         };
 		

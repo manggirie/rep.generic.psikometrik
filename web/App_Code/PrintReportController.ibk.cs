@@ -39,10 +39,9 @@ namespace web.sph.App_Code
             //  if(vm.KodKerjaya != "xxx")
             //    throw new Exception("id1 = " + id1 + " and id2 = " + id2);
 
-            vm.IbkRecommendation = await context.LoadOneAsync<IbkRecommendation>(
-              x => x.Id== id1 || x.Id == id2);
+            vm.IbkRecommendation = await context.LoadOneAsync<IbkRecommendation>(x => x.Id== id1 || x.Id == id2);
             vm.IbkKodKerjaya = await context.LoadOneAsync<IbkKodKerjaya>(x => x.Id == vm.KodKerjaya.Substring(0, 1));
-
+			//vm.IbkKodKerjaya = await context.LoadOneAsync<IbkKodKerjaya2>(x => x.Id == vm.KodKerjaya.Substring(0, 2));
 
             var viewName = "Trait-Ibk";
             return View(viewName, vm);

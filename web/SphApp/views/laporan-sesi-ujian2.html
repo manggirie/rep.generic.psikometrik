@@ -1,150 +1,85 @@
-<h3 class="page-title">
-    Laporan Sesi Ujian
-</h3>
+
+
+<h1 data-i18n="Permohonan oleh Urusetia">Laporan Sesi Ujian</h1>
+<div id="error-list" class="row" data-bind="visible:errors().length">
+    <!-- ko foreach : errors -->
+    <div class="col-sm-8 col-sm-offset-2 alert alert-dismissable alert-danger">
+        <button type="button" class="close" data-dismiss="alert" aria-hidden="true">&times;</button>
+        <i class="fa fa-exclamation"></i>
+        <span data-bind="text:Message"></span>
+
+    </div>
+    <div class="col-sm-2"></div>
+    <!-- /ko-->
+</div>
+
+
 <div class="row">
-    <form class="form-horizontal">
+    <div class="col-sm-8">
+        
+<form class="form-horizontal" data-bind="with : entity" id="permohonan-urusetia-readonly-form">
 
-        <div class="form-group">
-            <label for="tahun" class="col-lg-2 control-label">Tahun Program</label>
-            <div class="col-lg-6">
-                <select data-bind="value: tahun, options : tahunOptions"
-                        class="form-control" id="tahun"></select>
+<div class="form-group" data-bind="visible:true">
+    <label class="col-md-4">Nama Program</label>
+    <span class="col-md-8" data-bind="text: NamaProgram"></span>
+</div>    
 
-            </div>
-        </div>
-          <div class="form-group">
-            <label for="nama-program" class="col-lg-2 control-label">Nama Program</label>
-            <!--<div class="col-lg-6">-->
-            <!--    <input type="text" style="width:500px" data-bind="value: namaProgram, autocomplete: { entity : 'Permohonan', field : 'NamaProgram'}" required class="form-control" id="nama-program" />-->
-            <!--</div>-->
-              <div class="col-lg-6">
-                <select data-bind="value: namaProgram, options: programOptions,optionsText:'Keterangan',optionsValue:'NoKod', optionsCaption: '[Sila Pilih Program]'" required class="form-control" id="nama-program"></select>
-            </div>
-        </div>
-<h2 data-i18n="Senarai Ujian" data-bind="visible:true">Senarai Ujian</h2>
-
-
-    <div class="form-group" data-bind="visible:true">
-        <div class="col-md-offset-4 col-md-8">
-            <div class="checkbox">
-                <label class="checkbox">
-                    <input data-bind="checked : isIP, enable :true" id="isIP" type="checkbox"
-                           name="isIP"/>
-                    <span data-i18n="is I P">is I P</span>
-                    
-                </label>
-            </div>
-        </div>
+<div class="form-group" data-bind="visible:true">
+        <label class="col-md-4">Bilangan</label>
+        <span class="col-md-8" data-bind="text: BilProgram"></span>
     </div>
-
-
+    
     <div class="form-group" data-bind="visible:true">
-        <div class="col-md-offset-4 col-md-8">
-            <div class="checkbox">
-                <label class="checkbox">
-                    <input data-bind="checked : isIBK, enable :true" id="isIBK" type="checkbox"
-                           name="isIBK"/>
-                    <span data-i18n="is I B K">is I B K</span>
-                    
-                </label>
-            </div>
-        </div>
+        <label class="col-md-4">Siri</label>
+        <span class="col-md-8" data-bind="text: SiriProgram"></span>
     </div>
+    
+<div class="form-group" data-bind="visible:true">
+    <label class="col-md-4">Tahun</label>
+    <span class="col-md-8" data-bind="text: TahunProgram"></span>
+</div>
 
 
-    <div class="form-group" data-bind="visible:true">
-        <div class="col-md-offset-4 col-md-8">
-            <div class="checkbox">
-                <label class="checkbox">
-                    <input data-bind="checked : isIPU, enable :true" id="isIPU" type="checkbox"
-                           name="isIPU"/>
-                    <span data-i18n="is I P U">is I P U</span>
-                    
-                </label>
-            </div>
-        </div>
-    </div>
+    <h2 data-i18n="Modul Ujian" data-bind="visible:true">Modul Ujian</h2>
 
+<div class="form-group" data-bind="visible:true">
+    <label class="col-md-4">Indeks Personaliti (IP)</label>
+    <span class="col-md-8" data-bind="visible: isIP">
+        <i class="fa fa-check"></i>
+    </span>
+</div><div class="form-group" data-bind="visible:true">
+    <label class="col-md-4">Indeks Bimbingan Kerjaya (IBK)</label>
+    <span class="col-md-8" data-bind="visible: isIBK">
+        <i class="fa fa-check"></i>
+    </span>
+</div><div class="form-group" data-bind="visible:true">
+    <label class="col-md-4">Indikator Perwatakan Unggul (IPU)</label>
+    <span class="col-md-8" data-bind="visible: isIPU">
+        <i class="fa fa-check"></i>
+    </span>
+</div><div class="form-group" data-bind="visible:true">
+    <label class="col-md-4">Inventori Stres Organisasi (ISO)</label>
+    <span class="col-md-8" data-bind="visible: isISO">
+        <i class="fa fa-check"></i>
+    </span>
+</div><div class="form-group" data-bind="visible:true">
+    <label class="col-md-4">Ujian Khas Hadiah Latihan Persekutuan (UKHLP)</label>
+    <span class="col-md-8" data-bind="visible: isUKHLP">
+        <i class="fa fa-check"></i>
+    </span>
+</div><div class="form-group" data-bind="visible:true">
+    <label class="col-md-4">Ujian Khas Biasiswa Persekutuan (UKBP)</label>
+    <span class="col-md-8" data-bind="visible: isUKBP">
+        <i class="fa fa-check"></i>
+    </span>
+</div><div class="form-group" data-bind="visible:true">
+    <label class="col-md-4">Profil Personaliti &amp; Kerjaya Pegawai (PPKP)</label>
+    <span class="col-md-8" data-bind="visible: isPPKP">
+        <i class="fa fa-check"></i>
+    </span>
+</div>    
 
-    <div class="form-group" data-bind="visible:true">
-        <div class="col-md-offset-4 col-md-8">
-            <div class="checkbox">
-                <label class="checkbox">
-                    <input data-bind="checked : isISO, enable :true" id="isISO" type="checkbox"
-                           name="isISO"/>
-                    <span data-i18n="is I S O">is I S O</span>
-                    
-                </label>
-            </div>
-        </div>
-    </div>
-
-
-    <div class="form-group" data-bind="visible:true">
-        <div class="col-md-offset-4 col-md-8">
-            <div class="checkbox">
-                <label class="checkbox">
-                    <input data-bind="checked : isUKHLP, enable :true" id="isUKHLP" type="checkbox"
-                           name="isUKHLP"/>
-                    <span data-i18n="is U K H L P">is U K H L P</span>
-                    
-                </label>
-            </div>
-        </div>
-    </div>
-
-
-    <div class="form-group" data-bind="visible:true">
-        <div class="col-md-offset-4 col-md-8">
-            <div class="checkbox">
-                <label class="checkbox">
-                    <input data-bind="checked : isUKBP, enable :true" id="isUKBP" type="checkbox"
-                           name="isUKBP"/>
-                    <span data-i18n="is U K B P">is U K B P</span>
-                    
-                </label>
-            </div>
-        </div>
-    </div>
-
-
-    <div class="form-group" data-bind="visible:true">
-        <div class="col-md-offset-4 col-md-8">
-            <div class="checkbox">
-                <label class="checkbox">
-                    <input data-bind="checked : isPPKP, enable :true" id="isPPKP" type="checkbox"
-                           name="isPPKP"/>
-                    <span data-i18n="is P P K P">is P P K P</span>
-                    
-                </label>
-            </div>
-        </div>
-    </div>
-
-      
-
-        <!--<div class="form-group">-->
-        <!--    <label for="bil-program" class="col-lg-2 control-label">Bil Program</label>-->
-        <!--    <div class="col-lg-6">-->
-        <!--        <input type="text" data-bind="value: bil"-->
-        <!--               required pattern="[0-9]{1,4}"-->
-        <!--               placeholder="Bil program"-->
-        <!--               class="form-control" id="bil-program" />-->
-        <!--    </div>-->
-        <!--</div>-->
-
-        <!--<div class="form-group">-->
-        <!--    <label for="siri-program" class="col-lg-2 control-label">Siri Program</label>-->
-        <!--    <div class="col-lg-6">-->
-        <!--        <input type="text" data-bind="value: siri"-->
-        <!--               required pattern="[0-9]{1,4}"-->
-        <!--               placeholder="No siri program"-->
-        <!--               class="form-control" id="siri-program" />-->
-        <!--    </div>-->
-        <!--</div>-->
-
-
-        <div class="form-group">
+  <div class="form-group">
             <label for="submit" class="col-lg-2 control-label"></label>
             <div class="col-lg-2">
                 <button id="submit" class="btn btn-default" data-bind="command : generateLaporan">Jana Laporan</button>
@@ -152,11 +87,12 @@
              <div class="col-lg-2">
                 <button id="submit-excel" class="btn btn-default" data-bind="command : generateExcel">RAW SCORE</button>
             </div>
-        </div>
- 
-    </form>
 </div>
 
-<div id="report-panel" class="row">
 
+</form>
+    </div>
+    <div class="col-sm-4">
+        
+    </div>
 </div>
