@@ -1,0 +1,146 @@
+
+
+<h1 data-i18n="SkorPpkpProfil details">SkorPpkpProfil details</h1>
+<div id="error-list" class="row" data-bind="visible:errors().length">
+    <!-- ko foreach : errors -->
+    <div class="col-sm-8 col-sm-offset-2 alert alert-dismissable alert-danger">
+        <button type="button" class="close" data-dismiss="alert" aria-hidden="true">&times;</button>
+        <i class="fa fa-exclamation"></i>
+        <span data-bind="text:Message"></span>
+
+    </div>
+    <div class="col-sm-2"></div>
+    <!-- /ko-->
+</div>
+<div class="row">
+    <div class="col-sm-8">
+        
+<form class="form-horizontal" data-bind="with : entity" id="skor-ppkp-profil-details-form">
+
+
+
+    <div data-bind="visible:true" class="form-group">
+        <label data-i18n="No" for="bf6a2251-11c2-4666-f52d-6097341e3414" class="col-md-4">No</label>
+        <div class="col-md-8">
+            <input  class=" form-control input-large" title=""
+                   data-bind="value: No, enable :true "
+                   
+                   
+                   
+                   id="bf6a2251-11c2-4666-f52d-6097341e3414" type="text" name="No" />
+        </div>
+    </div>
+
+
+    <div class="form-group" data-bind="visible:true">
+        <label data-i18n="Dimensi" for="b47a7c9c-dfbf-4785-cbdb-08706abb811e" class="col-md-4">Dimensi</label>
+        <div class="col-md-8">
+            <select  data-bind="value: Dimensi, enable :true" id="b47a7c9c-dfbf-4785-cbdb-08706abb811e" name="Dimensi" class=" input-large form-control">
+                    <option value="KESTABILAN EMOSI" data-i18n="KESTABILAN EMOSI">KESTABILAN EMOSI</option>
+                    <option value="CARA GAYA KERJA" data-i18n="CARA GAYA KERJA">CARA GAYA KERJA</option>
+                    <option value="CARA GAYA PEMIKIRAN" data-i18n="CARA GAYA PEMIKIRAN">CARA GAYA PEMIKIRAN</option>
+                    <option value="KEPERIBADIAN" data-i18n="KEPERIBADIAN">KEPERIBADIAN</option>
+                    <option value="HUBUNGAN INTERPERSONAL" data-i18n="HUBUNGAN INTERPERSONAL">HUBUNGAN INTERPERSONAL</option>
+            </select>
+        </div>
+    </div>
+
+
+
+    <div data-bind="visible:true" class="form-group">
+        <label data-i18n="Skor Min" for="feef708d-b595-4c61-8435-db24e12b63eb" class="col-md-4">Skor Min</label>
+        <div class="col-md-8">
+            <input  class=" form-control input-large" title=""
+                   data-bind="value: SkorMin, enable :true "
+                   
+                   
+                   
+                   id="feef708d-b595-4c61-8435-db24e12b63eb" type="text" name="SkorMin" />
+        </div>
+    </div>
+
+
+
+    <div data-bind="visible:true" class="form-group">
+        <label data-i18n="Skor Max" for="55af3bb1-eab3-417c-a784-2fb852aa125e" class="col-md-4">Skor Max</label>
+        <div class="col-md-8">
+            <input  class=" form-control input-large" title=""
+                   data-bind="value: SkorMax, enable :true "
+                   
+                   
+                   
+                   id="55af3bb1-eab3-417c-a784-2fb852aa125e" type="text" name="SkorMax" />
+        </div>
+    </div>
+
+
+    <div class="form-group" data-bind="visible:true">
+        <label data-i18n="Tahap" for="433bbbca-9b9e-4d1b-a25a-508475d184c7" class="col-md-4">Tahap</label>
+        <div class="col-md-8">
+            <select  data-bind="value: Tahap, enable :true" id="433bbbca-9b9e-4d1b-a25a-508475d184c7" name="Tahap" class=" input-large form-control">
+                    <option value="SGT TINGGI" data-i18n="SGT TINGGI">SGT TINGGI</option>
+                    <option value="TINGGI" data-i18n="TINGGI">TINGGI</option>
+                    <option value="SEDERHANA" data-i18n="SEDERHANA">SEDERHANA</option>
+                    <option value="RENDAH" data-i18n="RENDAH">RENDAH</option>
+                    <option value="SGT RENDAH" data-i18n="SGT RENDAH">SGT RENDAH</option>
+            </select>
+        </div>
+    </div>
+
+
+    <div class="form-group" data-bind="visible:true">
+        <label data-i18n="Profil" for="cd8f536b-74bc-49ef-b72a-a9662ae32bc3" class="col-md-4">Profil</label>
+        <div class="col-md-8">
+            <select  data-bind="value: Profil, enable :true" id="cd8f536b-74bc-49ef-b72a-a9662ae32bc3" name="Profil" class=" input-large form-control">
+                    <option value="BERDAYA TAHAN" data-i18n="BERDAYA TAHAN">BERDAYA TAHAN</option>
+                    <option value="RESPONSIF" data-i18n="RESPONSIF">RESPONSIF</option>
+                    <option value="REAKTIF" data-i18n="REAKTIF">REAKTIF</option>
+                    <option value="FOKUS" data-i18n="FOKUS">FOKUS</option>
+                    <option value="KESEIMBANGAN" data-i18n="KESEIMBANGAN">KESEIMBANGAN</option>
+                    <option value="SPONTAN" data-i18n="SPONTAN">SPONTAN</option>
+                    <option value="STRATEGI" data-i18n="STRATEGI">STRATEGI</option>
+                    <option value="MODERATOR" data-i18n="MODERATOR">MODERATOR</option>
+                    <option value="TRADISI" data-i18n="TRADISI">TRADISI</option>
+                    <option value="ASERTIF" data-i18n="ASERTIF">ASERTIF</option>
+                    <option value="PERUNDINGAN" data-i18n="PERUNDINGAN">PERUNDINGAN</option>
+                    <option value="SUBMISIF" data-i18n="SUBMISIF">SUBMISIF</option>
+                    <option value="EKSTROVERT" data-i18n="EKSTROVERT">EKSTROVERT</option>
+                    <option value="AMBIVERT" data-i18n="AMBIVERT">AMBIVERT</option>
+                    <option value="INTROVERT" data-i18n="INTROVERT">INTROVERT</option>
+            </select>
+        </div>
+    </div>
+
+
+    <div class="form-group" data-bind="visible:true">
+        <label data-i18n="Kod Profile" for="58bb045c-faae-4d22-8bf6-0d0a7d02c55d" class="col-md-4">Kod Profile</label>
+        <div class="col-md-8">
+            <select  data-bind="value: KodProfil, enable :true" id="58bb045c-faae-4d22-8bf6-0d0a7d02c55d" name="KodProfil" class=" input-large form-control">
+                    <option value="A" data-i18n="A">A</option>
+                    <option value="B" data-i18n="B">B</option>
+                    <option value="C" data-i18n="C">C</option>
+                    <option value="D" data-i18n="D">D</option>
+                    <option value="E" data-i18n="E">E</option>
+            </select>
+        </div>
+    </div>
+
+
+    <div class="form-group" data-bind="visible:true">
+        <label data-i18n="Gred Skor" for="63b5d150-f3d6-4b48-fdc7-26d6284fdedb" class="col-md-4">Gred Skor</label>
+        <div class="col-md-8">
+            <select  data-bind="value: GredSkor, enable :true" id="63b5d150-f3d6-4b48-fdc7-26d6284fdedb" name="GredSkor" class=" input-large form-control">
+                    <option value="1" data-i18n="1">1</option>
+                    <option value="2" data-i18n="2">2</option>
+                    <option value="3" data-i18n="3">3</option>
+                    <option value="4" data-i18n="4">4</option>
+                    <option value="5" data-i18n="5">5</option>
+            </select>
+        </div>
+    </div>
+</form>
+    </div>
+    <div class="col-sm-4">
+        
+    </div>
+</div>
