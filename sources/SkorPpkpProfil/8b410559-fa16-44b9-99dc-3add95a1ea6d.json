@@ -1,0 +1,17 @@
+{
+  "$type": "Bespoke.epsikologi_skorppkpprofil.Domain.SkorPpkpProfil, epsikologi.SkorPpkpProfil",
+  "No": "KP2",
+  "Dimensi": "KEPERIBADIAN",
+  "SkorMin": 61,
+  "SkorMax": 120,
+  "Tahap": "RENDAH",
+  "Profil": "SUBMISIF",
+  "KodProfil": "D",
+  "GredSkor": 2,
+  "CreatedBy": "admin",
+  "Id": "8b410559-fa16-44b9-99dc-3add95a1ea6d",
+  "CreatedDate": "2016-09-08T10:47:28.2982331+08:00",
+  "ChangedBy": "admin",
+  "ChangedDate": "2016-09-08T10:47:28.2912324+08:00",
+  "WebId": "96456588-c436-4bf7-bf1f-af12ab88d184"
+}

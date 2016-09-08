@@ -1,0 +1,17 @@
+{
+  "$type": "Bespoke.epsikologi_skorppkpprofil.Domain.SkorPpkpProfil, epsikologi.SkorPpkpProfil",
+  "No": "CGP5",
+  "Dimensi": "CARA GAYA PEMIKIRAN",
+  "SkorMin": 141,
+  "SkorMax": 160,
+  "Tahap": "SGT TINGGI",
+  "Profil": "STRATEGI",
+  "KodProfil": "C",
+  "GredSkor": 5,
+  "CreatedBy": "admin",
+  "Id": "f0df2296-d616-46c8-b049-bf5442441c8f",
+  "CreatedDate": "2016-09-08T10:33:45.1259241+08:00",
+  "ChangedBy": "admin",
+  "ChangedDate": "2016-09-08T10:33:45.124924+08:00",
+  "WebId": "ecfc01df-5c5f-48e7-84a3-4ac1d7713c89"
+}

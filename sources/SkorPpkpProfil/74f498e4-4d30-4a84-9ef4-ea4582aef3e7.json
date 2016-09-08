@@ -1,0 +1,17 @@
+{
+  "$type": "Bespoke.epsikologi_skorppkpprofil.Domain.SkorPpkpProfil, epsikologi.SkorPpkpProfil",
+  "No": "KE4",
+  "Dimensi": "KESTABILAN EMOSI",
+  "SkorMin": 126,
+  "SkorMax": 170,
+  "Tahap": "TINGGI",
+  "Profil": "BERDAYA TAHAN",
+  "KodProfil": "A",
+  "GredSkor": 4,
+  "CreatedBy": "admin",
+  "Id": "74f498e4-4d30-4a84-9ef4-ea4582aef3e7",
+  "CreatedDate": "2016-09-08T10:19:08.2562459+08:00",
+  "ChangedBy": "admin",
+  "ChangedDate": "2016-09-08T10:19:08.2462449+08:00",
+  "WebId": "152c559b-4835-43be-ed77-c24a473d8448"
+}

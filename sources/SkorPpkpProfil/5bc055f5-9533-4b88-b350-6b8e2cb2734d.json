@@ -1,0 +1,17 @@
+{
+  "$type": "Bespoke.epsikologi_skorppkpprofil.Domain.SkorPpkpProfil, epsikologi.SkorPpkpProfil",
+  "No": "CGK3",
+  "Dimensi": "CARA GAYA KERJA",
+  "SkorMin": 101,
+  "SkorMax": 125,
+  "Tahap": "SEDERHANA",
+  "Profil": "KESEIMBANGAN",
+  "KodProfil": "B",
+  "GredSkor": 3,
+  "CreatedBy": "admin",
+  "Id": "5bc055f5-9533-4b88-b350-6b8e2cb2734d",
+  "CreatedDate": "2016-09-08T10:30:30.7144849+08:00",
+  "ChangedBy": "admin",
+  "ChangedDate": "2016-09-08T10:30:30.7134848+08:00",
+  "WebId": "73ebbabc-76c0-4811-d4fc-8b869da87294"
+}

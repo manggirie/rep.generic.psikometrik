@@ -1,0 +1,17 @@
+{
+  "$type": "Bespoke.epsikologi_skorppkpprofil.Domain.SkorPpkpProfil, epsikologi.SkorPpkpProfil",
+  "No": "HI2",
+  "Dimensi": "HUBUNGAN INTERPERSONAL",
+  "SkorMin": 61,
+  "SkorMax": 120,
+  "Tahap": "RENDAH",
+  "Profil": "INTROVERT",
+  "KodProfil": "E",
+  "GredSkor": 2,
+  "CreatedBy": "admin",
+  "Id": "0a2d3e08-24d1-41d4-85a8-830a619955bf",
+  "CreatedDate": "2016-09-08T10:49:56.2080226+08:00",
+  "ChangedBy": "admin",
+  "ChangedDate": "2016-09-08T10:49:56.2070225+08:00",
+  "WebId": "5bf62da1-c1b5-41e6-833d-133e3662b44a"
+}
