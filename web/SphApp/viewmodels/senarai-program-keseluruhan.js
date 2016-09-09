@@ -38,7 +38,7 @@ function(context, logger, router, chart, config, partial) {
                                 }, {
                                     "range": {
                                         "TarikhTamat": {
-                                            "to": "2016-09-07T00:00:00.0000000"
+                                            "to": moment().format("YYYY-MM-DDTHH:mm:ss.SSS")
                                         }
                                     }
                                 }
