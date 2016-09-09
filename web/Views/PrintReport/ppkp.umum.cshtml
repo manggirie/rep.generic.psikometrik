@@ -17,60 +17,199 @@
             font-weight: bold;
         }
     </style>
+	
+	<style>
+#grad1 {
+    border-radius: 25px;
+    border: 0px solid #73AD21;
+    height: 150px;
+    background: #FFBFBF !important; /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(#FCF2F2, #FFBFBF) !important; /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(#FCF2F2, #FFBFBF) !important; /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(#FCF2F2, #FFBFBF) !important; /* For Firefox 3.6 to 15 */
+    background: linear-gradient(#FCF2F2, #FFBFBF) !important; /* Standard syntax (must be last) */
+}
+#grad2 {
+    border-radius: 25px;
+    border: 0px solid #73AD21;
+    height: 150px;
+    background: #b3ffb3 !important; /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(#F2FAF2, #b3ffb3) !important; /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(#F2FAF2, #b3ffb3) !important; /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(#F2FAF2, #b3ffb3) !important; /* For Firefox 3.6 to 15 */
+    background: linear-gradient(#F2FAF2, #b3ffb3) !important; /* Standard syntax (must be last) */
+}
+#grad3 {
+    border-radius: 25px;
+    border: 0px solid #73AD21;
+    heighthttp://www.w3schools.com/colors/colors_rgb.asp: 150px;
+    background: #EBCCEB !important; /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(#FAF2FA, #EBCCEB) !important; /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(#FAF2FA, #EBCCEB) !important; /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(#FAF2FA, #EBCCEB) !important; /* For Firefox 3.6 to 15 */
+    background: linear-gradient(#FAF2FA, #EBCCEB) !important; /* Standard syntax (must be last) */
+}
+#grad4 {
+    border-radius: 25px;
+    border: 0px solid #73AD21;
+    height: 150px;
+    background:  #CCE6FF !important; /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(#F0F7FF, #CCE6FF) !important; /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(#F0F7FF, #CCE6FF) !important; /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(#F0F7FF, #CCE6FF) !important; /* For Firefox 3.6 to 15 */
+    background: linear-gradient(#F0F7FF, #CCE6FF) !important; /* Standard syntax (must be last) */
+}
+#grad5 {
+    border-radius: 25px;
+    border: 0px solid #73AD21;
+    height: 150px;
+    background: #FFCC99 !important; /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(#FFF0E0, #FFCC99) !important; /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(#FFF0E0, #FFCC99) !important; /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(#FFF0E0, #FFCC99) !important; /* For Firefox 3.6 to 15 */
+    background: linear-gradient(#FFF0E0 , #FFCC99) !important; /* Standard syntax (must be last) */
+}
+</style>
+
 }
 @section Peringatan{
     @Html.Partial("_peringatan.ppkp")
 }
-<div style="height:40px"></div>
+<div style="height:80px"></div>
+<table>
+    <tr>
+<td valign="top" ><b>DIMENSI EMOSI</b><br><canvas id="dimensi-emosi-chart" width="700" height="60" ></canvas></td>
+<td>&nbsp</td>
+</tr>
+<tr valign="top">
+<td valign="top"  id="grad1"><br>@Html.Partial("_ppkp.dimensi", Model.Emosi)</td>
+</tr>
+<tr><td>&nbsp</td></tr>
 
-<table class="row">
 
-    <tbody>
-        <tr>
-            <td style="text-align: center">
-                <h3 style="margin-top: 0px">PROFIL PERSONALITI</h3>
-                <br />
-                <canvas id="profil-personaliti-chart" height="230" width="700" style="margin-left: auto;margin-right: auto"></canvas>
-            </td>
-        </tr>
-    </tbody>
+    <tr>
+<td valign="top" ><b>DIMENSI GAYA BEKRJA</b><br><canvas id="dimensi-gayabekerja-chart" width="700" height="60" ></canvas></td>
+<td>&nbsp</td>
+</tr>
+<tr valign="top">
+<td valign="top"  id="grad2"><br>@Html.Partial("_ppkp.dimensi", Model.GayaBekerja)</td>
+</tr>
+<tr><td>&nbsp</td></tr>
+
+
+<tr>
+<td valign="top" ><b>DIMENSI PEMIKIRAN</b><br><canvas id="dimensi-pemikiran-chart" width="700" height="60" ></canvas></td>
+<td>&nbsp</td>
+</tr>
+<tr valign="top">
+<td valign="top"  id="grad3"><br>@Html.Partial("_ppkp.dimensi", Model.Pemikiran)</td>
+</tr>
+<tr><td>&nbsp</td></tr>
+
+
+    <tr>
+<td valign="top" ><b>DIMENSI HUBUNGAN INTERPERSONAL</b><br><canvas id="dimensi-hubunganinterpersonal-chart" width="700" height="60" ></canvas></td>
+<td>&nbsp</td>
+</tr>
+<tr valign="top">
+<td valign="top"  id="grad4"><br>@Html.Partial("_ppkp.dimensi", Model.Interpersonal)</td>
+</tr>
+<tr><td>&nbsp</td></tr>
+
+
+    <tr>
+<td valign="top" ><b>DIMENSI PERIBADI</b><br><canvas id="dimensi-peribadi-chart" width="700" height="60" ></canvas></td>
+<td>&nbsp</td>
+</tr>
+<tr valign="top">
+<td valign="top"  id="grad5"><br>@Html.Partial("_ppkp.dimensi", Model.Peribadi)</td>
+</tr>
+<tr><td>&nbsp</td></tr>
+
 </table>
-
-<h3>DIMENSI EMOSI</h3>
-@Html.Partial("_ppkp.dimensi", Model.Emosi)
-
-<h3>DIMENSI GAYA BEKERJA</h3>
-@Html.Partial("_ppkp.dimensi", Model.GayaBekerja)
-
-<h3>DIMENSI PEMIKIRAN</h3>
-@Html.Partial("_ppkp.dimensi", Model.Pemikiran)
-
-<h3>DIMENSI HUBUNGAN INTERPERSONAL</h3>
-@Html.Partial("_ppkp.dimensi", Model.Interpersonal)
-
-<h3>DIMENSI PERIBADI</h3>
-@Html.Partial("_ppkp.dimensi", Model.Peribadi)
-
-
-
 <script src="~/Scripts/Chart.min.js"></script>
+<script src="~/Scripts/Chart.HorizontalBar.js"></script>
 <script type="text/javascript">
     var vm = @Html.Raw(Model.ToString());
 
 
-    var personalitiData = {
-        labels: ["Emosi", "Gaya Bekerja", "Pemikiran", "Interpersonal", "Peribadi"],
+	 var dimensiEmosiData = {
+        labels: [@Model.ProfilPersonaliti.Emosi],
         datasets: [
             {
-                label: "PROFIL PERSONALITI",
-                fillColor: "rgba(220,220,220,0.2)",
+                label: "DIMENSI EMOSI",
+                fillColor: "  #FFBFBF",
+                //fillColor: "rgba(220,220,220,0.2)",				
+                strokeColor: "red",
+                pointColor: "red",
+                pointStrokeColor: "#fff",
+                pointHighlightFill: "#88ff4d",
+                pointHighlightStroke: "rgba(220,220,220,1)",
+                data: [@Model.ProfilPersonaliti.Emosi]
+            }
+        ]
+    };
+		 var dimensiGayaBekerjaData = {
+        labels: [@Model.ProfilPersonaliti.GayaBekerja],
+        datasets: [
+            {
+                label: "DIMENSI GAYA BEKERJA",
+                fillColor: "  #b3ffb3",
+                //fillColor: "rgba(220,220,220,0.2)",				
+                strokeColor: "green",
+                pointColor: "green",
+                pointStrokeColor: "#fff",
+                pointHighlightFill: "#88ff4d",
+                pointHighlightStroke: "rgba(220,220,220,1)",
+                data: [@Model.ProfilPersonaliti.GayaBekerja]
+            }
+        ]
+    };
+		 var dimensiPemikiranData = {
+        labels: [@Model.ProfilPersonaliti.Pemikiran],
+        datasets: [
+            {
+                label: "DIMENSI PEMIKIRAN",
+                fillColor: "  #EBCCEB",
+                //fillColor: "rgba(220,220,220,0.2)",				
+                strokeColor: "purple",
+                pointColor: "purple",
+                pointStrokeColor: "#fff",
+                pointHighlightFill: "#88ff4d",
+                pointHighlightStroke: "rgba(220,220,220,1)",
+                data: [@Model.ProfilPersonaliti.Pemikiran]
+            }
+        ]
+    };
+		 var dimensiHubunganInterpersonalData = {
+        labels: [@Model.ProfilPersonaliti.Interpersonal],
+        datasets: [
+            {
+                label: "DIMENSI HUBUNGAN INTERPERSONAL",
+                fillColor: "  #CCE6FF",
+                //fillColor: "rgba(220,220,220,0.2)",				
                 strokeColor: "blue",
                 pointColor: "blue",
                 pointStrokeColor: "#fff",
-                pointHighlightFill: "#fff",
+                pointHighlightFill: "#88ff4d",
                 pointHighlightStroke: "rgba(220,220,220,1)",
-                data: [@Model.ProfilPersonaliti.Emosi, @Model.ProfilPersonaliti.GayaBekerja, @Model.ProfilPersonaliti.Pemikiran, @Model.ProfilPersonaliti.Interpersonal, @Model.ProfilPersonaliti.Peribadi]
-
+                data: [@Model.ProfilPersonaliti.Interpersonal]
+            }
+        ]
+    };
+		 var dimensiPeribadiData = {
+        labels: [@Model.ProfilPersonaliti.Peribadi],
+        datasets: [
+            {
+                label: "DIMENSI PERIBADI",
+                fillColor: "  #FFCC99",
+                //fillColor: "rgba(220,220,220,0.2)",				
+                strokeColor: "orange",
+                pointColor: "orange",
+                pointStrokeColor: "#fff",
+                pointHighlightFill: "#88ff4d",
+                pointHighlightStroke: "rgba(220,220,220,1)",
+                data: [@Model.ProfilPersonaliti.Peribadi]
             }
         ]
     };
@@ -79,17 +218,25 @@
     window.onload = function() {
 
 
-        window.profilPersonalitiChart = new Chart(document.getElementById("profil-personaliti-chart").getContext("2d")).Line(personalitiData, {
-            bezierCurve: false,
+       
+		
+        var option = {           
             scaleOverride: true,
             scaleSteps: 5,
             scaleStepWidth: 30,
             scaleStartValue: 0
-        });
+        };
 
+		window.dimensiEmosiChart = new Chart(document.getElementById("dimensi-emosi-chart").getContext("2d")).HorizontalBar(dimensiEmosiData, option);
+		window.dimensiGayaBekerjaChart = new Chart(document.getElementById("dimensi-gayabekerja-chart").getContext("2d")).HorizontalBar(dimensiGayaBekerjaData, option);
+		window.dimensiPemikiranChart = new Chart(document.getElementById("dimensi-pemikiran-chart").getContext("2d")).HorizontalBar(dimensiPemikiranData, option);
+		window.dimensiHubunganInterpersonalChart = new Chart(document.getElementById("dimensi-hubunganinterpersonal-chart").getContext("2d")).HorizontalBar(dimensiHubunganInterpersonalData, option);
+		window.dimensiPeribadiChart = new Chart(document.getElementById("dimensi-peribadi-chart").getContext("2d")).HorizontalBar(dimensiPeribadiData, option);
+		
         setTimeout(function() {
             window.print();
         }, 1000);
+		
     }
 
 </script>

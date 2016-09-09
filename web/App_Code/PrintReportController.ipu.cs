@@ -50,10 +50,11 @@ namespace web.sph.App_Code
             var dpTask = context.LoadOneAsync<IpuPercentileNorms>(x => x.RawScore == vm.D);
             var epTask = context.LoadOneAsync<IpuPercentileNorms>(x => x.RawScore == vm.E);
             var fpTask = context.LoadOneAsync<IpuPercentileNorms>(x => x.RawScore == vm.F);
-            var gpTask = context.LoadOneAsync<IpuPercentileNorms>(x => x.RawScore == vm.G);
+			var gpTask = context.LoadOneAsync<IpuPercentileNorms>(x => x.RawScore == vm.G);
+            //var gpTask = context.LoadOneAsync<IpuPercentileNorms>(x => x.RawScore == vm.G);
             var hpTask = context.LoadOneAsync<IpuPercentileNorms>(x => x.RawScore == vm.H);
             var ipTask = context.LoadOneAsync<IpuPercentileNorms>(x => x.RawScore == vm.I);
-            await Task.WhenAll(apTask, bpTask, cpTask, epTask, fpTask, gpTask, hpTask, ipTask);
+            await Task.WhenAll(apTask, bpTask, cpTask, dpTask,  epTask, fpTask, gpTask, hpTask, ipTask);
 
             var ap = await apTask;
             var bp = await bpTask;
@@ -61,7 +62,8 @@ namespace web.sph.App_Code
             var dp = await dpTask;
             var ep = await epTask;
             var fp = await fpTask;
-            var gp = await gpTask;
+			var gp = await gpTask;
+            //var gp = await gpTask;
             var hp = await hpTask;
             var ip = await ipTask;
 
@@ -71,7 +73,8 @@ namespace web.sph.App_Code
             var d = context.LoadOneAsync<IpuRecommendation>(x => x.Tret == "D" && x.NilaiMin <= dp.D && dp.D <= x.NilaiMax);
             var e = context.LoadOneAsync<IpuRecommendation>(x => x.Tret == "E" && x.NilaiMin <= ep.E && ep.E <= x.NilaiMax);
             var f = context.LoadOneAsync<IpuRecommendation>(x => x.Tret == "F" && x.NilaiMin <= fp.F && fp.F <= x.NilaiMax);
-            var g = context.LoadOneAsync<IpuRecommendation>(x => x.Tret == "G" && x.NilaiMin <= gp.G && gp.G <= x.NilaiMax);
+			var g = context.LoadOneAsync<IpuRecommendation>(x => x.Tret == "G" && x.NilaiMin <= gp.G && gp.G <= x.NilaiMax);
+            //var g = context.LoadOneAsync<IpuRecommendation>(x => x.Tret == "G" && x.NilaiMin <= gp.G && gp.G <= x.NilaiMax);
             var h = context.LoadOneAsync<IpuRecommendation>(x => x.Tret == "H" && x.NilaiMin <= hp.H && hp.H <= x.NilaiMax);
             var i = context.LoadOneAsync<IpuRecommendation>(x => x.Tret == "I" && x.NilaiMin <= ip.I && ip.I <= x.NilaiMax);
 
@@ -81,7 +84,8 @@ namespace web.sph.App_Code
             vm.RecommendationD = await d;
             vm.RecommendationE = await e;
             vm.RecommendationF = await f;
-            vm.RecommendationG = await g;
+			vm.RecommendationG = await g;
+            //vm.RecommendationG = await g;
             vm.RecommendationH = await h;
             vm.RecommendationI = await i;
             vm.RecommendationJ = await context.LoadOneAsync<IpuRecommendation>(x => x.Tret == "J" && x.NilaiMin <= vm.J && vm.J <= x.NilaiMax);
@@ -123,9 +127,10 @@ namespace web.sph.App_Code
             var epTask = context.LoadOneAsync<SkorIPU>(x => vm.E.IsBetween(x.NilaiMin, x.NilaiMax, true, true) && x.Jantina == user.Jantina && x.Tret == "E");
             var fpTask = context.LoadOneAsync<SkorIPU>(x => vm.F.IsBetween(x.NilaiMin, x.NilaiMax, true, true) && x.Jantina == user.Jantina && x.Tret == "F");
             var gpTask = context.LoadOneAsync<SkorIPU>(x => vm.G.IsBetween(x.NilaiMin, x.NilaiMax, true, true) && x.Jantina == user.Jantina && x.Tret == "G");
+			//var gpTask = context.LoadOneAsync<SkorIPU>(x => vm.G.IsBetween(x.NilaiMin, x.NilaiMax, true, true) && x.Jantina == user.Jantina && x.Tret == "G");
             var hpTask = context.LoadOneAsync<SkorIPU>(x => vm.H.IsBetween(x.NilaiMin, x.NilaiMax, true, true) && x.Jantina == user.Jantina && x.Tret == "H");
             var ipTask = context.LoadOneAsync<SkorIPU>(x => vm.I.IsBetween(x.NilaiMin, x.NilaiMax, true, true) && x.Jantina == user.Jantina && x.Tret == "I");
-            await Task.WhenAll(apTask, bpTask, cpTask, epTask, fpTask, gpTask, hpTask, ipTask);
+            await Task.WhenAll(apTask, bpTask, cpTask, dpTask ,epTask, fpTask, gpTask, hpTask, ipTask);
 
             var ap = await apTask;
             var bp = await bpTask;
@@ -133,7 +138,8 @@ namespace web.sph.App_Code
             var dp = await dpTask;
             var ep = await epTask;
             var fp = await fpTask;
-            var gp = await gpTask;
+			var gp = await gpTask;
+            //var gp = await gpTask;
             var hp = await hpTask;
             var ip = await ipTask;
 
@@ -143,7 +149,8 @@ namespace web.sph.App_Code
             vm.SkorD = dp.Percentile;
             vm.SkorE = ep.Percentile;
             vm.SkorF = fp.Percentile;
-            vm.SkorG = gp.Percentile;
+			vm.SkorG = gp.Percentile;
+            //vm.SkorG = gp.Percentile;
             vm.SkorH = hp.Percentile;
             vm.SkorI = ip.Percentile;
             vm.SkorJ = vm.J;
