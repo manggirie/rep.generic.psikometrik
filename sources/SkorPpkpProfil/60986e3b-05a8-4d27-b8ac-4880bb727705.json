@@ -1,0 +1,17 @@
+{
+  "$type": "Bespoke.epsikologi_skorppkpprofil.Domain.SkorPpkpProfil, epsikologi.SkorPpkpProfil",
+  "No": "CGK5",
+  "Dimensi": "CARA GAYA KERJA",
+  "SkorMin": 176,
+  "SkorMax": 200,
+  "Tahap": "SGT TINGGI",
+  "Profil": "FOKUS",
+  "KodProfil": "B",
+  "GredSkor": 5,
+  "CreatedBy": "admin",
+  "Id": "60986e3b-05a8-4d27-b8ac-4880bb727705",
+  "CreatedDate": "2016-09-08T10:28:52.0186163+08:00",
+  "ChangedBy": "admin",
+  "ChangedDate": "2016-09-08T10:28:52.0116156+08:00",
+  "WebId": "9a0e4dc1-f782-41b0-e81b-4c8a9309dda5"
+}

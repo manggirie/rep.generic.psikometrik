@@ -1,0 +1,17 @@
+{
+  "$type": "Bespoke.epsikologi_skorppkpprofil.Domain.SkorPpkpProfil, epsikologi.SkorPpkpProfil",
+  "No": "HI4",
+  "Dimensi": "HUBUNGAN INTERPERSONAL",
+  "SkorMin": 151,
+  "SkorMax": 210,
+  "Tahap": "TINGGI",
+  "Profil": "EKSTROVERT",
+  "KodProfil": "E",
+  "GredSkor": 4,
+  "CreatedBy": "admin",
+  "Id": "7f92bd1b-872b-4161-9954-60977d9dbbce",
+  "CreatedDate": "2016-09-08T10:49:02.6336657+08:00",
+  "ChangedBy": "admin",
+  "ChangedDate": "2016-09-08T10:49:02.6316655+08:00",
+  "WebId": "e7bc440e-5dc0-425d-ea36-3aea80f2e97c"
+}

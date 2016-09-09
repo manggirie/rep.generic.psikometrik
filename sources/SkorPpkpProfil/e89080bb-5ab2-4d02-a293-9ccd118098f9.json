@@ -1,0 +1,17 @@
+{
+  "$type": "Bespoke.epsikologi_skorppkpprofil.Domain.SkorPpkpProfil, epsikologi.SkorPpkpProfil",
+  "No": "KP5",
+  "Dimensi": "KEPERIBADIAN",
+  "SkorMin": 206,
+  "SkorMax": 240,
+  "Tahap": "SGT TINGGI",
+  "Profil": "ASERTIF",
+  "KodProfil": "D",
+  "GredSkor": 5,
+  "CreatedBy": "admin",
+  "Id": "e89080bb-5ab2-4d02-a293-9ccd118098f9",
+  "CreatedDate": "2016-09-08T10:37:57.9792069+08:00",
+  "ChangedBy": "admin",
+  "ChangedDate": "2016-09-08T10:37:57.9762066+08:00",
+  "WebId": "69a509b0-e402-4dd5-8ebe-4cdb5b1d0b7d"
+}

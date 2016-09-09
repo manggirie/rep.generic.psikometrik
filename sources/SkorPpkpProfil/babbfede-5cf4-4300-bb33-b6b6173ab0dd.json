@@ -1,0 +1,17 @@
+{
+  "$type": "Bespoke.epsikologi_skorppkpprofil.Domain.SkorPpkpProfil, epsikologi.SkorPpkpProfil",
+  "No": "CGP1",
+  "Dimensi": "CARA GAYA PEMIKIRAN",
+  "SkorMin": 0,
+  "SkorMax": 40,
+  "Tahap": "SGT RENDAH",
+  "Profil": "TRADISI",
+  "KodProfil": "C",
+  "GredSkor": 1,
+  "CreatedBy": "admin",
+  "Id": "babbfede-5cf4-4300-bb33-b6b6173ab0dd",
+  "CreatedDate": "2016-09-08T10:36:36.6160714+08:00",
+  "ChangedBy": "admin",
+  "ChangedDate": "2016-09-08T10:36:36.6140712+08:00",
+  "WebId": "b393bcc2-5be6-4777-866d-d4c77e62fcba"
+}

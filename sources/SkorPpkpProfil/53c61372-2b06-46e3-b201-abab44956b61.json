@@ -1,0 +1,17 @@
+{
+  "$type": "Bespoke.epsikologi_skorppkpprofil.Domain.SkorPpkpProfil, epsikologi.SkorPpkpProfil",
+  "No": "KP4",
+  "Dimensi": "KEPERIBADIAN",
+  "SkorMin": 151,
+  "SkorMax": 205,
+  "Tahap": "TINGGI",
+  "Profil": "ASERTIF",
+  "KodProfil": "D",
+  "GredSkor": 4,
+  "CreatedBy": "admin",
+  "Id": "53c61372-2b06-46e3-b201-abab44956b61",
+  "CreatedDate": "2016-09-08T10:38:37.8321918+08:00",
+  "ChangedBy": "admin",
+  "ChangedDate": "2016-09-08T10:38:37.8311917+08:00",
+  "WebId": "4d5f0d81-4aa9-4bb8-89c7-e089a25ad457"
+}

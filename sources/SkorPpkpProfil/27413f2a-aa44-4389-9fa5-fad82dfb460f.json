@@ -1,0 +1,17 @@
+{
+  "$type": "Bespoke.epsikologi_skorppkpprofil.Domain.SkorPpkpProfil, epsikologi.SkorPpkpProfil",
+  "No": "KE2",
+  "Dimensi": "KESTABILAN EMOSI",
+  "SkorMin": 51,
+  "SkorMax": 100,
+  "Tahap": "RENDAH",
+  "Profil": "REAKTIF",
+  "KodProfil": "A",
+  "GredSkor": 2,
+  "CreatedBy": "admin",
+  "Id": "27413f2a-aa44-4389-9fa5-fad82dfb460f",
+  "CreatedDate": "2016-09-08T10:21:20.9715161+08:00",
+  "ChangedBy": "admin",
+  "ChangedDate": "2016-09-08T10:21:20.970516+08:00",
+  "WebId": "d8439cec-e1b9-426c-c6de-fad7dcd05e5e"
+}

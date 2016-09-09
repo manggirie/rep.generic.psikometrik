@@ -1,0 +1,17 @@
+{
+  "$type": "Bespoke.epsikologi_skorppkpprofil.Domain.SkorPpkpProfil, epsikologi.SkorPpkpProfil",
+  "No": "KP3",
+  "Dimensi": "KEPERIBADIAN",
+  "SkorMin": 121,
+  "SkorMax": 150,
+  "Tahap": "SEDERHANA",
+  "Profil": "PERUNDINGAN",
+  "KodProfil": "D",
+  "GredSkor": 3,
+  "CreatedBy": "admin",
+  "Id": "2d97a7d9-5dcb-41ee-a3f7-1c16239d7d2c",
+  "CreatedDate": "2016-09-08T10:39:18.1402222+08:00",
+  "ChangedBy": "admin",
+  "ChangedDate": "2016-09-08T10:39:18.138222+08:00",
+  "WebId": "d607bca8-d1a2-4030-b6c9-ed803a719fb3"
+}

@@ -1,0 +1,69 @@
+<h3 class="page-title">
+    Laporan Sesi Ujian
+</h3>
+<div class="row">
+    <form class="form-horizontal">
+
+        <div class="form-group">
+            <label for="tahun" class="col-lg-2 control-label">Tahun Program</label>
+            <div class="col-lg-6">
+                <select data-bind="value: tahun, options : tahunOptions"
+                        class="form-control" id="tahun"></select>
+
+            </div>
+        </div>
+          <div class="form-group">
+            <label for="nama-program" class="col-lg-2 control-label">Nama Program</label>
+            <!--<div class="col-lg-6">-->
+            <!--    <input type="text" style="width:500px" data-bind="value: namaProgram, autocomplete: { entity : 'Permohonan', field : 'NamaProgram'}" required class="form-control" id="nama-program" />-->
+            <!--</div>-->
+              <div class="col-lg-6">
+                <select data-bind="value: namaProgram, options: programOptions,optionsText:'Keterangan',optionsValue:'NoKod', optionsCaption: '[Sila Pilih Program]'" required class="form-control" id="nama-program"></select>
+            </div>
+        </div>
+        <div class="form-group">
+            <label for="nama-ujian" class="col-lg-2 control-label">Nama Ujian</label>
+            <div class="col-lg-6">
+                <select data-bind="value: namaUjian, options: ujianOptions, optionsCaption: '[Sila Pilih Ujian]'" required class="form-control" id="nama-ujian"></select>
+            </div>
+        </div>
+
+      
+
+        <!--<div class="form-group">-->
+        <!--    <label for="bil-program" class="col-lg-2 control-label">Bil Program</label>-->
+        <!--    <div class="col-lg-6">-->
+        <!--        <input type="text" data-bind="value: bil"-->
+        <!--               required pattern="[0-9]{1,4}"-->
+        <!--               placeholder="Bil program"-->
+        <!--               class="form-control" id="bil-program" />-->
+        <!--    </div>-->
+        <!--</div>-->
+
+        <!--<div class="form-group">-->
+        <!--    <label for="siri-program" class="col-lg-2 control-label">Siri Program</label>-->
+        <!--    <div class="col-lg-6">-->
+        <!--        <input type="text" data-bind="value: siri"-->
+        <!--               required pattern="[0-9]{1,4}"-->
+        <!--               placeholder="No siri program"-->
+        <!--               class="form-control" id="siri-program" />-->
+        <!--    </div>-->
+        <!--</div>-->
+
+
+        <div class="form-group">
+            <label for="submit" class="col-lg-2 control-label"></label>
+            <div class="col-lg-2">
+                <button id="submit" class="btn btn-default" data-bind="command : generateLaporan">Jana Laporan</button>
+            </div>
+             <div class="col-lg-2">
+                <button id="submit-excel" class="btn btn-default" data-bind="command : generateExcel">RAW SCORE</button>
+            </div>
+        </div>
+ 
+    </form>
+</div>
+
+<div id="report-panel" class="row">
+
+</div>
