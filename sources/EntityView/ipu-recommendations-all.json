@@ -33,9 +33,9 @@
         "Path": "Tret",
         "Header": "Tret",
         "Sort": "",
-        "IsLinkColumn": false,
-        "FormRoute": null,
-        "IconCssClass": "",
+        "IsLinkColumn": true,
+        "FormRoute": "ipu-recommendation-view",
+        "IconCssClass": "glyphicon glyphicon-file",
         "IconStoreId": "",
         "Format": "text:{0}",
         "RouteValueField": "",
@@ -149,6 +149,6 @@
   "Id": "ipu-recommendations-all",
   "CreatedDate": "2015-07-30T09:34:12.2706791+08:00",
   "ChangedBy": "admin",
-  "ChangedDate": "2015-07-31T08:44:49.0892747+08:00",
+  "ChangedDate": "2016-09-09T10:23:00.3071561+08:00",
   "WebId": "56710026-8a93-4278-a095-a48ded0b8842"
 }

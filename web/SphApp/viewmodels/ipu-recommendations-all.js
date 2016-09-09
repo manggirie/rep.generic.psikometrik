@@ -45,7 +45,7 @@ function(context, logger, router, chart, config) {
             });
             var edQuery = String.format("Name eq '{0}'", 'IpuRecommendation'),
                 tcs = new $.Deferred(),
-                formsQuery = String.format("EntityDefinitionId eq 'ipurecommendation' and IsPublished eq 1 and IsAllowedNewItem eq 1"),
+                formsQuery = String.format("EntityDefinitionId eq 'ipurecommendation' and IsPublished eq true and IsAllowedNewItem eq true"),
                 viewQuery = String.format("EntityDefinitionId eq 'ipurecommendation'"),
                 edTask = context.loadOneAsync("EntityDefinition", edQuery),
                 formsTask = context.loadAsync("EntityForm", formsQuery),
