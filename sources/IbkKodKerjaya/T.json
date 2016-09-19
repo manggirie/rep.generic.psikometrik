@@ -4,7 +4,7 @@
   "Nota": "Sekiranya anda ingin mengetahui interpretasi ujian secara lebih terperinci, sila hubungi pentadbir sistem anda atau pentadbir sistem di Jabatan Perkhidmatan Awam Malaysia.",
   "KodKerjayaAnda": "TRADISIONAL",
   "KategoriKerjayaAnda": "TRADISIONAL",
-  "Text": "Anda digambarkan sebagai seorang yang mempunyai kawalan diri yang tinggi, tenang, tabah hati dan berhati-hati.  Anda menjalankan tugas dengan bersungguh-sungguh, terperinci, teliti dan mematuhi setiap arahan yang dinyatakan.  Anda berasa tertarik kepada pekerjaan yang menggunakan data dan boleh dipraktikkan seperti pentadbiran, pengurusan atau perangkaan.\n\nAnda suka bekerja dalam persekitaran pekerjaan yang sistematik dan mempunyai skop tugas yang jelas serta terperinci agar anda dapat melakukannya secara efisien.  Anda cenderung memilih pekerjaan yang memerlukan anda untuk mengurus dan merancang aktiviti yang berstruktur seperti pemeriksa bank, juruaudit dan pegawai percukaian.\n\nAnda berpegang kepada nilai tradisi dan bersetuju dengan konsep \u0018Teruskannya\u0019.  Anda melaksanakan tugas seperti yang dirancangkan, mempunyai kemahiran mengurus dan mengira yang baik.  Di akhir pelaksanaan tugas, anda berasa bangga melihat pengurusan pejabat beroperasi dengan lancar dan memahami bagaimana individu memberi sumbangan kepada organisasi.",
+  "Text": "Anda digambarkan sebagai seorang yang mempunyai kawalan diri yang tinggi, tenang, tabah hati dan berhati-hati.  Anda menjalankan tugas dengan bersungguh-sungguh, terperinci, teliti dan mematuhi setiap arahan yang dinyatakan.  Anda berasa tertarik kepada pekerjaan yang menggunakan data dan boleh dipraktikkan seperti pentadbiran, pengurusan atau perangkaan.\n\nAnda suka bekerja dalam persekitaran pekerjaan yang sistematik dan mempunyai skop tugas yang jelas serta terperinci agar anda dapat melakukannya secara efisien.  Anda cenderung memilih pekerjaan yang memerlukan anda untuk mengurus dan merancang aktiviti yang berstruktur seperti pemeriksa bank, juruaudit dan pegawai percukaian.\n\nAnda berpegang kepada nilai tradisi dan bersetuju dengan konsep \"\u0018Teruskannya\"\u0019.  Anda melaksanakan tugas seperti yang dirancangkan, mempunyai kemahiran mengurus dan mengira yang baik.  Di akhir pelaksanaan tugas, anda berasa bangga melihat pengurusan pejabat beroperasi dengan lancar dan memahami bagaimana individu memberi sumbangan kepada organisasi.",
   "AlternatifPilihanKerjayaCollection": {
     "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.epsikologi_ibkkodkerjaya.Domain.AlternatifPilihanKerjaya, epsikologi.IbkKodKerjaya]], domain.sph",
     "$values": [
@@ -194,6 +194,6 @@
   "Id": "T",
   "CreatedDate": "2015-07-31T17:51:31.2523546+08:00",
   "ChangedBy": "admin",
-  "ChangedDate": "2015-07-31T17:51:31.247351+08:00",
+  "ChangedDate": "2016-09-19T11:46:19.7127303+08:00",
   "WebId": "4cb10528-b490-475d-fae9-a7ae315e2ec8"
 }

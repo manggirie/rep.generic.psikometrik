@@ -4,7 +4,7 @@
   "Nota": "Sekiranya anda ingin mengetahui interpretasi ujian secara lebih terperinci, sila hubungi pentadbir sistem anda atau pentadbir sistem di Jabatan Perkhidmatan Awam Malaysia.",
   "KodKerjayaAnda": "KREATIF",
   "KategoriKerjayaAnda": "KREATIF",
-  "Text": "Secara umumnya, anda digambarkan sebagai seorang yang bersikap terbuka, spontan, idealistik dan ingin tahu.  Anda seorang yang suka berdikari, mengkaji diri dan menghargai kebebasan, kesamaan serta keberanian.  Anda cenderung mempamerkan perasaan atau menyelesaikan permasalahan melalui aktiviti penulisan, kesenian, muzik atau warna.  Apabila membuat keputusan, anda cenderung berfikir secara mendalam dan bertindak mengikut gerak hati (naluri).  \n\nAnda suka bekerja dalam persekitaran yang bebas, tidak berstruktur dan tiada kongkongan kerana ia membolehkan anda menggunakan imaginasi serta kreativiti.  Anda berasa tertarik kepada tugasan yang kreatif dan cenderung memilih pekerjaan  seperti penulis, penulis skrip atau jurulatih drama.\n\nAnda berpegang kepada konsep \u001cCiptakannya\u001d dan  suka mencuba sesuatu yang baru seperti nyanyian atau pengiklanan.  Anda mungkin mempunyai kemahiran atau menggemari aktiviti yang berkaitan dengan muzik, drama, kesenian, bacaan atau penulisan.  Di akhir pelaksanaan tugas, anda mendapati wujudnya peluang untuk mencipta perkara baru dan berada bersama orang yang kreatif.",
+  "Text": "Secara umumnya, anda digambarkan sebagai seorang yang bersikap terbuka, spontan, idealistik dan ingin tahu.  Anda seorang yang suka berdikari, mengkaji diri dan menghargai kebebasan, kesamaan serta keberanian.  Anda cenderung mempamerkan perasaan atau menyelesaikan permasalahan melalui aktiviti penulisan, kesenian, muzik atau warna.  Apabila membuat keputusan, anda cenderung berfikir secara mendalam dan bertindak mengikut gerak hati (naluri).  \n\nAnda suka bekerja dalam persekitaran yang bebas, tidak berstruktur dan tiada kongkongan kerana ia membolehkan anda menggunakan imaginasi serta kreativiti.  Anda berasa tertarik kepada tugasan yang kreatif dan cenderung memilih pekerjaan  seperti penulis, penulis skrip atau jurulatih drama.\n\nAnda berpegang kepada konsep \u001c\"Ciptakannya\"\u001d dan  suka mencuba sesuatu yang baru seperti nyanyian atau pengiklanan.  Anda mungkin mempunyai kemahiran atau menggemari aktiviti yang berkaitan dengan muzik, drama, kesenian, bacaan atau penulisan.  Di akhir pelaksanaan tugas, anda mendapati wujudnya peluang untuk mencipta perkara baru dan berada bersama orang yang kreatif.",
   "AlternatifPilihanKerjayaCollection": {
     "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.epsikologi_ibkkodkerjaya.Domain.AlternatifPilihanKerjaya, epsikologi.IbkKodKerjaya]], domain.sph",
     "$values": [
@@ -169,6 +169,6 @@
   "Id": "K",
   "CreatedDate": "2015-07-31T17:06:15.2028394+08:00",
   "ChangedBy": "admin",
-  "ChangedDate": "2015-07-31T17:38:37.8051075+08:00",
+  "ChangedDate": "2016-09-19T11:40:40.9518576+08:00",
   "WebId": "80c1e2ad-f3e1-47f9-ef17-ffb4145b2722"
 }

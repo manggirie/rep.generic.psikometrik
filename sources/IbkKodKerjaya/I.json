@@ -4,7 +4,7 @@
   "Nota": "Sekiranya anda ingin mengetahui interpretasi ujian secara lebih terperinci, sila hubungi pentadbir sistem anda atau pentadbir sistem di Jabatan Perkhidmatan Awam Malaysia.",
   "KodKerjayaAnda": "INOVATIF",
   "KategoriKerjayaAnda": "INOVATIF",
-  "Text": "Anda digambarkan sebagai seorang yang aktif bertenaga, berdaya saing, bercita-cita tinggi dan berpandangan positif terhadap kehidupan.  Anda seorang yang berkeyakinan tinggi, bersedia mengetuai sesuatu tugasan, boleh berkomunikasi dan membuat pengucapan awam dengan baik.  Anda suka kepada aktiviti yang tahan lasak, berbentuk persaingan dan memberi peluang untuk bersuara.\n\nAnda mempunyai hubungan interpersonal yang baik dengan orang lain, bijak berbahasa dan berkebolehan mencapai persetujuan dalam perbincangan.  Anda suka bekerja dengan orang lain dan berasa tertarik dengan persekitaran yang memerlukan anda untuk mempengaruhi, mengetuai atau mengurus matlamat organisasi.  Anda cenderung melibatkan diri dalam bidang pekerjaan seperti perniagaan, jualan, pemasaran, pengurusan dan khidmat sokongan.\n\nAnda berpegang kepada konsep \u0018Laksanakannya\u0019  dan suka kepada idea yang boleh diaplikasikan.  Di akhir pelaksanaan tugas, anda berasa bangga apabila sesuatu tugasan itu berjaya direalisasikan dan anda berpeluang menyaksikan kejayaan tersebut.",
+  "Text": "Anda digambarkan sebagai seorang yang aktif bertenaga, berdaya saing, bercita-cita tinggi dan berpandangan positif terhadap kehidupan.  Anda seorang yang berkeyakinan tinggi, bersedia mengetuai sesuatu tugasan, boleh berkomunikasi dan membuat pengucapan awam dengan baik.  Anda suka kepada aktiviti yang tahan lasak, berbentuk persaingan dan memberi peluang untuk bersuara.\n\nAnda mempunyai hubungan interpersonal yang baik dengan orang lain, bijak berbahasa dan berkebolehan mencapai persetujuan dalam perbincangan.  Anda suka bekerja dengan orang lain dan berasa tertarik dengan persekitaran yang memerlukan anda untuk mempengaruhi, mengetuai atau mengurus matlamat organisasi.  Anda cenderung melibatkan diri dalam bidang pekerjaan seperti perniagaan, jualan, pemasaran, pengurusan dan khidmat sokongan.\n\nAnda berpegang kepada konsep \"\u0018Laksanakannya\"\u0019  dan suka kepada idea yang boleh diaplikasikan.  Di akhir pelaksanaan tugas, anda berasa bangga apabila sesuatu tugasan itu berjaya direalisasikan dan anda berpeluang menyaksikan kejayaan tersebut.",
   "AlternatifPilihanKerjayaCollection": {
     "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.epsikologi_ibkkodkerjaya.Domain.AlternatifPilihanKerjaya, epsikologi.IbkKodKerjaya]], domain.sph",
     "$values": [
@@ -199,6 +199,6 @@
   "Id": "I",
   "CreatedDate": "2015-07-31T17:47:36.6172675+08:00",
   "ChangedBy": "admin",
-  "ChangedDate": "2015-07-31T17:47:36.608263+08:00",
+  "ChangedDate": "2016-09-19T11:45:05.3872985+08:00",
   "WebId": "27283447-cd3a-4654-9109-4f6df947bb3b"
 }
