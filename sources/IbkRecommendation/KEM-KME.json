@@ -6,15 +6,33 @@
     "$values": [
       {
         "$type": "Bespoke.epsikologi_ibkrecommendation.Domain.Kerjaya, epsikologi.IbkRecommendation",
-        "Text": "-Penulis Semula -Pemberita \t",
+        "Text": "Penulis Semula",
         "Warna": null,
         "WebId": "5d12bd99-c54a-4df5-a9a8-2ed053e37790"
       },
       {
         "$type": "Bespoke.epsikologi_ibkrecommendation.Domain.Kerjaya, epsikologi.IbkRecommendation",
-        "Text": "-Pelukis -Artis (Pameran) -Terapi Penari\t",
+        "Text": "Pemberita",
         "Warna": null,
         "WebId": "15693895-d686-4fde-b486-1a1ea8d6a0d3"
+      },
+      {
+        "$type": "Bespoke.epsikologi_ibkrecommendation.Domain.Kerjaya, epsikologi.IbkRecommendation",
+        "Text": "Pelukis",
+        "Warna": null,
+        "WebId": "0dfbd92e-15a2-4cba-92f5-1a520672d14b"
+      },
+      {
+        "$type": "Bespoke.epsikologi_ibkrecommendation.Domain.Kerjaya, epsikologi.IbkRecommendation",
+        "Text": "Artis (Pameran)",
+        "Warna": null,
+        "WebId": "ccd1dfda-f778-455f-850a-04afff216973"
+      },
+      {
+        "$type": "Bespoke.epsikologi_ibkrecommendation.Domain.Kerjaya, epsikologi.IbkRecommendation",
+        "Text": "Terapi Penari\t",
+        "Warna": null,
+        "WebId": "9611f773-1982-4908-8ad0-cbfaccdb0a44"
       }
     ]
   },
@@ -37,6 +55,6 @@
   "Id": "KEM-KME",
   "CreatedDate": "2015-07-31T18:50:28.1791579+08:00",
   "ChangedBy": "admin",
-  "ChangedDate": "2015-07-31T18:50:28.1691508+08:00",
+  "ChangedDate": "2016-09-19T15:08:42.9103064+08:00",
   "WebId": "42ebe0f3-26c6-4242-cb6f-afd05f30c70d"
 }

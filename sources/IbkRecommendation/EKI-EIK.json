@@ -36,21 +36,45 @@
       },
       {
         "$type": "Bespoke.epsikologi_ibkrecommendation.Domain.Kerjaya, epsikologi.IbkRecommendation",
-        "Text": "-Ketua:- Teknologi Perubatan/ Makmal Kimia/  -Penyelia:- Kualiti Vendor/ Serangga & Penyakit",
+        "Text": "Ketua:- Teknologi Perubatan/ Makmal Kimia",
         "Warna": null,
         "WebId": "3929492c-45d3-40f8-b5a5-f1f2de36dd26"
       },
       {
         "$type": "Bespoke.epsikologi_ibkrecommendation.Domain.Kerjaya, epsikologi.IbkRecommendation",
-        "Text": "-Perunding Komunikasi -Perekacipta Set Pengambaran -Konduktor Okestra\t",
+        "Text": "Penyelia:- Kualiti Vendor/ Serangga & Penyakit",
         "Warna": null,
         "WebId": "ea800e06-e9cf-486c-ac77-89ddab7adf47"
       },
       {
         "$type": "Bespoke.epsikologi_ibkrecommendation.Domain.Kerjaya, epsikologi.IbkRecommendation",
-        "Text": "-Penulis/ Penulis Skrip/ Ilustrator Perubatan (Sainstifik) -Penganalisis Simbol \t",
+        "Text": "Perunding Komunikasi ",
         "Warna": null,
         "WebId": "4eadec6f-2269-4a3b-e813-2ed41b5b6cbd"
+      },
+      {
+        "$type": "Bespoke.epsikologi_ibkrecommendation.Domain.Kerjaya, epsikologi.IbkRecommendation",
+        "Text": "Perekacipta Set Pengambaran",
+        "Warna": null,
+        "WebId": "7e45df96-8cf7-47a1-b71e-8d8bfb70ec23"
+      },
+      {
+        "$type": "Bespoke.epsikologi_ibkrecommendation.Domain.Kerjaya, epsikologi.IbkRecommendation",
+        "Text": "Konduktor Okestra",
+        "Warna": null,
+        "WebId": "3f31a163-52db-4e20-d610-8fa258c4f35e"
+      },
+      {
+        "$type": "Bespoke.epsikologi_ibkrecommendation.Domain.Kerjaya, epsikologi.IbkRecommendation",
+        "Text": "Penulis/ Penulis Skrip/ Ilustrator Perubatan (Sainstifik)",
+        "Warna": null,
+        "WebId": "82a2280e-6085-4d24-c8bd-b98864fb0962"
+      },
+      {
+        "$type": "Bespoke.epsikologi_ibkrecommendation.Domain.Kerjaya, epsikologi.IbkRecommendation",
+        "Text": "Penganalisis Simbol",
+        "Warna": null,
+        "WebId": "2ab80703-f479-4c2b-d048-a13e5a78bdc8"
       }
     ]
   },
@@ -69,13 +93,18 @@
       },
       {
         "$type": "Bespoke.epsikologi_ibkrecommendation.Domain.BidangPengajian, epsikologi.IbkRecommendation",
-        "Text": "-Muzik - Senibina",
+        "Text": "Muzik",
         "WebId": "c303a7d8-db6c-446a-99df-de46698b7dd6"
       },
       {
         "$type": "Bespoke.epsikologi_ibkrecommendation.Domain.BidangPengajian, epsikologi.IbkRecommendation",
-        "Text": "Bahasa Asing & Kesusasteraan/ Falsafah",
+        "Text": "Senibina",
         "WebId": "a8b4bbf7-e9a0-48aa-a891-64a95171fe99"
+      },
+      {
+        "$type": "Bespoke.epsikologi_ibkrecommendation.Domain.BidangPengajian, epsikologi.IbkRecommendation",
+        "Text": "Bahasa Asing & Kesusasteraan/ Falsafah",
+        "WebId": "067ca94a-050a-4acb-d5a5-93bd732daeac"
       }
     ]
   },
@@ -83,6 +112,6 @@
   "Id": "EKI-EIK",
   "CreatedDate": "2015-07-31T18:33:20.5154426+08:00",
   "ChangedBy": "admin",
-  "ChangedDate": "2015-07-31T18:34:11.9482133+08:00",
+  "ChangedDate": "2016-09-19T12:37:58.8853064+08:00",
   "WebId": "f60dbc96-813d-4594-d5ea-23b489620396"
 }

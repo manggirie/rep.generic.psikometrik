@@ -18,15 +18,27 @@
       },
       {
         "$type": "Bespoke.epsikologi_ibkrecommendation.Domain.Kerjaya, epsikologi.IbkRecommendation",
-        "Text": "-Ahli Muzik (Instrumental) -Penulis (Simbol)",
+        "Text": "Ahli Muzik (Instrumental)",
         "Warna": null,
         "WebId": "8c0f2ebf-fef5-41b2-bfe3-233f56dac188"
       },
       {
         "$type": "Bespoke.epsikologi_ibkrecommendation.Domain.Kerjaya, epsikologi.IbkRecommendation",
-        "Text": "-Juruteknik Penyediaan Kesan Optikal -Artis\t",
+        "Text": "Penulis (Simbol)",
         "Warna": null,
         "WebId": "13297028-c4ac-44af-8c98-25bb316615fc"
+      },
+      {
+        "$type": "Bespoke.epsikologi_ibkrecommendation.Domain.Kerjaya, epsikologi.IbkRecommendation",
+        "Text": "Juruteknik Penyediaan Kesan Optikal ",
+        "Warna": null,
+        "WebId": "95a6991b-6948-4fac-dfe9-73921489a5e8"
+      },
+      {
+        "$type": "Bespoke.epsikologi_ibkrecommendation.Domain.Kerjaya, epsikologi.IbkRecommendation",
+        "Text": "Artis",
+        "Warna": null,
+        "WebId": "b7869e4d-1874-47ba-f07b-f4061d0b0b3d"
       }
     ]
   },
@@ -49,6 +61,6 @@
   "Id": "KMT-KTM",
   "CreatedDate": "2015-07-31T18:55:12.908443+08:00",
   "ChangedBy": "admin",
-  "ChangedDate": "2015-07-31T18:55:12.8984359+08:00",
+  "ChangedDate": "2016-09-19T15:18:30.1803064+08:00",
   "WebId": "716d11be-d73d-4435-e51d-7bf1db5613b6"
 }

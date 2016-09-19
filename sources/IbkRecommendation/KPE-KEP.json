@@ -12,9 +12,15 @@
       },
       {
         "$type": "Bespoke.epsikologi_ibkrecommendation.Domain.Kerjaya, epsikologi.IbkRecommendation",
-        "Text": "-Pereka Pakaian -Model\t",
+        "Text": "Pereka Pakaian",
         "Warna": null,
         "WebId": "b053a2df-a678-4a54-84fe-0d7e314d01be"
+      },
+      {
+        "$type": "Bespoke.epsikologi_ibkrecommendation.Domain.Kerjaya, epsikologi.IbkRecommendation",
+        "Text": "Model",
+        "Warna": null,
+        "WebId": "6e0d47f6-bf80-4a44-f9a9-eadedf7a5bf3"
       }
     ]
   },
@@ -32,6 +38,6 @@
   "Id": "KPE-KEP",
   "CreatedDate": "2015-07-31T18:46:16.1591092+08:00",
   "ChangedBy": "admin",
-  "ChangedDate": "2015-07-31T18:46:16.1841287+08:00",
+  "ChangedDate": "2016-09-19T15:01:10.2573064+08:00",
   "WebId": "aa986234-af52-42f2-c129-61ae6cc40536"
 }

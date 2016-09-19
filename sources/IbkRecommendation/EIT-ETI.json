@@ -18,19 +18,19 @@
       },
       {
         "$type": "Bespoke.epsikologi_ibkrecommendation.Domain.Kerjaya, epsikologi.IbkRecommendation",
-        "Text": "Juruaudit ",
+        "Text": "Juruaudit",
         "Warna": null,
         "WebId": "1dc54b5d-e49a-4b2d-b730-6be6a93f6e46"
       },
       {
         "$type": "Bespoke.epsikologi_ibkrecommendation.Domain.Kerjaya, epsikologi.IbkRecommendation",
-        "Text": "Penganalisis Pelaburan \t",
+        "Text": "Penganalisis Pelaburan\t",
         "Warna": null,
         "WebId": "5c58e8de-28ba-437a-a721-c66c567713fc"
       },
       {
         "$type": "Bespoke.epsikologi_ibkrecommendation.Domain.Kerjaya, epsikologi.IbkRecommendation",
-        "Text": "Penguasa Kastam ",
+        "Text": "Penguasa Kastam",
         "Warna": null,
         "WebId": "7a4373c3-e745-46e4-81cb-4f9077b9eb78"
       },
@@ -77,7 +77,7 @@
   "CreatedBy": "admin",
   "Id": "EIT-ETI",
   "CreatedDate": "2015-07-31T18:41:01.5216727+08:00",
-  "ChangedBy": "urusetia1",
-  "ChangedDate": "2015-08-12T17:26:30.5933317+08:00",
+  "ChangedBy": "admin",
+  "ChangedDate": "2016-09-19T14:51:20.8473064+08:00",
   "WebId": "ccc1c48e-7c71-4cc0-f97a-eb9899c23de3"
 }

@@ -1,80 +1,80 @@
 {
   "$type": "Bespoke.epsikologi_ibkrecommendation.Domain.IbkRecommendation, epsikologi.IbkRecommendation",
-  "Kod": "PMI/PIM",
+  "Kod": "EMI/EIM",
   "KerjayaCollection": {
     "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.epsikologi_ibkrecommendation.Domain.Kerjaya, epsikologi.IbkRecommendation]], domain.sph",
     "$values": [
       {
         "$type": "Bespoke.epsikologi_ibkrecommendation.Domain.Kerjaya, epsikologi.IbkRecommendation",
-        "Text": "Pakar:- Sambung Anggota/ Peralatan Radiologi",
+        "Text": "Pegawai Perubatan:- Pediatrik ",
         "Warna": null,
-        "WebId": "edb2ed71-c6a8-4876-b72b-bb1f39ad76d3"
+        "WebId": "793a239f-5148-4c62-8cae-1f8795367867"
       },
       {
         "$type": "Bespoke.epsikologi_ibkrecommendation.Domain.Kerjaya, epsikologi.IbkRecommendation",
-        "Text": "Penyiasat Kapalterbang ",
+        "Text": "Pakar:- Kardiologi/ Mata/ Endodontis",
         "Warna": null,
-        "WebId": "020f2d3a-14bc-4eb3-8c18-c7818b8c69f5"
+        "WebId": "2326a449-b583-48f4-9cd5-1766660de6c8"
       },
       {
         "$type": "Bespoke.epsikologi_ibkrecommendation.Domain.Kerjaya, epsikologi.IbkRecommendation",
-        "Text": "Jurutera:- Penerbangan/ Keretapi",
+        "Text": "Ketua Teknologi Radiologi/ Koroner",
         "Warna": null,
-        "WebId": "ebd19282-4034-47d4-b2da-0bd27c17df9b"
+        "WebId": "90ecf0a1-39fa-4417-8242-0540a9845e6e"
       },
       {
         "$type": "Bespoke.epsikologi_ibkrecommendation.Domain.Kerjaya, epsikologi.IbkRecommendation",
-        "Text": "Pengurus Bangunan",
+        "Text": "Pegawai Veterinar (Zoo)",
         "Warna": null,
-        "WebId": "21f55a47-9bde-4929-a4b9-7fc1e7d633de"
+        "WebId": "c7d5e60c-189c-4128-9120-a560c351aa29"
       },
       {
         "$type": "Bespoke.epsikologi_ibkrecommendation.Domain.Kerjaya, epsikologi.IbkRecommendation",
-        "Text": "Juruelektrik/ Juruteknik Perkakasan Elektrikal",
+        "Text": "Pegawai:- Imunologi/ Alergi/ Farmasi",
         "Warna": null,
-        "WebId": "33a71720-552a-4d68-b56f-a3a29ebd55fc"
+        "WebId": "4c6c37de-540f-444c-9505-fc6a437e6408"
       },
       {
         "$type": "Bespoke.epsikologi_ibkrecommendation.Domain.Kerjaya, epsikologi.IbkRecommendation",
-        "Text": "Polis Peronda Lebuhraya",
+        "Text": "Jurutera:- Keselamatan/ Elektronik",
         "Warna": null,
-        "WebId": "866a95a7-3474-40fa-9c25-c4ffd7d50dbd"
+        "WebId": "138491e4-58bf-4d16-86ca-71f4b0c6abcf"
       },
       {
         "$type": "Bespoke.epsikologi_ibkrecommendation.Domain.Kerjaya, epsikologi.IbkRecommendation",
-        "Text": "Ahli Bomba",
+        "Text": "Ahli Psikologi:- Industri-Organisasi/ Pendidikan/ Psikometrik",
         "Warna": null,
-        "WebId": "55f2715a-2d74-468f-b998-576dabb0cf9f"
+        "WebId": "9127f5d6-b1ff-421b-b725-8e6506fbd1ce"
       },
       {
         "$type": "Bespoke.epsikologi_ibkrecommendation.Domain.Kerjaya, epsikologi.IbkRecommendation",
-        "Text": "Penyelia Pelabuhan",
+        "Text": "Pengurus Keselamatan",
         "Warna": null,
-        "WebId": "0b32b250-5408-4d4c-93e6-66b66564fd32"
+        "WebId": "af53dd69-a729-4826-9fe5-afaa52622355"
       },
       {
         "$type": "Bespoke.epsikologi_ibkrecommendation.Domain.Kerjaya, epsikologi.IbkRecommendation",
-        "Text": "Penyelam",
+        "Text": "Penganalisis Jawatan",
         "Warna": null,
-        "WebId": "8008da10-1b54-4780-9a11-3fac1d81bcd8"
+        "WebId": "c01fab69-2846-4b7f-82ac-8c57416b7be4"
       },
       {
         "$type": "Bespoke.epsikologi_ibkrecommendation.Domain.Kerjaya, epsikologi.IbkRecommendation",
-        "Text": "Renjer Hidupan Liar",
+        "Text": "Ahli Sosiologi",
         "Warna": null,
-        "WebId": "ca065f3b-3330-4c4d-cb80-0a53fdbb1e91"
+        "WebId": "0158c715-ca68-48e1-a5dc-a5a35f10a550"
       },
       {
         "$type": "Bespoke.epsikologi_ibkrecommendation.Domain.Kerjaya, epsikologi.IbkRecommendation",
-        "Text": "Penternak/ Petani",
+        "Text": "Jururawat:- Bius/ Kesihatan Pekerjaan/ Komuniti",
         "Warna": null,
-        "WebId": "cac1cd37-1fe2-4dc2-c55b-5173e7d163ff"
+        "WebId": "1425d37e-dea1-4b59-8da4-84d8dc7044a5"
       },
       {
         "$type": "Bespoke.epsikologi_ibkrecommendation.Domain.Kerjaya, epsikologi.IbkRecommendation",
-        "Text": "Chef Masakan:- Umum/ Roti/ Kek & Biskut",
+        "Text": "Pereka Minyak Wangi",
         "Warna": null,
-        "WebId": "1b220fe6-5a04-48dd-b0bd-35cf8548d3b8"
+        "WebId": "181d13e4-4db2-40bd-b1d2-0409f3e9d0f2"
       }
     ]
   },
@@ -84,69 +84,79 @@
       {
         "$type": "Bespoke.epsikologi_ibkrecommendation.Domain.BidangPengajian, epsikologi.IbkRecommendation",
         "Text": "Perubatan",
-        "WebId": "7eda1c90-1878-4f2c-9230-c5e786cb1468"
+        "WebId": "667f6eed-8ace-476a-add0-0861a01bb115"
       },
       {
         "$type": "Bespoke.epsikologi_ibkrecommendation.Domain.BidangPengajian, epsikologi.IbkRecommendation",
-        "Text": "Pengurusan Bangunan ",
-        "WebId": "82a78150-3c20-4ec6-b699-89ba8b6d8282"
+        "Text": "Perubatan:- Mata",
+        "WebId": "9e919cfe-bee5-4d08-bf81-584b414fa6ae"
       },
       {
         "$type": "Bespoke.epsikologi_ibkrecommendation.Domain.BidangPengajian, epsikologi.IbkRecommendation",
-        "Text": "Hidupan Marin (Laut)",
-        "WebId": "d16a13c0-2be9-4dea-b5ac-c3c24d41e6be"
+        "Text": "Perubatan",
+        "WebId": "fb61ef5c-df08-4d4d-99ce-8991eb8a119c"
       },
       {
         "$type": "Bespoke.epsikologi_ibkrecommendation.Domain.BidangPengajian, epsikologi.IbkRecommendation",
-        "Text": "Hidupan Liar/ Perhutanan",
-        "WebId": "77d93de6-6c19-443c-a852-90e3581a18f4"
+        "Text": "Perubatan:- Imunisasi/ Farmasi ",
+        "WebId": "e02a8153-3742-4898-9305-33f2ec571dd4"
       },
       {
         "$type": "Bespoke.epsikologi_ibkrecommendation.Domain.BidangPengajian, epsikologi.IbkRecommendation",
-        "Text": "Pengurusan Pertanian/ Pemprosesan Makanan/ Pengeluaran Ternakan/ Pertanian/ Peralatan Pertanian/ Akuakultur/ Hortikultur",
-        "WebId": "80db6623-1239-4db1-a957-5f62c6a20ff7"
+        "Text": "Kejuruteraan Persekitaran",
+        "WebId": "61137b09-c278-4ff5-b821-61e9b0cb2dc3"
       },
       {
         "$type": "Bespoke.epsikologi_ibkrecommendation.Domain.BidangPengajian, epsikologi.IbkRecommendation",
-        "Text": "Perhotelan & Katering/ Masakan/ Pembuatan Pastri",
-        "WebId": "26c52837-2c8a-44f3-b3ad-2329d8a679c0"
+        "Text": "Psikologi:- Umum/ Sekolah / Pendidikan/ Industri-Organisasi/ Kekeluargaan & Masyarakat/ Hubungan Antarabangsa",
+        "WebId": "e4d7a6bf-9850-4566-91e6-9d4e08bdb9a2"
       },
       {
         "$type": "Bespoke.epsikologi_ibkrecommendation.Domain.BidangPengajian, epsikologi.IbkRecommendation",
-        "Text": "Farmasi ",
-        "WebId": "d5542e2f-f8d6-4f2e-bd34-6d59049e20f5"
+        "Text": "Jenayah ",
+        "WebId": "3353f4ad-99cc-4d4f-ab2b-152eccebb543"
       },
       {
         "$type": "Bespoke.epsikologi_ibkrecommendation.Domain.BidangPengajian, epsikologi.IbkRecommendation",
-        "Text": "Pengurusan Sumber Manusia/ Hartanah/ Tenaga/ Sistem Teknologi",
-        "WebId": "a083a1a8-a6c9-4272-95c2-011373f32cd1"
+        "Text": "Ekonomi",
+        "WebId": "382fc594-271b-4765-8d9d-6a38758558a7"
       },
       {
         "$type": "Bespoke.epsikologi_ibkrecommendation.Domain.BidangPengajian, epsikologi.IbkRecommendation",
-        "Text": "Sains Keselamatan Pekerjaan & Teknologi",
-        "WebId": "aac4909d-e3ae-4558-ab38-8f1b07b74ab6"
+        "Text": "Sains Sosial",
+        "WebId": "d1e3a7e6-40f8-45c9-ad1a-4c5c1f42c9ad"
       },
       {
         "$type": "Bespoke.epsikologi_ibkrecommendation.Domain.BidangPengajian, epsikologi.IbkRecommendation",
-        "Text": "Penyiaran Radio & Televisyen",
-        "WebId": "13d8ccbf-4852-411d-af63-f4d6e7a5385a"
+        "Text": "Kejururawatan",
+        "WebId": "1aeaa163-12b5-4e3a-8d3b-771767b794d7"
       },
       {
         "$type": "Bespoke.epsikologi_ibkrecommendation.Domain.BidangPengajian, epsikologi.IbkRecommendation",
-        "Text": "Latihan Ekuin",
-        "WebId": "6f731d1c-8b58-41dd-f233-0708e7e3c5a9"
+        "Text": "Sains Aktuari ",
+        "WebId": "2f25c8c2-9ed1-4ef8-b43d-3774ceb4d977"
       },
       {
         "$type": "Bespoke.epsikologi_ibkrecommendation.Domain.BidangPengajian, epsikologi.IbkRecommendation",
-        "Text": "Hiasan Dalaman",
-        "WebId": "cb773458-c87f-406a-bf2b-7972047624bf"
+        "Text": "Sains Kesihatan:- Teknologi Perubatan/ Sains Pemakanan",
+        "WebId": "d061167d-7c29-4fdd-b3fd-243a98b8f72d"
+      },
+      {
+        "$type": "Bespoke.epsikologi_ibkrecommendation.Domain.BidangPengajian, epsikologi.IbkRecommendation",
+        "Text": "Perancangan Bandar ",
+        "WebId": "41262fe0-b00d-44c8-b00d-7a0dbeb1d5f1"
+      },
+      {
+        "$type": "Bespoke.epsikologi_ibkrecommendation.Domain.BidangPengajian, epsikologi.IbkRecommendation",
+        "Text": "Bahasa Asing / Kesusasteraan",
+        "WebId": "8580266f-b490-4797-bc2a-2560d44e243b"
       }
     ]
   },
   "CreatedBy": "admin",
-  "Id": "PMI-PIM",
-  "CreatedDate": "2015-07-31T18:25:23.2766897+08:00",
+  "Id": "EMI-EIM",
+  "CreatedDate": "2016-09-19T12:30:58.5298494+08:00",
   "ChangedBy": "admin",
-  "ChangedDate": "2016-09-19T12:17:04.9947961+08:00",
-  "WebId": "0280e894-9a26-4cb5-bbb8-2637fe1f770a"
+  "ChangedDate": "2016-09-19T12:30:58.5228501+08:00",
+  "WebId": "598414c2-28c7-4e77-c4d9-f200c7aab776"
 }

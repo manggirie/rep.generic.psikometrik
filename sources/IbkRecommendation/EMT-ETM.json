@@ -6,63 +6,87 @@
     "$values": [
       {
         "$type": "Bespoke.epsikologi_ibkrecommendation.Domain.Kerjaya, epsikologi.IbkRecommendation",
-        "Text": "-Pakar Bahasa (Saintifik) -Penterjemah -Editor Semakan\t",
+        "Text": "Pakar Bahasa (Saintifik)",
         "Warna": null,
         "WebId": "5b3917a6-0f4f-4e4e-9e41-fb9be55ba4d0"
       },
       {
         "$type": "Bespoke.epsikologi_ibkrecommendation.Domain.Kerjaya, epsikologi.IbkRecommendation",
-        "Text": "Koordinator Keselamatan Komputer ",
+        "Text": "Penterjemah",
         "Warna": null,
         "WebId": "2e551ef3-68f5-48b4-b305-4c7ee0262db1"
       },
       {
         "$type": "Bespoke.epsikologi_ibkrecommendation.Domain.Kerjaya, epsikologi.IbkRecommendation",
-        "Text": "Pegawai Perubatan:- Pekerjaan \t",
+        "Text": "Editor Semakan\t",
         "Warna": null,
         "WebId": "0ceb6b6e-e238-42ed-9c19-bc71747ca9db"
       },
       {
         "$type": "Bespoke.epsikologi_ibkrecommendation.Domain.Kerjaya, epsikologi.IbkRecommendation",
-        "Text": "Ahli Mikrobiologi/ Imunisasi Hemotologi",
+        "Text": "Koordinator Keselamatan Komputer ",
         "Warna": null,
         "WebId": "599ddada-3baa-4453-aec1-a2d5ed2e7004"
       },
       {
         "$type": "Bespoke.epsikologi_ibkrecommendation.Domain.Kerjaya, epsikologi.IbkRecommendation",
-        "Text": "-Penganalisis:-Penyelidikan Perniagaan/ Sokongan Bantuan -Penolong Penyelidik\t",
+        "Text": "Pegawai Perubatan:- Pekerjaan",
         "Warna": null,
         "WebId": "06fc9fd2-3929-4ff2-a05d-99218e5f71bb"
       },
       {
         "$type": "Bespoke.epsikologi_ibkrecommendation.Domain.Kerjaya, epsikologi.IbkRecommendation",
-        "Text": "Akauntan \t",
+        "Text": "Ahli Mikrobiologi/ Imunisasi Hemotologi",
         "Warna": null,
         "WebId": "d3a0d93f-9703-4a7c-aa87-a81619cdcf09"
       },
       {
         "$type": "Bespoke.epsikologi_ibkrecommendation.Domain.Kerjaya, epsikologi.IbkRecommendation",
-        "Text": "Pemeriksa Poligraf\t",
+        "Text": "Penganalisis:-Penyelidikan Perniagaan/ Sokongan Bantuan ",
         "Warna": null,
         "WebId": "ce8e8e90-972d-479c-817c-f58c467272ff"
       },
       {
         "$type": "Bespoke.epsikologi_ibkrecommendation.Domain.Kerjaya, epsikologi.IbkRecommendation",
-        "Text": "-Pentadbir Rekod Perubatan  -Agen Pembayaran Semula\t",
+        "Text": "Penolong Penyelidik",
         "Warna": null,
         "WebId": "e5da4e5a-7de3-4439-a0d7-ecdc6325c04c"
       },
       {
         "$type": "Bespoke.epsikologi_ibkrecommendation.Domain.Kerjaya, epsikologi.IbkRecommendation",
-        "Text": "Juruterknik:- Mata/ Mesin Dialisis",
+        "Text": "Akauntan",
         "Warna": null,
         "WebId": "96939275-aca6-4118-b82e-e391702e2546"
       },
       {
         "$type": "Bespoke.epsikologi_ibkrecommendation.Domain.Kerjaya, epsikologi.IbkRecommendation",
-        "Text": "Telekomunikator",
+        "Text": "Pemeriksa Poligraf",
         "Warna": null,
         "WebId": "ed2f4b15-4add-4d41-8f84-8ad8f7f7925c"
+      },
+      {
+        "$type": "Bespoke.epsikologi_ibkrecommendation.Domain.Kerjaya, epsikologi.IbkRecommendation",
+        "Text": "Pentadbir Rekod Perubatan",
+        "Warna": null,
+        "WebId": "e4f87c9b-ec03-4c9e-906e-2f3e67d7adf3"
+      },
+      {
+        "$type": "Bespoke.epsikologi_ibkrecommendation.Domain.Kerjaya, epsikologi.IbkRecommendation",
+        "Text": "Agen Pembayaran Semula\t",
+        "Warna": null,
+        "WebId": "75331017-49e6-45ed-e8c2-c2108d1f24b3"
+      },
+      {
+        "$type": "Bespoke.epsikologi_ibkrecommendation.Domain.Kerjaya, epsikologi.IbkRecommendation",
+        "Text": "Juruteknik:- Mata/ Mesin Dialisis",
+        "Warna": null,
+        "WebId": "fb4f517b-4b4f-4ad3-d380-d76c5ed3f81c"
+      },
+      {
+        "$type": "Bespoke.epsikologi_ibkrecommendation.Domain.Kerjaya, epsikologi.IbkRecommendation",
+        "Text": "Telekomunikator",
+        "Warna": null,
+        "WebId": "43bcd7fa-9057-4404-8cf6-a7cd4ff44297"
       }
     ]
   },
@@ -86,7 +110,7 @@
       },
       {
         "$type": "Bespoke.epsikologi_ibkrecommendation.Domain.BidangPengajian, epsikologi.IbkRecommendation",
-        "Text": "Sains Kesiharan: Mata/ Teknologi",
+        "Text": "Sains Kesihatan: Mata/ Teknologi",
         "WebId": "2ae2c809-fa4a-4887-8149-4e5064ab6492"
       }
     ]
@@ -95,6 +119,6 @@
   "Id": "EMT-ETM",
   "CreatedDate": "2015-07-31T18:39:17.7237362+08:00",
   "ChangedBy": "admin",
-  "ChangedDate": "2015-07-31T18:39:17.7137291+08:00",
+  "ChangedDate": "2016-09-19T14:50:12.2683064+08:00",
   "WebId": "c9f4cf53-fadc-4cbf-ae51-34396fed039d"
 }

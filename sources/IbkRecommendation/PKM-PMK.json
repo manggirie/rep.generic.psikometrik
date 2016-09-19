@@ -6,7 +6,7 @@
     "$values": [
       {
         "$type": "Bespoke.epsikologi_ibkrecommendation.Domain.Kerjaya, epsikologi.IbkRecommendation",
-        "Text": "Chef Pastri/ Pencuci Mulut",
+        "Text": "Chef:- Pastri/ Pencuci Mulut",
         "Warna": null,
         "WebId": "ff6e284b-e723-40c8-99f4-c3e03772bafd"
       },
@@ -24,7 +24,7 @@
       },
       {
         "$type": "Bespoke.epsikologi_ibkrecommendation.Domain.Kerjaya, epsikologi.IbkRecommendation",
-        "Text": "Juruteknik Pentas/ Kamera/ Kesan Optikal",
+        "Text": "Juruteknik:- Pentas/ Kamera/ Kesan Optikal",
         "Warna": null,
         "WebId": "0cb1de7b-5398-4dfb-f761-11b3af863a31"
       }
@@ -58,7 +58,7 @@
   "CreatedBy": "admin",
   "Id": "PKM-PMK",
   "CreatedDate": "2015-07-31T18:15:52.3323412+08:00",
-  "ChangedBy": "urusetia1",
-  "ChangedDate": "2015-08-12T17:19:21.7174484+08:00",
+  "ChangedBy": "admin",
+  "ChangedDate": "2016-09-19T12:10:41.0278472+08:00",
   "WebId": "68d5fcf3-026e-4afc-faac-f43926621838"
 }

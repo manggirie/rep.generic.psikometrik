@@ -1,14 +1,20 @@
 {
   "$type": "Bespoke.epsikologi_ibkrecommendation.Domain.IbkRecommendation, epsikologi.IbkRecommendation",
-  "Kod": "KPT/KTP",
+  "Kod": "PEK/PKE",
   "KerjayaCollection": {
     "$type": "Bespoke.Sph.Domain.ObjectCollection`1[[Bespoke.epsikologi_ibkrecommendation.Domain.Kerjaya, epsikologi.IbkRecommendation]], domain.sph",
     "$values": [
       {
         "$type": "Bespoke.epsikologi_ibkrecommendation.Domain.Kerjaya, epsikologi.IbkRecommendation",
-        "Text": "*Tiada padanan yang spesifik dengan kombinasi ini. Sila rujuk pilihan kerjaya  alternatif di bawah kategori K. Untuk maklumat lanjut sila hubungi  Pegawai Psikologi / Kaunselor",
+        "Text": "Operator Lampu dan Peralatan",
         "Warna": null,
-        "WebId": "d4d6d3dc-74bf-4218-b6dc-9b71e8fa4757"
+        "WebId": "8a2750e3-6eda-4b0f-951d-476672f0f7d9"
+      },
+      {
+        "$type": "Bespoke.epsikologi_ibkrecommendation.Domain.Kerjaya, epsikologi.IbkRecommendation",
+        "Text": "*Bagi kod PKE tiada padanan yang spesifik dengan kombinasi ini. Sila rujuk pilihan kerjaya  alternatif di bawah kategori P. Untuk maklumat lanjut sila hubungi  Pegawai Psikologi / Kaunselor.",
+        "Warna": null,
+        "WebId": "f92f1e63-96b7-47e0-9e0b-8d237fab594e"
       }
     ]
   },
@@ -18,19 +24,19 @@
       {
         "$type": "Bespoke.epsikologi_ibkrecommendation.Domain.BidangPengajian, epsikologi.IbkRecommendation",
         "Text": "*Tiada padanan yang spesifik dengan kombinasi ini",
-        "WebId": "ffc231c7-a9d4-43a5-bd90-249b67b5d12e"
+        "WebId": "fac448b9-9763-4e87-87eb-c7928f55e7b3"
       },
       {
         "$type": "Bespoke.epsikologi_ibkrecommendation.Domain.BidangPengajian, epsikologi.IbkRecommendation",
-        "Text": "Sila rujuk pilihan bidang pengajian  alternatif di bawah kategori K. Untuk maklumat lanjut sila hubungi  Pegawai Psikologi / Kaunselor. ",
-        "WebId": "41313a65-e48d-44ef-fe93-d3fdf6ed660b"
+        "Text": "Sila rujuk pilihan bidang pengajian  alternatif di bawah kategori P. Untuk maklumat lanjut sila hubungi  Pegawai Psikologi / Kaunselor. ",
+        "WebId": "3b956919-4ac4-4acf-d0c9-07ca2f6a15f6"
       }
     ]
   },
   "CreatedBy": "admin",
-  "Id": "KPT-KTP",
-  "CreatedDate": "2015-07-31T18:55:34.3513504+08:00",
+  "Id": "PEK-PKE",
+  "CreatedDate": "2016-09-19T11:56:30.8398369+08:00",
   "ChangedBy": "admin",
-  "ChangedDate": "2016-09-19T15:20:14.1913064+08:00",
-  "WebId": "2b495acc-1ee9-44be-b2f4-bc76bac3666c"
+  "ChangedDate": "2016-09-19T12:08:28.7886246+08:00",
+  "WebId": "33ab8640-6a22-486f-c4b2-ce14603622f5"
 }

@@ -6,9 +6,15 @@
     "$values": [
       {
         "$type": "Bespoke.epsikologi_ibkrecommendation.Domain.Kerjaya, epsikologi.IbkRecommendation",
-        "Text": "Jurukamera *  Sila rujuk pilihan kerjaya di bawah kategori P",
+        "Text": "Jurukamera ",
         "Warna": null,
         "WebId": "802dac8e-f26c-4fa2-b274-511582ee8ea9"
+      },
+      {
+        "$type": "Bespoke.epsikologi_ibkrecommendation.Domain.Kerjaya, epsikologi.IbkRecommendation",
+        "Text": "*Bagi kod PKT tiada padanan yang spesifik dengan kombinasi ini. Sila rujuk pilihan kerjaya  alternatif di bawah kategori P. Untuk maklumat lanjut sila hubungi  Pegawai Psikologi / Kaunselor.",
+        "Warna": null,
+        "WebId": "06b52626-f06f-456b-8ed4-73021cd38fa2"
       }
     ]
   },
@@ -17,8 +23,23 @@
     "$values": [
       {
         "$type": "Bespoke.epsikologi_ibkrecommendation.Domain.BidangPengajian, epsikologi.IbkRecommendation",
-        "Text": "-Pendidikan -Teknologi Media *  Sila rujuk pilihan bidang pengajian di bawah kategori P",
+        "Text": "Pendidikan",
         "WebId": "f4bf45a9-18d6-4244-ba09-c43d1496497f"
+      },
+      {
+        "$type": "Bespoke.epsikologi_ibkrecommendation.Domain.BidangPengajian, epsikologi.IbkRecommendation",
+        "Text": "Teknologi Media",
+        "WebId": "09ac3a94-399e-4f75-88aa-34a4fd465d7d"
+      },
+      {
+        "$type": "Bespoke.epsikologi_ibkrecommendation.Domain.BidangPengajian, epsikologi.IbkRecommendation",
+        "Text": "*Tiada padanan yang spesifik dengan kombinasi ini",
+        "WebId": "24d728af-bf0a-4ee2-f475-d93340e34de8"
+      },
+      {
+        "$type": "Bespoke.epsikologi_ibkrecommendation.Domain.BidangPengajian, epsikologi.IbkRecommendation",
+        "Text": "Sila rujuk pilihan bidang pengajian  alternatif di bawah kategori P. Untuk maklumat lanjut sila hubungi  Pegawai Psikologi / Kaunselor. ",
+        "WebId": "b6b31b5a-ea40-40f0-f839-3b9b340c2ba4"
       }
     ]
   },
@@ -26,6 +47,6 @@
   "Id": "PKT-PTK",
   "CreatedDate": "2015-07-31T18:14:26.3971954+08:00",
   "ChangedBy": "admin",
-  "ChangedDate": "2015-07-31T18:14:26.3891897+08:00",
+  "ChangedDate": "2016-09-19T12:07:39.1446607+08:00",
   "WebId": "5db133d3-c7fb-444c-d419-a9a72ac3bbce"
 }

@@ -6,13 +6,13 @@
     "$values": [
       {
         "$type": "Bespoke.epsikologi_ibkrecommendation.Domain.Kerjaya, epsikologi.IbkRecommendation",
-        "Text": "Pakar Perubatan Bius/ Saraf/ Sakit Puan/ Kulit/ Mata/ Tulang/ Radiologi",
+        "Text": "Pakar Perubatan:- Bius/ Saraf/ Sakit Puan/ Kulit/ Mata/ Tulang/ Radiologi",
         "Warna": null,
         "WebId": "af5eab47-3d27-4b99-bb93-339841059386"
       },
       {
         "$type": "Bespoke.epsikologi_ibkrecommendation.Domain.Kerjaya, epsikologi.IbkRecommendation",
-        "Text": "Pakar Pemakanan/ Kaji Parasit/ Serangga ",
+        "Text": "Pakar:- Pemakanan/ Kaji Parasit/ Serangga ",
         "Warna": null,
         "WebId": "f76a5a09-91c5-4526-bee0-bde37290e1b7"
       },
@@ -30,19 +30,19 @@
       },
       {
         "$type": "Bespoke.epsikologi_ibkrecommendation.Domain.Kerjaya, epsikologi.IbkRecommendation",
-        "Text": "Jurutera Aeronautikal/ Lapangan Terbang/ Penyelidikan Kimia/ Hidrolik/ Keselamatan",
+        "Text": "Jurutera:- Aeronautikal/ Lapangan Terbang/ Penyelidikan Kimia/ Hidrolik/ Keselamatan",
         "Warna": null,
         "WebId": "4ceab299-e96d-4b0a-8002-5156003201e6"
       },
       {
         "$type": "Bespoke.epsikologi_ibkrecommendation.Domain.Kerjaya, epsikologi.IbkRecommendation",
-        "Text": "Pakar Genetik\t",
+        "Text": "Pakar Genetik",
         "Warna": null,
         "WebId": "57cda1d9-0292-42f8-adb5-bc932fc9c994"
       },
       {
         "$type": "Bespoke.epsikologi_ibkrecommendation.Domain.Kerjaya, epsikologi.IbkRecommendation",
-        "Text": "Ahli Ekologi Perhutanan/ Botani/ Patologi Tumbuhan",
+        "Text": "Ahli Ekologi: Perhutanan/ Botani/ Patologi Tumbuhan",
         "Warna": null,
         "WebId": "5c0a059b-3df0-4c9a-9f02-710019315dba"
       },
@@ -54,7 +54,7 @@
       },
       {
         "$type": "Bespoke.epsikologi_ibkrecommendation.Domain.Kerjaya, epsikologi.IbkRecommendation",
-        "Text": "Ahli Biokimia/ Geofizik/ Kaji Mineral",
+        "Text": "Ahli:- Biokimia/ Geofizik/ Kaji Mineral",
         "Warna": null,
         "WebId": "9446e2d0-9f0c-4c18-ba0f-a5345c2dc5f9"
       },
@@ -78,7 +78,7 @@
       },
       {
         "$type": "Bespoke.epsikologi_ibkrecommendation.Domain.Kerjaya, epsikologi.IbkRecommendation",
-        "Text": "Kurator\t",
+        "Text": "Kurator",
         "Warna": null,
         "WebId": "90678bb4-9115-4518-b12a-4551bafaff26"
       },
@@ -90,7 +90,7 @@
       },
       {
         "$type": "Bespoke.epsikologi_ibkrecommendation.Domain.Kerjaya, epsikologi.IbkRecommendation",
-        "Text": "Pentadbir Internet@Intranet/ Rekacipta Pangkalan Data ",
+        "Text": "Pentadbir:- Internet@Intranet/ Rekacipta Pangkalan Data ",
         "Warna": null,
         "WebId": "83ca8c47-ea4b-4ee5-95c4-96256fd9ef7d"
       },
@@ -108,13 +108,13 @@
       },
       {
         "$type": "Bespoke.epsikologi_ibkrecommendation.Domain.Kerjaya, epsikologi.IbkRecommendation",
-        "Text": "Juruteknologi/ Juruteknik Ternakan Lembu Susu/ Makanan ",
+        "Text": "Juruteknologi/ Juruteknik:- Ternakan Lembu Susu/ Makanan",
         "Warna": null,
         "WebId": "d8eafc74-5f82-470f-bc75-ef63fab72dbc"
       },
       {
         "$type": "Bespoke.epsikologi_ibkrecommendation.Domain.Kerjaya, epsikologi.IbkRecommendation",
-        "Text": "Penternak\t",
+        "Text": "Penternak",
         "Warna": null,
         "WebId": "c6972a78-9d41-4c8b-cc7f-f3311318d2c0"
       }
@@ -125,7 +125,7 @@
     "$values": [
       {
         "$type": "Bespoke.epsikologi_ibkrecommendation.Domain.BidangPengajian, epsikologi.IbkRecommendation",
-        "Text": "Perubatan Umum/ Penyakit Berjangkit/ Sains Klinikal/ Neurobiologi/ Patologi/ Radiologi ",
+        "Text": "Perubatan:- Umum/ Penyakit Berjangkit/ Sains Klinikal/ Neurobiologi/ Patologi/ Radiologi ",
         "WebId": "804cab50-99cc-417e-9cce-651451a58bfe"
       },
       {
@@ -145,7 +145,7 @@
       },
       {
         "$type": "Bespoke.epsikologi_ibkrecommendation.Domain.BidangPengajian, epsikologi.IbkRecommendation",
-        "Text": "Kejuruteraan Arkitek/ Polimer/ Plastik/ Teknologi Hidrolik",
+        "Text": "Kejuruteraan:- Arkitek/ Polimer/ Plastik/ Teknologi Hidrolik",
         "WebId": "2df51bc6-61d2-4a8c-9722-d1e5eb7ce85c"
       },
       {
@@ -170,40 +170,45 @@
       },
       {
         "$type": "Bespoke.epsikologi_ibkrecommendation.Domain.BidangPengajian, epsikologi.IbkRecommendation",
-        "Text": "Sains Kesihatan -Akupuntur/ Perubatan Alternatif",
+        "Text": "Sains Kesihatan",
         "WebId": "1e1d6876-839f-498a-adf0-89e63d26b08a"
       },
       {
         "$type": "Bespoke.epsikologi_ibkrecommendation.Domain.BidangPengajian, epsikologi.IbkRecommendation",
-        "Text": "Pengurusan",
+        "Text": "Akupuntur/ Perubatan Alternatif",
         "WebId": "ca436fe1-f6a5-4680-a225-0f2acbc94c51"
       },
       {
         "$type": "Bespoke.epsikologi_ibkrecommendation.Domain.BidangPengajian, epsikologi.IbkRecommendation",
-        "Text": "Sains Maklumat & Komputer/ Sains Komputer & Matematik \t",
+        "Text": "Pengurusan",
         "WebId": "c9549e56-ed32-43b1-b745-7d05e0fce934"
       },
       {
         "$type": "Bespoke.epsikologi_ibkrecommendation.Domain.BidangPengajian, epsikologi.IbkRecommendation",
-        "Text": "Agronomi/ Tanaman/ Penternakan/ Tanah \t",
+        "Text": "Sains Maklumat & Komputer/ Sains Komputer & Matematik",
         "WebId": "2d6722a4-5320-40a8-bddc-7cdff26a497d"
       },
       {
         "$type": "Bespoke.epsikologi_ibkrecommendation.Domain.BidangPengajian, epsikologi.IbkRecommendation",
-        "Text": "Perubatan Nuklear/ Farmakologi/ Biologi Imunologi/ Penyelidikan Bioteknologi ",
+        "Text": "Agronomi/ Tanaman/ Penternakan/ Tanah",
         "WebId": "c30a09c1-f867-432b-8fc7-a496532c9442"
       },
       {
         "$type": "Bespoke.epsikologi_ibkrecommendation.Domain.BidangPengajian, epsikologi.IbkRecommendation",
-        "Text": "Psikologi Pembangunan/ Kanak-Kanak",
+        "Text": "Perubatan Nuklear/ Farmakologi/ Biologi Imunologi/ Penyelidikan Bioteknologi",
         "WebId": "353f8b80-1efd-41fe-8abd-fb2101744c1d"
+      },
+      {
+        "$type": "Bespoke.epsikologi_ibkrecommendation.Domain.BidangPengajian, epsikologi.IbkRecommendation",
+        "Text": "Psikologi Pembangunan/ Kanak-Kanak",
+        "WebId": "8b61e7c2-8d83-4735-83fa-194971e7d00e"
       }
     ]
   },
   "CreatedBy": "admin",
   "Id": "EPM-EMP",
   "CreatedDate": "2015-07-31T18:37:15.546625+08:00",
-  "ChangedBy": "urusetia1",
-  "ChangedDate": "2015-08-12T17:23:28.8331575+08:00",
+  "ChangedBy": "admin",
+  "ChangedDate": "2016-09-19T14:46:13.7053064+08:00",
   "WebId": "29d39f2b-52cd-495d-f891-e7ca6f338ba7"
 }

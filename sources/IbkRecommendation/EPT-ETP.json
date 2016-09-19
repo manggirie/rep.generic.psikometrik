@@ -6,13 +6,13 @@
     "$values": [
       {
         "$type": "Bespoke.epsikologi_ibkrecommendation.Domain.Kerjaya, epsikologi.IbkRecommendation",
-        "Text": "Pakar Toksik/ Keracunan ",
+        "Text": "Pakar Toksik/ Keracunan",
         "Warna": null,
         "WebId": "acc7e1ff-7b4a-4fa5-92e8-3eb2ccf3b17d"
       },
       {
         "$type": "Bespoke.epsikologi_ibkrecommendation.Domain.Kerjaya, epsikologi.IbkRecommendation",
-        "Text": "Jurutera:- Tenaga Nuklear/ Mekanikal/ Aeronautikal ",
+        "Text": "Jurutera:- Tenaga Nuklear/ Mekanikal/ Aeronautikal",
         "Warna": null,
         "WebId": "c80ce069-141b-4f5e-b09e-cd47a5557cca"
       },
@@ -30,15 +30,21 @@
       },
       {
         "$type": "Bespoke.epsikologi_ibkrecommendation.Domain.Kerjaya, epsikologi.IbkRecommendation",
-        "Text": "-Pengaturcara:- Komputer/ Projek E-Perdagangan  -Juruteknik Makmal\t",
+        "Text": "Pengaturcara:- Komputer/ Projek E-Perdagangan",
         "Warna": null,
         "WebId": "379edf60-28ce-47ef-964a-51fcb200f354"
       },
       {
         "$type": "Bespoke.epsikologi_ibkrecommendation.Domain.Kerjaya, epsikologi.IbkRecommendation",
-        "Text": "Jurukemudi Kapal",
+        "Text": "Juruteknik Makmal",
         "Warna": null,
         "WebId": "287cfbca-0d39-4b9c-a4b8-84c27cf1183a"
+      },
+      {
+        "$type": "Bespoke.epsikologi_ibkrecommendation.Domain.Kerjaya, epsikologi.IbkRecommendation",
+        "Text": "Jurukemudi Kapal",
+        "Warna": null,
+        "WebId": "7b7e8ae4-d9e0-4ee9-dc1b-7f0c176e65fb"
       }
     ]
   },
@@ -71,6 +77,6 @@
   "Id": "EPT-ETP",
   "CreatedDate": "2015-07-31T18:31:12.3491269+08:00",
   "ChangedBy": "admin",
-  "ChangedDate": "2015-07-31T18:31:12.3401206+08:00",
+  "ChangedDate": "2016-09-19T12:33:45.8731134+08:00",
   "WebId": "ec831274-facf-4e42-d950-efa074fbf14e"
 }

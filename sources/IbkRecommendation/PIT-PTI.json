@@ -24,15 +24,27 @@
       },
       {
         "$type": "Bespoke.epsikologi_ibkrecommendation.Domain.Kerjaya, epsikologi.IbkRecommendation",
-        "Text": "-Jurunilai -Peniaga  -Jurukir Barangan Kemas ",
+        "Text": "Jurunilai",
         "Warna": null,
         "WebId": "afdd9643-0154-484f-9116-321d16cf1b6a"
       },
       {
         "$type": "Bespoke.epsikologi_ibkrecommendation.Domain.Kerjaya, epsikologi.IbkRecommendation",
-        "Text": "Juruteknik:- Pergigian/ Ortodontik/ Farmasi",
+        "Text": "Peniaga",
         "Warna": null,
         "WebId": "3d766de3-a85e-4831-a0dc-a18a7505e19b"
+      },
+      {
+        "$type": "Bespoke.epsikologi_ibkrecommendation.Domain.Kerjaya, epsikologi.IbkRecommendation",
+        "Text": "Jurukir Barangan Kemas ",
+        "Warna": null,
+        "WebId": "146eb0a2-86fc-4910-d27d-c82084f1350f"
+      },
+      {
+        "$type": "Bespoke.epsikologi_ibkrecommendation.Domain.Kerjaya, epsikologi.IbkRecommendation",
+        "Text": "Juruteknik:- Pergigian/ Ortodontik/ Farmasi",
+        "Warna": null,
+        "WebId": "6159183a-528b-4c0f-ddbe-b81db5fc1d53"
       }
     ]
   },
@@ -51,8 +63,28 @@
       },
       {
         "$type": "Bespoke.epsikologi_ibkrecommendation.Domain.BidangPengajian, epsikologi.IbkRecommendation",
-        "Text": "-Fotografi -Makmal Filem -Perkhidmatan Marin -Seni Seramik/ Tekstil -Teknologi Automobil / Plastik",
+        "Text": "Fotografi",
         "WebId": "e66316d9-ab8e-4086-ac8e-e7147dd5badd"
+      },
+      {
+        "$type": "Bespoke.epsikologi_ibkrecommendation.Domain.BidangPengajian, epsikologi.IbkRecommendation",
+        "Text": "Makmal Filem",
+        "WebId": "498aab81-69a8-4491-fd9e-99ff8414e1ed"
+      },
+      {
+        "$type": "Bespoke.epsikologi_ibkrecommendation.Domain.BidangPengajian, epsikologi.IbkRecommendation",
+        "Text": "Perkhidmatan Marin",
+        "WebId": "2ec32c03-aba0-4b35-d1fc-c1c257eb9b57"
+      },
+      {
+        "$type": "Bespoke.epsikologi_ibkrecommendation.Domain.BidangPengajian, epsikologi.IbkRecommendation",
+        "Text": "Seni Seramik/ Tekstil",
+        "WebId": "3bcd8a70-cbe3-470c-d1bd-a0be3222341e"
+      },
+      {
+        "$type": "Bespoke.epsikologi_ibkrecommendation.Domain.BidangPengajian, epsikologi.IbkRecommendation",
+        "Text": "Teknologi Automobil / Plastik",
+        "WebId": "cf48e6ea-35d1-4ca5-e9ba-b5e5f9d9dc6f"
       }
     ]
   },
@@ -60,6 +92,6 @@
   "Id": "PIT-PTI",
   "CreatedDate": "2015-07-31T18:28:19.6961494+08:00",
   "ChangedBy": "admin",
-  "ChangedDate": "2015-07-31T18:28:19.7341767+08:00",
+  "ChangedDate": "2016-09-19T12:20:08.3660699+08:00",
   "WebId": "38e23080-730d-44f3-97db-5a0c851725a3"
 }

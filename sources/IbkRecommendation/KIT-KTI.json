@@ -6,7 +6,7 @@
     "$values": [
       {
         "$type": "Bespoke.epsikologi_ibkrecommendation.Domain.Kerjaya, epsikologi.IbkRecommendation",
-        "Text": "* Sila rujuk pilihan kerjaya di bawah kategori K",
+        "Text": "*Tiada padanan yang spesifik dengan kombinasi ini. Sila rujuk pilihan kerjaya  alternatif di bawah kategori K. Untuk maklumat lanjut sila hubungi  Pegawai Psikologi / Kaunselor",
         "Warna": null,
         "WebId": "7bc69102-8d06-4934-bbc6-e9de8abdb2eb"
       }
@@ -17,8 +17,13 @@
     "$values": [
       {
         "$type": "Bespoke.epsikologi_ibkrecommendation.Domain.BidangPengajian, epsikologi.IbkRecommendation",
-        "Text": "*  Sila rujuk pilihan bidang pengajian di bawah kategori  K",
+        "Text": "*Tiada padanan yang spesifik dengan kombinasi ini",
         "WebId": "1d9afa35-859a-44d9-91d5-a1f9942fa763"
+      },
+      {
+        "$type": "Bespoke.epsikologi_ibkrecommendation.Domain.BidangPengajian, epsikologi.IbkRecommendation",
+        "Text": "Sila rujuk pilihan bidang pengajian  alternatif di bawah kategori K. Untuk maklumat lanjut sila hubungi  Pegawai Psikologi / Kaunselor. ",
+        "WebId": "d292ed9e-ca37-42a6-cf92-a96c6dcc369d"
       }
     ]
   },
@@ -26,6 +31,6 @@
   "Id": "KIT-KTI",
   "CreatedDate": "2015-07-31T18:56:17.6408077+08:00",
   "ChangedBy": "admin",
-  "ChangedDate": "2015-07-31T18:56:17.632802+08:00",
+  "ChangedDate": "2016-09-19T15:23:09.3213064+08:00",
   "WebId": "0b62b24f-115d-474a-ea27-bcd08e83ec3c"
 }

@@ -6,9 +6,15 @@
     "$values": [
       {
         "$type": "Bespoke.epsikologi_ibkrecommendation.Domain.Kerjaya, epsikologi.IbkRecommendation",
-        "Text": "*  Sila rujuk pilihan kerjaya di bawah kategori K",
+        "Text": "Pereka/Penyelaras Laman Web",
         "Warna": null,
         "WebId": "d96e0e01-0b10-4780-90f3-679098db340c"
+      },
+      {
+        "$type": "Bespoke.epsikologi_ibkrecommendation.Domain.Kerjaya, epsikologi.IbkRecommendation",
+        "Text": "*Bagi kod KET tiada padanan yang spesifik dengan kombinasi ini. Sila rujuk pilihan kerjaya  alternatif di bawah kategori K. Untuk maklumat lanjut sila hubungi  Pegawai Psikologi / Kaunselor.",
+        "Warna": null,
+        "WebId": "b4ddb41e-9d26-4f91-fd57-32e5c9c4d0e3"
       }
     ]
   },
@@ -17,8 +23,13 @@
     "$values": [
       {
         "$type": "Bespoke.epsikologi_ibkrecommendation.Domain.BidangPengajian, epsikologi.IbkRecommendation",
-        "Text": "*  Sila rujuk pilihan bidang pengajian di bawah kategori  K",
+        "Text": "*Tiada padanan yang spesifik dengan kombinasi ini",
         "WebId": "1c7eb080-9343-4194-83a4-a7bba055cf55"
+      },
+      {
+        "$type": "Bespoke.epsikologi_ibkrecommendation.Domain.BidangPengajian, epsikologi.IbkRecommendation",
+        "Text": "Sila rujuk pilihan bidang pengajian  alternatif di bawah kategori K. Untuk maklumat lanjut sila hubungi  Pegawai Psikologi / Kaunselor. ",
+        "WebId": "3be6bd3e-fc3f-45a0-cbb2-71dc9e620e1b"
       }
     ]
   },
@@ -26,6 +37,6 @@
   "Id": "KET-KTE",
   "CreatedDate": "2015-07-31T18:55:55.6667463+08:00",
   "ChangedBy": "admin",
-  "ChangedDate": "2015-07-31T18:55:55.6617432+08:00",
+  "ChangedDate": "2016-09-19T15:21:56.6123064+08:00",
   "WebId": "24ee331a-c65c-4453-c527-9f2f5157f8f4"
 }

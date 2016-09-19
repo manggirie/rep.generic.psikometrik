@@ -50,8 +50,13 @@
       },
       {
         "$type": "Bespoke.epsikologi_ibkrecommendation.Domain.BidangPengajian, epsikologi.IbkRecommendation",
-        "Text": "-Sains Kesihatan -Seni Fotografi\t",
+        "Text": "Sains Kesihatan",
         "WebId": "9a1af68e-e0bd-40f1-a257-937d13a8cc35"
+      },
+      {
+        "$type": "Bespoke.epsikologi_ibkrecommendation.Domain.BidangPengajian, epsikologi.IbkRecommendation",
+        "Text": " Seni Fotografi\t",
+        "WebId": "d211a9c0-1472-4fe9-eb98-b953194d12c7"
       }
     ]
   },
@@ -59,6 +64,6 @@
   "Id": "EPK-EKP",
   "CreatedDate": "2015-07-31T18:29:47.0245115+08:00",
   "ChangedBy": "admin",
-  "ChangedDate": "2015-07-31T18:29:47.0605365+08:00",
+  "ChangedDate": "2016-09-19T12:31:50.8426176+08:00",
   "WebId": "ef9754fb-3861-45a0-f98c-f78a8a0c3da8"
 }
