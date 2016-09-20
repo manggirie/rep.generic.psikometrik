@@ -86,42 +86,59 @@
 
 
 <table  border="0">
-
+   <colgroup>
+        <col style="width: 300px"/>
+        <col style="width: 10px"/>
+		<col style="width: 490px"/>
+    </colgroup>
 
 <tr>
-<td valign="top" ><b>DIMENSI EMOSI</b><br><canvas id="dimensi-emosi-chart" width="300" height="150" ></canvas></td>
+<td valign="bottom" ><b>DIMENSI EMOSI</b><br><canvas id="dimensi-emosi-chart" width="300" height="150" ></canvas></td>
 <td>&nbsp</td>
-<td valign="top" id="grad1">@Html.Partial("_ppkp.dimensi.skor", Model.SkorKestabilanEmosi.Emosi)</td>
+<td valign="top" id="grad1" >@Html.Partial("_ppkp.dimensi.skor", Model.SkorKestabilanEmosi.Emosi)</td>
 </tr>
-<tr><td>&nbsp</td></tr>
 
 <tr>
-<td valign="top"><b>DIMENSI CARA GAYA BEKERJA</b><br><canvas id="dimensi-cara-gaya-bekerja-chart" width="300" height="150" ></canvas></td>
+<td>&nbsp</td>
+<td>&nbsp</td>
+<td>&nbsp</td>
+</tr>
+
+<tr>
+<td valign="bottom"><b>DIMENSI CARA GAYA BEKERJA</b><br><canvas id="dimensi-cara-gaya-bekerja-chart" width="300" height="190" ></canvas></td>
 <td></td>
 <td valign="top" id="grad2">@Html.Partial("_ppkp.dimensi.skor", Model.SkorKestabilanEmosi.GayaBekerja)</td>
 </tr>
-<tr><td>&nbsp</td></tr>
+<tr><td>&nbsp</td>
+<td>&nbsp</td>
+<td>&nbsp</td></tr>
 
 <tr>
-<td valign="top"><b>DIMENSI CARA GAYA PEMIKIRAN</b><br><canvas id="dimensi-cara-gaya-pemikiran-chart" width="300" height="150" ></canvas></td>
+<td valign="bottom"><b>DIMENSI CARA GAYA PEMIKIRAN</b><br><canvas id="dimensi-cara-gaya-pemikiran-chart" width="300" height="150" ></canvas></td>
 <td></td>
 <td valign="top" id="grad3" >@Html.Partial("_ppkp.dimensi.skor", Model.SkorKestabilanEmosi.Pemikiran)</td>
 </tr>
-<tr><td>&nbsp</td></tr>
+<tr><td>&nbsp</td>
+<td>&nbsp</td>
+<td>&nbsp</td></tr>
 
 <tr>
-<td valign="top"><b>DIMENSI HUBUNGAN INTERPERSONAL</b><br><canvas id="dimensi-hubungan-interpesonal-chart" width="300" height="150" ></canvas></td>
+<td valign="bottom"><b>DIMENSI HUBUNGAN INTERPERSONAL</b><br><canvas id="dimensi-hubungan-interpesonal-chart" width="300" height="200" ></canvas></td>
 <td></td>
 <td valign="top" id="grad4">@Html.Partial("_ppkp.dimensi.skor", Model.SkorKestabilanEmosi.Interpersonal)</td>
 </tr>
-<tr><td>&nbsp</td></tr>
+<tr><td>&nbsp</td>
+<td>&nbsp</td>
+<td>&nbsp</td></tr>
 
 <tr>
-<td valign="top"><b>DIMENSI HUBUNGAN PERIBADI</b><br><canvas id="dimensi-peribadi-chart" width="300" height="150" ></canvas></td>
+<td valign="bottom"><b>DIMENSI HUBUNGAN PERIBADI</b><br><canvas id="dimensi-peribadi-chart" width="300" height="190" ></canvas></td>
 <td></td>
 <td valign="top" id="grad5">@Html.Partial("_ppkp.dimensi.skor", Model.SkorKestabilanEmosi.Peribadi)</td>
 </tr>
-
+<tr><td>&nbsp</td>
+<td>&nbsp</td>
+<td>&nbsp</td></tr>
 </table>
 
 <script src="~/Scripts/Chart.min.js"></script>

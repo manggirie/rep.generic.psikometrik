@@ -73,22 +73,35 @@
     background: linear-gradient(#FFF0E0, #FFCC99) !important; /* Standard syntax (must be last) */
 }
 </style>
-<table class="table table-bordered table-condensed" align="center" id=grad1>
-  
+<table  align="center" id=grad1>
+   <colgroup>
+		<col style="width: 10px"/>
+        <col style="width: 400px"/>
+        <col style="width: 400px"/>
+    </colgroup>
+  </tr>
+	<tr>
+		<td></td>
+		<td></td>
+		<td></td>
+	</tr>
     <tr >
+		<th></th>
         <th>MINAT KERJAYA</th>
         <th>KOD KERJAYA</th>    
     </tr>
-      <tr>
+    <tr>
+		<td></td>
         <td>@Model.IbkKodKerjaya.KodKerjayaAnda</td> 
         <td>@Model.KodKerjaya</td>
     </tr>
-	<tr></tr>
+	<tr>
+		<td></td>
+		<td></td>
+		<td></td>
+	</tr>
 </table>
 <table   class="table table-bordered table-condensed" align="center" style="70%">
-
-
-
 <h4>Graf:Minat Utama</h4>
 <tr align="center"><td><b>SKOR PIAWAI & TAHAP MINAT</b></td></tr>
 <tr>
@@ -100,8 +113,8 @@
 <table  align="center" style="70%" id=grad4>
 
     <colgroup>
-        <col style="width: 300px"/>
-        <col style="width: 300px"/>
+        <col style="width: 400px"/>
+        <col style="width: 400px"/>
     </colgroup>
 
       
@@ -136,37 +149,56 @@
 
 <div style="height:20px"></div>
 <p style="page-break-after:always;"></p>
-
+		<col style="width: 20px"/>
+        <col style="width: 80px"/>
+		<col style="width: 20px"/>
 
 <table id=grad5>
-  	<tr><td style="vertical-align: middle">Kategori Kerjaya:<b>@Model.IbkKodKerjaya.KodKerjayaAnda (@Model.IbkKodKerjaya.Kod)</b></td>
+  	<tr>
+	<td></td>
+	<td style="vertical-align: middle">Kategori Kerjaya:<b>@Model.IbkKodKerjaya.KodKerjayaAnda (@Model.IbkKodKerjaya.Kod)</b></td>
+	<td></td>
+	</tr>
 </table>
 <br>
 <table align="center" style="70%" id=grad3>
     <colgroup>
-      
+		<col style="width: 20px"/>
         <col style="width: 800px"/>
+		<col style="width: 20px"/>
     </colgroup>
     <tbody>
-
-  
-	<tr><td><b>Penerangan:</b></td></tr>
 	<tr>
-
+		<td></td>
+		<td><b>Penerangan:</b></td>
+		<td></td>
+	</tr>
+	<tr>
+		<td></td>
         <td style="text-align: justify">@Html.Raw(Model.IbkKodKerjaya.Text.Replace("\n\n", "</p><p>"))</td>
+		<td></td>
     </tr>
     </tbody>
 </table>
 <br>
 <table align="center" style="70%" id=grad4>
-     
+        <colgroup>
+		<col style="width: 20px"/>
+        <col style="width: 390px"/>
+		<col style="width: 20px"/>
+        <col style="width: 390px"/>
+		<col style="width: 20px"/>
+    </colgroup>
 		<tr>
+			<td></td>
 			<td align="center"><b>Alternatif Pilihan Kerjaya</b></td>
 			<td></td>
 			<td align="center"><b>Alternatif Bidang Pengajian</b></td>
+			<td></td>	
 		</tr>
 
         <tr>
+		<td></td>
 		<td>
 		@for (int i = 0; i < Model.IbkKodKerjaya.AlternatifPilihanKerjayaCollection.Count; i++)
     {
@@ -210,6 +242,7 @@
         }
 		 <li>@y1</li>}
 		 </td>
+		 <td></td>
         </tr>
 </table>
 
