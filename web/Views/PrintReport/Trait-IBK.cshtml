@@ -251,9 +251,18 @@
 <script src="~/Scripts/Chart.HorizontalBar.js"></script>
 <script type="text/javascript">
     var ibk = @Html.Raw(Model.ToString());
+	var F = parseInt(@Model.Sesi.JawapanCollection.Where(x => x.Trait == "F1").Sum(x => x.Nilai))+ parseInt(@Model.Sesi.JawapanCollection.Where(x => x.Trait == "F2").Sum(x => x.Nilai))+parseInt(@Model.Sesi.JawapanCollection.Where(x => x.Trait == "F3").Sum(x => x.Nilai));
+	var E = parseInt(@Model.Sesi.JawapanCollection.Where(x => x.Trait == "E1").Sum(x => x.Nilai))+ parseInt(@Model.Sesi.JawapanCollection.Where(x => x.Trait == "E2").Sum(x => x.Nilai))+parseInt(@Model.Sesi.JawapanCollection.Where(x => x.Trait == "E3").Sum(x => x.Nilai));
+	var D = parseInt(@Model.Sesi.JawapanCollection.Where(x => x.Trait == "D1").Sum(x => x.Nilai))+ parseInt(@Model.Sesi.JawapanCollection.Where(x => x.Trait == "D2").Sum(x => x.Nilai))+parseInt(@Model.Sesi.JawapanCollection.Where(x => x.Trait == "D3").Sum(x => x.Nilai));
+	var C = parseInt(@Model.Sesi.JawapanCollection.Where(x => x.Trait == "C1").Sum(x => x.Nilai))+ parseInt(@Model.Sesi.JawapanCollection.Where(x => x.Trait == "C2").Sum(x => x.Nilai))+parseInt(@Model.Sesi.JawapanCollection.Where(x => x.Trait == "C3").Sum(x => x.Nilai));
+	var B = parseInt(@Model.Sesi.JawapanCollection.Where(x => x.Trait == "B1").Sum(x => x.Nilai))+ parseInt(@Model.Sesi.JawapanCollection.Where(x => x.Trait == "B2").Sum(x => x.Nilai))+parseInt(@Model.Sesi.JawapanCollection.Where(x => x.Trait == "B3").Sum(x => x.Nilai));
+	var A = parseInt(@Model.Sesi.JawapanCollection.Where(x => x.Trait == "A1").Sum(x => x.Nilai))+ parseInt(@Model.Sesi.JawapanCollection.Where(x => x.Trait == "A2").Sum(x => x.Nilai))+parseInt(@Model.Sesi.JawapanCollection.Where(x => x.Trait == "A3").Sum(x => x.Nilai));
+
 	
     var dimensiMinatUtama = {
-        labels: ["EKPLORASI(E)","INOVATIF(I)","MUDAH MESRA(M)", "KREATIF(K)","TRADISI(T)","PRAKTIKAL(P)"],
+	
+	
+        labels: ["TRADISI(T) (" + F +") ", "INOVATIF(I) (" + E +") ","MUDAH MESRA(M) (" + D +") ", "KREATIF(K) (" + C +") ","EKPLORASI(E) (" + B +") ","PRAKTIKAL(P) (" + A +") "],
         datasets: [
             {
                 labels: "SKOR PIAWAI DAN TAHAP MINAT",
@@ -263,19 +272,7 @@
                 pointStrokeColor: "#fff",
                 pointHighlightFill: "#88ff4d",
                 pointHighlightStroke: "rgba(220,220,220,1)",
-                data: [
-                    
-                    @Model.Sesi.JawapanCollection.Where(x => x.Trait == "F1").Sum(x => x.Nilai)+@Model.Sesi.JawapanCollection.Where(x => x.Trait == "F2").Sum(x => x.Nilai)+@Model.Sesi.JawapanCollection.Where(x => x.Trait == "F3").Sum(x => x.Nilai),
-					
-					@Model.Sesi.JawapanCollection.Where(x => x.Trait == "E1").Sum(x => x.Nilai)+@Model.Sesi.JawapanCollection.Where(x => x.Trait == "E2").Sum(x => x.Nilai)+@Model.Sesi.JawapanCollection.Where(x => x.Trait == "E3").Sum(x => x.Nilai),
-					 
-					@Model.Sesi.JawapanCollection.Where(x => x.Trait == "D1").Sum(x => x.Nilai)+@Model.Sesi.JawapanCollection.Where(x => x.Trait == "D2").Sum(x => x.Nilai)+@Model.Sesi.JawapanCollection.Where(x => x.Trait == "D3").Sum(x => x.Nilai),
-					  
-					@Model.Sesi.JawapanCollection.Where(x => x.Trait == "C1").Sum(x => x.Nilai)+@Model.Sesi.JawapanCollection.Where(x => x.Trait == "C2").Sum(x => x.Nilai)+@Model.Sesi.JawapanCollection.Where(x => x.Trait == "C3").Sum(x => x.Nilai),
-					   
-					@Model.Sesi.JawapanCollection.Where(x => x.Trait == "B1").Sum(x => x.Nilai)+@Model.Sesi.JawapanCollection.Where(x => x.Trait == "B2").Sum(x => x.Nilai)+@Model.Sesi.JawapanCollection.Where(x => x.Trait == "B3").Sum(x => x.Nilai),
-						
-					@Model.Sesi.JawapanCollection.Where(x => x.Trait == "A1").Sum(x => x.Nilai)+@Model.Sesi.JawapanCollection.Where(x => x.Trait == "A2").Sum(x => x.Nilai)+@Model.Sesi.JawapanCollection.Where(x => x.Trait == "A3").Sum(x => x.Nilai)]
+                data: [ F,E,D,C,B,A]
             }
         ]
     };

@@ -3,15 +3,17 @@
 
 <table class="ppkp-dimensi">
     <colgroup>
-        <col style="width: 180px" />
-        <col style="width: 20px" />
-        <col style="width: 600px" />
+        <col style="width: 50px" />
+        <col style="width: 700px" />
+		<col style="width: 50px" />
     </colgroup>
     <tbody>
         @foreach (var score in Model)
         {
             <tr>
+				<td>&nbsp</td>
                 <td style="vertical-align: top" align="justify"><font size="2"><b>@score.NamaTret ; @score.Tahap - </b>@score.Interpretasi</font></td>
+				<td>&nbsp</td>
             </tr>
             <tr>
                 <td colspan="3"></td>

@@ -90,6 +90,7 @@
         <col style="width: 300px"/>
         <col style="width: 10px"/>
 		<col style="width: 490px"/>
+		
     </colgroup>
 
 <tr>
@@ -149,7 +150,11 @@
 
 
     var dimensiEmosiData = {
-        labels: ["KETAHANAN DIRI","KECERIAAN", "KESABARAN", "KETENANGAN"],
+        labels: [	"KETAHANAN DIRI (" + @Model.Sesi.JawapanCollection.Where(x => x.Trait == "A4").Sum(x => x.Nilai) + ") ",
+					"KECERIAAN (" + @Model.Sesi.JawapanCollection.Where(x => x.Trait == "A3").Sum(x => x.Nilai) + ") ", 
+					"KESABARAN (" + @Model.Sesi.JawapanCollection.Where(x => x.Trait == "A2").Sum(x => x.Nilai) + ") ", 
+					"KETENANGAN (" + @Model.Sesi.JawapanCollection.Where(x => x.Trait == "A1").Sum(x => x.Nilai) + ") "
+				],
         datasets: [
             {
                 label: "KESTABILAN EMOSI",
@@ -170,7 +175,13 @@
         ]
     },
     dimensiGayaBekerjaData = {
-        labels: ["PERTIMBANGAN DIRI", "DISIPLIN DIRI","PENCAPAIAN","SISTEMATIK","KESEMPURNAAN"],
+        labels: [
+				 "PERTIMBANGAN DIRI (" + @Model.Sesi.JawapanCollection.Where(x => x.Trait == "B5").Sum(x => x.Nilai) + ") ",
+				 "DISIPLIN DIRI (" + @Model.Sesi.JawapanCollection.Where(x => x.Trait == "B4").Sum(x => x.Nilai) + ") ",
+				 "PENCAPAIAN (" + @Model.Sesi.JawapanCollection.Where(x => x.Trait == "B3").Sum(x => x.Nilai) + ") ",
+				 "SISTEMATIK (" + @Model.Sesi.JawapanCollection.Where(x => x.Trait == "B2").Sum(x => x.Nilai) + ") ",
+				 "KESEMPURNAAN (" + @Model.Sesi.JawapanCollection.Where(x => x.Trait == "B1").Sum(x => x.Nilai) + ") "
+				 ],
         datasets: [
             {
 				
@@ -196,7 +207,10 @@
         ]
     },
     dimensiPemikiranData = {
-        labels: ["KETELITIAN","KESEDIAAN BERUBAH","BERMINDA TERBUKA","KREATIVITI"],
+        labels: ["KETELITIAN(" + @Model.Sesi.JawapanCollection.Where(x => x.Trait == "C4").Sum(x => x.Nilai) + ") ",
+				 "KESEDIAAN BERUBAH(" + @Model.Sesi.JawapanCollection.Where(x => x.Trait == "C3").Sum(x => x.Nilai) + ") ",
+				 "BERMINDA TERBUKA(" + @Model.Sesi.JawapanCollection.Where(x => x.Trait == "C2").Sum(x => x.Nilai) + ") ",
+				 "KREATIVITI(" + @Model.Sesi.JawapanCollection.Where(x => x.Trait == "C1").Sum(x => x.Nilai) + ") "],
         datasets: [
             {
                 label: "CARA GAYA PEMIKIRAN",
@@ -215,7 +229,12 @@
         ]
     },
     dimensiHubunganInterpersonalData = {
-        labels: ["KETELUSAN","KEPERCAYAAN","KEPIMPINAN","AKTIF BERTENAGA","AKTIF SOSIAL","MUDAH MESRA"],
+        labels: ["KETELUSAN(" + @Model.Sesi.JawapanCollection.Where(x => x.Trait == "D6").Sum(x => x.Nilai) + ") ",
+				 "KEPERCAYAAN(" + @Model.Sesi.JawapanCollection.Where(x => x.Trait == "D5").Sum(x => x.Nilai) + ") ",
+				 "KEPIMPINAN(" + @Model.Sesi.JawapanCollection.Where(x => x.Trait == "D4").Sum(x => x.Nilai) + ") ",
+				 "AKTIF BERTENAGA(" + @Model.Sesi.JawapanCollection.Where(x => x.Trait == "D3").Sum(x => x.Nilai) + ") ",
+				 "AKTIF SOSIAL(" + @Model.Sesi.JawapanCollection.Where(x => x.Trait == "D2").Sum(x => x.Nilai) + ") ",
+				 "MUDAH MESRA(" + @Model.Sesi.JawapanCollection.Where(x => x.Trait == "D1").Sum(x => x.Nilai) + ") "],
         datasets: [
             {
                 label: "HUBUNGAN INTERPERSONAL",
@@ -236,7 +255,11 @@
         ]
     },
     dimensiPeribadiData = {
-        labels: ["KESEDARAN KENDIRI","BERSIKAP DOMINAN","KESEDERHANAAN","KEPERSETUJUAN","KESEDIAAN MEMBANTU"],
+        labels: ["KESEDARAN KENDIRI(" + @Model.Sesi.JawapanCollection.Where(x => x.Trait == "E4").Sum(x => x.Nilai) + ") ",
+				 "BERSIKAP DOMINAN(" + @Model.Sesi.JawapanCollection.Where(x => x.Trait == "E4").Sum(x => x.Nilai) + ") ",
+				 "KESEDERHANAAN(" + @Model.Sesi.JawapanCollection.Where(x => x.Trait == "E3").Sum(x => x.Nilai) + ") ",
+				 "KEPERSETUJUAN(" + @Model.Sesi.JawapanCollection.Where(x => x.Trait == "E2").Sum(x => x.Nilai) + ") ",
+				 "KESEDIAAN MEMBANTU(" + @Model.Sesi.JawapanCollection.Where(x => x.Trait == "E1").Sum(x => x.Nilai) + ") "],
         datasets: [
             {
                 label: "KEPERIBADIAN",
