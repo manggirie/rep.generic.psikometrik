@@ -6,7 +6,7 @@
     "$values": [
       {
         "$type": "Bespoke.epsikologi_ibkrecommendation.Domain.Kerjaya, epsikologi.IbkRecommendation",
-        "Text": "Akauntan\t",
+        "Text": "Akauntan",
         "Warna": null,
         "WebId": "ca2c9262-5046-439e-abaf-a5706510f8d4"
       },
@@ -18,7 +18,7 @@
       },
       {
         "$type": "Bespoke.epsikologi_ibkrecommendation.Domain.Kerjaya, epsikologi.IbkRecommendation",
-        "Text": "Penganalisis Pelaburan ",
+        "Text": "Penganalisis Pelaburan",
         "Warna": null,
         "WebId": "399133ed-4b1b-40db-af8e-6e9d3df970f6"
       },
@@ -55,6 +55,6 @@
   "Id": "TEI-TIE",
   "CreatedDate": "2015-07-31T19:37:10.8053053+08:00",
   "ChangedBy": "admin",
-  "ChangedDate": "2015-07-31T19:37:10.794298+08:00",
+  "ChangedDate": "2016-09-20T10:11:25.5649971+08:00",
   "WebId": "05dccd04-b878-47fe-9795-98aab5a6a1a9"
 }

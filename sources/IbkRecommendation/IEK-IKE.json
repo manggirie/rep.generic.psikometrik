@@ -6,21 +6,39 @@
     "$values": [
       {
         "$type": "Bespoke.epsikologi_ibkrecommendation.Domain.Kerjaya, epsikologi.IbkRecommendation",
-        "Text": "Pengarah Statistik - Pengurus Analisis Rekod",
+        "Text": "Pengarah Statistik",
         "Warna": null,
         "WebId": "675d56a0-7fe4-4ea9-be99-d381d132c9a4"
       },
       {
         "$type": "Bespoke.epsikologi_ibkrecommendation.Domain.Kerjaya, epsikologi.IbkRecommendation",
-        "Text": "Perunding Komunikasi",
+        "Text": "Pengurus Analisis Rekod",
         "Warna": null,
         "WebId": "ec1bc929-4ec7-4bea-8c81-6985694a4bfc"
       },
       {
         "$type": "Bespoke.epsikologi_ibkrecommendation.Domain.Kerjaya, epsikologi.IbkRecommendation",
-        "Text": "Agen Paten  -Penyelia Vendor Kualiti -Penyiasat Serangga & Penyakit",
+        "Text": "Perunding Komunikasi",
         "Warna": null,
         "WebId": "c987c2f3-9964-4f7e-b3a1-5cb975a02c89"
+      },
+      {
+        "$type": "Bespoke.epsikologi_ibkrecommendation.Domain.Kerjaya, epsikologi.IbkRecommendation",
+        "Text": "Agen Paten",
+        "Warna": null,
+        "WebId": "3788e1ff-17d6-4321-8c65-4313f656221e"
+      },
+      {
+        "$type": "Bespoke.epsikologi_ibkrecommendation.Domain.Kerjaya, epsikologi.IbkRecommendation",
+        "Text": "Penyelia Vendor Kualiti",
+        "Warna": null,
+        "WebId": "ba9070c8-835a-4b20-f4da-f2322ef8ed9a"
+      },
+      {
+        "$type": "Bespoke.epsikologi_ibkrecommendation.Domain.Kerjaya, epsikologi.IbkRecommendation",
+        "Text": "Penyiasat Serangga & Penyakit",
+        "Warna": null,
+        "WebId": "b5861c96-ff12-46b3-b094-8028a88a1f05"
       }
     ]
   },
@@ -48,6 +66,6 @@
   "Id": "IEK-IKE",
   "CreatedDate": "2015-07-31T19:20:05.3033669+08:00",
   "ChangedBy": "admin",
-  "ChangedDate": "2015-07-31T19:20:05.2933598+08:00",
+  "ChangedDate": "2016-09-19T16:26:22.2123064+08:00",
   "WebId": "457e2040-d444-4081-cff5-ef34228f290c"
 }

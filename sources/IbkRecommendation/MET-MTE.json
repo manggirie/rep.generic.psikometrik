@@ -36,27 +36,45 @@
       },
       {
         "$type": "Bespoke.epsikologi_ibkrecommendation.Domain.Kerjaya, epsikologi.IbkRecommendation",
-        "Text": "-Penterjemah -Penyemak:- Tulisan Semula/ Poligraf  -Telekomunikator\t",
+        "Text": "Penterjemah",
         "Warna": null,
         "WebId": "5c387432-e906-49da-9b98-30931ac2ee1c"
       },
       {
         "$type": "Bespoke.epsikologi_ibkrecommendation.Domain.Kerjaya, epsikologi.IbkRecommendation",
-        "Text": "Pakar/ Koordinator Keselamatan Komputer  ",
+        "Text": "Penyemak:- Tulisan Semula/ Poligraf",
         "Warna": null,
         "WebId": "cb7a5789-8827-4884-917f-b7bb93007691"
       },
       {
         "$type": "Bespoke.epsikologi_ibkrecommendation.Domain.Kerjaya, epsikologi.IbkRecommendation",
-        "Text": "Pentadbir Rekod Perubatan Juruteknik Mata\t",
+        "Text": "Telekomunikator\t",
         "Warna": null,
         "WebId": "1f9feee1-70d7-4a5f-95f5-687cb908ec67"
       },
       {
         "$type": "Bespoke.epsikologi_ibkrecommendation.Domain.Kerjaya, epsikologi.IbkRecommendation",
-        "Text": "Pembantu Penyelidikan\t",
+        "Text": "Pakar/ Koordinator Keselamatan Komputer  ",
         "Warna": null,
         "WebId": "52dd194c-1066-4988-95f5-a8084c7bb097"
+      },
+      {
+        "$type": "Bespoke.epsikologi_ibkrecommendation.Domain.Kerjaya, epsikologi.IbkRecommendation",
+        "Text": "Pentadbir Rekod Perubatan ",
+        "Warna": null,
+        "WebId": "2f28afd4-cbce-4d1b-e883-b35998bc488c"
+      },
+      {
+        "$type": "Bespoke.epsikologi_ibkrecommendation.Domain.Kerjaya, epsikologi.IbkRecommendation",
+        "Text": "Juruteknik Mata\t",
+        "Warna": null,
+        "WebId": "d0fec864-d670-4133-8c32-eb809826fe6b"
+      },
+      {
+        "$type": "Bespoke.epsikologi_ibkrecommendation.Domain.Kerjaya, epsikologi.IbkRecommendation",
+        "Text": "Pembantu Penyelidikan\t",
+        "Warna": null,
+        "WebId": "d8ac35eb-e9c0-4c26-9c2e-b9b083557963"
       }
     ]
   },
@@ -94,6 +112,6 @@
   "Id": "MET-MTE",
   "CreatedDate": "2015-07-31T19:08:09.0159815+08:00",
   "ChangedBy": "admin",
-  "ChangedDate": "2015-07-31T19:08:09.0695186+08:00",
+  "ChangedDate": "2016-09-19T16:07:10.3503064+08:00",
   "WebId": "142d3181-9c7b-44a6-c33d-57c321e26454"
 }

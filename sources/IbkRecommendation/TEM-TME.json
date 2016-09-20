@@ -12,7 +12,7 @@
       },
       {
         "$type": "Bespoke.epsikologi_ibkrecommendation.Domain.Kerjaya, epsikologi.IbkRecommendation",
-        "Text": "Akauntan  ",
+        "Text": "Akauntan ",
         "Warna": null,
         "WebId": "8cdd3f90-bfca-4a6f-843e-94561d773a2d"
       },
@@ -41,7 +41,7 @@
     "$values": [
       {
         "$type": "Bespoke.epsikologi_ibkrecommendation.Domain.BidangPengajian, epsikologi.IbkRecommendation",
-        "Text": "Pembantu/ Juruteknologi Perubatan Mata ",
+        "Text": "Pembantu/ Juruteknologi Perubatan Mata",
         "WebId": "4667485e-ca33-4633-a6f5-996867456524"
       },
       {
@@ -60,6 +60,6 @@
   "Id": "TEM-TME",
   "CreatedDate": "2015-07-31T19:36:20.4616708+08:00",
   "ChangedBy": "admin",
-  "ChangedDate": "2015-07-31T19:36:20.4526649+08:00",
+  "ChangedDate": "2016-09-20T10:10:46.9761386+08:00",
   "WebId": "c04034e2-7a77-444c-f2d4-e0de83cd03e9"
 }

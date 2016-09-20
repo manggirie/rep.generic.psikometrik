@@ -6,45 +6,87 @@
     "$values": [
       {
         "$type": "Bespoke.epsikologi_ibkrecommendation.Domain.Kerjaya, epsikologi.IbkRecommendation",
-        "Text": "Pakar Lanskap ",
+        "Text": "Pakar Lanskap",
         "Warna": null,
         "WebId": "ac9e36d0-2796-4610-9433-ecbcc3dc436f"
       },
       {
         "$type": "Bespoke.epsikologi_ibkrecommendation.Domain.Kerjaya, epsikologi.IbkRecommendation",
-        "Text": "-Akauntan -Penganalisis Kredit\t",
+        "Text": "Akauntan",
         "Warna": null,
         "WebId": "b5596f2a-478b-4cf3-88f4-4832a1a9ec05"
       },
       {
         "$type": "Bespoke.epsikologi_ibkrecommendation.Domain.Kerjaya, epsikologi.IbkRecommendation",
-        "Text": "-Pegawai:- Tenaga Kerja/ Pentadbiran/ Pengbilan/ Kos/ Pengeposan/ Pinjaman/ Harta/ Kutipan/ Fail/ Pengeluaran/ Kawalan Kualiti/ Trafik -Pegawai:- Pengawasan Sistem Tinjauan/ Pemprosesan Data/ Komputer/ Peralatan Komputer",
+        "Text": "Penganalisis Kredit",
         "Warna": null,
         "WebId": "9d697366-6585-4792-a86d-e6a940d00746"
       },
       {
         "$type": "Bespoke.epsikologi_ibkrecommendation.Domain.Kerjaya, epsikologi.IbkRecommendation",
-        "Text": "Juruaudit\t",
+        "Text": "Pegawai:- Tenaga Kerja/ Pentadbiran/ Pengbilan/ Kos/ Pengeposan/ Pinjaman/ Harta/ Kutipan/ Fail/ Pengeluaran/ Kawalan Kualiti/ Trafik ",
         "Warna": null,
         "WebId": "a89e3710-1e85-4c0c-b660-56338fbb05ed"
       },
       {
         "$type": "Bespoke.epsikologi_ibkrecommendation.Domain.Kerjaya, epsikologi.IbkRecommendation",
-        "Text": "-Puskatakawan Kaset -Penyalin Muzik -Penulis Bibliograf -Penyedia Dokumen Perfileman Mikro",
+        "Text": "Pegawai:- Pengawasan Sistem Tinjauan/ Pemprosesan Data/ Komputer/ Peralatan Komputer",
         "Warna": null,
         "WebId": "580a292b-ca1f-4c57-854b-8e4443a4e2d4"
       },
       {
         "$type": "Bespoke.epsikologi_ibkrecommendation.Domain.Kerjaya, epsikologi.IbkRecommendation",
-        "Text": "-Inspektor Pengeluaran -Penyemak Insuran -Broker \t",
+        "Text": "Juruaudit",
         "Warna": null,
         "WebId": "1e3492d2-4221-4fe2-b268-3531a9f3ed8e"
       },
       {
         "$type": "Bespoke.epsikologi_ibkrecommendation.Domain.Kerjaya, epsikologi.IbkRecommendation",
-        "Text": "Pengumpul:- Peralatan Muzik/ Elektronik/ Perabot",
+        "Text": "Pustakawan Kaset ",
         "Warna": null,
         "WebId": "0e601fd5-46e4-422b-89af-42acfd3f6e33"
+      },
+      {
+        "$type": "Bespoke.epsikologi_ibkrecommendation.Domain.Kerjaya, epsikologi.IbkRecommendation",
+        "Text": "Penyalin Muzik",
+        "Warna": null,
+        "WebId": "0067cb19-78d0-42d9-a8ae-96ae93c03c56"
+      },
+      {
+        "$type": "Bespoke.epsikologi_ibkrecommendation.Domain.Kerjaya, epsikologi.IbkRecommendation",
+        "Text": "Penulis Bibliograf",
+        "Warna": null,
+        "WebId": "963c100a-612a-428f-9d1c-148e6bc8674d"
+      },
+      {
+        "$type": "Bespoke.epsikologi_ibkrecommendation.Domain.Kerjaya, epsikologi.IbkRecommendation",
+        "Text": "Penyedia Dokumen Perfileman Mikro",
+        "Warna": null,
+        "WebId": "2a7ba6ad-efd7-4cdf-e8f3-4fa7c8e7778d"
+      },
+      {
+        "$type": "Bespoke.epsikologi_ibkrecommendation.Domain.Kerjaya, epsikologi.IbkRecommendation",
+        "Text": "Inspektor Pengeluaran",
+        "Warna": null,
+        "WebId": "784eabb0-bf03-475c-df28-7fb9f1a8d1aa"
+      },
+      {
+        "$type": "Bespoke.epsikologi_ibkrecommendation.Domain.Kerjaya, epsikologi.IbkRecommendation",
+        "Text": "Penyemak Insuran",
+        "Warna": null,
+        "WebId": "59593dda-5bc7-450d-d5f8-f28ebf15418d"
+      },
+      {
+        "$type": "Bespoke.epsikologi_ibkrecommendation.Domain.Kerjaya, epsikologi.IbkRecommendation",
+        "Text": "Broker",
+        "Warna": null,
+        "WebId": "e83116f3-7e46-448e-f3fd-a3a7bb2f5f14"
+      },
+      {
+        "$type": "Bespoke.epsikologi_ibkrecommendation.Domain.Kerjaya, epsikologi.IbkRecommendation",
+        "Text": "Pengumpul:- Peralatan Muzik/ Elektronik/ Perabot",
+        "Warna": null,
+        "WebId": "3fb2b6ac-fca3-4506-b24a-e9339d381d87"
       }
     ]
   },
@@ -58,18 +100,33 @@
       },
       {
         "$type": "Bespoke.epsikologi_ibkrecommendation.Domain.BidangPengajian, epsikologi.IbkRecommendation",
-        "Text": "Perakaunan Perundangan",
+        "Text": "Perakaunan",
         "WebId": "911750b0-c60e-4d19-b9a2-45915effe3b0"
       },
       {
         "$type": "Bespoke.epsikologi_ibkrecommendation.Domain.BidangPengajian, epsikologi.IbkRecommendation",
-        "Text": "Pengurusan Sumber Manusia Sains Komputer  \t",
+        "Text": "Perundangan",
         "WebId": "32a043d5-eace-493d-be44-9afee0d9832e"
       },
       {
         "$type": "Bespoke.epsikologi_ibkrecommendation.Domain.BidangPengajian, epsikologi.IbkRecommendation",
-        "Text": "Sains Perpustakaan Seni Muzik",
+        "Text": "Pengurusan Sumber Manusia \t",
         "WebId": "6ef859ee-f457-4c6c-876b-29de619d266a"
+      },
+      {
+        "$type": "Bespoke.epsikologi_ibkrecommendation.Domain.BidangPengajian, epsikologi.IbkRecommendation",
+        "Text": "Sains Komputer  ",
+        "WebId": "e507b91e-5043-4eb4-806d-87744f1a9f21"
+      },
+      {
+        "$type": "Bespoke.epsikologi_ibkrecommendation.Domain.BidangPengajian, epsikologi.IbkRecommendation",
+        "Text": "Sains Perpustakaan ",
+        "WebId": "06b0fe64-6402-449b-ba56-fa0d41ea06e5"
+      },
+      {
+        "$type": "Bespoke.epsikologi_ibkrecommendation.Domain.BidangPengajian, epsikologi.IbkRecommendation",
+        "Text": "Seni Muzik",
+        "WebId": "e77d578e-da7c-4f9b-9d24-917450147569"
       }
     ]
   },
@@ -77,6 +134,6 @@
   "Id": "TPM-TMP",
   "CreatedDate": "2015-07-31T19:33:31.3337389+08:00",
   "ChangedBy": "admin",
-  "ChangedDate": "2015-07-31T19:33:31.3201125+08:00",
+  "ChangedDate": "2016-09-20T10:08:05.4069833+08:00",
   "WebId": "fc44f42a-663a-429c-9475-3d6af6d1ae40"
 }

@@ -12,7 +12,7 @@
       },
       {
         "$type": "Bespoke.epsikologi_ibkrecommendation.Domain.Kerjaya, epsikologi.IbkRecommendation",
-        "Text": "Jurutera:- Peralatan Kimia/ Mekanikal/ Industri / Pelabuhan ",
+        "Text": "Jurutera:- Peralatan Kimia/ Mekanikal/ Industri / Pelabuhan",
         "Warna": null,
         "WebId": "7238a388-0f83-404a-98a5-b967e735d9d5"
       },
@@ -30,7 +30,7 @@
       },
       {
         "$type": "Bespoke.epsikologi_ibkrecommendation.Domain.Kerjaya, epsikologi.IbkRecommendation",
-        "Text": "Pegawai:- Perniagaan & Perdagangan/ Pengeluaran Pertanian  ",
+        "Text": "Pegawai:- Perniagaan & Perdagangan/ Pengeluaran Pertanian ",
         "Warna": null,
         "WebId": "f7660c84-836d-4fd3-9895-2bae253862bf"
       },
@@ -89,6 +89,6 @@
   "Id": "IPE-IEP",
   "CreatedDate": "2015-07-31T19:18:01.4103082+08:00",
   "ChangedBy": "admin",
-  "ChangedDate": "2015-07-31T19:18:01.3952976+08:00",
+  "ChangedDate": "2016-09-19T16:23:33.8943064+08:00",
   "WebId": "b63a92a3-a0b8-48c6-b21f-5a55777bd239"
 }

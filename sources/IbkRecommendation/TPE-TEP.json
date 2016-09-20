@@ -12,9 +12,15 @@
       },
       {
         "$type": "Bespoke.epsikologi_ibkrecommendation.Domain.Kerjaya, epsikologi.IbkRecommendation",
-        "Text": "-Juruteknik:- Kejuruteraan Perlindungan Kebakaran/ Pancaran Elektron -Juruteknik Rekod Perubatan\t",
+        "Text": "Juruteknik:- Kejuruteraan Perlindungan Kebakaran/ Pancaran Elektron",
         "Warna": null,
         "WebId": "fda21178-fc38-4d4a-907e-428a8fb0e1ca"
+      },
+      {
+        "$type": "Bespoke.epsikologi_ibkrecommendation.Domain.Kerjaya, epsikologi.IbkRecommendation",
+        "Text": "Juruteknik Rekod Perubatan",
+        "Warna": null,
+        "WebId": "48ba565a-1acd-4c37-bff2-70787c082dc5"
       }
     ]
   },
@@ -28,8 +34,13 @@
       },
       {
         "$type": "Bespoke.epsikologi_ibkrecommendation.Domain.BidangPengajian, epsikologi.IbkRecommendation",
-        "Text": "-Kejuruteraan -Pengurusan Makmal Perubatan \t",
+        "Text": "Kejuruteraan",
         "WebId": "947e4252-5ad3-4ae9-8229-736509c49d62"
+      },
+      {
+        "$type": "Bespoke.epsikologi_ibkrecommendation.Domain.BidangPengajian, epsikologi.IbkRecommendation",
+        "Text": "Pengurusan Makmal Perubatan \t",
+        "WebId": "b8deb9d0-a33b-4e86-d4dd-b0a63cd8a4df"
       }
     ]
   },
@@ -37,6 +48,6 @@
   "Id": "TPE-TEP",
   "CreatedDate": "2015-07-31T19:31:47.2456151+08:00",
   "ChangedBy": "admin",
-  "ChangedDate": "2015-07-31T19:31:47.235608+08:00",
+  "ChangedDate": "2016-09-20T09:59:29.0783556+08:00",
   "WebId": "8465b48e-10c2-44ec-97b8-c9ed4cbc7b3a"
 }

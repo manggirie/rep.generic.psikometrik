@@ -18,7 +18,7 @@
       },
       {
         "$type": "Bespoke.epsikologi_ibkrecommendation.Domain.Kerjaya, epsikologi.IbkRecommendation",
-        "Text": "Penyelia:- Perkhidmatan/ Jualan/ LojI",
+        "Text": "Penyelia:- Perkhidmatan/ Jualan/ Loji",
         "Warna": null,
         "WebId": "fc5e5990-c49a-4577-81e2-d384ee57a133"
       },
@@ -44,6 +44,6 @@
   "Id": "IPK-IKP",
   "CreatedDate": "2015-07-31T19:16:04.2708936+08:00",
   "ChangedBy": "admin",
-  "ChangedDate": "2015-07-31T19:16:04.2638881+08:00",
+  "ChangedDate": "2016-09-19T16:22:31.8513064+08:00",
   "WebId": "365639d6-289d-41e2-b239-f884b12aa35b"
 }

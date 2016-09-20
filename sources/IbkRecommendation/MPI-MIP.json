@@ -12,51 +12,111 @@
       },
       {
         "$type": "Bespoke.epsikologi_ibkrecommendation.Domain.Kerjaya, epsikologi.IbkRecommendation",
-        "Text": "-Pegawai Polis/ Detektif/ Detektif Narkotik -Agen Perisikan -Pengawal Sempadan -Pegawai Pemulihan\t",
+        "Text": "Pegawai Polis/ Detektif/ Detektif Narkotik",
         "Warna": null,
         "WebId": "aefa3591-04b0-45f5-9642-ff3aded95caf"
       },
       {
         "$type": "Bespoke.epsikologi_ibkrecommendation.Domain.Kerjaya, epsikologi.IbkRecommendation",
-        "Text": "-Pengarah Kebajikan Pengguna/ Atlit  -Pekerja Komuniti\t",
+        "Text": "Agen Perisikan",
         "Warna": null,
         "WebId": "82fc6aeb-1f5e-49cc-9f65-110264146ed5"
       },
       {
         "$type": "Bespoke.epsikologi_ibkrecommendation.Domain.Kerjaya, epsikologi.IbkRecommendation",
-        "Text": "-Pentadbir Kemudahan Perubatan -Ahli Terapi Pekerjaan -Pembantu Kiropraktik -Jururawat\t",
+        "Text": "Pengawal Sempadan",
         "Warna": null,
         "WebId": "71066282-6c77-424f-ae03-a490a811237a"
       },
       {
         "$type": "Bespoke.epsikologi_ibkrecommendation.Domain.Kerjaya, epsikologi.IbkRecommendation",
-        "Text": "Jurulatih: Penerbangan/ Memandu ",
+        "Text": "Pegawai Pemulihan",
         "Warna": null,
         "WebId": "107c79f5-a413-4399-ac4d-a468a1407138"
       },
       {
         "$type": "Bespoke.epsikologi_ibkrecommendation.Domain.Kerjaya, epsikologi.IbkRecommendation",
-        "Text": "Jurulatih:- Atlit/ Atlit Profesional/ Pendidikan Jasmani",
+        "Text": "Pengarah Kebajikan Pengguna/ Atlit",
         "Warna": null,
         "WebId": "b6b22093-b122-43bd-ace4-7f3fb04f63cc"
       },
       {
         "$type": "Bespoke.epsikologi_ibkrecommendation.Domain.Kerjaya, epsikologi.IbkRecommendation",
-        "Text": "-Guru Pendidikan Dewasa -Ketua Pustakawan -Pustakawan Muzik \t",
+        "Text": "Pekerja Komuniti",
         "Warna": null,
         "WebId": "73612d79-b6e4-46b6-b460-edc3e76bfa1c"
       },
       {
         "$type": "Bespoke.epsikologi_ibkrecommendation.Domain.Kerjaya, epsikologi.IbkRecommendation",
-        "Text": "-Pengurus:- Makanan Segera/ Pasaraya -Eksekutif Chef\t",
+        "Text": "Pentadbir Kemudahan Perubatan",
         "Warna": null,
         "WebId": "7b67fc3d-2a0a-4ae0-a1e8-d2572de7d1f3"
       },
       {
         "$type": "Bespoke.epsikologi_ibkrecommendation.Domain.Kerjaya, epsikologi.IbkRecommendation",
-        "Text": "Penyelia:- Mekanik Kereta/ Kilang/ Kosmetik",
+        "Text": "Ahli Terapi Pekerjaan",
         "Warna": null,
         "WebId": "321176d8-2216-438f-af78-ddbca1196ce9"
+      },
+      {
+        "$type": "Bespoke.epsikologi_ibkrecommendation.Domain.Kerjaya, epsikologi.IbkRecommendation",
+        "Text": "Pembantu Kiropraktik",
+        "Warna": null,
+        "WebId": "5c99d76b-d78a-401e-8c72-8ec00e081d86"
+      },
+      {
+        "$type": "Bespoke.epsikologi_ibkrecommendation.Domain.Kerjaya, epsikologi.IbkRecommendation",
+        "Text": "Jururawat",
+        "Warna": null,
+        "WebId": "469946ce-8a73-437f-f9a2-6eb4700af87a"
+      },
+      {
+        "$type": "Bespoke.epsikologi_ibkrecommendation.Domain.Kerjaya, epsikologi.IbkRecommendation",
+        "Text": "Jurulatih: Penerbangan/ Memandu ",
+        "Warna": null,
+        "WebId": "9f24e3ad-a58e-49e2-ffc5-91f3e16d81e0"
+      },
+      {
+        "$type": "Bespoke.epsikologi_ibkrecommendation.Domain.Kerjaya, epsikologi.IbkRecommendation",
+        "Text": "Jurulatih:- Atlit/ Atlit Profesional/ Pendidikan Jasmani",
+        "Warna": null,
+        "WebId": "006f1820-5ca6-45cb-a60f-89bb888aa7eb"
+      },
+      {
+        "$type": "Bespoke.epsikologi_ibkrecommendation.Domain.Kerjaya, epsikologi.IbkRecommendation",
+        "Text": "Guru Pendidikan Dewasa",
+        "Warna": null,
+        "WebId": "294879e9-a667-4ec7-cc9d-fcf1666f108d"
+      },
+      {
+        "$type": "Bespoke.epsikologi_ibkrecommendation.Domain.Kerjaya, epsikologi.IbkRecommendation",
+        "Text": "Ketua Pustakawan",
+        "Warna": null,
+        "WebId": "a33fb35f-ee8d-4346-8d5c-0880a3196f71"
+      },
+      {
+        "$type": "Bespoke.epsikologi_ibkrecommendation.Domain.Kerjaya, epsikologi.IbkRecommendation",
+        "Text": "Pustakawan Muzik ",
+        "Warna": null,
+        "WebId": "c733a8c1-6fb8-4780-81ea-6d3ef7911c05"
+      },
+      {
+        "$type": "Bespoke.epsikologi_ibkrecommendation.Domain.Kerjaya, epsikologi.IbkRecommendation",
+        "Text": "Pengurus:- Makanan Segera/ Pasaraya",
+        "Warna": null,
+        "WebId": "8ded5502-d244-4935-aa03-bfdde63d44b5"
+      },
+      {
+        "$type": "Bespoke.epsikologi_ibkrecommendation.Domain.Kerjaya, epsikologi.IbkRecommendation",
+        "Text": "Eksekutif Chef",
+        "Warna": null,
+        "WebId": "a1655e60-43ca-4b7f-f691-e01aafaa596a"
+      },
+      {
+        "$type": "Bespoke.epsikologi_ibkrecommendation.Domain.Kerjaya, epsikologi.IbkRecommendation",
+        "Text": "Penyelia:- Mekanik Kereta/ Kilang/ Kosmetik",
+        "Warna": null,
+        "WebId": "759cda9f-7586-4f4e-c48f-f9a2a8ea258b"
       }
     ]
   },
@@ -100,8 +160,13 @@
       },
       {
         "$type": "Bespoke.epsikologi_ibkrecommendation.Domain.BidangPengajian, epsikologi.IbkRecommendation",
-        "Text": "-Sistem Jaringan Perniagaan & Telekomunikasi -Pengurusan Perladangan",
+        "Text": "Sistem Jaringan Perniagaan & Telekomunikasi",
         "WebId": "3b496903-8e82-4dff-8ed1-3340934cedf1"
+      },
+      {
+        "$type": "Bespoke.epsikologi_ibkrecommendation.Domain.BidangPengajian, epsikologi.IbkRecommendation",
+        "Text": "Pengurusan Perladangan",
+        "WebId": "2a8865a5-a678-4806-dbec-18124655649d"
       }
     ]
   },
@@ -109,6 +174,6 @@
   "Id": "MPI-MIP",
   "CreatedDate": "2015-07-31T19:03:42.4620566+08:00",
   "ChangedBy": "admin",
-  "ChangedDate": "2015-07-31T19:03:42.4570522+08:00",
+  "ChangedDate": "2016-09-19T16:03:51.8343064+08:00",
   "WebId": "5b0e92e8-855a-4415-ce36-2101a2ade2cd"
 }

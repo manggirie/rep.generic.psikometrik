@@ -6,9 +6,21 @@
     "$values": [
       {
         "$type": "Bespoke.epsikologi_ibkrecommendation.Domain.Kerjaya, epsikologi.IbkRecommendation",
-        "Text": "-Editor Laman Web -Pembantu Editor *  Sila rujuk pilihan kerjaya di bawah kategori T",
+        "Text": "Editor Laman Web",
         "Warna": null,
         "WebId": "5363c665-803a-4a88-9b50-bfc48815038d"
+      },
+      {
+        "$type": "Bespoke.epsikologi_ibkrecommendation.Domain.Kerjaya, epsikologi.IbkRecommendation",
+        "Text": "Pembantu Editor",
+        "Warna": null,
+        "WebId": "c51fc784-4ee2-41b0-fd9c-20aae97d0054"
+      },
+      {
+        "$type": "Bespoke.epsikologi_ibkrecommendation.Domain.Kerjaya, epsikologi.IbkRecommendation",
+        "Text": "*Bagi kod TKE tiada padanan yang spesifik dengan kombinasi ini. Sila rujuk pilihan kerjaya  alternatif di bawah kategori T. Untuk maklumat lanjut sila hubungi  Pegawai Psikologi / Kaunselor",
+        "Warna": null,
+        "WebId": "146cde5e-e774-4671-ab5a-0668c65586a9"
       }
     ]
   },
@@ -17,8 +29,13 @@
     "$values": [
       {
         "$type": "Bespoke.epsikologi_ibkrecommendation.Domain.BidangPengajian, epsikologi.IbkRecommendation",
-        "Text": "*  Sila rujuk pilihan bidang pengajian di bawah kategori  T",
+        "Text": "*Tiada padanan yang spesifik dengan kombinasi ini",
         "WebId": "d86da0d2-9d43-408d-aa01-ba8ea4e15d36"
+      },
+      {
+        "$type": "Bespoke.epsikologi_ibkrecommendation.Domain.BidangPengajian, epsikologi.IbkRecommendation",
+        "Text": "Sila rujuk pilihan bidang pengajian  alternatif di bawah kategori T. Untuk maklumat lanjut sila hubungi  Pegawai Psikologi / Kaunselor",
+        "WebId": "85d2f6e1-9bb1-4810-9f01-43c9159d505e"
       }
     ]
   },
@@ -26,6 +43,6 @@
   "Id": "TEK-TKE",
   "CreatedDate": "2015-07-31T19:37:40.2843996+08:00",
   "ChangedBy": "admin",
-  "ChangedDate": "2015-07-31T19:37:40.2763939+08:00",
+  "ChangedDate": "2016-09-20T10:13:23.6678062+08:00",
   "WebId": "7c875b81-b2db-4051-f4e5-429f7a382923"
 }

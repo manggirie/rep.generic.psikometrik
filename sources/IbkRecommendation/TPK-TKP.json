@@ -6,9 +6,21 @@
     "$values": [
       {
         "$type": "Bespoke.epsikologi_ibkrecommendation.Domain.Kerjaya, epsikologi.IbkRecommendation",
-        "Text": "-Penerbit Paparan Skrin Komputer -Penyemak Foto *  Sila rujuk pilihan kerjaya di bawah kategori T",
+        "Text": "Penerbit Paparan Skrin Komputer",
         "Warna": null,
         "WebId": "bbc861e9-4f0a-4ec9-8023-5adf420cff75"
+      },
+      {
+        "$type": "Bespoke.epsikologi_ibkrecommendation.Domain.Kerjaya, epsikologi.IbkRecommendation",
+        "Text": "Penyemak Foto",
+        "Warna": null,
+        "WebId": "53305079-03e5-4537-dff1-438fffc56d2e"
+      },
+      {
+        "$type": "Bespoke.epsikologi_ibkrecommendation.Domain.Kerjaya, epsikologi.IbkRecommendation",
+        "Text": "*Bagi kod TKP tiada padanan yang spesifik dengan kombinasi ini. Sila rujuk pilihan kerjaya  alternatif di bawah kategori T. Untuk maklumat lanjut sila hubungi  Pegawai Psikologi / Kaunselor.",
+        "Warna": null,
+        "WebId": "7a49aa0b-54cd-4da5-ad4c-2c3537d20696"
       }
     ]
   },
@@ -17,8 +29,13 @@
     "$values": [
       {
         "$type": "Bespoke.epsikologi_ibkrecommendation.Domain.BidangPengajian, epsikologi.IbkRecommendation",
-        "Text": "*  Sila rujuk pilihan bidang pengajian di bawah kategori  T",
+        "Text": "*Tiada padanan yang spesifik dengan kombinasi ini",
         "WebId": "139cb368-17cb-4f09-963d-b20a6dfc8636"
+      },
+      {
+        "$type": "Bespoke.epsikologi_ibkrecommendation.Domain.BidangPengajian, epsikologi.IbkRecommendation",
+        "Text": "Sila rujuk pilihan bidang pengajian  alternatif di bawah kategori T. Untuk maklumat lanjut sila hubungi  Pegawai Psikologi / Kaunselor. ",
+        "WebId": "8cc62581-bf41-4c1f-ab96-015a8ce02e6c"
       }
     ]
   },
@@ -26,6 +43,6 @@
   "Id": "TPK-TKP",
   "CreatedDate": "2015-07-31T19:32:12.6004444+08:00",
   "ChangedBy": "admin",
-  "ChangedDate": "2015-07-31T19:32:12.5974423+08:00",
+  "ChangedDate": "2016-09-20T10:01:46.9231387+08:00",
   "WebId": "8247830d-2f1e-4d8f-aa06-3861efc24e86"
 }

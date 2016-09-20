@@ -48,13 +48,18 @@
         "$type": "Bespoke.epsikologi_ibkrecommendation.Domain.BidangPengajian, epsikologi.IbkRecommendation",
         "Text": "Pendidikan Biologi Psikiatrik\t",
         "WebId": "ee62ae00-48ac-40bc-84fb-c4b206bfb388"
+      },
+      {
+        "$type": "Bespoke.epsikologi_ibkrecommendation.Domain.BidangPengajian, epsikologi.IbkRecommendation",
+        "Text": "Psikiatrik",
+        "WebId": "d6886ac2-ffe5-46f6-8deb-4ab5b2046b1d"
       }
     ]
   },
   "CreatedBy": "admin",
   "Id": "MEK-MKE",
   "CreatedDate": "2015-07-31T19:05:44.4497542+08:00",
-  "ChangedBy": "urusetia1",
-  "ChangedDate": "2015-08-12T17:19:48.0900854+08:00",
+  "ChangedBy": "admin",
+  "ChangedDate": "2016-09-19T16:05:25.8753064+08:00",
   "WebId": "bf4531a3-cd9b-41f1-8caa-12f0d077d4a5"
 }

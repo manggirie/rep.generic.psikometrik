@@ -36,31 +36,31 @@
       },
       {
         "$type": "Bespoke.epsikologi_ibkrecommendation.Domain.Kerjaya, epsikologi.IbkRecommendation",
-        "Text": "Penerbit Radio ",
+        "Text": "Penerbit Radio",
         "Warna": null,
         "WebId": "86d2970f-03a5-41a9-9741-f8523ae60bd4"
       },
       {
         "$type": "Bespoke.epsikologi_ibkrecommendation.Domain.Kerjaya, epsikologi.IbkRecommendation",
-        "Text": "Pegawai Penyiaran ",
+        "Text": "Pegawai Penyiaran",
         "Warna": null,
         "WebId": "09a2bcdf-d0d1-496c-e9e2-4794117c66f9"
       },
       {
         "$type": "Bespoke.epsikologi_ibkrecommendation.Domain.Kerjaya, epsikologi.IbkRecommendation",
-        "Text": "Pengurus Pembaikan/ Radiofoto",
+        "Text": "Pengurus:-Pembaikan/ Radiofoto",
         "Warna": null,
         "WebId": "b1e8ccae-e140-4038-870b-37fbd5b2df51"
       },
       {
         "$type": "Bespoke.epsikologi_ibkrecommendation.Domain.Kerjaya, epsikologi.IbkRecommendation",
-        "Text": "Koordinator Pengurusan Pencegahan ",
+        "Text": "Koordinator Pengurusan Pencegahan",
         "Warna": null,
         "WebId": "e6905926-6c66-416e-abd3-95c45ada646c"
       },
       {
         "$type": "Bespoke.epsikologi_ibkrecommendation.Domain.Kerjaya, epsikologi.IbkRecommendation",
-        "Text": "Pegawai Pentadbiran Surat/ Gaji/ Stor/ Utiliti",
+        "Text": "Pegawai:- Pentadbiran Surat/ Gaji/ Stor/ Utiliti",
         "Warna": null,
         "WebId": "1562bcf2-40f7-4a49-c30e-db6419130cb0"
       },
@@ -90,7 +90,7 @@
       },
       {
         "$type": "Bespoke.epsikologi_ibkrecommendation.Domain.Kerjaya, epsikologi.IbkRecommendation",
-        "Text": "Pembekal\t",
+        "Text": "Pembekal",
         "Warna": null,
         "WebId": "a4b36abc-1945-4fde-c973-947302860a84"
       },
@@ -107,7 +107,7 @@
     "$values": [
       {
         "$type": "Bespoke.epsikologi_ibkrecommendation.Domain.BidangPengajian, epsikologi.IbkRecommendation",
-        "Text": "Perakaunan/ Statistik \t",
+        "Text": "Perakaunan/ Statistik",
         "WebId": "88d7ad8c-b0a1-41c7-809e-d4f32f42cef7"
       },
       {
@@ -117,30 +117,35 @@
       },
       {
         "$type": "Bespoke.epsikologi_ibkrecommendation.Domain.BidangPengajian, epsikologi.IbkRecommendation",
-        "Text": "Pengurusan/ Pentadbiran \t",
+        "Text": "Pengurusan/ Pentadbiran",
         "WebId": "5c2759c1-1947-45ab-8b74-b8666f679a57"
       },
       {
         "$type": "Bespoke.epsikologi_ibkrecommendation.Domain.BidangPengajian, epsikologi.IbkRecommendation",
-        "Text": "Elektrolisis\t",
+        "Text": "Elektrolisis",
         "WebId": "4286c9a2-538e-4db9-969c-c28f8b78bb8f"
       },
       {
         "$type": "Bespoke.epsikologi_ibkrecommendation.Domain.BidangPengajian, epsikologi.IbkRecommendation",
-        "Text": "Sains Komputer Kejuruteraan\t",
+        "Text": "Sains Komputer",
         "WebId": "5affb022-dbbb-41b2-9a2c-fdd3e20a0624"
       },
       {
         "$type": "Bespoke.epsikologi_ibkrecommendation.Domain.BidangPengajian, epsikologi.IbkRecommendation",
-        "Text": "Media & Animasi\t",
+        "Text": "Kejuruteraan\t",
         "WebId": "76747f78-8359-4043-9807-37b5288bba22"
+      },
+      {
+        "$type": "Bespoke.epsikologi_ibkrecommendation.Domain.BidangPengajian, epsikologi.IbkRecommendation",
+        "Text": "Media & Animasi\t",
+        "WebId": "ac7941d6-b078-4905-da7d-e86e4b6d29d8"
       }
     ]
   },
   "CreatedBy": "admin",
   "Id": "TPI-TIP",
   "CreatedDate": "2015-07-31T19:35:28.0807951+08:00",
-  "ChangedBy": "urusetia1",
-  "ChangedDate": "2015-08-12T17:18:21.0553828+08:00",
+  "ChangedBy": "admin",
+  "ChangedDate": "2016-09-20T10:10:05.8170231+08:00",
   "WebId": "436b611e-252e-45c7-a195-aca4787dea4e"
 }

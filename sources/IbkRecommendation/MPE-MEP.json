@@ -60,57 +60,105 @@
       },
       {
         "$type": "Bespoke.epsikologi_ibkrecommendation.Domain.Kerjaya, epsikologi.IbkRecommendation",
-        "Text": "-Penyelidik Pemakanan -Pembantu Sains -Penilai Pendidikan\t",
+        "Text": "Penyelidik Pemakanan",
         "Warna": null,
         "WebId": "244acc8f-6566-428f-9bb2-fd4106b9398a"
       },
       {
         "$type": "Bespoke.epsikologi_ibkrecommendation.Domain.Kerjaya, epsikologi.IbkRecommendation",
-        "Text": "Kurator\t",
+        "Text": "Pembantu Sains",
         "Warna": null,
         "WebId": "5a6a049f-a149-4822-b68a-93ce36d8b4a1"
       },
       {
         "$type": "Bespoke.epsikologi_ibkrecommendation.Domain.Kerjaya, epsikologi.IbkRecommendation",
-        "Text": "-Pentadbir Internet/ Intranet -Penganalisis Pangkalan Data/ Komunikasi Data/ Telekomunikasi/ Kawalan Elektronik  -Juruteknik Elektronik/ Komputer",
+        "Text": "Penilai Pendidikan\t",
         "Warna": null,
         "WebId": "a5198069-9049-49cf-8bbf-05e54012c11e"
       },
       {
         "$type": "Bespoke.epsikologi_ibkrecommendation.Domain.Kerjaya, epsikologi.IbkRecommendation",
-        "Text": "-Penganalisis Udara -Juruteknologi @ Juruteknik Kawalan Pencemaran",
+        "Text": "Kurator",
         "Warna": null,
         "WebId": "e58780b4-f135-4c57-b975-4d5789b94c5a"
       },
       {
         "$type": "Bespoke.epsikologi_ibkrecommendation.Domain.Kerjaya, epsikologi.IbkRecommendation",
-        "Text": "Arkitek",
+        "Text": "Pentadbir Internet/ Intranet ",
         "Warna": null,
         "WebId": "f7fea244-fdb7-4f96-ba8f-47030c72cba0"
       },
       {
         "$type": "Bespoke.epsikologi_ibkrecommendation.Domain.Kerjaya, epsikologi.IbkRecommendation",
-        "Text": "Pengurus:- Makmal/ Ladang",
+        "Text": "Penganalisis Pangkalan Data/ Komunikasi Data/ Telekomunikasi/ Kawalan Elektronik",
         "Warna": null,
         "WebId": "77a8d9e0-db81-4211-b3ef-65776105a7e4"
       },
       {
         "$type": "Bespoke.epsikologi_ibkrecommendation.Domain.Kerjaya, epsikologi.IbkRecommendation",
-        "Text": "-Juruteknologi @ Juruteknik:- Radiologi/ Ultrasound/ Perubatan Nuklear/ Terapi Radiasi/ Pengawalan Kardiak/ Robotik/ Perubatan Kecemasan/ Makmal Kimia/ Respiratori -Jururawat:- Sakit Puan/ Pentadbiran -Ahli Terapi Pemulihan\t",
+        "Text": "Juruteknik Elektronik/ Komputer",
         "Warna": null,
         "WebId": "187fc84f-f363-4b60-ba62-ee3e2babf42f"
       },
       {
         "$type": "Bespoke.epsikologi_ibkrecommendation.Domain.Kerjaya, epsikologi.IbkRecommendation",
-        "Text": "-Agen Khas Kastam -Renjer Perhutanan",
+        "Text": "Penganalisis Udara",
         "Warna": null,
         "WebId": "cc6b146e-fd02-46af-8870-3c26889bd367"
       },
       {
         "$type": "Bespoke.epsikologi_ibkrecommendation.Domain.Kerjaya, epsikologi.IbkRecommendation",
-        "Text": "Penulis Penerbitan Teknikal\t",
+        "Text": "Juruteknologi @ Juruteknik Kawalan Pencemaran",
         "Warna": null,
         "WebId": "eb6a48a4-ab90-4e1f-b32b-16086f791ddc"
+      },
+      {
+        "$type": "Bespoke.epsikologi_ibkrecommendation.Domain.Kerjaya, epsikologi.IbkRecommendation",
+        "Text": "Arkitek",
+        "Warna": null,
+        "WebId": "125628d9-803d-436e-d4c4-fefe3719c291"
+      },
+      {
+        "$type": "Bespoke.epsikologi_ibkrecommendation.Domain.Kerjaya, epsikologi.IbkRecommendation",
+        "Text": "Pengurus:- Makmal/ Ladang",
+        "Warna": null,
+        "WebId": "4e1e3fa9-4499-4a18-a833-b17ec7a74645"
+      },
+      {
+        "$type": "Bespoke.epsikologi_ibkrecommendation.Domain.Kerjaya, epsikologi.IbkRecommendation",
+        "Text": "Juruteknologi @ Juruteknik:- Radiologi/ Ultrasound/ Perubatan Nuklear/ Terapi Radiasi/ Pengawalan Kardiak/ Robotik/ Perubatan Kecemasan/ Makmal Kimia/ Respiratori",
+        "Warna": null,
+        "WebId": "f8ff37c3-7f10-461f-9f70-f71358660152"
+      },
+      {
+        "$type": "Bespoke.epsikologi_ibkrecommendation.Domain.Kerjaya, epsikologi.IbkRecommendation",
+        "Text": "Jururawat:- Sakit Puan/ Pentadbiran",
+        "Warna": null,
+        "WebId": "f19edaf7-aedd-4ed3-f583-b42d17040fad"
+      },
+      {
+        "$type": "Bespoke.epsikologi_ibkrecommendation.Domain.Kerjaya, epsikologi.IbkRecommendation",
+        "Text": "Ahli Terapi Pemulihan",
+        "Warna": null,
+        "WebId": "9628104e-5f84-4f35-ed86-f830ea7df4b6"
+      },
+      {
+        "$type": "Bespoke.epsikologi_ibkrecommendation.Domain.Kerjaya, epsikologi.IbkRecommendation",
+        "Text": "Agen Khas Kastam",
+        "Warna": null,
+        "WebId": "8a7afda0-eeaa-423d-b2d9-60584b97a5d0"
+      },
+      {
+        "$type": "Bespoke.epsikologi_ibkrecommendation.Domain.Kerjaya, epsikologi.IbkRecommendation",
+        "Text": "Renjer Perhutanan",
+        "Warna": null,
+        "WebId": "efa3b818-1dc9-46c9-94b5-845efaefca0a"
+      },
+      {
+        "$type": "Bespoke.epsikologi_ibkrecommendation.Domain.Kerjaya, epsikologi.IbkRecommendation",
+        "Text": "Penulis Penerbitan Teknikal",
+        "Warna": null,
+        "WebId": "e7cedb46-6150-4a07-c712-d8a7bb85a447"
       }
     ]
   },
@@ -169,8 +217,38 @@
       },
       {
         "$type": "Bespoke.epsikologi_ibkrecommendation.Domain.BidangPengajian, epsikologi.IbkRecommendation",
-        "Text": "-Sains Sosial:- Ekonomi Kuantitatif/ Audiologi Ucapan/ Psikologi Pembangunan @ Kanak-Kanak  -Perniagaan -Pemakanan Perubatan -Farmakologi -Matematik -Naturopati -Kiropraktik",
+        "Text": "Sains Sosial:- Ekonomi Kuantitatif/ Audiologi Ucapan/ Psikologi Pembangunan @ Kanak-Kanak",
         "WebId": "39ff2a36-d6c5-47d5-940f-31b5ee81d600"
+      },
+      {
+        "$type": "Bespoke.epsikologi_ibkrecommendation.Domain.BidangPengajian, epsikologi.IbkRecommendation",
+        "Text": "Perniagaan ",
+        "WebId": "fa58acbe-f9aa-45a5-b8b1-ff6f9ace960f"
+      },
+      {
+        "$type": "Bespoke.epsikologi_ibkrecommendation.Domain.BidangPengajian, epsikologi.IbkRecommendation",
+        "Text": "Pemakanan Perubatan",
+        "WebId": "f3e39d63-b75e-4ca4-e074-fc8b1e841b5f"
+      },
+      {
+        "$type": "Bespoke.epsikologi_ibkrecommendation.Domain.BidangPengajian, epsikologi.IbkRecommendation",
+        "Text": "Farmakologi ",
+        "WebId": "c1716b60-6c36-4004-ee3f-c825a0782b62"
+      },
+      {
+        "$type": "Bespoke.epsikologi_ibkrecommendation.Domain.BidangPengajian, epsikologi.IbkRecommendation",
+        "Text": "Matematik ",
+        "WebId": "25a302f2-1bec-4b3c-e526-834a111b57b4"
+      },
+      {
+        "$type": "Bespoke.epsikologi_ibkrecommendation.Domain.BidangPengajian, epsikologi.IbkRecommendation",
+        "Text": "Naturopati ",
+        "WebId": "421f4a89-4519-4104-f98b-bde485f964ad"
+      },
+      {
+        "$type": "Bespoke.epsikologi_ibkrecommendation.Domain.BidangPengajian, epsikologi.IbkRecommendation",
+        "Text": "Kiropraktik",
+        "WebId": "cf4015a9-657b-4c83-8944-6123f18c1a1f"
       }
     ]
   },
@@ -178,6 +256,6 @@
   "Id": "MPE-MEP",
   "CreatedDate": "2015-07-31T18:59:09.0468144+08:00",
   "ChangedBy": "admin",
-  "ChangedDate": "2015-07-31T18:59:09.03981+08:00",
+  "ChangedDate": "2016-09-19T15:59:08.7523064+08:00",
   "WebId": "1898df13-c83e-4be2-bbc3-5c14b5532433"
 }

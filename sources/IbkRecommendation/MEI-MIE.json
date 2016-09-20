@@ -18,39 +18,105 @@
       },
       {
         "$type": "Bespoke.epsikologi_ibkrecommendation.Domain.Kerjaya, epsikologi.IbkRecommendation",
-        "Text": "-Pengarah:- Agensi Pemulihan/ Tenaga Rakyat -Koordinator Perkhidmatan Pemulihan",
+        "Text": "Pengarah:- Agensi Pemulihan/ Tenaga Rakyat",
         "Warna": null,
         "WebId": "e0838570-ee6d-4359-95ae-1f2bcf7ab911"
       },
       {
         "$type": "Bespoke.epsikologi_ibkrecommendation.Domain.Kerjaya, epsikologi.IbkRecommendation",
-        "Text": "Pentadbir Rekod Perubatan",
+        "Text": "Koordinator Perkhidmatan Pemulihan",
         "Warna": null,
         "WebId": "cb8e5dd4-8ba5-4920-96c7-b557c23e9bc6"
       },
       {
         "$type": "Bespoke.epsikologi_ibkrecommendation.Domain.Kerjaya, epsikologi.IbkRecommendation",
-        "Text": "-Ahli:- Fakulti Universiti/ Psikologi Sekolah/ Sains Politik -Pengetua Sekolah -Sejarahwan \t",
+        "Text": "Pentadbir Rekod Perubatan",
         "Warna": null,
         "WebId": "e6d65b8b-d6a3-4a3a-b95d-21a9eb1126e6"
       },
       {
         "$type": "Bespoke.epsikologi_ibkrecommendation.Domain.Kerjaya, epsikologi.IbkRecommendation",
-        "Text": "-Peguam Insuran -Pemeriksa Tuntutan Insuran -Pengurus Operasi Komputer\t",
+        "Text": "Ahli:- Fakulti Universiti/ Psikologi Sekolah/ Sains Politik",
         "Warna": null,
         "WebId": "127b4325-bf6d-4744-8f6a-bdff8118e8cd"
       },
       {
         "$type": "Bespoke.epsikologi_ibkrecommendation.Domain.Kerjaya, epsikologi.IbkRecommendation",
-        "Text": "-Pegawai:- Daerah/ Pinjaman -Penyiasat Kerajaan -Penyelia Kontrak Penyelidikan",
+        "Text": "Pengetua Sekolah",
         "Warna": null,
         "WebId": "bc2488b9-4702-4c8e-9fac-b4b28b14de22"
       },
       {
         "$type": "Bespoke.epsikologi_ibkrecommendation.Domain.Kerjaya, epsikologi.IbkRecommendation",
-        "Text": "Ketua Juruteknologi Perubatan Nuklear Penyelia @  Pengajar Jururawat Ahli Terapi Fizikal Jururawat Sekolah Juruteknik Psikiatrik\t",
+        "Text": "Sejarahwan \t",
         "Warna": null,
         "WebId": "ae10642f-4cf1-45c9-9020-5906034a4bdf"
+      },
+      {
+        "$type": "Bespoke.epsikologi_ibkrecommendation.Domain.Kerjaya, epsikologi.IbkRecommendation",
+        "Text": "Peguam Insuran",
+        "Warna": null,
+        "WebId": "f9d7219b-68b9-4bb0-c60d-bc051de2fdc9"
+      },
+      {
+        "$type": "Bespoke.epsikologi_ibkrecommendation.Domain.Kerjaya, epsikologi.IbkRecommendation",
+        "Text": "Pemeriksa Tuntutan Insuran",
+        "Warna": null,
+        "WebId": "ff4bb7ff-befb-4a04-b8be-19c8a18d80f4"
+      },
+      {
+        "$type": "Bespoke.epsikologi_ibkrecommendation.Domain.Kerjaya, epsikologi.IbkRecommendation",
+        "Text": "Pengurus Operasi Komputer",
+        "Warna": null,
+        "WebId": "271ac19b-dccd-4b20-f0ea-ea18aa07b95b"
+      },
+      {
+        "$type": "Bespoke.epsikologi_ibkrecommendation.Domain.Kerjaya, epsikologi.IbkRecommendation",
+        "Text": "Pegawai:- Daerah/ Pinjaman",
+        "Warna": null,
+        "WebId": "c4f2ff47-2c19-453a-cd82-2b3d8aa4e26f"
+      },
+      {
+        "$type": "Bespoke.epsikologi_ibkrecommendation.Domain.Kerjaya, epsikologi.IbkRecommendation",
+        "Text": "Penyiasat Kerajaan",
+        "Warna": null,
+        "WebId": "5848bcdb-113d-4217-ba90-32b74acea9ef"
+      },
+      {
+        "$type": "Bespoke.epsikologi_ibkrecommendation.Domain.Kerjaya, epsikologi.IbkRecommendation",
+        "Text": "Penyelia Kontrak Penyelidikan",
+        "Warna": null,
+        "WebId": "b9e40829-b6ad-4ee3-f064-adea0cb0c15e"
+      },
+      {
+        "$type": "Bespoke.epsikologi_ibkrecommendation.Domain.Kerjaya, epsikologi.IbkRecommendation",
+        "Text": "Ketua Juruteknologi Perubatan Nuklear",
+        "Warna": null,
+        "WebId": "8bc896d7-d5fa-46c2-93e9-097f22fab140"
+      },
+      {
+        "$type": "Bespoke.epsikologi_ibkrecommendation.Domain.Kerjaya, epsikologi.IbkRecommendation",
+        "Text": "Penyelia @  Pengajar Jururawat",
+        "Warna": null,
+        "WebId": "d93d5962-21d1-4ae9-f377-e2f7fd709507"
+      },
+      {
+        "$type": "Bespoke.epsikologi_ibkrecommendation.Domain.Kerjaya, epsikologi.IbkRecommendation",
+        "Text": " Ahli Terapi Fizikal",
+        "Warna": null,
+        "WebId": "b4d28c7e-9e03-45fd-ae56-af93296be9f9"
+      },
+      {
+        "$type": "Bespoke.epsikologi_ibkrecommendation.Domain.Kerjaya, epsikologi.IbkRecommendation",
+        "Text": "Jururawat Sekolah",
+        "Warna": null,
+        "WebId": "cbc87ede-b83e-4d4c-c853-6426e7e5da63"
+      },
+      {
+        "$type": "Bespoke.epsikologi_ibkrecommendation.Domain.Kerjaya, epsikologi.IbkRecommendation",
+        "Text": " Juruteknik Psikiatrik",
+        "Warna": null,
+        "WebId": "ab9275aa-cd69-4311-a6f1-ef30ffa0e401"
       }
     ]
   },
@@ -69,18 +135,38 @@
       },
       {
         "$type": "Bespoke.epsikologi_ibkrecommendation.Domain.BidangPengajian, epsikologi.IbkRecommendation",
-        "Text": "Sains Sosial:- Sejarah & Tamadun Asia @ Barat/ Penterjemahan Bahasa Asing/ Sains Ekonomi Pengguna/ Ekonomi Rumahtangga & Komunikasi/ Pendidikan Sosial & Falsafah/ Sains Komunikasi/ Islam & Keagamaan/ Psikologi:- Psikologi Kaunseling/ Psikologi Klinikal/ Pengukuran & Pengujian/ Pendidikan Penilaian Kaunseling:- Ketagihan/ Kerjaya/ Pendidikan/ Bimbingan/ Keluarga & Komuniti/",
+        "Text": "Sains Sosial:- Sejarah & Tamadun Asia @ Barat/ Penterjemahan Bahasa Asing/ Sains Ekonomi Pengguna/ Ekonomi Rumahtangga & Komunikasi/ Pendidikan Sosial & Falsafah/ Sains Komunikasi/ Islam & Keagamaan",
         "WebId": "386b91fb-4d07-4798-b572-3c07444a469b"
       },
       {
         "$type": "Bespoke.epsikologi_ibkrecommendation.Domain.BidangPengajian, epsikologi.IbkRecommendation",
-        "Text": "Sains Kesihatan:- Kesihatan Awam/ Pentadbiran Kejururawatan/ Kejururawatan (Sakit Puan/ Kanak-Kanak/ Kesihatan Mental/ Psikiatri/ Terapi Pergerakan",
+        "Text": "Psikologi:- Psikologi Kaunseling/ Psikologi Klinikal/ Pengukuran & Pengujian/ Pendidikan Penilaian ",
         "WebId": "6edbd676-cdb8-424a-a6c1-42eb0827e4ad"
       },
       {
         "$type": "Bespoke.epsikologi_ibkrecommendation.Domain.BidangPengajian, epsikologi.IbkRecommendation",
-        "Text": "-Perubatan  -Veterinar -Sains & Teknologi",
+        "Text": "Kaunseling:- Ketagihan/ Kerjaya/ Pendidikan/ Bimbingan/ Keluarga & Komuniti",
         "WebId": "470197cf-e688-47c9-8991-f67ee5023029"
+      },
+      {
+        "$type": "Bespoke.epsikologi_ibkrecommendation.Domain.BidangPengajian, epsikologi.IbkRecommendation",
+        "Text": "Sains Kesihatan:- Kesihatan Awam/ Pentadbiran Kejururawatan/ Kejururawatan (Sakit Puan/ Kanak-Kanak/ Kesihatan Mental/ Psikiatri/ Terapi Pergerakan",
+        "WebId": "363a0fe7-2ae0-49c1-f3b7-f53e396d63fa"
+      },
+      {
+        "$type": "Bespoke.epsikologi_ibkrecommendation.Domain.BidangPengajian, epsikologi.IbkRecommendation",
+        "Text": "Perubatan  ",
+        "WebId": "70f8f9e1-4756-4fb9-9dfa-d8393334f9c6"
+      },
+      {
+        "$type": "Bespoke.epsikologi_ibkrecommendation.Domain.BidangPengajian, epsikologi.IbkRecommendation",
+        "Text": "Veterinar ",
+        "WebId": "e4044d70-6683-4209-98a9-72dc9b30f782"
+      },
+      {
+        "$type": "Bespoke.epsikologi_ibkrecommendation.Domain.BidangPengajian, epsikologi.IbkRecommendation",
+        "Text": "Sains & Teknologi",
+        "WebId": "86f4e2b9-31b4-4785-e751-7b36c6222389"
       }
     ]
   },
@@ -88,6 +174,6 @@
   "Id": "MEI-MIE",
   "CreatedDate": "2015-07-31T19:10:13.537001+08:00",
   "ChangedBy": "admin",
-  "ChangedDate": "2015-07-31T19:10:13.5264938+08:00",
+  "ChangedDate": "2016-09-19T16:12:48.7163064+08:00",
   "WebId": "05b829a2-c8d7-4c13-e8f8-d70f566dcfe6"
 }

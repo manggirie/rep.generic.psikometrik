@@ -18,75 +18,93 @@
       },
       {
         "$type": "Bespoke.epsikologi_ibkrecommendation.Domain.Kerjaya, epsikologi.IbkRecommendation",
-        "Text": "-Pengarah:-  Komuniti/ Kebajikan/ Perkhidmatan Sukarela/ Perpustakaan/ Filem -Pembantu Perkhidmatan Sosial",
+        "Text": "Pengarah:-  Komuniti/ Kebajikan/ Perkhidmatan Sukarela/ Perpustakaan/ Filem",
         "Warna": null,
         "WebId": "3913f714-06c8-49b7-af05-fb96a36edc13"
       },
       {
         "$type": "Bespoke.epsikologi_ibkrecommendation.Domain.Kerjaya, epsikologi.IbkRecommendation",
-        "Text": "Pengarah:- Jururawat/ Kesihatan",
+        "Text": "Pembantu Perkhidmatan Sosial",
         "Warna": null,
         "WebId": "3d9205e5-0ccd-406c-9bb9-37b9f2bb0f55"
       },
       {
         "$type": "Bespoke.epsikologi_ibkrecommendation.Domain.Kerjaya, epsikologi.IbkRecommendation",
-        "Text": "Timbalan Penguasa/ Pegawai Polis",
+        "Text": "Pengarah:- Jururawat/ Kesihatan",
         "Warna": null,
         "WebId": "144894eb-b354-4e80-9f32-d65bfcda66e4"
       },
       {
         "$type": "Bespoke.epsikologi_ibkrecommendation.Domain.Kerjaya, epsikologi.IbkRecommendation",
-        "Text": "Pengurus:- Personel/ Keselamatan/ Perjawatan/ Perhubungan Pelanggan/ Bantuan Kewangan",
+        "Text": "Timbalan Penguasa/ Pegawai Polis",
         "Warna": null,
         "WebId": "14f967f7-58c0-439b-97c1-b00126661dfe"
       },
       {
         "$type": "Bespoke.epsikologi_ibkrecommendation.Domain.Kerjaya, epsikologi.IbkRecommendation",
-        "Text": "Pegawai Pertanian Daerah",
+        "Text": "Pengurus:- Personel/ Keselamatan/ Perjawatan/ Perhubungan Pelanggan/ Bantuan Kewangan",
         "Warna": null,
         "WebId": "39f54211-9a2f-4633-89ec-059251dafe92"
       },
       {
         "$type": "Bespoke.epsikologi_ibkrecommendation.Domain.Kerjaya, epsikologi.IbkRecommendation",
-        "Text": "Kaunselor:- Pemulihan/ Vokasional/ Terapi Rekreasi/ Pekerjaan",
+        "Text": "Pegawai Pertanian Daerah",
         "Warna": null,
         "WebId": "8679714b-45d7-4af6-8b53-c34e91337dd9"
       },
       {
         "$type": "Bespoke.epsikologi_ibkrecommendation.Domain.Kerjaya, epsikologi.IbkRecommendation",
-        "Text": "Pegawai Penemuduga ",
+        "Text": "Kaunselor:- Pemulihan/ Vokasional/ Terapi Rekreasi/ Pekerjaan",
         "Warna": null,
         "WebId": "e9a805b0-413c-4583-b0f4-65679651c650"
       },
       {
         "$type": "Bespoke.epsikologi_ibkrecommendation.Domain.Kerjaya, epsikologi.IbkRecommendation",
-        "Text": "-Konsultan Pendidikan  -Guru:- Prasekolah/ Pendidikan Khas",
+        "Text": "Pegawai Penemuduga ",
         "Warna": null,
         "WebId": "316bdede-6cbe-4c20-a3a4-f11c86fcb22e"
       },
       {
         "$type": "Bespoke.epsikologi_ibkrecommendation.Domain.Kerjaya, epsikologi.IbkRecommendation",
-        "Text": "Ahli Penterjemah:- Orang Bisu/ Buta/ Pendidikan Khas \t",
+        "Text": "Konsultan Pendidikan",
         "Warna": null,
         "WebId": "1ef0ed19-856b-4ddc-9b83-46ded941d294"
       },
       {
         "$type": "Bespoke.epsikologi_ibkrecommendation.Domain.Kerjaya, epsikologi.IbkRecommendation",
-        "Text": "-Jurulatih Latihan -Juruhebah Radio & Televisyen\t",
+        "Text": "Guru:- Prasekolah/ Pendidikan Khas",
         "Warna": null,
         "WebId": "aaa3c8e4-d5a6-401a-8ddd-cb1e53c7a641"
       },
       {
         "$type": "Bespoke.epsikologi_ibkrecommendation.Domain.Kerjaya, epsikologi.IbkRecommendation",
-        "Text": "Agen Impot & Ekspot/ Hartanah ",
+        "Text": "Ahli Penterjemah:- Orang Bisu/ Buta/ Pendidikan Khas \t",
         "Warna": null,
         "WebId": "b218c0f4-2366-4bc0-a1c5-3a31dab8a3bc"
       },
       {
         "$type": "Bespoke.epsikologi_ibkrecommendation.Domain.Kerjaya, epsikologi.IbkRecommendation",
-        "Text": "Penyelia:- Kawalan Jaringan/ Jualan & Kos/ Kes Kajian/ Juruwang",
+        "Text": "Jurulatih Latihan",
         "Warna": null,
         "WebId": "9ded2cb6-0848-41b3-9a1c-d417f3056c1a"
+      },
+      {
+        "$type": "Bespoke.epsikologi_ibkrecommendation.Domain.Kerjaya, epsikologi.IbkRecommendation",
+        "Text": "Juruhebah Radio & Televisyen\t",
+        "Warna": null,
+        "WebId": "c5ac96a4-5e96-46c3-8ca9-a72cd73d1dc2"
+      },
+      {
+        "$type": "Bespoke.epsikologi_ibkrecommendation.Domain.Kerjaya, epsikologi.IbkRecommendation",
+        "Text": "Agen Impot & Ekspot/ Hartanah ",
+        "Warna": null,
+        "WebId": "f0605eca-7820-49ac-9f6f-5e5f9ecd1dc3"
+      },
+      {
+        "$type": "Bespoke.epsikologi_ibkrecommendation.Domain.Kerjaya, epsikologi.IbkRecommendation",
+        "Text": "Penyelia:- Kawalan Jaringan/ Jualan & Kos/ Kes Kajian/ Juruwang",
+        "Warna": null,
+        "WebId": "57b387da-c9fd-4118-bdbc-0042f865be87"
       }
     ]
   },
@@ -125,8 +143,13 @@
       },
       {
         "$type": "Bespoke.epsikologi_ibkrecommendation.Domain.BidangPengajian, epsikologi.IbkRecommendation",
-        "Text": "-Sains Pemakanan -Perundangan",
+        "Text": "Sains Pemakanan",
         "WebId": "814618b8-e625-4ffb-a9ab-62827f3142be"
+      },
+      {
+        "$type": "Bespoke.epsikologi_ibkrecommendation.Domain.BidangPengajian, epsikologi.IbkRecommendation",
+        "Text": "Perundangan",
+        "WebId": "4949ef46-7fb3-41db-c0b8-3aeff6c868ec"
       }
     ]
   },
@@ -134,6 +157,6 @@
   "Id": "MIT-MTI",
   "CreatedDate": "2015-07-31T19:15:17.1734158+08:00",
   "ChangedBy": "admin",
-  "ChangedDate": "2015-07-31T19:15:17.169413+08:00",
+  "ChangedDate": "2016-09-19T16:21:25.8553064+08:00",
   "WebId": "784a8eb1-b8e1-45af-b827-85039e238142"
 }

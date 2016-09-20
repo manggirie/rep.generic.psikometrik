@@ -12,57 +12,69 @@
       },
       {
         "$type": "Bespoke.epsikologi_ibkrecommendation.Domain.Kerjaya, epsikologi.IbkRecommendation",
-        "Text": "-Pengarah:- Pendidikan Khas/ Pendidikan Agama  -Imam/ Guru Agama",
+        "Text": "Pengarah:- Pendidikan Khas/ Pendidikan Agama ",
         "Warna": null,
         "WebId": "d39df34f-bfc9-4495-b162-43344db70c3e"
       },
       {
         "$type": "Bespoke.epsikologi_ibkrecommendation.Domain.Kerjaya, epsikologi.IbkRecommendation",
-        "Text": "Pengarah:- Penyelidikan/ Televisyen/ Perancangan Komuniti",
+        "Text": "Imam/ Guru Agama",
         "Warna": null,
         "WebId": "dd090b41-b549-436b-9cfd-830c7aae96dd"
       },
       {
         "$type": "Bespoke.epsikologi_ibkrecommendation.Domain.Kerjaya, epsikologi.IbkRecommendation",
-        "Text": "Dekan Pelajar",
+        "Text": "Pengarah:- Penyelidikan/ Televisyen/ Perancangan Komuniti",
         "Warna": null,
         "WebId": "c79f642d-7bb9-4bd6-99ca-0c2388f145b8"
       },
       {
         "$type": "Bespoke.epsikologi_ibkrecommendation.Domain.Kerjaya, epsikologi.IbkRecommendation",
-        "Text": "Penerbit Radio & Televisyen ",
+        "Text": "Dekan Pelajar",
         "Warna": null,
         "WebId": "f893eb8f-b67e-4ddb-a755-982983300906"
       },
       {
         "$type": "Bespoke.epsikologi_ibkrecommendation.Domain.Kerjaya, epsikologi.IbkRecommendation",
-        "Text": "Kaunselor: Kerjaya/ Ketagihan/ Terapi Muzik",
+        "Text": "Penerbit Radio & Televisyen ",
         "Warna": null,
         "WebId": "37223aec-d841-4d7f-af3b-ffc2f71d0505"
       },
       {
         "$type": "Bespoke.epsikologi_ibkrecommendation.Domain.Kerjaya, epsikologi.IbkRecommendation",
-        "Text": "Guru:- Sekolah Rendah/ Prasekolah ",
+        "Text": "Kaunselor: Kerjaya/ Ketagihan/ Terapi Muzik",
         "Warna": null,
         "WebId": "240f3048-6f87-4976-a060-d03ee28e8b55"
       },
       {
         "$type": "Bespoke.epsikologi_ibkrecommendation.Domain.Kerjaya, epsikologi.IbkRecommendation",
-        "Text": "Ahli Ekonomi Rumahtangga",
+        "Text": "Guru:- Sekolah Rendah/ Prasekolah ",
         "Warna": null,
         "WebId": "b2cba6d4-31d4-425c-bdc1-dc526955ae77"
       },
       {
         "$type": "Bespoke.epsikologi_ibkrecommendation.Domain.Kerjaya, epsikologi.IbkRecommendation",
-        "Text": "Inspektor Makanan & Dadah ",
+        "Text": " Ahli Ekonomi Rumahtangga",
         "Warna": null,
         "WebId": "d7e1f48e-8dc4-4533-934a-7c74fcc3698f"
       },
       {
         "$type": "Bespoke.epsikologi_ibkrecommendation.Domain.Kerjaya, epsikologi.IbkRecommendation",
-        "Text": "-Pengurus:- Kebajikan Pekerja -Pekerja:- Kebajikan Keluarga/ Sosial Psikiatri",
+        "Text": "Inspektor Makanan & Dadah",
         "Warna": null,
         "WebId": "586f07a4-baa5-48e9-ab25-e53b2bb76e4e"
+      },
+      {
+        "$type": "Bespoke.epsikologi_ibkrecommendation.Domain.Kerjaya, epsikologi.IbkRecommendation",
+        "Text": "Pengurus:- Kebajikan Pekerja",
+        "Warna": null,
+        "WebId": "d3c2454d-079f-4715-d0da-4b36960c1b03"
+      },
+      {
+        "$type": "Bespoke.epsikologi_ibkrecommendation.Domain.Kerjaya, epsikologi.IbkRecommendation",
+        "Text": "Pekerja:- Kebajikan Keluarga/ Sosial Psikiatri",
+        "Warna": null,
+        "WebId": "efd32193-0f53-4884-da6a-12394ffbc15c"
       }
     ]
   },
@@ -81,7 +93,7 @@
       },
       {
         "$type": "Bespoke.epsikologi_ibkrecommendation.Domain.BidangPengajian, epsikologi.IbkRecommendation",
-        "Text": "Kaunseling:-Perkahwinan/ Keluarga/ Terapi Muzik Psikologi:- Orang Dewasa/ Orang Tua",
+        "Text": "Kaunseling:-Perkahwinan/ Keluarga/ Terapi Muzik ",
         "WebId": "eb22461f-5cde-454e-8bb9-bc9cb785bd01"
       },
       {
@@ -96,8 +108,48 @@
       },
       {
         "$type": "Bespoke.epsikologi_ibkrecommendation.Domain.BidangPengajian, epsikologi.IbkRecommendation",
-        "Text": "-Perubatan  -Farmasi  -Sains Kesihatan:- Perubatan Sosial & Klinikal -Perkhidmatan Kosmetik -Perniagaan -Sains Pertanian -Sains Perpustakaan -Pembelajaran/ Operasi Pemasaran/ Kesenian Industri & Vokasional/ Ucapan Awam",
+        "Text": "Perubatan",
         "WebId": "18a50acc-f7d8-43f2-ba20-db57e1ecf084"
+      },
+      {
+        "$type": "Bespoke.epsikologi_ibkrecommendation.Domain.BidangPengajian, epsikologi.IbkRecommendation",
+        "Text": "Farmasi  ",
+        "WebId": "d4bda9f9-a930-4d29-9a33-28e4a0827070"
+      },
+      {
+        "$type": "Bespoke.epsikologi_ibkrecommendation.Domain.BidangPengajian, epsikologi.IbkRecommendation",
+        "Text": "Sains Kesihatan:- Perubatan Sosial & Klinikal ",
+        "WebId": "b07b40fc-640e-4730-ecaa-bc79f8315d28"
+      },
+      {
+        "$type": "Bespoke.epsikologi_ibkrecommendation.Domain.BidangPengajian, epsikologi.IbkRecommendation",
+        "Text": "Perkhidmatan Kosmetik",
+        "WebId": "eeaf21d4-b5cb-46c0-b893-4a3cf0ca2c77"
+      },
+      {
+        "$type": "Bespoke.epsikologi_ibkrecommendation.Domain.BidangPengajian, epsikologi.IbkRecommendation",
+        "Text": "Perniagaan  ",
+        "WebId": "648121a4-fd00-46c3-fd68-819678bdf046"
+      },
+      {
+        "$type": "Bespoke.epsikologi_ibkrecommendation.Domain.BidangPengajian, epsikologi.IbkRecommendation",
+        "Text": "Sains Pertanian",
+        "WebId": "bb237500-d789-4e09-ed84-d51cae69a456"
+      },
+      {
+        "$type": "Bespoke.epsikologi_ibkrecommendation.Domain.BidangPengajian, epsikologi.IbkRecommendation",
+        "Text": "Sains Perpustakaan",
+        "WebId": "b441854b-68ef-49f2-8684-320ba3624d02"
+      },
+      {
+        "$type": "Bespoke.epsikologi_ibkrecommendation.Domain.BidangPengajian, epsikologi.IbkRecommendation",
+        "Text": "Pembelajaran/ Operasi Pemasaran/ Kesenian Industri & Vokasional/ Ucapan Awam",
+        "WebId": "3ca7d66d-b1ec-42e2-e797-73ce08fdd839"
+      },
+      {
+        "$type": "Bespoke.epsikologi_ibkrecommendation.Domain.BidangPengajian, epsikologi.IbkRecommendation",
+        "Text": "Psikologi:- Orang Dewasa/ Orang Tua",
+        "WebId": "77b8b112-63a4-45b8-d517-b9729d197512"
       }
     ]
   },
@@ -105,6 +157,6 @@
   "Id": "MKI-MIK",
   "CreatedDate": "2015-07-31T19:11:51.7834502+08:00",
   "ChangedBy": "admin",
-  "ChangedDate": "2015-07-31T19:11:51.7764457+08:00",
+  "ChangedDate": "2016-09-19T16:17:13.8573064+08:00",
   "WebId": "a4f55844-6cf6-451b-a25e-8b09aa4e9166"
 }

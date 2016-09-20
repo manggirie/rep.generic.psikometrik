@@ -6,7 +6,7 @@
     "$values": [
       {
         "$type": "Bespoke.epsikologi_ibkrecommendation.Domain.Kerjaya, epsikologi.IbkRecommendation",
-        "Text": "Ahli Politik \t",
+        "Text": "Ahli Politik",
         "Warna": null,
         "WebId": "d7befa1b-4e57-4597-b836-266bd2b47525"
       },
@@ -18,7 +18,7 @@
       },
       {
         "$type": "Bespoke.epsikologi_ibkrecommendation.Domain.Kerjaya, epsikologi.IbkRecommendation",
-        "Text": "Pengarah:- Penempatan/ Kemasukan \t",
+        "Text": "Pengarah:- Penempatan/ Kemasukan",
         "Warna": null,
         "WebId": "c2ea3264-df87-40da-9f8a-48fff1e76740"
       },
@@ -30,7 +30,7 @@
       },
       {
         "$type": "Bespoke.epsikologi_ibkrecommendation.Domain.Kerjaya, epsikologi.IbkRecommendation",
-        "Text": "Pegawai Perkhidmatan Luar Negara\t",
+        "Text": "Pegawai Perkhidmatan Luar Negara",
         "Warna": null,
         "WebId": "7d849400-8e57-468c-b248-6ef9c6eed339"
       },
@@ -48,33 +48,111 @@
       },
       {
         "$type": "Bespoke.epsikologi_ibkrecommendation.Domain.Kerjaya, epsikologi.IbkRecommendation",
-        "Text": "-Penyelia:- Pengeluaran Biji Benih -Penyelia:- Muzik/ Rekreasi\t",
+        "Text": "Penyelia:- Pengeluaran Biji Benih",
         "Warna": null,
         "WebId": "3844558d-361b-4ae5-b33b-04fe40d2202b"
       },
       {
         "$type": "Bespoke.epsikologi_ibkrecommendation.Domain.Kerjaya, epsikologi.IbkRecommendation",
-        "Text": "-Pentadbir Kebajikan Masyarakat -Pramugari -Pekerja Sosial Perubatan  -Eksekutif Persatuan\t",
+        "Text": "Penyelia:- Muzik/ Rekreasi\t",
         "Warna": null,
         "WebId": "19b15f66-e47b-4e8d-ad3a-3439dddcee62"
       },
       {
         "$type": "Bespoke.epsikologi_ibkrecommendation.Domain.Kerjaya, epsikologi.IbkRecommendation",
-        "Text": "-Wakil:- Kumpulan Pekerja/ Pengilang/ Pengeluar Kasut/ Peralatan Rumah",
+        "Text": "Pentadbir Kebajikan Masyaraka",
         "Warna": null,
         "WebId": "dbb4b330-0303-4530-818a-b1aff33fe944"
       },
       {
         "$type": "Bespoke.epsikologi_ibkrecommendation.Domain.Kerjaya, epsikologi.IbkRecommendation",
-        "Text": "-Agen Kesusasteraan  -Pengarah Berita -Editor Suratkhabar -Jurukamera -Penerbit Filem -Pengurus:- Studio Tarian/ Artis -Koordinator:- Fesyen/ Model Fesyen",
+        "Text": "Pramugari ",
         "Warna": null,
         "WebId": "e98a5e30-c72b-441b-be3c-6b6ce6d0b049"
       },
       {
         "$type": "Bespoke.epsikologi_ibkrecommendation.Domain.Kerjaya, epsikologi.IbkRecommendation",
-        "Text": "-Jurujual:- Aksesori & Barang Hiasan/ Kosmetik & Kebersihan Diri -Jurujual:- Barangan Awam/ Sukan/ Peralatan/ Hiasan Muzik -Jurulelong -Peniaga Borong ",
+        "Text": "Pekerja Sosial Perubatan ",
         "Warna": null,
         "WebId": "35941795-236f-4edc-92b7-fbdc0ab33ea0"
+      },
+      {
+        "$type": "Bespoke.epsikologi_ibkrecommendation.Domain.Kerjaya, epsikologi.IbkRecommendation",
+        "Text": "Eksekutif Persatuan",
+        "Warna": null,
+        "WebId": "e49b2045-e30e-480f-c4ec-023fe52d7267"
+      },
+      {
+        "$type": "Bespoke.epsikologi_ibkrecommendation.Domain.Kerjaya, epsikologi.IbkRecommendation",
+        "Text": "Wakil:- Kumpulan Pekerja/ Pengilang/ Pengeluar Kasut/ Peralatan Rumah",
+        "Warna": null,
+        "WebId": "4daadf50-1149-467b-d72a-d410287ade41"
+      },
+      {
+        "$type": "Bespoke.epsikologi_ibkrecommendation.Domain.Kerjaya, epsikologi.IbkRecommendation",
+        "Text": "Agen Kesusasteraan",
+        "Warna": null,
+        "WebId": "976b7a65-325d-47da-d586-eb749bfc54a0"
+      },
+      {
+        "$type": "Bespoke.epsikologi_ibkrecommendation.Domain.Kerjaya, epsikologi.IbkRecommendation",
+        "Text": "Pengarah Berita",
+        "Warna": null,
+        "WebId": "0c12e7c3-bbc9-4c4f-e1fe-4b0901c70125"
+      },
+      {
+        "$type": "Bespoke.epsikologi_ibkrecommendation.Domain.Kerjaya, epsikologi.IbkRecommendation",
+        "Text": "Editor Suratkhabar",
+        "Warna": null,
+        "WebId": "c5f70fb7-626f-46c4-faa3-f9e8b6596924"
+      },
+      {
+        "$type": "Bespoke.epsikologi_ibkrecommendation.Domain.Kerjaya, epsikologi.IbkRecommendation",
+        "Text": "Jurukamera ",
+        "Warna": null,
+        "WebId": "1795add8-0be2-465b-94f2-e869f36ee9cb"
+      },
+      {
+        "$type": "Bespoke.epsikologi_ibkrecommendation.Domain.Kerjaya, epsikologi.IbkRecommendation",
+        "Text": "Penerbit Filem",
+        "Warna": null,
+        "WebId": "b04c7abe-9bb0-457d-a0ad-9d6d113977b9"
+      },
+      {
+        "$type": "Bespoke.epsikologi_ibkrecommendation.Domain.Kerjaya, epsikologi.IbkRecommendation",
+        "Text": "Pengurus:- Studio Tarian/ Artis",
+        "Warna": null,
+        "WebId": "b5929f1f-fd66-4199-c150-6b8cd22a2d4d"
+      },
+      {
+        "$type": "Bespoke.epsikologi_ibkrecommendation.Domain.Kerjaya, epsikologi.IbkRecommendation",
+        "Text": "Koordinator:- Fesyen/ Model Fesyen",
+        "Warna": null,
+        "WebId": "415c424a-67d8-4c2b-d311-7324bca2dbf1"
+      },
+      {
+        "$type": "Bespoke.epsikologi_ibkrecommendation.Domain.Kerjaya, epsikologi.IbkRecommendation",
+        "Text": "Jurujual:- Aksesori & Barang Hiasan/ Kosmetik & Kebersihan Diri",
+        "Warna": null,
+        "WebId": "5d3c3698-cf92-4ad3-b69f-1a137b0c008f"
+      },
+      {
+        "$type": "Bespoke.epsikologi_ibkrecommendation.Domain.Kerjaya, epsikologi.IbkRecommendation",
+        "Text": "Jurujual:- Barangan Awam/ Sukan/ Peralatan/ Hiasan Muzik",
+        "Warna": null,
+        "WebId": "54093745-b2cd-4a4c-b591-d2bdfd3ca440"
+      },
+      {
+        "$type": "Bespoke.epsikologi_ibkrecommendation.Domain.Kerjaya, epsikologi.IbkRecommendation",
+        "Text": "Jurulelong ",
+        "Warna": null,
+        "WebId": "51bfc12d-7e08-4999-ebf4-c0a942b520d3"
+      },
+      {
+        "$type": "Bespoke.epsikologi_ibkrecommendation.Domain.Kerjaya, epsikologi.IbkRecommendation",
+        "Text": "Peniaga Borong",
+        "Warna": null,
+        "WebId": "8949f6b9-c06c-4413-9c4f-26c8df9968b4"
       }
     ]
   },
@@ -88,12 +166,12 @@
       },
       {
         "$type": "Bespoke.epsikologi_ibkrecommendation.Domain.BidangPengajian, epsikologi.IbkRecommendation",
-        "Text": "Kolej Komuniti & Kolej/ Kurikulum/  Pendidikan  ",
+        "Text": "Kolej Komuniti & Kolej/ Kurikulum/  Pendidikan",
         "WebId": "ef5735b8-d452-438f-8409-f7c60d533125"
       },
       {
         "$type": "Bespoke.epsikologi_ibkrecommendation.Domain.BidangPengajian, epsikologi.IbkRecommendation",
-        "Text": "Organisasi Perancangan & Pengurusan \t",
+        "Text": "Organisasi Perancangan & Pengurusan",
         "WebId": "c7599118-55ac-47b9-804c-19d9ec0864be"
       },
       {
@@ -103,13 +181,33 @@
       },
       {
         "$type": "Bespoke.epsikologi_ibkrecommendation.Domain.BidangPengajian, epsikologi.IbkRecommendation",
-        "Text": "-Penerbitan Filem/ Video -Konsultan Fesyen & Fabrik -Kesenian/ Seni Lakonan /  Arahan/ Drama/  Kesusasteraan Teater/ Sejarah & Kritikan/ Kewartawanan/ Penyiaran / Pengiklanan/ Massa Komunikasi/ Hubungan Awam & Komunikasi \t",
+        "Text": "Penerbitan Filem/ Video",
         "WebId": "8f3d5207-20b6-4be3-a1fe-664a2f077748"
       },
       {
         "$type": "Bespoke.epsikologi_ibkrecommendation.Domain.BidangPengajian, epsikologi.IbkRecommendation",
-        "Text": "-Pembelian/ Pengedaran Umum/ Kemahiran Jualan -Pemasaran:- Barangan Rumah/ Pejabat/ Barangan Hiasan Pengurusan Pelancongan",
+        "Text": "Konsultan Fesyen & Fabrik",
         "WebId": "052a841d-118a-4270-a5d7-a12d7aac4070"
+      },
+      {
+        "$type": "Bespoke.epsikologi_ibkrecommendation.Domain.BidangPengajian, epsikologi.IbkRecommendation",
+        "Text": "Kesenian/ Seni Lakonan /  Arahan/ Drama/  Kesusasteraan Teater/ Sejarah & Kritikan/ Kewartawanan/ Penyiaran / Pengiklanan/ Massa Komunikasi/ Hubungan Awam & Komunikasi",
+        "WebId": "7cceca1a-11ba-4ef7-f45e-eb0052fd11a8"
+      },
+      {
+        "$type": "Bespoke.epsikologi_ibkrecommendation.Domain.BidangPengajian, epsikologi.IbkRecommendation",
+        "Text": "Pembelian/ Pengedaran Umum/ Kemahiran Jualan",
+        "WebId": "a01ee474-dae5-477e-8802-a0006e9c4b71"
+      },
+      {
+        "$type": "Bespoke.epsikologi_ibkrecommendation.Domain.BidangPengajian, epsikologi.IbkRecommendation",
+        "Text": "Pemasaran:- Barangan Rumah/ Pejabat/ Barangan Hiasan ",
+        "WebId": "de7cc84a-26ea-4e3a-c874-393cbe0c22d6"
+      },
+      {
+        "$type": "Bespoke.epsikologi_ibkrecommendation.Domain.BidangPengajian, epsikologi.IbkRecommendation",
+        "Text": "Pengurusan Pelancongan",
+        "WebId": "9f35615e-b76a-4418-8a3e-12bbeb43eb08"
       }
     ]
   },
@@ -117,6 +215,6 @@
   "Id": "IKM-IMK",
   "CreatedDate": "2015-07-31T19:27:37.9822159+08:00",
   "ChangedBy": "admin",
-  "ChangedDate": "2015-07-31T19:27:38.052766+08:00",
+  "ChangedDate": "2016-09-20T09:49:18.2962835+08:00",
   "WebId": "080ea5ed-3f99-4154-e7fb-7feb0aa4a445"
 }
