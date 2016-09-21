@@ -12,17 +12,6 @@ define([objectbuilders.config, "partial/permohonan-urusetia", objectbuilders.dat
                 entity.Penyelaras(config.userName);
                 if (!ko.unwrap(entity.StatusPermohonan)) {
                     entity.StatusPermohonan("BARU");
-                    
-                    return context.getCountAsync("Permohonan", "", "Id")
-                    .then(function(count){
-                    var no = (count + 1).toString();
-                    while(no.length < 5){
-                        no = "0" + no;
-                    }
-                    entity.KodProgram(moment().format("YYYY") +"-" + no)
-                    return formPartial.activate(entity);
-                })
-                    
                 }
 
                 ko.extenders.toTitleCase = function (target, option) {
